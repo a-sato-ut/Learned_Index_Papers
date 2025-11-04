@@ -1,0 +1,40 @@
+{
+    "paperId": "d43645b961be80063ec5791cd0410145ac6ae728",
+    "title": "A Survey of RDMA Distributed Storage",
+    "year": 2024,
+    "venue": "International Conferences on Computing, Networks and Internet of Things",
+    "authors": [
+        "Ziqi Wang",
+        "Yaping Liu",
+        "Shuo Zhang",
+        "Jinrui Hu",
+        "Xinyi Liu"
+    ],
+    "doi": "10.1145/3670105.3670199",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d43645b961be80063ec5791cd0410145ac6ae728",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the evolution of networking technology, RDMA (Remote Direct Memory Access) has become an increasingly critical component in data centers. Its zero-copy and kernel-bypass capabilities significantly boost network transmission speeds and reduce communication latency, leading to software layers such as drivers and libraries becoming the new bottlenecks. Distributed storage also plays a vital role in data centers, and integrating RDMA into traditional distributed storage clusters presents a promising direction. However, distributed storage involves complex cluster designs, like hash index, making the deployment and effective utilization of features of RDMA a substantial challenge. Researchers must invest considerable effort to thoroughly understand these complexities. This paper organizes the principles of RDMA and its relation to distributed storage and challenges faced. We summarize recent research in the deployment of RDMA, covering aspects such as RDMA-based distributed file systems, distributed key-value storage systems, and compute offload using smart NICs. Finally, we look ahead at the future research of RDMA in distributed storage, offering direction and insight for ongoing and future research in this evolving field.",
+    "citationCount": 0,
+    "referenceCount": 25
+}

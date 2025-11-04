@@ -1,0 +1,36 @@
+{
+    "paperId": "222bf4f5b12107cbcdf60c6190578c68cccf32db",
+    "title": "Programmable Data Planes for Network Security",
+    "year": 2025,
+    "venue": "Signal, Image Processing and Multimedia Trends 2025",
+    "authors": [
+        "Gursimran Singh",
+        "H. B. Acharya",
+        "Minseok Kwon"
+    ],
+    "doi": "10.5121/csit.2025.151314",
+    "arxivId": "2507.22165",
+    "url": "https://www.semanticscholar.org/paper/222bf4f5b12107cbcdf60c6190578c68cccf32db",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The emergence of programmable data planes, and particularly switches supporting the P4 language, has transformed network security by enabling customized, line-rate packet processing. These switches, originally intended for flexible forwarding, now play a broader role: detecting and mitigating attacks such as DDoS and spoofing, enforcing next-generation firewall policies, and even supporting innetwork cryptography and machine learning. These capabilities are made possible by techniques such as recirculate-and-truncate and lookup-table precomputation, which work around architectural constraints like limited memory and restricted instruction sets. In this paper, we systematize recent advances in security applications built on programmable switches, with an emphasis on the capabilities, challenges, and architectural workarounds. We highlight the non-obvious design techniques that make complex in-network security functions feasible despite the constraints of the hardware platform, and also comment on remaining issues and emerging research directions.",
+    "citationCount": 0,
+    "referenceCount": 84
+}

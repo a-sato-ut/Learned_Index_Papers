@@ -1,0 +1,34 @@
+{
+    "paperId": "588bb44e142dcd2676e333503ffa54951ac6bf62",
+    "title": "One-shot tuner for deep learning compilers",
+    "year": 2022,
+    "venue": "International Conference on Compiler Construction",
+    "authors": [
+        "Jaehun Ryu",
+        "Eunhyeok Park",
+        "Hyojin Sung"
+    ],
+    "doi": "10.1145/3497776.3517774",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/588bb44e142dcd2676e333503ffa54951ac6bf62",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3497776.3517774",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Auto-tuning DL compilers are gaining ground as an optimizing back-end for DL frameworks. While existing work can generate deep learning models that exceed the performance of hand-tuned libraries, they still suffer from prohibitively long auto-tuning time due to repeated hardware measurements in large search spaces. In this paper, we take a neural-predictor inspired approach to reduce the auto-tuning overhead and show that a performance predictor model trained prior to compilation can produce optimized tensor operation codes without repeated search and hardware measurements. To generate a sample-efficient training dataset, we extend input representation to include task-specific information and to guide data sampling methods to focus on learning high-performing codes. We evaluated the resulting predictor model, One-Shot Tuner, against AutoTVM and other prior work, and the results show that One-Shot Tuner speeds up compilation by 2.81x to 67.7x compared to prior work while providing comparable or improved inference time for CNN and Transformer models.",
+    "citationCount": 21,
+    "referenceCount": 67
+}

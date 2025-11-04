@@ -1,0 +1,39 @@
+{
+    "paperId": "6001eb8e3c89d0f74f07ef983fd0e661c471e35a",
+    "title": "Self adaptive reconfigurable arrays (SARA): learning flexible GEMM accelerator configuration and mapping-space using ML",
+    "year": 2022,
+    "venue": "Design Automation Conference",
+    "authors": [
+        "A. Samajdar",
+        "Eric Qin",
+        "Michael Pellauer",
+        "T. Krishna"
+    ],
+    "doi": "10.1145/3489517.3530506",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6001eb8e3c89d0f74f07ef983fd0e661c471e35a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3489517.3530506",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This work demonstrates a scalable reconfigurable accelerator (RA) architecture designed to extract maximum performance and energy efficiency for GEMM workloads. We also present a self-adaptive (SA) unit, which runs a learnt model for one-shot configuration optimization in hardware offloading the software stack thus easing the deployment of the proposed design. We evaluate an instance of the proposed methodology with a 32.768 TOPS reference implementation called SAGAR, that can provide the same mapping flexibility as a compute equivalent distributed system while achieving 3.5X more power efficiency and 3.2X higher compute density demonstrated via architectural and post-layout simulation.",
+    "citationCount": 21,
+    "referenceCount": 17
+}

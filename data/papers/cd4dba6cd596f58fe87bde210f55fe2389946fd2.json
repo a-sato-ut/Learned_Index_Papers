@@ -1,0 +1,43 @@
+{
+    "paperId": "cd4dba6cd596f58fe87bde210f55fe2389946fd2",
+    "title": "Practical algorithms and experimentally validated incentives for equilibrium-based fair division (A-CEEI)",
+    "year": 2023,
+    "venue": "ACM Conference on Economics and Computation",
+    "authors": [
+        "Eric Budish",
+        "R. Gao",
+        "Abraham Othman",
+        "A. Rubinstein",
+        "Qianfan Zhang"
+    ],
+    "doi": "10.1145/3580507.3597809",
+    "arxivId": "2305.11406",
+    "url": "https://www.semanticscholar.org/paper/cd4dba6cd596f58fe87bde210f55fe2389946fd2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2305.11406",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Economics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Economics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate Competitive Equilibrium from Equal Incomes (A-CEEI) is an equilibrium-based solution concept for fair division of discrete items to agents with combinatorial demands. In theory, it is known that in asymptotically large markets: • For incentives, the A-CEEI mechanism is Envy-Free-but-for-Tie-Breaking (EF-TB), which implies that it is Strategyproof-in-the-Large (SP-L). • From a computational perspective, computing the equilibrium solution is unfortunately a computationally intractable problem (in the worst-case, assuming PPAD ≠ FP). We develop a new heuristic algorithm that outperforms the previous state-of-the-art by multiple orders of magnitude. This new, faster algorithm lets us perform experiments on real-world inputs for the first time. We discover that with real-world preferences, even in a realistic implementation that satisfies the EF-TB and SP-L properties, agents may have surprisingly simple and plausible deviations from truthful reporting of preferences. To this end, we propose a novel strengthening of EF-TB, which dramatically reduces the potential for strategic deviations from truthful reporting in our experiments. A (variant of) our algorithm is now in production: on real course allocation problems it is much faster, has zero clearing error, and has stronger incentive properties than the prior state-of-the-art implementation.",
+    "citationCount": 6,
+    "referenceCount": 60
+}

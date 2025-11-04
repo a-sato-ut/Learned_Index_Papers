@@ -1,0 +1,48 @@
+{
+    "paperId": "9e8222e2d1dae04166398031fea80e26dd4afc08",
+    "title": "A Flexible Approach to Autotuning Multi-Pass Machine Learning Compilers",
+    "year": 2021,
+    "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+    "authors": [
+        "P. Phothilimthana",
+        "Amit Sabne",
+        "Nikhil Sarda",
+        "K. Murthy",
+        "Yanqi Zhou",
+        "Christof Angermueller",
+        "Mike Burrows",
+        "Sudip Roy",
+        "K. Mandke",
+        "Rezsa Farahani",
+        "Yu Emma Wang",
+        "Berkin Ilbeyi",
+        "Blake A. Hechtman",
+        "B. Roune",
+        "Shen Wang",
+        "Yuanzhong Xu",
+        "Samuel J. Kaufman"
+    ],
+    "doi": "10.1109/PACT52795.2021.00008",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9e8222e2d1dae04166398031fea80e26dd4afc08",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Search-based techniques have been demonstrated effective in solving complex optimization problems that arise in domain-specific compilers for machine learning (ML). Unfortunately, deploying such techniques in production compilers is impeded by two limitations. First, prior works require factorization of a computation graph into smaller subgraphs over which search is applied. This decomposition is not only non-trivial but also significantly limits the scope of optimization. Second, prior works require search to be applied in a single stage in the compilation flow, which does not fit with the multi-stage layered architecture of most production ML compilers. This paper presents Xtat, an autotuner for production ML compilers that can tune both graph-level and subgraph-level optimizations across multiple compilation stages. Xtat applies Xtat-M, a flexible search methodology that defines a search formulation for joint optimizations by accurately modeling the interactions between different compiler passes. Xtat tunes tensor layouts, operator fusion decisions, tile sizes, and code generation parameters in XLA, a production ML compiler, using various search strategies. In an evaluation across 150 ML training and inference models on Tensor Processing Units (TPUs) at Google, Xtat offers up to 2.4x and an average 5% execution time speedup over the heavily-optimized XLA compiler.",
+    "citationCount": 30,
+    "referenceCount": 43
+}

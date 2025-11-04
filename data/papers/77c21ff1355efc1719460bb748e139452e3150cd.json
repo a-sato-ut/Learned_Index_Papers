@@ -1,0 +1,36 @@
+{
+    "paperId": "77c21ff1355efc1719460bb748e139452e3150cd",
+    "title": "Fast and Efficient Matching Algorithm with Deadline Instances",
+    "year": 2023,
+    "venue": "CPAL",
+    "authors": [
+        "Zhao Song",
+        "Weixin Wang",
+        "Chenbo Yin"
+    ],
+    "doi": "10.48550/arXiv.2305.08353",
+    "arxivId": "2305.08353",
+    "url": "https://www.semanticscholar.org/paper/77c21ff1355efc1719460bb748e139452e3150cd",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.08353",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The online weighted matching problem is a fundamental problem in machine learning due to its numerous applications. Despite many efforts in this area, existing algorithms are either too slow or don't take $\\mathrm{deadline}$ (the longest time a node can be matched) into account. In this paper, we introduce a market model with $\\mathrm{deadline}$ first. Next, we present our two optimized algorithms (\\textsc{FastGreedy} and \\textsc{FastPostponedGreedy}) and offer theoretical proof of the time complexity and correctness of our algorithms. In \\textsc{FastGreedy} algorithm, we have already known if a node is a buyer or a seller. But in \\textsc{FastPostponedGreedy} algorithm, the status of each node is unknown at first. Then, we generalize a sketching matrix to run the original and our algorithms on both real data sets and synthetic data sets. Let $\\epsilon \\in (0,0.1)$ denote the relative error of the real weight of each edge. The competitive ratio of original \\textsc{Greedy} and \\textsc{PostponedGreedy} is $\\frac{1}{2}$ and $\\frac{1}{4}$ respectively. Based on these two original algorithms, we proposed \\textsc{FastGreedy} and \\textsc{FastPostponedGreedy} algorithms and the competitive ratio of them is $\\frac{1 - \\epsilon}{2}$ and $\\frac{1 - \\epsilon}{4}$ respectively. At the same time, our algorithms run faster than the original two algorithms. Given $n$ nodes in $\\mathbb{R} ^ d$, we decrease the time complexity from $O(nd)$ to $\\widetilde{O}(\\epsilon^{-2} \\cdot (n + d))$, where for any function $f$, we use $\\widetilde{O}(f)$ to denote $f \\cdot \\mathrm{poly}(\\log f)$.",
+    "citationCount": 7,
+    "referenceCount": 51
+}

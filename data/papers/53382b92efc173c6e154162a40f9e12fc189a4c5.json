@@ -1,0 +1,37 @@
+{
+    "paperId": "53382b92efc173c6e154162a40f9e12fc189a4c5",
+    "title": "AIrchitect: Automating Hardware Architecture and Mapping Optimization",
+    "year": 2023,
+    "venue": "Design, Automation and Test in Europe",
+    "authors": [
+        "A. Samajdar",
+        "J. Joseph",
+        "T. Krishna"
+    ],
+    "doi": "10.23919/DATE56975.2023.10137333",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/53382b92efc173c6e154162a40f9e12fc189a4c5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Design space exploration and optimization is an essential but iterative step in custom accelerator design involving costly search based method to extract maximum performance and energy efficiency. State-of-the-art methods employ data centric approaches to reduce the cost of each iteration but still rely on search algorithms to obtain the optima. This work proposes a learned, constant time optimizer that uses a custom recommendation network called AIrchitect, which is capable of learning the architecture design and mapping space with a 94.3% test accuracy, and predicting optimal configurations, which achieve on an average (GeoMean) 99.9% of the best possible performance on a test dataset with 105 GEMM (GEneral Matrix-matrix Multiplication) workloads.",
+    "citationCount": 0,
+    "referenceCount": 16
+}

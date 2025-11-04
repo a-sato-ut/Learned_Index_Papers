@@ -1,0 +1,35 @@
+{
+    "paperId": "cd8399c8f147d90984f5f42590b1c7da55ae3daa",
+    "title": "Slice-Tune: a system for high performance DNN autotuning",
+    "year": 2022,
+    "venue": "International Middleware Conference",
+    "authors": [
+        "Aditya Dhakal",
+        "K. Ramakrishnan",
+        "Sameer G. Kulkarni",
+        "P. Sharma",
+        "Jung-Yon Cho"
+    ],
+    "doi": "10.1145/3528535.3565247",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cd8399c8f147d90984f5f42590b1c7da55ae3daa",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3528535.3565247",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Autotuning DNN models prior to their deployment is an essential but time-consuming task. Using expensive (and power-hungry) GPU and TPU accelerators efficiently is also key. Since DNNs do not always use a GPU fully, spatial multiplexing of multiple models can provide just the right amount of GPU resources for each DNN. We find that a DNN model tuned with the maximum GPU resources has higher inference latency if less GPU resources are available at inference time. We present methods to tune a DNN model, so that we provide the right amount of accelerator resources during tuning. Thus, even when a wide range of GPU resources are available at inference time, the tuned model achieves low inference latency. Further, existing autotuning frameworks take a long time to tune a model due to inefficient utilization of the client and server-side CPU and GPU. Our system, Slice-Tune, improves several autotuning frameworks to efficiently use system resources by re-thinking the partitioning of tasks between the client and server (where models are profiled on the server GPU), in a Kubernetes environment. We increase parallelism during tuning by sharding the tuning model across multiple tuning application instances, providing concurrent tuning of different operators of a model. We also scale server instances to achieve better GPU multiplexing. Slice-Tune reduces DNN autotuning time in a single GPU and in GPU clusters. Slice-Tune decreases DNN autotuning time by up to 75%, and increase autotuning throughput by a factor of 5, across 3 different autotuning frameworks (TVM, Ansor, and Chameleon).",
+    "citationCount": 8,
+    "referenceCount": 32
+}

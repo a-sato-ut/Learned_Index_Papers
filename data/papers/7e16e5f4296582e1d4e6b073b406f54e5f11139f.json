@@ -1,0 +1,38 @@
+{
+    "paperId": "7e16e5f4296582e1d4e6b073b406f54e5f11139f",
+    "title": "Understanding and Optimizing INT4 Convolution for Accelerated DNN Inference on Tensor Cores",
+    "year": 2022,
+    "venue": "IEEE Workshop on Signal Processing Systems",
+    "authors": [
+        "Junkyeong Choi",
+        "Hyucksung Kwon",
+        "Woongkyu Lee",
+        "Jieun Lim",
+        "Jungwook Choi"
+    ],
+    "doi": "10.1109/SiPS55645.2022.9919243",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7e16e5f4296582e1d4e6b073b406f54e5f11139f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Convolution is one of the fundamental operations of deep neural networks with demanding matrix computation. In a graphic processing unit (GPU), Tensor Core is a specialized matrix processing hardware equipped with reduced-precision warp matrix-multiply-accumulate (WMMA) instructions to increase throughput. However, it is challenging to achieve optimal performance since the reduced-precision WMMA requires many elements grouped as a matrix operand, seriously limiting data reuse and imposing packing and layout overhead on the schedule. This work proposes three techniques to enhance INT4 WMMA utilization on Tensor Cores: duplicate-aware load for increasing the reuse of convolution input, register-level packing for alleviating overhead of handling INT4 data, and data layout optimization for coalesced data transfer. The proposed INT4 WMMA optimization techniques are evaluated on convolution operations of popular neural networks to demonstrate substantial speedup on Tensor Core compared to the state of the art.",
+    "citationCount": 1,
+    "referenceCount": 15
+}

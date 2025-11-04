@@ -1,0 +1,33 @@
+{
+    "paperId": "908b58ad8d81ab523248844a2b4c719348275cb4",
+    "title": "Static Retrieval Revisited: To Optimality and Beyond",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Yang Hu",
+        "William Kuszmaul",
+        "Jingxun Liang",
+        "Huacheng Yu",
+        "Junkai Zhang",
+        "Renfei Zhou"
+    ],
+    "doi": null,
+    "arxivId": "2510.18237",
+    "url": "https://www.semanticscholar.org/paper/908b58ad8d81ab523248844a2b4c719348275cb4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the static retrieval problem, a data structure must answer retrieval queries mapping a set of $n$ keys in a universe $[U]$ to $v$-bit values. Information-theoretically, retrieval data structures can use as little as $nv$ bits of space. For small value sizes $v$, it is possible to achieve $O(1)$ query time while using space $nv + o(n)$ bits -- whether or not such a result is possible for larger values of $v$ (e.g., $v = \\Theta(\\log n)$) has remained open. In this paper, we obtain a tight lower bound (as well as matching upper bounds) for the static retrieval problem. In the case where values are large, we show that there is actually a significant tension between time and space. It is not possible, for example, to get $O(1)$ query time using $nv + o(n)$ bits of space, when $v = \\Theta(\\log n)$ (and assuming the word RAM model with $O(\\log n)$-bit words). At first glance, our lower bound would seem to render retrieval unusable in many settings that aim to achieve very low redundancy. However, our second result offers a way around this: We show that, whenever a retrieval data structure $D_1$ is stored along with another data structure $D_2$ (whose size is similar to or larger than the size of $D_1$), it is possible to implement the combined data structure $D_1 \\cup D_2$ so that queries to $D_1$ take $O(1)$ time, operations on $D_2$ take the same asymptotic time as if $D_2$ were stored on its own, and the total space is $nv + \\mathrm{Space}(D_2) + n^{0.67}$ bits.",
+    "citationCount": 0,
+    "referenceCount": 44
+}

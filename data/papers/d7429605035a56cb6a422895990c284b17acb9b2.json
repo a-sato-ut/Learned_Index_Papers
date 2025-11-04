@@ -1,0 +1,33 @@
+{
+    "paperId": "d7429605035a56cb6a422895990c284b17acb9b2",
+    "title": "A Forwarding Strategy Based on Recommendation Algorithm in Named Data Networking",
+    "year": 2019,
+    "venue": "2019 IEEE 21st International Conference on High Performance Computing and Communications; IEEE 17th International Conference on Smart City; IEEE 5th International Conference on Data Science and Systems (HPCC/SmartCity/DSS)",
+    "authors": [
+        "Tianfang Cheng",
+        "Yue Yang",
+        "Dapeng Qu"
+    ],
+    "doi": "10.1109/HPCC/SmartCity/DSS.2019.00022",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d7429605035a56cb6a422895990c284b17acb9b2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the evolution from a host-centric model to a content-oriented model, the named data in Named Data Networking (NDN), rather than traditional IP address, may become the thin waist of the hourglass model of further Internet. In NDN, when failed in taking Cache Store (CS) and Pending Interest Table (PIT) mechanism, a node only resorts to Forwarding Information Base (FIB). Therefore, in order to forward received Interest packets to some appropriate nodes, in this paper, we propose a forwarding strategy based on recommendation algorithm (FRA) to improve forwarding effectiveness. It consists of forwarding algorithm based on packet recommendation (FAPR) and forwarding algorithm based on node recommendation (FANR). For a node which receives an Interest packet and fails in taking CS and PIT mechanism, FAPR records Interest packets forwarding information and recommends the most similar Interest packet forwarding information, while FANR probes and calculates the other nodes' forwarding information, and recommends the most similar node. Moreover, we propose an improved similarity calculation method based on local information in FANR to avoid the influence of \"hot words\" in calculating users' similarity. The simulation results demonstrate that, compared with the current forwarding strategies, our FRA has better performance, in terms of routing success ratio, average delay, and cache hit ratio.",
+    "citationCount": 2,
+    "referenceCount": 15
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "af766e228945542db8562962908bed05b0affb49",
+    "title": "Distillation-Guided Representation Learning for Unconstrained Video Human Authentication",
+    "year": 2025,
+    "venue": "IEEE Transactions on Biometrics Behavior and Identity Science",
+    "authors": [
+        "Yuxiang Guo",
+        "Siyuan Huang",
+        "Ram Prabhakar",
+        "Chun Pong Lau",
+        "Ramalingam Chellappa",
+        "Cheng Peng"
+    ],
+    "doi": "10.1109/TBIOM.2025.3595366",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/af766e228945542db8562962908bed05b0affb49",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Human authentication is an important and challenging biometric task, particularly from unconstrained videos. While body recognition is a popular approach, gait recognition holds the promise of robustly identifying subjects based on walking patterns instead of appearance information. Previous gait-based approaches have performed well for curated indoor scenes; however, they tend to underperform in unconstrained situations. To address these challenges, we propose a framework, termed Holistic GAit DEtection and Recognition (H-GADER), for human authentication in challenging outdoor scenarios. Specifically, H-GADER leverages a Double Helical Signature to detect segments that contain human movement and builds discriminative features through a novel gait recognition method. To further enhance robustness, H-GADER encodes viewpoint information in its architecture, and distills learned representations from an auxiliary RGB recognition model; this allows H-GADER to learn from maximum amount of data at training time. At test time, H-GADER infers solely from the silhouette modality. Furthermore, we introduce a body recognition model through semantic, large-scale, self-supervised training to complement gait recognition. By conditionally fusing gait and body representations based on the presence/absence of gait information as decided by the gait detection, we demonstrate significant improvements compared to when a single modality or a naive feature ensemble is used. We evaluate our method on multiple existing State-of-The-Arts (SoTA) gait baselines and demonstrate consistent improvements on indoor and outdoor datasets, especially on the BRIAR dataset, which features unconstrained, long-distance videos, achieving a 28.9% improvement.",
+    "citationCount": 0,
+    "referenceCount": 93
+}

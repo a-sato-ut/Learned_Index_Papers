@@ -1,0 +1,28 @@
+{
+    "paperId": "39fdec6ed1af3a9173a1f71fe2f8181f1dbaf7aa",
+    "title": "Adaptive Forwarding Strategy Based on MCDM Model in Named Data Networking",
+    "year": 2020,
+    "venue": "",
+    "authors": [
+        "Cong Pu"
+    ],
+    "doi": "10.36227/techrxiv.13296128.v1",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/39fdec6ed1af3a9173a1f71fe2f8181f1dbaf7aa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Named Data Networking (NDN), as a specific architecturedesign of Information-Centric Networking (ICN), has quickly became a promising candidate for future Internet architecture, where communications are driven by data names instead of IP addresses. To realize the NDN architecture in the future Internet, a stateful forwarding plane has been proposed to maintain the pending Interest packets and guide Data packets back to the consumers. However, the operations of stateful forwarding plane are not fully explained in NDN project and the design specifics remain to be filled in. In addition, the overall framework of stateful forwarding plane should be adaptive and responsive to diverse network conditions by taking into account of multiple network metrics. In this paper, we propose a novel adaptive forwarding strategy, also referred to as fwdPRO, to realize intelligent and adaptive Interest packet forwarding in NDN. The basic idea of the fwdPRO is to employ Technique for Order Performance by Similarity to Idea Solution (TOPSIS)to dynamically evaluate outgoing interface alternatives based on multiple network metrics and objectively select an optimal outgoing interface to forward the Interest packet. The TOPSIS is a multi-criteria decision-making (MCDM) model to identify the best alternative that is nearest to the positive ideal solution and farthest from the negative ideal solution. We conduct extensive simulation experiments for performance evaluation and comparison with the existing BestRoute and EPF schemes. The simulation results show that the proposed adaptive forwarding strategy can improve the Interest satisfaction ratio and Interest satisfaction latency as well as reduce the average hop count.",
+    "citationCount": 1,
+    "referenceCount": 16
+}

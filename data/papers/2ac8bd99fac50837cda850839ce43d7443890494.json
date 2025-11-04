@@ -1,0 +1,40 @@
+{
+    "paperId": "2ac8bd99fac50837cda850839ce43d7443890494",
+    "title": "Rcmp: Reconstructing RDMA-Based Memory Disaggregation via CXL",
+    "year": 2024,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Zhonghua Wang",
+        "Yixing Guo",
+        "Kai Lu",
+        "Jiguang Wan",
+        "Daohui Wang",
+        "Ting Yao",
+        "Huatao Wu"
+    ],
+    "doi": "10.1145/3634916",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2ac8bd99fac50837cda850839ce43d7443890494",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3634916",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Memory disaggregation is a promising architecture for modern datacenters that separates compute and memory resources into independent pools connected by ultra-fast networks, which can improve memory utilization, reduce cost, and enable elastic scaling of compute and memory resources. However, existing memory disaggregation solutions based on remote direct memory access (RDMA) suffer from high latency and additional overheads including page faults and code refactoring. Emerging cache-coherent interconnects such as CXL offer opportunities to reconstruct high-performance memory disaggregation. However, existing CXL-based approaches have physical distance limitation and cannot be deployed across racks. In this article, we propose Rcmp, a novel low-latency and highly scalable memory disaggregation system based on RDMA and CXL. The significant feature is that Rcmp improves the performance of RDMA-based systems via CXL, and leverages RDMA to overcome CXL’s distance limitation. To address the challenges of the mismatch between RDMA and CXL in terms of granularity, communication, and performance, Rcmp (1) provides a global page-based memory space management and enables fine-grained data access, (2) designs an efficient communication mechanism to avoid communication blocking issues, (3) proposes a hot-page identification and swapping strategy to reduce RDMA communications, and (4) designs an RDMA-optimized RPC framework to accelerate RDMA transfers. We implement a prototype of Rcmp and evaluate its performance by using micro-benchmarks and running a key-value store with YCSB benchmarks. The results show that Rcmp can achieve 5.2× lower latency and 3.8× higher throughput than RDMA-based systems. We also demonstrate that Rcmp can scale well with the increasing number of nodes without compromising performance.",
+    "citationCount": 23,
+    "referenceCount": 65
+}

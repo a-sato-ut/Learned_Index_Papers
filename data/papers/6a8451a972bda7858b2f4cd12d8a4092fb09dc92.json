@@ -1,0 +1,33 @@
+{
+    "paperId": "6a8451a972bda7858b2f4cd12d8a4092fb09dc92",
+    "title": "Data Validation Utilizing Expert Knowledge and Shape Constraints",
+    "year": 2024,
+    "venue": "ACM Journal of Data and Information Quality",
+    "authors": [
+        "Florian Bachinger",
+        "Lisa Ehrlinger",
+        "G. Kronberger",
+        "Wolfram Wöß"
+    ],
+    "doi": "10.1145/3661826",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6a8451a972bda7858b2f4cd12d8a4092fb09dc92",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3661826",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data validation is a primary concern in any data-driven application, as undetected data errors may negatively affect machine learning models and lead to suboptimal decisions. Data quality issues are usually detected manually by experts, which becomes infeasible and uneconomical for large volumes of data. To enable automated data validation, we propose “shape constraint-based data validation,” a novel approach based on machine learning that incorporates expert knowledge in the form of shape constraints. Shape constraints can be used to describe expected (multivariate and nonlinear) patterns in valid data and enable the detection of invalid data that deviates from these expected patterns. Our approach can be divided into two steps: (1) shape-constrained prediction models are trained on data, and (2) their training error is analyzed to identify invalid data. The training error can be used as an indicator for invalid data because shape-constrained models can fit valid data better than invalid data. We evaluate the approach on a benchmark suite consisting of synthetic datasets, which we have published for benchmarking similar data validation approaches. Additionally, we demonstrate the capabilities of the proposed approach with a real-world dataset consisting of measurements from a friction test bench in an industrial setting. Our approach detects subtle data errors that are difficult to identify even for domain experts.",
+    "citationCount": 3,
+    "referenceCount": 68
+}

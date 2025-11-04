@@ -1,0 +1,33 @@
+{
+    "paperId": "b33d0e361a18e72d9cfa715951864ebce7e93582",
+    "title": "Perfect cuckoo filters",
+    "year": 2021,
+    "venue": "Conference on Emerging Network Experiment and Technology",
+    "authors": [
+        "P. Reviriego",
+        "S. Pontarelli"
+    ],
+    "doi": "10.1145/3485983.3494852",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b33d0e361a18e72d9cfa715951864ebce7e93582",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Bloom filters and cuckoo filters are used in many applications to reduce the amount of memory needed to check if an element belongs to a set. The main drawback of these filters is that with low probability, a positive is returned for an element that is not in the set. Recently, the concept of Bloom filters with a false positive free zone has been introduced showing that false positives can be avoided when the universe from which elements are taken and the number of elements inserted in the filter are both small. Unfortunately, this limits the use of such false positive free Bloom filters in many practical applications. In this paper, a false positive free, i.e. perfect, cuckoo filter is presented and evaluated. The proposed design supports universe sizes of billions of elements and stores millions of elements, making it practical for a wide range of applications. The perfect cuckoo filter can be also used to perform  mapping, further extending the range of scenarios in which can be used. The benefits of the proposed perfect cuckoo filter are illustrated with two case studies: IP address blacklisting and longest prefix match for IP forwarding.",
+    "citationCount": 4,
+    "referenceCount": 23
+}

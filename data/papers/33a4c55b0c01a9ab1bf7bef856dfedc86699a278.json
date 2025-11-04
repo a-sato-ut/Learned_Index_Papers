@@ -1,0 +1,35 @@
+{
+    "paperId": "33a4c55b0c01a9ab1bf7bef856dfedc86699a278",
+    "title": "Attacking the Privacy of Approximate Membership Check Filters by Positive Concentration",
+    "year": 2023,
+    "venue": "IEEE transactions on computers",
+    "authors": [
+        "P. Reviriego",
+        "A. Sánchez-Macián",
+        "Elena Merino-Gómez",
+        "Ori Rottenstreich",
+        "Shanshan Liu",
+        "Fabrizio Lombardi"
+    ],
+    "doi": "10.1109/TC.2022.3202753",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/33a4c55b0c01a9ab1bf7bef856dfedc86699a278",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://oa.upm.es/76680/1/ESC_Privacy_Filters.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate membership check filters are increasingly used to speed up data processing in many applications. Also, privacy is becoming a key design objective for many systems and thus, the privacy of filters needs to be carefully considered. Previous works have shown that an attacker that knows the implementation details of the filter and has access to its content, may be able to extract some information about the elements stored in the filter. This attack is, however, specific to Bloom filters and requires that the universe of elements must be small. In this article, we show that in many practical settings, an attacker that has only a black-box access to the filter, can extract information about the elements stored in the filter regardless of the specific filter type and the universe size. This is possible based on the key observation that in many applications, the elements stored in the filter are not randomly chosen, but they are concentrated in one or more parts of the universe of elements. To identify these parts, the positive probability can be measured on different parts of the universe; the parts having significantly larger values than the average positive probability for the filter are the ones on which the filter elements are concentrated. This approach is formalized and applied to several case studies showing the process by which the attacker can get additional information about the elements stored for the filters in a wide range of scenarios.",
+    "citationCount": 4,
+    "referenceCount": 36
+}

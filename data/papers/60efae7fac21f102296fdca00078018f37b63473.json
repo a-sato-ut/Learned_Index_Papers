@@ -1,0 +1,40 @@
+{
+    "paperId": "60efae7fac21f102296fdca00078018f37b63473",
+    "title": "Towards Hardware-Specific Automatic Compression of Neural Networks",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Torben Krieger",
+        "Bernhard Klein",
+        "H. Fröning"
+    ],
+    "doi": "10.48550/arXiv.2212.07818",
+    "arxivId": "2212.07818",
+    "url": "https://www.semanticscholar.org/paper/60efae7fac21f102296fdca00078018f37b63473",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2212.07818",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Compressing neural network architectures is important to allow the deployment of models to embedded or mobile devices, and pruning and quantization are the major approaches to compress neural networks nowadays. Both methods benefit when compression parameters are selected specifically for each layer. Finding good combinations of compression parameters, so-called compression policies, is hard as the problem spans an exponentially large search space. Effective compression policies consider the influence of the specific hardware architecture on the used compression methods. We propose an algorithmic framework called Galen to search such policies using reinforcement learning utilizing pruning and quantization, thus providing automatic compression for neural networks. Contrary to other approaches we use inference latency measured on the target hardware device as an optimization goal. With that, the framework supports the compression of models specific to a given hardware target. We validate our approach using three different reinforcement learning agents for pruning, quantization and joint pruning and quantization. Besides proving the functionality of our approach we were able to compress a ResNet18 for CIFAR-10, on an embedded ARM processor, to 20% of the original inference latency without significant loss of accuracy. Moreover, we can demonstrate that a joint search and compression using pruning and quantization is superior to an individual search for policies using a single compression method.",
+    "citationCount": 2,
+    "referenceCount": 41
+}

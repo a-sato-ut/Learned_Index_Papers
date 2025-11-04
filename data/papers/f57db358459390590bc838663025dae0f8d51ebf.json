@@ -1,0 +1,57 @@
+{
+    "paperId": "f57db358459390590bc838663025dae0f8d51ebf",
+    "title": "Towards Scalable Distributed Training of Deep Learning on Public Cloud Clusters",
+    "year": 2020,
+    "venue": "Conference on Machine Learning and Systems",
+    "authors": [
+        "S. Shi",
+        "Xianhao Zhou",
+        "Shutao Song",
+        "Xingyao Wang",
+        "Zilin Zhu",
+        "Xuelin Huang",
+        "Xinan Jiang",
+        "Feihu Zhou",
+        "Zhenyu Guo",
+        "Liqiang Xie",
+        "Rui Lan",
+        "Xianbin Ouyang",
+        "Yan Zhang",
+        "Jieqian Wei",
+        "Jing Gong",
+        "Weiliang Lin",
+        "Ping Gao",
+        "Peng Meng",
+        "Xiaomin Xu",
+        "Chenyang Guo",
+        "Bo Yang",
+        "Zhibo Chen",
+        "Yongjian Wu",
+        "X. Chu"
+    ],
+    "doi": null,
+    "arxivId": "2010.10458",
+    "url": "https://www.semanticscholar.org/paper/f57db358459390590bc838663025dae0f8d51ebf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Distributed training techniques have been widely deployed in large-scale deep neural networks (DNNs) training on dense-GPU clusters. However, on public cloud clusters, due to the moderate inter-connection bandwidth between instances, traditional state-of-the-art distributed training systems cannot scale well in training large-scale models. In this paper, we propose a new computing and communication efficient top-k sparsification communication library for distributed training. To further improve the system scalability, we optimize I/O by proposing a simple yet efficient multi-level data caching mechanism and optimize the update operation by introducing a novel parallel tensor operator. Experimental results on a 16-node Tencent Cloud cluster (each node with 8 Nvidia Tesla V100 GPUs) show that our system achieves 25%-40% faster than existing state-of-the-art systems on CNNs and Transformer. We finally break the record on DAWNBench on training ResNet-50 to 93% top-5 accuracy on ImageNet.",
+    "citationCount": 59,
+    "referenceCount": 44
+}

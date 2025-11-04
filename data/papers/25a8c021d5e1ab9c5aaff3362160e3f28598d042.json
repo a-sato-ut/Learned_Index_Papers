@@ -1,0 +1,36 @@
+{
+    "paperId": "25a8c021d5e1ab9c5aaff3362160e3f28598d042",
+    "title": "Transactional Indexes on (RDMA or CXL-based) Disaggregated Memory with Repairable Transaction",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Xingda Wei",
+        "Haotian Wang",
+        "Tianxia Wang",
+        "Rongquen Chen",
+        "Jinyu Gu",
+        "Pengfei Zuo",
+        "Haibo Chen"
+    ],
+    "doi": "10.48550/arXiv.2308.02501",
+    "arxivId": "2308.02501",
+    "url": "https://www.semanticscholar.org/paper/25a8c021d5e1ab9c5aaff3362160e3f28598d042",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2308.02501",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The failure atomic and isolated execution of clients operations is a default requirement for a system that serve multiple loosely coupled clients at a server. However, disaggregated memory breaks this requirement in remote indexes because a client operation is disaggregated to multiple remote reads/writes. Current indexes focus on performance improvements and largely ignore tolerating client failures. We argue that a practical DM index should be transactional: each index operation should be failure atomic and isolated in addition to being concurrency isolated. We present repairable transaction (rTX), a lightweight primitive to execute DM index operations. Each rTX can detect other failed rTXes on-the-fly with the help of concurrency control. Upon detection, it will repair their non-atomic updates online with the help of logging, thus hiding their failures from healthy clients. By further removing unnecessary logging and delegating concurrency control to existing carefully-tuned index algorithms, we show that transactional indexes can be built at a low performance overhead on disaggregated memory. We have refactored two state-of-the-art DM indexes, RaceHashing and Sherman (B+Tree), with rTX. Evaluations show that rTX is 1.2 to 2X faster than other alternatives, e.g., distributed transaction. Meanwhile, its overhead is up to 42% compared to non-fault-tolerant indexes.",
+    "citationCount": 14,
+    "referenceCount": 69
+}

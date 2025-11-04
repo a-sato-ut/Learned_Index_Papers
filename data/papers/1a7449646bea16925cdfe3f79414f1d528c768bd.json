@@ -1,0 +1,37 @@
+{
+    "paperId": "1a7449646bea16925cdfe3f79414f1d528c768bd",
+    "title": "Almost Tight Bounds for Online Facility Location in the Random-Order Model",
+    "year": 2022,
+    "venue": "ACM-SIAM Symposium on Discrete Algorithms",
+    "authors": [
+        "Haim Kaplan",
+        "David Naori",
+        "D. Raz"
+    ],
+    "doi": "10.48550/arXiv.2207.08783",
+    "arxivId": "2207.08783",
+    "url": "https://www.semanticscholar.org/paper/1a7449646bea16925cdfe3f79414f1d528c768bd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2207.08783",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study the online facility location problem with uniform facility costs in the random-order model. Meyerson's algorithm [FOCS'01] is arguably the most natural and simple online algorithm for the problem with several advantages and appealing properties. Its analysis in the random-order model is one of the cornerstones of random-order analysis beyond the secretary problem. Meyerson's algorithm was shown to be (asymptotically) optimal in the standard worst-case adversarial-order model and $8$-competitive in the random order model. While this bound in the random-order model is the long-standing state-of-the-art, it is not known to be tight, and the true competitive-ratio of Meyerson's algorithm remained an open question for more than two decades. We resolve this question and prove tight bounds on the competitive-ratio of Meyerson's algorithm in the random-order model, showing that it is exactly $4$-competitive. Following our tight analysis, we introduce a generic parameterized version of Meyerson's algorithm that retains all the advantages of the original version. We show that the best algorithm in this family is exactly $3$-competitive. On the other hand, we show that no online algorithm for this problem can achieve a competitive-ratio better than $2$. Finally, we prove that the algorithms in this family are robust to partial adversarial arrival orders.",
+    "citationCount": 9,
+    "referenceCount": 49
+}

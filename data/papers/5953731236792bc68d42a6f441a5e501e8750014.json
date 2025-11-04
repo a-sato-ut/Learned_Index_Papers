@@ -1,0 +1,41 @@
+{
+    "paperId": "5953731236792bc68d42a6f441a5e501e8750014",
+    "title": "Exploring Effects of Computational Parameter Changes to Image Recognition Systems",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Nikolaos Louloudakis",
+        "Perry Gibson",
+        "José Cano",
+        "Ajitha Rajan"
+    ],
+    "doi": "10.48550/arXiv.2211.00471",
+    "arxivId": "2211.00471",
+    "url": "https://www.semanticscholar.org/paper/5953731236792bc68d42a6f441a5e501e8750014",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2211.00471",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Image recognition tasks typically use deep learning and require enormous processing power, thus relying on hardware accelerators like GPUs and FPGAs for fast, timely processing. Failure in real-time image recognition tasks can occur due to incorrect mapping on hardware accelerators, which may lead to timing uncertainty and incorrect behavior. Owing to the increased use of image recognition tasks in safety-critical applications like autonomous driving and medical imaging, it is imperative to assess their robustness to changes in the computational environment as parameters like deep learning frameworks, compiler optimizations for code generation, and hardware devices are not regulated with varying impact on model performance and correctness. In this paper we conduct robustness analysis of four popular image recognition models (MobileNetV2, ResNet101V2, DenseNet121 and InceptionV3) with the ImageNet dataset, assessing the impact of the following parameters in the model's computational environment: (1) deep learning frameworks; (2) compiler optimizations; and (3) hardware devices. We report sensitivity of model performance in terms of output label and inference time for changes in each of these environment parameters. We find that output label predictions for all four models are sensitive to choice of deep learning framework (by up to 57%) and insensitive to other parameters. On the other hand, model inference time was affected by all environment parameters with changes in hardware device having the most effect. The extent of effect was not uniform across models.",
+    "citationCount": 6,
+    "referenceCount": 41
+}

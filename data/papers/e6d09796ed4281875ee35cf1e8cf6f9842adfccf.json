@@ -1,0 +1,40 @@
+{
+    "paperId": "e6d09796ed4281875ee35cf1e8cf6f9842adfccf",
+    "title": "GTCO: Graph and Tensor Co-Design for Transformer-Based Image Recognition on Tensor Cores",
+    "year": 2024,
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "authors": [
+        "Yang Bai",
+        "Xufeng Yao",
+        "Qi Sun",
+        "Wenqian Zhao",
+        "Shixin Chen",
+        "Zixiao Wang",
+        "Bei Yu"
+    ],
+    "doi": "10.1109/TCAD.2023.3317169",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e6d09796ed4281875ee35cf1e8cf6f9842adfccf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning frameworks or compilers optimize the operators in computation graph using fixed templates via significant engineering efforts, which may miss potential optimizations such as operator fusion. Therefore, automatically implementing and optimizing the emerging new combinations of operators on a specific hardware accelerator is of importance. In this article, we introduce GTCO, a tensor compilation system designed to accelerate transformer-based vision models’ inference on GPUs. GTCO tackles the operator fusion techniques in the transformer-based model using a novel dynamic programming algorithm and proposes a search policy with new sketch generation rules for the fused batch matrix multiplication and softmax operators. Tensor programs are sampled from an effective search space, and a hardware abstraction with hierarchical mapping from tensor computation to domain-specific accelerators (Tensor Cores) is formally defined. Finally, our framework can map and transform tensor expression into efficient CUDA kernels with hardware intrinsics on GPU. Our experimental results demonstrate that GTCO improves the end-to-end execution performance by up to $1.73\\times $ relative to the cutting-edge deep learning library TensorRT on NVIDIA GPUs with Tensor Cores.",
+    "citationCount": 6,
+    "referenceCount": 45
+}

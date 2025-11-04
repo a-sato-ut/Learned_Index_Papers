@@ -1,0 +1,36 @@
+{
+    "paperId": "ea2c44f21596bfdbe7790cde8b80750de95ac06f",
+    "title": "Ship Anomalous Behavior Detection Based on BPEF Mining and Text Similarity",
+    "year": 2025,
+    "venue": "Journal of Marine Science and Engineering",
+    "authors": [
+        "Yongfeng Suo",
+        "Yan Wang",
+        "Lei Cui"
+    ],
+    "doi": "10.3390/jmse13020251",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ea2c44f21596bfdbe7790cde8b80750de95ac06f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Maritime behavior detection is vital for maritime surveillance and management, ensuring safe ship navigation, normal port operations, marine environmental protection, and the prevention of illegal activities on water. Current methods for detecting anomalous vessel behaviors primarily rely on single time series data or feature point analysis, which struggle to capture the relationships between vessel behaviors, limiting anomaly identification accuracy. To address this challenge, we proposed a novel vessel anomaly detection framework, which is called the BPEF-TSD framework. It integrates a ship behavior pattern recognition algorithm, Smith–Waterman, and text similarity measurement methods. Specifically, we first introduced the BPEF mining framework to extract vessel behavior events from AIS data, then generated complete vessel behavior sequence chains through temporal combinations. Simultaneously, we employed the Smith–Waterman algorithm to achieve local alignment between the test vessel and known anomalous vessel behavior sequences. Finally, we evaluated the overall similarity between behavior chains based on the text similarity measure strategy, with vessels exceeding a predefined threshold being flagged as anomalous. The results demonstrate that the BPEF-TSD framework achieves over 90% accuracy in detecting abnormal trajectories in the waters of Xiamen Port, outperforming alternative methods such as LSTM, iForest, and HDBSCAN. This study contributes valuable insights for enhancing maritime safety and advancing intelligent supervision while introducing a novel research perspective on detecting anomalous vessel behavior through maritime big data mining.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

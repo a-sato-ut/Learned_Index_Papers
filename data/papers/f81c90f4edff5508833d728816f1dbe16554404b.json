@@ -1,0 +1,33 @@
+{
+    "paperId": "f81c90f4edff5508833d728816f1dbe16554404b",
+    "title": "SRIFTY: Swift and Thrifty Distributed Neural Network Training on the Cloud",
+    "year": 2020,
+    "venue": "Conference on Machine Learning and Systems",
+    "authors": [
+        "Liangchen Luo",
+        "Peter West",
+        "A. Krishnamurthy",
+        "L. Ceze"
+    ],
+    "doi": null,
+    "arxivId": "2011.14243",
+    "url": "https://www.semanticscholar.org/paper/f81c90f4edff5508833d728816f1dbe16554404b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Finding the best VM configuration is key to achieve lower cost and higher throughput, two primary concerns in cloud-based distributed neural network (NN) training today. Optimal VM selection that meets user constraints requires efficiently navigating a large search space while controlling for the performance variance associated with sharing cloud instances and networks. In this work, we characterize this variance in the context of distributed NN training and present results of a comprehensive throughput and cost-efficiency study we conducted across a wide array of instances to prune for the optimal VM search space. Using insights from these studies, we built Srifty, a system that combines runtime profiling with learned performance models to accurately predict training performance and find the best VM choice that satisfies user constraints, potentially leveraging both heterogeneous setups and spot instances. We integrated Srifty with PyTorch and evaluated it on Amazon EC2. We conducted a large-scale generalization study of Srifty across more than 2K training setups on EC2. Our results show that Srifty achieves an iteration latency prediction error of 8%, and its VM instance recommendations offer significant throughput gain and cost reduction while satisfying user constraints compared to existing solutions in complex, real-world scenarios.",
+    "citationCount": 12,
+    "referenceCount": 74
+}

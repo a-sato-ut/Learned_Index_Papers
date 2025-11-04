@@ -1,0 +1,33 @@
+{
+    "paperId": "8371d7143f2de657792658e908f62bcab25e43e6",
+    "title": "Optimizing Machine Learning Models Using Tensor Virtual Machine for Embedded CPUs",
+    "year": 2024,
+    "venue": "Software and Compilers for Embedded Systems",
+    "authors": [
+        "Ashish Tiwari",
+        "Christophe Fava-Rivi",
+        "Sahil Munaf Bandar",
+        "S. Makandar"
+    ],
+    "doi": "10.1109/SCOPES64467.2024.10990538",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8371d7143f2de657792658e908f62bcab25e43e6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Optimization of deep learning models for embedded CPUs presents numerous challenges stemming from limited computational resources, memory constraints, thread synchronization overhead, and the imperative of efficient Single Instruction Multiple Data (SIMD) instruction utilization. Tailored optimizations are essential to achieve peak performance on such hardware platforms. This research focuses on optimizing pre-trained deep learning models for embedded CPUs such as Cortex A53 and Cortex A72 in Rockchip RK3399ProD and NXP i.MX8MPlus. The study employs YOLOv3 and Tiny YOLOv3 models pretrained on the COCO dataset for object detection tasks to demonstrate the efficiency of the Tensor Virtual Machine compiler toolchain. TVM, an open-source compiler stack for deep learning, facilitates the acceleration of machine learning models across diverse hardware platforms by optimizing model performance. Experimental results indicate that integrating TVM into the multi-step conversion process yielded a significant performance enhancement, achieving approximately ~2 to 3 times higher frames per second (fps) on an embedded NXP i.MX8MPlus.",
+    "citationCount": 0,
+    "referenceCount": 14
+}

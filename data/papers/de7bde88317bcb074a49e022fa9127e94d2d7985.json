@@ -1,0 +1,41 @@
+{
+    "paperId": "de7bde88317bcb074a49e022fa9127e94d2d7985",
+    "title": "Ultra-Low Latency User-Plane Cyberattack Detection in SDN-based Smart Grids",
+    "year": 2024,
+    "venue": "Energy-Efficient Computing and Networking",
+    "authors": [
+        "Aristide T.-J. Akem",
+        "Michele Gucciardo",
+        "Marco Fiore"
+    ],
+    "doi": "10.1145/3632775.3661995",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/de7bde88317bcb074a49e022fa9127e94d2d7985",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern power grids are smart, comprising millions of electronic devices interconnected by communication networks. This exposes them to a wide range of cyberattacks which could lead to power outages and data breaches with far-reaching consequences. Thus, the timely detection of such attacks is essential. Machine Learning (ML) models are widely used for cyberattack detection in Smart Grids (SG) based on Software-Defined Networks (SDN). However, these models either run in external servers or in-network, fully in the application or control plane or distributed between the control and user planes. In all three cases, the models do not run at line rate and incur hundreds of milliseconds of delay in attack detection. This paper explores how ML inference in programmable switches can enable accelerated attack detection and mitigation in SGs at line rate with sub-microsecond delay. The proposed workflow brings the concept of user plane inference to SDN-based SGs and deploys a trained Decision Tree (DT) model into the switch pipeline for real-time inference on live traffic. The model is implemented in a testbed with production-grade Intel Tofino switches, where experiments are run with a DNP3 intrusion detection dataset. Results reveal how the model can distinguish multiple attacks against SGs with an accuracy of 99%, incurring a delay within 356 nanoseconds, while consuming a tiny portion of the available resources in the switch.",
+    "citationCount": 5,
+    "referenceCount": 44
+}

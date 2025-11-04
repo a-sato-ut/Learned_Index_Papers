@@ -1,0 +1,33 @@
+{
+    "paperId": "bd0a28c26da9e9aa934ab8881abf2e67951559f1",
+    "title": "Software Language Comprehension using a Program-Derived Semantic Graph",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Roshni G. Iyer",
+        "Yizhou Sun",
+        "Wei Wang",
+        "Justin Emile Gottschlich"
+    ],
+    "doi": null,
+    "arxivId": "2004.00768",
+    "url": "https://www.semanticscholar.org/paper/bd0a28c26da9e9aa934ab8881abf2e67951559f1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Traditional code transformation structures, such as an abstract syntax tree, may have limitations in their ability to extract semantic meaning from code. Others have begun to work on this issue, such as the state-of-the-art Aroma system and its simplified parse tree (SPT). Continuing this research direction, we present a new graphical structure to capture semantics from code using what we refer to as a program-derived semantic graph (PSG). The principle behind the PSG is to provide a single structure that can capture program semantics at many levels of granularity. Thus, the PSG is hierarchical in nature. Moreover, because the PSG may have cycles due to dependencies in semantic layers, it is a graph, not a tree. In this paper, we describe the PSG and its fundamental structural differences to the Aroma's SPT. Although our work in the PSG is in its infancy, our early results indicate it is a promising new research direction to explore to automatically extract program semantics.",
+    "citationCount": 4,
+    "referenceCount": 23
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "bf908a6283eb72bb30a54d07bfa0dc90e0f8e53d",
+    "title": "COSMOS: RL-Enhanced Locality-Aware Counter Cache Optimization for Secure Memory",
+    "year": 2025,
+    "venue": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "authors": [
+        "Haoran Geng",
+        "Xiaoyang Lu",
+        "Yuezhi Che",
+        "Ziang Tian",
+        "Dazhao Cheng",
+        "Xian-He Sun",
+        "Michael Niemier",
+        "X. S. Hu"
+    ],
+    "doi": "10.1145/3725843.3756047",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bf908a6283eb72bb30a54d07bfa0dc90e0f8e53d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Secure memory systems employing AES-CTR encryption face significant performance challenges due to high counter (CTR) cache miss rates, especially in applications with irregular memory access patterns. These high miss rates increase memory traffic and latency, as each CTR cache miss triggers additional DRAM accesses. To address these bottlenecks and adapt to diverse access patterns, we propose COSMOS (Counter Optimized Secure Memory Operation Scheme), a novel solution leveraging reinforcement learning to reduce long memory access latency. COSMOS integrates two RL-based specialized predictors: one for data location prediction and another for CTR locality prediction, each with a well-defined state space, action space, and reward function. The RL-based data location predictor determines whether data reside on-chip or off-chip after an L1 cache miss, enabling early CTR access for off-chip predictions with minimal changes to the existing cache hierarchy. The RL-based CTR locality predictor identifies CTRs with high locality, supporting a locality-centric CTR cache (LCR-CTR) to improve cache efficiency and reduce miss rates. µCOSMOS improves performance over MorphCtr by 25% in for irregular memory access applications, with minimal hardware overhead.",
+    "citationCount": 0,
+    "referenceCount": 66
+}

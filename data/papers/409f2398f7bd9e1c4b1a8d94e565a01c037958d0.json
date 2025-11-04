@@ -1,0 +1,40 @@
+{
+    "paperId": "409f2398f7bd9e1c4b1a8d94e565a01c037958d0",
+    "title": "A Memory-Disaggregated Radix Tree",
+    "year": 2024,
+    "venue": "ACM Transactions on Storage",
+    "authors": [
+        "Xuchuan Luo",
+        "Pengfei Zuo",
+        "Jiacheng Shen",
+        "Jiazhen Gu",
+        "Xin Wang",
+        "Michael R. Lyu",
+        "Yangfan Zhou"
+    ],
+    "doi": "10.1145/3664289",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/409f2398f7bd9e1c4b1a8d94e565a01c037958d0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Disaggregated memory (DM) is an increasingly prevalent architecture with high resource utilization. It separates computing and memory resources into two pools and interconnects them with fast networks. Existing range indexes on DM are based on B+ trees, which suffer from large inherent read and write amplifications. The read and write amplifications rapidly saturate the network bandwidth, resulting in low request throughput and high access latency of B+ trees on DM. In this article, we propose that the radix tree is more suitable for DM than the B+ tree due to smaller read and write amplifications. However, constructing a radix tree on DM is challenging due to the costly lock-based concurrency control, the bounded memory-side IOPS, and the complicated computing-side cache validation. To address these challenges, we design SMART, the first radix tree for disaggregated memory with high performance. Specifically, we leverage (1) a hybrid concurrency control scheme including lock-free internal nodes and fine-grained lock-based leaf nodes to reduce lock overhead, (2) a computing-side read-delegation and write-combining technique to break through the IOPS upper bound by reducing redundant I/Os, and (3) a simple yet effective reverse check mechanism for computing-side cache validation. Experimental results show that SMART achieves 6.1× higher throughput under typical write-intensive workloads and 2.8× higher throughput under read-only workloads in YCSB benchmarks, compared with state-of-the-art B+ trees on DM.",
+    "citationCount": 0,
+    "referenceCount": 75
+}

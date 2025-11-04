@@ -1,0 +1,35 @@
+{
+    "paperId": "d993d92a486ac1e9706ef0abc95c8cfe0e308a9a",
+    "title": "Towards Data-Driven Management of Mobile Networks through User Plane Inference",
+    "year": 2024,
+    "venue": "IEEE/IFIP Network Operations and Management Symposium",
+    "authors": [
+        "Aristide T.-J. Akem",
+        "Marco Fiore"
+    ],
+    "doi": "10.1109/NOMS59830.2024.10575655",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d993d92a486ac1e9706ef0abc95c8cfe0e308a9a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Growing network complexity has rendered human-in-the-loop network management approaches obsolete. The advent of Software-Defined Networking (SDN) has enabled network automation, with Machine Learning (ML) models running in the control plane. However, such control plane models do not run at line rate and would not satisfy the stringent latency requirements of time-sensitive next-generation applications. In this PhD project, we exploit recent advances in programmable switches and associated languages like P4 to enable data-driven management of networks by running ML models for inference in programmable switches at line rate, with high throughput and low latency. Resulting contributions include solutions for in-switch classification at packet level, flow level, or both, with use cases in network security, service identification, and device fingerprinting in commercial off-the-shelf switches.",
+    "citationCount": 0,
+    "referenceCount": 33
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "99b17f5d5b0f3bd9ee1d7b0baca4e5c2e8a48438",
+    "title": "Trajectory Generation for Space Manipulators Capturing Moving Targets Using Transfer Learning",
+    "year": 2023,
+    "venue": "IEEE Aerospace Conference",
+    "authors": [
+        "Hon Yin Sze",
+        "R. Chhabra"
+    ],
+    "doi": "10.1109/AERO55745.2023.10115862",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/99b17f5d5b0f3bd9ee1d7b0baca4e5c2e8a48438",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://figshare.com/articles/preprint/Trajectory_Generation_for_Space_Manipulators_Capturing_Moving_Targets_Using_Transfer_Learning/21830439/1/files/38737965.pdf",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In a debris mitigation mission, a crucial phase of the proximity operation for a space manipulator is chasing a capture point on a noncooperative target satellite. Knowing the uncertain position and velocity of the target, a learning-based online trajectory planner offers a robust solution to the chasing problem. This paper uses the concept of transfer learning to develop an online trajectory generator for the task of capturing a moving target with an uncertain space manipulator. We divide this complex task into multiple sub-tasks and order them based on their difficulty level. We employ the Deep Deterministic Policy Gradient (DDPG) algorithm to learn each sub-task individually. The DDPG is a deep reinforcement learning approach that provides the ability to work with continuous states and actions by approximating the action-value function and the policy with neural networks. We propose a novel method to transfer the knowledge gained in an easier sub-task to a more difficult one in the form of expert policy and transition memories. State and action representation has a crucial impact on learning performance, which is comprehensively studied in this paper for the task of capturing a moving target. Considering the learning performance, we show the existence of an optimal state repre-sentation, which is not necessarily the minimal representation of the system. We compare different action representations of a manipulator, i.e., joint space and workspace velocities, and demonstrate the superiority of the workspace actions. Finally, the developed transfer learning approach is implemented on a planar space manipulator with an onboard 2-link arm to generate trajectories that can capture a target randomly moving with the maximum speed of the manipulator's end effector. To show the efficacy of the approach, its results are compared with the case where the agent learns the task from scratch.",
+    "citationCount": 2,
+    "referenceCount": 38
+}

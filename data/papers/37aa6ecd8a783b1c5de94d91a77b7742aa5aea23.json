@@ -1,0 +1,36 @@
+{
+    "paperId": "37aa6ecd8a783b1c5de94d91a77b7742aa5aea23",
+    "title": "Microarchitectural Analysis of Graph BI Queries on RDBMS",
+    "year": 2023,
+    "venue": "International Workshop on Data Management on New Hardware",
+    "authors": [
+        "Rathijit Sen",
+        "Yuanyuan Tian"
+    ],
+    "doi": "10.1145/3592980.3595321",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/37aa6ecd8a783b1c5de94d91a77b7742aa5aea23",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present results of microarchitectural analysis for LDBC SNB BI queries on a relational database engine. We find underutilization of multicore CPUs, inefficient instruction execution, data access overheads at the on-chip cache hierarchy, data TLB overheads, and overall low (but short-term high) memory bandwidth utilization. Using huge pages increased query performance by up to 65% and workload performance by 23%.",
+    "citationCount": 4,
+    "referenceCount": 47
+}

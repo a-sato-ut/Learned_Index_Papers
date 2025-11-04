@@ -1,0 +1,36 @@
+{
+    "paperId": "b3daaa94729666ced48210ab00aa452c35fc956c",
+    "title": "A proposal for enhancing training speed in deep learning models based on memory activity survey",
+    "year": 2021,
+    "venue": "IEICE Electronics Express",
+    "authors": [
+        "Tuan-Kiet Dang",
+        "Binh Kieu-do-Nguyen",
+        "Trong-Thuc Hoang",
+        "Khai-Duy Nguyen",
+        "Xuan-Tu Tran",
+        "C. Pham"
+    ],
+    "doi": "10.1587/elex.18.20210252",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b3daaa94729666ced48210ab00aa452c35fc956c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1587/elex.18.20210252",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Learning (DL) training process involves intensive computations that require a large number of memory accesses. There are many surveys on memory behaviors with the DL training. They use well-known profiling tools or improving the existing tools to monitor the training processes. This paper presents a new approach to profile using a co-operate solution from software and hardware. The idea is to use Field-Programmable-GateArray memory as the main memory for the DL training processes on a computer. Then, the memory behaviors from both software and hardware point-of-views can be monitored and evaluated. The most common DL models are selected for the tests, including ResNet, VGG, AlexNet, and GoogLeNet. The CIFAR-10 dataset is chosen for the training database. The experimental results show that the ratio between read and write transactions is roughly about 3 to 1. The requested allocations are varied from 2-Byte to 64-MB, with the most requested sizes are approximately 16-KB to 64-KB. Based on the statistic, a suggestion was made to improve the training speed using an L4 cache for the Double-Data-Rate (DDR) memory. It can be demonstrated that our recommended L4 cache configuration can improve the DDR performance by about 15% to 18%. key words: Deep Learning, Memory, Survey, Training Speed. Classification: Integrated circuits (logic)",
+    "citationCount": 0,
+    "referenceCount": 18
+}

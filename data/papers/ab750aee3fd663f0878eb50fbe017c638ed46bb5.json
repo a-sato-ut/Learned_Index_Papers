@@ -1,0 +1,36 @@
+{
+    "paperId": "ab750aee3fd663f0878eb50fbe017c638ed46bb5",
+    "title": "Sardine: A Threat-Aware Compression and Querying System",
+    "year": 2023,
+    "venue": "2023 7th Asian Conference on Artificial Intelligence Technology (ACAIT)",
+    "authors": [
+        "Xiaoya Ni",
+        "Rongrong Chen",
+        "Minghao Hu",
+        "Jiaxu Xing",
+        "Fei Tang",
+        "JunJun Chen",
+        "Jing Qiu"
+    ],
+    "doi": "10.1109/ACAIT60137.2023.10528518",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ab750aee3fd663f0878eb50fbe017c638ed46bb5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Provenance graphs have gained significant attention as valuable tools for conducting attack investigations. They offer a comprehensive representation of long-term system behavior and attack paths, supplying abundant historical information and contextual insights. Nevertheless, as network attacks become more sophisticated and prolonged, the need for thorough and persistent analysis of enterprise systems has escalated. Consequently, effectively managing and storing large provenance graphs has emerged as a pressing challenge that demands immediate resolution. This study introduces a novel approach for compressing provenance graphs by optimizing graph structure and reducing dependency attribute redundancy, thereby eliminating context redundancy in both nodes and edges of the graph while ensuring lossless compression. Moreover, to address the requirement for efficient backtracking in attack investigations, we present a query algorithm for the provenance graph and propose a method for establishing an indexing table based on threat perception to expedite searches. Our system, named Sardine, is developed to support these functionalities. Experimental evaluations are conducted on four datasets, demonstrating that Sardine achieves impressive compression ratios ranging from 4.56x to 17.3x. In summary, Sardine offers a promising solution for enhancing storage and query efficiency in a more compact and time-effective manner.",
+    "citationCount": 1,
+    "referenceCount": 20
+}

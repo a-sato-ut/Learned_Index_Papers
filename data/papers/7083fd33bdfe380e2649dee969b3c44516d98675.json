@@ -1,0 +1,48 @@
+{
+    "paperId": "7083fd33bdfe380e2649dee969b3c44516d98675",
+    "title": "Manu: A Cloud Native Vector Database Management System",
+    "year": 2022,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Rentong Guo",
+        "Xi-Dao Luan",
+        "Long Xiang",
+        "Xiao Yan",
+        "Xiaomeng Yi",
+        "Jigao Luo",
+        "Qianya Cheng",
+        "Weizhi Xu",
+        "Jiarui Luo",
+        "Frank Liu",
+        "Zhenshan Cao",
+        "Yanliang Qiao",
+        "Tingting Wang",
+        "Bo Tang",
+        "Charles Xie"
+    ],
+    "doi": "10.48550/arXiv.2206.13843",
+    "arxivId": "2206.13843",
+    "url": "https://www.semanticscholar.org/paper/7083fd33bdfe380e2649dee969b3c44516d98675",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2206.13843",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the development of learning-based embedding models, embedding vectors are widely used for analyzing and searching unstructured data. As vector collections exceed billion-scale, fully managed and horizontally scalable vector databases are necessary. In the past three years, through interaction with our 1200+ industry users, we have sketched a vision for the features that next-generation vector databases should have, which include long-term evolvability, tunable consistency, good elasticity, and high performance. We present Manu, a cloud native vector database that implements these features. It is difficult to integrate all these features if we follow traditional DBMS design rules. As most vector data applications do not require complex data models and strong data consistency, our design philosophy is to relax the data model and consistency constraints in exchange for the aforementioned features. Specifically, Manu firstly exposes the write-ahead log (WAL) and binlog as backbone services. Secondly, write components are designed as log publishers while all read-only analytic and search components are designed as independent subscribers to the log services. Finally, we utilize multi-version concurrency control (MVCC) and a delta consistency model to simplify the communication and cooperation among the system components. These designs achieve a low coupling among the system components, which is essential for elasticity and evolution. We also extensively optimize Manu for performance and usability with hardware-aware implementations and support for complex search semantics.",
+    "citationCount": 47,
+    "referenceCount": 74
+}

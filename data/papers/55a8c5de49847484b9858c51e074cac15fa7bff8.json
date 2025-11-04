@@ -1,0 +1,32 @@
+{
+    "paperId": "55a8c5de49847484b9858c51e074cac15fa7bff8",
+    "title": "Fundamentals of Caching Layered Data objects",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Agrim Bari",
+        "G. Veciana",
+        "G. Kesidis"
+    ],
+    "doi": "10.48550/arXiv.2504.01104",
+    "arxivId": "2504.01104",
+    "url": "https://www.semanticscholar.org/paper/55a8c5de49847484b9858c51e074cac15fa7bff8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The effective management of large amounts of data processed or required by today's cloud or edge computing systems remains a fundamental challenge. This paper focuses on cache management for applications where data objects can be stored in layered representations. In such representations, each additional data layer enhances the\"quality\"of the object's version but comes with an incremental cost of memory space. This layered approach proves beneficial in various scenarios, including the delivery of zoomable maps, video coding, future Virtual Reality gaming, and layered neural network models where additional data layers improve inference accuracy. In systems where users or devices demand different versions of a data object, layered representations offer flexibility for caching policies to achieve improved hit rates. In this paper, we explore the performance of various traditionally studied caching policies, such as Belady, LRU, and LFU, both with and without layering. To this end, we develop an asymptotically accurate analytical model for Layered LRU (LLRU). We study how the performance of LLRU is impacted by factors such as the number of layers, the popularity of different objects and layers, and overheads associated with storing layered representations. For instance, we show that, for LLRU, more layers are not always beneficial and indeed performance depends in subtle ways on the popularity and size profiles of layers.",
+    "citationCount": 0,
+    "referenceCount": 25
+}

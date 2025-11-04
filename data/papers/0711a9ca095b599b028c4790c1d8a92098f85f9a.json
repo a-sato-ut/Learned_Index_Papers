@@ -1,0 +1,39 @@
+{
+    "paperId": "0711a9ca095b599b028c4790c1d8a92098f85f9a",
+    "title": "RIDS: Towards Advanced IDS via RNN Model and Programmable Switches Co-Designed Approaches",
+    "year": 2024,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Ziming Zhao",
+        "Zhaoxuan Li",
+        "Zhu Song",
+        "Fan Zhang",
+        "Binbin Chen"
+    ],
+    "doi": "10.1109/INFOCOM52122.2024.10621290",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0711a9ca095b599b028c4790c1d8a92098f85f9a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Existing Deep Learning (DL)-based network Intrusion Detection System (IDS) is able to characterize sequence semantics of traffic and discover malicious behaviors. Yet DL models are often nonlinear and highly non-convex functions that are difficult for in-network deployment. In this paper, we present RIDS, a hardware-friendly Recurrent Neural Network (RNN) model that is co-designed with programmable switches. As its core, RIDS is powered by two tightly-coupled components: (i) rLearner, the RNN learning module with in-network deployability as the first-class requirement; and (ii) rEnforcer, the concrete pipeline design to realize rLearner-generated models inside the network dataplane. We implement a prototype of RIDS and evaluate it on our physical testbed. The experiments show that RIDS could satisfy both detection performance and high-speed bandwidth adaptation simultaneously, when none of the other existing approaches could do so. Inspiringly, RIDS realizes remarkable intrusion/malware detection effect (e.g., ~99% F1 score) and model deployment (e.g., 100 Gbps per port), while only imposing nanoseconds of latency.",
+    "citationCount": 8,
+    "referenceCount": 56
+}

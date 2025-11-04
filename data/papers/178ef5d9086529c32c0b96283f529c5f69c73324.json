@@ -1,0 +1,32 @@
+{
+    "paperId": "178ef5d9086529c32c0b96283f529c5f69c73324",
+    "title": "ControlFlag: a self-supervised idiosyncratic pattern detection system for software control structures",
+    "year": 2020,
+    "venue": "MAPS@PLDI",
+    "authors": [
+        "N. Hasabnis",
+        "Justin Emile Gottschlich"
+    ],
+    "doi": "10.1145/3460945.3464954",
+    "arxivId": "2011.03616",
+    "url": "https://www.semanticscholar.org/paper/178ef5d9086529c32c0b96283f529c5f69c73324",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2011.03616",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Software debugging has been shown to utilize upwards of half of developers’ time. Yet, machine programming (MP), the field concerned with the automation of software (and hardware) development, has recently made strides in both research and production-quality automated debugging systems. In this paper we present ControlFlag, a self-supervised MP system that aims to improve debugging by attempting to detect idiosyncratic pattern violations in software control structures. ControlFlag also suggests possible corrections in the event an anomalous pattern is detected. We present ControlFlag’s design and provide an experimental evaluation and analysis of its efficacy in identifying potential programming errors in production-quality software. As a first concrete evidence towards improving software quality, ControlFlag has already found an anomaly in CURL that has been acknowledged and fixed by its developers. We also discuss future extensions of ControlFlag.",
+    "citationCount": 14,
+    "referenceCount": 57
+}

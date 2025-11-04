@@ -1,0 +1,35 @@
+{
+    "paperId": "6f648aeb5c5219cf021840eaf3df03ac86cebff4",
+    "title": "The Stable Signature: Rooting Watermarks in Latent Diffusion Models",
+    "year": 2023,
+    "venue": "IEEE International Conference on Computer Vision",
+    "authors": [
+        "Pierre Fernandez",
+        "Guillaume Couairon",
+        "Herv'e J'egou",
+        "Matthijs Douze",
+        "T. Furon"
+    ],
+    "doi": "10.1109/ICCV51070.2023.02053",
+    "arxivId": "2303.15435",
+    "url": "https://www.semanticscholar.org/paper/6f648aeb5c5219cf021840eaf3df03ac86cebff4",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2303.15435",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative image modeling enables a wide range of applications but raises ethical concerns about responsible deployment. We introduce an active content tracing method combining image watermarking and Latent Diffusion Models. The goal is for all generated images to conceal an invisible watermark allowing for future detection and/or identification. The method quickly fine-tunes the latent decoder of the image generator, conditioned on a binary signature. A pre-trained watermark extractor recovers the hidden signature from any generated image and a statistical test then determines whether it comes from the generative model. We evaluate the invisibility and robustness of the watermarks on a variety of generation tasks, showing that the Stable Signature is robust to image modifications. For instance, it detects the origin of an image generated from a text prompt, then cropped to keep 10% of the content, with 90+% accuracy at a false positive rate below 10−6.",
+    "citationCount": 254,
+    "referenceCount": 106
+}

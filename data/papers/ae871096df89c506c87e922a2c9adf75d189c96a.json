@@ -1,0 +1,37 @@
+{
+    "paperId": "ae871096df89c506c87e922a2c9adf75d189c96a",
+    "title": "CONSULT: Contrastive Self-Supervised Learning for Few-shot Tumor Detection",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "S. Chin",
+        "Xuan Zhang",
+        "Lee Yeong Khang",
+        "Wenming Yang"
+    ],
+    "doi": "10.48550/arXiv.2410.11307",
+    "arxivId": "2410.11307",
+    "url": "https://www.semanticscholar.org/paper/ae871096df89c506c87e922a2c9adf75d189c96a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Artificial intelligence aids in brain tumor detection via MRI scans, enhancing the accuracy and reducing the workload of medical professionals. However, in scenarios with extremely limited medical images, traditional deep learning approaches tend to fail due to the absence of anomalous images. Anomaly detection also suffers from ineffective feature extraction due to vague training process. Our work introduces a novel two-stage anomaly detection algorithm called CONSULT (CONtrastive Self-sUpervised Learning for few-shot Tumor detection). The first stage of CONSULT fine-tunes a pre-trained feature extractor specifically for MRI brain images, using a synthetic data generation pipeline to create tumor-like data. This process overcomes the lack of anomaly samples and enables the integration of attention mechanisms to focus on anomalous image segments. The first stage is to overcome the shortcomings of current anomaly detection in extracting features in high-variation data by incorporating Context-Aware Contrastive Learning and Self-supervised Feature Adversarial Learning. The second stage of CONSULT uses PatchCore for conventional feature extraction via the fine-tuned weights from the first stage. To summarize, we propose a self-supervised training scheme for anomaly detection, enhancing model performance and data reliability. Furthermore, our proposed contrastive loss, Tritanh Loss, stabilizes learning by offering a unique solution all while enhancing gradient flow. Finally, CONSULT achieves superior performance in few-shot brain tumor detection, demonstrating significant improvements over PatchCore by 9.4%, 12.9%, 10.2%, and 6.0% for 2, 4, 6, and 8 shots, respectively, while training exclusively on healthy images.",
+    "citationCount": 0,
+    "referenceCount": 32
+}

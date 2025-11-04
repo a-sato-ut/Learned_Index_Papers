@@ -1,0 +1,34 @@
+{
+    "paperId": "240aef90e9bdb63b841575a2cf6ddc87c29d54a5",
+    "title": "Incremental Randomized Smoothing Certification",
+    "year": 2023,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Shubham Ugare",
+        "Tarun Suresh",
+        "Debangshu Banerjee",
+        "Gagandeep Singh",
+        "Sasa Misailovic"
+    ],
+    "doi": "10.48550/arXiv.2305.19521",
+    "arxivId": "2305.19521",
+    "url": "https://www.semanticscholar.org/paper/240aef90e9bdb63b841575a2cf6ddc87c29d54a5",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.19521",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Randomized smoothing-based certification is an effective approach for obtaining robustness certificates of deep neural networks (DNNs) against adversarial attacks. This method constructs a smoothed DNN model and certifies its robustness through statistical sampling, but it is computationally expensive, especially when certifying with a large number of samples. Furthermore, when the smoothed model is modified (e.g., quantized or pruned), certification guarantees may not hold for the modified DNN, and recertifying from scratch can be prohibitively expensive. We present the first approach for incremental robustness certification for randomized smoothing, IRS. We show how to reuse the certification guarantees for the original smoothed model to certify an approximated model with very few samples. IRS significantly reduces the computational cost of certifying modified DNNs while maintaining strong robustness guarantees. We experimentally demonstrate the effectiveness of our approach, showing up to 3x certification speedup over the certification that applies randomized smoothing of the approximate model from scratch.",
+    "citationCount": 8,
+    "referenceCount": 66
+}

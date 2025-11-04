@@ -1,0 +1,34 @@
+{
+    "paperId": "4533edf5f0c30645b074836e7eee4a194658d75b",
+    "title": "LSM-Trees and B-Trees: The Best of Both Worlds",
+    "year": 2019,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Varun Jain",
+        "James Lennon",
+        "Harshita Gupta"
+    ],
+    "doi": "10.1145/3299869.3300097",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4533edf5f0c30645b074836e7eee4a194658d75b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LSM-Trees and B-Trees are the two primary data structures used as storage engines in modern key-value (KV) stores. These two structures are optimal for different workloads; LSM-Trees perform better on update queries, whereas B-Trees are preferable for short range lookups. KV stores today use one or the other. However, for modern applications with increasingly diverse workloads, limiting KV stores to utilize only one of the two designs leads to a significant loss in performance. We propose a novel method of online transitioning a KV store from an LSM-Tree to a B-Tree and vice versa. This allows KV stores to smoothly adapt to changing workloads and use the optimal data structure as the workload changes.",
+    "citationCount": 12,
+    "referenceCount": 13
+}

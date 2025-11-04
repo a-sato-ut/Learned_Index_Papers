@@ -1,0 +1,38 @@
+{
+    "paperId": "8fdcd9c040d221a0cdcc835e4741f0611e9713a5",
+    "title": "EIT-MP: A 2-D Electrical Impedance Tomography Image Reconstruction Method Based on Mixed Precision Asymmetrical Neural Network for Hardware–Software Co-Optimization Platform",
+    "year": 2024,
+    "venue": "IEEE Sensors Journal",
+    "authors": [
+        "Jiajie Huang",
+        "Qianyu Guo",
+        "Yunxiang Zhang",
+        "Wangzilu Lu",
+        "Chao Wang",
+        "Wenkai Zhang",
+        "Wentao Liu",
+        "Jian Zhao",
+        "Yongfu Li"
+    ],
+    "doi": "10.1109/JSEN.2024.3476189",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8fdcd9c040d221a0cdcc835e4741f0611e9713a5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The purpose of this article is to present two technical contributions geared toward the development of 2-D electrical impedance tomography (EIT) image reconstruction based on deep learning (DL) models, which aim to provide wearable EIT applications with the best balance between accuracy, memory consumption, and latency. First, an EIT-SYN dataset enumeration algorithm is proposed in order to address the scarcity of massive labeled datasets for training DL models. The circular contour dataset is used for training and benchmarking the DL model, and the thorax-like contour dataset is used to predict how well the model will perform in vivo. Second, a mixed precision asymmetric neural network model (EIT-MP) based on a convolutional auto-encoder (CAE) architecture is proposed, where the encoder network model is implemented on ASIC/FPGA hardware and performs data preprocessing and transfer to a computer while the decoder network model on the computer reconstructs the 2-D image. With the hardware-software co-optimization method, data can be compressed and encrypted for light and secure transmission. Experimental results demonstrate that the EIT-MP model reduces memory consumption by over $10.3\\times $ and achieves the best relative size coverage ratio (RCR) of 1.07 while maintaining a high image correlation coefficient (ICC) of 0.9220 and a short latency of 20.314 ms among state-of-the-art works. Therefore, our approach offers an appealing solution for image reconstruction in wearable EIT systems.",
+    "citationCount": 3,
+    "referenceCount": 81
+}

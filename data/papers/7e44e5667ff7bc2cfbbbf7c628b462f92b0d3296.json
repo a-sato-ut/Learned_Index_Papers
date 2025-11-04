@@ -1,0 +1,32 @@
+{
+    "paperId": "7e44e5667ff7bc2cfbbbf7c628b462f92b0d3296",
+    "title": "Mind the Abstraction Gap: Bringing Equality Saturation to Real-World ML Compilers",
+    "year": 2025,
+    "venue": "Proceedings of the ACM on Programming Languages",
+    "authors": [
+        "Arya Vohra",
+        "Leo Seojun Lee",
+        "Jakub Bachurski",
+        "O. Zinenko",
+        "P. Phothilimthana",
+        "Albert Cohen",
+        "William S. Moses"
+    ],
+    "doi": "10.1145/3763062",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7e44e5667ff7bc2cfbbbf7c628b462f92b0d3296",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning (ML) compilers rely on graph-level transformations to enhance the runtime performance of ML models. However, performing local transformations on individual operations can create effects far beyond the location of the rewrite. In particular, a local rewrite can change the profitability or legality of hard-to-predict downstream transformations, particularly regarding data layout, parallelization, fine-grained scheduling, and memory management. As a result, program transformations are often driven by manually-tuned compiler heuristics, which are quickly rendered obsolete by new hardware and model architectures. Instead of hand-written local heuristics, we propose the use of equality saturation. We replace such heuristics with a more robust global performance model, which accounts for downstream transformations. Equality saturation addresses the challenge of local optimizations inadvertently constraining or negating the benefits of subsequent transformations, thereby providing a solution that is inherently adaptable to newer workloads. While this approach still requires a global performance model to evaluate the profitability of transformations, it holds significant promise for increased automation and adaptability. This paper addresses challenges in applying equality saturation on real-world ML compute graphs and state-of-the-art hardware. By doing so, we present an improved method for discovering effective compositions of graph optimizations. We study different cost modeling approaches to deal with fusion and layout optimization, and tackle scalability issues that arise from considering a very wide range of algebraic optimizations. We design an equality saturation pass for the XLA compiler, with an implementation in C++ and Rust. We demonstrate an average speedup of 3.45% over XLA’s optimization flow across our benchmark suite on various CPU and GPU platforms, with a maximum speedup of 56.26% for NasRNN on CPU.",
+    "citationCount": 0,
+    "referenceCount": 60
+}

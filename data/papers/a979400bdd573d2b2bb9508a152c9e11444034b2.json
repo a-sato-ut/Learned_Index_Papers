@@ -1,0 +1,31 @@
+{
+    "paperId": "a979400bdd573d2b2bb9508a152c9e11444034b2",
+    "title": "Novel Access Methods in Cellular Networks Based on the Analog Bloom Filter",
+    "year": 2023,
+    "venue": "IEEE Transactions on Wireless Communications",
+    "authors": [
+        "Zhenghao Zhang",
+        "Raghav Rathi"
+    ],
+    "doi": "10.1109/TWC.2023.3235650",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a979400bdd573d2b2bb9508a152c9e11444034b2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/7693/4656680/10018915.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In cellular networks, the User Equipment (UE) often needs to send control information to the base station. For example, to initiate a connection, a UE transmits a Zadoff-Chu (ZC) sequence on a channel called PRACH, where the sequence is randomly selected from up to 64 sequences. Also, a connected UE may send the Scheduling Request (SR) bit on a channel called PUCCH to start an uplink data transmission. In this paper, novel access methods, namely, ABF PRACH and ABF SR, are proposed based on the Analog Bloom Filter (ABF). With ABF PRACH, a UE transmits a pattern, which consists of multiple ZC sequences. The performance is improved, because the number of patterns, currently 2304, is much larger than the number of sequences, resulting in a much lower collision probability. Similarly, with ABF SR, each connected UE is assigned a unique pattern. The system capacity is improved, because the resource is shared by many UEs, instead of dedicated to individual UEs. Both ABF PRACH and ABF SR have been demonstrated in real-world experiments. Simulations show that ABF PRACH significantly outperforms the existing PRACH. Also, ABR SR achieves a 2.52-fold increase of capacity, while maintaining very low error ratios.",
+    "citationCount": 2,
+    "referenceCount": 28
+}

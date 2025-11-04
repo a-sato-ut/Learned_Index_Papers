@@ -1,0 +1,39 @@
+{
+    "paperId": "ea4edd638ed533f85b26aa93d771ef2b92526e1a",
+    "title": "Resource-Efficient Implementation of Multiple Concurrent Tree-Based Models in P4 Switches using Feature Sharing",
+    "year": 2024,
+    "venue": "Conference on Network and Service Management",
+    "authors": [
+        "O. Karandin",
+        "Aleix Lahoz Torres",
+        "Nicola Di Cicco",
+        "F. Musumeci",
+        "Massimo Tornatore"
+    ],
+    "doi": "10.23919/CNSM62983.2024.10814584",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ea4edd638ed533f85b26aa93d771ef2b92526e1a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine Learning (ML) models have found numerous applications in the automation of complex network management tasks. More recently, thanks to the introduction of new solutions for data-plane programmability (as the P4 programming language), it has become possible for programmable switches to execute ML-models directly in the data plane, with the great advantage that decisions can now be taken at packet-rate, without the involvement of the control plane. Existing works have shown that tree-based ML models, such as Random Forest, can be implemented on P4 switches, despite strict constraints on the available computational and memory resources. However, the (common, and practical) case when multiple models must be concurrently implemented to perform different tasks is still under-investigated. Assigning separate, dedicated resources (i.e., stages in the packet-processing pipeline) to each model can be very inefficient. In this study we propose a new resource-efficient data-plane implementation of multiple concurrent tree-models that share input features. We focus on the problems of DDoS-attack detection and application-traffic identification and demonstrate high accuracy in both problems while saving up to 40% of the required processing stages.",
+    "citationCount": 0,
+    "referenceCount": 9
+}

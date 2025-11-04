@@ -1,0 +1,34 @@
+{
+    "paperId": "bf46d7e10e9b466333b482e4d4866f72387e6c0c",
+    "title": "Access Strategies for Network Caching",
+    "year": 2019,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Itamar Cohen",
+        "Gil Einziger",
+        "R. Friedman",
+        "Gabriel Scalosub"
+    ],
+    "doi": "10.1109/INFOCOM.2019.8737427",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bf46d7e10e9b466333b482e4d4866f72387e6c0c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Having multiple data stores that can potentially serve content is common in modern networked applications. Data stores often publish approximate summaries of their content to enable effective utilization. Since these summaries are not entirely accurate, forming an efficient access strategy to multiple data stores becomes a complex risk management problem.This paper formally models this problem, and introduces practical algorithms with guaranteed approximation ratios, and in particular we show that our algorithms are optimal in a variety of settings. We also perform an extensive simulation study based on real data, and show that our algorithms are more robust than existing heuristics. That is, they exhibit near optimal performance in various settings whereas the efficiency of existing approaches depends upon system parameters that may change over time, or be otherwise unknown.",
+    "citationCount": 18,
+    "referenceCount": 23
+}

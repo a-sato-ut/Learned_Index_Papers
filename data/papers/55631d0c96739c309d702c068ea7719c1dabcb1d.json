@@ -1,0 +1,40 @@
+{
+    "paperId": "55631d0c96739c309d702c068ea7719c1dabcb1d",
+    "title": "On Scalable Integrity Checking for Secure Cloud Disks",
+    "year": 2024,
+    "venue": "USENIX Conference on File and Storage Technologies",
+    "authors": [
+        "Quinn Burke",
+        "Ryan Sheatsley",
+        "Rachel King",
+        "Owen Hines",
+        "Michael Swift",
+        "P. McDaniel"
+    ],
+    "doi": null,
+    "arxivId": "2405.03830",
+    "url": "https://www.semanticscholar.org/paper/55631d0c96739c309d702c068ea7719c1dabcb1d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Merkle hash trees are the standard method to protect the integrity and freshness of stored data. However, hash trees introduce additional compute and I/O costs on the I/O critical path, and prior efforts have not fully characterized these costs. In this paper, we quantify performance overheads of storage-level hash trees in realistic settings. We then design an optimized tree structure called Dynamic Merkle Trees (DMTs) based on an analysis of root causes of overheads. DMTs exploit patterns in workloads to deliver up to a 2.2x throughput and latency improvement over the state of the art. Our novel approach provides a promising new direction to achieve integrity guarantees in storage efficiently and at scale.",
+    "citationCount": 2,
+    "referenceCount": 57
+}

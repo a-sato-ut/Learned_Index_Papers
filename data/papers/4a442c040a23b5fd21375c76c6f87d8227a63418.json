@@ -1,0 +1,34 @@
+{
+    "paperId": "4a442c040a23b5fd21375c76c6f87d8227a63418",
+    "title": "AI Powered Compiler Techniques for DL Code Optimization",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sanket Tavarageri",
+        "Gagandeep Goyal",
+        "Sasikanth Avancha",
+        "Bharat Kaul",
+        "Ramakrishna Upadrasta"
+    ],
+    "doi": null,
+    "arxivId": "2104.05573",
+    "url": "https://www.semanticscholar.org/paper/4a442c040a23b5fd21375c76c6f87d8227a63418",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Creating high performance implementations of deep learning primitives on CPUs is a challenging task. Multiple considerations including multi-level cache hierarchy, and wide SIMD units of CPU platforms influence the choice of program transformations to apply for performance optimization. In this paper, we present machine learning powered compiler techniques to optimize loop nests. We take a two-pronged approach to code optimization: We first apply high level optimizations to optimize the code to take optimal advantage of the cache memories. Then, we perform low level, target-specific optimizations to effectively vectorize the code to run well on the SIMD units of the machine. For high level optimizations, we use polyhedral compilation techniques and deep learning approaches. For low level optimization, we use a target specific code generator that generates code using vector intrinsics and Reinforcement Learning (RL) techniques to find the optimal parameters for the code generator. We perform experimental evaluation of the developed techniques on various matrix multiplications that occur in popular deep learning workloads. The experimental results show that the compiler techniques presented in the paper achieve 7.6X and 8.2X speed-ups over a baseline for sequential and parallel runs respectively.",
+    "citationCount": 6,
+    "referenceCount": 35
+}

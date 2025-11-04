@@ -1,0 +1,38 @@
+{
+    "paperId": "f5db5693e67b0437fde23ef537322fe9fc17ff45",
+    "title": "The Deep Learning Compiler: A Comprehensive Survey",
+    "year": 2020,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Mingzhen Li",
+        "Yi Liu",
+        "Xiaoyan Liu",
+        "Qingxiao Sun",
+        "Xin You",
+        "Hailong Yang",
+        "Zhongzhi Luan",
+        "D. Qian"
+    ],
+    "doi": "10.1109/TPDS.2020.3030548",
+    "arxivId": "2002.03794",
+    "url": "https://www.semanticscholar.org/paper/f5db5693e67b0437fde23ef537322fe9fc17ff45",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2002.03794",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The difficulty of deploying various deep learning (DL) models on diverse DL hardware has boosted the research and development of DL compilers in the community. Several DL compilers have been proposed from both industry and academia such as Tensorflow XLA and TVM. Similarly, the DL compilers take the DL models described in different DL frameworks as input, and then generate optimized codes for diverse DL hardware as output. However, none of the existing survey has analyzed the unique design architecture of the DL compilers comprehensively. In this article, we perform a comprehensive survey of existing DL compilers by dissecting the commonly adopted design in details, with emphasis on the DL oriented multi-level IRs, and frontend/backend optimizations. We present detailed analysis on the design of multi-level IRs and illustrate the commonly adopted optimization techniques. Finally, several insights are highlighted as the potential research directions of DL compiler. This is the first survey article focusing on the design architecture of DL compilers, which we hope can pave the road for future research towards DL compiler.",
+    "citationCount": 204,
+    "referenceCount": 126
+}

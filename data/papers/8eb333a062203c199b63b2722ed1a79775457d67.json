@@ -1,0 +1,45 @@
+{
+    "paperId": "8eb333a062203c199b63b2722ed1a79775457d67",
+    "title": "Virchow2: Scaling Self-Supervised Mixed Magnification Models in Pathology",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Eric Zimmermann",
+        "Eugene Vorontsov",
+        "Julian Viret",
+        "Adam Casson",
+        "Michal Zelechowski",
+        "George Shaikovski",
+        "Neil Tenenholtz",
+        "James Hall",
+        "Thomas J Fuchs",
+        "Nicolò Fusi",
+        "Siqi Liu",
+        "Kristen Severson"
+    ],
+    "doi": "10.48550/arXiv.2408.00738",
+    "arxivId": "2408.00738",
+    "url": "https://www.semanticscholar.org/paper/8eb333a062203c199b63b2722ed1a79775457d67",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Foundation models are rapidly being developed for computational pathology applications. However, it remains an open question which factors are most important for downstream performance with data scale and diversity, model size, and training algorithm all playing a role. In this work, we propose algorithmic modifications, tailored for pathology, and we present the result of scaling both data and model size, surpassing previous studies in both dimensions. We introduce three new models: Virchow2, a 632 million parameter vision transformer, Virchow2G, a 1.9 billion parameter vision transformer, and Virchow2G Mini, a 22 million parameter distillation of Virchow2G, each trained with 3.1 million histopathology whole slide images, with diverse tissues, originating institutions, and stains. We achieve state of the art performance on 12 tile-level tasks, as compared to the top performing competing models. Our results suggest that data diversity and domain-specific methods can outperform models that only scale in the number of parameters, but, on average, performance benefits from the combination of domain-specific methods, data scale, and model scale.",
+    "citationCount": 75,
+    "referenceCount": 64
+}

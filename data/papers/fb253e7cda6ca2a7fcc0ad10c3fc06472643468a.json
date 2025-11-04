@@ -1,0 +1,42 @@
+{
+    "paperId": "fb253e7cda6ca2a7fcc0ad10c3fc06472643468a",
+    "title": "Learned Hardware/Software Co-Design of Neural Accelerators",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhan Shi",
+        "Chirag Sakhuja",
+        "Milad Hashemi",
+        "Kevin Swersky",
+        "Calvin Lin"
+    ],
+    "doi": null,
+    "arxivId": "2010.02075",
+    "url": "https://www.semanticscholar.org/paper/fb253e7cda6ca2a7fcc0ad10c3fc06472643468a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The use of deep learning has grown at an exponential rate, giving rise to numerous specialized hardware and software systems for deep learning. Because the design space of deep learning software stacks and hardware accelerators is diverse and vast, prior work considers software optimizations separately from hardware architectures, effectively reducing the search space. Unfortunately, this bifurcated approach means that many profitable design points are never explored. This paper instead casts the problem as hardware/software co-design, with the goal of automatically identifying desirable points in the joint design space. The key to our solution is a new constrained Bayesian optimization framework that avoids invalid solutions by exploiting the highly constrained features of this design space, which are semi-continuous/semi-discrete. We evaluate our optimization framework by applying it to a variety of neural models, improving the energy-delay product by 18% (ResNet) and 40% (DQN) over hand-tuned state-of-the-art systems, as well as demonstrating strong results on other neural network architectures, such as MLPs and Transformers.",
+    "citationCount": 17,
+    "referenceCount": 42
+}

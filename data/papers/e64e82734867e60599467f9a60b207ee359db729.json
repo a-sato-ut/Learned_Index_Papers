@@ -1,0 +1,39 @@
+{
+    "paperId": "e64e82734867e60599467f9a60b207ee359db729",
+    "title": "Kimad: Adaptive Gradient Compression with Bandwidth Awareness",
+    "year": 2023,
+    "venue": "DistributedML@CoNEXT",
+    "authors": [
+        "Jihao Xin",
+        "Ivan Ilin",
+        "Shunkang Zhang",
+        "Marco Canini",
+        "Peter Richtárik"
+    ],
+    "doi": "10.1145/3630048.3630184",
+    "arxivId": "2312.08053",
+    "url": "https://www.semanticscholar.org/paper/e64e82734867e60599467f9a60b207ee359db729",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3630048.3630184",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In distributed training, communication often emerges as a bottleneck. In response, we introduce Kimad, a solution that offers adaptive gradient compression. By consistently monitoring bandwidth, Kimad refines compression ratios to match specific neural network layer requirements. Our exhaustive tests and proofs confirm Kimad's outstanding performance, establishing it as a benchmark in adaptive compression for distributed deep learning.",
+    "citationCount": 3,
+    "referenceCount": 38
+}

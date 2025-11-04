@@ -1,0 +1,34 @@
+{
+    "paperId": "da7071e970ee777660386ceb4f53fecf841d693e",
+    "title": "On Partial Prototype Collapse in the DINO Family of Self-Supervised Methods",
+    "year": 2024,
+    "venue": "British Machine Vision Conference",
+    "authors": [
+        "Hariprasath Govindarajan",
+        "Per Sid'en",
+        "Jacob Roll",
+        "Fredrik Lindsten"
+    ],
+    "doi": "10.48550/arXiv.2410.14060",
+    "arxivId": "2410.14060",
+    "url": "https://www.semanticscholar.org/paper/da7071e970ee777660386ceb4f53fecf841d693e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A prominent self-supervised learning paradigm is to model the representations as clusters, or more generally as a mixture model. Learning to map the data samples to compact representations and fitting the mixture model simultaneously leads to the representation collapse problem. Regularizing the distribution of data points over the clusters is the prevalent strategy to avoid this issue. While this is sufficient to prevent full representation collapse, we show that a partial prototype collapse problem still exists in the DINO family of methods, that leads to significant redundancies in the prototypes. Such prototype redundancies serve as shortcuts for the method to achieve a marginal latent class distribution that matches the prescribed prior. We show that by encouraging the model to use diverse prototypes, the partial prototype collapse can be mitigated. Effective utilization of the prototypes enables the methods to learn more fine-grained clusters, encouraging more informative representations. We demonstrate that this is especially beneficial when pre-training on a long-tailed fine-grained dataset.",
+    "citationCount": 4,
+    "referenceCount": 47
+}

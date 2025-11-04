@@ -1,0 +1,31 @@
+{
+    "paperId": "62bfc0c1e7f12c55e5e8215831a65b02a46d4712",
+    "title": "Federated $k$-Dominant Skyline: An Efficient Approach Under Differential Privacy",
+    "year": 2023,
+    "venue": "2023 5th International Conference on Data-driven Optimization of Complex Systems (DOCS)",
+    "authors": [
+        "Guoqing Cai",
+        "Yexuan Shi",
+        "Hao Zhou",
+        "Nan Zhou",
+        "Manxue Guo",
+        "Zimeng Jia"
+    ],
+    "doi": "10.1109/DOCS60977.2023.10294954",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/62bfc0c1e7f12c55e5e8215831a65b02a46d4712",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "$k$-dominant skyline queries have been widely used in many applications, such as multi-criteria decision making and recommendation. In recent years, a new computing paradigm, called data federation, has emerged to provide collaborative data analytics among several data owners who would like to share their data under privacy protections. This paradigm brings a new challenge to the $k$-dominant skyline query, where data is distributed among these owners and privacy leakages should be prevented during the query processing. Accordingly, we define the problem of federated $k$-dominant skyline query and show that existing solutions cannot be extended to answer this query with satisfactory efficiency. To improve the efficiency, we present an observation of a vector aggregation based re-formulation and design an efficient solution under differential privacy. Finally, extensive experiments are conducted to demonstrate that our solution is notably faster than the state-of-the-arts.",
+    "citationCount": 0,
+    "referenceCount": 40
+}

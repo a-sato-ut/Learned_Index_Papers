@@ -1,0 +1,32 @@
+{
+    "paperId": "d11cc3f6351caa7a858a34279b6c82fb785f977b",
+    "title": "CoroBase: Coroutine-Oriented Main-Memory Database Engine",
+    "year": 2020,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Yongjun He",
+        "Jiacheng Lu",
+        "Tianzheng Wang"
+    ],
+    "doi": "10.14778/3430915.3430932",
+    "arxivId": "2010.15981",
+    "url": "https://www.semanticscholar.org/paper/d11cc3f6351caa7a858a34279b6c82fb785f977b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2010.15981",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data stalls are a major overhead in main-memory database engines due to the use of pointer-rich data structures. Lightweight coroutines ease the implementation of software prefetching to hide data stalls by overlapping computation and asynchronous data prefetching. Prior solutions, however, mainly focused on (1) individual components and operations and (2) intra-transaction batching that requires interface changes, breaking backward compatibility. It was not clear how they apply to a full database engine and how much end-to-end benefit they bring under various workloads.\n \n This paper presents CoroBase, a main-memory database engine that tackles these challenges with a new\n coroutine-to-transaction\n paradigm. Coroutine-to-transaction models transactions as coroutines and thus enables inter-transaction batching, avoiding application changes but retaining the benefits of prefetching. We show that on a 48-core server, CoroBase can perform close to 2x better for read-intensive workloads and remain competitive for workloads that inherently do not benefit from software prefetching.\n",
+    "citationCount": 34,
+    "referenceCount": 65
+}

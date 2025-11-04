@@ -1,0 +1,32 @@
+{
+    "paperId": "8f01498b8a580edd9dd98e18b898b3c6d4015254",
+    "title": "Deep Reinforcement Learning for Join Order Enumeration",
+    "year": 2018,
+    "venue": "aiDM@SIGMOD",
+    "authors": [
+        "Ryan Marcus",
+        "Olga Papaemmanouil"
+    ],
+    "doi": "10.1145/3211954.3211957",
+    "arxivId": "1803.00055",
+    "url": "https://www.semanticscholar.org/paper/8f01498b8a580edd9dd98e18b898b3c6d4015254",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1803.00055",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Join order selection plays a significant role in query performance. However, modern query optimizers typically employ static join order enumeration algorithms that do not incorporate feedback about the quality of the resulting plan. Hence, optimizers often repeatedly choose the same bad plan, as they have no mechanism for \"learning from their mistakes.\" Here, we argue that deep reinforcement learning techniques can be applied to address this challenge. These techniques, powered by artificial neural networks, can automatically improve optimizer decision-making by incorporating feedback. Towards this goal, we present ReJOIN, a proof-of-concept join enumerator, as well as preliminary results indicating that ReJOIN can match or outperform the PostgreSQL optimizer in terms of plan quality and join enumeration efficiency.",
+    "citationCount": 244,
+    "referenceCount": 26
+}

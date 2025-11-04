@@ -1,0 +1,36 @@
+{
+    "paperId": "5869375bfe918bf65ec1f64789194497b516314d",
+    "title": "In Search of a Key Value Store with High Performance and High Availability",
+    "year": 2019,
+    "venue": "arXiv.org",
+    "authors": [
+        "Huaibing Jian",
+        "Yuean Zhu",
+        "Yongchao Long",
+        "Bin Li",
+        "Shu Wang",
+        "Xiliang Wu",
+        "Zhichu Zhong"
+    ],
+    "doi": null,
+    "arxivId": "1904.08147",
+    "url": "https://www.semanticscholar.org/paper/5869375bfe918bf65ec1f64789194497b516314d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent year, the write-heavy applications is more and more prevalent. How to efficiently handle this sort of workload is one of intensive research direction in the field of database system. The overhead caused by write operation is mainly issued by two reasons: 1) the hardware level, i.e., the IO cost caused by logging. We can't remove this cost in short period 2) the dual-copy software architecture and serial replay. The born of log as database architecture is originated to overcome the software defect. But existing systems treating log as database either are built on top of special infrastructure such as infiniband or NVRam (Non-Volatile Random access memory) which is far from widely available or are constructed with the help of other system such as Dynamo which is lack of flexibility. In this paper we build only write-once key-value system called LogStore from scratch to support our instant messenger business. The key features of LogStore include: 1) a single thread per partition executing mode, which eliminates the concurrency overhead; 2) log as database to enable write-once feature and freshness on the standby. We achieve high availability by embedding replication protocol other than dependent on other infrastructure; 3) fine-grained and low overhead data buffer pool management to effectively minimize IO cost. According to our empirical evaluations LogStore has good performance in write operation, recovery and replication",
+    "citationCount": 0,
+    "referenceCount": 15
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "cae92a91a0b363562254416d12a72ac67a036a28",
+    "title": "Reliable Measures of Spread in High Dimensional Latent Spaces",
+    "year": 2022,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "Anna C. Marbut",
+        "Katy McKinney-Bock",
+        "T. Wheeler"
+    ],
+    "doi": "10.48550/arXiv.2212.08172",
+    "arxivId": "2212.08172",
+    "url": "https://www.semanticscholar.org/paper/cae92a91a0b363562254416d12a72ac67a036a28",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2212.08172",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Understanding geometric properties of natural language processing models' latent spaces allows the manipulation of these properties for improved performance on downstream tasks. One such property is the amount of data spread in a model's latent space, or how fully the available latent space is being used. In this work, we define data spread and demonstrate that the commonly used measures of data spread, Average Cosine Similarity and a partition function min/max ratio I(V), do not provide reliable metrics to compare the use of latent space across models. We propose and examine eight alternative measures of data spread, all but one of which improve over these current metrics when applied to seven synthetic data distributions. Of our proposed measures, we recommend one principal component-based measure and one entropy-based measure that provide reliable, relative measures of spread and can be used to compare models of different sizes and dimensionalities.",
+    "citationCount": 3,
+    "referenceCount": 42
+}

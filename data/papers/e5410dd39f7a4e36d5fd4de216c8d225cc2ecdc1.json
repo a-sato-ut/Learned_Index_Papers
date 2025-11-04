@@ -1,0 +1,31 @@
+{
+    "paperId": "e5410dd39f7a4e36d5fd4de216c8d225cc2ecdc1",
+    "title": "BINGO: brain-inspired learning memory",
+    "year": 2021,
+    "venue": "Neural computing & applications (Print)",
+    "authors": [
+        "Prabuddha Chakraborty",
+        "S. Bhunia"
+    ],
+    "doi": "10.1007/s00521-021-06484-8",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e5410dd39f7a4e36d5fd4de216c8d225cc2ecdc1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s00521-021-06484-8.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Storage and retrieval of data in a computer memory play a major role in system performance. Traditionally, computer memory organization is ‘static’—i.e. it does not change based on the application-specific characteristics in memory access behaviour during system operation. Specifically, in the case of a content-operated memory (COM), the association of a data block with a search pattern (or cues) and the granularity (details) of a stored data do not evolve. Such a static nature of computer memory, we observe, not only limits the amount of data we can store in a given physical storage, but it also misses the opportunity for performance improvement in various applications. On the contrary, human memory is characterized by seemingly infinite plasticity in storing and retrieving data—as well as dynamically creating/updating the associations between data and corresponding cues. In this paper, we introduce BINGO, a brain-inspired learning memory paradigm that organizes the memory as a flexible neural memory network. In BINGO, the network structure, strength of associations, and granularity of the data adjust continuously during system operation, providing unprecedented plasticity and performance benefits. We present the associated storage/retrieval/retention algorithms in BINGO, which integrate a formalized learning process. Using an operational model, we demonstrate that BINGO achieves an order of magnitude improvement in memory access times and effective storage capacity using the CIFAR-10 dataset and the wildlife surveillance dataset when compared to traditional content-operated memory.",
+    "citationCount": 4,
+    "referenceCount": 55
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "5f8831fcda603e54925cabfdd638f4726e5cbd39",
+    "title": "CutS3D: Cutting Semantics in 3D for 2D Unsupervised Instance Segmentation",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Leon Sick",
+        "Dominik Engel",
+        "Sebastian Hartwig",
+        "P. Hermosilla",
+        "Timo Ropinski"
+    ],
+    "doi": "10.48550/arXiv.2411.16319",
+    "arxivId": "2411.16319",
+    "url": "https://www.semanticscholar.org/paper/5f8831fcda603e54925cabfdd638f4726e5cbd39",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Traditionally, algorithms that learn to segment object instances in 2D images have heavily relied on large amounts of human-annotated data. Only recently, novel approaches have emerged tackling this problem in an unsupervised fashion. Generally, these approaches first generate pseudo-masks and then train a class-agnostic detector. While such methods deliver the current state of the art, they often fail to correctly separate instances overlapping in 2D image space since only semantics are considered. To tackle this issue, we instead propose to cut the semantic masks in 3D to obtain the final 2D instances by utilizing a point cloud representation of the scene. Furthermore, we derive a Spatial Importance function, which we use to resharpen the semantics along the 3D borders of instances. Nevertheless, these pseudo-masks are still subject to mask ambiguity. To address this issue, we further propose to augment the training of a class-agnostic detector with three Spatial Confidence components aiming to isolate a clean learning signal. With these contributions, our approach outperforms competing methods across multiple standard benchmarks for unsupervised instance segmentation and object detection.",
+    "citationCount": 2,
+    "referenceCount": 51
+}

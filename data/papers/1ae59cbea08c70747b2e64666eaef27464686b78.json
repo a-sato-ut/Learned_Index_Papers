@@ -1,0 +1,38 @@
+{
+    "paperId": "1ae59cbea08c70747b2e64666eaef27464686b78",
+    "title": "Evolutionary Algorithm with Non-parametric Surrogate Model for Tensor Program optimization",
+    "year": 2020,
+    "venue": "IEEE Congress on Evolutionary Computation",
+    "authors": [
+        "Ioannis Gatopoulos",
+        "Romain Lepert",
+        "A. Wiggers",
+        "G. Mariani",
+        "J. Tomczak"
+    ],
+    "doi": "10.1109/CEC48606.2020.9185646",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1ae59cbea08c70747b2e64666eaef27464686b78",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The efficiency of tensor operators is key to implement fast deep learning models. However, identifying the fastest implementation of a tensor operator for a target hardware is challenging. A wide range of different configurations have to be considered, and the evaluation of a configuration is time consuming as it requires compilation and execution of the operator. A common approach to address these issues is to boost traditional optimization algorithms with a surrogate modet, i.e., a machine learning model that approximates the objective function and is cheap to query compared to the target hardware. However, as the surrogate model grows in complexity, so does the time needed to train and maintain it. In this work, we propose to use an evolutionary optimizer and augment it with a non-parametric surrogate model (a weighted k-Nearest-Neighbor regression). We evaluate our approach on the convolution layers of a ResNetl8, and show a convergence speedup of up to 1.4×; when compared to baseline operator tuners.",
+    "citationCount": 3,
+    "referenceCount": 45
+}

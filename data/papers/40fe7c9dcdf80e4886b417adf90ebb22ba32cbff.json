@@ -1,0 +1,39 @@
+{
+    "paperId": "40fe7c9dcdf80e4886b417adf90ebb22ba32cbff",
+    "title": "Fast and scalable all-optical network architecture for distributed deep learning",
+    "year": 2024,
+    "venue": "Journal of Optical Communications and Networking",
+    "authors": [
+        "Wenzhe Li",
+        "Guojun Yuan",
+        "Zhan Wang",
+        "Guangming Tan",
+        "Peiheng Zhang",
+        "G. Rouskas"
+    ],
+    "doi": "10.1364/JOCN.511696",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/40fe7c9dcdf80e4886b417adf90ebb22ba32cbff",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the ever-increasing size of training models and datasets, network communication has emerged as a major bottleneck in distributed deep learning training. To address this challenge, we propose an optical distributed deep learning (ODDL) architecture. ODDL utilizes a fast yet scalable all-optical network architecture to accelerate distributed training. One of the key features of the architecture is its flow-based transmit scheduling with fast reconfiguration. This allows ODDL to allocate dedicated optical paths for each traffic stream dynamically, resulting in low network latency and high network utilization. Additionally, ODDL provides physically isolated and tailored network resources for training tasks by reconfiguring the optical switch using LCoS-WSS technology. The ODDL topology also uses tunable transceivers to adapt to time-varying traffic patterns. To achieve accurate and fine-grained scheduling of optical circuits, we propose an efficient distributed control scheme that incurs minimal delay overhead. Our evaluation on real-world traces showcases ODDL’s remarkable performance. When implemented with 1024 nodes and 100 Gbps bandwidth, ODDL accelerates VGG19 training by $1.6 \\times$ and $1.7 \\times$ compared to conventional fat-tree electrical networks and photonic SiP-Ring architectures, respectively. We further build a four-node testbed, and our experiments show that ODDL can achieve comparable training time compared to that of an ideal electrical switching network.",
+    "citationCount": 5,
+    "referenceCount": 56
+}

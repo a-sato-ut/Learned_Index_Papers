@@ -1,0 +1,36 @@
+{
+    "paperId": "942bb288502cb67c8305e1ee1337d57169cbfeb4",
+    "title": "Rusty: Runtime Interference-Aware Predictive Monitoring for Modern Multi-Tenant Systems",
+    "year": 2021,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Dimosthenis Masouros",
+        "Sotirios Xydis",
+        "D. Soudris"
+    ],
+    "doi": "10.1109/TPDS.2020.3013948",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/942bb288502cb67c8305e1ee1337d57169cbfeb4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern micro-service and container-based cloud-native applications have leveraged multi-tenancy as a first class system design concern. The increasing number of co-located services/workloads into server facilities stresses resource availability and system capability in an unconventional and unpredictable manner. To efficiently manage resources in such dynamic environments, run-time observability and forecasting are required to capture workload sensitivities under differing interference effects, according to applied co-location scenarios. While several research efforts have emerged on interference-aware performance modelling, they are usually applied at a very coarse-grained manner e.g., estimating the overall performance degradation of an application, thus failing to effectively quantify, predict or provide educated insights on the impact of continuous runtime interference on per-resource allocations. In this paper, we present Rusty, a predictive monitoring system that leverages the power of Long Short-Term Memory networks to enable fast and accurate runtime forecasting of key performance metrics and resource stresses of cloud-native applications under interference. We evaluate Rusty under a diverse set of interference scenarios for a plethora of representative cloud workloads, showing that Rusty i) achieves extremely high prediction accuracy, average <inline-formula><tex-math notation=\"LaTeX\">$R^2$</tex-math><alternatives><mml:math><mml:msup><mml:mi>R</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:math><inline-graphic xlink:href=\"masouros-ieq1-3013948.gif\"/></alternatives></inline-formula> value of 0.98, ii) enables very deep prediction horizons retaining high accuracy, e.g., <inline-formula><tex-math notation=\"LaTeX\">$R^2$</tex-math><alternatives><mml:math><mml:msup><mml:mi>R</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:math><inline-graphic xlink:href=\"masouros-ieq2-3013948.gif\"/></alternatives></inline-formula> of around 0.99 for a horizon of 1 sec ahead and around 0.94 for an horizon of 5 sec ahead, while iii) satisfying, at the same time, the strict latency constraints required to make Rusty practical for continuous predictive monitoring at runtime.",
+    "citationCount": 34,
+    "referenceCount": 84
+}

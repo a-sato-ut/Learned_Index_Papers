@@ -1,0 +1,34 @@
+{
+    "paperId": "6ecd22534446b5a07c75370afa946dc3bd83319b",
+    "title": "Good Things Come to Those Who Wait: Optimizing Job Waiting in the Cloud",
+    "year": 2021,
+    "venue": "ACM Symposium on Cloud Computing",
+    "authors": [
+        "Pradeep Ambati",
+        "Noman Bashir",
+        "David E. Irwin",
+        "Prashant J. Shenoy"
+    ],
+    "doi": "10.1145/3472883.3487007",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6ecd22534446b5a07c75370afa946dc3bd83319b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3472883.3487007",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cloud-enabled schedulers execute jobs on either fixed resources or those acquired on demand from cloud platforms. Thus, these schedulers must define not only a scheduling policy, which selects which jobs run when fixed resources become available, but also a waiting policy, which selects which jobs wait for fixed resources when they are not available, rather than run on on-demand resources. As with scheduling policies, optimizing waiting policies requires a priori knowledge of job runtime. Unfortunately, prior work has shown that accurately predicting job runtime is challenging. In this paper, we show that optimizing job waiting in the cloud is possible without accurate job runtime predictions. To do so, we i) speculatively execute jobs on on-demand resources for a small time and cost to learn more about job runtime, and ii) develop a ML model to predict wait time from cluster state, which is more accurate and has less overhead than prior approaches that use job runtime predictions. We evaluate our approach on a year-long batch workload consisting of 14 million jobs, and show that it yields a cost and average wait time within 4% and 13%, respectively, of the optimal.",
+    "citationCount": 6,
+    "referenceCount": 42
+}

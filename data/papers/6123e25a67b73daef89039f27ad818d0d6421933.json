@@ -1,0 +1,38 @@
+{
+    "paperId": "6123e25a67b73daef89039f27ad818d0d6421933",
+    "title": "A Predictable SIMD Library for GEMM Routines",
+    "year": 2024,
+    "venue": "IEEE Real Time Technology and Applications Symposium",
+    "authors": [
+        "Iryna De Albuquerque Silva",
+        "Thomas Carle",
+        "Adrien Gauffriau",
+        "Victor Jégu",
+        "C. Pagetti"
+    ],
+    "doi": "10.1109/RTAS61025.2024.00013",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6123e25a67b73daef89039f27ad818d0d6421933",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The resource-constrained environment and the certification requirements underlying embedded safety-critical real-time systems impose an adapted development process for software applications. In this work, we propose an efficient and traceable implementation of an existing blocked general matrix multiplication (GEMM) algorithm. We target time-predictability in a COTS processor with single-instruction multiple-data (SIMD) extensions. We provide a set of rules for tuning the algorithm parameters and predict with precision its number of memory accesses and cache misses, which paves the way for a static WCET analysis. Our experiments show that time-predictability comes at the cost of a performance degradation of only 2.54% on average. Moreover, tuning the parameters allows for reducing cache misses by up to 60% in certain parts of the algorithm.",
+    "citationCount": 2,
+    "referenceCount": 28
+}

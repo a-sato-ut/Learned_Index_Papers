@@ -1,0 +1,40 @@
+{
+    "paperId": "20d42b71f3dc570525e5eb1b4f2a34d8ec268c6f",
+    "title": "DeepliteRT: Computer Vision at the Edge",
+    "year": 2023,
+    "venue": "British Machine Vision Conference",
+    "authors": [
+        "Saad Ashfaq",
+        "Alexander Hoffman",
+        "Saptarshi Mitra",
+        "Sudhakar Sah",
+        "Mohammadhossein Askarihemmat",
+        "Ehsan Saboori"
+    ],
+    "doi": "10.48550/arXiv.2309.10878",
+    "arxivId": "2309.10878",
+    "url": "https://www.semanticscholar.org/paper/20d42b71f3dc570525e5eb1b4f2a34d8ec268c6f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2309.10878",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The proliferation of edge devices has unlocked unprecedented opportunities for deep learning model deployment in computer vision applications. However, these complex models require considerable power, memory and compute resources that are typically not available on edge platforms. Ultra low-bit quantization presents an attractive solution to this problem by scaling down the model weights and activations from 32-bit to less than 8-bit. We implement highly optimized ultra low-bit convolution operators for ARM-based targets that outperform existing methods by up to 4.34x. Our operator is implemented within Deeplite Runtime (DeepliteRT), an end-to-end solution for the compilation, tuning, and inference of ultra low-bit models on ARM devices. Compiler passes in DeepliteRT automatically convert a fake-quantized model in full precision to a compact ultra low-bit representation, easing the process of quantized model deployment on commodity hardware. We analyze the performance of DeepliteRT on classification and detection models against optimized 32-bit floating-point, 8-bit integer, and 2-bit baselines, achieving significant speedups of up to 2.20x, 2.33x and 2.17x, respectively.",
+    "citationCount": 2,
+    "referenceCount": 33
+}

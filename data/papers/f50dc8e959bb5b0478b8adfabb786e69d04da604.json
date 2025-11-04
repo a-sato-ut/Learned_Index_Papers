@@ -1,0 +1,41 @@
+{
+    "paperId": "f50dc8e959bb5b0478b8adfabb786e69d04da604",
+    "title": "Accelerated Feature Extraction and Refinement for Improved Aerial Scene Categorization",
+    "year": 2024,
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+    "authors": [
+        "Xiaohan Tu",
+        "Laurence Tianruo Yang",
+        "Siping Liu",
+        "Renfa Li"
+    ],
+    "doi": "10.1109/TGRS.2024.3403877",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f50dc8e959bb5b0478b8adfabb786e69d04da604",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning (DL) has displayed superior performance in aerial scene (AS) categorization. However, existing methods for AS classification tend to lack adaptability and efficiency, particularly in optimizing its performance on different embedded devices. They also often fail to dynamically adjust to varying scales of feature representations, which can limit their effectiveness across different datasets and devices. To solve these issues, we provide two algorithms. The first algorithm explores local key features by mining the interactivity between channels. The range of cross-channel interactions is dynamically determined through an adaptive strategy. This ensures that convolution operations are optimized. The resulting features are improved by the second proposed algorithm. The second algorithm introduces convolutions, attention, and functions to calculate the weight of features. It enhances feature discriminative power by assigning adaptive weights. Then, we introduce an inference acceleration method for AS categorization. We create efficient codes for the proposed algorithms through automated optimization to match different devices. The inference time of the proposed method is reduced on various devices. Experiments on three frequently used datasets show we attain higher accuracy. The accuracy of some categories reaches 100%. In contrast to similar methods, our accelerated algorithm has at least 43.16%, 53.37%, 10.07%, 31.16%, and 8.08% less inference time on RTX 2080Ti, Titan V, Jetson TX2, Jetson NX, and Jetson Nano GPUs, respectively.",
+    "citationCount": 3,
+    "referenceCount": 59
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "ba82aac389de2aa4cdb188886ad165a96f0a8fdc",
+    "title": "Deep-QPP: A Pairwise Interaction-based Deep Learning Model for Supervised Query Performance Prediction",
+    "year": 2022,
+    "venue": "Web Search and Data Mining",
+    "authors": [
+        "S. Datta",
+        "Debasis Ganguly",
+        "Derek Greene",
+        "Mandar Mitra"
+    ],
+    "doi": "10.1145/3488560.3498491",
+    "arxivId": "2202.07376",
+    "url": "https://www.semanticscholar.org/paper/ba82aac389de2aa4cdb188886ad165a96f0a8fdc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3488560.3498491",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Motivated by the recent success of end-to-end deep neural models for ranking tasks, we present here a supervised end-to-end neural approach for query performance prediction (QPP). In contrast to unsupervised approaches that rely on various statistics of document score distributions, our approach is entirely data-driven. Further, in contrast to weakly supervised approaches, our method also does not rely on the outputs from different QPP estimators. In particular, our model leverages information from the semantic interactions between the terms of a query and those in the top-documents retrieved with it. The architecture of the model comprises multiple layers of 2D convolution filters followed by a feed-forward layer of parameters. Experiments on standard test collections demonstrate that our proposed supervised approach outperforms other state-of-the-art supervised and unsupervised approaches.",
+    "citationCount": 31,
+    "referenceCount": 48
+}

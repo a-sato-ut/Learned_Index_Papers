@@ -1,0 +1,40 @@
+{
+    "paperId": "ddd73601e95d70d0b7dbabb6fe455d09144d2253",
+    "title": "Reinforced Genetic Algorithm Learning for Optimizing Computation Graphs",
+    "year": 2019,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Aditya Sanjay Paliwal",
+        "Felix Gimeno",
+        "Vinod Nair",
+        "Yujia Li",
+        "Miles Lubin",
+        "Pushmeet Kohli",
+        "O. Vinyals"
+    ],
+    "doi": null,
+    "arxivId": "1905.02494",
+    "url": "https://www.semanticscholar.org/paper/ddd73601e95d70d0b7dbabb6fe455d09144d2253",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present a deep reinforcement learning approach to minimizing the execution cost of neural network computation graphs in an optimizing compiler. Unlike earlier learning-based works that require training the optimizer on the same graph to be optimized, we propose a learning approach that trains an optimizer offline and then generalizes to previously unseen graphs without further training. This allows our approach to produce high-quality execution decisions on real-world TensorFlow graphs in seconds instead of hours. We consider two optimization tasks for computation graphs: minimizing running time and peak memory usage. In comparison to an extensive set of baselines, our approach achieves significant improvements over classical and other learning-based methods on these two tasks.",
+    "citationCount": 68,
+    "referenceCount": 46
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "56e436f7ec199489f66ce3362e71880a5ca55844",
+    "title": "Online Convex Optimization for Caching Networks",
+    "year": 2020,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "G. Paschos",
+        "Apostolos Destounis",
+        "G. Iosifidis"
+    ],
+    "doi": "10.1109/TNET.2020.2968424",
+    "arxivId": "2001.06351",
+    "url": "https://www.semanticscholar.org/paper/56e436f7ec199489f66ce3362e71880a5ca55844",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2001.06351",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study the problem of wireless edge caching when file popularity is unknown and possibly non-stationary. A bank of <inline-formula> <tex-math notation=\"LaTeX\">$J$ </tex-math></inline-formula> caches receives file requests and a utility is accrued for each request depending on the serving cache. The network decides dynamically which files to store at each cache and how to route them, in order to maximize total utility. The request sequence is assumed to be drawn from an arbitrary distribution, capturing time-variance, temporal and spatial locality of requests. For this challenging setting, we propose the <italic>Bipartite Supergradient Caching Algorithm</italic> (BSCA) which provably exhibits no regret (<inline-formula> <tex-math notation=\"LaTeX\">$R_{T}/T \\to 0$ </tex-math></inline-formula>). That is, as the time horizon <inline-formula> <tex-math notation=\"LaTeX\">$T$ </tex-math></inline-formula> increases, BSCA achieves (at least) the same utility with the cache configuration that we would have chosen knowing all future requests. The learning rate of the algorithm is characterized by its regret expression <inline-formula> <tex-math notation=\"LaTeX\">$R_{T}\\!=\\!O(\\sqrt {JT})$ </tex-math></inline-formula>, which is independent of the file library size. For the single-cache case, we prove that this is the lowest attainable bound. BSCA requires at each step <inline-formula> <tex-math notation=\"LaTeX\">$J$ </tex-math></inline-formula> projections on intersections of boxes and simplices, for which we propose a tailored algorithm. Our model is the first that draws a connection between the network caching problem and <italic>Online Convex Optimization</italic>, and we demonstrate its generality by discussing various practical extensions and presenting a trace-driven comparison with state-of-the-art competitors.",
+    "citationCount": 29,
+    "referenceCount": 56
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "59220e5b468353793ca17b38515e517f26b19032",
+    "title": "Adaptive Discretization in Online Reinforcement Learning",
+    "year": 2021,
+    "venue": "Operational Research",
+    "authors": [
+        "Sean R. Sinclair",
+        "Siddhartha Banerjee",
+        "C. Yu"
+    ],
+    "doi": "10.1287/opre.2022.2396",
+    "arxivId": "2110.15843",
+    "url": "https://www.semanticscholar.org/paper/59220e5b468353793ca17b38515e517f26b19032",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2110.15843",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Adaptive Discretization in Reinforcement Learning Performance guarantees for RL algorithms are typically for worst case instances, which are pathological by design and not observed in meaningful applications. Moreover, many domains (such as computer systems and networking applications) have large state-action spaces and require algorithms to execute with low latency. This phenomenon highlights a trifecta of goals for practical RL algorithms: low sample, storage, and computational complexity. In this work, we develop an algorithmic framework for nonparametric RL with data-driven adaptive discretization. Our framework has provably better sample, storage, and computational complexity than uniform discretization or kernel regression methods. Moreover, we highlight how the performance guarantees are min-max optimal with respect to a novel instance-specific complexity measure that captures structure in facility location and newsvendor models.",
+    "citationCount": 19,
+    "referenceCount": 74
+}

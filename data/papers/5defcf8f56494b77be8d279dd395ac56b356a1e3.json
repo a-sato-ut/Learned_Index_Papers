@@ -1,0 +1,36 @@
+{
+    "paperId": "5defcf8f56494b77be8d279dd395ac56b356a1e3",
+    "title": "GABB: the plan-based job scheduling optimized by genetic algorithm for HPC systems with shared burst buffers",
+    "year": 2024,
+    "venue": "Other Conferences",
+    "authors": [
+        "Shuaizhe Lv",
+        "Xuchao Xie",
+        "Zhenlong Song"
+    ],
+    "doi": "10.1117/12.3034965",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5defcf8f56494b77be8d279dd395ac56b356a1e3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Burst Buffer was proposed to address the growing performance gap between computation and I/O in high-performance computing systems (HPC). However, the introduction of Burst Buffer has brought new issues in system resource management and job scheduling. Resource management systems on HPC platforms lack efficient management of multiple types of resources, and the allocation of computing resources and Burst Buffer resources is independent of each other. This can lead to underutilization of system resources and job blocking. To address these issues, this paper proposes GABB, a plan-based job scheduling strategy for shared Burst Buffer, and utilizes genetic algorithms for optimization. GABB employs a plan-based job scheduling strategy to uniformly schedule all jobs in the waiting queue to generate an execution plan. Furthermore, GABB comprehensively considers changes in system resources and the job's demand for computing and Burst Buffer resources during the job scheduling process. Finally, GABB utilizes an improved genetic algorithm to optimize the job scheduling scheme. We conducted experimental simulations of a shared Burst Buffer system and implemented a plan-based job scheduling algorithm. The experimental results indicate that BBGA significantly reduces the mean waiting time of jobs by over 20% compared to the Shortest Job First (SJF) algorithm, and reduces the mean bounded slowdown of jobs by over 25%.",
+    "citationCount": 0,
+    "referenceCount": 27
+}

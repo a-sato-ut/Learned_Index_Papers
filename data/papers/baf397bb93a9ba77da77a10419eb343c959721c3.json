@@ -1,0 +1,37 @@
+{
+    "paperId": "baf397bb93a9ba77da77a10419eb343c959721c3",
+    "title": "CarbonFlex: Enabling Carbon-aware Provisioning and Scheduling for Cloud Clusters",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Walid A. Hanafy",
+        "Li Wu",
+        "David E. Irwin",
+        "Prashant J. Shenoy"
+    ],
+    "doi": "10.48550/arXiv.2505.18357",
+    "arxivId": "2505.18357",
+    "url": "https://www.semanticscholar.org/paper/baf397bb93a9ba77da77a10419eb343c959721c3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Accelerating computing demand, largely from AI applications, has led to concerns about its carbon footprint. Fortunately, a significant fraction of computing demand comes from batch jobs that are often delay-tolerant and elastic, which enables schedulers to reduce carbon by suspending/resuming jobs and scaling their resources down/up when carbon is high/low. However, prior work on carbon-aware scheduling generally focuses on optimizing carbon for individual jobs in the cloud, and not provisioning and scheduling resources for many parallel jobs in cloud clusters. To address the problem, we present CarbonFlex, a carbon-aware resource provisioning and scheduling approach for cloud clusters. CarbonFlex leverages continuous learning over historical cluster-level data to drive near-optimal runtime resource provisioning and job scheduling. We implement CarbonFlex by extending AWS ParallelCluster to include our carbon-aware provisioning and scheduling algorithms. Our evaluation on publicly available industry workloads shows that CarbonFlex decreases carbon emissions by $\\sim$57\\% compared to a carbon-agnostic baseline and performs within 2.1\\% of an oracle scheduler with perfect knowledge of future carbon intensity and job length.",
+    "citationCount": 1,
+    "referenceCount": 83
+}

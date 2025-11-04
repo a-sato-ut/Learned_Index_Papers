@@ -1,0 +1,33 @@
+{
+    "paperId": "0dfae86283e2efdf7ee748f0ab25ecc4f77fbd1c",
+    "title": "Relational Self-Supervised Distillation with Compact Descriptors for Image Copy Detection",
+    "year": 2024,
+    "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+    "authors": [
+        "Juntae Kim",
+        "Sungwon Woo",
+        "Jongho Nang"
+    ],
+    "doi": "10.1109/WACV61041.2025.00711",
+    "arxivId": "2405.17928",
+    "url": "https://www.semanticscholar.org/paper/0dfae86283e2efdf7ee748f0ab25ecc4f77fbd1c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Image copy detection is the task of detecting edited copies of any image within a reference database. While previous approaches have shown remarkable progress, the large size of their networks and descriptors remains a disadvantage, complicating their practical application. In this paper, we propose a novel method that achieves competitive performance by using a lightweight network and compact descriptors. By utilizing relational self-supervised distillation to transfer knowledge from a large network to a small network, we enable the training of lightweight networks with smaller descriptor sizes. We introduce relational self-supervised distillation for flexible representation in a smaller feature space and apply contrastive learning with a hard negative loss to prevent dimensional collapse. For the DISC2021 benchmark, ResNet-50 and EfficientNet-B0 are used as the teacher and student models, respectively, with micro average precision improving by $5.0 \\% / 4.9 \\% / 5.9 \\%$ for $64 / 128 / 256$ descriptor sizes compared to the baseline method. The code is available at https://github.com/juntae9926/RDCD.",
+    "citationCount": 1,
+    "referenceCount": 56
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "f41aef07a35e45ccfe017430a1d1c77312fde49d",
+    "title": "A Neural Network Prefetcher for Arbitrary Memory Access Patterns",
+    "year": 2018,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "L. Peled",
+        "U. Weiser",
+        "Yoav Etsion"
+    ],
+    "doi": "10.1145/3345000",
+    "arxivId": "1804.00478",
+    "url": "https://www.semanticscholar.org/paper/f41aef07a35e45ccfe017430a1d1c77312fde49d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3345000",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Memory prefetchers are designed to identify and prefetch specific access patterns, including spatiotemporal locality (e.g., strides, streams), recurring patterns (e.g., varying strides, temporal correlation), and specific irregular patterns (e.g., pointer chasing, index dereferencing). However, existing prefetchers can only target premeditated patterns and relations they were designed to handle and are unable to capture access patterns in which they do not specialize. In this article, we propose a context-based neural network (NN) prefetcher that dynamically adapts to arbitrary memory access patterns. Leveraging recent advances in machine learning, the proposed NN prefetcher correlates program and machine contextual information with memory accesses patterns, using online-training to identify and dynamically adapt to unique access patterns exhibited by the code. By targeting semantic locality in this manner, the prefetcher can discern the useful context attributes and learn to predict previously undetected access patterns, even within noisy memory access streams. We further present an architectural implementation of our NN prefetcher, explore its power, energy, and area limitations, and propose several optimizations. We evaluate the neural network prefetcher over SPEC2006, Graph500, and several microbenchmarks and show that the prefetcher can deliver an average speedup of 21.3% for SPEC2006 (up to 2.3×) and up to 4.4× on kernels over a baseline of PC-based stride prefetcher and 30% for SPEC2006 over a baseline with no prefetching.",
+    "citationCount": 47,
+    "referenceCount": 66
+}

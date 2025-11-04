@@ -1,0 +1,30 @@
+{
+    "paperId": "721dc4ea8806205d32582f3470aee5702f4fc185",
+    "title": "TPBF: Two-Phase Bloom-Filter-Based End-to-End Data Integrity Verification Framework for Object-Based Big Data Transfer Systems",
+    "year": 2022,
+    "venue": "Mathematics",
+    "authors": [
+        "Preethika Kasu",
+        "Prince Hamandawana",
+        "Tae-Sun Chung"
+    ],
+    "doi": "10.3390/math10091591",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/721dc4ea8806205d32582f3470aee5702f4fc185",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2227-7390/10/9/1591/pdf?version=1652166702",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Computational science simulations produce huge volumes of data for scientific research organizations. Often, this data is shared by data centers distributed geographically for storage and analysis. Data corruption in the end-to-end route of data transmission is one of the major challenges in distributing the data geographically. End-to-end integrity verification is therefore critical for transmitting such data across data centers effectively. Although several data integrity techniques currently exist, most have a significant negative influence on the data transmission rate as well as the storage overhead. Therefore, existing data integrity techniques are not viable solutions in high performance computing environments where it is very common to transfer huge volumes of data across data centers. In this study, we propose a two-phase Bloom-filter-based end-to-end data integrity verification framework for object-based big data transfer systems. The proposed solution effectively handles data integrity errors by reducing the memory and storage overhead and minimizing the impact on the overall data transmission rate. We investigated the memory, storage, and data transfer rate overheads of the proposed data integrity verification framework on the overall data transfer performance. The experimental findings showed that the suggested framework had 5% and 10% overhead on the total data transmission rate and on the total memory usage, respectively. However, we observed significant savings in terms of storage requirements, when compared with state-of-the-art solutions.",
+    "citationCount": 2,
+    "referenceCount": 62
+}

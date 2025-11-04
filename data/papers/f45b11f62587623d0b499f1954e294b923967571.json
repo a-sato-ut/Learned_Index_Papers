@@ -1,0 +1,33 @@
+{
+    "paperId": "f45b11f62587623d0b499f1954e294b923967571",
+    "title": "Online Caching with Optimistic Learning",
+    "year": 2022,
+    "venue": "2022 IFIP Networking Conference (IFIP Networking)",
+    "authors": [
+        "Naram Mhaisen",
+        "G. Iosifidis",
+        "D. Leith"
+    ],
+    "doi": "10.23919/IFIPNetworking55013.2022.9829806",
+    "arxivId": "2202.10590",
+    "url": "https://www.semanticscholar.org/paper/f45b11f62587623d0b499f1954e294b923967571",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2202.10590",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The design of effective online caching policies is an increasingly important problem for content distribution networks, online social networks and edge computing services, among other areas. This paper proposes a new algorithmic toolbox for tackling this problem through the lens of optimistic online learning. We build upon the Follow-the-Regularized-Leader (FTRL) framework which is developed further here to include predictions for the file requests, and we design online caching algorithms for bipartite networks with fixed-size caches or elastic leased caches subject to time-average budget constraints. The predictions are provided by a content recommendation system that influences the users viewing activity, and hence can naturally reduce the caching network's uncertainty about future requests. We prove that the proposed optimistic learning caching policies can achieve sub-zero performance loss (regret) for perfect predictions, and maintain the best achievable regret bound O (√T) even for arbitrary-bad predictions. The performance of the proposed algorithms is evaluated with detailed trace-driven numerical tests.",
+    "citationCount": 13,
+    "referenceCount": 59
+}

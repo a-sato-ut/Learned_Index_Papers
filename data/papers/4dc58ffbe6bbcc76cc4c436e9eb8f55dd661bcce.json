@@ -1,0 +1,38 @@
+{
+    "paperId": "4dc58ffbe6bbcc76cc4c436e9eb8f55dd661bcce",
+    "title": "NNSmith: Generating Diverse and Valid Test Cases for Deep Learning Compilers",
+    "year": 2022,
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "authors": [
+        "Jiawei Liu",
+        "Jinkun Lin",
+        "Fabian Ruffy",
+        "Cheng Tan",
+        "Jinyang Li",
+        "Aurojit Panda",
+        "Lingming Zhang"
+    ],
+    "doi": "10.1145/3575693.3575707",
+    "arxivId": "2207.13066",
+    "url": "https://www.semanticscholar.org/paper/4dc58ffbe6bbcc76cc4c436e9eb8f55dd661bcce",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2207.13066",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep-learning (DL) compilers such as TVM and TensorRT are increasingly being used to optimize deep neural network (DNN) models to meet performance, resource utilization and other requirements. Bugs in these compilers can result in models whose semantics differ from the original ones, producing incorrect results that corrupt the correctness of downstream applications. However, finding bugs in these compilers is challenging due to their complexity. In this work, we propose a new fuzz testing approach for finding bugs in deep-learning compilers. Our core approach consists of (i) generating diverse yet valid DNN test models that can exercise a large part of the compiler's transformation logic using light-weight operator specifications; (ii) performing gradient-based search to find model inputs that avoid any floating-point exceptional values during model execution, reducing the chance of missed bugs or false alarms; and (iii) using differential testing to identify bugs. We implemented this approach in NNSmith which has found 72 new bugs for TVM, TensorRT, ONNXRuntime, and PyTorch to date. Of these 58 have been confirmed and 51 have been fixed by their respective project maintainers.",
+    "citationCount": 93,
+    "referenceCount": 78
+}

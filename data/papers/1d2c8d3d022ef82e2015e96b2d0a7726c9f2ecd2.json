@@ -1,0 +1,35 @@
+{
+    "paperId": "1d2c8d3d022ef82e2015e96b2d0a7726c9f2ecd2",
+    "title": "Customized Monte Carlo Tree Search for LLVM/Polly's Composable Loop Optimization Transformations",
+    "year": 2021,
+    "venue": "International Workshop on Performance Modeling, Benchmarking and Simulation of High Performance Computer Systems",
+    "authors": [
+        "Jaehoon Koo",
+        "Prasanna Balaprakash",
+        "Michael Kruse",
+        "Xingfu Wu",
+        "P. Hovland",
+        "Mary W. Hall"
+    ],
+    "doi": "10.1109/PMBS54543.2021.00015",
+    "arxivId": "2105.04555",
+    "url": "https://www.semanticscholar.org/paper/1d2c8d3d022ef82e2015e96b2d0a7726c9f2ecd2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2105.04555",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Polly is the LLVM project's polyhedral loop optimizer. Recent user-directed loop transformation pragmas were proposed based on LLVM/Clang and Polly. The search space exposed by the transformation pragmas is a tree, wherein each node represents a specific combination of loop transformations that can be applied to the code resulting from the parent node's loop transformations. To find the best combination of these loop transformations, we have developed a search algorithm based on Monte Carlo tree search (MCTS). The algorithm consists of two phases: exploring loop transformations at different depths of the tree to identify promising regions in the tree search space and exploiting those regions by performing a local search. Moreover, a restart mechanism is used to avoid the MCTS getting trapped in a local solution. The best and worst solutions are transferred from the previous phases of the restarts to leverage the search history. We compare our approach with breadth-first, beam, global greedy, and random search methods using PolyBench benchmarks and ECP proxy applications. Experimental results show that our MCTS algorithm finds pragma combinations with a speedup of 2.3x over Polly's heuristic optimizations on average.",
+    "citationCount": 9,
+    "referenceCount": 45
+}

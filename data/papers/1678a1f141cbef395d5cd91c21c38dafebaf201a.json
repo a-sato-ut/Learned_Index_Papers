@@ -1,0 +1,32 @@
+{
+    "paperId": "1678a1f141cbef395d5cd91c21c38dafebaf201a",
+    "title": "Can Increasing the Hit Ratio Hurt Cache Throughput?",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ziyue Qiu",
+        "Juncheng Yang",
+        "Mor Harchol-Balter"
+    ],
+    "doi": "10.48550/arXiv.2404.16219",
+    "arxivId": "2404.16219",
+    "url": "https://www.semanticscholar.org/paper/1678a1f141cbef395d5cd91c21c38dafebaf201a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Software caches are an intrinsic component of almost every computer system. Consequently, caching algorithms, particularly eviction policies, are the topic of many papers. Almost all these prior papers evaluate the caching algorithm based on its hit ratio, namely the fraction of requests that are found in the cache, as opposed to disk. The hit ratio is viewed as a proxy for traditional performance metrics like system throughput or response time. Intuitively it makes sense that higher hit ratio should lead to higher throughput (and lower response time), since more requests are found in the cache (low access time) as opposed to the disk (high access time). This paper challenges this intuition. We show that increasing the hit ratio can actually hurt the throughput (and response time) for many caching algorithms. Our investigation follows a three-pronged approach involving (i) queueing modeling and analysis, (ii) implementation and measurement, and (iii) simulation to validate the accuracy of the queueing model. We also show that the phenomenon of throughput decreasing at higher hit ratios is likely to be more pronounced in future systems, where the trend is towards faster disks and higher numbers of cores per CPU.",
+    "citationCount": 0,
+    "referenceCount": 115
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "0f280002ac6e79b94c55e3051df9bfc4777fffd9",
+    "title": "DLAS: An Exploration and Assessment of the Deep Learning Acceleration Stack",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Perry Gibson",
+        "José Cano",
+        "Elliot J. Crowley",
+        "A. Storkey",
+        "Michael O’boyle"
+    ],
+    "doi": "10.48550/arXiv.2311.08909",
+    "arxivId": "2311.08909",
+    "url": "https://www.semanticscholar.org/paper/0f280002ac6e79b94c55e3051df9bfc4777fffd9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Neural Networks (DNNs) are extremely computationally demanding, which presents a large barrier to their deployment on resource-constrained devices. Since such devices are where many emerging deep learning applications lie (e.g., drones, vision-based medical technology), significant bodies of work from both the machine learning and systems communities have attempted to provide optimizations to accelerate DNNs. To help unify these two perspectives, in this paper we combine machine learning and systems techniques within the Deep Learning Acceleration Stack (DLAS), and demonstrate how these layers can be tightly dependent on each other with an across-stack perturbation study. We evaluate the impact on accuracy and inference time when varying different parameters of DLAS across two datasets, seven popular DNN architectures, four DNN compression techniques, three algorithmic primitives with sparse and dense variants, untuned and auto-scheduled code generation, and four hardware platforms. Our evaluation highlights how perturbations across DLAS parameters can cause significant variation and across-stack interactions. The highest level observation from our evaluation is that the model size, accuracy, and inference time are not guaranteed to be correlated. Overall we make 13 key observations, including that speedups provided by compression techniques are very hardware dependent, and that compiler auto-tuning can significantly alter what the best algorithm to use for a given configuration is. With DLAS, we aim to provide a reference framework to aid machine learning and systems practitioners in reasoning about the context in which their respective DNN acceleration solutions exist in. With our evaluation strongly motivating the need for co-design, we believe that DLAS can be a valuable concept for exploring the next generation of co-designed accelerated deep learning solutions.",
+    "citationCount": 1,
+    "referenceCount": 84
+}

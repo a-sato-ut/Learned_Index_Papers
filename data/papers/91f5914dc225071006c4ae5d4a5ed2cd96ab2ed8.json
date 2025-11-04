@@ -1,0 +1,33 @@
+{
+    "paperId": "91f5914dc225071006c4ae5d4a5ed2cd96ab2ed8",
+    "title": "Integration of Software-Defined Networking with Named Data Network for Implementing Forwarding Strategies in Wireless Networks",
+    "year": 2023,
+    "venue": "2023 6th International Seminar on Research of Information Technology and Intelligent Systems (ISRITI)",
+    "authors": [
+        "Reza Maharani Susilo",
+        "Farraz Rizky Kusumaputra",
+        "Muhammad Hendrawan Adiwijaya",
+        "Ratna Mayasari",
+        "R. Negara",
+        "Sri Astuti"
+    ],
+    "doi": "10.1109/ISRITI60336.2023.10467947",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/91f5914dc225071006c4ae5d4a5ed2cd96ab2ed8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Named Data Networking (NDN) represents a forward-looking networking concept that addresses various challenges within the current internet architecture, particularly the reliance on IP addresses for data transmission between devices. In response, Named Data Networking (NDN) and Software-Defined Networking (SDN) architectures introduce a novel approach to data delivery by shifting from a host-centric to a data-centric model. This transition not only enhances data distribution efficiency but also leverages SDN advantages stemming from its segregation of the data and control planes. To implement this convergence, we incorporated the SDN paradigm into the NDN environment. By doing so, we harnessed the capabilities of both SDN and NDN, enhancing network efficiency and reducing data retrieval time for consumers. We utilized Named Data Link State Routing (NLSR) as a routing protocol within the default NDN environment. However, NDN encompasses diverse forwarding strategies tailored to specific network conditions. This research specifically investigates Best-Route Forwarding, Multicast Forwarding, and Adaptive Smoothed RTT Forwarding strategies. The objective is to evaluate the disparities and appropriateness of these strategies within NLSR-NDN and SDN-NDN environments when applied to wireless networks. To assess the efficacy of these strategies, our analysis employs Quality of Service (QoS) parameters, encompassing Average Round Trip Time (RTT), Throughput, Packet Loss, and Satisfied Interest Ratio. These additional metrics provide a comprehensive evaluation of interest satisfaction. Our findings reveal that the SDN-NDN environment remarkably enhances network efficiency by approximately 50-70% compared to the NLSR-NDN environment.",
+    "citationCount": 1,
+    "referenceCount": 22
+}

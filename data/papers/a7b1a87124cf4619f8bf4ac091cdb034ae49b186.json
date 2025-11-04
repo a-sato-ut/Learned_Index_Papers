@@ -1,0 +1,35 @@
+{
+    "paperId": "a7b1a87124cf4619f8bf4ac091cdb034ae49b186",
+    "title": "Enhancing LoRA Model Serving Capacity via Adaptive Operator Scheduling for Multi-Tenancy on GPU",
+    "year": 2024,
+    "venue": "IEEE Access",
+    "authors": [
+        "Lingnan Xia",
+        "Hua Ma"
+    ],
+    "doi": "10.1109/ACCESS.2024.3483250",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a7b1a87124cf4619f8bf4ac091cdb034ae49b186",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Low-Rank Adaptation (LoRA) has garnered increasing attention for effectively fine-tuning large language models (LLMs) with limited resources. Nonetheless, conventional approaches that cater to multiple LoRA models independently lead to redundant computations and suboptimal GPU utilization. This study tackles these inefficiencies by presenting Dynamic Operator Optimization, a sophisticated automated optimization methodology crafted to dynamically enhance the Segmented Gather Matrix-Vector Multiplication (SGMV) operator according to specific contexts. The distinctive design of SGMV facilitates the batching of GPU operations for diverse LoRA models, resulting in a notable enhancement in computational efficiency. The strategy exploits a Search Space Constructor to construct a structured search space, segmenting the program space into overarching structural outlines and intricate implementation particulars to ensure a varied and adaptable operator implementation. Moreover, an Optimization Engine fine-tunes these implementations through evolutionary search driven by a performance estimation cost model. This progressive optimization procedure ensures that SGMV implementations can dynamically adjust to varying scenarios to uphold superior performance. The findings illustrate that our design can elevate throughput by up to 1.46 times in cutting-edge multi-tenant LoRA deployments.",
+    "citationCount": 0,
+    "referenceCount": 28
+}

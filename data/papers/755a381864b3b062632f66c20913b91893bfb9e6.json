@@ -1,0 +1,33 @@
+{
+    "paperId": "755a381864b3b062632f66c20913b91893bfb9e6",
+    "title": "Predicting Reuse Interval for Optimized Web Caching: An LSTM-Based Machine Learning Approach",
+    "year": 2022,
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+    "authors": [
+        "Pengcheng Li",
+        "Yixin Guo",
+        "Yongbin Gu"
+    ],
+    "doi": "10.1109/SC41404.2022.00091",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/755a381864b3b062632f66c20913b91893bfb9e6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Caching techniques are widely used in the era of cloud computing from applications, such as Web caches to infrastructures, Memcached and memory caches in computer architectures. Prediction of cached data can greatly help improve cache management and hit rate. The recent advancement of deep learning techniques enables the design of novel intelligent cache replacement policies. In this work, we propose a learning-aided approach to predict future data accesses. We find that a powerful LSTM-based recurrent neural network can provide high prediction accuracy based on only a cache trace as input. The high accuracy results from a carefully crafted locality-driven feature design. Inspired by the high prediction accuracy, we propose a pseudo OPT policy and evaluate it upon 13 real-world storage workloads from Microsoft Cloud. Results demonstrate that our new policy improves the state-of-art by up to 19.2% and incurs only 2.3% higher miss ratio than OPT on average.",
+    "citationCount": 1,
+    "referenceCount": 78
+}

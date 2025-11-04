@@ -1,0 +1,36 @@
+{
+    "paperId": "27b1b41ac386814af6f7bfd4646781f3f32b8a38",
+    "title": "Lookahead: An Inference Acceleration Framework for Large Language Model with Lossless Generation Accuracy",
+    "year": 2023,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Yao Zhao",
+        "Zhitian Xie",
+        "Chen Liang",
+        "Chenyi Zhuang",
+        "Jinjie Gu"
+    ],
+    "doi": "10.1145/3637528.3671614",
+    "arxivId": "2312.12728",
+    "url": "https://www.semanticscholar.org/paper/27b1b41ac386814af6f7bfd4646781f3f32b8a38",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3637528.3671614",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As Large Language Models (LLMs) have made significant advancements across various tasks, such as question answering, translation, text summarization, and dialogue systems, the need for accuracy in information becomes crucial, especially for serious financial products serving billions of users like Alipay. However, for a real-world product serving millions of users, the inference speed of LLMs becomes a critical factor compared to a mere experimental model. Hence, this paper presents a generic framework for accelerating the inference process, resulting in a substantial increase in speed and cost reduction for our LLM-based scenarios, with lossless generation accuracy. In the traditional inference process, each token is generated sequentially by the LLM, leading to a time consumption proportional to the number of generated tokens. To enhance this process, our framework, named lookahead, introduces a multi-branch strategy. Instead of generating a single token at a time, we propose a Trie-based retrieval and verification mechanism to be able to accept several tokens at a forward step. Our strategy offers two distinct advantages: (1) it guarantees absolute correctness of the output, avoiding any approximation algorithms, and (2) the worst-case performance of our approach could be comparable with the performance of the conventional process. We conduct extensive experiments to demonstrate the significant improvements achieved by applying our inference acceleration framework. Our framework has been widely deployed in Alipay since April 2023, and obtained remarkable 2.66x to 6.26x speedup. Our code is available at https://github.com/alipay/PainlessInferenceAcceleration.",
+    "citationCount": 24,
+    "referenceCount": 48
+}

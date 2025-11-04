@@ -1,0 +1,31 @@
+{
+    "paperId": "62eaf01f9963a599128bd5c0581a52408128510d",
+    "title": "A Concurrent Approach to String Transformation Synthesis",
+    "year": 2025,
+    "venue": "Proc. ACM Program. Lang.",
+    "authors": [
+        "Yuantian Ding",
+        "Xiaokang Qiu"
+    ],
+    "doi": "10.1145/3729336",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/62eaf01f9963a599128bd5c0581a52408128510d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Program synthesis aims at the automatic generation of programs based on given specifications. Despite significant progress, the inherent complexity of synthesis tasks and the interplay among intention, invention and adaptation limit its scope. A promising yet challenging avenue is the integration of concurrency to enhance synthesis algorithms. While some efforts have applied basic concurrency by parallelizing search spaces, more intricate synthesis scenarios involving interdependent subproblems remain unexplored. In this paper, we focus on string transformation as the target domain and introduce the first concurrent synthesis algorithm that enables asynchronous coordination between deductive and enumerative processes, featuring an asynchronous deducer for dynamic task decomposition, a versatile enumerator for resolving enumeration requests, and an accumulative case splitter for if-then-else condition/branch search and assembling. Our implementation, Synthphonia exhibits substantial performance improvements over state-of-the-art synthesizers, successfully solving 116 challenging string transformation tasks for the first time.",
+    "citationCount": 1,
+    "referenceCount": 41
+}

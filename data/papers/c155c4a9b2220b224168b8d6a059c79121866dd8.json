@@ -1,0 +1,34 @@
+{
+    "paperId": "c155c4a9b2220b224168b8d6a059c79121866dd8",
+    "title": "Acceleration of DNN-based Hand Pose Estimation with Monocular Camera Using TVM",
+    "year": 2022,
+    "venue": "International Symposium on Embedded Multicore/Many-core Systems-on-Chip",
+    "authors": [
+        "Toshihiro Uetsuki",
+        "Yohei Shimmyo",
+        "Y. Okuyama",
+        "Yoichi Tomioka",
+        "Jungpil Shin"
+    ],
+    "doi": "10.1109/MCSoC57363.2022.00019",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c155c4a9b2220b224168b8d6a059c79121866dd8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a method to accelerate hand detection and 3D hand landmark estimation using the MediaPipe Hands. MediaPipe Hands performs in real time by switching neural networks. However, we focused on speeding up the neural network for smoother detection. We used Tensor Virtual Machine (TVM) and AutoScheduler to optimize the neural network model and maximize CPU and GPU execution performance. In our experiment, we compared the output of three metrics: total inference time, total joint coordinate error, and total program time, in which we constructed a hand pose estimation system. Experimental results showed that the palm detection model and the hand landmark estimation were 3.9-7.5 times faster on the Ryzen9 3950X and RTX3070. Based on the number of frames per second from the total program time, the hand pose estimation system ran 1.3-1.4 times faster on the CPU but 0.8 times slower on the GPU. Our proposed method effectively speeds up neural networks based on the experimental results. On the other hand, we conclude that further investigation is needed to determine how our proposed method can contribute to the original MediaPipe Hands system.",
+    "citationCount": 0,
+    "referenceCount": 16
+}

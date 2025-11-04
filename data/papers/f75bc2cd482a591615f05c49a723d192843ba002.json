@@ -1,0 +1,35 @@
+{
+    "paperId": "f75bc2cd482a591615f05c49a723d192843ba002",
+    "title": "MemFriend: Understanding Memory Performance with Spatial-Temporal Affinity",
+    "year": 2024,
+    "venue": "International Symposium on Memory Systems",
+    "authors": [
+        "Yasodha Suriyakumar",
+        "Nathan R. Tallent",
+        "Andrés Márquez",
+        "K. Karavanic",
+        "Ozgur O. Kilic"
+    ],
+    "doi": "10.1145/3695794.3695820",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f75bc2cd482a591615f05c49a723d192843ba002",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In HPC applications, memory access behavior is one of the main factors affecting performance. Improving an application’s memory access behavior requires studying spatial-temporal data locality. Existing data locality analyses focus on single locations. We introduce locality metrics between pairs of memory locations that quantify three dimensions of spatial-temporal affinity: temporal access proximity, forward access correlation, and nearby access correlation. We describe methods for distinguishing between potential vs. realized affinity and for reasoning about affinity (or friendship) at multiple resolutions (4D, 3D, 2D, 1D). Finally, we construct spatial-temporal affinity signatures that classify memory behavior and are used to reason about changes in software (data relayout, code refactoring) or hardware (caching, prefetching). We describe methods for signature visualization, interpretation, and quantitative comparison of signatures. We evaluate our methodology using applications with variants that contrast data structures, data layouts and algorithms. We show that spatial-temporal affinity analysis provides novel insights and enables predictive reasoning about application performance.",
+    "citationCount": 2,
+    "referenceCount": 47
+}

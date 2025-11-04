@@ -1,0 +1,37 @@
+{
+    "paperId": "dd800a3bddc833c9cba13d0690cf37f360d19c7a",
+    "title": "Keep your distance: learning dispersed embeddings on $\\mathbb{S}_{m}$",
+    "year": 2025,
+    "venue": "Trans. Mach. Learn. Res.",
+    "authors": [
+        "E. Tokarchuk",
+        "Hua Chang Bakker",
+        "Vlad Niculae"
+    ],
+    "doi": null,
+    "arxivId": "2502.08231",
+    "url": "https://www.semanticscholar.org/paper/dd800a3bddc833c9cba13d0690cf37f360d19c7a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning well-separated features in high-dimensional spaces, such as text or image embeddings, is crucial for many machine learning applications. Achieving such separation can be effectively accomplished through the dispersion of embeddings, where unrelated vectors are pushed apart as much as possible. By constraining features to be on a hypersphere, we can connect dispersion to well-studied problems in mathematics and physics, where optimal solutions are known for limited low-dimensional cases. However, in representation learning we typically deal with a large number of features in high-dimensional space, and moreover, dispersion is usually traded off with some other task-oriented training objective, making existing theoretical and numerical solutions inapplicable. Therefore, it is common to rely on gradient-based methods to encourage dispersion, usually by minimizing some function of the pairwise distances. In this work, we first give an overview of existing methods from disconnected literature, making new connections and highlighting similarities. Next, we introduce some new angles. We propose to reinterpret pairwise dispersion using a maximum mean discrepancy (MMD) motivation. We then propose an online variant of the celebrated Lloyd's algorithm, of K-Means fame, as an effective alternative regularizer for dispersion on generic domains. Finally, we derive a novel dispersion method that directly exploits properties of the hypersphere. Our experiments show the importance of dispersion in image classification and natural language processing tasks, and how algorithms exhibit different trade-offs in different regimes.",
+    "citationCount": 0,
+    "referenceCount": 80
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "d374e040ae20fbee81299be4ee3c605bfd5be974",
+    "title": "Efficient and Secure Multiparty Querying over Federated Graph Databases",
+    "year": 2024,
+    "venue": "International Conference on Data Technologies and Applications",
+    "authors": [
+        "Nouf Al-Juaid",
+        "Alexei Lisitsa",
+        "Sven Schewe"
+    ],
+    "doi": "10.5220/0012757100003756",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d374e040ae20fbee81299be4ee3c605bfd5be974",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": ": We present a system for efficient privacy-preserving multi-party querying (PPMQ) over federated graph databases. This framework offers a customisable and adaptable approach to privacy preservation using two different security protocols. The first protocol utilises standard secure multiparty computation (SMPC) protocols on the client side, enabling computations to be conducted on data without exposing the data itself. The second protocol is implemented on the server side using a combination of an SMPC protocol to prevent exposing the data to the clients and the use of encrypted hashing to prevent exposing the data to the server. We have conducted experiments to compare the efficiency of our PPMQ system with Neo4j Fabric, the off-the-shelf solution for querying federated graph databases, and with two previous systems, SMPQ and Conclave for secure multiparty querying. The results demonstrated that the execution times and overheads of PPMQ are comparable to those using Neo4j Fabric. Notably, our results reveal that the execution times and overheads of PPMQ outperform both SMPQ and Conclave, showcasing the better efficiency of our approach in preserving privacy within federated graph databases.",
+    "citationCount": 2,
+    "referenceCount": 38
+}

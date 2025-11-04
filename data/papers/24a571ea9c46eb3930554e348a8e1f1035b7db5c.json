@@ -1,0 +1,38 @@
+{
+    "paperId": "24a571ea9c46eb3930554e348a8e1f1035b7db5c",
+    "title": "DJEnsemble: On the Selection of a Disjoint Ensemble of Deep Learning Black-Box Spatio-temporal Models",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Y. M. Souto",
+        "R. S. Pereira",
+        "Rocío Zorrilla",
+        "A. Silva",
+        "Brian Tsan",
+        "Florin Rusu",
+        "Eduardo Ogasawara",
+        "A. Ziviani",
+        "F. Porto"
+    ],
+    "doi": null,
+    "arxivId": "2005.11093",
+    "url": "https://www.semanticscholar.org/paper/24a571ea9c46eb3930554e348a8e1f1035b7db5c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we present a cost-based approach for the automatic selection and allocation of a disjoint ensemble of black-box predictors to answer predictive spatio-temporal queries. Our approach is divided into two parts -- offline and online. During the offline part, we preprocess the predictive domain data -- transforming it into a regular grid -- and the black-box models -- computing their spatio-temporal learning function. In the online part, we compute a DJEnsemble plan which minimizes a multivariate cost function based on estimates for the prediction error and the execution cost -- producing a model spatial allocation matrix -- and run the optimal ensemble plan. We conduct a set of extensive experiments that evaluate the DJEnsemble approach and highlight its efficiency. We show that our cost model produces plans with performance close to the actual best plan. When compared against the traditional ensemble approach, DJEnsemble achieves up to $4X$ improvement in execution time and almost $9X$ improvement in prediction accuracy. To the best of our knowledge, this is the first work to solve the problem of optimizing the allocation of black-box models to answer predictive spatio-temporal queries.",
+    "citationCount": 1,
+    "referenceCount": 56
+}

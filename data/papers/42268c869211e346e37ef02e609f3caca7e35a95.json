@@ -1,0 +1,31 @@
+{
+    "paperId": "42268c869211e346e37ef02e609f3caca7e35a95",
+    "title": "Domain- and Language-Adaptable Natural Language Interface for Property Graphs",
+    "year": 2025,
+    "venue": "De Computis",
+    "authors": [
+        "Ioannis Tsampos",
+        "Emmanouil Marakakis"
+    ],
+    "doi": "10.3390/computers14050183",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/42268c869211e346e37ef02e609f3caca7e35a95",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Despite the growing adoption of Property Graph Databases, like Neo4j, interacting with them remains difficult for non-technical users due to the reliance on formal query languages. Natural Language Interfaces (NLIs) address this by translating natural language (NL) into Cypher. However, existing solutions are typically limited to high-resource languages; are difficult to adapt to evolving domains with limited annotated data; and often depend on Machine Learning (ML) approaches, including Large Language Models (LLMs), that demand substantial computational resources and advanced expertise for training and maintenance. We address these limitations by introducing a novel dependency-based, training-free, schema-agnostic Natural Language Interface (NLI) that converts NL queries into Cypher for querying Property Graphs. Our system employs a modular pipeline-integrating entity and relationship extraction, Named Entity Recognition (NER), semantic mapping, triple creation via syntactic dependencies, and validation against an automatically extracted Schema Graph. The distinctive feature of this approach is the reduction in candidate entity pairs using syntactic analysis and schema validation, eliminating the need for candidate query generation and ranking. The schema-agnostic design enables adaptation across domains and languages. Our system supports single- and multi-hop queries, conjunctions, comparisons, aggregations, and complex questions through an explainable process. Evaluations on real-world queries demonstrate reliable translation results.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

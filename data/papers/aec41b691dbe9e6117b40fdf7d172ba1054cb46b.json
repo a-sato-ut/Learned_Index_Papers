@@ -1,0 +1,42 @@
+{
+    "paperId": "aec41b691dbe9e6117b40fdf7d172ba1054cb46b",
+    "title": "Glimpse: mathematical embedding of hardware specification for neural compilation",
+    "year": 2022,
+    "venue": "Design Automation Conference",
+    "authors": [
+        "Byung Hoon Ahn",
+        "Sean Kinzer",
+        "H. Esmaeilzadeh"
+    ],
+    "doi": "10.1145/3489517.3530590",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/aec41b691dbe9e6117b40fdf7d172ba1054cb46b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3489517.3530590",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Success of Deep Neural Networks (DNNs) and their computational intensity has heralded Cambrian explosion of DNN hardware. While hardware design has advanced significantly, optimizing the code for them is still an open challenge. Recent research has moved past traditional compilation techniques and taken a stochastic search algorithmic path that blindly generates rather stochastic samples of the binaries for real hardware measurements to guide the search. This paper opens a new dimension by incorporating the mathematical embedding of the hardware specification of the GPU accelerators dubbed Blueprint to better guide the search algorithm and focus on sub-spaces that have higher potential for yielding higher performance binaries. While various sample efficient yet blind hardware-agnostic techniques have been proposed, none of the state-of-the-art compilers have considered hardware specification as hints to improve the sample efficiency and the search. To mathematically embed the hardware specifications into the search, we devise a Bayesian optimization framework called Glimpse with multiple exclusively unique components. We first use the Blueprint as an input to generate prior distributions of different dimensions in the search space. Then, we devise a light-weight neural acquisition function that takes into account the Blueprint to conform to the hardware specification while balancing the exploration-exploitation trade-off. Finally, we generate an ensemble of predictors from the Blueprint that collectively vote to reject invalid binary samples. We compare Glimpse with hardware-agnostic compilers. Comparison to AutoTVM [3], Chameleon [2], and DGP [16] with multiple generations of GPUs shows that Glimpse provides 6.73×, 1.51×, and 1.92× faster compilation time, respectively, while also achieving the best inference latency.",
+    "citationCount": 9,
+    "referenceCount": 19
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "1bf27dfe307fd155b134a265a1f77de74a6ec045",
+    "title": "Boosting Deep Vector Quantization with Progressive Distribution Transformation",
+    "year": 2025,
+    "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "authors": [
+        "Weikang Wang",
+        "Xin Zhou",
+        "Jun Liu",
+        "Weifeng Zhang",
+        "Huan Yan"
+    ],
+    "doi": "10.1145/3711896.3736863",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1bf27dfe307fd155b134a265a1f77de74a6ec045",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Vector quantization (VQ) is an effective technique for data compression and is widely used in approximate nearest neighbor search (ANNs). Based on the multi-codebook quantization (MCQ), most of existing VQ methods focus on the refinement of codebook structure to enhance performance. However, the uneven distribution of raw vectors poses challenges for effective codebook learning. Previous attempts to learn distribution transformations for raw vectors have struggled with minimal accuracy improvements and limited scalability due to poor convergence. To address these problems, we propose a Progressive Distribution Transformation (PDT) algorithm based on denoising autoencoder for VQ optimization. Our approach employs multi-head distribution transformation (MHDT) blocks to progressively learn transformation offsets, allowing raw vectors to be transformed into a quantization-friendly latent space step-by-step. Notably, the proposed PDT algorithm can be seamlessly integrated with diverse existing deep MCQ methods, facilitating end-to-end training and efficient inference. Furthermore, it also enables easy integration with VQ-based ANNs methods. Experimental results show that our method outperforms state-of-the-art MCQ methods by 20.6% and significantly boosts existing deep MCQ techniques by 58.5% in search accuracy across various similarity search datasets, while also exhibiting improved scalability and efficiency. The code has been available at https://github.com/Lenovo-ICI/PDT-VQ.",
+    "citationCount": 0,
+    "referenceCount": 38
+}

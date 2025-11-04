@@ -1,0 +1,34 @@
+{
+    "paperId": "17a8bd6a5763f6607863348ce1757ac2ad3417fd",
+    "title": "Accelerating Transformer Networks through Recomposing Softmax Layers",
+    "year": 2022,
+    "venue": "IEEE International Symposium on Workload Characterization",
+    "authors": [
+        "Jaewan Choi",
+        "Hailong Li",
+        "Byeongho Kim",
+        "Seunghwan Hwang",
+        "Jung Ho Ahn"
+    ],
+    "doi": "10.1109/IISWC55918.2022.00018",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/17a8bd6a5763f6607863348ce1757ac2ad3417fd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The transformer model has become a crucial deep learning model as it provides accuracy superior to that by conventional models in various domains, such as image processing, genomics, and natural language processing. Recently, the importance of the softmax layer has increased as a growing number of transformer models process longer sequences to improve their accuracy rates. However, it is difficult to accelerate a softmax layer with methods introduced in previous studies due to the differences in the data access patterns of softmax layers and other adjacent layers. We address this challenge by accelerating the softmax layer through a recomposition strategy. By decomposing the softmax layer into multiple sub-layers, we change its data access pattern. Then, we fuse the decomposed softmax sub-layers with the subsequent and preceding operations. Softmax recomposition achieves up to 1.25 $\\times$, 1.12 $\\times$, 1.57 $\\times$, and 1.65 $\\times$ speedups in inferring BERT, GPT-Neo, BigBird, and Longformer on a modern GPU by significantly reducing the off-chip memory traffic.",
+    "citationCount": 14,
+    "referenceCount": 40
+}

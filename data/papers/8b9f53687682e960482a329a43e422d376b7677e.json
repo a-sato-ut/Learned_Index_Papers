@@ -1,0 +1,39 @@
+{
+    "paperId": "8b9f53687682e960482a329a43e422d376b7677e",
+    "title": "Exploring HPC and Big Data Convergence: A Graph Processing Study on Intel Knights Landing",
+    "year": 2018,
+    "venue": "IEEE International Conference on Cluster Computing",
+    "authors": [
+        "Alexandru Uta",
+        "A. Varbanescu",
+        "Ahmed Musaafir",
+        "Chris Lemaire",
+        "A. Iosup"
+    ],
+    "doi": "10.1109/CLUSTER.2018.00019",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8b9f53687682e960482a329a43e422d376b7677e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://research.vu.nl/files/84793515/Exploring_HPC_and_Big_Data_Convergence.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The question \"Can big data and HPC infrastructure converge?\" has important implications for many operators and clients of modern computing. However, answering it is challenging. The hardware is currently different, and fast evolving: big data uses machines with modest numbers of fat cores per socket, large caches, and much memory, whereas HPC uses machines with larger numbers of (thinner) cores, non-trivial NUMA architectures, and fast interconnects. In this work, we investigate the convergence of big data and HPC infrastructure for one of the most challenging application domains, the highly irregular graph processing. We contrast through a systematic, experimental study of over 300,000 core-hours the performance of a modern multicore, Intel Knights Landing (KNL) and of traditional big data hardware, in processing representative graph workloads using state-of-the-art graph analytics platforms. The experimental results indicate KNL is convergence-ready, performance-wise, but only after extensive and expert-level tuning of software and hardware parameters.",
+    "citationCount": 10,
+    "referenceCount": 73
+}

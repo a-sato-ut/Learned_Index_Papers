@@ -1,0 +1,32 @@
+{
+    "paperId": "5161e4a6a6c276960d0db610acb7807f5fdf4c7c",
+    "title": "Neural Machine Translation for Code Generation",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "K. Dharma",
+        "Clayton T. Morrison"
+    ],
+    "doi": "10.48550/arXiv.2305.13504",
+    "arxivId": "2305.13504",
+    "url": "https://www.semanticscholar.org/paper/5161e4a6a6c276960d0db610acb7807f5fdf4c7c",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.13504",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural machine translation (NMT) methods developed for natural language processing have been shown to be highly successful in automating translation from one natural language to another. Recently, these NMT methods have been adapted to the generation of program code. In NMT for code generation, the task is to generate output source code that satisfies constraints expressed in the input. In the literature, a variety of different input scenarios have been explored, including generating code based on natural language description, lower-level representations such as binary or assembly (neural decompilation), partial representations of source code (code completion and repair), and source code in another language (code translation). In this paper we survey the NMT for code generation literature, cataloging the variety of methods that have been explored according to input and output representations, model architectures, optimization techniques used, data sets, and evaluation methods. We discuss the limitations of existing methods and future research directions",
+    "citationCount": 6,
+    "referenceCount": 207
+}

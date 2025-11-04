@@ -1,0 +1,37 @@
+{
+    "paperId": "1a2738a3a7f0e9290e6ba4862316891aa7838123",
+    "title": "CrossBeam: Learning to Search in Bottom-Up Program Synthesis",
+    "year": 2022,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Kensen Shi",
+        "H. Dai",
+        "Kevin Ellis",
+        "Charles Sutton"
+    ],
+    "doi": "10.48550/arXiv.2203.10452",
+    "arxivId": "2203.10452",
+    "url": "https://www.semanticscholar.org/paper/1a2738a3a7f0e9290e6ba4862316891aa7838123",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.10452",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many approaches to program synthesis perform a search within an enormous space of programs to find one that satisfies a given specification. Prior works have used neural models to guide combinatorial search algorithms, but such approaches still explore a huge portion of the search space and quickly become intractable as the size of the desired program increases. To tame the search space blowup, we propose training a neural model to learn a hands-on search policy for bottom-up synthesis, instead of relying on a combinatorial search algorithm. Our approach, called CrossBeam, uses the neural model to choose how to combine previously-explored programs into new programs, taking into account the search history and partial program executions. Motivated by work in structured prediction on learning to search, CrossBeam is trained on-policy using data extracted from its own bottom-up searches on training tasks. We evaluate CrossBeam in two very different domains, string manipulation and logic programming. We observe that CrossBeam learns to search efficiently, exploring much smaller portions of the program space compared to the state-of-the-art.",
+    "citationCount": 27,
+    "referenceCount": 54
+}

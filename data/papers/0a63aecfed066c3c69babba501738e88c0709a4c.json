@@ -1,0 +1,32 @@
+{
+    "paperId": "0a63aecfed066c3c69babba501738e88c0709a4c",
+    "title": "GitTables: A Large-Scale Corpus of Relational Tables",
+    "year": 2021,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Madelon Hulsebos",
+        "cCaugatay Demiralp",
+        "Paul Groth"
+    ],
+    "doi": "10.1145/3588710",
+    "arxivId": "2106.07258",
+    "url": "https://www.semanticscholar.org/paper/0a63aecfed066c3c69babba501738e88c0709a4c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2106.07258",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The success of deep learning has sparked interest in improving relational table tasks, like data preparation and search, with table representation models trained on large table corpora. Existing table corpora primarily contain tables extracted from HTML pages, limiting the capability to represent offline database tables. To train and evaluate high-capacity models for applications beyond the Web, we need resources with tables that resemble relational database tables. Here we introduce GitTables, a corpus of 1M relational tables extracted from GitHub. Our continuing curation aims at growing the corpus to at least 10M tables. Analyses of GitTables show that its structure, content, and topical coverage differ significantly from existing table corpora. We annotate table columns in GitTables with semantic types, hierarchical relations and descriptions from Schema.org and DBpedia. The evaluation of our annotation pipeline on the T2Dv2 benchmark illustrates that our approach provides results on par with human annotations. We present three applications of GitTables, demonstrating its value for learned semantic type detection models, schema completion methods, and benchmarks for table-to-KG matching, data search, and preparation. We make the corpus and code available at https://gittables.github.io.",
+    "citationCount": 99,
+    "referenceCount": 70
+}

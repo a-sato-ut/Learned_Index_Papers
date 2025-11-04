@@ -1,0 +1,36 @@
+{
+    "paperId": "ce64ea1b4b5fd071a054726e748a33a317978f46",
+    "title": "A Theoretical Analysis Of Nearest Neighbor Search On Approximate Near Neighbor Graph",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Anshumali Shrivastava",
+        "Zhao Song",
+        "Zhaozhuo Xu"
+    ],
+    "doi": "10.48550/arXiv.2303.06210",
+    "arxivId": "2303.06210",
+    "url": "https://www.semanticscholar.org/paper/ce64ea1b4b5fd071a054726e748a33a317978f46",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2303.06210",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph-based algorithms have demonstrated state-of-the-art performance in the nearest neighbor search (NN-Search) problem. These empirical successes urge the need for theoretical results that guarantee the search quality and efficiency of these algorithms. However, there exists a practice-to-theory gap in the graph-based NN-Search algorithms. Current theoretical literature focuses on greedy search on exact near neighbor graph while practitioners use approximate near neighbor graph (ANN-Graph) to reduce the preprocessing time. This work bridges this gap by presenting the theoretical guarantees of solving NN-Search via greedy search on ANN-Graph for low dimensional and dense vectors. To build this bridge, we leverage several novel tools from computational geometry. Our results provide quantification of the trade-offs associated with the approximation while building a near neighbor graph. We hope our results will open the door for more provable efficient graph-based NN-Search algorithms.",
+    "citationCount": 12,
+    "referenceCount": 37
+}

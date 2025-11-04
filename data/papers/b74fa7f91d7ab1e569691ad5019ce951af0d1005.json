@@ -1,0 +1,44 @@
+{
+    "paperId": "b74fa7f91d7ab1e569691ad5019ce951af0d1005",
+    "title": "EchoApex: A General-Purpose Vision Foundation Model for Echocardiography",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "A. Amadou",
+        "Yue Zhang",
+        "Sebastien Piat",
+        "Paul Klein",
+        "Ingo Schmuecking",
+        "T. Passerini",
+        "Puneet Sharma"
+    ],
+    "doi": "10.48550/arXiv.2410.11092",
+    "arxivId": "2410.11092",
+    "url": "https://www.semanticscholar.org/paper/b74fa7f91d7ab1e569691ad5019ce951af0d1005",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Quantitative evaluation of echocardiography is essential for precise assessment of cardiac condition, monitoring disease progression, and guiding treatment decisions. The diverse nature of echo images, including variations in probe types, manufacturers, and pathologies, poses challenges for developing artificial intelligent models that can generalize across different clinical practice. We introduce EchoApex, the first general-purpose vision foundation model echocardiography with applications on a variety of clinical practice. Leveraging self-supervised learning, EchoApex is pretrained on over 20 million echo images from 11 clinical centres. By incorporating task-specific decoders and adapter modules, we demonstrate the effectiveness of EchoApex on 4 different kind of clinical applications with 28 sub-tasks, including view classification, interactive structure segmentation, left ventricle hypertrophy detection and automated ejection fraction estimation from view sequences. Compared to state-of-the-art task-specific models, EchoApex attains improved performance with a unified image encoding architecture, demonstrating the benefits of model pretraining at scale with in-domain data. Furthermore, EchoApex illustrates the potential for developing a general-purpose vision foundation model tailored specifically for echocardiography, capable of addressing a diverse range of clinical applications with high efficiency and efficacy.",
+    "citationCount": 7,
+    "referenceCount": 60
+}

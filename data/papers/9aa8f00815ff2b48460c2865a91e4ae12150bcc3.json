@@ -1,0 +1,35 @@
+{
+    "paperId": "9aa8f00815ff2b48460c2865a91e4ae12150bcc3",
+    "title": "Learning to Superoptimize Real-world Programs",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Alex Shypula",
+        "P. Yin",
+        "Jeremy Lacomis",
+        "Claire Le Goues",
+        "Edward N. Schwartz",
+        "Graham Neubig"
+    ],
+    "doi": null,
+    "arxivId": "2109.13498",
+    "url": "https://www.semanticscholar.org/paper/9aa8f00815ff2b48460c2865a91e4ae12150bcc3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Program optimization is the process of modifying software to execute more efficiently. Superoptimizers attempt to find the optimal program by employing significantly more expensive search and constraint solving techniques. Generally, these methods do not scale well to programs in real development scenarios, and as a result, superoptimization has largely been confined to small-scale, domain-specific, and/or synthetic program benchmarks. In this paper, we propose a framework to learn to superoptimize real-world programs by using neural sequence-to-sequence models. We created a dataset consisting of over 25K real-world x86-64 assembly functions mined from open-source projects and propose an approach, Self Imitation Learning for Optimization (SILO) that is easy to implement and outperforms a standard policy gradient learning approach on our dataset. Our method, SILO, superoptimizes 5.9% of our test set when compared with the gcc version 10.3 compiler's aggressive optimization level -O3. We also report that SILO's rate of superoptimization on our test set is over five times that of a standard policy gradient approach and a model pre-trained on compiler optimization demonstration.",
+    "citationCount": 10,
+    "referenceCount": 35
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "363758e9e296adc9391ed731e834809cf5d4c19b",
+    "title": "Are machine programming systems using right source-code measures to select code repositories?",
+    "year": 2022,
+    "venue": "MaLTeSQuE@ESEC/SIGSOFT FSE",
+    "authors": [
+        "N. Hasabnis"
+    ],
+    "doi": "10.1145/3549034.3561176",
+    "arxivId": "2209.11946",
+    "url": "https://www.semanticscholar.org/paper/363758e9e296adc9391ed731e834809cf5d4c19b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3549034.3561176",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine programming (MP) is an emerging field at the intersection of deterministic and probabilistic computing, and it aims to assist software and hardware engineers, among other applications. Along with powerful compute resources, MP systems often rely on vast amount of open-source code to learn interesting properties about code and programming and solve problems in the areas of debugging, code recommendation, auto-completion, etc. Unfortunately, several of the existing MP systems either do not consider quality of code repositories or use atypical quality measures than those typically used in software engineering community to select them. As such, impact of quality of code repositories on the performance of these systems needs to be studied. In this preliminary paper, we evaluate impact of different quality repositories on the performance of a candidate MP system. Towards that objective, we develop a framework, named GitRank, to rank open-source repositories on quality, maintainability, and popularity by leveraging existing research on this topic. We then apply GitRank to evaluate correlation between the quality measures used by the candidate MP system and the quality measures used by our framework. Our preliminary results reveal some correlation between the quality measures used in GitRank and ControlFlag's performance, suggesting that some of the measures used in GitRank are applicable to ControlFlag. But it also raises questions around right quality measures for code repositories used in MP systems. We believe that our findings also generate interesting insights towards code quality measures that affect performance of MP systems.",
+    "citationCount": 2,
+    "referenceCount": 34
+}

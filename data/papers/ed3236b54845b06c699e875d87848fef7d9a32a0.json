@@ -1,0 +1,33 @@
+{
+    "paperId": "ed3236b54845b06c699e875d87848fef7d9a32a0",
+    "title": "Flowrest: Practical Flow-Level Inference in Programmable Switches with Random Forests",
+    "year": 2023,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Aristide T.-J. Akem",
+        "Michele Gucciardo",
+        "M. Fiore"
+    ],
+    "doi": "10.1109/INFOCOM53939.2023.10229100",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ed3236b54845b06c699e875d87848fef7d9a32a0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://zenodo.org/records/7550150/files/Flowrest_INFOCOM_2023_av%20(1).pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "User-plane machine learning facilitates low-latency, high-throughput inference at line rate. Yet, user planes are highly constrained environments, and restrictions are especially marked in programmable switches with limited memory and minimum support for mathematical operations or data types. Thus, current solutions for in-switch inference that are compatible with production-level hardware lack support for complex features or suffer from limited scalability, and hit performance barriers in complex tasks involving large decision spaces. To address this limitation, we present Flowrest, a first complete Random Forest (RF) model implementation that operates at the level of individual flows in commercial switches. Our solution builds on (i) an original framework to embed flow-level machine learning models into programmable switch ASICs, and (ii) novel guidelines for tailoring RF models to operations in programmable switches already at the design stage. We implement Flowrest as an open-source software using the P4 language, and assess its performance in an experimental platform based on Intel Tofino switches. Tests with tasks of unprecedented complexity show how our model can improve accuracy by up to 39% over previous approaches to implement RF models in real-world equipment.",
+    "citationCount": 50,
+    "referenceCount": 49
+}

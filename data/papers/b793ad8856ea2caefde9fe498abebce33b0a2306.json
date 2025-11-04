@@ -1,0 +1,35 @@
+{
+    "paperId": "b793ad8856ea2caefde9fe498abebce33b0a2306",
+    "title": "Advice Complexity bounds for Online Delayed F-Node-, H-Node- and H-Edge-Deletion Problems",
+    "year": 2023,
+    "venue": "International Workshop on Combinatorial Algorithms",
+    "authors": [
+        "N. Berndt",
+        "Henri Lotze"
+    ],
+    "doi": "10.48550/arXiv.2303.17346",
+    "arxivId": "2303.17346",
+    "url": "https://www.semanticscholar.org/paper/b793ad8856ea2caefde9fe498abebce33b0a2306",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2303.17346",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Let F be a fixed finite obstruction set of graphs and G be a graph revealed in an online fashion, node by node. The online Delayed F-Node-Deletion Problem (F-Edge-Deletion Problem}) is to keep G free of every H in F by deleting nodes (edges) until no induced subgraph isomorphic to any graph in F can be found in G. The task is to keep the number of deletions minimal. Advice complexity is a model in which an online algorithm has access to a binary tape of infinite length, on which an oracle can encode information to increase the performance of the algorithm. We are interested in the minimum number of advice bits that are necessary and sufficient to solve a deletion problem optimally. In this work, we first give essentially tight bounds on the advice complexity of the Delayed F-Node-Deletion Problem and F-Edge-Deletion Problem where F consists of a single, arbitrary graph H. We then show that the gadget used to prove these results can be utilized to give tight bounds in the case of node deletions if F consists of either only disconnected graphs or only connected graphs. Finally, we show that the number of advice bits that is necessary and sufficient to solve the general Delayed F-Node-Deletion Problem is heavily dependent on the obstruction set F. To this end, we provide sets for which this number is either constant, logarithmic or linear in the optimal number of deletions.",
+    "citationCount": 2,
+    "referenceCount": 15
+}

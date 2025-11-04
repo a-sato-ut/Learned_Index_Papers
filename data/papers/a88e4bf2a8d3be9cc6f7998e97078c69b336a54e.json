@@ -1,0 +1,41 @@
+{
+    "paperId": "a88e4bf2a8d3be9cc6f7998e97078c69b336a54e",
+    "title": "Collage: Seamless Integration of Deep Learning Backends with Automatic Placement",
+    "year": 2021,
+    "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+    "authors": [
+        "Byungsoo Jeon",
+        "Sunghyun Park",
+        "Peiyuan Liao",
+        "Sheng Xu",
+        "Tianqi Chen",
+        "Zhihao Jia"
+    ],
+    "doi": "10.1145/3559009.3569651",
+    "arxivId": "2111.00655",
+    "url": "https://www.semanticscholar.org/paper/a88e4bf2a8d3be9cc6f7998e97078c69b336a54e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3559009.3569651",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The strong demand for efficient and performant deployment of Deep Learning (DL) applications prompts the rapid development of a rich DL ecosystem. To keep up with this fast advancement, it is crucial for modern DL frameworks to efficiently integrate a variety of optimized tensor algebra libraries and runtimes as their backends and generate the fastest possible executable using these backends. However, current DL frameworks require significant manual effort and expertise to integrate every new backend while failing to unleash its full potential. Given the fast-evolving nature of the DL ecosystem, this manual approach often slows down continuous innovations across different layers; it prevents hardware vendors from the fast deployment of their cutting-edge libraries, DL framework developers must repeatedly adjust their hand-coded rules to accommodate new versions of libraries, and machine learning practitioners need to wait for the integration of new technologies and often encounter unsatisfactory performance. In this paper, we propose Collage, a DL framework that offers seamless integration of DL backends. Collage provides an expressive backend registration interface that allows users to precisely specify the capability of various backends. By leveraging the specifications of available backends, Collage automatically searches for an optimized backend placement strategy for a given workload and execution environment. Our evaluation shows that Collage outperforms the best existing framework for each hardware by 1.26×, 1.43×, 1.40× on average on NVIDIA's RTX 2070 GPU, V100 GPU, and Intel's Xeon 8259CL CPU, respectively. Collage has been open-sourced 1 and deployed in Apache TVM.",
+    "citationCount": 7,
+    "referenceCount": 73
+}

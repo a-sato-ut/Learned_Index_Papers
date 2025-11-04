@@ -1,0 +1,37 @@
+{
+    "paperId": "2707836f904eb7d36eb92891ae8d8a23db648b02",
+    "title": "Streamlining Cloud-Native Application Development and Deployment with Robust Encapsulation",
+    "year": 2024,
+    "venue": "ACM Symposium on Cloud Computing",
+    "authors": [
+        "Pawissanutt Lertpongrujikorn",
+        "H. Nguyen",
+        "Mohsen Amini Salehi"
+    ],
+    "doi": "10.1145/3698038.3698552",
+    "arxivId": "2410.16569",
+    "url": "https://www.semanticscholar.org/paper/2707836f904eb7d36eb92891ae8d8a23db648b02",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current Serverless abstractions (e.g., FaaS) poorly support non-functional requirements (e.g., QoS and constraints), are provider-dependent, and are incompatible with other cloud abstractions (e.g., databases). As a result, application developers have to undergo numerous rounds of development and manual deployment refinements to finally achieve their desired quality and efficiency. In this paper, we present Object-as-a-Service (OaaS)---a novel serverless paradigm that borrows the object-oriented programming concepts to encapsulate business logic, data, and non-functional requirements into a single deployment package, thereby streamlining provider-agnostic cloud-native application development. We also propose a declarative interface for the non-functional requirements of applications that relieves developers from daunting refinements to meet their desired QoS and deployment constraint targets. We realized the OaaS paradigm through a platform called Oparaca and evaluated it against various real-world applications and scenarios. The evaluation results demonstrate that Oparaca can enhance application performance by 60× and improve reliability by 50× through latency, throughput, and availability enforcement---all with remarkably less development and deployment time and effort.",
+    "citationCount": 1,
+    "referenceCount": 100
+}

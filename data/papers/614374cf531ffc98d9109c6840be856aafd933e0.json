@@ -1,0 +1,39 @@
+{
+    "paperId": "614374cf531ffc98d9109c6840be856aafd933e0",
+    "title": "A Method for Optimizing Deep Learning Object Detection in Edge Computing",
+    "year": 2020,
+    "venue": "Information and Communication Technology Convergence",
+    "authors": [
+        "Ryangsoo Kim",
+        "Geonyong Kim",
+        "Heedo Kim",
+        "Giha Yoon",
+        "Hark Yoo"
+    ],
+    "doi": "10.1109/ICTC49870.2020.9289529",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/614374cf531ffc98d9109c6840be856aafd933e0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, edge computing has received considerable attention as a promising solution to provide deep learning-based video analysis services in real-time. However, due to the limited computation capability of the data processing units (such as CPUs, GPUs, and specialized accelerators) embedded in the edge devices, the question of how to use the limited resources of the edge devices is one of the most pressing issues affecting deep learning-based video analysis service efficiency. In this paper, we introduce a practical approach to optimize deep learning object detection at the edge devices embedding CPUs and GPUs. The proposed approach adopts TVM, an automated end-to-end deep learning compiler that automatically optimizes deep learning workloads with respect to hardware-specific characteristics. In addition, task-level pipeline parallelism is applied to maximize resource utilization of the CPUs and GPUs so as to improve overall object detection performance. Through experiment results, we show that the proposed approach achieves performance improvement for detecting objects on multiple video streams in terms of frame per second.",
+    "citationCount": 9,
+    "referenceCount": 14
+}

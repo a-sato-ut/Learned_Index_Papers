@@ -1,0 +1,34 @@
+{
+    "paperId": "eab2bdbc061b5a68835464d9c06b55a7c443204d",
+    "title": "Lightweight ML-based Runtime Prefetcher Selection on Many-core Platforms",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Erika S. Alcorta",
+        "Mahesh Madhav",
+        "Scott Tetrick",
+        "N. Yadwadkar",
+        "A. Gerstlauer"
+    ],
+    "doi": "10.48550/arXiv.2307.08635",
+    "arxivId": "2307.08635",
+    "url": "https://www.semanticscholar.org/paper/eab2bdbc061b5a68835464d9c06b55a7c443204d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.08635",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern computer designs support composite prefetching, where multiple individual prefetcher components are used to target different memory access patterns. However, multiple prefetchers competing for resources can drastically hurt performance, especially in many-core systems where cache and other resources are shared and very limited. Prior work has proposed mitigating this issue by selectively enabling and disabling prefetcher components during runtime. Traditional approaches proposed heuristics that are hard to scale with increasing core and prefetcher component counts. More recently, deep reinforcement learning was proposed. However, it is too expensive to deploy in real-world many-core systems. In this work, we propose a new phase-based methodology for training a lightweight supervised learning model to manage composite prefetchers at runtime. Our approach improves the performance of a state-of-the-art many-core system by up to 25% and by 2.7% on average over its default prefetcher configuration.",
+    "citationCount": 4,
+    "referenceCount": 20
+}

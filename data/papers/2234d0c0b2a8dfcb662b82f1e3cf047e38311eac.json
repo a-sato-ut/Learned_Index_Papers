@@ -1,0 +1,35 @@
+{
+    "paperId": "2234d0c0b2a8dfcb662b82f1e3cf047e38311eac",
+    "title": "Sifter: An Efficient Operator Auto-Tuner With Speculative Design Space Exploration for Deep Learning Compiler",
+    "year": 2025,
+    "venue": "IEEE transactions on computers",
+    "authors": [
+        "Qianhe Zhao",
+        "Rui Wang",
+        "Yi Liu",
+        "Hailong Yang",
+        "Zhongzhi Luan",
+        "Depei Qian"
+    ],
+    "doi": "10.1109/TC.2024.3441820",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2234d0c0b2a8dfcb662b82f1e3cf047e38311eac",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning compiler can automatically optimize operators. It provides higher flexibility compared to vendor libraries. However, existing DNN operator tuning methods mostly rely on search-based approaches, which still face challenges such as large design spaces and long tuning times. To address these issues, we propose Sifter, an efficient DNN operator auto-tuner with speculative design space exploration. By training and analyzing decision trees, we extract shared characteristics of high-quality schedules and summarize them as pruning rules. Applying these rules during the optimization allows us to speculatively explore the design space, minimize unnecessary hardware measurements, and shorten the optimization time without compromising the optimization result. We conducted experiments on three different platforms with various operators and models. The results demonstrate that Sifter reduces 52% of redundant schedules and shortens the optimization time by 41% while maintaining operator optimization performance at the state-of-the-art level.",
+    "citationCount": 1,
+    "referenceCount": 35
+}

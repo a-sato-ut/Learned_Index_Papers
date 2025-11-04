@@ -1,0 +1,34 @@
+{
+    "paperId": "86f4cd83dc2c0a502ccb774a4a385270369903a2",
+    "title": "Challenges and Solutions for Integrating Neural Networks in Multiphysics CFD Simulations",
+    "year": 2023,
+    "venue": "2023 Congress in Computer Science, Computer Engineering, & Applied Computing (CSCE)",
+    "authors": [
+        "Aymeric Millan",
+        "D. Lugato",
+        "Paul Novello"
+    ],
+    "doi": "10.1109/CSCE60160.2023.00101",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/86f4cd83dc2c0a502ccb774a4a385270369903a2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Scientific machine learning (SciML) is a major research area of artificial intelligence (AI) and computational science that involves performing machine learning for scientific computing applications such as physics, biology or engineering. In this work, we focus on its application to multiphysics simulations by studying a hybrid simulation based on the coupling between a neural network approximating chemical reactions and a CFD solver. With this approach, we achieved in previous work a 18.7 x speedup compared to a traditional solver simulating the same phenomenon. This paper focuses on the computational challenges for high-performance computing software associated with this approach and proposes three integration methods using two tools: ML frameworks and ML compilers. We also propose a methodology to extend the use of a Neural Network for any input mesh size, irrespective to the training batch size. We demonstrate how the speedup factor can be further improved up to 30 x compared to the baseline.",
+    "citationCount": 0,
+    "referenceCount": 13
+}

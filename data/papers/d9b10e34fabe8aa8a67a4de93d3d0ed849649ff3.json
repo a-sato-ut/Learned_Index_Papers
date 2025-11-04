@@ -1,0 +1,36 @@
+{
+    "paperId": "d9b10e34fabe8aa8a67a4de93d3d0ed849649ff3",
+    "title": "Exploring the Impact of a Transformer's Latent Space Geometry on Downstream Task Performance",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Anna C. Marbut",
+        "John W. Chandler",
+        "Travis J. Wheeler"
+    ],
+    "doi": "10.48550/arXiv.2406.12159",
+    "arxivId": "2406.12159",
+    "url": "https://www.semanticscholar.org/paper/d9b10e34fabe8aa8a67a4de93d3d0ed849649ff3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "It is generally thought that transformer-based large language models benefit from pre-training by learning generic linguistic knowledge that can be focused on a specific task during fine-tuning. However, we propose that much of the benefit from pre-training may be captured by geometric characteristics of the latent space representations, divorced from any specific linguistic knowledge. In this work we explore the relationship between GLUE benchmarking task performance and a variety of measures applied to the latent space resulting from BERT-type contextual language models. We find that there is a strong linear relationship between a measure of quantized cell density and average GLUE performance and that these measures may be predictive of otherwise surprising GLUE performance for several non-standard BERT-type models from the literature. These results may be suggestive of a strategy for decreasing pre-training requirements, wherein model initialization can be informed by the geometric characteristics of the model's latent space.",
+    "citationCount": 1,
+    "referenceCount": 44
+}

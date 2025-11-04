@@ -1,0 +1,37 @@
+{
+    "paperId": "1bde5d0926db71047b8be66df2e29247807e7975",
+    "title": "Efficient Interest Packet Forwarding Solution for NDN enabled Internet of Underwater Things",
+    "year": 2022,
+    "venue": "International Conference on Emerging Technologies",
+    "authors": [
+        "Ahmad Arsalan",
+        "Muhammad Burhan",
+        "Salman Naseer",
+        "Rana Asif Rehman"
+    ],
+    "doi": "10.1109/ICET56601.2022.10004666",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1bde5d0926db71047b8be66df2e29247807e7975",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent growth in network architecture like the Internet of Underwater Thing (IoUT) and future Internet paradigm like Named Data Network (NDN) has caught the scientific community's attention. NDN is considered a replacement for traditional IP-based networks. By using NDN, the node address is replaced with a content name to improve data availability. On the other hand, IoUT is a promising method for actively exploring and evaluating the marine environment. Based on the available marine environment, IoUT communication faces obstacles. When NDN is applied on IoUT the broadcast storm problem arises. This problem is caused by the same kind of packets, which increases the overall number of requests and retransmissions. In IoUT, the timely and rapid transfer of crucial packets is an issue. In this paper, we proposed a Selective Neighbor-based Broadcast Storm Scheme (SNBS) in NDN-enabled IoUT (N-IoUT), which uses the counter value to solve the broadcast storm problem. To regulate the broadcast storm and ensure efficient packet transfers, our approach selects the furthest autonomous underwater vehicle (AUV) based on a counter value. The proposed method is tested using simulation, which reveals that SNBS performs better as compared to the native NDN concerning the number of Interest packets and Interest satisfaction delay.",
+    "citationCount": 3,
+    "referenceCount": 13
+}

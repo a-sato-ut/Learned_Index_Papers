@@ -1,0 +1,34 @@
+{
+    "paperId": "fcadc82ae6eb0b3033d44aed47e3d4115d0d192e",
+    "title": "Unsupervised Transformer Pre-Training for Images: Self-Distillation, Mean Teachers, and Random Crops",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Mattia Scardecchia"
+    ],
+    "doi": null,
+    "arxivId": "2510.03606",
+    "url": "https://www.semanticscholar.org/paper/fcadc82ae6eb0b3033d44aed47e3d4115d0d192e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advances in self-supervised learning (SSL) have made it possible to learn general-purpose visual features that capture both the high-level semantics and the fine-grained spatial structure of images. Most notably, the recent DINOv2 has established a new state of the art by surpassing weakly supervised methods (WSL) like OpenCLIP on most benchmarks. In this survey, we examine the core ideas behind its approach, multi-crop view augmentation and self-distillation with a mean teacher, and trace their development in previous work. We then compare the performance of DINO and DINOv2 with other SSL and WSL methods across various downstream tasks, and highlight some remarkable emergent properties of their learned features with transformer backbones. We conclude by briefly discussing DINOv2's limitations, its impact, and future research directions.",
+    "citationCount": 0,
+    "referenceCount": 91
+}

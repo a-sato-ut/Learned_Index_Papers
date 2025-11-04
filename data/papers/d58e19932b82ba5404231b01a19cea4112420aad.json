@@ -1,0 +1,47 @@
+{
+    "paperId": "d58e19932b82ba5404231b01a19cea4112420aad",
+    "title": "Optimizing Memory Mapping Using Deep Reinforcement Learning",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Pengming Wang",
+        "Mikita Sazanovich",
+        "Berkin Ilbeyi",
+        "P. Phothilimthana",
+        "Manish Purohit",
+        "Han Yang Tay",
+        "Ngan Vu",
+        "Miaosen Wang",
+        "Cosmin Paduraru",
+        "Edouard Leurent",
+        "A. Zhernov",
+        "Julian Schrittwieser",
+        "T. Hubert",
+        "R. Tung",
+        "Paula Kurylowicz",
+        "Kieran Milan",
+        "O. Vinyals",
+        "D. Mankowitz"
+    ],
+    "doi": "10.48550/arXiv.2305.07440",
+    "arxivId": "2305.07440",
+    "url": "https://www.semanticscholar.org/paper/d58e19932b82ba5404231b01a19cea4112420aad",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.07440",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Resource scheduling and allocation is a critical component of many high impact systems ranging from congestion control to cloud computing. Finding more optimal solutions to these problems often has significant impact on resource and time savings, reducing device wear-and-tear, and even potentially improving carbon emissions. In this paper, we focus on a specific instance of a scheduling problem, namely the memory mapping problem that occurs during compilation of machine learning programs: That is, mapping tensors to different memory layers to optimize execution time. We introduce an approach for solving the memory mapping problem using Reinforcement Learning. RL is a solution paradigm well-suited for sequential decision making problems that are amenable to planning, and combinatorial search spaces with high-dimensional data inputs. We formulate the problem as a single-player game, which we call the mallocGame, such that high-reward trajectories of the game correspond to efficient memory mappings on the target hardware. We also introduce a Reinforcement Learning agent, mallocMuZero, and show that it is capable of playing this game to discover new and improved memory mapping solutions that lead to faster execution times on real ML workloads on ML accelerators. We compare the performance of mallocMuZero to the default solver used by the Accelerated Linear Algebra (XLA) compiler on a benchmark of realistic ML workloads. In addition, we show that mallocMuZero is capable of improving the execution time of the recently published AlphaTensor matrix multiplication model.",
+    "citationCount": 4,
+    "referenceCount": 37
+}

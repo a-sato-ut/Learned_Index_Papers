@@ -1,0 +1,37 @@
+{
+    "paperId": "9ea4ac6fc91bfd0daa6d11031bf863098908a3b1",
+    "title": "Cross-layer Caching/Buffering Design for Search Trees based on Non-volatile Main Memories",
+    "year": 2020,
+    "venue": "International Conferences on Knowledge Innovation and Invention",
+    "authors": [
+        "Ting-Syuan Lin",
+        "Chun-Chih Lai",
+        "Po-Chun Huang"
+    ],
+    "doi": "10.1109/ICKII50300.2020.9318837",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9ea4ac6fc91bfd0daa6d11031bf863098908a3b1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Buffer cache is an important component for storage systems owing to their considerable impacts on the access performance of data. Buffer cache management algorithms primarily consider the access patterns of data. However, other factors such as hardware characteristics of memory media of buffer cache and the logical data structure of applications still require more in-depth investigations for better buffer cache management designs. In this study, we take the caching/buffering problem of binary search trees on modern nonvolatile memories (NVMs) as an example, and demonstrate how the concerning of memory medium characteristics and logical data structures affect the performance of buffer caches with common access patterns. We anticipate that the cross-layer designs of buffer caches that jointly consider the data access patterns of applications, buffer cache organizations, and memory hardware characteristics are effective means for better performance of future storage systems.",
+    "citationCount": 0,
+    "referenceCount": 22
+}

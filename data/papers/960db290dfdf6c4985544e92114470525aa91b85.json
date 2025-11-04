@@ -1,0 +1,37 @@
+{
+    "paperId": "960db290dfdf6c4985544e92114470525aa91b85",
+    "title": "Neural Approaches for Natural Language Interfaces to Databases: A Survey",
+    "year": 2020,
+    "venue": "International Conference on Computational Linguistics",
+    "authors": [
+        "R. Iacob",
+        "Florin Brad",
+        "Elena-Simona Apostol",
+        "Ciprian-Octavian Truică",
+        "Ionel-Alexandru Hosu",
+        "Traian Rebedea"
+    ],
+    "doi": "10.18653/V1/2020.COLING-MAIN.34",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/960db290dfdf6c4985544e92114470525aa91b85",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.aclweb.org/anthology/2020.coling-main.34.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A natural language interface to databases (NLIDB) enables users without technical expertise to easily access information from relational databases. Interest in NLIDBs has resurged in the past years due to the availability of large datasets and improvements to neural sequence-to-sequence models. In this survey we focus on the key design decisions behind current state of the art neural approaches, which we group into encoder and decoder improvements. We highlight the three most important directions, namely linking question tokens to database schema elements (schema linking), better architectures for encoding the textual query taking into account the schema (schema encoding), and improved generation of structured queries using autoregressive neural models (grammar-based decoders). To foster future research, we also present an overview of the most important NLIDB datasets, together with a comparison of the top performing neural models and a short insight into recent non deep learning solutions.",
+    "citationCount": 17,
+    "referenceCount": 87
+}

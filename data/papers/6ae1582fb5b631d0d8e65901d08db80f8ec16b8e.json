@@ -1,0 +1,41 @@
+{
+    "paperId": "6ae1582fb5b631d0d8e65901d08db80f8ec16b8e",
+    "title": "Spatial-Aware and Load Balancing Distributed Data Partitioning Strategies for Content-Based Multimedia Retrieval",
+    "year": 2024,
+    "venue": "Cluster Computing",
+    "authors": [
+        "Gabriel Pereira",
+        "Willian Barreiros",
+        "Renato Ferreira",
+        "George Teodoro"
+    ],
+    "doi": "10.21203/rs.3.rs-4973077/v1",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6ae1582fb5b631d0d8e65901d08db80f8ec16b8e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Content-Based Multimedia Retrieval (CBMR) has become very popular in several applications, driven by the growing routine use of multimedia data. Since the datasets used in real-world applications are very large and descriptor’s dimensionality is high, querying is an expensive, albeit important functionality. Further, exact search is prohibitive in most cases, motivating the use of Approximate Nearest Neighbour Search (ANNS) algorithms, trading accuracy for performance. These have been mainly developed targeting a sequential execution in a single node. However, the large and increasing datasets used and the high query loads submitted to those systems typically surpass the memory and computing resources available in a single node. This motivated the development of parallel distributed memory ANNS solutions to meet the computing capabilities required by those applications. A common problem that must be handled when using distributed memory systems is data partitioning and its impact on load imbalance. Several data partitioning approaches have already been proposed, including elaborated spatial-aware strategies. However, little effort has been put into carefully analyzing the performance of those strategies at scale. Here, we evaluated the commonly used data partitioning strategies in ANNS and identified their limitations to propose a novel class of partitioning algorithms that can minimize load imbalance while improving data locality to attain high performance on the distributed memory search. Experimentally, we found that our proposed algorithms (SABBS and SABBSR) improved search performance by up to 1.64× compared to the best previous solution. In a distributed memory weak scaling evaluation, with up to 12 billion 128-dimensional descriptors and 60 compute nodes, the gains were maintained as the system scaled with our novel approaches. These results demonstrate the efficiency of our new algorithms for billion-scale ANNS and the importance of considering not only data locality but also data and load imbalance in the data partitioning.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

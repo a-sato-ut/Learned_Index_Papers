@@ -1,0 +1,41 @@
+{
+    "paperId": "769f19d92f76731253c5defdf6c5cf2edea290cf",
+    "title": "Going Green for Less Green: Optimizing the Cost of Reducing Cloud Carbon Emissions",
+    "year": 2024,
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "authors": [
+        "Walid A. Hanafy",
+        "Qianlin Liang",
+        "Noman Bashir",
+        "Abel Souza",
+        "David Irwin",
+        "Prashant Shenoy"
+    ],
+    "doi": "10.1145/3620666.3651374",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/769f19d92f76731253c5defdf6c5cf2edea290cf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The continued exponential growth of cloud datacenter capacity has increased awareness of the carbon emissions when executing large compute-intensive workloads. To reduce carbon emissions, cloud users often temporally shift their batch workloads to periods with low carbon intensity. While such time shifting can increase job completion times due to their delayed execution, the cost savings from cloud purchase options, such as reserved instances, also decrease when users operate in a carbon-aware manner. This happens because carbon-aware adjustments change the demand pattern by periodically leaving resources idle, which creates a trade-off between carbon emissions and cost. In this paper, we present GAIA, a carbon-aware scheduler that enables users to address the three-way trade-off between carbon, performance, and cost in cloud-based batch schedulers. Our results quantify the carbon-performance-cost trade-off in cloud platforms and show that compared to existing carbon-aware scheduling policies, our proposed policies can double the amount of carbon savings per percentage increase in cost, while decreasing the performance overhead by 26%.",
+    "citationCount": 35,
+    "referenceCount": 48
+}

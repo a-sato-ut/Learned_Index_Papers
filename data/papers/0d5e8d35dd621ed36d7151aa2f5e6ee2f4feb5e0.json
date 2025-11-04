@@ -1,0 +1,49 @@
+{
+    "paperId": "0d5e8d35dd621ed36d7151aa2f5e6ee2f4feb5e0",
+    "title": "QiMeng-TensorOp: One-Line Prompt is Enough for High-Performance Tensor Operator Generation with Hardware Primitives",
+    "year": 2025,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "authors": [
+        "Xuzhi Zhang",
+        "Shaohui Peng",
+        "Qirui Zhou",
+        "Yuanbo Wen",
+        "Qi Guo",
+        "Rui Chen",
+        "Xinguo Zhu",
+        "Weiqiang Xiong",
+        "Haixin Chen",
+        "Congying Ma",
+        "Ke Gao",
+        "Chen Zhao",
+        "Yanjun Wu",
+        "Yunji Chen",
+        "Ling Li"
+    ],
+    "doi": "10.24963/ijcai.2025/783",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0d5e8d35dd621ed36d7151aa2f5e6ee2f4feb5e0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Computation-intensive tensor operators constitute over 90% of the computations in Large Language Models (LLMs) and Deep Neural Networks. Automatically and efficiently generating high-performance tensor operators with hardware primitives is crucial for diverse and ever-evolving hardware architectures like RISC-V, ARM, and GPUs, as manually optimized implementation takes at least months and lacks portability. LLMs excel at generating high-level language codes, but they struggle to fully comprehend hardware characteristics and produce high-performance tensor operators.\n\n\n\nWe introduce a tensor-operator auto-generation framework with a one-line user prompt (QiMeng-TensorOp), which enables LLMs to automatically exploit hardware characteristics to generate tensor operators with hardware primitives, and tune parameters for optimal performance across diverse hardware. Experimental results on various hardware platforms, SOTA LLMs, and typical tensor operators demonstrate that QiMeng-TensorOp effectively unleashes the computing capability of various hardware platforms, and automatically generates tensor operators of superior performance. Compared with vanilla LLMs, QiMeng-TensorOp achieves up to 1291× performance improvement. Even compared with human experts, QiMeng-TensorOp could reach 251% of OpenBLAS on RISC-V CPUs, and 124% of cuBLAS on NVIDIA GPUs. Additionally, QiMeng-TensorOp also significantly reduces development costs by 200× compared with human experts.",
+    "citationCount": 0,
+    "referenceCount": 48
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "96dd84442f10d19f8442fcaea7a27260ee80ff0e",
+    "title": "Exploring Next Token Prediction For Optimizing Databases",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yeasir Rayhan",
+        "Walid G. Aref"
+    ],
+    "doi": "10.48550/arXiv.2503.19619",
+    "arxivId": "2503.19619",
+    "url": "https://www.semanticscholar.org/paper/96dd84442f10d19f8442fcaea7a27260ee80ff0e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Next Token Prediction paradigm (NTP, for short) lies at the forefront of modern large foundational models that are pre-trained on diverse and large datasets. These models generalize effectively, and have proven to be very successful in Natural Language Processing (NLP). Inspired by the generalization capabilities of Large Language Models (LLMs), we investigate whether the same NTP paradigm can be applied to DBMS design and optimization tasks. Adopting NTP directly for database optimization is non-trivial due to the fundamental differences between the domains. In this paper, we present a framework, termed Probe and Learn (PoLe), for applying NTP to optimize database systems. PoLe leverages Decision Transformers and hardware-generated tokens to effectively incorporate NTP into database systems. As a proof of concept, we demonstrate PoLe in the context of the index scheduling task over NUMA servers in main-memory database systems. Preliminary results for this scheduling task demonstrate that adopting NTP and PoLe can improve both performance and generalizability.",
+    "citationCount": 0,
+    "referenceCount": 54
+}

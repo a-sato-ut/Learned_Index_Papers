@@ -1,0 +1,33 @@
+{
+    "paperId": "f135b6ecffb81b5981d464b4992a0353d711c6d8",
+    "title": "Portals: An Extension of Dataflow Streaming for Stateful Serverless",
+    "year": 2022,
+    "venue": "SIGPLAN symposium on New ideas, new paradigms, and reflections on programming and software",
+    "authors": [
+        "Jonas Spenger",
+        "Paris Carbone",
+        "Philipp Haller"
+    ],
+    "doi": "10.1145/3563835.3567664",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f135b6ecffb81b5981d464b4992a0353d711c6d8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3563835.3567664",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Portals is a serverless, distributed programming model that blends the exactly-once processing guarantees of stateful dataflow streaming frameworks with the message-driven compositionality of actor frameworks. Decentralized applications in Portals can be built dynamically, scale on demand, and always satisfy strict atomic processing guarantees that are natively embedded in the framework's principal elements of computation, known as atomic streams. In this paper, we describe the capabilities of Portals and demonstrate its use in supporting several popular existing distributed programming paradigms and use-cases. We further introduce all programming model invariants and the corresponding system methods used to satisfy them.",
+    "citationCount": 11,
+    "referenceCount": 59
+}

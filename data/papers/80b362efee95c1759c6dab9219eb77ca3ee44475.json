@@ -1,0 +1,37 @@
+{
+    "paperId": "80b362efee95c1759c6dab9219eb77ca3ee44475",
+    "title": "TASO: optimizing deep learning computation with automatic generation of graph substitutions",
+    "year": 2019,
+    "venue": "Symposium on Operating Systems Principles",
+    "authors": [
+        "Zhihao Jia",
+        "Oded Padon",
+        "James J. Thomas",
+        "Todd Warszawski",
+        "M. Zaharia",
+        "A. Aiken"
+    ],
+    "doi": "10.1145/3341301.3359630",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/80b362efee95c1759c6dab9219eb77ca3ee44475",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3341301.3359630",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Existing deep neural network (DNN) frameworks optimize the computation graph of a DNN by applying graph transformations manually designed by human experts. This approach misses possible graph optimizations and is difficult to scale, as new DNN operators are introduced on a regular basis. We propose TASO, the first DNN computation graph optimizer that automatically generates graph substitutions. TASO takes as input a list of operator specifications and generates candidate substitutions using the given operators as basic building blocks. All generated substitutions are formally verified against the operator specifications using an automated theorem prover. To optimize a given DNN computation graph, TASO performs a cost-based backtracking search, applying the substitutions to find an optimized graph, which can be directly used by existing DNN frameworks. Our evaluation on five real-world DNN architectures shows that TASO outperforms existing DNN frameworks by up to 2.8X, while requiring significantly less human effort. For example, TensorFlow currently contains approximately 53,000 lines of manual optimization rules, while the operator specifications needed by TASO are only 1,400 lines of code.",
+    "citationCount": 321,
+    "referenceCount": 42
+}

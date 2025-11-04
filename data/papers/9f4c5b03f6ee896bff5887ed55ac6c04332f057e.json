@@ -1,0 +1,37 @@
+{
+    "paperId": "9f4c5b03f6ee896bff5887ed55ac6c04332f057e",
+    "title": "Canvas: End-to-End Kernel Architecture Search in Neural Networks",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Chenggang Zhao",
+        "Genghan Zhang",
+        "Mingyu Gao"
+    ],
+    "doi": "10.48550/arXiv.2304.07741",
+    "arxivId": "2304.07741",
+    "url": "https://www.semanticscholar.org/paper/9f4c5b03f6ee896bff5887ed55ac6c04332f057e",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2304.07741",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The demands for higher performance and accuracy in neural networks (NNs) never end. Existing tensor compilation and Neural Architecture Search (NAS) techniques orthogonally optimize the two goals but actually share many similarities in their concrete strategies. We exploit such opportunities by combining the two into one and make a case for Kernel Architecture Search (KAS). KAS reviews NAS from a system perspective and zooms into a more fine-grained level to generate neural kernels with both high performance and good accuracy. To demonstrate the potential of KAS, we build an end-to-end framework, Canvas, to find high-quality kernels as convolution replacements. Canvas samples from a rich set of fine-grained primitives to stochastically and iteratively construct new kernels and evaluate them according to user-specified constraints. Canvas supports freely adjustable tensor dimension sizes inside the kernel and uses two levels of solvers to satisfy structural legality and fully utilize model budgets. The evaluation shows that by replacing standard convolutions with generated new kernels in common NNs, Canvas achieves average 1.5x speedups compared to the previous state-of-the-art with acceptable accuracy loss and search efficiency. Canvas verifies the practicability of KAS by rediscovering many manually designed kernels in the past and producing new structures that may inspire future machine learning innovations. For source code and implementation, we open-sourced Canvas at https://github.com/tsinghua-ideal/Canvas.",
+    "citationCount": 1,
+    "referenceCount": 43
+}

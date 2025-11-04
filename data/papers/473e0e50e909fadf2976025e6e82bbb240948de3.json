@@ -1,0 +1,32 @@
+{
+    "paperId": "473e0e50e909fadf2976025e6e82bbb240948de3",
+    "title": "Torchy: A Tracing JIT Compiler for PyTorch",
+    "year": 2023,
+    "venue": "International Conference on Compiler Construction",
+    "authors": [
+        "Nuno P. Lopes"
+    ],
+    "doi": "10.1145/3578360.3580266",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/473e0e50e909fadf2976025e6e82bbb240948de3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3578360.3580266",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning (ML) models keep getting larger and more complex. Whereas before models used to be represented by static data-flow graphs, they are now implemented via arbitrary Python code. Eager-mode frameworks, such as PyTorch, are now the standard for developing new ML models. The semantics of eager-mode frameworks is that operations are computed straight away. This greatly simplifies the development process, and it enables more dynamic ML models. Although eager-mode frameworks are more convenient, they are less efficient today as operations are dispatched to the hardware one at a time. This execution model precludes, for example, operation fusion, which is essential for executing ML workloads efficiently. In this paper we present Torchy, a tracing JIT compiler for PyTorch. Torchy achieves similar performance as data-flow frameworks, while providing the same semantics of straight-away execution. Moreover, Torchy works with any PyTorch program unmodified. Torchy outperforms PyTorch by up to 12x in microbenchmarks, and PyTorch's static compiler (TorchScript) by up to 5x.",
+    "citationCount": 12,
+    "referenceCount": 45
+}

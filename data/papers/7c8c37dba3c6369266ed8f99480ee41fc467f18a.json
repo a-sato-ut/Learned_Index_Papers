@@ -1,0 +1,38 @@
+{
+    "paperId": "7c8c37dba3c6369266ed8f99480ee41fc467f18a",
+    "title": "A Survey of Storage Systems in the RDMA Era",
+    "year": 2022,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Shaonan Ma",
+        "Teng Ma",
+        "Kang Chen",
+        "Yongwei Wu"
+    ],
+    "doi": "10.1109/TPDS.2022.3188656",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7c8c37dba3c6369266ed8f99480ee41fc467f18a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Remote Direct Memory Access (RDMA) based network devices are increasingly being deployed in modern data centers. RDMA brings significant performance improvements over traditional network devices such as Ethernet due to its unique features: <italic>protocol offloading</italic> and <italic>memory semantics</italic>. In particular, it can achieve microsecond level latency, which is about 2<inline-formula><tex-math notation=\"LaTeX\">$\\sim$</tex-math><alternatives><mml:math><mml:mo>∼</mml:mo></mml:math><inline-graphic xlink:href=\"ma-ieq1-3188656.gif\"/></alternatives></inline-formula>3 orders of magnitude improvement. With such improvement in hardware, the software stack, including device drivers and programming libraries, is becoming a new performance bottleneck. Developers need to use new programming libraries to take full advantage of the performance of the underlying hardware. Storage systems are very important in modern data centers. This article surveys the current efforts to use RDMA for optimizing storage systems. We first present five classes of RDMA-based storage systems, including key-value stores, file systems, distributed memory systems, database systems, and systems using smart NICs, to demonstrate different design choices. Then, we examine the core modules of storage systems from different perspectives: communication mode, concurrency control, fault tolerance, caching, and resource management. Finally, we provide some design guidelines for new RDMA-based storage systems, as well as a discussion of opportunities and challenges.",
+    "citationCount": 16,
+    "referenceCount": 119
+}

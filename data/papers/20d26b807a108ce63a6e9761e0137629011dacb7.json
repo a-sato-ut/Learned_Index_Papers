@@ -1,0 +1,36 @@
+{
+    "paperId": "20d26b807a108ce63a6e9761e0137629011dacb7",
+    "title": "High-Quality Shared-Memory Graph Partitioning",
+    "year": 2017,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Yaroslav Akhremtsev",
+        "P. Sanders",
+        "Christian Schulz"
+    ],
+    "doi": "10.1109/TPDS.2020.3001645",
+    "arxivId": "1710.08231",
+    "url": "https://www.semanticscholar.org/paper/20d26b807a108ce63a6e9761e0137629011dacb7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1710.08231",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Partitioning graphs into blocks of roughly equal size such that few edges run between blocks is a frequently needed operation in processing graphs. Recently, size, variety, and structural complexity of these networks has grown dramatically. Unfortunately, previous approaches to parallel graph partitioning have problems in this context since they often show a negative trade-off between speed and quality. We present an approach to multi-level shared-memory parallel graph partitioning that produces balanced solutions, shows high speedups for a variety of large graphs and yields very good quality independently of the number of cores used. For example, in an extensive experimental study, at 79 cores, one of our closest competitors is faster but fails to meet the balance criterion in the majority of cases and another is mostly slower and incurs about 13 percent larger cut size. Important ingredients include parallel label propagation for both coarsening and refinement, parallel initial partitioning, a simple yet effective approach to parallel localized local search, and fast locality preserving hash tables.",
+    "citationCount": 59,
+    "referenceCount": 65
+}

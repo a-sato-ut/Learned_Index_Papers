@@ -1,0 +1,43 @@
+{
+    "paperId": "fd3847a7c5f309ab2a80c48181ec81ecbcd1d172",
+    "title": "Blockchain Based Data and Energy Trading in Internet of Electric Vehicles",
+    "year": 2021,
+    "venue": "IEEE Access",
+    "authors": [
+        "A. Sadiq",
+        "M. Javed",
+        "Rabiya Khalid",
+        "Ahmad S. Almogren",
+        "M. Shafiq",
+        "N. Javaid"
+    ],
+    "doi": "10.1109/ACCESS.2020.3048169",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fd3847a7c5f309ab2a80c48181ec81ecbcd1d172",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09311120.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The drastic increase in real-time vehicle generated data of various types has imparted a great concept of data trading in vehicular networks. Whereas immense usage of Electric Vehicles (EVs) as mobile energy carriers have supported distributed energy trading due to their bidirectional charging and discharging capabilities. The trustless environment of Internet of Electric Vehicles (IoEV), including fuel vehicles and EVs, encounters trading disputes and conflicting interests among trading parties. To address these challenges, we exploit consortium blockchain to maintain transparency and trust in trading activities. Smart contracts are used to tackle trading disputes and illegal actions. Data duplication problem occurs when a dishonest user sell previously traded data multiple times for financial gain. Therefore, data duplication validation is done through previously stored hash-list at roadside units (RSUs) employed with bloom filters for efficient data lookup. Removing data duplication at an earlier stage reduces storage cost. Moreover, an elliptic curve bilinear pairing based digital signature scheme is used to ensure the reliability and integrity of traded data. To ensure persistent availability of traded data, InterPlanetary File System (IPFS) is used, which provides fault-tolerant and a reliable data storage without any single point of failure. On the other hand, the energy trading transactions among EVs face some security and privacy protection challenges. An adversary can infer the energy trading records of EVs, and launch the data linkage attacks. To address this issue, an account generation technique is used that hides the energy trading trends. The new account generation for an EV depends upon its traded volume of energy. The experimental results verify the efficiency of the proposed data and energy trading scheme in IoEV with the reliable and secure data storage.",
+    "citationCount": 64,
+    "referenceCount": 77
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "a3474915233dde95f4a18142ab35c972f5c67dee",
+    "title": "Global Hash Tables Strike Back! An Analysis of Parallel GROUP BY Aggregation",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Daniel Xue",
+        "Ryan Marcus"
+    ],
+    "doi": "10.48550/arXiv.2505.04153",
+    "arxivId": "2505.04153",
+    "url": "https://www.semanticscholar.org/paper/a3474915233dde95f4a18142ab35c972f5c67dee",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficiently computing group aggregations (i.e., GROUP BY) on modern architectures is critical for analytic database systems. Hash-based approaches in today's engines predominantly use a partitioned approach, in which incoming data is partitioned by key values so that every row for a particular key is sent to the same thread. In this paper, we revisit a simpler strategy: a fully concurrent aggregation technique using a shared hash table. While approaches using general-purpose concurrent hash tables have generally been found to perform worse than partitioning-based approaches, we argue that the key ingredient is customizing the concurrent hash table for the specific task of group aggregation. Through experiments on synthetic workloads (varying key cardinality, skew, and thread count), we demonstrate that in morsel-driven systems, a purpose-built concurrent hash table can match or surpass partitioning-based techniques. We also analyze the operational characteristics of both techniques, including resizing costs and memory pressure. In the process, we derive practical guidelines for database implementers. Overall, our analysis indicates that fully concurrent group aggregation is a viable alternative to partitioning.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

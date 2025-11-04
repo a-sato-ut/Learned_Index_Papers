@@ -1,0 +1,36 @@
+{
+    "paperId": "dff0e6b1b327ab13be7ef42bbb2567c94d551f95",
+    "title": "Analytical Engines With Context-Rich Processing: Towards Efficient Next-Generation Analytics",
+    "year": 2022,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Viktor Sanca",
+        "A. Ailamaki"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00298",
+    "arxivId": "2212.07517",
+    "url": "https://www.semanticscholar.org/paper/dff0e6b1b327ab13be7ef42bbb2567c94d551f95",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2212.07517",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As modern data pipelines continue to collect, produce, and store a variety of data formats, extracting and combining value from traditional and context-rich sources such as strings, text, video, audio, and logs becomes a manual process where such formats are unsuitable for RDBMS. To tap into the dark data, domain experts analyze and extract insights and integrate them into the data repositories. This process can involve out-of-DBMS, ad-hoc analysis, and processing resulting in ETL, engineering effort, and suboptimal performance. While AI systems based on ML models can automate the analysis process, they often further generate context-rich answers. Using multiple sources of truth, for either training the models or in the form of knowledge bases, further exacerbates the problem of consolidating the data of interest.We envision an analytical engine co-optimized with components that enable context-rich analysis. Firstly, as the data from different sources or resulting from model answering cannot be cleaned ahead of time, we propose using online data integration via model-assisted similarity operations. Secondly, we aim for a holistic pipeline cost- and rule-based optimization across relational and model-based operators. Thirdly, with increasingly heterogeneous hardware and equally heterogeneous workloads ranging from traditional relational analytics to generative model inference, we envision a system that just-in-time adapts to the complex analytical query requirements. To solve increasingly complex analytical problems, ML offers attractive solutions that must be combined with traditional analytical processing and benefit from decades of database community research to achieve scalability and performance effortless for the end user.",
+    "citationCount": 5,
+    "referenceCount": 48
+}

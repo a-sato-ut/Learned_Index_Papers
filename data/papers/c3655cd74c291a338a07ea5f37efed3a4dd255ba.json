@@ -1,0 +1,28 @@
+{
+    "paperId": "c3655cd74c291a338a07ea5f37efed3a4dd255ba",
+    "title": "A Tool for Database Masking and Anonymization of PostgreSQL",
+    "year": 2023,
+    "venue": "2023 International Conference on Data Science, Agents & Artificial Intelligence (ICDSAAI)",
+    "authors": [
+        "Roehit Ranganathan",
+        "G. Kumar",
+        "T. Angel"
+    ],
+    "doi": "10.1109/ICDSAAI59313.2023.10452571",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c3655cd74c291a338a07ea5f37efed3a4dd255ba",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Managing and securing sensitive data in a production database can be a complex and challenging task, especially when creating a staging database for testing and development purposes. This is why we have designed a tool that can automate the process of creating a staging database from a backup of the production database while anonymizing critical data based on user input. Our tool is specifically designed for PostgreSQL databases and can be easily integrated into the database management workflow. It allows users to select which tables and fields in the database should be anonymized, with options for different anonymization techniques based on the data type. This ensures that sensitive data is properly protected and complies with data privacy regulations. To ensure the success of the anonymization process, the tool utilizes machine learning algorithms that analyze past user input to predict which fields are likely to be selected for anonymization. This helps reduce the risk of errors and ensures that all critical data is properly anonymized with high accuracy. In the future, we plan to enhance the tool with more advanced anonymization techniques and incorporate additional machine-learning algorithms to improve the accuracy of the prediction models. This will help further streamline the database management process and ensure that sensitive data is always properly secured.",
+    "citationCount": 2,
+    "referenceCount": 16
+}

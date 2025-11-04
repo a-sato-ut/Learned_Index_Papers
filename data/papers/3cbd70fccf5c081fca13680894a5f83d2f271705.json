@@ -1,0 +1,35 @@
+{
+    "paperId": "3cbd70fccf5c081fca13680894a5f83d2f271705",
+    "title": "On the Privacy of Counting Bloom Filters",
+    "year": 2023,
+    "venue": "IEEE Transactions on Dependable and Secure Computing",
+    "authors": [
+        "P. Reviriego",
+        "A. Sánchez-Macián",
+        "Stefan Walzer",
+        "Elena Merino-Gómez",
+        "Shanshan Liu",
+        "Fabrizio Lombardi"
+    ],
+    "doi": "10.1109/TDSC.2022.3158469",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3cbd70fccf5c081fca13680894a5f83d2f271705",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Bloom filters are widely used in networking and computing to accelerate membership checking. In many applications filters store sensitive data, so their privacy is of primary concern. At first glance, it seems that extracting the set of elements inserted from the filter would not be possible, because in Bloom filters elements are mapped to positions using hash functions. However, previous works have shown that for the Bloom filter, it may be possible to identify few of the elements inserted in the filter. In this work, we consider the case of counting Bloom filters (CBFs) and show that in some cases, the entire set of elements used to create the filter can be extracted from the filter. This poses serious privacy and security concerns when an attacker can get access to the filter contents. In this article, an algorithm to extract the elements inserted from the filter is presented and analyzed theoretically; then, the feasibility of the CBF inversion is shown by simulation. A case study is presented in detail to illustrate that in practical applications, these conditions can be met by using additional restrictions that are implicit in the nature of the application itself.",
+    "citationCount": 9,
+    "referenceCount": 50
+}

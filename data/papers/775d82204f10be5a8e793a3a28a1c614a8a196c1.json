@@ -1,0 +1,32 @@
+{
+    "paperId": "775d82204f10be5a8e793a3a28a1c614a8a196c1",
+    "title": "Network Lifetime Enhancement by Elimination of Spatially and Temporally Correlated RFID Surveillance Data in WSNs",
+    "year": 2022,
+    "venue": "Wireless Communications and Mobile Computing",
+    "authors": [
+        "Lucy Dash",
+        "B. K. Pattanayak",
+        "Debabrata Singh",
+        "Debabrata Samanta",
+        "Yagyanath Rimal"
+    ],
+    "doi": "10.1155/2022/2437578",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/775d82204f10be5a8e793a3a28a1c614a8a196c1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://downloads.hindawi.com/journals/wcmc/2022/2437578.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In wireless sensor networks (WSNs), radio frequency identification (RFID) plays an important role due to its data characteristics which are data simplicity, low cost, simple deployment, and less energy consumption. It consists of a series of tags and readers which collect a huge number of redundant data. It increases system overhead and decreases overall network lifetime. Existing solutions like Time-Distance Bloom Filter (TDBF) algorithm are inapplicable to the large-scale environment. Received Signal Strength (RSS) used in this algorithm is highly dependent on quality of tag and application environment. In this paper, we propose an approach for data redundancy minimization for RFID surveillance data which is a modified version of TDBF. The proposed algorithm is formulated by using the observed time and calculated distance of RFID tags. To overcome these problems, we design our approach to relevantly reduce the spatiotemporal data redundancy in the source level by adding the Received Signal Strength Indicator (RSSI) concept for energy-efficient RFID data communication in wireless sensor network scenario. We introduce in this paper the new improved idea of an existing algorithm which efficiently reduces the rate of data redundancy spatially and temporally. The implemented results overcome the limitations of existing algorithm for data redundancy reduction. Nevertheless, the performance evaluation shows the efficiency of proposed algorithm in terms of time and data accuracy. Furthermore, this algorithm supports multidimensional and large-scale environment suitable for sensor network nowadays.",
+    "citationCount": 1,
+    "referenceCount": 40
+}

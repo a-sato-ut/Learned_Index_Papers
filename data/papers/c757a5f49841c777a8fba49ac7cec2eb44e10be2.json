@@ -1,0 +1,37 @@
+{
+    "paperId": "c757a5f49841c777a8fba49ac7cec2eb44e10be2",
+    "title": "Work-in-Progress: A Deep Learning Strategy for I/O Scheduling in Storage Systems",
+    "year": 2019,
+    "venue": "IEEE Real-Time Systems Symposium",
+    "authors": [
+        "Ashkan Farhangi",
+        "Jiang Bian",
+        "Jun Wang",
+        "Zhishan Guo"
+    ],
+    "doi": "10.1109/RTSS46320.2019.00066",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c757a5f49841c777a8fba49ac7cec2eb44e10be2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Under the big data era, there is a crucial need to improve the performance of storage systems for data-intensive applications. Data-intensive applications tend to behave in a predictable manner, which can be exploited for improving the performance of the storage system. At the storage level, we propose a deep recurrent neural network that learns the patterns of I/O requests and predicts the upcoming ones, such that memory contents can be pre-loaded at the right time to prevent cache/memory misses. Preliminary experimental results, on two real-world I/O logs of storage systems (from financial and web search), are reported-they partially demonstrate the effectiveness of the proposed method.",
+    "citationCount": 4,
+    "referenceCount": 14
+}

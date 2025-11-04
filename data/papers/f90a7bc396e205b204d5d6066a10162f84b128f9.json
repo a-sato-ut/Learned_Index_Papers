@@ -1,0 +1,40 @@
+{
+    "paperId": "f90a7bc396e205b204d5d6066a10162f84b128f9",
+    "title": "Learning to optimize halide with tree search and random programs",
+    "year": 2019,
+    "venue": "ACM Transactions on Graphics",
+    "authors": [
+        "Andrew Adams",
+        "Karima Ma",
+        "Luke Anderson",
+        "Riyadh Baghdadi",
+        "Tzu-Mao Li",
+        "Michaël Gharbi",
+        "Benoit Steiner",
+        "Steven Johnson",
+        "Kayvon Fatahalian",
+        "F. Durand",
+        "Jonathan Ragan-Kelley"
+    ],
+    "doi": "10.1145/3306346.3322967",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f90a7bc396e205b204d5d6066a10162f84b128f9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present a new algorithm to automatically schedule Halide programs for high-performance image processing and deep learning. We significantly improve upon the performance of previous methods, which considered a limited subset of schedules. We define a parameterization of possible schedules much larger than prior methods and use a variant of beam search to search over it. The search optimizes runtime predicted by a cost model based on a combination of new derived features and machine learning. We train the cost model by generating and featurizing hundreds of thousands of random programs and schedules. We show that this approach operates effectively with or without autotuning. It produces schedules which are on average almost twice as fast as the existing Halide autoscheduler without autotuning, or more than twice as fast with, and is the first automatic scheduling algorithm to significantly outperform human experts on average.",
+    "citationCount": 251,
+    "referenceCount": 49
+}

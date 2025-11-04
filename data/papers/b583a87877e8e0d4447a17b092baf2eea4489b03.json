@@ -1,0 +1,32 @@
+{
+    "paperId": "b583a87877e8e0d4447a17b092baf2eea4489b03",
+    "title": "FCTrees: A Front-Coded Family of Compressed Tree-Based FIB Structures for NDN Routers",
+    "year": 2020,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "Ouassim Karrakchou",
+        "N. Samaan",
+        "A. Karmouch"
+    ],
+    "doi": "10.1109/TNSM.2020.2969172",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b583a87877e8e0d4447a17b092baf2eea4489b03",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Named data networking (NDN) is a nascent vision for the future Internet that replaces IP addresses with content names searchable at the network layer. One challenging task for NDN routers is to manage huge forwarding information bases (FIBs) that store next-hop routes to contents. In this article, we propose a family of compressed FIB data structures that significantly reduce the required storage space within the NDN routers. Our first compressed FIB data structure is FCTree. FCTree employs a localized front-coding compression, that eliminates repeated prefixes, to buckets containing partitions of routes. These buckets are then organized in self-balancing trees to speed up the longest prefix match (LPM) operations. We propose two enhancements to FCTree, a statistically compressed FCTree (StFCTree) and a dictionary compressed FCTree (DiFCTree). Both StFCTree and DiFCTree achieve higher compression ratios for NDN FIBs and can be used for FIB updates or exchanges between the forwarding and control planes. Finally, we provide the control plane with several knobs that can be employed to achieve different target trade-offs between the lookup speed and the FIB size in each of these structures. Theoretical analysis along with experimental results demonstrate the significant space savings and performance achieved by the proposed schemes.",
+    "citationCount": 11,
+    "referenceCount": 60
+}

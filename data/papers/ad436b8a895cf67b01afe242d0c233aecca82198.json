@@ -1,0 +1,43 @@
+{
+    "paperId": "ad436b8a895cf67b01afe242d0c233aecca82198",
+    "title": "Spatiotemporal Real-Time Anomaly Detection for Supercomputing Systems",
+    "year": 2019,
+    "venue": "2019 IEEE International Conference on Big Data (Big Data)",
+    "authors": [
+        "Qiao Kang",
+        "Ankit Agrawal",
+        "A. Choudhary",
+        "A. Sim",
+        "Kesheng Wu",
+        "R. Kettimuthu",
+        "P. Beckman",
+        "Zhengchun Liu",
+        "W. Liao"
+    ],
+    "doi": "10.1109/BigData47090.2019.9006046",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ad436b8a895cf67b01afe242d0c233aecca82198",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://escholarship.org/content/qt7k10b67t/qt7k10b67t.pdf?t=r1nn10",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The demands of increasingly large scientific application workflows lead to the need for more powerful supercomputers. As the scale of supercomputing systems have grown, the prediction of fault tolerance has become an increasingly critical area of study, since the prediction of system failures can improve performance by saving checkpoints in advance. We propose a real-time failure detection algorithm that adopts an event-based prediction model. The prediction model is a convolutional neural network that utilizes both traditional event attributes and additional spatio-temporal features. We present a case study using our proposed method with six years of reliability, availability, and serviceability event logs recorded by Mira, a Blue Gene/Q supercomputer at Argonne National Laboratory. In the case study, we have shown that our failure prediction model is not limited to predict the occurrence of failures in general. It is capable of accurately detecting specific types of critical failures such as coolant and power problems within reasonable lead time ranges. Our case study shows that the proposed method can achieve a F1 score of 0.56 for general failures, 0.97 for coolant failures, and 0.86 for power failures.",
+    "citationCount": 2,
+    "referenceCount": 26
+}

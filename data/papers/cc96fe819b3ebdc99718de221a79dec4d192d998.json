@@ -1,0 +1,38 @@
+{
+    "paperId": "cc96fe819b3ebdc99718de221a79dec4d192d998",
+    "title": "LESS: Efficient Log Storage System Based on Learned Model and Minimum Attribute Tree",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhiyang Cheng",
+        "Zizhen Zhu",
+        "Haoran Dang",
+        "Hai Wan",
+        "Xibin Zhao"
+    ],
+    "doi": "10.48550/arXiv.2411.17091",
+    "arxivId": "2411.17091",
+    "url": "https://www.semanticscholar.org/paper/cc96fe819b3ebdc99718de221a79dec4d192d998",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, cyber attacks have become increasingly sophisticated and persistent. Detection and investigation based on the provenance graph can effectively mitigate cyber intrusion. However, in the long time span of defenses, the sheer size of the provenance graph will pose significant challenges to the storage systems. Faced with long-term storage tasks, existing methods are unable to simultaneously achieve lossless information, efficient compression, and fast query support. In this paper, we propose a novel provenance graph storage system, LESS, which consumes smaller storage space and supports faster storage and queries compared to current approaches. We innovatively partition the provenance graph into two distinct components, the graph structure and attribute, and store them separately. Based on their respective characteristics, we devise two appropriate storage schemes: the provenance graph structure storage method based on machine learning and the use of the minimal spanning tree to store the graph attributes. Compared with the state-of-the-art approach, LEONARD, LESS reduces 6.29 times in storage time, while also achieving a 5.24 times reduction in disk usage and an 18.3 times faster query speed while using only 11.5% of the memory on DARPA TC dataset.",
+    "citationCount": 0,
+    "referenceCount": 54
+}

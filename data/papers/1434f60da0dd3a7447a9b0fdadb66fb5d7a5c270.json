@@ -1,0 +1,40 @@
+{
+    "paperId": "1434f60da0dd3a7447a9b0fdadb66fb5d7a5c270",
+    "title": "CoopCon: Cooperative Hybrid Congestion Control Scheme for Named Data Networking",
+    "year": 2023,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "Zhuo Li",
+        "X. Shen",
+        "Hao Xun",
+        "Yang Miao",
+        "Weizhe Zhang",
+        "Peng Luo",
+        "Kaihua Liu"
+    ],
+    "doi": "10.1109/TNSM.2023.3262198",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1434f60da0dd3a7447a9b0fdadb66fb5d7a5c270",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Congestion control is a key technology for guaranteeing quality-of-service (QoS) in Named Data Networking (NDN). Hybrid congestion control has gradually developed into the mainstream method in NDN congestion control, which capitalizes on the advantages of receiver adjusting rate and router diverting traffic to deal with congestion. However, it has to address how to effectively coordinate consumers and routers to prevent transport performance degradation caused by repeated and excessive control. In this paper, a hybrid congestion control scheme named CoopCon is proposed, which fully gives the cooperation between consumers and routers to control the congestion adaptively. Moreover, the optimal path is used resiliently by CoopCon to enhance the robustness of multipath forwarding and multicast data delivery in NDN. The proposed CoopCon is implemented in ndnSIM. And simulation results show that CoopCon consistently achieves higher total throughput than existing work. In particular, the total throughput of consumers deployed with CoopCon is 19.4% higher than that of consumers deployed with PCON in the BRITE-generated topology. Additionally, CoopCon also achieves the best fairness in a dumbbell topology, with a fairness index of even 0.96.",
+    "citationCount": 7,
+    "referenceCount": 39
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "d346db1dbe0031f3e0340d41e0bcae6f7ed10f0e",
+    "title": "Ascon on FPGA: Post-Quantum Safe Authenticated Encryption with Replay Protection for IoT",
+    "year": 2025,
+    "venue": "Electronics",
+    "authors": [
+        "Meera Gladis Kurian",
+        "Yuhua Chen"
+    ],
+    "doi": "10.3390/electronics14132668",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d346db1dbe0031f3e0340d41e0bcae6f7ed10f0e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Ascon is a family of lightweight cryptographic algorithms designed for Authenticated Encryption with Associated Data (AEAD), hashing, and Extendable Output Functions (XOFs) in resource-constrained environments. While the AEAD variants of Ascon provide confidentiality and authenticity, they do not inherently detect replayed messages. This work presents an FPGA implementation of Ascon-128, the primary AEAD variant, on a Xilinx Artix-7 device with integrated replay detection. A 128-bit Linear Feedback Shift Register (LFSR) is used to generate a unique sequential nonce per encryption, enabling high-speed, stateless nonce generation with minimal logic complexity. At the decryption end, replay detection is performed by hashing the received nonce using Ascon-XOF128 and verifying its freshness via a Bloom Filter stored in on-chip Block RAM (BRAM). Leveraging the flexibility of Ascon-XOF128 to generate variable length outputs, our design derives all ten Bloom Filter indices from a single 256-bit XOF output using the same permutation core as the AEAD data path, thereby eliminating the need for additional hashing logic. The Bloom Filter ensures zero false negatives, and our configuration achieves a low False Positive Rate (FPR) of 0.77% theoretically and 0.17% empirically after testing 100,000 nonces, consistent with analytical models. Replay detection is fully overlapped with decryption and introduces no additional delay for messages of 64 bytes or more when using the optimized two Rounds Per Clock Cycle (RPCC) permutation core operating at 100 MHz. This architecture extends Ascon with hardware-based replay protection, offering a lightweight and scalable security solution for practical IoT deployments.",
+    "citationCount": 3,
+    "referenceCount": 10
+}

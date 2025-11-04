@@ -1,0 +1,34 @@
+{
+    "paperId": "5b6f080cb75d9a208dfc9307f94ce268915d2478",
+    "title": "Routing Scalability in Named Data Networking",
+    "year": 2022,
+    "venue": "2022 4th International Conference on Advances in Computing, Communication Control and Networking (ICAC3N)",
+    "authors": [
+        "D. S",
+        "N. S",
+        "T. K",
+        "Emil Selvan G S R",
+        "R. P."
+    ],
+    "doi": "10.1109/ICAC3N56670.2022.10074549",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5b6f080cb75d9a208dfc9307f94ce268915d2478",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Named Data network consists of three data structures for forwarding the incoming Interest packets. Whenever the interest packet arrives, it has to search in the pending interest table and the content store. When a large amount of interest packet arrives, the time required to search the matching content in the pending Interest table can be increased. And also, as the size of Content Store is limited, it will be difficult to satisfy the incoming interest packets’ needs. So the interest packets in the content store have to be replaced. In this paper, Optimal Content Store with tree based approach is proposed and is compared with Optimal Content Store without tree based approach. The comparison shows that packet drop rate and delay is comparatively reduced in Optimal Content store with tree based approach.",
+    "citationCount": 0,
+    "referenceCount": 25
+}

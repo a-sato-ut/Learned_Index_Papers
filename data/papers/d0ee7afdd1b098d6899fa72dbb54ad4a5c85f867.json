@@ -1,0 +1,35 @@
+{
+    "paperId": "d0ee7afdd1b098d6899fa72dbb54ad4a5c85f867",
+    "title": "Iterative Retrieval and Block Coding in Autoassociative and Heteroassociative Memory",
+    "year": 2019,
+    "venue": "Neural Computation",
+    "authors": [
+        "A. Knoblauch",
+        "G. Palm"
+    ],
+    "doi": "10.1162/neco_a_01247",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d0ee7afdd1b098d6899fa72dbb54ad4a5c85f867",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural associative memories (NAM) are perceptron-like single-layer networks with fast synaptic learning typically storing discrete associations between pairs of neural activity patterns. Gripon and Berrou (2011) investigated NAM employing block coding, a particular sparse coding method, and reported a significant increase in storage capacity. Here we verify and extend their results for both heteroassociative and recurrent autoassociative networks. For this we provide a new analysis of iterative retrieval in finite autoassociative and heteroassociative networks that allows estimating storage capacity for random and block patterns. Furthermore, we have implemented various retrieval algorithms for block coding and compared them in simulations to our theoretical results and previous simulation data. In good agreement of theory and experiments, we find that finite networks employing block coding can store significantly more memory patterns. However, due to the reduced information per block pattern, it is not possible to significantly increase stored information per synapse. Asymptotically, the information retrieval capacity converges to the known limits C=ln2≈0.69 and C=(ln2)/4≈0.17 also for block coding. We have also implemented very large recurrent networks up to n=2·106 neurons, showing that maximal capacity C≈0.2 bit per synapse occurs for finite networks having a size n≈105 similar to cortical macrocolumns.",
+    "citationCount": 10,
+    "referenceCount": 91
+}

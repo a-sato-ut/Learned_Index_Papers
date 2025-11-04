@@ -1,0 +1,39 @@
+{
+    "paperId": "7cc06e853d82e35c599e9d247e1ecbd6f2e7b3e6",
+    "title": "ELDA: Learning Explicit Dual-Interactions for Healthcare Analytics",
+    "year": 2022,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Qingpeng Cai",
+        "Kaiping Zheng",
+        "B. Ooi",
+        "Wei Wang",
+        "Chang Yao"
+    ],
+    "doi": "10.1109/icde53745.2022.00034",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7cc06e853d82e35c599e9d247e1ecbd6f2e7b3e6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Interaction learning plays an essential role in learning patients' comprehensive representations that contribute to improved performance in many analytical tasks. In healthcare, interactions among medical features (i.e., feature-level interactions) can exhibit different abnormal patterns in detail, while interactions among time steps (i.e., time-level interactions) can indicate the dynamic changes in patients' health conditions. Therefore, it is necessary to capture and analyze both types of interactions when conducting healthcare analytics, In this paper, we propose a general framework ELDA that is supported by the novel model ELDA-Net to learn dual-interactions for healthcare analytics in an explicit manner. Specifically, we devise a Feature-level Interaction Learning Module that can enrich a separately processed medical feature by learned interactions among medical features, and a Time-level Interaction Learning Module that can enhance the representations of the patients' health conditions by learned interactions among time steps. In both levels, ELDA can provide explicit and intuitive interpretations via explaining through the designed attention mechanism. Further, to facilitate the feature-level interaction learning, we propose a novel Bi-directional Embedding Module in ELDA-Net which can efficiently embed the medical features recorded in numerical values. We evaluate the effectiveness and interpretability of ELDA over two public real-world clinical datasets. The experimental results confirm that ELDA consistently outperforms existing state-of-the-art methods with a significant margin, and supports fine-grained interpretability in both the feature level and the time level with medical insights.",
+    "citationCount": 7,
+    "referenceCount": 57
+}

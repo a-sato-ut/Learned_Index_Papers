@@ -1,0 +1,34 @@
+{
+    "paperId": "402d24a4d436f7f4bf41bae12d1d122b7a909702",
+    "title": "Hybrid Composition with IdleBlock: More Efficient Networks for Image Recognition",
+    "year": 2019,
+    "venue": "arXiv.org",
+    "authors": [
+        "Bing Xu",
+        "Andrew Tulloch",
+        "Yunpeng Chen",
+        "Xiaomeng Yang",
+        "Lin Qiao"
+    ],
+    "doi": null,
+    "arxivId": "1911.08609",
+    "url": "https://www.semanticscholar.org/paper/402d24a4d436f7f4bf41bae12d1d122b7a909702",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a new building block, IdleBlock, which naturally prunes connections within the block. To fully utilize the IdleBlock we break the tradition of monotonic design in state-of-the-art networks, and introducing hybrid composition with IdleBlock. We study hybrid composition on MobileNet v3 and EfficientNet-B0, two of the most efficient networks. Without any neural architecture search, the deeper \"MobileNet v3\" with hybrid composition design surpasses possibly all state-of-the-art image recognition network designed by human experts or neural architecture search algorithms. Similarly, the hybridized EfficientNet-B0 networks are more efficient than previous state-of-the-art networks with similar computation budgets. These results suggest a new simpler and more efficient direction for network design and neural architecture search.",
+    "citationCount": 4,
+    "referenceCount": 31
+}

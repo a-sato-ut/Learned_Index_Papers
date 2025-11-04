@@ -1,0 +1,34 @@
+{
+    "paperId": "54bde481ac0fac8ce41827952e2be8edcee449b2",
+    "title": "pForest: In-Network Inference with Random Forests",
+    "year": 2019,
+    "venue": "arXiv.org",
+    "authors": [
+        "Coralie Busse-Grawitz",
+        "Roland Meier",
+        "Alexander Dietmüller",
+        "Tobias Bühler",
+        "Laurent Vanbever"
+    ],
+    "doi": null,
+    "arxivId": "1909.05680",
+    "url": "https://www.semanticscholar.org/paper/54bde481ac0fac8ce41827952e2be8edcee449b2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The concept of \"self-driving networks\" has recently emerged as a possible solution to manage the ever-growing complexity of modern network infrastructures. In a self-driving network, network devices adapt their decisions in real-time by observing network traffic and by performing in-line inference according to machine learning models. The recent advent of programmable data planes gives us a unique opportunity to implement this vision. One open question though is whether these devices are powerful enough to run such complex tasks? \nWe answer positively by presenting pForest, a system for performing in-network inference according to supervised machine learning models on top of programmable data planes. The key challenge is to design classification models that fit the constraints of programmable data planes (e.g., no floating points, no loops, and limited memory) while providing high accuracy. pForest addresses this challenge in three phases: (i) it optimizes the features selection according to the capabilities of programmable network devices; (ii) it trains random forest models tailored for different phases of a flow; and (iii) it applies these models in real time, on a per-packet basis. \nWe fully implemented pForest in Python (training), and in P4_16 (inference). Our evaluation shows that pForest can classify traffic at line rate for hundreds of thousands of flows, with an accuracy that is on-par with software-based solutions. We further show the practicality of pForest by deploying it on existing hardware devices (Barefoot Tofino).",
+    "citationCount": 118,
+    "referenceCount": 79
+}

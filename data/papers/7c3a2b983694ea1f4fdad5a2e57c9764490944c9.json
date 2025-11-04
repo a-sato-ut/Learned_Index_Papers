@@ -1,0 +1,37 @@
+{
+    "paperId": "7c3a2b983694ea1f4fdad5a2e57c9764490944c9",
+    "title": "Leveraging History to Predict Infrequent Abnormal Transfers in Distributed Workflows",
+    "year": 2023,
+    "venue": "Italian National Conference on Sensors",
+    "authors": [
+        "Robin Shao",
+        "A. Sim",
+        "Kesheng Wu",
+        "Jinoh Kim"
+    ],
+    "doi": "10.3390/s23125485",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7c3a2b983694ea1f4fdad5a2e57c9764490944c9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1424-8220/23/12/5485/pdf?version=1686541757",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Scientific computing heavily relies on data shared by the community, especially in distributed data-intensive applications. This research focuses on predicting slow connections that create bottlenecks in distributed workflows. In this study, we analyze network traffic logs collected between January 2021 and August 2022 at the National Energy Research Scientific Computing Center (NERSC). Based on the observed patterns, we define a set of features primarily based on history for identifying low-performing data transfers. Typically, there are far fewer slow connections on well-maintained networks, which creates difficulty in learning to identify these abnormally slow connections from the normal ones. We devise several stratified sampling techniques to address the class-imbalance challenge and study how they affect the machine learning approaches. Our tests show that a relatively simple technique that undersamples the normal cases to balance the number of samples in two classes (normal and slow) is very effective for model training. This model predicts slow connections with an F1 score of 0.926.",
+    "citationCount": 1,
+    "referenceCount": 36
+}

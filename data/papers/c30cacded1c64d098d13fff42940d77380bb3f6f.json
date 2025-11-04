@@ -1,0 +1,34 @@
+{
+    "paperId": "c30cacded1c64d098d13fff42940d77380bb3f6f",
+    "title": "Practical DB-OS Co-Design with Privileged Kernel Bypass",
+    "year": 2025,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Xinjing Zhou",
+        "Viktor Leis",
+        "Jinming Hu",
+        "Xiangyao Yu",
+        "Michael Stonebraker"
+    ],
+    "doi": "10.1145/3709714",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c30cacded1c64d098d13fff42940d77380bb3f6f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper revisits the longstanding challenge of coordinating database systems with general-purpose OS interfaces, such as POSIX, which often lack tailored support for DB requirements. Existing approaches to this DB-OS co-design struggle with limited design space, security risks, and compatibility issues. To overcome these hurdles, we propose a new co-design approach leveraging virtualization to elevate the privilege level of DB processes. Our method enables database systems to fully exploit hardware capabilities via virtualization, while minimizing the need for extensive modifications to the host OS kernel, thereby maintaining compatibility. We demonstrate the effectiveness of our approach through two novel virtual memory mechanisms tailored for database workloads: (1) an efficient snapshotting mechanism that captures memory snapshots at millisecond intervals for in-memory databases and HTAP workloads, and (2) a streamlined in-kernel buffer pool design. We introduce Libdbos, a lightweight guest kernel implementing these mechanisms. Our evaluations highlight significant improvements in latency and efficiency compared to existing snapshotting and buffer pool designs, underscoring the potential of the approach.",
+    "citationCount": 3,
+    "referenceCount": 73
+}

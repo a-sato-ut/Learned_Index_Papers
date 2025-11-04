@@ -1,0 +1,37 @@
+{
+    "paperId": "1bdbc728d205ea4aa403416769e7b2ae090e1409",
+    "title": "Obsidian: Cooperative State-Space Exploration for Performant Inference on Secure ML Accelerators",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sarbartha Banerjee",
+        "Shijia Wei",
+        "Prakash Ramrakhyani",
+        "Mohit Tiwari"
+    ],
+    "doi": "10.48550/arXiv.2409.02817",
+    "arxivId": "2409.02817",
+    "url": "https://www.semanticscholar.org/paper/1bdbc728d205ea4aa403416769e7b2ae090e1409",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Trusted execution environments (TEEs) for machine learning accelerators are indispensable in secure and efficient ML inference. Optimizing workloads through state-space exploration for the accelerator architectures improves performance and energy consumption. However, such explorations are expensive and slow due to the large search space. Current research has to use fast analytical models that forego critical hardware details and cross-layer opportunities unique to the hardware security primitives. While cycle-accurate models can theoretically reach better designs, their high runtime cost restricts them to a smaller state space. We present Obsidian, an optimization framework for finding the optimal mapping from ML kernels to a secure ML accelerator. Obsidian addresses the above challenge by exploring the state space using analytical and cycle-accurate models cooperatively. The two main exploration components include: (1) A secure accelerator analytical model, that includes the effect of secure hardware while traversing the large mapping state space and produce the best m model mappings; (2) A compiler profiling step on a cycle-accurate model, that captures runtime bottlenecks to further improve execution runtime, energy and resource utilization and find the optimal model mapping. We compare our results to a baseline secure accelerator, comprising of the state-of-the-art security schemes obtained from guardnn [ 33 ] and sesame [11]. The analytical model reduces the inference latency by 20.5% for a cloud and 8.4% for an edge deployment with an energy improvement of 24% and 19% respectively. The cycle-accurate model, further reduces the latency by 9.1% for a cloud and 12.2% for an edge with an energy improvement of 13.8% and 13.1%.",
+    "citationCount": 2,
+    "referenceCount": 66
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "afd6070c1cb962ede75e7a7e83ae4686a5b0b604",
+    "title": "Performance Embeddings: A Similarity-Based Transfer Tuning Approach to Performance Optimization",
+    "year": 2023,
+    "venue": "International Conference on Supercomputing",
+    "authors": [
+        "Lukas Trümper",
+        "Tal Ben-Nun",
+        "Philipp Schaad",
+        "A. Calotoiu",
+        "T. Hoefler"
+    ],
+    "doi": "10.1145/3577193.3593714",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/afd6070c1cb962ede75e7a7e83ae4686a5b0b604",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.osti.gov/biblio/1986615",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Performance optimization is an increasingly challenging but often repetitive task. While each platform has its quirks, the underlying code transformations rely on data movement and computational characteristics that recur across applications. This paper proposes to leverage those similarities by constructing an embedding space for subprograms. The continuous space captures both static and dynamic properties of loop nests via symbolic code analysis and performance profiling, respectively. Performance embeddings enable direct knowledge transfer of performance tuning between applications, which can result from autotuning or tailored improvements. We demonstrate this transfer tuning approach on case studies in deep neural networks, dense and sparse linear algebra compositions, and numerical weather prediction stencils. Transfer tuning reduces the search complexity by up to four orders of magnitude and outperforms the MKL library in sparse-dense matrix multiplication. The results exhibit clear correspondences between program characteristics and optimizations, outperforming prior specialized state-of-the-art approaches and generalizing beyond their capabilities.",
+    "citationCount": 6,
+    "referenceCount": 65
+}

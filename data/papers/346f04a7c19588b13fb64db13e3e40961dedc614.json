@@ -1,0 +1,30 @@
+{
+    "paperId": "346f04a7c19588b13fb64db13e3e40961dedc614",
+    "title": "SieveJoin: Boosting Multi-Way Joins with Reusable Bloom Filters",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Qingzhi Ma"
+    ],
+    "doi": "10.48550/arXiv.2308.16370",
+    "arxivId": "2308.16370",
+    "url": "https://www.semanticscholar.org/paper/346f04a7c19588b13fb64db13e3e40961dedc614",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2308.16370",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Improving data systems' performance for join operations has long been an issue of great importance. More recently, a lot of focus has been devoted to multi-way join performance and especially on reducing the negative impact of producing intermediate tuples, which in the end do not make it in the final result. We contribute a new multi-way join algorithm, coined SieveJoin, which extends the well-known Bloomjoin algorithm to multi-way joins and achieves state-of-the-art performance in terms of join query execution efficiency. SieveJoin's salient novel feature is that it allows the propagation of Bloom filters in the join path, enabling the system to `stop early' and eliminate useless intermediate join results. The key design objective of SieveJoin is to efficiently `learn' the join results, based on Bloom filters, with negligible memory overheads. We discuss the bottlenecks in delaying multi-way joins, and how Bloom filters are used to remove the generation of unnecessary intermediate join results. We provide a detailed experimental evaluation using various datasets, against a state-of-the-art column-store database and a multi-way worst-case optimal join algorithm, showcasing SieveJoin's gains in terms of response time.",
+    "citationCount": 0,
+    "referenceCount": 47
+}

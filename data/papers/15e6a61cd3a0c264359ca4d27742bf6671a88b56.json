@@ -1,0 +1,35 @@
+{
+    "paperId": "15e6a61cd3a0c264359ca4d27742bf6671a88b56",
+    "title": "Jingwei: An Efficient and Adaptable Data Migration Strategy for Deduplicated Storage Systems",
+    "year": 2022,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Geyao Cheng",
+        "Deke Guo",
+        "Lailong Luo",
+        "Junxu Xia",
+        "Yuchen Sun"
+    ],
+    "doi": "10.1109/INFOCOM48880.2022.9796954",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/15e6a61cd3a0c264359ca4d27742bf6671a88b56",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The traditional migration methods are confronted with formidable challenges when data deduplication technologies are incorporated. Firstly, the deduplication creates data-sharing dependencies in the stored files; breaking such dependencies in migration would attach extra space overhead. Secondly, the redundancy elimination heightens the risk of data unavailability during server crashes. The existing methods fail to tackle them at one shot. To this end, we propose Jingwei, an efficient and adaptable data migration strategy for deduplicated storage systems. To be specific, Jingwei tries to minimize the extra space cost in migration for space efficiency. Meanwhile, Jingwei realizes the service adaptability by encouraging replicas of hot data to spread out their data access requirements. We first model such a problem as an integer linear programming (ILP) and solve it with a commercial solver when only one empty migration target server is allowed. We then extend this problem to a scenario wherein multiple non-empty target servers are available for migration. We solve it by effective heuristic algorithms based on the Bloom Filter-based data sketches. Trace-driven experiments show that Jingwei fortifies the file replicas by 25%, while only 5.7% of the extra storage space is occupied compared with the latest \"Goseed\" method.",
+    "citationCount": 6,
+    "referenceCount": 35
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "5754ad5006ca34f7ab17de11b872ddb05c6a8e8e",
+    "title": "p-Meta: Towards On-device Deep Model Adaptation",
+    "year": 2022,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Zhongnan Qu",
+        "Zimu Zhou",
+        "Yongxin Tong",
+        "Lothar Thiele"
+    ],
+    "doi": "10.1145/3534678.3539293",
+    "arxivId": "2206.12705",
+    "url": "https://www.semanticscholar.org/paper/5754ad5006ca34f7ab17de11b872ddb05c6a8e8e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3534678.3539293",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data collected by IoT devices are often private and have a large diversity across users. Therefore, learning requires pre-training a model with available representative data samples, deploying the pre-trained model on IoT devices, and adapting the deployed model on the device with local data. Such an on-device adaption for deep learning empowered applications demands data and memory efficiency. However, existing gradient-based meta learning schemes fail to support memory-efficient adaptation. To this end, we propose p-Meta, a new meta learning method that enforces structure-wise partial parameter updates while ensuring fast generalization to unseen tasks. Evaluations on few-shot image classification and reinforcement learning tasks show that p-Meta not only improves the accuracy but also substantially reduces the peak dynamic memory by a factor of 2.5 on average compared to state-of-the-art few-shot adaptation methods.",
+    "citationCount": 14,
+    "referenceCount": 43
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "49b3f42764a749327f8b5b46774bfc7c5ca6b7fd",
+    "title": "ColdPurge: Effecient Metadata Cache Cleaning via Accurate Online Data Hotness Tracking",
+    "year": 2024,
+    "venue": "Middleware Industry",
+    "authors": [
+        "Yuhang Li",
+        "Rong Gu",
+        "Simian Li",
+        "Baohan Wang",
+        "Wei Yu"
+    ],
+    "doi": "10.1145/3700824.3701094",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/49b3f42764a749327f8b5b46774bfc7c5ca6b7fd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the amount of data growing rapidly today, the metadata size of the big data storage also increases explosively. Massive metadata not only causes challenges in stroage resources but also reduces the access performance. In this paper, we propose an efficient metadata cache cleaning method, called ColdPurge. First, ColdPurge records metadata hotness accurately and updates it online to track the changing access patterns. Second, based on accurate and online metadata hotness estimation, we design an efficient mechanism to clean all cold metadata. Third, we further design a low-overhead and precise cold metadata eviction method to evict metadata when cache is full. Finally, we build ColdPurge as a middleware and deploy it to a giant IT company's distributed metadata cache system in production envrionment. Evaluations in public benchmarks show that ColdPurge reduces the average cache space consumption ratio by 27.6%. Besides, its relative cache miss ratio is lower than three widely used cache strategies. Experiments in a real-world deployment's distributed metadata cache system show that ColdPurge can keep the amount of metadata between preset high and low water marks with low misjudgement ratio of cold metadata.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

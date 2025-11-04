@@ -1,0 +1,35 @@
+{
+    "paperId": "b618a6e040e8045dc0bc25c021750b9d5f476ddf",
+    "title": "DisSAGD: A Distributed Parameter Update Scheme Based on Variance Reduction",
+    "year": 2021,
+    "venue": "Italian National Conference on Sensors",
+    "authors": [
+        "Haijie Pan",
+        "Lirong Zheng"
+    ],
+    "doi": "10.3390/s21155124",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b618a6e040e8045dc0bc25c021750b9d5f476ddf",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1424-8220/21/15/5124/pdf?version=1627718062",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning models often converge slowly and are unstable due to the significant variance of random data when using a sample estimate gradient in SGD. To increase the speed of convergence and improve stability, a distributed SGD algorithm based on variance reduction, named DisSAGD, is proposed in this study. DisSAGD corrects the gradient estimate for each iteration by using the gradient variance of historical iterations without full gradient computation or additional storage, i.e., it reduces the mean variance of historical gradients in order to reduce the error in updating parameters. We implemented DisSAGD in distributed clusters in order to train a machine learning model by sharing parameters among nodes using an asynchronous communication protocol. We also propose an adaptive learning rate strategy, as well as a sampling strategy, to address the update lag of the overall parameter distribution, which helps to improve the convergence speed when the parameters deviate from the optimal value—when one working node is faster than another, this node will have more time to compute the local gradient and sample more samples for the next iteration. Our experiments demonstrate that DisSAGD significantly reduces waiting times during loop iterations and improves convergence speed when compared to traditional methods, and that our method can achieve speed increases for distributed clusters.",
+    "citationCount": 2,
+    "referenceCount": 45
+}

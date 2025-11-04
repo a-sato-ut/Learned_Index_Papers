@@ -1,0 +1,29 @@
+{
+    "paperId": "2757cfc89b3170b50187f87a0f31228c07c782d6",
+    "title": "Optimization of attribute-based access control policy with priority filtering",
+    "year": 2022,
+    "venue": "2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT)",
+    "authors": [
+        "Weize Xu",
+        "Lei Kong",
+        "Nan Wang",
+        "Jinzhong Liu"
+    ],
+    "doi": "10.1109/ICCASIT55263.2022.9986571",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2757cfc89b3170b50187f87a0f31228c07c782d6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The ABAC model currently has a wide range of application scenarios, such as cloud environments, the Internet of Things, and fine-grained access control for NoSQL databases. Although the use of attribute-based control techniques can solve problems such as insufficient access control granularity, it immediately brings the problem of inefficient access control. In this paper, we design a new ABAC policy matching algorithm, when the guest sends an access request, we first filter out the access requests that are unlikely to be decided using a cuckoo filter and reject the access request directly. If the access request passes the filter, then the policy that can match the access request is found through the primary index table and secondary index table of the policy and the decision result is given. Experiments prove that the algorithm performs best in the worst case and performs well in the general case, and can greatly improve the efficiency of attribute-based access control.",
+    "citationCount": 0,
+    "referenceCount": 17
+}

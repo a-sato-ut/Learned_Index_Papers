@@ -1,0 +1,37 @@
+{
+    "paperId": "854ba96b31efa973a6bb04b2c4f62d5d2e3b5078",
+    "title": "Exact Scheduling to Minimize Off-Chip Data Movement for Deep Learning Accelerators",
+    "year": 2024,
+    "venue": "Asia and South Pacific Design Automation Conference",
+    "authors": [
+        "Yi Li",
+        "Aarti Gupta",
+        "Sharad Malik"
+    ],
+    "doi": "10.1109/ASP-DAC58780.2024.10473916",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/854ba96b31efa973a6bb04b2c4f62d5d2e3b5078",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Specialized hardware accelerators are increasingly utilized to provide performance/power efficiency for Deep Neural Network (DNN) applications. However their benefits are limited by expensive off-chip data movement between host memory and the accelerator’s on-chip scratchpad, which can consume significantly more energy than accelerator computation [13]. While application-level DNN operators can have arbitrary sizes, accelerators typically support fixed-sized operations due to constrained on-chip memory and micro-architectures. Consequently, mapping an application-level operator to an accelerator involves decomposing it into loops of smaller tiles. Different choices of tile sizes, loop orders and memory partition across tensors result in a vast design space with huge differences in off-chip data movement volume. To address this challenge, we introduce Shoehorn, a schedule optimization framework that jointly optimizes loop tiling, loop ordering, and memory partitioning for mapping application-level DNN operators to hardware accelerators. Shoehorn can generate optimal schedules in subseconds and outperforms state-of-the-art approaches, reducing up to 51% total off-chip memory traffic relative to competing schedulers for several widely-used DNN applications on three distinct hardware accelerator targets.",
+    "citationCount": 2,
+    "referenceCount": 37
+}

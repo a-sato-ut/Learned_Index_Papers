@@ -1,0 +1,37 @@
+{
+    "paperId": "54b73e1f3ea72214365e8d21c66cc9e3021dd5cb",
+    "title": "U.S.-U.K. PETs Prize Challenge: Anomaly Detection via Privacy-Enhanced Federated Learning",
+    "year": 2024,
+    "venue": "IEEE Transactions on Privacy",
+    "authors": [
+        "H. Asif",
+        "Sitao Min",
+        "Xinyu Wang",
+        "Jaideep Vaidya"
+    ],
+    "doi": "10.1109/tp.2024.3392721",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/54b73e1f3ea72214365e8d21c66cc9e3021dd5cb",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/10167710/10507757/10507758.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Privacy Enhancing Technologies (PETs) have the potential to enable collaborative analytics without compromising privacy. This is extremely important for collaborative analytics can allow us to really extract value from the large amounts of data that are collected in domains such as healthcare, finance, and national security, among others. In order to foster innovation and move PETs from the research labs to actual deployment, the U.S. and U.K. governments partnered together in 2021 to propose the PETs prize challenge asking for privacy-enhancing solutions for two of the biggest problems facing us today: financial crime prevention and pandemic response. This article presents the Rutgers ScarletPets privacy-preserving federated learning approach to identify anomalous financial transactions in a payment network system (PNS). This approach utilizes a two-step anomaly detection methodology to solve the problem. In the first step, features are mined based on account-level data and labels, and then a privacy-preserving encoding scheme is used to augment these features to the data held by the PNS. In the second step, the PNS learns a highly accurate classifier from the augmented data. Our proposed approach has two major advantages: 1) there is no noteworthy drop in accuracy between the federated and the centralized setting, and 2) our approach is flexible since the PNS can keep improving its model and features to build a better classifier without imposing any additional computational or privacy burden on the banks. Notably, our solution won the first prize in the US for its privacy, utility, efficiency, and flexibility.",
+    "citationCount": 6,
+    "referenceCount": 58
+}

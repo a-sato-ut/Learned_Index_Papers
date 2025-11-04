@@ -1,0 +1,40 @@
+{
+    "paperId": "c1906815523fc3b1f44accc22b2c488a0a1658f4",
+    "title": "Using near misses, artificial intelligence, and machine learning to predict maritime incidents: A U.S. Coast Guard case study",
+    "year": 2024,
+    "venue": "Risk Analysis",
+    "authors": [
+        "Peter M. Madsen",
+        "Robin L. Dillon",
+        "Evan T. Morris"
+    ],
+    "doi": "10.1111/risa.15075",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c1906815523fc3b1f44accc22b2c488a0a1658f4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Two recent trends made this project possible: (1) The recognition that near misses can be predictors of future negative events and (2) enhanced artificial intelligence (AI) and machine learning (ML) tools that make data analytics accessible for many organizations. Increasingly, organizations are learning from prior incidents to improve safety and reduce accidents. The U.S. Coast Guard (USCG) uses a reporting system called the Marine Information for Safety and Law Enforcement (MISLE) database. Because many of the incidents that appear in this database are minor ones, this project initially focused on determining if near misses in MISLE could be predictors of future accidents. The analysis showed that recent near‐miss counts are useful for predicting future serious casualties at the waterway level. Using this finding, a predictive AI/ML model was built for each waterway type by vessel combination. Random forest decision tree AI/ML models were used to identify waterways at significant accident risk. An R‐based predictive model was designed to be run monthly, using data from prior months to make future predictions. The prediction models were trained on data from 2007 to 2022 and tested on 10 months of data from 2022, where prior months were added to test the next month. The overall accuracy of the predictions was 92%–99.9%, depending on model characteristics. The predictions of the models were considered accurate enough to be potentially useful in future prevention efforts for the USCG and may be generalizable to other industries that have near‐miss data and a desire to identify and manage risks.",
+    "citationCount": 4,
+    "referenceCount": 34
+}

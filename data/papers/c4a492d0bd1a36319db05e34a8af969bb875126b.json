@@ -1,0 +1,35 @@
+{
+    "paperId": "c4a492d0bd1a36319db05e34a8af969bb875126b",
+    "title": "ALock: Asymmetric Lock Primitive for RDMA Systems",
+    "year": 2024,
+    "venue": "ACM Symposium on Parallelism in Algorithms and Architectures",
+    "authors": [
+        "Amanda Baran",
+        "J. Nelson-Slivon",
+        "Lewis Tseng",
+        "Roberto Palmieri"
+    ],
+    "doi": "10.1145/3626183.3659977",
+    "arxivId": "2404.17980",
+    "url": "https://www.semanticscholar.org/paper/c4a492d0bd1a36319db05e34a8af969bb875126b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2404.17980",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Remote direct memory access (RDMA) networks are being rapidly adopted into industry for their high speed, low latency, and reduced CPU overheads compared to traditional kernel-based TCP/IP networks. RDMA enables threads to access remote memory without interacting with another process. However, atomicity between local accesses and remote accesses is not guaranteed by the technology, hence complicating synchronization significantly. The current solution is to require threads wanting to access local memory in an RDMA-accessible region to pass through the RDMA card using a mechanism known as loopback, but this can quickly degrade performance. In this paper, we introduce ALock, a novel locking primitive designed for RDMA-based systems. ALock allows programmers to synchronize local and remote accesses without using loopback or remote procedure calls (RPCs). We draw inspiration from the classic Peterson's algorithm to create a hierarchical design that includes embedded MCS locks for two cohorts, remote and local. To evaluate the ALock we implement a distributed lock table, measuring throughput and latency in various cluster configurations and workloads. In workloads with a majority of local operations, the ALock outperforms competitors up to 29x and achieves a latency up to 20x faster.",
+    "citationCount": 3,
+    "referenceCount": 36
+}

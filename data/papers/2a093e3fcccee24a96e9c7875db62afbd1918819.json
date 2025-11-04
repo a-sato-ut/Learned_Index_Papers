@@ -1,0 +1,37 @@
+{
+    "paperId": "2a093e3fcccee24a96e9c7875db62afbd1918819",
+    "title": "Eliminate Critical Fragmentation of F2FS in Mobile Devices with Controller Co-Design",
+    "year": 2024,
+    "venue": "IEEE Non-Volatile Memory System and Applications Symposium",
+    "authors": [
+        "Wenxin Wang",
+        "Yaqi Li",
+        "Liang Shi",
+        "Edwin H.-M. Sha"
+    ],
+    "doi": "10.1109/NVMSA63038.2024.10693659",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2a093e3fcccee24a96e9c7875db62afbd1918819",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The issue of file fragmentation and its consequential impact on I/O performance has been a hot topic among researchers. However, prevailing methodologies often offer only transient alleviation, failing to address the root cause of recurring fragmentation. With the advent of File-based Optimization in UFS 4.0, there arises a prospect for further mitigation of fragmentation issues in mobile devices through innovative controller designs. This paper presents a controller-coordinated approach aimed at mitigating the problem of critical file fragmentation within the F2FS file system on mobile devices. In contrast to prior approaches, this method addresses both logical and physical fragmentation, effectively curbing the recurrence of fragmentation over a defined period. The experimental findings highlight the effectiveness of this method in optimizing hot file fragmentation with minimal additional workload, thereby improving the performance of fragmented file sequential reads to approach that of sequential files. In the Fileserver workload, our method showed a 16.7% performance enhancement, demonstrating its ability to maintain internal parallelism during multi-threaded append writes.",
+    "citationCount": 2,
+    "referenceCount": 20
+}

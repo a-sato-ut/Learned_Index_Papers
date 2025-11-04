@@ -1,0 +1,36 @@
+{
+    "paperId": "32ea59a85431d4cabc10ca1c0c9bb2dd470ce812",
+    "title": "Efficient RDMA Communication Protocols",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Konstantin Taranov",
+        "Fabian Fischer",
+        "T. Hoefler"
+    ],
+    "doi": "10.48550/arXiv.2212.09134",
+    "arxivId": "2212.09134",
+    "url": "https://www.semanticscholar.org/paper/32ea59a85431d4cabc10ca1c0c9bb2dd470ce812",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2212.09134",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Developers of networked systems often work with low-level RDMA libraries to tailor network modules to take full advantage of offload capabilities offered by RDMA-capable network controllers. Because of the huge design space of networked data access protocols and variability in capabilities of RDMA infrastructure, developers tend to reinvent and reimplement common data exchange protocols, wasting months of development yet missing various performance and system capabilities. In this work, we summarise and categorize RDMA data exchange protocols and elaborate on what features they can offer to networked systems and what implications they have on their memory and network management.",
+    "citationCount": 3,
+    "referenceCount": 56
+}

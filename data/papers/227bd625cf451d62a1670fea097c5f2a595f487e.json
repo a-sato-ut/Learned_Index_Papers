@@ -1,0 +1,35 @@
+{
+    "paperId": "227bd625cf451d62a1670fea097c5f2a595f487e",
+    "title": "CPrune: Compiler-Informed Model Pruning for Efficient Target-Aware DNN Execution",
+    "year": 2022,
+    "venue": "European Conference on Computer Vision",
+    "authors": [
+        "Taeho Kim",
+        "Yongin Kwon",
+        "Jemin Lee",
+        "Taeho Kim",
+        "Sangtae Ha"
+    ],
+    "doi": "10.48550/arXiv.2207.01260",
+    "arxivId": "2207.01260",
+    "url": "https://www.semanticscholar.org/paper/227bd625cf451d62a1670fea097c5f2a595f487e",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2207.01260",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Mobile devices run deep learning models for various purposes, such as image classification and speech recognition. Due to the resource constraints of mobile devices, researchers have focused on either making a lightweight deep neural network (DNN) model using model pruning or generating an efficient code using compiler optimization. Surprisingly, we found that the straightforward integration between model compression and compiler auto-tuning often does not produce the most efficient model for a target device. We propose CPrune, a compiler-informed model pruning for efficient target-aware DNN execution to support an application with a required target accuracy. CPrune makes a lightweight DNN model through informed pruning based on the structural information of subgraphs built during the compiler tuning process. Our experimental results show that CPrune increases the DNN execution speed up to 2.73x compared to the state-of-the-art TVM auto-tune while satisfying the accuracy requirement.",
+    "citationCount": 3,
+    "referenceCount": 50
+}

@@ -1,0 +1,42 @@
+{
+    "paperId": "fe545703544ed35272b5b5fbe34dfd685a40307e",
+    "title": "Optimal In-Network Distribution of Learning Functions for a Secure-by-Design Programmable Data Plane of Next-Generation Networks",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "M. G. Spina",
+        "Edoardo Scalzo",
+        "F. Rango",
+        "Francesca Guerriero",
+        "Antonio Iera"
+    ],
+    "doi": "10.48550/arXiv.2411.18384",
+    "arxivId": "2411.18384",
+    "url": "https://www.semanticscholar.org/paper/fe545703544ed35272b5b5fbe34dfd685a40307e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rise of programmable data plane (PDP) and in-network computing (INC) paradigms paves the way for the development of network devices (switches, network interface cards, etc.) capable of performing advanced processing tasks. This allows running various types of algorithms, including machine learning, within the network itself to support user and network services. In particular, this paper delves into the deployment of in-network learning models with the aim of implementing fully distributed intrusion detection systems (IDS) or intrusion prevention systems (IPS). Specifically, a model is proposed for the optimal distribution of the IDS/IPS workload among data plane devices with the aim of ensuring complete network security without excessively burdening the normal operations of the devices. Furthermore, a meta-heuristic approach is proposed to reduce the long computation time required by the exact solution provided by the mathematical model and its performance is evaluated. The analysis conducted and the results obtained demonstrate the enormous potential of the proposed new approach for the creation of intelligent data planes that act effectively and autonomously as the first line of defense against cyber attacks, with minimal additional workload on the network devices involved.",
+    "citationCount": 1,
+    "referenceCount": 32
+}

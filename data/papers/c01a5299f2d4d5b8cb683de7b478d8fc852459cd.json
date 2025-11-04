@@ -1,0 +1,32 @@
+{
+    "paperId": "c01a5299f2d4d5b8cb683de7b478d8fc852459cd",
+    "title": "CASHT: Contention Analysis in Shared Hierarchies with Thefts",
+    "year": 2022,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Cesar Gomes",
+        "M. Amiraski",
+        "Mark Hempstead"
+    ],
+    "doi": "10.1145/3494538",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c01a5299f2d4d5b8cb683de7b478d8fc852459cd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3494538",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cache management policies should consider workloads’ contention behavior when managing a shared cache. Prior art makes estimates about shared cache behavior by adding extra logic or time to isolate per workload cache statistics. These approaches provide per-workload analysis but do not provide a holistic understanding of the utilization and effectiveness of caches under the ever-growing contention that comes standard with scaling cores. We present Contention Analysis in Shared Hierarchies using Thefts, or CASHT,1 a framework for capturing cache contention information both offline and online. CASHT takes advantage of cache statistics made richer by observing a consequence of cache contention: inter-core evictions, or what we call THEFTS. We use thefts to complement more familiar cache statistics to train a learning model based on Gradient-boosting Trees (GBT) to predict the best ways to partition the last-level cache. GBT achieves 90+% accuracy with trained models as small as 100 B and at least 95% accuracy at 1 kB model size when predicting the best way to partition two workloads. CASHT employs a novel run-time framework for collecting thefts-based metrics despite partition intervention, and enables per-access sampling rather than set sampling that could add overhead but may not capture true workload behavior. Coupling CASHT and GBT for use as a dynamic policy results in a very lightweight and dynamic partitioning scheme that performs within a margin of error of Utility-based Cache Partitioning at a 1/8 the overhead.",
+    "citationCount": 3,
+    "referenceCount": 57
+}

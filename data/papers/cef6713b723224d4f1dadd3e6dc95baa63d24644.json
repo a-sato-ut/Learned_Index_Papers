@@ -1,0 +1,39 @@
+{
+    "paperId": "cef6713b723224d4f1dadd3e6dc95baa63d24644",
+    "title": "Tiny Machine Learning: Progress and Futures [Feature]",
+    "year": 2024,
+    "venue": "IEEE Circuits and Systems Magazine",
+    "authors": [
+        "Ji Lin",
+        "Ligeng Zhu",
+        "Wei-Ming Chen",
+        "Wei-Chen Wang",
+        "Song Han"
+    ],
+    "doi": "10.1109/MCAS.2023.3302182",
+    "arxivId": "2403.19076",
+    "url": "https://www.semanticscholar.org/paper/cef6713b723224d4f1dadd3e6dc95baa63d24644",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Tiny machine learning (TinyML) is a new frontier of machine learning. By squeezing deep learning models into billions of IoT devices and microcontrollers (MCUs), we expand the scope of applications and enable ubiquitous intelligence. However, TinyML is challenging due to the hardware constraints: the tiny memory resource is difficult hold deep learning models designed for cloud and mobile platforms. There is also limited compiler and inference engine support for bare-metal devices. Therefore, we need to co-design the algorithm and system stack to enable TinyML. In this review, we will first discuss the definition, challenges, and applications of TinyML. We then survey the recent progress in TinyML and deep learning on MCUs. Next, we will introduce MCUNet, showing how we can achieve ImageNet-scale AI applications on IoT devices with system-algorithm co-design. We will further extend the solution from inference to training and introduce tiny on-device training techniques. Finally, we present future directions in this area. Today’s “large” model might be tomorrow’s “tiny” model. The scope of TinyML should evolve and adapt over time.",
+    "citationCount": 91,
+    "referenceCount": 154
+}

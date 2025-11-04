@@ -1,0 +1,32 @@
+{
+    "paperId": "6fe8458b2c96c30abb66e7cbe5853769a1d95d0c",
+    "title": "BoGraph: structured bayesian optimization from logs for expensive systems with many parameters",
+    "year": 2021,
+    "venue": "EuroMLSys@EuroSys",
+    "authors": [
+        "Sami Alabed",
+        "Eiko Yoneki"
+    ],
+    "doi": "10.1145/3517207.3526977",
+    "arxivId": "2112.08774",
+    "url": "https://www.semanticscholar.org/paper/6fe8458b2c96c30abb66e7cbe5853769a1d95d0c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3517207.3526977",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current auto-tuners struggle with computer systems due to their large complex parameter space and high evaluation cost. We propose BoGraph, an auto-tuning framework that builds a graph of the system components before optimizing it using causal structure learning. The graph contextualizes the system via decomposition of the parameter space for faster convergence and handling of many parameters. Furthermore, BoGraph exposes an API to encode experts' knowledge of the system via performance models and a known dependency structure of the components. We evaluated BoGraph via a hardware design case study achieving 5x -- 7x improvement in energy and latency over the default in a variety of tasks.",
+    "citationCount": 7,
+    "referenceCount": 56
+}

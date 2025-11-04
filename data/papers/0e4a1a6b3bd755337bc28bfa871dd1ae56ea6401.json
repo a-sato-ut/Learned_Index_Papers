@@ -1,0 +1,41 @@
+{
+    "paperId": "0e4a1a6b3bd755337bc28bfa871dd1ae56ea6401",
+    "title": "CHIME: A Cache-Efficient and High-Performance Hybrid Index on Disaggregated Memory",
+    "year": 2024,
+    "venue": "Symposium on Operating Systems Principles",
+    "authors": [
+        "Xuchuan Luo",
+        "Jiacheng Shen",
+        "Pengfei Zuo",
+        "Xin Wang",
+        "Michael R. Lyu",
+        "Yangfan Zhou"
+    ],
+    "doi": "10.1145/3694715.3695959",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0e4a1a6b3bd755337bc28bfa871dd1ae56ea6401",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3694715.3695959",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Disaggregated memory (DM) is a widely discussed datacenter architecture in academia and industry. It decouples computing and memory resources from monolithic servers into two network-connected resource pools. Range indexes are widely adopted by storage systems on DM to efficiently locate and query remote data. However, existing range indexes on DM suffer from either high computing-side cache consumption or high memory-side read amplifications. In this paper, we propose CHIME, a hybrid index combining B+ trees with hopscotch hashing, to achieve low cache consumption and low read amplifications simultaneously. There are three challenges in constructing CHIME on DM, i.e., the complicated optimistic synchronization, the extra metadata access, and the read amplifications introduced by hopscotch hashing. CHIME leverages 1) a three-level optimistic synchronization scheme to synchronize read and write operations with various granularities, 2) an access-aggregated metadata management technique to eliminate extra metadata accesses by piggybacking and replicating metadata, and 3) an effective hotness-aware speculative read mechanism to mitigate the read amplifications of hopscotch hashing. Experimental results show that CHIME outperforms the state-of-the-art range indexes on DM by up to 5.1× with the same cache size and achieves similar performance with up to 8.7× lower cache consumption.",
+    "citationCount": 8,
+    "referenceCount": 61
+}

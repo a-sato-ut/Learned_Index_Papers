@@ -1,0 +1,35 @@
+{
+    "paperId": "30ed19d2b37019975c6f91ffd2bf6baf3512aa1c",
+    "title": "WACO: Learning Workload-Aware Co-optimization of the Format and Schedule of a Sparse Tensor Program",
+    "year": 2023,
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "authors": [
+        "Jaeyeon Won",
+        "Charith Mendis",
+        "J. Emer",
+        "Saman P. Amarasinghe"
+    ],
+    "doi": "10.1145/3575693.3575742",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/30ed19d2b37019975c6f91ffd2bf6baf3512aa1c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3575693.3575742",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we present WACO, a novel method of co-optimizing the format and the schedule of a given sparsity pattern in a sparse tensor program. A core challenge in this paper is the design of a lightweight cost model that accurately predicts the runtime of a sparse tensor program by considering the sparsity pattern, the format, and the schedule. The key idea in addressing this is exploiting a sparse convolutional network to learn meaningful features of the sparsity pattern and embedding a coupled behavior between the format and the schedule using a specially designed schedule template. In addition, within the enormous search space of co-optimization, our novel search strategy, an approximate nearest neighbor search, efficiently and accurately retrieves the best format and schedule for a given sparsity pattern. We evaluated WACO for four different algorithms (SpMV, SpMM, SDDMM, and MTTKRP) on a CPU using 726 different sparsity patterns. Our experimental results showed that WACO outperformed four state-of-the-art baselines, Intel MKL, BestFormat, TACO with a default schedule, and ASpT. Compared to the best of four baselines, WACO achieved 1.43×, 1.18×, 1.14×, and 1.27× average speedups on SpMV, SpMM, SDDMM, and MTTKRP, respectively.",
+    "citationCount": 29,
+    "referenceCount": 58
+}

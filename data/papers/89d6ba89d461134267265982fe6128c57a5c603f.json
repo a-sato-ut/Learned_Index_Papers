@@ -1,0 +1,38 @@
+{
+    "paperId": "89d6ba89d461134267265982fe6128c57a5c603f",
+    "title": "DOPpler: Parallel Measurement Infrastructure for Auto-Tuning Deep Learning Tensor Programs",
+    "year": 2023,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Damian Borowiec",
+        "Gingfung Yeung",
+        "A. Friday",
+        "Richard Harper",
+        "Peter Garraghan"
+    ],
+    "doi": "10.1109/TPDS.2023.3279233",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/89d6ba89d461134267265982fe6128c57a5c603f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://eprints.lancs.ac.uk/id/eprint/194105/3/TPDS_DOPpler_1_.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The heterogeneity of Deep Learning models, libraries, and hardware poses an important challenge for improving model inference performance. Auto-tuners address this challenge via automatic tensor program optimization towards a target-device. However, auto-tuners incur a substantial time cost to complete given their design necessitates performing tensor program candidate measurements serially within an isolated target-device to minimize latency measurement inaccuracy. In this article we propose DOPpler, a parallel auto-tuning measurement infrastructure. DOPpler allows for considerable auto-tuning speedup over conventional approaches whilst maintaining high-quality tensor program optimization. DOPpler accelerates the auto-tuning process by proposing a parallel execution engine to efficiently execute candidate tensor programs in parallel across the CPU-host and GPU target-device, and overcomes measurement inaccuracy by introducing a high-precision on-device measurement technique when measuring tensor program kernel latency. DOPpler is designed to automatically calculate the optimal degree of parallelism to provision fast and accurate auto-tuning for different tensor programs, auto-tuners and target-devices. Experiment results show that DOPpler reduces total auto-tuning time by 50.5% on average whilst achieving optimization gains equivalent to conventional auto-tuning infrastructure.",
+    "citationCount": 4,
+    "referenceCount": 49
+}

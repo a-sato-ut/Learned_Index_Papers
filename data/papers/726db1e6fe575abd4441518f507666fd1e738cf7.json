@@ -1,0 +1,38 @@
+{
+    "paperId": "726db1e6fe575abd4441518f507666fd1e738cf7",
+    "title": "GTuner: tuning DNN computations on GPU via graph attention network",
+    "year": 2022,
+    "venue": "Design Automation Conference",
+    "authors": [
+        "Qi Sun",
+        "Xinyun Zhang",
+        "Hao Geng",
+        "Yuxuan Zhao",
+        "Yang Bai",
+        "Haisheng Zheng",
+        "Bei Yu"
+    ],
+    "doi": "10.1145/3489517.3530584",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/726db1e6fe575abd4441518f507666fd1e738cf7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "It is an open problem to compile DNN models on GPU and improve the performance. A novel framework, GTuner, is proposed to jointly learn from the structures of computational graphs and the statistical features of codes to find the optimal code implementations. A Graph ATtention network (GAT) is designed as the performance estimator in GTuner. In GAT, graph neural layers are used to propagate the information in the graph and a multi-head self-attention module is designed to learn the complicated relationships between the features. Under the guidance of GAT, the GPU codes are generated through auto-tuning. Experimental results demonstrate that our method outperforms the previous arts remarkably.",
+    "citationCount": 8,
+    "referenceCount": 32
+}

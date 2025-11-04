@@ -1,0 +1,36 @@
+{
+    "paperId": "db1e6ab705191946f472301f134238e925bb0bc0",
+    "title": "Scheduling Language Chronology: Past, Present, and Future",
+    "year": 2025,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Mary Hall",
+        "C. Oancea",
+        "Anne Elster",
+        "Ari Rasch",
+        "Sameeran Joshi",
+        "Amir Mohammad Tavakkoli",
+        "Richard Schulze"
+    ],
+    "doi": "10.1145/3743135",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/db1e6ab705191946f472301f134238e925bb0bc0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Scheduling languages express to a compiler—or equivalently, a code generator—a sequence of optimizations to apply. Performance tools that support a scheduling language interface allow exploration of optimizations, i.e., exploratory compilers. While scheduling languages have become a common feature of tools for experts, the proliferation of these languages without unifying common features may be confusing to users. Moreover, we recognize a need to organize the compiler developer community around common exploratory compiler infrastructure, and future advances to address, for example, data layout and data movement. To support a broader set of users may require raising the level of abstraction. This article provides a chronology of scheduling languages, discussing their origins in iterative compilation and autotuning, noting the common features that are used in existing frameworks, and calling for changes to increase their utility and portability.",
+    "citationCount": 0,
+    "referenceCount": 165
+}

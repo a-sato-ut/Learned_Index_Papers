@@ -1,0 +1,32 @@
+{
+    "paperId": "365dc7ca3ee6f058dc23d00782421e86000eddb0",
+    "title": "Combining Speaker Recognition and Metric Learning for Speaker-Dependent Representation Learning",
+    "year": 2019,
+    "venue": "Interspeech",
+    "authors": [
+        "João Monteiro",
+        "Md. Jahangir Alam",
+        "T. Falk"
+    ],
+    "doi": "10.21437/interspeech.2019-2974",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/365dc7ca3ee6f058dc23d00782421e86000eddb0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we tackle automatic speaker verification under a text-independent setting. Speaker modelling is performed by a deep convolutional neural network on top of time-frequency speech representations. Convolutions performed over the time dimension provide the means for the model to take both shortterm dependencies into account, given the nature of the learned filters which operate over short-windows, as well as long-term dependencies, since depth in a convolutional stack implies dependency of outputs across large portions of input samples. Additionally, various pooling strategies across the time dimension are compared so as to effectively map varying length recordings into fixed dimensional representations while simultaneously providing the neural network with an extra mechanism to model long-term dependencies. We finally propose a training scheme under which well-known metric learning approaches, namely triplet loss minimization, is performed along with speaker recognition in a multi-class classification setting. Evaluation on well-known datasets and comparisons with stateof-the-art benchmarks show that the proposed setting is effective in yielding speaker-dependent representations, thus is wellsuited for voice biometrics downstream tasks.",
+    "citationCount": 6,
+    "referenceCount": 27
+}

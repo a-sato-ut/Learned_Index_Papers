@@ -1,0 +1,32 @@
+{
+    "paperId": "f5f2cc27f13d391070d952b4b0f6ffc920153ca9",
+    "title": "Towards Adaptive Storage Views in Virtual Memory",
+    "year": 2022,
+    "venue": "Conference on Innovative Data Systems Research",
+    "authors": [
+        "F. Schuhknecht",
+        "Justus Henneberg"
+    ],
+    "doi": "10.48550/arXiv.2209.01635",
+    "arxivId": "2209.01635",
+    "url": "https://www.semanticscholar.org/paper/f5f2cc27f13d391070d952b4b0f6ffc920153ca9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2209.01635",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Traditionally, DBMSs separate their storage layer from their indexing layer. While the storage layer physically materializes the database and provides low-level access methods to it, the indexing layer on top enables a faster locating of searched-for entries. While this clearly separates concerns, it also adds a level of indirection to the already complex execution path. In this work, we propose an alternative design: Instead of conservatively separating both layers, we naturally fuse them by integrating an adaptive coarse-granular indexing scheme directly into the storage layer. We do so by utilizing tools of the virtual memory management subsystem provided by the OS: On the lowest level, we materialize the database content in form of physical main memory. On top of that, we allow the creation of arbitrarily many virtual memory storage views that map to subsets of the database having certain properties of interest. This creation happens fully adaptively as a side-product of query processing. To speed up query answering, we route each query automatically to the most fitting virtual view(s). By this, we naturally index the storage layer in its core and gradually improve the provided scan performance.",
+    "citationCount": 2,
+    "referenceCount": 19
+}

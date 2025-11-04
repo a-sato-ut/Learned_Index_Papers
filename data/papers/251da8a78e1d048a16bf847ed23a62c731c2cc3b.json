@@ -1,0 +1,40 @@
+{
+    "paperId": "251da8a78e1d048a16bf847ed23a62c731c2cc3b",
+    "title": "The Case for Performance Interfaces for Hardware Accelerators",
+    "year": 2023,
+    "venue": "USENIX Workshop on Hot Topics in Operating Systems",
+    "authors": [
+        "Rishabh R. Iyer",
+        "Jiacheng Ma",
+        "K. Argyraki",
+        "George Candea",
+        "Sylvia Ratnasamy"
+    ],
+    "doi": "10.1145/3593856.3595904",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/251da8a78e1d048a16bf847ed23a62c731c2cc3b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://infoscience.epfl.ch/record/307058/files/ri_hotos23_infoscience.pdf",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "While systems designers are increasingly turning to hardware accelerators for performance gains, realizing these gains is painstaking and error-prone. It can take several person-months to determine if a given accelerator is a good fit for a given piece of code, and accelerators that cost millions of dollars to build can slow down the very systems they were designed to accelerate. We argue that hardware accelerators must come with performance interfaces---interfaces that provide usable information about the accelerator's performance behavior just like semantic interfaces do for functionality---to facilitate their correct use. Since accelerators do not provide new functionality and are only useful if they improve system performance, performance interfaces are as integral to their correct use as semantic interfaces.",
+    "citationCount": 6,
+    "referenceCount": 64
+}

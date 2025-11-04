@@ -1,0 +1,32 @@
+{
+    "paperId": "da92e27190c3ab99fe0929339ddf178d64d6973e",
+    "title": "Sortledton: a universal, transactional graph data structure",
+    "year": 2022,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Per Fuchs",
+        "Jana Giceva",
+        "D. Margan"
+    ],
+    "doi": "10.14778/3514061.3514065",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/da92e27190c3ab99fe0929339ddf178d64d6973e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Despite the wide adoption of graph processing across many different application domains, there is no underlying data structure that can serve a variety of graph workloads (analytics, traversals, and pattern matching) on dynamic graphs with transactional updates.\n In this paper, we present Sortledton, a universal graph data structure that addresses the open problem by being carefully optimizing for the most relevant data access patterns used by graph computation kernels. It can support millions of transactional updates per second, while providing competitive performance (1.22x on average) for the most common graph workloads to the best-known baseline for static graphs - CSR. With this, we improve the ingestion throughput over state-of-the-art dynamic graph data structures, while supporting a wider range of graph computations under transactional guarantees, with a much simpler design and significantly smaller memory footprint (2.1x that of CSR).",
+    "citationCount": 39,
+    "referenceCount": 59
+}

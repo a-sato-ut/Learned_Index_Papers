@@ -1,0 +1,37 @@
+{
+    "paperId": "cf5d98cd391ceaff0022d8a00f04184ef61b1d1c",
+    "title": "Implementing VTA, a tensor accelerator on Flow-in-Cloud",
+    "year": 2021,
+    "venue": "Automation, Control, and Information Technology",
+    "authors": [
+        "Kazuei Hironaka",
+        "Kensuke Iizuka",
+        "H. Amano"
+    ],
+    "doi": "10.1145/3468081.3471121",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cf5d98cd391ceaff0022d8a00f04184ef61b1d1c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A multi-FPGA system Flow-in-Cloud (FiC) consists of nodes with a mid-class cost-efficient FPGA and Raspberry Pi3B connected with high speed serial links. It aims to implement a large scale AI applications which is difficult to be implemented on a single FPGA by dividing the target into a number of boards. On the other hand, overlay domain specific architecture receives attention for implementing complicated application programs easily on the FPGA. Here, we focus on an open-source AI compiler framework Apache TVM, and its implementation for FPGA, VTA(Versatile Tensor Accelerator). In order to use FiC through the TVM, we implemented it on FiC and executed the ResNet-18 inference benchmark. The preliminary evaluation results showed that VTA on FiC-SW achieved up to 10 times performance compared to the execution on ARM Cortex-A54 software.",
+    "citationCount": 0,
+    "referenceCount": 13
+}

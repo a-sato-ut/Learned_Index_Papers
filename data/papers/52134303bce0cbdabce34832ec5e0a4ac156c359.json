@@ -1,0 +1,30 @@
+{
+    "paperId": "52134303bce0cbdabce34832ec5e0a4ac156c359",
+    "title": "Comparative analysis of different virtual switches to improve the efficiency of networks of different configurations",
+    "year": 2024,
+    "venue": "Bulletin of Cherkasy State Technological University",
+    "authors": [
+        "Oleksandr Berestovenko"
+    ],
+    "doi": "10.62660/bcstu/4.2024.10",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/52134303bce0cbdabce34832ec5e0a4ac156c359",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The aim of the study was to determine the optimal type of virtual switch to ensure maximum efficiency of computer networks of various configurations, taking into account their technical characteristics, capabilities, and level of integration. A comparative analysis of the performance and functionality of virtual switches was conducted. The main results showed that the Cisco Nexus 1000V provides excellent performance and low latency (0.5-2 milliseconds), making it ideal for environments where network speed and responsiveness are critical. Open vSwitch is highly scalable and memory efficient, with up to 9 gigabits per second of bandwidth and moderate Central Processing Unit usage, making it suitable for scalable virtualised environments. VMware vSwitch, with a bandwidth of 6-8 gigabits per second, has good integration into the VMware environment and easy configuration. Moreover, Virtual Packet Processing was found to provide the best throughput, reaching values between 20 and 50 gigabits per second, and also exhibits low latency in the range of 0.3-0.5 milliseconds, making it the optimal choice for environments with high bandwidth requirements. At the same time, the Bridge Virtual Switch has the lowest Central Processing Unit load (5-10%), which allows maintaining performance even with limited hardware resources. The other switches, namely Hyper-V Virtual Switch, Juniper Contrail Virtual Router, CloudStack Virtual Router, and Huawei CloudEngine vSwitch, demonstrated good performance and can be useful for environments with lower bandwidth and scalability requirements. The results showed that the choice of a virtual switch depends on specific requirements, as each switch has its own advantages and limitations that determine its optimality for different network configurations",
+    "citationCount": 0,
+    "referenceCount": 34
+}

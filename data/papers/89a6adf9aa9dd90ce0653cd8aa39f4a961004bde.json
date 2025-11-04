@@ -1,0 +1,37 @@
+{
+    "paperId": "89a6adf9aa9dd90ce0653cd8aa39f4a961004bde",
+    "title": "A Tighter Complexity Analysis of SparseGPT",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Xiaoyu Li",
+        "Yingyu Liang",
+        "Zhenmei Shi",
+        "Zhao Song"
+    ],
+    "doi": "10.48550/arXiv.2408.12151",
+    "arxivId": "2408.12151",
+    "url": "https://www.semanticscholar.org/paper/89a6adf9aa9dd90ce0653cd8aa39f4a961004bde",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this work, we improved the analysis of the running time of SparseGPT [Frantar, Alistarh ICML 2023] from $O(d^{3})$ to $O(d^{\\omega} + d^{2+a+o(1)} + d^{1+\\omega(1,1,a)-a})$ for any $a \\in [0, 1]$, where $\\omega$ is the exponent of matrix multiplication. In particular, for the current $\\omega \\approx 2.371$ [Alman, Duan, Williams, Xu, Xu, Zhou 2024], our running time boils down to $O(d^{2.53})$. This running time is due to the analysis of the lazy update behavior in iterative maintenance problems such as [Deng, Song, Weinstein 2022; Brand, Song, Zhou ICML 2024].",
+    "citationCount": 25,
+    "referenceCount": 103
+}

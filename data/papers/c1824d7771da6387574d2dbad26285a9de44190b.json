@@ -1,0 +1,31 @@
+{
+    "paperId": "c1824d7771da6387574d2dbad26285a9de44190b",
+    "title": "Causal policy ranking",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Daniel C. McNamee",
+        "Hana Chockler"
+    ],
+    "doi": null,
+    "arxivId": "2111.08415",
+    "url": "https://www.semanticscholar.org/paper/c1824d7771da6387574d2dbad26285a9de44190b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Policies trained via reinforcement learning (RL) are often very complex even for simple tasks. In an episode with $n$ time steps, a policy will make $n$ decisions on actions to take, many of which may appear non-intuitive to the observer. Moreover, it is not clear which of these decisions directly contribute towards achieving the reward and how significant is their contribution. Given a trained policy, we propose a black-box method based on counterfactual reasoning that estimates the causal effect that these decisions have on reward attainment and ranks the decisions according to this estimate. In this preliminary work, we compare our measure against an alternative, non-causal, ranking procedure, highlight the benefits of causality-based policy ranking, and discuss potential future work integrating causal algorithms into the interpretation of RL agent policies.",
+    "citationCount": 1,
+    "referenceCount": 15
+}

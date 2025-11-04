@@ -1,0 +1,38 @@
+{
+    "paperId": "929cad2dd5a86d86669640604eb711a3688adabb",
+    "title": "Performance, Energy and NVM Lifetime-Aware Data Structure Refinement and Placement for Heterogeneous Memory Systems",
+    "year": 2025,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Manolis Katsaragakis",
+        "Christos Baloukas",
+        "Lazaros Papadopoulos",
+        "F. Catthoor",
+        "Dimitrios Soudris"
+    ],
+    "doi": "10.1145/3736174",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/929cad2dd5a86d86669640604eb711a3688adabb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The need for increased memory capacity, which also needs to be affordable and sustainable, leads to the adoption of heterogeneous memory hierarchies, combining DRAM and NVM technologies. This work proposes a memory management methodology that relies on multi-objective optimization in terms of performance, energy consumption and impact on NVM’s lifetime, for applications deployed on heterogeneous (i.e., DRAM/NVM) memory systems. We propose a scalable and lightweight data structure exploration flow for supporting data type refinement based on access pattern analysis, enhanced with a weighted-based data placement decision support for multi-objective exploration and optimization. The evaluation of the methodology was performed both on emulated and real DRAM/NVM hardware for different applications and data placement algorithms. The experimental results show up to 58.7% lower execution time and 48.3% less energy consumption compared with the results obtained by the initial versions of the applications. Moreover, we observed 72.6% less NVM write operations, which can significantly extend the lifetime of the NVM memory. Finally, thorough evaluation shows that the methodology is flexible and scalable, as it can integrate different data placement algorithms and NVM technologies and requires reasonable exploration time.",
+    "citationCount": 0,
+    "referenceCount": 59
+}

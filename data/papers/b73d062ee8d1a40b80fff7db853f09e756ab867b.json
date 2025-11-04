@@ -1,0 +1,37 @@
+{
+    "paperId": "b73d062ee8d1a40b80fff7db853f09e756ab867b",
+    "title": "Coordinated Reinforcement Learning Prefetching Architecture for Multicore Systems",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Mohammed Humaid Siddiqui",
+        "Fernando Guzman",
+        "Yufei Wu",
+        "Ruishu Ann"
+    ],
+    "doi": "10.48550/arXiv.2509.10719",
+    "arxivId": "2509.10719",
+    "url": "https://www.semanticscholar.org/paper/b73d062ee8d1a40b80fff7db853f09e756ab867b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hardware prefetching is critical to fill the performance gap between CPU speeds and slower memory accesses. With multicore architectures becoming commonplace, traditional prefetchers are severely challenged. Independent core operation creates significant redundancy (up to 20% of prefetch requests are duplicates), causing unnecessary memory bus traffic and wasted bandwidth. Furthermore, cutting-edge prefetchers such as Pythia suffer from about a 10% performance loss when scaling from a single-core to a four-core system. To solve these problems, we propose CRL-Pythia, a coordinated reinforcement learning based prefetcher specifically designed for multicore systems. In this work, CRL-Pythia addresses these issues by enabling cross-core sharing of information and cooperative prefetching decisions, which greatly reduces redundant prefetch requests and improves learning convergence across cores. Our experiments demonstrate that CRL-Pythia outperforms single Pythia configurations in all cases, with approximately 12% IPC (instructions per cycle) improvement for bandwidth-constrained workloads, while imposing moderate hardware overhead. Our sensitivity analyses also verify its robustness and scalability, thereby making CRL-Pythia a practical and efficient solution to contemporary multicore systems.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

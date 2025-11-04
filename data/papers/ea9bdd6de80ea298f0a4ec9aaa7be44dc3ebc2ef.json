@@ -1,0 +1,37 @@
+{
+    "paperId": "ea9bdd6de80ea298f0a4ec9aaa7be44dc3ebc2ef",
+    "title": "Hidet: Task-Mapping Programming Paradigm for Deep Learning Tensor Programs",
+    "year": 2022,
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "authors": [
+        "Yaoyao Ding",
+        "Cody Hao Yu",
+        "Bojian Zheng",
+        "Yizhi Liu",
+        "Yida Wang",
+        "Gennady Pekhimenko"
+    ],
+    "doi": "10.1145/3575693.3575702",
+    "arxivId": "2210.09603",
+    "url": "https://www.semanticscholar.org/paper/ea9bdd6de80ea298f0a4ec9aaa7be44dc3ebc2ef",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3575693.3575702",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As deep learning models nowadays are widely adopted by both cloud services and edge devices, reducing the latency of deep learning model inferences becomes crucial to provide efficient model serving. However, it is challenging to develop efficient tensor programs for deep learning operators due to the high complexity of modern accelerators (e.g., NVIDIA GPUs and Google TPUs) and the rapidly growing number of operators. Deep learning compilers, such as Apache TVM, adopt declarative scheduling primitives to lower the bar of developing tensor programs. However, we show that this approach is insufficient to cover state-of-the-art tensor program optimizations (e.g., double buffering). In this paper, we propose to embed the scheduling process into tensor programs and use dedicated mappings, called task mappings, to define the computation assignment and ordering directly in the tensor programs. This new approach greatly enriches the expressible optimizations by allowing developers to manipulate tensor programs at a much finer granularity (e.g., allowing program-statement-level optimizations). We call the proposed method the task-mapping programming paradigm. In addition, we propose a new post-scheduling fusion optimization that allows developers to focus on scheduling every single operator and automates the fusion after scheduling. It greatly reduces the engineering efforts for operator fusion. Our proposed paradigm also constructs an efficient hardware-centric schedule space, which is agnostic to the program input size and greatly reduces the tuning time. With the proposed paradigm, we implement a deep learning compiler Hidet. Extensive experiments on modern convolution and transformer models show that Hidet outperforms state-of-the-art DNN inference framework, ONNX Runtime, and compiler, TVM equipped with scheduler AutoTVM and Ansor, by up to 1.48x (1.22x on average). It also reduces the tuning time by 20x and 11x compared with AutoTVM and Ansor, respectively. We open-sourced hidet at https://www.github.com/hidet-org/hidet.",
+    "citationCount": 38,
+    "referenceCount": 73
+}

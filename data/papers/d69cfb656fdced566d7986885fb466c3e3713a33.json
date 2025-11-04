@@ -1,0 +1,38 @@
+{
+    "paperId": "d69cfb656fdced566d7986885fb466c3e3713a33",
+    "title": "Autotuning CNN Workloads on the Edge: A Hybrid Approach with Cross-Domain Embeddings",
+    "year": 2025,
+    "venue": "Annual International Computer Software and Applications Conference",
+    "authors": [
+        "Trevor Hanz",
+        "Mohammad Ali",
+        "Zarif Sadman",
+        "Apan Qasem"
+    ],
+    "doi": "10.1109/COMPSAC65507.2025.00062",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d69cfb656fdced566d7986885fb466c3e3713a33",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large-scale convolution neural networks (CNN) are increasingly being deployed on Edge devices to perform inference tasks in applications from mobile robotics to autonomous driving vehicles. Edge devices, however, are often constrained by limited computational resources and power budgets, making autotuning methods a necessity for CNN deployment. Autotuning CNNs for the Edge poses a unique set of challenges which include reasoning about disjoint search spaces, making accurate trade-offs between power and performance, and reducing tuning overhead.This paper presents the design and implementation of an end-to-end autotuning framework that addresses the aforementioned challenges. The framework leverages state-of-the-art machine learning techniques, including a novel feature fusion method, to explore the combined space of the CNN architecture and compiler optimization parameters under different execution environments. Evaluation on three well-known CNN networks show that our autotuning method can yield as much as a factor of 4.8× improvement in performance/watt over state-of-the-art search-based methods, at substantially lower overheads. Experimental results also provide new insight about the intricate trade-offs between power and performance of CNN workloads deployed on the Edge.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

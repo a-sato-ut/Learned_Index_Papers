@@ -1,0 +1,35 @@
+{
+    "paperId": "40e2efc3d4900f7a1471d96e8fa668722b7cedfa",
+    "title": "The Expressibility of Polynomial based Attention Scheme",
+    "year": 2023,
+    "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "authors": [
+        "Zhao Song",
+        "Chongxi Wang",
+        "Guangyi Xu",
+        "Junze Yin"
+    ],
+    "doi": "10.1145/3711896.3737153",
+    "arxivId": "2310.20051",
+    "url": "https://www.semanticscholar.org/paper/40e2efc3d4900f7a1471d96e8fa668722b7cedfa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large language models (LLMs) have significantly improved various aspects of our daily lives. These models have impacted numerous domains, from healthcare to education, enhancing productivity, decision-making processes, and accessibility. However, the quadratic complexity of attention in transformer architectures makes it impractical to train very large models on lengthy texts or use them efficiently during inference. While a recent study by [Kacham, Mirrokni and Zhong 2023] introduced a technique that replaces the softmax with a polynomial function and polynomial sketching to speed up attention mechanisms, the theoretical understandings of this new approach are not yet well understood. In this paper, we offer a theoretical analysis of the expressive capabilities of polynomial attention. Our study reveals a disparity in the ability of high-degree and low-degree polynomial attention. Specifically, we construct two carefully designed datasets, namely D 0 and D 1, where D 1 includes a feature with a significantly larger value compared to D 0. We demonstrate that with a sufficiently high degree β, a single-layer polynomial attention network can distinguish between D 0 and D 1. However, with a low degree β, the network cannot effectively separate the two datasets. This analysis underscores the greater effectiveness of high-degree polynomials in amplifying large values and distinguishing between datasets. Our analysis offers insight into the representational capacity of polynomial attention and provides a rationale for incorporating higher-degree polynomials in attention mechanisms to capture intricate linguistic correlations.",
+    "citationCount": 7,
+    "referenceCount": 112
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "8e74329cbe4b9ba85060db6e99cebe1b05a8aef2",
+    "title": "Empirical analysis of federated learning in heterogeneous environments",
+    "year": 2022,
+    "venue": "EuroMLSys@EuroSys",
+    "authors": [
+        "A. M. Abdelmoniem",
+        "Chen-Yu Ho",
+        "Pantelis Papageorgiou",
+        "Marco Canini"
+    ],
+    "doi": "10.1145/3517207.3526969",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8e74329cbe4b9ba85060db6e99cebe1b05a8aef2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://qmro.qmul.ac.uk/xmlui/bitstream/123456789/79664/2/Mohamed%20Empirical%20analysis%20of%202022%20Accepted.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Federated learning (FL) is becoming a popular paradigm for collaborative learning over distributed, private datasets owned by non-trusting entities. FL has seen successful deployment in production environments, and it has been adopted in services such as virtual keyboards, auto-completion, item recommendation, and several IoT applications. However, FL comes with the challenge of performing training over largely heterogeneous datasets, devices, and networks that are out of the control of the centralized FL server. Motivated by this inherent setting, we make a first step towards characterizing the impact of device and behavioral heterogeneity on the trained model. We conduct an extensive empirical study spanning close to 1.5K unique configurations on five popular FL benchmarks. Our analysis shows that these sources of heterogeneity have a major impact on both model performance and fairness, thus shedding light on the importance of considering heterogeneity in FL system design.",
+    "citationCount": 36,
+    "referenceCount": 54
+}

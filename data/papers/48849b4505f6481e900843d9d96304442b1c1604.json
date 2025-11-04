@@ -1,0 +1,42 @@
+{
+    "paperId": "48849b4505f6481e900843d9d96304442b1c1604",
+    "title": "Detection and Mitigation of SYN Flooding Attacks through SYN/ACK Packets and Black/White Lists",
+    "year": 2023,
+    "venue": "Italian National Conference on Sensors",
+    "authors": [
+        "Chun-Hao Yang",
+        "Jhen-Ping Wu",
+        "Fang-Yi Lee",
+        "Ting-Yu Lin",
+        "Meng-Hsun Tsai"
+    ],
+    "doi": "10.3390/s23083817",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/48849b4505f6481e900843d9d96304442b1c1604",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1424-8220/23/8/3817/pdf?version=1680876769",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Software-defined networking (SDN) is a new network architecture that provides programmable networks, more efficient network management, and centralized control than traditional networks. The TCP SYN flooding attack is one of the most aggressive network attacks that can seriously degrade network performance. This paper proposes detection and mitigation modules against SYN flooding attacks in SDN. We combine those modules, which have evolved from the cuckoo hashing method and innovative whitelist, to get better performance compared to current methods Our approach reduces the traffic through the switch and improves detection accuracy, also the required register size is reduced by half for the same accuracy.",
+    "citationCount": 8,
+    "referenceCount": 28
+}

@@ -1,0 +1,40 @@
+{
+    "paperId": "64124756baab57c330f3475bbcbaa7413753ca12",
+    "title": "Cost-Aware TVM (CAT) Tensorization for Modern Deep Learning Accelerators",
+    "year": 2022,
+    "venue": "ICCD",
+    "authors": [
+        "Yahang Hu",
+        "Yaohua Wang",
+        "Xiaoqiang Dan",
+        "Xiao Hu",
+        "Fei Liu",
+        "Jinpeng Li"
+    ],
+    "doi": "10.1109/ICCD56317.2022.00058",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/64124756baab57c330f3475bbcbaa7413753ca12",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "TVM is proposed to efficiently deploy deep learning (DL) networks to diverse hardware devices. Tensorization in TVM enables designers to manually set up mappings between tensor computation patterns in DL networks and specific hardware tensor instructions, so as to fully exploit the potential of DL accelerators. However, with the development of modem DL accelerators, a much richer set of hardware instructions are being proposed. This leads to a one-to-many mapping between a tensor computation pattern and hardware instructions, making it a non-trivial task to choose a proper mapping. To this end, we propose Cost Aware TVM (CAT) tensorization. The key insight of CAT is that both tensor computation patterns and instructions share similar tensor features. Based on this insight, CAT first extracts the tensor features of tensor computation patterns and locates eligible hardware instructions accordingly, and then selects the least time consuming hardware instruction via a cost model. Our experimental results across 8 deep learning models show that CAT tensorization can automatically map tensor computation patterns to proper hardware instructions, and our cost model based selection policy achieves an average speed up of 6.4x compared with randomly selecting an eligible hardware instruction for a tensor computation pattern.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

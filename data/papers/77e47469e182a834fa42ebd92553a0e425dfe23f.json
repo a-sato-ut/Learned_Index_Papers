@@ -1,0 +1,35 @@
+{
+    "paperId": "77e47469e182a834fa42ebd92553a0e425dfe23f",
+    "title": "AMPP: An Adaptive Multilayer Perceptron Prefetcher for Irregular Data Prefetching",
+    "year": 2023,
+    "venue": "2023 IEEE International Conference on High Performance Computing & Communications, Data Science & Systems, Smart City & Dependability in Sensor, Cloud & Big Data Systems & Application (HPCC/DSS/SmartCity/DependSys)",
+    "authors": [
+        "Juan Fang",
+        "Jingjing Li",
+        "Huijing Yang",
+        "Yuening Wang",
+        "Shuying Song"
+    ],
+    "doi": "10.1109/HPCC-DSS-SmartCity-DependSys60770.2023.00059",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/77e47469e182a834fa42ebd92553a0e425dfe23f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the continuous increase in modern data scale, there is a higher demand for processor computing power for time-consuming and computationally intensive data mining problems. High performance computing (HPC) can enable faster processing of large datasets and complex algorithms. Data prefetching is an effective technique used in HPC. It can hide memory delay and boost execution performance by obtaining data before the program needs it. Traditional data prefetchers show poor performance on programs with irregular access patterns due to the complex access patterns in its workload is difficult to predict, and may lead to serious cache miss. Applying machine learning algorithm into data prefetching policy for access prediction can effectively improve system performance. In this paper, we propose a machine learning-based prefetcher called Adaptive Multilayer Perceptron Prefetcher (AMPP), combined with a cosine annealing learning rate scheduler. AMPP regards prefetching as a classification problem, it analyzes the given instruction pointer using a multilayer perceptron model and can use the learning rate scheduler to optimize the model during the training process. We apply AMPP on last level cache and use ChampSim simulator to conduct simulation experiments based on GAP and SPEC CPU benchmark suits. Our experiments demonstrate that AMPP provides average IPC improvement of 35.58%, MPKI improvement of 46.08% and coverage of 51.32% compared to no-prefetching baseline. And it performs especially well on benchmarks with irregular data access patterns.",
+    "citationCount": 1,
+    "referenceCount": 27
+}

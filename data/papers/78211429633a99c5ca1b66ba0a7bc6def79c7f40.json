@@ -1,0 +1,37 @@
+{
+    "paperId": "78211429633a99c5ca1b66ba0a7bc6def79c7f40",
+    "title": "GAMMA: Automating the HW Mapping of DNN Models on Accelerators via Genetic Algorithm",
+    "year": 2020,
+    "venue": "2020 IEEE/ACM International Conference On Computer Aided Design (ICCAD)",
+    "authors": [
+        "Sheng-Chun Kao",
+        "T. Krishna"
+    ],
+    "doi": "10.1145/3400302.3415639",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/78211429633a99c5ca1b66ba0a7bc6def79c7f40",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "DNN layers are multi-dimensional loops that can be ordered, tiled, and scheduled in myriad ways across space and time on DNN accelerators. Each of these choices is called a mapping. It has been shown that the mapping plays an extremely crucial role in overall performance and efficiency, as it directly determines the amount of reuse that the accelerator can leverage from the DNN. Moreover, instead of using a fixed mapping for every DNN layer, research has revealed the benefit of optimizing per-layer mappings. However, determining the right mapping, given an accelerator and layer is still an open question. The immense space of mappings (or map-space) makes brute-forced exhaustive search methods unapproachable. In this paper, we propose a domain-specific genetic algorithm-based method, GAMMA, which is specially designed for this HW-mapping problem. In contrast to prior works that either target simple rigid accelerators with a limited map-space or choose from a restricted set of mappings, we construct an extremely flexible map-space and show that GAMMA can explore the space and determine an optimized mapping with high sample efficiency. We quantitatively compare GAMMA with many popular optimization methods and observe GAMMA consistently finds better solutions.",
+    "citationCount": 149,
+    "referenceCount": 74
+}

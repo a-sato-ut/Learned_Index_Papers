@@ -1,0 +1,29 @@
+{
+    "paperId": "6e00fd6ab429741d0ece80d9d34215e7ebff4b19",
+    "title": "Provable Data Possession with Outsourced Tag Generation for AI-Driven E-Commerce",
+    "year": 2025,
+    "venue": "Computers, Materials &amp; Continua",
+    "authors": [
+        "Yi Li",
+        "Wenying Zheng",
+        "Yu-Sheng Su",
+        "Meiqin Tang"
+    ],
+    "doi": "10.32604/cmc.2025.059949",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6e00fd6ab429741d0ece80d9d34215e7ebff4b19",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.32604/cmc.2025.059949",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": ": AI applications have become ubiquitous, bringing significant convenience to various industries. In e-commerce, AI can enhance product recommendations for individuals and provide businesses with more accurate predictions for market strategy development. However, if the data used for AI applications is damaged or lost, it will inevitably affect the effectiveness of these AI applications. Therefore, it is essential to verify the integrity of e-commerce data. Although existing Provable Data Possession (PDP) protocols can verify the integrity of cloud data, they are not suitable for e-commerce scenarios due to the limited computational capabilities of edge servers, which cannot handle the high computational overhead of generating homomorphic verification tags in PDP. To address this issue, we propose PDP with Outsourced Tag Generation for AI-driven e-commerce, which outsources the computation of homomorphic verification tags to cloud servers while introducing a lightweight verification method to ensure that the tags match the uploaded data. Additionally, the proposed scheme supports dynamic operations such as adding, deleting, and modifying data, enhancing its practicality. Finally, experiments show that the additional computational overhead introduced by outsourcing homomorphic verification tags is acceptable compared to the original PDP.",
+    "citationCount": 1,
+    "referenceCount": 32
+}

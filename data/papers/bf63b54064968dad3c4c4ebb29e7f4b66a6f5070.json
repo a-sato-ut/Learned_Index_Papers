@@ -1,0 +1,41 @@
+{
+    "paperId": "bf63b54064968dad3c4c4ebb29e7f4b66a6f5070",
+    "title": "VELTAIR: towards high-performance multi-tenant deep learning services via adaptive compilation and scheduling",
+    "year": 2022,
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "authors": [
+        "Zihan Liu",
+        "Jingwen Leng",
+        "Zhihui Zhang",
+        "Quan Chen",
+        "Chao Li",
+        "M. Guo"
+    ],
+    "doi": "10.1145/3503222.3507752",
+    "arxivId": "2201.06212",
+    "url": "https://www.semanticscholar.org/paper/bf63b54064968dad3c4c4ebb29e7f4b66a6f5070",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2201.06212",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning (DL) models have achieved great success in many application domains. As such, many industrial companies such as Google and Facebook have acknowledged the importance of multi-tenant DL services. Although the multi-tenant service has been studied in conventional workloads, it is not been deeply studied on deep learning service, especially on general-purpose hardware. In this work, we systematically analyze the opportunities and challenges of providing multi-tenant deep learning services on the general-purpose CPU architecture from the aspects of scheduling granularity and code generation. We propose an adaptive granularity scheduling scheme to both guarantee resource usage efficiency and reduce the scheduling conflict rate. We also propose an adaptive compilation strategy, by which we can dynamically and intelligently pick a program with proper exclusive and shared resource usage to reduce overall interference-induced performance loss. Compared to the existing works, our design can serve more requests under the same QoS target in various scenarios (e.g., +71%, +62%, +45% for light, medium, and heavy workloads, respectively), and reduce the averaged query latency by 50%.",
+    "citationCount": 50,
+    "referenceCount": 68
+}

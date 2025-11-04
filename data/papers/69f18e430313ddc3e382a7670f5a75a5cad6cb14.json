@@ -1,0 +1,41 @@
+{
+    "paperId": "69f18e430313ddc3e382a7670f5a75a5cad6cb14",
+    "title": "AutoSparse: A Source-to-Source Format and Schedule Auto- Tuning Framework for Sparse Tensor Program",
+    "year": 2024,
+    "venue": "ICCD",
+    "authors": [
+        "Xiangjun Qu",
+        "Lei Gong",
+        "Wenqi Lou",
+        "Qianyu Cheng",
+        "Xianglan Chen",
+        "Chao Wang",
+        "Xuehai Zhou"
+    ],
+    "doi": "10.1109/ICCD63220.2024.00083",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/69f18e430313ddc3e382a7670f5a75a5cad6cb14",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sparse tensor computation plays a crucial role in modern deep learning workloads, and its expensive computational cost leads to a strong demand for high-performance oper-ators. However, developing high-performance sparse operators is exceptionally challenging and tedious. Existing vendor operator libraries fail to keep pace with the evolving trends in new algorithms. Sparse tensor compilers simplify the development and optimization of operator, but existing work either requires significant engineering effort for tuning or suffers from limitations in search space and search strategies, which creates unavoidable cost and efficiency issues. In this paper, we propose AutoSparse, a source-to-source auto-tuning framework that targets sparse for-mat and schedule for sparse tensor program. Firstly, AutoSparse designs a sparse tensor DSL based on dynamic computational graph at the front-end, and proposes a sparse tensor program computational pattern extraction and automatic design space generation scheme based on it. Second, AutoSparse's back-end designs an adaptive exploration strategy based on reinforcement learning and heuristic algorithm to find the optimal format and schedule configuration in a large-scale design space. Compared to prior work, developers using AutoSparse do not need to specify tuning design space relied on any compilation or hardware knowledge. We use the SuiteS parse dataset to compare with four state-of-the-art baselines, namely, the high-performance operator library MKL, the manually-based optimisation scheme ASpT, the auto-tuning-based framework TVM-S and WACO. The results demonstrate that AutoSparse achieves average speedups of 1.92- $2.48 \\times. 1.19-6.34 \\times$. and $1.47-2.23\\times$ for the SpMV, SpMM, and SDDMM operators, respectively. We will open-source AutoSparse at https://github.com/Qu-Xiangjun/AutoSparse.",
+    "citationCount": 0,
+    "referenceCount": 16
+}

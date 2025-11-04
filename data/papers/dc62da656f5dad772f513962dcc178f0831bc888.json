@@ -1,0 +1,39 @@
+{
+    "paperId": "dc62da656f5dad772f513962dcc178f0831bc888",
+    "title": "Toward Verifying and Interpreting Learning-Based Networking Systems With SMT",
+    "year": 2025,
+    "venue": "IEEE Transactions on Networking",
+    "authors": [
+        "Haohao Song",
+        "Yuling Lin",
+        "Yangfan Huang",
+        "Haizhou Du",
+        "Qiao Xiang",
+        "Yijian Chen",
+        "Linghe Kong",
+        "Qiang Li",
+        "Franck Le",
+        "Jiwu Shu"
+    ],
+    "doi": "10.1109/TON.2025.3540640",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dc62da656f5dad772f513962dcc178f0831bc888",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There has been a growing interest in applying machine learning to real-world tasks. However, due to the black-box nature of machine learning models, it is crucial to 1) verify important properties of a model and 2) understand the reasons behind a model’s prediction before deploying them in a production environment. Existing approaches typically handle them as two separate and sometimes orthogonal topics. In this paper, we show that the verification and interpretability of machine learning models are tightly related and can be unified by satisfiability modulo theories (SMT). Our key insight is: not only a wide range of properties of machine learning models can be formulated as SMT problems and verified accordingly, but many commonly studied interpretability questions can also be answered by iteratively checking the satisfiability and related properties of multiple SMT problems. Leveraging this insight, we design UINT, a general verification and interpretability framework for learning-based networking systems. UINT 1) allows operators to specify verification and interpretability problems as SMT formulas, 2) encodes the target machine learning models into SMT constraints, and 3) automatically simplifies and solves the corresponding verification and interpretability problems using commodity SMT solvers. We implement a prototype of UINT and evaluate it on real-world learning-based networking systems. Results demonstrate the efficiency and efficacy of UINT in verifying and interpreting key questions for these systems.",
+    "citationCount": 0,
+    "referenceCount": 63
+}

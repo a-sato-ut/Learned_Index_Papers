@@ -1,0 +1,32 @@
+{
+    "paperId": "98507fbb910700a7fe1f2aee5650b852741a32f0",
+    "title": "Multiset Synchronization with Counting Cuckoo Filters",
+    "year": 2020,
+    "venue": "Wireless Algorithms, Systems, and Applications",
+    "authors": [
+        "Shangsen Li",
+        "Lailong Luo",
+        "Deke Guo"
+    ],
+    "doi": "10.1007/978-3-030-59016-1_20",
+    "arxivId": "2003.03801",
+    "url": "https://www.semanticscholar.org/paper/98507fbb910700a7fe1f2aee5650b852741a32f0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Set synchronization is a fundamental task in distributed applications and implementations. Existing methods that synchronize simple sets are mainly based on compact data structures such as Bloom filter and its variants. However, these methods are infeasible to synchronize a pair of multisets which allow an element to appear for multiple times. To this end, in this paper, we propose to leverage the counting cuckoo filter (CCF), a novel variant of cuckoo filter, to represent and thereafter synchronize a pair of multisets. The cuckoo filter (CF) is a minimized hash table that uses cuckoo hashing to resolve collisions. CF has an array of buckets, each of which has multiple slots to store element fingerprints. Based on CF, CCF extends each slot as two fields, the fingerprint field and the counter field. The fingerprint field records the fingerprint of element which is stored by this slot; while the counter field counts the multiplicity of the stored element. With such a design, CCF is competent to represent any multiset. After generating and exchanging the respective CCFs which represent the local multi-sets, we propose the query-based and the decoding-based methods to identify the different elements between the given multisets. The comprehensive evaluation results indicate that CCF outperforms the counting Bloom filter (CBF) when they are used to synchronize multisets, in terms of both synchronization accuracy and the space-efficiency, at the cost of a little higher time-consumption.",
+    "citationCount": 4,
+    "referenceCount": 34
+}

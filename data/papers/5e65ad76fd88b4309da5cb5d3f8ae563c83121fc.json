@@ -1,0 +1,38 @@
+{
+    "paperId": "5e65ad76fd88b4309da5cb5d3f8ae563c83121fc",
+    "title": "Graph neural networks with configuration cross-attention for tensor compilers",
+    "year": 2024,
+    "venue": "Frontiers in Artificial Intelligence",
+    "authors": [
+        "Dmitrii Khizbullin",
+        "Eduardo Rocha de Andrade",
+        "Thanh Hau Nguyen",
+        "Matheus Pedroza Ferreira",
+        "David R. Pugh"
+    ],
+    "doi": "10.3389/frai.2025.1605539",
+    "arxivId": "2405.16623",
+    "url": "https://www.semanticscholar.org/paper/5e65ad76fd88b4309da5cb5d3f8ae563c83121fc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the recent popularity of neural networks comes the need for efficient serving of inference workloads. A neural network inference workload can be represented as a computational graph with nodes as operators transforming multidimensional tensors. The tensors can be transposed and/or tiled in a combinatorially large number of ways, some configurations leading to accelerated inference. We propose TGraph, a neural graph architecture that allows screening for fast configurations of the target computational graph, thus representing an artificial intelligence (AI) tensor compiler in contrast to traditional heuristic-based compilers. The proposed solution improves mean Kendall's τ across layout collections of TpuGraphs from 29.8% of the reliable baseline to 67.4% of TGraph. We estimate the potential CO2 emission reduction associated with our work to be equivalent to over 50% of the total household emissions in the areas hosting AI-oriented data centers.",
+    "citationCount": 0,
+    "referenceCount": 33
+}

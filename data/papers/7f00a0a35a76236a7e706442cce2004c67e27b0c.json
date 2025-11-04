@@ -1,0 +1,40 @@
+{
+    "paperId": "7f00a0a35a76236a7e706442cce2004c67e27b0c",
+    "title": "On Spatial-Provenance Recovery in Wireless Networks with Relaxed-Privacy Constraints",
+    "year": 2025,
+    "venue": "IEEE Transactions on Dependable and Secure Computing",
+    "authors": [
+        "Manish Bansal",
+        "Pramsu Shrivastava",
+        "Jagadeesh Harshan"
+    ],
+    "doi": "10.1109/tdsc.2025.3611414",
+    "arxivId": "2509.11761",
+    "url": "https://www.semanticscholar.org/paper/7f00a0a35a76236a7e706442cce2004c67e27b0c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In Vehicle-to-Everything (V2X) networks with multi-hop communication, Road Side Units (RSUs) intend to gather location data from the vehicles to offer various location-based services. Although vehicles use the Global Positioning System (GPS) for navigation, they may refrain from sharing their exact GPS coordinates to the RSUs due to privacy considerations. Thus, to address the localization expectations of the RSUs and the privacy concerns of the vehicles, we introduce a relaxed-privacy model wherein the vehicles share their partial location information in order to avail the location-based services. To implement this notion of relaxed-privacy, we propose a low-latency protocol for spatial-provenance recovery, wherein vehicles use correlated linear Bloom filters to embed their position information. Our proposed spatial-provenance recovery process takes into account the resolution of localization, the underlying ad hoc protocol, and the coverage range of the wireless technology used by the vehicles. Through a rigorous theoretical analysis, we present extensive analysis on the underlying trade-off between relaxed-privacy and the communication-overhead of the protocol. Finally, using a wireless testbed, we show that our proposed method requires a few bits in the packet header to provide security features such as localizing a low-power jammer executing a denial-of-service attack.",
+    "citationCount": 0,
+    "referenceCount": 43
+}

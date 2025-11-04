@@ -1,0 +1,36 @@
+{
+    "paperId": "eee2a5378d3fe02ab616ce5557d6b56f119b3bb3",
+    "title": "Evolution of Kernels: Automated RISC-V Kernel Optimization with Large Language Models",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Siyuan Chen",
+        "Zhichao Lu",
+        "Qingfu Zhang"
+    ],
+    "doi": "10.48550/arXiv.2509.14265",
+    "arxivId": "2509.14265",
+    "url": "https://www.semanticscholar.org/paper/eee2a5378d3fe02ab616ce5557d6b56f119b3bb3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automated kernel design is critical for overcoming software ecosystem barriers in emerging hardware platforms like RISC-V. While large language models (LLMs) have shown promise for automated kernel optimization, demonstrating success in CUDA domains with comprehensive technical documents and mature codebases, their effectiveness remains unproven for reference-scarce domains like RISC-V. We present Evolution of Kernels (EoK), a novel LLM-based evolutionary program search framework that automates kernel design for domains with limited reference material. EoK mitigates reference scarcity by mining and formalizing reusable optimization ideas (general design principles + actionable thoughts) from established kernel libraries'development histories; it then guides parallel LLM explorations using these ideas, enriched via Retrieval-Augmented Generation (RAG) with RISC-V-specific context, prioritizing historically effective techniques. Empirically, EoK achieves a median 1.27x speedup, surpassing human experts on all 80 evaluated kernel design tasks and improving upon prior LLM-based automated kernel design methods by 20%. These results underscore the viability of incorporating human experience into emerging domains and highlight the immense potential of LLM-based automated kernel optimization.",
+    "citationCount": 0,
+    "referenceCount": 63
+}

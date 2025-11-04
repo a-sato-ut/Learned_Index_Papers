@@ -1,0 +1,33 @@
+{
+    "paperId": "3c702962f7af671ec3b36324b4870522192cb6cd",
+    "title": "BestOf: an online implementation selector for the training and inference of deep neural networks",
+    "year": 2022,
+    "venue": "Journal of Supercomputing",
+    "authors": [
+        "S. Barrachina",
+        "Adrián Castelló",
+        "M. F. Dolz",
+        "A. Tomás"
+    ],
+    "doi": "10.1007/s11227-022-04577-2",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3c702962f7af671ec3b36324b4870522192cb6cd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s11227-022-04577-2.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Tuning and optimising the operations executed in deep learning frameworks is a fundamental task in accelerating the processing of deep neural networks (DNNs). However, this optimisation usually requires extensive manual efforts in order to obtain the best performance for each combination of tensor input size, layer type, and hardware platform. In this work, we present BestOf, a novel online auto-tuner that optimises the training and inference phases of DNNs. BestOf automatically selects at run time, and among the provided alternatives, the best performing implementation in each layer according to gathered profiling data. The evaluation of BestOf is performed on multi-core architectures for different DNNs using PyDTNN, a lightweight library for distributed training and inference. The experimental results reveal that the BestOf auto-tuner delivers the same or higher performance than that achieved using a static selection approach.",
+    "citationCount": 2,
+    "referenceCount": 26
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "a5c77f7bddf60e64c85179528d5b75b8d4cb573f",
+    "title": "Learning meaningful representation of single-neuron morphology via large-scale pre-training",
+    "year": 2024,
+    "venue": "Bioinform.",
+    "authors": [
+        "Yimin Fan",
+        "Yaxuan Li",
+        "Yunhua Zhong",
+        "Liang Hong",
+        "Lei Li",
+        "Yu Li"
+    ],
+    "doi": "10.1093/bioinformatics/btae395",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a5c77f7bddf60e64c85179528d5b75b8d4cb573f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1093/bioinformatics/btae395",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract Summary Single-neuron morphology, the study of the structure, form, and shape of a group of specialized cells in the nervous system, is of vital importance to define the type of neurons, assess changes in neuronal development and aging and determine the effects of brain disorders and treatments. Despite the recent surge in the amount of available neuron morphology reconstructions due to advancements in microscopy imaging, existing computational and deep learning methods for modeling neuron morphology have been limited in both scale and accuracy. In this paper, we propose MorphRep, a model for learning meaningful representation of neuron morphology pre-trained with over 250 000 existing neuron morphology data. By encoding the neuron morphology into graph-structured data, using graph transformers for feature encoding and enforcing the consistency between multiple augmented views of neuron morphology, MorphRep achieves the state of the art performance on widely used benchmarking datasets. Meanwhile, MorphRep can accurately characterize the neuron morphology space across neuron morphometrics, fine-grained cell types, brain regions and ages. Furthermore, MorphRep can be applied to distinguish neurons under a wide range of conditions, including genetic perturbation, drug injection, environment change and disease. In summary, MorphRep provides an effective strategy to embed and represent neuron morphology and can be a valuable tool in integrating cell morphology into single-cell multiomics analysis. Availability and implementation The codebase has been deposited in https://github.com/YaxuanLi-cn/MorphRep.",
+    "citationCount": 2,
+    "referenceCount": 26
+}

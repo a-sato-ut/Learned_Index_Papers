@@ -1,0 +1,35 @@
+{
+    "paperId": "8022ae295690d11ce4460f041f4a26944c9dc506",
+    "title": "Tuna: A Static Analysis Approach to Optimizing Deep Neural Networks",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yao Wang",
+        "Xingyu Zhou",
+        "Yanming Wang",
+        "Rui Li",
+        "Yong Wu",
+        "Vin Sharma"
+    ],
+    "doi": null,
+    "arxivId": "2104.14641",
+    "url": "https://www.semanticscholar.org/paper/8022ae295690d11ce4460f041f4a26944c9dc506",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce Tuna, a static analysis approach to optimizing deep neural network programs. The optimization of tensor operations such as convolutions and matrix multiplications is the key to improving the performance of deep neural networks. Many deep learning model optimization mechanisms today use dynamic analysis, which relies on experimental execution on a target device to build a data-driven cost model of the program. The reliance on dynamic profiling not only requires access to target hardware at compilation time but also incurs significant cost in machine resources. We introduce an approach that profiles the program by constructing features based on the target hardware characteristics in order. We use static analysis of the relative performance of tensor operations to optimize the deep learning program. Experiments show that our approach can achieve up to 11x performance compared to dynamic profiling based methods with the same compilation time.",
+    "citationCount": 9,
+    "referenceCount": 23
+}

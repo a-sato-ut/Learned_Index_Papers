@@ -1,0 +1,32 @@
+{
+    "paperId": "c1ebcfdead59783361d5e8784ebb183b10dfbdd5",
+    "title": "CLASSROOM: synthetic high dynamic range light field dataset",
+    "year": 2022,
+    "venue": "Applications of Digital Image Processing XLV",
+    "authors": [
+        "Mary Guindy",
+        "V. K. Adhikarla",
+        "P. A. Kara",
+        "T. Balogh",
+        "Anikó Simon"
+    ],
+    "doi": "10.1117/12.2633615",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c1ebcfdead59783361d5e8784ebb183b10dfbdd5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://eprints.kingston.ac.uk/id/eprint/52218/1/Kara-P-52218-AAM.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Light field images provide tremendous amounts of visual information regarding the represented scenes, as they describe the light traversing in all directions for all the points of 3D space. Due to the recent technological advancements of light field visualization and its increasing relevance in research, the need for light field image datasets has risen significantly. Among the applications for which light field datasets are considered, high dynamic range light field image reconstruction has gained notable attention in the past years. When capturing a scene, either a single camera with a 2D microlense array or a 2D array of cameras is used to produce narrow-and wide-baseline light field images, respectively. Additionally, the turn-table methodology may be used as well for narrow-baseline light fields. While the majority of these methods enables the creation of plausible and reliable light field image datasets, such baseline-specific setups can be extremely expensive and may require immense computing resources for proper calibration. Furthermore, the resulting light field is commonly limited with regard to angular resolution. A suitable alternative to produce a light field dataset is to do it synthetically by rendering light field images, which may easily overcome the aforementioned issues. In this paper, we discuss our work on creating the “CLASSROOM” light field image dataset, depicting a classroom scene. The content is rendered in horizontal-only parallax and full parallax as well. The scene contains a high variety of light distribution, particularly involving under-exposed and over-exposed regions, which are essential to HDR image applications.",
+    "citationCount": 2,
+    "referenceCount": 17
+}

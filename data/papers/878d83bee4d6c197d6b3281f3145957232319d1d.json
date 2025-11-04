@@ -1,0 +1,37 @@
+{
+    "paperId": "878d83bee4d6c197d6b3281f3145957232319d1d",
+    "title": "Neurosymbolic Models for Computer Graphics",
+    "year": 2023,
+    "venue": "Computer graphics forum (Print)",
+    "authors": [
+        "Daniel Ritchie",
+        "Paul Guerrero",
+        "R. K. Jones",
+        "N. Mitra",
+        "Adriana Schulz",
+        "Karl D. D. Willis",
+        "Jiajun Wu"
+    ],
+    "doi": "10.1111/cgf.14775",
+    "arxivId": "2304.10320",
+    "url": "https://www.semanticscholar.org/paper/878d83bee4d6c197d6b3281f3145957232319d1d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://rss.onlinelibrary.wiley.com/doi/am-pdf/10.1111/cgf.14775",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Procedural models (i.e. symbolic programs that output visual data) are a historically‐popular method for representing graphics content: vegetation, buildings, textures, etc. They offer many advantages: interpretable design parameters, stochastic variations, high‐quality outputs, compact representation, and more. But they also have some limitations, such as the difficulty of authoring a procedural model from scratch. More recently, AI‐based methods, and especially neural networks, have become popular for creating graphic content. These techniques allow users to directly specify desired properties of the artifact they want to create (via examples, constraints, or objectives), while a search, optimization, or learning algorithm takes care of the details. However, this ease of use comes at a cost, as it's often hard to interpret or manipulate these representations. In this state‐of‐the‐art report, we summarize research on neurosymbolic models in computer graphics: methods that combine the strengths of both AI and symbolic programs to represent, generate, and manipulate visual data. We survey recent work applying these techniques to represent 2D shapes, 3D shapes, and materials & textures. Along the way, we situate each prior work in a unified design space for neurosymbolic models, which helps reveal underexplored areas and opportunities for future research.",
+    "citationCount": 35,
+    "referenceCount": 166
+}

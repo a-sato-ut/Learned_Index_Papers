@@ -1,0 +1,25 @@
+{
+    "paperId": "1230a24b739a7f658db7e01dc8f57c4ae1b87e1d",
+    "title": "An information-centric networking architecture with small routing tables",
+    "year": 2022,
+    "venue": "ITU Journal on Future and Evolving Technologies",
+    "authors": [
+        "J.J. Garcia-Luna-Aceves",
+        "Maziar Mirzazad Barijough"
+    ],
+    "doi": "10.52953/kzex3360",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1230a24b739a7f658db7e01dc8f57c4ae1b87e1d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.itu.int/dms_pub/itu-s/opb/jnl/S-JNL-VOL3.ISSUE3-2022-A55-PDF-E.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The basic design of the Named Data Networking (NDN) architecture is shown to incur problems, in that Interests (content requests) may go unanswered even if content is available in the network, and Pending Interest Tables (PIT) are shown to provide limited performance benefits in the presence of in- network caching. A new approach to content-centric networking is introduced that eliminates the need to maintain PITs while providing the benefits sought by NDN. Content-Centric Networking with Data Answer Routing Table (CCN-DART) replaces PITs with Data Answer Routing Tables (DARTs) to forward Interests that do not state their sources. The size of a DART is proportional to the number of routes used by Interests traversing a router, rather than the number of Interests traversing a router. It is shown that undetected Interest loops cannot occur in CCN-DART, and that Interests and responses to them are forwarded correctly independently of the state of the network. The results of simulation experiments comparing CCN-DART with NDN using the ndnSIM simulation tool show that CCN-DART attains similar or better latencies than NDN when no looping problems occur in NDN, while using a similar number of Interests and storing an order of magnitude fewer forwarding entries.",
+    "citationCount": 0,
+    "referenceCount": 53
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "e9805f11ac86e83ba5487b0c3938286c0cf8a384",
+    "title": "Progressive Indexes: Indexing for Interactive Data Analysis",
+    "year": 2019,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Pedro Holanda",
+        "S. Manegold",
+        "H. Mühleisen",
+        "Mark Raasveldt"
+    ],
+    "doi": "10.14778/3358701.3358705",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e9805f11ac86e83ba5487b0c3938286c0cf8a384",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ir.cwi.nl/pub/29163/29163.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Interactive exploration of large volumes of data is increasingly common, as data scientists attempt to extract interesting information from large opaque data sets. This scenario presents a difficult challenge for traditional database systems, as (1) nothing is known about the query workload in advance, (2) the query workload is constantly changing, and (3) the system must provide interactive responses to the issued queries. This environment is challenging for index creation, as traditional database indexes require upfront creation, hence a priori workload knowledge, to be efficient.\n \n In this paper, we introduce\n Progressive Indexing\n , a novel performance-driven indexing technique that focuses on automatic index creation while providing interactive response times to incoming queries. Its design allows queries to have a limited budget to spend on index creation. The indexing budget is automatically tuned to each query before query processing. This allows for systems to provide interactive answers to queries during index creation while being robust against various workload patterns and data distributions.\n",
+    "citationCount": 28,
+    "referenceCount": 31
+}

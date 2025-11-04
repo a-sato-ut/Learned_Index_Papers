@@ -1,0 +1,32 @@
+{
+    "paperId": "032acece7dce20925fb9e656b6683e4ada8bfc67",
+    "title": "Feedforward Neural Networks for Caching",
+    "year": 2018,
+    "venue": "Sigmetrics Performance Evaluation Review",
+    "authors": [
+        "Vladyslav Fedchenko",
+        "G. Neglia",
+        "Bruno Ribeiro"
+    ],
+    "doi": "10.1145/3308897.3308958",
+    "arxivId": "1810.06930",
+    "url": "https://www.semanticscholar.org/paper/032acece7dce20925fb9e656b6683e4ada8bfc67",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://hal.inria.fr/hal-02411461/file/1810.06930%281%29.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a caching policy that uses a feedforward neural network (FNN) to predict content popularity. Our scheme outperforms popular eviction policies like LRU or ARC, but also a new policy relying on the more complex recurrent neural networks. At the same time, replacing the FNN predictor with a naive linear estimator does not degrade caching performance significantly, questioning then the role of neural networks for these applications.",
+    "citationCount": 14,
+    "referenceCount": 18
+}

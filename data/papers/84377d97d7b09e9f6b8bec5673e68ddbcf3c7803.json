@@ -1,0 +1,36 @@
+{
+    "paperId": "84377d97d7b09e9f6b8bec5673e68ddbcf3c7803",
+    "title": "MemMAP: Compact and Generalizable Meta-LSTM Models for Memory Access Prediction",
+    "year": 2020,
+    "venue": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+    "authors": [
+        "Ajitesh Srivastava",
+        "Ta-Yang Wang",
+        "Pengmiao Zhang",
+        "C. Rose",
+        "R. Kannan",
+        "V. Prasanna"
+    ],
+    "doi": "10.1007/978-3-030-47436-2_5",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/84377d97d7b09e9f6b8bec5673e68ddbcf3c7803",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-47436-2_5.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the rise of Big Data, there has been a significant effort in increasing compute power through GPUs, TPUs, and heterogeneous architectures. As a result, many applications are memory bound, i.e., they are bottlenecked by the movement of data from main memory to compute units. One way to address this issue is through data prefetching, which relies on accurate prediction of memory accesses. While recent deep learning models have performed well on sequence prediction problems, they are far too heavy in terms of model size and inference latency to be practical for data prefetching. Here, we propose extremely compact LSTM models that can predict the next memory access with high accuracy. Prior LSTM based work on access prediction has used orders of magnitude more parameters and developed one model for each application (trace). While one (specialized) model per application can result in more accuracy, it is not a scalable approach. In contrast, our models can predict for a class of applications by trading off specialization at the cost of few retraining steps at runtime, for a more generalizable compact meta-model. Our experiments on 13 benchmark applications demonstrate that three compact meta-models can obtain accuracy close to specialized models using few batches of retraining for majority of the applications.",
+    "citationCount": 17,
+    "referenceCount": 16
+}

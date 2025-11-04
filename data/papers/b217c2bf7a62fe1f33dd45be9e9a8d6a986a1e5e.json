@@ -1,0 +1,30 @@
+{
+    "paperId": "b217c2bf7a62fe1f33dd45be9e9a8d6a986a1e5e",
+    "title": "Needle: A Generative AI-Powered Multi-modal Database for Answering Complex Natural Language Queries",
+    "year": 2024,
+    "venue": "",
+    "authors": [
+        "Mahdi Erfanian",
+        "Mohsen Dehghankar",
+        "Abolfazl Asudeh"
+    ],
+    "doi": null,
+    "arxivId": "2412.00639",
+    "url": "https://www.semanticscholar.org/paper/b217c2bf7a62fe1f33dd45be9e9a8d6a986a1e5e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multi-modal datasets, like those involving images, often miss the detailed descriptions that properly capture the rich information encoded in each item. This makes answering complex natural language queries a major challenge in this domain. In particular, unlike the traditional nearest neighbor search, where the tuples and the query are represented as points in a single metric space, these settings involve queries and tuples embedded in fundamentally different spaces, making the traditional query answering methods inapplicable. Existing literature addresses this challenge for image datasets through vector representations jointly trained on natural language and images. This technique, however, underperforms for complex queries due to various reasons. This paper takes a step towards addressing this challenge by introducing a Generative-based Monte Carlo method that utilizes foundation models to generate synthetic samples that capture the complexity of the natural language query and represent it in the same metric space as the multi-modal data. Following this method, we propose Needle, a database for image data retrieval. Instead of relying on contrastive learning or metadata-searching approaches, our system is based on synthetic data generation to capture the complexities of natural language queries. Our system is open-source and ready for deployment, designed to be easily adopted by researchers and developers. The comprehensive experiments on various benchmark datasets verify that this system significantly outperforms state-of-the-art text-to-image retrieval methods in the literature. Any foundation model and embedder can be easily integrated into Needle to improve the performance, piggybacking on the advancements in these technologies.",
+    "citationCount": 0,
+    "referenceCount": 85
+}

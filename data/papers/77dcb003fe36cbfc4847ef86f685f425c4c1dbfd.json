@@ -1,0 +1,41 @@
+{
+    "paperId": "77dcb003fe36cbfc4847ef86f685f425c4c1dbfd",
+    "title": "Train and You'll Miss It: Interactive Model Iteration with Weak Supervision and Pre-Trained Embeddings",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Mayee F. Chen",
+        "Daniel Y. Fu",
+        "Frederic Sala",
+        "Sen Wu",
+        "Ravi Teja Mullapudi",
+        "Fait Poms",
+        "Kayvon Fatahalian",
+        "Christopher R'e"
+    ],
+    "doi": null,
+    "arxivId": "2006.15168",
+    "url": "https://www.semanticscholar.org/paper/77dcb003fe36cbfc4847ef86f685f425c4c1dbfd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Our goal is to enable machine learning systems to be trained interactively. This requires models that perform well and train quickly, without large amounts of hand-labeled data. We take a step forward in this direction by borrowing from weak supervision (WS), wherein models can be trained with noisy sources of signal instead of hand-labeled data. But WS relies on training downstream deep networks to extrapolate to unseen data points, which can take hours or days. Pre-trained embeddings can remove this requirement. We do not use the embeddings as features as in transfer learning (TL), which requires fine-tuning for high performance, but instead use them to define a distance function on the data and extend WS source votes to nearby points. Theoretically, we provide a series of results studying how performance scales with changes in source coverage, source accuracy, and the Lipschitzness of label distributions in the embedding space, and compare this rate to standard WS without extension and TL without fine-tuning. On six benchmark NLP and video tasks, our method outperforms WS without extension by 4.1 points, TL without fine-tuning by 12.8 points, and traditionally-supervised deep networks by 13.1 points, and comes within 0.7 points of state-of-the-art weakly-supervised deep networks-all while training in less than half a second.",
+    "citationCount": 10,
+    "referenceCount": 88
+}

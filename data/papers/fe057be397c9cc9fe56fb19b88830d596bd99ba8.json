@@ -1,0 +1,36 @@
+{
+    "paperId": "fe057be397c9cc9fe56fb19b88830d596bd99ba8",
+    "title": "CLIP-Branches: Interactive Fine-Tuning for Text-Image Retrieval",
+    "year": 2024,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Christian Lülf",
+        "Denis Mayr Lima Martins",
+        "Marcos Antonio Vaz Salles",
+        "Yongluan Zhou",
+        "Fabian Gieseke"
+    ],
+    "doi": "10.1145/3626772.3657678",
+    "arxivId": "2406.13322",
+    "url": "https://www.semanticscholar.org/paper/fe057be397c9cc9fe56fb19b88830d596bd99ba8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The advent of text-image models, most notably CLIP, has significantly transformed the landscape of information retrieval. These models enable the fusion of various modalities, such as text and images. One significant outcome of CLIP is its capability to allow users to search for images using text as a query, as well as vice versa. This is achieved via a joint embedding of images and text data that can, for instance, be used to search for similar items. Despite efficient query processing techniques such as approximate nearest neighbor search, the results may lack precision and completeness. We introduce CLIP-Branches, a novel text-image search engine built upon the CLIP architecture. Our approach enhances traditional text-image search engines by incorporating an interactive fine-tuning phase, which allows the user to further concretize the search query by iteratively defining positive and negative examples. Our framework involves training a classification model given the additional user feedback and essentially outputs all positively classified instances of the entire data catalog. By building upon recent techniques, this inference phase, however, is not implemented by scanning the entire data catalog, but by employing efficient index structures pre-built for the data. Our results show that the fine-tuned results can improve the initial search outputs in terms of relevance and accuracy while maintaining swift response times.",
+    "citationCount": 7,
+    "referenceCount": 17
+}

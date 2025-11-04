@@ -1,0 +1,33 @@
+{
+    "paperId": "acf31788fa545f5f0467289b16188f2c6cfa8c44",
+    "title": "Cortex: A Compiler for Recursive Deep Learning Models",
+    "year": 2020,
+    "venue": "Conference on Machine Learning and Systems",
+    "authors": [
+        "Pratik Fegade",
+        "Tianqi Chen",
+        "Phillip B. Gibbons",
+        "T. Mowry"
+    ],
+    "doi": null,
+    "arxivId": "2011.01383",
+    "url": "https://www.semanticscholar.org/paper/acf31788fa545f5f0467289b16188f2c6cfa8c44",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Optimizing deep learning models is generally performed in two steps: (i) high-level graph optimizations such as kernel fusion and (ii) low level kernel optimizations such as those found in vendor libraries. This approach often leaves significant performance on the table, especially for the case of recursive deep learning models. In this paper, we present Cortex, a compiler-based approach to generate highly-efficient code for recursive models for low latency inference. Our compiler approach and low reliance on vendor libraries enables us to perform end-to-end optimizations, leading to up to 14X lower inference latencies over past work, across different backends.",
+    "citationCount": 31,
+    "referenceCount": 72
+}

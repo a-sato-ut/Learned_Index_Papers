@@ -1,0 +1,38 @@
+{
+    "paperId": "86fc8f269df43ba91c61f990a9ae25ed2f0f3014",
+    "title": "Measuring Prediction Accuracy in a Maritime Accident Warning System",
+    "year": 2021,
+    "venue": "Production and operations management",
+    "authors": [
+        "Jason R. W. Merrick",
+        "Clare Dorsey",
+        "Bo Wang",
+        "M. Grabowski",
+        "J. Harrald"
+    ],
+    "doi": "10.1111/poms.13581",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/86fc8f269df43ba91c61f990a9ae25ed2f0f3014",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Advances in machine learning methods and the availability of new data sources show promise for improving prediction of operational risk. Maritime transportation is the backbone of global supply chains and maritime accidents can lead to costly disruptions. We describe a case study performed for the United States Coast Guard (USCG) to develop a prototype risk prediction system to provide early alerts of elevated risk levels to vessel traffic managers and operators in the Lower Mississippi River, the second largest port of entry in the United States. Integrating incident and accident data from the USCG with environmental and traffic data sources, we tested existing machine learning algorithms in their predictive ability. We found poor accident prediction accuracy in cross‐validation using the traditional measures of precision and sensitivity. In this specific operational context, however, such single‐class accuracy metrics can be misleading. We define action precision and action sensitivity metrics that measure the accuracy of predictions in engendering the correct behavioral response (actions) among vessel operators, rather than getting the specific event classification correct. We use these operationally appropriate measures for maritime risk prediction to choose an algorithm for our prototype system. While the traditional metrics indicated that none of the algorithms would perform sufficiently well to use in the early warning system, the modified metrics show that the top performing algorithm will perform well in this operational context.",
+    "citationCount": 19,
+    "referenceCount": 62
+}

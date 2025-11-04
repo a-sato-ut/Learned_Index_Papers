@@ -1,0 +1,37 @@
+{
+    "paperId": "b137bcbf67287ad8b1200ad0283a46a615cf32a0",
+    "title": "SampleFix: Learning to Generate Functionally Diverse Fixes",
+    "year": 2019,
+    "venue": "PKDD/ECML Workshops",
+    "authors": [
+        "Hossein Hajipour",
+        "Apratim Bhattacharyya",
+        "Cristian-Alexandru Staicu",
+        "Mario Fritz"
+    ],
+    "doi": "10.1007/978-3-030-93733-1_8",
+    "arxivId": "1906.10502",
+    "url": "https://www.semanticscholar.org/paper/b137bcbf67287ad8b1200ad0283a46a615cf32a0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automatic program repair holds the potential of dramatically improving the productivity of programmers during the software development process and correctness of software in general. Recent advances in machine learning, deep learning, and NLP have rekindled the hope to eventually fully automate the process of repairing programs. However, previous approaches that aim to predict a single fix are prone to fail due to uncertainty about the true intend of the programmer. Therefore, we propose a generative model that learns a distribution over potential fixes. Our model is formulated as a deep conditional variational autoencoder that can efficiently sample fixes for a given erroneous program. In order to ensure diverse solutions, we propose a novel regularizer that encourages diversity over a semantic embedding space. Our evaluations on common programming errors show for the first time the generation of diverse fixes and strong improvements over the state-of-the-art approaches by fixing up to 45% of the erroneous programs. We additionally show that for the 65% of the repaired programs, our approach was able to generate multiple programs with diverse functionalities.",
+    "citationCount": 6,
+    "referenceCount": 32
+}

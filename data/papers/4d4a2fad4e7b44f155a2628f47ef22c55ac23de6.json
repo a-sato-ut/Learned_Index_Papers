@@ -1,0 +1,35 @@
+{
+    "paperId": "4d4a2fad4e7b44f155a2628f47ef22c55ac23de6",
+    "title": "Learning to Coordinate Bidders in Non-Truthful Auctions",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hu Fu",
+        "Tao Lin"
+    ],
+    "doi": "10.48550/arXiv.2507.02801",
+    "arxivId": "2507.02801",
+    "url": "https://www.semanticscholar.org/paper/4d4a2fad4e7b44f155a2628f47ef22c55ac23de6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Economics",
+            "source": "external"
+        },
+        {
+            "category": "Economics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In non-truthful auctions such as first-price and all-pay auctions, the independent strategic behaviors of bidders, with the corresponding Bayes-Nash equilibrium notion, are notoriously difficult to characterize and can cause undesirable outcomes. An alternative approach to achieve better outcomes in non-truthful auctions is to coordinate the bidders: let a mediator make incentive-compatible recommendations of correlated bidding strategies to the bidders, namely, implementing a Bayes correlated equilibrium (BCE). The implementation of BCE, however, requires knowledge of the distributions of bidders'private valuations, which is often unavailable. We initiate the study of the sample complexity of learning Bayes correlated equilibria in non-truthful auctions. We prove that the set of strategic-form BCEs in a large class of non-truthful auctions, including first-price and all-pay auctions, can be learned with a polynomial number $\\tilde O(\\frac{n}{\\varepsilon^2})$ of samples of bidders'values. This moderate number of samples demonstrates the statistical feasibility of learning to coordinate bidders. Our technique is a reduction to the problem of estimating bidders'expected utility from samples, combined with an analysis of the pseudo-dimension of the class of all monotone bidding strategies.",
+    "citationCount": 0,
+    "referenceCount": 60
+}

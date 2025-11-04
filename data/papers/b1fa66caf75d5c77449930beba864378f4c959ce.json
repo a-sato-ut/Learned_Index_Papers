@@ -1,0 +1,37 @@
+{
+    "paperId": "b1fa66caf75d5c77449930beba864378f4c959ce",
+    "title": "Rafiki: Machine Learning as an Analytics Service System",
+    "year": 2018,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Wei Wang",
+        "Sheng Wang",
+        "Jinyang Gao",
+        "Meihui Zhang",
+        "Gang Chen",
+        "Teck Khim Ng",
+        "B. Ooi"
+    ],
+    "doi": "10.14778/3282495.3282499",
+    "arxivId": "1804.06087",
+    "url": "https://www.semanticscholar.org/paper/b1fa66caf75d5c77449930beba864378f4c959ce",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Big data analytics is gaining massive momentum in the last few years. Applying machine learning models to big data has become an implicit requirement or an expectation for most analysis tasks, especially on high-stakes applications.Typical applications include sentiment analysis against reviews for analyzing on-line products, image classification in food logging applications for monitoring user's daily intake and stock movement prediction. Extending traditional database systems to support the above analysis is intriguing but challenging. First, it is almost impossible to implement all machine learning models in the database engines. Second, expertise knowledge is required to optimize the training and inference procedures in terms of efficiency and effectiveness, which imposes heavy burden on the system users. In this paper, we develop and present a system, called Rafiki, to provide the training and inference service of machine learning models, and facilitate complex analytics on top of cloud platforms. Rafiki provides distributed hyper-parameter tuning for the training service, and online ensemble modeling for the inference service which trades off between latency and accuracy. Experimental results confirm the efficiency, effectiveness, scalability and usability of Rafiki.",
+    "citationCount": 119,
+    "referenceCount": 44
+}

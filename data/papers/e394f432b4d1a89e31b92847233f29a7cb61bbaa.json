@@ -1,0 +1,32 @@
+{
+    "paperId": "e394f432b4d1a89e31b92847233f29a7cb61bbaa",
+    "title": "SOREL: Efficient and Secure ORE-Based Range Query Over Outsourced Data",
+    "year": 2021,
+    "venue": "IEEE Transactions on Big Data",
+    "authors": [
+        "Songnian Zhang",
+        "S. Ray",
+        "Rongxing Lu"
+    ],
+    "doi": "10.1109/TBDATA.2021.3089986",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e394f432b4d1a89e31b92847233f29a7cb61bbaa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Outsourcing data to the cloud has become popular due to the big data challenges. However, security concerns compel the outsourced data to be encrypted before sending them to the cloud, which lowers their utility and efficiency. The range query plays a significant role in common queries. Consequently, how to efficiently support the range query over encrypted data has become an important challenge. Previously reported schemes either achieve efficiency only in a specific operation or have severe defects in scalability. To address these limitations, we propose a framework, called SOREL, which simultaneously considers security, efficiency and scalability. Specifically, we first propose a new efficient and Secure Order Revealing Encryption (SORE) scheme, which is more secure than bit-based ORE schemes. Then, by employing the proposed SORE scheme, we design a novel index within our framework SOREL to support efficient updating and query operations over encrypted data. Detailed security analysis shows that our SOREL achieves the desirable security requirements. Additionally, results from extensive evaluations indicate that i) SORE outperforms other alternative schemes by at least 8×; and ii) SOREL is at least 3× faster than the comparative schemes with range query operation in the best case while ensuring the competitiveness with insertion operation.",
+    "citationCount": 5,
+    "referenceCount": 42
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "729003b729881033410097511d52d2c7a1de2413",
+    "title": "Learning to Cache With No Regrets",
+    "year": 2019,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "G. Paschos",
+        "Apostolos Destounis",
+        "Luigi Vigneri",
+        "G. Iosifidis"
+    ],
+    "doi": "10.1109/INFOCOM.2019.8737446",
+    "arxivId": "1904.09849",
+    "url": "https://www.semanticscholar.org/paper/729003b729881033410097511d52d2c7a1de2413",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1904.09849",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper introduces a novel caching analysis that, contrary to prior work, makes no modeling assumptions for the file request sequence. We cast the caching problem in the framework of Online Linear optimization (OLO), and introduce a class of minimum regret caching policies, which minimize the losses with respect to the best static configuration in hindsight when the request model is unknown. These policies are very important since they are robust to popularity deviations in the sense that they learn to adjust their caching decisions when the popularity model changes. We first prove a novel lower bound for the regret of any caching policy, improving existing OLO bounds for our setting. Then we show that the Online Gradient Ascent (OGA) policy guarantees a regret that matches the lower bound, hence it is universally optimal. Finally, we shift our attention to a network of caches arranged to form a bipartite graph, and show that the Bipartite Subgradient Algorithm (BSA) has no regret.",
+    "citationCount": 84,
+    "referenceCount": 35
+}

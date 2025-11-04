@@ -1,0 +1,36 @@
+{
+    "paperId": "609940f096f147ef2ae7219f87ae29bef6089e91",
+    "title": "Privacy-Preserved Neural Graph Databases",
+    "year": 2023,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Qi Hu",
+        "Haoran Li",
+        "Jiaxin Bai",
+        "Zihao Wang",
+        "Yangqiu Song"
+    ],
+    "doi": "10.1145/3637528.3671678",
+    "arxivId": "2312.15591",
+    "url": "https://www.semanticscholar.org/paper/609940f096f147ef2ae7219f87ae29bef6089e91",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2312.15591",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the era of large language models (LLMs), efficient and accurate data retrieval has become increasingly crucial for the use of domain-specific or private data in the retrieval augmented generation (RAG). Neural graph databases (NGDBs) have emerged as a powerful paradigm that combines the strengths of graph databases (GDBs) and neural networks to enable efficient storage, retrieval, and analysis of graph-structured data which can be adaptively trained with LLMs. The usage of neural embedding storage and Complex neural logical Query Answering (CQA) provides NGDBs with generalization ability. When the graph is incomplete, by extracting latent patterns and representations, neural graph databases can fill gaps in the graph structure, revealing hidden relationships and enabling accurate query answering. Nevertheless, this capability comes with inherent trade-offs, as it introduces additional privacy risks to the domain-specific or private databases. Malicious attackers can infer more sensitive information in the database using well-designed queries such as from the answer sets of where Turing Award winners born before 1950 and after 1940 lived, the living places of Turing Award winner Hinton are probably exposed, although the living places may have been deleted in the training stage due to the privacy concerns. In this work, we propose a privacy-preserved neural graph database (P-NGDB) framework to alleviate the risks of privacy leakage in NGDBs. We introduce adversarial training techniques in the training stage to enforce the NGDBs to generate indistinguishable answers when queried with private information, enhancing the difficulty of inferring sensitive information through combinations of multiple innocuous queries. Extensive experimental results on three datasets show that our framework can effectively protect private information in the graph database while delivering high-quality public answers responses to queries. The code is available at https://github.com/HKUST-KnowComp/PrivateNGDB.",
+    "citationCount": 2,
+    "referenceCount": 67
+}

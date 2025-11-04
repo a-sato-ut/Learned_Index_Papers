@@ -1,0 +1,34 @@
+{
+    "paperId": "68eb83b498aff58ca757782bde24b802507f69c4",
+    "title": "SACC: Configuring Application-Level Cache Intelligently for In-Memory Database Based on Long Short-Term Memory",
+    "year": 2019,
+    "venue": "2019 IEEE 21st International Conference on High Performance Computing and Communications; IEEE 17th International Conference on Smart City; IEEE 5th International Conference on Data Science and Systems (HPCC/SmartCity/DSS)",
+    "authors": [
+        "Jiawei Fei",
+        "Yang Shi",
+        "M. Wen",
+        "Chunyuan Zhang"
+    ],
+    "doi": "10.1109/HPCC/SmartCity/DSS.2019.00188",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/68eb83b498aff58ca757782bde24b802507f69c4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In-memory database can effectively improve the performance of database-centric applications. However, mainstream application-level caching frameworks, such as Memcached, require developers to specify what to cache while developers can hardly understand all intricate details of the application. In this paper, we propose the smart application-level cache configuration (SACC), an automatic cache configuration approach which decouples the cache logic from the application logic. SACC uses the long short term memory model to decide what to cache and then executes caching operation automatically based on the results of the prediction model with no need of manual specifications. We evaluate SACC with both uniform and skewed workloads. Experimental results demonstrate that SACC can significantly improve the performance of application-level cache system.",
+    "citationCount": 1,
+    "referenceCount": 25
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "dfd70befe6cc1724386c21682d99fb9299feff1f",
+    "title": "HybriDS: Cache-Conscious Concurrent Data Structures for Near-Memory Processing Architectures",
+    "year": 2022,
+    "venue": "ACM Symposium on Parallelism in Algorithms and Architectures",
+    "authors": [
+        "Jiwon Choe",
+        "Andrew Crotty",
+        "T. Moreshet",
+        "Maurice Herlihy",
+        "R. I. Bahar"
+    ],
+    "doi": "10.1145/3490148.3538591",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dfd70befe6cc1724386c21682d99fb9299feff1f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, the ever-increasing impact of memory access bottlenecks has brought forth a renewed interest in near-memory processing (NMP) architectures. In this work, we propose and empirically evaluate hybrid data structures, which are concurrent data structures custom-designed for these new NMP architectures. We focus on cache-optimized data structures, such as skiplists and B+ trees, that are often used as index structures in online transaction processing (OLTP) systems to enable fast key-based lookups. These data structures are hierarchical, where lookups begin at a small number of top-level nodes and diverge to many different node paths as they move down the hierarchy, such that nodes in higher levels benefit more from caching. Our proposed hybrid data structures split traditional hierarchical data structures into a host-managed portion consisting of higher-level nodes and an NMP-managed portion consisting of the remaining lower-level nodes, thus retaining and further enhancing the cache-conscious optimizations of their conventional implementations. Although the idea might seem relatively simple, the splitting of the data structure prompts new synchronization problems, and careful implementation is required to ensure high concurrency and correctness. We provide implementations of a hybrid skiplist and a hybrid B+ tree, and we empirically evaluate them on a cycle-accurate full-system architecture simulator. Our results show that the hybrid data structures have the potential to improve performance by more than 2x compared to state-of-the-art concurrent data structures.",
+    "citationCount": 10,
+    "referenceCount": 76
+}

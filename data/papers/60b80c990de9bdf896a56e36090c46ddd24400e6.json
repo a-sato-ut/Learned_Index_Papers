@@ -1,0 +1,35 @@
+{
+    "paperId": "60b80c990de9bdf896a56e36090c46ddd24400e6",
+    "title": "Full-Stack Optimizing Transformer Inference on ARM Many-Core CPU",
+    "year": 2023,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Jiazhi Jiang",
+        "Jiangsu Du",
+        "Dan-E Huang",
+        "Zhiguang Chen",
+        "Yutong Lu",
+        "Xiangke Liao"
+    ],
+    "doi": "10.1109/TPDS.2023.3280805",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/60b80c990de9bdf896a56e36090c46ddd24400e6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The past several years have witnessed tremendous success of transformer models in natural language processing (NLP), and their current landscape is increasingly diverse. Although GPU gradually becomes the dominating workhorse and de facto standard for deep learning, there are still many scenarios where using CPU remains a prevalent choice.Recently, ARM many-core processor starts emigrating to cloud computing and high-performance computing, which is promising to deploy transformer inference. In this paper, we identify several performance bottlenecks of existing inference runtime on many-core CPU including low-core usage, isolated thread configuration, inappropriate implementation of general matrix multiply (GEMM), and redundant computations for variable-length inputs. To tackle these problems, full-stack optimizations are conducted for these challenges from service level to operator level. We explore multi-instance parallelization at the service level to improve CPU core usage. To improve parallel efficiency of the inference runtime, we design NUMA-aware thread scheduling and a look-up table for optimal parallel configurations. The GEMM implementation is tailored for some critical modules to exploit the characteristics of transformer workload. To eliminate redundant computations, a novel storage format is designed and implemented to pack sparse data and a load balancing strategy is proposed for tasks with different sparsity. Experiments show that our implementation can outperform existing solutions by 1.1x to 6x with fixed-length inputs. For variable-length inputs, it achieves 1.9x to 8x speedups on different ARM many-core processors.",
+    "citationCount": 6,
+    "referenceCount": 30
+}

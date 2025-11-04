@@ -1,0 +1,32 @@
+{
+    "paperId": "e00f958d62b5d334ceea84ceae43b13fdfe12c19",
+    "title": "Automatic Generation of Workload Profiles Using Unsupervised Learning Pipelines",
+    "year": 2018,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "David Buchaca Prats",
+        "J. L. Berral",
+        "David Carrera"
+    ],
+    "doi": "10.1109/TNSM.2017.2786047",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e00f958d62b5d334ceea84ceae43b13fdfe12c19",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/tnsm.2017.2786047",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The complexity of resource usage and power consumption on cloud-based applications makes the understanding of application behavior through expert examination difficult. The difficulty increases when applications are seen as “black boxes,” where only external monitoring can be retrieved. Furthermore, given the different amount of scenarios and applications, automation is required. Here, we examine and model application behavior by finding behavior phases. We use conditional restricted Boltzmann machines (CRBMs) to model time-series containing resources traces measurements like CPU, memory, and IO. CRBMs can be used to map a given historic window of trace behavior into a single vector. This low dimensional and time-aware vector can be passed through clustering methods, from simplistic ones like  ${k}$ -means to more complex ones like those based on hidden Markov models. We use these methods to find phases of similar behavior in the workloads. Our experimental evaluation shows that the proposed method is able to identify different phases of resource consumption across different workloads. We show that the distinct phases contain specific resource patterns that distinguish them.",
+    "citationCount": 15,
+    "referenceCount": 36
+}

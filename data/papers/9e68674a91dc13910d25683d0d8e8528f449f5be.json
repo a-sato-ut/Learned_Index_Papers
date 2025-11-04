@@ -1,0 +1,37 @@
+{
+    "paperId": "9e68674a91dc13910d25683d0d8e8528f449f5be",
+    "title": "Trajectory Clustering and k-NN for Robust Privacy Preserving Spatiotemporal Databases",
+    "year": 2018,
+    "venue": "Algorithms",
+    "authors": [
+        "Elias Dritsas",
+        "M. Trigka",
+        "P. Gerolymatos",
+        "S. Sioutas"
+    ],
+    "doi": "10.3390/a11120207",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9e68674a91dc13910d25683d0d8e8528f449f5be",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1999-4893/11/12/207/pdf?version=1545197851",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the context of this research work, we studied the problem of privacy preserving on spatiotemporal databases. In particular, we investigated the k-anonymity of mobile users based on real trajectory data. The k-anonymity set consists of the k nearest neighbors. We constructed a motion vector of the form (x,y,g,v) where x and y are the spatial coordinates, g is the angle direction, and v is the velocity of mobile users, and studied the problem in four-dimensional space. We followed two approaches. The former applied only k-Nearest Neighbor (k-NN) algorithm on the whole dataset, while the latter combined trajectory clustering, based on K-means, with k-NN. Actually, it applied k-NN inside a cluster of mobile users with similar motion pattern (g,v). We defined a metric, called vulnerability, that measures the rate at which k-NNs are varying. This metric varies from 1 k (high robustness) to 1 (low robustness) and represents the probability the real identity of a mobile user being discovered from a potential attacker. The aim of this work was to prove that, with high probability, the above rate tends to a number very close to 1 k in clustering method, which means that the k-anonymity is highly preserved. Through experiments on real spatial datasets, we evaluated the anonymity robustness, the so-called vulnerability, of the proposed method.",
+    "citationCount": 11,
+    "referenceCount": 34
+}

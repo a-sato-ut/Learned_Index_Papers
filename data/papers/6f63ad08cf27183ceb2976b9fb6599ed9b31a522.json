@@ -1,0 +1,36 @@
+{
+    "paperId": "6f63ad08cf27183ceb2976b9fb6599ed9b31a522",
+    "title": "OmniPred: Language Models as Universal Regressors",
+    "year": 2024,
+    "venue": "Trans. Mach. Learn. Res.",
+    "authors": [
+        "Xingyou Song",
+        "Oscar Li",
+        "Chansoo Lee",
+        "Bangding Yang",
+        "Daiyi Peng",
+        "Sagi Perel",
+        "Yutian Chen"
+    ],
+    "doi": "10.48550/arXiv.2402.14547",
+    "arxivId": "2402.14547",
+    "url": "https://www.semanticscholar.org/paper/6f63ad08cf27183ceb2976b9fb6599ed9b31a522",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Regression is a powerful tool to accurately predict the outcome metric of a system given a set of parameters, but has traditionally been restricted to methods which are only applicable to a specific task. In this paper, we propose OmniPred, a framework for training language models as universal end-to-end regressors over $(x,y)$ data from arbitrary formats. Using data sourced from Google Vizier, one of the largest proprietary blackbox optimization databases in the world, our extensive experiments demonstrate that language models are capable of very precise numerical regression using only textual representations of mathematical parameters and values, and if given the opportunity to train at scale over multiple tasks, can significantly outperform traditional regression models.",
+    "citationCount": 27,
+    "referenceCount": 52
+}

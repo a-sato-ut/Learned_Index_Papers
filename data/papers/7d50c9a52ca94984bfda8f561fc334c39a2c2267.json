@@ -1,0 +1,39 @@
+{
+    "paperId": "7d50c9a52ca94984bfda8f561fc334c39a2c2267",
+    "title": "Novel Fuzzy Logic Scheme for Push-Based Critical Data Broadcast Mitigation in VNDN",
+    "year": 2022,
+    "venue": "Italian National Conference on Sensors",
+    "authors": [
+        "Sajjad Ahmad Khan",
+        "Huhnkuk Lim"
+    ],
+    "doi": "10.3390/s22208078",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7d50c9a52ca94984bfda8f561fc334c39a2c2267",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1424-8220/22/20/8078/pdf?version=1666612736",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Vehicular Named Data Networking (VNDN) is one of the potential and future networking architectures that allow Connected and Autonomous Vehicles (CAV) to exchange data by simply disseminating the content over the network. VNDN only supports a pull-based data forwarding model, where the content information is forwarded upon request. However, in critical situations, it is essential to design a push-based data forwarding model in order to broadcast the critical data packets without any requests. One of the challenges of push-based data forwarding in VNDN is the broadcasting effect, which occurs when every vehicle broadcasts critical information over the network. For instance, in emergency situations such as accidents, road hazards, and bad weather conditions, the producer generates a critical data packet and broadcasts it to all the nearby vehicles. Subsequently, all vehicles broadcast the same critical data packet to each other, which leads to a broadcast storm on the network. Therefore, this paper proposes a Fuzzy Logic-based Push Data Forwarding (FLPDF) scheme to mitigate the broadcast storm effect. The novelty of this paper is the suggestion and application of a fuzzy logic approach to mitigate the critical data broadcast storm effect in VNDN. In the proposed scheme, vehicles are grouped into clusters using the K-means clustering algorithm, and then Cluster Heads (CHs) are selected using a fuzzy logic approach. A CH is uniquely responsible for broadcasting the critical data packets to all other vehicles in a cluster. A Gateway (GW) has the role of forwarding the critical data packets to the nearest clusters via their GWs. The simulation results show that the proposed scheme outperforms the naive method in terms of transmitted data packets and efficiency. The proposed scheme generates five times fewer data packets and achieves six times higher efficiency than the naive scheme.",
+    "citationCount": 11,
+    "referenceCount": 31
+}

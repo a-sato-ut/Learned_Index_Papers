@@ -1,0 +1,38 @@
+{
+    "paperId": "56f527c1ee878bed70e7ac0d36c02f96817496cb",
+    "title": "A Temporal and Spatial Data Redundancy Processing Algorithm for RFID Surveillance Data",
+    "year": 2020,
+    "venue": "Wireless Communications and Mobile Computing",
+    "authors": [
+        "Siye Wang",
+        "Ziwen Cao",
+        "Yanfang Zhang",
+        "Weiqing Huang",
+        "Jianguo Jiang"
+    ],
+    "doi": "10.1155/2020/6937912",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/56f527c1ee878bed70e7ac0d36c02f96817496cb",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1155/2020/6937912",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Radio Frequency Identification (RFID) data acquisition rate used for monitoring is so high that the RFID data stream contains a large amount of redundant data, which increases the system overhead. To balance the accuracy and real-time performance of monitoring, it is necessary to filter out redundant RFID data. We propose an algorithm called Time-Distance Bloom Filter (TDBF) that takes into account the read time and read distance of RFID tags, which greatly reduces data redundancy. In addition, we have proposed a measurement of the filter performance evaluation indicators. In experiments, we found that the performance score of the TDBF algorithm was 5.2, while the Time Bloom Filter (TBF) score was only 0.03, which indicates that the TDBF algorithm can achieve a lower false negative rate, lower false positive rate, and higher data compression rate. Furthermore, in a dynamic scenario, the TDBF algorithm can filter out valid data according to the actual scenario requirements.",
+    "citationCount": 4,
+    "referenceCount": 31
+}

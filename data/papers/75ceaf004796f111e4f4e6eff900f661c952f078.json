@@ -1,0 +1,38 @@
+{
+    "paperId": "75ceaf004796f111e4f4e6eff900f661c952f078",
+    "title": "Edge replication strategies for wide-area distributed processing",
+    "year": 2020,
+    "venue": "EdgeSys@EuroSys",
+    "authors": [
+        "Niklas Semmler",
+        "Matthias Rost",
+        "Georgios Smaragdakis",
+        "A. Feldmann"
+    ],
+    "doi": "10.1145/3378679.3394532",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/75ceaf004796f111e4f4e6eff900f661c952f078",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid digitalization across industries comes with many challenges. One key problem is how the ever-growing and volatile data generated at distributed locations can be efficiently processed to inform decision making and improve products. Unfortunately, wide-area network capacity cannot cope with the growth of the data at the network edges. Thus, it is imperative to decide which data should be processed in-situ at the edge and which should be transferred and analyzed in data centers. In this paper, we study two families of proactive online data replication strategies, namely ski-rental and machine learning algorithms, to decide which data is processed at the edge, close to where it is generated, and which is transferred to a data center. Our analysis using real query traces from a Global 2000 company shows that such online replication strategies can significantly reduce data transfer volume in many cases up to 50% compared to naive approaches and achieve close to optimal performance. After analyzing their shortcomings for ease of use and performance, we propose a hybrid strategy that combines the advantages of both competitive and machine learning algorithms.",
+    "citationCount": 1,
+    "referenceCount": 20
+}

@@ -1,0 +1,30 @@
+{
+    "paperId": "e4f1c622d5e69f0e9530d1d6f81584bd471847c5",
+    "title": "Cuckoo Matrix: A High Efficient and Accurate Graph Stream Summarization on Limited Memory",
+    "year": 2023,
+    "venue": "Electronics",
+    "authors": [
+        "Zhuo Li",
+        "Zhuo Li",
+        "Zhiyuan Fan",
+        "Jianli Zhao",
+        "Si-Liang Zeng",
+        "Peng Luo",
+        "Kaihua Liu"
+    ],
+    "doi": "10.3390/electronics12020414",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e4f1c622d5e69f0e9530d1d6f81584bd471847c5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2079-9292/12/2/414/pdf?version=1673597049",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The graph stream is defined as rapid edge streams on a huge domain of nodes. Nowadays, graph streams play important roles in network traffic, social networks, and cloud troubleshooting. Therefore, various summary structures for graph streams are proposed to obtain approximate evaluation results. However, these structures either sacrifice accuracy for guaranteed throughput or compromise memory consumption for high precision. In view of the limitations, we propose Cuckoo Matrix. It only uses one adjacency matrix to complete high accuracy queries while assuring large throughput. Meanwhile, Cuckoo Matrix is capable of preserving the connectivity of edges for the purpose of supporting both structural queries and weight-based estimations. The experimental results show that Cuckoo Matrix improves insertion throughput by 25% and reduces memory consumption by 25% compared to the state-of-the-art, which meets the current requirements of graph stream summarization.",
+    "citationCount": 4,
+    "referenceCount": 19
+}

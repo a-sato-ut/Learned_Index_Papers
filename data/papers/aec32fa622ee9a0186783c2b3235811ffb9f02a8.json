@@ -1,0 +1,39 @@
+{
+    "paperId": "aec32fa622ee9a0186783c2b3235811ffb9f02a8",
+    "title": "Towards the Design of Efficient TCN-bascd Prefetcher for Hybrid NVM-DRAM Memory",
+    "year": 2022,
+    "venue": "IEEE International Joint Conference on Neural Network",
+    "authors": [
+        "Yujuan Tan",
+        "Zhichao Zhang",
+        "Zhulin Ma",
+        "Yanlin Zhou",
+        "Duo Liu"
+    ],
+    "doi": "10.1109/IJCNN55064.2022.9892198",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/aec32fa622ee9a0186783c2b3235811ffb9f02a8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The hybrid memory system has been widely studied, comprised of Non-volatile Memory (NVM) and DRAM, due to its larger capacity and lower power consumption than DRAM. As a data placement scheme, prefetching plays a vital role in the performance of the hybrid memory scenario. However, existing prefetchers fail to satisfy both high prediction accuracy and fast processing simultaneously: the hardware-based prefetcher becomes impractical due to the exploding prediction table size, as the application complexity increases; the LSTM-based prefetcher, as a promising software-based prefetcher, suffers from inefficient timeliness, unstable structures, and excessive memory consumption. In this paper, we demonstrate the potential of a temporal convolutional network (TCN) in prefetching because of its parallelizable convolution operations for acceleration, a more stable structure compared with RNNs, and adequately long history window size. However, using TCN directly in the prefetching brings some challenges: the design of the TCN structure requires consideration of the trade-off between the model size and its prediction accuracy; it is hard for TCN layers to learn the correlation between memory accesses comprehensively. Therefore, we propose a novel TCN-based memory prefetcher (TMP), which uses an appropriate number of dilated convolution layers to satisfy a sufficiently large receptive field while maintaining a relatively small model size. In addition, we use the attention mechanism to fully exploit the correlation between memory accesses and improve prefetching effectiveness. Our TMP model comprises an input module for dimensionality reduction, a TCN-Attention module for memory access pattern learning, and an output module for future access prediction. Compared to the state-of-the-art LSTM-based prefetcher, TMP is 1.6x and 4.9x faster in training and inference speed, respectively, meanwhile achieving as high as 84.1% accuracy on average on SPEC CPU 2017.",
+    "citationCount": 0,
+    "referenceCount": 41
+}

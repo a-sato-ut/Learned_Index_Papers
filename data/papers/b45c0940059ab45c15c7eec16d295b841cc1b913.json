@@ -1,0 +1,35 @@
+{
+    "paperId": "b45c0940059ab45c15c7eec16d295b841cc1b913",
+    "title": "The fine line between dead neurons and sparsity in binarized spiking neural networks",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "J. Eshraghian",
+        "Wei D. Lu"
+    ],
+    "doi": null,
+    "arxivId": "2201.11915",
+    "url": "https://www.semanticscholar.org/paper/b45c0940059ab45c15c7eec16d295b841cc1b913",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Spiking neural networks can compensate for quantization error by encoding information either in the temporal domain, or by processing discretized quantities in hidden states of higher precision. In theory, a wide dynamic range state-space enables multiple binarized inputs to be accumulated together, thus improving the representational capacity of individual neurons. This may be achieved by increasing the firing threshold, but make it too high and sparse spike activity turns into no spike emission. In this paper, we propose the use of `threshold annealing' as a warm-up method for firing thresholds. We show it enables the propagation of spikes across multiple layers where neurons would otherwise cease to fire, and in doing so, achieve highly competitive results on four diverse datasets, despite using binarized weights. Source code is available at https://github.com/jeshraghian/snn-tha/",
+    "citationCount": 22,
+    "referenceCount": 45
+}

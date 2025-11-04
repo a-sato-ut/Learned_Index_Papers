@@ -1,0 +1,33 @@
+{
+    "paperId": "48862996388c58fd598640c0c8ec82b25ad384cb",
+    "title": "Universal Embedding Function for Traffic Classification via QUIC Domain Recognition Pretraining: A Transfer Learning Success",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jan Luxemburk",
+        "Karel Hynek",
+        "Richard Pln'y",
+        "Tom'avs vCejka"
+    ],
+    "doi": "10.48550/arXiv.2502.12930",
+    "arxivId": "2502.12930",
+    "url": "https://www.semanticscholar.org/paper/48862996388c58fd598640c0c8ec82b25ad384cb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Encrypted traffic classification (TC) methods must adapt to new protocols and extensions as well as to advancements in other machine learning fields. In this paper, we follow a transfer learning setup best known from computer vision. We first pretrain an embedding model on a complex task with a large number of classes and then transfer it to five well-known TC datasets. The pretraining task is recognition of SNI domains in encrypted QUIC traffic, which in itself is a problem for network monitoring due to the growing adoption of TLS Encrypted Client Hello. Our training pipeline -- featuring a disjoint class setup, ArcFace loss function, and a modern deep learning architecture -- aims to produce universal embeddings applicable across tasks. The proposed solution, based on nearest neighbors search in the embedding space, surpasses SOTA performance on four of the five TC datasets. A comparison with a baseline method utilizing raw packet sequences revealed unexpected findings with potential implications for the broader TC field. We published the model architecture, trained weights, and transfer learning experiments.",
+    "citationCount": 2,
+    "referenceCount": 29
+}

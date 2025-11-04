@@ -1,0 +1,33 @@
+{
+    "paperId": "4b1beed510f4aad9ee09aed4f01990368dd2b3b8",
+    "title": "Distilled Neural Networks for Efficient Learning to Rank",
+    "year": 2022,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "F. M. Nardini",
+        "Cosimo Rulli",
+        "Salvatore Trani",
+        "Rossano Venturini"
+    ],
+    "doi": "10.1109/TKDE.2022.3152585",
+    "arxivId": "2202.10728",
+    "url": "https://www.semanticscholar.org/paper/4b1beed510f4aad9ee09aed4f01990368dd2b3b8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/tkde.2022.3152585",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent studies in Learning to Rank have shown the possibility to effectively distill a neural network from an ensemble of regression trees. This result leads neural networks to become a natural competitor of tree-based ensembles on the ranking task. Nevertheless, ensembles of regression trees outperform neural models both in terms of efficiency and effectiveness, particularly when scoring on CPU. In this paper, we propose an approach for speeding up neural scoring time by applying a combination of Distillation, Pruning and Fast Matrix multiplication. We employ knowledge distillation to learn shallow neural networks from an ensemble of regression trees. Then, we exploit an efficiency-oriented pruning technique that performs a sparsification of the most computationally-intensive layers of the neural network that is then scored with optimized sparse matrix multiplication. Moreover, by studying both dense and sparse high performance matrix multiplication, we develop a scoring time prediction model which helps in devising neural network architectures that match the desired efficiency requirements. Comprehensive experiments on two public learning-to-rank datasets show that neural networks produced with our novel approach are competitive at any point of the effectiveness-efficiency trade-off when compared with tree-based ensembles, providing up to 4x scoring time speed-up without affecting the ranking quality.",
+    "citationCount": 19,
+    "referenceCount": 68
+}

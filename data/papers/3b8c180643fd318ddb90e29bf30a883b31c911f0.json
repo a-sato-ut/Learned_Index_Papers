@@ -1,0 +1,39 @@
+{
+    "paperId": "3b8c180643fd318ddb90e29bf30a883b31c911f0",
+    "title": "SMaLL: Software for Rapidly Instantiating Machine Learning Libraries",
+    "year": 2023,
+    "venue": "ACM Transactions on Embedded Computing Systems",
+    "authors": [
+        "Upasana Sridhar",
+        "Nicholai Tukanov",
+        "Elliott Binder",
+        "Tze Meng Low",
+        "Scott McMillan",
+        "Martin D. Schatz"
+    ],
+    "doi": "10.1145/3607870",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3b8c180643fd318ddb90e29bf30a883b31c911f0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Interest in deploying deep neural network (DNN) inference on edge devices has resulted in an explosion of the number and types of hardware platforms that machine learning (ML) libraries must support. High-level programming interfaces, such as TensorFlow, can be readily ported across different devices; however, maintaining performance when porting the low-level implementation is more nuanced. High-performance inference implementations require an effective mapping of the high-level interface to the target hardware platform. Commonly, this mapping may use optimizing compilers to generate code at compile time or high-performance vendor libraries that have been specialized to the target platform. Both approaches rely on expert knowledge across levels to produce an efficient mapping. This makes supporting new architectures difficult and time-consuming. In this work, we present a DNN library framework, SMaLL, that is easily extensible to new architectures. The framework uses a unified loop structure and shared, cache-friendly data format across all intermediate layers, eliminating the time and memory overheads incurred by data transformation between layers. Each layer is implemented by specifying its dimensions and a kernel, the key computing operation of that layer. The unified loop structure and kernel abstraction allows the reuse of code across layers and computing platforms. New architectures only require a few hundred lines in the kernel to be redesigned. To show the benefits of our approach, we have developed software that supports a range of layer types and computing platforms; this software is easily extensible for rapidly instantiating high-performance DNN libraries. An evaluation of the portability of our framework is shown by instantiating end-to-end networks from the MLPerf:tiny benchmark suite on five ARM platforms and one x86 platform (an AMD Zen 2). We also show that the end-to-end performance is comparable to or better than ML frameworks such as TensorFlow, TVM, and LibTorch.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "06694e08d53dd1dc89067c6964d2c496bbe0a088",
+    "title": "Reconsidering Tree based Methods for k-Maximum Inner-Product Search: The LRUS-CoverTree",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Hengzhao Ma",
+        "Jianzhong Li",
+        "Yong Zhang"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00355",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/06694e08d53dd1dc89067c6964d2c496bbe0a088",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Existing literature on k-Maximum Inner-Product Search has made it a common belief that tree based methods are less effective in terms of index construction time and query performance compared to locality sensitive hashing based, similarity graph based and quantization based methods. However, in this paper we partially roll over the existing assessments about tree based k- Maximum Inner-Product Search methods by our newly proposed tree structure named LRUS-CoverTree. The experimental results show that the new k- Maximum Inner-Product Search algorithm based on LRUS-CoverTree outperforms the state-of-the-art locality sensitive hashing based methods, and achieves comparable performance with similarity graph based and quantization based methods in terms of query time and accuracy. What's more important, the desirable query performance is attained with significantly lower index construction time compared to all the other methods. Besides the experimental evaluations, substantial theoretical results about the LRUS-CoverTree and the new k-Maximum Inner-Product Search algorithm are provided, including construction time and search time complexity, size and height of the tree, and so on. Furthermore, several new effective upper bounds on the inner-product value are provided to support the efficient branch-and-bound algorithm on LRUS-CoverTree. In summary, our novel tree structure and new algorithm significantly improve upon existing tree based methods, and it is hoped that this contribution can lead to a reconsideration of tree based k-Maximum Inner-Product Search methods.",
+    "citationCount": 2,
+    "referenceCount": 45
+}

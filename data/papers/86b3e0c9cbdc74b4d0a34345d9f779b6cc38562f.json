@@ -1,0 +1,38 @@
+{
+    "paperId": "86b3e0c9cbdc74b4d0a34345d9f779b6cc38562f",
+    "title": "Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference",
+    "year": 2020,
+    "venue": "Conference on Machine Learning and Systems",
+    "authors": [
+        "Haichen Shen",
+        "Jared Roesch",
+        "Zhi Chen",
+        "Wei Chen",
+        "Yong Wu",
+        "Mu Li",
+        "Vin Sharma",
+        "Zachary Tatlock",
+        "Yida Wang"
+    ],
+    "doi": null,
+    "arxivId": "2006.03031",
+    "url": "https://www.semanticscholar.org/paper/86b3e0c9cbdc74b4d0a34345d9f779b6cc38562f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern deep neural networks increasingly make use of features such as dynamic control flow, data structures and dynamic tensor shapes. Existing deep learning systems focus on optimizing and executing static neural networks which assume a pre-determined model architecture and input data shapes--assumptions which are violated by dynamic neural networks. Therefore, executing dynamic models with deep learning systems is currently both inflexible and sub-optimal, if not impossible. Optimizing dynamic neural networks is more challenging than static neural networks; optimizations must consider all possible execution paths and tensor shapes. This paper proposes Nimble, a high-performance and flexible system to optimize, compile, and execute dynamic neural networks on multiple platforms. Nimble handles model dynamism by introducing a dynamic type system, a set of dynamism-oriented optimizations, and a light-weight virtual machine runtime. Our evaluation demonstrates that Nimble outperforms state-of-the-art deep learning frameworks and runtime systems for dynamic neural networks by up to 20x on hardware platforms including Intel CPUs, ARM CPUs, and Nvidia GPUs.",
+    "citationCount": 62,
+    "referenceCount": 60
+}

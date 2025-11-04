@@ -1,0 +1,39 @@
+{
+    "paperId": "e1fb4cb3307d32ad3575f625ef3a84d6cf028a17",
+    "title": "Accelerated Auto-Tuning of GPU Kernels for Tensor Computations",
+    "year": 2024,
+    "venue": "International Conference on Supercomputing",
+    "authors": [
+        "Chendi Li",
+        "Yufan Xu",
+        "Sina Mahdipour Saravani",
+        "P. Sadayappan"
+    ],
+    "doi": "10.1145/3650200.3656626",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e1fb4cb3307d32ad3575f625ef3a84d6cf028a17",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3650200.3656626",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "TVM is a state-of-the-art auto-tuning compiler for the synthesis of high-performance implementations of tensor computations. However, an extensive search in the vast design space via thousands of compile-execute trials is often needed to identify high-performance code versions, leading to high auto-tuning time. This paper develops new performance modeling and design space exploration strategies to accelerate the code optimization process within TVM. Experimental evaluation on a number of matrix-matrix multiplication and 2D convolution kernels demonstrates about an order-of-magnitude improvement in auto-tuning time to achieve the same level of code performance.",
+    "citationCount": 5,
+    "referenceCount": 34
+}

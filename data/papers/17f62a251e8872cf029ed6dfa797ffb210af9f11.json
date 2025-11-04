@@ -1,0 +1,40 @@
+{
+    "paperId": "17f62a251e8872cf029ed6dfa797ffb210af9f11",
+    "title": "Solving Multi-Task Offloading Problem in V2X with a Machine Learning-Based Online Algorithm",
+    "year": 2023,
+    "venue": "Global Communications Conference",
+    "authors": [
+        "Yongwang Zhou",
+        "Dongbiao Li",
+        "Yifan Chen",
+        "Chi Zhang",
+        "Lingbo Wei",
+        "Miao Pan"
+    ],
+    "doi": "10.1109/GLOBECOM54140.2023.10437260",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/17f62a251e8872cf029ed6dfa797ffb210af9f11",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In Vehicle-to-Everything scenarios, the efficient and real-time offloading of multi-task from vehicles to roadside units with higher computing power presents a challenging endeavor. This challenge is amplified by the dynamic nature of computing power in roadside units, which fluctuates in real time due to resource sharing among multiple vehicles. Consequently, accurately determining the computing power of roadside units prior to offloading becomes a significant hurdle for vehicles. To overcome this challenge and enhance the performance of online algorithms used for task offloading, we propose a novel approach that leverages machine learning techniques. This approach utilizes historical data to predict the real-time computing power of roadside units. By incorporating machine learning predictions, our proposed approach aims to mitigate the uncertainty associated with the decision-making process of the online algorithm. This, in turn, enables vehicles to make more informed decisions regarding task offloading. Moreover, to enhance the robustness of the algorithm against potential prediction errors, our approach adopts a partial trust mechanism towards the predicted outcomes. By considering this partial trust, we aim to maintain the algorithm's reliability in real-world scenarios. Furthermore, we conduct theoretical analysis and comprehensive experiments to demonstrate the superiority of our proposed algorithm in terms of task offloading performance and robustness.",
+    "citationCount": 0,
+    "referenceCount": 17
+}

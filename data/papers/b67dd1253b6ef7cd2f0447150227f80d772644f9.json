@@ -1,0 +1,45 @@
+{
+    "paperId": "b67dd1253b6ef7cd2f0447150227f80d772644f9",
+    "title": "Contiguitas: The Pursuit of Physical Memory Contiguity in Data Centers",
+    "year": 2023,
+    "venue": "IEEE Micro",
+    "authors": [
+        "Kaiyang Zhao",
+        "Kaiwen Xue",
+        "Ziqi Wang",
+        "Dan Schatzberg",
+        "Leon Yang",
+        "Antonis Manousis",
+        "Johannes Weiner",
+        "Rik Van Riel",
+        "Bikash Sharma",
+        "Chunqiang Tang",
+        "Dimitrios Skarlatos"
+    ],
+    "doi": "10.1109/MM.2024.3406933",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b67dd1253b6ef7cd2f0447150227f80d772644f9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The unabating growth of the memory needs of emerging data center applications has exacerbated the scalability bottleneck of virtual memory. However, reducing the overhead of address translation will remain onerous until the physical memory contiguity predicament gets resolved. To address this problem, Contiguitas provides ample physical memory contiguity by design. We identify that the primary cause of memory fragmentation in Meta’s data centers is unmovable allocations scattered across the address space that impedes contiguity. To this end, Contiguitas in the operating system separates movable allocations from unmovable ones by placing them into two different dynamically adjustable regions in physical memory. Furthermore, Contiguitas drastically reduces unmovable allocations through hardware extensions that transparently migrate unmovable pages while they remain in use. Our experiments in production at Meta’s data centers show that Contiguitas achieves end-to-end performance improvements of 2%–18%. Full-system simulations of the Contiguitas hardware show that it can efficiently migrate unmovable allocations without affecting applications.",
+    "citationCount": 19,
+    "referenceCount": 147
+}

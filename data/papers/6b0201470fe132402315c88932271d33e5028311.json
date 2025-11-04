@@ -1,0 +1,38 @@
+{
+    "paperId": "6b0201470fe132402315c88932271d33e5028311",
+    "title": "SuperCoder: Assembly Program Superoptimization with Large Language Models",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Anjiang Wei",
+        "Tarun Suresh",
+        "Huanmi Tan",
+        "Yinglun Xu",
+        "Gagandeep Singh",
+        "Ke Wang",
+        "Alex Aiken"
+    ],
+    "doi": null,
+    "arxivId": "2505.11480",
+    "url": "https://www.semanticscholar.org/paper/6b0201470fe132402315c88932271d33e5028311",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Superoptimization is the task of transforming a program into a faster one while preserving its input-output behavior. In this work, we investigate whether large language models (LLMs) can serve as superoptimizers, generating assembly programs that outperform code already optimized by industry-standard compilers. We construct the first large-scale benchmark for this problem, consisting of 8,072 real-world assembly programs averaging 130 lines, in contrast to prior datasets restricted to 2-15 straight-line, loop-free programs. We evaluate 23 LLMs on this benchmark and find that the strongest baseline, Claude-opus-4, achieves a 51.5% test-passing rate and a 1.43x average speedup over gcc -O3. To further enhance performance, we fine-tune models with reinforcement learning, optimizing a reward function that integrates correctness and performance speedup. Starting from Qwen2.5-Coder-7B-Instruct (61.4% correctness, 1.10x speedup), the fine-tuned model SuperCoder attains 95.0% correctness and 1.46x average speedup. Our results demonstrate, for the first time, that LLMs can be applied as superoptimizers for assembly programs, establishing a foundation for future research in program performance optimization beyond compiler heuristics.",
+    "citationCount": 5,
+    "referenceCount": 75
+}

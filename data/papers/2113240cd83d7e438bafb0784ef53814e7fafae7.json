@@ -1,0 +1,37 @@
+{
+    "paperId": "2113240cd83d7e438bafb0784ef53814e7fafae7",
+    "title": "Marlin: A Concurrent and Write-Optimized B+-tree Index on Disaggregated Memory",
+    "year": 2023,
+    "venue": "International Conference on Parallel Processing",
+    "authors": [
+        "Hang An",
+        "Fang Wang",
+        "Dan Feng",
+        "Xiaomin Zou",
+        "Zefeng Liu",
+        "Jianshun Zhang"
+    ],
+    "doi": "10.1145/3605573.3605576",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2113240cd83d7e438bafb0784ef53814e7fafae7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Memory disaggregation architecture can achieve higher resource utilization, independent scaling of CPUs and memory. Disaggregated memory systems manage memory resources and locate data by distributed index. However, existing distributed indexes suffer from high synchronization overhead of write, due to naive node lock, thus resulting in high tail latency, low throughput, and poor scalability. In this paper, we present Marlin, a distributed concurrent and write-optimized B+-tree on disaggregated memory. Marlin cleverly utilizes the features of RDMA atomic verbs to synchronize different index operations. It upgrades index concurrent write performance from three perspectives. First, in order to improve the concurrency of operations, Marlin leverages an RDMA-IDU-friendly concurrent algorithm to enable different clients to operate the same leaf node concurrently. Second, Marlin designs a ternary-state node lock, which effectively prevents conflicts between index structure modification operations (SMO) and other concurrent accesses. Finally, Marlin compresses the critical path of write to reduce network round trips and the time of issuing RDMA WRITE. Compared to the state-of-the-art schemes that are based on memory disaggregation, Marlin improves the throughput by up to 2.21 × and reduces the P99 latency by up to 83.4% under YCSB hybrid workloads.",
+    "citationCount": 13,
+    "referenceCount": 33
+}

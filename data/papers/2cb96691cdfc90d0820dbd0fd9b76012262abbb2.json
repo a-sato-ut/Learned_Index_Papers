@@ -1,0 +1,35 @@
+{
+    "paperId": "2cb96691cdfc90d0820dbd0fd9b76012262abbb2",
+    "title": "Denial of Service Attack on Cuckoo Filter Based Networking Systems",
+    "year": 2020,
+    "venue": "IEEE Communications Letters",
+    "authors": [
+        "P. Reviriego",
+        "D. Larrabeiti"
+    ],
+    "doi": "10.1109/LCOMM.2020.2983405",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2cb96691cdfc90d0820dbd0fd9b76012262abbb2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate membership check structures, such as Bloom filters or cuckoo filters, are widely used in Networking systems to speed up processing. Filters are beneficial as packets can be quickly examined to determine if further processing has to be done. This enables faster and more efficient processing that is needed to cope with the ever increasing traffic. Security is also becoming a critical issue for networked systems as we increasingly depend on them for most of our daily life tasks. Recently, the security of Bloom filters has been studied showing that depending on their implementation they may be vulnerable to attacks that degrade the false positive rate or that create false positives for certain elements. In this letter, the vulnerability of cuckoo filters is considered by first showing that an attacker can collapse the filter effectively disabling it by forcing insertion failures. This can be done with no knowledge of the implementation details. Then, in the second part of the letter, several techniques that could be used to mitigate such attacks are discussed.",
+    "citationCount": 14,
+    "referenceCount": 15
+}

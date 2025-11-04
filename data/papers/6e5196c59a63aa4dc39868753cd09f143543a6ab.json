@@ -1,0 +1,31 @@
+{
+    "paperId": "6e5196c59a63aa4dc39868753cd09f143543a6ab",
+    "title": "An Iterative Post-Processing Method for Speech Source Separation in Realistic Scenarios",
+    "year": 2023,
+    "venue": "2023 31st International Conference on Electrical Engineering (ICEE)",
+    "authors": [
+        "Iman Shahriari",
+        "Hossein Zeinali"
+    ],
+    "doi": "10.1109/ICEE59167.2023.10334670",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6e5196c59a63aa4dc39868753cd09f143543a6ab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The purpose of this paper is to design a speaker-independent Blind Source Separation (BSS) system which aims to reduce the word error rate (WER) metric on Persian speech data. The main idea behind this method is that it tries to improve the quality of the output of any baseline separation system with the help of an iterative model by removing the remained parts of the interferer speaker from each source. For this purpose, we use embedded representations of the input speech signals. In addition, our system benefits from a convergence metric that aims to purify the output signals. To evaluate the proposed method, we have collected a dataset that contains about one hour of real phone calls from landline phones. Although most of the energy of some consonant phonemes appears in high-frequency bins which are filtered in telephony speeches, our method can handle this condition by properly removing the interference. Experimental results based on different metrics have proved the effectiveness of the proposed method.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

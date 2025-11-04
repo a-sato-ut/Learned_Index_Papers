@@ -1,0 +1,42 @@
+{
+    "paperId": "ec896d6ac43b00a45b6ec897a0fe28a650b2cfea",
+    "title": "Wearable Accelerometer Foundation Models for Health via Knowledge Distillation",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Salar Abbaspourazad",
+        "Anshuman Mishra",
+        "Joseph D. Futoma",
+        "Andrew C Miller",
+        "Ian Shapiro"
+    ],
+    "doi": "10.48550/arXiv.2412.11276",
+    "arxivId": "2412.11276",
+    "url": "https://www.semanticscholar.org/paper/ec896d6ac43b00a45b6ec897a0fe28a650b2cfea",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern wearable devices can conveniently record various biosignals in the many different environments of daily living, enabling a rich view of individual health. However, not all biosignals are the same: high-fidelity biosignals, such as photoplethysmogram (PPG), contain more physiological information, but require optical sensors with a high power footprint. Alternatively, a lower-fidelity biosignal such as accelerometry has a significantly smaller power footprint and is available in almost any wearable device. While accelerometry is widely used for activity recognition and fitness, it is less explored for health biomarkers and diagnosis. Here, we show that an accelerometry foundation model can predict a wide variety of health targets. To achieve improved performance, we distill representational knowledge from PPG encoders to accelerometery encoders using 20 million minutes of unlabeled data, collected from ~172K participants in the Apple Heart and Movement Study under informed consent. We observe strong cross-modal alignment on unseen data, e.g., 99.2% top-1 accuracy for retrieving PPG embeddings from accelerometry embeddings. We show that distilled accelerometry encoders have significantly more informative representations compared to self-supervised or supervised encoders trained directly on accelerometry data, observed by at least 23%-49% improved performance for predicting heart rate and heart rate variability. We also show that distilled accelerometry encoders are readily predictive of a wide array of downstream health targets, i.e., they are generalist foundation models. We believe accelerometry foundation models for health may unlock new opportunities for developing digital biomarkers from any wearable device.",
+    "citationCount": 4,
+    "referenceCount": 65
+}

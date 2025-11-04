@@ -1,0 +1,31 @@
+{
+    "paperId": "d6f2cb37e170062498ebc7e8dc9b1d5ac8d7d7d6",
+    "title": "The Tandem Counting Bloom Filter - It Takes Two Counters to Tango",
+    "year": 2019,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "P. Reviriego",
+        "Ori Rottenstreich"
+    ],
+    "doi": "10.1109/TNET.2019.2944954",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d6f2cb37e170062498ebc7e8dc9b1d5ac8d7d7d6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Set representation is a crucial functionality in various areas such as networking and databases. In many applications, memory and time constraints allow only an approximate representation where errors can appear for some queried elements. The Variable-Increment Counting Bloom Filter (VI-CBF) is a popular data structure for the representation of dynamically-changing sets, achieving a good tradeoff between memory efficiency and queries accuracy. For some applications, the required accuracy is higher than that enabled by the VI-CBF. In this paper, we present the Tandem Counting Bloom Filter (T-CBF), a new data structure that relies on the interaction among counters to describe sets with higher accuracy. We analyze its performance and show that by a joint consideration of counters, the T-CBF always performs better than the VI-CBF and it can for some configurations reduce its false positive probability by an order of magnitude. The overhead of such an approach is expressed upon an element insertion or query as read or write operations to a pair of counters rather than a single counter in each hash location. The operations themselves also require considering a larger number of scenarios.",
+    "citationCount": 9,
+    "referenceCount": 29
+}

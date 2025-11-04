@@ -1,0 +1,33 @@
+{
+    "paperId": "3041cc8a450401d99466376e412e6aa5250c56d7",
+    "title": "Dyconits: Scaling Minecraft-like Services through Dynamically Managed Inconsistency",
+    "year": 2021,
+    "venue": "IEEE International Conference on Distributed Computing Systems",
+    "authors": [
+        "Jesse Donkervliet",
+        "J. Cuijpers",
+        "A. Iosup"
+    ],
+    "doi": "10.1109/ICDCS51616.2021.00021",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3041cc8a450401d99466376e412e6aa5250c56d7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Gaming is one of the most popular and lucrative entertainment industries. Minecraft alone exceeds 130 million active monthly players and sells millions of licenses annually; it is also provided as a (paid) service. Minecraft, and thousands of others, provide each a Modifiable Virtual Environment (MVE). However, Minecraft-like games only scale using isolated instances that support at most a few hundred players in the same virtual world, thus preventing their large player-base from actually gaming together. When operating as a service, even fewer players can game together. Existing techniques for managing data in distributed systems do not scale for such games: they either do not work for high-density areas (e.g., village centers or other places where the MVE is often modified), or can introduce an unbounded amount of inconsistency that can lower the quality of experience. In this work, we propose Dyconits, a middleware that allows games to scale, by bounding inconsistency in MVEs, optimistically and dynamically. Dyconits allow game developers to partition offline the game-world and its objects into units, each with its own bounds. The Dyconits system controls, dynamically and policy-based, the creation of dyconits and the management of their bounds. Importantly, the Dyconits system is thin, and reuses the existing game codebase and in particular the network stack. To demonstrate and evaluate Dyconits in practice, we modify an existing, open-source, Minecraft-like game, and evaluate its effectiveness through real-world experiments. Our approach supports up to 40% more concurrent players and reduces network bandwidth by up to 85%, with only minor modifications to the game and without increasing game latency.",
+    "citationCount": 5,
+    "referenceCount": 35
+}

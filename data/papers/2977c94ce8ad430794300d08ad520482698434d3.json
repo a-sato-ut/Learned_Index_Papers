@@ -1,0 +1,37 @@
+{
+    "paperId": "2977c94ce8ad430794300d08ad520482698434d3",
+    "title": "Can the Network be the AI Accelerator?",
+    "year": 2018,
+    "venue": "NetCompute@SIGCOMM",
+    "authors": [
+        "D. Sanvito",
+        "G. Siracusano",
+        "R. Bifulco"
+    ],
+    "doi": "10.1145/3229591.3229594",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2977c94ce8ad430794300d08ad520482698434d3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3229591.3229594",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Artificial Neural Networks (NNs) play an increasingly important role in many services and applications, contributing significantly to compute infrastructures' workloads. When used in latency sensitive services, NNs are usually processed by CPUs since using an external dedicated hardware accelerator would be inefficient. However, with growing workloads size and complexity, CPUs are hitting their computation limits, requiring the introduction of new specialized hardware accelerators tailored to the task. In this paper we analyze the option to use programmable network devices, such as Network Cards and Switches, as NN accelerators in place of purpose built dedicated hardware. To this end, in this preliminary work we analyze in depth the properties of NN processing on CPUs, derive options to efficiently split such processing, and show that programmable network devices may be a suitable engine for implementing a CPU's NN co-processor.",
+    "citationCount": 94,
+    "referenceCount": 22
+}

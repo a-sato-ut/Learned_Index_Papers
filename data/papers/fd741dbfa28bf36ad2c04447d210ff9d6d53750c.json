@@ -1,0 +1,44 @@
+{
+    "paperId": "fd741dbfa28bf36ad2c04447d210ff9d6d53750c",
+    "title": "A Framework for Executing Long Simulation Jobs Cheaply in the Cloud",
+    "year": 2024,
+    "venue": "2024 IEEE International Conference on Cloud Engineering (IC2E)",
+    "authors": [
+        "Alan L. Nunes",
+        "D. B. Sodré",
+        "Cristina Boeres",
+        "José Viterbo Filho",
+        "Lúcia M. A. Drummond",
+        "Vinod E. F. Rebello",
+        "Luan Teylo",
+        "Felipe A. Portella",
+        "Paulo J. B. Estrela",
+        "Renzo Q. Malini"
+    ],
+    "doi": "10.1109/IC2E61754.2024.00033",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fd741dbfa28bf36ad2c04447d210ff9d6d53750c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents the framework SIM@ ClOUD that optimizes cost-related resource allocation decisions for simulation jobs in cloud environments. SIM@ CLOUD offers comprehensive management of simulations throughout their execution life-cycle in the cloud, including the selection of Virtual Machine (VM) types across different regions and markets. By leveraging Spot VMs and application checkpointing, the framework transparently reduces the monetary costs associated with the execution without client intervention. Historical data analysis enables the prediction of simulation execution times, which is refined further by a dynamic predictor for adaptive VM selection. SIM@ CLOUD is being deployed in an industrial setting and employs a cachebased storage solution to improve access latency to in-house data by VMs located in geographically distinct regions. An evaluation carried out on AWS EC2, using real oil reservoir simulations, demonstrates the effectiveness of the framework.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "2e2fa03424d76a4f8a8cb81b677c132990f8ce0b",
+    "title": "Loss Function Entropy Regularization for Diverse Decision Boundaries",
+    "year": 2022,
+    "venue": "Journées Bases de Données Avancées",
+    "authors": [
+        "S. Chong"
+    ],
+    "doi": "10.1109/ICBDA55095.2022.9760312",
+    "arxivId": "2205.00224",
+    "url": "https://www.semanticscholar.org/paper/2e2fa03424d76a4f8a8cb81b677c132990f8ce0b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2205.00224",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Is it possible to train several classifiers to perform meaningful crowd-sourcing to produce a better prediction label set without any ground-truth annotation? In this paper, we will attempt to modify the contrastive learning objectives to automatically train a self-complementing ensemble to produce a state-of-the-art prediction on the CIFAR10 and CIFAR100-20 task. This paper will present a remarkably simple method to modify a single unsupervised classification pipeline to automatically generate an ensemble of neural networks with varied decision boundaries to learn a larger feature set of classes. Loss Function Entropy Regularization (LFER), are regularization terms to be added upon the pre-training and contrastive learning objective functions, gives us a gear to modify the entropy state of the output space of unsupervised learning, thereby diversifying the latent representation of decision boundaries of neural networks. Ensemble trained with LFER have higher successful prediction accuracy for samples near decision boundaries. LFER is a effective gear to perturb decision boundaries, and has proven to be able to produce classifiers that beat state-of-the-art at contrastive learning stage. Experiments show that LFER can produce an ensemble where each have accuracy comparable to the state-of-the-art, yet have each have varied latent decision boundaries. It allows us to essence perform meaningful verification for samples near decision boundaries, encouraging correct classification of near-boundary samples. By compounding the probability of correct prediction of a single sample amongst an ensemble of neural network trained, our method is able to improve upon a single classifier by denoising and affirming correct feature mappings.",
+    "citationCount": 2,
+    "referenceCount": 21
+}

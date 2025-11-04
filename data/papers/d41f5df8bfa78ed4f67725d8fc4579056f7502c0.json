@@ -1,0 +1,29 @@
+{
+    "paperId": "d41f5df8bfa78ed4f67725d8fc4579056f7502c0",
+    "title": "Cache Less to Save More: A Cost-Based Distributed Caching Strategy for ICN",
+    "year": 2025,
+    "venue": "IEEE International Conference on Cluster Computing",
+    "authors": [
+        "Lydia Ait-Oucheggou",
+        "S. Rubini",
+        "Abdella Battou",
+        "Jalil Boukhobza"
+    ],
+    "doi": "10.1109/CLUSTER59342.2025.11186469",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d41f5df8bfa78ed4f67725d8fc4579056f7502c0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid growth of global data traffic has exposed limitations in traditional content delivery architectures. Information-Centric Networking (ICN) addresses these challenges by leveraging in-network caching to enhance scalability, reduce latency, and improve overall performance. However, existing caching strategies either optimize single-node cache management without considering network-wide costs, or address distribution without hardware-aware cost modeling. We propose a unified, cost-aware distributed caching strategy that integrates multi-tier caching at each node with network-wide replication, guided by a comprehensive cost model including resource depreciation, bandwidth, energy, and Service Level Agreement compliance. Our approach minimizes redundant replication on the network while maximizing cache hit rates and reducing latency. Experiments show on average 19.15 %, and up to 45.19 %, cost reduction, 8.11 %, and up to 32.15 %, cache hit ratio increase, and 9.01 %, and up to 27.21 %, latency improvement over other methods, offering a cost-effective solution for next-generation ICN systems.",
+    "citationCount": 0,
+    "referenceCount": 47
+}

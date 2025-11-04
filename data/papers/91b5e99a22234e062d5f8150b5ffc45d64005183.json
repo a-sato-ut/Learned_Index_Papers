@@ -1,0 +1,40 @@
+{
+    "paperId": "91b5e99a22234e062d5f8150b5ffc45d64005183",
+    "title": "ABACUS: Address-partitioned Bloom filter on Address Checking for UniquenesS in IoT Blockchain",
+    "year": 2020,
+    "venue": "2020 IEEE/ACM International Conference On Computer Aided Design (ICCAD)",
+    "authors": [
+        "Tianyu Wang",
+        "Wenbin Zhu",
+        "Qun Ma",
+        "Zhaoyan Shen",
+        "Z. Shao"
+    ],
+    "doi": "10.1145/3400302.3415673",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/91b5e99a22234e062d5f8150b5ffc45d64005183",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "DAG-based blockchain systems have been deployed to enable trustworthy peer-to-peer transactions for IoT devices. Unique address checking, as a key part of transaction generation for privacy and security protection in DAG-based blockchain systems, incurs big latency overhead and degrades system throughput. In this paper, we propose a Bloom-filter-based approach, called ABACUS to optimize the unique address checking process. We partition the large address space into multiple small subspaces and apply one Bloom filter to perform uniqueness checking for all addresses in a subspace. Specifically, we propose a two-level address space mechanism so as to strike a balance between the checking efficiency and the memory/storage space overhead of the Bloom filter design. A bucket-based scalable Bloom filter design is proposed to address the growth of used addresses and provide the checking latency guarantee with efficient I/O access through storing all sub-Bloom-filters together in one bucket. To further reduce disk I/Os, ABACUS incorporates an in-memory write buffer and a read-only cache. We have implemented ABACUS into IOTA, one of the most widely used DAG-based blockchain systems, and conducted a series of experiments on a private IOTA system. The experimental results show that ABACUS can significantly reduce the transaction generation time by up to four orders of magnitude while achieving up to 3X boost on the system throughput, compared with the original design.",
+    "citationCount": 12,
+    "referenceCount": 24
+}

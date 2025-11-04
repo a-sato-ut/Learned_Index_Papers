@@ -1,0 +1,41 @@
+{
+    "paperId": "3517d9cc82ba763672c76beb6390ff8a129ebc97",
+    "title": "LoCEC: Local Community-based Edge Classification in Large Online Social Networks",
+    "year": 2020,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Chonggang Song",
+        "Qian Lin",
+        "Guohui Ling",
+        "Zong Zhang",
+        "Hongzhao Chen",
+        "Jun Liao",
+        "Chuan Chen"
+    ],
+    "doi": "10.1109/ICDE48307.2020.00150",
+    "arxivId": "2002.04180",
+    "url": "https://www.semanticscholar.org/paper/3517d9cc82ba763672c76beb6390ff8a129ebc97",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2002.04180",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Relationships in online social networks often imply social connections in real life. An accurate understanding of relationship types benefits many applications, e.g. social advertising and recommendation. Some recent attempts have been proposed to classify user relationships into predefined types with the help of pre-labeled relationships or abundant interaction features on relationships. Unfortunately, both relationship feature data and label data are very sparse in real social platforms like WeChat, rendering existing methods inapplicable.In this paper, we present an in-depth analysis of WeChat relationships to identify the major challenges for the relationship classification task. To tackle the challenges, we propose a Local Community-based Edge Classification (LoCEC) framework that classifies user relationships in a social network into real-world social connection types. LoCEC enforces a three-phase processing, namely local community detection, community classification and relationship classification, to address the sparsity issue of relationship features and relationship labels. Moreover, LoCEC is designed to handle large-scale networks by allowing parallel and distributed processing. We conduct extensive experiments on the real-world WeChat network with hundreds of billions of edges to validate the effectiveness and efficiency of LoCEC.",
+    "citationCount": 5,
+    "referenceCount": 33
+}

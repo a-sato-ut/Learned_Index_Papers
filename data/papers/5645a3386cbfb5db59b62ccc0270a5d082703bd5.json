@@ -1,0 +1,41 @@
+{
+    "paperId": "5645a3386cbfb5db59b62ccc0270a5d082703bd5",
+    "title": "Short-Term Memory Sampling for Spread Measurement in High-Speed Networks",
+    "year": 2022,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Yangyan Du",
+        "He Huang",
+        "Yu-E. Sun",
+        "Shigang Chen",
+        "Guoju Gao",
+        "Xiaoyu Wang",
+        "Shenghui Xu"
+    ],
+    "doi": "10.1109/INFOCOM48880.2022.9796702",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5645a3386cbfb5db59b62ccc0270a5d082703bd5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Per-flow spread measurement in high-speed networks can provide indispensable information to many practical applications. However, it is challenging to measure millions of flows at line speed because on-chip memory modules cannot simultaneously provide large capacity and large bandwidth. The prior studies address this mismatch by entirely using on-chip compact data structures or utilizing off-chip space to assist limited on-chip memory. Nevertheless, their on-chip data structures record massive transient elements, each of which only appears in a short time interval in a long-period measurement task, and thus waste significant on-chip space. This paper presents short-term memory sampling, a novel spread estimator that samples new elements while only holding elements for short periods. Our estimator can work with tiny on-chip space and provide accurate estimations for online queries. The key of our design is a short-term memory duplicate filter that reports new elements and filters duplicates effectively while allowing incoming elements to override the stale elements to reduce on-chip memory usage. We implement our approach on a NetFPGA-equipped prototype. Experimental results based on real Internet traces show that, compared to the state-of-the-art, short-term memory sampling reduces up to 99% of on-chip memory usage when providing the same probabilistic assurance on spread-estimation error.",
+    "citationCount": 12,
+    "referenceCount": 35
+}

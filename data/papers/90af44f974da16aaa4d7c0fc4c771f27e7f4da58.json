@@ -1,0 +1,34 @@
+{
+    "paperId": "90af44f974da16aaa4d7c0fc4c771f27e7f4da58",
+    "title": "Data Smells: Categories, Causes and Consequences, and Detection of Suspicious Data in AI-based Systems",
+    "year": 2022,
+    "venue": "2022 IEEE/ACM 1st International Conference on AI Engineering – Software Engineering for AI (CAIN)",
+    "authors": [
+        "Harald Foidl",
+        "M. Felderer",
+        "Rudolf Ramler"
+    ],
+    "doi": "10.1145/3522664.3528590",
+    "arxivId": "2203.10384",
+    "url": "https://www.semanticscholar.org/paper/90af44f974da16aaa4d7c0fc4c771f27e7f4da58",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3522664.3528590",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "High data quality is fundamental for today’s AI-based systems. However, although data quality has been an object of research for decades, there is a clear lack of research on potential data quality issues (e.g., ambiguous, extraneous values). These kinds of issues are latent in nature and thus often not obvious. Nevertheless, they can be associated with an increased risk of future problems in AI-based systems (e.g., technical debt, data-induced faults). As a counterpart to code smells in software engineering, we refer to such issues as Data Smells. This article conceptualizes data smells and elaborates on their causes, consequences, detection, and use in the context of AI-based systems. In addition, a catalogue of 36 data smells divided into three categories (i.e., Believability Smells, Understandability Smells, Consistency Smells) is presented. Moreover, the article outlines tool support for detecting data smells and presents the result of an initial smell detection on more than 240 real-world datasets.",
+    "citationCount": 39,
+    "referenceCount": 64
+}

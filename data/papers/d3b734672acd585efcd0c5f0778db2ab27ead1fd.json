@@ -1,0 +1,39 @@
+{
+    "paperId": "d3b734672acd585efcd0c5f0778db2ab27ead1fd",
+    "title": "AC-Cache: A Memory-Efficient Caching System for Small Objects via Exploiting Access Correlations",
+    "year": 2025,
+    "venue": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+    "authors": [
+        "Fulin Nan",
+        "Ronglong Wu",
+        "Zhirong Shen",
+        "Jiahui Yang",
+        "Li Cheng",
+        "Zheng Chen",
+        "Yiming Zhang",
+        "Jiwu Shu"
+    ],
+    "doi": "10.1145/3710848.3710856",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d3b734672acd585efcd0c5f0778db2ab27ead1fd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In-memory key-value (KV) caching bridges the performance gap between high-performance networks and disk devices. However, prior in-memory KV caching systems either consider large objects or introduce additional memory overhead. In this paper, we conduct a systematic analysis over 56 production traces, and make three observations: (i) small objects dominate the traces and data accesses are highly skewed; (ii) the hotness of objects keeps stable across days; and (iii) the multi-get operation that retrieves multiple objects from the same node incurs much shorter tail latency than purely using the single-get operation. These observations motivate the design of AC-Cache, an access-correlation-aware in-memory caching system for small objects. AC-Cache comprises three design primitives: (i) we formulate the distribution of KV objects as an integer linear programming problem to balance data accesses and memory consumption; (ii) we capture the access correlation in a memory-efficient means and generate fine-grained correlation groups; and (iii) we formulate the distribution of the correlation groups as a maximum flow problem to balance data accesses, and leverage a heuristic algorithm to dispatch other KV objects to balance memory consumption. Extensive experiments with billions of objects on Alibaba Cloud show that AC-Cache can reduce the tail latency by 5.1-80.2% and increase the access throughput by 42.8-534.8%.",
+    "citationCount": 2,
+    "referenceCount": 64
+}

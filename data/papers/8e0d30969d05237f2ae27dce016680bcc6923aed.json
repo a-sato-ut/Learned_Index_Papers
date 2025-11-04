@@ -1,0 +1,39 @@
+{
+    "paperId": "8e0d30969d05237f2ae27dce016680bcc6923aed",
+    "title": "SmartOS: towards automated learning and user-adaptive resource allocation in operating systems",
+    "year": 2021,
+    "venue": "Asia Pacific Workshop on Systems",
+    "authors": [
+        "Sepideh Goodarzy",
+        "Maziyar Nazari",
+        "Richard Han",
+        "Eric Keller",
+        "Eric Rozner"
+    ],
+    "doi": "10.1145/3476886.3477519",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8e0d30969d05237f2ae27dce016680bcc6923aed",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1145/3476886.3477519",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Today's operating systems typically apply a one-size-fits-all approach to resource management, such as applying a scheduler that treats all processes of equal importance. The goal of this paper is to explore a learning-based approach to resource management in modern operating systems in which the OS automatically learns what tasks the user deems to be most important at that time and seamlessly adjusts allocation of CPU, memory, I/O, and network bandwidth to prioritize user preferences on demand. We demonstrate an implementation of such a learning-based OS in Linux and present evaluation results showing that a reinforcement learning-based approach can rapidly learn and adjust system resources to meet user demands.",
+    "citationCount": 5,
+    "referenceCount": 22
+}

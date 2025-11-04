@@ -1,0 +1,43 @@
+{
+    "paperId": "93160cf3f1f7f708eb3351b6e91a60e4ceffe7e2",
+    "title": "Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System",
+    "year": 2023,
+    "venue": "Symposium on Operating Systems Principles",
+    "authors": [
+        "Jiacheng Shen",
+        "Pengfei Zuo",
+        "Xuchuan Luo",
+        "Yuxin Su",
+        "Jiatao Gu",
+        "Hao Feng",
+        "Yangfan Zhou",
+        "Michael R. Lyu"
+    ],
+    "doi": "10.1145/3600006.3613144",
+    "arxivId": "2309.10239",
+    "url": "https://www.semanticscholar.org/paper/93160cf3f1f7f708eb3351b6e91a60e4ceffe7e2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2309.10239",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In-memory caching systems are fundamental building blocks in cloud services. However, due to the coupled CPU and memory on monolithic servers, existing caching systems cannot elastically adjust resources in a resource-efficient and agile manner. To achieve better elasticity, we propose to port in-memory caching systems to the disaggregated memory (DM) architecture, where compute and memory resources are decoupled and can be allocated flexibly. However, constructing an elastic caching system on DM is challenging since accessing cached objects with CPU-bypass remote memory accesses hinders the execution of caching algorithms. Moreover, the elastic changes of compute and memory resources on DM affect the access patterns of cached data, compromising the hit rates of caching algorithms. We design Ditto, the first caching system on DM, to address these challenges. Ditto first proposes a client-centric caching framework to efficiently execute various caching algorithms in the compute pool of DM, relying only on remote memory accesses. Then, Ditto employs a distributed adaptive caching scheme that adaptively switches to the best-fit caching algorithm in real-time based on the performance of multiple caching algorithms to improve cache hit rates. Our experiments show that Ditto effectively adapts to the changing resources on DM and outperforms the state-of-the-art caching systems by up to 3.6× in real-world workloads and 9× in YCSB benchmarks.",
+    "citationCount": 23,
+    "referenceCount": 87
+}

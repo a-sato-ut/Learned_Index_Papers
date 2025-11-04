@@ -1,0 +1,41 @@
+{
+    "paperId": "eec8da4cf18dbff956fda664a774243b30b1b183",
+    "title": "Autotuning Convolutions Is Easier Than You Think",
+    "year": 2022,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Nicolas Tollenaere",
+        "Guillaume Iooss",
+        "Stéphane Pouget",
+        "Hugo Brunie",
+        "Christophe Guillon",
+        "Albert Cohen",
+        "P. Sadayappan",
+        "F. Rastello"
+    ],
+    "doi": "10.1145/3570641",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/eec8da4cf18dbff956fda664a774243b30b1b183",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3570641",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A wide range of scientific and machine learning applications depend on highly optimized implementations of tensor computations. Exploiting the full capacity of a given processor architecture remains a challenging task, due to the complexity of the microarchitectural features that come into play when seeking near-peak performance. Among the state-of-the-art techniques for loop transformations for performance optimization, AutoScheduler [Zheng et al. 2020a] tends to outperform other systems. It often yields higher performance as compared to vendor libraries, but takes a large number of runs to converge, while also involving a complex training environment. In this article, we define a structured configuration space that enables much faster convergence to high-performance code versions, using only random sampling of candidates. We focus on two-dimensional convolutions on CPUs. Compared to state-of-the-art libraries, our structured search space enables higher performance for typical tensor shapes encountered in convolution stages in deep learning pipelines. Compared to auto-tuning code generators like AutoScheduler, it prunes the search space while increasing the density of efficient implementations. We analyze the impact on convergence speed and performance distribution, on two Intel x86 processors and one ARM AArch64 processor. We match or outperform the performance of the state-of-the-art oneDNN library and TVM’s AutoScheduler, while reducing the autotuning effort by at least an order of magnitude.",
+    "citationCount": 17,
+    "referenceCount": 38
+}

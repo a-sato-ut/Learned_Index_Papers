@@ -1,0 +1,38 @@
+{
+    "paperId": "69d5dbf25c5a9873b684beb2b70ceab6b71fd3dc",
+    "title": "Towards Energy-Efficient and Secure Edge AI: A Cross-Layer Framework ICCAD Special Session Paper",
+    "year": 2021,
+    "venue": "2021 IEEE/ACM International Conference On Computer Aided Design (ICCAD)",
+    "authors": [
+        "Muhammad Shafique",
+        "Alberto Marchisio",
+        "Rachmad Vidya Wicaksana Putra",
+        "M. Hanif"
+    ],
+    "doi": "10.1109/ICCAD51958.2021.9643539",
+    "arxivId": "2109.09829",
+    "url": "https://www.semanticscholar.org/paper/69d5dbf25c5a9873b684beb2b70ceab6b71fd3dc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2109.09829",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The security and privacy concerns along with the amount of data that is required to be processed on regular basis has pushed processing to the edge of the computing systems. Deploying advanced Neural Networks (NN), such as deep neural networks (DNNs) and spiking neural networks (SNNs), that offer state-of-the-art results on resource-constrained edge devices is challenging due to the stringent memory and power/energy constraints. Moreover, these systems are required to maintain correct functionality under diverse security and reliability threats. This paper first discusses existing approaches to address energy efficiency, reliability, and security issues at different system layers, i.e., hardware (HW) and software (SW). Afterward, we discuss how to further improve the performance (latency) and the energy efficiency of Edge AI systems through HW/SW-level optimizations, such as pruning, quantization, and approximation. To address reliability threats (like permanent and transient faults), we highlight cost-effective mitigation techniques, like fault-aware training and mapping. Moreover, we briefly discuss effective detection and protection techniques to address security threats (like model and data corruption). Towards the end, we discuss how these techniques can be combined in an integrated cross-layer framework for realizing robust and energy-efficient Edge AI systems.",
+    "citationCount": 40,
+    "referenceCount": 110
+}

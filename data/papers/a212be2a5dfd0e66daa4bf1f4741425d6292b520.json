@@ -1,0 +1,33 @@
+{
+    "paperId": "a212be2a5dfd0e66daa4bf1f4741425d6292b520",
+    "title": "Using Graph Neural Networks to model the performance of Deep Neural Networks",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Shikhar Singh",
+        "Benoit Steiner",
+        "James Hegarty",
+        "Hugh Leather"
+    ],
+    "doi": null,
+    "arxivId": "2108.12489",
+    "url": "https://www.semanticscholar.org/paper/a212be2a5dfd0e66daa4bf1f4741425d6292b520",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the unprecedented proliferation of machine learning software, there is an ever-increasing need to generate efficient code for such applications. State-of-the-art deep-learning compilers like TVM and Halide incorporate a learning-based performance model to search the space of valid implementations of a given deep learning algorithm. For a given application, the model generates a performance metric such as the run time without executing the application on hardware. Such models speed up the compilation process by obviating the need to benchmark an enormous number of candidate implementations, referred to as schedules, on hardware. Existing performance models employ feed-forward networks, recurrent networks, or decision tree ensembles to estimate the performance of different implementations of a neural network. Graphs present a natural and intuitive way to model deep-learning networks where each node represents a computational stage or operation. Incorporating the inherent graph structure of these workloads in the performance model can enable a better representation and learning of inter-stage interactions. The accuracy of a performance model has direct implications on the efficiency of the search strategy, making it a crucial component of this class of deep-learning compilers. In this work, we develop a novel performance model that adopts a graph representation. In our model, each stage of computation represents a node characterized by features that capture the operations performed by the stage. The interaction between nodes is achieved using graph convolutions. Experimental evaluation shows a 7:75x and 12x reduction in prediction error compared to the Halide and TVM models, respectively.",
+    "citationCount": 4,
+    "referenceCount": 20
+}

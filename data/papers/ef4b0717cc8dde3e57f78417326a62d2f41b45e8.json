@@ -1,0 +1,32 @@
+{
+    "paperId": "ef4b0717cc8dde3e57f78417326a62d2f41b45e8",
+    "title": "MiniMalloc: A Lightweight Memory Allocator for Hardware-Accelerated Machine Learning",
+    "year": 2023,
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "authors": [
+        "Michael D. Moffitt"
+    ],
+    "doi": "10.1145/3623278.3624752",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ef4b0717cc8dde3e57f78417326a62d2f41b45e8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3623278.3624752",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present a new approach to static memory allocation, a key problem that arises in the compilation of machine learning models onto the resources of a specialized hardware accelerator. Our methodology involves a recursive depth-first search that limits exploration to a special class of canonical solutions, dramatically reducing the size of the search space. We also develop a spatial inference technique that exploits this special structure by pruning unpromising partial assignments and backtracking more effectively than otherwise possible. Finally, we introduce a new mechanism capable of detecting and eliminating dominated solutions from consideration. Empirical results demonstrate orders of magnitude improvement in performance as compared to the previous state-of-the-art on many benchmarks, as well as a substantial reduction in library size.",
+    "citationCount": 6,
+    "referenceCount": 78
+}

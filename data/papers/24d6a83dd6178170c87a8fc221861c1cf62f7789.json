@@ -1,0 +1,34 @@
+{
+    "paperId": "24d6a83dd6178170c87a8fc221861c1cf62f7789",
+    "title": "Multiple Set Matching with Bloom Matrix and Bloom Vector",
+    "year": 2020,
+    "venue": "ACM Transactions on Knowledge Discovery from Data",
+    "authors": [
+        "Francesco Concas",
+        "Pengfei Xu",
+        "M. A. Hoque",
+        "Jiaheng Lu",
+        "Sasu Tarkoma"
+    ],
+    "doi": "10.1145/3372409",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/24d6a83dd6178170c87a8fc221861c1cf62f7789",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Bloom Filter is a space-efficient probabilistic data structure for checking the membership of elements in a set. Given multiple sets, a standard Bloom Filter is not sufficient when looking for the items to which an element or a set of input elements belong. An example case is searching for documents with keywords in a large text corpus, which is essentially a multiple set matching problem where the input is single or multiple keywords, and the result is a set of possible candidate documents. This article solves the multiple set matching problem by proposing two efficient Bloom Multifilters called Bloom Matrix and Bloom Vector, which generalize the standard Bloom Filter. Both structures are space-efficient and answer queries with a set of identifiers for multiple set matching problems. The space efficiency can be optimized according to the distribution of labels among multiple sets: Uniform and Zipf. Bloom Vector efficiently exploits the Zipf distribution of data for further space reduction. Indeed, both structures are much more space-efficient compared with the state-of-the-art, Bloofi. The results also highlight that a Lookup operation on Bloom Matrix is significantly faster than on Bloom Vector and Bloofi.",
+    "citationCount": 1,
+    "referenceCount": 30
+}

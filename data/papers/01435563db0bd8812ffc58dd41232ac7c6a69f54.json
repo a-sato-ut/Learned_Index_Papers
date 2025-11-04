@@ -1,0 +1,37 @@
+{
+    "paperId": "01435563db0bd8812ffc58dd41232ac7c6a69f54",
+    "title": "Shifting Hash Table: An Efficient Hash Table with Delicate Summary",
+    "year": 2019,
+    "venue": "2019 IEEE Globecom Workshops (GC Wkshps)",
+    "authors": [
+        "Jie Jiang",
+        "Yibo Yan",
+        "Mengyu Zhang",
+        "Binchao Yin",
+        "Yumeng Jiang",
+        "Tong Yang",
+        "Xiaoming Li",
+        "Tengjiao Wang"
+    ],
+    "doi": "10.1109/GCWkshps45667.2019.9024392",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/01435563db0bd8812ffc58dd41232ac7c6a69f54",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hash tables have been broadly used in many security applications. These applications require fast query speed and high memory efficiency. However, the query speed degrades when hash collisions happen. The design goal of this paper is to achieve high load factor as well as fast query at the same time. In this paper, we propose a novel hashing scheme, namely the Shifting Hash Table (SHT), which consists of two parts. The first part is an enhanced version of the Bloom filter checking which subtable(s) may contain the incoming items, and the second part contains a cuckoo hashing based hash table which stores the key-value pairs. The key technique of this paper is that we divide items into two categories: at-home and abroad. We only insert the second kind of items (abroad) into the Bloom filter, thus the memory usage of the filter is significantly reduced. We conducted extensive experiments and the results show that SHT significantly outperforms the state-of-the-art. Specifically, SHT can query an item using on average less than 1.05 bucket probes and even using 1 bit per entry in the fast memory, and achieve a high load factor which is 95% at the same time.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

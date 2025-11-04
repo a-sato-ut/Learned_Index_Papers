@@ -1,0 +1,39 @@
+{
+    "paperId": "4b84c26d70ccd03a1d207af076c14a5ffcd4b097",
+    "title": "Transactions Make Debugging Easy",
+    "year": 2022,
+    "venue": "Conference on Innovative Data Systems Research",
+    "authors": [
+        "Qian Li",
+        "Peter Kraft",
+        "Michael J. Cafarella",
+        "Çağatay Demiralp",
+        "G. Graefe",
+        "Christos Kozyrakis",
+        "M. Stonebraker",
+        "L. Suresh",
+        "M. Zaharia"
+    ],
+    "doi": "10.48550/arXiv.2212.14161",
+    "arxivId": "2212.14161",
+    "url": "https://www.semanticscholar.org/paper/4b84c26d70ccd03a1d207af076c14a5ffcd4b097",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2212.14161",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose TROD, a novel transaction-oriented framework for debugging modern distributed web applications and online services. Our critical insight is that if applications store all state in databases and only access state transactionally, TROD can use lightweight always-on tracing to track the history of application state changes and data provenance, and then leverage the captured traces and transaction logs to faithfully replay or even test modified code retroactively on any past event. We demonstrate how TROD can simplify programming and debugging in production applications, list several research challenges and directions, and encourage the database and systems communities to drastically rethink the synergy between the way people develop and debug applications.",
+    "citationCount": 1,
+    "referenceCount": 31
+}

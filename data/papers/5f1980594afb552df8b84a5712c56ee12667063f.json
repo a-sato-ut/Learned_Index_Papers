@@ -1,0 +1,37 @@
+{
+    "paperId": "5f1980594afb552df8b84a5712c56ee12667063f",
+    "title": "SWIFT: Semantic Watermarking for Image Forgery Thwarting",
+    "year": 2024,
+    "venue": "International Workshop on Information Forensics and Security",
+    "authors": [
+        "Gautier Evennou",
+        "Vivien Chappelier",
+        "Ewa Kijak",
+        "T. Furon"
+    ],
+    "doi": "10.1109/WIFS61860.2024.10810692",
+    "arxivId": "2407.18995",
+    "url": "https://www.semanticscholar.org/paper/5f1980594afb552df8b84a5712c56ee12667063f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2407.18995",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper proposes a novel approach towards image authentication and tampering detection by using watermarking as a communication channel for semantic information. We modify the HiDDeN deep-learning watermarking architecture to embed and extract high-dimensional real vectors representing image captions. Our method improves significantly robustness on both malign and benign edits. We also introduce a local confidence metric correlated with Message Recovery Rate, enhancing the method’s practical applicability. This approach bridges the gap between traditional watermarking and passive forensic methods, offering a robust solution for image integrity verification. The code is available at https://github.com/gautierevn/swift_watermarking.",
+    "citationCount": 5,
+    "referenceCount": 27
+}

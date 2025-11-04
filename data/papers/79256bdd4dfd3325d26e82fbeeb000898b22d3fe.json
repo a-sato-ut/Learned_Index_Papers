@@ -1,0 +1,40 @@
+{
+    "paperId": "79256bdd4dfd3325d26e82fbeeb000898b22d3fe",
+    "title": "Tolerate It if You Cannot Reduce It: Handling Latency in Tiered Memory",
+    "year": 2025,
+    "venue": "USENIX Workshop on Hot Topics in Operating Systems",
+    "authors": [
+        "Musa Unal",
+        "Vishal Gupta",
+        "Yueyang Pan",
+        "Yujie Ren",
+        "Sanidhya Kashyap"
+    ],
+    "doi": "10.1145/3713082.3730376",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/79256bdd4dfd3325d26e82fbeeb000898b22d3fe",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current memory tiering systems mitigate asymmetric latency through page migration between tiers. While this approach effectively hides latency, it overlooks scenarios where latency could potentially be tolerated. We propose that an efficient system should integrate both latency reduction (migration) and latency tolerance strategies. Our research demonstrates the effectiveness of prefetchers in tolerating latency within such systems, highlighting their importance in the design of high-performance memory tiering solutions.",
+    "citationCount": 0,
+    "referenceCount": 47
+}

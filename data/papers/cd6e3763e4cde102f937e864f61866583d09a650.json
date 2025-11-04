@@ -1,0 +1,44 @@
+{
+    "paperId": "cd6e3763e4cde102f937e864f61866583d09a650",
+    "title": "VC Theory for Inventory Policies",
+    "year": 2024,
+    "venue": "Social Science Research Network",
+    "authors": [
+        "Yaqi Xie",
+        "Will Ma",
+        "Linwei Xin"
+    ],
+    "doi": "10.2139/ssrn.4794903",
+    "arxivId": "2404.11509",
+    "url": "https://www.semanticscholar.org/paper/cd6e3763e4cde102f937e864f61866583d09a650",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2404.11509",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Advances in computational power and AI have increased interest in reinforcement learning approaches to inventory management. This paper provides a theoretical foundation for these approaches and investigates the benefits of restricting to policy structures that are well-established by inventory theory. In particular, we prove generalization guarantees for learning several well-known classes of inventory policies, including base-stock and (s, S) policies, by leveraging the celebrated Vapnik-Chervonenkis (VC) theory. We apply the Pseudo-dimension and Fat-shattering dimension from VC theory to determine the generalization error of inventory policies, that is, the difference between an inventory policy's performance on training data and its expected performance on unseen data. We focus on a classical setting without contexts, but allow for an arbitrary distribution over demand sequences and do not make any assumptions such as independence over time. We corroborate our supervised learning results using numerical simulations. Managerially, our theory and simulations translate to the following insights. First, there is a principle of ``learning less is more'' in inventory management: depending on the amount of data available, it may be beneficial to restrict oneself to a simpler, albeit suboptimal, class of inventory policies to minimize overfitting errors. Second, the number of parameters in a policy class may not be the correct measure of overfitting error: in fact, the class of policies defined by T time-varying base-stock levels exhibits a generalization error an order of magnitude lower than that of the two-parameter (s, S) policy class. Finally, our research suggests situations in which it could be beneficial to incorporate the concepts of base-stock and inventory position into black-box learning machines, instead of having these machines directly learn the order quantity actions.",
+    "citationCount": 6,
+    "referenceCount": 58
+}

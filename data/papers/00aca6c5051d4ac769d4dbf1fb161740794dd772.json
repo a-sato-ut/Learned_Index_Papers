@@ -1,0 +1,35 @@
+{
+    "paperId": "00aca6c5051d4ac769d4dbf1fb161740794dd772",
+    "title": "Prevoke: Privacy-Preserving Configurable Method for Revoking Verifiable Credentials",
+    "year": 2024,
+    "venue": "International Congress on Blockchain and Applications",
+    "authors": [
+        "P. Manimaran",
+        "A. F. D. Conceição",
+        "Thiago Garrett",
+        "Mayank Raikwar",
+        "Roman Vitenberg"
+    ],
+    "doi": "10.1109/Blockchain62396.2024.00053",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/00aca6c5051d4ac769d4dbf1fb161740794dd772",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Self-Sovereign Identity (SSI) has gained significant momentum across both private and public sectors. At the core of SSI Systems are Verifiable Credentials (VCs), which enable holders to store and present identity attributes in a machine-readable and tamper-evident manner. An important operation in SSI Systems is the revocation of VCs. Revocation poses significant privacy challenges, many of which are not addressed by existing solutions, in particular when the necessary revocation proofs are stored in public registries such as DLTs. In this work, we identify crucial privacy requirements for VCs revocation, justify their importance through a use case, and propose a revocation technique, Prevoke, that satisfies all identified privacy requirements. Prevoke combines Bloom Filters and Merkle Tree Accumulators, and is highly configurable through a series of parameters. We perform experiments to validate the feasibility of our proposals and identify trade-offs between system parameters. Results confirm that Prevoke can be configured to address the needs of different use cases in terms of performance and costs.",
+    "citationCount": 6,
+    "referenceCount": 28
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "5e6f4d007c0dba8bd2f1254fb937654e64be6556",
+    "title": "XAI-Based Feature Importance Analysis on Loop Optimization",
+    "year": 2024,
+    "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+    "authors": [
+        "Toshinobu Katayama",
+        "Keichi Takahashi",
+        "Yoichi Shimomura",
+        "Hiroyuki Takizawa"
+    ],
+    "doi": "10.1109/IPDPSW63119.2024.00142",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5e6f4d007c0dba8bd2f1254fb937654e64be6556",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In high-performance computing, performance tuning of a program is crucial and demanded in various situations. For instance, in image recognition applications using Deep Neural Networks (DNNs) such as autonomous driving, not only high accuracy but also high processing speed are required. Thus, Automatic Tuning (AT) has been attracting attention to automatically adjust the parameters of an application program that affect the program performance. In particular, in recent years, the utilization of AT leveraging Machine Learning (ML) models has been discussed. Although black-box models such as DNNs are adopted for advanced AT tasks, those models have highly complex structures, presenting challenges to humans in understanding how they are trained and how they make predictions. EXplainable Artificial Intelligence (XAI) refers to a class of techniques that enable humans to understand how ML models are trained and how ML models make predictions. In this paper, AT with an ML model is first developed to optimize nested loops in DNN inference for image recognition. Then, the feature importance that the model has learned is quantified using Permutation Feature Importance (PFI), which is one of XAI. The quantification aims to reveal the underlying relationship between performance parameters and execution time learned by the model in a human-understandable form, thereby enhancing the interpretability of the model. Additionally, this paper investigates whether important features revealed by XAI align with the tuning results. The evaluation results show that features with significant importance, as elucidated by XAI, significantly influence the program performance. Accordingly, the results demonstrate that important features revealed by XAI align with the tuning results, underscoring the usefulness of employing XAI in AT.",
+    "citationCount": 1,
+    "referenceCount": 26
+}

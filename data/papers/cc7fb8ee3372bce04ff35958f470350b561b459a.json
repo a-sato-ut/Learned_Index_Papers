@@ -1,0 +1,36 @@
+{
+    "paperId": "cc7fb8ee3372bce04ff35958f470350b561b459a",
+    "title": "Generalized Unbiased Scene Graph Generation",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Xinyu Lyu",
+        "Lianli Gao",
+        "Junlin Xie",
+        "Pengpeng Zeng",
+        "Yulu Tian",
+        "Jie Shao",
+        "Hengtao Shen"
+    ],
+    "doi": "10.48550/arXiv.2308.04802",
+    "arxivId": "2308.04802",
+    "url": "https://www.semanticscholar.org/paper/cc7fb8ee3372bce04ff35958f470350b561b459a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2308.04802",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Existing Unbiased Scene Graph Generation (USGG) methods only focus on addressing the predicate-level imbalance that high-frequency classes dominate predictions of rare ones, while overlooking the concept-level imbalance. Actually, even if predicates themselves are balanced, there is still a significant concept-imbalance within them due to the long-tailed distribution of contexts (i.e., subject-object combinations). This concept-level imbalance poses a more pervasive and challenging issue compared to the predicate-level imbalance since subject-object pairs are inherently complex in combinations. Hence, we introduce a novel research problem: Generalized Unbiased Scene Graph Generation (G-USGG), which takes into account both predicate-level and concept-level imbalance. To the end, we propose the Multi-Concept Learning (MCL) framework, which ensures a balanced learning process across rare/ uncommon/ common concepts. MCL first quantifies the concept-level imbalance across predicates in terms of different amounts of concepts, representing as multiple concept-prototypes within the same class. It then effectively learns concept-prototypes by applying the Concept Regularization (CR) technique. Furthermore, to achieve balanced learning over different concepts, we introduce the Balanced Prototypical Memory (BPM), which guides SGG models to generate balanced representations for concept-prototypes. Extensive experiments demonstrate the remarkable efficacy of our model-agnostic strategy in enhancing the performance of benchmark models on both VG-SGG and OI-SGG datasets, leading to new state-of-the-art achievements in two key aspects: predicate-level unbiased relation recognition and concept-level compositional generability.",
+    "citationCount": 5,
+    "referenceCount": 73
+}

@@ -1,0 +1,29 @@
+{
+    "paperId": "7d5aeb9c0579f57c145af0d377406d235c15d952",
+    "title": "Adaptive Replacement Cache Policy in Named Data Networking",
+    "year": 2021,
+    "venue": "2021 International Conference on Intelligent Technologies (CONIT)",
+    "authors": [
+        "Prajjwal Singh",
+        "Rajneesh Kumar",
+        "Saurabh Kannaujia",
+        "N. Sarma"
+    ],
+    "doi": "10.1109/CONIT51480.2021.9498489",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7d5aeb9c0579f57c145af0d377406d235c15d952",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The traditional IP-based internet architecture is host-oriented and was built over the old ideology of telephony systems. Named Data Networking (NDN), which is based on Content Centric Networking (CCN), is an enhancement, or rather an alternative, to the IP based networking architecture. NDN architecture allows caching of network data packets at the routers to facilitate satisfaction of interests shown by multiple hosts. Therefore, a caching scheme plays a vital role in the network’s performance. Least Recently Used (LRU) and Priority-Based First-In First-Out (FIFO) are cache eviction policies in NDN Forwarding Daemon (NFD). However, both approaches do not give weightage to the frequency of requested data packets during the eviction and are not scan resistant, which could be an important feature in a CCN system. Other policies like Least Recently Frequently Used (LRFU) subsumes LRU and LFU policies but requires tuning parameters and may not always perform best in dynamic network traffic conditions. In this paper, we have implemented the Adaptive Replacement Cache (ARC) Algorithm, which is a scan resistant, self-tuning, and LRU and LFU subsuming cache replacement policy in the ndnSIM simulator and compared the hit rate performance of ARC with the LRU replacement policy. As Content Store size affects the overall performance of NDN, we have proved by simulation that ARC requires smaller Content Store size than LRU. We conducted a simulation study by varying the Grid Topology, Content Store, and Interest Rate size. Simulation results reveal that ARC replacement policy outperforms LRU replacement policy by achieving a 4% higher hit rate. We have also observed that ARC requires a smaller content store size than LRU to reach the 74% hit rate.",
+    "citationCount": 8,
+    "referenceCount": 6
+}

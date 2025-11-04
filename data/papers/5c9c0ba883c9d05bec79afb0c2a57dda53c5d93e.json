@@ -1,0 +1,40 @@
+{
+    "paperId": "5c9c0ba883c9d05bec79afb0c2a57dda53c5d93e",
+    "title": "Fast and Three-rious: Speeding Up Weak Supervision with Triplet Methods",
+    "year": 2020,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "Daniel Y. Fu",
+        "Mayee F. Chen",
+        "Frederic Sala",
+        "Sarah Hooper",
+        "Kayvon Fatahalian",
+        "Christopher Ré"
+    ],
+    "doi": null,
+    "arxivId": "2002.11955",
+    "url": "https://www.semanticscholar.org/paper/5c9c0ba883c9d05bec79afb0c2a57dda53c5d93e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Weak supervision is a popular method for building machine learning models without relying on ground truth annotations. Instead, it generates probabilistic training labels by estimating the accuracies of multiple noisy labeling sources (e.g., heuristics, crowd workers). Existing approaches use latent variable estimation to model the noisy sources, but these methods can be computationally expensive, scaling superlinearly in the data. In this work, we show that, for a class of latent variable models highly applicable to weak supervision, we can find a closed-form solution to model parameters, obviating the need for iterative solutions like stochastic gradient descent (SGD). We use this insight to build FlyingSquid, a weak supervision framework that runs orders of magnitude faster than previous weak supervision approaches and requires fewer assumptions. In particular, we prove bounds on generalization error without assuming that the latent variable model can exactly parameterize the underlying data distribution. Empirically, we validate FlyingSquid on benchmark weak supervision datasets and find that it achieves the same or higher quality compared to previous approaches without the need to tune an SGD procedure, recovers model parameters 170 times faster on average, and enables new video analysis and online learning applications.",
+    "citationCount": 122,
+    "referenceCount": 64
+}

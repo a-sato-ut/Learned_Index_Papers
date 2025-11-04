@@ -1,0 +1,40 @@
+{
+    "paperId": "eaa8b94d073828c5bce0fe1eb36eb0aacea41dfc",
+    "title": "CIDF-WSN: A Collaborative Interest and Data Forwarding Strategy for Named Data Wireless Sensor Networks",
+    "year": 2021,
+    "venue": "Italian National Conference on Sensors",
+    "authors": [
+        "Muhammad Moghees Ud Din",
+        "M. A. U. Rehman",
+        "Byung-Seo Kim"
+    ],
+    "doi": "10.3390/s21155174",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/eaa8b94d073828c5bce0fe1eb36eb0aacea41dfc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1424-8220/21/15/5174/pdf?version=1629805249",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent years have witnessed the huge popularity of Information-Centric Networking (ICN) and its realization as Named Data Networking (NDN) in the context of wireless sensor networks (WSNs). The participating nodes in WSNs are usually equipped with a single radio interface. The existing solutions lack in providing the efficient next forwarder selection in NDN-based single radio WSNs. In this work, we propose a collaborative Interest and Data Forwarding (CIDF-WSN) Strategy for Named Data Wireless Sensor Networks. CIDF-WSN develop a Neighbor Information Base (NFIB) which enables the node to select the optimal next-hop relay in Interest packet forwarding. An efficient Interest packet processing mechanism assisted by the Interest Cache Table (ICT) is provided to avoid Interest packets loss and frequent re-transmissions. In addition, CIDF-WSN also provides a robust Data packet transfer mechanism accompanied by the Temp Cache Table (TCT) to avoid Data packet losses and to ensure well-timed content delivery. Simulation results reveal that CIDF-WSN outperforms the recently published works in terms of Interest satisfaction rate, total energy consumption, Data retrieval delays, and communication overhead.",
+    "citationCount": 21,
+    "referenceCount": 44
+}

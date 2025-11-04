@@ -1,0 +1,42 @@
+{
+    "paperId": "9f2b2940ca6a983456117eadfde56da33e0cf20e",
+    "title": "Efficient Edge AI: Deploying Convolutional Neural Networks on FPGA with the Gemmini Accelerator",
+    "year": 2024,
+    "venue": "Euromicro Symposium on Digital Systems Design",
+    "authors": [
+        "Federico Nicolás Peccia",
+        "Svetlana Pavlitska",
+        "Tobias Fleck",
+        "Oliver Bringmann"
+    ],
+    "doi": "10.1109/DSD64264.2024.00062",
+    "arxivId": "2408.07404",
+    "url": "https://www.semanticscholar.org/paper/9f2b2940ca6a983456117eadfde56da33e0cf20e",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2408.07404",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The growing concerns regarding energy consumption and privacy have prompted the development of AI solutions deployable on the edge, circumventing the substantial CO2 emissions associated with cloud servers and mitigating risks related to sharing sensitive data. But deploying Convolutional Neural Networks (CNNs) on non-off-the-shelf edge devices remains a complex and labor-intensive task. In this paper, we present an end-to-end workflow for the deployment of CNNs on Field Programmable Gate Arrays (FPGAs) using the Gemmini accelerator, which we modified for efficient implementation on FPGAs. We describe how we leverage the use of open-source software on each optimization step of the deployment process, the customizations we added to them and their impact on the final system's performance. We were able to achieve real-time performance by deploying a YOLOv7 model on a Xilinx ZCU102 FPGA with an energy efficiency of 36.5 GOP/s/W. Our FPGA-based solution demonstrates superior power efficiency compared with other embedded hardware devices and even outperforms other FPGA reference implementations. Finally, we present how this kind of solution can be integrated into a wider system, by testing our proposed platform in a traffic monitoring scenario.",
+    "citationCount": 3,
+    "referenceCount": 38
+}

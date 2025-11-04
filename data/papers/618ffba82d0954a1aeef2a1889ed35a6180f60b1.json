@@ -1,0 +1,33 @@
+{
+    "paperId": "618ffba82d0954a1aeef2a1889ed35a6180f60b1",
+    "title": "Using Mixed Wavefront for Accelerating Convolutional Neural Network Parallelization",
+    "year": 2024,
+    "venue": "2024 6th International Conference on Communications, Information System and Computer Engineering (CISCE)",
+    "authors": [
+        "Jiandong Shang",
+        "Yankai Feng",
+        "Lingbo Kong",
+        "Xu Gao"
+    ],
+    "doi": "10.1109/CISCE62493.2024.10653109",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/618ffba82d0954a1aeef2a1889ed35a6180f60b1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Intra- and interoperator parallelism optimizations are the common methods to accelerate convolutional neural network (CNN) inference. Given the significant improvement in GPU performance, it is now unfeasible to achieve adequate resource utilization by exploiting intra-operator parallelism. To harness the advantages resulting from enhancements in hardware performance, inter-operator scheduling has emerged. The current inter-operator scheduler, which requires several hours to search for an appropriate schedule, greatly hampers the speed of CNN development cycles. In this paper, inter-operator scheduling is deeply investigated, and Mixed Wavefront (MW), a novel inter-operator scheduler under the guidance of runtime is proposed. The MW method may rapidly identify an appropriate collection of inter-operator schedules using a greedy scheduling strategy. Additionally, the scheduler runtime can choose a highly optimized schedule via on-board verification. Experimental results demonstrate that MW surpasses widely-used deep learning frameworks (such as TensorFlow) by a factor of up to 2.11×, Furthermore, it surpasses TensorRT, a high-performance inference library developed by NVIDIA, by a margin of up to 1.50×. The optimization cost of MW is much lower than that of IOS and TVM, with a difference of two and four orders of magnitude, respectively.",
+    "citationCount": 0,
+    "referenceCount": 27
+}

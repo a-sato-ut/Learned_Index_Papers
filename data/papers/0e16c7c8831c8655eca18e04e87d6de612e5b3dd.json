@@ -1,0 +1,44 @@
+{
+    "paperId": "0e16c7c8831c8655eca18e04e87d6de612e5b3dd",
+    "title": "A congestion control scheme based on path recovery for smart grid communication",
+    "year": 2023,
+    "venue": "EURASIP Journal on Advances in Signal Processing",
+    "authors": [
+        "Yanpeng Ji",
+        "Si-Liang Zeng",
+        "Jianli Zhao",
+        "Liangshuai Liu",
+        "Haiyan Feng",
+        "Xingdi Shen",
+        "Deliang Liu"
+    ],
+    "doi": "10.1186/s13634-023-00989-1",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0e16c7c8831c8655eca18e04e87d6de612e5b3dd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://asp-eurasipjournals.springeropen.com/counter/pdf/10.1186/s13634-023-00989-1",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In order to solve the problem that the original path forwarding traffic caused by congestion that cannot be recovered in time in Smart Grid Communication, a congestion control scheme RFCC (Router Forwarding Congestion Control) based on path recovery is proposed, which not only supports the receiving end combined with router nodes to relieve congestion, it can also solve the problem of low transmission performance caused by not being able to restore the original path in time after the traffic is transferred. Active queue management technology is used to detect congestion and notify downflow nodes (users and routers) in time, which trigger downflow users to adjust the request sending window and intermediate routers to transfer packets. In addition, the original path traffic is restored in time through the path recovery policy. Firstly, the path traffic is recovered according to the congestion mark carried by the subsequent content packets. Secondly, the transmission frequency of the probe packets is calculated according to the information such as the packet queue length of routers and the available bandwidth of the congested path, and the probe packets are periodically sent to the congested path, and the traffic is sent to the congested path in time. The alternate path is transferred back to the original path. This paper implements the scheme in NS-3, and extensive experiments show that the proposed scheme outperforms the comparison schemes, which not only higher and more stable throughput can be obtained, but also shorter and more stable transmission delay can be obtained. In addition, the optimal path transmission volume and link utilization are improved.",
+    "citationCount": 1,
+    "referenceCount": 18
+}

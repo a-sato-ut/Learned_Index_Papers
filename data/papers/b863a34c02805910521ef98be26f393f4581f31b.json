@@ -1,0 +1,40 @@
+{
+    "paperId": "b863a34c02805910521ef98be26f393f4581f31b",
+    "title": "POS: An Operator Scheduling Framework for Multi-model Inference on Edge Intelligent Computing",
+    "year": 2023,
+    "venue": "International Symposium on Information Processing in Sensor Networks",
+    "authors": [
+        "Ziyang Zhang",
+        "Huan Li",
+        "Yang Zhao",
+        "Changyao Lin",
+        "Jie Liu"
+    ],
+    "doi": "10.1145/3583120.3586953",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b863a34c02805910521ef98be26f393f4581f31b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Edge intelligent applications, such as autonomous driving usually deploy multiple inference models on resource-constrained edge devices to execute a diverse range of concurrent tasks, given large amounts of input data. One challenge is that these tasks need to produce reliable inference results simultaneously with millisecond-level latency to achieve real-time performance and high quality of service (QoS). However, most of the existing deep learning frameworks only focus on optimizing a single inference model on an edge device. To accelerate multi-model inference on a resource-constrained edge device, in this paper we propose POS, a novel operator-level scheduling framework that combines four operator scheduling strategies. The key to POS is a maximum entropy reinforcement learning-based operator scheduling algorithm MEOS, which generates an optimal schedule automatically. Extensive experiments show that POS outperforms five state-of-the-art inference frameworks: TensorFlow, PyTorch, TensorRT, TVM, and IOS, by up to 1.2 × ∼ 3.9 × inference speedup consistently, with 40% improvement on GPU utilization. Meanwhile, MEOS reduces the scheduling overhead by 37% on average, compared to five baseline methods including sequential execution, dynamic programming, greedy scheduling, actor-critic, and coordinate descent search algorithms.",
+    "citationCount": 8,
+    "referenceCount": 45
+}

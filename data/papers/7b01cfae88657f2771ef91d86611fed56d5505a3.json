@@ -1,0 +1,42 @@
+{
+    "paperId": "7b01cfae88657f2771ef91d86611fed56d5505a3",
+    "title": "Beyond Sensor Data: Foundation Models of Behavioral Data from Wearables Improve Health Predictions",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Eray Erturk",
+        "Fahad Kamran",
+        "Salar Abbaspourazad",
+        "Sean Jewell",
+        "Harsh Sharma",
+        "Yujie Li",
+        "Sinead Williamson",
+        "N. Foti",
+        "Joseph D. Futoma"
+    ],
+    "doi": "10.48550/arXiv.2507.00191",
+    "arxivId": "2507.00191",
+    "url": "https://www.semanticscholar.org/paper/7b01cfae88657f2771ef91d86611fed56d5505a3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Wearable devices record physiological and behavioral signals that can improve health predictions. While foundation models are increasingly used for such predictions, they have been primarily applied to low-level sensor data, despite behavioral data often being more informative due to their alignment with physiologically relevant timescales and quantities. We develop foundation models of such behavioral signals using over 2.5B hours of wearable data from 162K individuals, systematically optimizing architectures and tokenization strategies for this unique dataset. Evaluated on 57 health-related tasks, our model shows strong performance across diverse real-world applications including individual-level classification and time-varying health state prediction. The model excels in behavior-driven tasks like sleep prediction, and improves further when combined with representations of raw sensor data. These results underscore the importance of tailoring foundation model design to wearables and demonstrate the potential to enable new health applications.",
+    "citationCount": 6,
+    "referenceCount": 54
+}

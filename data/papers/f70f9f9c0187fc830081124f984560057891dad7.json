@@ -1,0 +1,40 @@
+{
+    "paperId": "f70f9f9c0187fc830081124f984560057891dad7",
+    "title": "Nonlinear Initialization Methods for Low-Rank Neural Networks",
+    "year": 2022,
+    "venue": "",
+    "authors": [
+        "Kiran Vodrahalli",
+        "Rakesh Shivanna",
+        "M. Sathiamoorthy",
+        "Sagar Jain",
+        "Ed H. Chi"
+    ],
+    "doi": null,
+    "arxivId": "2202.00834",
+    "url": "https://www.semanticscholar.org/paper/f70f9f9c0187fc830081124f984560057891dad7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a novel low-rank initialization framework for training low-rank deep neural networks -- networks where the weight parameters are re-parameterized by products of two low-rank matrices. The most successful prior existing approach, spectral initialization, draws a sample from the initialization distribution for the full-rank setting and then optimally approximates the full-rank initialization parameters in the Frobenius norm with a pair of low-rank initialization matrices via singular value decomposition. Our method is inspired by the insight that approximating the function corresponding to each layer is more important than approximating the parameter values. We provably demonstrate that there is a significant gap between these two approaches for ReLU networks, particularly as the desired rank of the approximating weights decreases, or as the dimension of the inputs to the layer increases (the latter point holds when the network width is super-linear in dimension). Along the way, we provide the first provably efficient algorithm for solving the ReLU low-rank approximation problem for fixed parameter rank $r$ -- previously, it was unknown that the problem was computationally tractable to solve even for rank $1$. We also provide a practical algorithm to solve this problem which is no more expensive than the existing spectral initialization approach, and validate our theory by training ResNet and EfficientNet models (He et al., 2016; Tan&Le, 2019) on ImageNet (Russakovsky et al., 2015).",
+    "citationCount": 4,
+    "referenceCount": 74
+}

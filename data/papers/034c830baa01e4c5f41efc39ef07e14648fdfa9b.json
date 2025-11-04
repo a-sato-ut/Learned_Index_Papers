@@ -1,0 +1,67 @@
+{
+    "paperId": "034c830baa01e4c5f41efc39ef07e14648fdfa9b",
+    "title": "DermINO: Hybrid Pretraining for a Versatile Dermatology Foundation Model",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jingkai Xu",
+        "De Cheng",
+        "Xiangqian Zhao",
+        "Jungang Yang",
+        "Zilong Wang",
+        "Xinyang Jiang",
+        "Xufang Luo",
+        "Lili Chen",
+        "Xiaoli Ning",
+        "Chengxu Li",
+        "Xinzhu Zhou",
+        "Xuejiao Song",
+        "Ang Li",
+        "Qingyue Xia",
+        "Zhuang Zhou",
+        "Hongfei Ouyang",
+        "Ke Xue",
+        "Yujun Sheng",
+        "Rusong Meng",
+        "Feng Xu",
+        "Xi Yang",
+        "Weimin Ma",
+        "Yusheng Lee",
+        "Dongsheng Li",
+        "Xinbo Gao",
+        "Jianming Liang",
+        "Lili Qiu",
+        "Nannan Wang",
+        "Xianbo Zuo",
+        "Cui Yong"
+    ],
+    "doi": "10.48550/arXiv.2508.12190",
+    "arxivId": "2508.12190",
+    "url": "https://www.semanticscholar.org/paper/034c830baa01e4c5f41efc39ef07e14648fdfa9b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Skin diseases impose a substantial burden on global healthcare systems, driven by their high prevalence (affecting up to 70% of the population), complex diagnostic processes, and a critical shortage of dermatologists in resource-limited areas. While artificial intelligence(AI) tools have demonstrated promise in dermatological image analysis, current models face limitations-they often rely on large, manually labeled datasets and are built for narrow, specific tasks, making them less effective in real-world settings. To tackle these limitations, we present DermNIO, a versatile foundation model for dermatology. Trained on a curated dataset of 432,776 images from three sources (public repositories, web-sourced images, and proprietary collections), DermNIO incorporates a novel hybrid pretraining framework that augments the self-supervised learning paradigm through semi-supervised learning and knowledge-guided prototype initialization. This integrated method not only deepens the understanding of complex dermatological conditions, but also substantially enhances the generalization capability across various clinical tasks. Evaluated across 20 datasets, DermNIO consistently outperforms state-of-the-art models across a wide range of tasks. It excels in high-level clinical applications including malignancy classification, disease severity grading, multi-category diagnosis, and dermatological image caption, while also achieving state-of-the-art performance in low-level tasks such as skin lesion segmentation. Furthermore, DermNIO demonstrates strong robustness in privacy-preserving federated learning scenarios and across diverse skin types and sexes. In a blinded reader study with 23 dermatologists, DermNIO achieved 95.79% diagnostic accuracy (versus clinicians'73.66%), and AI assistance improved clinician performance by 17.21%.",
+    "citationCount": 0,
+    "referenceCount": 58
+}

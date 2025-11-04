@@ -1,0 +1,37 @@
+{
+    "paperId": "65d434bfef6e62eb2e632f7d78f523292e0d9c0a",
+    "title": "Securing Machine Learning Architectures and Systems",
+    "year": 2020,
+    "venue": "ACM Great Lakes Symposium on VLSI",
+    "authors": [
+        "Shirin Haji Amin Shirazi",
+        "Hoda Naghibijouybari",
+        "N. Abu-Ghazaleh"
+    ],
+    "doi": "10.1145/3386263.3409104",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/65d434bfef6e62eb2e632f7d78f523292e0d9c0a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning (ML), and deep learning in particular, have become a critical workload as they are becoming increasingly applied at the core of a wide range of application spaces. Computer systems, from the architecture up, have been impacted by ML in two primary directions: (1) ML is an increasingly important computing workload, with new accelerators and systems targeted to support both training and inference at scale; and (2) ML supporting computer system decisions, both during design and run times, with new machine learning based algorithms controlling systems to optimize their performance, reliability and robustness. In this paper, we will explore the intersection of security, ML and computing systems, identifying both security challenges and opportunities. Machine learning systems are vulnerable to new attacks including adversarial attacks crafted to fool a classifier to the attacker's advantage, membership inference attacks attempting to compromise the privacy of the training data, and model extraction attacks seeking to recover the hyperparameters of a (secret) model. Architecture can be a target of these attacks when supporting ML (or is supported by ML), but also provides an opportunity to develop defenses against them, which we will illustrate with three examples from our recent work. First, we show how ML based hardware malware detectors can be attacked with adversarial perturbations to the Malware and how we can develop detectors that resist these attacks. Second, we show an example of microarchitectural side channel attacks that can be used to extract the secret parameters of a neural network and potential defenses against it. Finally, we discuss how hardware and systems can be used to make ML more robust against adversarial and other attacks.",
+    "citationCount": 3,
+    "referenceCount": 65
+}

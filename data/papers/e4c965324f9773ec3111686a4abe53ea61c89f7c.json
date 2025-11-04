@@ -1,0 +1,37 @@
+{
+    "paperId": "e4c965324f9773ec3111686a4abe53ea61c89f7c",
+    "title": "Chameleon: Adaptive Code Optimization for Expedited Deep Neural Network Compilation",
+    "year": 2020,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Byung Hoon Ahn",
+        "Prannoy Pilligundla",
+        "A. Yazdanbakhsh",
+        "H. Esmaeilzadeh"
+    ],
+    "doi": null,
+    "arxivId": "2001.08743",
+    "url": "https://www.semanticscholar.org/paper/e4c965324f9773ec3111686a4abe53ea61c89f7c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Achieving faster execution with shorter compilation time can foster further diversity and innovation in neural networks. However, the current paradigm of executing neural networks either relies on hand-optimized libraries, traditional compilation heuristics, or very recently genetic algorithms and other stochastic methods. These methods suffer from frequent costly hardware measurements rendering them not only too time consuming but also suboptimal. As such, we devise a solution that can learn to quickly adapt to a previously unseen design space for code optimization, both accelerating the search and improving the output performance. This solution dubbed CHAMELEON leverages reinforcement learning whose solution takes fewer steps to converge, and develops an adaptive sampling algorithm that not only focuses on the costly samples (real hardware measurements) on representative points but also uses a domain knowledge inspired logic to improve the samples itself. Experimentation with real hardware shows that CHAMELEON provides 4.45×speed up in optimization time over AutoTVM, while also improving inference time of the modern deep networks by 5.6%.",
+    "citationCount": 87,
+    "referenceCount": 58
+}

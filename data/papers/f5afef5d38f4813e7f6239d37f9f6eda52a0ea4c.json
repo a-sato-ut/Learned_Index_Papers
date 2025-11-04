@@ -1,0 +1,37 @@
+{
+    "paperId": "f5afef5d38f4813e7f6239d37f9f6eda52a0ea4c",
+    "title": "A Performance Evaluation of DRAM Access for In-Memory Databases",
+    "year": 2021,
+    "venue": "IEEE Access",
+    "authors": [
+        "Zhang Qian",
+        "Jianhao Wei",
+        "Yiwen Xiang",
+        "Chuqiao Xiao"
+    ],
+    "doi": "10.1109/ACCESS.2021.3123379",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f5afef5d38f4813e7f6239d37f9f6eda52a0ea4c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/access.2021.3123379",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The latest CPUs(computer cpu processors) employ multiple cores, massively superscalar pipelines, out-of-order execution of tons of instructions, and advanced SIMD capabilities, which can hide the memory access latency. And most of recent memory-oriented data structures have already benefit from these features. However, due to the complexity of data organization, these CPUs do not always work well in memory resident database systems (MMDBs), particularly regarding storing data in dynamic random-access memory (DRAM). This article studies memory-efficient data structures by analyzing the run time, access latency, cache misses, instructions per cycle (IPC), and DRAM reads (bytes). Then, we design and implement two data organization schemas in the main memory database: dispersing data block organization and clustering data block organization. Using algorithmic engineering and careful attention to internal parallelism, cache alignment can hide the memory access latency. However, we find that these data structures work well in some cases, though they have been eclipsed in the face of complex access paths. To determine the reasons, we study the impact of database techniques on memory access latency, such as data partitioning, storage models, and by processing algorithms. With the specific main memory database system, we estimate the performance of each data organization schema based on DRAM DDR4 and the latest Intel Haswell microarchitecture. In conclusion, this work will make DRAM access applicable in real-world situations by implementing the schema to systems, such as in-memory databases.",
+    "citationCount": 5,
+    "referenceCount": 71
+}

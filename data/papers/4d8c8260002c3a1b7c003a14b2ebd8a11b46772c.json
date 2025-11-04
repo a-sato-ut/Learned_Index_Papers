@@ -1,0 +1,35 @@
+{
+    "paperId": "4d8c8260002c3a1b7c003a14b2ebd8a11b46772c",
+    "title": "VILLS: Video-Image Learning to Learn Semantics for Person Re-Identification",
+    "year": 2023,
+    "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+    "authors": [
+        "Siyuan Huang",
+        "Yifan Zhou",
+        "Ram Prabhakar Kathirvel",
+        "Rama Chellappa",
+        "Chun Pong Lau"
+    ],
+    "doi": "10.1109/WACV61041.2025.00582",
+    "arxivId": "2311.17074",
+    "url": "https://www.semanticscholar.org/paper/4d8c8260002c3a1b7c003a14b2ebd8a11b46772c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Person Re-identification is a research area with significant real world applications. Despite recent progress, existing methods face challenges in robust re-identification in the wild, e.g., by focusing only on a particular modality and on unreliable patterns such as clothing. A generalized method is highly desired, but remains elusive to achieve due to issues such as the trade-off between spatial and temporal resolution and inaccurate feature extraction. We propose VILLS (Video-Image Learning to Learn Semantics), a self-supervised method that jointly learns spatial and temporal features from images and videos. VILLS first designs a local semantic extraction module that adaptively extracts semantically consistent and robust spatial features. Then, VILLS designs a unified feature learning and adaptation module to represent image and video modalities in a consistent feature space. By Leveraging self-supervised, large-scale pre-training, VILLS establishes a new State-of-The-Art that significantly outperforms existing image and video-based methods.",
+    "citationCount": 3,
+    "referenceCount": 69
+}

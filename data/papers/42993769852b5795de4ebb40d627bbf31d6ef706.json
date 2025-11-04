@@ -1,0 +1,35 @@
+{
+    "paperId": "42993769852b5795de4ebb40d627bbf31d6ef706",
+    "title": "PolyDL",
+    "year": 2020,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Sanket Tavarageri",
+        "A. Heinecke",
+        "Sasikanth Avancha",
+        "Gagandeep Goyal",
+        "Ramakrishna Upadrasta",
+        "Bharat Kaul"
+    ],
+    "doi": "10.1145/3433103",
+    "arxivId": "2006.02230",
+    "url": "https://www.semanticscholar.org/paper/42993769852b5795de4ebb40d627bbf31d6ef706",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3433103",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Neural Networks (DNNs) have revolutionized many aspects of our lives. The use of DNNs is becoming ubiquitous, including in software for image recognition, speech recognition, speech synthesis, language translation, to name a few. The training of DNN architectures, however, is computationally expensive. Once the model is created, its use in the intended application—the inference task, is computationally heavy too and the inference needs to be fast for real time use. For obtaining high performance today, the code of Deep Learning (DL) primitives optimized for specific architectures by expert programmers exposed via libraries is the norm. However, given the constant emergence of new DNN architectures, creating hand optimized code is expensive, slow and is not scalable. To address this performance-productivity challenge, in this article we present compiler algorithms to automatically generate high-performance implementations of DL primitives that closely match the performance of hand optimized libraries. We develop novel data reuse analysis algorithms using the polyhedral model to derive efficient execution schedules automatically. In addition, because most DL primitives use some variant of matrix multiplication at their core, we develop a flexible framework where it is possible to plug in library implementations of the same in lieu of a subset of the loops. We show that such a hybrid compiler plus a minimal library-use approach results in state-of-the-art performance. We develop compiler algorithms to also perform operator fusions that reduce data movement through the memory hierarchy of the computer system. Using Convolution Neural Network (CNN) models and matrix multiplication operations, we demonstrate that our approach automatically creates high performing DNN building blocks whose performance matches the performance of hand-crafted kernels of Intel’s oneDNN library on high end CPUs. At the same time, our techniques take only a fraction of time (1/20 or less) compared to AutoTVM, a deep learning auto-tuner to create optimized implementations.",
+    "citationCount": 14,
+    "referenceCount": 64
+}

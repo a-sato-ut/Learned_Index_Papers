@@ -1,0 +1,35 @@
+{
+    "paperId": "7d95436c03db411be168e9e8f3a484f8204e3f6b",
+    "title": "Madeline: Continuous and Low-cost Monitoring with Graph-free Representations to Combat Cyber Threats",
+    "year": 2024,
+    "venue": "Asia-Pacific Computer Systems Architecture Conference",
+    "authors": [
+        "Wen-Kai Song",
+        "Hailun Ding",
+        "Na Meng",
+        "Peng Gao",
+        "Danfeng Yao"
+    ],
+    "doi": "10.1109/ACSAC63791.2024.00075",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7d95436c03db411be168e9e8f3a484f8204e3f6b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Advanced persistent threats (APTs) have caused significant financial losses for enterprises, making the development of effective detection systems a critical priority. While existing provenance graph-based APT defenses demonstrate high accuracy, the high complexity and cost of graph operations (e.g., construction, iteration) require extensive processing time and computational resources, making them impractical for real-time detection. To address this challenge, we introduce Madeline, a graph-free, lightweight APT detection system that leverages historical system statistics. Through a multi-step state score calculation for a set of behavioral attributes, MADE-LINE meticulously captures subtle, gradual system changes indicative of stealthy APT activities. Using an LSTM autoencoder, Madeline performs anomaly detection effectively without the need for prior knowledge or manual labeling of attacks. Additionally, Madeline supports continuous monitoring, enhancing the assessment of ongoing risks. This feature helps reduce the need for extensive investigative resources by prioritizing genuine high-risk periods. Our experiments show that Madeline achieves comparable detection accuracy with the state-of-the-art APT detection, with 0.996 recall and 0.011 false positive rate on average. Madeline also significantly reduces the computational overhead, with over 1000x reduction in processing time and 5x in memory utilization.",
+    "citationCount": 1,
+    "referenceCount": 65
+}

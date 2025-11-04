@@ -1,0 +1,32 @@
+{
+    "paperId": "3907fbbee04730cfb892ae3e1ec8dda5bbc65411",
+    "title": "Overlay Indexes: Efficiently Supporting Aggregate Range Queries and Authenticated Data Structures in Off-the-Shelf Databases",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "authors": [
+        "Diego Pennino",
+        "M. Pizzonia",
+        "Alessio Papi"
+    ],
+    "doi": "10.1109/ACCESS.2019.2957346",
+    "arxivId": "1910.11754",
+    "url": "https://www.semanticscholar.org/paper/3907fbbee04730cfb892ae3e1ec8dda5bbc65411",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08919979.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Commercial off-the-shelf DataBase Management Systems (DBMSes) are highly optimized to process a wide range of queries by means of carefully designed indexing and query planning. However, many aggregate range queries are usually performed by DBMSes using sequential scans, and certain needs, like storing Authenticated Data Structures (ADS), are not supported at all. Theoretically, these needs could be efficiently fulfilled adopting specific kinds of indexing, which however are normally ruled-out in DBMSes design. We introduce the concept of overlay index: an index that is meant to be stored in a standard database, alongside regular data and managed by regular software, to complement DBMS capabilities. We show a data structure, that we call DB-tree, that realizes an overlay index to support a wide range of custom aggregate range queries as well as ADSes, efficiently. All DB-trees operations can be performed by executing a small number of queries to the DBMS, that can be issued in parallel in one or two query rounds, and involves a logarithmic amount of data. We experimentally evaluate the efficiency of DB-trees showing that our approach is effective, especially if data updates are limited.",
+    "citationCount": 5,
+    "referenceCount": 58
+}

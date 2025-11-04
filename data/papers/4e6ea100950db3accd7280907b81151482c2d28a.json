@@ -1,0 +1,34 @@
+{
+    "paperId": "4e6ea100950db3accd7280907b81151482c2d28a",
+    "title": "Precise and Transferable Latency Prediction for Transformer",
+    "year": 2024,
+    "venue": "International Conference on Big Data Computing and Communications",
+    "authors": [
+        "Yuanchi Liu",
+        "Jiahang Xu",
+        "Chengquan Feng",
+        "Haisheng Tan"
+    ],
+    "doi": "10.1109/BIGCOM65357.2024.00012",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4e6ea100950db3accd7280907b81151482c2d28a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "To deploy Transformer models on resource-limited edge devices, Hardware-Aware Neural Architecture Search (HWNAS) becomes a good choice due to the enormous computation of Transformers. In this paper, we propose a Precise and Transferable Latency Prediction method designed to accurately predict model latency on diverse platforms, thereby expediting the HWNAS search process. Initially, we train latency predictors on some platforms using collected data. Subsequently, for a new platform, we employ a latency exhibition pattern method to calculate similarity. By selecting the platform with the most comparable inference latency and transferring the trained latency predictor, we achieve higher prediction accuracy with less data. Experimental results demonstrate the effectiveness of our approach, boasting an average prediction accuracy of 97.2% across multiple platforms, all achieved with less than an hour of adaptation cost. Notably, our method outperforms state-of-the-art approaches, showcasing an accuracy improvement of nearly 10% while reducing time costs by 20×.",
+    "citationCount": 0,
+    "referenceCount": 43
+}

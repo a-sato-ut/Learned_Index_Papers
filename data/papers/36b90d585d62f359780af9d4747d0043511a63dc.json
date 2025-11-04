@@ -1,0 +1,36 @@
+{
+    "paperId": "36b90d585d62f359780af9d4747d0043511a63dc",
+    "title": "SRTuner: Effective Compiler Optimization Customization by Exposing Synergistic Relations",
+    "year": 2022,
+    "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+    "authors": [
+        "Sunghyun Park",
+        "Salar Latifi",
+        "Yongjun Park",
+        "Armand Behroozi",
+        "Byungsoo Jeon",
+        "S. Mahlke"
+    ],
+    "doi": "10.1109/CGO53902.2022.9741263",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/36b90d585d62f359780af9d4747d0043511a63dc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Despite ceaseless efforts, extremely large and complex optimization space makes even the state-of-the-art compilers fail in delivering the most performant setting that can fully utilize the underlying hardware. Although this inefficiency suggests opportunity for tuning, it has been challenging for prior tuning methods to consider the complex interactions between optimizations and maximize the tuning quality while handling local optima efficiently. To tackle this problem, we suggest an intelligent auto-tuning strategy, called SRTuner, which searches for the best optimization setting by exposing important optimization interactions and directly using them to focus on promising subspaces. To reveal high-impact inter-optimization relations, SRTuner proposes a multistage structure and a distribution-based estimation method that approximates the impact of an optimization effectively. Besides, to efficiently handle local optima, our technique defines optimization decisions as a series of multi-armed bandit problems to formulate the exploration-exploitation dilemma. SRTuner is evaluated with three representative compilers from various domains on different target hardware: GCC (traditional C/ C++ compiler) on CPU, TVM (domain-specific machine learning compiler) on GPU, and OpenCL compilers (kernel compiler for heterogeneous computing) on both CPU/GPU. Results show that SRTuner accelerates target executions by $1. 24 \\times$, $2. 03 \\times$ and $34. 4 \\times$ compared to the highest level of optimization provided by each compiler and outperforms state-of-the-art works by $1. 04 \\times - 1. 14 \\times$. As a byproduct of our unique tuning strategy, SRTuner can offer synergistic optimizations for each workload, which allows it to in part identify why it outperformed current compilers. With this information, we are able to find important optimizations that each compiler misused and demonstrate how this information can benefit future tuning strategies.",
+    "citationCount": 20,
+    "referenceCount": 39
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "ff524f068ee0a10be65a508248517077e721f8d1",
+    "title": "LoopTune: Optimizing Tensor Computations with Reinforcement Learning",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Dejan Grubisic",
+        "Bram Wasti",
+        "Chris Cummins",
+        "John M. Mellor-Crummey",
+        "A. Zlateski"
+    ],
+    "doi": "10.48550/arXiv.2309.01825",
+    "arxivId": "2309.01825",
+    "url": "https://www.semanticscholar.org/paper/ff524f068ee0a10be65a508248517077e721f8d1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2309.01825",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Advanced compiler technology is crucial for enabling machine learning applications to run on novel hardware, but traditional compilers fail to deliver performance, popular auto-tuners have long search times and expert-optimized libraries introduce unsustainable costs. To address this, we developed LoopTune, a deep reinforcement learning compiler that optimizes tensor computations in deep learning models for the CPU. LoopTune optimizes tensor traversal order while using the ultra-fast lightweight code generator LoopNest to perform hardware-specific optimizations. With a novel graph-based representation and action space, LoopTune speeds up LoopNest by 3.2x, generating an order of magnitude faster code than TVM, 2.8x faster than MetaSchedule, and 1.08x faster than AutoTVM, consistently performing at the level of the hand-tuned library Numpy. Moreover, LoopTune tunes code in order of seconds.",
+    "citationCount": 1,
+    "referenceCount": 71
+}

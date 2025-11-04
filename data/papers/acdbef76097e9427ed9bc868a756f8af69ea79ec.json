@@ -1,0 +1,32 @@
+{
+    "paperId": "acdbef76097e9427ed9bc868a756f8af69ea79ec",
+    "title": "Technical Report: Asymmetric Mutual Exclusion for RDMA",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "J. Nelson-Slivon",
+        "Lewis Tseng",
+        "R. Palmieri"
+    ],
+    "doi": "10.48550/arXiv.2208.09540",
+    "arxivId": "2208.09540",
+    "url": "https://www.semanticscholar.org/paper/acdbef76097e9427ed9bc868a756f8af69ea79ec",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2208.09540",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "“New instances of the mutual exclusion problem can still arise that make currently impractical algorithms useful, or that require new algorithms. One source of those instances is new hardware designs.” Lamport Abstract Coordinating concurrent access to a shared resource using mutual exclusion is a fundamental problem in computation. In this paper, we present a novel approach to mutual exclusion designed speciﬁcally for distributed systems leveraging a popular network communication technology, remote direct memory access (RDMA). Our approach enables local processes to avoid using RDMA operations entirely, limits the number of RDMA operations required by remote processes, and guarantees both starvation-freedom and fairness.",
+    "citationCount": 1,
+    "referenceCount": 27
+}

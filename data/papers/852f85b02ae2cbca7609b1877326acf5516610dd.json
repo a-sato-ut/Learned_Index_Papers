@@ -1,0 +1,37 @@
+{
+    "paperId": "852f85b02ae2cbca7609b1877326acf5516610dd",
+    "title": "Accelerating the performance of data analytics using network-centric processing",
+    "year": 2021,
+    "venue": "Distributed Event-Based Systems",
+    "authors": [
+        "Bochra Boughzala",
+        "B. Koldehofe"
+    ],
+    "doi": "10.1145/3465480.3468162",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/852f85b02ae2cbca7609b1877326acf5516610dd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3465480.3468162",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Distributed execution of real-time data analytics such as event stream processing is the key to scalability, performance and reliable detection of situation changes. Although real-time analytics is highly I/O centric, existing methods supporting the efficient execution of data analytics functions mostly rely on traditional compute models that are available in data centers, e.g., CPU or GPU based processing models, but treat the network mainly as a blackbox. However, with recent advance in software-defined networking (SDN) and the standardization of packet processing pipeline, data analytics functions can be offloaded to programmable switches and benefit from hardware acceleration in an easier and more flexible way than a decade ago. In this paper we focus on the potential of in-network processing to enhance the performance of the overall real-time data analytics application. We aim to contribute to an (i) understanding on how in-network processing can accelerate real-time data analytics and (ii) assess what models of in-network computing can accelerate which event processing functions considering the limitations of network models compared to traditional compute models. We motivate the potential and illustrate the research problems in the context of load balancing which is an important concept in the data-parallel execution of event processing systems.",
+    "citationCount": 3,
+    "referenceCount": 30
+}

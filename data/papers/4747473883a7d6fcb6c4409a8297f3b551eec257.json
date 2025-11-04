@@ -1,0 +1,37 @@
+{
+    "paperId": "4747473883a7d6fcb6c4409a8297f3b551eec257",
+    "title": "AIRCHITECT: Learning Custom Architecture Design and Mapping Space",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "A. Samajdar",
+        "J. Joseph",
+        "Matthew Denton",
+        "T. Krishna"
+    ],
+    "doi": null,
+    "arxivId": "2108.08295",
+    "url": "https://www.semanticscholar.org/paper/4747473883a7d6fcb6c4409a8297f3b551eec257",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Design space exploration is an important but costly step involved in the design/deployment of custom architectures to squeeze out maximum possible performance and energy efficiency. Conventionally, optimizations require iterative sampling of the design space using simulation or heuristic tools. In this paper we investigate the possibility of learning the optimization task using machine learning and hence using the learnt model to predict optimal parameters for the design and mapping space of custom architectures, bypassing any exploration step. We use three case studies involving the optimal array design, SRAM buffer sizing, mapping, and schedule determination for systolic-array-based custom architecture design and mapping space. Within the purview of these case studies, we show that it is possible to capture the design space and train a model to\"generalize\"prediction the optimal design and mapping parameters when queried with workload and design constraints. We perform systematic design-aware and statistical analysis of the optimization space for our case studies and highlight the patterns in the design space. We formulate the architecture design and mapping as a machine learning problem that allows us to leverage existing ML models for training and inference. We design and train a custom network architecture called AIRCHITECT, which is capable of learning the architecture design space with as high as 94.3% test accuracy and predicting optimal configurations which achieve on average (GeoMean) of 99.9% the best possible performance on a test dataset with $10^5$ GEMM workloads.",
+    "citationCount": 8,
+    "referenceCount": 33
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "846864fb6136b5a62123bf95c92608319bb2a592",
+    "title": "Deep Neural Network Hardware Deployment Optimization via Advanced Active Learning",
+    "year": 2021,
+    "venue": "Design, Automation and Test in Europe",
+    "authors": [
+        "Qi Sun",
+        "Chen Bai",
+        "Hao Geng",
+        "Bei Yu"
+    ],
+    "doi": "10.23919/DATE51398.2021.9474100",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/846864fb6136b5a62123bf95c92608319bb2a592",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent years have witnessed the great successes of deep neural network (DNN) models while deploying DNN models on hardware platforms is still challenging and widely discussed. Some works proposed dedicatedly designed accelerators for some specific DNN models, while some others proposed general-purpose deployment frameworks that can optimize the hardware configurations on various hardware platforms automatically. However, the extremely large design space and the very time-consuming on-chip tests bring great challenges to the hardware configuration optimization process. In this paper, to optimize the hardware deployment, we propose an advanced active learning framework which is composed of batch transductive experiment design (BTED) and Bootstrap-guided adaptive optimization (BAO). The BTED method generates a diverse initial configuration set filled with representative configurations. Based on the Bootstrap method and adaptive sampling, the BAO method guides the selection of hardware configurations during the searching process. To the best of our knowledge, these two methods are both introduced into general DNN deployment frameworks for the first time. We embed our advanced framework into AutoTVM, and the experimental results show that our methods reduce the model inference latency by up to 28.08% and decrease the variance of inference latency by up to 92.74%.",
+    "citationCount": 15,
+    "referenceCount": 34
+}

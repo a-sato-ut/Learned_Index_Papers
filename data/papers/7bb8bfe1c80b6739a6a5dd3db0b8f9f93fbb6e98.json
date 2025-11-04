@@ -1,0 +1,37 @@
+{
+    "paperId": "7bb8bfe1c80b6739a6a5dd3db0b8f9f93fbb6e98",
+    "title": "Automating Generation of Low Precision Deep Learning Operators",
+    "year": 2018,
+    "venue": "arXiv.org",
+    "authors": [
+        "M. Cowan",
+        "T. Moreau",
+        "Tianqi Chen",
+        "L. Ceze"
+    ],
+    "doi": null,
+    "arxivId": "1810.11066",
+    "url": "https://www.semanticscholar.org/paper/7bb8bfe1c80b6739a6a5dd3db0b8f9f93fbb6e98",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "State of the art deep learning models have made steady progress in the fields of computer vision and natural language processing, at the expense of growing model sizes and computational complexity. Deploying these models on low power and mobile devices poses a challenge due to their limited compute capabilities and strict energy budgets. One solution that has generated significant research interest is deploying highly quantized models that operate on low precision inputs and weights less than eight bits, trading off accuracy for performance. These models have a significantly reduced memory footprint (up to 32x reduction) and can replace multiply-accumulates with bitwise operations during compute intensive convolution and fully connected layers. \nMost deep learning frameworks rely on highly engineered linear algebra libraries such as ATLAS or Intel's MKL to implement efficient deep learning operators. To date, none of the popular deep learning directly support low precision operators, partly due to a lack of optimized low precision libraries. In this paper we introduce a work flow to quickly generate high performance low precision deep learning operators for arbitrary precision that target multiple CPU architectures and include optimizations such as memory tiling and vectorization. We present an extensive case study on low power ARM Cortex-A53 CPU, and show how we can generate 1-bit, 2-bit convolutions with speedups up to 16x over an optimized 16-bit integer baseline and 2.3x better than handwritten implementations.",
+    "citationCount": 13,
+    "referenceCount": 23
+}

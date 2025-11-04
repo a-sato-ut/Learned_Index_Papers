@@ -1,0 +1,39 @@
+{
+    "paperId": "891510e675696aaa7c27299c196d7c5583e548b0",
+    "title": "JOVS: Joint Optimization of Vectorization and Scheduling for DNN on AI DSPs",
+    "year": 2025,
+    "venue": "ACM Symposium on Parallelism in Algorithms and Architectures",
+    "authors": [
+        "Yaochen Han",
+        "Hongxu Jiang",
+        "Runhua Zhang",
+        "Rui She"
+    ],
+    "doi": "10.1145/3694906.3743309",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/891510e675696aaa7c27299c196d7c5583e548b0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent embedded devices have integrated digital signal processors (DSPs) to balance performance and power when executing complex Deep Neural Network (DNN) workloads. With modern AI DSPs providing specialized tensor computation vector instructions and limited on-chip memory, fully releasing the potential of these DSPs remains a significant challenge. The performance of AI DSPs relies heavily on vendor-provided libraries and compilers. In practice, vendor-provided libraries are inflexible and prevent further optimization. State-of-the-art compilers usually focus on a single optimization (vectorization or scheduling), which is insufficient to address this challenge. In this paper, we propose JOVS, a Joint Optimization of Vectorization and Scheduling to accelerate DNN inference on AI DSPs. The key is to prioritize the selection of novel specialized instructions to implement operators, reducing the joint optimization space. For vectorization, we design a mapping and layout scheme for the specialized instruction and perform global instruction selection. For scheduling, we propose a two-step scheduling strategy for finegrained optimization. Finally, we evaluate JOVS on five popular DNNs. The experimental results show that JOVS achieves 1.44× speedup over the vendor-provided library. Compared to state-of-the-art compilers, JOVS also achieves 1.83× speedup.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

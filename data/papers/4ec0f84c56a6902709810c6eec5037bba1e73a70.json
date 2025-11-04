@@ -1,0 +1,35 @@
+{
+    "paperId": "4ec0f84c56a6902709810c6eec5037bba1e73a70",
+    "title": "PolyScientist: Automatic Loop Transformations Combined with Microkernels for Optimization of Deep Learning Primitives",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sanket Tavarageri",
+        "A. Heinecke",
+        "Sasikanth Avancha",
+        "Gagandeep Goyal",
+        "Ramakrishna Upadrasta",
+        "Bharat Kaul"
+    ],
+    "doi": null,
+    "arxivId": "2002.02145",
+    "url": "https://www.semanticscholar.org/paper/4ec0f84c56a6902709810c6eec5037bba1e73a70",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "At the heart of deep learning training and inferencing are computationally intensive primitives such as convolutions which form the building blocks of deep neural networks. Researchers have taken two distinct approaches to creating high performance implementations of deep learning kernels, namely, 1) library development exemplified by Intel MKLDNN for CPUs, 2) automatic compilation represented by the TensorFlow XLA compiler. The two approaches have their drawbacks: even though a custom built library can deliver very good performance, the cost and time of development of the library can be high. Additionally, hand coding of a plethora of operators for performance is not scalable over the long term as more and more deep learning operators get invented. Automatic compilation of kernels is attractive but in practice, till date, automatically generated implementations lag expert coded kernels in performance by orders of magnitude. In this paper, we develop a hybrid solution to the development of deep learning kernels that achieves the best of both worlds: the expert coded microkernels are utilized for the innermost loops of kernels that exploit the vector register files, and vector units of modern CPUs effectively, and we use the advanced polyhedral compilation technology to automatically tune the outer loops for performance. We design a novel polyhedral model based data reuse algorithm to optimize the outer loops of the kernel. The overall effect of this combined approach will be that 1) the library development effort is reduced to writing of only a small number of tiny kernels that occur commonly in deep learning workloads, and thus library development is made scalable; 2) automatic compilation with the use of expert-coded microkernels will achieve state-of-the art high performance. Through experimental evaluation on an important class of deep learning primitives namely convolutions, we demonstrate that the approach we develop attains the same levels of performance as Intel MKL-DNN, a hand coded deep learning library.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

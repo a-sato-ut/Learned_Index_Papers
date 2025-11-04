@@ -1,0 +1,34 @@
+{
+    "paperId": "567e8980c1a9afa735abcb4a3b955b1f54c10028",
+    "title": "LOFS: A Lightweight Online File Storage Strategy for Effective Data Deduplication at Network Edge",
+    "year": 2022,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Geyao Cheng",
+        "Deke Guo",
+        "Lailong Luo",
+        "Junxu Xia",
+        "Siyuan Gu"
+    ],
+    "doi": "10.1109/TPDS.2021.3133098",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/567e8980c1a9afa735abcb4a3b955b1f54c10028",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/71/9732246/09645269.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Edge computing responds to users’ requests with low latency by storing the relevant files at the network edge. Various data deduplication technologies are currently employed at edge to eliminate redundant data chunks for space saving. However, the lookup for the global huge-volume fingerprint indexes imposed by detecting redundancies can significantly degrade the data processing performance. Besides, we envision a novel file storage strategy that realizes the following rationales simultaneously: 1) space efficiency, 2) access efficiency, and 3) load balance, while the existing methods fail to achieve them at one shot. To this end, we report LOFS, a Lightweight Online File Storage strategy, which aims at eliminating redundancies through maximizing the probability of successful data deduplication, while realizing the three design rationales simultaneously. LOFS leverages a lightweight three-layer hash mapping scheme to solve this problem with constant-time complexity. To be specific, LOFS employs the Bloom filter to generate a sketch for each file, and thereafter feeds the sketches to the Locality Sensitivity hash (LSH) such that similar files are likely to be projected nearby in LSH tablespace. At last, LOFS assigns the files to real-world edge servers with the joint consideration of the LSH load distribution and the edge server capacity. Trace-driven experiments show that LOFS closely tracks the global deduplication ratio and generates a relatively low load std compared with the comparison methods.",
+    "citationCount": 17,
+    "referenceCount": 47
+}

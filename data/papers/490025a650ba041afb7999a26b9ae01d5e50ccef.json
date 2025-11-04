@@ -1,0 +1,33 @@
+{
+    "paperId": "490025a650ba041afb7999a26b9ae01d5e50ccef",
+    "title": "Two-level Graph Caching for Expediting Distributed GNN Training",
+    "year": 2023,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Zhe Zhang",
+        "Ziyue Luo",
+        "Chuan Wu"
+    ],
+    "doi": "10.1109/INFOCOM53939.2023.10228911",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/490025a650ba041afb7999a26b9ae01d5e50ccef",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph Neural Networks (GNNs) are increasingly popular due to excellent performance on learning graph-structured data in various domains. With fast expanding graph sizes and feature dimensions, distributed GNN training has been adopted, with multiple concurrent workers learning on different portions of a large graph. It has been observed that a main bottleneck in distributed GNN training lies in graph feature fetching across servers, which dominates the training time of each training iteration at each worker. This paper studies efficient feature caching on each worker to minimize feature fetching overhead, in order to expedite distributed GNN training. Current distributed GNN training systems largely adopt static caching of fixed neighbor nodes. We propose a novel two-level dynamic cache design exploiting both GPU memory and host memory at each worker, and design efficient two-level dynamic caching algorithms based on online optimization and a lookahead batching mechanism. Our dynamic caching algorithms consider node requesting probabilities and heterogeneous feature fetching costs from different servers, achieving an O(log3 k) competitive ratio in terms of overall feature-fetching communication cost (where k is the cache capacity). We evaluate practical performance of our caching design with testbed experiments, and show that our design achieves up to 5.4x convergence speed-up.",
+    "citationCount": 10,
+    "referenceCount": 37
+}

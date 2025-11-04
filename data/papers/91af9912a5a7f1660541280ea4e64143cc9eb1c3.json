@@ -1,0 +1,45 @@
+{
+    "paperId": "91af9912a5a7f1660541280ea4e64143cc9eb1c3",
+    "title": "From Research to Production: Towards Scalable and Sustainable Neural Recommendation Models on Commodity CPU Hardware",
+    "year": 2023,
+    "venue": "ACM Conference on Recommender Systems",
+    "authors": [
+        "Anshumali Shrivastava",
+        "V. Lakshman",
+        "Tharun Medini",
+        "Nicholas Meisburger",
+        "Joshua Engels",
+        "David Torres Ramos",
+        "Benito Geordie",
+        "Pratik Pranav",
+        "Shubh Gupta",
+        "Yashwanth Adunukota",
+        "Siddharth Jain"
+    ],
+    "doi": "10.1145/3604915.3610249",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/91af9912a5a7f1660541280ea4e64143cc9eb1c3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the last decade, large-scale deep learning has fundamentally transformed industrial recommendation systems. However, this revolutionary technology remains prohibitively expensive due to the need for costly and scarce specialized hardware, such as Graphics Processing Units (GPUs), to train and serve models. In this talk, we share our multi-year journey at ThirdAI in developing efficient neural recommendation models that can be trained and deployed on commodity CPU machines without the need for costly accelerators like GPUs. In particular, we discuss the limitations of the current GPU-based ecosystem in machine learning, why recommendation systems are amenable to the strengths of CPU devices, and present results from our efforts to translate years of academic research into a deployable system that fundamentally shifts the economics of training and operating large-scale machine learning models.",
+    "citationCount": 2,
+    "referenceCount": 25
+}

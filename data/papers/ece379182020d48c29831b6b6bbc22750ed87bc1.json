@@ -1,0 +1,35 @@
+{
+    "paperId": "ece379182020d48c29831b6b6bbc22750ed87bc1",
+    "title": "Relevance Inference Based on Direct Contribution: Counterfactual Explanation to Deep Networks for Intelligent Decision-Making",
+    "year": 2024,
+    "venue": "IEEE Transactions on Intelligent Vehicles",
+    "authors": [
+        "Xinyu Li",
+        "Xiaoguang Gao",
+        "Chenfeng Wang",
+        "Qianglong Wang",
+        "Bo Li",
+        "Kaifang Wan"
+    ],
+    "doi": "10.1109/TIV.2024.3390426",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ece379182020d48c29831b6b6bbc22750ed87bc1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the widespread application of Deep Learning (DL), the black-box characteristics of DL raise questions, especially in high-stake decision-making fields like autonomous driving. Consequently, there is a growing demand for research on the interpretability of DL, leading to the emergence of eXplainable Artificial Intelligence as a current research hotspot. Current research on DL interpretability primarily focuses on transparency and post-hoc interpretability. Enhancing interpretability in transparency often requires targeted modifications to the model structure, potentially compromising the model's accuracy. Conversely, improving the interpretability of DL models based on post-hoc interpretability usually does not necessitate adjustments to the model itself. To provide a fast and accurate counterfactual explanation of DL without compromising its performance, this paper proposes a post-hoc interpretation method called relevance inference based on direct contribution to employ counterfactual reasoning in DL. In this method, direct contribution is first designed by improving Layer-wise Relevance Propagation to measure the relevance between the outputs and the inputs. Subsequently, we produce counterfactual examples based on direct contribution. Ultimately, counterfactual results for the DL model are obtained with these counterfactual examples. These counterfactual results effectively describe the behavioral boundaries of the model, facilitating a better understanding of its behavior. Additionally, direct contribution offers an easily implementable interpretable analysis method for studying model behavior. Experiments conducted on various datasets demonstrate that relevance inference can be more efficiently and accurately generate counterfactual examples compared to the state-of-the-art methods, aiding in the analysis of behavioral boundaries in intelligent decision-making models for vehicles.",
+    "citationCount": 0,
+    "referenceCount": 71
+}

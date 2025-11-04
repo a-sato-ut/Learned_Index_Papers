@@ -1,0 +1,35 @@
+{
+    "paperId": "5fd1be9462d6a19c52603e47481d1fb2f107e8db",
+    "title": "SK-Gradient: Efficient Communication for Distributed Machine Learning with Data Sketch",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Jie Gui",
+        "Yuchen Song",
+        "Zezhou Wang",
+        "Chenhong He",
+        "Qun Huang"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00183",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5fd1be9462d6a19c52603e47481d1fb2f107e8db",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the explosive growth of data volume, distributed machine learning has become the mainstream approach for training deep neural networks. However, distributed machine learning incurs non-trivial communication overhead. To this end, various compression schemes are proposed to alleviate the communication volume among nodes. Nevertheless, existing compression schemes, such as gradient quantization or gradient sparsification, suffer from low compression ratios and/or high computational overheads. Recent studies advocate leveraging sketch techniques to assist these schemes. However, the limitations of gradient quantization and gradient sparsification remain. In this paper, we propose SK-Gradient, a novel gradient compression scheme that solely builds on sketch. The core component of SK-Gradient is a novel sketch namely FGC Sketch that is tailored for gradient compression. FGC Sketch precomputes the costly hash functions to alleviate computational overheads. Its simplified design makes it convenient for GPU acceleration. In addition, SK-Gradient leverages various techniques including selective gradient compression and periodic synchronization strategy to improve computational efficiency and compression accuracy. Compared with the state-of-the-art schemes, SK-Gradient achieves up to 92.9% reduction in computational overhead and up to 95.2% improvement in training speedups at the same compression ratio.",
+    "citationCount": 10,
+    "referenceCount": 83
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "7ce103308d421ac47a8f805b81e56568b4015106",
+    "title": "An RNS-Based NDN Forwarding Plane: Design and Evaluation",
+    "year": 2023,
+    "venue": "IEEE Access",
+    "authors": [
+        "Ruisi Wu",
+        "Wen-Kang Jia"
+    ],
+    "doi": "10.1109/ACCESS.2023.3250348",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7ce103308d421ac47a8f805b81e56568b4015106",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/10005208/10056157.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Due to the variable length and uniqueness of names in NDN, traditional IP address-based routing and forwarding architecture is no longer suitable for NDN networks. It is still a challenge to design a high-performance forwarding engine to solve the problem of variable name length and uniqueness in NDN. In this article, Residue Number System (RNS) is applied to the routing and forwarding of NDN for the first time, and a new forwarding engine framework based on the RNS is designed. The simulation results show that this method has a significant performance increase in memory space and system latency. At the core-level node, the RNS-based process requires only about 5 percent of Bloom Filter (BF) in terms of memory space and has a 9.8 percent decrease in system latency compared to applying BF (P=1E-08). This method not only achieves less memory usage and reduces the system latency but also fundamentally solves the false positives and has good scalability due to the superiority of the algorithm itself. The proposed work is admirably suited for realizing large-scale NDNs by hardware implementation of NDN routers.",
+    "citationCount": 0,
+    "referenceCount": 28
+}

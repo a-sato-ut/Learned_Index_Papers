@@ -1,0 +1,32 @@
+{
+    "paperId": "5e8523240f3777802e1d35435bcf1297805c0191",
+    "title": "OctoFAS: A Two-Level Fair Scheduler that Increases Fairness in Network-Based Key-Value Storage",
+    "year": 2024,
+    "venue": "Electronics",
+    "authors": [
+        "Yeohyeon Park",
+        "Junhyeok Park",
+        "Junghwan Park",
+        "Awais Khan",
+        "Kyeongpyo Kim",
+        "Sung-Soon Park",
+        "Youngjae Kim"
+    ],
+    "doi": "10.3390/electronics13030619",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5e8523240f3777802e1d35435bcf1297805c0191",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2079-9292/13/3/619/pdf?version=1706797865",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We identified a fairness problem in a network-based key-value storage system using Intel Storage Performance Development Kit (SPDK) in a multitenant environment. In such an environment, each tenant’s I/O service rate is not fairly guaranteed compared to that of other tenants. To address the fairness problem, we propose OctoFAS, a two-level fair scheduler designed to improve overall throughput and fairness among tenants. The two-level scheduler of OctoFAS consists of (i) inter-core scheduling and (ii) intra-core scheduling. Through inter-core scheduling, OctoFAS addresses the load imbalance problem that is inherent in SPDK on the storage server by dynamically migrating I/O requests from overloaded cores to underloaded cores, thereby increasing overall throughput. Intra-core scheduling prioritizes handling requests from starving tenants over well-fed tenants within core-specific event queues to ensure fair I/O services among multiple tenants. OctoFAS is deployed on a Linux cluster with SPDK. Through extensive evaluations, we found that OctoFAS ensures that the total system throughput remains high and balanced, while enhancing fairness by approximately 10% compared to the baseline, when both scheduling levels operate in a hybrid fashion.",
+    "citationCount": 0,
+    "referenceCount": 44
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "51c8752cae16a312365002b5dbe3958ee2547097",
+    "title": "APM: An Attack Path-based Method for APT Attack Detection on Few-Shot Learning",
+    "year": 2023,
+    "venue": "International Conference on Trust, Security and Privacy in Computing and Communications",
+    "authors": [
+        "Jiacheng Li",
+        "Tong Li",
+        "Runzi Zhang",
+        "Di Wu",
+        "Hao Yue",
+        "Zhen Yang"
+    ],
+    "doi": "10.1109/TrustCom60117.2023.00025",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/51c8752cae16a312365002b5dbe3958ee2547097",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Advanced persistent threat (APT) attack leverages various intelligence-gathering techniques to obtain sensitive and critical information, imposing increasing threats to modern software enterprises. However, due to the persistent presence of APT attacks, it is difficult to effectively analyze a large amount of audit data for detecting such attacks, especially for small and medium-sized enterprises (SMEs). This limitation hinders security operation centers (SOC) from promptly handling APT attacks. In this paper, we propose an attack path-based method (APM) for APT attack detection on few-shot learning. Specifically, APM first identifies candidate malicious entities from the provenance graph, contributing to the completion of the missing attack paths. Secondly, we propose a systematic method to exploit potential attack behaviors in the attack path based on the identified candidate malicious entities. We evaluate APM through five APT attacks in realistic environments. Compared to existing baselines, the precision, recall, and F1-score of APM for attack detection increased by 0.28%, 1.64%, and 1.13%, respectively. The results show that our proposal can outperform baseline approaches and effectively detect APT attacks based on few-shot learning.",
+    "citationCount": 1,
+    "referenceCount": 40
+}

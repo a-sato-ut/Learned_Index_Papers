@@ -1,0 +1,50 @@
+{
+    "paperId": "0e941ee4df646d63f9a926c940bf016240260ac9",
+    "title": "Performance analysis and optimization for scalable deployment of deep learning models for country‐scale settlement mapping on Titan supercomputer",
+    "year": 2019,
+    "venue": "Concurrency and Computation",
+    "authors": [
+        "Kuldeep R. Kurte",
+        "J. Sanyal",
+        "A. Berres",
+        "D. Lunga",
+        "M. Coletti",
+        "Hsiuhan Lexie Yang",
+        "D. Graves",
+        "Benjamin Liebersohn",
+        "A. Rose"
+    ],
+    "doi": "10.1002/cpe.5305",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0e941ee4df646d63f9a926c940bf016240260ac9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://rss.onlinelibrary.wiley.com/doi/am-pdf/10.1002/cpe.5305",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents a scalable object detection workflow for detecting objects, such as settlements, from remotely sensed (RS) imagery. We have successfully deployed this workflow on Titan supercomputer and utilized it for the task of mapping human settlement at a country scale. The performance of various stages in the workflow was analyzed before making it operational. The workflow implemented various strategies to address issues such as suboptimal resource utilization and long‐tail effects due to unbalanced image workload, data loss due to runtime failures, and maximum wall‐time constraints imposed by Titan's job scheduling policy. A mean shift clustering–based static load balancing strategy was implemented, which partitions the image load such that each partition contained similar‐sized images. Furthermore, a checkpoint‐restart strategy was added in the workflow as a fault‐tolerance mechanism to prevent the data losses due to unforeseen runtime failures. The performance of the above‐mentioned strategies was observed in various scenarios, such as node failure, exceeding wall time, and successful completion. Using this workflow, we have processed an RS data set that has a spatial resolution of 0.31 m and is comprised of 685 675 km2 of area of the Republic of Zambia in under six hours using 5426 nodes of the Titan supercomputer.",
+    "citationCount": 8,
+    "referenceCount": 47
+}

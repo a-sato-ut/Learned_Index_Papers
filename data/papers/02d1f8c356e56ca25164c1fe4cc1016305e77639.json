@@ -1,0 +1,43 @@
+{
+    "paperId": "02d1f8c356e56ca25164c1fe4cc1016305e77639",
+    "title": "CIC-SIoT: Clean-Slate Information-Centric Software-Defined Content Discovery and Distribution for Internet of Things",
+    "year": 2024,
+    "venue": "IEEE Internet of Things Journal",
+    "authors": [
+        "Md Monjurul Karim",
+        "K. Sharif",
+        "Sujit Biswas",
+        "Zohaib Latif",
+        "Qiang Qu",
+        "Fan Li"
+    ],
+    "doi": "10.1109/JIOT.2024.3441814",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/02d1f8c356e56ca25164c1fe4cc1016305e77639",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid expansion of the Internet of Things (IoT) introduces critical challenges in scalability, mobility, and security, particularly in large-scale deployments. While information-centric networking (ICN) addresses these by enhancing content mobility, multipath support, and edge-embedded caching with inherent security features, it faces limitations in handling large heterogeneous environments due to its in-network caching and content-based forwarding strategies. Software-defined networking (SDN) complements ICN by employing a centralized controller to intelligently orchestrate content caching and forwarding, yet struggles with the efficient allocation and acquisition of content across expansive IoT systems. In response to these challenges, we propose CIC-SIoT, a novel information-centric SDN (IC-SDN) solution, designed to optimize the ICN-IoT framework. Our solution incorporates specialized algorithms for controllers, consumers, producers, and ICN nodes. These algorithms improve content forwarding decisions by moving beyond the traditional reliance on the forwarding information base (FIB) and instead utilizing the pending interest table (PIT) to efficiently manage and distribute content. Validated through ndnSIM and MATLAB simulations, CIC-SIoT achieves substantial performance enhancements, including an 80% increase in throughput, a 34% reduction in latency, and a 25% savings in bandwidth. Additionally, it reduces packet loss by 67% and communication overhead by 66%, compared to existing solutions. These results underscore the framework’s ability to significantly improve the efficiency and scalability of content distribution in IoT environments, highlighting its robustness and adaptability in addressing the complex dynamics of modern networked systems.",
+    "citationCount": 1,
+    "referenceCount": 66
+}

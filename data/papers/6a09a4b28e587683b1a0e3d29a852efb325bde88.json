@@ -1,0 +1,26 @@
+{
+    "paperId": "6a09a4b28e587683b1a0e3d29a852efb325bde88",
+    "title": "High-performance Hybrid Concurrency Control for Database Systems with Multiple Users-A New Dynamic Framework.",
+    "year": 2025,
+    "venue": "International Journal For Multidisciplinary Research",
+    "authors": [
+        "Neha Chahal"
+    ],
+    "doi": "10.36948/ijfmr.2025.v07i04.54670",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6a09a4b28e587683b1a0e3d29a852efb325bde88",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract- The growing use of data-centric applications has increased the need for efficient, consistent, scalable data management systems. While ensuring high performance, the data management system must also maintain strong consistency even under heavy concurrent access. Traditional concurrency control technologies like Two-Phase Locking, Timestamp Ordering, and Optimistic Concurrency Control are simply not adequate for cloud-native, distributed and in-memory database applications that are seen in the modern world. This research paper proposes a dynamic hybrid concurrency control algorithm that implements Fine-Grained 2PL for write-intensive applications and Timestamp Ordering, based on Multi-Version Concurrency Control methods, for read-intensive applications. We introduce a new technique to detect deadlocks based on Wait-Die to minimize the number of transaction stalls without using any overheads. We performed extensive experiments on synthetic databases and the TPC-C benchmark, and our results show that our system improves throughput by 45%, reduces abort rates by 25% and improves scalability compared to traditional concurrency control methods. Our approach provides good support for legacy systems, and it can be used as the basis for building next-generation data management systems that cater to multi-user, real-time environments. Our future work involves integrating Machine Learning models to automatically select the optimal concurrency control method and extending the support to geo-distributed databases.",
+    "citationCount": 0,
+    "referenceCount": 19
+}

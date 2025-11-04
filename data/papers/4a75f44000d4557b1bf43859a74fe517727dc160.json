@@ -1,0 +1,49 @@
+{
+    "paperId": "4a75f44000d4557b1bf43859a74fe517727dc160",
+    "title": "ICGMM: CXL-enabled Memory Expansion with Intelligent Caching Using Gaussian Mixture Model",
+    "year": 2024,
+    "venue": "Design Automation Conference",
+    "authors": [
+        "Hanqiu Chen",
+        "Yitu Wang",
+        "Luis Vitorio Cargnini",
+        "Mohammadreza Soltaniyeh",
+        "Dongyang Li",
+        "Gongjin Sun",
+        "Pradeep Subedi",
+        "Andrew Chang",
+        "Yiran Chen",
+        "Cong Hao"
+    ],
+    "doi": "10.1145/3649329.3656239",
+    "arxivId": "2408.05614",
+    "url": "https://www.semanticscholar.org/paper/4a75f44000d4557b1bf43859a74fe517727dc160",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2408.05614",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Compute Express Link (CXL) emerges as a solution for wide gap between computational speed and data communication rates among host and multiple devices. It fosters a unified and coherent memory space between host and CXL storage devices such as such as Solid-state drive (SSD) for memory expansion, with a corresponding DRAM implemented as the device cache. However, this introduces challenges such as substantial cache miss penalties, sub-optimal caching due to data access granularity mismatch between the DRAM \"cache\" and SSD \"memory\", and inefficient hardware cache management. To address these issues, we propose a novel solution, named ICGMM, which optimizes caching and eviction directly on hardware, employing a Gaussian Mixture Model (GMM)-based approach. We prototype our solution on an FPGA board, which demonstrates a noteworthy improvement compared to the classic Least Recently Used (LRU) cache strategy. We observe a decrease in the cache miss rate ranging from 0.32% to 6.14%, leading to a substantial 16.23% to 39.14% reduction in the average SSD access latency. Furthermore, when compared to the state-of-the-art Long Short-Term Memory (LSTM)-based cache policies, our GMM algorithm on FPGA showcases an impressive latency reduction of over 10,000 times. Remarkably, this is achieved while demanding much fewer hardware resources.",
+    "citationCount": 2,
+    "referenceCount": 21
+}

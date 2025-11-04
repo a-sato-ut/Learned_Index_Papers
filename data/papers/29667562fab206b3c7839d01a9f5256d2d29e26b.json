@@ -1,0 +1,36 @@
+{
+    "paperId": "29667562fab206b3c7839d01a9f5256d2d29e26b",
+    "title": "SQLord: A Robust Enterprise Text-to-SQL Solution via Reverse Data Generation and Workflow Decomposition",
+    "year": 2025,
+    "venue": "The Web Conference",
+    "authors": [
+        "Song Cheng",
+        "Qiannan Cheng",
+        "Linbo Jin",
+        "Lei Yi",
+        "Guannan Zhang"
+    ],
+    "doi": "10.1145/3701716.3715541",
+    "arxivId": "2507.10629",
+    "url": "https://www.semanticscholar.org/paper/29667562fab206b3c7839d01a9f5256d2d29e26b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Transforming natural language into SQL queries (NL2SQL) is crucial for data-driven business applications. Existing frameworks, trained on open-source datasets, struggle with complex business logic and lack domain-specific data for fine-tuning. Additionally, evaluation methods often require annotated data and executable database environments, which are scarce in real-world scenarios. To address these challenges, we propose SQLord, an enterprise-level NL2SQL framework. First, SQLord introduces a data reverse generation approach to convert raw SQL statements into annotated data for supervised fine-tuning (SFT). Second, it proposes a decomposition method for complex queries using an automated workflow generator. Additionally, SQLord features a comprehensive GPT-Judge evaluation framework, including Execution Evaluation (EXE), Query-SQL Evaluation (QSE), and SQL-SQL Evaluation (SSE), tailored to diverse scenarios. Offline tests significantly outperform state-of-the-art baselines, and online accuracy consistently exceeds 90, highlighting SQLord's advantages and effectiveness in complex real-world scenarios. SQLord has been successfully applied across multiple scenarios on the world's largest B2B e-commerce platform.",
+    "citationCount": 0,
+    "referenceCount": 14
+}

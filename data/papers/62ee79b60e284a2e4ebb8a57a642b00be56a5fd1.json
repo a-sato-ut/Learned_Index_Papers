@@ -1,0 +1,32 @@
+{
+    "paperId": "62ee79b60e284a2e4ebb8a57a642b00be56a5fd1",
+    "title": "Optimizing Machine Learning Models with CUDA: A Comprehensive Performance Analysis",
+    "year": 2025,
+    "venue": "2025 3rd International Conference on Communication, Security, and Artificial Intelligence (ICCSAI)",
+    "authors": [
+        "Niteesh L",
+        "Ampareeshan M B",
+        "Suganiya Murugan"
+    ],
+    "doi": "10.1109/ICCSAI64074.2025.11064558",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/62ee79b60e284a2e4ebb8a57a642b00be56a5fd1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep neural networks (DNNs), a subset of machine learning models, often face training and inference computational bottlenecks that demand extensive computational resources. These challenges are uniquely addressed through acceleration on Graphics Processing Units (GPUs). However, fully exploiting GPU architecture requires carefully pipelined tasks and low-level optimizations. This paper investigates how Compute Unified Device Architecture (CUDA) can significantly enhance the performance of machine learning models by optimizing critical computational kernels, memory management, and parallelization strategies. We demonstrate substantial reductions in execution time and improved resource utilization through CUDA techniques such as memory coalescing, shared memory usage, and kernel fusion. Our benchmarks reveal up to a 3.65x speedup in matrix operations and a 2.32x increase in CNN training throughput, establishing CUDA optimization as a practical solution for modern, high-efficiency machine learning workloads. These results underscore the importance of low-level GPU optimization in enabling scalable and energy-efficient AI systems. Finally, we offer guidelines for researchers and practitioners to effectively leverage CUDA to accelerate machine learning tasks and bridge the gap between high-level frameworks and hardware capabilities.",
+    "citationCount": 0,
+    "referenceCount": 25
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "1453ab09d7b6a7e09ddb9f1f07654223f497497b",
+    "title": "Set Reconciliation Using Ternary and Invertible Bloom Filters",
+    "year": 2023,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Seungeun Lee",
+        "Hayoung Byun",
+        "Hyesook Lim"
+    ],
+    "doi": "10.1109/TKDE.2023.3237009",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1453ab09d7b6a7e09ddb9f1f07654223f497497b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Set reconciliation between different hosts to hold the same dataset is an important prerequisite in numerous distributed applications. Sending the entire dataset to achieve set reconciliation is inefficient if the majority of the data owned by each host is the same. Each host is required to send exclusive elements uniquely included in its set to the other to minimize communication complexity. This paper proposes an efficient algorithm for a host to identify its exclusive elements using the recursive comparison of ternary Bloom filters, each representing the signature of a subset of elements and used for filtering out subsets with identical elements. Hence, subsets with exclusive elements are identified, and elements included in the identified subsets are programmed to an invertible Bloom filter (IBF) to be sent to the other host. Thus, the number of elements programmed in the IBF is significantly reduced. Simulation results show that the proposed algorithm provides excellent performance compared with existing set reconciliation algorithms under the constraint of the same amount of data communication.",
+    "citationCount": 4,
+    "referenceCount": 36
+}

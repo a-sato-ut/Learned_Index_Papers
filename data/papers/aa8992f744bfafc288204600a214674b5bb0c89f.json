@@ -1,0 +1,33 @@
+{
+    "paperId": "aa8992f744bfafc288204600a214674b5bb0c89f",
+    "title": "Data-Efficient Performance Modeling via Pre-training",
+    "year": 2025,
+    "venue": "International Conference on Compiler Construction",
+    "authors": [
+        "Chunting Liu",
+        "Riyadh Baghdadi"
+    ],
+    "doi": "10.1145/3708493.3712683",
+    "arxivId": "2501.14438",
+    "url": "https://www.semanticscholar.org/paper/aa8992f744bfafc288204600a214674b5bb0c89f",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2501.14438",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Performance models are essential for automatic code optimization, enabling compilers to predict the effects of code transformations on performance and guide search for optimal transformations. Building state-of-the-art performance models with deep learning, however, requires vast labeled datasets of random programs – an expensive and time-consuming process, stretching over months. This paper introduces a self-supervised pre-training scheme with autoencoders to reduce the need for labeled data. By pre-training on a large dataset of random programs, the autoencoder learns representations of code and transformations, which are then used to embed programs for the performance model. Implemented in the Tiramisu autoscheduler, our approach improves model accuracy with less data. For example, to achieve a MAPE of 20.72%, the original model requires 18 million data points, whereas our method achieves a similar MAPE of 22.44% with only 3.6 million data points, reducing data requirements by 5×.",
+    "citationCount": 1,
+    "referenceCount": 36
+}

@@ -1,0 +1,44 @@
+{
+    "paperId": "033b14118ecc676ea55c47daa6eae0a1f9bec055",
+    "title": "ALT: Boosting Deep Learning Performance by Breaking the Wall between Graph and Operator Level Optimizations",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhiying Xu",
+        "Jiafan Xu",
+        "H. Peng",
+        "Wei Wang",
+        "Xiaoliang Wang",
+        "Hao Wan",
+        "Haipeng Dai",
+        "Yixu Xu",
+        "Hao Cheng",
+        "Kun Wang",
+        "Guihai Chen"
+    ],
+    "doi": "10.48550/arXiv.2210.12415",
+    "arxivId": "2210.12415",
+    "url": "https://www.semanticscholar.org/paper/033b14118ecc676ea55c47daa6eae0a1f9bec055",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2210.12415",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning models rely on highly optimized tensor libraries for efficient inference on heterogeneous hardware. Current deep compilers typically predetermine layouts of tensors and then optimize loops of operators. However, such unidirectional and one-off workflow strictly separates graph-level optimization and operator-level optimization into different system layers, missing opportunities for unified tuning. This paper proposes ALT, a compiler that performs joint graph- and operator-level optimizations for deep models. ALT provides a generic transformation module to manipulate layouts and loops with easy-to-use primitive functions. ALT further integrates an auto-tuning module that jointly optimizes graph-level data layouts and operator-level loops while guaranteeing efficiency. Experimental results show that ALT significantly outperforms state-of-the-art compilers (e.g., Ansor) in terms of both single operator performance (e.g., 1.5x speedup on average) and end-to-end inference performance (e.g., 1.4x speedup on average).",
+    "citationCount": 0,
+    "referenceCount": 91
+}

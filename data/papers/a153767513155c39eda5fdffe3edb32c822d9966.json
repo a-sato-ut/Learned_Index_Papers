@@ -1,0 +1,34 @@
+{
+    "paperId": "a153767513155c39eda5fdffe3edb32c822d9966",
+    "title": "Stable Cuckoo Filter for Data Streams",
+    "year": 2021,
+    "venue": "International Conference on Parallel and Distributed Systems",
+    "authors": [
+        "Shangsen Li",
+        "Lailong Luo",
+        "Deke Guo",
+        "Yawei Zhao"
+    ],
+    "doi": "10.1109/ICPADS53394.2021.00023",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a153767513155c39eda5fdffe3edb32c822d9966",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cuckoo filter (CF), Bloom filter (BF) and their variants are space-efficient probabilistic data structures for approximate set membership queries. However, their data synopsis would inevitably become unusable when there are a number of member updates on the set; while updates are not uncommon for the real-world data streaming applications such as duplicate item detection, malicious URL checking, and caching applications. It has been shown that some variants of BF can be adaptive to stream applications. However, current extensions of BF structures generally incur unstable performance or intolerant membership testing errors. In this paper, we aim to design a data synopsis for membership testing on data streams with stable performance and tolerant query errors. To this end, we propose Stable Cuckoo Filters (SCF), which take a fine-grained manner to evict the stale elements and store those more recent ones. SCF absorbs the design philosophy from several unsuccessful designs. Specifically, SCFs take elegant update operations to embed time information with insertion operation and carefully evict the stale elements. We show that a tight upper bound of the expected false positive rate (FPR) remains asymptotically constant over the insertion of new members. The query error for recent elements of SCF (FNR) is related to the characteristics of the input data stream and query workloads. Extensive experiments on the real-world and synthetic datasets show that our designs are more stable than the existing variants of BF and realize 7 x smaller false errors and up to 3 x throughput.",
+    "citationCount": 1,
+    "referenceCount": 26
+}

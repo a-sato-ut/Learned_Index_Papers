@@ -1,0 +1,35 @@
+{
+    "paperId": "1cb60a2b4338e30ac94129d1ca888a4ab2240f4d",
+    "title": "Accelerating Convolutional Neural Networks via Inter-operator Scheduling",
+    "year": 2023,
+    "venue": "International Conference on Parallel and Distributed Systems",
+    "authors": [
+        "Yi You",
+        "Pangfeng Liu",
+        "Ding-Yong Hong",
+        "Jan-Jan Wu",
+        "Wei-Chung Hsu"
+    ],
+    "doi": "10.1109/ICPADS56603.2022.00123",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1cb60a2b4338e30ac94129d1ca888a4ab2240f4d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Convolution neural networks (CNNs) are essential in many machine learning tasks. Current deep learning frameworks and compilers usually treat the neutral network as a DAG (directed acyclic graph) of tensor operations and execute them one at a time according to a topological order, which respects the dependency in the DAG. There are two issues with this general approach. First, new CNNs have branch structures, and they form complex DAGs. These DAGs make it hard to find a good topology sort order that schedules operators within a GPU. Second, modern hardware has high computational power, which makes running operators sequentially on modern hardware under-utilizes resources. These two issues open the possibility of exploiting inter-operator parallelism, i.e., parallelism among independent operators in the DAG, to utilize the hardware resources more efficiently. In this work, we formally define the DAG scheduling problem that addresses the resource contention and propose an early-start-time-first algorithm with two heuristic rules for exploiting parallelism between independent operators. Experimental results show that our method improves the performance by up to 3.76× on RTX 3090 compared to the sequential execution.",
+    "citationCount": 0,
+    "referenceCount": 27
+}

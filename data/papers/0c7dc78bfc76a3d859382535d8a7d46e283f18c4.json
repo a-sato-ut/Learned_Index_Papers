@@ -1,0 +1,36 @@
+{
+    "paperId": "0c7dc78bfc76a3d859382535d8a7d46e283f18c4",
+    "title": "Reinforcement Learning and Adaptive Sampling for Optimized DNN Compilation",
+    "year": 2019,
+    "venue": "arXiv.org",
+    "authors": [
+        "Byung Hoon Ahn",
+        "Prannoy Pilligundla",
+        "H. Esmaeilzadeh"
+    ],
+    "doi": null,
+    "arxivId": "1905.12799",
+    "url": "https://www.semanticscholar.org/paper/0c7dc78bfc76a3d859382535d8a7d46e283f18c4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Achieving faster execution with shorter compilation time can enable further diversity and innovation in neural networks. However, the current paradigm of executing neural networks either relies on hand-optimized libraries, traditional compilation heuristics, or very recently, simulated annealing and genetic algorithms. Our work takes a unique approach by formulating compiler optimizations for neural networks as a reinforcement learning problem, whose solution takes fewer steps to converge. This solution, dubbed ReLeASE, comes with a sampling algorithm that leverages clustering to focus the costly samples (real hardware measurements) on representative points, subsuming an entire subspace. Our adaptive sampling not only reduces the number of samples, but also improves the quality of samples for better exploration in shorter time. As such, experimentation with real hardware shows that reinforcement learning with adaptive sampling provides 4.45x speed up in optimization time over AutoTVM, while also improving inference time of the modern deep networks by 5.6%. Further experiments also confirm that our adaptive sampling can even improve AutoTVM's simulated annealing by 4.00x.",
+    "citationCount": 21,
+    "referenceCount": 69
+}

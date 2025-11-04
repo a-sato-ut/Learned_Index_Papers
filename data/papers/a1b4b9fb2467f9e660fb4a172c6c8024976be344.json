@@ -1,0 +1,33 @@
+{
+    "paperId": "a1b4b9fb2467f9e660fb4a172c6c8024976be344",
+    "title": "Graphless: Toward Serverless Graph Processing",
+    "year": 2019,
+    "venue": "International Symposium on Parallel and Distributed Computing",
+    "authors": [
+        "L. Toader",
+        "Alexandru Uta",
+        "Ahmed Musaafir",
+        "A. Iosup"
+    ],
+    "doi": "10.1109/ISPDC.2019.00012",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a1b4b9fb2467f9e660fb4a172c6c8024976be344",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://research.vu.nl/files/239053276/Graphless.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Our society is increasingly solving complex problems through the use of graph processing. Existing graph processing systems focus on performance, which allows addressing ever-larger and more complex problems. They also require uncommon expertise to properly deploy and utilize. To make graph processing generally accessible-to small and medium enterprises and institutions, to common research groups, to individuals-, in this work we design and implement the Graphless graph-processing system. Graphless is based on the serverless paradigm, which proposes to simplify computing by letting developers only focus on small, stateless functions, which are deployed and managed automatically. We address with Graphless the key challenge of combining the stateless functions assumed by serverless computing with the (opposite) data-intensive nature of graph processing. Graphless tackles this challenge through an architectural approach that allows it to deploy with push or with pull operation, and a collection of backend services, such as an orchestrator and a memory-as-a-service component. We implement Graphless and conduct with it real-world experiments using Amazon Lambda for cloud-based serverless resources. Using the LDBC Graphalytics benchmark, we analyze Graphless, and compare its performance and operational cost with the graph-processing systems Apache Giraph (big data domain) and GraphMat (HPC). Overall, we show evidence Graphless provides performance and cost-efficiency similar to Giraph, for algorithms that can benefit from fine-grained elasticity, and lower than GraphMat, but is architecturally easier to deploy, and provides both push and pull operation.",
+    "citationCount": 27,
+    "referenceCount": 28
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "a93d829acd759f6d3532026b650d43c065a827be",
+    "title": "KVRangeDB: Range Queries for a Hash-based Key–Value Device",
+    "year": 2023,
+    "venue": "ACM Transactions on Storage",
+    "authors": [
+        "Mian Qin",
+        "Qing Zheng",
+        "Jason Lee",
+        "Bradley W. Settlemyer",
+        "Fei Wen",
+        "N. Reddy",
+        "Paul V. Gratz"
+    ],
+    "doi": "10.1145/3582013",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a93d829acd759f6d3532026b650d43c065a827be",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3582013",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Key–value (KV) software has proven useful to a wide variety of applications including analytics, time-series databases, and distributed file systems. To satisfy the requirements of diverse workloads, KV stores have been carefully tailored to best match the performance characteristics of underlying solid-state block devices. Emerging KV storage device is a promising technology for both simplifying the KV software stack and improving the performance of persistent storage-based applications. However, while providing fast, predictable put and get operations, existing KV storage devices do not natively support range queries that are critical to all three types of applications described above. In this article, we present KVRangeDB, a software layer that enables processing range queries for existing hash-based KV solid-state disks (KVSSDs). As an effort to adapt to the performance characteristics of emerging KVSSDs, KVRangeDB implements log-structured merge tree key index that reduces compaction I/O, merges keys when possible, and provides separate caches for indexes and values. We evaluated the KVRangeDB under a set of representative workloads, and compared its performance with two existing database solutions: a Rocksdb variant ported to work with the KVSSD, and Wisckey, a key–value database that is carefully tuned for conventional block devices. On filesystem aging workloads, KVRangeDB outperforms Wisckey by 23.7× in terms of throughput and reduce CPU usage and external write amplifications by 14.3× and 9.8×, respectively.",
+    "citationCount": 9,
+    "referenceCount": 41
+}

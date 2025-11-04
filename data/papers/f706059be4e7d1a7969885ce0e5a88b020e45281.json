@@ -1,0 +1,35 @@
+{
+    "paperId": "f706059be4e7d1a7969885ce0e5a88b020e45281",
+    "title": "DeepFetch: A Node-Aware Greedy Fetch System for Distributed Cache of Deep Learning Applications",
+    "year": 2024,
+    "venue": "IEEE International Conference on Networking, Architecture and Storages",
+    "authors": [
+        "Lijuan Kong",
+        "Fei Mei",
+        "Chunjie Zhu",
+        "Wen Cheng",
+        "Lingfang Zeng"
+    ],
+    "doi": "10.1109/NAS63802.2024.10781369",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f706059be4e7d1a7969885ce0e5a88b020e45281",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data I/O poses a significant bottleneck for distributed deep learning applications. Utilizing computing-node attached storage as a cache has become a prevalent solution to this problem. Given the large size of training datasets and the limited capacity of a single-node local storage, training samples are loaded in shards across computing nodes, requiring a deep learning job on one node to access samples from neighboring nodes. Compared to local node access, these neighboring accesses are highly inefficient for small samples. To mitigate this issue, we propose a node-aware prefetch algorithm that greedily fetches samples from neighboring nodes. Evaluation results show that our approach improves neighboring access performance by 60x for small samples of 64B size. For large samples of 1MB size, our approach still exhibits a 26% improvement.",
+    "citationCount": 0,
+    "referenceCount": 13
+}

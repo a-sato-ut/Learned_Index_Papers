@@ -1,0 +1,31 @@
+{
+    "paperId": "f80e5420b746a69cb6cada0439e7a949be37e14c",
+    "title": "Graph Neural Networks on Graph Databases",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Dmytro Lopushanskyy",
+        "Borun Shi"
+    ],
+    "doi": "10.48550/arXiv.2411.11375",
+    "arxivId": "2411.11375",
+    "url": "https://www.semanticscholar.org/paper/f80e5420b746a69cb6cada0439e7a949be37e14c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Training graph neural networks on large datasets has long been a challenge. Traditional approaches include efficiently representing the whole graph in-memory, designing parameter efficient and sampling-based models, and graph partitioning in a distributed setup. Separately, graph databases with native graph storage and query engines have been developed, which enable time and resource efficient graph analytics workloads. We show how to directly train a GNN on a graph DB, by retrieving minimal data into memory and sampling using the query engine. Our experiments show resource advantages for single-machine and distributed training. Our approach opens up a new way of scaling GNNs as well as a new application area for graph DBs.",
+    "citationCount": 1,
+    "referenceCount": 46
+}

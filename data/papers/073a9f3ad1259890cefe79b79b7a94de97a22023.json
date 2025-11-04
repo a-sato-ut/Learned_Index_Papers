@@ -1,0 +1,32 @@
+{
+    "paperId": "073a9f3ad1259890cefe79b79b7a94de97a22023",
+    "title": "Leveraging Artificial Intelligence on Binary Code Comprehension",
+    "year": 2022,
+    "venue": "International Conference on Automated Software Engineering",
+    "authors": [
+        "Yifan Zhang"
+    ],
+    "doi": "10.1145/3551349.3559564",
+    "arxivId": "2210.05103",
+    "url": "https://www.semanticscholar.org/paper/073a9f3ad1259890cefe79b79b7a94de97a22023",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3551349.3559564",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Understanding binary code is an essential but complex software engineering task for reverse engineering, malware analysis, and compiler optimization. Unlike source code, binary code has limited semantic information, which makes it challenging for human comprehension. At the same time, compiling source to binary code, or transpiling among different programming languages (PLs) can provide a way to introduce external knowledge into binary comprehension. We propose to develop Artificial Intelligence (AI) models that aid human comprehension of binary code. Specifically, we propose to incorporate domain knowledge from large corpora of source code (e.g., variable names, comments) to build AI models that capture a generalizable representation of binary code. Lastly, we will investigate metrics to assess the performance of models that apply to binary code by using human studies of comprehension.",
+    "citationCount": 4,
+    "referenceCount": 40
+}

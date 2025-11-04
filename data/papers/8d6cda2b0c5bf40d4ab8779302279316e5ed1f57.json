@@ -1,0 +1,29 @@
+{
+    "paperId": "8d6cda2b0c5bf40d4ab8779302279316e5ed1f57",
+    "title": "EGQM: A Query Approach of English Gazetteer Based on the Character Features",
+    "year": 2025,
+    "venue": "2025 5th International Conference on Artificial Intelligence, Big Data and Algorithms (CAIBDA)",
+    "authors": [
+        "Wu Xiao",
+        "Yunlong Zang",
+        "Yadi Wang",
+        "Peng Ye"
+    ],
+    "doi": "10.1109/CAIBDA65784.2025.11183379",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8d6cda2b0c5bf40d4ab8779302279316e5ed1f57",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Gazetteer query is a fundamental component of gazetteer services, such as gazetteer correction and gazetteer matching. However, with the increasing volume of place name data, the performance of gazetteer queries is facing significant challenges. In the large-scale data environment of the big data era, traditional query approaches suffer from issues such as low accuracy and inefficiency. To address these challenges, this paper proposes a character feature-based query approach for English gazetteers (EGQM). First, an inverted index structure is constructed, using a multi-dimensional feature vector as the index term to enhance query efficiency. Second, based on the inverted index, candidate place names are queried by analyzing the character features of the query place name, resulting in a set of candidate place names. Third, a place name similarity algorithm is developed to optimize the sorting strategy of the query results. Using a gazetteer containing 115,000 English place names as an example, five test sets are constructed to compare the performance of EGQM with a full-text query approach (Lucene). Experimental results demonstrate that EGQM significantly enhances both the accuracy and efficiency of English gazetteer queries.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

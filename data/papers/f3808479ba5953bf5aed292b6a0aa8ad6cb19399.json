@@ -1,0 +1,35 @@
+{
+    "paperId": "f3808479ba5953bf5aed292b6a0aa8ad6cb19399",
+    "title": "Fast Schedule Tensor Computation on GPU with High Data Reuse and Device Utilization",
+    "year": 2019,
+    "venue": "2019 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom)",
+    "authors": [
+        "Yuxiang Zhang",
+        "Yu Zhang"
+    ],
+    "doi": "10.1109/ISPA-BDCloud-SustainCom-SocialCom48970.2019.00084",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f3808479ba5953bf5aed292b6a0aa8ad6cb19399",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Tensor computation, or computation on high-dimensional arrays, is widely used in deep learning, image processing, and scientific computation. And GPU has become the mainstream platform to accelerate computing. We propose an algorithm which can efficiently find a promising schedule to exploit the parallelism and locality of computation on GPU. In particular, an empirical model comprehensively considering locality, load balance and parallelism sufficiency of computation on given GPU model is designed to measure the quality of a candidate schedule. And empirical constraints are introduced to significantly reduce the searching space of schedule to polynomial complexity in terms of computation dimensions. Compared with the state-of-the-art tool, Tensor Comprehensions, our algorithm can find a promising schedule 5-45x faster, and the corresponding scheduled code runs 1.5-10x faster.",
+    "citationCount": 0,
+    "referenceCount": 11
+}

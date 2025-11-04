@@ -1,0 +1,34 @@
+{
+    "paperId": "2b94b05af92f669126b6ccafe9fc4162906c910f",
+    "title": "Approximate Hausdorff Distance for Multi-Vector Databases",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Dongfang Zhao"
+    ],
+    "doi": "10.48550/arXiv.2503.06833",
+    "arxivId": "2503.06833",
+    "url": "https://www.semanticscholar.org/paper/2b94b05af92f669126b6ccafe9fc4162906c910f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Hausdorff distance is a fundamental measure for comparing sets of vectors, widely used in database theory and geometric algorithms. However, its exact computation is computationally expensive, often making it impractical for large-scale applications such as multi-vector databases. In this paper, we introduce an approximation framework that efficiently estimates the Hausdorff distance while maintaining rigorous error bounds. Our approach leverages approximate nearest-neighbor (ANN) search to construct a surrogate function that preserves essential geometric properties while significantly reducing computational complexity. We provide a formal analysis of approximation accuracy, deriving both worst-case and expected error bounds. Additionally, we establish theoretical guarantees on the stability of our method under transformations, including translation, rotation, and scaling, and quantify the impact of non-uniform scaling on approximation quality. This work provides a principled foundation for integrating Hausdorff distance approximations into large-scale data retrieval and similarity search applications, ensuring both computational efficiency and theoretical correctness.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

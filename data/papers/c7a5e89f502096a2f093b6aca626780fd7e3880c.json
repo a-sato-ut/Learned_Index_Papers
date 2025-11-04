@@ -1,0 +1,36 @@
+{
+    "paperId": "c7a5e89f502096a2f093b6aca626780fd7e3880c",
+    "title": "Multi-Armed Bandits with Probing",
+    "year": 2024,
+    "venue": "International Symposium on Information Theory",
+    "authors": [
+        "Eray Can Elumar",
+        "Cem Tekin",
+        "Osman Yagan"
+    ],
+    "doi": "10.1109/ISIT57864.2024.10619238",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c7a5e89f502096a2f093b6aca626780fd7e3880c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We examine a $K-\\mathbf{armed}$ multi-armed bandit problem involving probes, where the agent is permitted to probe one arm for a cost $c\\geq 0$ to observe its reward before making a pull. We identify the optimal strategy for deciding whether to probe or pull an arm. In the case of probing an arm, we also make a decision on which arm to pull after observing the probe's outcome. Additionally, we introduce a novel regret definition based on the expected reward of the optimal action. We propose UCBP, a novel algorithm that utilizes this strategy. UCBP achieves a gap-independent regret upper bound in $T$ rounds that scales with $\\mathcal{O}(\\sqrt{KT\\log T})$, and an order optimal gap-dependent upper bound that scales with $\\mathcal{O}(K\\log T)$. We provide UCB-naive-probe, a naive UCB-based approach which has a gap-independent regret upper bound on the order of $O(K\\sqrt{T\\log T})$, and gap-dependent regret on the order of $O(K^{2}\\log T)$ as a baseline. We provide empirical simulations to verify the utility of the UCBP algorithms in practical settings, and show that UCBP outperforms UCB-naive-probe in simulations.",
+    "citationCount": 1,
+    "referenceCount": 34
+}

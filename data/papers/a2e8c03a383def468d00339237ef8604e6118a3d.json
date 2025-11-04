@@ -1,0 +1,34 @@
+{
+    "paperId": "a2e8c03a383def468d00339237ef8604e6118a3d",
+    "title": "Performance Embeddings: A Similarity-based Approach to Automatic Performance Optimization",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Lukas Trümper",
+        "Tal Ben-Nun",
+        "Philipp Schaad",
+        "A. Calotoiu",
+        "T. Hoefler"
+    ],
+    "doi": "10.48550/arXiv.2303.08142",
+    "arxivId": "2303.08142",
+    "url": "https://www.semanticscholar.org/paper/a2e8c03a383def468d00339237ef8604e6118a3d",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2303.08142",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Performance optimization is an increasingly challenging but often repetitive task. While each platform has its quirks, the underlying code transformations rely on data movement and computational characteristics that recur across applications. This paper proposes to leverage those similarities by constructing an embedding space for subprograms. The continuous space captures both static and dynamic properties of loop nests via symbolic code analysis and performance profiling, respectively. Performance embeddings enable direct knowledge transfer of performance tuning between applications, which can result from autotuning or tailored improvements. We demonstrate this transfer tuning approach on case studies in deep neural networks, dense and sparse linear algebra compositions, and numerical weather prediction stencils. Transfer tuning reduces the search complexity by up to four orders of magnitude and outperforms the MKL library in sparse-dense matrix multiplication. The results exhibit clear correspondences between program characteristics and optimizations, outperforming prior specialized state-of-the-art approaches and generalizing beyond their capabilities.",
+    "citationCount": 0,
+    "referenceCount": 62
+}

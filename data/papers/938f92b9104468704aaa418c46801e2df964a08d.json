@@ -1,0 +1,31 @@
+{
+    "paperId": "938f92b9104468704aaa418c46801e2df964a08d",
+    "title": "Individualized non-uniform quantization for vector search",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Mariano Tepper",
+        "Ted Willke"
+    ],
+    "doi": "10.48550/arXiv.2509.18471",
+    "arxivId": "2509.18471",
+    "url": "https://www.semanticscholar.org/paper/938f92b9104468704aaa418c46801e2df964a08d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Embedding vectors are widely used for representing unstructured data and searching through it for semantically similar items. However, the large size of these vectors, due to their high-dimensionality, creates problems for modern vector search techniques: retrieving large vectors from memory/storage is expensive and their footprint is costly. In this work, we present NVQ (non-uniform vector quantization), a new vector compression technique that is computationally and spatially efficient in the high-fidelity regime. The core in NVQ is to use novel parsimonious and computationally efficient nonlinearities for building non-uniform vector quantizers. Critically, these quantizers are \\emph{individually} learned for each indexed vector. Our experimental results show that NVQ exhibits improved accuracy compared to the state of the art with a minimal computational cost.",
+    "citationCount": 0,
+    "referenceCount": 57
+}

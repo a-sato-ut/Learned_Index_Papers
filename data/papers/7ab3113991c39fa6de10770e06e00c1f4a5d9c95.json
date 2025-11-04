@@ -1,0 +1,40 @@
+{
+    "paperId": "7ab3113991c39fa6de10770e06e00c1f4a5d9c95",
+    "title": "CAAF: An NDN-Based Cache-Aware Adaptive Forwarding Strategy for Reliable Content Delivery in VANETs",
+    "year": 2025,
+    "venue": "IEEE Transactions on Mobile Computing",
+    "authors": [
+        "Haodong Wang",
+        "Jiangping Han",
+        "Kaiping Xue",
+        "Jiayu Yang",
+        "Jian Li",
+        "Qibin Sun",
+        "Jun Lu"
+    ],
+    "doi": "10.1109/TMC.2025.3543458",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7ab3113991c39fa6de10770e06e00c1f4a5d9c95",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The high mobility in Vehicular Ad-hoc Networks (VANETs) significantly affects the reliability of data transmission. To solve this problem, Named Data Networking (NDN)-based VANETs are proposed, utilizing in-network caching and named-based forwarding to overcome the dual challenges of mobility and connectivity. Although in-network caching enhances content availability, a strategy that accurately locates and efficiently utilizes the cached content in VANETs with highly dynamic environments is still lacking. In this paper, we propose a novel NDN-based cache-aware adaptive forwarding (CAAF) strategy for VANETs. CAAF proactively predicts content locations and ensures reliable content retrieval by adaptively selecting forwarding nodes that prioritize fast delivery and stable transmission. Specifically, we design a content information table for each vehicle to record information about the Interest packets it receives. Furthermore, these tables are updated periodically across all vehicles and a prediction model is used to predict real-time in-network caching during the update interval. Subsequently, we execute a filter mechanism to sieve candidate forwarding vehicles that satisfy both the accessibility and stability requirements. These candidates are then evaluated using a multi-attribute decision-making method across diverse parameters to determine the optimal forwarding node. Our extensive simulation results demonstrate that the proposed CAAF outperforms the state-of-the-art forwarding strategy regarding content retrieval delay and Interest satisfaction ratio across diverse scenarios.",
+    "citationCount": 0,
+    "referenceCount": 41
+}

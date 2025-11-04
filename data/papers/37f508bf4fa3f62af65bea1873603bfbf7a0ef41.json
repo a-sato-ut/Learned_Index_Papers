@@ -1,0 +1,28 @@
+{
+    "paperId": "37f508bf4fa3f62af65bea1873603bfbf7a0ef41",
+    "title": "High-Performance Graph Storage and Mutation for Graph Processing and Streaming",
+    "year": 2025,
+    "venue": "International journal of electrical and computer engineering systems",
+    "authors": [
+        "Soukaina Firmli",
+        "Dalila Chiadmi"
+    ],
+    "doi": "10.32985/ijeces.16.1.3",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/37f508bf4fa3f62af65bea1873603bfbf7a0ef41",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.32985/ijeces.16.1.3",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The growing need for managing extensive dynamic datasets has propelled graph processing and streaming to the forefront of the data processing community. Given the irregularity of graph workloads and the large scale of real-world graphs, researchers face numerous challenges when designing high-performance graph processing and streaming systems, due to the sheer volume, intricacy, and continual evolution of graph data. In this paper, we highlight the challenges related to two vital aspects within Graph Processing Systems that significantly impact the overall system performance: 1) the graph storage, encompassing the data structures storing vertices and edges, and 2) graph mutation protocols, referring to the ingestion and storage of new graph updates, such as additions of edges and vertices. Our paper provides a practical taxonomy of techniques designed to improve the efficiency of graph storage and mutation, by reviewing state-of-the-art systems and highlighting the challenges they face in offering a good performance tradeoff for read, write, and memory consumption. Consequently, this enables us to highlight overlooked aspects of performance, that are essential for real-world applications, such as the lack of mutation protocols for graph properties and auxiliary graph data, lack of configurability and cross-platform evaluation of solutions for graph processing and streaming.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

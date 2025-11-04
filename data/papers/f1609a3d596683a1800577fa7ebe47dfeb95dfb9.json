@@ -1,0 +1,32 @@
+{
+    "paperId": "f1609a3d596683a1800577fa7ebe47dfeb95dfb9",
+    "title": "Learning to Caching Under the Partial-feedback Regime",
+    "year": 2022,
+    "venue": "Conference on Network and Service Management",
+    "authors": [
+        "Qingsong Liu",
+        "Yaoyu Zhang"
+    ],
+    "doi": "10.23919/CNSM55787.2022.9964551",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f1609a3d596683a1800577fa7ebe47dfeb95dfb9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We consider the caching problem in an online learning perspective, i.e., no model assumptions and prior knowledge for the file request sequence. Our goal is to design an efficient on-line caching policy with minimal regret, i.e, minimizing the total number of cache-miss with respect to the best static configuration in hindsight. Previous studies such as Follow-The-Perturbed-Leader (FTPL) caching policy, have provided some near-optimal results, but their theoretical performance guarantees only valid for the regime wherein all arrival requests could be seen by the cache, which is not the case in some practical scenarios like caching at cellular base station, content dissemination via DNS, etc. Hence our work study the partial-feedback regime wherein only requests for currently cached files are seen by the cache, which is more challenging and has not been studied before in the online learning perspective. We propose an online caching policy combining the FTPL with a novel popularity estimation procedure called Geometric Resampling (GR), and show that it yields the first sublinear regret guarantee in this regime. We also conduct numerical experiments to validate the theoretical guarantees of our caching policy.",
+    "citationCount": 4,
+    "referenceCount": 35
+}

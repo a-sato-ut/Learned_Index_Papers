@@ -1,0 +1,37 @@
+{
+    "paperId": "1073cb4c4bf75d825587db09bf003deaa83f47cc",
+    "title": "NIOT: A Novel Inference Optimization of Transformers on Modern CPUs",
+    "year": 2023,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Zining Zhang",
+        "Yao Chen",
+        "Bingsheng He",
+        "Zhenjie Zhang"
+    ],
+    "doi": "10.1109/TPDS.2023.3269530",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1073cb4c4bf75d825587db09bf003deaa83f47cc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the machine learning era, model inference efficiency is one of the most important issues for machine learning systems. It is a major challenge to find the optimal configuration in a huge search space as the combinations of kernel fusion, memory tiling, and thread allocation strategies result in highly variable and unpredictable inference performance. The problem is particularly pronounced in models with large parameter matrices such as Transformers. In this article, we aim to develop a general and powerful framework for inference optimization, called NIOT, to achieve desirable efficiency for the prevailing Transformer-like models on CPUs. To take full advantage of modern CPU features such as SIMD and cache hierarchy, NIOT employs various methods to provide promising strategies tailored to the target Transformer model. Our C++ implementation of NIOT shows significant performance improvements over popular well-optimized model-serving runtimes such as PyTorch and ONNXRuntime.",
+    "citationCount": 6,
+    "referenceCount": 55
+}

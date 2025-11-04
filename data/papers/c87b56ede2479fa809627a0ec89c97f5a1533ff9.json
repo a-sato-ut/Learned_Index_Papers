@@ -1,0 +1,43 @@
+{
+    "paperId": "c87b56ede2479fa809627a0ec89c97f5a1533ff9",
+    "title": "Locality-Sensitive Hashing-Based Efficient Point Transformer with Applications in High-Energy Physics",
+    "year": 2024,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "Siqi Miao",
+        "Zhiyuan Lu",
+        "Mia Liu",
+        "Javier Duarte",
+        "Pan Li"
+    ],
+    "doi": "10.48550/arXiv.2402.12535",
+    "arxivId": "2402.12535",
+    "url": "https://www.semanticscholar.org/paper/c87b56ede2479fa809627a0ec89c97f5a1533ff9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study introduces a novel transformer model optimized for large-scale point cloud processing in scientific domains such as high-energy physics (HEP) and astrophysics. Addressing the limitations of graph neural networks and standard transformers, our model integrates local inductive bias and achieves near-linear complexity with hardware-friendly regular operations. One contribution of this work is the quantitative analysis of the error-complexity tradeoff of various sparsification techniques for building efficient transformers. Our findings highlight the superiority of using locality-sensitive hashing (LSH), especially OR&AND-construction LSH, in kernel approximation for large-scale point cloud data with local inductive bias. Based on this finding, we propose LSH-based Efficient Point Transformer (HEPT), which combines E$^2$LSH with OR&AND constructions and is built upon regular computations. HEPT demonstrates remarkable performance on two critical yet time-consuming HEP tasks, significantly outperforming existing GNNs and transformers in accuracy and computational speed, marking a significant advancement in geometric deep learning and large-scale scientific data processing. Our code is available at https://github.com/Graph-COM/HEPT.",
+    "citationCount": 10,
+    "referenceCount": 92
+}

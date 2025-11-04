@@ -1,0 +1,38 @@
+{
+    "paperId": "56228388dbe068472e9eda56c7e5bdeb1418c775",
+    "title": "On the Benefits of Predictable Traffic in Virtual Switches: A Case Study",
+    "year": 2025,
+    "venue": "Applied Networking Research Workshop",
+    "authors": [
+        "Emil Ståhl",
+        "Marco Chiesa",
+        "Simone Ferlin",
+        "Eelco Chaudron"
+    ],
+    "doi": "10.1145/3744200.3744762",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/56228388dbe068472e9eda56c7e5bdeb1418c775",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Software-Defined Networking (SDN) has increasingly shifted toward hardware solutions that accelerate packet processing within data planes. However, optimizing the interaction between the data plane and the control plane, commonly referred to as the slow path, remains a significant challenge since the control plane installs rules in the data plane reactively as new flows arrive, which requires time-consuming transitions to user space. In this paper, we demonstrate how to prevent a bottleneck in the slow path by investigating the impact of predicting flows and preemptively installing their rules in the data plane. Using a workload containing different levels of \"coflows\", our results demonstrate that this predictive approach varies with the flow rate of traffic traces. Notably, a system that could predict 25% of the traffic flows would decrease the average latency by up to approximately 24% and reduce CPU utilization by approximately 12%.",
+    "citationCount": 0,
+    "referenceCount": 13
+}

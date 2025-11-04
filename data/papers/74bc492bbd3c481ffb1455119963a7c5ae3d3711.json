@@ -1,0 +1,31 @@
+{
+    "paperId": "74bc492bbd3c481ffb1455119963a7c5ae3d3711",
+    "title": "Whether Cache Advertisement is Necessary for Content Providers in CDNs? Model and Analysis",
+    "year": 2022,
+    "venue": "2022 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom)",
+    "authors": [
+        "Xiaodong Dong",
+        "Binlei Cai"
+    ],
+    "doi": "10.1109/ISPA-BDCloud-SocialCom-SustainCom57177.2022.00096",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/74bc492bbd3c481ffb1455119963a7c5ae3d3711",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cache advertisement is a widely adopted technique to reduce cache access costs by sending indicators to end-users to inform them of the cached content in Content Delivery Networks (CDNs). However, determining the cache advertisement interval is still a problem. A short cache advertisement interval ensures end-users get information as approximate to real-time cached contents as possible but leads to high bandwidth costs. A long cache advertisement interval reduces bandwidth costs. But end-users will have a higher probability of mistakenly asserting that a content file is or is not stored in the cache, causing redundant cache accesses or mistakenly bypassing the cache, referred to as False Positive (FP) and False Negative (FN). Although, existing methods argue to make the cache advertisement interval self-adjustable. However, no rigorous mathematical proof has been given theoretically. In this paper, we answer whether cache advertisement is necessary and when a cache advertisement indicator should be sent through mathematical analysis. However, estimating the probability of FP and FP for a certain period is challenging as it depends on the specific request arrival sequence. Hence, instead of modeling the probability of FN and FP during a cache advertisement interval, we model them for serving next request. Then, we analyze the necessity of cache advertisement and derive the optimal cache advertisement interval. Next we design an online heuristic algorithm to find an approximate optimal cache advertisement interval without knowing the request arrival sequence. Experimental results show that cache advertisement is efficient in increasing content provider's revenue especially when the cache hit rate is low.",
+    "citationCount": 2,
+    "referenceCount": 20
+}

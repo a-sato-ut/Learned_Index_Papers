@@ -1,0 +1,40 @@
+{
+    "paperId": "81078b47f83b8f24ea85e3e82c25f4eb4470b9e1",
+    "title": "OCTOKV: An Agile Network-Based Key-Value Storage System with Robust Load Orchestration",
+    "year": 2023,
+    "venue": "IEEE/ACM International Symposium on Modeling, Analysis, and Simulation On Computer and Telecommunication Systems",
+    "authors": [
+        "Yeohyeon Park",
+        "Junhyeok Park",
+        "Awais Khan",
+        "Junghwan Park",
+        "Chang-Gyu Lee",
+        "Woosuk Chung",
+        "Youngjae Kim"
+    ],
+    "doi": "10.1109/MASCOTS59514.2023.10387663",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/81078b47f83b8f24ea85e3e82c25f4eb4470b9e1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we propose OctoKV, an innovative network-based key-value storage system. OctoKV addresses the repetitive address translation overhead associated with traditional key-value stores running on file systems on the client side. To mitigate this overhead, we implemented the key-value store on the server side using NVMe-oF and a user-level NVMe driver. In particular, we employed fine-grained resource monitoring and load balancing based on heuristics to optimize I/O performance. OctoKV is deployed on a Linux cluster with Intel SPDK. The extensive evaluation shows that OctoKV achieves lower I/O response times in comparison to traditional approaches where key-value stores run on the client side. Also, the proposed load balancing strategies efficiently enhance I/O response times by equally distributing the workload from overloaded cores to other cores.",
+    "citationCount": 2,
+    "referenceCount": 12
+}

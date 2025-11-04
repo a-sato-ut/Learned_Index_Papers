@@ -1,0 +1,33 @@
+{
+    "paperId": "20450c7683333b1c2776209f4e92ac956b6739fb",
+    "title": "Melding the Serverless Control Plane with the Conventional Cluster Manager for Speed and Resource Efficiency",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Leonid Kondrashov",
+        "Lazar Cvetkovi'c",
+        "Hancheng Wang",
+        "Boxi Zhou",
+        "Dhairya Rungta",
+        "Dmitrii Ustiugov"
+    ],
+    "doi": null,
+    "arxivId": "2505.24551",
+    "url": "https://www.semanticscholar.org/paper/20450c7683333b1c2776209f4e92ac956b6739fb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Serverless platforms face a trade-off: conventional cluster managers like Kubernetes offer compatibility for co-locating Function-as-a-Service (FaaS) and Backend-as-a-Service (BaaS) components of serverless applications at the cost of high cold-start latency, while specialized FaaS-only systems like Dirigent achieve low latency by sacrificing compatibility, which prevents integrated management and optimization. Our analysis reveals FaaS traffic is bimodal: predictable, sustainable traffic consumes>98% of cluster resources, while sporadic excessive bursts stress the control plane's scaling latency, not its throughput. With these insights, we design PulseNet, a serverless architecture that employs a dual-track control plane tailoring to both traffic types. PulseNet's standard track manages sustainable traffic with long-lived, full-featured Regular Instances under a conventional cluster manager, preserving compatibility and robust features for the majority of the workload. To handle excessive traffic, an expedited track bypasses the slow manager to rapidly create short-lived, disposable Emergency Instances, minimizing cold-start latency and resource waste from idle instances. This hybrid approach achieves 35% better performance than Dirigent, a FaaS-only system, at the same cost and outperforms other Kubernetes-compatible systems by 1.5-3.5x at a 3-70% lower cost.",
+    "citationCount": 0,
+    "referenceCount": 47
+}

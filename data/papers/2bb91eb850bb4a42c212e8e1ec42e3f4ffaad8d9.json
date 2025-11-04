@@ -1,0 +1,40 @@
+{
+    "paperId": "2bb91eb850bb4a42c212e8e1ec42e3f4ffaad8d9",
+    "title": "Interest Flooding Attacks in Named Data Networking: Survey of Existing Solutions, Open Issues, Requirements, and Future Directions",
+    "year": 2022,
+    "venue": "ACM Computing Surveys",
+    "authors": [
+        "Ahmed Benmoussa",
+        "C. A. Kerrache",
+        "N. Lagraa",
+        "Spyridon Mastorakis",
+        "Abderrahmane Lakas",
+        "Abdou el Karim Tahari"
+    ],
+    "doi": "10.1145/3539730",
+    "arxivId": "2206.05605",
+    "url": "https://www.semanticscholar.org/paper/2bb91eb850bb4a42c212e8e1ec42e3f4ffaad8d9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2206.05605",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Named Data Networking (NDN) is a prominent realization of the vision of Information-Centric Networking. The NDN architecture adopts name-based routing and location-independent data retrieval. Among other important features, NDN integrates security mechanisms and focuses on protecting the content rather than the communications channels. Along with a new architecture come new threats, and NDN is no exception. NDN is a potential target for new network attacks such as Interest Flooding Attacks (IFAs). Attackers take advantage of IFA to launch (D)DoS attacks in NDN. Many IFA detection and mitigation solutions have been proposed in the literature. However, there is no comprehensive review study of these solutions that has been proposed so far. Therefore, in this article, we propose a survey of the various IFAs with a detailed comparative study of all the relevant proposed solutions as counter-measures against IFAs. We also review the requirements for a complete and efficient IFA solution and pinpoint the various issues encountered by IFA detection and mitigation mechanisms through a series of attack scenarios. Finally, in this survey, we offer an analysis of the open issues and future research directions regarding IFAs.",
+    "citationCount": 36,
+    "referenceCount": 126
+}

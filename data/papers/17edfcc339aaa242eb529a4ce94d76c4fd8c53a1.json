@@ -1,0 +1,44 @@
+{
+    "paperId": "17edfcc339aaa242eb529a4ce94d76c4fd8c53a1",
+    "title": "OptiFX: Automatic Optimization for Convolutional Neural Networks with Aggressive Operator Fusion on GPUs",
+    "year": 2025,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Xueying Wang",
+        "Shigang Li",
+        "Hao Qian",
+        "Fan Luo",
+        "Zhaoyang Hao",
+        "Tong Wu",
+        "Ruiyuan Xu",
+        "Huimin Cui",
+        "Xiaobing Feng",
+        "Guangli Li",
+        "Jingling Xue"
+    ],
+    "doi": "10.1145/3716876",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/17edfcc339aaa242eb529a4ce94d76c4fd8c53a1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1145/3716876",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Convolutional Neural Networks (CNNs) are fundamental to advancing computer vision technologies. As CNNs become more complex and larger, optimizing model inference remains a critical challenge in both industry and academia. On modern GPU platforms, CNN operators are typically memory-bound, leading to significant performance degradation due to memory wall effects. While recent advancements have utilized operator fusion–merging multiple operators into one–to enhance inference performance, the fusion of multiple region-based operators like convolution is seldom addressed. This article introduces AFusion, a novel operator fusion technique aimed at improving inference performance, and OptiFX, an automatic optimization framework based on this approach. OptiFX employs a cost-based backtracking search to identify optimal sub-graphs for fusion and utilizes template-based code generation to create efficient kernels for these fused sub-graphs. We evaluate OptiFX across seven prominent CNN architectures–GoogLeNet, ResNet, DenseNet, MobileNet, SqueezeNet, NasNet, and UNet–on Nvidia A6000 Ada, RTX 4090, and Jetson AGX Orin platforms. Our results demonstrate that OptiFX significantly outperforms existing methods, achieving average speedups of \\(2.91\\times\\) , \\(3.30\\times\\) , and \\(2.09\\times\\) in accelerating inference performance on these platforms, respectively.",
+    "citationCount": 0,
+    "referenceCount": 56
+}

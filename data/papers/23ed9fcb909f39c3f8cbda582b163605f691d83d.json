@@ -1,0 +1,32 @@
+{
+    "paperId": "23ed9fcb909f39c3f8cbda582b163605f691d83d",
+    "title": "countBF: A General-purpose High Accuracy and Space Efficient Counting Bloom Filter",
+    "year": 2021,
+    "venue": "Conference on Network and Service Management",
+    "authors": [
+        "Sabuzima Nayak",
+        "Ripon Patgiri"
+    ],
+    "doi": "10.23919/CNSM52442.2021.9615556",
+    "arxivId": "2106.04364",
+    "url": "https://www.semanticscholar.org/paper/23ed9fcb909f39c3f8cbda582b163605f691d83d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2106.04364",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Bloom Filter is a probabilistic data structure for the membership query, and it has been intensely experimented in various fields to reduce memory consumption and enhance a system's performance. Bloom Filter is classified into two key categories: counting Bloom Filter (CBF), and non-counting Bloom Filter. CBF has a higher false positive probability than standard Bloom Filter (SBF), i.e., CBF uses a higher memory footprint than SBF. But CBF can address the issue of the false negative probability. Notably, SBF is also false negative free, but it cannot support delete operations like CBF. To address these issues, we present a novel counting Bloom Filter based on SBF and 2D Bloom Filter, called countBF. countBF uses a modified murmur hash function to enhance its various requirements, which is experimentally evaluated. Our experimental results show that countBF uses 1.96× and 7.85× less memory than SBF and CBF respectively, while preserving lower false positive probability and execution time than both SBF and CBF. The overall accuracy of countBF is 99.999921, and it proves the superiority of countBF over SBF and CBF. Also, we compare with other state-of-the-art counting Bloom Filters.",
+    "citationCount": 12,
+    "referenceCount": 35
+}

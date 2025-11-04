@@ -1,0 +1,36 @@
+{
+    "paperId": "c9d24ac34cb9d3cc015f926a2a77b4571162311c",
+    "title": "The Workflow Trace Archive: Open-Access Data From Public and Private Computing Infrastructures",
+    "year": 2019,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "L. Versluis",
+        "Roland Mathá",
+        "Sacheendra Talluri",
+        "T. Hegeman",
+        "R. Prodan",
+        "E. Deelman",
+        "A. Iosup"
+    ],
+    "doi": "10.1109/TPDS.2020.2984821",
+    "arxivId": "1906.07471",
+    "url": "https://www.semanticscholar.org/paper/c9d24ac34cb9d3cc015f926a2a77b4571162311c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/tpds.2020.2984821",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Realistic, relevant, and reproducible experiments often need input traces collected from real-world environments. In this work, we focus on traces of workflows—common in datacenters, clouds, and HPC infrastructures. We show that the state-of-the-art in using workflow-traces raises important issues: (1) the use of realistic traces is infrequent and (2) the use of realistic, <italic>open-access</italic> traces even more so. Alleviating these issues, we introduce the Workflow Trace Archive (WTA), an open-access archive of workflow traces from diverse computing infrastructures and tooling to parse, validate, and analyze traces. The WTA includes <inline-formula><tex-math notation=\"LaTeX\">${>}48$</tex-math><alternatives><mml:math><mml:mrow><mml:mo>></mml:mo><mml:mn>48</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href=\"versluis-ieq1-2984821.gif\"/></alternatives></inline-formula> million workflows captured from <inline-formula><tex-math notation=\"LaTeX\">${>}10$</tex-math><alternatives><mml:math><mml:mrow><mml:mo>></mml:mo><mml:mn>10</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href=\"versluis-ieq2-2984821.gif\"/></alternatives></inline-formula> computing infrastructures, representing a broad diversity of trace domains and characteristics. To emphasize the importance of trace diversity, we characterize the WTA contents and analyze in simulation the impact of trace diversity on experiment results. Our results indicate significant differences in characteristics, properties, and workflow structures between workload sources, domains, and fields.",
+    "citationCount": 39,
+    "referenceCount": 79
+}

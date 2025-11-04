@@ -1,0 +1,33 @@
+{
+    "paperId": "64a1593cd1244e91d5f6a6f3f09dfc451d6dd8b5",
+    "title": "State Sharding with Space-aware Representations",
+    "year": 2020,
+    "venue": "International Conference on Blockchain",
+    "authors": [
+        "Avi Mizrahi",
+        "Ori Rottenstreich"
+    ],
+    "doi": "10.1109/ICBC48266.2020.9169402",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/64a1593cd1244e91d5f6a6f3f09dfc451d6dd8b5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "State sharding is a common solution to the scalability problem in blockchain systems, allowing nodes to hold a partial view of the system state. With such sharding, the processing of a transaction might not be completed locally within a node and require the involvement of multiple shards. Such cross-shards transactions have a high negative impact on system performance and are frequent with traditional state partition solutions which are often based on a simple mapping of data into shards. By locating together parts of the system state accessed by frequent transactions, the amount of cross-shard transactions can be reduced. On the other hand, the representation of such particular mappings can be memory intensive. In this paper, we study traffic-aware sharding that can be described in memoryefficient mappings. We first survey existing mapping schemes in common blockchains. We indicate the tradeoff between the size of the mapping of data to shards and the required transaction processing time and suggest algorithms for finding memory-light sharding of low cross-shard rate. We examine the efficiency of the solutions and the required frequency of sharding recomputation based on real transaction information of the Ethereum network.",
+    "citationCount": 12,
+    "referenceCount": 37
+}

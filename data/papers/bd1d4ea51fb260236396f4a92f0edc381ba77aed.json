@@ -1,0 +1,37 @@
+{
+    "paperId": "bd1d4ea51fb260236396f4a92f0edc381ba77aed",
+    "title": "A Memory-Bounded Best-First Beam Search and Its Application to Scheduling Halide Programs",
+    "year": 2022,
+    "venue": "Symposium on Combinatorial Search",
+    "authors": [
+        "Chao Gao",
+        "Jingwei Chen",
+        "Tong Mo",
+        "Tanvir Sajed",
+        "Shangling Jui",
+        "Min Qin",
+        "Laiyuan Gong",
+        "Wei Lu"
+    ],
+    "doi": "10.1609/socs.v15i1.21754",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bd1d4ea51fb260236396f4a92f0edc381ba77aed",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/SOCS/article/download/21754/21518",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Beam search is a popular algorithm for solving real-world problems --- especially where search space is an enormously large tree but real-time solutions are most preferred. \nWe present a memory-bounded best-first beam search (MB2FBS), which can be viewed as an improved and generalized version of standard beam search in trees. \nThe algorithm takes three parameters --- in contrast to the singular parameter beam size in standard beam search. \nWe discuss how to recover standard beam search and how to realize other search behavior by setting these three parameters correspondingly. In particular, we show that the principal version of MB2FBS can be thought as an algorithm whose search expense is similar or upper bounded by beam search of certain beam size; however it often finds better solutions as it decides the number of nodes to be searched each depth dynamically with respect cost landscape. \nWe apply our algorithm for tensor program auto-scheduling in Halide, an important industrial problem that uses tree search for optimizing tensor program executions. \nWe show that the principal variants of MB2FBS deliver better empirical results than the highly optimized beam search counterpart. Most importantly, it finds superior schedules while no more computation cost is used for search, which is highly desirable for real-time program compilation and optimization.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

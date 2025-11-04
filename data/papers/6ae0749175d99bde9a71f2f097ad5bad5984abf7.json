@@ -1,0 +1,39 @@
+{
+    "paperId": "6ae0749175d99bde9a71f2f097ad5bad5984abf7",
+    "title": "TSoR: TCP Socket over RDMA Container Network for Cloud Native Computing",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yulin Sun",
+        "Qingming Qu",
+        "Chenxingyu Zhao",
+        "A. Krishnamurthy",
+        "Hong Chang",
+        "Ying Xiong"
+    ],
+    "doi": "10.48550/arXiv.2305.10621",
+    "arxivId": "2305.10621",
+    "url": "https://www.semanticscholar.org/paper/6ae0749175d99bde9a71f2f097ad5bad5984abf7",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.10621",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cloud-native containerized applications constantly seek high-performance and easy-to-operate container network solutions. RDMA network is a potential enabler with higher throughput and lower latency than the standard TCP/IP network stack. However, several challenges remain in equipping containerized applications with RDMA network: 1) How to deliver transparent improvements without modifying application code; 2) How to integrate RDMA-based network solutions with container orchestration systems; 3) How to efficiently utilize RDMA for container networks. In this paper, we present an RDMA-based container network solution, TCP Socket over RDMA (TSoR), which addresses all the above challenges. To transparently accelerate applications using POSIX socket interfaces without modifications, we integrate TSoR with a container runtime that can intercept system calls for socket interfaces. To be compatible with orchestration systems like Kubernetes, TSoR implements a container network following the Kubernetes network model and satisfies all requirements of the model. To leverage RDMA benefits, TSoR designs a high-performance network stack that efficiently transfers TCP traffic using RDMA network. Thus, TSoR provides a turn-key solution for existing Kubernetes clusters to adopt the high-performance RDMA network with minimal effort. Our evaluation results show that TSoR provides up to 2.3x higher throughput and 64\\% lower latency for existing containerized applications, such as Redis key-value store and Node.js web server, with no code changes. TSoR code will be open-sourced.",
+    "citationCount": 4,
+    "referenceCount": 47
+}

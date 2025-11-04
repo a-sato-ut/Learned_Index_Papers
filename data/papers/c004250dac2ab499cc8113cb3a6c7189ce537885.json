@@ -1,0 +1,31 @@
+{
+    "paperId": "c004250dac2ab499cc8113cb3a6c7189ce537885",
+    "title": "IOMeans: Classifying Multi-concurrent I/O Threads Using Spatio-Tempo Mapping",
+    "year": 2019,
+    "venue": "2019 International Conference on High Performance Big Data and Intelligent Systems (HPBD&IS)",
+    "authors": [
+        "Jian Zhou",
+        "Jun Wang"
+    ],
+    "doi": "10.1109/HPBDIS.2019.8735475",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c004250dac2ab499cc8113cb3a6c7189ce537885",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There is a trend to apply machine learning techniques to improve the performance of core storage components. Typically, a storage system is shared by many concurrent workloads. Because of this, it’s challenging for contemporary machine learning algorithms to learn the hidden patterns from the entangled traces. We develop a novel temporal-aware sequence classification to mine the correlation between I/O requests and represents the addresses with multidimensional vectors that shows better spatial locality. We can efficiently split and clean the entangled I/O trace. By integrating with Recurrent Neural Network (RNN), we greatly improve the cache hit ratio for several concurrent file access workloads.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

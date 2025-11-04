@@ -1,0 +1,34 @@
+{
+    "paperId": "6f374359a7e41e5a70d25d56c88487df8cd293f4",
+    "title": "ATiM: Autotuning Tensor Programs for Processing-in-DRAM",
+    "year": 2024,
+    "venue": "International Symposium on Computer Architecture",
+    "authors": [
+        "Y. Shin",
+        "Dookyung Kang",
+        "Hyojin Sung"
+    ],
+    "doi": "10.1145/3695053.3731096",
+    "arxivId": "2412.19630",
+    "url": "https://www.semanticscholar.org/paper/6f374359a7e41e5a70d25d56c88487df8cd293f4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Processing-in-DRAM (DRAM-PIM) has emerged as a promising technology for accelerating memory-intensive operations in modern applications, such as Large Language Models (LLMs). Despite its potential, current software stacks for DRAM-PIM face significant challenges, including reliance on hand-tuned libraries that hinder programmability, limited support for high-level abstractions, and the lack of systematic optimization frameworks. To address these limitations, we present ATiM, a search-based optimizing tensor compiler for UPMEM. Key features of ATiM include: (1) automated searches of the joint search space for host and kernel tensor programs, (2) PIM-aware optimizations for efficiently handling boundary conditions, and (3) improved search algorithms for the expanded search space of UPMEM systems. Our experimental results on UPMEM hardware demonstrate performance gains of up to 6.18 × for various UPMEM benchmark kernels and 8.21 × for GPT-J layers. To the best of our knowledge, ATiM is the first tensor compiler to provide fully automated, autotuning-integrated code generation support for a DRAM-PIM system. By bridging the gap between high-level tensor computation abstractions and low-level hardware-specific requirements, ATiM establishes a foundation for advancing DRAM-PIM programmability and enabling streamlined optimization.",
+    "citationCount": 0,
+    "referenceCount": 65
+}

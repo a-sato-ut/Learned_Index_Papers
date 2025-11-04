@@ -1,0 +1,32 @@
+{
+    "paperId": "aba33e799b158b66632cc77717a8c7bce43e46ec",
+    "title": "QRDF: An efficient RDF graph processing system for fast query",
+    "year": 2021,
+    "venue": "Concurrency and Computation",
+    "authors": [
+        "Menghan Jia",
+        "Yiming Zhang",
+        "Dongsheng Li"
+    ],
+    "doi": "10.1002/cpe.6441",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/aba33e799b158b66632cc77717a8c7bce43e46ec",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the rapid growth of RDF (resource description framework) data volume, it is challenging to answer queries over dynamic RDF graphs of which the data frequently changes (by insertion/deletion) over time. This article presents QRDF, an efficient RDF graph processing system that supports not only efficient storage but also fast query of dynamic RDF graphs. QRDF (i) adopts a red‐black (RB) tree for quick RDF data insertion/deletion and (ii) asynchronously moves data from the RB tree into a vector for efficient RDF query. QRDF performs early pruning on its index structure for various RDF query patterns. Experimental results show that the query performance of QRDF over RDF graphs is about 2x higher than that of the state‐of‐the‐art RDF processing systems.",
+    "citationCount": 6,
+    "referenceCount": 28
+}

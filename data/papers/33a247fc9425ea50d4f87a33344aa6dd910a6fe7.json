@@ -1,0 +1,36 @@
+{
+    "paperId": "33a247fc9425ea50d4f87a33344aa6dd910a6fe7",
+    "title": "Bloom filter and its variants for the optimization of MapReduce’s algorithms: A review",
+    "year": 2020,
+    "venue": "International Conference on Cloud Computing Technologies and Applications",
+    "authors": [
+        "F. Ezzaki",
+        "N. Abghour",
+        "A. Elomri",
+        "K. Moussaid",
+        "M. Rida"
+    ],
+    "doi": "10.1109/CloudTech49835.2020.9365876",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/33a247fc9425ea50d4f87a33344aa6dd910a6fe7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The bloom filter is a probabilistic data model used to test the existence of an element in a set, i.e., for any given item, the bloom filter could test the membership query on this candidate. The bloom filter has many advantages due to its simplicity and efficiency in highly solving the issue of data representation in many fields and to support membership queries, it has been known as space and time-efficient randomized data structure, by filtering out redundant data and optimizing the memory consumption. However, bloom filters are limited to membership tests and don’t support the deletion of elements. They also generate the false positive probability as they are based on a probabilistic model, this error rate is generated when an element that doesn’t belong to a set is considered as a member of this set by the bloom filter. Our goal is to compare a number of well- existed algorithms related to the boom filter for future work on the optimization of the join’s algorithms in MapReduce. This paper provides an overview of the different variants of the bloom filter and analyses the studies that have been interested in this area of research.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

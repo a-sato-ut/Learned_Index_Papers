@@ -1,0 +1,38 @@
+{
+    "paperId": "217bc9165d6f7e167a208b0ee2635b0ce27804c9",
+    "title": "Accurate Probabilistic Miss Ratio Curve Approximation for Adaptive Cache Allocation in Block Storage Systems",
+    "year": 2022,
+    "venue": "Design, Automation and Test in Europe",
+    "authors": [
+        "Rongshang Li",
+        "Yingtian Tang",
+        "Qiquan Shi",
+        "Hui Mao",
+        "Lei Chen",
+        "Jikun Jin",
+        "Peng Lu",
+        "Zhuo Cheng"
+    ],
+    "doi": "10.23919/DATE54114.2022.9774516",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/217bc9165d6f7e167a208b0ee2635b0ce27804c9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cache plays an important role in storage systems. With better allocation of cache space to each storage device, total I/O latency can be reduced remarkably. To achieve this goal, we propose an Accurate Probabilistic miss ratio curve approximation for Adaptive Cache allocation (APAC) system. APAC can obtain near-optimal performance for allocating cache space with low overhead. Specifically, with a linear-time probabilistic approximation of reuse distance of all blocks inside each device, APAC can accurately estimate the miss ratio curve (MRC). Furthermore, APAC utilizes the MRCs to obtain the near-optimal configuration of cache allocation by dynamic programming. Experimental results show that APAC achieves higher accuracy in MRC approximation compared to the state-of-the-art methods, leading to higher hit ratio and lower latency of the block storage systems.",
+    "citationCount": 3,
+    "referenceCount": 18
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "a5af7a22e5e9d33f8bd52b147767bea33d5d4126",
+    "title": "A Trace-Based Performance Study of Autoscaling Workloads of Workflows in Datacenters",
+    "year": 2017,
+    "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing",
+    "authors": [
+        "L. Versluis",
+        "Mihai Neacsu",
+        "A. Iosup"
+    ],
+    "doi": "10.1109/CCGRID.2018.00037",
+    "arxivId": "1711.08993",
+    "url": "https://www.semanticscholar.org/paper/a5af7a22e5e9d33f8bd52b147767bea33d5d4126",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://research.vu.nl/files/84793385/A_trace_based_performance_study_of_autoscaling_workloads_of_workflows_in_datacenters.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "To improve customer experience, datacenter operators offer support for simplifying application and resource management. For example, running workloads of workflows on behalf of customers is desirable, but requires increasingly more sophisticated autoscaling policies, that is, policies that dynamically provision resources for the customer. Although selecting and tuning autoscaling policies is a challenging task for datacenter operators, so far relatively few studies investigate the performance of autoscaling for workloads of workflows. Complementing previous knowledge, in this work we propose the first comprehensive performance study in the field. Using trace-based simulation, we compare state-of-the-art autoscaling policies across multiple application domains, workload arrival patterns (e.g., burstiness), and system utilization levels. We further investigate the interplay between autoscaling and regular allocation policies, and the complexity cost of autoscaling. Our quantitative study focuses not only on traditional performance metrics and on state-of-the-art elasticity metrics, but also on time-and memory-related autoscaling-complexity metrics. Our main results give strong and quantitative evidence about previously unreported operational behavior, for example, that autoscaling policies perform differently across application domains and allocation and provisioning policies should be co-designed.",
+    "citationCount": 13,
+    "referenceCount": 40
+}

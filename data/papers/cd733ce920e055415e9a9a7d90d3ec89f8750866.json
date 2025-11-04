@@ -1,0 +1,37 @@
+{
+    "paperId": "cd733ce920e055415e9a9a7d90d3ec89f8750866",
+    "title": "MiCS: Near-linear Scaling for Training Gigantic Model on Public Cloud",
+    "year": 2022,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Zhen Zhang",
+        "Shuai Zheng",
+        "Yida Wang",
+        "Justin Chiu",
+        "G. Karypis",
+        "Trishul M. Chilimbi",
+        "Mu Li",
+        "Xin Jin"
+    ],
+    "doi": "10.14778/3561261.3561265",
+    "arxivId": "2205.00119",
+    "url": "https://www.semanticscholar.org/paper/cd733ce920e055415e9a9a7d90d3ec89f8750866",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Existing general purpose frameworks for gigantic model training, i.e., dense models with billions of parameters, cannot scale efficiently on cloud environment with various networking conditions due to large communication overheads. In this paper, we propose MiCS, which Minimizes the Communication Scale to bring down communication overhead. Specifically, by decreasing the number of participants in a communication collective, MiCS can utilize heterogeneous network bandwidth, reduce network traffic over slower links, reduce the latency of communications for maintaining high network bandwidth utilization, and amortize expensive global gradient synchronization overhead. Our evaluation on AWS shows that the system throughput of MiCS is up to 2.89× that of the state-of-the-art large model training systems. MiCS achieves near-linear scaling efficiency, which is up to 1.27× that of DeepSpeed. MiCS allows us to train a proprietary model with 100 billion parameters on 512 GPUs with 99.4% weak-scaling efficiency, and it is able to saturate over 54.5% theoretical computation power of each GPU on a public cloud with less GPU memory and more restricted networks than DGX-A100 clusters.",
+    "citationCount": 45,
+    "referenceCount": 74
+}

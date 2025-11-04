@@ -1,0 +1,34 @@
+{
+    "paperId": "12b0e9a2185229b5f2139cd5f9c9b26d34a01b70",
+    "title": "NeurObfuscator: A Full-stack Obfuscation Tool to Mitigate Neural Architecture Stealing",
+    "year": 2021,
+    "venue": "IEEE International Symposium on Hardware Oriented Security and Trust",
+    "authors": [
+        "Jingtao Li",
+        "Zhezhi He",
+        "A. S. Rakin",
+        "Deliang Fan",
+        "C. Chakrabarti"
+    ],
+    "doi": "10.1109/HOST49136.2021.9702279",
+    "arxivId": "2107.09789",
+    "url": "https://www.semanticscholar.org/paper/12b0e9a2185229b5f2139cd5f9c9b26d34a01b70",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2107.09789",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural network stealing attacks have posed grave threats to neural network model deployment. Such attacks can be launched by extracting neural architecture information, such as layer sequence and dimension parameters, through leaky side-channels. To mitigate such attacks, we propose NeurObfuscator, a full-stack obfuscation tool to obfuscate the neural network architecture while preserving its functionality with very limited performance overhead. At the heart of this tool is a set of obfuscating knobs, including layer branching, layer widening, selective fusion and schedule pruning, that increase the number of operators, reduce/increase the latency, and number of cache and DRAM accesses. A genetic algorithm-based approach is adopted to orchestrate the combination of obfuscating knobs to achieve the best obfuscating effect on the layer sequence and dimension parameters so that the architecture information cannot be successfully extracted. Results on sequence obfuscation show that the proposed tool obfuscates a ResNet-18 ImageNet model to a totally different architecture (with 44 layer difference) without affecting its functionality with only 2% overall latency overhead. For dimension obfuscation, we demonstrate that an example convolution layer with 64 input and 128 output channels can be obfuscated to generate a layer with 207 input and 93 output channels with only a 2% latency overhead.",
+    "citationCount": 26,
+    "referenceCount": 26
+}

@@ -1,0 +1,30 @@
+{
+    "paperId": "a39311ea4b5e828c510658af1948f001fc88e1ea",
+    "title": "Neural auto-association with optimal Bayesian learning",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Andreas Knoblauch"
+    ],
+    "doi": "10.48550/arXiv.2412.18349",
+    "arxivId": "2412.18349",
+    "url": "https://www.semanticscholar.org/paper/a39311ea4b5e828c510658af1948f001fc88e1ea",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural associative memories are single layer perceptrons with fast synaptic learning typically storing discrete associations between pairs of neural activity patterns. Previous works have analyzed the optimal networks under naive Bayes assumptions of independent pattern components and heteroassociation, where the task is to learn associations from input to output patterns. Here I study the optimal Bayesian associative network for auto-association where input and output layers are identical. In particular, I compare performance to different variants of approximate Bayesian learning rules, like the BCPNN (Bayesian Confidence Propagation Neural Network), and try to explain why sometimes the suboptimal learning rules achieve higher storage capacity than the (theoretically) optimal model. It turns out that performance can depend on subtle dependencies of input components violating the ``naive Bayes'' assumptions. This includes patterns with constant number of active units, iterative retrieval where patterns are repeatedly propagated through recurrent networks, and winners-take-all activation of the most probable units. Performance of all learning rules can improve significantly if they include a novel adaptive mechanism to estimate noise in iterative retrieval steps (ANE). The overall maximum storage capacity is achieved again by the Bayesian learning rule with ANE.",
+    "citationCount": 0,
+    "referenceCount": 71
+}

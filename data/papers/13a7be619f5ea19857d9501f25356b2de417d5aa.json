@@ -1,0 +1,39 @@
+{
+    "paperId": "13a7be619f5ea19857d9501f25356b2de417d5aa",
+    "title": "MultiFuse: Efficient Cross Layer Fusion for DNN Accelerators with Multi-level Memory Hierarchy",
+    "year": 2023,
+    "venue": "ICCD",
+    "authors": [
+        "Chia-Wei Chang",
+        "Jing-Jia Liou",
+        "Chih-Tsun Huang",
+        "Wei-Chung Hsu",
+        "Juin-Ming Lu"
+    ],
+    "doi": "10.1109/ICCD58817.2023.00097",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/13a7be619f5ea19857d9501f25356b2de417d5aa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In order to facilitate the deployment of diverse deep learning models while maintaining scalability, modern DNN accelerators frequently employ reconfigurable structures such as Network-on-Chip (NoC) and multi-level on-chip memory hierarchy. To achieve high energy efficiency, it is imperative to store intermediate DNN-layer results within the on-chip memory hierarchy, thereby reducing the need for off-chip data transfers to/from the DRAM memory.Two well-established optimization techniques, node fusion and loop tiling, have proven effective in retaining temporary results within the on-chip buffers, commonly used to minimize off-chip DRAM accesses. In this paper, we introduce MultiFuse, an infrastructure designed to automatically explore multiple DNN layer node fusion techniques, enabling optimal utilization of the on-chip multi-level memory hierarchy.Experimental results demonstrate the effectiveness of our retargetable infrastructure, which outperforms Ansor’s algorithm. Our exploration algorithm achieves a remarkable 70% reduction in Energy-Delay Product (EDP) while gaining a 67x speedup in search time when executing the data-intensive MobileNet model on a single DNN accelerator.",
+    "citationCount": 2,
+    "referenceCount": 20
+}

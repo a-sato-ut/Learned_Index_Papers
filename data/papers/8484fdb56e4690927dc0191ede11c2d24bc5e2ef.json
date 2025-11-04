@@ -1,0 +1,36 @@
+{
+    "paperId": "8484fdb56e4690927dc0191ede11c2d24bc5e2ef",
+    "title": "MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers",
+    "year": 2021,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Krishna Pillutla",
+        "Swabha Swayamdipta",
+        "Rowan Zellers",
+        "John Thickstun",
+        "S. Welleck",
+        "Yejin Choi",
+        "Zaïd Harchaoui"
+    ],
+    "doi": null,
+    "arxivId": "2102.01454",
+    "url": "https://www.semanticscholar.org/paper/8484fdb56e4690927dc0191ede11c2d24bc5e2ef",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As major progress is made in open-ended text generation, measuring how close machine-generated text is to human language remains a critical open problem. We introduce MAUVE, a comparison measure for open-ended text generation, which directly compares the learnt distribution from a text generation model to the distribution of human-written text using divergence frontiers. MAUVE scales up to modern text generation models by computing information divergences in a quantized embedding space. Through an extensive empirical study on three open-ended generation tasks, we find that MAUVE identifies known properties of generated text, scales naturally with model size, and correlates with human judgments, with fewer restrictions than existing distributional evaluation metrics.",
+    "citationCount": 419,
+    "referenceCount": 72
+}

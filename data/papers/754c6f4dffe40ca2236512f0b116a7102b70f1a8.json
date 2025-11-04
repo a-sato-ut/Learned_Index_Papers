@@ -1,0 +1,37 @@
+{
+    "paperId": "754c6f4dffe40ca2236512f0b116a7102b70f1a8",
+    "title": "Shrink: Data Compression by Semantic Extraction and Residuals Encoding",
+    "year": 2024,
+    "venue": "BigData Congress [Services Society]",
+    "authors": [
+        "Guoyou Sun",
+        "Panagiotis Karras",
+        "Qi Zhang"
+    ],
+    "doi": "10.1109/BigData62323.2024.10825287",
+    "arxivId": "2410.06713",
+    "url": "https://www.semanticscholar.org/paper/754c6f4dffe40ca2236512f0b116a7102b70f1a8",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2410.06713",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The distributed data infrastructure in Internet of Things (IoT) ecosystems requires efficient data-series compression methods, as well as the capability to meet different accuracy demands. However, the compression performance of existing compression methods degrades sharply when calling for ultra-accurate data recovery. In this paper, we introduce Shrink, a novel highly accurate data compression method that offers a higher compression ratio and lower runtime than prior compressors. Shrink extracts data semantics in the form of linear segments to construct a compact knowledge base, using a dynamic error threshold which can adapt to data characteristics. Then, it captures the remaining data details as residuals to support lossy compression at diverse resolutions as well as lossless compression. As Shrink effectively identifies repeated semantics, its compression ratio increases with data size. Our experimental evaluation demonstrates that Shrink outperforms state-of-art methods, achieving a twofold to fivefold improvement in compression ratio depending on the dataset.",
+    "citationCount": 1,
+    "referenceCount": 29
+}

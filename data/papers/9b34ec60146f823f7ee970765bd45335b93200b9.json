@@ -1,0 +1,43 @@
+{
+    "paperId": "9b34ec60146f823f7ee970765bd45335b93200b9",
+    "title": "Domain-specific Communication Optimization for Distributed DNN Training",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hao Wang",
+        "Jingrong Chen",
+        "Xinchen Wan",
+        "Han Tian",
+        "Jiacheng Xia",
+        "Gaoxiong Zeng",
+        "Weiyan Wang",
+        "Kai Chen",
+        "Wei Bai",
+        "Junchen Jiang"
+    ],
+    "doi": null,
+    "arxivId": "2008.08445",
+    "url": "https://www.semanticscholar.org/paper/9b34ec60146f823f7ee970765bd45335b93200b9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Communication overhead poses an important obstacle to distributed DNN training and draws increasing attention in recent years. Despite continuous efforts, prior solutions such as gradient compression/reduction, compute/communication overlapping and layer-wise flow scheduling, etc., are still coarse-grained and insufficient for an efficient distributed training especially when the network is under pressure. We present DLCP, a novel solution exploiting the domain-specific properties of deep learning to optimize communication overhead of DNN training in a fine-grained manner. At its heart, DLCP comprises of several key innovations beyond prior work: e.g., it exploits {\\em bounded loss tolerance} of SGD-based training to improve tail communication latency which cannot be avoided purely through gradient compression. It then performs fine-grained packet-level prioritization and dropping, as opposed to flow-level scheduling, based on layers and magnitudes of gradients to further speedup model convergence without affecting accuracy. In addition, it leverages inter-packet order-independency to perform per-packet load balancing without causing classical re-ordering issues. DLCP works with both Parameter Server and collective communication routines. We have implemented DLCP with commodity switches, integrated it with various training frameworks including TensorFlow, MXNet and PyTorch, and deployed it in our small-scale testbed with 10 Nvidia V100 GPUs. Our testbed experiments and large-scale simulations show that DLCP delivers up to $84.3\\%$ additional training acceleration over the best existing solutions.",
+    "citationCount": 17,
+    "referenceCount": 109
+}

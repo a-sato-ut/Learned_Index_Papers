@@ -1,0 +1,37 @@
+{
+    "paperId": "772afa2d06f85eb2ca8db82f7b373cbbf3f3efac",
+    "title": "HW-Aware Initialization of DNN Auto-Tuning to Improve Exploration Time and Robustness",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "D. Rieber",
+        "Moritz Reiber",
+        "O. Bringmann",
+        "H. Fröning"
+    ],
+    "doi": "10.48550/arXiv.2205.15568",
+    "arxivId": "2205.15568",
+    "url": "https://www.semanticscholar.org/paper/772afa2d06f85eb2ca8db82f7b373cbbf3f3efac",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2205.15568",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The process of optimizing the latency of DNN operators with ML models and hardware-in-the-loop, called auto-tuning, has established itself as a pervasive method for the deployment of neural networks. From a search space of loop-optimizations, the candidate providing the best performance has to be selected. Performance of individual configurations is evaluated through hardware measurements. The combinatorial explosion of possible configurations, together with the cost of hardware evaluation makes exhaustive explorations of the search space infeasible in practice. Machine Learning methods, like random forests or reinforcement learning are used to aid in the selection of candidates for hardware evaluation. For general purpose hardware like x86 and GPGPU architectures impressive performance gains can be achieved, compared to hand-optimized libraries like cuDNN. The method is also useful in the space of hardware accelerators with less wide-spread adoption, where a high-performance library is not always available. However, hardware accelerators are often less flexible with respect to their programming which leads to operator configurations not executable on the hardware target. This work evaluates how these invalid configurations affect the auto-tuning process and its underlying performance prediction model for the VTA hardware. From these results, a validity-driven initialization method for AutoTVM is developed, only requiring 41.6% of the necessary hardware measurements to find the best solution, while improving search robustness.",
+    "citationCount": 5,
+    "referenceCount": 12
+}

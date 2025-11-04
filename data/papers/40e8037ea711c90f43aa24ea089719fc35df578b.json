@@ -1,0 +1,50 @@
+{
+    "paperId": "40e8037ea711c90f43aa24ea089719fc35df578b",
+    "title": "Relax: Composable Abstractions for End-to-End Dynamic Machine Learning",
+    "year": 2023,
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "authors": [
+        "Ruihang Lai",
+        "Junru Shao",
+        "Siyuan Feng",
+        "Steven Lyubomirsky",
+        "Bohan Hou",
+        "Wuwei Lin",
+        "Zihao Ye",
+        "Hongyi Jin",
+        "Yuchen Jin",
+        "Jiawei Liu",
+        "Lesheng Jin",
+        "Yaxing Cai",
+        "Ziheng Jiang",
+        "Yong Wu",
+        "Sunghyun Park",
+        "Prakalp Srivastava",
+        "Jared Roesch",
+        "T. Mowry",
+        "Tianqi Chen"
+    ],
+    "doi": "10.1145/3676641.3716249",
+    "arxivId": "2311.02103",
+    "url": "https://www.semanticscholar.org/paper/40e8037ea711c90f43aa24ea089719fc35df578b",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2311.02103",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Dynamic shape computations have become critical in modern machine learning workloads, especially in emerging large language models. The success of these models has driven the demand for their universal deployment across a diverse set of backend environments. In this paper, we present Relax, a compiler abstraction for optimizing end-to-end dynamic machine learning workloads. Relax introduces a cross-level abstraction that encapsulates computational graphs, loop-level tensor programs, and external library calls in a single representation. Relax also introduces first-class symbolic shape annotations to track dynamic shape computations globally across the program, enabling dynamic shape-aware cross-level optimizations. We build an end-to-end compilation framework using the proposed approach to optimize dynamic shape models. Experimental results on LLMs show that Relax delivers performance competitive with state-of-the-art systems across various GPUs and enables deployment of emerging models to a broader set of emerging environments, including mobile phones, embedded devices, and web browsers.",
+    "citationCount": 14,
+    "referenceCount": 45
+}

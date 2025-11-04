@@ -1,0 +1,35 @@
+{
+    "paperId": "36930b31bf03ccc8859327f30eaf953f8f72490e",
+    "title": "Proactive Data Placement in Heterogeneous Storage Systems via Predictive Multi-Objective Reinforcement Learning",
+    "year": 2025,
+    "venue": "IEEE Access",
+    "authors": [
+        "Suchuan Xing",
+        "Yihan Wang"
+    ],
+    "doi": "10.1109/ACCESS.2025.3586378",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/36930b31bf03ccc8859327f30eaf953f8f72490e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern data-intensive applications demand efficient orchestration across heterogeneous storage tiers, ranging from high-performance DRAM to cost-effective cloud storage. Existing tiered storage systems predominantly employ reactive policies that respond to observed access patterns, leading to suboptimal performance under dynamic workloads and failing to address multi-objective optimization requirements. We propose a novel proactive data placement framework that integrates predictive deep learning with multi-objective reinforcement learning to anticipate future data access patterns and optimize placement decisions across storage hierarchies. Our method employs Long Short-Term Memory networks and Transformer architectures to model complex temporal dependencies in I/O traces, generating predictive access probability distributions for data blocks. A deep reinforcement learning agent subsequently leverages these predictions, along with application-specific metadata hints, to make proactive placement decisions that simultaneously optimize latency, throughput, and cost objectives. The system incorporates a sophisticated reward mechanism that balances performance gains against migration overhead, while employing prioritized experience replay and adaptive learning rates to handle non-stationary workload characteristics. Through comprehensive evaluation using both synthetic and real-world traces from deep learning training workloads, our method demonstrates substantial improvements over state-of-the-art algorithms: achieving up to 45.1% reduction in average I/O latency, 32.5% improvement in throughput for critical applications, and 28.8% reduction in storage costs. The framework’s ability to proactively adapt to evolving access patterns while maintaining computational efficiency makes it particularly suitable for large-scale machine learning and scientific computing environments where data placement critically impacts overall system performance.",
+    "citationCount": 4,
+    "referenceCount": 59
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "4b46e9b564af700bbabd1f285e557f989f11eff9",
+    "title": "Bloom Filter With a False Positive Free Zone",
+    "year": 2021,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "S. Z. Kiss",
+        "É. Hosszu",
+        "János Tapolcai",
+        "L. Rónyai",
+        "Ori Rottenstreich"
+    ],
+    "doi": "10.1109/TNSM.2021.3059075",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4b46e9b564af700bbabd1f285e557f989f11eff9",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://real.mtak.hu/129821/1/Bloomfilter.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Bloom filters and their variants are widely used as space-efficient probabilistic data structures for representing sets and are very popular in networking applications. They support fast element insertion and deletion, along with membership queries with the drawback of false positives. Bloom filters can be designed to match the false positive rates that are acceptable for the application domain. However, in many applications, a common engineering solution is to set the false positive rate very small and ignore the existence of the very unlikely false positive answers. This article is devoted to close the gap between the two design concepts of unlikely and not having false positives. We propose a data structure called EGH filter that supports the Bloom filter operations, and besides, it can guarantee false positive free operations for a finite universe and a restricted number of elements stored in the filter. We refer to the limited universe and filter size as the false positive free zone of the filter. We describe necessary conditions for the false-positive free zone of a filter. We then generalize the filter to support the listing of the elements through the use of counters rather than bits. We detail networking applications of the filter and discuss potential generalizations. We evaluate the performance of the filter in comparison with the traditional Bloom filters. We also evaluate the price in terms of memory that needs to be paid to guarantee real false positive-free operations for having a deterministic Bloom filter-like behavior. Our data structure is based on recently developed combinatorial group testing techniques.",
+    "citationCount": 6,
+    "referenceCount": 69
+}

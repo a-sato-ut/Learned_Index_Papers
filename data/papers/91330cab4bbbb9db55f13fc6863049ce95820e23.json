@@ -1,0 +1,40 @@
+{
+    "paperId": "91330cab4bbbb9db55f13fc6863049ce95820e23",
+    "title": "Combining Neural Architecture Search and Automatic Code Optimization: A Survey",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Inas Bachiri",
+        "Hadjer Benmeziane",
+        "Smail Niar",
+        "Riyadh Baghdadi",
+        "Hamza Ouarnoughi",
+        "Abdelkrime Aries"
+    ],
+    "doi": "10.48550/arXiv.2408.04116",
+    "arxivId": "2408.04116",
+    "url": "https://www.semanticscholar.org/paper/91330cab4bbbb9db55f13fc6863049ce95820e23",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Learning models have experienced exponential growth in complexity and resource demands in recent years. Accelerating these models for efficient execution on resource-constrained devices has become more crucial than ever. Two notable techniques employed to achieve this goal are Hardware-aware Neural Architecture Search (HW-NAS) and Automatic Code Optimization (ACO). HW-NAS automatically designs accurate yet hardware-friendly neural networks, while ACO involves searching for the best compiler optimizations to apply on neural networks for efficient mapping and inference on the target hardware. This survey explores recent works that combine these two techniques within a single framework. We present the fundamental principles of both domains and demonstrate their sub-optimality when performed independently. We then investigate their integration into a joint optimization process that we call Hardware Aware-Neural Architecture and Compiler Optimizations co-Search (NACOS).",
+    "citationCount": 1,
+    "referenceCount": 52
+}

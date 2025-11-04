@@ -1,0 +1,31 @@
+{
+    "paperId": "92e1e3c0ccc7d65d6c54dfdf6c71f0c4127d78db",
+    "title": "Efficient Asynchronize Stochastic Gradient Algorithm with Structured Data",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhao Song",
+        "Mingquan Ye"
+    ],
+    "doi": "10.48550/arXiv.2305.08001",
+    "arxivId": "2305.08001",
+    "url": "https://www.semanticscholar.org/paper/92e1e3c0ccc7d65d6c54dfdf6c71f0c4127d78db",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.08001",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning has achieved impressive success in a variety of fields because of its good generalization. However, it has been a challenging problem to quickly train a neural network with a large number of layers. The existing works utilize the locality-sensitive hashing technique or some data structures on space partitioning to alleviate the training cost in each iteration. In this work, we try accelerating the computations in each iteration from the perspective of input data points. Specifically, for a two-layer fully connected neural network, when the training data have some special properties, e.g., Kronecker structure, each iteration can be completed in sublinear time in the data dimension.",
+    "citationCount": 4,
+    "referenceCount": 85
+}

@@ -1,0 +1,42 @@
+{
+    "paperId": "41c352407d7d7c2b7fa6c5f16e1dc8aecc9b1bfa",
+    "title": "OpEvo: An Evolutionary Method for Tensor Operator Optimization",
+    "year": 2020,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Xiaotian Gao",
+        "C. Wei",
+        "Lintao Zhang",
+        "Mao Yang"
+    ],
+    "doi": "10.1609/aaai.v35i14.17462",
+    "arxivId": "2006.05664",
+    "url": "https://www.semanticscholar.org/paper/41c352407d7d7c2b7fa6c5f16e1dc8aecc9b1bfa",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/17462/17269",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Training and inference efficiency of deep neural networks highly rely on the performance of tensor operators on hardware platforms. Manually optimizing tensor operators has limitations in terms of supporting new operators or hardware platforms. Therefore, automatically optimizing device code configurations of tensor operators is getting increasingly attractive. However, current methods for tensor operator optimization usually suffer from poor sample-efficiency due to the combinatorial search space. In this work, we propose a novel evolutionary method, OpEvo, which efficiently explores the search spaces of tensor operators by introducing a topology-aware mutation operation based on q-random walk to leverage the topological structures over the search spaces. Our comprehensive experiment results show that compared with state-of-the-art(SOTA) methods OpEvo can find the best configuration with the lowest variance and least efforts in the number of trials and wall-clock time. All code of this work is available online.",
+    "citationCount": 5,
+    "referenceCount": 32
+}

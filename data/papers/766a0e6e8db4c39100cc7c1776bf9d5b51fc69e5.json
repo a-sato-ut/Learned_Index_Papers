@@ -1,0 +1,38 @@
+{
+    "paperId": "766a0e6e8db4c39100cc7c1776bf9d5b51fc69e5",
+    "title": "Novel Bloom filter algorithms and architectures for ultra-high-speed network security applications",
+    "year": 2020,
+    "venue": "Euromicro Symposium on Digital Systems Design",
+    "authors": [
+        "Arish Sateesan",
+        "J. Vliegen",
+        "J. Daemen",
+        "N. Mentens"
+    ],
+    "doi": "10.1109/DSD51259.2020.00050",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/766a0e6e8db4c39100cc7c1776bf9d5b51fc69e5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://repository.ubn.ru.nl//bitstream/handle/2066/225731/225731.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper proposes novel Bloom filter algorithms and FPGA architectures for high-speed searching applications. A Bloom filter is a memory structure that is used to test whether input search data are present in a table of stored data. Bloom filters are extensively used in network security solutions that apply traffic flow monitoring or deep packet inspection. Improving the speed of Bloom filters can therefore have a significant impact on the speed of many network applications. The most important components determining the speed of Bloom filters are hash functions. While hash functions in Bloom filters do not require strong cryptographic properties, they do need a minimized computational delay. We take on the challenge of developing ultra-high-speed Bloom filters on FPGAs by proposing a new noncryptographic hash function, called Xoodoo-NC, derived from the cryptographic permutation Xoodoo. Xoodoo-NC is a reducedround, reduced-state version of Xoodoo, inheriting Xoodoo’s desired avalanche properties and low logical depth, resulting in an ultra-low-latency non-cryptographic hash function. We evaluate the performance of Bloom filter architectures based on Xoodoo-NC on a Xilinx UltraScale+FPGA and we compare the performance and resource occupation to existing Bloom filter implementations. We additionally compare our results to memories that use the built-in CAM cores in Xilinx UltraScale+ FPGAs. Our proposed algorithmic and architectural advances lead to Bloom filters that, to the best of our knowledge, outperform all other FPGA-based solutions.",
+    "citationCount": 10,
+    "referenceCount": 30
+}

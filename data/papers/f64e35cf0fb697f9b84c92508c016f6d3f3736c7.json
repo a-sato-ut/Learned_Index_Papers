@@ -1,0 +1,37 @@
+{
+    "paperId": "f64e35cf0fb697f9b84c92508c016f6d3f3736c7",
+    "title": "Block Popularity Prediction for Multimedia Storage Systems Using Spatial-Temporal-Sequential Neural Networks",
+    "year": 2021,
+    "venue": "ACM Multimedia",
+    "authors": [
+        "Yingying Cheng",
+        "Fan Zhang",
+        "Gang Hu",
+        "Yiwen Wang",
+        "Hanhui Yang",
+        "Gong Zhang",
+        "Zhuo Cheng"
+    ],
+    "doi": "10.1145/3474085.3475495",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f64e35cf0fb697f9b84c92508c016f6d3f3736c7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Predicting block popularity is of crucial importance for data placement in multi-tiered multimedia storage systems. Traditional methods, such as least recently used and exponential smoothing, are commonly employed to predict future block access frequencies and fail to achieve good performance for complex and changing access patterns. Recently, deep neural networks have brought great success to pattern recognition and prediction, which motivates us to introduce deep learning to solve the problem of block popularity prediction. In this paper, we first analyze and verify the temporal and spatial correlations among the multimedia I/O traces. Then, we design a multi-dimension feature to capture such correlations, which serves as the input of the designed deep neural network. A spatial-temporal-sequential neural network (STSNN) and its variants that capture the locality information, time dependency information, and block sequential information are proposed to predict the block popularity. We systematically evaluate our STSNN models against six baseline models from three different categories, i.e., heuristic methods, regression methods and neural network-based methods. Experiment results show that our proposed STSNN models are very promising for predicting block access frequencies under some of Huawei and Microsoft datasets and particularly achieve 2-6 times better performance compared with the baselines in terms of the I/O hit ratio, I/O recall rate and I/O prediction ratio under the Microsoft 64 MB-block dataset.",
+    "citationCount": 4,
+    "referenceCount": 36
+}

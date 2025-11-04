@@ -1,0 +1,38 @@
+{
+    "paperId": "f402971f33a07333bb81394aa3d0c0e93ca2b960",
+    "title": "A Scoping Literature Review of Natural Language Processing Application to Safety Occurrence Reports",
+    "year": 2023,
+    "venue": "Safety",
+    "authors": [
+        "John W. Ricketts",
+        "David Barry",
+        "Weisi Guo",
+        "Jonathan Pelham"
+    ],
+    "doi": "10.3390/safety9020022",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f402971f33a07333bb81394aa3d0c0e93ca2b960",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2313-576X/9/2/22/pdf?version=1680685797",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Safety occurrence reports can contain valuable information on how incidents occur, revealing knowledge that can assist safety practitioners. This paper presents and discusses a literature review exploring how Natural Language Processing (NLP) has been applied to occurrence reports within safety-critical industries, informing further research on the topic and highlighting common challenges. Some of the uses of NLP include the ability for occurrence reports to be automatically classified against categories, and entities such as causes and consequences to be extracted from the text as well as the semantic searching of occurrence databases. The review revealed that machine learning models form the dominant method when applying NLP, although rule-based algorithms still provide a viable option for some entity extraction tasks. Recent advances in deep learning models such as Bidirectional Transformers for Language Understanding are now achieving a high accuracy while eliminating the need to substantially pre-process text. The construction of safety-themed datasets would be of benefit for the application of NLP to occurrence reporting, as this would allow the fine-tuning of current language models to safety tasks. An interesting approach is the use of topic modelling, which represents a shift away from the prescriptive classification taxonomies, splitting data into “topics”. Where many papers focus on the computational accuracy of models, they would also benefit from real-world trials to further inform usefulness. It is anticipated that NLP will soon become a mainstream tool used by safety practitioners to efficiently process and gain knowledge from safety-related text.",
+    "citationCount": 606,
+    "referenceCount": 88
+}

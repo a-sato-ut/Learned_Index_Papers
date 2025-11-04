@@ -1,0 +1,34 @@
+{
+    "paperId": "17d187b3e4c3334d7cabf4d23d2cc7a27bf3f015",
+    "title": "DBVinci – towards the usage of GPT engine for processing SQL Queries",
+    "year": 2023,
+    "venue": "Brazilian Symposium on Multimedia and the Web",
+    "authors": [
+        "Vanessa Câmara",
+        "Rayol Mendonca-Neto",
+        "André Silva",
+        "Luiz Cordovil-Jr"
+    ],
+    "doi": "10.1145/3617023.3617035",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/17d187b3e4c3334d7cabf4d23d2cc7a27bf3f015",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "One of the goals of Natural Language Processing (NLP) is transforming sentences to output relevant information in a given context. For instance, relevant applications such as chatbots, translation systems, and sentiment analysis classifiers work that way. The advance of NLP techniques made it possible to automate complex tasks, such as converting text queries to tabular data queries, specifically SQL, to return contextualized data. Since it is crucial in many areas to interpret the data to obtain information and consider the particularities of a text-to-SQL parser, we propose a SQL processing engine whose internals are customized with natural language instructions. DBVinci is our proposed processing model which is based on OpenAI’s GPT-3.5 Text-davinci-003 engine that can perform language tasks such as text-to-SQL, consistent instruction-following, and supports inserting completions within text. Our framework is on top of GPT-3.5 and decomposes complex SQL queries into a series of simple processing steps, described in natural language. DBVinci outperforms well-known text-to-SQL methods (e.g., RAT-SQL and SQLOVA) reaching 89.7% of execution accuracy, considering WikiSQL benchmark. We also obtain impressive performance without the need of large scale annotated dataset for fine-tuning the downstream task, by achieving 90% accuracy in zero-shot setting. Therefore, we conclude that to obtain competitive results using the Pre-trained Language Model (PLM), there is no need of the “pre-training+fine-tuning” paradigm, besides that, when employing zero-shot in the proposed method, we can achieve promising results.",
+    "citationCount": 5,
+    "referenceCount": 17
+}

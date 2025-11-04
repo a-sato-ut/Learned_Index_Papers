@@ -1,0 +1,36 @@
+{
+    "paperId": "aef0b8909b05a97082d5007c3475e2f08bd01352",
+    "title": "Bloom filter variants for multiple sets: a comparative assessment",
+    "year": 2019,
+    "venue": "Journal of universal computer science (Online)",
+    "authors": [
+        "L. Calderoni",
+        "D. Maio",
+        "P. Palmieri"
+    ],
+    "doi": "10.3897/jucs.74230",
+    "arxivId": "1908.10644",
+    "url": "https://www.semanticscholar.org/paper/aef0b8909b05a97082d5007c3475e2f08bd01352",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://lib.jucs.org/article/74230/download/pdf/",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper we compare two probabilistic data structures for association queries derived from the well-known Bloom filter: the shifting Bloom filter (ShBF), and the spatial Bloom filter (SBF). With respect to the original data structure, both variants add the ability to store multiple subsets in the same filter, using different strategies. We analyse the performance of the two data structures with respect to false positive probability, and the inter-set error probability (the probability for an element in the set of being recognised as belonging to the wrong subset). As part of our analysis, we extended the functionality of the shifting Bloom filter, optimising the filter for any non-trivial number of subsets. We propose a new generalised ShBF definition with applications outside of our specific domain, and present new probability formulas. Results of the comparison show that the ShBF provides better space efficiency, but at a significantly higher computational cost than the SBF.",
+    "citationCount": 1,
+    "referenceCount": 30
+}

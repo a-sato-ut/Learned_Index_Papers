@@ -1,0 +1,33 @@
+{
+    "paperId": "a8c8f067c9b10dde8043d965e0814532f032c3cb",
+    "title": "Dynamic Resource Allocation in the Cloud with Near-Optimal Efficiency",
+    "year": 2018,
+    "venue": "Operational Research",
+    "authors": [
+        "Ishai Menache",
+        "Sebastian Perez-Salazar",
+        "Mohit Singh",
+        "A. Toriello"
+    ],
+    "doi": "10.1287/opre.2021.2138",
+    "arxivId": "1809.02688",
+    "url": "https://www.semanticscholar.org/paper/a8c8f067c9b10dde8043d965e0814532f032c3cb",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/1809.02688",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Motivated by maximizing spot instances in cloud shared systems, in this work, we consider the problem of taking advantage of unused resources in highly dynamic cloud environments while preserving users’ performance. We introduce an online model for sharing resources that captures basic properties of cloud systems, such as unpredictable users’ demand patterns, very limited feedback from the system, and service level agreement (SLA) between the users and the cloud provider. We provide a simple and efficient algorithm for the single-resource case. For any demand patterns, our algorithm guarantees near-optimal resource utilization as well as high users’ performance compared with their SLA baseline. In addition to this, we validate empirically the performance of our algorithm using synthetic data and data obtained from Microsoft’s systems.",
+    "citationCount": 13,
+    "referenceCount": 37
+}

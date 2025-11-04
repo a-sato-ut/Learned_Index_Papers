@@ -1,0 +1,41 @@
+{
+    "paperId": "8ae4793c0b1a14ddc864e8d6ba391116663132e5",
+    "title": "Optimizing DNNs With Partially Equivalent Transformations and Automated Corrections",
+    "year": 2023,
+    "venue": "IEEE transactions on computers",
+    "authors": [
+        "Haojie Wang",
+        "Jidong Zhai",
+        "Mingyu Gao",
+        "Feng Zhang",
+        "Tuowei Wang",
+        "Zixuan Ma",
+        "Shizhi Tang",
+        "Liyan Zheng",
+        "Wen Wang",
+        "Kaiyuan Rong",
+        "Yuanyong Chen",
+        "Zhihao Jia"
+    ],
+    "doi": "10.1109/TC.2023.3307795",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8ae4793c0b1a14ddc864e8d6ba391116663132e5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep neural network (DNN) applications are typically represented by tensor programs. To boost the performance of DNN computations, existing works adopt fully equivalent transformations for tensor program optimization by guaranteeing the equivalence on each element of tensors. However, as there are thousands of elements in a tensor, such optimization misses the opportunities that allow the in-equivalence of minority elements. In this work, we propose <sc>Pet</sc>, the first work that introduces partially equivalent transformations to optimize tensor programs. To maintain the functional equivalence of tensor programs, <sc>Pet</sc> automatically finds and corrects the in-equivalent positions by leveraging the multi-linearity of DNN computations. <sc>Pet</sc> further uses a mutation manager to improve search efficiency. Evaluation results show that <sc>Pet</sc> can achieve up to 1.98<inline-formula><tex-math notation=\"LaTeX\">$\\times$</tex-math><alternatives><mml:math><mml:mo>×</mml:mo></mml:math><inline-graphic xlink:href=\"zhai-ieq1-3307795.gif\"/></alternatives></inline-formula> and 2.20<inline-formula><tex-math notation=\"LaTeX\">$\\times$</tex-math><alternatives><mml:math><mml:mo>×</mml:mo></mml:math><inline-graphic xlink:href=\"zhai-ieq2-3307795.gif\"/></alternatives></inline-formula> speedups on NVIDIA Tesla A100 and V100 respectively compared with existing DNN frameworks by introducing new optimization opportunities of partially equivalent transformations.",
+    "citationCount": 1,
+    "referenceCount": 33
+}

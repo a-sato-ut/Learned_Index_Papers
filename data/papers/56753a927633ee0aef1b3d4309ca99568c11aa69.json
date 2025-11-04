@@ -1,0 +1,37 @@
+{
+    "paperId": "56753a927633ee0aef1b3d4309ca99568c11aa69",
+    "title": "A Deep Learning Model for Loop Interchange",
+    "year": 2023,
+    "venue": "International Conference on Compiler Construction",
+    "authors": [
+        "Lina Mezdour",
+        "Khadidja Kadem",
+        "Massinissa Merouani",
+        "Amina Selma Haichour",
+        "Saman P. Amarasinghe",
+        "Riyadh Baghdadi"
+    ],
+    "doi": "10.1145/3578360.3580257",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/56753a927633ee0aef1b3d4309ca99568c11aa69",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Loop interchange is an important code optimization that improves data locality and extracts parallelism. While previous research in compilers has tried to automate the selection of which loops to interchange, existing methods have an important limitation. They use less precise machine models. This is mainly because developing a model to predict whether to interchange two loops is challenging since such a prediction depends on many factors. While state-of-the-art methods try to avoid this problem by using a deep-learning based cost model, they suffer from another limitation. They scale proportionally with the number of loop levels of a given loop nest. This is mainly because they use the model to evaluate all the possible loop interchanges (or a subset of the most promising ones). In this paper, we propose a novel deep-learning model for loop interchange that addresses the previous limitations. It takes a code representation as input and predicts the best pair of loops to interchange. Compared to state-of-the-art deep-learning based cost models, it requires constant time to predict the best loop interchange. This is in contrast to state-of-the-art deep learning models that are used to evaluate all the loop pairs and then pick the best one. The proposed model is the first deep learning model that requires a constant time to predict the best loops to interchange. The model is implemented and evaluated in the Tiramisu compiler, a state-of-the-art polyhedral compiler. We evaluate the proposed model on a benchmark of Tiramisu programs and show an accuracy of 78.57% for 1-shot and 85.71% for 2-shots. Experiments show that our model outperforms the cost model currently used by the Tiramisu compiler by 8.57% in terms of 1-shot accuracy, and 5.71% with 2-shots accuracy, while at the same time reducing the total execution time needed for predicting the best pair of loops to interchange.",
+    "citationCount": 5,
+    "referenceCount": 21
+}

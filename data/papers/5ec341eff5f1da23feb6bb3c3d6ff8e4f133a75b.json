@@ -1,0 +1,40 @@
+{
+    "paperId": "5ec341eff5f1da23feb6bb3c3d6ff8e4f133a75b",
+    "title": "Exploring Fine-Grained Sparsity in Convolutional Neural Networks for Efficient Inference",
+    "year": 2022,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "authors": [
+        "Longguang Wang",
+        "Yulan Guo",
+        "Xiaoyu Dong",
+        "Yingqian Wang",
+        "Xinyi Ying",
+        "Zaiping Lin",
+        "Wei An"
+    ],
+    "doi": "10.1109/TPAMI.2022.3193925",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5ec341eff5f1da23feb6bb3c3d6ff8e4f133a75b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural networks contain considerable redundant computation, which drags down the inference efficiency and hinders the deployment on resource-limited devices. In this paper, we study the sparsity in convolutional neural networks and propose a generic sparse mask mechanism to improve the inference efficiency of networks. Specifically, sparse masks are learned in both data and channel dimensions to dynamically localize and skip redundant computation at a fine-grained level. Based on our sparse mask mechanism, we develop SMPointSeg, SMSR, and SMStereo for point cloud semantic segmentation, single image super-resolution, and stereo matching tasks, respectively. It is demonstrated that our sparse masks are well compatible to different model components and network architectures to accurately localize redundant computation, with computational cost being significantly reduced for practical speedup. Extensive experiments show that our SMPointSeg, SMSR, and SMStereo achieve state-of-the-art performance on benchmark datasets in terms of both accuracy and efficiency.",
+    "citationCount": 4,
+    "referenceCount": 114
+}

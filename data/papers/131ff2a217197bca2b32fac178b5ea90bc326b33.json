@@ -1,0 +1,36 @@
+{
+    "paperId": "131ff2a217197bca2b32fac178b5ea90bc326b33",
+    "title": "The Unwritten Contract of Cloud-based Elastic Solid-State Drives",
+    "year": 2025,
+    "venue": "Design Automation Conference",
+    "authors": [
+        "Yingjia Wang",
+        "Ming-Chang Yang"
+    ],
+    "doi": "10.1109/DAC63849.2025.11132948",
+    "arxivId": "2508.17372",
+    "url": "https://www.semanticscholar.org/paper/131ff2a217197bca2b32fac178b5ea90bc326b33",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Elastic block storage (EBS) with the storagecompute disaggregated architecture stands as a pivotal piece in today’s cloud. EBS furnishes users with storage capabilities through the elastic solid-state drive (ESSD). Nevertheless, despite the widespread integration into cloud services, the absence of a thorough ESSD performance characterization raises critical doubt: when more and more services are shifted onto the cloud, can ESSD satisfactorily substitute the storage responsibilities of the local SSD and offer comparable performance? In this paper, we for the first time target this question by characterizing two ESSDs from Amazon AWS and Alibaba Cloud. We present an unwritten contract of cloud-based ESSDs, encapsulating four observations and five implications for cloud storage users. Specifically, the observations are counter-intuitive and contrary to the conventional perceptions of what one would expect from the local SSD. The implications we hope could guide users in revisiting the designs of their deployed cloud software, i.e., harnessing the distinct characteristics of ESSDs for better system performance.",
+    "citationCount": 0,
+    "referenceCount": 47
+}

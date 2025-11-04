@@ -1,0 +1,41 @@
+{
+    "paperId": "c45c8d24e755e4aee8769c38e725b25d2d498434",
+    "title": "Online Charger-Placement Algorithm for Sustainable Energy-Harvesting Wireless Sensor Networks",
+    "year": 2025,
+    "venue": "IEEE Open Journal of the Communications Society",
+    "authors": [
+        "Ammar Gharaibeh",
+        "Osamah. S. Badarneh",
+        "M. Alshawaqfeh",
+        "Fares S. Almehmadi"
+    ],
+    "doi": "10.1109/OJCOMS.2025.3560310",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c45c8d24e755e4aee8769c38e725b25d2d498434",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Energy Harvesting (EH) is envisioned as one of the potential solutions for a sustainable Wireless Sensor Networks, addressing the challenges of the scarcity of energy resources. In EH, the sensors replenish their batteries from a wireless signal received from a charging station, thus prolonging the network’s lifetime. In this paper, we investigate the strategic placement of the charging stations. This paper primarily contributes by proposing an online algorithm for strategic placement of charging stations, a critical challenge when future charging requests from sensors are unknown. The problem is initially formulated as an Integer Linear Program (ILP) that minimizes a cost function related to the average charging time of the sensor nodes. It is shown analytically that the online algorithm achieves a competitive ratio of $\\mathcal {O}(\\log (J)\\log (I))$ , with a probability of success of $1 - {}\\frac {1}{J}$ , where J is the number of sensors, and I is the number of charging stations. Simulation results show the ILP achieves at least 40% increase in the total harvested energy while reducing the total costs by at least 12% when compared to fixed deployment of the charging stations at the center of the network, as well as certain scenarios where the online algorithm outperforms the fixed deployment in all metrics.",
+    "citationCount": 0,
+    "referenceCount": 40
+}

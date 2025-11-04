@@ -1,0 +1,38 @@
+{
+    "paperId": "8365c976de131f18518029f3270b59442442636a",
+    "title": "A CNN Inference micro-benchmark for Performance Analysis and Optimization on GPUs",
+    "year": 2022,
+    "venue": "IEEE International Conference on Systems, Man and Cybernetics",
+    "authors": [
+        "Jurn-Gyu Park",
+        "Zhumakhan Nazir",
+        "Beknur Kalmakhanbet",
+        "Saidgaffor Sabyrov"
+    ],
+    "doi": "10.1109/SMC53654.2022.9945449",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8365c976de131f18518029f3270b59442442636a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "optimization of per-layer or/and total inference time without accuracy loss in convolutional neural networks (CNNs) is significantly crucial in resource-constrained Edge-AI devices and embedded systems. To do this, this work 1) introduces a CNN inference micro-benchmark (mbNet) for performance analysis and optimization and 2) proposes a simple yet effective performance model for adaptive kernel selection to optimize per-layer CNN inference time. Considering the convolutional layer is the core part of CNNs, the two mainstream convolutional strategies of unrolling based convolution (UNROLL) and direct convolution (DIRECT) are adopted/implemented, compared and analyzed in terms of per-layer convolutional time. Using the obtained data from our mbNet, we build an accurate and interpretable tree-based performance model, with which our adaptive kernel selection approach shows significant convolutional performance improvement up to $5.4\\times$ speedup (on average, $2.7\\times$ and $1.6\\times$ speedup, compared to the default UNROLL and DIRECT respectively).",
+    "citationCount": 1,
+    "referenceCount": 26
+}

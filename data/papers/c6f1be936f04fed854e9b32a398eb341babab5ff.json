@@ -1,0 +1,31 @@
+{
+    "paperId": "c6f1be936f04fed854e9b32a398eb341babab5ff",
+    "title": "MetaTune: Meta-Learning Based Cost Model for Fast and Efficient Auto-tuning Frameworks",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jaehun Ryu",
+        "Hyojin Sung"
+    ],
+    "doi": null,
+    "arxivId": "2102.04199",
+    "url": "https://www.semanticscholar.org/paper/c6f1be936f04fed854e9b32a398eb341babab5ff",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning compiler frameworks are gaining ground as a more portable back-end for deep learning applications on increasingly diverse hardware. However, they face the daunting challenge of matching performance offered by hand-tuned target-specific libraries. While auto-tuning frameworks with statistical cost models can provide dynamic and efficient code optimization, they suffer from large space exploration and cost model training overheads. This paper proposes MetaTune, a meta-learning based cost model that more quickly and accurately predicts the performance of optimized codes with pre-trained model parameters. MetaTune encodes convolution kernel codes as structurally similar graphs to facilitate meta-learning, meta-trains a GNN model with a very small input data set, and then predicts optimization parameters for unseen convolution operations with varying sizes and structures during compilation. The resulting framework with MetaTune provides 8 to 13% better inference time on average for four CNN models with comparable or lower optimization time while outperforming transfer learning by 10% in cross-platform cases.",
+    "citationCount": 18,
+    "referenceCount": 33
+}

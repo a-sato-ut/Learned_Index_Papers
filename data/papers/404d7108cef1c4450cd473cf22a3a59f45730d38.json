@@ -1,0 +1,34 @@
+{
+    "paperId": "404d7108cef1c4450cd473cf22a3a59f45730d38",
+    "title": "TMC: Near-Optimal Resource Allocation for Tiered-Memory Systems",
+    "year": 2023,
+    "venue": "ACM Symposium on Cloud Computing",
+    "authors": [
+        "Yuanjiang Ni",
+        "Pankaj Mehra",
+        "E. L. Miller",
+        "Heiner Litz"
+    ],
+    "doi": "10.1145/3620678.3624667",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/404d7108cef1c4450cd473cf22a3a59f45730d38",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3620678.3624667",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Main memory dominates data center server cost, and hence data center operators are exploring alternative technologies such as CXL-attached and persistent memory to improve cost without jeopardizing performance. Introducing multiple tiers of memory introduces new challenges, such as selecting the appropriate memory configuration for a given workload mix. In particular, we observe that inefficient configurations increase cost by up to 2.6× for clients, and resource stranding increases cost by 2.2× for cloud operators. To address this challenge, we introduce TMC, a system for recommending cloud configurations according to workload characteristics and the dynamic resource utilization of a cluster. Whereas prior work utilized extensive simulation or costly machine learning techniques, incurring significant search costs, our approach profiles applications to reveal internal properties that lead to fast and accurate performance estimations. Our novel configuration-selection algorithm incorporates a new heuristic, packing penalty, to ensure that recommended configurations will also achieve good resource efficiency. Our experiments demonstrate that TMC reduces the search cost by up to 4× over the state-of-the-art, while improving resource utilization by up to 17% as compared to a naive policy that requests optimal tiered memory allocations in isolation.",
+    "citationCount": 7,
+    "referenceCount": 83
+}

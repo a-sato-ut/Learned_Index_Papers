@@ -1,0 +1,33 @@
+{
+    "paperId": "070171862d08fc83798bdeab468a6b77ee80947b",
+    "title": "On the Privacy of Multi-Versioned Approximate Membership Check Filters",
+    "year": 2024,
+    "venue": "IEEE Transactions on Dependable and Secure Computing",
+    "authors": [
+        "P. Reviriego",
+        "A. Sánchez-Macián",
+        "P. Dillinger",
+        "Stefan Walzer"
+    ],
+    "doi": "10.1109/TDSC.2023.3298967",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/070171862d08fc83798bdeab468a6b77ee80947b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate membership filters are increasingly used in many computing and networking applications and new filter designs are being continuously presented to improve one or more performance metrics. Therefore, understanding their security and privacy is an important issue. Previous works have considered attackers that only have access to an individual filter in isolation. For applications that generate many related filters, such as a filter for a deny list that evolves over time, that analysis is insufficient. This article considers an attacker with access to several versions of a filter that share most of the same input elements. We find that for typical implementations of Bloom, cuckoo, and quotient filters, the attacker gains little or no advantage with access to multiple versions of a filter. However, typical xor filters do reveal more information about their input elements by querying multiple versions of a filter, and we propose techniques to enhance the privacy of xor filters and others.",
+    "citationCount": 3,
+    "referenceCount": 49
+}

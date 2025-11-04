@@ -1,0 +1,42 @@
+{
+    "paperId": "4da2d2f98fee2e9962f425d931455cfbb24b05c7",
+    "title": "TSUBASA: Climate Network Construction on Historical and Real-Time Data",
+    "year": 2022,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Yunlong Xu",
+        "Jinshu Liu",
+        "Fatemeh Nargesian"
+    ],
+    "doi": "10.1145/3514221.3526177",
+    "arxivId": "2203.16457",
+    "url": "https://www.semanticscholar.org/paper/4da2d2f98fee2e9962f425d931455cfbb24b05c7",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.16457",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A climate network represents the global climate system by the interactions of a set of anomaly time-series. Network science has been applied to climate data to study the dynamics of a climate network. The core task to enable network dynamics analysis on climate data is the efficient computation and update of the correlation matrix for user-defined time-windows on historical and real-time data. We present TSUBASA, an algorithm for efficiently computing the exact pair-wise time-series correlation based on Pearson's correlation. By pre-computing simple and low-overhead sketches, TSUBASA can efficiently compute exact pairwise correlations on arbitrary time windows at query time. For real-time data, TSUBASA proposes a fast and incremental way of updating the correlation matrix. We provide a detailed time and space complexity analysis of TSUBASA. Our experiments show that with the same space overhead as a DFT-based approximate solution, TSUBASA has a lower sketching time and is on par with the approximate solution with respect to query time. TSUBASA is at least one order of magnitude faster than a baseline for both historical and real-time data.",
+    "citationCount": 3,
+    "referenceCount": 41
+}

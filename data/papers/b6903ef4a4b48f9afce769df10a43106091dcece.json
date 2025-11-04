@@ -1,0 +1,39 @@
+{
+    "paperId": "b6903ef4a4b48f9afce769df10a43106091dcece",
+    "title": "Adaptive and Dynamic Multi-Resolution Hashing for Pairwise Summations",
+    "year": 2022,
+    "venue": "2022 IEEE International Conference on Big Data (Big Data)",
+    "authors": [
+        "Lianke Qin",
+        "Aravind Reddy",
+        "Zhao Song",
+        "Zhaozhuo Xu",
+        "Danyang Zhuo"
+    ],
+    "doi": "10.1109/BigData55660.2022.10020385",
+    "arxivId": "2212.11408",
+    "url": "https://www.semanticscholar.org/paper/b6903ef4a4b48f9afce769df10a43106091dcece",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2212.11408",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we propose Adam-Hash: an adaptive and dynamic multi-resolution hashing data-structure for fast pairwise summation estimation. Given a data-set X ⊂ ℝ<sup>d</sup>, a binary function f : ℝ<sup>d</sup> × ℝ<sup>d</sup> → ℝ, and a point y ∈ ℝ<sup>d</sup>, the Pairwise Summation Estimate $PS{E_X}(y): = \\frac{1}{{\\left| X \\right|}}\\sum\\nolimits_{x \\in X} {f(x,y)} $. For any given data-set X, we need to design a data-structure such that given any query point y ∈ ℝ<sup>d</sup>, the data-structure approximately estimates PSE<inf>X</inf>(y) in time that is sub-linear in |X|. Prior works on this problem have focused exclusively on the case where the data-set is static, and the queries are independent. In this paper, we design a hashing-based PSE data-structure which works for the more practical dynamic setting in which insertions, deletions, and replacements of points are allowed. Moreover, our proposed Adam-Hash is also robust to adaptive PSE queries, where an adversary can choose query q<inf>j</inf> ∈ ℝ<sup>d</sup> depending on the output from previous queries q<inf>1</inf>, q<inf>2</inf>, …, q<inf>j–1</inf>.",
+    "citationCount": 14,
+    "referenceCount": 60
+}

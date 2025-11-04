@@ -1,0 +1,35 @@
+{
+    "paperId": "d5f18eb84f2323e7f5f2b7c1e8e0f0fb32f7aade",
+    "title": "Ark Filter: A General and Space-Efficient Sketch for Network Flow Analysis",
+    "year": 2023,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "Lailong Luo",
+        "Pengtao Fu",
+        "Shangsen Li",
+        "Deke Guo",
+        "Qianzhen Zhang",
+        "Huaimin Wang"
+    ],
+    "doi": "10.1109/TNET.2023.3263839",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d5f18eb84f2323e7f5f2b7c1e8e0f0fb32f7aade",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/90/4359146/10102434.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sketches are widely deployed to represent network flows to support complex flow analysis. Typical sketches usually employ hash functions to map elements into a hash table or bit array. Such sketches still suffer from potential weaknesses upon throughput, flexibility, and functionality. To this end, we propose Ark filter, a novel sketch that stores the element information with either of two candidate buckets indexed by the quotient or remainder between the fingerprint and filter length. In this way, no further hash calculations are required for future queries or reallocations. We further extend the Ark filter to enable capacity elasticity and more functionalities (such as frequency estimation and top-<inline-formula> <tex-math notation=\"LaTeX\">$k$ </tex-math></inline-formula> query). Comprehensive experiments demonstrate that, compared with Cuckoo filter, Ark filter has <inline-formula> <tex-math notation=\"LaTeX\">$2.08\\times $ </tex-math></inline-formula>, <inline-formula> <tex-math notation=\"LaTeX\">$1.34\\times $ </tex-math></inline-formula>, and <inline-formula> <tex-math notation=\"LaTeX\">$1.68\\times $ </tex-math></inline-formula> throughput of deletion, insertion, and hybrid query, respectively; compared with Quotient filter, Ark filter has <inline-formula> <tex-math notation=\"LaTeX\">$4.55\\times $ </tex-math></inline-formula>, <inline-formula> <tex-math notation=\"LaTeX\">$1.74\\times $ </tex-math></inline-formula>, and <inline-formula> <tex-math notation=\"LaTeX\">$22.12\\times $ </tex-math></inline-formula> throughput of deletion, insertion, and hybrid query, respectively; compared with Bloom filter, Ark filter has <inline-formula> <tex-math notation=\"LaTeX\">$2.55\\times $ </tex-math></inline-formula> and <inline-formula> <tex-math notation=\"LaTeX\">$2.11\\times $ </tex-math></inline-formula> throughput of insertion and hybrid query, respectively.",
+    "citationCount": 2,
+    "referenceCount": 50
+}

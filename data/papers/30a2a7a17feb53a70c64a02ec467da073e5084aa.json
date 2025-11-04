@@ -1,0 +1,33 @@
+{
+    "paperId": "30a2a7a17feb53a70c64a02ec467da073e5084aa",
+    "title": "POSUM: A Portfolio Scheduler for MapReduce Workloads",
+    "year": 2018,
+    "venue": "2018 IEEE International Conference on Big Data (Big Data)",
+    "authors": [
+        "Maria A. Voinea",
+        "Alexandru Uta",
+        "A. Iosup"
+    ],
+    "doi": "10.1109/BigData.2018.8622215",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/30a2a7a17feb53a70c64a02ec467da073e5084aa",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://research.vu.nl/files/239052434/POSUM.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "MapReduce ecosystems are (still) widely popular for big data processing in data centers. To address the diverse non-functional requirements arising from many and increasingly more sophisticated users, the community has developed many scheduling policies for MapReduce workloads. Although some individual policies can dynamically optimize for single and stable performance objectives, such as minimizing runtime or cost, or meeting deadlines for realtime-jobs, it seems unlikely that individual policies will remain competitive for increasingly more dynamic workloads and objectives. In contrast, in this work we investigate the ability to dynamically balance performance and cost of a portfolio scheduler for MapReduce workloads. To this end, we design and implement a portfolio scheduling technique, that is, a system capable of adapting to the current workload characteristics and target objectives by periodically evaluating its set of potential policies, and of switching to \"the best\" policy that targets the current system state. We implement and evaluate our system with real-world experiments on a workload containing a mixture of real-time and batch jobs, with the purpose of minimizing deadline violations, while keeping batch job slowdown in check. Our results show that POSUM is a promising alternative: it can out-perform the individual policies of its portfolio for the combined optimization goal, even without precise predictions.",
+    "citationCount": 5,
+    "referenceCount": 39
+}

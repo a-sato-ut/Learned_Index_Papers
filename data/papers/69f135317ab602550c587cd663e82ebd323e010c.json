@@ -1,0 +1,38 @@
+{
+    "paperId": "69f135317ab602550c587cd663e82ebd323e010c",
+    "title": "Deep Program Structure Modeling Through Multi-Relational Graph-based Learning",
+    "year": 2020,
+    "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+    "authors": [
+        "Guixin Ye",
+        "Zhanyong Tang",
+        "Huanting Wang",
+        "Dingyi Fang",
+        "Jianbin Fang",
+        "Songfang Huang",
+        "Zheng Wang"
+    ],
+    "doi": "10.1145/3410463.3414670",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/69f135317ab602550c587cd663e82ebd323e010c",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://eprints.whiterose.ac.uk/164551/12/PACT_2020.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning is emerging as a promising technique for building predictive models to support code-related tasks like performance optimization and code vulnerability detection. One of the critical aspects of building a successful predictive model is having the right representation to characterize the model input for the given task. Existing approaches in the area typically treat the program structure as a sequential sequence but fail to capitalize on the rich semantics of data and control flow information, for which graphs are a proven representation structure. We present POEM, a novel framework that automatically learns useful code representations from graph-based program structures. At the core of POEM is a graph neural network (GNN) that is specially designed for capturing the syntax and semantic information from the program abstract syntax tree and the control and data flow graph. As a departure from existing GNN-based code modeling techniques, our network simultaneously learns over multiple relations of a program graph. This capability enables the learning framework to distinguish and reason about the diverse code relationships, be it a data or a control flow or any other relationships that may be important for the downstream processing task. We apply POEM to four representative tasks that require a strong ability to reason about the program structure: heterogeneous device mapping, parallel thread coarsening, loop vectorization and code vulnerability detection. We evaluate POEM on programs written in OpenCL, C, Java and Swift, and compare it against nine learning-based methods. Experimental results show that POEM consistently outperforms all competing methods across evaluation settings.",
+    "citationCount": 37,
+    "referenceCount": 77
+}

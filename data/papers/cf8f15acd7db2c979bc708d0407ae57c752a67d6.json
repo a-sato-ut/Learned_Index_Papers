@@ -1,0 +1,33 @@
+{
+    "paperId": "cf8f15acd7db2c979bc708d0407ae57c752a67d6",
+    "title": "Structure Guided Large Language Model for SQL Generation",
+    "year": 2024,
+    "venue": "",
+    "authors": [
+        "Qinggang Zhang",
+        "Hao Chen",
+        "Junnan Dong",
+        "Shengyuan Chen",
+        "Feiran Huang",
+        "Xiao Huang"
+    ],
+    "doi": null,
+    "arxivId": "2402.13284",
+    "url": "https://www.semanticscholar.org/paper/cf8f15acd7db2c979bc708d0407ae57c752a67d6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advancements in large language models (LLMs) have shown promise in bridging the gap between natural language queries and database management systems, enabling users to interact with databases without the background of SQL. However, LLMs often struggle to comprehend complex database structures and accurately interpret user intentions. Decomposition-based methods have been proposed to enhance the performance of LLMs on complex tasks, but decomposing SQL generation into subtasks is non-trivial due to the declarative structure of SQL syntax and the intricate connections between query concepts and database elements. In this paper, we propose a novel Structure GUided text-to-SQL framework~(SGU-SQL) that incorporates syntax-based prompting to enhance the SQL generation capabilities of LLMs. Specifically, SGU-SQL establishes structure-aware links between user queries and database schema and decomposes the complex generation task using syntax-based prompting to enable more accurate LLM-based SQL generation. Extensive experiments on two benchmark datasets demonstrate that SGU-SQL consistently outperforms state-of-the-art text-to-SQL models.",
+    "citationCount": 0,
+    "referenceCount": 70
+}

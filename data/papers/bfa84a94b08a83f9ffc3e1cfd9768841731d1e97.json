@@ -1,0 +1,38 @@
+{
+    "paperId": "bfa84a94b08a83f9ffc3e1cfd9768841731d1e97",
+    "title": "Optimized Monocular Depth Estimation With Reparameterization on Embedded Devices",
+    "year": 2021,
+    "venue": "2021 IEEE 23rd Int Conf on High Performance Computing & Communications; 7th Int Conf on Data Science & Systems; 19th Int Conf on Smart City; 7th Int Conf on Dependability in Sensor, Cloud & Big Data Systems & Application (HPCC/DSS/SmartCity/DependSys)",
+    "authors": [
+        "Siping Liu",
+        "Renfa Li",
+        "Xiaohan Tu",
+        "Guoqi Xie",
+        "Cheng Xu"
+    ],
+    "doi": "10.1109/HPCC-DSS-SmartCity-DependSys53884.2021.00101",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bfa84a94b08a83f9ffc3e1cfd9768841731d1e97",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Monocular depth estimation (MDE) has been a basic task in many fields. Currently, researchers usually improve the accuracy of MDE by designing deep neural networks, including complex branches or other components. Although complex networks achieve increased precision, they bring slow speed and high memory access cost (MAC) in embedded systems. To balance the speed, accuracy, and MAC for embedded systems, we propose a directly connected model (DCM), which relies on existing networks, for fast inference in embedded systems. DCM balances the speed, precision, and MAC with structural reparameterization that decouples its training and inference networks. To further reduce the MAC and latency of DCM for embedded systems, we construct a network optimization frame-work based on recent template-based optimization methods. In the framework, we respectively adopt the machine learning LightGBM and contextual simulated annealing algorithm as the cost model and optimizer to complete rapid optimization in embedded systems. Our comprehensive experiments confirm that our methods achieve a better trade-off among precision, latency, and MAC. The accuracy of our original DCM inference networks reaches at least 6.13% better than the state of the arts. The optimized DCM inference networks decrease latency, main MAC, and power consumption by 46.49%, 90.97%, and 65.31% on Jetson TX2 GPU, without unchanged accuracy.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

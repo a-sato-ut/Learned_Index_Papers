@@ -1,0 +1,36 @@
+{
+    "paperId": "00af5acfe7bf1c1824dd4ff319ab93a31b9263da",
+    "title": "Cuckoo Counter: Adaptive Structure of Counters for Accurate Frequency and Top-k Estimation",
+    "year": 2023,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "Qilong Shi",
+        "Yuchen Xu",
+        "Jiuhua Qi",
+        "Wenjun Li",
+        "Tong Yang",
+        "Yang Xu",
+        "Yi Wang"
+    ],
+    "doi": "10.1109/TNET.2022.3232098",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/00af5acfe7bf1c1824dd4ff319ab93a31b9263da",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Frequency estimation and top-k flows identification are fundamental problems in network traffic measurement. Sketch, as a basic probabilistic data structure, has been extensively investigated and used in different management applications. However, few of them is suitable for both estimating frequency and finding top-k flows due to the unbalanced distribution of real-world network streams. By introducing a pre-filtering stage to isolate elephant and mice flows, the recently proposed Augmented Sketch (ASketch) significantly improves accuracy for both tasks. However, it suffers from serious performance degradation because of frequent flow exchanges. In this paper, we propose Cuckoo Counter (CC), an adaptive structure that consists of several buckets organized in a specific way. The size of the entry in each bucket is carefully designed to match the actual distribution of streams. During processing, CC hashes a flow to buckets and uses the idea of cuckoo hashing to relocate the flow if an overflow or collision happens, which contributes to fully utilizing memory. Therefore, the replacement strategy helps CC precisely record elephant flows and cover more mice flows, and also guarantees the throughput. Extensive experimental results show that CC has the highest (Freq.) accuracy, excellent (Heavy hitter / change) accuracy, highest (Top-k) precision, and competitive throughput compared to the state-of-the-art. Specifically, CC improves the throughput and accuracy by around 1 and 2 orders of magnitude respectively compared to the well-known ASketch.",
+    "citationCount": 18,
+    "referenceCount": 54
+}

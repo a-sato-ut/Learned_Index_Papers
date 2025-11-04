@@ -1,0 +1,36 @@
+{
+    "paperId": "af3acb9c57f8da06382b5e885ad797d70444827d",
+    "title": "MPI-RICAL: Data-Driven MPI Distributed Parallelism Assistance with Transformers",
+    "year": 2023,
+    "venue": "SC Workshops",
+    "authors": [
+        "Nadav Schneider",
+        "Tal Kadosh",
+        "N. Hasabnis",
+        "T. Mattson",
+        "Yuval Pinter",
+        "Gal Oren"
+    ],
+    "doi": "10.1145/3624062.3624063",
+    "arxivId": "2305.09438",
+    "url": "https://www.semanticscholar.org/paper/af3acb9c57f8da06382b5e885ad797d70444827d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2305.09438",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Computational science has made rapid progress in recent years, leading to ever increasing demand for supercomputing resources. For scientific applications that leverage such resources, Message Passing Interface (MPI) plays a crucial role in enabling distributed memory parallelization across multiple nodes. However, parallelizing MPI code manually, and specifically, performing domain decomposition, is a challenging and error-prone task. In this paper, we address this problem by developing MPI-rical, a novel data-driven, programming-assistance tool that assists programmers in writing domain decomposition based distributed memory parallelization code using MPI. Specifically, we leverage Transformer architecture — the invention that led to advancements in the field of natural language processing (NLP) — with a supervised language model to suggest MPI functions and their proper locations in the code on the fly. In addition to the novel model for MPI-based parallel programming, in this paper, we also introduce MPICodeCorpus, the first publicly-available corpus of MPI-based parallel programs that is created by mining more than 15,000 open-source repositories on GitHub. Experimental results demonstrate the effectiveness of MPI-rical on both dataset from MPICodeCorpus and more importantly, on a compiled benchmark of MPI-based parallel programs for numerical computations that represent real-world scientific applications. Specifically, MPI-rical achieves F1 scores between 0.87-0.91 on these programs, demonstrating its accuracy in suggesting correct MPI functions at appropriate code locations. The source code used in this work, as well as other relevant sources, are available at: https://github.com/Scientific-Computing-Lab-NRCN/MPI-rical.",
+    "citationCount": 9,
+    "referenceCount": 66
+}

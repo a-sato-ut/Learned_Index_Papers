@@ -1,0 +1,35 @@
+{
+    "paperId": "0ce87989f5c0ba525968c746e0e613839692b505",
+    "title": "A feature-based intelligent deduplication compression system with extreme resemblance detection",
+    "year": 2020,
+    "venue": "Connection science",
+    "authors": [
+        "Xiaotong Wu",
+        "Jiaquan Gao",
+        "G. Ji",
+        "Taotao Wu",
+        "Y. Tian",
+        "N. Al-Nabhan"
+    ],
+    "doi": "10.1080/09540091.2020.1862058",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0ce87989f5c0ba525968c746e0e613839692b505",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1080/09540091.2020.1862058",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "ABSTRACT With the fast development of various computing paradigms, the amount of data is rapidly increasing that brings the huge storage overhead. However, the existing data deduplication techniques do not make full use of similarity detection to improve the storage efficiency and data transmission rate. In this paper, we study the problem of utilising the duplicate and resemblance detection techniques to further compress data. We first present a framework of FIDCS-ERD, a feature-based intelligent deduplication compression system with extreme resemblance detection. We also introduce the main components and the detailed workflow of our compression system. We propose a content-defined chunking algorithm for duplicate detection and a Bloom filter-based resemblance detection algorithm. FIDCS-ERD implements the intelligent file chunking and the fast duplicate and resemblance detection. By extensive experiments over the real datasets, we demonstrate that FIDCS-ERD has better compression effect and more accurate resemblance detection compared to the existing approaches.",
+    "citationCount": 3,
+    "referenceCount": 57
+}

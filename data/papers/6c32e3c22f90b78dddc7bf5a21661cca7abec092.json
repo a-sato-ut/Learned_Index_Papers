@@ -1,0 +1,35 @@
+{
+    "paperId": "6c32e3c22f90b78dddc7bf5a21661cca7abec092",
+    "title": "Productive Reproducible Workflows for DNNs: A Case Study for Industrial Defect Detection",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Perry Gibson",
+        "José Cano"
+    ],
+    "doi": "10.48550/arXiv.2206.09359",
+    "arxivId": "2206.09359",
+    "url": "https://www.semanticscholar.org/paper/6c32e3c22f90b78dddc7bf5a21661cca7abec092",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2206.09359",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As Deep Neural Networks (DNNs) have become an increasingly ubiquitous workload, the range of libraries and tooling available to aid in their development and deployment has grown significantly. Scalable, production quality tools are freely available under permissive licenses, and are accessible enough to enable even small teams to be very productive. However within the research community, awareness and usage of said tools is not necessarily widespread, and researchers may be missing out on potential productivity gains from exploiting the latest tools and workflows. This paper presents a case study where we discuss our recent experience producing an end-to-end artificial intelligence application for industrial defect detection. We detail the high level deep learning libraries, containerized workflows, continuous integration/deployment pipelines, and open source code templates we leveraged to produce a competitive result, matching the performance of other ranked solutions to our three target datasets. We highlight the value that exploiting such systems can bring, even for research, and detail our solution and present our best results in terms of accuracy and inference time on a server class GPU, as well as inference times on a server class CPU, and a Raspberry Pi 4.",
+    "citationCount": 1,
+    "referenceCount": 42
+}

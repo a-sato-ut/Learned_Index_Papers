@@ -1,0 +1,37 @@
+{
+    "paperId": "761af20e7966e8a7d899975a332ac7eee3f92116",
+    "title": "How to Protect Copyright Data in Optimization of Large Language Models?",
+    "year": 2023,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "T. Chu",
+        "Zhao Song",
+        "Chiwun Yang"
+    ],
+    "doi": "10.48550/arXiv.2308.12247",
+    "arxivId": "2308.12247",
+    "url": "https://www.semanticscholar.org/paper/761af20e7966e8a7d899975a332ac7eee3f92116",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2308.12247",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Law",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large language models (LLMs) and generative AI have played a transformative role in computer research and applications. Controversy has arisen as to whether these models output copyrighted data, which can occur if the data the models are trained on is copyrighted. LLMs are built on the transformer neural network architecture, which in turn relies on a mathematical computation called Attention that uses the softmax function.\n\nIn this paper, we observe that large language model training and optimization can be seen as a softmax regression problem. We then establish a method of efficiently performing softmax regression, in a way that prevents the regression function from generating copyright data. This establishes a theoretical method of training large language models in a way that avoids generating copyright data.",
+    "citationCount": 36,
+    "referenceCount": 96
+}

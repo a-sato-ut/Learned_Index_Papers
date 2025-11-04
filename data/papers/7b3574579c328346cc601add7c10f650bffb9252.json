@@ -1,0 +1,36 @@
+{
+    "paperId": "7b3574579c328346cc601add7c10f650bffb9252",
+    "title": "Improving the accuracy, adaptability, and interpretability of SSD failure prediction models",
+    "year": 2020,
+    "venue": "ACM Symposium on Cloud Computing",
+    "authors": [
+        "C. Chakraborttii",
+        "Heiner Litz"
+    ],
+    "doi": "10.1145/3419111.3421300",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7b3574579c328346cc601add7c10f650bffb9252",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3419111.3421300",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Flash-based solid state drives represent an important storage tier in today's hyperscale data centers. Although solid state drives (SSDs) are relatively reliable, data center operators are interested in predicting future drive failures to administer drive replacement, data migration, and drive acquisition strategies. We analyze telemetry data from over 30,000 SSDs running live applications in Google's datacenters over a span of six years, for predicting and explaining SSD failures using machine learning techniques. We propose the use of 1-class isolation forest and autoencoder-based anomaly detection techniques for predicting previously unseen SSD failure types with high accuracy. We show that ignoring the minority class for training can improve the performance by up to 9.5% and if adaptability to dynamic environments is required, by up to 13%. Furthermore, this paper proposes to utilize 1-class autoencoders to enable model interpretability. In particular, our autoencoder-based approach enables reasoning about the causes that lead to SSD failures. Common to all approaches, we deploy a set of powerful feature selection techniques that improve the model performance by up to 1.3X and reduce training times by up to 1.8X.",
+    "citationCount": 35,
+    "referenceCount": 89
+}

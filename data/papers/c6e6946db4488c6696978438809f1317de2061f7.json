@@ -1,0 +1,39 @@
+{
+    "paperId": "c6e6946db4488c6696978438809f1317de2061f7",
+    "title": "Scaling Self-Supervised Learning for Histopathology with Masked Image Modeling",
+    "year": 2023,
+    "venue": "medRxiv",
+    "authors": [
+        "Alexandre Filiot",
+        "Ridouane Ghermi",
+        "Antoine Olivier",
+        "Paul Jacob",
+        "L. Fidon",
+        "Alice Mac Kain",
+        "C. Saillard",
+        "Jean-Baptiste Schiratti"
+    ],
+    "doi": "10.1101/2023.07.21.23292757",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c6e6946db4488c6696978438809f1317de2061f7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.medrxiv.org/content/medrxiv/early/2023/07/26/2023.07.21.23292757.full.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Computational pathology is revolutionizing the field of pathology by integrating advanced computer vision and machine learning technologies into diagnostic workflows. Recently, self-supervised learning (SSL) has emerged as a promising solution to learn representations from histology patches, leveraging large volumes of unannotated whole slide images (WSI). In particular, Masked Image Modeling (MIM) showed remarkable results and robustness over purely contrastive learning methods. In this work, we explore the application of MIM to histology using iBOT, a self-supervised transformer-based framework. Through a wide range of downstream tasks over seven cancer indications, we provide recommendations on the pre-training of large models for histology data using MIM. First, we demonstrate that in-domain pre-training with iBOT outperforms both ImageNet pre-training and a model pre-trained with a purely contrastive learning objective, MoCo V2. Second, we show that Vision Transformers models (ViT), when scaled appropriately, have the capability to learn pan-cancer representations that benefit a large variety of downstream tasks. Finally, our iBOT ViT-Base model, pre-trained on more than 40 million histology images from 16 different cancer types, achieves state-of-the-art performance in most weakly-supervised WSI classification tasks compared to other SSL frameworks.",
+    "citationCount": 126,
+    "referenceCount": 82
+}

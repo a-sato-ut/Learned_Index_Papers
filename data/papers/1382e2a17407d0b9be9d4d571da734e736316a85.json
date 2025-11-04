@@ -1,0 +1,30 @@
+{
+    "paperId": "1382e2a17407d0b9be9d4d571da734e736316a85",
+    "title": "Pro NDN : MCDM-Based Interest Forwarding and Cooperative Data Caching for Named Data Networking",
+    "year": 2021,
+    "venue": "J. Comput. Networks Commun.",
+    "authors": [
+        "Cong Pu"
+    ],
+    "doi": "10.1155/2021/6640511",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1382e2a17407d0b9be9d4d571da734e736316a85",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://downloads.hindawi.com/journals/jcnc/2021/6640511.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Named data networking (NDN), as a specific architecture design of information-centric networking (ICN), has quickly became a promising candidate for future Internet architecture, where communications are driven by data names instead of IP addresses. To realize the NDN communication paradigm in the future Internet, two important features, stateful forwarding and in-network caching, have been proposed to cope with drawbacks of host-based communication protocols. The stateful forwarding is designed to maintain the state of pending Interest packets to guide Data packets back to requesting consumers, while the in-network caching is used to reduce both network traffic and data access delay to improve the overall performance of data access. However, the conventional stateful forwarding approach is not adaptive and responsive to diverse network conditions because it fails to consider multiple network metrics to make Interest forwarding decision. In addition, the default in-network caching strategy relies on storing each received Data packet regardless of various caching constraints and criteria, which causes the routers in the vicinity of data producers to suffer from excessive caching overhead. In this paper, we propose the \n \n \n \n Pro\n \n \n NDN\n \n \n \n , a novel stateful forwarding and in-network caching strategy for NDN networks. The \n \n \n \n Pro\n \n \n NDN\n \n \n \n consists of multicriteria decision-making (MCDM) based interest forwarding and cooperative data caching. The basic idea of the MCDM-based interest forwarding is to employ Technique for Order Performance by Similarity to Idea Solution (TOPSIS) to dynamically evaluate outgoing interface alternatives based on multiple network metrics and objectively select an optimal outgoing interface to forward the Interest packet. In addition, the cooperative data caching consists of two schemes: CacheData, which caches the data, and CacheFace, which caches the outgoing interface. We conduct extensive simulation experiments for performance evaluation and comparison with prior schemes. The simulation results show that the \n \n \n \n Pro\n \n \n NDN\n \n \n \n can improve Interest satisfaction ratio and Interest satisfaction latency as well as reduce hop count and Content Store utilization ratio.",
+    "citationCount": 4,
+    "referenceCount": 28
+}

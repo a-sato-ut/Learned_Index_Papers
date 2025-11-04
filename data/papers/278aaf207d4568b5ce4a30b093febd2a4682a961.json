@@ -1,0 +1,37 @@
+{
+    "paperId": "278aaf207d4568b5ce4a30b093febd2a4682a961",
+    "title": "Fast Distance Oracles for Any Symmetric Norm",
+    "year": 2022,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Yichuan Deng",
+        "Zhao Song",
+        "Omri Weinstein",
+        "Ruizhe Zhang"
+    ],
+    "doi": "10.48550/arXiv.2205.14816",
+    "arxivId": "2205.14816",
+    "url": "https://www.semanticscholar.org/paper/278aaf207d4568b5ce4a30b093febd2a4682a961",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2205.14816",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the Distance Oracle problem, the goal is to preprocess $n$ vectors $x_1, x_2, \\cdots, x_n$ in a $d$-dimensional metric space $(\\mathbb{X}^d, \\| \\cdot \\|_l)$ into a cheap data structure, so that given a query vector $q \\in \\mathbb{X}^d$ and a subset $S\\subseteq [n]$ of the input data points, all distances $\\| q - x_i \\|_l$ for $x_i\\in S$ can be quickly approximated (faster than the trivial $\\sim d|S|$ query time). This primitive is a basic subroutine in machine learning, data mining and similarity search applications. In the case of $\\ell_p$ norms, the problem is well understood, and optimal data structures are known for most values of $p$. Our main contribution is a fast $(1+\\varepsilon)$ distance oracle for any symmetric norm $\\|\\cdot\\|_l$. This class includes $\\ell_p$ norms and Orlicz norms as special cases, as well as other norms used in practice, e.g. top-$k$ norms, max-mixture and sum-mixture of $\\ell_p$ norms, small-support norms and the box-norm. We propose a novel data structure with $\\tilde{O}(n (d + \\mathrm{mmc}(l)^2 ) )$ preprocessing time and space, and $t_q = \\tilde{O}(d + |S| \\cdot \\mathrm{mmc}(l)^2)$ query time, for computing distances to a subset $S$ of data points, where $\\mathrm{mmc}(l)$ is a complexity-measure (concentration modulus) of the symmetric norm. When $l = \\ell_{p}$ , this runtime matches the aforementioned state-of-art oracles.",
+    "citationCount": 9,
+    "referenceCount": 60
+}

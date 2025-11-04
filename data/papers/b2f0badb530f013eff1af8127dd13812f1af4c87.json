@@ -1,0 +1,38 @@
+{
+    "paperId": "b2f0badb530f013eff1af8127dd13812f1af4c87",
+    "title": "Dynamic Online Performance Optimization in Streaming Data Compression",
+    "year": 2018,
+    "venue": "2018 IEEE International Conference on Big Data (Big Data)",
+    "authors": [
+        "J. Kade Gibson",
+        "Dongeun Lee",
+        "Jaesik Choi",
+        "A. Sim"
+    ],
+    "doi": "10.1109/BigData.2018.8621867",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b2f0badb530f013eff1af8127dd13812f1af4c87",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://sdm.lbl.gov/oapapers/bigdata18-gibson-idealem.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Compression is essential to high bandwidth applications such as scientific simulations and sensing applications to reduce resource burden such as storage, network transmission, and more recently I/O. Existing lossy compression methods attempt to minimize the Euclidean distance between original data and reconstructed data, which significantly limits either compression performance or reconstruction quality since original and reconstructed data sequences should be aligned. Substituting the Euclidean distance for a statistical similarity maximizes the compression performance while retaining essential data features. By implementing this methodology, IDEALEM has recently demonstrated compression ratios far exceeding 100:1, better than best-known compression methods, while preserving reconstruction quality. This work proposes an online algorithm for streaming data compression which takes account of generally concave trend of compression ratio curve, and optimizes key operation parameters. We demonstrate that the proposed algorithm successfully adapts one of the key parameters in IDEALEM to the optimal value and yields near maximum compression ratios for time series data.",
+    "citationCount": 4,
+    "referenceCount": 21
+}

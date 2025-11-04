@@ -1,0 +1,36 @@
+{
+    "paperId": "ae1f338fe7cee1a5042ea7dca293486333171546",
+    "title": "Unsupervised and Supervised Co-learning for Comment-based Codebase Refining and its Application in Code Search",
+    "year": 2024,
+    "venue": "International Symposium on Empirical Software Engineering and Measurement",
+    "authors": [
+        "Gang Hu",
+        "Xiaoqin Zeng",
+        "Wanlong Yu",
+        "Min Peng",
+        "Mengting Yuan",
+        "Liang Duan"
+    ],
+    "doi": "10.1145/3674805.3686664",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ae1f338fe7cee1a5042ea7dca293486333171546",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Background: Code pre-training and large language models are heavily dependent on data quality. These models require a vast, high-quality corpus matching text descriptions with codes to establish semantic correlations between natural and programming languages. Unlike NLP tasks, code comment heavily relies on specialized programming knowledge and is often limited in quantity and variety. Thus, most widely available open-source datasets are established with compromise and noise from platforms, such as StackOverflow, where code snippets are often incomplete. This may lead to significant errors when deploying the trained models in real-world applications. Aims: Comments as a substitute for queries are used to build code search datasets from GitHub. While comments describe code functionality and details, they often contain noise and differ from queries. Thus, our research focuses on improving the syntactic and semantic quality of code comments. Method: We propose a comment-based data refinement framework CoCoRF 1 via an unsupervised and supervised co-learning technique. It applies manually defined rules for syntax filtering and constructs a bootstrap query corpus via the WTFF algorithm for training the TVAE model for further semantic filtering. Results: Our study shows that CoCoRF achieves high efficiency with less computational resource, and outperforms comparison models in DeepCS code search task. Conclusions: Our findings indicate that the CoCoRF framework significantly improves the performance of code search tasks by enhancing the quality of code datasets.",
+    "citationCount": 0,
+    "referenceCount": 62
+}

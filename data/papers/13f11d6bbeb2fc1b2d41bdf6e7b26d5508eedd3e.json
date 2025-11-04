@@ -1,0 +1,37 @@
+{
+    "paperId": "13f11d6bbeb2fc1b2d41bdf6e7b26d5508eedd3e",
+    "title": "Evaluation of Deep Learning Models for Network Performance Prediction for Scientific Facilities",
+    "year": 2020,
+    "venue": "SNTA@HPDC",
+    "authors": [
+        "Makiya Nakashima",
+        "A. Sim",
+        "Jinoh Kim"
+    ],
+    "doi": "10.1145/3391812.3396272",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/13f11d6bbeb2fc1b2d41bdf6e7b26d5508eedd3e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://sdm.lbl.gov/oapapers/snta20-nakashima.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large data transfers are getting more critical with the increasing volume of data in scientific computing. While scientific facilities manage dedicated infrastructures to support large data transfers, predicting network performance based on the historical measurement would be essential for workflow scheduling and resource allocation in the facility. In this study, we empirically evaluate deep learning (DL) models with respect to the prediction accuracy of network performance for scientific facilities, using a two-month network communication log. This paper compares a set of DL models based on Artificial Neural Network (ANN), Convolutional Neural Network (CNN), Gated Recurrent Unit (GRU), and Long Short-Term Memory (LSTM), to predict average throughput as a means to estimate network performance, and shares the observations made from the extensive experiments with the results of prediction accuracy and timing complexity.",
+    "citationCount": 5,
+    "referenceCount": 12
+}

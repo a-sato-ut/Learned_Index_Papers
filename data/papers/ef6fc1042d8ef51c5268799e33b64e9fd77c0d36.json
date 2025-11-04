@@ -1,0 +1,33 @@
+{
+    "paperId": "ef6fc1042d8ef51c5268799e33b64e9fd77c0d36",
+    "title": "Maximally Compact and Separated Features with Regular Polytope Networks",
+    "year": 2023,
+    "venue": "CVPR Workshops",
+    "authors": [
+        "F. Pernici",
+        "Matteo Bruni",
+        "C. Baecchi",
+        "A. Bimbo"
+    ],
+    "doi": "10.48550/arXiv.2301.06116",
+    "arxivId": "2301.06116",
+    "url": "https://www.semanticscholar.org/paper/ef6fc1042d8ef51c5268799e33b64e9fd77c0d36",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2301.06116",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Convolutional Neural Networks (CNNs) trained with the Softmax loss are widely used classiﬁcation models for several vision tasks. Typically, a learnable transformation (i.e. the classiﬁer) is placed at the end of such models return-ing class scores that are further normalized into probabilities by Softmax. This learnable transformation has a fun-damental role in determining the network internal feature representation. In this work we show how to extract from CNNs features with the properties of maximum inter-class separability and maximum intra-class compactness by setting the parameters of the classiﬁer transformation as not trainable (i.e. ﬁxed). We obtain features similar to what can be obtained with the well-known “Center Loss” [1] and other similar approaches but with several practical advan-tages including maximal exploitation of the available feature space representation, reduction in the number of network parameters, no need to use other auxiliary losses be-sides the Softmax. Our approach uniﬁes and generalizes into a common approach two apparently different classes of methods regard-ing: discriminative features, pioneered by the Center Loss [1] and ﬁxed classiﬁers, ﬁrstly evaluated in [2]. Preliminary qualitative experimental results provide some insight on the potentialities of our combined strategy.",
+    "citationCount": 21,
+    "referenceCount": 33
+}

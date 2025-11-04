@@ -1,0 +1,33 @@
+{
+    "paperId": "bdf67bf616804f82528b5899ebef592637f205e4",
+    "title": "FIFO-MEP: An Efficient Multi-Eviction-Point FIFO Cache with Stable Demotion for Burst-Oriented Access Mitigation",
+    "year": 2025,
+    "venue": "IEEE International Conference on Cluster Computing",
+    "authors": [
+        "Ranhao Jia",
+        "Yunfei Gu",
+        "Chentao Wu",
+        "Jie Li",
+        "Minyi Guo",
+        "Liqiang Zhang",
+        "Zaigui Zhang",
+        "Haijun Zhang"
+    ],
+    "doi": "10.1109/CLUSTER59342.2025.11186495",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bdf67bf616804f82528b5899ebef592637f205e4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Caching technology is widely used in multiple areas particularly in distributed computing, where its performance is highly dependent on the cache efficiency. The cache eviction algorithm serves as the core component of a cache, primarily aimed at improving cache efficiency by reducing the cache miss ratio. Numerous eviction algorithms are proposed in recent decades and state-of-the-art methods tend to adopt lazy promotion and quick demotion designs. Lazy promotion simplifies cache-hit operations for higher throughput, while quick demotion effectively filters the low-popularity objects. However, the two designs either fail to identify burst objects or suffer from unstable demotion precision. In order to address the above problems, we propose FIFO-MEP, an efficient FIFO cache with Multiple Eviction Points. The key design of FIFO-MEP is to introduce multiple fixed-position eviction points near the head of a FIFO queue. These eviction points enable repeated inspections of objects, leading to effective identification of burst objects. Meanwhile, by fixing positions of these eviction points, FIFO-MEP delivers stable demotion precision. We implement FIFO-MEP using libCacheSim and evaluated it on 5439 production traces for three typical cache sizes, and further verify its efficiency based on Memcached. The evaluation results show that FIFO-MEP reduces the miss ratio by an average of 15.8 % across all experimental configurations. Compared to the state-of-the-art S3-FIFO, FIFO-MEP achieves cache efficiency improvement by up to 21.8 % for large cache sizes. Furthermore, FIFO-MEP yields the best performance under 51 % of all tested conditions.",
+    "citationCount": 0,
+    "referenceCount": 80
+}

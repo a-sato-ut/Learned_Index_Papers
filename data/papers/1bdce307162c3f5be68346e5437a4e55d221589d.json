@@ -1,0 +1,30 @@
+{
+    "paperId": "1bdce307162c3f5be68346e5437a4e55d221589d",
+    "title": "An optimized hybrid evolutionary algorithm for accelerating automatic code optimization",
+    "year": 2023,
+    "venue": "Third International Seminar on Artificial Intelligence, Networking, and Information Technology",
+    "authors": [
+        "Yasong Zhang",
+        "Yu'e Li",
+        "Xiaolin Wang"
+    ],
+    "doi": "10.1117/12.2667392",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1bdce307162c3f5be68346e5437a4e55d221589d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The deployments of deep learning models must be highly optimized by experts or hardware suppliers before being used in practice, and it has always been a long-term goal for the compiler community to enable compilers to automatically optimize code. However, there is no feasible solution in practice as running a program costs a considerable amount of optimization time to obtain a desired latency. Aiming at making up for the deficiency of long optimization time of TVM compiler, a novel optimized hybrid aging evolutionary algorithm is proposed to predict the running time of the code and accelerate automatic code optimization for Ansor, an auto-tuning framework for TVM. The algorithm alternately removes the worst and oldest individuals in the population during the evolution process. Unlike previous evolutionary algorithm, if an individual seeks to survive in the evolving population for a long time, it must have excellent scalability and flexibility, not just the individual's own adaptability. In this way, this algorithm not only ensures a strong search capability, but also improves the convergence speed and accuracy, significantly reducing the optimization time of tensor programs for deep learning inference. Experimental results show that the algorithm can accelerate convergence speed. For the same task, our algorithm provides 9% to 16% shorter optimization time on average while achieving similar or better optimization quality (i.e., inference time).",
+    "citationCount": 1,
+    "referenceCount": 14
+}

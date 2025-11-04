@@ -1,0 +1,34 @@
+{
+    "paperId": "bc8f36313d83d82da4e4a0d3b91bca7314156f7b",
+    "title": "Towards Robustness: A Critique of Current Vector Database Assessments",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zikai Wang",
+        "Qianxi Zhang",
+        "Baotong Lu",
+        "Qi Chen",
+        "Cheng Tan"
+    ],
+    "doi": "10.48550/arXiv.2507.00379",
+    "arxivId": "2507.00379",
+    "url": "https://www.semanticscholar.org/paper/bc8f36313d83d82da4e4a0d3b91bca7314156f7b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Vector databases are critical infrastructure in AI systems, and average recall is the dominant metric for their evaluation. Both users and researchers rely on it to choose and optimize their systems. We show that relying on average recall is problematic. It hides variability across queries, allowing systems with strong mean performance to underperform significantly on hard queries. These tail cases confuse users and can lead to failure in downstream applications such as RAG. We argue that robustness consistently achieving acceptable recall across queries is crucial to vector database evaluation. We propose Robustness-$\\delta$@K, a new metric that captures the fraction of queries with recall above a threshold $\\delta$. This metric offers a deeper view of recall distribution, helps vector index selection regarding application needs, and guides the optimization of tail performance. We integrate Robustness-$\\delta$@K into existing benchmarks and evaluate mainstream vector indexes, revealing significant robustness differences. More robust vector indexes yield better application performance, even with the same average recall. We also identify design factors that influence robustness, providing guidance for improving real-world performance.",
+    "citationCount": 0,
+    "referenceCount": 48
+}

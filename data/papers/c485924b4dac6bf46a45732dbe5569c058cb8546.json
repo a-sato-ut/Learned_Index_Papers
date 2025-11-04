@@ -1,0 +1,39 @@
+{
+    "paperId": "c485924b4dac6bf46a45732dbe5569c058cb8546",
+    "title": "TpuGraphs: A Performance Prediction Dataset on Large Tensor Computational Graphs",
+    "year": 2023,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "P. Phothilimthana",
+        "Sami Abu-El-Haija",
+        "Kaidi Cao",
+        "Bahare Fatemi",
+        "Charith Mendis",
+        "Bryan Perozzi"
+    ],
+    "doi": "10.48550/arXiv.2308.13490",
+    "arxivId": "2308.13490",
+    "url": "https://www.semanticscholar.org/paper/c485924b4dac6bf46a45732dbe5569c058cb8546",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2308.13490",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Precise hardware performance models play a crucial role in code optimizations. They can assist compilers in making heuristic decisions or aid autotuners in identifying the optimal configuration for a given program. For example, the autotuner for XLA, a machine learning compiler, discovered 10-20% speedup on state-of-the-art models serving substantial production traffic at Google. Although there exist a few datasets for program performance prediction, they target small sub-programs such as basic blocks or kernels. This paper introduces TpuGraphs, a performance prediction dataset on full tensor programs, represented as computational graphs, running on Tensor Processing Units (TPUs). Each graph in the dataset represents the main computation of a machine learning workload, e.g., a training epoch or an inference step. Each data sample contains a computational graph, a compilation configuration, and the execution time of the graph when compiled with the configuration. The graphs in the dataset are collected from open-source machine learning programs, featuring popular model architectures, e.g., ResNet, EfficientNet, Mask R-CNN, and Transformer. TpuGraphs provides 25x more graphs than the largest graph property prediction dataset (with comparable graph sizes), and 770x larger graphs on average compared to existing performance prediction datasets on machine learning programs. This graph-level prediction task on large graphs introduces new challenges in learning, ranging from scalability, training efficiency, to model quality.",
+    "citationCount": 28,
+    "referenceCount": 84
+}

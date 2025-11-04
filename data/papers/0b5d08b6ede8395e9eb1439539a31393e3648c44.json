@@ -1,0 +1,39 @@
+{
+    "paperId": "0b5d08b6ede8395e9eb1439539a31393e3648c44",
+    "title": "Dusk Till Dawn: Self-supervised Nighttime Stereo Depth Estimation using Visual Foundation Models",
+    "year": 2024,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "authors": [
+        "M. Vankadari",
+        "Samuel Hodgson",
+        "Sangyun Shin",
+        "Kaichen Zhou Andrew Markham",
+        "Niki Trigoni"
+    ],
+    "doi": "10.1109/ICRA57147.2024.10610318",
+    "arxivId": "2405.11158",
+    "url": "https://www.semanticscholar.org/paper/0b5d08b6ede8395e9eb1439539a31393e3648c44",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Self-supervised depth estimation algorithms rely heavily on frame-warping relationships, exhibiting substantial performance degradation when applied in challenging circumstances, such as low-visibility and nighttime scenarios with varying illumination conditions. Addressing this challenge, we introduce an algorithm designed to achieve accurate selfsupervised stereo depth estimation focusing on nighttime conditions. Specifically, we use pretrained visual foundation models to extract generalised features across challenging scenes and present an efficient method for matching and integrating these features from stereo frames. Moreover, to prevent pixels violating photometric consistency assumption from negatively affecting the depth predictions, we propose a novel masking approach designed to filter out such pixels. Lastly, addressing weaknesses in the evaluation of current depth estimation algorithms, we present novel evaluation metrics. Our experiments, conducted on challenging datasets including Oxford RobotCar and MultiSpectral Stereo, demonstrate the robust improvements realized by our approach.",
+    "citationCount": 6,
+    "referenceCount": 39
+}

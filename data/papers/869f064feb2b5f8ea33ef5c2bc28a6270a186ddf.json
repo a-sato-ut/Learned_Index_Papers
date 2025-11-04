@@ -1,0 +1,34 @@
+{
+    "paperId": "869f064feb2b5f8ea33ef5c2bc28a6270a186ddf",
+    "title": "DeepP: Deep Learning Multi-Program Prefetch Configuration for the IBM POWER 8",
+    "year": 2022,
+    "venue": "IEEE transactions on computers",
+    "authors": [
+        "Manel Lurbe",
+        "Josué Feliu",
+        "S. Petit",
+        "M. E. Gómez",
+        "J. Sahuquillo"
+    ],
+    "doi": "10.1109/TC.2021.3139997",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/869f064feb2b5f8ea33ef5c2bc28a6270a186ddf",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/12/9880482/09669035.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current multi-core processors implement sophisticated hardware prefetchers, that can be configured by application (PID), to improve the system performance. When running multiple applications, each application can present different prefetch requirements, hence different configurations can be used. Setting the optimal prefetch configuration for each application is a complex task since it does not only depend on the application characteristics but also on the interference at the shared memory resources (e.g., memory bandwidth). In his paper, we propose DeepP, a deep learning approach for the IBM POWER8 that identifies at run-time the best prefetch configuration for each application in a workload. To this end, the neural network predicts the performance of each application under the studied prefetch configurations by using a set of performance events. The prediction accuracy of the network is improved thanks to a dynamic training methodology that allows learning the impact of dynamic changes of the prefetch configuration on performance. At run-time, the devised network infers the best prefetch configuration for each application and adjusts it dynamically. Experimental results show that the proposed approach improves performance, on average, by 5.8%, 6.7%, and 15.8% compared to the default prefetch configuration across different 6-, 8-, and 10-application workloads, respectively.",
+    "citationCount": 3,
+    "referenceCount": 45
+}

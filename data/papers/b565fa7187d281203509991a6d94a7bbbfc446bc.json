@@ -1,0 +1,24 @@
+{
+    "paperId": "b565fa7187d281203509991a6d94a7bbbfc446bc",
+    "title": "Using Bloom Filter to Represent Large Dynamic Dataset",
+    "year": 2025,
+    "venue": "2025 IEEE 14th Data Driven Control and Learning Systems (DDCLS)",
+    "authors": [
+        "Zhu Wang"
+    ],
+    "doi": "10.1109/DDCLS66240.2025.11065990",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b565fa7187d281203509991a6d94a7bbbfc446bc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Bloom filter is a time-and space-efficient data structure for representing large datasets. In the era of big data, this structure proves particularly valuable for resource-constrained data indexing. However, conventional Bloom filters exhibit poor scalability. When handling dynamically expanding datasets where the volume grows rapidly, standard Bloom filters demonstrate degraded performance once the element count surpasses their predefined capacity. This paper introduces a novel Bloom filter-based algorithm and corresponding data structure to address this limitation. We detail the algorithmic architecture and provide theoretical analyses, followed by experimental evaluations comparing our approach with established baseline methods. The results indicate that our design effectively manages large-scale data expansion and significantly outperforms standard Bloom filters in scalable dataset scenarios.",
+    "citationCount": 0,
+    "referenceCount": 16
+}

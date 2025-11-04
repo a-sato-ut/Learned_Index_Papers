@@ -1,0 +1,40 @@
+{
+    "paperId": "480df62560c275cb910c856c0415d0062118363d",
+    "title": "Exocompilation for productive programming of hardware accelerators",
+    "year": 2022,
+    "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+    "authors": [
+        "Yuka Ikarashi",
+        "G. Bernstein",
+        "Alex Reinking",
+        "Hasan Genç",
+        "Jonathan Ragan-Kelley"
+    ],
+    "doi": "10.1145/3519939.3523446",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/480df62560c275cb910c856c0415d0062118363d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3519939.3523446",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "High-performance kernel libraries are critical to exploiting accelerators and specialized instructions in many applications. Because compilers are difficult to extend to support diverse and rapidly-evolving hardware targets, and automatic optimization is often insufficient to guarantee state-of-the-art performance, these libraries are commonly still coded and optimized by hand, at great expense, in low-level C and assembly. To better support development of high-performance libraries for specialized hardware, we propose a new programming language, Exo, based on the principle of exocompilation: externalizing target-specific code generation support and optimization policies to user-level code. Exo allows custom hardware instructions, specialized memories, and accelerator configuration state to be defined in user libraries. It builds on the idea of user scheduling to externalize hardware mapping and optimization decisions. Schedules are defined as composable rewrites within the language, and we develop a set of effect analyses which guarantee program equivalence and memory safety through these transformations. We show that Exo enables rapid development of state-of-the-art matrix-matrix multiply and convolutional neural network kernels, for both an embedded neural accelerator and x86 with AVX-512 extensions, in a few dozen lines of code each.",
+    "citationCount": 47,
+    "referenceCount": 45
+}

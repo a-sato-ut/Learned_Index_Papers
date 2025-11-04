@@ -1,0 +1,34 @@
+{
+    "paperId": "d9ed95f065d770e595f302be8334b64a1b0f961f",
+    "title": "Memory-Efficient Performance Monitoring on Programmable Switches with Lean Algorithms",
+    "year": 2019,
+    "venue": "SIAM Symposium on Algorithmic Principles of Computer Systems",
+    "authors": [
+        "Zaoxing Liu",
+        "Samson Zhou",
+        "Ori Rottenstreich",
+        "V. Braverman",
+        "J. Rexford"
+    ],
+    "doi": "10.1137/1.9781611976021.3",
+    "arxivId": "1911.06951",
+    "url": "https://www.semanticscholar.org/paper/d9ed95f065d770e595f302be8334b64a1b0f961f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://epubs.siam.org/doi/pdf/10.1137/1.9781611976021.3",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Network performance problems are notoriously difficult to diagnose. Prior profiling systems collect performance statistics by keeping information about each network flow, but maintaining per-flow state is not scalable on resource-constrained NIC and switch hardware. Instead, we propose sketch-based performance monitoring using memory that is sublinear in the number of flows. Existing sketches estimate flow monitoring metrics based on flow sizes. In contrast, performance monitoring typically requires combining information across pairs of packets, such as matching a data packet with its acknowledgment to compute a round-trip time. We define a new class of \\emph{lean} algorithms that use memory sublinear in both the size of input data and the number of flows. We then introduce lean algorithms for a set of important statistics, such as identifying flows with high latency, loss, out-of-order, or retransmitted packets. We implement prototypes of our lean algorithms on a commodity programmable switch using the P4 language. Our experiments show that lean algorithms detect $\\sim$82\\% of top 100 problematic flows among real-world packet traces using just 40KB memory.",
+    "citationCount": 28,
+    "referenceCount": 55
+}

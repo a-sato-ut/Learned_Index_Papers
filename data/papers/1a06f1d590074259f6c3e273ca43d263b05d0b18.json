@@ -1,0 +1,35 @@
+{
+    "paperId": "1a06f1d590074259f6c3e273ca43d263b05d0b18",
+    "title": "BUS: A Blockchain-Enabled Data Acquisition Scheme With the Assistance of UAV Swarm in Internet of Things",
+    "year": 2019,
+    "venue": "IEEE Access",
+    "authors": [
+        "A. Islam",
+        "Soo Young Shin"
+    ],
+    "doi": "10.1109/ACCESS.2019.2930774",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1a06f1d590074259f6c3e273ca43d263b05d0b18",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08771158.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents a blockchain enabled secure data acquisition scheme utilizing an unmanned aerial vehicle (UAV) swarm where data are collected from the Internet of Things (IoT) devices and subsequently, forwarded to the nearest server through the UAV swarm. Before initiating data acquisition, the UAV swarm shares a shared key with the IoT devices in order to maintain communications. However, prior to transmitting data, the IoT devices encrypt the data and forward it to the UAV swarm. Upon receiving the data, the UAV swarm implements a two-phase validation utilizing the $\\pi $ -hash bloom filter and the digital signature algorithm to validate the sender; in addition, prior to forwarding data to the nearest server, it performs encryption. However, before adding data in blockchain, consent from all validators is required. Finally, the data are stored in blockchain with the approval of validators. A security analysis is performed to demonstrate the feasibility of the proposed scheme. Finally, the effectiveness of the proposed scheme is manifested through the implementation and simulation. The security analysis and the performance results show that UAV assist the IoT devices both in terms of connectivity and energy consumption, and provides security against the threats mentioned in the paper.",
+    "citationCount": 78,
+    "referenceCount": 52
+}

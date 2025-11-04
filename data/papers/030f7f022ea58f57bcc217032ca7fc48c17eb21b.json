@@ -1,0 +1,33 @@
+{
+    "paperId": "030f7f022ea58f57bcc217032ca7fc48c17eb21b",
+    "title": "Efficiently Learning Locality Optimizations by Decomposing Transformation Domains",
+    "year": 2023,
+    "venue": "International Conference on Compiler Construction",
+    "authors": [
+        "T. R. Patabandi",
+        "Mary W. Hall"
+    ],
+    "doi": "10.1145/3578360.3580272",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/030f7f022ea58f57bcc217032ca7fc48c17eb21b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3578360.3580272",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Optimizing compilers for efficient machine learning are more important than ever due to the rising ubiquity of the application domain in numerous facets of life. Predictive model-guided compiler optimization is sometimes used to derive sequences of loop transformations that optimize the performance of the machine learning computations. However, training-data generation for these models often requires the traversal of prohibitively expensive schedule spaces and executing code variants corresponding to different schedule options. The size of these search spaces can quickly explode when predicting the combined effects of multiple loop transformations. This paper characterizes a learning strategy for deriving transformation sequences called Composed Singular Prediction (CSP). Instead of a monolithic cost model that predicts the profitability of a given transformation sequence, CSP exploits a collection of cost models, each trained on a particular loop transformation domain. In a case study, a domain-specific compiler deploys the learned models to predict loop tiling and loop permutation schedules to perform data locality optimization of Conv2d kernels. The system achieves performance improvements up to 4.0x against Intel oneDNN while saving ~ 105.3x in training data collection time compared to exhaustive exploration of the design space.",
+    "citationCount": 1,
+    "referenceCount": 58
+}

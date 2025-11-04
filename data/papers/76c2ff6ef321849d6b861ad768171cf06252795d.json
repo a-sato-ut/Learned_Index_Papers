@@ -1,0 +1,28 @@
+{
+    "paperId": "76c2ff6ef321849d6b861ad768171cf06252795d",
+    "title": "CluMP: Clustered Markov Chain for Storage I/O Prefetch",
+    "year": 2023,
+    "venue": "Electronics",
+    "authors": [
+        "S. Jung",
+        "Hyeonmyeong Lee",
+        "Heeseung Jo"
+    ],
+    "doi": "10.3390/electronics12153293",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/76c2ff6ef321849d6b861ad768171cf06252795d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2079-9292/12/15/3293/pdf?version=1690796322",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Due to advancements in CPU and storage technologies, the processing speed of tasks has been increasing. However, there has been a relative slowdown in the data transfer speeds between disks and memory. Consequently, the issue of I/O processing speed has become a significant concern in I/O-intensive tasks. This research paper proposes CluMP, which predicts the next block to be requested within a process using a clustered Markov chain. Compared to the simple read-ahead approach commonly used in Linux systems, CluMP can predict prefetching more accurately and requires less memory for the prediction process. CluMP demonstrated a maximum memory hit ratio improvement of 191.41% in the KVM workload compared to read-ahead, as well as a maximum improvement of 130.81% in the Linux kernel build workload. Additionally, CluMP provides the advantage of adaptability to user objectives and utilized workloads by incorporating several parameters, thereby allowing for optimal performance across various workload patterns.",
+    "citationCount": 0,
+    "referenceCount": 18
+}

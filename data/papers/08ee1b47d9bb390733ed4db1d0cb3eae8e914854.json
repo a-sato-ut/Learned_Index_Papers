@@ -1,0 +1,34 @@
+{
+    "paperId": "08ee1b47d9bb390733ed4db1d0cb3eae8e914854",
+    "title": "When Deduplication Meets Migration: An Efficient and Adaptive Strategy in Distributed Storage Systems",
+    "year": 2023,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Geyao Cheng",
+        "Lailong Luo",
+        "Junxu Xia",
+        "Deke Guo",
+        "Yuchen Sun"
+    ],
+    "doi": "10.1109/TPDS.2023.3299309",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/08ee1b47d9bb390733ed4db1d0cb3eae8e914854",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/71/10201356/10195996.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The traditional migration methods are confronted with formidable challenges when data deduplication technologies are incorporated. First, the deduplication creates data-sharing dependencies in the stored files; breaking such dependencies in migration may attach extra space overhead. Second, the redundancy elimination makes the storage system reserves only one copy for each storage file, and heightens the risk of data unavailability. The existing methods fail to tackle them in one shot. To this end, we propose Jingwei, an efficient and adaptive data migration strategy for deduplicated storage systems. To be specific, Jingwei tries to minimize the extra space cost in migration for space efficiency. Meanwhile, Jingwei realizes the service adaptability by encouraging replicas of hot files to spread out their data access requirements. We first model such a problem as an integer linear programming (ILP) and solve it with a commercial solver when only one empty migration target server is allowed. We then extend this problem to a scenario wherein multiple non-empty target servers are available for migration. We solve it by effective heuristic algorithms based on the Bloom Filter-based data sketches. The Jingwei strategy can suffer from performance degradation when the heat degree varies significantly. Therefore, we further present incremental adjustment strategies for the two scenarios, which adjust the number of block replicas and their locations in an incremental manner. The mathematical analyses and trace-driven experiments show the effectiveness of our Jingwei strategy. To be specific, Jingwei fortifies the file replicas by 25% with only 5.7% of the extra storage space, compared with the latest “Goseed” method. With the small extra space cost, the file retrieval throughput of Jingwei can reach up to 333.5 Mbps, which is 12.3% higher than that of the Random method.",
+    "citationCount": 7,
+    "referenceCount": 46
+}

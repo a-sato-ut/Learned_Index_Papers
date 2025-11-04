@@ -1,0 +1,32 @@
+{
+    "paperId": "21e08e1142a9fb4662cc768772ae635780881213",
+    "title": "GRUMA: A new approach for Cache Replacement Using Gated Recurrent Unit and Multi-Head Attention Mechanism",
+    "year": 2025,
+    "venue": "Proceedings of the 2025 4th International Conference on Cyber Security, Artificial Intelligence and the Digital Economy",
+    "authors": [
+        "Chen Zhang",
+        "Xiankuan Ren",
+        "Shoupeng Feng",
+        "Jibin Wang",
+        "Wenzhuo Zeng",
+        "Hu Zhang"
+    ],
+    "doi": "10.1145/3729706.3729815",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/21e08e1142a9fb4662cc768772ae635780881213",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cache replacement policies are a critical research topic in the field of computer architecture. They focus on determining the optimal cache line to replace in scenarios with limited cache space, aiming to maximize cache hit rates, thereby enhancing overall system performance. As applications become increasingly complex, traditional heuristic-based cache replacement algorithms are no longer sufficient to meet modern computing demands. This has driven researchers to explore more intelligent cache replacement policies, leveraging machine learning and deep learning methods to automatically learn and predict optimal replacement decisions. In this study, we proposed a sequence prediction method and designed a cache replacement model(GRUMA) based on Gated Recurrent Unit (GRU) and multi-head attention mechanisms. The model learns cache access patterns and can approximate Belady's algorithm even under diverse and complex access patterns. We evaluated the GRUMA model using six memory-intensive SPEC CPU2006 programs. Compared to other techniques, the GRUMA model improved cache hit rates by 2.58% to 24.1%.",
+    "citationCount": 0,
+    "referenceCount": 18
+}

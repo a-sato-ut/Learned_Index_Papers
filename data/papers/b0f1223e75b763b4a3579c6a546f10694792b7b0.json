@@ -1,0 +1,33 @@
+{
+    "paperId": "b0f1223e75b763b4a3579c6a546f10694792b7b0",
+    "title": "Habitat: A Runtime-Based Computational Performance Predictor for Deep Neural Network Training",
+    "year": 2021,
+    "venue": "USENIX Annual Technical Conference",
+    "authors": [
+        "Geoffrey X. Yu",
+        "Yubo Gao",
+        "P. Golikov",
+        "Gennady Pekhimenko"
+    ],
+    "doi": null,
+    "arxivId": "2102.00527",
+    "url": "https://www.semanticscholar.org/paper/b0f1223e75b763b4a3579c6a546f10694792b7b0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning researchers and practitioners usually leverage GPUs to help train their deep neural networks (DNNs) faster. However, choosing which GPU to use is challenging both because (i) there are many options, and (ii) users grapple with competing concerns: maximizing compute performance while minimizing costs. In this work, we present a new practical technique to help users make informed and cost-efficient GPU selections: make performance predictions with the help of a GPU that the user already has. Our technique exploits the observation that, because DNN training consists of repetitive compute steps, predicting the execution time of a single iteration is usually enough to characterize the performance of an entire training process. We make predictions by scaling the execution time of each operation in a training iteration from one GPU to another using either (i) wave scaling, a technique based on a GPU's execution model, or (ii) pre-trained multilayer perceptrons. We implement our technique into a Python library called Habitat and find that it makes accurate iteration execution time predictions (with an average error of 11.8%) on ResNet-50, Inception v3, the Transformer, GNMT, and DCGAN across six different GPU architectures. Habitat supports PyTorch, is easy to use, and is open source.",
+    "citationCount": 75,
+    "referenceCount": 90
+}

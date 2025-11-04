@@ -1,0 +1,32 @@
+{
+    "paperId": "64370cb4ce812fde7295fbe9a204acd326a96289",
+    "title": "Learning to Rank: A Progressive Neural Network Learning Approach",
+    "year": 2019,
+    "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+    "authors": [
+        "D. Tran",
+        "Alexandros Iosifidis"
+    ],
+    "doi": "10.1109/ICASSP.2019.8683711",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/64370cb4ce812fde7295fbe9a204acd326a96289",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning to rank is an essential component in an information retrieval system. The state-of-the-art ranking systems are often based on an ensemble of classifiers, such as Random Forest or LambdaMART, which aggregates the ranking outputs produced by thousands of classifiers. The storage and computation requirement of an ensemble model is usually very high, imposing a significant operating cost to the retrieval system. To tackle this problem, we propose an algorithm that adaptively learns a single heterogeneous feedfor-ward network architecture, composing of Generalized Operational Perceptrons, given a ranking problem. Experimental results in web search ranking and image retrieval tasks show that the proposed algorithm compares favourably to the related algorithms.",
+    "citationCount": 16,
+    "referenceCount": 20
+}

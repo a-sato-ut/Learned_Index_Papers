@@ -1,0 +1,39 @@
+{
+    "paperId": "e41f03adaa9fcdd372d65c9882a8d24dbf834fc5",
+    "title": "Genie: A Lightweight Serverless Infrastructure for In-Memory Key-Value Caching With Fine-Grained and Prompt Elasticity",
+    "year": 2025,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Huijuan Xiao",
+        "Shixi Yang",
+        "Kai Zhang",
+        "Yinan Jing",
+        "Zhenying He",
+        "X. Wang"
+    ],
+    "doi": "10.1109/TKDE.2025.3556427",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e41f03adaa9fcdd372d65c9882a8d24dbf834fc5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "An increasing number of web applications require cloud in-memory key-value stores to minimize latency and achieve higher throughput. They generally have diverse characteristics and constantly changing traffic volumes, which require different computational and memory resources. A serverless in-memory key-value store characterized by elastic resource allocation and pay-as-you-go billing could satisfy the requirements of diverse and dynamic workloads. However, we find current serverless IMKVs fail to achieve fine-grained and prompt resource elasticity due to the limitations of their infrastructures. This paper proposes Genie, a lightweight serverless infrastructure for in-memory key-value caching with fine-grained and immediate elasticity. In Genie, a novel approach is adopted to enable dynamic and independent resource allocation to multiple tenants. It processes all arrived requests and estimates the vCPU consumption with a lightweight machine-learning approach for fine-grained billing. Moreover, Genie estimates the working set and dynamically resizes the allocated memory for hit ratio requirements. Evaluation results show that CPU estimation could be achieved every 100 microseconds without impacting system performance, and memory capacity could be adjusted by megabytes within seconds. The holistic design incurs 1% -2% performance degradation compared to our baseline. Moreover, Genie achieves an average of 58.3% CPU and 49.9% memory savings compared to AsparaDB for Memcache.",
+    "citationCount": 0,
+    "referenceCount": 56
+}

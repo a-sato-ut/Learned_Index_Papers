@@ -1,0 +1,36 @@
+{
+    "paperId": "d6ca36b25bcb8c094b584504f734b1bf869d5c1f",
+    "title": "UNIT: Unifying Tensorized Instruction Compilation",
+    "year": 2021,
+    "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+    "authors": [
+        "Jian Weng",
+        "Animesh Jain",
+        "Jie Wang",
+        "Leyuan Wang",
+        "Yida Wang",
+        "Tony Nowatzki"
+    ],
+    "doi": "10.1109/CGO51591.2021.9370330",
+    "arxivId": "2101.08458",
+    "url": "https://www.semanticscholar.org/paper/d6ca36b25bcb8c094b584504f734b1bf869d5c1f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2101.08458",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Because of the increasing demand for intensive computation in deep neural networks, researchers have developed both hardware and software mechanisms to reduce the compute and memory burden. A widely adopted approach is to use mixed precision data types. However, it is hard to benefit from mixed precision without hardware specialization because of the overhead of data casting. Recently, hardware vendors offer tensorized instructions specialized for mixed-precision tensor operations, such as Intel VNNI, Nvidia Tensor Core, and ARM DOT. These instructions involve a new computing idiom, which reduces multiple low precision elements into one high precision element. The lack of compilation techniques for this emerging idiom makes it hard to utilize these instructions. In practice, one approach is to use vendor-provided libraries for computationally-intensive kernels, but this is inflexible and prevents further optimizations. Another approach is to manually write hardware intrinsics, which is error-prone and difficult for programmers. Some prior works tried to address this problem by creating compilers for each instruction. This requires excessive efforts when it comes to many tensorized instructions. In this work, we develop a compiler framework, UNIT, to unify the compilation for tensorized instructions. The key to this approach is a unified semantics abstraction which makes the integration of new instructions easy, and the reuse of the analysis and transformations possible. Tensorized instructions from different platforms can be compiled via UNIT with moderate effort for favorable performance. Given a tensorized instruction and a tensor operation, UNIT automatically detects the applicability of the instruction, transforms the loop organization of the operation, and rewrites the loop body to take advantage of the tensorized instruction. According to our evaluation, UNIT is able to target various mainstream hardware platforms. The generated end-to-end inference model achieves 1.3 x speedup over Intel oneDNN on an x86 CPU, 1.75x speedup over Nvidia cuDNN on an Nvidia GPU, and 1.13x speedup over a carefully tuned TVM solution for ARM DOT on an ARM CPU.",
+    "citationCount": 33,
+    "referenceCount": 48
+}

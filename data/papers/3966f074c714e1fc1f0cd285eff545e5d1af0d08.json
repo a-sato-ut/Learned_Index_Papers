@@ -1,0 +1,30 @@
+{
+    "paperId": "3966f074c714e1fc1f0cd285eff545e5d1af0d08",
+    "title": "Regression-Classification Parallel Prediction: An Online Learning Optimization for Job Scheduling Backfill Algorithm",
+    "year": 2024,
+    "venue": "Proceedings of the 2024 8th International Conference on High Performance Compilation, Computing and Communications",
+    "authors": [
+        "Yonghao Cao",
+        "Huaqiang Yuan",
+        "Fengyao Hou",
+        "Jianshu Hong"
+    ],
+    "doi": "10.1145/3675018.3675775",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3966f074c714e1fc1f0cd285eff545e5d1af0d08",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Various job scheduling algorithms have been developed in the field of high-performance computing to enhance the system utilization, minimize job waiting time, and ensure the bounded slowdown. The optimization of job scheduling strategies mostly relies on resource demands and job characteristics. Job scheduling algorithms, including Backfilling, mostly depend on accurately estimating job runtime which remains a great challenging. In this paper, a regression and classification parallel prediction based online learning is proposed to improve backfilling algorithm. The data set of job characteristics was filtered and reduced, and then trained separately on regressor and classifier in an online learning framework. The effectiveness of our strategy, along with two additional backfill strategies, was evaluated using a scheduling simulator called Batsim on three widely-used HPC cluster datasets. Three metrics, namely average waiting time, average bounded slowdown, and program scheduling time are adopted in this paper, and the results show that our algorithm achieved a significant 50.6% reduction in average bounded slowdown compared to the EASY backfilling algorithm, as well as a 6.63% reduction in average waiting time compared to the regression-based EASY backfilling algorithm.",
+    "citationCount": 0,
+    "referenceCount": 16
+}

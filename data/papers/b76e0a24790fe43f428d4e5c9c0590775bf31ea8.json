@@ -1,0 +1,35 @@
+{
+    "paperId": "b76e0a24790fe43f428d4e5c9c0590775bf31ea8",
+    "title": "Asymmetric Dual Self-Distillation for 3D Self-Supervised Representation Learning",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Remco F. Leijenaar",
+        "H. Kasaei"
+    ],
+    "doi": "10.48550/arXiv.2506.21724",
+    "arxivId": "2506.21724",
+    "url": "https://www.semanticscholar.org/paper/b76e0a24790fe43f428d4e5c9c0590775bf31ea8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning semantically meaningful representations from unstructured 3D point clouds remains a central challenge in computer vision, especially in the absence of large-scale labeled datasets. While masked point modeling (MPM) is widely used in self-supervised 3D learning, its reconstruction-based objective can limit its ability to capture high-level semantics. We propose AsymDSD, an Asymmetric Dual Self-Distillation framework that unifies masked modeling and invariance learning through prediction in the latent space rather than the input space. AsymDSD builds on a joint embedding architecture and introduces several key design choices: an efficient asymmetric setup, disabling attention between masked queries to prevent shape leakage, multi-mask sampling, and a point cloud adaptation of multi-crop. AsymDSD achieves state-of-the-art results on ScanObjectNN (90.53%) and further improves to 93.72% when pretrained on 930k shapes, surpassing prior methods.",
+    "citationCount": 0,
+    "referenceCount": 94
+}

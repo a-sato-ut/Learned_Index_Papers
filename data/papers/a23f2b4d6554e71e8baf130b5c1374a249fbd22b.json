@@ -1,0 +1,36 @@
+{
+    "paperId": "a23f2b4d6554e71e8baf130b5c1374a249fbd22b",
+    "title": "Leveraging Partitioning to Mitigate Concurrent Conflicts in Disaggregated Memory Key-Value Stores",
+    "year": 2024,
+    "venue": "IEEE International Conference on High Performance Computing and Communications",
+    "authors": [
+        "Pan Li",
+        "Lisha Qin",
+        "Nan Zhang",
+        "Haojun Hu",
+        "Hao Huang",
+        "Shiyi Li",
+        "Wen Xia"
+    ],
+    "doi": "10.1109/HPCC64274.2024.00083",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a23f2b4d6554e71e8baf130b5c1374a249fbd22b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The adoption of disaggregated memory (DM) in key-value (KV) storage systems is considered a cost-effective and efficient solution for addressing the significant performance challenges encountered by conventional KV storage systems. However, these systems must handle substantial concurrent requests, making it essential to detect and resolve conflicts to ensure the data correctness. Existing approaches guarantee the correctness of concurrent operations by Compare And Swap (CAS) but consume more network round-trip times (RTTs) to degrade performance. In addition, previous methods incur additional overhead when DM nodes fail.To address the above issues, this paper introduces AKV, a high-performance Agent-Based Key-Value Store on disaggregated memory. AKV partitions keys according to specified strategies, where a single partition’s keys are managed by the same agent to handle read and write requests from multiple clients. This design mitigates the likelihood of concurrency conflicts by enforcing fine-grained serialization of requests within each partition. Specifi-cally, to partition keys, AKV proposes load-aware and affinity-aware strategies. To handle concurrent requests in a fine-grained serialized manner, AKV introduces a partition-level concurrency control scheme without RDMA_CAS. To detect the agent failure and recovery for high availability, AKV proposes a decentralized approach without additional management servers. We evaluate AKV with micro and real-world benchmarks. Experimental results show that AKV outperforms the state-of-the-art KV stores on DM by up to 1.8 × in throughput.",
+    "citationCount": 0,
+    "referenceCount": 41
+}

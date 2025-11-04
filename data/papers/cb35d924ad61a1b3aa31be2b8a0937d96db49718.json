@@ -1,0 +1,35 @@
+{
+    "paperId": "cb35d924ad61a1b3aa31be2b8a0937d96db49718",
+    "title": "Freedom for the SQL-Lambda: Just-in-Time-Compiling User-Injected Functions in PostgreSQL",
+    "year": 2020,
+    "venue": "International Conference on Statistical and Scientific Database Management",
+    "authors": [
+        "Maximilian E. Schüle",
+        "Jakob Huber",
+        "A. Kemper",
+        "Thomas Neumann"
+    ],
+    "doi": "10.1145/3400903.3400915",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cb35d924ad61a1b3aa31be2b8a0937d96db49718",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As part of the code-generating database system HyPer, SQL lambda functions allow user-defined metrics to be injected into data mining operators during compile time. Since version 11, PostgreSQL has supported just-in-time compilation with LLVM for expression evaluation. This enables the concept of SQL lambda functions to be transferred to this open-source database system. In this study, we extend PostgreSQL by adding two subquery types for lambda expressions that either pre-materialise the result or return a cursor to request tuples. We demonstrate the usage of these subquery types in conjunction with dedicated table functions for data mining algorithms such as PageRank, k-Means clustering and labelling. Furthermore, we allow four levels of optimisation for query execution, ranging from interpreted function calls to just-in-time-compiled execution. The latter—with some adjustments to the PostgreSQL’s execution engine—transforms our lambda functions into real user-injected code. In our evaluation with the LDBC social network benchmark for PageRank and the Chicago taxi data set for clustering, optimised lambda functions achieved comparable performance to hard-coded implementations and HyPer’s data mining algorithms.",
+    "citationCount": 27,
+    "referenceCount": 33
+}

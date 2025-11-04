@@ -1,0 +1,35 @@
+{
+    "paperId": "9251e4dd5883dc4e25a0356d574805914df8c51f",
+    "title": "A Flexible Forwarding System for Experiments in Information-Centric Networking",
+    "year": 2021,
+    "venue": "IEEE Access",
+    "authors": [
+        "Fan Yang",
+        "Tianyuan Niu"
+    ],
+    "doi": "10.1109/ACCESS.2021.3130263",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9251e4dd5883dc4e25a0356d574805914df8c51f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/access.2021.3130263",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Information-Centric Networking (ICN) has drawn considerable attention as a new network architecture recently. However, the lack of experimental environments brings about the inconvenience of evolving ICN. As forwarding devices need to be updated once the protocols evolve, researchers spend a large amount of time developing forwarding engines rather than improving protocols. In this paper, we propose a flexible forwarding system called Content-oriented Experimental Forwarding System (CEFS) for experiments in ICN, aiming at alleviating the inconvenience of evolving ICN protocols. Combined with Software Defined Networking, CEFS uses southbound messages to manage the protocol, routing, and content in the forwarding system. Moreover, we design a generic packet processing module to forward ICN packets in CEFS, using Open vSwitch as the basis to implement it and verifying its feasibility. Evaluation data show that CEFS is better than Named Data Networking Forwarding Daemon and Protocol-Independent Packet Processors behavioral-model. The applications show that researchers can use simple messages to manage the protocol, routing, and content of ICN without updating the forwarding system, which significantly improves the efficiency of evolving ICN protocols.",
+    "citationCount": 0,
+    "referenceCount": 27
+}

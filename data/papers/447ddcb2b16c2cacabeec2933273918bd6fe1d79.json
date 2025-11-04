@@ -1,0 +1,42 @@
+{
+    "paperId": "447ddcb2b16c2cacabeec2933273918bd6fe1d79",
+    "title": "MAUVE Scores for Generative Models: Theory and Practice",
+    "year": 2022,
+    "venue": "Journal of machine learning research",
+    "authors": [
+        "Krishna Pillutla",
+        "Lang Liu",
+        "John Thickstun",
+        "S. Welleck",
+        "Swabha Swayamdipta",
+        "Rowan Zellers",
+        "Sewoong Oh",
+        "Yejin Choi",
+        "Zaïd Harchaoui"
+    ],
+    "doi": "10.48550/arXiv.2212.14578",
+    "arxivId": "2212.14578",
+    "url": "https://www.semanticscholar.org/paper/447ddcb2b16c2cacabeec2933273918bd6fe1d79",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2212.14578",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative artificial intelligence has made significant strides, producing text indistinguishable from human prose and remarkably photorealistic images. Automatically measuring how close the generated data distribution is to the target distribution is central to diagnosing existing models and developing better ones. We present MAUVE, a family of comparison measures between pairs of distributions such as those encountered in the generative modeling of text or images. These scores are statistical summaries of divergence frontiers capturing two types of errors in generative modeling. We explore three approaches to statistically estimate these scores: vector quantization, non-parametric estimation, and classifier-based estimation. We provide statistical bounds for the vector quantization approach. Empirically, we find that the proposed scores paired with a range of $f$-divergences and statistical estimation methods can quantify the gaps between the distributions of human-written text and those of modern neural language models by correlating with human judgments and identifying known properties of the generated texts. We demonstrate in the vision domain that MAUVE can identify known properties of generated images on par with or better than existing metrics. In conclusion, we present practical recommendations for using MAUVE effectively with language and image modalities.",
+    "citationCount": 29,
+    "referenceCount": 116
+}

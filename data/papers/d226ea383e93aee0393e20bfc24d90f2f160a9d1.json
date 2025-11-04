@@ -1,0 +1,32 @@
+{
+    "paperId": "d226ea383e93aee0393e20bfc24d90f2f160a9d1",
+    "title": "Automated Boundary Identification for Machine Learning Classifiers",
+    "year": 2024,
+    "venue": "2024 IEEE/ACM International Workshop on Search-Based and Fuzz Testing (SBFT)",
+    "authors": [
+        "Felix Dobslaw",
+        "Robert Feldt"
+    ],
+    "doi": "10.1145/3643659.3643927",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d226ea383e93aee0393e20bfc24d90f2f160a9d1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "AI and Machine Learning (ML) models are increasingly used as (critical) components in software systems, even safety-critical ones. This puts new demands on the degree to which we need to test them and requires new and expanded testing methods. Recent boundary-value identification methods have been developed and shown to automatically find boundary candidates for traditional, non-ML software: pairs of nearby inputs that result in (highly) differing outputs. These can be shown to developers and testers, who can judge if the boundary is where it is supposed to be.Here, we explore how this method can identify decision boundaries of ML classification models. The resulting ML Boundary Spanning Algorithm (ML-BSA) is a search-based method extending previous work in two main ways. We empirically evaluate ML-BSA on seven ML datasets and show that it better spans and thus better identifies the entire classification boundary(ies). The diversity objective helps spread out the boundary pairs more broadly and evenly. This, we argue, can help testers and developers better judge where a classification boundary actually is, compare to expectations, and then focus further testing, validation, and even further training and model refinement on parts of the boundary where behaviour is not ideal.",
+    "citationCount": 1,
+    "referenceCount": 20
+}

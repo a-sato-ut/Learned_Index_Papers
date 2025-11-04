@@ -1,0 +1,32 @@
+{
+    "paperId": "064b62937f93dc40602ecdf25d80751260906fb0",
+    "title": "STuning-DL: Model-Driven Autotuning of Sparse GPU Kernels for Deep Learning",
+    "year": 2024,
+    "venue": "IEEE Access",
+    "authors": [
+        "Roberto L. Castro",
+        "Diego Andrade",
+        "B. Fraguela"
+    ],
+    "doi": "10.1109/ACCESS.2024.3402326",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/064b62937f93dc40602ecdf25d80751260906fb0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10534045.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The relentless growth of modern Machine Learning models has spurred the adoption of sparsification techniques to simplify their architectures and reduce the computational demands. Network pruning has demonstrated success in maintaining original network accuracy while shedding significant portions of the original weights. However, leveraging this sparsity efficiently remains challenging due to computational irregularities, particularly in GPU kernels. A new trend of template-based GPU kernels for semi-structured sparsity shows promise in efficiency but lacks autotuning capabilities to adapt to input dynamics, often underperforming in scenarios where they have not been meticulously hand-tuned. We present STuning-DL, the first pruning-aware autotuner for third-party template-based implementations enabling efficient optimization of sparse kernels for Deep Learning, spanning from high-level aspects (CUDA C++ level) down to GPU-native instructions specifics (assembly-level). STuning-DL tunes and optimizes at run-time sparse kernels’ performance for each input problem, yielding speedups of up to $5.42\\times $ on NVIDIA T4-16GB and up to $3.6\\times $ on NVIDIA A100-40GB GPU in sparse matrices from real world models compared to existing heuristics from sparse libraries like cuSparse and cuSparseLt.",
+    "citationCount": 2,
+    "referenceCount": 70
+}

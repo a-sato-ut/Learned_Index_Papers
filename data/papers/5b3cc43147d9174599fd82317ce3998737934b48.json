@@ -1,0 +1,32 @@
+{
+    "paperId": "5b3cc43147d9174599fd82317ce3998737934b48",
+    "title": "Automated Creation of Source Code Variants of a Cryptographic Hash Function Implementation Using Generative Pre-Trained Transformer Models",
+    "year": 2024,
+    "venue": "IACR Cryptology ePrint Archive",
+    "authors": [
+        "Elijah Pelofske",
+        "Vincent Urias",
+        "L. Liebrock"
+    ],
+    "doi": "10.48550/arXiv.2404.15681",
+    "arxivId": "2404.15681",
+    "url": "https://www.semanticscholar.org/paper/5b3cc43147d9174599fd82317ce3998737934b48",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative pre-trained transformers (GPT's) are a type of large language machine learning model that are unusually adept at producing novel, and coherent, natural language. In this study the ability of GPT models to generate novel and correct versions, and notably very insecure versions, of implementations of the cryptographic hash function SHA-1 is examined. The GPT models Llama-2-70b-chat-h, Mistral-7B-Instruct-v0.1, and zephyr-7b-alpha are used. The GPT models are prompted to re-write each function using a modified version of the localGPT framework and langchain to provide word embedding context of the full source code and header files to the model, resulting in over 150,000 function re-write GPT output text blocks, approximately 50,000 of which were able to be parsed as C code and subsequently compiled. The generated code is analyzed for being compilable, correctness of the algorithm, memory leaks, compiler optimization stability, and character distance to the reference implementation. Remarkably, several generated function variants have a high implementation security risk of being correct for some test vectors, but incorrect for other test vectors. Additionally, many function implementations were not correct to the reference algorithm of SHA-1, but produced hashes that have some of the basic characteristics of hash functions. Many of the function re-writes contained serious flaws such as memory leaks, integer overflows, out of bounds accesses, use of uninitialised values, and compiler optimization instability. Compiler optimization settings and SHA-256 hash checksums of the compiled binaries are used to cluster implementations that are equivalent but may not have identical syntax - using this clustering over 100,000 novel and correct versions of the SHA-1 codebase were generated where each component C function of the reference implementation is different from the original code.",
+    "citationCount": 0,
+    "referenceCount": 95
+}

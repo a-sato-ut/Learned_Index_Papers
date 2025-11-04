@@ -1,0 +1,38 @@
+{
+    "paperId": "8e5231534d292904880cbf07bc5d47ccd510557c",
+    "title": "ProFi: Scalable and Efficient Website Fingerprinting",
+    "year": 2024,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "Patrick Krämer",
+        "Benedikt Baier",
+        "Niklas Landerer",
+        "Philip Diederich",
+        "Alexander Griessel",
+        "Oliver Hohlfeld",
+        "Andreas Blenk",
+        "Martin Mieth",
+        "Wolfgang Kellerer"
+    ],
+    "doi": "10.1109/TNSM.2023.3318508",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8e5231534d292904880cbf07bc5d47ccd510557c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Website Fingerprinting (WFP) attacks infer the websites or webpages a user is visiting from encrypted traffic. To date, it remains uncertain if WFP can attack many users from a central location in an online scenario. We close this gap with PROFI, a WFP attack that detects websites based on the initial TLS connection from the client to the server using at most the connection’s first 30 packets. PROFI achieves a precision and recall of 86.51% and 85.35% in a closed-world, and 68.90% and 78.71% in an open-world scenario, which is competitive to state-of-the-art (SoA) WFP attacks, while taking a fraction of the time of SoA attacks to classify a webpage. Further, we implement PROFI as a micro service-based prototype and evaluate the attack in an online scenario with real traffic traces. We show that PROFI can monitor up to 100 websites at 10 G, corresponding to up to 424 webpages per second. We also show that PROFI has the potential to interfere with a victim’s webpage access.",
+    "citationCount": 2,
+    "referenceCount": 84
+}

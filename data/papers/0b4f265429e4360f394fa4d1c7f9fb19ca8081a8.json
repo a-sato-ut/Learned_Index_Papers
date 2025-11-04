@@ -1,0 +1,38 @@
+{
+    "paperId": "0b4f265429e4360f394fa4d1c7f9fb19ca8081a8",
+    "title": "Adaptive Measurements Using One Elastic Sketch",
+    "year": 2019,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "Tong Yang",
+        "Jie Jiang",
+        "Peng Liu",
+        "Qun Huang",
+        "Junzhi Gong",
+        "Yang Zhou",
+        "Rui Miao",
+        "Xiaoming Li",
+        "S. Uhlig"
+    ],
+    "doi": "10.1109/TNET.2019.2943939",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0b4f265429e4360f394fa4d1c7f9fb19ca8081a8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "When network is undergoing problems such as congestion, scan attack, DDoS attack, etc, measurements are much more important than usual. In this case, traffic characteristics including available bandwidth, packet rate, and flow size distribution vary drastically, significantly degrading the performance of measurements. To address this issue, we propose the Elastic sketch. It is adaptive to currently traffic characteristics. Besides, it is generic to measurement tasks and platforms. We implement the Elastic sketch on six platforms: P4, FPGA, GPU, CPU, multi-core CPU, and OVS, to process six typical measurement tasks. Experimental results and theoretical analysis show that the Elastic sketch can adapt well to traffic characteristics. Compared to the state-of-the-art, the Elastic sketch achieves 44.6 ~ 45.2 times faster speed and 2.0 ~ 273.7 smaller error rate.",
+    "citationCount": 18,
+    "referenceCount": 73
+}

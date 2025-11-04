@@ -1,0 +1,41 @@
+{
+    "paperId": "cf804507a7c5076eded2259a4d7aef75668c7737",
+    "title": "DISPAQ: Distributed Profitable-Area Query from Big Taxi Trip Data †",
+    "year": 2017,
+    "venue": "Italian National Conference on Sensors",
+    "authors": [
+        "Fadhilah Kurnia Putri",
+        "Giltae Song",
+        "Joonho Kwon",
+        "P. Rao"
+    ],
+    "doi": "10.3390/s17102201",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cf804507a7c5076eded2259a4d7aef75668c7737",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1424-8220/17/10/2201/pdf?version=1506340953",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "One of the crucial problems for taxi drivers is to efficiently locate passengers in order to increase profits. The rapid advancement and ubiquitous penetration of Internet of Things (IoT) technology into transportation industries enables us to provide taxi drivers with locations that have more potential passengers (more profitable areas) by analyzing and querying taxi trip data. In this paper, we propose a query processing system, called Distributed Profitable-Area Query (DISPAQ) which efficiently identifies profitable areas by exploiting the Apache Software Foundation’s Spark framework and a MongoDB database. DISPAQ first maintains a profitable-area query index (PQ-index) by extracting area summaries and route summaries from raw taxi trip data. It then identifies candidate profitable areas by searching the PQ-index during query processing. Then, it exploits a Z-Skyline algorithm, which is an extension of skyline processing with a Z-order space filling curve, to quickly refine the candidate profitable areas. To improve the performance of distributed query processing, we also propose local Z-Skyline optimization, which reduces the number of dominant tests by distributing killer profitable areas to each cluster node. Through extensive evaluation with real datasets, we demonstrate that our DISPAQ system provides a scalable and efficient solution for processing profitable-area queries from huge amounts of big taxi trip data.",
+    "citationCount": 6,
+    "referenceCount": 64
+}

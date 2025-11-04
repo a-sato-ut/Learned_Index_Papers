@@ -1,0 +1,46 @@
+{
+    "paperId": "666b49c79d8ee45af4572fa2a2aa179ca013b984",
+    "title": "Enhancing diagnostic deep learning via self-supervised pretraining on large-scale, unlabeled non-medical images",
+    "year": 2023,
+    "venue": "European Radiology Experimental",
+    "authors": [
+        "Soroosh Tayebi Arasteh",
+        "Leo Misera",
+        "Jakob Nikolas Kather",
+        "D. Truhn",
+        "S. Nebelung"
+    ],
+    "doi": "10.1186/s41747-023-00411-3",
+    "arxivId": "2308.07688",
+    "url": "https://www.semanticscholar.org/paper/666b49c79d8ee45af4572fa2a2aa179ca013b984",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://eurradiolexp.springeropen.com/counter/pdf/10.1186/s41747-023-00411-3",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Background Pretraining labeled datasets, like ImageNet, have become a technical standard in advanced medical image analysis. However, the emergence of self-supervised learning (SSL), which leverages unlabeled data to learn robust features, presents an opportunity to bypass the intensive labeling process. In this study, we explored if SSL for pretraining on non-medical images can be applied to chest radiographs and how it compares to supervised pretraining on non-medical images and on medical images. Methods We utilized a vision transformer and initialized its weights based on the following: (i) SSL pretraining on non-medical images (DINOv2), (ii) supervised learning (SL) pretraining on non-medical images (ImageNet dataset), and (iii) SL pretraining on chest radiographs from the MIMIC-CXR database, the largest labeled public dataset of chest radiographs to date. We tested our approach on over 800,000 chest radiographs from 6 large global datasets, diagnosing more than 20 different imaging findings. Performance was quantified using the area under the receiver operating characteristic curve and evaluated for statistical significance using bootstrapping. Results SSL pretraining on non-medical images not only outperformed ImageNet-based pretraining (p < 0.001 for all datasets) but, in certain cases, also exceeded SL on the MIMIC-CXR dataset. Our findings suggest that selecting the right pretraining strategy, especially with SSL, can be pivotal for improving diagnostic accuracy of artificial intelligence in medical imaging. Conclusions By demonstrating the promise of SSL in chest radiograph analysis, we underline a transformative shift towards more efficient and accurate AI models in medical imaging. Relevance statement Self-supervised learning highlights a paradigm shift towards the enhancement of AI-driven accuracy and efficiency in medical imaging. Given its promise, the broader application of self-supervised learning in medical imaging calls for deeper exploration, particularly in contexts where comprehensive annotated datasets are limited. Graphical Abstract Supplementary Information The online version contains supplementary material available at 10.1186/s41747-023-00411-3.",
+    "citationCount": 11,
+    "referenceCount": 76
+}

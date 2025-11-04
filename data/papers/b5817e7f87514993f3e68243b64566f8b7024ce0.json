@@ -1,0 +1,32 @@
+{
+    "paperId": "b5817e7f87514993f3e68243b64566f8b7024ce0",
+    "title": "Training Large Language Models to Comprehend LLVM IR via Feedback-Driven Optimization",
+    "year": 2025,
+    "venue": "SIGSOFT FSE Companion",
+    "authors": [
+        "Yifan Zhang",
+        "Kevin Leach"
+    ],
+    "doi": "10.1145/3696630.3731662",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b5817e7f87514993f3e68243b64566f8b7024ce0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LLVM Intermediate Representation (LLVM IR) serves as a crucial bridge between source code and machine code, yet its complexity presents challenges for both human developers and AI-driven analysis tools. We propose an approach to train Large Language Models (LLMs) to better comprehend and optimize LLVM IR by leveraging diverse optimization feedback. Instead of relying on a single optimization strategy like -Oz, our framework incorporates multiple types of optimizations, combining (1) static supervision from various compiler-defined passes with (2) interactive, feedback-driven refinement learning based on preferences (potentially using reinforcement learning). This dual-feedback mechanism is designed to enable LLMs to process and analyze LLVM IR more effectively, thereby facilitating downstream software engineering tasks such as code summarization, optimization recommendation, and vulnerability detection.",
+    "citationCount": 0,
+    "referenceCount": 9
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "a72c5ff8bb28397049dfd49831d3208ed94fe4c2",
+    "title": "Architecting Intermediate Layers for Efficient Composition of Data Management and Machine Learning Systems",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Supun Abeysinghe",
+        "Fei Wang",
+        "Grégory M. Essertel",
+        "Tiark Rompf"
+    ],
+    "doi": "10.48550/arXiv.2311.02781",
+    "arxivId": "2311.02781",
+    "url": "https://www.semanticscholar.org/paper/a72c5ff8bb28397049dfd49831d3208ed94fe4c2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern data analytics workloads combine relational data processing with machine learning (ML). Most DBMS handle these workloads by offloading these ML operations to external specialized ML systems. While both DBMS and ML systems go to great lengths to optimize performance for their specific workloads, significant performance is lost when used in combination, due to data movement across system boundaries, conversions between incompatible internal data formats, and the lack of cross system optimizations. A key idea to remove these bottlenecks is to integrate existing data manipulation systems with ML systems by building a common intermediate layer (IR). Although this idea has been explored before (Weld, Delite), previous such attempts require significant re-engineering of prior systems and still fall short in achieving best-of-breed performance for individual tasks (e.g., SQL, Deep Learning). Specifically, they rely on re-implementing existing systems using a generic set of operators and fail to match best-of-breed individual performance due to the inability to recover high-level optimizations from this generic IR through compiler analysis. We present Flern, the first intermediate-layer integration between DB and ML systems that are best-of-breed individually, competitive with the best compiled query engines such as HyPer on comprehensive relational benchmarks (TPC-H) and competitive with TensorFlow and PyTorch in state-of-the-art ML models (e.g., DeepSpeech, SqueezeNet, Transformers) and also represents a new state-of-the-art for integration. A key realization is to architect intermediate layers based on generative programming capabilities, which preserves high-level contextual information for cross optimizations and enables the construction of a variety of complex structures and cross system optimizations with minimal effort.",
+    "citationCount": 1,
+    "referenceCount": 71
+}

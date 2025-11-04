@@ -1,0 +1,41 @@
+{
+    "paperId": "6d75a79ba01346ffec0f12cafac918538799a8a5",
+    "title": "AudiTrim: A Real-time, General, Efficient, and Low-overhead Data Compaction System for Intrusion Detection",
+    "year": 2024,
+    "venue": "International Symposium on Recent Advances in Intrusion Detection",
+    "authors": [
+        "Hongbin Sun",
+        "Su Wang",
+        "Zhiliang Wang",
+        "Zheyu Jiang",
+        "Dongqi Han",
+        "Jiahai Yang"
+    ],
+    "doi": "10.1145/3678890.3679048",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6d75a79ba01346ffec0f12cafac918538799a8a5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently enterprises and governments face escalating APT attacks, leading to significant economic losses. APT attacks often persist for extended periods, necessitating the storage of extensive audit logs for effective detection. To reduce data storage overhead, enterprises commonly adopt compression strategies. However, efficient compression strategies may introduce additional query overhead. Existing approaches propose data reduction algorithms, but these methods can compromise data integrity, rendering current attack investigation and anomaly-based intrusion detection ineffective. To address these difficulties, we present AudiTrim, a system that ensures real-time, general, efficient, and low-overhead data compaction without compromising attack investigation and anomaly-based intrusion detection. It efficiently reduces log sizes without impacting user experiences, achieving real-time compaction and adaptable deployment on different operating systems. AudiTrim employs two strategies: 1) Data Reduction: By analyzing the types of duplicate edges, our data reduction approach not only considers a broader range of scenarios for redundant edges compared to previous methods but also enhances the efficiency of data reduction. 2) Data Compression: By aggregating log information at the server-side and training a compression model, we facilitate a data compression algorithm that ensures ease of querying. Both strategies meet real-time, low-overhead, and general requirements, fulfilling enterprise data storage needs. The final compaction ratio reaches 26×-65×.",
+    "citationCount": 2,
+    "referenceCount": 45
+}
