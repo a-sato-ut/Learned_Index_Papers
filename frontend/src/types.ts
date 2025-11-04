@@ -1,9 +1,38 @@
-// TODO: 型定義を追加
+export interface Paper {
+  paperId: string;
+  title: string;
+  year?: number;
+  venue?: string;
+  authors: string[];
+  doi?: string;
+  arxivId?: string;
+  url?: string;
+  isOpenAccess: boolean;
+  openAccessPdf?: string;
+  abstract?: string;
+  citationCount: number;
+  referenceCount: number;
+}
+
+export interface SearchResult {
+  paper: Paper | null;
+  cites: Paper[];
+  cited_by: Paper[];
+  message?: string;
+}
 
 export interface PaperNode {
-  // TODO: 実装が必要
+  id: string;
+  paper: Paper;
+  type: 'center' | 'cites' | 'cited_by';
+  x?: number;
+  y?: number;
+  fx?: number | null;
+  fy?: number | null;
 }
 
 export interface PaperEdge {
-  // TODO: 実装が必要
+  source: string;
+  target: string;
+  type: 'cites' | 'cited_by';
 }
