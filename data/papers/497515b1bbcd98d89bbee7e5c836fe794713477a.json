@@ -1,0 +1,32 @@
+{
+    "paperId": "497515b1bbcd98d89bbee7e5c836fe794713477a",
+    "title": "Sum-Product-Attention Networks: Leveraging Self-Attention in Probabilistic Circuits",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhongjie Yu",
+        "D. Dhami",
+        "K. Kersting"
+    ],
+    "doi": null,
+    "arxivId": "2109.06587",
+    "url": "https://www.semanticscholar.org/paper/497515b1bbcd98d89bbee7e5c836fe794713477a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Probabilistic circuits (PCs) have become the de-facto standard for learning and inference in probabilistic modeling. We introduce Sum-Product-Attention Networks (SPAN), a new generative model that integrates probabilistic circuits with Transformers. SPAN uses self-attention to select the most relevant parts of a probabilistic circuit, here sum-product networks, to improve the modeling capability of the underlying sum-product network. We show that while modeling, SPAN focuses on a specific set of independent assumptions in every product layer of the sum-product network. Our empirical evaluations show that SPAN outperforms state-of-the-art probabilistic generative models on various benchmark data sets as well is an efficient generative image model.",
+    "citationCount": 0,
+    "referenceCount": 48
+}

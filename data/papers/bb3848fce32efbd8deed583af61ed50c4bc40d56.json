@@ -1,0 +1,38 @@
+{
+    "paperId": "bb3848fce32efbd8deed583af61ed50c4bc40d56",
+    "title": "QUEST: Query Optimization in Unstructured Document Analysis",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Zhaoze Sun",
+        "Qiyan Deng",
+        "Chengliang Chai",
+        "Kaisen Jin",
+        "Xinyu Guo",
+        "Han Han",
+        "Ye Yuan",
+        "Guoren Wang",
+        "Lei Cao"
+    ],
+    "doi": "10.48550/arXiv.2507.06515",
+    "arxivId": "2507.06515",
+    "url": "https://www.semanticscholar.org/paper/bb3848fce32efbd8deed583af61ed50c4bc40d56",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Most recently, researchers have started building large language models (LLMs) powered data systems that allow users to analyze unstructured text documents like working with a database because LLMs are very effective in extracting attributes from documents. In such systems, LLM-based extraction operations constitute the performance bottleneck of query execution due to the high monetary cost and slow LLM inference. Existing systems typically borrow the query optimization principles popular in relational databases to produce query execution plans, which unfortunately are ineffective in minimizing LLM cost. To fill this gap, we propose QUEST, which features a bunch of novel optimization strategies for unstructured document analysis. First, we introduce an index-based strategy to minimize the cost of each extraction operation. With this index, QUEST quickly retrieves the text segments relevant to the target attributes and only feeds them to LLMs. Furthermore, we design an evidence-augmented retrieval strategy to reduce the possibility of missing relevant segments. Moreover, we develop an instance-optimized query execution strategy: because the attribute extraction cost could vary significantly document by document, QUEST produces different plans for different documents. For each document, QUEST produces a plan to minimize the frequency of attribute extraction. The innovations include LLM cost-aware operator ordering strategies and an optimized join execution approach that transforms joins into filters. Extensive experiments on 3 real-world datasets demonstrate the superiority of QUEST, achieving 30%-6× cost savings while improving the F1 score by 10% -27% compared with state-of-the-art baselines.",
+    "citationCount": 1,
+    "referenceCount": 42
+}

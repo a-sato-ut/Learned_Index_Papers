@@ -1,0 +1,36 @@
+{
+    "paperId": "d115e707a26a8b0411ecbf18b8551506335ebfca",
+    "title": "Towards Accurate and Efficient Document Analytics with Large Language Models",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yiming Lin",
+        "Madelon Hulsebos",
+        "Ruiying Ma",
+        "Shreya Shankar",
+        "Sepanta Zeighami",
+        "Aditya G. Parameswaran",
+        "Eugene Wu"
+    ],
+    "doi": "10.48550/arXiv.2405.04674",
+    "arxivId": "2405.04674",
+    "url": "https://www.semanticscholar.org/paper/d115e707a26a8b0411ecbf18b8551506335ebfca",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Unstructured data formats account for over 80% of the data currently stored, and extracting value from such formats remains a considerable challenge. In particular, current approaches for managing unstructured documents do not support ad-hoc analytical queries on document collections. Moreover, Large Language Models (LLMs) directly applied to the documents themselves, or on portions of documents through a process of Retrieval-Augmented Generation (RAG), fail to provide high accuracy query results, and in the LLM-only case, additionally incur high costs. Since many unstructured documents in a collection often follow similar templates that impart a common semantic structure, we introduce ZenDB, a document analytics system that leverages this semantic structure, coupled with LLMs, to answer ad-hoc SQL queries on document collections. ZenDB efficiently extracts semantic hierarchical structures from such templatized documents, and introduces a novel query engine that leverages these structures for accurate and cost-effective query execution. Users can impose a schema on their documents, and query it, all via SQL. Extensive experiments on three real-world document collections demonstrate ZenDB's benefits, achieving up to 30% cost savings compared to LLM-based baselines, while maintaining or improving accuracy, and surpassing RAG-based baselines by up to 61% in precision and 80% in recall, at a marginally higher cost.",
+    "citationCount": 10,
+    "referenceCount": 45
+}

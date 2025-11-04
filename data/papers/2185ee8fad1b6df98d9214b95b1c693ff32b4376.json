@@ -1,0 +1,33 @@
+{
+    "paperId": "2185ee8fad1b6df98d9214b95b1c693ff32b4376",
+    "title": "Personal Manifold: Management of Personal Data in the Age of Large Language Models",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "A. Halevy",
+        "Yuliang Li",
+        "Wang Chiew Tan"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00440",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2185ee8fad1b6df98d9214b95b1c693ff32b4376",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The recent progress on large language models and their conversational capabilities have rekindled interest in building personal digital assistants that will help us with daily tasks, such as recommending to us which items to purchase, what content to consume, what to eat, and even how to spend our time in the most meaningful way. The recommendations these assistants will provide us will be hyper-personalized, based on detailed knowledge of our past, our preferences, our goals and our current context. Realizing this vision raises novel data management challenges. Today's language models, though they display unprecedented reasoning capabilities, do not have the ability to reliably store data they are presented with and to retrieve it when needed. This paper describes the visionary PERSONAL MANIFOLD system that supports a personal agent based on LLMs, tackles some of the associated data management challenges, and exposes others. PERSONAL MANIFOLD offers an LLM-based interface to the tools they use to manage their personal information. Users interact with PERSONAL MANIFOLD by making notes (or journal entries) and asking for recommendations. In either case, the relevant data from the interaction is also added to the relevant tool (e.g., calendar or to-do list) so it becomes actionable. One of the key aspects of PERSONAL MANIFOLD is the user's timeline, which describes the set of experiences they've had and their plans for the future. The personal timeline is constructed based on digital data that they create in the process of using other applications. The personal timeline can then be mined to extract the user's preferences and their habits, which are then used to power personalized recommendations.",
+    "citationCount": 0,
+    "referenceCount": 19
+}

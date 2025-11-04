@@ -1,0 +1,39 @@
+{
+    "paperId": "c1c25e540b782a4890dfe2900f67cfa6be33e03f",
+    "title": "StreamSys: A Lightweight Executable Delivery System for Edge Computing",
+    "year": 2025,
+    "venue": "IEEE Transactions on Cloud Computing",
+    "authors": [
+        "Jun Lu",
+        "Zhenya Ma",
+        "Yinggang Gao",
+        "Sheng Yue",
+        "Ju Ren",
+        "Yaoxue Zhang"
+    ],
+    "doi": "10.1109/TCC.2024.3521978",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c1c25e540b782a4890dfe2900f67cfa6be33e03f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Edge computing brings several challenges when it comes to data movement. First, moving large data from edge devices to the server is likely to waste bandwidth. Second, complex data patterns (e.g., traffic cameras) on devices require flexible handling. An ideal approach is to move code to data instead. However, since only a small portion of code is required, moving the executable as well as their libraries to the devices can be an overkill. While loading code on demand from remote such as NFS can be a stopgap, but on the other hand leads to low efficiency for irregular access patterns. This article presents StreamSys, a lightweight executable delivery system that loads code on demand by redirecting the local disk IO to the server through optimized network IO. We employ a Markov-based prefetch mechanism on the server side. It learns the access pattern of code and predicts the block sequence for the client to reduce the network round trip. Meanwhile, server-side StreamSys asynchronously prereads the block sequence from the disk to conceal disk IO latency beforehand. Evaluation shows that the latency of StreamSys is up to 71.4% lower than the native Linux file system based on SD card and up to 62% lower than NFS in wired environments.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

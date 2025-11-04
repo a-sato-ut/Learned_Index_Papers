@@ -1,0 +1,45 @@
+{
+    "paperId": "7c967dc4b08641d46c2e57f98527bb7171c06cbf",
+    "title": "Accelerating DNA Read Mapping with Digital Processing-in-Memory",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Rotem Ben Hur",
+        "Orian Leitersdorf",
+        "R. Ronen",
+        "Lidor Goldshmidt",
+        "Idan Magram",
+        "Lior Kaplun",
+        "Leonid Yavitz",
+        "Shahar Kvatinsky"
+    ],
+    "doi": "10.48550/arXiv.2411.03832",
+    "arxivId": "2411.03832",
+    "url": "https://www.semanticscholar.org/paper/7c967dc4b08641d46c2e57f98527bb7171c06cbf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Genome analysis has revolutionized fields such as personalized medicine and forensics. Modern sequencing machines generate vast amounts of fragmented strings of genome data called reads. The alignment of these reads into a complete DNA sequence of an organism (the read mapping process) requires extensive data transfer between processing units and memory, leading to execution bottlenecks. Prior studies have primarily focused on accelerating specific stages of the read-mapping task. Conversely, this paper introduces a holistic framework called DART-PIM that accelerates the entire read-mapping process. DART-PIM facilitates digital processing-in-memory (PIM) for an end-to-end acceleration of the entire read-mapping process, from indexing using a unique data organization schema to filtering and read alignment with an optimized Wagner Fischer algorithm. A comprehensive performance evaluation with real genomic data shows that DART-PIM achieves a 5.7x and 257x improvement in throughput and a 92x and 27x energy efficiency enhancement compared to state-of-the-art GPU and PIM implementations, respectively.",
+    "citationCount": 1,
+    "referenceCount": 112
+}

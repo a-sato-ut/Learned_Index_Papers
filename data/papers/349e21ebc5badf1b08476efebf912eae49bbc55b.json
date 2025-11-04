@@ -1,0 +1,31 @@
+{
+    "paperId": "349e21ebc5badf1b08476efebf912eae49bbc55b",
+    "title": "Comparative Analysis of Machine Learning Models for Performance Prediction of the SPEC Benchmarks",
+    "year": 2022,
+    "venue": "IEEE Access",
+    "authors": [
+        "Ashkan Tousi",
+        "M. Luján"
+    ],
+    "doi": "10.1109/ACCESS.2022.3142240",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/349e21ebc5badf1b08476efebf912eae49bbc55b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09676614.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Simulation-based performance prediction is complicated and time-consuming. In this study, we apply supervised learning to predict the performance scores of Standard Performance Evaluation Corporation (SPEC) benchmarks. The SPEC CPU2017 is a public dataset of results obtained by executing 43 standardised performance benchmarks organised into 4 suites on various system configurations. This paper analyses the dataset and aims to answer the following questions: I) can we accurately predict the SPEC results based on the configurations provided in the dataset, without having to actually run the benchmarks? II) what are the most important hardware and software features? III) what are the best predictive models and hyperparameters, in terms of prediction error and time? and IV) can we predict the performance of future systems using the past data? We present how to prepare data, select features, tune hyperparameters and evaluate regression models based on Multi-Task Elastic-Net, Decision Tree, Random Forest, and Multi-Layer Perceptron neural networks estimators. Feature selection is performed in three steps: removing zero variance features, removing highly correlated features, and Recursive Feature Elimination based on different feature importance metrics: elastic-net coefficients, tree-based importance measures and Permutation Importance. We select the best models using grid search on the hyperparameter space, and finally, compare and evaluate the performance of the models. We show that tree-based models with the original 29 features provide accurate predictions with an average error of less than 4%. The average error of faster Decision Tree and Random Forest models with 10 features is still below 6% and 5% respectively.",
+    "citationCount": 12,
+    "referenceCount": 35
+}

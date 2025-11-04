@@ -1,0 +1,39 @@
+{
+    "paperId": "45c41eef002fee89fe01818dab17e0d839e78e64",
+    "title": "HLSTransform: Energy-Efficient Llama 2 Inference on FPGAs Via High Level Synthesis",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Andy He",
+        "Darren Key",
+        "Mason Bulling",
+        "Andrew Chang",
+        "Skyler Shapiro",
+        "Everett Lee"
+    ],
+    "doi": "10.48550/arXiv.2405.00738",
+    "arxivId": "2405.00738",
+    "url": "https://www.semanticscholar.org/paper/45c41eef002fee89fe01818dab17e0d839e78e64",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graphics Processing Units (GPUs) have become the leading hardware accelerator for deep learning applications and are used widely in training and inference of transformers; transformers have achieved state-of-the-art performance in many areas of machine learning and are especially used in most modern Large Language Models (LLMs). However, GPUs require large amounts of energy, which poses environmental concerns, demands high operational costs, and causes GPUs to be unsuitable for edge computing. We develop an accelerator for transformers, namely, Llama 2, an open-source state-of-the-art LLM, using high level synthesis (HLS) on Field Programmable Gate Arrays (FPGAs). HLS allows us to rapidly prototype FPGA designs without writing code at the register-transfer level (RTL). We name our method HLSTransform, and the FPGA designs we synthesize with HLS achieve up to a 12.75x reduction and 8.25x reduction in energy used per token on the Xilinx Virtex UltraScale+ VU9P FPGA compared to an Intel Xeon Broadwell E5-2686 v4 CPU and NVIDIA RTX 3090 GPU respectively, while increasing inference speeds by up to 2.46x compared to CPU and maintaining 0.53x the speed of an RTX 3090 GPU despite the GPU's 4 times higher base clock rate. With the lack of existing open-source FPGA accelerators for transformers, we open-source our code and document our steps for synthesis. We hope this work will serve as a step in democratizing the use of FPGAs in transformer inference and inspire research into energy-efficient inference methods as a whole. The code can be found on https://github.com/HLSTransform/submission.",
+    "citationCount": 3,
+    "referenceCount": 33
+}

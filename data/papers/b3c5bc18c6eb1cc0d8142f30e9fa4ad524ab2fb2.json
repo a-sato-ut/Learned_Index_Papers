@@ -1,0 +1,35 @@
+{
+    "paperId": "b3c5bc18c6eb1cc0d8142f30e9fa4ad524ab2fb2",
+    "title": "GRADES: Gradient Descent for Similarity Caching",
+    "year": 2021,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "A. Sabnis",
+        "T. Si Salem",
+        "G. Neglia",
+        "M. Garetto",
+        "Emilio Leonardi",
+        "R. Sitaraman"
+    ],
+    "doi": "10.1109/TNET.2022.3187044",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b3c5bc18c6eb1cc0d8142f30e9fa4ad524ab2fb2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://hal.archives-ouvertes.fr/hal-03906099/file/similarity_caching_ton.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A similarity cache can reply to a query for an object with similar objects stored locally. In some applications of similarity caches, queries and objects are naturally represented as points in a continuous space. This is for example the case of 360° videos where user’s head orientation—expressed in spherical coordinates—determines what part of the video needs to be retrieved, or of recommendation systems where a metric learning technique is used to embed the objects in a finite dimensional space with an opportune distance to capture content dissimilarity. Existing similarity caching policies are simple modifications of classic policies like LRU, LFU, and ${q}$ LRU and ignore the continuous nature of the space where objects are embedded. In this paper, we propose GRADES, a new similarity caching policy that uses gradient descent to navigate the continuous space and find appropriate objects to store in the cache. We provide theoretical convergence guarantees and show GRADES increases the similarity of the objects served by the cache in both applications mentioned above.",
+    "citationCount": 16,
+    "referenceCount": 70
+}

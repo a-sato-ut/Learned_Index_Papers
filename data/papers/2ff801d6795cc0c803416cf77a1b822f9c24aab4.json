@@ -1,0 +1,34 @@
+{
+    "paperId": "2ff801d6795cc0c803416cf77a1b822f9c24aab4",
+    "title": "DAP-CBR: enhancing Bitcoin block propagation efficiency using dynamic compact block relay's prefilling of transactions",
+    "year": 2024,
+    "venue": "Journal of Supercomputing",
+    "authors": [
+        "Zi Hau Chin",
+        "Vishnu Monn Baskaran",
+        "Chee Keong Tan",
+        "Ian K. T. Tan",
+        "T. Yap"
+    ],
+    "doi": "10.1007/s11227-024-06468-0",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2ff801d6795cc0c803416cf77a1b822f9c24aab4",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1007/s11227-024-06468-0",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study examines the potential of BIP-152’s Compact Block Relay (CBR) to enhance the Bitcoin network. This work explores the block propagation efficiency through dynamic prefilling of transactions. In addition, an enhanced CBR model is proposed to reduce superfluous transaction requests, thus improving the block distribution process. The analysis considers the impact of the dynamically prefilled transactions on Bitcoin network scalability, comparing the advantages and disadvantages of this approach. We also conduct a comparative study of fixed-size and dynamically sized prefilled transactions to highlight the importance of adapting to network demands. Prefilling a fixed number of transactions without considering demand can cause inefficiencies and strain the network with unnecessary bandwidth use. Indiscriminate prefilling exacerbates these issues by inflating data packets unnecessarily, increasing latency and reducing network responsiveness. Our research indicates that the proposed solution can significantly reduce the number of round-trips between network nodes by an average of 29.77% and block reconstruction latency by 39.10% when compared with the CBR.",
+    "citationCount": 1,
+    "referenceCount": 58
+}

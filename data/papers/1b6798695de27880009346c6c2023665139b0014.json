@@ -1,0 +1,32 @@
+{
+    "paperId": "1b6798695de27880009346c6c2023665139b0014",
+    "title": "Ontology-Based Question Answering over Corporate Structured Data",
+    "year": 2021,
+    "venue": "2021 International Symposium on Knowledge, Ontology, and Theory (KNOTH)",
+    "authors": [
+        "S. Gorshkov",
+        "Constantin Kondratiev",
+        "Roman Shebalov"
+    ],
+    "doi": "10.1109/knoth54462.2021.9685024",
+    "arxivId": "2111.04507",
+    "url": "https://www.semanticscholar.org/paper/1b6798695de27880009346c6c2023665139b0014",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2111.04507",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Ontology-based approach to the Natural Language Understanding (NLU) processing allows to improve questions answering quality in dialogue systems. We describe our NLU engine architecture and evaluate its implementation. The engine transforms user's input into the SPARQL SELECT, ASK or INSERT query to the knowledge graph provided by the ontology-based data virtualization platform. The transformation is based on the lexical level of the knowledge graph built according to the Ontolex ontology. The described approach can be applied for graph data population tasks and to the question answering systems implementation, including chat bots. We describe the dialogue engine for a chat bot which can keep the conversation context and ask clarifying questions, simulating some aspects of the human logical thinking. Our approach uses graph-based algorithms to avoid gathering datasets, required in the neural nets-based approaches, and provide better explainability of our models. Using question answering engine in conjunction with data virtualization layer over the corporate data sources allows extracting facts from the structured data to be used in conversation.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

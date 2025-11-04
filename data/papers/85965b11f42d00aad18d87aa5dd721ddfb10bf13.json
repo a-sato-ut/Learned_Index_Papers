@@ -1,0 +1,28 @@
+{
+    "paperId": "85965b11f42d00aad18d87aa5dd721ddfb10bf13",
+    "title": "Natural Language Query in Bengali to SQL Generation Using Named Entity Recognition",
+    "year": 2022,
+    "venue": "2022 IEEE Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "authors": [
+        "K. Mandal",
+        "Prasenjit Mukheriee",
+        "Baisakhi Chakraborty"
+    ],
+    "doi": "10.1109/IATMSI56455.2022.10119243",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/85965b11f42d00aad18d87aa5dd721ddfb10bf13",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Various search strategies are used to search the data from the database. Adapting the searching language and grasping its numerous syntaxes are the key hurdles that a user encounters when accessing these data. Thus, we propose a system that translates natural language queries into Structured Query Language (SQL) queries and retrieves the relevant data from a database. This proposed system allows inexperienced users to access a database without prior knowledge of query languages. The current approach applies machine learning and rule-based approaches because the machine learning approach gives better results for large-size data, whereas the rule-based approach performs well in small-size datasets. This system receives health queries in Bengali. Tokenization is applied to the user's query. The Bengali Natural Language Processing (BNLP) toolkit removes punctuation marks from the token list. After removing punctuation marks, the proposed system uses a predefined Bengali stop words list to provide a score for each token. The score facilitates the finding of nominal words. The stemming method is performed to obtain the nominal root word. The pattern is created to generate all possible nominal compounds in Bengali. A new set of proposed rules and named entity recognition module of the BNLP toolkit is utilized to predict entities and attributes using the pattern. The proposed system maintains a healthcare database. Finally, the SQL is formed using entities, and attributes and the relevant result is obtained from the database.",
+    "citationCount": 3,
+    "referenceCount": 12
+}

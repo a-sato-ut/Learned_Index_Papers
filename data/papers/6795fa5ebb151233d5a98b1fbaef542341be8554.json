@@ -1,0 +1,36 @@
+{
+    "paperId": "6795fa5ebb151233d5a98b1fbaef542341be8554",
+    "title": "Doctopus: Budget-aware Structural Table Extraction from Unstructured Documents",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Chengliang Chai",
+        "Jiajun Li",
+        "Yuhao Deng",
+        "Yuanhao Zhong",
+        "Ye Yuan",
+        "Guoren Wang",
+        "Lei Cao"
+    ],
+    "doi": "10.14778/3749646.3749647",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6795fa5ebb151233d5a98b1fbaef542341be8554",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "To fulfill the potential great value of unstructured documents, it is critical to extract structural data (e.g., attributes) from them, which can benefit various applications such as analytical SQL queries and decision-making. Multiple strategies, such as pre-trained language models (PLMs), can be employed for this task. However, these methods often struggle to achieve high-quality results, particularly when dealing with attribute extraction that requires intricate reasoning or semantic comprehension. Recently, large language models (LLMs) have proven to be effective in extracting attributes but incur substantial costs caused by token consumption, making them impractical for large-scale document set.\n To best trade off quality and cost, we present Doctopus, a system designed for accurate attribute extraction from unstructured documents with a user-specified cost constraint. Overall, Doctopus combines LLMs with non-LLM strategies to achieve a good tradeoff. First, the system employs an index-based approach to efficiently identify and process only relevant text chunks, thereby reducing the LLM cost. Afterwards, it further estimates the quality of multiple strategies for each attribute. Finally, based on the cost and estimated quality, Doctopus dynamically selects the optimal strategies through budget-aware optimization. We have built a comprehensive benchmark including 4 document sets with various characteristics and manually labeled ground truth using 1000 human hours. Extensive experiments on the benchmark show that compared with state-of-the-art baselines, Doctopus can improve the quality by 11% given the same cost constraint.",
+    "citationCount": 1,
+    "referenceCount": 32
+}

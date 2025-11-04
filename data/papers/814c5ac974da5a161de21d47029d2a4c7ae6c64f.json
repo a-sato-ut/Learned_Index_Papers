@@ -1,0 +1,40 @@
+{
+    "paperId": "814c5ac974da5a161de21d47029d2a4c7ae6c64f",
+    "title": "Design and accuracy trade-offs in Computational Statistics",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Tiancheng Xu",
+        "Alan L. Cox",
+        "S. Rixner"
+    ],
+    "doi": "10.48550/arXiv.2509.10934",
+    "arxivId": "2509.10934",
+    "url": "https://www.semanticscholar.org/paper/814c5ac974da5a161de21d47029d2a4c7ae6c64f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Statistical computations are becoming increasingly important. These computations often need to be performed in log-space because probabilities become extremely small due to repeated multiplications. While using logarithms effectively prevents numerical underflow, this paper shows that its cost is high in performance, resource utilization, and, notably, numerical accuracy. This paper then argues that using posit, a recently proposed floating-point format, is a better strategy for statistical computations operating on extremely small numbers because of its unique encoding mechanism. To that end, this paper performs a comprehensive analysis comparing posit, binary64, and logarithm representations, examining both individual arithmetic operations, statistical bioinformatics applications, and their accelerators. FPGA implementation results highlight that posit-based accelerators can achieve up to two orders of magnitude higher accuracy, up to 60\\% lower resource utilization, and up to $1.3\\times$ speedup, compared to log-space accelerators. Such improvement translates to $2\\times$ performance per unit resource on the FPGA.",
+    "citationCount": 0,
+    "referenceCount": 83
+}

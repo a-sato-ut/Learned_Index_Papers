@@ -1,0 +1,36 @@
+{
+    "paperId": "90af8e8a3745b0af1670e0f5039e6c3b165f5d2a",
+    "title": "A Unified Approach for Multi-granularity Search over Spatial Datasets",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Wenzhe Yang",
+        "Sheng Wang",
+        "Shixun Huang",
+        "Yuyang Liao",
+        "Yuan Sun",
+        "Juliana Freire",
+        "Zhiyong Peng"
+    ],
+    "doi": "10.48550/arXiv.2412.04805",
+    "arxivId": "2412.04805",
+    "url": "https://www.semanticscholar.org/paper/90af8e8a3745b0af1670e0f5039e6c3b165f5d2a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There has been increased interest in data search as a means to find relevant datasets or data points in data lakes and repositories. Although approaches have been proposed to support spatial dataset search and data point search, they consider the two types of searches independently. To enable search operations ranging from the coarse-grained dataset level to the fine-grained data point level, we provide an integrated one that supports diverse query types and distance metrics. In this paper, we focus on designing a multi-granularity spatial data search system, called Spadas, that supports both dataset and data point search operations. To address the challenges of the high cost of indexing and susceptibility to outliers, we propose a unified index that can drastically improve query efficiency in various scenarios by organizing data reasonably and removing outliers in datasets. Moreover, to accelerate all data search operations, we propose a set of pruning mechanisms based on the unified index, including fast bound estimation, approximation technique with error bound, and pruning in batch techniques, to effectively filter out non-relevant datasets and points. Finally, we report the results of a detailed experimental evaluation using six spatial data repositories, achieving orders of magnitude faster than the state-of-the-art algorithms and demonstrating the effectiveness by case study. An online spatial data search system of Spadas is also implemented and made accessible to users.",
+    "citationCount": 1,
+    "referenceCount": 80
+}

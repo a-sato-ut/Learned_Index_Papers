@@ -1,0 +1,32 @@
+{
+    "paperId": "4bcf3b1562e16e95cb033c257bbb61cd9a9920f7",
+    "title": "Weakly Supervised Text-to-SQL Parsing through Question Decomposition",
+    "year": 2021,
+    "venue": "NAACL-HLT",
+    "authors": [
+        "Tomer Wolfson",
+        "Daniel Deutch",
+        "Jonathan Berant"
+    ],
+    "doi": "10.18653/v1/2022.findings-naacl.193",
+    "arxivId": "2112.06311",
+    "url": "https://www.semanticscholar.org/paper/4bcf3b1562e16e95cb033c257bbb61cd9a9920f7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://aclanthology.org/2022.findings-naacl.193.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Text-to-SQL parsers are crucial in enabling non-experts to effortlessly query relational data. Training such parsers, by contrast, generally requires expertise in annotating natural language (NL) utterances with corresponding SQL queries. In this work, we propose a weak supervision approach for training text-to-SQL parsers. We take advantage of the recently proposed question meaning representation called QDMR, an intermediate between NL and formal query languages. Given questions, their QDMR structures (annotated by non-experts or automatically predicted), and the answers, we are able to automatically synthesize SQL queries that are used to train text-to-SQL models. We test our approach by experimenting on five benchmark datasets. Our results show that the weakly supervised models perform competitively with those trained on annotated NL-SQL data. Overall, we effectively train text-to-SQL parsers, while using zero SQL annotations.",
+    "citationCount": 19,
+    "referenceCount": 58
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "fb1b90ded6c77bc7d8a63f0a90b4bb0c36b2fd7f",
+    "title": "Knowledge Distillation based Contextual Relevance Matching for E-commerce Product Search",
+    "year": 2022,
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+        "Ziyang Liu",
+        "Chaokun Wang",
+        "Hao Feng",
+        "Lingfei Wu",
+        "Liqun Yang"
+    ],
+    "doi": "10.48550/arXiv.2210.01701",
+    "arxivId": "2210.01701",
+    "url": "https://www.semanticscholar.org/paper/fb1b90ded6c77bc7d8a63f0a90b4bb0c36b2fd7f",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2210.01701",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Online relevance matching is an essential task of e-commerce product search to boost the utility of search engines and ensure a smooth user experience. Previous work adopts either classical relevance matching models or Transformer-style models to address it. However, they ignore the inherent bipartite graph structures that are ubiquitous in e-commerce product search logs and are too inefficient to deploy online. In this paper, we design an efficient knowledge distillation framework for e-commerce relevance matching to integrate the respective advantages of Transformer-style models and classical relevance matching models. Especially for the core student model of the framework, we propose a novel method using $k$-order relevance modeling. The experimental results on large-scale real-world data (the size is 6$\\sim$174 million) show that the proposed method significantly improves the prediction accuracy in terms of human relevance judgment. We deploy our method to the anonymous online search platform. The A/B testing results show that our method significantly improves 5.7% of UV-value under price sort mode.",
+    "citationCount": 9,
+    "referenceCount": 106
+}

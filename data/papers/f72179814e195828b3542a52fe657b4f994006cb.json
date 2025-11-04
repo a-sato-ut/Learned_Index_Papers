@@ -1,0 +1,36 @@
+{
+    "paperId": "f72179814e195828b3542a52fe657b4f994006cb",
+    "title": "Pythia: Unsupervised Generation of Ambiguous Textual Claims from Relational Data",
+    "year": 2022,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Enzo Veltri",
+        "Donatello Santoro",
+        "Gilbert Badaro",
+        "Mohammed Saeed",
+        "Paolo Papotti"
+    ],
+    "doi": "10.1145/3514221.3520164",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f72179814e195828b3542a52fe657b4f994006cb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Applications such as computational fact checking and data-to-text generation exploit the relationship between relational data and natural language text. Despite promising results in these areas, state of the art solutions simply fail in managing \"data-ambiguity\", i.e., the case when there are multiple interpretations of the relationship between the textual sentence and the relational data. To tackle this problem, we introduce Pythia, a system that, given a relational table D, generates textual sentences that contain factual ambiguities w.r.t. the data in D. Such sentences can then be used to train target applications in handling data-ambiguity. In this demonstration, we first show how our system generates data ambiguous sentences for a given table in an unsupervised fashion by data profiling and query generation. We then demonstrate how two existing applications benefit from Pythia's generated sentences, improving the state-of-the-art results. The audience will interact with Pythia by changing input parameters in an interactive fashion, including the upload of their own dataset to see what data ambiguous sentences are generated for it.",
+    "citationCount": 10,
+    "referenceCount": 13
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "f071772d67f3c6c8cf424666f5653177f538946a",
+    "title": "SDMA: An Efficient and Flexible Sparse-Dense Matrix-Multiplication Architecture for GNNs",
+    "year": 2022,
+    "venue": "International Conference on Field-Programmable Logic and Applications",
+    "authors": [
+        "Yingxue Gao",
+        "Lei Gong",
+        "Chao Wang",
+        "Teng Wang",
+        "Xuehai Zhou"
+    ],
+    "doi": "10.1109/FPL57034.2022.00054",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f071772d67f3c6c8cf424666f5653177f538946a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, graph neural networks (GNNs) as a deep learning model have emerged. Sparse-Dense Matrix Multiplication (SpMM) is the critical component of GNNs. However, SpMM involves many irregular calculations and random memory accesses, resulting in the inefficiency of general-purpose processors and dedicated accelerators. The highly sparse and uneven distribution of the graph further exacerbates the above problems. In this work, we propose SDMA, an efficient architecture to accelerate SpMM for GNNs. SDMA can collaboratively address the challenges of load imbalance and irregular memory accesses. We first present three hardware-oriented optimization methods: 1) The Equal-value partition method effectively divides the sparse matrix to achieve load balancing between tiles. 2) The vertex-clustering optimization method can explore more data locality. 3) An adaptive on-chip dataflow scheduling method is proposed to make full use of computing resources. Then, we combine and integrate the above optimization into SDMA to achieve a high-performance architecture. Finally, we prototype SDMA on the Xilinx Alveo U50 FPGA. The results demonstrate that SDMA achieves 2.19x-3.35x energy efficiency over the GPU implementation and 2.03x DSP efficiency over the FPGA implementation.",
+    "citationCount": 6,
+    "referenceCount": 43
+}

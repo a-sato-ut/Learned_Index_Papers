@@ -1,0 +1,36 @@
+{
+    "paperId": "c3068e2a9f4cd374c7ff3be1b8f877b3d653e880",
+    "title": "Multimodal Neural Databases",
+    "year": 2023,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Giovanni Trappolini",
+        "Andrea Santilli",
+        "E. Rodolà",
+        "A. Halevy",
+        "F. Silvestri"
+    ],
+    "doi": "10.1145/3539618.3591930",
+    "arxivId": "2305.01447",
+    "url": "https://www.semanticscholar.org/paper/c3068e2a9f4cd374c7ff3be1b8f877b3d653e880",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://iris.uniroma1.it/bitstream/11573/1699202/1/Trappolini_Multimodal_2023.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rise in loosely-structured data available through text, images, and other modalities has called for new ways of querying them. Multimedia Information Retrieval has filled this gap and has witnessed exciting progress in recent years. Tasks such as search and retrieval of extensive multimedia archives have undergone massive performance improvements, driven to a large extent by recent developments in multimodal deep learning. However, methods in this field remain limited in the kinds of queries they support and, in particular, their inability to answer database-like queries. For this reason, inspired by recent work on neural databases, we propose a new framework, which we name Multimodal Neural Databases (MMNDBs). MMNDBs can answer complex database-like queries that involve reasoning over different input modalities, such as text and images, at scale. In this paper, we present the first architecture able to fulfill this set of requirements and test it with several baselines, showing the limitations of currently available models. The results show the potential of these new techniques to process unstructured data coming from different modalities, paving the way for future research in the area.",
+    "citationCount": 11,
+    "referenceCount": 41
+}

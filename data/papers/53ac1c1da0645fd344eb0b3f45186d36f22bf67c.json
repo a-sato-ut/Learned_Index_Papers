@@ -1,0 +1,33 @@
+{
+    "paperId": "53ac1c1da0645fd344eb0b3f45186d36f22bf67c",
+    "title": "Optimizing Data Parallelism for FM-Based Short-Read Alignment on the Heterogeneous Non-Uniform Memory Access Architectures",
+    "year": 2024,
+    "venue": "Future Internet",
+    "authors": [
+        "Shaolong Chen",
+        "Yunzi Dai",
+        "Liwei Liu",
+        "Xinting Yu"
+    ],
+    "doi": "10.3390/fi16060217",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/53ac1c1da0645fd344eb0b3f45186d36f22bf67c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1999-5903/16/6/217/pdf?version=1718787321",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sequence alignment is a critical factor in the variant analysis of genomic research. Since the FM (Ferrainas–Manzini) index was developed, it has proven to be a model in a compact format with efficient pattern matching and high-speed query searching, which has attracted much research interest in the field of sequence alignment. Such characteristics make it a convenient tool for handling large-scale sequence alignment projects executed with a small memory. In bioinformatics, the massive success of next-generation sequencing technology has led to an exponential growth in genomic data, presenting a computational challenge for sequence alignment. In addition, the use of a heterogeneous computing system, composed of various types of nodes, is prevalent in the field of HPC (high-performance computing), which presents a promising solution for sequence alignment. However, conventional methodologies in short-read alignment are limited in performance on current heterogeneous computing infrastructures. Therefore, we developed a parallel sequence alignment to investigate the applicability of this approach in NUMA-based (Non-Uniform Memory Access) heterogeneous architectures against traditional alignment algorithms. This proposed work combines the LF (longest-first) distribution policy with the EP (enhanced partitioning) strategy for effective load balancing and efficient parallelization among heterogeneous architectures. The newly proposed LF-EP-based FM aligner shows excellent efficiency and a significant improvement over NUMA-based heterogeneous computing platforms. We provide significantly improved performance over several popular FM aligners in many dimensions such as read length, sequence number, sequence distance, alignment speedup, and result quality. These resultant evaluation metrics cover the quality assessment, complexity analysis, and speedup evaluation of our approach. Utilizing the capabilities of NUMA-based heterogeneous computing architectures, our approach effectively provides a convenient solution for large-scale short-read alignment in the heterogeneous system.",
+    "citationCount": 2,
+    "referenceCount": 45
+}

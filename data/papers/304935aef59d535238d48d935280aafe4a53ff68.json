@@ -1,0 +1,41 @@
+{
+    "paperId": "304935aef59d535238d48d935280aafe4a53ff68",
+    "title": "Serving DNN Models with Multi-Instance GPUs: A Case of the Reconfigurable Machine Scheduling Problem",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Cheng Tan",
+        "Zhichao Li",
+        "Jian Zhang",
+        "Yunyin Cao",
+        "Sikai Qi",
+        "Zherui Liu",
+        "Yibo Zhu",
+        "Chuanxiong Guo"
+    ],
+    "doi": null,
+    "arxivId": "2109.11067",
+    "url": "https://www.semanticscholar.org/paper/304935aef59d535238d48d935280aafe4a53ff68",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multi-Instance GPU (MIG) is a new feature introduced by NVIDIA A100 GPUs that partitions one physical GPU into multiple GPU instances. With MIG, A100 can be the most cost-efficient GPU ever for serving Deep Neural Networks (DNNs). However, discovering the most efficient GPU partitions is challenging. The underlying problem is NP-hard; moreover, it is a new abstract problem, which we define as the Reconfigurable Machine Scheduling Problem (RMS). This paper studies serving DNNs with MIG, a new case of RMS. We further propose a solution, MIG-serving. MIG- serving is an algorithm pipeline that blends a variety of newly designed algorithms and customized classic algorithms, including a heuristic greedy algorithm, Genetic Algorithm (GA), and Monte Carlo Tree Search algorithm (MCTS). We implement MIG-serving on Kubernetes. Our experiments show that compared to using A100 as-is, MIG-serving can save up to 40% of GPUs while providing the same throughput.",
+    "citationCount": 43,
+    "referenceCount": 38
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "7ca81dcfdedfdc1b8cebc5851c625cc2b9994cea",
+    "title": "Committee of NAS-based models",
+    "year": 2021,
+    "venue": "IEEE International Joint Conference on Neural Network",
+    "authors": [
+        "B. S. Sette",
+        "L. C. Silva",
+        "Fernando R. Zagatt",
+        "L. N. S. Silva",
+        "D. Lucrédio",
+        "Helena de Medeiros Caseli",
+        "Diego Furtado Silva"
+    ],
+    "doi": "10.1109/IJCNN52387.2021.9533446",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7ca81dcfdedfdc1b8cebc5851c625cc2b9994cea",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://repositorio.ufscar.br/bitstream/ufscar/14381/1/Disserta__o_Bruno_Sette.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Network Architecture Search (NAS) has achieved impressive results and generated models comparable with humans' classifications. Automating the definition of a neural architecture reduces the need for expert work efforts and mitigates human bias from architecture design. NAS techniques usually consist of an algorithm to search for the best architecture in a predetermined space of parameters or functions. Due to the number of deep neural architectures' parameters, this search space includes millions of parameters, which makes NAS a cost procedure and may lead the search to overfit the training set. To reduce NAS search spaces' complexity and still obtain competitive results, we propose CoNAS, a committee of NAS-based models, by restricting the search spaces to perform Differentiable ARchiTecture Search (DARTS). Our results point to improved accuracy over DARTS on CIFAR-10, training the networks from scratch. and Imagnette, using a transfer learning approach.",
+    "citationCount": 0,
+    "referenceCount": 62
+}

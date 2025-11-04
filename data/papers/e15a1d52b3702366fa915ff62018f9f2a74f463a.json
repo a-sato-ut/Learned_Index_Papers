@@ -1,0 +1,36 @@
+{
+    "paperId": "e15a1d52b3702366fa915ff62018f9f2a74f463a",
+    "title": "Egeria: Efficient DNN Training with Knowledge-Guided Layer Freezing",
+    "year": 2022,
+    "venue": "European Conference on Computer Systems",
+    "authors": [
+        "Yiding Wang",
+        "D. Sun",
+        "Kai Chen",
+        "Fan Lai",
+        "Mosharaf Chowdhury"
+    ],
+    "doi": "10.1145/3552326.3587451",
+    "arxivId": "2201.06227",
+    "url": "https://www.semanticscholar.org/paper/e15a1d52b3702366fa915ff62018f9f2a74f463a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://repository.hkust.edu.hk/ir/bitstream/1783.1-125989/1/125989-1.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Training deep neural networks (DNNs) is time-consuming. While most existing solutions try to overlap/schedule computation and communication for efficient training, this paper goes one step further by skipping computing and communication through DNN layer freezing. Our key insight is that the training progress of internal DNN layers differs significantly, and front layers often become well-trained much earlier than deep layers. To explore this, we first introduce the notion of training plasticity to quantify the training progress of internal DNN layers. Then we design Egeria, a knowledge-guided DNN training system that employs semantic knowledge from a reference model to accurately evaluate individual layers' training plasticity and safely freeze the converged ones, saving their corresponding backward computation and communication. Our reference model is generated on the fly using quantization techniques and runs forward operations asynchronously on available CPUs to minimize the overhead. In addition, Egeria caches the intermediate outputs of the frozen layers with prefetching to further skip the forward computation. Our implementation and testbed experiments with popular vision and language models show that Egeria achieves 19%-43% training speedup w.r.t. the state-of-the-art without sacrificing accuracy.",
+    "citationCount": 56,
+    "referenceCount": 116
+}

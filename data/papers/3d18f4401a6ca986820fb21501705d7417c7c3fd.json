@@ -1,0 +1,38 @@
+{
+    "paperId": "3d18f4401a6ca986820fb21501705d7417c7c3fd",
+    "title": "LOSTIN: Logic Optimization via Spatio-Temporal Information with Hybrid Graph Models",
+    "year": 2022,
+    "venue": "IEEE International Conference on Application-Specific Systems, Architectures, and Processors",
+    "authors": [
+        "Nan Wu",
+        "Jiwon Lee",
+        "Yuan Xie",
+        "Cong Hao"
+    ],
+    "doi": "10.1109/ASAP54787.2022.00013",
+    "arxivId": "2201.08455",
+    "url": "https://www.semanticscholar.org/paper/3d18f4401a6ca986820fb21501705d7417c7c3fd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2201.08455",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Despite the recent progress on machine learning (ML) based performance modeling, two major concerns that may impede production-ready ML applications in electronic design automation (EDA) are the stringent accuracy requirements and the generalization capability. To address these challenges, we a propose novel approach, namely LOSTIN11LOSTIN.com is a travel guide service to help people who visit a new city stay away from tourist traps and have a high-quality city tour. We envision our proposed LOSTIN would help the ML-based logic synthesis achieve high quality-of-results (QoR)., which exploits hybrid graph neural networks (GNNs) to provide highly accurate quality-of-result (QoR) estimations with great generalization capability, specifically targeting logic synthesis optimization. The key idea is to simultaneously leverage spatio-temporal information from hardware designs and logic synthesis flows to forecast performance (i.e., delay/area) of various synthesis flows on different designs. Specifically, the structural characteristics inside hardware designs are distilled and represented by GNNs; the temporal knowledge (i.e., the relative ordering of logic transformations) in synthesis flows can be imposed on hardware designs by combining a virtually added supernode or a sequence processing model with conventional GNN models. Evaluation on 3.3 million data points shows that the testing mean absolute percentage error (MAPE) on designs seen and unseen during training are no more than 1.2% and 3.1%, respectively, which are $\\boldsymbol{7-15}\\times$ lower than existing studies. Our dataset and ML models are publicly available at https://github.com/lydiawunan/LOSTIN.",
+    "citationCount": 20,
+    "referenceCount": 38
+}

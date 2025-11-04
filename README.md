@@ -8,7 +8,16 @@
 2. **バックエンド**: FastAPIで論文検索と引用関係を提供
 3. **フロントエンド**: React + d3でCitation networkを可視化
 
-## セットアップ
+## データ収集
+
+1. 論文データを収集:
+```bash
+cd backend
+export SEMANTIC_SCHOLAR_API_KEY=YOUR_API_KEY
+python collect_papers.py
+```
+
+## ビジュアライザー
 
 ### バックエンド
 
@@ -58,7 +67,7 @@ npm start
 1. バックエンドサーバーを起動（`http://localhost:8000`）
 2. フロントエンドを起動（`http://localhost:3000`）
 3. デフォルトクエリ「Partitioned Learned Bloom Filter」で検索、または任意の論文タイトルを入力
-4. 検索結果から「List」と「Graph」をタブで切り替え可能
+4. 検索結果から「List」と「Graph」と「Graph（年別）」をタブで切り替え可能
 
 ## API エンドポイント
 
@@ -70,4 +79,5 @@ npm start
 - **LCS検索**: タイトルに対する最長共通部分列（LCS）でベストマッチを検索
 - **Listビュー**: Cites / Cited by をブロック形式で大量列挙
 - **Graphビュー**: d3-forceによるforce-directed graphで引用関係を可視化
+- **Graph（年別）ビュー**: d3-forceによるforce-directed graphで引用関係を年別で可視化
 

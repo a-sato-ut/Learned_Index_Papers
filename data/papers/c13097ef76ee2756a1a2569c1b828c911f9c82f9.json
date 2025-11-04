@@ -1,0 +1,34 @@
+{
+    "paperId": "c13097ef76ee2756a1a2569c1b828c911f9c82f9",
+    "title": "DRAM-Based Acceleration of Open Modification Search in Hyperdimensional Space",
+    "year": 2024,
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "authors": [
+        "Jaeyoung Kang",
+        "Weihong Xu",
+        "Wout Bittremieux",
+        "Niema Moshiri",
+        "T. Rosing"
+    ],
+    "doi": "10.1109/TCAD.2024.3382842",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c13097ef76ee2756a1a2569c1b828c911f9c82f9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Mass spectrometry, commonly used for protein identification, generates a massive number of spectra that need to be matched against a large database. In reality, most of them remain unidentified or mismatched due to unexpected post-translational modifications. Open modification search (OMS) has been proposed as a strategy to improve the identification rate by considering changes in spectra, but it expands the search space exponentially. In this work, we propose HyperOMS, an algorithm-hardware co-design for boosted OMS, to cope with the enlarged database and expanded search space. HyperOMS encodes spectral data into binary vectors and performs the efficient OMS in high-dimensional space. We accelerate the HyperOMS algorithm using a DRAM-based processing-in-memory accelerator, which combines processing-using-memory and near-memory processing technologies. In order to maximize the parallelization and efficiency of the accelerator, we optimize the data allocation and devise an approximation strategy for similarity computation. Experimental results show that the HyperOMS accelerator yields up to <inline-formula> <tex-math notation=\"LaTeX\">$3.8\\times $ </tex-math></inline-formula> speedup and <inline-formula> <tex-math notation=\"LaTeX\">$119\\times $ </tex-math></inline-formula> higher energy efficiency compared to running HyperOMS on GPU, and up to <inline-formula> <tex-math notation=\"LaTeX\">$99\\times $ </tex-math></inline-formula> speedup and <inline-formula> <tex-math notation=\"LaTeX\">$1984\\times $ </tex-math></inline-formula> higher energy efficiency over the state-of-the-art OMS tool, ANN-SoLo (Bittremieux et al., 2019), while providing comparable search quality to competing tools.",
+    "citationCount": 4,
+    "referenceCount": 64
+}
