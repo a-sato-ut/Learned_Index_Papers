@@ -59,10 +59,10 @@ def list_citing_paper_ids_if_not_exists(pid: str):
 def collect_citing_paper_metadata_list(pid: str, verbose: bool = False):
     # この論文を引用している論文たちのメタ情報を収集
     metadata_list = []
-    citing_ids = list_citing_paper_ids_if_not_exists(pid)
+    citing_datas = list_citing_paper_ids_if_not_exists(pid)
     if verbose:
-        print(f"[INFO] Collecting {len(citing_ids)} citing paper metadata ({pid})")
-    for citing_id in tqdm(citing_ids, disable=not verbose):
+        print(f"[INFO] Collecting {len(citing_datas)} citing paper metadata ({pid})")
+    for citing_id in tqdm(citing_datas["citationPaperIds"], disable=not verbose):
         metadata_list.append(get_paper_metadata_if_not_exists(citing_id))
     return metadata_list
 
