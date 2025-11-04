@@ -1,0 +1,34 @@
+{
+    "paperId": "6de06ed22e43198a4b4c4460b6f0df62f4428ed3",
+    "title": "Incremental Shortest Paths in Almost Linear Time via a Modified Interior Point Method",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yang P. Liu"
+    ],
+    "doi": "10.48550/arXiv.2506.19207",
+    "arxivId": "2506.19207",
+    "url": "https://www.semanticscholar.org/paper/6de06ed22e43198a4b4c4460b6f0df62f4428ed3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We give an algorithm that takes a directed graph $G$ undergoing $m$ edge insertions with lengths in $[1, W]$, and maintains $(1+\\epsilon)$-approximate shortest path distances from a fixed source $s$ to all other vertices. The algorithm is deterministic and runs in total time $m^{1+o(1)}\\log W$, for any $\\epsilon>\\exp(-(\\log m)^{0.99})$. This is achieved by designing a nonstandard interior point method to crudely detect when the distances from $s$ other vertices $v$ have decreased by a $(1+\\epsilon)$ factor, and implementing it using the deterministic min-ratio cycle data structure of [Chen-Kyng-Liu-Meierhans-Probst, STOC 2024].",
+    "citationCount": 0,
+    "referenceCount": 31
+}

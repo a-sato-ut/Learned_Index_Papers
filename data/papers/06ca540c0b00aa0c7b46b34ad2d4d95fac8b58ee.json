@@ -1,0 +1,33 @@
+{
+    "paperId": "06ca540c0b00aa0c7b46b34ad2d4d95fac8b58ee",
+    "title": "ByteExpress: A High-Performance and Traffic-Efficient Inline Transfer of Small Payloads over NVMe",
+    "year": 2025,
+    "venue": "USENIX Workshop on Hot Topics in Storage and File Systems",
+    "authors": [
+        "Junhyeok Park",
+        "Junghee Lee",
+        "Youngjae Kim"
+    ],
+    "doi": "10.1145/3736548.3737837",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/06ca540c0b00aa0c7b46b34ad2d4d95fac8b58ee",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent computational storage devices enable host-side tasks such as SQL filtering and key-value operations to be offloaded to the device. However, these tasks often involve small payloads, typically a few dozen to hundreds of bytes, which are inefficiently handled by the conventional NVMe protocol due to its page-based DMA mechanism. Even tiny payloads incur 4 KB PCIe transfers, leading to severe bandwidth waste and increased latency. Prior approaches either break NVMe compatibility or are only effective for very small payloads on the order of a few dozen bytes. This paper presents ByteExpress, a new mechanism that efficiently transmits small payloads by placing them inline in 64-byte chunks directly into the NVMe submission queue, immediately following the NVMe command. ByteExpress requires only slight modifications to the NVMe driver and controller logic, while preserving full compatibility with existing APIs and SSD architectures. We implemented ByteExpress on the Linux NVMe driver and OpenSSD, demonstrating up to 98% reduction in PCIe traffic and 40% and 39% lower latency compared to PRP and a state-of-the-art approach, respectively, for sub-page payloads.",
+    "citationCount": 2,
+    "referenceCount": 41
+}

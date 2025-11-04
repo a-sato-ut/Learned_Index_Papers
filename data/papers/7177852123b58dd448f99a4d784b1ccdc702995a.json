@@ -1,0 +1,32 @@
+{
+    "paperId": "7177852123b58dd448f99a4d784b1ccdc702995a",
+    "title": "Man-Made Heuristics Are Dead. Long Live Code Generators!",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Rohit Dwivedula",
+        "Divyanshu Saxena",
+        "Aditya Akella",
+        "Swarat Chaudhuri",
+        "Daehyeok Kim"
+    ],
+    "doi": null,
+    "arxivId": "2510.08803",
+    "url": "https://www.semanticscholar.org/paper/7177852123b58dd448f99a4d784b1ccdc702995a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Policy design for various systems controllers has conventionally been a manual process, with domain experts carefully tailoring heuristics for the specific instance in which the policy will be deployed. In this paper, we re-imagine policy design via a novel automated search technique fueled by recent advances in generative models, specifically Large Language Model (LLM)-driven code generation. We outline the design and implementation of PolicySmith, a framework that applies LLMs to synthesize instance-optimal heuristics. We apply PolicySmith to two long-standing systems policies - web caching and congestion control, highlighting the opportunities unraveled by this LLM-driven heuristic search. For caching, PolicySmith discovers heuristics that outperform established baselines on standard open-source traces. For congestion control, we show that PolicySmith can generate safe policies that integrate directly into the Linux kernel.",
+    "citationCount": 1,
+    "referenceCount": 68
+}

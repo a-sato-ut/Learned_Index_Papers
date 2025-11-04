@@ -70,6 +70,7 @@ class Corpus:
                 print(f"Error loading paper {paper_file}: {e}")
 
         # 引用データを読み込む
+        # citations/{paperId}.json の citationPaperIds は、その paperId を引用している（cited by）論文のリスト
         for citation_file in CITATIONS_FOLDER.glob("*.json"):
             try:
                 with open(citation_file, "r", encoding="utf-8") as f:
@@ -77,15 +78,19 @@ class Corpus:
                     paper_id = data["paperId"]
                     citation_ids = data.get("citationPaperIds", [])
 
-                    # cites を構築（この論文が引用している論文）
-                    self.cites[paper_id] = citation_ids
-
                     # cited_by を構築（この論文を引用している論文）
-                    for cited_id in citation_ids:
-                        if cited_id not in self.cited_by:
-                            self.cited_by[cited_id] = []
-                        if paper_id not in self.cited_by[cited_id]:
-                            self.cited_by[cited_id].append(paper_id)
+                    # citation_ids は paper_id を引用している論文のリスト
+                    self.cited_by[paper_id] = citation_ids
+
+                    # cites を構築（この論文が引用している論文）
+                    # citation_ids の各論文が paper_id を引用しているということは、
+                    # 逆方向では、citation_ids の各論文が paper_id を引用している
+                    # つまり、cites[citation_id] に paper_id を追加
+                    for citation_id in citation_ids:
+                        if citation_id not in self.cites:
+                            self.cites[citation_id] = []
+                        if paper_id not in self.cites[citation_id]:
+                            self.cites[citation_id].append(paper_id)
             except Exception as e:
                 print(f"Error loading citation {citation_file}: {e}")
 

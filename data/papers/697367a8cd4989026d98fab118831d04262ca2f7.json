@@ -1,0 +1,38 @@
+{
+    "paperId": "697367a8cd4989026d98fab118831d04262ca2f7",
+    "title": "A Novel Multi-Timescale Stability-Preserving Hierarchical Reinforcement Learning Controller Framework for Adaptive Control in High-Dimensional Dynamical Systems",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "M. Khaniki",
+        "Fateme Taroodi",
+        "Benyamin Safizadeh"
+    ],
+    "doi": null,
+    "arxivId": "2510.22420",
+    "url": "https://www.semanticscholar.org/paper/697367a8cd4989026d98fab118831d04262ca2f7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Controlling high-dimensional stochastic systems, critical in robotics, autonomous vehicles, and hyperchaotic systems, faces the curse of dimensionality, lacks temporal abstraction, and often fails to ensure stochastic stability. To overcome these limitations, this study introduces the Multi-Timescale Lyapunov-Constrained Hierarchical Reinforcement Learning (MTLHRL) framework. MTLHRL integrates a hierarchical policy within a semi-Markov Decision Process (SMDP), featuring a high-level policy for strategic planning and a low-level policy for reactive control, which effectively manages complex, multi-timescale decision-making and reduces dimensionality overhead. Stability is rigorously enforced using a neural Lyapunov function optimized via Lagrangian relaxation and multi-timescale actor-critic updates, ensuring mean-square boundedness or asymptotic stability in the face of stochastic dynamics. The framework promotes efficient and reliable learning through trust-region constraints and decoupled optimization. Extensive simulations on an 8D hyperchaotic system and a 5-DOF robotic manipulator demonstrate MTLHRL's empirical superiority. It significantly outperforms baseline methods in both stability and performance, recording the lowest error indices (e.g., Integral Absolute Error (IAE): 3.912 in hyperchaotic control and IAE: 1.623 in robotics), achieving faster convergence, and exhibiting superior disturbance rejection. MTLHRL offers a theoretically grounded and practically viable solution for robust control of complex stochastic systems.",
+    "citationCount": 0,
+    "referenceCount": 59
+}

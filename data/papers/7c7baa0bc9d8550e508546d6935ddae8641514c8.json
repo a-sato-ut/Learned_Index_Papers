@@ -1,0 +1,35 @@
+{
+    "paperId": "7c7baa0bc9d8550e508546d6935ddae8641514c8",
+    "title": "Kairo - Incremental View Maintenance for Scalable Virtual Switch Caching",
+    "year": 2025,
+    "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+    "authors": [
+        "Annus Zulfiqar",
+        "Ben Pfaff",
+        "Gianni Antichi",
+        "Muhammad Shahbaz"
+    ],
+    "doi": "10.1145/3744969.3748406",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7c7baa0bc9d8550e508546d6935ddae8641514c8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data centers manage complexity by offloading simple, high-speed packet forwarding to the network fabric and rely on virtual switches (vSwitches) at end hosts to enforce complex policies---managing connectivity across physical interfaces, containers, and VMs. Since their inception, vSwitches have seen major performance optimizations, including wildcard caches [14], learned-index lookups [15, 16], and high hit-rate SmartNIC offloads [24, 25]. Yet, fast vSwitch policy updates have remained largely overlooked, long considered non-critical to performance. We argue that architectural shifts in vSwitch design (from N-table policies to single-table caching [14, 16, 19]) and infrastructure scaling---driven by rising link rates and increasingly dynamic update patterns from emerging workloads (e.g., distributed training [9, 12, 20, 23] and low-latency inference [6, 21])---have turned the bottom-up vSwitch update mechanism (Figure 1a) into a key bottleneck, limiting cache scalability and performance. To address this, we introduce Kairo, which recasts vSwitch cache maintenance as an instance of the Incremental View Maintenance (IVM) problem [4, 10], enabling efficient top-down updates that react only to rule changes (Figure 1b) rather than recomputing from scratch. We also outline the core challenges of applying IVM in this context.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

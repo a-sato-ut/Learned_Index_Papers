@@ -1,0 +1,34 @@
+{
+    "paperId": "7e7b313bc43d8ce366fc50be35c4ddb7256d2935",
+    "title": "Policy-guided Q-learning algorithm for intelligent travel path planning",
+    "year": 2025,
+    "venue": "Journal of Computational Methods in Sciences and Engineering",
+    "authors": [
+        "Jingya Shi"
+    ],
+    "doi": "10.1177/14727978251366566",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7e7b313bc43d8ce366fc50be35c4ddb7256d2935",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In complex urban environments, traditional path planning methods have significant shortcomings in terms of safety assurance, multi-objective path optimization, and personalized travel recommendations. To address these issues, this paper proposes a reinforcement learning-based path planning algorithm with a strategy-guided mechanism and further constructs a path optimization model suitable for multi-destination travel scenarios. This method introduces a safety-aware potential field and a composite reward mechanism to guide the agent to achieve a dynamic balance between path length and safety. In the experimental section, a dataset incorporating map and urban public safety information was constructed, and 800 rounds of path learning simulation experiments were conducted. The results show that the convergence time of the proposed algorithm is 32% shorter than that of the greedy strategy-based method and 27% shorter than that of the policy enhancement method. Additionally, the average path length is reduced by over 100 m, and the safety score improves by over 14%. In multi-destination travel tests, when the number of target points was 20, the total path length was reduced by 3.00% compared to the distance matrix method and by 0.15% compared to the genetic algorithm, verifying its scalability and stability in complex scenarios. The research results indicate that this method can provide efficient, safe, and personalized path planning solutions for urban travelers, offering broad application prospects.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

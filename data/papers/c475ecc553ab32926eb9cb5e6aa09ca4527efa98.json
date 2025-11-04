@@ -1,0 +1,34 @@
+{
+    "paperId": "c475ecc553ab32926eb9cb5e6aa09ca4527efa98",
+    "title": "The Effectiveness of Compression for GPU-Accelerated Queries on Out-of-Memory Datasets",
+    "year": 2025,
+    "venue": "International Workshop on Data Management on New Hardware",
+    "authors": [
+        "Hamish Nicholson",
+        "Konstantinos Chasialis",
+        "Antonio Boffa",
+        "Anastasia Ailamaki"
+    ],
+    "doi": "10.1145/3736227.3736240",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c475ecc553ab32926eb9cb5e6aa09ca4527efa98",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "GPU-accelerated database systems promise significant performance gains for analytical workloads, but their adoption remains limited due to fundamental data movement bottlenecks when the dataset does not fit in GPU memory. Compression can significantly accelerate data movement, but when the dataset does not fit in GPU memory, the choice of compression algorithm (lightweight or heavyweight) can have a wide range of effects, including a potential slowdown compared to uncompressed data. This paper analyzes the impact of compression on query execution performance for larger-than-GPU-memory datasets stored on arrays of NVMe SSDs. We integrate pipelined data movement and on-GPU decompression into a GPU query processing engine. Our experiments show that when storage bandwidth is limited, compression always accelerates query execution, with lightweight compression incurring a higher speedup than heavyweight compression. As storage bandwidth is increased, however, compression can incur a speedup or a slowdown, depending on the processing intensity of the query. We quantify the impact of compression on query execution time with a microbenchmark that varies both storage bandwidth as well as the selectivity and number of joins. We find that heavyweight compression suffers from performance degradation with less processing-intensive queries and lower storage bandwidths than lightweight compression. We further analyze the compression algorithm’s impact on GPU utilization using an extended roofline model incorporating the SSD-to-GPU bandwidth bottleneck. For queries from the Star Schema Benchmark, the results show that while lightweight compression drastically increases the count of executed instructions, the improvement in effective storage bandwidth results in improved query execution times.",
+    "citationCount": 0,
+    "referenceCount": 44
+}

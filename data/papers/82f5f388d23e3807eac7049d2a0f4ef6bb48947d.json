@@ -1,0 +1,33 @@
+{
+    "paperId": "82f5f388d23e3807eac7049d2a0f4ef6bb48947d",
+    "title": "SEFRQO: A Self-Evolving Fine-Tuned RAG-Based Query Optimizer",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hanwen Liu",
+        "Qihan Zhang",
+        "Ryan Marcus",
+        "Ibrahim Sabek"
+    ],
+    "doi": "10.48550/arXiv.2508.17556",
+    "arxivId": "2508.17556",
+    "url": "https://www.semanticscholar.org/paper/82f5f388d23e3807eac7049d2a0f4ef6bb48947d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query optimization is a crucial problem in database systems that has been studied for decades. Learned query optimizers (LQOs) can improve performance over time by incorporating feedback; however, they suffer from cold-start issues and often require retraining when workloads shift or schemas change. Recent LLM-based query optimizers leverage pre-trained and fine-tuned LLMs to mitigate these challenges. Nevertheless, they neglect LLMs'in-context learning and execution records as feedback for continuous evolution. In this paper, we present SEFRQO, a Self-Evolving Fine-tuned RAG-based Query Optimizer. SEFRQO mitigates the cold-start problem of LQOs by continuously learning from execution feedback via a Retrieval-Augmented Generation (RAG) framework. We employ both supervised fine-tuning and reinforcement fine-tuning to prepare the LLM to produce syntactically correct and performance-efficient query hints. Moreover, SEFRQO leverages the LLM's in-context learning capabilities by dynamically constructing prompts with references to similar queries and the historical execution record of the same query. This self-evolving paradigm iteratively optimizes the prompt to minimize query execution latency. Evaluations show that SEFRQO outperforms state-of-the-art LQOs, achieving up to 65.05% and 93.57% reductions in query latency on the CEB and Stack workloads, respectively, compared to PostgreSQL.",
+    "citationCount": 1,
+    "referenceCount": 60
+}

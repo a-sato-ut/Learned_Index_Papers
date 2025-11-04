@@ -1,0 +1,33 @@
+{
+    "paperId": "45e14bb4f951dc83b31b91e0156a0a9de66d70c2",
+    "title": "SQLStorm: Taking Database Benchmarking into the LLM Era",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Tobias Schmidt",
+        "Viktor Leis",
+        "Peter A. Boncz",
+        "Thomas Neumann"
+    ],
+    "doi": "10.14778/3749646.3749683",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/45e14bb4f951dc83b31b91e0156a0a9de66d70c2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we introduce a new methodology for constructing database benchmarks using Large Language Models (LLMs), as well as SQLStorm v1.0, a concrete benchmark on a real-world dataset of three sizes (1 GB, 12 GB, 220 GB) consisting of over 18 K queries. This methodology of using AI to generate query workloads breaks new ground, not only in its ability to cheaply ($15) generate huge volumes (22 MB) of realistic queries but especially because it greatly expands the amount of SQL functionality and query constructions that is covered, compared to human-written SQL benchmarks such as TPC-H, TPC-DS, and JOB. The use cases of SQLStorm that we think will advance data systems most are: (i) improving SQL compatibility between systems, (ii) increasing system quality by identifying crashes/errors and fixing those, (iii) improving cardinality estimators and query optimizers, by identifying trends and opportunities (queries where other systems do much better), as well as (iv) overall system performance, both in terms of speed and robustness.",
+    "citationCount": 2,
+    "referenceCount": 72
+}

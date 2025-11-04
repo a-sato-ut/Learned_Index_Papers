@@ -1,0 +1,41 @@
+{
+    "paperId": "aeedb6ea9ccf42e0b080dd81634f477955f2956e",
+    "title": "Pareto-Optimality, Smoothness, and Stochasticity in Learning-Augmented One-Max-Search",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ziyad Benomar",
+        "Lorenzo Croissant",
+        "Vianney Perchet",
+        "Spyros Angelopoulos"
+    ],
+    "doi": "10.48550/arXiv.2502.05720",
+    "arxivId": "2502.05720",
+    "url": "https://www.semanticscholar.org/paper/aeedb6ea9ccf42e0b080dd81634f477955f2956e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Economics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "One-max search is a classic problem in online decision-making, in which a trader acts on a sequence of revealed prices and accepts one of them irrevocably to maximise its profit. The problem has been studied both in probabilistic and in worst-case settings, notably through competitive analysis, and more recently in learning-augmented settings in which the trader has access to a prediction on the sequence. However, existing approaches either lack smoothness, or do not achieve optimal worst-case guarantees: they do not attain the best possible trade-off between the consistency and the robustness of the algorithm. We close this gap by presenting the first algorithm that simultaneously achieves both of these important objectives. Furthermore, we show how to leverage the obtained smoothness to provide an analysis of one-max search in stochastic learning-augmented settings which capture randomness in both the observed prices and the prediction.",
+    "citationCount": 2,
+    "referenceCount": 34
+}

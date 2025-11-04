@@ -1,0 +1,27 @@
+{
+    "paperId": "7fcc2a1620c51ae3adacf214996f08fd1adf3d0d",
+    "title": "R-tree Optimization Strategy Driven by MADDPG-PPER: A Deep Reinforcement Learning Approach",
+    "year": 2025,
+    "venue": "International Conference on the Software Process",
+    "authors": [
+        "Peng Zhang",
+        "Chongchang Wang"
+    ],
+    "doi": "10.1109/ICSP65755.2025.11087132",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7fcc2a1620c51ae3adacf214996f08fd1adf3d0d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Existing R-tree index structures encounter significant efficiency limitations in subtree selection and node splitting when handling high-dimensional spatial data. This research introduces an optimization framework leveraging Multi-Agent Deep Deterministic Policy Gradient and Parallel Prioritized Experience Replay (MADDPG-PPER), framing the index construction as a cooperative multi-agent Markov decision process. The proposed methodology employs a dual-agent architecture to independently optimize subtree selection and node splitting strategies, augmented by the PPER mechanism for enhanced training efficiency. Validation conducted on the OpenStreetMap China road network dataset, a Remote Sensing Feature dataset (D=64), and a large-scale 3D Point Cloud dataset demonstrates that our approach substantially surpasses traditional algorithms across critical performance metrics, including query response time, memory utilization, and leaf node occupancy rate. The key contributions of this study are: (1) a decision optimization-structure preservation strategy ensuring compatibility with current database systems; (2) a multi-agent collaborative decision-making mechanism addressing local optimality in coupled tasks; and (3) a parallel prioritized training mechanism mitigating computational bottlenecks in conventional experience replay. This research provides a high-dimensional spatial index construction solution that effectively balances performance and compatibility, offering significant theoretical and practical value to the field of database index optimization.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

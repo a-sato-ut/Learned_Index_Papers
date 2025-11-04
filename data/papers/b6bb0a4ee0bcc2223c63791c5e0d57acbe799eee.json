@@ -1,0 +1,32 @@
+{
+    "paperId": "b6bb0a4ee0bcc2223c63791c5e0d57acbe799eee",
+    "title": "Adversarial Graph Perturbation for Smart Contract Vulnerability Detection",
+    "year": 2025,
+    "venue": "IEEE Conference on Communications and Network Security",
+    "authors": [
+        "Qi Han",
+        "Jiamin Deng",
+        "Shichang Huang",
+        "Yu Lit",
+        "Guyue Li",
+        "Shan Jiang",
+        "Zhe Peng"
+    ],
+    "doi": "10.1109/CNS66487.2025.11194994",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b6bb0a4ee0bcc2223c63791c5e0d57acbe799eee",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Blockchain technology has enabled decentralized applications through smart contracts. However, vulnerabilities in smart contracts and their immutability can lead to severe financial losses. Traditional vulnerability detection methods often ignore the unique structures and characteristic patterns of different vulnerabilities. To overcome these limitations, this paper proposes a novel vulnerability-specific adversarial training frame-work based on Degree-Free Graph Convolutional Networks (DR-GCN) to enhance detection robustness. Specifically, our method utilizes feature-only perturbations to address feature-sensitive reentrancy vulnerabilities while leveraging structure and feature perturbations to capture the complex control flow patterns of infinite loop vulnerabilities. Furthermore, we develop a dynamic perturbation scheduling mechanism to enhance the generalization and robustness of the model. Compared with the baseline DR-GCN model, our proposed framework improves the F1 score by 4% to 12%, improving detection performance significantly. This work demonstrates the feasibility of applying vulnerability-specific adversarial training to improve the robustness of smart contract vulnerability detection.",
+    "citationCount": 0,
+    "referenceCount": 33
+}

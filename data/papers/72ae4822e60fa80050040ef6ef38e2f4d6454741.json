@@ -1,0 +1,28 @@
+{
+    "paperId": "72ae4822e60fa80050040ef6ef38e2f4d6454741",
+    "title": "Poster: Vortex: Efficient Decentralized Vector Overlay for Similarity Search and Delivery",
+    "year": 2025,
+    "venue": "IEEE International Conference on Network Protocols",
+    "authors": [
+        "Shengze Wang",
+        "Yi Liu",
+        "Chen Qian"
+    ],
+    "doi": "10.1109/ICNP65844.2025.11192399",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/72ae4822e60fa80050040ef6ef38e2f4d6454741",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Nearest-neighbor search over embeddings has become a core primitive for AI and LLM-centric workloads. However, prevailing vector databases remain centralized or cluster-bound, introducing single control points, privacy vulnerabilities, and cost/latency bottlenecks. We present Vortex, a decentralized vector overlay that delivers planet-scale approximate nearest neighbor (ANN) search without a centralized control plane. Vortex integrates three key components: (1) Distributed Learned Hashing (DLH), which collaboratively learns piecewise similarity-preserving hash functions to map semantically related vectors to nearby key ranges while balancing load; (2) a Distributed Hash Table (DHT) for scalable, fault-tolerant routing and churn resilience; and (3) a co-designed Distributed HNSW (DHNSW) index for high-recall, low-latency search on each peer. Preliminary results show that Vortex matches the accuracy and latency of leading centralized systems while reducing per-peer index memory requirements by two orders of magnitude and eliminating any central coordinator—enabling fully decentralized, self-organizing ANN overlay for next-generation AI systems.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

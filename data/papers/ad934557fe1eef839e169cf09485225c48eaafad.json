@@ -1,0 +1,45 @@
+{
+    "paperId": "ad934557fe1eef839e169cf09485225c48eaafad",
+    "title": "SpaCor: A Tool for High-Quality Spatial NLQ Corpus Construction",
+    "year": 2025,
+    "venue": "International Symposium on Spatial and Temporal Databases",
+    "authors": [
+        "Weijia Yi",
+        "Xieyang Wang",
+        "Jianqiu Xu",
+        "Shuai Xu",
+        "M. Sakr",
+        "O. Wolfson"
+    ],
+    "doi": "10.1145/3748777.3748796",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ad934557fe1eef839e169cf09485225c48eaafad",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A natural language interface for databases (NLIDB) plays an important role by allowing non-expert users to query spatial data using natural language without understanding complex query syntax or schema. Natural language query (NLQ) corpora play a vital role in supporting syntactic parsing and intent recognition during the training of NLIDB systems, enhancing the system’s ability to understand and transform natural language queries. The lack of high-quality spatial NLQ corpora constrains the diversity and robustness of spatial NLIDB systems, preventing the accurate handling of complex geospatial queries. To address this, we propose SpaCor, a tool designed to construct high-quality spatial NLQ corpora by integrating two key modules: (i) automatic detection and repair, and (ii) template-based corpus generation. Firstly, the detection and repair module corrects query errors using specialized spatial knowledge bases. Secondly, the corpus generation module creates diverse and syntactically accurate queries. Experimental results show that SpaCor improves spatial NLIDB translation performance, achieving a 21.4% improvement in conversion rate and a 18.6% increase in accuracy, and improving the quality of corpus generation. The demo video is available at https://youtu.be/eeeTs_6ndRo.",
+    "citationCount": 0,
+    "referenceCount": 12
+}

@@ -1,0 +1,40 @@
+{
+    "paperId": "b9ee281dcf2e6c4831dee13c35bc6180cf7280c0",
+    "title": "Blockchain-Based Verifiable Decentralized Identity for Intelligent Flexible Manufacturing",
+    "year": 2025,
+    "venue": "IEEE Internet of Things Journal",
+    "authors": [
+        "Wenjian Xu",
+        "Jiamin Deng",
+        "Jialong Yu",
+        "Shanghui Mao",
+        "Youhuizi Li",
+        "Zhe Peng",
+        "Bin Xiao"
+    ],
+    "doi": "10.1109/JIOT.2025.3576735",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b9ee281dcf2e6c4831dee13c35bc6180cf7280c0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The manufacturing environment and activities with a large volume and variety of product data have put forward higher requirements for the proof and verification of identity information. Achieving decentralized digital identity management in the Industrial Internet of Things (IIoT) helps to improve the performance of relevant proofs and authentication. The decentralized identity (DID) system serves as a bridge between the physical and digital worlds, assigning digital identities to physical entities to facilitate their participation in online activities. However, faced with the huge number of manufacturing entities accessing the DID system, the number of DID documents in the system has proliferated. It is still a big challenge to improve the scalability of the system while ensuring the efficiency of information access and verification. In this article, we propose a blockchain-based verifiable DID system for IIoT. First, we propose a blockchain-based system architecture with a specially designed storage structure for DID documents. Specifically, we design a structure based on Merkle Tree that visually summarises the physical associations of manufacturing entities and reduces access overhead. Second, we design a multiblock storage structure within the blockchain, which establishes interblock jumps based on the associated DID, effectively improving the query efficiency of the system. Finally, we design a verification scheme that enables users to verify the integrity of the identity data of the proof provider. We implemented the system framework and conducted experiments to evaluate the performance of our system. The experimental results proved the effectiveness of the system.",
+    "citationCount": 1,
+    "referenceCount": 50
+}

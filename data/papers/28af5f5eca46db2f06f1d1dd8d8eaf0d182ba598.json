@@ -1,0 +1,28 @@
+{
+    "paperId": "28af5f5eca46db2f06f1d1dd8d8eaf0d182ba598",
+    "title": "Adversarially Robust Bloom Filters: Privacy, Reductions, and Open Problems",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Hayder Tirmazi"
+    ],
+    "doi": null,
+    "arxivId": "2501.15751",
+    "url": "https://www.semanticscholar.org/paper/28af5f5eca46db2f06f1d1dd8d8eaf0d182ba598",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A Bloom filter is a space-efficient probabilistic data structure that represents a set $S$ of elements from a larger universe $U$. This efficiency comes with a trade-off, namely, it allows for a small chance of false positives. When you query the Bloom filter about an element x, the filter will respond 'Yes' if $x \\in S$. If $x \\notin S$, it may still respond 'Yes' with probability at most $\\varepsilon$. We investigate the adversarial robustness and privacy of Bloom filters, addressing open problems across three prominent frameworks: the game-based model of Naor-Oved-Yogev (NOY), the simulator-based model of Filic et. al., and learning-augmented variants. We prove the first formal connection between the Filic and NOY models, showing that Filic correctness implies AB-test resilience. We resolve a longstanding open question by proving that PRF-backed Bloom filters fail the NOY model's stronger BP-test. Finally, we introduce the first private Bloom filters with differential privacy guarantees, including constructions applicable to learned Bloom filters. Our taxonomy organizes the space of robustness and privacy guarantees, clarifying relationships between models and constructions.",
+    "citationCount": 0,
+    "referenceCount": 32
+}
