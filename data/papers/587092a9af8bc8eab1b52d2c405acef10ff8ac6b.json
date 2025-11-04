@@ -1,0 +1,29 @@
+{
+    "paperId": "587092a9af8bc8eab1b52d2c405acef10ff8ac6b",
+    "title": "Is Binary Search Really All You Need? Supercharging Lightweight Database Indexing on GPUs",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Justus Henneberg",
+        "F. Schuhknecht"
+    ],
+    "doi": null,
+    "arxivId": "2506.01576",
+    "url": "https://www.semanticscholar.org/paper/587092a9af8bc8eab1b52d2c405acef10ff8ac6b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Performing binary search on a sorted dense array is a widely used baseline when benchmarking sophisticated index structures, as it is simple to implement and exhibits a low construction time. However, the popular opinion is that such a simple approach cannot compete with highly-optimized GPU index structures in terms of lookup performance, and hence, should not actually be considered in practice. Interestingly, in our recent works on GPU indexing, we observed a surprisingly good performance of binary search in a variety of situations. Since binary search requires nothing but a sorted array to operate on, which makes it very attractive in the presence of scarce GPU memory, the question arises whether binary search and related variants of it can be made truly competitive and actually replace state-of-the-art index structures, such as a GPU-resident B-Tree and two different hash tables, in read-only scenarios. To find out, as a starting point, we consider five variants of lightweight GPU indexing schemes that offer a minimal or close to minimal memory footprint and analyze how far they are still behind the sophisticated index structures. Step by step, we then\"supercharge\"them with a set of carefully designed low-level optimizations to incrementally reveal their true potential and the best overall scheme and configuration for answering point lookups and range lookups. Our experimental evaluation reveals that the best optimized lightweight indexes are not only competitive to the sophisticated baselines, but actually manage to outperform them partially while offering a significantly lower memory footprint.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

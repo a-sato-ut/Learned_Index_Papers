@@ -1,0 +1,40 @@
+{
+    "paperId": "87e60a549be68facfd9c1b34e54ae2021174d4b1",
+    "title": "RT-BarnesHut: Accelerating Barnes-Hut Using Ray-Tracing Hardware",
+    "year": 2025,
+    "venue": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+    "authors": [
+        "Vani Nagarajan",
+        "Rohan Gangaraju",
+        "Kirshanthan Sundararajah",
+        "Artem Pelenitsyn",
+        "Milind Kulkarni"
+    ],
+    "doi": "10.1145/3710848.3710885",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/87e60a549be68facfd9c1b34e54ae2021174d4b1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The n-body problem involves calculating the effect of bodies on each other. n-body simulations are ubiquitous in the fields of physics and astronomy and notoriously computationally expensive. The naïve algorithm for n-body simulations has the prohibiting O(n2) time complexity. Reducing the time complexity to O(n · lg(n)), the tree-based Barnes-Hut algorithm approximates the effect of bodies beyond a certain threshold distance. Other than algorithmic improvements, extensive research has gone into accelerating n-body simulations on GPUs and multi-core systems. However, Barnes-Hut is a tree-traversal algorithm, which makes it a poor target for acceleration using traditional GPU shader cores. In contrast, recent work shows that, for tree-based computations, GPU ray-tracing (RT) cores dominate shader cores. In this work, we reformulate the Barnes-Hut algorithm as a ray-tracing problem and implement it with NVIDIA OptiX. Our evaluation shows that the resulting system, RT-BarnesHut, outperforms current state-of-the-art GPU-based implementations.",
+    "citationCount": 0,
+    "referenceCount": 27
+}

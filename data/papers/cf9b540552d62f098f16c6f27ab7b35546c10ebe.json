@@ -1,0 +1,40 @@
+{
+    "paperId": "cf9b540552d62f098f16c6f27ab7b35546c10ebe",
+    "title": "Tree Coloring: Random Order and Predictions",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Fabian Frei",
+        "Matthias Gehnen",
+        "D. Komm",
+        "Rastislav Kralovic",
+        "Richard Královic",
+        "Peter Rossmanith",
+        "Moritz Stocker"
+    ],
+    "doi": "10.48550/arXiv.2405.18151",
+    "arxivId": "2405.18151",
+    "url": "https://www.semanticscholar.org/paper/cf9b540552d62f098f16c6f27ab7b35546c10ebe",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Coloring is a notoriously hard problem, and even more so in the online setting, where each arriving vertex has to be colored immediately and irrevocably. Already on trees, which are trivially two-colorable, it is impossible to achieve anything better than a logarithmic competitive ratio. We show how to undercut this bound by a double-logarithmic factor in the slightly relaxed online model where the vertices arrive in random order. We then also analyze algorithms with predictions, showing how well we can color trees with machine-learned advice of varying reliability. We further extend our analysis to all two-colorable graphs and provide matching lower bounds in both cases. Finally, we demonstrate how the two mentioned approaches, both of which diminish the often unjustified pessimism of the classical online model, can be combined to yield even better results.",
+    "citationCount": 1,
+    "referenceCount": 20
+}

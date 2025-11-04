@@ -1,0 +1,35 @@
+{
+    "paperId": "9c8dac114e4224cc978d306d6daebd1de42af9eb",
+    "title": "Mixing predictions for online metric algorithms",
+    "year": 2023,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "A. Antoniadis",
+        "Christian Coester",
+        "Marek Eliáš",
+        "Adam Polak",
+        "B. Simon"
+    ],
+    "doi": "10.48550/arXiv.2304.01781",
+    "arxivId": "2304.01781",
+    "url": "https://www.semanticscholar.org/paper/9c8dac114e4224cc978d306d6daebd1de42af9eb",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2304.01781",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A major technique in learning-augmented online algorithms is combining multiple algorithms or predictors. Since the performance of each predictor may vary over time, it is desirable to use not the single best predictor as a benchmark, but rather a dynamic combination which follows different predictors at different times. We design algorithms that combine predictions and are competitive against such dynamic combinations for a wide class of online problems, namely, metrical task systems. Against the best (in hindsight) unconstrained combination of $\\ell$ predictors, we obtain a competitive ratio of $O(\\ell^2)$, and show that this is best possible. However, for a benchmark with slightly constrained number of switches between different predictors, we can get a $(1+\\epsilon)$-competitive algorithm. Moreover, our algorithms can be adapted to access predictors in a bandit-like fashion, querying only one predictor at a time. An unexpected implication of one of our lower bounds is a new structural insight about covering formulations for the $k$-server problem.",
+    "citationCount": 15,
+    "referenceCount": 41
+}

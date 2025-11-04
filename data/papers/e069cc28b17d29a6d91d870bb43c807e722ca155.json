@@ -1,0 +1,23 @@
+{
+    "paperId": "e069cc28b17d29a6d91d870bb43c807e722ca155",
+    "title": "IMPLEMENTASI ARTIFICIAL INTELLIGENCE DALAM SISTEM PENCARIAN ORANG HILANG DENGAN FACE RECOGNITION STUDI KASUS POLRES KUDUS",
+    "year": 2025,
+    "venue": "SKANIKA",
+    "authors": [
+        "Ahmad Aufan Nur Hakim",
+        "A. Murti",
+        "R. Nindyasari"
+    ],
+    "doi": "10.36080/skanika.v8i1.3334",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e069cc28b17d29a6d91d870bb43c807e722ca155",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [],
+    "abstract": "Penelitian ini bertujuan untuk mengembangkan sistem pencarian orang hilang berbasis teknologi pengenalan wajah guna meningkatkan efektivitas dan efisiensi identifikasi. Sistem ini menggunakan FaceNet untuk mengekstraksi fitur unik dari wajah yang diunggah, didukung oleh OpenCV (haarcascade_frontalface_default.xml) untuk penyaringan awal, memastikan hanya gambar dengan wajah yang terdeteksi yang diteruskan ke basis data. Untuk pengelolaan data besar, algoritma HNSW (Hierarchical Navigable Small World) diterapkan untuk pengindeksan yang cepat, sementara FAISS (Facebook AI Similarity Search) mempercepat pencocokan fitur dalam dataset yang luas. Sistem dirancang dalam bentuk Progressive Web App (PWA) dengan antarmuka pengguna yang ramah dan dapat diakses di berbagai perangkat. Pengujian dilakukan di Polres Kudus, dengan hasil menunjukkan tingkat akurasi identifikasi yang tinggi dan waktu pencarian yang signifikan lebih cepat dibandingkan metode konvensional. Implementasi PWA memastikan fleksibilitas dan kemudahan akses pengguna. Penelitian ini menyimpulkan bahwa integrasi teknologi modern seperti FaceNet, HNSW, dan FAISS mampu mendukung pencarian orang hilang secara lebih efektif. Temuan ini memberikan kontribusi signifikan bagi pengembangan solusi berbasis teknologi dalam penanganan kasus orang hilang.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

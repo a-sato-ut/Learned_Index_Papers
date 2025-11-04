@@ -1,0 +1,41 @@
+{
+    "paperId": "a6dfa4135b6f46496f270881d6a7b8f07530892d",
+    "title": "Chasing Convex Functions with Long-term Constraints",
+    "year": 2024,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "Adam Lechowicz",
+        "Nicolas Christianson",
+        "Bo Sun",
+        "Noman Bashir",
+        "M. Hajiesmaili",
+        "Adam Wierman",
+        "Prashant Shenoy"
+    ],
+    "doi": "10.48550/arXiv.2402.14012",
+    "arxivId": "2402.14012",
+    "url": "https://www.semanticscholar.org/paper/a6dfa4135b6f46496f270881d6a7b8f07530892d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce and study a family of online metric problems with long-term constraints. In these problems, an online player makes decisions $\\mathbf{x}_t$ in a metric space $(X,d)$ to simultaneously minimize their hitting cost $f_t(\\mathbf{x}_t)$ and switching cost as determined by the metric. Over the time horizon $T$, the player must satisfy a long-term demand constraint $\\sum_{t} c(\\mathbf{x}_t) \\geq 1$, where $c(\\mathbf{x}_t)$ denotes the fraction of demand satisfied at time $t$. Such problems can find a wide array of applications to online resource allocation in sustainable energy/computing systems. We devise optimal competitive and learning-augmented algorithms for the case of bounded hitting cost gradients and weighted $\\ell_1$ metrics, and further show that our proposed algorithms perform well in numerical experiments.",
+    "citationCount": 4,
+    "referenceCount": 38
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "7f1f78f1d361943aa4b2fba8ef98f7e1ff72e1c2",
+    "title": "Esc: An Early-Stopping Checker for Budget-aware Index Tuning",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Xiaoying Wang",
+        "Wentao Wu",
+        "Vivek R. Narasayya",
+        "Surajit Chaudhuri"
+    ],
+    "doi": "10.48550/arXiv.2505.02876",
+    "arxivId": "2505.02876",
+    "url": "https://www.semanticscholar.org/paper/7f1f78f1d361943aa4b2fba8ef98f7e1ff72e1c2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Index tuning is a time-consuming process. One major performance bottleneck in existing index tuning systems is the large amount of \"what-if\" query optimizer calls that estimate the cost of a given pair of query and index configuration without materializing the indexes. There has been recent work on\n budget-aware\n index tuning that limits the amount of what-if calls allowed in index tuning. Existing budget-aware index tuning algorithms, however, typically make fast progress early on in terms of the best configuration found but slow down when more and more what-if calls are allocated. This observation of \"diminishing return\" on index quality leads us to introduce\n early stopping\n for budget-aware index tuning, where user specifies a threshold on the tolerable loss of index quality and we stop index tuning if the projected loss with the remaining budget is below the threshold. We further propose Esc, a low-overhead early-stopping checker that realizes this new functionality. Experimental evaluation on top of both industrial benchmarks and real customer workloads demonstrates that\n Esc\n can significantly reduce the number of what-if calls made during budget-aware index tuning while incurring little or zero improvement loss and little extra computational overhead compared to the overall index tuning time.\n",
+    "citationCount": 1,
+    "referenceCount": 56
+}

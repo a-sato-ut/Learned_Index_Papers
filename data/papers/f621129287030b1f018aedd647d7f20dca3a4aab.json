@@ -1,0 +1,37 @@
+{
+    "paperId": "f621129287030b1f018aedd647d7f20dca3a4aab",
+    "title": "Rethinking LSM-tree based Key-Value Stores: A Survey",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yina Lv",
+        "Qiao Li",
+        "Quanqing Xu",
+        "Congming Gao",
+        "Chuanhui Yang",
+        "Xiaoli Wang",
+        "Chun Jason Xue"
+    ],
+    "doi": "10.48550/arXiv.2507.09642",
+    "arxivId": "2507.09642",
+    "url": "https://www.semanticscholar.org/paper/f621129287030b1f018aedd647d7f20dca3a4aab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LSM-tree is a widely adopted data structure in modern key-value store systems that optimizes write performance in write-heavy applications by using append writes to achieve sequential writes. However, the unpredictability of LSM-tree compaction introduces significant challenges, including performance variability during peak workloads and in resource-constrained environments, write amplification caused by data rewriting during compactions, read amplification from multi-level queries, trade-off between read and write performance, as well as efficient space utilization to mitigate space amplification. Prior studies on LSM-tree optimizations have addressed the above challenges; however, in recent years, research on LSM-tree optimization has continued to propose. The goal of this survey is to review LSM-tree optimization, focusing on representative works in the past five years. This survey first studies existing solutions on how to mitigate the performance impact of LSM-tree flush and compaction and how to improve basic key-value operations. In addition, distributed key-value stores serve multi-tenants, ranging from tens of thousands to millions of users with diverse requirements. We then analyze the new challenges and opportunities in these modern architectures and across various application scenarios. Unlike the existing survey papers, this survey provides a detailed discussion of the state-of-the-art work on LSM-tree optimizations and gives future research directions.",
+    "citationCount": 0,
+    "referenceCount": 134
+}

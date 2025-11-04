@@ -1,0 +1,40 @@
+{
+    "paperId": "227c72af9001baf19509ff44d4d96408cb275520",
+    "title": "Learning-Augmented Competitive Algorithms for Spatiotemporal Online Allocation with Deadline Constraints",
+    "year": 2024,
+    "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+    "authors": [
+        "Adam Lechowicz",
+        "Nicolas Christianson",
+        "Bo Sun",
+        "Noman Bashir",
+        "M. Hajiesmaili",
+        "Adam Wierman",
+        "Prashant Shenoy"
+    ],
+    "doi": "10.1145/3711701",
+    "arxivId": "2408.07831",
+    "url": "https://www.semanticscholar.org/paper/227c72af9001baf19509ff44d4d96408cb275520",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce and study spatiotemporal online allocation with deadline constraints (SOAD), a new online problem motivated by emerging challenges in sustainability and energy. In SOAD, an online player completes a workload by allocating and scheduling it on the points of a metric space (X, d) while subject to a deadline T. At each time step, a service cost function is revealed that represents the cost of servicing the workload at each point, and the player must irrevocably decide the current allocation of work to points. Whenever the player moves this allocation, they incur a movement cost defined by the distance metric d(⋅, ⋅) that captures, e.g., an overhead cost. SOAD formalizes the open problem of combining general metrics and deadline constraints in the online algorithms literature, unifying problems such as metrical task systems and online search. We propose a competitive algorithm for SOAD along with a matching lower bound establishing its optimality. Our main algorithm, ST-CLIP, is a learning-augmented algorithm that takes advantage of predictions (e.g., forecasts of relevant costs) and achieves an optimal consistency-robustness trade-off. We evaluate our proposed algorithms in a simulated case study of carbon-aware spatiotemporal workload management, an application in sustainable computing that schedules a delay-tolerant batch compute job on a distributed network of data centers. In these experiments, we show that ST-CLIP substantially improves on heuristic baseline methods.",
+    "citationCount": 0,
+    "referenceCount": 83
+}

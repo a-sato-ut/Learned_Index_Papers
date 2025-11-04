@@ -1,0 +1,31 @@
+{
+    "paperId": "02d148c52e49ca75c16701729650b74914a04afb",
+    "title": "Self-Balancing, Memory Efficient, Dynamic Metric Space Data Maintenance, for Rapid Multi-Kernel Estimation",
+    "year": 2025,
+    "venue": "ECML/PKDD",
+    "authors": [
+        "A. S. Ellendula",
+        "Chandrajit Bajaj"
+    ],
+    "doi": "10.48550/arXiv.2504.18003",
+    "arxivId": "2504.18003",
+    "url": "https://www.semanticscholar.org/paper/02d148c52e49ca75c16701729650b74914a04afb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present a dynamic self-balancing octree data structure that enables efficient neighborhood maintenance in evolving metric spaces, a key challenge in modern machine learning systems. Many learning and generative models operate as dynamical systems whose representations evolve during training, requiring fast, adaptive spatial organization. Our two-parameter octree supports logarithmic-time updates and queries, eliminating the need for costly full rebuilds as data distributions shift. We demonstrate its effectiveness in four areas: (1) accelerating Stein variational gradient descent by supporting more particles with lower overhead; (2) enabling real-time, incremental KNN classification with logarithmic complexity; (3) facilitating efficient, dynamic indexing and retrieval for retrieval-augmented generation; and (4) improving sample efficiency by jointly optimizing input and latent spaces. Across all applications, our approach yields exponential speedups while preserving accuracy, particularly in high-dimensional spaces where maintaining adaptive spatial structure is critical.",
+    "citationCount": 0,
+    "referenceCount": 29
+}

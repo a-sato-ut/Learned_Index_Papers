@@ -1,0 +1,38 @@
+{
+    "paperId": "1f9cdf443b96c9c9035484142c79d304090e764c",
+    "title": "Scheduling Firm Real-time Applications on the Edge with Single-bit Execution Time Prediction",
+    "year": 2023,
+    "venue": "IEEE International Symposium on Real-Time Distributed Computing",
+    "authors": [
+        "S. Salman",
+        "Van-Lan Dao",
+        "A. Papadopoulos",
+        "S. Mubeen",
+        "T. Nolte"
+    ],
+    "doi": "10.1109/ISORC58943.2023.00037",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1f9cdf443b96c9c9035484142c79d304090e764c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The edge computing paradigm brings the capabilities of the cloud such as on-demand resource availability to the edge for applications with low-latency and real-time requirements. While cloud-native load balancing and scheduling algorithms strive to improve performance metrics like mean response times, real-time systems, that govern physical systems, must satisfy deadline requirements. This paper explores the potential of an edge computing architecture that utilizes the on-demand availability of computational resources to satisfy firm real-time requirements for applications with stochastic execution and inter-arrival times. As it might be difficult to know precise execution times of individual jobs prior to completion, we consider an admission policy that relies on single-bit execution time predictions for dispatching. We evaluate its performance in terms of the number of jobs that complete by their deadlines via simulations. The results indicate that the prediction-based admission policy can achieve reasonable performance for the considered settings.",
+    "citationCount": 4,
+    "referenceCount": 25
+}

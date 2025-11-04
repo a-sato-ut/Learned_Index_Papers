@@ -1,0 +1,30 @@
+{
+    "paperId": "c14f52b12262e0d01c2a4a6fa0732bffd2938377",
+    "title": "SIR SQL for Logical Navigation and Calculated Attribute Free Queries to Base Tables",
+    "year": 2025,
+    "venue": "International Conference on Enterprise Information Systems",
+    "authors": [
+        "Witold Litwin"
+    ],
+    "doi": "10.5220/0013199900003929",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c14f52b12262e0d01c2a4a6fa0732bffd2938377",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "SIR SQL stands for SQL with Stored and Inherited Relations (SIRs). Every SIR SQL Create Table makes definable any base attributes one could have in an SQL Create Table at present. In addition, one can define inherited attributes (IAs), definable in SQL queries or views only up to now. One may also define foreign keys (FKs) that are SQL ones or logical pointers in Codd’s original sense. IAs in SIRs with Codd’s FKs usually provide for logical navigation free (LNF) queries, i.e., without equijoins on FKs and referenced keys. The same outcome SQL queries to the same base tables without IAs, must include LN avoided. SIR SQL Create Table may in particular include IAs definable through value expressions also possible in SQL queries or views only up to now, usually referred to as calculated attributes (CAs). CAs may involve, e.g., attributes from different tables or aggregate functions, or sub-queries. CAs in SIRs provide for CAF queries, addressing any CAs in SIRs by name only. In contrast, every SQL query to base tables needing CAs has to fully define each of these. The end result is that most of SQL base table queries, requiring LN or CAs schemes at present, become LNF or CAF queries in SIR SQL. The latter are usually substantially less procedural, i.e., by dozens of characters. They become also quasi-natural, i.e., with Select clause only naming the selected attributes, From clause naming a single base table and Where clause, if any, with short Boolean formulae over usual constraints on some attribute values, at worst. SIR SQL should accordingly significantly boost SQL clients’ productivity. Especially, since most clients are data analysts or application developers, not SQL geeks. While the problematic of LNF and CAF queries is four decades old, our solution is the first practical one, to our best knowledge. Below, we",
+    "citationCount": 0,
+    "referenceCount": 8
+}

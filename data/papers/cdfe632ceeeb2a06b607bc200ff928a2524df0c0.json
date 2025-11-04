@@ -1,0 +1,34 @@
+{
+    "paperId": "cdfe632ceeeb2a06b607bc200ff928a2524df0c0",
+    "title": "Online Algorithms with Multiple Predictions",
+    "year": 2022,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "Keerti Anand",
+        "Rong Ge",
+        "Ajay Kumar",
+        "Debmalya Panigrahi"
+    ],
+    "doi": "10.48550/arXiv.2205.03921",
+    "arxivId": "2205.03921",
+    "url": "https://www.semanticscholar.org/paper/cdfe632ceeeb2a06b607bc200ff928a2524df0c0",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2205.03921",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper studies online algorithms augmented with multiple machine-learned predictions. While online algorithms augmented with a single prediction have been extensively studied in recent years, the literature for the multiple predictions setting is sparse. In this paper, we give a generic algorithmic framework for online covering problems with multiple predictions that obtains an online solution that is competitive against the performance of the best predictor. Our algorithm incorporates the use of predictions in the classic potential-based analysis of online algorithms. We apply our algorithmic framework to solve classical problems such as online set cover, (weighted) caching, and online facility location in the multiple predictions setting. Our algorithm can also be robustified, i.e., the algorithm can be simultaneously made competitive against the best prediction and the performance of the best online algorithm (without prediction).",
+    "citationCount": 38,
+    "referenceCount": 60
+}

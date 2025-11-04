@@ -1,0 +1,38 @@
+{
+    "paperId": "99f8e4012a48ebf6827fcef60f9940e48be0ff97",
+    "title": "Distinctiveness Maximization in Datasets Assemblage",
+    "year": 2024,
+    "venue": "The Web Conference",
+    "authors": [
+        "Tingting Wang",
+        "Shixun Huang",
+        "Zhifeng Bao",
+        "J. Culpepper",
+        "Volkan Dedeoglu",
+        "Reza Arablouei",
+        "Volkan Shane Culpepper"
+    ],
+    "doi": "10.1145/3696410.3714830",
+    "arxivId": "2401.00659",
+    "url": "https://www.semanticscholar.org/paper/99f8e4012a48ebf6827fcef60f9940e48be0ff97",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, given a user's query set and budget, we aim to use the limited budget to help users assemble a set of datasets that can enrich a base dataset by introducing the maximum number of distinct tuples (i.e., maximizing distinctiveness). We prove this problem to be NP-hard. A greedy algorithm using exact distinctiveness computation attains an approximation ratio of (1-e-1 )/2, but it lacks efficiency and scalability due to its frequent computation of the exact distinctiveness marginal gain of any candidate dataset for selection. This requires scanning through every tuple in candidate datasets and thus is unaffordable in practice. To overcome this limitation, we propose an efficient machine learning (ML)-based method for estimating the distinctiveness marginal gain of any candidate dataset. This effectively eliminates the need to test each tuple individually. Estimating the distinctiveness marginal gain of a dataset involves estimating the number of distinct tuples in the tuple sets returned by each query in a query set across multiple datasets. This can be viewed as the cardinality estimation for a query set on a set of datasets, and the proposed method is the first to tackle this cardinality estimation problem. This is a significant advancement over prior methods that were limited to single-query cardinality estimation on a single dataset and struggled with identifying overlaps among tuple sets returned by each query in a query set across multiple datasets. Extensive experiments using five real-world data pools demonstrate that our algorithm, which utilizes ML-based distinctiveness estimation, outperforms all relevant baselines in effectiveness, efficiency, and scalability. A case study on two downstream ML tasks also highlights its potential to find datasets with more useful tuples to enhance the performance of ML tasks.",
+    "citationCount": 1,
+    "referenceCount": 77
+}

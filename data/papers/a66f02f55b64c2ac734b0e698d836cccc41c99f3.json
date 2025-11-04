@@ -1,0 +1,34 @@
+{
+    "paperId": "a66f02f55b64c2ac734b0e698d836cccc41c99f3",
+    "title": "Detection of NFT Duplications with Image Hash Functions",
+    "year": 2024,
+    "venue": "International Conference on Blockchain",
+    "authors": [
+        "Arad Kotzer",
+        "Mostafa Naamneh",
+        "Ori Rottenstreich",
+        "Pedro Reviriego"
+    ],
+    "doi": "10.1109/ICBC59979.2024.10634437",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a66f02f55b64c2ac734b0e698d836cccc41c99f3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Non-fungible tokens (NFTs) are digital assets representing ownership or proof of authenticity of a unique item. NFTs are blockchain-based and rely on smart contracts. The increase in duplicate NFTs in recent years brings the need for discovery tools for forged NFTs, some of which include using image hash functions. Though the problem of image duplication is widely discussed, detecting NFT duplications requires using fast detection methods as a new NFT image needs to be compared with the entire NFT history on the blockchain. In this paper, we analyze the performance of several image-hash functions, examine the cases where each function performs well, and evaluate multiple image-hash-functions-based NFT duplication detectors. Our approach achieves high accuracy in detecting NFT duplications and demonstrates that using several hash functions rather than one increases the ability to detect duplications.",
+    "citationCount": 2,
+    "referenceCount": 39
+}

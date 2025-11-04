@@ -1,0 +1,37 @@
+{
+    "paperId": "d81d8e9f97cac1d765219151f70aeba85fba8bac",
+    "title": "SoK: Bitcoin Layer Two (L2)",
+    "year": 2024,
+    "venue": "ACM Computing Surveys",
+    "authors": [
+        "Minfeng Qi",
+        "Qin Wang",
+        "Zhipeng Wang",
+        "Manvir Schneider",
+        "Tianqing Zhu",
+        "Shiping Chen",
+        "William J. Knottenbelt",
+        "Thomas Hardjono"
+    ],
+    "doi": "10.1145/3763232",
+    "arxivId": "2409.02650",
+    "url": "https://www.semanticscholar.org/paper/d81d8e9f97cac1d765219151f70aeba85fba8bac",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we present the first Systematization of Knowledge (SoK) on constructing Layer Two (L2) solutions for Bitcoin. We carefully examine a representative subset of ongoing Bitcoin L2 solutions (40 out of 335 extensively investigated cases) and provide a concise yet impactful identification of six classic design patterns through two approaches (i.e., modifying transactions & creating proofs). Notably, we are the first to incorporate the inscription technology (emerged in mid-2023), along with a series of related innovations. We further establish a reference framework that serves as a baseline criterion ideally suited for evaluating the security aspects of Bitcoin L2 solutions, and which can also be extended to broader L2 applications. We apply this framework to evaluate each of the projects we investigated. We find that the inscription-based approaches introduce new functionality (i.e., programability) to Bitcoin systems, whereas existing proof-based solutions primarily address scalability challenges. Our security analysis reveals new attack vectors targeting data/state (availability, verification), assets (withdrawal, recovery), and users (disputes, censorship).",
+    "citationCount": 4,
+    "referenceCount": 139
+}

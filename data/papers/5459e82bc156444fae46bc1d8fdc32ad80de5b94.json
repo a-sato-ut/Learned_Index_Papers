@@ -1,0 +1,40 @@
+{
+    "paperId": "5459e82bc156444fae46bc1d8fdc32ad80de5b94",
+    "title": "Learning-Assisted Competitive Algorithms for Peak-Aware Energy Scheduling",
+    "year": 2019,
+    "venue": "arXiv.org",
+    "authors": [
+        "Russell Lee",
+        "M. Hajiesmaili",
+        "Jian Li"
+    ],
+    "doi": null,
+    "arxivId": "1911.07972",
+    "url": "https://www.semanticscholar.org/paper/5459e82bc156444fae46bc1d8fdc32ad80de5b94",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we study the peak-aware energy scheduling problem using the competitive framework with machine learning prediction. With the uncertainty of energy demand as the fundamental challenge, the goal is to schedule the energy output of local generation units such that the electricity bill is minimized. While this problem has been tackled using classic competitive design with worst-case guarantee, the goal of this paper is to develop learning-assisted competitive algorithms to improve the performance in a provable manner. We develop two deterministic and randomized algorithms that are provably robust against the poor performance of learning prediction, however, achieve the optimal performance as the error of prediction goes to zero. Extensive experiments using real data traces verify our theoretical observations and show 15.13% improved performance against pure online algorithms.",
+    "citationCount": 11,
+    "referenceCount": 24
+}

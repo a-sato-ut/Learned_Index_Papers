@@ -1,0 +1,33 @@
+{
+    "paperId": "351f775dd8adec09f61551fba8d186812e50a7c6",
+    "title": "Certifying Black-Box Policies With Stability for Nonlinear Control",
+    "year": 2023,
+    "venue": "IEEE Open Journal of Control Systems",
+    "authors": [
+        "Tongxin Li",
+        "Ruixiao Yang",
+        "Guannan Qu",
+        "Yiheng Lin",
+        "A. Wierman",
+        "S. Low"
+    ],
+    "doi": "10.1109/OJCSYS.2023.3241486",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/351f775dd8adec09f61551fba8d186812e50a7c6",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/9552933/9712344/10034859.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine-learned black-box policies are ubiquitous for nonlinear control problems. Meanwhile, crude model information is often available for these problems from, e.g., linear approximations of nonlinear dynamics. We study the problem of certifying a black-box control policy with stability using model-based advice for nonlinear control on a single trajectory. We first show a general negative result that a naive convex combination of a black-box policy and a linear model-based policy can lead to instability, even if the two policies are both stabilizing. We then propose an <italic>adaptive <inline-formula><tex-math notation=\"LaTeX\">$\\lambda$</tex-math></inline-formula>-confident policy</italic>, with a coefficient <inline-formula><tex-math notation=\"LaTeX\">$\\lambda$</tex-math></inline-formula> indicating the confidence in a black-box policy, and prove its stability. With bounded nonlinearity, in addition, we show that the adaptive <inline-formula><tex-math notation=\"LaTeX\">$\\lambda$</tex-math></inline-formula>-confident policy achieves a bounded competitive ratio when a black-box policy is near-optimal. Finally, we propose an online learning approach to implement the adaptive <inline-formula><tex-math notation=\"LaTeX\">$\\lambda$</tex-math></inline-formula>-confident policy and verify its efficacy in case studies about the Cart-Pole problem and a real-world electric vehicle (EV) charging problem with covariate shift due to COVID-19.",
+    "citationCount": 9,
+    "referenceCount": 44
+}

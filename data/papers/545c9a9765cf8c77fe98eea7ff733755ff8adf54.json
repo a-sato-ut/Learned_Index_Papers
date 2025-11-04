@@ -1,0 +1,39 @@
+{
+    "paperId": "545c9a9765cf8c77fe98eea7ff733755ff8adf54",
+    "title": "Round and Bipartize for Vertex Cover Approximation",
+    "year": 2022,
+    "venue": "International Workshop and International Workshop on Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques",
+    "authors": [
+        "Danish Kashaev",
+        "Guido Schäfer"
+    ],
+    "doi": "10.4230/LIPIcs.APPROX/RANDOM.2023.20",
+    "arxivId": "2211.01699",
+    "url": "https://www.semanticscholar.org/paper/545c9a9765cf8c77fe98eea7ff733755ff8adf54",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The vertex cover problem is a fundamental and widely studied combinatorial optimization problem. It is known that its standard linear programming relaxation is integral for bipartite graphs and half-integral for general graphs. As a consequence, the natural rounding algorithm based on this relaxation computes an optimal solution for bipartite graphs and a $2$-approximation for general graphs. This raises the question of whether one can interpolate the rounding curve of the standard linear programming relaxation in a beyond the worst-case manner, depending on how close the graph is to being bipartite. In this paper, we consider a simple rounding algorithm that exploits the knowledge of an induced bipartite subgraph to attain improved approximation ratios. Equivalently, we suppose that we work with a pair $(G, S)$, consisting of a graph with an odd cycle transversal. If $S$ is a stable set, we prove a tight approximation ratio of $1 + 1/\\rho$, where $2\\rho -1$ denotes the odd girth (i.e., length of the shortest odd cycle) of the contracted graph $\\tilde{G} := G /S$ and satisfies $\\rho \\in [2,\\infty]$. If $S$ is an arbitrary set, we prove a tight approximation ratio of $\\left(1+1/\\rho \\right) (1 - \\alpha) + 2 \\alpha$, where $\\alpha \\in [0,1]$ is a natural parameter measuring the quality of the set $S$. The technique used to prove tight improved approximation ratios relies on a structural analysis of the contracted graph $\\tilde{G}$. Tightness is shown by constructing classes of weight functions matching the obtained upper bounds. As a byproduct of the structural analysis, we obtain improved tight bounds on the integrality gap and the fractional chromatic number of 3-colorable graphs. We also discuss algorithmic applications in order to find good odd cycle transversals and show optimality of the analysis.",
+    "citationCount": 1,
+    "referenceCount": 47
+}

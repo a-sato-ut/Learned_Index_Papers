@@ -1,0 +1,41 @@
+{
+    "paperId": "4dd4e25fdd092f984035dda3b13dda285a5816e3",
+    "title": "Utilitarian Distortion with Predictions",
+    "year": 2025,
+    "venue": "ACM Conference on Economics and Computation",
+    "authors": [
+        "Aris Filos-Ratsikas",
+        "G. Kalantzis",
+        "Alexandros A. Voudouris"
+    ],
+    "doi": "10.1145/3736252.3742526",
+    "arxivId": "2502.06489",
+    "url": "https://www.semanticscholar.org/paper/4dd4e25fdd092f984035dda3b13dda285a5816e3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Economics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study the utilitarian distortion of social choice mechanisms under the recently proposed learning-augmented framework where some (possibly unreliable) predicted information about the preferences of the agents is given as input. In particular, we consider two fundamental social choice problems: single-winner voting and one-sided matching. In these settings, the ordinal preferences of the agents over the alternatives (either candidates or items) is known, and some prediction about their underlying cardinal values is also provided. The goal is to leverage the prediction to achieve improved distortion guarantees when it is accurate, while simultaneously still achieving reasonable worst-case bounds when it is not. This leads to the notions of consistency and robustness, and the quest to achieve the best possible tradeoffs between the two. We show tight tradeoffs between the consistency and robustness of ordinal mechanisms for single-winner voting and one-sided matching, for different levels of information provided as prediction.",
+    "citationCount": 3,
+    "referenceCount": 49
+}

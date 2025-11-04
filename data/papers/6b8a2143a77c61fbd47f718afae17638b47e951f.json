@@ -1,0 +1,37 @@
+{
+    "paperId": "6b8a2143a77c61fbd47f718afae17638b47e951f",
+    "title": "Scaling Embedding Layers in Language Models",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Da Yu",
+        "Edith Cohen",
+        "Badih Ghazi",
+        "Yangsibo Huang",
+        "Pritish Kamath",
+        "Ravi Kumar",
+        "Daogao Liu",
+        "Chiyuan Zhang"
+    ],
+    "doi": "10.48550/arXiv.2502.01637",
+    "arxivId": "2502.01637",
+    "url": "https://www.semanticscholar.org/paper/6b8a2143a77c61fbd47f718afae17638b47e951f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose $SCONE$ ($S$calable, $C$ontextualized, $O$ffloaded, $N$-gram $E$mbedding), a new method for extending input embedding layers to enhance language model performance. To avoid increased decoding costs, $SCONE$ retains the original vocabulary while introducing embeddings for a set of frequent n-grams. These embeddings provide contextualized representation for each input token and are learned with a separate model during training. After training, embeddings are precomputed and stored in off-accelerator memory; during inference, querying them has minimal impact on latency due to the low complexity of embedding lookups. $SCONE$ enables two new scaling strategies: increasing the number of n-gram embeddings and scaling the model used to learn them, both while maintaining fixed accelerator usage during inference (in terms of FLOPS and memory). We show that scaling both aspects enables a model with 1B accelerator-resident parameters to outperform a 1.9B-parameter baseline across diverse corpora, while using only about half the FLOPS and accelerator memory during inference.",
+    "citationCount": 4,
+    "referenceCount": 73
+}

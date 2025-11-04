@@ -1,0 +1,37 @@
+{
+    "paperId": "ec8bf1e00d5f91e832f85fc396652e878cc1e72a",
+    "title": "Online Node- and Edge-Deletion Problems with Advice",
+    "year": 2021,
+    "venue": "Algorithmica",
+    "authors": [
+        "Li-Hsuan Chen",
+        "Ling-Ju Hung",
+        "Henri Lotze",
+        "P. Rossmanith"
+    ],
+    "doi": "10.1007/s00453-021-00840-9",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ec8bf1e00d5f91e832f85fc396652e878cc1e72a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s00453-021-00840-9.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In online edge- and node-deletion problems the input arrives node by node and an algorithm has to delete nodes or edges in order to keep the input graph in a given graph class Π\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\Pi $$\\end{document} at all times. We consider only hereditary properties Π\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\Pi $$\\end{document}, for which optimal online algorithms exist and which can be characterized by a set of forbidden subgraphs F\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${{\\mathcal{F}}}$$\\end{document} and analyze the advice complexity of getting an optimal solution. We give almost tight bounds on the Delayed ConnectedF\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${{\\mathcal{F}}}$$\\end{document}-Node-Deletion Problem, where all graphs of the family F\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${\\mathcal{F}}$$\\end{document} have to be connected and almost tight lower and upper bounds for the DelayedH\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$H$$\\end{document}-Node-Deletion Problem, where there is one forbidden induced subgraph H that may be connected or not. For the DelayedH\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$H$$\\end{document}-Node-Deletion Problem the advice complexity is basically an easy function of the size of the biggest component in H. Additionally, we give tight bounds on the Delayed ConnectedF\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${\\mathcal{F}}$$\\end{document}-Edge-Deletion Problem, where we have an arbitrary number of forbidden connected graphs. For the latter result we present an algorithm that computes the advice complexity directly from F\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${\\mathcal{F}}$$\\end{document}. We give a separate analysis for the Delayed ConnectedH\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$H$$\\end{document}-Edge-Deletion Problem, which is less general but admits a bound that is easier to compute.",
+    "citationCount": 6,
+    "referenceCount": 38
+}

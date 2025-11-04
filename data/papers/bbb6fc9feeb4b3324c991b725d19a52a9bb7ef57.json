@@ -1,0 +1,37 @@
+{
+    "paperId": "bbb6fc9feeb4b3324c991b725d19a52a9bb7ef57",
+    "title": "HLN-Tree: A memory-efficient B+-Tree with huge leaf nodes and locality predictors",
+    "year": 2025,
+    "venue": "ACM Transactions on Storage",
+    "authors": [
+        "André Brinkmann",
+        "Reza Salkhordeh",
+        "Florian Wiegert",
+        "Peng Wang",
+        "Yao Xin",
+        "Renhai Chen",
+        "Huang Keji",
+        "Gong Zhang"
+    ],
+    "doi": "10.1145/3707641",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bbb6fc9feeb4b3324c991b725d19a52a9bb7ef57",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Key-value stores in Cloud environments can contain more than 245 unique elements and be larger than 100 PByte. B+-Trees are well suited for these larger-than-memory datasets and seamlessly index data stored on thousands of secondary storage devices. Unfortunately, it is often uneconomical to even store all inner tree nodes in memory for these dataset sizes. Therefore, lookup performance is affected by the additional IOs for reading inner nodes. This number of inner nodes can be reduced by increasing the size of leaf nodes. We propose HLN-Trees, which support huge leaf nodes without increasing the IO sizes for individual index operations. They partition leaf nodes in arrays of independent subnodes and combine ideas from BD-trees with rebalancing, learning key deviations, and storing locality predictors. HLN-Trees have been initially designed for uniform random key distributions and support arbitrary key distributions through an additional layer of hashing in leaf nodes. HLN-Trees decrease the number of inner nodes by up to 256× for uniform random key distributions and by 16× to 64× for arbitrary ones compared to B+-Trees, while keeping their performance at the same level even at high concurrency levels. We show analytically and through real-world and synthetic benchmarks that HLN-Trees also outperform state-of-the-art learned indexes for secondary storage.",
+    "citationCount": 0,
+    "referenceCount": 53
+}

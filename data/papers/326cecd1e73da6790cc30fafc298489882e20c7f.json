@@ -1,0 +1,48 @@
+{
+    "paperId": "326cecd1e73da6790cc30fafc298489882e20c7f",
+    "title": "Top Ten Challenges Towards Agentic Neural Graph Databases",
+    "year": 2025,
+    "venue": "IEEE Data Engineering Bulletin",
+    "authors": [
+        "Jiaxin Bai",
+        "Zihao Wang",
+        "Yukun Zhou",
+        "Hang Yin",
+        "WeiZhi Fei",
+        "Qi Hu",
+        "Zheye Deng",
+        "Cheng Jiayang",
+        "Tianshi ZHENG",
+        "Hong Ting Tsang",
+        "Yisen Gao",
+        "Zhongwei Xie",
+        "Yufei Li",
+        "Lixin Fan",
+        "Binhang Yuan",
+        "Wei Wang",
+        "Lei Chen",
+        "Xiaofang Zhou",
+        "Yangqiu Song"
+    ],
+    "doi": "10.48550/arXiv.2501.14224",
+    "arxivId": "2501.14224",
+    "url": "https://www.semanticscholar.org/paper/326cecd1e73da6790cc30fafc298489882e20c7f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph databases (GDBs) like Neo4j and TigerGraph excel at handling interconnected data but lack advanced inference capabilities. Neural Graph Databases (NGDBs) address this by integrating Graph Neural Networks (GNNs) for predictive analysis and reasoning over incomplete or noisy data. However, NGDBs rely on predefined queries and lack autonomy and adaptability. This paper introduces Agentic Neural Graph Databases (Agentic NGDBs), which extend NGDBs with three core functionalities: autonomous query construction, neural query execution, and continuous learning. We identify ten key challenges in realizing Agentic NGDBs: semantic unit representation, abductive reasoning, scalable query execution, and integration with foundation models like large language models (LLMs). By addressing these challenges, Agentic NGDBs can enable intelligent, self-improving systems for modern data-driven applications, paving the way for adaptable and autonomous data management solutions.",
+    "citationCount": 7,
+    "referenceCount": 87
+}

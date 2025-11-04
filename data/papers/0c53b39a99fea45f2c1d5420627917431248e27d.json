@@ -1,0 +1,34 @@
+{
+    "paperId": "0c53b39a99fea45f2c1d5420627917431248e27d",
+    "title": "Metrical Task Systems with Online Machine Learned Advice",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "K. Rao"
+    ],
+    "doi": null,
+    "arxivId": "2012.09394",
+    "url": "https://www.semanticscholar.org/paper/0c53b39a99fea45f2c1d5420627917431248e27d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning algorithms are designed to make accurate predictions of the future based on existing data, while online algorithms seek to bound some performance measure (typically the competitive ratio) without knowledge of the future. Lykouris and Vassilvitskii demonstrated that augmenting online algorithms with a machine learned predictor can provably decrease the competitive ratio under as long as the predictor is suitably accurate. \nIn this work we apply this idea to the Online Metrical Task System problem, which was put forth by Borodin, Linial, and Saks as a general model for dynamic systems processing tasks in an online fashion. We focus on the specific class of uniform task systems on $n$ tasks, for which the best deterministic algorithm is $O(n)$ competitive and the best randomized algorithm is $O(\\log n)$ competitive. \nBy giving an online algorithms access to a machine learned oracle with absolute predictive error bounded above by $\\eta_0$, we construct a $\\Theta(\\min(\\sqrt{\\eta_0}, \\log n))$ competitive algorithm for the uniform case of the metrical task systems problem. We also give a $\\Theta(\\log \\sqrt{\\eta_0})$ lower bound on the competitive ratio of any randomized algorithm.",
+    "citationCount": 0,
+    "referenceCount": 7
+}

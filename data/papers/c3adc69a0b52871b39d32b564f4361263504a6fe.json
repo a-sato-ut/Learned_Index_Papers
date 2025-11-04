@@ -1,0 +1,33 @@
+{
+    "paperId": "c3adc69a0b52871b39d32b564f4361263504a6fe",
+    "title": "Adaptive Multi-Factor Scoring in Shared Blob for Improving Data Availability in Layer 2 Blockchains",
+    "year": 2025,
+    "venue": "International Conference on Blockchain",
+    "authors": [
+        "Muhammad Bin Saif",
+        "Sara Migliorini",
+        "Fausto Spoto"
+    ],
+    "doi": "10.1109/ICBC64466.2025.11114451",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c3adc69a0b52871b39d32b564f4361263504a6fe",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Layer 2 (L2) solutions have recently been developed with the aim of increasing scalability and throughput of traditional blockchain networks such as Bitcoin and Ethereum. The main idea of L2 is to move expensive computations out of the main (L1) network and post back only a summary of the performed transactions. This allows L2 solutions to inherit the security and trustworthiness of L1 while reducing computation and transaction costs. However, data availability, namely the possibility for all blockchain participants to access the data processed outside L1 to verify state transitions independently, is a challenge in L2 solutions. Namely, while on-chain data availability approaches suffer from high costs and long waiting times, off-chain approaches can pose data security risks. This paper takes into consideration the recent introduction of the blob data structure and proposes an Adaptive Multi-Factor Scoring (AMFS) to efficiently manage blobs while dynamically optimizing cost and waiting time. The proposed solution ensures low waiting times and blob posting costs, particularly for small rollups, by implementing the concept of shared blob, maintaining security without compromising performance.",
+    "citationCount": 0,
+    "referenceCount": 27
+}

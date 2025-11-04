@@ -1,0 +1,39 @@
+{
+    "paperId": "cec1e5111f2238b22e1b46b5a79761a03ce3468e",
+    "title": "A Spatial Algorithm for Dataset Integration Applied to Cycling Data",
+    "year": 2025,
+    "venue": "2025 Smart City Symposium Prague (SCSP)",
+    "authors": [
+        "Radoslav Eliáš",
+        "Juraj Lazúr",
+        "Jiří Hynek",
+        "Tomás Hruska"
+    ],
+    "doi": "10.1109/SCSP65598.2025.11037701",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cec1e5111f2238b22e1b46b5a79761a03ce3468e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "One of the main problems of modern Smart Cities is the constant increase in traffic volume and travel times. City governments are trying to address these problems by promoting alternative modes of transport, including cycling. The infrastructure of modern Smart Cities is planned on the basis of analyses obtained from various data sources. In the case of cycling, suitable data comes from e.g. automated counters, manual counts or training applications. The first step in the effective use of data is typically to assign the data to the corresponding physical infrastructure elements in real space. Thus, the geographic component of datasets plays an important role in linking them. However, different data sources describe the same infrastructure elements differently, which makes it impossible to link the datasets in a straightforward way. The city of Brno had to deal with such a problem when trying to use the available data sources to improve the quality of cycling infrastructure. The purpose of this paper was to propose a method for transforming the different input datasets describing cycling transport into a common dataset that will serve as a basic data source for the analyses. The result is an integration algorithm that links the data describing the same infrastructure elements. The output of the algorithm is a model mapping the individual datasets into one common mapping network. This mapping can then be applied to both existing and future data. The implemented solution was tested in cooperation with the Brno City Council, where the integration of 5 different datasets was tested. The use of the integrated data was subsequently tested within two implemented dashboards.",
+    "citationCount": 0,
+    "referenceCount": 19
+}

@@ -1,0 +1,40 @@
+{
+    "paperId": "13c596fbea994164726bd88f1f2b7d1be1d4b1e9",
+    "title": "ELMo-Tune-V2: LLM-Assisted Full-Cycle Auto-Tuning to Optimize LSM-Based Key-Value Stores",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Viraj Thakkar",
+        "Qi Lin",
+        "Kenanya Keandra Adriel Prasetyo",
+        "Raden Haryosatyo Wisjnunandono",
+        "A. I. Kistijantoro",
+        "Reza Fuad Rachmadi",
+        "Zhichao Cao"
+    ],
+    "doi": "10.48550/arXiv.2502.17606",
+    "arxivId": "2502.17606",
+    "url": "https://www.semanticscholar.org/paper/13c596fbea994164726bd88f1f2b7d1be1d4b1e9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Log-Structured Merge-tree-based Key-Value Store (LSM-KVS) is a foundational storage engine serving diverse modern workloads, systems, and applications. To suit varying use cases, LSM-KVS allows a vast configuration space that controls core parameters like compaction, flush, and cache sizes, each consuming a shared pool of CPU, Memory, and Storage resources. Navigating the LSM-KVS configuration space necessitates knowledge of the impact of each configuration on the expected workload and underlying hardware. Beyond expensive and time-intensive human-expert-based tuning, existing LSM-KVS tuning solutions focus on tuning with specific workload expectations while limited to a narrow subset of parameters. This paper introduces ELMo-Tune-V2, a framework that integrates Large Language Models (LLMs) at its foundation to demonstrate the potential of applying modern LLMs in data system optimization problems. ELMo-Tune-V2 leverages the contextual reasoning, cross-domain, and generative capabilities of LLMs to perform 1) self-navigated characterization and modeling of LSM-KVS workloads, 2) automatic tuning across a broad parameter space using cross-domain knowledge, and 3) real-time dynamic configuration adjustments for LSM-KVS. ELMo-Tune-V2 integrates three innovations: LLM-based workload synthesis for adaptive benchmark generation, feedback-driven iterative fine-tuning for configuration refinement, and real-time tuning to handle evolving workloads. Through detailed evaluation using RocksDB under several real-world applications across diverse scenarios, ELMo-Tune-V2 achieves performance improvements up to ~14X our YCSB benchmarks compared against default RocksDB configurations, and our end-to-end tests with upper-level applications, NebulaGraph and Kvrocks, demonstrate performance gains of 34% and 26%, respectively.",
+    "citationCount": 0,
+    "referenceCount": 53
+}

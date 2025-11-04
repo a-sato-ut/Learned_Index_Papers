@@ -1,0 +1,30 @@
+{
+    "paperId": "ea0f24521de3dbcc5a15ad4b47b2678da95ea429",
+    "title": "LSM Trees in Adversarial Environments",
+    "year": 2025,
+    "venue": "IACR Cryptology ePrint Archive",
+    "authors": [
+        "Hayder Tirmazi"
+    ],
+    "doi": "10.48550/arXiv.2502.08832",
+    "arxivId": "2502.08832",
+    "url": "https://www.semanticscholar.org/paper/ea0f24521de3dbcc5a15ad4b47b2678da95ea429",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Log Structured Merge (LSM) Tree is a popular choice for key-value stores that focus on optimized write throughput while maintaining performant, production-ready read latencies. To optimize read performance, LSM stores rely on a probabilistic data structure called the Bloom Filter (BF). In this paper, we focus on adversarial workloads that lead to a sharp degradation in read performance by impacting the accuracy of BFs used within the LSM store. Our evaluation shows up to $800\\%$ increase in the read latency of lookups for popular LSM stores. We define adversarial models and security definitions for LSM stores. We implement adversary resilience into two popular LSM stores, LevelDB and RocksDB. We use our implementations to demonstrate how performance degradation under adversarial workloads can be mitigated.",
+    "citationCount": 1,
+    "referenceCount": 26
+}

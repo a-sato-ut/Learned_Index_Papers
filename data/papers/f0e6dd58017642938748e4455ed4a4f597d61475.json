@@ -1,0 +1,34 @@
+{
+    "paperId": "f0e6dd58017642938748e4455ed4a4f597d61475",
+    "title": "A Query Optimization Method Utilizing Large Language Models",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhiming Yao",
+        "Haoyang Li",
+        "Jing Zhang",
+        "Cuiping Li",
+        "Hong Chen"
+    ],
+    "doi": "10.48550/arXiv.2503.06902",
+    "arxivId": "2503.06902",
+    "url": "https://www.semanticscholar.org/paper/f0e6dd58017642938748e4455ed4a4f597d61475",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query optimization is a critical task in database systems, focused on determining the most efficient way to execute a query from an enormous set of possible strategies. Traditional approaches rely on heuristic search methods and cost predictions, but these often struggle with the complexity of the search space and inaccuracies in performance estimation, leading to suboptimal plan choices. This paper presents LLMOpt, a novel framework that leverages Large Language Models (LLMs) to address these challenges through two innovative components: (1) LLM for Plan Candidate Generation (LLMOpt(G)), which eliminates heuristic search by utilizing the reasoning abilities of LLMs to directly generate high-quality query plans, and (2) LLM for Plan Candidate Selection (LLMOpt(S)), a list-wise cost model that compares candidates globally to enhance selection accuracy. To adapt LLMs for query optimization, we propose fine-tuning pre-trained models using optimization data collected offline. Experimental results on the JOB, JOB-EXT, and Stack benchmarks show that LLMOpt(G) and LLMOpt(S) outperform state-of-the-art methods, including PostgreSQL, BAO, and HybridQO. Notably, LLMOpt(S) achieves the best practical performance, striking a balance between plan quality and inference efficiency.",
+    "citationCount": 1,
+    "referenceCount": 35
+}

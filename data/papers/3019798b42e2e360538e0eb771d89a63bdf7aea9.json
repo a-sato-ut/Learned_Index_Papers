@@ -1,0 +1,43 @@
+{
+    "paperId": "3019798b42e2e360538e0eb771d89a63bdf7aea9",
+    "title": "Towards Physics-informed Diffusion for Anomaly Detection in Trajectories",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Arun Sharma",
+        "Mingzhou Yang",
+        "Majid Farhadloo",
+        "Subhankar Ghosh",
+        "B. Jayaprakash",
+        "Shashi Shekhar"
+    ],
+    "doi": "10.48550/arXiv.2506.06999",
+    "arxivId": "2506.06999",
+    "url": "https://www.semanticscholar.org/paper/3019798b42e2e360538e0eb771d89a63bdf7aea9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Given trajectory data, a domain-specific study area, and a user-defined threshold, we aim to find anomalous trajectories indicative of possible GPS spoofing (e.g., fake trajectory). The problem is societally important to curb illegal activities in international waters, such as unauthorized fishing and illicit oil transfers. The problem is challenging due to advances in AI generated in deep fakes generation (e.g., additive noise, fake trajectories) and lack of adequate amount of labeled samples for ground-truth verification. Recent literature shows promising results for anomalous trajectory detection using generative models despite data sparsity. However, they do not consider fine-scale spatiotemporal dependencies and prior physical knowledge, resulting in higher false-positive rates. To address these limitations, we propose a physics-informed diffusion model that integrates kinematic constraints to identify trajectories that do not adhere to physical laws. Experimental results on real-world datasets in the maritime and urban domains show that the proposed framework results in higher prediction accuracy and lower estimation error rate for anomaly detection and trajectory generation methods, respectively. Our implementation is available at https://github.com/arunshar/Physics-Informed-Diffusion-Probabilistic-Model.",
+    "citationCount": 0,
+    "referenceCount": 95
+}

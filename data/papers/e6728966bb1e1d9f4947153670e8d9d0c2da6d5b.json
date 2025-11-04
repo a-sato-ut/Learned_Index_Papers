@@ -1,0 +1,36 @@
+{
+    "paperId": "e6728966bb1e1d9f4947153670e8d9d0c2da6d5b",
+    "title": "Advances in Designing Scalable Graph Neural Networks: The Perspective of Graph Data Management",
+    "year": 2025,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Ningyi Liao",
+        "Siqiang Luo",
+        "Xiaokui Xiao",
+        "Reynold Cheng"
+    ],
+    "doi": "10.1145/3722212.3725634",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e6728966bb1e1d9f4947153670e8d9d0c2da6d5b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph Neural Network (GNN) is a successful marriage of graph data management and deep learning, leading to notable improvements in learning quality over graphs. This advancement highly impacts graph-based applications in many areas, including computer vision, natural language processing, biology, medication, and social science. Despite the success, scaling up GNN models poses a formidable and long-lasting challenge, hindering the application to industrial-level graphs featuring millions or billions of nodes and edges. The rapid update of tasks and models requires continuous efforts in developing scalable GNN architectures. In specific, the scalability bottleneck of GNNs typically stem from graph-related computations, entailing more proficient processing and utilization of the unstructured graph data. There has been a marked trend of incorporation between GNN and data management to tackle newly-emerged scalability challenges. This includes the utilization of graph algorithms such as Personalized PageRank (PPR) and subgraph discovery in GNN models, as well as exploring topics in graph domain including multi-scale representation and graph spectrum. This primer tutorial (3 hours) aims to provide a comprehensive overview of scalable GNN designs, highlighting the most recent and prominent models that focus on the scalability issue. We will also summarize the technical challenges and suggest potential future directions regarding the rapid developments in this field. We believe that this work can be used as one important reference for researchers looking to develop scalable GNN models.",
+    "citationCount": 1,
+    "referenceCount": 55
+}

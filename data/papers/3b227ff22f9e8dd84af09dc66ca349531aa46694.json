@@ -1,0 +1,36 @@
+{
+    "paperId": "3b227ff22f9e8dd84af09dc66ca349531aa46694",
+    "title": "Mixture of Neuron Experts",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Runxi Cheng",
+        "Yuchen Guan",
+        "Yucheng Ding",
+        "Qingguo Hu",
+        "Yongxian Wei",
+        "Chun Yuan",
+        "Yelong Shen",
+        "Weizhu Chen",
+        "Yeyun Gong"
+    ],
+    "doi": null,
+    "arxivId": "2510.05781",
+    "url": "https://www.semanticscholar.org/paper/3b227ff22f9e8dd84af09dc66ca349531aa46694",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this work, we first explore whether the parameters activated by the MoE layer remain highly sparse at inference. We perform a sparsification study on several representative MoE models. For each expert, we rank parameters by the magnitude of their activations from the gate projection and progressively prune the activated subset. Pruning up to 60% of parameters within that subset causes only negligible task-performance degradation; substantial drops occur only after more than 90% are removed. We further decompose experts into neuron-granular MoE and visualize their activation values, finding that most neuron activations are near zero. This observation motivates us to select only high-activation neuron experts during pretraining. Based on this insight, we propose Mixture of Neuron Experts (MoNE). MoNE achieves neuron-granular expert selection by only applying a simple top-k selection within each expert, incurs negligible latency, and requires no additional routing parameters or inter-expert communication. Extensive experiments demonstrate that MoNE matches traditional MoE performance while activating only 50% of the MoE-layer parameters, and it consistently outperforms traditional MoE when compared at equal numbers of activated parameters. These results suggest that MoNE is a practical approach to improving parameter utilization and inference efficiency in MoE-like models.",
+    "citationCount": 0,
+    "referenceCount": 50
+}

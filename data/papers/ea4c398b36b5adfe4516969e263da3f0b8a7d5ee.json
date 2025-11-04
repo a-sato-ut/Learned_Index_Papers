@@ -1,0 +1,31 @@
+{
+    "paperId": "ea4c398b36b5adfe4516969e263da3f0b8a7d5ee",
+    "title": "Efficient and Privacy-Preserving Heavy Hitters Computation over Outsourced Cloud",
+    "year": 2024,
+    "venue": "2024 7th International Conference on Mechatronics and Computer Technology Engineering (MCTE)",
+    "authors": [
+        "Qunqin Zhang",
+        "Lu Li"
+    ],
+    "doi": "10.1109/MCTE62870.2024.11118201",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ea4c398b36b5adfe4516969e263da3f0b8a7d5ee",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Heavy hitters refer to elements that appear with particularly high frequency in a data stream, which is an important concept in data stream processing. Computing heavy hitters is significant in many application scenarios. Computing heavy hitters can help us identify the most influential factors within that stream, thereby enhancing our ability to process and analyze the data. With the explosive growth of data in the network, traditional data processing methods are no longer applicable. However, cloud computing platforms, with their powerful data processing capabilities and scalability, are gradually becoming the ideal choice for handling large-scale data. The cloud computing environment leverages its high-performance computing resources to effectively process large-scale data and compute heavy hitters. Due to the large scale of data streams, real-time computation of heavy hitters in data streams has become a challenging task. In this context, computing heavy hitters in data streams has become an important research direction in cloud computing environments. However, when computing heavy hitters in a cloud computing environment, there is a risk of privacy data being leaked. Therefore, it is essential to design a scheme to securely compute heavy hitters. We use Yao's garbled circuits and secret sharing, differential privacy to design a secure and efficient scheme for computing heavy hitters in data streams. We conduct a security analysis to prove that it is secure under the semi-honest model. Finally, the efficiency of this scheme was verified through extensive experimental analysis.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

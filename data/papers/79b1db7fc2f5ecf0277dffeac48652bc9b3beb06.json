@@ -1,0 +1,34 @@
+{
+    "paperId": "79b1db7fc2f5ecf0277dffeac48652bc9b3beb06",
+    "title": "DASL: An Index for Enhancing Tail Latency, Microarchitecture Friendliness, and Restructuring Overhead",
+    "year": 2025,
+    "venue": "IEEE Access",
+    "authors": [
+        "Hojin Shin",
+        "Gunhee Choi",
+        "Bryan S. Kim",
+        "Seehwan Yoo",
+        "Jongmoo Choi"
+    ],
+    "doi": "10.1109/ACCESS.2025.3565528",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/79b1db7fc2f5ecf0277dffeac48652bc9b3beb06",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/access.2025.3565528",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The skip list is a popular in-memory index in modern database systems. It maintains multiple levels of lists, which makes it efficient in traversing sorted data. In addition, it is flexible in inserting and deleting data, while avoiding the restructuring overhead of tree-based structures. However, there are considerable challenges in the conventional skip list design. First, the linked list structure has a drawback in utilizing microarchitecture features such as cache, pipeline, and SIMD (Single Instruction Multiple Data) capability. Second, the skip list randomly selects the level of a new node. That is, the skip list runs based on probability rather than data distribution, which can lead to suboptimal lookup performance. Unlike balanced tree structures, the worst-case lookup performance of a skip list remains O(n). This paper proposes a new data structure called DASL (Deterministic Arrayed Skip List). It follows the algorithm of the skip list, but seamlessly integrates the array and devises a new deterministic raise operation in order to obtain flexibility, microarchitecture-friendliness, and reduced tail latency. In specific, a node in DASL consists of an array structure with multiple elements instead of a single element, taking advantage of the array within a list structure. Additionally, the raise operation is conducted deterministically instead of probabilistically, allowing data to be more balanced in multiple lists. Furthermore, we devise two optimization techniques, utilization-based adaptive intra-node search and uneven split operation. Experimental results with various synthetic and real-world workloads demonstrate that DASL outperforms other state-of-the-art in-memory indexes, including skip list, B+tree, and ART.",
+    "citationCount": 0,
+    "referenceCount": 41
+}

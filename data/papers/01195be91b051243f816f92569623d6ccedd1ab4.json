@@ -1,0 +1,37 @@
+{
+    "paperId": "01195be91b051243f816f92569623d6ccedd1ab4",
+    "title": "How much data is sufficient to learn high-performing algorithms? generalization guarantees for data-driven algorithm design",
+    "year": 2021,
+    "venue": "Symposium on the Theory of Computing",
+    "authors": [
+        "Maria-Florina Balcan",
+        "Dan Deblasio",
+        "Travis Dick",
+        "Carl Kingsford",
+        "T. Sandholm",
+        "Ellen Vitercik"
+    ],
+    "doi": "10.1145/3406325.3451036",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/01195be91b051243f816f92569623d6ccedd1ab4",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3406325.3451036",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Algorithms often have tunable parameters that impact performance metrics such as runtime and solution quality. For many algorithms used in practice, no parameter settings admit meaningful worst-case bounds, so the parameters are made available for the user to tune. Alternatively, parameters may be tuned implicitly within the proof of a worst-case guarantee. Worst-case instances, however, may be rare or nonexistent in practice. A growing body of research has demonstrated that data-driven algorithm design can lead to significant improvements in performance. This approach uses a training set of problem instances sampled from an unknown, application-specific distribution and returns a parameter setting with strong average performance on the training set. We provide a broadly applicable theory for deriving generalization guarantees that bound the difference between the algorithm’s average performance over the training set and its expected performance on the unknown distribution. Our results apply no matter how the parameters are tuned, be it via an automated or manual approach. The challenge is that for many types of algorithms, performance is a volatile function of the parameters: slightly perturbing the parameters can cause a large change in behavior. Prior research (e.g., Gupta and Roughgarden, SICOMP’17; Balcan et al., COLT’17, ICML’18, EC’18) has proved generalization bounds by employing case-by-case analyses of greedy algorithms, clustering algorithms, integer programming algorithms, and selling mechanisms. We uncover a unifying structure which we use to prove extremely general guarantees, yet we recover the bounds from prior research. Our guarantees, which are tight up to logarithmic factors in the worst case, apply whenever an algorithm’s performance is a piecewise-constant, -linear, or—more generally—piecewise-structured function of its parameters. Our theory also implies novel bounds for voting mechanisms and dynamic programming algorithms from computational biology.",
+    "citationCount": 45,
+    "referenceCount": 77
+}

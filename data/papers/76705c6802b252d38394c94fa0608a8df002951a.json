@@ -1,0 +1,33 @@
+{
+    "paperId": "76705c6802b252d38394c94fa0608a8df002951a",
+    "title": "Unbiased Binning: Fairness-aware Attribute Representation",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Abolfazl Asudeh",
+        "Zeinab Asoodeh",
+        "Bita Asoodeh",
+        "Omid Asudeh"
+    ],
+    "doi": "10.48550/arXiv.2509.21785",
+    "arxivId": "2509.21785",
+    "url": "https://www.semanticscholar.org/paper/76705c6802b252d38394c94fa0608a8df002951a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Discretizing raw features into bucketized attribute representations is a popular step before sharing a dataset. It is, however, evident that this step can cause significant bias in data and amplify unfairness in downstream tasks. In this paper, we address this issue by introducing the unbiased binning problem that, given an attribute to bucketize, finds its closest discretization to equal-size binning that satisfies group parity across different buckets. Defining a small set of boundary candidates, we prove that unbiased binning must select its boundaries from this set. We then develop an efficient dynamic programming algorithm on top of the boundary candidates to solve the unbiased binning problem. Finding an unbiased binning may sometimes result in a high price of fairness, or it may not even exist, especially when group values follow different distributions. Considering that a small bias in the group ratios may be tolerable in such settings, we introduce the epsilon-biased binning problem that bounds the group disparities across buckets to a small value epsilon. We first develop a dynamic programming solution, DP, that finds the optimal binning in quadratic time. The DP algorithm, while polynomial, does not scale to very large settings. Therefore, we propose a practically scalable algorithm, based on local search (LS), for epsilon-biased binning. The key component of the LS algorithm is a divide-and-conquer (D&C) algorithm that finds a near-optimal solution for the problem in near-linear time. We prove that D&C finds a valid solution for the problem unless none exists. The LS algorithm then initiates a local search, using the D&C solution as the upper bound, to find the optimal solution.",
+    "citationCount": 0,
+    "referenceCount": 37
+}

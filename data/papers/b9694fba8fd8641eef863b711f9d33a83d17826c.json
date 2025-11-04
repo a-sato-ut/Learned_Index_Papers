@@ -1,0 +1,34 @@
+{
+    "paperId": "b9694fba8fd8641eef863b711f9d33a83d17826c",
+    "title": "Towards Trajectory Anomaly Detection: a Fine-Grained and Noise-Resilient Framework",
+    "year": 2025,
+    "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "authors": [
+        "Wei Shao",
+        "Ziquan Fang",
+        "Lu Chen",
+        "Yunjun Gao"
+    ],
+    "doi": "10.1145/3711896.3737164",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b9694fba8fd8641eef863b711f9d33a83d17826c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Trajectory anomaly detection aims to identify patterns in trajectory data that deviate significantly from normal behavior, such as taxi detours, and plays a crucial role in urban computing. However, real-world trajectories are inherently complex, containing diverse anomalies and unavoidable noise. Existing research mainly focuses on coarse-grained trajectory anomalies, such as detour and switch anomalies, while paying limited attention to fine-grained trajectory anomalies, such as time and loop anomalies. Furthermore, they tend to disregard the impact of inherent noise in trajectories. As a result, there remains a gap in developing robust models with strong generalization capabilities to effectively detect fine-grained trajectory anomalies, even in noisy environments. Inspired by the powerful generalization and noise resistance capabilities of LLMs, we propose an LLM-driven approach, FOTraj, for fine-grained and noise-resilient trajectory anomaly detection. Specifically, FOTraj introduces a Spatio-Temporal Dependency Encoder (STE) that converts raw trajectory data into a spatio-temporal graph, equipped with a tailored adapter for the LLM to capture finer-grained trajectory features. Besides, we design a Patch-Gated Robustification (PGR) module to simulate noisy environments, enhancing the LLM's resilience to trajectory noise. Since LLMs were originally designed for sequence modeling and cannot directly process graph structured data, FOTraj incorporates a specialized graph decoder to map the LLM's output back into a graph structure, utilizing a temperature-controlled top-k sampling mechanism to improve diversity and robustness. Extensive experiments on three datasets show that FOTraj outperforms state-of-the-art methods.",
+    "citationCount": 1,
+    "referenceCount": 72
+}

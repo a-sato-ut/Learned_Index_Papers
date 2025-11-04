@@ -1,0 +1,35 @@
+{
+    "paperId": "bcc7d4c37f5fb964fc141f662219df7b82661bd9",
+    "title": "Is the GPU Half-Empty or Half-Full? Practical Scheduling Techniques for LLMs",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ferdinand Kossmann",
+        "Bruce Fontaine",
+        "D. Khudia",
+        "Michael J. Cafarella",
+        "Samuel Madden"
+    ],
+    "doi": "10.48550/arXiv.2410.17840",
+    "arxivId": "2410.17840",
+    "url": "https://www.semanticscholar.org/paper/bcc7d4c37f5fb964fc141f662219df7b82661bd9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Serving systems for Large Language Models (LLMs) improve throughput by processing several requests concurrently. However, multiplexing hardware resources between concurrent requests involves non-trivial scheduling decisions. Practical serving systems typically implement these decisions at two levels: First, a load balancer routes requests to different servers which each hold a replica of the LLM. Then, on each server, an engine-level scheduler decides when to run a request, or when to queue or preempt it. Improved scheduling policies may benefit a wide range of LLM deployments and can often be implemented as\"drop-in replacements\"to a system's current policy. In this work, we survey scheduling techniques from the literature and from practical serving systems. We find that schedulers from the literature often achieve good performance but introduce significant complexity. In contrast, schedulers in practical deployments often leave easy performance gains on the table but are easy to implement, deploy and configure. This finding motivates us to introduce two new scheduling techniques, which are both easy to implement, and outperform current techniques on production workload traces.",
+    "citationCount": 5,
+    "referenceCount": 26
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "2af76cdf1740d6eabfeeac3c86dc12582cb0b864",
+    "title": "MoE-Gen: High-Throughput MoE Inference on a Single GPU with Module-Based Batching",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Tairan Xu",
+        "Leyang Xue",
+        "Zhan Lu",
+        "Adrian Jackson",
+        "Luo Mai"
+    ],
+    "doi": "10.48550/arXiv.2503.09716",
+    "arxivId": "2503.09716",
+    "url": "https://www.semanticscholar.org/paper/2af76cdf1740d6eabfeeac3c86dc12582cb0b864",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents MoE-Gen, a high-throughput MoE inference system optimized for single-GPU execution. Existing inference systems rely on model-based or continuous batching strategies, originally designed for interactive inference, which result in excessively small batches for MoE's key modules-attention and expert modules-leading to poor throughput. To address this, we introduce module-based batching, which accumulates tokens in host memory and dynamically launches large batches on GPUs to maximize utilization. Additionally, we optimize the choice of batch sizes for each module in an MoE to fully overlap GPU computation and communication, maximizing throughput. Evaluation demonstrates that MoE-Gen achieves 8-31x higher throughput compared to state-of-the-art systems employing model-based batching (FlexGen, MoE-Lightning, DeepSpeed), and offers even greater throughput improvements over continuous batching systems (e.g., vLLM and Ollama) on popular MoE models (DeepSeek and Mixtral) across offline inference tasks. MoE-Gen's source code is publicly available at https://github.com/EfficientMoE/MoE-Gen",
+    "citationCount": 3,
+    "referenceCount": 38
+}

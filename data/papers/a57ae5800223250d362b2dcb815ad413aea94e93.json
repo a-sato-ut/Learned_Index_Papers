@@ -1,0 +1,40 @@
+{
+    "paperId": "a57ae5800223250d362b2dcb815ad413aea94e93",
+    "title": "Online Conversion with Switching Costs: Robust and Learning-Augmented Algorithms",
+    "year": 2023,
+    "venue": "SIGMETRICS/Performance",
+    "authors": [
+        "Adam Lechowicz",
+        "Nicolas Christianson",
+        "Bo Sun",
+        "Noman Bashir",
+        "M. Hajiesmaili",
+        "Adam Wierman",
+        "Prashant Shenoy"
+    ],
+    "doi": "10.1145/3673660.3655074",
+    "arxivId": "2310.20598",
+    "url": "https://www.semanticscholar.org/paper/a57ae5800223250d362b2dcb815ad413aea94e93",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2310.20598",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Economics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce and study online conversion with switching costs, a family of online problems that capture emerging problems at the intersection of energy and sustainability. In this problem, an online player attempts to purchase (alternatively, sell) fractional shares of an asset during a fixed time horizon with length T. At each time step, a cost function (alternatively, price function) is revealed, and the player must irrevocably decide an amount of asset to convert. The player also incurs a switching cost whenever their decision changes in consecutive time steps, i.e., when they increase or decrease their purchasing amount. We introduce competitive (robust) threshold-based algorithms for both the minimization and maximization variants of this problem, and show they are optimal among deterministic online algorithms. We then propose learning-augmented algorithms that take advantage of untrusted black-box advice (such as predictions from a machine learning model) to achieve significantly better average-case performance without sacrificing worst-case competitive guarantees. Finally, we empirically evaluate our proposed algorithms using a carbon-aware EV charging case study, showing that our algorithms substantially improve on baseline methods for this problem.",
+    "citationCount": 10,
+    "referenceCount": 64
+}

@@ -1,0 +1,47 @@
+{
+    "paperId": "dd26f3584dbf8a3cd2e3a3f7bfd6a7c39d270ba9",
+    "title": "Equipping Black-Box Policies with Model-Based Advice for Stable Nonlinear Control",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Tongxin Li",
+        "Ruixiao Yang",
+        "Guannan Qu",
+        "Yiheng Lin",
+        "S. Low",
+        "A. Wierman"
+    ],
+    "doi": "10.48550/arXiv.2206.01341",
+    "arxivId": "2206.01341",
+    "url": "https://www.semanticscholar.org/paper/dd26f3584dbf8a3cd2e3a3f7bfd6a7c39d270ba9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2206.01341",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine-learned black-box policies are ubiquitous for nonlinear control problems. Meanwhile, crude model information is often available for these problems from, e.g., linear approximations of nonlinear dynamics. We study the problem of equipping a black-box control policy with model-based advice for nonlinear control on a single trajectory. We first show a general negative result that a naive convex combination of a black-box policy and a linear model-based policy can lead to instability, even if the two policies are both stabilizing. We then propose an adaptive $λ$-confident policy, with a coefficient $λ$ indicating the confidence in a black-box policy, and prove its stability. With bounded nonlinearity, in addition, we show that the adaptive $λ$-confident policy achieves a bounded competitive ratio when a black-box policy is near-optimal. Finally, we propose an online learning approach to implement the adaptive $λ$-confident policy and verify its efficacy in case studies about the CartPole problem and a real-world electric vehicle (EV) charging problem with data bias due to COVID-19.",
+    "citationCount": 8,
+    "referenceCount": 38
+}

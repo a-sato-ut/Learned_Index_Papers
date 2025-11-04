@@ -1,0 +1,37 @@
+{
+    "paperId": "16cd29f1e863bd1e554bce001ac29ef71b916d8f",
+    "title": "Leveraging Initial Hints for Free in Stochastic Linear Bandits",
+    "year": 2022,
+    "venue": "International Conference on Algorithmic Learning Theory",
+    "authors": [
+        "Ashok Cutkosky",
+        "Christoph Dann",
+        "Abhimanyu Das",
+        "Qiuyi Zhang"
+    ],
+    "doi": "10.48550/arXiv.2203.04274",
+    "arxivId": "2203.04274",
+    "url": "https://www.semanticscholar.org/paper/16cd29f1e863bd1e554bce001ac29ef71b916d8f",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.04274",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study the setting of optimizing with bandit feedback with additional prior knowledge provided to the learner in the form of an initial hint of the optimal action. We present a novel algorithm for stochastic linear bandits that uses this hint to improve its regret to $\\tilde O(\\sqrt{T})$ when the hint is accurate, while maintaining a minimax-optimal $\\tilde O(d\\sqrt{T})$ regret independent of the quality of the hint. Furthermore, we provide a Pareto frontier of tight tradeoffs between best-case and worst-case regret, with matching lower bounds. Perhaps surprisingly, our work shows that leveraging a hint shows provable gains without sacrificing worst-case performance, implying that our algorithm adapts to the quality of the hint for free. We also provide an extension of our algorithm to the case of $m$ initial hints, showing that we can achieve a $\\tilde O(m^{2/3}\\sqrt{T})$ regret.",
+    "citationCount": 5,
+    "referenceCount": 31
+}

@@ -1,0 +1,46 @@
+{
+    "paperId": "39ec7c15589a7045b491f4fb23796ce9b9faa47b",
+    "title": "Scaling GPU-Accelerated Databases beyond GPU Memory Size",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Yinan Li",
+        "Bailu Ding",
+        "Ziyun Wei",
+        "Lukas M. Maas",
+        "Momin Al-Ghosien",
+        "Spyros Blanas",
+        "Nicolas Bruno",
+        "C. Curino",
+        "Matteo Interlandi",
+        "Craig Peeper",
+        "Kaushik Rajan",
+        "Surajit Chaudhuri",
+        "J. Gehrke"
+    ],
+    "doi": "10.14778/3749646.3749710",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/39ec7c15589a7045b491f4fb23796ce9b9faa47b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There has been considerable interest in leveraging GPUs' computational power and high memory bandwidth for analytical database workloads. However, their limited memory capacity remains a fundamental limitation for databases whose sizes far exceed the GPU memory size. This challenge is exacerbated by the slow PCIe data transfer speed, that creates a bottleneck in overall system performance. In this work, we introduce a hybrid CPU-GPU query processing strategy that leverages the distinct strengths of CPU and GPU to alleviate the data transfer bottleneck. Our approach performs highly efficient data filtering on the CPU, which substantially reduces the volume of data transferred to the GPU via PCIe, and offloads compute-intensive operators such as joins to the GPU for further processing. Our evaluation on the TPC-H benchmark at scale factors up to 1000 (1TB), using a single A100 GPU with 80GB memory, demonstrates that our approach can effectively handle datasets significantly larger than the GPU memory size. Moreover, it substantially outperforms a state-of-the-art CPU-only database system in both performance and cost-effectiveness.",
+    "citationCount": 0,
+    "referenceCount": 62
+}

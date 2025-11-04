@@ -1,0 +1,35 @@
+{
+    "paperId": "7c920a5dc1204e3bd8766c31efb7750c4bfafa20",
+    "title": "Querying Graph Data: Where We Are and Where To Go",
+    "year": 2025,
+    "venue": "PODS Companion",
+    "authors": [
+        "Leonid Libkin",
+        "Wim Martens",
+        "Filip Murlak",
+        "L. Peterfreund",
+        "D. Vrgoč"
+    ],
+    "doi": "10.1145/3722234.3725822",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7c920a5dc1204e3bd8766c31efb7750c4bfafa20",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Although graph query languages such as Cypher, SQL/PGQ, and GQL take inspiration from theoretical languages such as conjunctive regular path queries (CRPQs), their pattern matching facilities are significantly more powerful in order to cope with real world use cases. Four such extensions are treatment of both nodes and edges, variables that bind to paths or lists, path modes, and data filters. In this paper, we define CRPQs with data tests and list variables (dl-CRPQs), which extend CRPQs with these features and give the reader a quick idea of how these features relate to the classical literature on graph pattern matching. Then, we discuss where the design of SQL/PGQ and GQL stands today and identify a host of opportunities in research and query language design. In particular, we believe that a closer connection between graph query languages and automata theory will open up opportunities for query optimization that will benefit graph query languages in the long term.",
+    "citationCount": 4,
+    "referenceCount": 110
+}

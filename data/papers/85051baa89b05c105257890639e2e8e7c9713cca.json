@@ -1,0 +1,35 @@
+{
+    "paperId": "85051baa89b05c105257890639e2e8e7c9713cca",
+    "title": "Not All Models Suit Expert Offloading: On Local Routing Consistency of Mixture-of-Expert Models",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jingcong Liang",
+        "Siyuan Wang",
+        "Miren Tian",
+        "Yitong Li",
+        "Duyu Tang",
+        "Zhongyu Wei"
+    ],
+    "doi": "10.48550/arXiv.2505.16056",
+    "arxivId": "2505.16056",
+    "url": "https://www.semanticscholar.org/paper/85051baa89b05c105257890639e2e8e7c9713cca",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Mixture-of-Experts (MoE) enables efficient scaling of large language models (LLMs) with sparsely activated experts during inference. To effectively deploy large MoE models on memory-constrained devices, many systems introduce *expert offloading* that caches a subset of experts in fast memory, leaving others on slow memory to run on CPU or load on demand. While some research has exploited the locality of expert activations, where consecutive tokens activate similar experts, the degree of this **local routing consistency** varies across models and remains understudied. In this paper, we propose two metrics to measure local routing consistency of MoE models: (1) **Segment Routing Best Performance (SRP)**, which evaluates how well a fixed group of experts can cover the needs of a segment of tokens, and (2) **Segment Cache Best Hit Rate (SCH)**, which measures the optimal segment-level cache hit rate under a given cache size limit. We analyzed 20 MoE LLMs with diverse sizes and architectures and found that models that apply MoE on every layer and do not use shared experts exhibit the highest local routing consistency. We further showed that domain-specialized experts contribute more to routing consistency than vocabulary-specialized ones, and that most models can balance between cache effectiveness and efficiency with cache sizes approximately 2x the active experts. These findings pave the way for memory-efficient MoE design and deployment without compromising inference speed. We publish the code for replicating experiments at https://github.com/ljcleo/moe-lrc .",
+    "citationCount": 0,
+    "referenceCount": 61
+}

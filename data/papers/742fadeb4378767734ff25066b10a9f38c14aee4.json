@@ -1,0 +1,31 @@
+{
+    "paperId": "742fadeb4378767734ff25066b10a9f38c14aee4",
+    "title": "SEH: Size Estimate Hedging Scheduling of Queues",
+    "year": 2023,
+    "venue": "ACM Transactions on Modeling and Computer Simulation",
+    "authors": [
+        "Maryam Akbari-Moghaddam",
+        "D. Down"
+    ],
+    "doi": "10.1145/3580491",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/742fadeb4378767734ff25066b10a9f38c14aee4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "For a single server system, Shortest Remaining Processing Time (SRPT) is an optimal size-based policy. In this article, we discuss scheduling a single-server system when exact information about the jobs’ processing times is not available. When the SRPT policy uses estimated processing times, the underestimation of large jobs can significantly degrade performance. We propose an index-based policy with a single parameter, Size Estimate Hedging (SEH), that only uses estimated processing times for scheduling decisions. A job’s priority is increased dynamically according to an SRPT rule until it is determined that it is underestimated, at which time the priority is frozen. Numerical results suggest that SEH has desirable performance for estimation error variance that is consistent with what is seen in practice.",
+    "citationCount": 3,
+    "referenceCount": 30
+}

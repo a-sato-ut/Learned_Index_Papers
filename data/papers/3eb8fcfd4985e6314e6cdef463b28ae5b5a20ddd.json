@@ -1,0 +1,37 @@
+{
+    "paperId": "3eb8fcfd4985e6314e6cdef463b28ae5b5a20ddd",
+    "title": "Competitive Algorithms for Multi-Agent Ski-Rental Problems",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Xuchuang Wang",
+        "Bo Sun",
+        "Hedyeh Beyhaghi",
+        "John C. S. Lui",
+        "Mohammad H. Hajiesmaili",
+        "Adam Wierman"
+    ],
+    "doi": null,
+    "arxivId": "2507.15727",
+    "url": "https://www.semanticscholar.org/paper/3eb8fcfd4985e6314e6cdef463b28ae5b5a20ddd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Economics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper introduces a novel multi-agent ski-rental problem that generalizes the classical ski-rental dilemma to a group setting where agents incur individual and shared costs. In our model, each agent can either rent at a fixed daily cost, or purchase a pass at an individual cost, with an additional third option of a discounted group pass available to all. We consider scenarios in which agents'active days differ, leading to dynamic states as agents drop out of the decision process. To address this problem from different perspectives, we define three distinct competitive ratios: overall, state-dependent, and individual rational. For each objective, we design and analyze optimal deterministic and randomized policies. Our deterministic policies employ state-aware threshold functions that adapt to the dynamic states, while our randomized policies sample and resample thresholds from tailored state-aware distributions. The analysis reveals that symmetric policies, in which all agents use the same threshold, outperform asymmetric ones. Our results provide competitive ratio upper and lower bounds and extend classical ski-rental insights to multi-agent settings, highlighting both theoretical and practical implications for group decision-making under uncertainty.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

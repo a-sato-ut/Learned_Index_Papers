@@ -1,0 +1,35 @@
+{
+    "paperId": "d96118893733f67b88ed2e7a271c86d5c9d3a8d4",
+    "title": "Wonderful Matrices: More Efficient and Effective Architecture for Language Modeling Tasks",
+    "year": 2024,
+    "venue": "",
+    "authors": [
+        "Jingze Shi",
+        "Bingheng Wu",
+        "Lu He",
+        "Luchang Jiang"
+    ],
+    "doi": null,
+    "arxivId": "2407.16958",
+    "url": "https://www.semanticscholar.org/paper/d96118893733f67b88ed2e7a271c86d5c9d3a8d4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We prove the availability of inner product form position encoding in the state space dual algorithm and study the effectiveness of different position embeddings in the hybrid quadratic causal self-attention and state space dual algorithms. We propose inner function attention with dynamic mask, which can improve the expressiveness of the attention algorithm and avoid the sequence noise significantly affecting the accuracy of the attention score. We also design cross domain mixture of experts, which can improve the granularity of the sparse activation feedforward network while maintaining the efficiency of parameter utilization and retrieval. The combination of these methods constitutes our foundation model architecture: Wonderful Matrices. We conduct experiments on the language modeling task and find that Wonderful Matrices are more efficient and effective in handling complex language tasks.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

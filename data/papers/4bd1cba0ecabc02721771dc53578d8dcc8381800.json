@@ -1,0 +1,31 @@
+{
+    "paperId": "4bd1cba0ecabc02721771dc53578d8dcc8381800",
+    "title": "Ray-Tracing for Conditionally Activated Neural Networks",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Claudio Gallicchio",
+        "Giuseppe Nuti"
+    ],
+    "doi": "10.48550/arXiv.2502.14788",
+    "arxivId": "2502.14788",
+    "url": "https://www.semanticscholar.org/paper/4bd1cba0ecabc02721771dc53578d8dcc8381800",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we introduce a novel architecture for conditionally activated neural networks combining a hierarchical construction of multiple Mixture of Experts (MoEs) layers with a sampling mechanism that progressively converges to an optimized configuration of expert activation. This methodology enables the dynamic unfolding of the network's architecture, facilitating efficient path-specific training. Experimental results demonstrate that this approach achieves competitive accuracy compared to conventional baselines while significantly reducing the parameter count required for inference. Notably, this parameter reduction correlates with the complexity of the input patterns, a property naturally emerging from the network's operational dynamics without necessitating explicit auxiliary penalty functions.",
+    "citationCount": 0,
+    "referenceCount": 10
+}

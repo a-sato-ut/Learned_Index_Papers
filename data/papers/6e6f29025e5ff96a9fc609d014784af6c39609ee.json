@@ -1,0 +1,34 @@
+{
+    "paperId": "6e6f29025e5ff96a9fc609d014784af6c39609ee",
+    "title": "Uni3D-MoE: Scalable Multimodal 3D Scene Understanding via Mixture of Experts",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yue Zhang",
+        "Yingzhao Jian",
+        "Hehe Fan",
+        "Yi Yang",
+        "Roger Zimmermann"
+    ],
+    "doi": "10.48550/arXiv.2505.21079",
+    "arxivId": "2505.21079",
+    "url": "https://www.semanticscholar.org/paper/6e6f29025e5ff96a9fc609d014784af6c39609ee",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advancements in multimodal large language models (MLLMs) have demonstrated considerable potential for comprehensive 3D scene understanding. However, existing approaches typically utilize only one or a limited subset of 3D modalities, resulting in incomplete representations of 3D scenes and reduced interpretive accuracy. Furthermore, different types of queries inherently depend on distinct modalities, indicating that uniform processing of all modality tokens may fail to effectively capture query-specific context. To address these challenges, we propose Uni3D-MoE, a sparse Mixture-of-Experts (MoE)-based 3D MLLM designed to enable adaptive 3D multimodal fusion. Specifically, Uni3D-MoE integrates a comprehensive set of 3D modalities, including multi-view RGB and depth images, bird's-eye-view (BEV) maps, point clouds, and voxel representations. At its core, our framework employs a learnable routing mechanism within the sparse MoE-based large language model, dynamically selecting appropriate experts at the token level. Each expert specializes in processing multimodal tokens based on learned modality preferences, thus facilitating flexible collaboration tailored to diverse task-specific requirements. Extensive evaluations on standard 3D scene understanding benchmarks and specialized datasets demonstrate the efficacy of Uni3D-MoE.",
+    "citationCount": 0,
+    "referenceCount": 93
+}

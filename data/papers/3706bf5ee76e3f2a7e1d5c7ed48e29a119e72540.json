@@ -1,0 +1,39 @@
+{
+    "paperId": "3706bf5ee76e3f2a7e1d5c7ed48e29a119e72540",
+    "title": "Parallel Wormhole Filters: High-Performance Approximate Membership Query Data Structures for Persistent Memory",
+    "year": 2025,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Hancheng Wang",
+        "Haipeng Dai",
+        "Shusen Chen",
+        "Meng Li",
+        "Rong Gu",
+        "Youyou Lu",
+        "Chengxun Wu",
+        "Jiaqi Zheng",
+        "Lexi Xu",
+        "Guihai Chen"
+    ],
+    "doi": "10.1109/TPDS.2025.3605780",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3706bf5ee76e3f2a7e1d5c7ed48e29a119e72540",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate membership query (AMQ) data structures can approximately determine whether an element exists in a given dataset. They are widely used in parallel and distributed systems (e.g., high-performance databases, distributed cache systems, and bioinformatics systems) to avoid unnecessary dataset accesses, thereby accelerating massive data processing. For AMQ data structures used in the above systems, achieving high throughput, low false positive rate, and large capacity objectives simultaneously is critical but challenging. Porting AMQ data structures from DRAM to persistent memory makes it possible to achieve the above three objectives simultaneously, but this porting is not a trivial task. Specifically, existing AMQ data structures generate numerous random accesses and/or sequential writes on persistent memory, resulting in poor throughput. Therefore, in the conference version of this paper, we proposed a novel AMQ data structure called wormhole filter, which achieves high throughput on persistent memory, thereby achieving the above three objectives simultaneously. In this journal version, we extend our prior work by introducing parallel wormhole filters to enhance parallel performance. Additionally, we integrate parallel wormhole filters into the LevelDB database system to show that porting AMQ data structures to persistent memory significantly improves system end-to-end throughput. Theoretical analysis and experimental results show that wormhole filters significantly outperform state-of-the-art AMQ data structures. For example, wormhole filters achieve 12.06× insertion throughput, 1.98× positive lookup throughput, and 8.82× deletion throughput of the best competing baseline.",
+    "citationCount": 0,
+    "referenceCount": 67
+}

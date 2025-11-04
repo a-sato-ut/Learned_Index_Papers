@@ -1,0 +1,38 @@
+{
+    "paperId": "8d981671799912060c0f49f4ee2e68b1f8440578",
+    "title": "Competitive Algorithms for Online Multidimensional Knapsack Problems",
+    "year": 2021,
+    "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+    "authors": [
+        "Lin Yang",
+        "Ali Zeynali",
+        "M. Hajiesmaili",
+        "R. Sitaraman",
+        "D. Towsley"
+    ],
+    "doi": "10.1145/3491042",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8d981671799912060c0f49f4ee2e68b1f8440578",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we study the online multidimensional knapsack problem (called OMdKP) in which there is a knapsack whose capacity is represented in m dimensions, each dimension could have a different capacity. Then, n items with different scalar profit values and m-dimensional weights arrive in an online manner and the goal is to admit or decline items upon their arrival such that the total profit obtained by admitted items is maximized and the capacity of knapsack across all dimensions is respected. This is a natural generalization of the classic single-dimension knapsack problem and finds several relevant applications such as in virtual machine allocation, job scheduling, and all-or-nothing flow maximization over a graph. We develop two algorithms for OMdKP that use linear and exponential reservation functions to make online admission decisions. Our competitive analysis shows that the linear and exponential algorithms achieve the competitive ratios of O(θα ) and O(łogł(θα)), respectively, where α is the ratio between the aggregate knapsack capacity and the minimum capacity over a single dimension and θ is the ratio between the maximum and minimum item unit values. We also characterize a lower bound for the competitive ratio of any online algorithm solving OMdKP and show that the competitive ratio of our algorithm with exponential reservation function matches the lower bound up to a constant factor.",
+    "citationCount": 21,
+    "referenceCount": 55
+}

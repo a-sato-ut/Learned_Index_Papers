@@ -1,0 +1,33 @@
+{
+    "paperId": "a9dc160dd0ef91b4fd7d53b7c9d777386957e16c",
+    "title": "Customizing ML Predictions for Online Algorithms",
+    "year": 2020,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "Keerti Anand",
+        "Rong Ge",
+        "Debmalya Panigrahi"
+    ],
+    "doi": "10.48550/arXiv.2205.08715",
+    "arxivId": "2205.08715",
+    "url": "https://www.semanticscholar.org/paper/a9dc160dd0ef91b4fd7d53b7c9d777386957e16c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2205.08715",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A popular line of recent research incorporates ML advice in the design of online algorithms to improve their performance in typical instances. These papers treat the ML algorithm as a black-box, and redesign online algorithms to take advantage of ML predictions. In this paper, we ask the complementary question: can we redesign ML algorithms to provide better predictions for online algorithms? We explore this question in the context of the classic rent-or-buy problem, and show that incorporating optimization benchmarks in ML loss functions leads to signiﬁcantly better performance, while maintaining a worst-case adversarial result when the advice is completely wrong. We support this ﬁnding both through theoretical bounds and numerical simulations.",
+    "citationCount": 62,
+    "referenceCount": 35
+}

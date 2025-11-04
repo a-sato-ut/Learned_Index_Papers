@@ -1,0 +1,31 @@
+{
+    "paperId": "f3d707acd5fcbbba2fab4ef355573aaaa30e7073",
+    "title": "AutoIndexer: A Reinforcement Learning-Enhanced Index Advisor Towards Scaling Workloads",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Taiyi Wang",
+        "Eiko Yoneki"
+    ],
+    "doi": "10.48550/arXiv.2507.23084",
+    "arxivId": "2507.23084",
+    "url": "https://www.semanticscholar.org/paper/f3d707acd5fcbbba2fab4ef355573aaaa30e7073",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficiently selecting indexes is fundamental to database performance optimization, particularly for systems handling large-scale analytical workloads. While deep reinforcement learning (DRL) has shown promise in automating index selection through its ability to learn from experience, few works address how these RL-based index advisors can adapt to scaling workloads due to exponentially growing action spaces and heavy trial and error. To address these challenges, we introduce AutoIndexer, a framework that combines workload compression, query optimization, and specialized RL models to scale index selection effectively. By operating on compressed workloads, AutoIndexer substantially lowers search complexity without sacrificing much index quality. Extensive evaluations show that it reduces end-to-end query execution time by up to 95% versus non-indexed baselines. On average, it outperforms state-of-the-art RL-based index advisors by approximately 20% in workload cost savings while cutting tuning time by over 50%. These results affirm AutoIndexer's practicality for large and diverse workloads.",
+    "citationCount": 0,
+    "referenceCount": 47
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "b50285ad04d04275e61b6ffc2667c6e473c05a3e",
+    "title": "Interacting Large Language Model Agents. Interpretable Models and Social Learning",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Adit Jain",
+        "Vikram Krishnamurthy"
+    ],
+    "doi": "10.48550/arXiv.2411.01271",
+    "arxivId": "2411.01271",
+    "url": "https://www.semanticscholar.org/paper/b50285ad04d04275e61b6ffc2667c6e473c05a3e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Economics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper discusses the theory and algorithms for interacting large language model agents (LLMAs) using methods from statistical signal processing and microeconomics. While both fields are mature, their application to decision-making involving interacting LLMAs remains unexplored. Motivated by Bayesian sentiment analysis on online platforms, we construct interpretable models and algorithms that enable LLMAs to interact and perform Bayesian inference. Because interacting LLMAs learn from both prior decisions and external inputs, they can exhibit bias and herding behavior. Thus, developing interpretable models and stochastic control algorithms is essential to understand and mitigate these behaviors. This paper has three main results. First, we show using Bayesian revealed preferences from microeconomics that an individual LLMA satisfies the necessary and sufficient conditions for rationally inattentive (bounded rationality) Bayesian utility maximization and, given an observation, the LLMA chooses an action that maximizes a regularized utility. Second, we utilize Bayesian social learning to construct interpretable models for LLMAs that interact sequentially with each other and the environment while performing Bayesian inference. Our proposed models capture the herding behavior exhibited by interacting LLMAs. Third, we propose a stochastic control framework to delay herding and improve state estimation accuracy under 2 settings: (a) centrally controlled LLMAs (b) autonomous LLMAs with incentives. We demonstrate the effectiveness of our methods on real datasets for hate speech classification and product quality assessment, using open-source models like LLaMA and closed-source models like ChatGPT. The main takeaway of this paper, based on empirical analysis and mathematical formalism, is that LLMAs act as rationally bounded Bayesian agents that exhibit social learning when interacting.",
+    "citationCount": 0,
+    "referenceCount": 108
+}

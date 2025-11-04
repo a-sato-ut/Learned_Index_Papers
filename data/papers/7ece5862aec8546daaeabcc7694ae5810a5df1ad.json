@@ -1,0 +1,34 @@
+{
+    "paperId": "7ece5862aec8546daaeabcc7694ae5810a5df1ad",
+    "title": "Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yuan Feng",
+        "Yukun Cao",
+        "Hairu Wang",
+        "Xike Xie",
+        "S. K. Zhou"
+    ],
+    "doi": "10.48550/arXiv.2505.19561",
+    "arxivId": "2505.19561",
+    "url": "https://www.semanticscholar.org/paper/7ece5862aec8546daaeabcc7694ae5810a5df1ad",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sketches, probabilistic structures for estimating item frequencies in infinite data streams with limited space, are widely used across various domains. Recent studies have shifted the focus from handcrafted sketches to neural sketches, leveraging memory-augmented neural networks (MANNs) to enhance the streaming compression capabilities and achieve better space-accuracy trade-offs.However, existing neural sketches struggle to scale across different data domains and space budgets due to inflexible MANN configurations. In this paper, we introduce a scalable MANN architecture that brings to life the {\\it Lego sketch}, a novel sketch with superior scalability and accuracy. Much like assembling creations with modular Lego bricks, the Lego sketch dynamically coordinates multiple memory bricks to adapt to various space budgets and diverse data domains. Our theoretical analysis guarantees its high scalability and provides the first error bound for neural sketch. Furthermore, extensive experimental evaluations demonstrate that the Lego sketch exhibits superior space-accuracy trade-offs, outperforming existing handcrafted and neural sketches. Our code is available at https://github.com/FFY0/LegoSketch_ICML.",
+    "citationCount": 0,
+    "referenceCount": 56
+}

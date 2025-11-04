@@ -97,7 +97,7 @@ class Corpus:
         print(f"Loaded {len(self.papers)} papers")
 
     def _lcs_length(self, s1: str, s2: str) -> int:
-        """最長共通部分列（LCS）の長さを計算"""
+        """最長共通部分列（LCS）の長さを計算（連続しない文字列を許す）"""
         m, n = len(s1), len(s2)
         dp = [[0] * (n + 1) for _ in range(m + 1)]
 
@@ -110,41 +110,34 @@ class Corpus:
 
         return dp[m][n]
 
+    def _lcss_length(self, s1: str, s2: str) -> int:
+        """最長共通部分文字列（LCSS）の長さを計算（連続する部分のみ）"""
+        m, n = len(s1), len(s2)
+        dp = [[0] * (n + 1) for _ in range(m + 1)]
+        max_length = 0
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+                if s1[i - 1].lower() == s2[j - 1].lower():
+                    dp[i][j] = dp[i - 1][j - 1] + 1
+                    max_length = max(max_length, dp[i][j])
+                else:
+                    dp[i][j] = 0  # 連続する必要があるため、不一致なら0
+
+        return max_length
+
     def best_match_by_title(self, query: str) -> Optional[Paper]:
-        """タイトルに対する類似度スコア (A and B) / (A or B) でベストマッチを返す
-        
-        A and B: LCSの長さ
-        A or B: |A| + |B| - LCSの長さ
-        """
+        """タイトルに対するLCSが最大のものを返す。LCSが同じ場合はタイトルが短いものを返す"""
         if not query:
             return None
 
-        best_match = None
-        best_score = 0.0
+        def get_sort_key_value(paper: Paper) -> Tuple[int, int, int]:
+            # smaller the better
+            lcs_len = self._lcs_length(query.lower(), paper.title.lower())
+            lcss_len = self._lcss_length(query.lower(), paper.title.lower())
+            return  -lcss_len, -lcs_len, len(paper.title), paper.paperId
 
-        query_len = len(query)
-
-        for paper in self.papers.values():
-            title = paper.title
-            title_len = len(title)
-            
-            # LCSの長さを計算
-            lcs_len = self._lcs_length(query, title)
-            
-            # A or B = |A| + |B| - LCSの長さ
-            a_or_b = query_len + title_len - lcs_len
-            
-            # 0除算を避ける
-            if a_or_b == 0:
-                continue
-            
-            # 類似度スコア = (A and B) / (A or B) = LCS長 / (|A| + |B| - LCS長)
-            similarity_score = lcs_len / a_or_b
-            
-            if similarity_score > best_score:
-                best_score = similarity_score
-                best_match = paper
-
+        best_match = sorted(self.papers.values(), key=get_sort_key_value)[0]
         return best_match
 
     def get_paper(self, paper_id: str) -> Optional[Paper]:

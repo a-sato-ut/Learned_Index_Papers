@@ -1,0 +1,36 @@
+{
+    "paperId": "f84ae1a19c83272dc4ef0f902f94a98e98174581",
+    "title": "Out-of-Distribution Graph Models Merging",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yidi Wang",
+        "Jiawei Gu",
+        "Xiaobing Pei",
+        "Xubin Zheng",
+        "Xiao Luo",
+        "Pengyang Wang",
+        "Ziyue Qiao"
+    ],
+    "doi": "10.48550/arXiv.2506.03674",
+    "arxivId": "2506.03674",
+    "url": "https://www.semanticscholar.org/paper/f84ae1a19c83272dc4ef0f902f94a98e98174581",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper studies a novel problem of out-of-distribution graph models merging, which aims to construct a generalized model from multiple graph models pre-trained on different domains with distribution discrepancy. This problem is challenging because of the difficulty in learning domain-invariant knowledge implicitly in model parameters and consolidating expertise from potentially heterogeneous GNN backbones. In this work, we propose a graph generation strategy that instantiates the mixture distribution of multiple domains. Then, we merge and fine-tune the pre-trained graph models via a MoE module and a masking mechanism for generalized adaptation. Our framework is architecture-agnostic and can operate without any source/target domain data. Both theoretical analysis and experimental results demonstrate the effectiveness of our approach in addressing the model generalization problem.",
+    "citationCount": 0,
+    "referenceCount": 69
+}

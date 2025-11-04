@@ -1,0 +1,31 @@
+{
+    "paperId": "654fd63e6f8aa17961804844ab20b744ca903322",
+    "title": "λ-Tune: Harnessing Large Language Models for Automated Database System Tuning",
+    "year": 2024,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Victor Giannakouris",
+        "Immanuel Trummer"
+    ],
+    "doi": "10.1145/3709652",
+    "arxivId": "2411.03500",
+    "url": "https://www.semanticscholar.org/paper/654fd63e6f8aa17961804844ab20b744ca903322",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce λ-Tune, a framework that leverages Large Language Models (LLMs) for automated database system tuning. The design of λ-Tune is motivated by the capabilities of the latest generation of LLMs. Different from prior work, leveraging LLMs to extract tuning hints for single parameters, λ-Tune generates entire configuration scripts, based on a large input document, describing the tuning context. λ-Tune generates alternative configurations, using a principled approach to identify the best configuration, out of a small set of candidates. In doing so, it minimizes reconfiguration overheads and ensures that evaluation costs are bounded as a function of the optimal run time. By treating prompt generation as a cost-based optimization problem, λ-Tune conveys the most relevant context to the LLM while bounding the number of input tokens and, therefore, monetary fees for LLM invocations. We compare λ-Tune to various baselines, using multiple benchmarks and PostgreSQL and MySQL as target systems for tuning, showing that λ-Tune is significantly more robust than prior approaches.",
+    "citationCount": 5,
+    "referenceCount": 26
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "8df5bb5704c4458dca0a51bba49ec9a04d4e3611",
+    "title": "A New Approach to Capacity Scaling Augmented With Unreliable Machine Learning Predictions",
+    "year": 2023,
+    "venue": "Mathematics of Operations Research",
+    "authors": [
+        "Daan Rutten",
+        "Debankur Mukherjee"
+    ],
+    "doi": "10.1287/moor.2023.1364",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8df5bb5704c4458dca0a51bba49ec9a04d4e3611",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern data centers suffer from immense power consumption. As a result, data center operators have heavily invested in capacity-scaling solutions, which dynamically deactivate servers if the demand is low and activate them again when the workload increases. We analyze a continuous-time model for capacity scaling, where the goal is to minimize the weighted sum of flow time, switching cost, and power consumption in an online fashion. We propose a novel algorithm, called adaptive balanced capacity scaling (ABCS), that has access to black-box machine learning predictions. ABCS aims to adapt to the predictions and is also robust against unpredictable surges in the workload. In particular, we prove that ABCS is [Formula: see text] competitive if the predictions are accurate, and yet, it has a uniformly bounded competitive ratio even if the predictions are completely inaccurate. Finally, we investigate the performance of this algorithm on a real-world data set and carry out extensive numerical experiments, which positively support the theoretical results. Funding: This work was partially supported by the Division of Computing and Communication Foundations [Grant 2113027]. The authors also acknowledge financial support for this project from the Algorithm and Randomness Center–Transdisciplinary Research Institute for Advancing Data Science Fellowship at Georgia Tech.",
+    "citationCount": 7,
+    "referenceCount": 56
+}
