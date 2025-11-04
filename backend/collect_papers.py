@@ -65,6 +65,7 @@ def collect_citing_paper_metadata_list(pid: str, verbose: bool = False):
         print(f"[INFO] Collecting {len(citing_ids)} citing paper metadata ({pid})")
     for citing_id in tqdm(citing_ids, disable=not verbose):
         metadata_list.append(get_paper_metadata_if_not_exists(citing_id))
+        list_citing_paper_ids_if_not_exists(citing_id)
     return metadata_list
 
 
@@ -75,14 +76,8 @@ if __name__ == "__main__":
     # 1. base paperのメタ情報を収集し保存
     base_pid = get_paper_id_by_title(base_title, year=base_year)
     base_meta = get_paper_metadata_if_not_exists(base_pid)
-    print(f"[INFO] [1/3] Collected base paper metadata: {base_meta['title']} ({base_meta['year']})")
+    print(f"[INFO] [1/2] Collected base paper metadata: {base_meta['title']} ({base_meta['year']})")
 
     # 2. base paperを引用している論文のメタ情報を収集し保存
     citing_metadata_list = collect_citing_paper_metadata_list(base_pid, verbose=True)
-    print(f"[INFO] [2/3] Collected {len(citing_metadata_list)} citing paper metadata")
-
-    # 3. base paperを引用している論文を引用している論文のメタ情報を収集し保存
-    for citing_metadata in tqdm(citing_metadata_list):
-        citing_citing_metadata_list = collect_citing_paper_metadata_list(citing_metadata["paperId"], verbose=False)
-        for metadata in tqdm(citing_citing_metadata_list):
-            save_paper_metadata(metadata["paperId"], metadata)
+    print(f"[INFO] [2/2] Collected {len(citing_metadata_list)} citing paper metadata")
