@@ -1,0 +1,12 @@
+{
+  "paperId": "96b06de775fbfb947347ce2b82be3010a27266c5",
+  "title": "LHist: Towards Learning Multi-dimensional Histogram for Massive Spatial Data",
+  "abstract": "Data synopsis is widely adopted to speed-up query processing over large spatial databases. As one of the most popular spatial data synopses, multi-dimensional histograms (MH) have been studied and adopted by modern DBMS and analytical systems for decades. However, existing MH construction techniques highly rely on expert knowledge and statistical assumptions, making them hard to achieve consistently satisfactory performance across different datasets. Inspired by the emerging learned index techniques where the widely used index structures like B-tree can be further improved by integrating simple machine learning models, in this paper, we propose a learned data synopsis technique named Learned Multi-dimensional Histogram (LHist). Compared with the traditional data synopsis techniques, LHist is fully data-driven, easy-to-implement, and has the potential to achieve better storage-accuracy trade-off. On the typical task of range COUNT query estimation, the extensive experimental studies on large-scale real-world datasets and synthetic benchmarks reveal that LHist can outperform the existing synopsis structures in terms of storage cost, query processing efficiency, and estimation accuracy.",
+  "tags": [
+    "Benchmark",
+    "Database",
+    "Learned Index",
+    "Multidimensional",
+    "Query optimization"
+  ]
+}

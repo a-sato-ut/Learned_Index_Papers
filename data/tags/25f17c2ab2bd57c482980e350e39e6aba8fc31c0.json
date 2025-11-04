@@ -1,0 +1,12 @@
+{
+  "paperId": "25f17c2ab2bd57c482980e350e39e6aba8fc31c0",
+  "title": "SparDL: Distributed Deep Learning Training with Efficient Sparse Communication",
+  "abstract": "Top-k sparsification has recently been widely used to reduce the communication volume in distributed deep learning. However, due to the Sparse Gradient Accumulation (SGA) dilemma, the performance of top-k sparsification still has limitations. Recently, a few methods have been put forward to handle the SGA dilemma. Regrettably, even the state-of-the-art method suffers from several drawbacks, e.g., it relies on an inefficient communication algorithm and requires extra transmission steps. Motivated by the limitations of existing methods, we propose a novel efficient sparse communication framework, called SparDL. Specifically, SparDL uses the Spar-Reduce-Scatter algorithm, which is based on an efficient Reduce-Scatter model, to handle the SGA dilemma without additional communication operations. Besides, to further reduce the latency cost and improve the efficiency of SparDL, we propose the Spar-All-Gather algorithm. Moreover, we propose the global residual collection algorithm to ensure fast convergence of model training. Finally, extensive experiments are conducted to validate the superiority of SparDL.",
+  "tags": [
+    "Benchmark",
+    "Database",
+    "Distributed",
+    "Query optimization",
+    "Reinforcement Learning"
+  ]
+}

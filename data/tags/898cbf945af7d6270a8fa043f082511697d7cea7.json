@@ -1,0 +1,11 @@
+{
+  "paperId": "898cbf945af7d6270a8fa043f082511697d7cea7",
+  "title": "Interval cracking and its application to databases of complex geometries",
+  "abstract": "A new adaptive index construction technique is suggested for large datasets with intervals as keys. As previous cracking approaches, it starts from an unsorted table, and a search tree is gradually built according to the queries, reaching a better and better performance. It can be used as a primary index or in combinations: another primary index manages search for clusters of objects, and interval cracking optimizes the search within clusters. We investigate this for learned indexes for complex geometric objects. Depending on the dataset, the combined approach or cracking as the only index works best.",
+  "tags": [
+    "B-tree",
+    "Database",
+    "Learned Index",
+    "Query optimization"
+  ]
+}

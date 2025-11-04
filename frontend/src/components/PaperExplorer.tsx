@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import * as d3 from 'd3';
-import { Paper, SearchResult, PaperNode, PaperEdge } from '../types';
+import { Paper, SearchResult, PaperNode, PaperEdge, PapersByTagResult } from '../types';
 import './PaperExplorer.css';
 
 const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:8000';
@@ -12,16 +12,70 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<SearchResult | null>(null);
   const [activeTab, setActiveTab] = useState<'list' | 'graph' | 'graphYear'>('list');
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const [availableTags, setAvailableTags] = useState<string[]>([]);
+  const [tagResult, setTagResult] = useState<PapersByTagResult | null>(null);
+  const [tagDropdownOpen, setTagDropdownOpen] = useState(false);
   const svgRef = useRef<SVGSVGElement>(null);
+
+  const fetchTags = async () => {
+    try {
+      const response = await fetch(`${API_BASE}/api/tags`);
+      if (response.ok) {
+        const data = await response.json();
+        setAvailableTags(data.tags || []);
+      }
+    } catch (error) {
+      console.error('Error fetching tags:', error);
+    }
+  };
 
   const searchPapers = async (searchQuery?: string) => {
     const queryToUse = searchQuery || query;
+    
+    // タイトルが空で、タグが指定されたら → タグのみでフィルタリング
+    if (!queryToUse.trim() && selectedTags.length > 0) {
+      setLoading(true);
+      setResult(null);
+      try {
+        const tagsParam = selectedTags.join(',');
+        const url = `${API_BASE}/api/papers/by-tag?tags=${encodeURIComponent(tagsParam)}`;
+        console.log('Searching by tags with URL:', url);
+        
+        const response = await fetch(url);
+        
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        const data: PapersByTagResult = await response.json();
+        console.log('Tag search result:', data);
+        
+        setTagResult(data);
+        setResult(null);
+      } catch (error) {
+        console.error('Tag search error:', error);
+        const errorMessage = error instanceof Error ? error.message : '不明なエラー';
+        alert(`検索に失敗しました: ${errorMessage}\n\nバックエンドサーバー（${API_BASE}）が起動しているか確認してください。`);
+      } finally {
+        setLoading(false);
+      }
+      return;
+    }
+
+    // タイトルが空じゃなくて、タグが指定されたら → タイトル検索 + タグフィルタリング
+    // タイトルが空じゃなくて、タグが指定されていない → 通常のタイトル検索
     if (!queryToUse.trim()) return;
 
     setLoading(true);
     setResult(null);
+    setTagResult(null);
     try {
-      const url = `${API_BASE}/api/search?query=${encodeURIComponent(queryToUse)}`;
+      let url = `${API_BASE}/api/search?query=${encodeURIComponent(queryToUse)}`;
+      if (selectedTags.length > 0) {
+        const tagsParam = selectedTags.join(',');
+        url += `&tags=${encodeURIComponent(tagsParam)}`;
+      }
       console.log('Searching with URL:', url);
       
       const response = await fetch(url);
@@ -55,9 +109,23 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   };
 
   useEffect(() => {
+    // タグ一覧を取得
+    fetchTags();
     // デフォルトクエリで検索
     searchPapers();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    // タグが変更されたら検索を実行
+    // タイトルが空でタグが指定された場合 → タグのみでフィルタリング
+    // タイトルがあってタグが指定された場合 → タイトル検索 + タグフィルタリング
+    // タイトルがあってタグがクリアされた場合 → タイトル検索のみ
+    if (selectedTags.length > 0 || (!selectedTags.length && query.trim())) {
+      searchPapers();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedTags]);
 
   useEffect(() => {
     if (result && result.paper && (activeTab === 'graph' || activeTab === 'graphYear')) {
@@ -103,7 +171,12 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
 
     const citesLevel2Promises = data.cites.map(async (citedPaper) => {
       try {
-        const response = await fetch(`${API_BASE}/api/paper/${citedPaper.paperId}?limit=20`);
+        let url = `${API_BASE}/api/paper/${citedPaper.paperId}?limit=20`;
+        if (selectedTags.length > 0) {
+          const tagsParam = selectedTags.join(',');
+          url += `&tags=${encodeURIComponent(tagsParam)}`;
+        }
+        const response = await fetch(url);
         if (response.ok) {
           const paperData = await response.json();
           return { cites: paperData.cites || [], cited_by: paperData.cited_by || [] };
@@ -116,7 +189,12 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
 
     const citedByLevel2Promises = data.cited_by.map(async (citingPaper) => {
       try {
-        const response = await fetch(`${API_BASE}/api/paper/${citingPaper.paperId}?limit=20`);
+        let url = `${API_BASE}/api/paper/${citingPaper.paperId}?limit=20`;
+        if (selectedTags.length > 0) {
+          const tagsParam = selectedTags.join(',');
+          url += `&tags=${encodeURIComponent(tagsParam)}`;
+        }
+        const response = await fetch(url);
         if (response.ok) {
           const paperData = await response.json();
           return { cites: paperData.cites || [], cited_by: paperData.cited_by || [] };
@@ -859,8 +937,29 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             <span className="paper-card-authors">{paper.authors.slice(0, 3).join(', ')}</span>
           )}
         </div>
+        {paper.tags && paper.tags.length > 0 && (
+          <div className="paper-card-tags">
+            <div className="paper-card-tags-list">
+              {paper.tags.map((tag, index) => (
+                <span key={index} className="paper-card-tag">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
         {paper.abstract && (
           <p className="paper-card-abstract">{paper.abstract.substring(0, 200)}...</p>
+        )}
+        {paper.tldr && (
+          <div className="paper-card-tldr">
+            <strong>TLDR:</strong> {paper.tldr}
+          </div>
+        )}
+        {paper.tldr_ja && (
+          <div className="paper-card-tldr">
+            <strong>TLDR (日本語):</strong> {paper.tldr_ja}
+          </div>
         )}
         <div className="paper-card-footer">
           <div className="paper-card-stats">
@@ -917,22 +1016,66 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   return (
     <div className="paper-explorer">
       <div className="paper-explorer-header">
-        <h1>📚 Learned Index Papers - Citation Network</h1>
-        <p className="subtitle">論文の引用関係ネットワーク可視化</p>
+        <h1>📚 Learned Index Papers</h1>
       </div>
 
       <div className="paper-explorer-search">
-        <input
-          type="text"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          onKeyPress={handleKeyPress}
-          placeholder="論文タイトルで検索..."
-          className="paper-explorer-input"
-        />
-        <button onClick={() => searchPapers()} disabled={loading} className="paper-explorer-button">
-          {loading ? '検索中...' : '検索'}
-        </button>
+        <div className="paper-explorer-search-row">
+          <input
+            type="text"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onKeyPress={handleKeyPress}
+            placeholder="論文タイトルで検索..."
+            className="paper-explorer-input"
+          />
+          <button onClick={() => searchPapers()} disabled={loading} className="paper-explorer-button">
+            {loading ? '検索中...' : '検索'}
+          </button>
+        </div>
+        <div className="paper-explorer-tag-filter">
+          <div className="paper-explorer-tag-checkboxes">
+            <div 
+              className="paper-explorer-tag-filter-header"
+              onClick={() => setTagDropdownOpen(!tagDropdownOpen)}
+            >
+              <span className="paper-explorer-tag-dropdown-icon">
+                {tagDropdownOpen ? '▼' : '▶'}
+              </span>
+              <label className="paper-explorer-tag-filter-label">タグでフィルタリング:</label>
+            </div>
+            {tagDropdownOpen && (
+              <div className="paper-explorer-tag-checkboxes-list">
+                {availableTags.map((tag) => (
+                  <label key={tag} className="paper-explorer-tag-checkbox-label">
+                    <input
+                      type="checkbox"
+                      checked={selectedTags.includes(tag)}
+                      onChange={(e) => {
+                        if (e.target.checked) {
+                          setSelectedTags([...selectedTags, tag]);
+                        } else {
+                          setSelectedTags(selectedTags.filter(t => t !== tag));
+                        }
+                      }}
+                      disabled={loading}
+                    />
+                    <span>{tag}</span>
+                  </label>
+                ))}
+              </div>
+            )}
+          </div>
+          <button
+            onClick={() => {
+              setSelectedTags([]);
+            }}
+            className="paper-explorer-tag-clear"
+            disabled={loading}
+          >
+            全てクリア
+          </button>
+        </div>
       </div>
 
       {loading && (
@@ -953,9 +1096,74 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                   <span>{result.paper.authors.join(', ')}</span>
                 )}
               </div>
+              {result.paper.tags && result.paper.tags.length > 0 && (
+                <div className="paper-explorer-result-tags">
+                  <div className="paper-explorer-result-tags-list">
+                    {result.paper.tags.map((tag, index) => (
+                      <span key={index} className="paper-explorer-result-tag">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
               {result.paper.abstract && (
                 <p className="paper-explorer-result-abstract">{result.paper.abstract}</p>
               )}
+              {result.paper.tldr && (
+                <div className="paper-explorer-result-tldr">
+                  <h4 className="paper-explorer-result-tldr-title">TLDR</h4>
+                  <p className="paper-explorer-result-tldr-content">{result.paper.tldr}</p>
+                </div>
+              )}
+              {result.paper.tldr_ja && (
+                <div className="paper-explorer-result-tldr">
+                  <h4 className="paper-explorer-result-tldr-title">TLDR (日本語)</h4>
+                  <p className="paper-explorer-result-tldr-content">{result.paper.tldr_ja}</p>
+                </div>
+              )}
+              <div className="paper-explorer-result-links">
+                {result.paper.arxivId && (
+                  <a
+                    href={`https://arxiv.org/abs/${result.paper.arxivId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="paper-explorer-result-link"
+                  >
+                    arXiv
+                  </a>
+                )}
+                {result.paper.doi && (
+                  <a
+                    href={`https://doi.org/${result.paper.doi}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="paper-explorer-result-link"
+                  >
+                    DOI
+                  </a>
+                )}
+                {result.paper.url && (
+                  <a
+                    href={result.paper.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="paper-explorer-result-link"
+                  >
+                    Semantic Scholar
+                  </a>
+                )}
+                {result.paper.openAccessPdf && (
+                  <a
+                    href={result.paper.openAccessPdf}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="paper-explorer-result-link"
+                  >
+                    PDF
+                  </a>
+                )}
+              </div>
             </div>
           </div>
 
@@ -1009,10 +1217,27 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         </>
       )}
 
-      {!loading && result && !result.paper && (
+      {!loading && result && !result.paper && !tagResult && (
         <div className="paper-explorer-no-result">
           <p>該当する論文が見つかりませんでした。</p>
         </div>
+      )}
+
+      {!loading && tagResult && !query.trim() && (
+        <>
+          <div className="paper-explorer-tag-result-header">
+            <h2>タグ: {tagResult.tags.join(', ')} ({tagResult.count}件)</h2>
+          </div>
+          <div className="paper-explorer-list">
+            <div className="paper-explorer-list-section">
+              <div className="paper-explorer-list-grid">
+                {tagResult.papers.map((paper) => (
+                  <PaperCard key={paper.paperId} paper={paper} type="cites" />
+                ))}
+              </div>
+            </div>
+          </div>
+        </>
       )}
     </div>
   );

@@ -1,0 +1,11 @@
+{
+  "paperId": "f0f8843a343d66a03602f31b560fa432775c9549",
+  "title": "Learning-Augmented Online TSP on Rings, Trees, Flowers and (almost) Everywhere Else",
+  "abstract": "We study the Online Traveling Salesperson Problem (OLTSP) with predictions. In OLTSP, a sequence of initially unknown requests arrive over time at points (locations) of a metric space. The goal is, starting from a particular point of the metric space (the origin), to serve all these requests while minimizing the total time spent. The server moves with unit speed or is\"waiting\"(zero speed) at some location. We consider two variants: in the open variant, the goal is achieved when the last request is served. In the closed one, the server additionally has to return to the origin. We adopt a prediction model, introduced for OLTSP on the line, in which the predictions correspond to the locations of the requests and extend it to more general metric spaces. We first propose an oracle-based algorithmic framework, inspired by previous work. This framework allows us to design online algorithms for general metric spaces that provide competitive ratio guarantees which, given perfect predictions, beat the best possible classical guarantee (consistency). Moreover, they degrade gracefully along with the increase in error (smoothness), but always within a constant factor of the best known competitive ratio in the classical case (robustness). Having reduced the problem to designing suitable efficient oracles, we describe how to achieve this for general metric spaces as well as specific metric spaces (rings, trees and flowers), the resulting algorithms being tractable in the latter case. The consistency guarantees of our algorithms are tight in almost all cases, and their smoothness guarantees only suffer a linear dependency on the error, which we show is necessary. Finally, we provide robustness guarantees improving previous results.",
+  "tags": [
+    "Database",
+    "Nearest Neighbor Search",
+    "Query optimization",
+    "Theoretical"
+  ]
+}

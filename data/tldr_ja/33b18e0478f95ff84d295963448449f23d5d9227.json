@@ -1,0 +1,6 @@
+{
+  "paperId": "33b18e0478f95ff84d295963448449f23d5d9227",
+  "title": "Fast Linear Interpolation",
+  "abstract": "We present fast implementations of linear interpolation operators for piecewise linear functions and multi-dimensional look-up tables. These operators are common for efficient transformations in image processing and are the core operations needed for lattice models like deep lattice networks, a popular machine learning function class for interpretable, shape-constrained machine learning. We present new strategies for an efficient compiler-based solution using MLIR to accelerate linear interpolation. For real-world machine-learned multi-layer lattice models that use multidimensional linear interpolation, we show these strategies run 5-10× faster on a standard CPU compared to an optimized C++ interpreter implementation.",
+  "tldr_ja": "線形補間の高速実装を提案し、特に画像処理や深層格子ネットワークにおける効率的な変換において、MLIRを用いた新しいコンパイラベースの手法が従来のC++インタプリタより5-10倍速いことを示す。"
+}

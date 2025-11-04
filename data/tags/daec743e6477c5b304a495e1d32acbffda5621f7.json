@@ -1,0 +1,12 @@
+{
+  "paperId": "daec743e6477c5b304a495e1d32acbffda5621f7",
+  "title": "minIL: A Simple and Small Index for String Similarity Search with Edit Distance",
+  "abstract": "The string similarity search is core functionality in a range of applications, including data cleaning, near-duplicate object detection, and data integration. We study the problem of threshold similarity search with the edit distance, where given a set of strings, a threshold $k$, and a query string $q$, we aim to find all strings in the set whose edit distances to $q$ are no larger than $k$. Extensive studies have been proposed for the threshold similarity search problem with the edit distance. However, they suffer from a huge space consumption issue when achieving only an acceptable efficiency, especially for long strings. In this paper, we propose a simple yet small index, called minIL, to eliminate this issue. First, we adopt a minhash family to capture pivot characters and to construct sketch representations for strings. Second, we develop a multi-level inverted index to search sketches with a low space consumption. Finally, we apply a novel learned index technique on top of the index that further improves the query efficiency. Extensive experiments on real-world datasets offer insight into the performance of our method and show that it substantially reduces the index size, and is capable of outperforming the baseline approaches.",
+  "tags": [
+    "Filter",
+    "Learned Index",
+    "Main-memory",
+    "Sketch",
+    "String Key"
+  ]
+}

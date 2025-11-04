@@ -1,0 +1,6 @@
+{
+  "paperId": "984dfa89bab11be1263646be3be9236524999e79",
+  "title": "Bounding the Last Mile: Efficient Learned String Indexing",
+  "abstract": "We introduce the RadixStringSpline (RSS) learned index structure for efficiently indexing strings. RSS is a tree of radix splines each indexing a fixed number of bytes. RSS approaches or exceeds the performance of traditional string indexes while using 7-70$\\times$ less memory. RSS achieves this by using the minimal string prefix to sufficiently distinguish the data unlike most learned approaches which index the entire string. Additionally, the bounded-error nature of RSS accelerates the last mile search and also enables a memory-efficient hash-table lookup accelerator. We benchmark RSS on several real-world string datasets against ART and HOT. Our experiments suggest this line of research may be promising for future memory-intensive database applications.",
+  "tldr_ja": "RadixStringSpline (RSS) は、効率的な文字列インデックス構造で、従来のインデックスに比べて7-70倍少ないメモリで高い性能を発揮します。最小の文字列プレフィックスを使用してデータを識別し、エラーを制限することで検索を高速化し、メモリ効率の良いハッシュテーブルのルックアップも可能にします。実験結果は、将来のメモリ集約型データベースアプリケーションにおいて有望であることを示唆しています。"
+}

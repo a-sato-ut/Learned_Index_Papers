@@ -1,0 +1,6 @@
+{
+  "paperId": "f7d71ad1db8c818277be14cb07566ad59eb69d3a",
+  "title": "EFEKTIVITAS INDEKS DALAM MENINGKATKAN PERFORMA QUERY JOIN DI SISTEM BASIS DATA RELASIONAL",
+  "abstract": "Optimasi kinerja query join dalam sistem basis data relasional (RDBMS) sangat penting untuk meningkatkan efisiensi pengolahan data dalam skala besar. Penelitian ini mengevaluasi efektivitas indeks dalam mempercepat eksekusi query join menggunakan dataset Employee Database SQL pada MySQL. Tiga skenario pengujian dilakukan: Single Join, Triple Join, dan Triple Join dengan kondisi filter, masing-masing dieksekusi 10 kali pada sistem dengan spesifikasi CPU Intel Core i5-2467M (1.6 GHz) dan RAM 12 GB. Hasil eksperimen menunjukkan bahwa indeks mempercepat eksekusi Single Join dari 250 ms menjadi 150 ms (40% lebih cepat), Triple Join dari 950 ms menjadi 750 ms (21% lebih cepat), dan Triple Join dengan kondisi dari 1800 ms menjadi 900 ms (50% lebih cepat). Hasil ini menunjukkan bahwa indeks sangat efektif dalam mengurangi waktu eksekusi query, terutama pada skenario dengan filter spesifik. Temuan ini memberikan wawasan bagi pengembang sistem basis data dalam merancang strategi optimasi query berbasis indeks untuk meningkatkan kinerja aplikasi berbasis data.",
+  "tldr_ja": "インデックスは、リレーショナルデータベースにおけるクエリ結合の実行時間を大幅に短縮し、特に特定のフィルタ条件がある場合に効果的であることが示された。"
+}

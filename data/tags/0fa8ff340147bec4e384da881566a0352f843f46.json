@@ -1,0 +1,11 @@
+{
+  "paperId": "0fa8ff340147bec4e384da881566a0352f843f46",
+  "title": "From Specific to Generic Learned Sorted Set Dictionaries: A Theoretically Sound Paradigm Yelding Competitive Data Structural Boosters in Practice",
+  "abstract": "This research concerns Learned Data Structures, a recent area that has emerged at the crossroad of Machine Learning and Classic Data Structures. It is methodologically important and with a high practical impact. We focus on Learned Indexes, i.e., Learned Sorted Set Dictionaries. The proposals available so far are specific in the sense that they can boost, indeed impressively, the time performance of Table Search Procedures with a sorted layout only, e.g., Binary Search. We propose a novel paradigm that, complementing known specialized ones, can produce Learned versions of any Sorted Set Dictionary, for instance, Balanced Binary Search Trees or Binary Search on layouts other that sorted, i.e., Eytzinger. Theoretically, based on it, we obtain several results of interest, such as (a) the first Learned Optimum Binary Search Forest, with mean access time bounded by the Entropy of the probability distribution of the accesses to the Dictionary; (b) the first Learned Sorted Set Dictionary that, in the Dynamic Case and in an amortized analysis setting, matches the same time bounds known for Classic Dictionaries. This latter under widely accepted assumptions regarding the size of the Universe. The experimental part, somewhat complex in terms of software development, clearly indicates the nonobvious finding that the generalization we propose can yield effective and competitive Learned Data Structural Booster, even with respect to specific benchmark models.",
+  "tags": [
+    "B-tree",
+    "Benchmark",
+    "Learned Index",
+    "Theoretical"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "paperId": "8b2e250cb8391f9a10a6efd3ce111312b8544154",
+  "title": "LearnedSort as a learning-augmented SampleSort: Analysis and Parallelization",
+  "abstract": "This work analyzes and parallelizes LearnedSort, the novel algorithm that sorts using machine learning models based on the cumulative distribution function. LearnedSort is analyzed under the lens of algorithms with predictions, and it is argued that LearnedSort is a learning-augmented SampleSort. A parallel LearnedSort algorithm is developed combining LearnedSort with the state-of-the-art SampleSort implementation, IPS4o. Benchmarks on synthetic and real-world datasets demonstrate improved parallel performance for parallel LearnedSort compared to IPS4o and other sorting algorithms.",
+  "tags": [
+    "Benchmark",
+    "Learned Index",
+    "Sorting Algorithm"
+  ]
+}

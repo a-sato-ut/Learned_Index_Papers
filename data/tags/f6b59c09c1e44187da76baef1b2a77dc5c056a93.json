@@ -1,0 +1,10 @@
+{
+  "paperId": "f6b59c09c1e44187da76baef1b2a77dc5c056a93",
+  "title": "ESL: A High-Performance Skiplist with Express Lane",
+  "abstract": "With the increasing capacity and cost-efficiency of DRAM in multi-core environments, in-memory databases have emerged as fundamental solutions for delivering high performance. The index structure is a crucial component of the in-memory database, which, leveraging fast access to DRAM, plays an important role in the performance improvement and scalability of in-memory databases. A skiplist is one of the most widely used in-memory index structures and it has been adopted by popular databases. However, skiplists suffer from poor performance due to their structural limitations. In this work, we propose ESL, a high-performance and scalable skiplist. ESL efficiently enhances the performance of traverse operations by optimizing index levels for the CPU cache. With CPU cache-optimized index levels, we synergistically leverage a combination of exponential and linear searches. In addition, ESL reduces synchronization overhead by updating the index levels asynchronously, while tolerating inconsistencies. In our YCSB evaluation, ESL improves throughput by up to 2.8× over other skiplists in high-level evaluations. ESL also shows lower tail latency than other skiplists by up to 35×. Also, ESL consistently shows higher throughput in our real-world workload evaluation.",
+  "tags": [
+    "B-tree",
+    "Database",
+    "Main-memory"
+  ]
+}

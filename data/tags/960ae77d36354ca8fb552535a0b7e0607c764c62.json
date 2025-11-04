@@ -1,0 +1,10 @@
+{
+  "paperId": "960ae77d36354ca8fb552535a0b7e0607c764c62",
+  "title": "SLIPP: A Space-Efficient Learned Index for String Keys",
+  "abstract": "Efficient indexing structures are crucial for high-performance data access in in-memory data management systems. Traditional indexing methods, while effective in specific scenarios, often struggle with variable-length string keys and range queries. This paper presents the String Learned Index with Precise Positions (SLIPP), an enhancement of the Learned Index with Precise Positions (LIPP) that incorporates trie-based methodologies. By integrating trie characteristics with the predictive capabilities of a simple univariate linear regression model, SLIPP aims to optimize the handling of string keys, significantly reducing memory usage and improving lookup speeds. Our evaluation, utilizing the TLI experimental framework, demonstrates SLIPP's effectiveness in rapid lookups and highlights its adaptability to datasets featuring long common prefixes. Although SLIPP encounters challenges with intricate data distributions, its approach to string key indexing, building on the foundation of LIPP and incorporating trie features, offers a promising avenue for enhancing database systems to manage large datasets more efficiently and with lower space requirements.",
+  "tags": [
+    "Database",
+    "Learned Index",
+    "String Key"
+  ]
+}

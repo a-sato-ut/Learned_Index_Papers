@@ -1,0 +1,12 @@
+{
+  "paperId": "5975b2499638fb5fd52cdce7c4f6338d9af01d58",
+  "title": "Poisoning Attacks and Defenses to Learned Bloom Filters for Malicious URL Detection",
+  "abstract": "Approximate membership query (AMQ) structures represented by the Bloom Filter and its variants have been popularly researched in recent years. Researchers have recently combined machine learning with this type of structure to reduce space consumption and computation overhead further and make remarkable progress. However, with the booming performance in space or other metrics, researchers tend to ignore the security of the trained model. The machine learning model is vulnerable to poisoning attacks, and naturally, we infer that the learning-based filters also have the same deficiencies. Hence, in this article, to confirm the inference mentioned above, experiments on the real-world datasets of URLs are conducted and prove that it is necessary to consider the security issue when using learning-based filters. We show that by data poisoning, the attacker can deflect learned Bloom Filters to make a false identification, which can lead to a significant loss in some cases. Aiming to solve this issue, we put forward a method named Defensive Learned Bloom Filter (DLBF) to diminish the influence of data poisoning and achieve a better performance compared to types of learned Bloom Filters.",
+  "tags": [
+    "Bloom Filter",
+    "Filter",
+    "Learned Bloom Filter",
+    "Learned Index",
+    "Security/Adversarial"
+  ]
+}

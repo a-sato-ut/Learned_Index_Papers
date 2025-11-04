@@ -1,0 +1,10 @@
+{
+  "paperId": "109e2c97c2aaeee86d1bfb348e801243d56efa7c",
+  "title": "Learned Lock-free Search Data Structures",
+  "abstract": "Non-blocking search data structures offer scalability with a progress guarantee on high-performance multi-core architectures. In the recent past,\"learned queries\"have gained remarkable attention. It refers to predicting the rank of a key computed by machine learning models trained to infer the cumulative distribution function of an ordered dataset. A line of works exhibits the superiority of learned queries over classical query algorithms. Yet, to our knowledge, no existing non-blocking search data structure employs them. In this paper, we introduce \\textbf{Kanva}, a framework for learned non-blocking search. Kanva has an intuitive yet non-trivial design: traverse down a shallow hierarchy of lightweight linear models to reach the\"non-blocking bins,\"which are dynamic ordered search structures. The proposed approach significantly outperforms the current state-of-the-art -- non-blocking interpolation search trees and elimination (a,b) trees -- in many workload and data distributions. Kanva is provably linearizable.",
+  "tags": [
+    "Learned Index",
+    "Main-memory",
+    "Theoretical"
+  ]
+}

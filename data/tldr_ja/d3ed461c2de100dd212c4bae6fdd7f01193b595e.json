@@ -1,0 +1,6 @@
+{
+  "paperId": "d3ed461c2de100dd212c4bae6fdd7f01193b595e",
+  "title": "Bao",
+  "abstract": "Recent efforts applying machine learning techniques to query optimization have shown few practical gains due to substantive training overhead, inability to adapt to changes, and poor tail performance. Motivated by these difficulties, we introduce Bao (the Bandit optimizer). Bao takes advantage of the wisdom built into existing query optimizers by providing per-query optimization hints. Bao combines modern tree convolutional neural networks with Thompson sampling, a well-studied reinforcement learning algorithm. As a result, Bao automatically learns from its mistakes and adapts to changes in query workloads, data, and schema. Experimentally, we demonstrate that Bao can quickly learn strategies that improve end-to-end query execution performance, including tail latency, for several workloads containing longrunning queries. In cloud environments, we show that Bao can offer both reduced costs and better performance compared with a commercial system.",
+  "tldr_ja": "Baoは、既存のクエリ最適化手法の知恵を活用し、機械学習を用いてクエリの最適化ヒントを提供する新しい最適化器です。Thompsonサンプリングを組み合わせることで、クエリワークロードやデータの変化に適応し、エンドツーエンドのクエリ実行性能を向上させることが実験で示されました。クラウド環境では、商業システムと比較してコスト削減と性能向上を実現します。"
+}

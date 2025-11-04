@@ -1,0 +1,6 @@
+{
+  "paperId": "f48a4ade5a2caabbc765951059384bf6b9b8c483",
+  "title": "Learning-Augmented Energy-Aware List Scheduling for Precedence-Constrained Tasks",
+  "abstract": "We study the problem of scheduling precedence-constrained tasks to balance between performance and energy consumption. We consider a system with multiple servers capable of speed scaling and seek to schedule precedence-constrained tasks to minimize a linear combination of performance and energy consumption. Inspired by the single-server setting, we propose the concept of pseudo-size for individual tasks, which is a measure of the externalities of a task in the precedence graph and is learned from historical workload data. We then propose a two-stage scheduling framework that uses a learned pseudo-size approximation and achieves a provable approximation bound on the linear combination of performance and energy consumption for both makespan and total weighted completion time, where the quality of the bound depends on the approximation quality of pseudo-sizes. We show experimentally that learning-based approaches consistently perform near optimally.",
+  "tldr_ja": "前提条件のあるタスクのスケジューリングにおいて、性能とエネルギー消費のバランスを取るために、履歴データから学習した擬似サイズを用いた二段階スケジューリングフレームワークを提案し、実験により学習ベースのアプローチがほぼ最適な性能を示すことを確認した。"
+}

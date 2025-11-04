@@ -1,0 +1,11 @@
+{
+  "paperId": "bbf0ac7955d5e3320f1c5ccc8fb443ec77f5d03d",
+  "title": "HLIHP: An Efficient Hierarchical Learned Index with High-Precision Correction",
+  "abstract": "Learned indexes incorporate machine learning models to predict the locations of keys in the dataset. However, achieving accurate prediction is difficult due to the learning models’ inability to fully capture data distribution. Existing learned indexes used data partition or pre-set error bounds to solve this problem. However, data partition requires constructing a higher index structure, and pre-set error bounds have to train many learning models. In the paper, we propose a new Hierarchical Learned Index with High-Precision query on end nodes (HLIHP), which aims to achieve higher query precision with lower training cost. First, we propose a Precision Correction Model to correct the prediction results, which associates the predicted results with the real positions of the keys. Then, a lightweight learned model is used to construct the superstructure of the index, which can find the end nodes quickly with low training cost and effectively support the query operation. We conduct experiments on four datasets, including covid, genome, osm, and planet, to evaluate the performance of our proposal. The results show that compared to the five hierarchical learned indexes, RMI, PGM-index, XIndex, FINEdex, and ALEX, HLIHP shows on average 2.42×, 1.78×, 5.68×, 6.11×, and 1.48× higher throughput in lookup performance.",
+  "tags": [
+    "Database",
+    "Learned Index",
+    "Main-memory",
+    "Query optimization"
+  ]
+}

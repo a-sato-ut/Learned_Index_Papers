@@ -1,0 +1,6 @@
+{
+  "paperId": "7a6c3ac04381587ad45a1e4b78027be215f764e5",
+  "title": "Optimizing Learned Bloom Filters: How Much Should Be Learned?",
+  "abstract": "The learned Bloom filter (LBF) combines a machine learning model (learner) with a traditional Bloom filter to improve the false positive rate (FPR) that can be achieved for a given memory budget. The LBF has recently been generalized by making use of the full spectrum of the learner’s prediction score. However, in all those designs, the machine learning model is fixed. In this letter, for the first time, the design of LBFs is proposed and evaluated by considering the machine learning model as one of the variables in the process. In detail, for a given memory budget, several LBFs are constructed using different machine learning models and the one with the lowest FPR is selected. We demonstrate that our approach can achieve much better performance than existing LBF designs providing reductions of the FPR of up to 90% in some settings.",
+  "tldr_ja": "学習型ブルームフィルター（LBF）の設計において、機械学習モデルを変数として考慮する新しいアプローチを提案し、異なるモデルを用いて構築したLBFの中から最も低い偽陽性率（FPR）を持つものを選定することで、既存の設計より最大90%のFPR削減を実現した。"
+}

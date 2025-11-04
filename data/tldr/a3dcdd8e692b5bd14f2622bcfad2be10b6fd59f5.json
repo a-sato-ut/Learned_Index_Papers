@@ -1,0 +1,6 @@
+{
+  "paperId": "a3dcdd8e692b5bd14f2622bcfad2be10b6fd59f5",
+  "title": "Proactive Resume and Pause of Resources for Microsoft Azure SQL Database Serverless",
+  "abstract": "Demand-driven resource allocation for cloud databases has become a popular research direction. Recent approaches have evolved from reactive policies to proactive decision making. These approaches leverage not only the current resource demand but also the predicted demand to make more informed resource allocation decisions for each database and thus improve the quality of service and reduce the operational costs. We present an infrastructure that enables proactive resource allocation capabilities for millions of serverless Azure SQL databases. Our solution finds near-optimal middle ground between high availability of resources, low operational costs, and low computational overhead of the proactive policy. We describe the design principles we followed and the architectural decisions we made during this cross-team, multi-year journey. Given the size and scope of our solution, we believe that the relational cloud databases in other companies could benefit from the proactive resource allocation capabilities.",
+  "tldr": "この論文では、Microsoft Azure SQL Database Serverlessのためのプロアクティブなリソース割り当て手法を提案し、需要予測を活用してサービス品質を向上させ、運用コストを削減する方法を説明しています。"
+}

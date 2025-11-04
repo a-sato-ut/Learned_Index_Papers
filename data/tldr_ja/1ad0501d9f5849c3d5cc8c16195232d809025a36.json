@@ -1,0 +1,6 @@
+{
+  "paperId": "1ad0501d9f5849c3d5cc8c16195232d809025a36",
+  "title": "TENSILE: A Tensor Granularity Dynamic GPU Memory Scheduling Method Toward Multiple Dynamic Workloads System",
+  "abstract": "Recently, deep learning has been an area of intense research. However, as a kind of computing-intensive task, deep learning highly relies on the scale of GPU memory, which is usually prohibitive and scarce. Although some extensive works have been proposed for dynamic GPU memory management, they are hard to apply to systems with multiple dynamic workloads, such as in-database machine learning systems. In this paper, we demonstrated TENSILE, a method of managing GPU memory in tensor granularity to reduce the GPU memory peak, considering the multiple dynamic workloads. TENSILE tackled the cold-starting and across-iteration scheduling problem existing in previous works. We implemented TENSILE on a deep learning framework built by ourselves and evaluated its performance. The experiment results show that TENSILE can save more GPU memory with less extra overhead than prior works in single and multiple dynamic workloads scenarios.",
+  "tldr_ja": "TENSILEは、複数の動的ワークロードを考慮したテンソル単位のGPUメモリ管理手法であり、従来の方法よりもGPUメモリのピークを削減し、オーバーヘッドを最小限に抑えることができる。"
+}

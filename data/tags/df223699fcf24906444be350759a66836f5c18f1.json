@@ -1,0 +1,11 @@
+{
+  "paperId": "df223699fcf24906444be350759a66836f5c18f1",
+  "title": "COAX: Correlation-Aware Indexing",
+  "abstract": "We present COAX, a learned index for multidimensional data that learns the correlations between attributes of the dataset. Our approach is driven by the observation that in many datasets, values of multiple attributes are correlated. COAX exploits these correlations to reduce the dimensionality of the datasets, hence making the index smaller and more efficient. Experimental results show that by predicting correlated attributes in the data, we can improve the query execution time and reduce the memory overhead of the index. In our experiments, we reduce the execution time by 25% while reducing the memory footprint of the index by four orders of magnitude.",
+  "tags": [
+    "Database",
+    "Learned Index",
+    "Multidimensional",
+    "Query optimization"
+  ]
+}

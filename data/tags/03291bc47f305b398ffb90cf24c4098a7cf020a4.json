@@ -1,0 +1,12 @@
+{
+  "paperId": "03291bc47f305b398ffb90cf24c4098a7cf020a4",
+  "title": "A Learning to Tune Framework for LSH",
+  "abstract": "Nearest neighbor (NN) search in high-dimensional spaces is inherently computationally expensive due to the curse of dimensionality. As a well-known solution to approximate NN search, locality-sensitive hashing (LSH) is able to answer c-approximate NN (c-ANN) queries in sublinear time with a well-defined performance bound. The success of LSH family mainly depends on the design of randomly projected hash functions. However, instead of randomly drawing hash functions from a conventional hashing family such as Gaussian projection for Euclidean space, we argue that whether there could be a set of data sensitive hashing functions with higher capacity to distinguish nearby points and far away points, which could have rigorous performance guarantee like conventional LSH. To this end, we propose a learning to tune framework, called LSH-tuning, which consists of a pruning model and a learning to rank model. The pruning model reduces the total number of hash tables to maximize the separating capacity on the given data distribution and minimize the storage overhead. The learning to rank model ranks hash tables based on their effectiveness on NN retrieval. We also have a theoretic model that guides us to gradually search more hash tables and probe nearby buckets. Extensive experiments with real-world data demonstrate that LSH-tuning is capable of outperforming existing proposals with respect to both efficiency and storage overhead.",
+  "tags": [
+    "Hash Table",
+    "LSM-tree",
+    "Learned Index",
+    "Nearest Neighbor Search",
+    "Theoretical"
+  ]
+}

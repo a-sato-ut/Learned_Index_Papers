@@ -1,0 +1,11 @@
+{
+  "paperId": "31ec06ae639e25594a3a48c635df4ab307f4ffd5",
+  "title": "Deceiving Learning-based Sketches to Cause Inaccurate Frequency Estimation",
+  "abstract": "Learning-based sketches have been widely studied as an improvement of traditional sketches that achieves high efficiency in terms of both time and space. It uses a learning model to reveal and exploit underlying patterns of input data for helping traditional sketches obtain accurate frequency estimation with memory efficient. However, recent studies only focus on the performance improvement of learning-based sketches and pay little attention to security. The potential security problems can be easily exploited by an adversary to make learning-based sketches inaccurate. In this paper, we firstly explore the security issues of learning-based sketches with regard to estimation accuracy and memory overhead. Some adversarial scenarios of learning model and backup sketch are modeled according to the knowledge and capabilities of an adversary. Then, we propose four attacks to deceive learning-based sketch, namely counterfeit attack, targeted point attack, memory occupation attack, and blind increment attack. We conduct a series of experiments based on real-world datasets and verify that the proposed attacks highly degrade the performance of learning-based sketch even when the adversary knows nothing about it.",
+  "tags": [
+    "Benchmark",
+    "Filter",
+    "Security/Adversarial",
+    "Sketch"
+  ]
+}

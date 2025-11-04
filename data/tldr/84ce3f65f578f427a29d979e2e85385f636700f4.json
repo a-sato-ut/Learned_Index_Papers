@@ -1,0 +1,6 @@
+{
+  "paperId": "84ce3f65f578f427a29d979e2e85385f636700f4",
+  "title": "Concurrent and Learned Data Structures",
+  "abstract": "We explore the landscape of modern data structures that employ two powerful scaling mechanisms simultaneously: (a) concurrency to harness the power of today’s multicore processors, and (b) learned queries – the operations employing machine learning inference by models trained on the underlying data. We focus on advancements, challenges, and potential future directions in this field. We delve into the motivation for incorporating learned queries in concurrent data structures. We discuss the key techniques, applications, and open research questions. On the theoretical side, we discuss the mathematical foundations for building the learned data structures in addition to the correctness of queries in a concurrent setting. On the practical side, we present an overview of techniques used for managing concurrency with learned queries that need training the models with concurrent real-time updates.",
+  "tldr": "This paper examines the integration of concurrency and machine learning in modern data structures, discussing advancements, challenges, and future directions, while addressing both theoretical foundations and practical techniques for managing learned queries in concurrent environments."
+}

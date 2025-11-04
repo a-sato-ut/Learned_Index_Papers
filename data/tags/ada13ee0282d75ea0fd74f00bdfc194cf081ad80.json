@@ -1,0 +1,11 @@
+{
+  "paperId": "ada13ee0282d75ea0fd74f00bdfc194cf081ad80",
+  "title": "Efficient Search over Genomic Short Read Data",
+  "abstract": "Modern DNA sequencing technology produces large volumes of genome strings for various biological and medical applications. To mitigate the space overhead required for storing these genome data, previous research has developed compression schemes to save storage resources and to improve the locality for bioinformatics applications. These approaches, however, typically need significant additional processing to support efficient genome string search, an important step for downstream applications in a bioinformatics pipeline. In this paper, we propose to store raw DNA sequence data in a compressed but searchable format, enabling efficient string lookups using database indexes. To build this format, we partition genome strings by computing hash-based minimizers to group overlapping strings together. We carefully optimize our hash function to avoid large buckets caused by repetitive sequences. These buckets are then effectively compressed using local constructed references, and an index is built upon them to guide exact match lookups. Both data compression and string lookups exploit the enhanced locality as a result of the partitioning. We implement storage and search functions over the storage format as a multithreaded library, and perform extensive experiments on real genome sequencing data. The results show that our approach efficiently executes genome string lookups over highly compressed raw read data.",
+  "tags": [
+    "Bioinformatics",
+    "Compression",
+    "Database",
+    "String Key"
+  ]
+}

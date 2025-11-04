@@ -1,0 +1,12 @@
+{
+  "paperId": "96f01ee6cce4aef838a93fc541e446a4d6049df2",
+  "title": "MANAGEMENT OF LARGE INDOOR POINT CLOUDS: AN INITIAL EXPLORATION",
+  "abstract": "Abstract. Indoor navigation and visualization become increasingly important nowadays. Meanwhile, the proliferation of new sensors as well as the advancement of data processing provide massive point clouds to model the indoor environment in high accuracy. However, current state-of-the-art solutions fail to manage such large datasets efficiently. File based solutions often require substantial development work while database solutions are still faced with issues such as inefficient data loading and indexing. In this research, through a case study which aims to solve the problem of intermittent rendering of massive points in the context of indoor navigation, we devised and implemented an algorithm to compute the continuous Level of Detail (cLoD) where geometric and classification information are considered. Benchmarks are developed and different approaches in Oracle are tested to learn the pros and cons. Surprisingly, the flat table approach could be very efficient compared with other schemes. The crucial point lies in how to address priority of different dimensions including cLoD, classification and spatial dimensions, and avoid unnecessary scanning of the table. Writing results either to the memory or the disk constitutes major part of the time cost when large output is concerned. Conventional solutions based on spatial data objects present poor performance due to cumbersome indexing structure, inaccurate selection and additional decoding process. Besides, approximate selection in the unit of physical object is proposed and the performance is satisfactory when large amount of data is requested. The knowledge acquired could prompt the development of a novel data management of high dimensional point clouds where the classification information is involved.\n",
+  "tags": [
+    "Benchmark",
+    "Database",
+    "Disk",
+    "Main-memory",
+    "Multidimensional"
+  ]
+}

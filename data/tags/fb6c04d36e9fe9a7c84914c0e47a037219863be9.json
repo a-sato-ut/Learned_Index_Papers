@@ -1,0 +1,12 @@
+{
+  "paperId": "fb6c04d36e9fe9a7c84914c0e47a037219863be9",
+  "title": "Indexing Temporal Relations for Range-Duration Queries",
+  "abstract": "Temporal information plays a crucial role in many database applications, however support for queries on such data is limited. We present an index structure, termed RD-index, to support range-duration queries over interval timestamped relations, which constrain both the range of the tuples’ positions on the timeline and their duration. RD-index is a grid structure in the two-dimensional space, representing the position on the timeline and the duration of timestamps, respectively. Instead of using a regular grid, we consider the data distribution for the construction of the grid in order to ensure that each grid cell contains approximately the same number of intervals. RD-index features provable bounds on the running time of all the operations, allow for a simple implementation, and supports very predictable query performance. We benchmark our solution on a variety of datasets and query workloads, investigating both the query rate and the behavior of the individual queries. The results show that RD-index performs better than the baselines on range-duration queries, for which it is explicitly designed. Furthermore, it outperforms state of the art indexes also on mixed workloads containing queries that constrain either only the duration or the range along with range-duration queries. Finally, the size of the RD-index is in all settings smaller than the competitors.",
+  "tags": [
+    "Benchmark",
+    "Database",
+    "Multidimensional",
+    "Range",
+    "Time-series"
+  ]
+}

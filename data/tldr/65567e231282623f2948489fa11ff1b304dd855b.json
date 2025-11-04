@@ -1,0 +1,6 @@
+{
+  "paperId": "65567e231282623f2948489fa11ff1b304dd855b",
+  "title": "Integrating Machine Learning Model Ensembles to the SAVIME Database System",
+  "abstract": "The integration of machine learning algorithms into database systems has brought new opportunities in different areas from indexing to query optimization. In this paper, we describe the integration of an approach for the automatic computation of model ensembles to answer a predictive query. We have extended the SAVIME multi-dimensional array DBMS by adding a new function to its query language and implementing the selection and allocation ensemble model dataflow into the query processing component of SAVIME. We show some initial experimental results depicting its performance against a pure Python implementation of the ensemble approach. Interestingly enough the C++ implementation within SAVIME is up to 4 times faster than its competitor.",
+  "tldr": "This paper presents the integration of machine learning model ensembles into the SAVIME database system, enhancing its query processing capabilities, with initial results showing the C++ implementation is up to 4 times faster than a pure Python version."
+}

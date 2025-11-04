@@ -1,0 +1,11 @@
+{
+  "paperId": "b025fae90eb047da04507569ede742c2c285bd38",
+  "title": "CASA: Classification-based Adjusted Slot Admission Control for Query Processing Engines",
+  "abstract": "We propose CASA, a classification-based admission control strategy for use in distributed query processing systems. CASA uses coarse-grained predictions of CPU and memory utilization of incoming queries, based solely on the query text, and maps these predictions to an adjusted number of slots that the query will occupy; queries with large resource consumption will occupy more slots than queries with small resource consumption. CASA’s mapping of predictions to slots enables automatic throttling of query admission, reducing contention and improving throughput and latency. At the core of CASA is a novel feedback mechanism that controls the magnitude of slot adjustments, allowing increased query queueing when workload increases or when the predictor is biased to under-predict, and increased query admission when the workload is light. We compare CASA to default admission control in a production query processing engine and find CASA improves throughput by 48%, reduces tail latency by 50.6%, and eliminates failed queries.",
+  "tags": [
+    "Benchmark",
+    "Database",
+    "Distributed",
+    "Query optimization"
+  ]
+}

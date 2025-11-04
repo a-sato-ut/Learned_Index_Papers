@@ -1,0 +1,6 @@
+{
+  "paperId": "fac67330a538c6b72b32d18625a8ddc6db48aa19",
+  "title": "DLB: Deep Learning Based Load Balancing",
+  "abstract": "In this paper, we introduce DLB, a Deep Learning based load Balancing mechanism, to effectively address the data skew problem. The key idea of DLB is to replace hash functions in the load balancing mechanisms with deep learning models, which are trained to be able to map different distributions of workloads and data to the servers in a uniformed manner. We implemented DLB and deployed it on a practical Cloud environment using CloudSim. Experimental results using both synthetic and real-world data sets show that compared with traditional hash function based load balancing methods, DLB is able to achieve more balanced mappings, especially when the workload is highly skewed.",
+  "tldr": "DLB is a deep learning-based load balancing mechanism that improves workload distribution by replacing traditional hash functions with trained models, resulting in more balanced server mappings, particularly in skewed scenarios."
+}

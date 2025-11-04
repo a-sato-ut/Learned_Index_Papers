@@ -1,0 +1,11 @@
+{
+  "paperId": "77f13ddb90f0cb2995cc45b375fc4e77d68b13e9",
+  "title": "SPECIAL: Synopsis Assisted Secure Collaborative Analytics",
+  "abstract": "Secure collaborative analytics (SCA) enables the processing of analytical SQL queries across data from multiple owners, even when direct data sharing is not possible. While traditional SCA provides strong privacy through data-oblivious methods, the significant overhead has limited its practical use. Recent SCA variants that allow controlled leakages under differential privacy (DP) strike balance between privacy and efficiency but still face challenges like unbounded privacy loss, costly execution plan, and lossy processing.\n \n To address these challenges, we introduce SPECIAL, the first SCA system that simultaneously ensures bounded privacy loss, advanced query planning, and lossless processing. SPECIAL employs a novel\n synopsis-assisted secure processing model\n , where a one-time privacy cost is used to generate private synopses from owner data. These synopses enable SPECIAL to estimate compaction sizes for secure operations (e.g., filter, join) and index encrypted data without additional privacy loss. These estimates and indexes can be prepared before runtime, enabling efficient query planning and accurate cost estimations. By leveraging one-sided noise mechanisms and private upper bound techniques, SPECIAL guarantees lossless processing for complex queries (e.g., multi-join). Our comprehensive benchmarks demonstrate that SPECIAL outperforms state-of-the-art SCAs, with up to 80× faster query times, 900× smaller memory usage for complex queries, and up to 89× reduced privacy loss in continual processing.\n",
+  "tags": [
+    "Benchmark",
+    "Database",
+    "Filter",
+    "Query optimization"
+  ]
+}

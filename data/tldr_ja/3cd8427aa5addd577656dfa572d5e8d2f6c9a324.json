@@ -1,0 +1,6 @@
+{
+  "paperId": "3cd8427aa5addd577656dfa572d5e8d2f6c9a324",
+  "title": "Bandit join: preliminary results",
+  "abstract": "Join is arguably the most costly and frequently used operation in relational query processing. Join algorithms usually spend the majority of their time on scanning and attempting to join the parts of the base relations that do not satisfy the join condition and do not generate any results. This causes slow response time, particularly, in interactive and exploratory environments where users would like real-time performance. In this paper, we outline our vision on using online learning and adaptation to execute joins efficiently. In our approach, scan operators that precede a join, learn which parts of the relations are more likely to join during the query execution and produce more results faster by doing fewer I/O accesses. Our empirical studies using standard benchmarks indicate that this approach outperforms similar methods considerably.",
+  "tldr_ja": "本論文では、オンライン学習を活用してリレーショナルクエリの結合処理を効率化する「バンディット結合」手法を提案し、従来の方法よりも高速な応答時間を実現することを示しています。"
+}

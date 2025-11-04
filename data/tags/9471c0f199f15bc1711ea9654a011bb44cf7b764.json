@@ -1,0 +1,10 @@
+{
+  "paperId": "9471c0f199f15bc1711ea9654a011bb44cf7b764",
+  "title": "Baihe: SysML Framework for AI-driven Databases",
+  "abstract": "We present Baihe, a SysML Framework for AI-driven Databases. Using Baihe, an existing relational database system may be retrofitted to use learned components for query optimization or other common tasks, such as e.g. learned structure for indexing. To ensure the practicality and real world applicability of Baihe, its high level architecture is based on the following requirements: separation from the core system, minimal third party dependencies, Robustness, stability and fault tolerance, as well as stability and configurability. Based on the high level architecture, we then describe a concrete implementation of Baihe for PostgreSQL and present example use cases for learned query optimizers. To serve both practitioners, as well as researchers in the DB and AI4DB community Baihe for PostgreSQL will be released under open source license.",
+  "tags": [
+    "Database",
+    "Learned Index",
+    "Query optimization"
+  ]
+}

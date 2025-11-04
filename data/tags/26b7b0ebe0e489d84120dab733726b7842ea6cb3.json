@@ -1,0 +1,12 @@
+{
+  "paperId": "26b7b0ebe0e489d84120dab733726b7842ea6cb3",
+  "title": "LITS: An Optimized Learned Index for Strings",
+  "abstract": "Index is an important component in database systems. Learned indexes have been shown to outperform traditional tree-based index structures for fixed-sized integer or floating point keys. However, the application of the learned solution to variable-length string keys is under-researched. Our experiments show that existing learned indexes for strings fail to outperform traditional string indexes, such as HOT and ART. String keys are long and variable sized, and often contain skewed prefixes, which make the last-mile search expensive, and adversely impact the capability of learned models to capture the skewed distribution of string keys.\n In this paper, we propose a novel learned index for string keys, LITS (Learned Index with Hash-enhanced Prefix Table and Subtries). We propose an optimized learned model, combining a global Hash-enhanced Prefix Table (HPT) and a per-node local linear model to better distinguish string keys. Moreover, LITS exploits compact leaf nodes and hybrid structures with a PMSS model for efficient point and range operations. Our experimental results using eleven string data sets show that LITS achieves up to 2.43x and 2.27x improvement over HOT and ART for point operations, and attains comparable scan performance.",
+  "tags": [
+    "Database",
+    "Hash Table",
+    "Learned Index",
+    "Range",
+    "String Key"
+  ]
+}

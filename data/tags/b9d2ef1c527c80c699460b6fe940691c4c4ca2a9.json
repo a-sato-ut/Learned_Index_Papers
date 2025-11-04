@@ -1,0 +1,12 @@
+{
+  "paperId": "b9d2ef1c527c80c699460b6fe940691c4c4ca2a9",
+  "title": "In-Memory Indexed Caching for Distributed Data Processing",
+  "abstract": "Powerful abstractions such as dataframes are only as efficient as their underlying runtime system. The de-facto distributed data processing framework, Apache Spark, is poorly suited for the modern cloud-based data-science workloads due to its outdated assumptions: static datasets analyzed using coarse-grained transformations. In this paper, we introduce the Indexed DataFrame, an in-memory cache that supports a dataframe abstraction which incorporates indexing capabilities to support fast lookup and join operations. Moreover, it supports appends with multi-version concurrency control. We implement the Indexed DataFrame as a lightweight, standalone library which can be integrated with minimum effort in existing Spark programs. We analyze the performance of the Indexed DataFrame in cluster and cloud deployments with real-world datasets and benchmarks using both Apache Spark and Databricks Runtime. In our evaluation, we show that the Indexed DataFrame significantly speeds-up query execution when compared to a non-indexed dataframe, incurring modest memory overhead.",
+  "tags": [
+    "Benchmark",
+    "Caching",
+    "Database",
+    "Main-memory",
+    "Query optimization"
+  ]
+}

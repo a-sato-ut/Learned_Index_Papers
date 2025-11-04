@@ -1,0 +1,12 @@
+{
+  "paperId": "6a72bf14fcdcd0dfb7ef1a7fd1134adfafa1b672",
+  "title": "Predict and Write: Using K-Means Clustering to Extend the Lifetime of NVM Storage",
+  "abstract": "Non-volatile memory (NVM) technologies suffer from limited write endurance. To address this challenge, we propose Predict and Write (PNW), a K/V-store that uses a clustering-based machine learning approach to extend the lifetime of NVMs. PNW decreases the number of bit flips for PUT/UPDATE operations by determining the best memory location an updated value should be written to. PNW leverages the indirection level of K/V-stores to freely choose the target memory location for any given write based on its value. PNW organizes NVM addresses in a dynamic address pool clustered by the similarity of the data values they refer to. We show that, by choosing the right target memory location for a given PUT/UPDATE operation, the number of total bit flips and cache lines can be reduced by up to 85% and 56% over the state of the art.",
+  "tags": [
+    "Caching",
+    "Compression",
+    "Database",
+    "Learned Index",
+    "Main-memory"
+  ]
+}

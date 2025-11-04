@@ -1,0 +1,6 @@
+{
+  "paperId": "85b5329d0581c0e00a3858138c1ca8b9cf008cdb",
+  "title": "Flexible Operator Embeddings via Deep Learning",
+  "abstract": "Integrating machine learning into the internals of database management systems requires significant feature engineering, a human effort-intensive process to determine the best way to represent the pieces of information that are relevant to a task. In addition to being labor intensive, the process of hand-engineering features must generally be repeated for each data management task, and may make assumptions about the underlying database that are not universally true. We introduce flexible operator embeddings, a deep learning technique for automatically transforming query operators into feature vectors that are useful for a multiple data management tasks and is custom-tailored to the underlying database. Our approach works by taking advantage of an operator's context, resulting in a neural network that quickly transforms sparse representations of query operators into dense, information-rich feature vectors. Experimentally, we show that our flexible operator embeddings perform well across a number of data management tasks, using both synthetic and real-world datasets.",
+  "tldr_ja": "データベース管理システムにおける機械学習の統合を容易にするために、クエリ演算子を自動的に特徴ベクトルに変換する「柔軟な演算子埋め込み」という深層学習手法を提案し、複数のデータ管理タスクで優れた性能を示した。"
+}

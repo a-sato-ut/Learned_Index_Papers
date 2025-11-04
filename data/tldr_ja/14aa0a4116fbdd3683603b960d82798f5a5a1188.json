@@ -1,0 +1,6 @@
+{
+  "paperId": "14aa0a4116fbdd3683603b960d82798f5a5a1188",
+  "title": "Dynamic Necklace Splitting",
+  "abstract": "The necklace splitting problem is a classic problem in fair division with many applications, including data-informed fair hash maps. We extend necklace splitting to a dynamic setting, allowing for relocation, insertion, and deletion of beads. We present linear-time, optimal algorithms for the two-color case that support all dynamic updates. For more than two colors, we give linear-time, optimal algorithms for relocation subject to a restriction on the number of agents. Finally, we propose a randomized algorithm for the two-color case that handles all dynamic updates, guarantees approximate fairness with high probability, and runs in polylogarithmic time when the number of agents is small.",
+  "tldr_ja": "ネックレス分割問題を動的設定に拡張し、ビーズの移動、挿入、削除を可能にする最適な線形時間アルゴリズムを提案。2色の場合は全ての動的更新に対応し、2色以上の場合はエージェント数に制限を設けた移動アルゴリズムを提供。少数のエージェントに対しては、高確率で近似公正を保証するランダム化アルゴリズムも提案。"
+}

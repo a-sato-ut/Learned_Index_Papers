@@ -1,0 +1,12 @@
+{
+  "paperId": "182f4d6445575d68c28f7fb76ad48839ae5df1fa",
+  "title": "Spatial Interpolation-based Learned Index for Range and kNN Queries",
+  "abstract": "A corpus of recent work has revealed that the learned index can improve query performance while reducing the storage overhead. It potentially offers an opportunity to address the spatial query processing challenges caused by the surge in location-based services. Although several learned indexes have been proposed to process spatial data, the main idea behind these approaches is to utilize the existing one-dimensional learned models, which requires either converting the spatial data into one-dimensional data or applying the learned model on individual dimensions separately. As a result, these approaches cannot fully utilize or take advantage of the information regarding the spatial distribution of the original spatial data. To this end, in this paper, we exploit it by using the spatial (multi-dimensional) interpolation function as the learned model, which can be directly employed on the spatial data. Specifically, we design an efficient SPatial inteRpolation functIon based Grid index (SPRIG) to process the range and kNN queries. Detailed experiments are conducted on real-world datasets, and the results indicate that our proposed learned index can significantly improve the performance in comparison with the traditional spatial indexes and a state-of-the-art multi-dimensional learned index.",
+  "tags": [
+    "Database",
+    "Learned Index",
+    "Multidimensional",
+    "Nearest Neighbor Search",
+    "Range"
+  ]
+}

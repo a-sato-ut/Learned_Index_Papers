@@ -1,0 +1,11 @@
+{
+  "paperId": "cc37ec52e4d47cdadeb5c51f845a29e26e84f6a2",
+  "title": "One stone, two birds: A lightweight multidimensional learned index with cardinality support",
+  "abstract": "Innovative learning based structures have recently been proposed to tackle index and cardinality estimation tasks, specifically learned indexes and data driven cardinality estimators. These structures exhibit excellent performance in capturing data distribution, making them promising for integration into AI driven database kernels. However, accurate estimation for corner case queries requires a large number of network parameters, resulting in higher computing resources on expensive GPUs and more storage overhead. Additionally, the separate implementation for CE and learned index result in a redundancy waste by storage of single table distribution twice. These present challenges for designing AI driven database kernels. As in real database scenarios, a compact kernel is necessary to process queries within a limited storage and time budget. Directly integrating these two AI approaches would result in a heavy and complex kernel due to a large number of network parameters and repeated storage of data distribution parameters. Our proposed CardIndex structure effectively killed two birds with one stone. It is a fast multidim learned index that also serves as a lightweight cardinality estimator with parameters scaled at the KB level. Due to its special structure and small parameter size, it can obtain both CDF and PDF information for tuples with an incredibly low latency of 1 to 10 microseconds. For tasks with low selectivity estimation, we did not increase the model's parameters to obtain fine grained point density. Instead, we fully utilized our structure's characteristics and proposed a hybrid estimation algorithm in providing fast and exact results.",
+  "tags": [
+    "Cardinality estimation",
+    "Database",
+    "Learned Index",
+    "Multidimensional"
+  ]
+}

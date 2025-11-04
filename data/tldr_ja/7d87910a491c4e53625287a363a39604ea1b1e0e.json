@@ -1,0 +1,6 @@
+{
+  "paperId": "7d87910a491c4e53625287a363a39604ea1b1e0e",
+  "title": "AdaChain: A Learned Adaptive Blockchain",
+  "abstract": "\n This paper presents\n AdaChain\n , a learning-based blockchain framework that adaptively chooses the best permissioned blockchain architecture to optimize effective throughput for dynamic transaction workloads. AdaChain addresses the challenge in Blockchain-as-a-Service (BaaS) environments, where a large variety of possible smart contracts are deployed with different workload characteristics. AdaChain supports automatically adapting to an underlying, dynamically changing workload through the use of reinforcement learning. When a promising architecture is identified, AdaChain switches from the current architecture to the promising one at runtime in a secure and correct manner. Experimentally, we show that AdaChain can converge quickly to optimal architectures under changing workloads and significantly outperform fixed architectures in terms of the number of successfully committed transactions, all while incurring low additional overhead.\n",
+  "tldr_ja": "AdaChainは、動的なトランザクション負荷に最適化された許可型ブロックチェーンアーキテクチャを自動的に選択する学習ベースのフレームワークであり、強化学習を用いてリアルタイムでアーキテクチャを切り替え、固定アーキテクチャよりも高い成功率を実現します。"
+}

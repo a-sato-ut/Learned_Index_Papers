@@ -1,0 +1,6 @@
+{
+  "paperId": "109b4bdd8807f9c9547940ac78df85bfbb5a3a00",
+  "title": "Redbench: A Benchmark Reflecting Real Workloads",
+  "abstract": "Instance-optimized components have made their way into production systems. To some extent, this adoption is due to the characteristics of customer workloads, which can be individually leveraged during the model training phase. However, there is a gap between research and industry that impedes the development of realistic learned components: the lack of suitable workloads. Existing ones, such as TPC-H and TPC-DS, and even more recent ones, such as DSB and CAB, fail to exhibit real workload patterns, particularly distribution shifts. In this paper, we introduce Redbench, a collection of 30 workloads that reflect query patterns observed in the real world. The workloads were obtained by sampling queries from support benchmarks and aligning them with workload characteristics observed in Redset.",
+  "tldr_ja": "Redbenchは、実際のクエリパターンを反映した30のワークロードを提供するベンチマークであり、従来のベンチマークが持つ限界を克服することを目的としています。"
+}

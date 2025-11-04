@@ -1,0 +1,6 @@
+{
+  "paperId": "625b39fe793c8d58d100f4d7e4395bbd065f1774",
+  "title": "Poster: Distributed Learned Hash Table",
+  "abstract": "Distributed Hash Tables (DHTs) are pivotal in numerous high-impact key-value applications built on distributed networked systems, offering a decentralized architecture that avoids single points of failure and improves data availability. Despite their widespread utility, DHTs face substantial challenges in handling range queries, which are crucial for applications such as storage systems, decentralized databases, content distribution networks, and blockchains. To address this limitation, we present LEAD, a novel system incorporating learned models within DHT structures to significantly optimize range query performance. LEAD utilizes a recursive machine learning model to map and retrieve data across a distributed system while preserving the inherent order of data. Preliminary results indicate LEAD achieves tremendous advantages in system efficiency compared to existing range query methods in large-scale distributed systems while maintaining high scalability and resilience to network churn.",
+  "tldr": "LEAD is a new system that enhances Distributed Hash Tables (DHTs) by integrating learned models to improve range query performance, achieving greater efficiency and scalability in large-scale distributed systems."
+}

@@ -1,0 +1,12 @@
+{
+  "paperId": "ba26cd80e2d6ac03157687a7bfcdcb1db3c235f3",
+  "title": "FlexSketch: Estimation of Probability Density for Stationary and Non-Stationary Data Streams",
+  "abstract": "Efficient and accurate estimation of the probability distribution of a data stream is an important problem in many sensor systems. It is especially challenging when the data stream is non-stationary, i.e., its probability distribution changes over time. Statistical models for non-stationary data streams demand agile adaptation for concept drift while tolerating temporal fluctuations. To this end, a statistical model needs to forget old data samples and to detect concept drift swiftly. In this paper, we propose FlexSketch, an online probability density estimation algorithm for data streams. Our algorithm uses an ensemble of histograms, each of which represents a different length of data history. FlexSketch updates each histogram for a new data sample and generates probability distribution by combining the ensemble of histograms while monitoring discrepancy between recent data and existing models periodically. When it detects concept drift, a new histogram is added to the ensemble and the oldest histogram is removed. This allows us to estimate the probability density function with high update speed and high accuracy using only limited memory. Experimental results demonstrate that our algorithm shows improved speed and accuracy compared to existing methods for both stationary and non-stationary data streams.",
+  "tags": [
+    "Filter",
+    "Main-memory",
+    "Multidimensional",
+    "Sketch",
+    "Time-series"
+  ]
+}

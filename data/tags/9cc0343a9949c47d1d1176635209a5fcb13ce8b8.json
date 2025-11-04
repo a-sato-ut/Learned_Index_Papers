@@ -1,0 +1,13 @@
+{
+  "paperId": "9cc0343a9949c47d1d1176635209a5fcb13ce8b8",
+  "title": "Progressive Neural Index Search for Database System",
+  "abstract": "As a key ingredient of the DBMS, index plays an important role in the query optimization and processing. However, it is a non-trivial task to apply existing indexes or design new indexes for new applications, where both data distribution and query distribution are unknown. To address the issue, we propose a new indexing approach, NIS (Neural Index Search), which searches for the optimal index parameters and structures using a neural network. In particular, NIS is capable for building a tree-like index automatically for an arbitrary column that can be sorted/partitioned using a customized function. The contributions of NIS are twofold. First, NIS constructs a tree-like index in a layer-by-layer way via formalizing the index structure as abstract ordered and unordered blocks. Ordered blocks are implemented using B+-tree nodes or skip lists, while unordered blocks adopt hash functions with different configurations. Second, all parameters of the building blocks (e.g., fanout of B+-tree node, bucket number of hash function and etc.) are tuned by NIS automatically. We achieve the two goals for a given workload and dataset with one RNN-powered reinforcement learning model. Experiments show that the auto-tuned index built by NIS can achieve a better performance than the state-of-the-art index.",
+  "tags": [
+    "B-tree",
+    "Database",
+    "Hash Table",
+    "Learned Index",
+    "Query optimization",
+    "Reinforcement Learning"
+  ]
+}

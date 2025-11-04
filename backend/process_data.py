@@ -14,6 +14,9 @@ from pydantic import BaseModel
 PAPERS_FOLDER = Path(__file__).parent.parent / "data" / "papers"
 CITATIONS_FOLDER = Path(__file__).parent.parent / "data" / "citations"
 PROCESSED_DATA_FOLDER = Path(__file__).parent.parent / "processed_data"
+TLDR_FOLDER = Path(__file__).parent.parent / "data" / "tldr"
+TLDR_JA_FOLDER = Path(__file__).parent.parent / "data" / "tldr_ja"
+TAG_FOLDER = Path(__file__).parent.parent / "data" / "tags"
 BASE_PID = "0539535989147bc7033f4a34931c7b8e17f1c650"
 
 app = FastAPI(title="Learned Index Papers API")
@@ -42,6 +45,9 @@ class Paper(BaseModel):
     abstract: Optional[str] = None
     citationCount: int = 0
     referenceCount: int = 0
+    tldr: Optional[str] = None
+    tldr_ja: Optional[str] = None
+    tags: List[str] = []
 
 
 class CitationInfo(BaseModel):
@@ -165,25 +171,106 @@ class Corpus:
             return  -lcss_len, -lcs_len, len(paper.title), paper.paperId
 
         best_match = sorted(self.papers.values(), key=get_sort_key_value)[0]
-        return best_match
+        # TLDRデータを読み込む
+        return self._load_tldr_data(best_match)
 
     def get_paper(self, paper_id: str) -> Optional[Paper]:
         """論文IDで論文を取得"""
-        return self.papers.get(paper_id)
+        paper = self.papers.get(paper_id)
+        if paper:
+            # TLDRデータを読み込んで追加
+            paper = self._load_tldr_data(paper)
+        return paper
+    
+    def _load_tldr_data(self, paper: Paper) -> Paper:
+        """論文のTLDRデータとタグデータを読み込む"""
+        paper_dict = paper.dict()
+        
+        # 英語TLDRを読み込む
+        tldr_file = TLDR_FOLDER / f"{paper.paperId}.json"
+        if tldr_file.exists():
+            try:
+                with open(tldr_file, "r", encoding="utf-8") as f:
+                    tldr_data = json.load(f)
+                    paper_dict["tldr"] = tldr_data.get("tldr")
+            except Exception as e:
+                print(f"Error loading TLDR for {paper.paperId}: {e}")
+        
+        # 日本語TLDRを読み込む
+        tldr_ja_file = TLDR_JA_FOLDER / f"{paper.paperId}.json"
+        if tldr_ja_file.exists():
+            try:
+                with open(tldr_ja_file, "r", encoding="utf-8") as f:
+                    tldr_ja_data = json.load(f)
+                    paper_dict["tldr_ja"] = tldr_ja_data.get("tldr_ja")
+            except Exception as e:
+                print(f"Error loading TLDR_JA for {paper.paperId}: {e}")
+        
+        # タグデータを読み込む
+        tag_file = TAG_FOLDER / f"{paper.paperId}.json"
+        if tag_file.exists():
+            try:
+                with open(tag_file, "r", encoding="utf-8") as f:
+                    tag_data = json.load(f)
+                    paper_dict["tags"] = tag_data.get("tags", [])
+            except Exception as e:
+                print(f"Error loading tags for {paper.paperId}: {e}")
+        
+        return Paper(**paper_dict)
 
-    def get_cites(self, paper_id: str, limit: int = 200) -> List[Paper]:
+    def get_cites(self, paper_id: str, limit: int = 2000, tags: Optional[List[str]] = None) -> List[Paper]:
         """この論文が引用している論文のリストを取得（cited_byの数が多い順）"""
         citation_ids = self.cites.get(paper_id, [])
         papers = [self.papers[pid] for pid in citation_ids if pid in self.papers]
         papers.sort(key=lambda p: p.citationCount, reverse=True)
-        return papers[:limit]
+        # TLDRデータを読み込む
+        papers_with_tldr = [self._load_tldr_data(p) for p in papers[:limit]]
+        
+        # タグでフィルタリング（複数タグの場合はAND条件）
+        if tags:
+            papers_with_tldr = [
+                p for p in papers_with_tldr 
+                if p.tags and all(tag in p.tags for tag in tags)
+            ]
+        
+        return papers_with_tldr
 
-    def get_cited_by(self, paper_id: str, limit: int = 200) -> List[Paper]:
+    def get_cited_by(self, paper_id: str, limit: int = 2000, tags: Optional[List[str]] = None) -> List[Paper]:
         """この論文を引用している論文のリストを取得（cited_byの数が多い順）"""
         cited_by_ids = self.cited_by.get(paper_id, [])
         papers = [self.papers[pid] for pid in cited_by_ids if pid in self.papers]
         papers.sort(key=lambda p: p.citationCount, reverse=True)
-        return papers[:limit]
+        # TLDRデータを読み込む
+        papers_with_tldr = [self._load_tldr_data(p) for p in papers[:limit]]
+        
+        # タグでフィルタリング（複数タグの場合はAND条件）
+        if tags:
+            papers_with_tldr = [
+                p for p in papers_with_tldr 
+                if p.tags and all(tag in p.tags for tag in tags)
+            ]
+        
+        return papers_with_tldr
+
+    def get_papers_by_tags(self, tags: List[str], limit: int = 2000) -> List[Paper]:
+        """指定されたタグを全て持つ論文を取得（citationCountが多い順、AND条件）"""
+        papers_with_tags = []
+        for paper in self.papers.values():
+            paper_with_tldr = self._load_tldr_data(paper)
+            if paper_with_tldr.tags and all(tag in paper_with_tldr.tags for tag in tags):
+                papers_with_tags.append(paper_with_tldr)
+        
+        papers_with_tags.sort(key=lambda p: p.citationCount, reverse=True)
+        return papers_with_tags[:limit]
+
+    def get_all_tags(self) -> List[str]:
+        """利用可能な全てのタグを取得"""
+        tags = set()
+        for paper in self.papers.values():
+            paper_with_tldr = self._load_tldr_data(paper)
+            if paper_with_tldr.tags:
+                tags.update(paper_with_tldr.tags)
+        return sorted(list(tags))
 
 
 # グローバルCorpusインスタンス
@@ -191,31 +278,75 @@ corpus = Corpus()
 
 
 @app.get("/api/search")
-async def search(query: str = Query(..., description="検索クエリ"), limit: int = Query(200, ge=1, le=1000)):
+async def search(
+    query: str = Query(..., description="検索クエリ"), 
+    limit: int = Query(2000, ge=1, le=2000),
+    tags: Optional[str] = Query(None, description="タグでフィルタリング（カンマ区切りで複数指定可能）")
+):
     """タイトルでLCS検索してベストマッチを返す"""
     best_match = corpus.best_match_by_title(query)
     if not best_match:
         return {"paper": None, "message": "No match found"}
 
+    # タグをパース（カンマ区切り）
+    tag_list = None
+    if tags:
+        tag_list = [tag.strip() for tag in tags.split(',') if tag.strip()]
+
     return {
         "paper": best_match.dict(),
-        "cites": [p.dict() for p in corpus.get_cites(best_match.paperId, limit)],
-        "cited_by": [p.dict() for p in corpus.get_cited_by(best_match.paperId, limit)],
+        "cites": [p.dict() for p in corpus.get_cites(best_match.paperId, limit, tag_list)],
+        "cited_by": [p.dict() for p in corpus.get_cited_by(best_match.paperId, limit, tag_list)],
     }
 
 
 @app.get("/api/paper/{paper_id}")
-async def get_paper(paper_id: str, limit: int = Query(200, ge=1, le=1000)):
+async def get_paper(
+    paper_id: str, 
+    limit: int = Query(2000, ge=1, le=2000),
+    tags: Optional[str] = Query(None, description="タグでフィルタリング（カンマ区切りで複数指定可能）")
+):
     """論文IDで論文と引用関係を取得"""
     paper = corpus.get_paper(paper_id)
     if not paper:
         raise HTTPException(status_code=404, detail="Paper not found")
 
+    # タグをパース（カンマ区切り）
+    tag_list = None
+    if tags:
+        tag_list = [tag.strip() for tag in tags.split(',') if tag.strip()]
+
     return {
         "paper": paper.dict(),
-        "cites": [p.dict() for p in corpus.get_cites(paper_id, limit)],
-        "cited_by": [p.dict() for p in corpus.get_cited_by(paper_id, limit)],
+        "cites": [p.dict() for p in corpus.get_cites(paper_id, limit, tag_list)],
+        "cited_by": [p.dict() for p in corpus.get_cited_by(paper_id, limit, tag_list)],
     }
+
+
+@app.get("/api/papers/by-tag")
+async def get_papers_by_tag(
+    tags: str = Query(..., description="タグ名（カンマ区切りで複数指定可能、AND条件）"),
+    limit: int = Query(2000, ge=1, le=2000)
+):
+    """指定されたタグを全て持つ論文を取得（AND条件）"""
+    # タグをパース（カンマ区切り）
+    tag_list = [tag.strip() for tag in tags.split(',') if tag.strip()]
+    if not tag_list:
+        raise HTTPException(status_code=400, detail="At least one tag is required")
+    
+    papers = corpus.get_papers_by_tags(tag_list, limit)
+    return {
+        "papers": [p.dict() for p in papers],
+        "tags": tag_list,
+        "count": len(papers)
+    }
+
+
+@app.get("/api/tags")
+async def get_tags():
+    """利用可能な全てのタグを取得"""
+    tags = corpus.get_all_tags()
+    return {"tags": tags}
 
 
 def main():

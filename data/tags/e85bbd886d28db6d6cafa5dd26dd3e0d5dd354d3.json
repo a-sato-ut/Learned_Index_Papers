@@ -1,0 +1,11 @@
+{
+  "paperId": "e85bbd886d28db6d6cafa5dd26dd3e0d5dd354d3",
+  "title": "SLIN: A CPU-efficient, Hybrid Tree and Learned Index for String Data",
+  "abstract": "The learned index is a disruptive technique for big data management. The core idea of the learned index is to retrofit the data indexing in traditional index structures with machine learning (ML) models, providing fast data position prediction instead of slow index tree traversal. Yet, current learned indexes focus on fix-sized numeric data and all of them perform poorly for variable-length string data for two main reasons: 1) high computational overheads caused by lengthy string key prediction; 2) large ML model fitting errors due to variance in string prefixes. This paper introduces SLIN, a CPU-efficient, hybrid index for variable-length string data. SLIN features a hybrid tree and learned index structure that leverages the strength of each index to overcome the above-mentioned challenges. It proposes a string slice approach which converts variable-length strings into fix-sized integers, which facilitates using one-dimensional linear regression for key prediction to reduce computational overheads. Furthermore, it extracts the common prefix from string keys to decrease model fitting errors. Finally, we propose a strategy to adaptively choose the appropriate index to manage computational costs. Evaluations compare SLIN with state-of-the-art index structures. The experimental results show that SLIN achieves up to 2.47x higher throughputs and relatively small fitting errors.",
+  "tags": [
+    "B-tree",
+    "Learned Index",
+    "Main-memory",
+    "String Key"
+  ]
+}

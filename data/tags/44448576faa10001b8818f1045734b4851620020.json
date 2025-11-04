@@ -1,0 +1,11 @@
+{
+  "paperId": "44448576faa10001b8818f1045734b4851620020",
+  "title": "Dynamic Cuckoo Hash by Machine Learning Data Density",
+  "abstract": "Given the increasing importance of efficient data management in big data environments, traditional hash table designs face significant challenges in terms of scalability and conflict management. To address these issues, this study proposes a dynamic hash table design that utilizes machine learning techniques to optimize based on data density to improve the performance of Cuckoo Hashing. Specifically, we introduce a triple hashing strategy aimed at effectively reducing the time overhead of traversing slots in the bucket. In addition, we used the k-means clustering algorithm to analyze the density distribution of the data, allowing us to dynamically adjust the size of the hash table. This method not only enhances conflict management capabilities, but also enables hash tables to flexibly adapt to constantly changing data characteristics. The experimental results show that compared with traditional hashing methods, our dynamic hash table exhibits good stability in both construction time and query time while maintaining a high loading rate, especially in terms of significant improvement in space utilization. These results fully demonstrate the effectiveness and practicality of the method in modern data applications, indicating its potential to cope with complex data environments. Through these innovative designs and optimization strategies, we have laid a solid foundation for the further development of hash table technology.",
+  "tags": [
+    "Database",
+    "Hash Table",
+    "Main-memory",
+    "Query optimization"
+  ]
+}

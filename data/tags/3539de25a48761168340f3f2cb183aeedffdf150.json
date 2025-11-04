@@ -1,0 +1,11 @@
+{
+  "paperId": "3539de25a48761168340f3f2cb183aeedffdf150",
+  "title": "Learned FIB: Fast IP Forwarding without Longest Prefix Matching",
+  "abstract": "This paper proposes an IP forwarding information base (FIB) encoding leveraging an emerging data structure called a learned index , which uses machine learning to associate key-position pairs in a key-value store. A learned index for FIB lookups is expected to yield a more compact representation and faster lookups compared to existing FIBs based on tries or hash tables, at the cost of efficient FIB updates, which is difficult to support with a learned index. We optimize our implementation for lookup speed, exploiting that for efficient FIB lookups it is enough to approximate the key-position pairs with a piece-wise linear function, instead of having to learn the key-position pairs. The experiments using real BGP routing information snapshots suggest that the size of the proposed FIB is compact and lookup speed is sufficiently fast regardless of the length of matched prefixes.",
+  "tags": [
+    "B-tree",
+    "Database",
+    "Hash Table",
+    "Learned Index"
+  ]
+}

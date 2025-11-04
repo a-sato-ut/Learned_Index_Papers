@@ -1,0 +1,6 @@
+{
+  "paperId": "afbd24227a90a13c30876c905643b68171e5e1bc",
+  "title": "On Nonlinear Learned String Indexing",
+  "abstract": "We investigate the potential of several artificial neural network architectures to be used as an index on a sorted set of strings, namely, as a mapping from a query string to (an estimate of) its lexicographic rank in the set, which allows solving some interesting string-search operations such as range and prefix searches. Our evaluation on a variety of real and synthetic datasets shows that learned models can beat the space vs error trade-off of the classic (possibly compressed) trie-based solutions for relatively dense datasets only, while being slower to be trained and queried. This leads us to conclude that learned models are not yet competitive with classic trie-based solutions, and thus cannot completely replace them, but possibly only integrate them. Although our study does not settle the question conclusively, it highlights appropriate methods, provides a baseline for comparison, and introduces several open problems, thereby serving as a starting point for future research.",
+  "tldr_ja": "学習モデルを用いた文字列インデックスの可能性を調査した結果、従来のトライ構造に比べて密なデータセットでは空間対誤差のトレードオフで優位性を示すが、トレーニングとクエリ処理が遅いため、完全な代替にはならず、今後の研究の出発点となることが示された。"
+}

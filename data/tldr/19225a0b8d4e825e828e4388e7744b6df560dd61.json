@@ -1,0 +1,6 @@
+{
+  "paperId": "19225a0b8d4e825e828e4388e7744b6df560dd61",
+  "title": "GeoBlocks: A Query-Driven Storage Layout for Geospatial Data",
+  "abstract": "City authorities need to analyze urban geospatial data to improve transportation and infrastructure. Current tools do not address the exploratory and interactive nature of these analyses and in many cases consult the raw data to compute query results. While pre-aggregation and materializing intermediate query results is common practice in many OLAP settings, it is rarely used to speed up geospatial queries. We introduce GeoBlocks, a pre-aggregating, query-driven storage layout for geospatial point data that can provide approximate, yet precision-bounded aggregation results over arbitrary query polygons. GeoBlocks adapt to the skew naturally present in query workloads to improve query performance over time. In summary, GeoBlocks outperform on-the-fly aggregation by up to several orders of magnitude, providing the sub-second query latencies required for interactive analytics.",
+  "tldr": "GeoBlocks is a new storage layout for geospatial data that pre-aggregates information to significantly improve query performance, achieving sub-second response times for urban analysis compared to traditional methods."
+}

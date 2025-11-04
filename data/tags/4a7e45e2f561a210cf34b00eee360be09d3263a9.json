@@ -1,0 +1,10 @@
+{
+  "paperId": "4a7e45e2f561a210cf34b00eee360be09d3263a9",
+  "title": "BLI: A High-performance Bucket-based Learned Index with Concurrency Support",
+  "abstract": "Learned indexes are promising to replace traditional tree-based indexes. They typically employ machine learning models to efficiently predict target positions in strictly sorted linear arrays. However, the strict sorted order 1) significantly increases insertion overhead, 2) makes it challenging to support lock-free concurrency, and 3) harms in-node lookup/insertion efficiency due to model inaccuracy.\\ In this paper, we introduce a \\textit{Bucket-based Learned Index (BLI)}, which is an updatable in-memory learned index that adopts a\"globally sorted, locally unsorted\"approach by replacing linear sorted arrays with \\textit{Buckets}. BLI optimizes the insertion throughput by only sorting Buckets, not the key-value pairs within a Bucket. BLI strategically balances three critical performance metrics: tree fanouts, lookup/insert latency for inner nodes, lookup/insert latency for leaf nodes, and memory consumption. To minimize maintenance costs, BLI performs lightweight bulk loading, insert, node scaling, node split, model retraining, and node merging adaptively. BLI supports lock-free concurrency thanks to the unsorted design with Buckets. Our results show that BLI achieves up to 2.21x better throughput than state-of-the-art learned indexes, with up to 3.91x gains under multi-threaded conditions.",
+  "tags": [
+    "Learned Index",
+    "Main-memory",
+    "Updatable"
+  ]
+}

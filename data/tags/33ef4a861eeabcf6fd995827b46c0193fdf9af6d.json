@@ -1,0 +1,9 @@
+{
+  "paperId": "33ef4a861eeabcf6fd995827b46c0193fdf9af6d",
+  "title": "Tight Bounds for Dynamic Bin Packing with Predictions",
+  "abstract": "MinUsageTime DBP is a variant of the Dynamic Bin Packing (DBP) problem that seeks to minimize the accumulated length of time for which bins are used in packing a sequence of items. This DBP variant models job dispatching for optimizing the busy time of machines, which finds applications in cloud computing and energy-efficient computing. This paper studies the MinUsageTime DBP problem with predictions about item durations (job lengths). We establish tight competitiveness bounds over the entire spectrum of prediction errors. First, we give a lower bound Ω(min {max{ε ⋅ √ log μ, ε2}, μ}) on the competitive ratio of any deterministic online algorithm, where μ is the max/min duration ratio of all items and ε is the maximum multiplicative prediction error. Then, we show that the competitive ratio of a recent algorithm has strictly higher asymptotic order than the above lower bound when ε = ω(1) ∧ ε = o(√ μ). Finally, we present an enhanced algorithm and prove that it achieves a competitive ratio matching the above lower bound, closing the gap for this problem.",
+  "tags": [
+    "Benchmark",
+    "Theoretical"
+  ]
+}

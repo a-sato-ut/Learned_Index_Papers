@@ -1,0 +1,6 @@
+{
+  "paperId": "d4fd56b87c99bd117d0b6e0f9b107601888d833c",
+  "title": "On the Costs and Benefits of Learned Indexing for Dynamic High-Dimensional Data: Extended Version",
+  "abstract": "One of the main challenges within the growing research area of learned indexing is the lack of adaptability to dynamically expanding datasets. This paper explores the dynamization of a static learned index for complex data through operations such as node splitting and broadening, enabling efficient adaptation to new data. Furthermore, we evaluate the trade-offs between static and dynamic approaches by introducing an amortized cost model to assess query performance in tandem with the build costs of the index structure, enabling experimental determination of when a dynamic learned index outperforms its static counterpart. We apply the dynamization method to a static learned index and demonstrate that its superior scaling quickly surpasses the static implementation in terms of overall costs as the database grows. This is an extended version of the paper presented at DAWAK 2025.",
+  "tldr_ja": "動的に拡張するデータセットに対応するため、静的な学習インデックスを動的に変化させる手法を提案し、静的アプローチとのトレードオフを評価。データベースが成長するにつれて、動的学習インデックスが静的実装よりもコスト面で優れることを示した。"
+}

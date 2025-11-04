@@ -1,0 +1,11 @@
+{
+  "paperId": "48ccb3d4d2dfb412eeaf432b3dd11aeafb658f3c",
+  "title": "SwiftKV: A Metadata Indexing Scheme Integrating LSM-Tree and Learned Index for Distributed KV Stores",
+  "abstract": "Optimizing metadata indexing remains critical for enhancing distributed file system performance. The Traditional Log-Structured Merge-Trees (LSM-Trees) architecture, while effective for write-intensive operations, exhibits significant limitations when handling massive metadata workloads, particularly manifesting as suboptimal read performance and substantial indexing overhead. Although existing learned indexes perform well on read-only workloads, they struggle to support modifications such as inserts and updates effectively. This paper proposes SwiftKV, a novel metadata indexing scheme that combines LSM-Tree and learned indexes to address these issues. Firstly, SwiftKV employs a dynamic partition strategy to narrow the metadata search range. Secondly, a two-level learned index block, consisting of Greedy Piecewise Linear Regression (Greedy-PLR) and Linear Regression (LR) models, is leveraged to replace the typical Sorted String Table (SSTable) index block for faster location prediction than binary search. Thirdly, SwiftKV incorporates a load-aware construction mechanism and parallel optimization to minimize training overhead and enhance efficiency. This work bridges the gap between LSM-Trees’ write efficiency and learned indexes’ query performance, offering a scalable and high-performance solution for modern distributed file systems. This paper implements the prototype of SwiftKV based on RocksDB. The experimental results show that it narrows the memory usage of index blocks by 30.06% and reduces read latency by 1.19×~1.60× without affecting write performance. Furthermore, SwiftKV’s two-level learned index achieves a 15.13% reduction in query latency and a 44.03% reduction in memory overhead compared to a single-level model. For all YCSB workloads, SwiftKV outperforms other schemes.",
+  "tags": [
+    "Database",
+    "LSM-tree",
+    "Learned Index",
+    "Query optimization"
+  ]
+}

@@ -17,6 +17,36 @@ export SEMANTIC_SCHOLAR_API_KEY=YOUR_API_KEY
 python collect_papers.py
 ```
 
+## TLDR生成
+
+1. OpenAI APIキーを設定:
+```bash
+export OPENAI_API_KEY=YOUR_API_KEY
+```
+
+2. 英語TLDRを生成:
+```bash
+cd backend
+python get_tldr.py
+```
+
+3. 日本語TLDRを生成:
+```bash
+cd backend
+python get_tldr_ja.py
+```
+
+4. タグを生成:
+```bash
+cd backend
+python get_tag.py
+```
+
+これらのスクリプトは、BASE_PID（"0539535989147bc7033f4a34931c7b8e17f1c650"）とそれを引用している論文のAbstractを読み込み、OpenAI APIを使って処理します。
+- 英語TLDRは `data/tldr/` フォルダに保存されます
+- 日本語TLDRは `data/tldr_ja/` フォルダに保存されます
+- タグは `data/tags/` フォルダに保存されます（包含関係を考慮して親タグも自動的に追加されます）
+
 ## ビジュアライザー
 
 ### バックエンド

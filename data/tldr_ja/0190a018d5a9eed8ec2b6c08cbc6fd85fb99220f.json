@@ -1,0 +1,6 @@
+{
+  "paperId": "0190a018d5a9eed8ec2b6c08cbc6fd85fb99220f",
+  "title": "PQ Bench: Benchmarking Pruning and Quantization Techniques",
+  "abstract": "Deep learning models are increasingly deployed in performance-critical applications, where computational efficiency must be balanced with accuracy. Model compression techniques such as pruning and quantization help address this challenge. However, they are often evaluated solely on accuracy, overlooking their impact on model size and inference time for a given hardware setup. To support practitioners in selecting and evaluating different model compression techniques, we introduce our benchmarking framework, PQ Bench. It pre-implements a set of popular compression techniques and automates the process of benchmarking their effects on accuracy, inference speed, and memory footprint. In our evaluation, we demonstrate the use of PQ Bench and provide key insights into the trade-offs across various models, compression strategies, and configurations.",
+  "tldr_ja": "PQ Benchは、モデル圧縮技術（プルーニングと量子化）の効果を精度、推論速度、メモリ使用量の観点から自動評価するためのベンチマークフレームワークを提供し、実務者が異なる技術を選択・評価する際の支援を目的としています。"
+}

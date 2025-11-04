@@ -1,0 +1,12 @@
+{
+  "paperId": "d0e49b6d754a1a0e80ea91b27dac3d90d5643123",
+  "title": "Hypersparse Network Flow Analysis of Packets with GraphBLAS",
+  "abstract": "Internet analysis is a major challenge due to the volume and rate of network traffic. In lieu of analyzing traffic as raw packets, network analysts often rely on compressed network flows (netflows) that contain the start time, stop time, source, destination, and number of packets in each direction. However, many traffic analyses benefit from temporal aggregation of multiple simultaneous netflows, which can be computationally challenging. To alleviate this concern, a novel netflow compression and resampling method has been developed leveraging GraphBLAS hyperspace traffic matrices that preserve anonymization while enabling subrange analysis. Standard multi-temporal spatial analyses are then performed on each sub range to generate detailed statistical aggregates of the source packets, source fan-out, unique links, destination fan-in, and destination packets of each subrange which can then be used for background modeling and anomaly detection. A simple file format based on GraphBLAS sparse matrices is developed for storing these statistical aggregates. This method is scale tested on the MIT SuperCloud using a 50 trillion packet netflow corpus from several hundred sites collected over several months. The resulting compression achieved is significant (<0.1 bit per packet) enabling extremely large netflow analyses to be stored and transported. The single node parallel performance is analyzed in terms of both processors and threads showing that a single node can perform hundreds of simultaneous analyses at over a million packets/sec (roughly equivalent to a 10 Gigabit link).",
+  "tags": [
+    "Compression",
+    "Database",
+    "Filter",
+    "Multidimensional",
+    "Time-series"
+  ]
+}

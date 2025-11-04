@@ -1,0 +1,11 @@
+{
+  "paperId": "07179254140b5526b4d039c89074e1d923c27dea",
+  "title": "K-Index: a learned spatial index for cold-start queries",
+  "abstract": "Current optimization methods of learned spatial indexes are often based on data distribution. However, when in coldstart scenarios whose query distributions are unknown, these methods are not suitable. In this paper, a sophisticated learned spatial index, K-Index, is designed for such cold-start environments. It employs a clustering-based data partitioning strategy, utilizing the K-means algorithm to cluster the spatial dataset. Then, cube-shaped partitions are formed with these clusters. For the sake that data should be stored in a certain order to speed up query performance, a dimension reduction technique, inspired by the Lebesgue measure, is used to convert a multi-dimensional spatial sample into one-dimensional format. Finally, a regression model is trained on these dimension-reduced samples for each partition, to enhance performances of cold-start spatial queries. The effectiveness of K-Index has been validated through experiments on both real and synthetic datasets, representing a significant advancement in learned indexing technologies. The K-Index method has been proven effective through experiments on both real and synthetic datasets, enhancing the adaptability and efficiency of handling spatial data and marking a significant advancement in learned indexing technologies.",
+  "tags": [
+    "Database",
+    "Learned Index",
+    "Multidimensional",
+    "Query optimization"
+  ]
+}

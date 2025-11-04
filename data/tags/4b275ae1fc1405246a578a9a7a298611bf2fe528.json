@@ -1,0 +1,13 @@
+{
+  "paperId": "4b275ae1fc1405246a578a9a7a298611bf2fe528",
+  "title": "A Learned Bloom Filter-Assisted Scheme for Packet Classification in Software-Defined Networking",
+  "abstract": "Traditional routing technologies based on a single IP address domain faces the challenge to meet the increasing demand for network services and security. Packet classification is a technique to differentiate multi-domain network traffic in a fine-grained manner using packet header fields. Packet classification requires to operate efficiently to avoid it becoming a bottleneck in the packet routing process. Tuple space search (TSS) used in SDN supports fast rule updates but low-speed packet classification. In this paper, we propose a learned Bloom filter (LBF)-based packet classification algorithm that combines LBF and TSS to promote classification speed by avoiding invalid hash table accesses. Specifically, LBF consists of multiple RNN models and one support Bloom filter (SBF), in which the learned models are trained with the positive and negative sets, and used as a pre-filter to identify the two sets. For the filter outcomes with a negative result from learned models, SBF is constructed to perform the second filtration. To ensure efficiency of RNN and SBF, we carefully select key features to be used in RNN and SBF, which can also maintain efficient search in the final stage of hash checking. Our experimental results show that the proposed algorithm saves more memory space than Tuple space pruning (TSP) given the same false positive rate. The proposed algorithm is competitive in terms of the number of memory accesses, while achieving almost one order of magnitude improvement on pre-processing time over NeuroCuts which is an advanced decision tree classifier.",
+  "tags": [
+    "Bloom Filter",
+    "Database",
+    "Filter",
+    "Hash Table",
+    "Learned Bloom Filter",
+    "Learned Index"
+  ]
+}

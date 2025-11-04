@@ -1,0 +1,10 @@
+{
+  "paperId": "90e9ed8c8fb99ab6122edad9e97169ab9ea2fc6e",
+  "title": "SPIDER: Improved Succinct Rank and Select Performance",
+  "abstract": "Rank and select data structures seek to preprocess a bit vector to quickly answer two kinds of queries: rank(i) gives the number of 1 bits in slots 0 through i, and select(j) gives the first slot s with rank(s) = j. A succinct data structure can answer these queries while using space much smaller than the size of the original bit vector. State of the art succinct rank and select data structures use as little as 4% extra space while answering rank and select queries quickly. Rank queries can be answered using only a handful of array accesses. Select queries can be answered by starting with similar array accesses, followed by a linear scan. Despite these strong results, a tradeoff remains: data structures that use under 4% space are significantly slower at answering rank and select queries than less-space-efficient data structures (using, say,>20% extra space). In this paper we make significant progress towards closing this gap. We give a new data structure, SPIDER, which uses 3.82% extra space. SPIDER gives the best rank query time for data sets of 8 billion or more bits, even compared to less space-efficient data structures. For select queries, SPIDER outperforms all data structures that use less than 4% space, and significantly closes the gap in select performance between data structures with less than 4% space, and those that use more (over 20%) space. SPIDER makes two main technical contributions. For rank queries, it improves performance by interleaving the metadata with the bit vector to improve cache efficiency. For select queries, it uses predictions to almost eliminate the cost of the linear scan. These predictions are inspired by recent results on data structures with machine-learned predictions, adapted to the succinct data structure setting. Our results hold on both real and synthetic data, showing that these predictions are effective in practice.",
+  "tags": [
+    "Caching",
+    "Learned Index",
+    "Theoretical"
+  ]
+}

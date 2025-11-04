@@ -1,0 +1,6 @@
+{
+  "paperId": "58f2b9ba020a1da7b582a1330d38317bf1b8670e",
+  "title": "FeCBF: A Novel Sub-Optimal Cascaded Bloom Filter Structure Based on Feature Extraction",
+  "abstract": "This work presents the Feature extraction Cascaded Bloom Filter (FeCBF), a novel probabilistic data structure formed by cascading multiple Bloom filters in an optimum sequence. The FeCBF’s distinctive design of alternating positive and negative filter layers effectively suppresses False Positive/Negative Rates (FPR/FNR), enabling exact filtering with reasonable resource cost. Compared to other state-of-the-art designs on the same experimental dataset, FeCBF demonstrates significant memory space savings of 45% to 76% while maintaining the best FPR in its class. The proposed model also includes a closed-form expression for determining the sub-optimal FeCBF configuration based on desired filter performance metrics, offering the potential for automatic design flow. The FeCBF architecture, designed for hardware implementation, holds promise for many applications. It can be readily deployed as an accelerator in various computing problems, including massive content filtering, network traffic filtering, and online malware/virus detection.",
+  "tldr_ja": "FeCBFは、特徴抽出に基づく新しいカスケード型ブルームフィルタで、誤検出率を抑えつつメモリ使用量を45%から76%削減します。自動設計フローの可能性もあり、さまざまな計算問題におけるアクセラレーターとしての応用が期待されます。"
+}

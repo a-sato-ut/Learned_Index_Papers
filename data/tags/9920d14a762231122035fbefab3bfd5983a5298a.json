@@ -1,0 +1,10 @@
+{
+  "paperId": "9920d14a762231122035fbefab3bfd5983a5298a",
+  "title": "Optimizing Context-Enhanced Relational Joins",
+  "abstract": "Collecting data, extracting value, and combining insights from relational and context-rich sources of many modalities in data processing pipelines presents a challenge for traditional relational DBMS. While relational operators enable declarative and optimizable query specification, they are limited to unsuitable data transformations for capturing or analyzing context. On the other hand, representation learning models can map context-rich data into embeddings, enabling machine-automated context processing but requiring imperative data transformation integration with the analytical query. We present a context-enhanced relational join operator to bridge this dichotomy and introduce an embedding operator composable with relational operators. This approach enables hybrid relational and context-rich vector data processing, with algebraic equivalences compatible with relational algebra and corresponding logical and physical optimizations. We investigate model-operator interaction with vector data processing and study the characteristics of the join operator. We demonstrate the hybrid context-enhanced relational join operators with vector embeddings and evaluate it against a vector database approach. We show step-by-step the impact of logical and physical optimizations, which result in orders of magnitude execution time improvement resulting in tensor join formulation. We also outline the performance tradeoffs and cases of using scan-based processing against vector indexes.",
+  "tags": [
+    "Database",
+    "Learned Index",
+    "Query optimization"
+  ]
+}

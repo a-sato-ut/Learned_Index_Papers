@@ -1,0 +1,11 @@
+{
+  "paperId": "e980be7592fd20a0b7cb45c6a7daf6ef659622b8",
+  "title": "Hash Adaptive Bloom Filter",
+  "abstract": "Bloom filter is a compact memory-efficient probabilistic data structure supporting membership testing, i.e., to check whether an element is in a given set. However, as Bloom filter maps each element with uniformly random hash functions, few flexibilities are provided even if the information of negative keys (elements are not in the set) are available. The problem gets worse when the misidentification of negative keys brings different costs. To address the above problems, we propose a new Hash Adaptive Bloom Filter (HABF) that supports the customization of hash functions for keys. The key idea of HABF is to customize the hash functions for positive keys (elements are in the set) to avoid negative keys with high cost, and pack customized hash functions into a lightweight data structure named HashExpressor. Then, given an element at query time, HABF follows a two-round pattern to check whether the element is in the set. Further, we theoretically analyze the performance of HABF and bound the expected false positive rate. We conduct extensive experiments on representative datasets, and the results show that HABF outperforms the standard Bloom filter and its cutting-edge variants on the whole in terms of accuracy, construction time, query time, and memory space consumption (Note that source codes are available in [1]).",
+  "tags": [
+    "Bloom Filter",
+    "Filter",
+    "Hash Table",
+    "Learned Index"
+  ]
+}

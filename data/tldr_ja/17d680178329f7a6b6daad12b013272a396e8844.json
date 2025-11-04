@@ -1,0 +1,6 @@
+{
+  "paperId": "17d680178329f7a6b6daad12b013272a396e8844",
+  "title": "FlexFlood: Efficiently Updatable Learned Multi-dimensional Index",
+  "abstract": "A learned multi-dimensional index is a data structure that efficiently answers multi-dimensional orthogonal queries by understanding the data distribution using machine learning models. One of the existing problems is that the search performance significantly decreases when the distribution of data stored in the data structure becomes skewed due to update operations. To overcome this problem, we propose FlexFlood, a flexible variant of Flood. FlexFlood partially reconstructs the internal structure when the data distribution becomes skewed. Moreover, FlexFlood is the first learned multi-dimensional index that guarantees the time complexity of the update operation. Through experiments using both artificial and real-world data, we demonstrate that the search performance when the data distribution becomes skewed is up to 10 times faster than existing methods. We also found that partial reconstruction takes only about twice as much time as naive data updating.",
+  "tldr_ja": "FlexFloodは、データの更新による分布の偏りに対応するために内部構造を部分的に再構築する学習型多次元インデックスであり、更新操作の時間計算量を保証する初の手法です。実験により、偏ったデータ分布における検索性能が従来の方法より最大10倍速いことを示しました。"
+}

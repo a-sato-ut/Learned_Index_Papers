@@ -1,0 +1,11 @@
+{
+  "paperId": "d327539c0a90a245b36c690ae81f29397706910c",
+  "title": "Sig2Model: A Boosting-Driven Model for Updatable Learned Indexes",
+  "abstract": "Learned Indexes (LIs) represent a paradigm shift from traditional index structures by employing machine learning models to approximate the cumulative distribution function (CDF) of sorted data. While LIs achieve remarkable efficiency for static datasets, their performance degrades under dynamic updates: maintaining the CDF invariant (sum of F(k) equals 1) requires global model retraining, which blocks queries and limits the queries-per-second (QPS) metric. Current approaches fail to address these retraining costs effectively, rendering them unsuitable for real-world workloads with frequent updates. In this paper, we present Sig2Model, an efficient and adaptive learned index that minimizes retraining cost through three key techniques: (1) a sigmoid boosting approximation technique that dynamically adjusts the index model by approximating update-induced shifts in data distribution with localized sigmoid functions while preserving bounded error guarantees and deferring full retraining; (2) proactive update training via Gaussian mixture models (GMMs) that identifies high-update-probability regions for strategic placeholder allocation to speed up updates; and (3) a neural joint optimization framework that continuously refines both the sigmoid ensemble and GMM parameters via gradient-based learning. We evaluate Sig2Model against state-of-the-art updatable learned indexes on real-world and synthetic workloads, and show that Sig2Model reduces retraining cost by up to 20x, achieves up to 3x higher QPS, and uses up to 1000x less memory.",
+  "tags": [
+    "Database",
+    "Learned Index",
+    "Main-memory",
+    "Updatable"
+  ]
+}

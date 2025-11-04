@@ -1,0 +1,10 @@
+{
+  "paperId": "d180c4b7deaf2ac14b1b1a5d1076dc77fa4c88e9",
+  "title": "Peregrine: Workload Optimization for Cloud Query Engines",
+  "abstract": "Database administrators (DBAs) were traditionally responsible for optimizing the on-premise database workloads. However, with the rise of cloud data services, where cloud providers offer fully managed data processing capabilities, the role of a DBA is completely missing. At the same time, optimizing query workloads is becoming increasingly important for reducing the total costs of operation and making data processing economically viable in the cloud. This paper revisits workload optimization in the context of these emerging cloud-based data services. We observe that the missing DBA in these newer data services has affected both the end users and the system developers: users have workload optimization as a major pain point while the system developers are now tasked with supporting a large base of cloud users. We present Peregrine, a workload optimization platform for cloud query engines that we have been developing for the big data analytics infrastructure at Microsoft. Peregrine makes three major contributions: (i) a novel way of representing query workloads that is agnostic to the query engine and is general enough to describe a large variety of workloads, (ii) a categorization of the typical workload patterns, derived from production workloads at Microsoft, and the corresponding workload optimizations possible in each category, and (iii) a prescription for adding workload-awareness to a query engine, via the notion of query annotations that are served to the query engine at compile time. We discuss a case study of Peregrine using two optimizations over two query engines, namely Scope and Spark. Peregrine has helped cut the time to develop new workload optimization features from years to months, benefiting the research teams, the product teams, and the customers at Microsoft.",
+  "tags": [
+    "Benchmark",
+    "Database",
+    "Query optimization"
+  ]
+}

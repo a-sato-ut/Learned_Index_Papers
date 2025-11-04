@@ -1,0 +1,10 @@
+{
+  "paperId": "0ce14a8cd9528a8598eba4e9bb478dc83c3611ad",
+  "title": "Just-in-Time Index Compilation",
+  "abstract": "Creating or modifying a primary index is a time-consuming process, as the index typically needs to be rebuilt from scratch. In this paper, we explore a more graceful \"just-in-time\" approach to index reorganization, where small changes are dynamically applied in the background. To enable this type of reorganization, we formalize a composable organizational grammar, expressive enough to capture instances of not only existing index structures, but arbitrary hybrids as well. We introduce an algebra of rewrite rules for such structures, and a framework for defining and optimizing policies for just-in-time rewriting. Our experimental analysis shows that the resulting index structure is flexible enough to adapt to a variety of performance goals, while also remaining competitive with existing structures like the C++ standard template library map.",
+  "tags": [
+    "B-tree",
+    "Database",
+    "Query optimization"
+  ]
+}

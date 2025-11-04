@@ -1,0 +1,6 @@
+{
+  "paperId": "1df1f4808a8dc151f678e0a1f65222a05ba8c80f",
+  "title": "Non-clairvoyant Scheduling with Partial Predictions",
+  "abstract": "The non-clairvoyant scheduling problem has gained new interest within learning-augmented algorithms, where the decision-maker is equipped with predictions without any quality guarantees. In practical settings, access to predictions may be reduced to specific instances, due to cost or data limitations. Our investigation focuses on scenarios where predictions for only $B$ job sizes out of $n$ are available to the algorithm. We first establish near-optimal lower bounds and algorithms in the case of perfect predictions. Subsequently, we present a learning-augmented algorithm satisfying the robustness, consistency, and smoothness criteria, and revealing a novel tradeoff between consistency and smoothness inherent in the scenario with a restricted number of predictions.",
+  "tldr_ja": "部分的な予測を用いた非予知的スケジューリング問題を扱い、特定のジョブサイズに対する予測のみが利用可能な場合の最適下限とアルゴリズムを確立。学習強化アルゴリズムを提案し、一貫性と滑らかさのトレードオフを明らかにした。"
+}

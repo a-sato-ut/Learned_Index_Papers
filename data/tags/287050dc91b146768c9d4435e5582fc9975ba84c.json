@@ -1,0 +1,12 @@
+{
+  "paperId": "287050dc91b146768c9d4435e5582fc9975ba84c",
+  "title": "Learned Cardinalities: Estimating Correlated Joins with Deep Learning",
+  "abstract": "We describe a new deep learning approach to cardinality estimation. MSCN is a multi-set convolutional network, tailored to representing relational query plans, that employs set semantics to capture query features and true cardinalities. MSCN builds on sampling-based estimation, addressing its weaknesses when no sampled tuples qualify a predicate, and in capturing join-crossing correlations. Our evaluation of MSCN using a real-world dataset shows that deep learning significantly enhances the quality of cardinality estimation, which is the core problem in query optimization.",
+  "tags": [
+    "Cardinality estimation",
+    "Database",
+    "Learned Index",
+    "Query optimization",
+    "Theoretical"
+  ]
+}

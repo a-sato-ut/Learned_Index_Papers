@@ -1,0 +1,6 @@
+{
+  "paperId": "a7a21b1be7dd3ddf31d48e83fd84412c480d58ab",
+  "title": "Adversary Resilient Learned Bloom Filters",
+  "abstract": "A learned Bloom filter (LBF) combines a classical Bloom filter (CBF) with a learning model to reduce the amount of memory needed to represent a given set while achieving a target false positive rate (FPR). Provable security against adaptive adversaries that advertently attempt to increase FPR has been studied for CBFs, but not for LBFs. In this paper, we close this gap and show how to achieve adaptive security for LBFs. In particular, we define several adaptive security notions capturing varying degrees of adversarial control, including full and partial adaptivity, in addition to LBF extensions of existing adversarial models for CBFs, including the Always-Bet and Bet-or-Pass notions. We propose two secure LBF constructions, PRP-LBF and Cuckoo-LBF, and formally prove their security under these models assuming the existence of one-way functions. Based on our analysis and use case evaluations, our constructions achieve strong security guarantees while maintaining competitive FPR and memory overhead.",
+  "tldr_ja": "学習型ブルームフィルター（LBF）のセキュリティを強化し、適応型攻撃者に対する防御を実現するための新しい構造（PRP-LBFとCuckoo-LBF）を提案し、強力なセキュリティ保証を提供しつつ、競争力のある誤検知率とメモリ使用量を維持することを示した。"
+}

@@ -1,0 +1,11 @@
+{
+  "paperId": "2bb2693e792cccc9d018ac86c06f69c01867f9a0",
+  "title": "START — Self-Tuning Adaptive Radix Tree",
+  "abstract": "structures like the Adaptive Radix Tree (ART) are a central part of in-memory database systems. However, we found that radix nodes that index a single byte are not optimal for read-heavy workloads. In this work, we introduce START, a self-tuning variant of ART that uses nodes spanning multiple keybytes. To determine where to introduce these new node types, we propose a cost model and an optimizer. These components allow us to fine-tune an existing ART, reducing its overall height, and improving performance. As a result, START performs on average 85 % faster than a regular ART on a wide variety of read-only workloads and 45% faster for read-mostly workloads.",
+  "tags": [
+    "B-tree",
+    "Database",
+    "Main-memory",
+    "Query optimization"
+  ]
+}

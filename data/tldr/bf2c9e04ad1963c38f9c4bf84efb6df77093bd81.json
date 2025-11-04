@@ -1,0 +1,6 @@
+{
+  "paperId": "bf2c9e04ad1963c38f9c4bf84efb6df77093bd81",
+  "title": "Learning Sublinear-Time Indexing for Nearest Neighbor Search",
+  "abstract": "Most of the efficient sublinear-time indexing algorithms for the high-dimensional nearest neighbor search problem (NNS) are based on space partitions of the ambient space $\\mathbb{R}^d$. Inspired by recent theoretical work on NNS for general metric spaces [Andoni, Naor, Nikolov, Razenshteyn, Waingarten STOC 2018, FOCS 2018], we develop a new framework for constructing such partitions that reduces the problem to balanced graph partitioning followed by supervised classification. We instantiate this general approach with the KaHIP graph partitioner [Sanders, Schulz SEA 2013] and neural networks, respectively, to obtain a new partitioning procedure called Neural Locality-Sensitive Hashing (Neural LSH). On several standard benchmarks for NNS, our experiments show that the partitions found by Neural LSH consistently outperform partitions found by quantization- and tree-based methods.",
+  "tldr": "新しいフレームワーク「Neural Locality-Sensitive Hashing」を提案し、グラフ分割とニューラルネットワークを用いて高次元最近傍探索のための効率的なサブリニアタイムインデクシングを実現。実験では、従来の量子化や木構造に基づく手法よりも優れた性能を示す。"
+}

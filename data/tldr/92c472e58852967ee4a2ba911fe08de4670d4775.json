@@ -1,0 +1,6 @@
+{
+  "paperId": "92c472e58852967ee4a2ba911fe08de4670d4775",
+  "title": "Automatically Finding Optimal Index Structure",
+  "abstract": "Existing learned indexes (e.g., RMI, ALEX, PGM) optimize the internal regressor of each node, not the overall structure such as index height, the size of each layer, etc. In this paper, we share our recent findings that we can achieve significantly faster lookup speed by optimizing the structure as well as internal regressors. Specifically, our approach (called AirIndex) expresses the end-to-end lookup time as a novel objective function, and searches for optimal design decisions using a purpose-built optimizer. In our experiments with state-of-the-art methods, AirIndex achieves 3.3x-7.7x faster lookup for the data stored on local SSD, and 1.4x-3.0x faster lookup for the data on Azure Cloud Storage.",
+  "tldr": "AirIndex optimizes both the structure and internal regressors of learned indexes, achieving 3.3x-7.7x faster lookup speeds on local SSDs and 1.4x-3.0x faster on Azure Cloud Storage compared to existing methods."
+}

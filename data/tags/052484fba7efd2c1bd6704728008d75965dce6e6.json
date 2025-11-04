@@ -1,0 +1,12 @@
+{
+  "paperId": "052484fba7efd2c1bd6704728008d75965dce6e6",
+  "title": "Local Differentially Private Frequency Estimation based on Learned Sketches",
+  "abstract": "Sketches are widely used for frequency estimation of data with a large domain. However, sketches-based frequency estimation faces more challenges when considering privacy. Local differential privacy (LDP) is a solution to frequency estimation on sensitive data while preserving the privacy. LDP enables each user to perturb its data on the client-side to protect the privacy, but it also introduces errors to the frequency estimations. The hash collisions in the sketches make the estimations for low-frequent items even worse. In this paper, we propose a two-phase frequency estimation framework for data with a large domain based on an LDP learned sketch, which separates the high-frequent and low-frequent items to avoid the errors caused by hash collisions. We theoretically proved that the proposed method satisfies LDP and it is more accurate than the state-of-the-art frequency estimation methods including Apple-CMS, Apple-HCMS and FLH. The experimental results verify the performance of our method.",
+  "tags": [
+    "Benchmark",
+    "Filter",
+    "Learned Index",
+    "Sketch",
+    "Theoretical"
+  ]
+}

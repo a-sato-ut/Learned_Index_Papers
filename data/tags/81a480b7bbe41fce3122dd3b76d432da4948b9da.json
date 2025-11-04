@@ -1,0 +1,9 @@
+{
+  "paperId": "81a480b7bbe41fce3122dd3b76d432da4948b9da",
+  "title": "Learning to optimize federated queries",
+  "abstract": "Query optimization is challenging for any database system, even with a clear understanding of its inner workings. Consider then, query planning for a federation of third-party data sources where little detail is known. This is exactly the challenge of orchestrating data execution and movement faced by Tableau's cross-database joins feature, where the data of a query originates from two or more data sources. In this paper, we present our work on using machine learning techniques to address one of the most fundamental challenges in federated query optimization: the dynamic designation of a federation engine. Our machine learning model learns the performance and data characteristics of a system by extracting features from query plans. We further extend the ability of our model to manipulate database settings on a per query level. Our experimental results demonstrate that we can achieve a speedup of up to 10.7x compared to an existing federated query optimizer.",
+  "tags": [
+    "Database",
+    "Query optimization"
+  ]
+}

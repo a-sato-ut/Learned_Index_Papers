@@ -1,0 +1,6 @@
+{
+  "paperId": "257fa485809f04088c07fec8720d9f9daab82d5a",
+  "title": "Parallel Batched Interpolation Search Tree",
+  "abstract": "Ordered set (and map) is one of the most used data type. In addition to standard set operations, like insert, delete and contains, it can provide set-set operations such as union, intersection, and difference. Each of these set-set operations is equivalent to batched operations: the data structure should process a set of operations insert, delete, and contains. It is obvious that we want these\"large\"operations to be parallelized. Typically, these sets are implemented with the trees of logarithmic height, such as 2-3 tree, Treap, AVL tree, Red-Black tree, etc. Until now, little attention was devoted to data structures that work better but under several restrictions on the data. In this work, we parallelize Interpolation Search Tree which serves each request from a smooth distribution in doubly-logarithmic time. Our data structure of size $n$ performs a batch of $m$ operations in $O(m \\log\\log n)$ work and poly-log span.",
+  "tldr": "この論文では、平行化された補間探索木を提案し、滑らかな分布からのリクエストを処理することで、バッチ操作を効率的に実行するデータ構造を紹介しています。これにより、サイズnのデータ構造がm個の操作をO(m log log n)の作業量で処理できることを示しています。"
+}

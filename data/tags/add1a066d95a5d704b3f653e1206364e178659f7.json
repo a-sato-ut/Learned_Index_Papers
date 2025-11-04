@@ -1,0 +1,12 @@
+{
+  "paperId": "add1a066d95a5d704b3f653e1206364e178659f7",
+  "title": "ASLDP: An Active Semi-supervised Learning method for Disk Failure Prediction",
+  "abstract": "Disk failure has always been a major problem for data centers, leading to data loss. Current research works used supervised learning to offline training through a large number of labeled samples. However, these offline methods are no longer suitable for disk failure prediction tasks in the current big data environment. Behind this explosive amount of data, most methods do not take into account the label values used in the model training phase may not be easy to obtain, or the obtained label values are not completely accurate. These problems further restrict the development of supervised learning and offline modeling in disk failure prediction. In this paper, ASLDP, a novel disk failure prediction method is proposed, which uses active learning and semi-supervised learning. According to the characteristics of data in the disk life cycle, ASLDP carries out active learning for those clear labeled samples, which selects valuable samples and eliminates redundancy. For those samples that are unclearly labeled or unlabeled, ASLDP combines with semi-supervised learning for pre-labeled, and enhances the generalization ability by active learning. The results on three realistic datasets demonstrate that ASLDP achieves stable failure detection rates of 80-85% with low false alarm rates, compared to current online learning methods. Furthermore, ASLDP can overcome the problems of the sample label missing and data redundancy in the massive data environment, compared to current offline learning methods.",
+  "tags": [
+    "Database",
+    "Disk",
+    "Main-memory",
+    "Query optimization",
+    "Reinforcement Learning"
+  ]
+}

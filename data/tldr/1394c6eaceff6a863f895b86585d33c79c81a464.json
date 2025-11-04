@@ -1,0 +1,6 @@
+{
+  "paperId": "1394c6eaceff6a863f895b86585d33c79c81a464",
+  "title": "Learning How To Learn Within An LSM-based Key-Value Store",
+  "abstract": "We introduce BOURBON, a log-structured merge (LSM) tree that utilizes machine learning to provide fast lookups. We base the design and implementation of BOURBON on empirically grounded principles that we derive through careful analysis of LSM design. BOURBON employs greedy piecewise linear regression to learn key distributions, enabling fast lookup with minimal computation, and applies a cost-benefit strategy to decide when learning will be worthwhile. Through a series of experiments on both synthetic and real-world datasets, we show that BOURBON improves lookup performance by 1.23x-1.78x as compared to state-of-the-art production LSMs.",
+  "tldr": "BOURBON is a machine learning-enhanced LSM tree that improves lookup performance by 1.23x-1.78x over existing LSMs by learning key distributions and optimizing when to apply this learning."
+}

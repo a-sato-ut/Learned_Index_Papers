@@ -1,0 +1,12 @@
+{
+  "paperId": "1ff7e3defc3b9c27e9e5e7cee1d9901003ed85db",
+  "title": "LCKV: Learner-Cleaner Optimized Adaptive Key-Value Separated LSM-Tree Store",
+  "abstract": "Persistent key-value store based on LSM-trees represents one of the most advanced designs. Recent research shows that key-value separation has become a popular optimization method for LSM-tree. However, this storage architecture still incurs significant overhead when dealing with some query- and update-intensive workloads. In this paper, we propose $\\text{LC}\\text{KV}$, a key-value separated LSM-tree storage system built using the $\\underline{L}earner-\\underline{C}leaner$ optimization to increase throughput. Learner represents the construction of learned indexes to increase query throughput, responsible for building models for the hot-readcold-written keys stored in the LSM-tree and values stored in the cold-written $\\mathrm{v}\\text{alue logs}$ (vLogs). Cleaner represents the garbage $\\mathrm{c}\\text{ollector}$ (GC) aimedat increasing update throughput, responsible not only for garbage collection but also for maintaining the sorting of the cold-written vLog. Evaluations show that LCKV outperforms other state-of-the-art solutions.",
+  "tags": [
+    "Database",
+    "LSM-tree",
+    "Learned Index",
+    "Main-memory",
+    "Query optimization"
+  ]
+}

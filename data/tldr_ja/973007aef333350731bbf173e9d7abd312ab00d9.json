@@ -1,0 +1,6 @@
+{
+  "paperId": "973007aef333350731bbf173e9d7abd312ab00d9",
+  "title": "Learning-Augmented Streaming Codes are Approximately Optimal for Variable-Size Messages",
+  "abstract": "Real-time streaming communication requires a high quality-of-service despite contending with packet loss. Streaming codes are a class of codes best suited for this setting. A key challenge for streaming codes is that they operate in an \"online\" setting in which the amount of data to be transmitted varies over time and is not known in advance. Mitigating the adverse effects of variability requires spreading the data that arrives at a time slot over multiple future packets, and the optimal strategy for spreading depends on the arrival pattern. Algebraic coding techniques alone are therefore insufficient for designing rate-optimal codes. We combine algebraic coding techniques with a learning-augmented algorithm for spreading to design the first approximately rate-optimal streaming codes for a range of parameter regimes that are important for practical applications. An extended version of this paper is available at: [1].",
+  "tldr_ja": "リアルタイムストリーミング通信において、変動するメッセージサイズに対応するため、学習を活用したアルゴリズムと代数的コーディング技術を組み合わせた新しいストリーミングコードを提案し、実用的な条件下で約最適なレートを実現する。"
+}

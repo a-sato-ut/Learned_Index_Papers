@@ -1,0 +1,6 @@
+{
+  "paperId": "2ce7ed897ab8d99c422ac0bf434652b6d8f6b9b6",
+  "title": "Towards Parallel Learned Sorting",
+  "abstract": "We introduce a new sorting algorithm that is the combination of ML-enhanced sorting with the In-place Super Scalar Sample Sort (IPS 4 o). The main contribution of our work is to achieve parallel ML-enhanced sorting, as previous algorithms were limited to sequential implementations. We introduce the In-Place Parallel Learned Sort (IPLS) algorithm and compare it extensively against other sorting approaches. IPLS combines the IPS 4 o framework with linear models trained using the Fastest Minimum Conﬂict Degree algorithm to partition data. The experimental results do not crown IPLS as the fastest algorithm. However, they do show that IPLS is competitive among its peers and that using the IPS 4 o framework is a promising approach towards parallel learned sorting.",
+  "tldr_ja": "新しい並列学習ソートアルゴリズム「In-Place Parallel Learned Sort (IPLS)」を提案し、従来の逐次実装に対する競争力を示すが、最速ではないことが確認された。"
+}

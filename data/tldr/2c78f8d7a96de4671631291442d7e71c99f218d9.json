@@ -1,0 +1,6 @@
+{
+  "paperId": "2c78f8d7a96de4671631291442d7e71c99f218d9",
+  "title": "Estimating Cardinalities with Deep Sketches",
+  "abstract": "We introduce Deep Sketches, which are compact models of databases that allow us to estimate the result sizes of SQL queries. Deep Sketches are powered by a new deep learning approach to cardinality estimation that can capture correlations between columns, even across tables. Our demonstration allows users to define such sketches on the TPC-H and IMDb datasets, monitor the training process, and run ad-hoc queries against trained sketches. We also estimate query cardinalities with HyPer and PostgreSQL to visualize the gains over traditional cardinality estimators.",
+  "tldr": "Deep Sketches is a new deep learning model for estimating SQL query result sizes that captures correlations between database columns, demonstrating improved accuracy over traditional methods on TPC-H and IMDb datasets."
+}

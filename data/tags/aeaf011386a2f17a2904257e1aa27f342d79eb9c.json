@@ -1,0 +1,10 @@
+{
+  "paperId": "aeaf011386a2f17a2904257e1aa27f342d79eb9c",
+  "title": "Learning to Walk: Architecting Learned Virtual Memory Translation",
+  "abstract": "The rise in memory demands of emerging datacenter applications has placed virtual memory translation in the spotlight, exposing it as a significant performance bottleneck. To address this problem, this paper introduces Learned Virtual Memory (LVM), a page table structure that effectively provides optimal single-access address translation. LVM is founded on a novel learned index model that dynamically adapts the address translation procedure based on the characteristics of an application’s virtual address space. Furthermore, LVM’s learned index requires minimal memory space, does not impose stringent physical contiguity requirements, enjoys high cacheability in the MMU, efficiently supports insertions, and relies on simple fixed-point arithmetic. Finally, LVM supports all features of virtual memory, including multiple page sizes. We evaluate LVM with a set of operating system (OS) extensions in Linux, RTL synthesis, and full-system simulations across a wide range of workloads. LVM reduces the address translation overhead by an average of 44% over radix page tables, while reducing the page walk cache area required by 1.5 ×. Overall, LVM achieves a 2-27% speedup in application execution time and is within 1% of an ideal page table.",
+  "tags": [
+    "Database",
+    "Learned Index",
+    "Main-memory"
+  ]
+}

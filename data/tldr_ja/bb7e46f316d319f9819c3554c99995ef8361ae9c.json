@@ -1,0 +1,6 @@
+{
+  "paperId": "bb7e46f316d319f9819c3554c99995ef8361ae9c",
+  "title": "CodexDB: Generating Code for Processing SQL Queries using GPT-3 Codex",
+  "abstract": "CodexDB is an SQL processing engine whose internals can be customized via natural language instructions. CodexDB is based on OpenAI's GPT-3 Codex model which translates text into code. It is a framework on top of GPT-3 Codex that decomposes complex SQL queries into a series of simple processing steps, described in natural language. Processing steps are enriched with user-provided instructions and descriptions of database properties. Codex translates the resulting text into query processing code. An early prototype of CodexDB is able to generate correct code for a majority of queries of the WikiSQL benchmark and can be customized in various ways.",
+  "tldr_ja": "CodexDBは、自然言語指示を用いてカスタマイズ可能なSQL処理エンジンで、GPT-3 Codexモデルを基にしており、複雑なSQLクエリを単純な処理ステップに分解してコードを生成します。初期プロトタイプはWikiSQLベンチマークの大多数のクエリに対して正しいコードを生成できます。"
+}

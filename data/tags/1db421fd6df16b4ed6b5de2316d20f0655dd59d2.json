@@ -1,0 +1,10 @@
+{
+  "paperId": "1db421fd6df16b4ed6b5de2316d20f0655dd59d2",
+  "title": "Aggregate-based Training Phase for ML-based Cardinality Estimation",
+  "abstract": "Cardinality estimation is a fundamental task in database query processing and optimization. As shown in recent papers, machine learning (ML)-based approaches may deliver more accurate cardinality estimations than traditional approaches. However, a lot of training queries have to be executed during the model training phase to learn a data-dependent ML model making it very time-consuming. Many of those training or example queries use the same base data, have the same query structure, and only differ in their selective predicates. To speed up the model training phase, our core idea is to determine a predicate-independent pre-aggregation of the base data and to execute the example queries over this pre-aggregated data. Based on this idea, we present a specific aggregate-based training phase for ML-based cardinality estimation approaches in this paper. As we are going to show with different workloads in our evaluation, we are able to achieve an average speedup of 90 with our aggregate-based training phase and thus outperform indexes.",
+  "tags": [
+    "Cardinality estimation",
+    "Database",
+    "Query optimization"
+  ]
+}

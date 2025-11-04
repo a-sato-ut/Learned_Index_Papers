@@ -1,0 +1,6 @@
+{
+  "paperId": "721a1639ebf45dc826abb76adb72adaac5ee81de",
+  "title": "Warm-starting Push-Relabel",
+  "abstract": "Push-Relabel is one of the most celebrated network flow algorithms. Maintaining a pre-flow that saturates a cut, it enjoys better theoretical and empirical running time than other flow algorithms, such as Ford-Fulkerson. In practice, Push-Relabel is even faster than what theoretical guarantees can promise, in part because of the use of good heuristics for seeding and updating the iterative algorithm. However, it remains unclear how to run Push-Relabel on an arbitrary initialization that is not necessarily a pre-flow or cut-saturating. We provide the first theoretical guarantees for warm-starting Push-Relabel with a predicted flow, where our learning-augmented version benefits from fast running time when the predicted flow is close to an optimal flow, while maintaining robust worst-case guarantees. Interestingly, our algorithm uses the gap relabeling heuristic, which has long been employed in practice, even though prior to our work there was no rigorous theoretical justification for why it can lead to run-time improvements. We then provide experiments that show our warm-started Push-Relabel also works well in practice.",
+  "tldr_ja": "Push-Relabelアルゴリズムの初期化に関する新たな理論的保証を提供し、予測フローを用いたウォームスタートが最適フローに近い場合に高速化されることを示す。また、実験により実用性も確認。"
+}

@@ -12,6 +12,9 @@ export interface Paper {
   abstract?: string;
   citationCount: number;
   referenceCount: number;
+  tldr?: string;
+  tldr_ja?: string;
+  tags?: string[];
 }
 
 export interface SearchResult {
@@ -19,6 +22,12 @@ export interface SearchResult {
   cites: Paper[];
   cited_by: Paper[];
   message?: string;
+}
+
+export interface PapersByTagResult {
+  papers: Paper[];
+  tags: string[];
+  count: number;
 }
 
 export interface PaperNode {

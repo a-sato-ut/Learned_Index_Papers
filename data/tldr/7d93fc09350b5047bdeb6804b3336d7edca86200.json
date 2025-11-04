@@ -1,0 +1,6 @@
+{
+  "paperId": "7d93fc09350b5047bdeb6804b3336d7edca86200",
+  "title": "The Case for Learned In-Memory Joins",
+  "abstract": "In-memory join is an essential operator in any database engine. It has been extensively investigated in the database literature. In this paper, we study whether exploiting the CDF-based learned models to boost the join performance is practical. To the best of our knowledge, we are the first to fill this gap. We investigate the usage of CDF-based models and learned indexes (e.g., Recursive Model Index (RMI) and RadixSpline) in the three join categories; indexed nested loop join (INLJ), sort-based joins (SJ) and hash-based joins (HJ). Our study shows that there is room to improve the performance of the three join categories through our proposed optimized learned variants. Our experimental analysis showed that these optimized learned variants outperform the state-of-the-art techniques in many scenarios and with different datasets.",
+  "tldr": "本論文では、CDFベースの学習モデルを活用して、インメモリ結合のパフォーマンスを向上させる実用性を探求し、最適化された学習バリアントが従来の手法を多くのシナリオで上回ることを示しています。"
+}

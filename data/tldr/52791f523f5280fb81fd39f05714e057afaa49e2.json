@@ -1,0 +1,6 @@
+{
+  "paperId": "52791f523f5280fb81fd39f05714e057afaa49e2",
+  "title": "Running Neural Networks on the NIC",
+  "abstract": "In this paper we show that the data plane of commodity programmable (Network Interface Cards) NICs can run neural network inference tasks required by packet monitoring applications, with low overhead. This is particularly important as the data transfer costs to the host system and dedicated machine learning accelerators, e.g., GPUs, can be more expensive than the processing task itself. We design and implement our system -- N3IC -- on two different NICs and we show that it can greatly benefit three different network monitoring use cases that require machine learning inference as first-class-primitive. N3IC can perform inference for millions of network flows per second, while forwarding traffic at 40Gb/s. Compared to an equivalent solution implemented on a general purpose CPU, N3IC can provide 100x lower processing latency, with 1.5x increase in throughput.",
+  "tldr": "N3IC enables efficient neural network inference directly on commodity NICs for network monitoring, achieving 100x lower latency and 1.5x higher throughput compared to CPU solutions, while processing millions of flows at 40Gb/s."
+}

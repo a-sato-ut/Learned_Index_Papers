@@ -22,11 +22,129 @@
 
 .paper-explorer-search {
   display: flex;
-  gap: 10px;
+  flex-direction: column;
+  gap: 15px;
   margin-bottom: 30px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.paper-explorer-search-row {
+  display: flex;
+  gap: 10px;
+}
+
+.paper-explorer-tag-filter {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.paper-explorer-tag-checkboxes {
+  flex: 1;
+  min-width: 300px;
+}
+
+.paper-explorer-tag-filter-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.paper-explorer-tag-filter-header:hover {
+  background-color: #f3f4f6;
+}
+
+.paper-explorer-tag-filter-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #4b5563;
+  margin: 0;
+  cursor: pointer;
+}
+
+.paper-explorer-tag-dropdown-icon {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.paper-explorer-tag-checkboxes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: white;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.paper-explorer-tag-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: #4b5563;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.paper-explorer-tag-checkbox-label:hover {
+  background-color: #f3f4f6;
+}
+
+.paper-explorer-tag-checkbox-label input[type="checkbox"] {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.paper-explorer-tag-checkbox-label input[type="checkbox"]:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.paper-explorer-tag-clear {
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.paper-explorer-tag-clear:hover {
+  background-color: #dc2626;
+}
+
+.paper-explorer-input:disabled {
+  background-color: #f3f4f6;
+  cursor: not-allowed;
+}
+
+.paper-explorer-tag-result-header {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+}
+
+.paper-explorer-tag-result-header h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #1f2937;
 }
 
 .paper-explorer-input {
@@ -88,6 +206,78 @@
 .paper-explorer-result-abstract {
   color: #4b5563;
   line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.paper-explorer-result-tldr {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #eff6ff;
+  border-radius: 6px;
+  border-left: 4px solid #3b82f6;
+}
+
+.paper-explorer-result-tldr-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e40af;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.paper-explorer-result-tldr-content {
+  color: #1e3a8a;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.paper-explorer-result-tags {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.paper-explorer-result-tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.paper-explorer-result-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  background-color: #d1fae5;
+  color: #065f46;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid #10b981;
+  white-space: nowrap;
+}
+
+.paper-explorer-result-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.paper-explorer-result-link {
+  color: #3b82f6;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  border: 2px solid #3b82f6;
+  border-radius: 6px;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.paper-explorer-result-link:hover {
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
 }
 
 .paper-explorer-tabs {
@@ -225,6 +415,42 @@
   font-size: 0.9rem;
   line-height: 1.5;
   margin-bottom: 10px;
+}
+
+.paper-card-tldr {
+  color: #1e3a8a;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #eff6ff;
+  border-radius: 4px;
+  border-left: 3px solid #3b82f6;
+}
+
+.paper-card-tldr strong {
+  color: #1e40af;
+}
+
+.paper-card-tags {
+  margin-bottom: 10px;
+}
+
+.paper-card-tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.paper-card-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  background-color: #d1fae5;
+  color: #065f46;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid #10b981;
 }
 
 .paper-card-footer {

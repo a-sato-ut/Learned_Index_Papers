@@ -1,0 +1,11 @@
+{
+  "paperId": "60441de68623abfd43d8d85525f34a26308652bf",
+  "title": "NeuroDB: A Neural Network Framework for Answering Range Aggregate Queries and Beyond",
+  "abstract": "Range aggregate queries (RAQs) are an integral part of many real-world applications, where, often, fast and approximate answers for the queries are desired. Recent work has studied answering RAQs using machine learning models, where a model of the data is learned to answer the queries. However, such modelling choices fail to utilize any query specific information. To capture such information, we observe that RAQs can be represented by query functions, which are functions that take a query instance (i.e., a specific RAQ) as an input and output its corresponding answer. Using this representation, we formulate the problem of learning to approximate the query function, and propose NeuroDB, a query specialized neural network framework, that answers RAQs efficiently. NeuroDB is query-type agnostic (i.e., it does not make any assumption about the underlying query type) and our observation that queries can be represented by functions is not specific to RAQs. Thus, we investigate whether NeuroDB can be used for other query types, by applying it to distance to nearest neighbour queries. We experimentally show that NeuroDB outperforms the state-of-the-art for this query type, often by orders of magnitude. Moreover, the same neural network architecture as for RAQs is used, bringing to light the possibility of using a generic framework to answer any query type efficiently.",
+  "tags": [
+    "Database",
+    "Learned Index",
+    "Nearest Neighbor Search",
+    "Query optimization"
+  ]
+}

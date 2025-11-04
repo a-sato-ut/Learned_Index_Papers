@@ -1,0 +1,6 @@
+{
+  "paperId": "1715ffe2135fbf1ec8dbcb4a21dfb930253f24ca",
+  "title": "Towards Better Interpretability in Deep Q-Networks",
+  "abstract": "Deep reinforcement learning techniques have demonstrated superior performance in a wide variety of environments. As improvements in training algorithms continue at a brisk pace, theoretical or empirical studies on understanding what these networks seem to learn, are far behind. In this paper we propose an interpretable neural network architecture for Q-learning which provides a global explanation of the model’s behavior using key-value memories, attention and reconstructible embeddings. With a directed exploration strategy, our model can reach training rewards comparable to the state-of-the-art deep Q-learning models. However, results suggest that the features extracted by the neural network are extremely shallow and subsequent testing using out-of-sample examples shows that the agent can easily overfit to trajectories seen during training.",
+  "tldr_ja": "深層強化学習の解釈可能なQ学習モデルを提案し、キー・バリュー・メモリや注意機構を用いてモデルの行動を説明するが、特徴抽出が浅く、訓練データに過剰適合する傾向がある。"
+}

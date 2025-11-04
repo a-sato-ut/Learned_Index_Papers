@@ -1,0 +1,11 @@
+{
+  "paperId": "15b6fba2bfe6e9cb443d0b6177d6ec5501cff579",
+  "title": "Distributed Hierarchical GPU Parameter Server for Massive Scale Deep Learning Ads Systems",
+  "abstract": "Neural networks of ads systems usually take input from multiple resources, e.g., query-ad relevance, ad features and user portraits. These inputs are encoded into one-hot or multi-hot binary features, with typically only a tiny fraction of nonzero feature values per example. Deep learning models in online advertising industries can have terabyte-scale parameters that do not fit in the GPU memory nor the CPU main memory on a computing node. For example, a sponsored online advertising system can contain more than $10^{11}$ sparse features, making the neural network a massive model with around 10 TB parameters. In this paper, we introduce a distributed GPU hierarchical parameter server for massive scale deep learning ads systems. We propose a hierarchical workflow that utilizes GPU High-Bandwidth Memory, CPU main memory and SSD as 3-layer hierarchical storage. All the neural network training computations are contained in GPUs. Extensive experiments on real-world data confirm the effectiveness and the scalability of the proposed system. A 4-node hierarchical GPU parameter server can train a model more than 2X faster than a 150-node in-memory distributed parameter server in an MPI cluster. In addition, the price-performance ratio of our proposed system is 4-9 times better than an MPI-cluster solution.",
+  "tags": [
+    "Database",
+    "Distributed",
+    "GPU",
+    "Main-memory"
+  ]
+}

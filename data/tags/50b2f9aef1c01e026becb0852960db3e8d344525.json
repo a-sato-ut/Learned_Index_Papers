@@ -1,0 +1,10 @@
+{
+  "paperId": "50b2f9aef1c01e026becb0852960db3e8d344525",
+  "title": "Fast, Robust, and Learned Distribution-Based Sorting",
+  "abstract": "Despite a long history of research and achievements in designing sorting routines, new hardware features and application requirements pose advanced challenges that computer scientists are recently tackling through novel data-aware (learned) algorithms. This paper aims to better understand the strengths and limitations of learned sorters for numerical data, by addressing two main research and engineering questions: (Q1) Which is the best trade-off, in sorting items, between the efficacy of a “learned” model in approximating the distribution of the input data and its time-space complexity? and (Q2) Which algorithmic structure for distribution-based sorting is suited to leverage a learned model in order to achieve state-of-the-art performance? To answer Q1, we implement a variant of the best-known learned model (i.e., the two-layers RMI) and, also, design a fully new learned model that turns out to be space-time efficient and efficacious in approximating adversarial input distributions. We experimentally test them over 11 datasets of 200M and 800M 64-bit floating-point items, thus offering a comprehensive answer to Q1. We then address Q2 by plugging the best-learned models from above into a distribution-based sorting scheme that leads to three new sorters whose performance is tested over 33 datasets (real and synthetic) of sizes up to 800M items. Our experimental results will show that our sorters perform better than 6 (classic and learned) best-known sorters on 29 out of those 33 datasets, thus achieving new state-of-the-art tradeoffs.",
+  "tags": [
+    "Learned Index",
+    "Sorting Algorithm",
+    "Theoretical"
+  ]
+}

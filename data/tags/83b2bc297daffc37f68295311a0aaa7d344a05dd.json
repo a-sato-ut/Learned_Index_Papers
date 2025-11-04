@@ -1,0 +1,13 @@
+{
+  "paperId": "83b2bc297daffc37f68295311a0aaa7d344a05dd",
+  "title": "DeepMapping: Learned Data Mapping for Lossless Compression and Efficient Lookup",
+  "abstract": "Storing tabular data to balance storage and query efficiency is a long-standing research question in the database community. In this work, we argue and show that a novel DeepMapping abstraction, which relies on the impressive memorization capabilities of deep neural networks, can provide better storage cost, better latency, and better run-time memory footprint, all at the same time. Such unique properties may benefit a broad class of use cases in capacity-limited devices. Our proposed DeepMapping abstraction transforms a dataset into multiple key-value mappings and constructs a multi-tasking neural network model that outputs the corresponding values for a given input key. To deal with memorization errors, DeepMapping couples the learned neural network with a lightweight auxiliary data structure capable of correcting mistakes. The auxiliary structure design further enables DeepMapping to efficiently deal with insertions, deletions, and updates even without retraining the mapping. We propose a multi-task search strategy for selecting the hybrid DeepMapping structures (including model architecture and auxiliary structure) with a desirable trade-off among memorization capacity, size, and efficiency. Extensive experiments with a real-world dataset, synthetic and benchmark datasets, including TPC-H and TPC-DS, demonstrated that the DeepMapping approach can better balance the retrieving speed and compression ratio against several cutting-edge competitors.",
+  "tags": [
+    "Benchmark",
+    "Compression",
+    "Database",
+    "Learned Index",
+    "Main-memory",
+    "Updatable"
+  ]
+}

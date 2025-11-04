@@ -1,0 +1,6 @@
+{
+  "paperId": "ea2ef12859ff10f5c847dd8e2f821625a957fc13",
+  "title": "SNARF: A Learning-Enhanced Range Filter",
+  "abstract": "We present Sparse Numerical Array-Based Range Filters (SNARF), a learned range filter that efficiently supports range queries for numerical data. SNARF creates a model of the data distribution to map the keys into a bit array which is stored in a compressed form. The model along with the compressed bit array which constitutes SNARF are used to answer membership queries.\n We evaluate SNARF on multiple synthetic and real-world datasets as a stand-alone filter and by integrating it into RocksDB. For range queries, SNARF provides up to 50x better false positive rate than state-of-the-art range filters, such as SuRF and Rosetta, with the same space usage. We also evaluate SNARF in RocksDB as a filter replacement for filtering requests before they access on-disk data structures. For RocksDB, SNARF can improve the execution time of the system up to 10x compared to SuRF and Rosetta for certain read-only workloads.",
+  "tldr_ja": "SNARFは、数値データの範囲クエリを効率的にサポートする学習ベースの範囲フィルタで、データ分布のモデルを用いて圧縮されたビット配列にキーをマッピングします。SNARFは、従来のフィルタに比べて最大50倍の低い偽陽性率を実現し、RocksDBに統合することで特定の読み取り専用ワークロードにおいて最大10倍の実行時間改善を提供します。"
+}

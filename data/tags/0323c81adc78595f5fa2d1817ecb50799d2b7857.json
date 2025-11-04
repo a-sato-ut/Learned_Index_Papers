@@ -1,0 +1,9 @@
+{
+  "paperId": "0323c81adc78595f5fa2d1817ecb50799d2b7857",
+  "title": "Intelligent Path-Selection-Aided Decoding of Polar Codes",
+  "abstract": "CRC-aided successive cancellation list (CA-SCL) decoding is a powerful algorithm that dramatically improves the error performance of polar codes. Path selection is a major issue that affects the decoding latency of SCL decoders. Generally, path selection is implemented using a metric sorter, which causes its latency to increase as the list grows. In this paper, intelligent path selection (IPS) is proposed as an alternative to the traditional metric sorter. First, we found that in the path selection, only the most reliable paths need to be selected, and it is not necessary to completely sort all paths. Second, based on a neural network model, an intelligent path selection scheme is proposed, including a fully connected network construction, a threshold and a post-processing unit. Simulation results show that the proposed path-selection method can achieve comparable performance gain to the existing methods under SCL/CA-SCL decoding. Compared with the conventional methods, IPS has lower latency for medium and large list sizes. For the proposed hardware structure, IPS’s time complexity is O(klog2(L)) where k is the number of hidden layers of the network and L is the list size.",
+  "tags": [
+    "Reinforcement Learning",
+    "Theoretical"
+  ]
+}

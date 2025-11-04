@@ -1,0 +1,11 @@
+{
+  "paperId": "88c78a456760db2124a0efe798aa3ca0cf909b27",
+  "title": "A Pluggable Learned Index Method via Sampling and Gap Insertion",
+  "abstract": "Database indexes facilitate data retrieval and benefit broad applications in real-world systems. Recently, a new family of index, named learned index, is proposed to learn hidden yet useful data distribution and incorporate such information into the learning of indexes, which leads to promising performance improvements. However, the\"learning\"process of learned indexes is still under-explored. In this paper, we propose a formal machine learning based framework to quantify the index learning objective, and study two general and pluggable techniques to enhance the learning efficiency and learning effectiveness for learned indexes. With the guidance of the formal learning objective, we can efficiently learn index by incorporating the proposed sampling technique, and learn precise index with enhanced generalization ability brought by the proposed result-driven gap insertion technique. We conduct extensive experiments on real-world datasets and compare several indexing methods from the perspective of the index learning objective. The results show the ability of the proposed framework to help to design suitable indexes for different scenarios. Further, we demonstrate the effectiveness of the proposed sampling technique, which achieves up to 78x construction speedup while maintaining non-degraded indexing performance. Finally, we show the gap insertion technique can enhance both the static and dynamic indexing performances of existing learned index methods with up to 1.59x query speedup. We will release our codes and processed data for further study, which can enable more exploration of learned indexes from both the perspectives of machine learning and database.",
+  "tags": [
+    "Database",
+    "Learned Index",
+    "Main-memory",
+    "Query optimization"
+  ]
+}

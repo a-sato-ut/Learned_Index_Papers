@@ -1,0 +1,6 @@
+{
+  "paperId": "57f4882abb3284887a480841b049ea2d7839e746",
+  "title": "Lazy B-Trees",
+  "abstract": "Lazy search trees (Sandlund&Wild FOCS 2020, Sandlund&Zhang SODA 2022) are sorted dictionaries whose update and query performance smoothly interpolates between that of efficient priority queues and binary search trees - automatically, depending on actual use; no adjustments are necessary to the data structure to realize the cost savings. In this paper, we design lazy B-trees, a variant of lazy search trees suitable for external memory that generalizes the speedup of B-trees over binary search trees wrt. input/output operations to the same smooth interpolation regime. A key technical difficulty to overcome is the lack of a (fully satisfactory) external variant of biased search trees, on which lazy search trees crucially rely. We give a construction for a subset of performance guarantees sufficient to realize external-memory lazy search trees, which we deem of independent interest. As one special case, lazy B-trees can be used as an external-memory priority queue, in which case they are competitive with some tailor-made heaps; indeed, they offer faster decrease-key and insert operations than known data structures.",
+  "tldr_ja": "外部メモリ向けの新しいデータ構造「レイジーBツリー」を提案し、効率的なプライオリティキューとバイナリサーチツリーの性能を自動的に調整できる特性を持つ。特に、外部メモリでのプライオリティキューとしても競争力があり、既存のデータ構造よりも高速な操作を実現する。"
+}

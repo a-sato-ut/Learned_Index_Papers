@@ -1,0 +1,6 @@
+{
+  "paperId": "d7736c2ce268a4f70235c403b792cc75b52c92f6",
+  "title": "Two-Layer Space-Oriented Partitioning for Non-Point Data",
+  "abstract": "Non-point spatial objects (e.g., polygons, linestrings, etc.) are ubiquitous. We study the problem of indexing non-point objects in memory for range queries and spatial intersection joins. We propose a secondary partitioning technique for space-oriented partitioning indices (e.g., grids), which improves their performance significantly, by avoiding the generation and elimination of duplicate results. Our approach is easy to implement and can be used by any space-partitioning index to significantly reduce the cost of range queries and intersection joins. In addition, the secondary partitions can be processed independently, which makes our method appropriate for distributed and parallel indexing. Experiments on real datasets confirm the advantage of our approach against alternative duplicate elimination techniques and data-oriented state-of-the-art spatial indices. We also show that our partitioning technique, paired with optimized partition-to-partition join algorithms, typically reduces the cost of spatial joins by around 50%.",
+  "tldr_ja": "非点空間オブジェクトのインデックス作成において、二次的な空間指向分割手法を提案し、範囲クエリや空間交差結合の性能を大幅に向上させることを示した。実験により、従来の重複排除技術やデータ指向の最先端空間インデックスと比較して、約50%のコスト削減が確認された。"
+}

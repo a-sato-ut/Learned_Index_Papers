@@ -1,0 +1,10 @@
+{
+  "paperId": "c4d8a20df182b5aa697ed1d09c65f84761ac0132",
+  "title": "Enriching Spatial Indexes For User-Centric And Context-Aware Points Of Interest Search",
+  "abstract": "Awareness regarding niche user preferences, city events, and points of interest (POIs), along with their contextual relevance, is critical for efficiently executing spatial search. Standard tourist applications rely on spatial indexes (such as the R-tree or the R*-tree) to identify POIs based on their spatial relevance. However, these indexes typically struggle to simultaneously integrate POI metadata, user preferences, and contextual relevance into their spatial search, leading to a significant search overhead. In order to mitigate such overheads and streamline POI search, this work presents a novel index that leverages a bitmap structure to enrich an underlying spatial index with POI categories, their respective sub-categories, as well as contextual information. The proposed index structure helps integrate both spatial and context-relevance in the node-traversal process, and performs as efficiently as the underlying spatial index in the worst-case scenario. Next, this work introduces a novel tourist navigation application, designated as eSahyatri (translation: e-companion), which exploits our proposed indexing technique and LLMs to generate personalized, context-aware stories about POIs in real-time. A theoretical analysis and performance study highlight the overall effectiveness of the proposed indexing technique.",
+  "tags": [
+    "Database",
+    "Query optimization",
+    "Theoretical"
+  ]
+}

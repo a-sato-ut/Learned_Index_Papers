@@ -1,0 +1,6 @@
+{
+  "paperId": "4f399ee35030e1d9a6e519e70221f72136965e63",
+  "title": "Workload-Aware Column Imprints",
+  "abstract": "In-memory columnar databases use indexes to accelerate highly selective queries. The additional storage requirement of indexes becomes prohibitive when kept in memory. For example, an inverted index requires as much space as the column itself. Column Imprints (CI) have been proposed as a space-efficient structure that supports range queries. We examine the limitations of CI and we suggest three enhancements for in-memory databases. We propose a workload-aware approach which considers recent data access patterns when constructing CI. We optimize the histogram towards reducing false positives and cache misses for highly selective queries. We propose efficient algorithms to construct our data structures. Preliminary experiments confirm that: 1) our workload-aware imprints reduce the cache lines scanned anywhere from 30% to 50% when compared to the original CI, and 2) have significantly smaller storage requirements.",
+  "tldr_ja": "ワークロードに基づいたカラムインプリント（CI）を提案し、メモリ内カラム型データベースにおけるインデックスのストレージ要件を削減。最近のデータアクセスパターンを考慮し、選択的クエリに対するキャッシュミスを減少させる最適化を行い、実験結果ではキャッシュラインのスキャンを30%から50%削減し、ストレージ要件も大幅に小さくなることを確認。"
+}
