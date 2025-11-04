@@ -88,6 +88,18 @@
   flex: 1;
 }
 
+.author-ranking-item-name.author-clickable {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+
+.author-ranking-item-name.author-clickable:hover {
+  color: #3b82f6;
+  text-decoration-color: #3b82f6;
+}
+
 .author-ranking-item-stats {
   display: flex;
   gap: 20px;
@@ -139,6 +151,16 @@
   font-weight: 500;
 }
 
+.author-tag-clickable {
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.author-tag-clickable:hover {
+  background-color: #c7d2fe;
+  transform: translateY(-1px);
+}
+
 .author-ranking-item-conferences {
   display: flex;
   flex-wrap: wrap;
@@ -152,6 +174,16 @@
   border-radius: 12px;
   font-size: 0.85rem;
   font-weight: 500;
+}
+
+.author-conference-clickable {
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.author-conference-clickable:hover {
+  background-color: #fde68a;
+  transform: translateY(-1px);
 }
 
 @media (max-width: 768px) {

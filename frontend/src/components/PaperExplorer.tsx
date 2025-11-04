@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import * as d3 from 'd3';
 import { Paper, SearchResult, PaperNode, PaperEdge, PapersByTagResult, PapersByAuthorResult, PapersByVenueResult } from '../types';
 import './PaperExplorer.css';
@@ -8,6 +9,7 @@ const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:8000';
 interface PaperExplorerProps {}
 
 const PaperExplorer: React.FC<PaperExplorerProps> = () => {
+  const [searchParams, setSearchParams] = useSearchParams();
   const [query, setQuery] = useState('Partitioned Learned Bloom Filter');
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<SearchResult | null>(null);
@@ -274,13 +276,49 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     }
   };
 
+  // URLパラメータからフィルタを読み込む
+  useEffect(() => {
+    const authorsParam = searchParams.get('authors');
+    const tagsParam = searchParams.get('tags');
+    const venuesParam = searchParams.get('venues');
+    
+    if (authorsParam) {
+      const authors = authorsParam.split(',').map(a => decodeURIComponent(a.trim())).filter(a => a);
+      setSelectedAuthors(authors);
+    } else {
+      setSelectedAuthors([]);
+    }
+    
+    if (tagsParam) {
+      const tags = tagsParam.split(',').map(t => decodeURIComponent(t.trim())).filter(t => t);
+      setSelectedTags(tags);
+    } else {
+      setSelectedTags([]);
+    }
+    
+    if (venuesParam) {
+      const venues = venuesParam.split(',').map(v => decodeURIComponent(v.trim())).filter(v => v);
+      setSelectedVenues(venues);
+    } else {
+      setSelectedVenues([]);
+    }
+    
+    // URLパラメータがある場合は、タイトルをクリアしてフィルタのみで検索
+    if (authorsParam || tagsParam || venuesParam) {
+      setQuery('');
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
+
   useEffect(() => {
     // タグ一覧、著者一覧、venue一覧を取得
     fetchTags();
     fetchAuthors();
     fetchVenues();
-    // デフォルトクエリで検索
-    searchPapers();
+    // デフォルトクエリで検索（URLパラメータがない場合のみ）
+    if (!searchParams.get('authors') && !searchParams.get('tags') && !searchParams.get('venues')) {
+      searchPapers();
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

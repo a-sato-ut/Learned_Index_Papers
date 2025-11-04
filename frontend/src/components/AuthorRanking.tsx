@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { AuthorRankingItem } from '../types';
 import './AuthorRanking.css';
 
@@ -7,6 +8,7 @@ const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:8000';
 type SortBy = 'paperCount' | 'totalCitations';
 
 const AuthorRanking: React.FC = () => {
+  const navigate = useNavigate();
   const [ranking, setRanking] = useState<AuthorRankingItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [sortBy, setSortBy] = useState<SortBy>('paperCount');
@@ -60,7 +62,12 @@ const AuthorRanking: React.FC = () => {
           <div key={author.author} className="author-ranking-item">
             <div className="author-ranking-item-header">
               <div className="author-ranking-item-rank">#{index + 1}</div>
-              <div className="author-ranking-item-name">{author.author}</div>
+              <div 
+                className="author-ranking-item-name author-clickable"
+                onClick={() => navigate(`/?authors=${encodeURIComponent(author.author)}`)}
+              >
+                {author.author}
+              </div>
               <div className="author-ranking-item-stats">
                 <span className="author-stat">
                   <span className="author-stat-label">論文数:</span>
@@ -78,7 +85,11 @@ const AuthorRanking: React.FC = () => {
                 <h3 className="author-ranking-item-section-title">タグ</h3>
                 <div className="author-ranking-item-tags">
                   {author.tags.map((tagStat, tagIndex) => (
-                    <span key={tagIndex} className="author-tag">
+                    <span 
+                      key={tagIndex} 
+                      className="author-tag author-tag-clickable"
+                      onClick={() => navigate(`/?authors=${encodeURIComponent(author.author)}&tags=${encodeURIComponent(tagStat.tag)}`)}
+                    >
                       {tagStat.tag} ({tagStat.count})
                     </span>
                   ))}
@@ -91,7 +102,11 @@ const AuthorRanking: React.FC = () => {
                 <h3 className="author-ranking-item-section-title">カンファレンス</h3>
                 <div className="author-ranking-item-conferences">
                   {author.conferences.map((confStat, confIndex) => (
-                    <span key={confIndex} className="author-conference">
+                    <span 
+                      key={confIndex} 
+                      className="author-conference author-conference-clickable"
+                      onClick={() => navigate(`/?authors=${encodeURIComponent(author.author)}&venues=${encodeURIComponent(confStat.conference)}`)}
+                    >
                       {confStat.conference} ({confStat.count})
                     </span>
                   ))}
