@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import * as d3 from 'd3';
-import { Paper, SearchResult, PaperNode, PaperEdge, PapersByTagResult } from '../types';
+import { Paper, SearchResult, PaperNode, PaperEdge, PapersByTagResult, PapersByAuthorResult, PapersByVenueResult } from '../types';
 import './PaperExplorer.css';
 
 const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:8000';
@@ -13,9 +13,17 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   const [result, setResult] = useState<SearchResult | null>(null);
   const [activeTab, setActiveTab] = useState<'list' | 'graph' | 'graphYear'>('list');
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
-  const [availableTags, setAvailableTags] = useState<string[]>([]);
+  const [availableTags, setAvailableTags] = useState<Array<{tag: string, count: number}>>([]);
   const [tagResult, setTagResult] = useState<PapersByTagResult | null>(null);
   const [tagDropdownOpen, setTagDropdownOpen] = useState(false);
+  const [selectedAuthors, setSelectedAuthors] = useState<string[]>([]);
+  const [availableAuthors, setAvailableAuthors] = useState<Array<{author: string, count: number}>>([]);
+  const [authorResult, setAuthorResult] = useState<PapersByAuthorResult | null>(null);
+  const [authorDropdownOpen, setAuthorDropdownOpen] = useState(false);
+  const [selectedVenues, setSelectedVenues] = useState<string[]>([]);
+  const [availableVenues, setAvailableVenues] = useState<Array<{venue: string, count: number}>>([]);
+  const [venueResult, setVenueResult] = useState<PapersByVenueResult | null>(null);
+  const [venueDropdownOpen, setVenueDropdownOpen] = useState(false);
   const svgRef = useRef<SVGSVGElement>(null);
 
   const fetchTags = async () => {
@@ -30,31 +38,179 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     }
   };
 
+  const fetchAuthors = async () => {
+    try {
+      const response = await fetch(`${API_BASE}/api/authors`);
+      if (response.ok) {
+        const data = await response.json();
+        setAvailableAuthors(data.authors || []);
+      }
+    } catch (error) {
+      console.error('Error fetching authors:', error);
+    }
+  };
+
+  const fetchVenues = async () => {
+    try {
+      const response = await fetch(`${API_BASE}/api/venues`);
+      if (response.ok) {
+        const data = await response.json();
+        setAvailableVenues(data.venues || []);
+      }
+    } catch (error) {
+      console.error('Error fetching venues:', error);
+    }
+  };
+
   const searchPapers = async (searchQuery?: string) => {
     const queryToUse = searchQuery || query;
     
-    // タイトルが空で、タグが指定されたら → タグのみでフィルタリング
-    if (!queryToUse.trim() && selectedTags.length > 0) {
+    // タイトルが空で、タグ、著者、またはvenueが指定されたら → フィルタのみでフィルタリング
+    if (!queryToUse.trim() && (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0)) {
       setLoading(true);
       setResult(null);
+      setAuthorResult(null);
+      setVenueResult(null);
       try {
-        const tagsParam = selectedTags.join(',');
-        const url = `${API_BASE}/api/papers/by-tag?tags=${encodeURIComponent(tagsParam)}`;
-        console.log('Searching by tags with URL:', url);
-        
-        const response = await fetch(url);
-        
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
+        // タグのみの場合はタグ検索
+        if (selectedTags.length > 0 && selectedAuthors.length === 0 && selectedVenues.length === 0) {
+          const tagsParam = selectedTags.join(',');
+          const url = `${API_BASE}/api/papers/by-tag?tags=${encodeURIComponent(tagsParam)}`;
+          console.log('Searching by tags with URL:', url);
+          
+          const response = await fetch(url);
+          
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          
+          const data: PapersByTagResult = await response.json();
+          console.log('Tag search result:', data);
+          
+          setTagResult(data);
+          setResult(null);
+        } 
+        // 著者のみの場合は著者検索
+        else if (selectedAuthors.length > 0 && selectedTags.length === 0 && selectedVenues.length === 0) {
+          const authorsParam = selectedAuthors.join(',');
+          const url = `${API_BASE}/api/papers/by-author?authors=${encodeURIComponent(authorsParam)}`;
+          console.log('Searching by authors with URL:', url);
+          
+          const response = await fetch(url);
+          
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          
+          const data: PapersByAuthorResult = await response.json();
+          console.log('Author search result:', data);
+          
+          setAuthorResult(data);
+          setTagResult(null);
+          setResult(null);
         }
-        
-        const data: PapersByTagResult = await response.json();
-        console.log('Tag search result:', data);
-        
-        setTagResult(data);
-        setResult(null);
+        // venueのみの場合はvenue検索
+        else if (selectedVenues.length > 0 && selectedTags.length === 0 && selectedAuthors.length === 0) {
+          const venuesParam = selectedVenues.join(',');
+          const url = `${API_BASE}/api/papers/by-venue?venues=${encodeURIComponent(venuesParam)}`;
+          console.log('Searching by venues with URL:', url);
+          
+          const response = await fetch(url);
+          
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          
+          const data: PapersByVenueResult = await response.json();
+          console.log('Venue search result:', data);
+          
+          setVenueResult(data);
+          setTagResult(null);
+          setAuthorResult(null);
+          setResult(null);
+        }
+        // 複数のフィルタが指定された場合は、最初のフィルタで検索してから他のフィルタを適用
+        else {
+          let papers: Paper[] = [];
+          let resultType: 'tag' | 'author' | 'venue' = 'tag';
+          
+          // 最初のフィルタで検索
+          if (selectedTags.length > 0) {
+            const tagsParam = selectedTags.join(',');
+            const url = `${API_BASE}/api/papers/by-tag?tags=${encodeURIComponent(tagsParam)}`;
+            const response = await fetch(url);
+            if (response.ok) {
+              const data: PapersByTagResult = await response.json();
+              papers = data.papers;
+              resultType = 'tag';
+            }
+          } else if (selectedAuthors.length > 0) {
+            const authorsParam = selectedAuthors.join(',');
+            const url = `${API_BASE}/api/papers/by-author?authors=${encodeURIComponent(authorsParam)}`;
+            const response = await fetch(url);
+            if (response.ok) {
+              const data: PapersByAuthorResult = await response.json();
+              papers = data.papers;
+              resultType = 'author';
+            }
+          } else if (selectedVenues.length > 0) {
+            const venuesParam = selectedVenues.join(',');
+            const url = `${API_BASE}/api/papers/by-venue?venues=${encodeURIComponent(venuesParam)}`;
+            const response = await fetch(url);
+            if (response.ok) {
+              const data: PapersByVenueResult = await response.json();
+              papers = data.papers;
+              resultType = 'venue';
+            }
+          }
+          
+          // 他のフィルタを適用
+          if (selectedTags.length > 0 && resultType !== 'tag') {
+            papers = papers.filter(p => 
+              p.tags && selectedTags.every(tag => p.tags!.includes(tag))
+            );
+          }
+          if (selectedAuthors.length > 0 && resultType !== 'author') {
+            papers = papers.filter(p => 
+              p.authors && selectedAuthors.every(author => p.authors!.includes(author))
+            );
+          }
+          if (selectedVenues.length > 0 && resultType !== 'venue') {
+            papers = papers.filter(p => 
+              p.venue && selectedVenues.includes(p.venue)
+            );
+          }
+          
+          // 結果を設定
+          if (resultType === 'tag') {
+            setTagResult({
+              papers,
+              tags: selectedTags,
+              count: papers.length
+            });
+            setAuthorResult(null);
+            setVenueResult(null);
+          } else if (resultType === 'author') {
+            setAuthorResult({
+              papers,
+              authors: selectedAuthors,
+              count: papers.length
+            });
+            setTagResult(null);
+            setVenueResult(null);
+          } else {
+            setVenueResult({
+              papers,
+              venues: selectedVenues,
+              count: papers.length
+            });
+            setTagResult(null);
+            setAuthorResult(null);
+          }
+          setResult(null);
+        }
       } catch (error) {
-        console.error('Tag search error:', error);
+        console.error('Filter search error:', error);
         const errorMessage = error instanceof Error ? error.message : '不明なエラー';
         alert(`検索に失敗しました: ${errorMessage}\n\nバックエンドサーバー（${API_BASE}）が起動しているか確認してください。`);
       } finally {
@@ -63,18 +219,28 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       return;
     }
 
-    // タイトルが空じゃなくて、タグが指定されたら → タイトル検索 + タグフィルタリング
-    // タイトルが空じゃなくて、タグが指定されていない → 通常のタイトル検索
+    // タイトルが空じゃなくて、フィルタが指定されたら → タイトル検索 + フィルタリング
+    // タイトルが空じゃなくて、フィルタが指定されていない → 通常のタイトル検索
     if (!queryToUse.trim()) return;
 
     setLoading(true);
     setResult(null);
     setTagResult(null);
+    setAuthorResult(null);
+    setVenueResult(null);
     try {
       let url = `${API_BASE}/api/search?query=${encodeURIComponent(queryToUse)}`;
       if (selectedTags.length > 0) {
         const tagsParam = selectedTags.join(',');
         url += `&tags=${encodeURIComponent(tagsParam)}`;
+      }
+      if (selectedAuthors.length > 0) {
+        const authorsParam = selectedAuthors.join(',');
+        url += `&authors=${encodeURIComponent(authorsParam)}`;
+      }
+      if (selectedVenues.length > 0) {
+        const venuesParam = selectedVenues.join(',');
+        url += `&venues=${encodeURIComponent(venuesParam)}`;
       }
       console.log('Searching with URL:', url);
       
@@ -109,8 +275,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   };
 
   useEffect(() => {
-    // タグ一覧を取得
+    // タグ一覧、著者一覧、venue一覧を取得
     fetchTags();
+    fetchAuthors();
+    fetchVenues();
     // デフォルトクエリで検索
     searchPapers();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -126,6 +294,22 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedTags]);
+
+  useEffect(() => {
+    // 著者が変更されたら検索を実行
+    if (selectedAuthors.length > 0 || (!selectedAuthors.length && query.trim())) {
+      searchPapers();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedAuthors]);
+
+  useEffect(() => {
+    // venueが変更されたら検索を実行
+    if (selectedVenues.length > 0 || (!selectedVenues.length && query.trim())) {
+      searchPapers();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedVenues]);
 
   useEffect(() => {
     if (result && result.paper && (activeTab === 'graph' || activeTab === 'graphYear')) {
@@ -176,6 +360,14 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           const tagsParam = selectedTags.join(',');
           url += `&tags=${encodeURIComponent(tagsParam)}`;
         }
+        if (selectedAuthors.length > 0) {
+          const authorsParam = selectedAuthors.join(',');
+          url += `&authors=${encodeURIComponent(authorsParam)}`;
+        }
+        if (selectedVenues.length > 0) {
+          const venuesParam = selectedVenues.join(',');
+          url += `&venues=${encodeURIComponent(venuesParam)}`;
+        }
         const response = await fetch(url);
         if (response.ok) {
           const paperData = await response.json();
@@ -193,6 +385,14 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         if (selectedTags.length > 0) {
           const tagsParam = selectedTags.join(',');
           url += `&tags=${encodeURIComponent(tagsParam)}`;
+        }
+        if (selectedAuthors.length > 0) {
+          const authorsParam = selectedAuthors.join(',');
+          url += `&authors=${encodeURIComponent(authorsParam)}`;
+        }
+        if (selectedVenues.length > 0) {
+          const venuesParam = selectedVenues.join(',');
+          url += `&venues=${encodeURIComponent(venuesParam)}`;
         }
         const response = await fetch(url);
         if (response.ok) {
@@ -1033,48 +1233,161 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             {loading ? '検索中...' : '検索'}
           </button>
         </div>
-        <div className="paper-explorer-tag-filter">
-          <div className="paper-explorer-tag-checkboxes">
-            <div 
-              className="paper-explorer-tag-filter-header"
-              onClick={() => setTagDropdownOpen(!tagDropdownOpen)}
-            >
-              <span className="paper-explorer-tag-dropdown-icon">
-                {tagDropdownOpen ? '▼' : '▶'}
+        {(selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0) && (
+          <div className="paper-explorer-active-filters">
+            <span className="paper-explorer-active-filters-label">フィルタ:</span>
+            {selectedTags.map((tag) => (
+              <span key={`tag-${tag}`} className="paper-explorer-active-filter-item paper-explorer-active-filter-tag">
+                <span className="paper-explorer-active-filter-label">タグ</span>
+                {tag}
+                <button
+                  className="paper-explorer-active-filter-remove"
+                  onClick={() => {
+                    setSelectedTags(selectedTags.filter(t => t !== tag));
+                  }}
+                  disabled={loading}
+                >
+                  ×
+                </button>
               </span>
-              <label className="paper-explorer-tag-filter-label">タグでフィルタリング:</label>
-            </div>
-            {tagDropdownOpen && (
-              <div className="paper-explorer-tag-checkboxes-list">
-                {availableTags.map((tag) => (
-                  <label key={tag} className="paper-explorer-tag-checkbox-label">
-                    <input
-                      type="checkbox"
-                      checked={selectedTags.includes(tag)}
-                      onChange={(e) => {
-                        if (e.target.checked) {
-                          setSelectedTags([...selectedTags, tag]);
-                        } else {
-                          setSelectedTags(selectedTags.filter(t => t !== tag));
-                        }
-                      }}
-                      disabled={loading}
-                    />
-                    <span>{tag}</span>
-                  </label>
-                ))}
-              </div>
-            )}
+            ))}
+            {selectedAuthors.map((author) => (
+              <span key={`author-${author}`} className="paper-explorer-active-filter-item paper-explorer-active-filter-author">
+                <span className="paper-explorer-active-filter-label">著者</span>
+                {author}
+                <button
+                  className="paper-explorer-active-filter-remove"
+                  onClick={() => {
+                    setSelectedAuthors(selectedAuthors.filter(a => a !== author));
+                  }}
+                  disabled={loading}
+                >
+                  ×
+                </button>
+              </span>
+            ))}
+            {selectedVenues.map((venue) => (
+              <span key={`venue-${venue}`} className="paper-explorer-active-filter-item paper-explorer-active-filter-venue">
+                <span className="paper-explorer-active-filter-label">学会/ジャーナル</span>
+                {venue}
+                <button
+                  className="paper-explorer-active-filter-remove"
+                  onClick={() => {
+                    setSelectedVenues(selectedVenues.filter(v => v !== venue));
+                  }}
+                  disabled={loading}
+                >
+                  ×
+                </button>
+              </span>
+            ))}
           </div>
-          <button
-            onClick={() => {
-              setSelectedTags([]);
-            }}
-            className="paper-explorer-tag-clear"
-            disabled={loading}
-          >
-            全てクリア
-          </button>
+        )}
+        <div className="paper-explorer-filters">
+          <div className="paper-explorer-tag-filter">
+            <div className="paper-explorer-tag-checkboxes">
+              <div 
+                className="paper-explorer-tag-filter-header"
+                onClick={() => setTagDropdownOpen(!tagDropdownOpen)}
+              >
+                <span className="paper-explorer-tag-dropdown-icon">
+                  {tagDropdownOpen ? '▼' : '▶'}
+                </span>
+                <label className="paper-explorer-tag-filter-label">タグでフィルタリング:</label>
+              </div>
+              {tagDropdownOpen && (
+                <div className="paper-explorer-tag-checkboxes-list">
+                  {availableTags.map((tagItem) => (
+                    <label key={tagItem.tag} className="paper-explorer-tag-checkbox-label">
+                      <input
+                        type="checkbox"
+                        checked={selectedTags.includes(tagItem.tag)}
+                        onChange={(e) => {
+                          if (e.target.checked) {
+                            setSelectedTags([...selectedTags, tagItem.tag]);
+                          } else {
+                            setSelectedTags(selectedTags.filter(t => t !== tagItem.tag));
+                          }
+                        }}
+                        disabled={loading}
+                      />
+                      <span>{tagItem.tag} ({tagItem.count}件)</span>
+                    </label>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+
+          <div className="paper-explorer-tag-filter">
+            <div className="paper-explorer-tag-checkboxes">
+              <div 
+                className="paper-explorer-tag-filter-header"
+                onClick={() => setAuthorDropdownOpen(!authorDropdownOpen)}
+              >
+                <span className="paper-explorer-tag-dropdown-icon">
+                  {authorDropdownOpen ? '▼' : '▶'}
+                </span>
+                <label className="paper-explorer-tag-filter-label">著者でフィルタリング:</label>
+              </div>
+              {authorDropdownOpen && (
+                <div className="paper-explorer-tag-checkboxes-list">
+                  {availableAuthors.map((authorItem) => (
+                    <label key={authorItem.author} className="paper-explorer-tag-checkbox-label">
+                      <input
+                        type="checkbox"
+                        checked={selectedAuthors.includes(authorItem.author)}
+                        onChange={(e) => {
+                          if (e.target.checked) {
+                            setSelectedAuthors([...selectedAuthors, authorItem.author]);
+                          } else {
+                            setSelectedAuthors(selectedAuthors.filter(a => a !== authorItem.author));
+                          }
+                        }}
+                        disabled={loading}
+                      />
+                      <span>{authorItem.author} ({authorItem.count}件)</span>
+                    </label>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+
+          <div className="paper-explorer-tag-filter">
+            <div className="paper-explorer-tag-checkboxes">
+              <div 
+                className="paper-explorer-tag-filter-header"
+                onClick={() => setVenueDropdownOpen(!venueDropdownOpen)}
+              >
+                <span className="paper-explorer-tag-dropdown-icon">
+                  {venueDropdownOpen ? '▼' : '▶'}
+                </span>
+                <label className="paper-explorer-tag-filter-label">学会/ジャーナルでフィルタリング:</label>
+              </div>
+              {venueDropdownOpen && (
+                <div className="paper-explorer-tag-checkboxes-list">
+                  {availableVenues.map((venueItem) => (
+                    <label key={venueItem.venue} className="paper-explorer-tag-checkbox-label">
+                      <input
+                        type="checkbox"
+                        checked={selectedVenues.includes(venueItem.venue)}
+                        onChange={(e) => {
+                          if (e.target.checked) {
+                            setSelectedVenues([...selectedVenues, venueItem.venue]);
+                          } else {
+                            setSelectedVenues(selectedVenues.filter(v => v !== venueItem.venue));
+                          }
+                        }}
+                        disabled={loading}
+                      />
+                      <span>{venueItem.venue} ({venueItem.count}件)</span>
+                    </label>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
         </div>
       </div>
 
@@ -1217,13 +1530,13 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         </>
       )}
 
-      {!loading && result && !result.paper && !tagResult && (
+      {!loading && result && !result.paper && !tagResult && !authorResult && !venueResult && (
         <div className="paper-explorer-no-result">
           <p>該当する論文が見つかりませんでした。</p>
         </div>
       )}
 
-      {!loading && tagResult && !query.trim() && (
+      {!loading && tagResult && !query.trim() && !authorResult && !venueResult && (
         <>
           <div className="paper-explorer-tag-result-header">
             <h2>タグ: {tagResult.tags.join(', ')} ({tagResult.count}件)</h2>
@@ -1232,6 +1545,40 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             <div className="paper-explorer-list-section">
               <div className="paper-explorer-list-grid">
                 {tagResult.papers.map((paper) => (
+                  <PaperCard key={paper.paperId} paper={paper} type="cites" />
+                ))}
+              </div>
+            </div>
+          </div>
+        </>
+      )}
+
+      {!loading && authorResult && !query.trim() && !tagResult && !venueResult && (
+        <>
+          <div className="paper-explorer-tag-result-header">
+            <h2>著者: {authorResult.authors.join(', ')} ({authorResult.count}件)</h2>
+          </div>
+          <div className="paper-explorer-list">
+            <div className="paper-explorer-list-section">
+              <div className="paper-explorer-list-grid">
+                {authorResult.papers.map((paper) => (
+                  <PaperCard key={paper.paperId} paper={paper} type="cites" />
+                ))}
+              </div>
+            </div>
+          </div>
+        </>
+      )}
+
+      {!loading && venueResult && !query.trim() && (
+        <>
+          <div className="paper-explorer-tag-result-header">
+            <h2>学会/ジャーナル: {venueResult.venues.join(', ')} ({venueResult.count}件)</h2>
+          </div>
+          <div className="paper-explorer-list">
+            <div className="paper-explorer-list-section">
+              <div className="paper-explorer-list-grid">
+                {venueResult.papers.map((paper) => (
                   <PaperCard key={paper.paperId} paper={paper} type="cites" />
                 ))}
               </div>

@@ -30,6 +30,18 @@ export interface PapersByTagResult {
   count: number;
 }
 
+export interface PapersByAuthorResult {
+  papers: Paper[];
+  authors: string[];
+  count: number;
+}
+
+export interface PapersByVenueResult {
+  papers: Paper[];
+  venues: string[];
+  count: number;
+}
+
 export interface PaperNode {
   id: string;
   paper: Paper;
@@ -48,4 +60,26 @@ export interface PaperEdge {
   target: string;
   type: 'cites' | 'cited_by';
   level?: number;
+}
+
+export interface AuthorTagStat {
+  tag: string;
+  count: number;
+}
+
+export interface AuthorConferenceStat {
+  conference: string;
+  count: number;
+}
+
+export interface AuthorRankingItem {
+  author: string;
+  paperCount: number;
+  totalCitations: number;
+  tags: AuthorTagStat[];
+  conferences: AuthorConferenceStat[];
+}
+
+export interface AuthorRankingResult {
+  ranking: AuthorRankingItem[];
 }

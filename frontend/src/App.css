@@ -2,3 +2,30 @@
   min-height: 100vh;
   background-color: #f9fafb;
 }
+
+.app-nav {
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 15px 20px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.app-nav-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.app-nav-link:hover {
+  background-color: #f3f4f6;
+}
+
+.app-nav-link.active {
+  background-color: #3b82f6;
+  color: white;
+}

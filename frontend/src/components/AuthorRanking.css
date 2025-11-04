@@ -1,0 +1,177 @@
+.author-ranking {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.author-ranking-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.author-ranking-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.author-ranking-sort {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author-ranking-sort label {
+  font-weight: 600;
+  color: #555;
+}
+
+.author-ranking-sort select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.author-ranking-sort select:hover {
+  border-color: #3b82f6;
+}
+
+.author-ranking-loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+.author-ranking-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.author-ranking-item {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+.author-ranking-item:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.author-ranking-item-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.author-ranking-item-rank {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3b82f6;
+  min-width: 60px;
+}
+
+.author-ranking-item-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  flex: 1;
+}
+
+.author-ranking-item-stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.author-stat {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.author-stat-label {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.author-stat-value {
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+}
+
+.author-ranking-item-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.author-ranking-item-section-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;
+  margin: 0 0 10px 0;
+}
+
+.author-ranking-item-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.author-tag {
+  background-color: #e0e7ff;
+  color: #3730a3;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.author-ranking-item-conferences {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.author-conference {
+  background-color: #fef3c7;
+  color: #92400e;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .author-ranking-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .author-ranking-item-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .author-ranking-item-rank {
+    min-width: auto;
+  }
+
+  .author-ranking-item-stats {
+    width: 100%;
+  }
+}
+
