@@ -1,0 +1,34 @@
+{
+    "paperId": "da87921e9a7fc1851a0be8754b0565b5f43a3265",
+    "title": "Better and Simpler Learning-Augmented Online Caching",
+    "year": 2020,
+    "venue": "International Workshop and International Workshop on Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques",
+    "authors": [
+        "Alexander Wei"
+    ],
+    "doi": "10.4230/LIPIcs.APPROX/RANDOM.2020.60",
+    "arxivId": "2005.13716",
+    "url": "https://www.semanticscholar.org/paper/da87921e9a7fc1851a0be8754b0565b5f43a3265",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Lykouris and Vassilvitskii (ICML 2018) introduce a model of online caching with machine-learned advice, where each page request additionally comes with a prediction of when that page will next be requested. In this model, a natural goal is to design algorithms that (1) perform well when the advice is accurate and (2) remain robust in the worst case a la traditional competitive analysis. Lykouris and Vassilvitskii give such an algorithm by adapting the Marker algorithm to the learning-augmented setting. In a recent work, Rohatgi (SODA 2020) improves on their result with an approach also inspired by randomized marking. We continue the study of this problem, but with a somewhat different approach: We consider combining the BlindOracle algorithm, which just naively follows the predictions, with an optimal competitive algorithm for online caching in a black-box manner. The resulting algorithm outperforms all existing approaches while being significantly simpler. Moreover, we show that combining BlindOracle with LRU is in fact optimal among deterministic algorithms for this problem.",
+    "citationCount": 67,
+    "referenceCount": 28
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "8f5fb3de5a95781e7db6771961d26ea37e24274d",
+    "title": "FITing-Tree: A Data-aware Index Structure",
+    "year": 2018,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Alex Galakatos",
+        "Michael Markovitch",
+        "Carsten Binnig",
+        "Rodrigo Fonseca",
+        "Tim Kraska"
+    ],
+    "doi": "10.1145/3299869.3319860",
+    "arxivId": "1801.10207",
+    "url": "https://www.semanticscholar.org/paper/8f5fb3de5a95781e7db6771961d26ea37e24274d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dspace.mit.edu/bitstream/1721.1/132277.2/4/1801.10207.pdf",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Index structures are one of the most important tools that DBAs leverage to improve the performance of analytics and transactional workloads. However, building several indexes over large datasets can often become prohibitive and consume valuable system resources. In fact, a recent study showed that indexes created as part of the TPC-C benchmark can account for 55% of the total memory available in a modern DBMS. This overhead consumes valuable and expensive main memory, and limits the amount of space available to store new data or process existing data. In this paper, we present a novel data-aware index structure called FITing-Tree which approximates an index using piece-wise linear functions with a bounded error specified at construction time. This error knob provides a tunable parameter that allows a DBA to FIT an index to a dataset and workload by being able to balance lookup performance and space consumption. To navigate this tradeoff, we provide a cost model that helps determine an appropriate error parameter given either (1) a lookup latency requirement (e.g., 500ns) or (2) a storage budget (e.g., 100MB). Using a variety of real-world datasets, we show that our index is able to provide performance that is comparable to full index structures while reducing the storage footprint by orders of magnitude.",
+    "citationCount": 240,
+    "referenceCount": 47
+}

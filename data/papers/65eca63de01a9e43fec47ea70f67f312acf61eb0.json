@@ -1,0 +1,41 @@
+{
+    "paperId": "65eca63de01a9e43fec47ea70f67f312acf61eb0",
+    "title": "Auto-WLM: Machine Learning Enhanced Workload Management in Amazon Redshift",
+    "year": 2023,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Gaurav Saxena",
+        "Mohammad Rahman",
+        "Naresh Chainani",
+        "Chunbin Lin",
+        "George C. Caragea",
+        "Fahim Chowdhury",
+        "Ryan Marcus",
+        "Tim Kraska",
+        "Ippokratis Pandis",
+        "Balakrishnan Narayanaswamy"
+    ],
+    "doi": "10.1145/3555041.3589677",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/65eca63de01a9e43fec47ea70f67f312acf61eb0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3555041.3589677",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There has been a lot of excitement around using machine learning to improve the performance and usability of database systems. However, few of these techniques have actually been used in the critical path of customer-facing database services. In this paper, we describe Auto-WLM, a machine learning based automatic workload manager currently used in production in Amazon Redshift. Auto-WLM is an example of how machine learning can improve the performance of large data-warehouses in practice and at scale. Auto-WLM intelligently schedules workloads to maximize throughput and horizontally scales clusters in response to workload spikes. While traditional heuristic-based workload management requires a lot of manual tuning (e.g. of the concurrency level, memory allocated to queries etc.) for each specific workload, Auto-WLM does this tuning automatically and as a result is able to quickly adapt and react to workload changes and demand spikes. At its core, Auto-WLM uses locally-trained query performance models to predict the query execution time and memory needs for each query, and uses this to make intelligent scheduling decisions. Currently, Auto-WLM makes millions of decisions every day, and constantly optimizes the performance for each individual Amazon Redshift cluster. In this paper, we will describe the advantages and challenges of implementing and deploying Auto-WLM, as well as outline areas of research that may be of interest to those in the \"ML for systems'' community with an eye for practicality.",
+    "citationCount": 29,
+    "referenceCount": 64
+}

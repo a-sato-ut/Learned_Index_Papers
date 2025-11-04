@@ -1,0 +1,35 @@
+{
+    "paperId": "a20712b1b9779ee43ce143a19b3f67f0cacbbf57",
+    "title": "Neural Databases",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "James Thorne",
+        "Majid Yazdani",
+        "Marzieh Saeidi",
+        "F. Silvestri",
+        "Sebastian Riedel",
+        "A. Halevy"
+    ],
+    "doi": null,
+    "arxivId": "2010.06973",
+    "url": "https://www.semanticscholar.org/paper/a20712b1b9779ee43ce143a19b3f67f0cacbbf57",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, neural networks have shown impressive performance gains on long-standing AI problems, and in particular, answering queries from natural language text. These advances raise the question of whether they can be extended to a point where we can relax the fundamental assumption of database management, namely, that our data is represented as fields of a pre-defined schema. This paper presents a first step in answering that question. We describe NeuralDB, a database system with no pre-defined schema, in which updates and queries are given in natural language. We develop query processing techniques that build on the primitives offered by the state of the art Natural Language Processing methods. We begin by demonstrating that at the core, recent NLP transformers, powered by pre-trained language models, can answer select-project-join queries if they are given the exact set of relevant facts. However, they cannot scale to non-trivial databases and cannot perform aggregation queries. Based on these findings, we describe a NeuralDB architecture that runs multiple Neural SPJ operators in parallel, each with a set of database sentences that can produce one of the answers to the query. The result of these operators is fed to an aggregation operator if needed. We describe an algorithm that learns how to create the appropriate sets of facts to be fed into each of the Neural SPJ operators. Importantly, this algorithm can be trained by the Neural SPJ operator itself. We experimentally validate the accuracy of NeuralDB and its components, showing that we can answer queries over thousands of sentences with very high accuracy.",
+    "citationCount": 9,
+    "referenceCount": 57
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "88bf135c299639b00c97e2e5604318d8a925732d",
+    "title": "SUFS: A Generic Storage Usage Forecasting Service Through Adaptive Ensemble Learning",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Luming Sun",
+        "Shijin Gong",
+        "Tieying Zhang",
+        "Fuxin Jiang",
+        "Zhibing Zhao",
+        "Jianjun Chen",
+        "Xinyu Zhang"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00243",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/88bf135c299639b00c97e2e5604318d8a925732d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Storage space usage forecasting is critical for the scalability and stability of storage systems. Cloud providers estimate storage usages based on the forecast and allocate resources accordingly. Overestimated space usages require a redundant storage buffer that brings unnecessary cost, and underestimated space usages will cause capacity shortages that may lead to data loss and Service-Level Agreement (SLA) failures. While accurate storage forecasting is important, it is highly challenging due to various storage usage patterns on different workloads and storage systems. Moreover, some operations from users or administrators may cause transient workload burst in historical data, which makes forecasting even harder.In this paper, we propose the Storage Usage Forecasting Service (SUFS) that combines deep neural networks and statistical models adaptively to make predictions for multiple major storage systems in ByteDance. SUFS carries comprehensive analyses of storage usage time series from various storage systems in real business scenarios. To handle workload bursts in historical data, we enhance regular LSTMs using a control signal that is installed on the input gate. When the burst is detected, the control signal reduces the input influences to the cell state. To further improve the prediction accuracy, SUFS integrates the Enhanced-LSTM (ELSTM) with a novel adaptive ensemble method. Different from previous works, our approach learns dynamic ensemble weights for each prediction step on-the-fly, making our model more accurate for multiple-step predictions. SUFS has been deployed to serve more than 150,000 storage instances. We conducted extensive experiments on the storage systems that are widely-used in ByteDance, and the results show that SUFS outperforms the state-of-the-art methods and significantly reduces storage cost.",
+    "citationCount": 3,
+    "referenceCount": 44
+}

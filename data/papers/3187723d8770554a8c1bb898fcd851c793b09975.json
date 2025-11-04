@@ -1,0 +1,39 @@
+{
+    "paperId": "3187723d8770554a8c1bb898fcd851c793b09975",
+    "title": "Redis rehash optimization based on machine learning",
+    "year": 2020,
+    "venue": "Journal of Physics: Conference Series",
+    "authors": [
+        "Juan Zhang",
+        "Yun Jia"
+    ],
+    "doi": "10.1088/1742-6596/1453/1/012048",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3187723d8770554a8c1bb898fcd851c793b09975",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1088/1742-6596/1453/1/012048",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper proposed an optimization for Redis rehash based on machine learning. Since Redis involves numbers of dimensions, only the process of Redis rehash was studied. In order to use Redis correctly, the principle of Redis rehash was analyzed firstly and then pointed out a feasible optimization scheme. Aiming at solving the problems that might exist in the rehash process, the scheme could predict the number of keys based on the time series model ARIMA. The result showed that the scheme was feasible in practice.",
+    "citationCount": 1,
+    "referenceCount": 5
+}

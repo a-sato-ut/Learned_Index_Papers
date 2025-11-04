@@ -1,0 +1,35 @@
+{
+    "paperId": "08c9e1e5dc1578fdf09ad9be1ecd6424a708582f",
+    "title": "HTAP Databases: A Survey",
+    "year": 2024,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Chao Zhang",
+        "Guoliang Li",
+        "Jintao Zhang",
+        "Xinning Zhang",
+        "Jianhua Feng"
+    ],
+    "doi": "10.1109/TKDE.2024.3389693",
+    "arxivId": "2404.15670",
+    "url": "https://www.semanticscholar.org/paper/08c9e1e5dc1578fdf09ad9be1ecd6424a708582f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Since Gartner coined the term, Hybrid Transactional and Analytical Processing (HTAP), numerous HTAP databases have been proposed to combine transactions with analytics in order to enable real-time data analytics for various data-intensive applications. HTAP databases typically process the mixed workloads of transactions and analytical queries in a unified system by leveraging both a row store and a column store. As there are different storage architectures and processing techniques to satisfy various requirements of diverse applications, it is critical to summarize the pros and cons of these key techniques. This paper offers a comprehensive survey of HTAP databases. We mainly classify state-of-the-art HTAP databases according to four storage architectures: (a) Primary Row Store and In-Memory Column Store; (b) Distributed Row Store and Column Store Replica; (c) Primary Row Store and Distributed In-Memory Column Store; and (d) Primary Column Store and Delta Row Store. We then review the key techniques in HTAP databases, including hybrid workload processing, data organization, data synchronization, query optimization, and resource scheduling. We also discuss existing HTAP benchmarks. Finally, we provide the research challenges and opportunities for HTAP techniques.",
+    "citationCount": 11,
+    "referenceCount": 143
+}

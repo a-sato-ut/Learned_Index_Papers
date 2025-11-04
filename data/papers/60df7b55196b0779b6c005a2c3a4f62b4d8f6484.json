@@ -1,0 +1,34 @@
+{
+    "paperId": "60df7b55196b0779b6c005a2c3a4f62b4d8f6484",
+    "title": "Evaluating Learned Indexes in LSM-tree Systems: Benchmarks,Insights and Design Choices",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Junfeng Liu",
+        "Jiarui Ye",
+        "Mengshi Chen",
+        "Meng Li",
+        "Siqiang Luo"
+    ],
+    "doi": "10.48550/arXiv.2506.08671",
+    "arxivId": "2506.08671",
+    "url": "https://www.semanticscholar.org/paper/60df7b55196b0779b6c005a2c3a4f62b4d8f6484",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LSM-tree-based data stores are widely used in industry due to their exceptional performance. However, as data volumes grow, efficiently querying large-scale databases becomes increasingly challenging. To address this, recent studies attempted to integrate learned indexes into LSM-trees to enhance lookup performance, which has demonstrated promising improvements. Despite this, only a limited range of learned index types has been considered, and the strengths and weaknesses of different learned indexes remain unclear, making them difficult for practical use. To fill this gap, we provide a comprehensive and systematic benchmark to pursue an in-depth understanding of learned indexes in LSM-tree systems. In this work, we summarize the workflow of 8 existing learned indexes and analyze the associated theoretical cost. We also identify several key factors that significantly influence the performance of learned indexes and conclude them with a novel configuration space, including various index types, boundary positions, and granularity. Moreover, we implement different learned index designs on a unified platform to evaluate across various configurations. Surprisingly, our experiments reveal several unexpected insights, such as the marginal lookup enhancement when allocating a large memory budget to learned indexes and modest retraining overhead of learned indexes. Besides, we also offer practical guidelines to help developers intelligently select and tune learned indexes for custom use cases.",
+    "citationCount": 0,
+    "referenceCount": 53
+}

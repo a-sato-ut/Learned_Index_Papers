@@ -1,0 +1,38 @@
+{
+    "paperId": "c0164cb0a5f210ac820cf79491053b1f727c81c0",
+    "title": "Learned k-NN distance estimation",
+    "year": 2022,
+    "venue": "SIGSPATIAL/GIS",
+    "authors": [
+        "Daichi Amagata",
+        "Yusuke Arai",
+        "Sumio Fujita",
+        "Takahiro Hara"
+    ],
+    "doi": "10.1145/3557915.3560935",
+    "arxivId": "2208.14210",
+    "url": "https://www.semanticscholar.org/paper/c0164cb0a5f210ac820cf79491053b1f727c81c0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2208.14210",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Big data mining is well known to be an important task for data science, because it can provide useful observations and new knowledge hidden in given large datasets. Proximity-based data analysis is particularly utilized in many real-life applications. In such analysis, the distances to k nearest neighbors are usually employed, thus its main bottleneck is derived from data retrieval. Much efforts have been made to improve the efficiency of these analyses. However, they still incur large costs, because they essentially need many data accesses. To avoid this issue, we propose a machine-learning technique that quickly and accurately estimates the k-NN distances (i.e., distances to the k nearest neighbors) of a given query. We train a fully connected neural network model and utilize pivots to achieve accurate estimation. Our model is designed to have useful advantages: it infers distances to the k-NNs at a time, its inference time is O(1) (no data accesses are incurred), but it keeps high accuracy. Our experimental results and case studies on real datasets demonstrate the efficiency and effectiveness of our solution.",
+    "citationCount": 7,
+    "referenceCount": 59
+}

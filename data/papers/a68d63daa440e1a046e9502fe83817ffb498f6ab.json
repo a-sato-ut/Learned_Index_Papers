@@ -1,0 +1,46 @@
+{
+    "paperId": "a68d63daa440e1a046e9502fe83817ffb498f6ab",
+    "title": "A multi-source spatio-temporal data cube for large-scale geospatial analysis",
+    "year": 2022,
+    "venue": "International Journal of Geographical Information Science",
+    "authors": [
+        "Fan Gao",
+        "P. Yue",
+        "Zhipeng Cao",
+        "Shuaifeng Zhao",
+        "Boyi Shangguan",
+        "Liangcun Jiang",
+        "Lei Hu",
+        "Zhe Fang",
+        "Zheheng Liang"
+    ],
+    "doi": "10.1080/13658816.2022.2087222",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a68d63daa440e1a046e9502fe83817ffb498f6ab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract Data management and analysis are challenging with big Earth observation (EO) data. Expanding upon the rising promises of data cubes for analysis-ready big EO data, we propose a new geospatial infrastructure layered over a data cube to facilitate big EO data management and analysis. Compared to previous work on data cubes, the proposed infrastructure, GeoCube, extends the capacity of data cubes to multi-source big vector and raster data. GeoCube is developed in terms of three major efforts: formalize cube dimensions for multi-source geospatial data, process geospatial data query along these dimensions, and organize cube data for high-performance geoprocessing. This strategy improves EO data cube management and keeps connections with the business intelligence cube, which provides supplementary information for EO data cube processing. The paper highlights the major efforts and key research contributions to online analytical processing for dimension formalization, distributed cube objects for tiles, and artificial intelligence enabled prediction of computational intensity for data cube processing. Case studies with data from Landsat, Gaofen, and OpenStreetMap demonstrate the capabilities and applicability of the proposed infrastructure.",
+    "citationCount": 35,
+    "referenceCount": 60
+}

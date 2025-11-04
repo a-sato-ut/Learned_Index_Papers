@@ -1,0 +1,31 @@
+{
+    "paperId": "69562ecdba76ebe50ddff66efebed76f4bc8cd98",
+    "title": "Accelerating long-read analysis on modern CPUs",
+    "year": 2021,
+    "venue": "bioRxiv",
+    "authors": [
+        "S. Kalikar",
+        "Chirag Jain",
+        "Vasimuddin Md",
+        "Sanchit Misra"
+    ],
+    "doi": "10.1101/2021.07.21.453294",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/69562ecdba76ebe50ddff66efebed76f4bc8cd98",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.biorxiv.org/content/biorxiv/early/2021/07/23/2021.07.21.453294.full.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Long read sequencing is now routinely used at scale for genomics and transcriptomics applications. Mapping of long reads or a draft genome assembly to a reference sequence is often one of the most time consuming steps in these applications. Here, we present techniques to accelerate minimap2, a widely used software for mapping. We present multiple optimizations using SIMD parallelization, efficient cache utilization and a learned index data structure to accelerate its three main computational modules, i.e., seeding, chaining and pairwise sequence alignment. These result in reduction of end-to-end mapping time of minimap2 by up to 1.8 × while maintaining identical output.",
+    "citationCount": 7,
+    "referenceCount": 34
+}

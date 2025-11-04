@@ -1,0 +1,34 @@
+{
+    "paperId": "bf8f89db23102a402bd34eba7db709771fc0a91c",
+    "title": "Automatic Index Tuning: A Survey",
+    "year": 2024,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Yan Wu",
+        "Xuanhe Zhou",
+        "Yong Zhang",
+        "Guoliang Li"
+    ],
+    "doi": "10.1109/TKDE.2024.3422006",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bf8f89db23102a402bd34eba7db709771fc0a91c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Index tuning plays a crucial role in facilitating the efficiency of data retrieval within database systems, which adjusts index settings to optimize the database performance. Recently, with the growth of data volumes, the complexity of workloads, and the diversification of database applications, various Automatic Index Tuning (AIT) methods have been proposed to address these challenges. In this paper, we provide a comprehensive survey on Automatic Index Tuning. First, we overview the AIT techniques from multiple aspects, including <italic>i)</italic> problem definition, <italic>ii)</italic> workflow, <italic>iii)</italic> framework, <italic>iv)</italic> index types, <italic>v)</italic> index interaction, <italic>vi)</italic> changing factors, <italic>vii)</italic> automation level, and show the development history. Second, we summarize techniques in the main modules of AIT, including <italic>preprocessing</italic>, <italic>index benefit estimation</italic>, and <italic>index selection</italic>. <italic>Preprocessing</italic> involves workload compression, index candidate generation, feature representation of workloads and databases, and workload reduction. <italic>Index benefit estimation</italic> approaches are categorized into empirical methods and machine learning based methods. <italic>Index selection</italic> involves algorithms of offline AIT and online AIT. Moreover, we summarize the commonly-used datasets in AIT and discuss the applications of index tuning in commercial and opensource database products. Finally, we outline potential future research directions. Our survey aims to enhance both general knowledge and in-depth insights into AIT, and inspire researchers to address the ongoing challenges.",
+    "citationCount": 3,
+    "referenceCount": 146
+}

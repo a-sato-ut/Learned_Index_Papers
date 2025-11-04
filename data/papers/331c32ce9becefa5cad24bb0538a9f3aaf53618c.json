@@ -1,0 +1,34 @@
+{
+    "paperId": "331c32ce9becefa5cad24bb0538a9f3aaf53618c",
+    "title": "The LDRML-index: a multi-dimensional learned index based on local dimensionality reduction",
+    "year": 2024,
+    "venue": "Other Conferences",
+    "authors": [
+        "Jianrong Li",
+        "Haixia Xu",
+        "Xia Zhou",
+        "Zhida Qiu",
+        "Sikai Cheng"
+    ],
+    "doi": "10.1117/12.3049589",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/331c32ce9becefa5cad24bb0538a9f3aaf53618c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In a complex data environment, many databases need to have efficient access to multi-dimensional datasets. Therefore, it is important to construct a multi-dimensional index that can effectively support the retrieval of highly multi-dimensional datasets. We propose a new multi-dimensional learned index called LDRML-index, which consists of a dimensionality reduction module and a learned index module. The first module contains a local dimension reduction (LDR) component and a Z-address calculation component that processes the data to make it applicable to later module. The second module includes a learned index component and a dynamic learned index framework, enabling the learned index to better adapt to the data distribution and improve query efficiency. The experimental results show that LDRML-index can effectively reduce space consumption and improve query performance.",
+    "citationCount": 0,
+    "referenceCount": 10
+}

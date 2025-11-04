@@ -1,0 +1,36 @@
+{
+    "paperId": "259b8a12045d59e884de29a9edb275c3a13378fb",
+    "title": "A Comparative Study of in-Database Inference Approaches",
+    "year": 2022,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Qiuru Lin",
+        "Sai Wu",
+        "Junbo Zhao",
+        "Jian Dai",
+        "Feifei Li",
+        "Gang Chen"
+    ],
+    "doi": "10.1109/icde53745.2022.00180",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/259b8a12045d59e884de29a9edb275c3a13378fb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In Alibaba's IoT platform, we face the challenge of processing analytical queries involving both structured and unstructured data. Normally, collaborative queries need deep learning (DL) models and relational algebras to work intertwined to produce sophisticated analytical answers. To be able to support collaborative queries, a variety of approaches have been proposed. In this paper, we present the three most representative ones and study their advantages and limitations. The first one translates the collaborative query into a series of database and DL sub-queries and then maintains the dependence of the intermediate results of two sub-systems and computes the final results on the fly. The second one transforms a DL model to a database built-in User Defined Function(UDF) implemented in C++. The whole collaborative query is then processed by the database system independently. The third one is our novel solution proposed in the paper, DL2SQL, where neural operators underneath DL models are rewritten as SQL queries, and collaborative queries are processed using native SQL syntax. A cost model for our SQL-native neural operators is designed to leverage the database's optimizer to generate an efficient query plan. All three approaches are implemented on the ClickHouse. Finally, we use the real-world workloads on Alibaba's IoT platform as our benchmark and deploy various approaches on both an embedded device and a Cloud server to compare their performance. Results show that DL2SQL outperforms others in most scenarios and is more extensible.",
+    "citationCount": 13,
+    "referenceCount": 47
+}

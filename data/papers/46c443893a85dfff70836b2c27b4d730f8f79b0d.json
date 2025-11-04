@@ -1,0 +1,37 @@
+{
+    "paperId": "46c443893a85dfff70836b2c27b4d730f8f79b0d",
+    "title": "Sorting Data via a Look-Up-Table Neural Network and Self-Regulating Index",
+    "year": 2020,
+    "venue": "Complex",
+    "authors": [
+        "Ying Zhao",
+        "Dongli Hu",
+        "Dongxiao Huang",
+        "You-Nian Liu",
+        "Zitong Yang",
+        "Lei Mao",
+        "Chao Liu",
+        "Fangfang Zhou"
+    ],
+    "doi": "10.1155/2020/4793545",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/46c443893a85dfff70836b2c27b4d730f8f79b0d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://downloads.hindawi.com/journals/complexity/2020/4793545.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The so-called learned sorting, which was first proposed by Google, achieves data sorting by predicting the placement positions of unsorted data elements in a sorted sequence based on machine learning models. Learned sorting pioneers a new generation of sorting algorithms and shows a great potential because of a theoretical time complexity ON and easy access to hardware-driven accelerating approaches. However, learned sorting has two problems: controlling the monotonicity and boundedness of the predicted placement positions and dealing with placement conflicts of repetitive elements. In this paper, a new learned sorting algorithm named LS is proposed. We integrate a back propagation neural network with the technique of look-up-table in LS to guarantee the monotonicity and boundedness of the predicted placement positions. We design a data structure called the self-regulating index in LS to tentatively store and duly update placement positions for eliminating potential placement conflicts. Results of three controlled experiments demonstrate that LS can effectively control the monotonicity and boundedness, achieve a better time consumption than quick sort and Google’s learned sorting, and present an excellent stability when the data size or the number of repetitive elements increases.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

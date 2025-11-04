@@ -1,0 +1,31 @@
+{
+    "paperId": "2e5ef41fdf81d6144e5494b51f1ee8efd569a1cd",
+    "title": "Learned Adaptive Indexing",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Suvam Kumar Das",
+        "Suprio Ray"
+    ],
+    "doi": "10.48550/arXiv.2508.03471",
+    "arxivId": "2508.03471",
+    "url": "https://www.semanticscholar.org/paper/2e5ef41fdf81d6144e5494b51f1ee8efd569a1cd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Indexes can significantly improve search performance in relational databases. However, if the query workload changes frequently or new data updates occur continuously, it may not be worthwhile to build a conventional index upfront for query processing. Adaptive indexing is a technique in which an index gets built on the fly as a byproduct of query processing. In recent years, research in database indexing has taken a new direction where machine learning models are employed for the purpose of indexing. These indexes, known as learned indexes, can be more efficient compared to traditional indexes such as B+-tree in terms of memory footprints and query performance. However, a learned index has to be constructed upfront and requires training the model in advance, which becomes a challenge in dynamic situations when workload changes frequently. To the best of our knowledge, no learned indexes exist yet for adaptive indexing. We propose a novel learned approach for adaptive indexing. It is built on the fly as queries are submitted and utilizes learned models for indexing data. To enhance query performance, we employ a query workload prediction technique that makes future workload projection based on past workload data. We have evaluated our learned adaptive indexing approach against existing adaptive indexes for various query workloads. Our results show that our approach performs better than others in most cases, offering 1.2x - 5.6x improvement in query performance.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

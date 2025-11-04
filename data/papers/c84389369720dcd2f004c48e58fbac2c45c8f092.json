@@ -1,0 +1,42 @@
+{
+    "paperId": "c84389369720dcd2f004c48e58fbac2c45c8f092",
+    "title": "XIndex: a scalable learned index for multicore data storage",
+    "year": 2020,
+    "venue": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+    "authors": [
+        "Chuzhe Tang",
+        "Youyun Wang",
+        "Zhiyuan Dong",
+        "Gansen Hu",
+        "Zhaoguo Wang",
+        "Minjie Wang",
+        "Haibo Chen"
+    ],
+    "doi": "10.1145/3332466.3374547",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c84389369720dcd2f004c48e58fbac2c45c8f092",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present XIndex, a concurrent ordered index designed for fast queries. Similar to a recent proposal of the learned index, XIndex uses learned models to optimize index efficiency. Comparing with the learned index, XIndex is able to effectively handle concurrent writes without affecting the query performance by leveraging fine-grained synchronization and a new compaction scheme, Two-Phase Compaction. Furthermore, XIndex adapts its structure according to run-time workload characteristics to support dynamic workload. We demonstrate the advantages of XIndex with both YCSB and TPC-C (KV), a TPC-C variant for key-value stores. XIndex achieves up to 3.2X and 4.4X performance improvement comparing with Masstree and Wormhole, respectively, on a 24-core machine, and it is open-sourced1.",
+    "citationCount": 121,
+    "referenceCount": 28
+}

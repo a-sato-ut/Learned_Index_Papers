@@ -1,0 +1,26 @@
+{
+    "paperId": "65567e231282623f2948489fa11ff1b304dd855b",
+    "title": "Integrating Machine Learning Model Ensembles to the SAVIME Database System",
+    "year": 2022,
+    "venue": "Anais Estendidos do XXXVII Simpósio Brasileiro de Banco de Dados (SBBD Estendido 2022)",
+    "authors": [
+        "A. Silva",
+        "P. Valduriez",
+        "Fábio Porto"
+    ],
+    "doi": "10.5753/sbbd_estendido.2022.21870",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/65567e231282623f2948489fa11ff1b304dd855b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://sol.sbc.org.br/index.php/sbbd_estendido/article/download/21870/21694",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The integration of machine learning algorithms into database systems has brought new opportunities in different areas from indexing to query optimization. In this paper, we describe the integration of an approach for the automatic computation of model ensembles to answer a predictive query. We have extended the SAVIME multi-dimensional array DBMS by adding a new function to its query language and implementing the selection and allocation ensemble model dataflow into the query processing component of SAVIME. We show some initial experimental results depicting its performance against a pure Python implementation of the ensemble approach. Interestingly enough the C++ implementation within SAVIME is up to 4 times faster than its competitor.",
+    "citationCount": 0,
+    "referenceCount": 15
+}

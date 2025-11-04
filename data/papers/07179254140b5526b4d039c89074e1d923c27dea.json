@@ -1,0 +1,34 @@
+{
+    "paperId": "07179254140b5526b4d039c89074e1d923c27dea",
+    "title": "K-Index: a learned spatial index for cold-start queries",
+    "year": 2024,
+    "venue": "6th International Conference on Advanced Electronic Materials, Computers and Software Engineering (AEMCSE 2023)",
+    "authors": [
+        "Xianghong Zhong",
+        "Yan Wang",
+        "Lijuan Liu",
+        "Shunzhi Zhu",
+        "Manjin Chen"
+    ],
+    "doi": "10.1117/12.3038055",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/07179254140b5526b4d039c89074e1d923c27dea",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current optimization methods of learned spatial indexes are often based on data distribution. However, when in coldstart scenarios whose query distributions are unknown, these methods are not suitable. In this paper, a sophisticated learned spatial index, K-Index, is designed for such cold-start environments. It employs a clustering-based data partitioning strategy, utilizing the K-means algorithm to cluster the spatial dataset. Then, cube-shaped partitions are formed with these clusters. For the sake that data should be stored in a certain order to speed up query performance, a dimension reduction technique, inspired by the Lebesgue measure, is used to convert a multi-dimensional spatial sample into one-dimensional format. Finally, a regression model is trained on these dimension-reduced samples for each partition, to enhance performances of cold-start spatial queries. The effectiveness of K-Index has been validated through experiments on both real and synthetic datasets, representing a significant advancement in learned indexing technologies. The K-Index method has been proven effective through experiments on both real and synthetic datasets, enhancing the adaptability and efficiency of handling spatial data and marking a significant advancement in learned indexing technologies.",
+    "citationCount": 0,
+    "referenceCount": 11
+}

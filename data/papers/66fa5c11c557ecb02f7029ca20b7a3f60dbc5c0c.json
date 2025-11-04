@@ -1,0 +1,33 @@
+{
+    "paperId": "66fa5c11c557ecb02f7029ca20b7a3f60dbc5c0c",
+    "title": "Building verified neural networks with specifications for systems",
+    "year": 2021,
+    "venue": "Asia Pacific Workshop on Systems",
+    "authors": [
+        "C. Tan",
+        "Yibo Zhu",
+        "Chuanxiong Guo"
+    ],
+    "doi": "10.1145/3476886.3477508",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/66fa5c11c557ecb02f7029ca20b7a3f60dbc5c0c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural networks (NNs) are beneficial to many services, and we believe systems—such as OSes, databases, networked systems—are not an exception. But applying NNs in these critical systems is challenging: people have to risk getting unexpected outcomes from NNs because NN behaviors are not well-defined. To tame these undefined behaviors, we introduce a framework ouroboros, which builds verified NNs that follow user-defined specifications. These specifications comprise input and output constraints which characterize the behaviors of a NN. We do a case study on database learned indexes to demonstrate that training verified NN models is possible. Though many challenges remain, ouroboros enables us, for the first time, to apply NNs in critical systems with _confidence_.",
+    "citationCount": 8,
+    "referenceCount": 22
+}

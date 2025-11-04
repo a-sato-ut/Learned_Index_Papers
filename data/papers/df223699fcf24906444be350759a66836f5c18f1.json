@@ -1,0 +1,34 @@
+{
+    "paperId": "df223699fcf24906444be350759a66836f5c18f1",
+    "title": "COAX: Correlation-Aware Indexing",
+    "year": 2023,
+    "venue": "2023 IEEE 39th International Conference on Data Engineering Workshops (ICDEW)",
+    "authors": [
+        "A. Hadian",
+        "Behzad Ghaffari",
+        "Taiyi Wang",
+        "T. Heinis"
+    ],
+    "doi": "10.1109/ICDEW58674.2023.00014",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/df223699fcf24906444be350759a66836f5c18f1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present COAX, a learned index for multidimensional data that learns the correlations between attributes of the dataset. Our approach is driven by the observation that in many datasets, values of multiple attributes are correlated. COAX exploits these correlations to reduce the dimensionality of the datasets, hence making the index smaller and more efficient. Experimental results show that by predicting correlated attributes in the data, we can improve the query execution time and reduce the memory overhead of the index. In our experiments, we reduce the execution time by 25% while reducing the memory footprint of the index by four orders of magnitude.",
+    "citationCount": 0,
+    "referenceCount": 21
+}

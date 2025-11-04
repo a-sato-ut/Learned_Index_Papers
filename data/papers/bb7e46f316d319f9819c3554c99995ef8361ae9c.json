@@ -1,0 +1,30 @@
+{
+    "paperId": "bb7e46f316d319f9819c3554c99995ef8361ae9c",
+    "title": "CodexDB: Generating Code for Processing SQL Queries using GPT-3 Codex",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Immanuel Trummer"
+    ],
+    "doi": "10.48550/arXiv.2204.08941",
+    "arxivId": "2204.08941",
+    "url": "https://www.semanticscholar.org/paper/bb7e46f316d319f9819c3554c99995ef8361ae9c",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2204.08941",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "CodexDB is an SQL processing engine whose internals can be customized via natural language instructions. CodexDB is based on OpenAI's GPT-3 Codex model which translates text into code. It is a framework on top of GPT-3 Codex that decomposes complex SQL queries into a series of simple processing steps, described in natural language. Processing steps are enriched with user-provided instructions and descriptions of database properties. Codex translates the resulting text into query processing code. An early prototype of CodexDB is able to generate correct code for a majority of queries of the WikiSQL benchmark and can be customized in various ways.",
+    "citationCount": 21,
+    "referenceCount": 28
+}

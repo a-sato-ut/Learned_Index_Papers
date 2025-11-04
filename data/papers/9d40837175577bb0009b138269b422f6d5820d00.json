@@ -1,0 +1,42 @@
+{
+    "paperId": "9d40837175577bb0009b138269b422f6d5820d00",
+    "title": "Transformer Memory as a Differentiable Search Index",
+    "year": 2022,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Yi Tay",
+        "Vinh Q. Tran",
+        "Mostafa Dehghani",
+        "Jianmo Ni",
+        "Dara Bahri",
+        "Harsh Mehta",
+        "Zhen Qin",
+        "Kai Hui",
+        "Zhe Zhao",
+        "Jai Gupta",
+        "Tal Schuster",
+        "William W. Cohen",
+        "Donald Metzler"
+    ],
+    "doi": null,
+    "arxivId": "2202.06991",
+    "url": "https://www.semanticscholar.org/paper/9d40837175577bb0009b138269b422f6d5820d00",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we demonstrate that information retrieval can be accomplished with a single Transformer, in which all information about the corpus is encoded in the parameters of the model. To this end, we introduce the Differentiable Search Index (DSI), a new paradigm that learns a text-to-text model that maps string queries directly to relevant docids; in other words, a DSI model answers queries directly using only its parameters, dramatically simplifying the whole retrieval process. We study variations in how documents and their identifiers are represented, variations in training procedures, and the interplay between models and corpus sizes. Experiments demonstrate that given appropriate design choices, DSI significantly outperforms strong baselines such as dual encoder models. Moreover, DSI demonstrates strong generalization capabilities, outperforming a BM25 baseline in a zero-shot setup.",
+    "citationCount": 341,
+    "referenceCount": 45
+}

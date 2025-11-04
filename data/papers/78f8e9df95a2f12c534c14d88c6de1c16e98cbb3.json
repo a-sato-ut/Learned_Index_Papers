@@ -1,0 +1,34 @@
+{
+    "paperId": "78f8e9df95a2f12c534c14d88c6de1c16e98cbb3",
+    "title": "Feasibility of Longest Prefix Matching using Learned Index Structures",
+    "year": 2021,
+    "venue": "Sigmetrics Performance Evaluation Review",
+    "authors": [
+        "Shunsuke Higuchi",
+        "Junji Takemasa",
+        "Y. Koizumi",
+        "A. Tagami",
+        "T. Hasegawa"
+    ],
+    "doi": "10.1145/3466826.3466842",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/78f8e9df95a2f12c534c14d88c6de1c16e98cbb3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper revisits longest prefix matching in IP packet forwarding because an emerging data structure, learned index, is recently presented. A learned index uses machine learning to associate key-value pairs in a key-value store. The fundamental idea to apply a learned index to an FIB is to simplify the complex longest prefix matching operation to a nearest address search operation. The size of the proposed FIB is less than half of an existing trie-based FIB while it achieves the computation speed nearly equal to the trie-based FIB. Moreover, the computation speed of the proposal is independent of the length of IP prefixes, unlike trie-based FIBs.",
+    "citationCount": 7,
+    "referenceCount": 15
+}

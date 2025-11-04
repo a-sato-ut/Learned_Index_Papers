@@ -1,0 +1,34 @@
+{
+    "paperId": "1ed468e866d0224504f819fcad02ac6ca786771f",
+    "title": "A compressive seeding algorithm in conjunction with reordering-based compression",
+    "year": 2024,
+    "venue": "Bioinformatics",
+    "authors": [
+        "Fahu Ji",
+        "Qian Zhou",
+        "Jue Ruan",
+        "Zexuan Zhu",
+        "Xianming Liu"
+    ],
+    "doi": "10.1093/bioinformatics/btae100",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1ed468e866d0224504f819fcad02ac6ca786771f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1093/bioinformatics/btae100",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract Motivation Seeding is a rate-limiting stage in sequence alignment for next-generation sequencing reads. The existing optimization algorithms typically utilize hardware and machine-learning techniques to accelerate seeding. However, an efficient solution provided by professional next-generation sequencing compressors has been largely overlooked by far. In addition to achieving remarkable compression ratios by reordering reads, these compressors provide valuable insights for downstream alignment that reveal the repetitive computations accounting for more than 50% of seeding procedure in commonly used short read aligner BWA-MEM at typical sequencing coverage. Nevertheless, the exploited redundancy information is not fully realized or utilized. Results In this study, we present a compressive seeding algorithm, named CompSeed, to fill the gap. CompSeed, in collaboration with the existing reordering-based compression tools, finishes the BWA-MEM seeding process in about half the time by caching all intermediate seeding results in compact trie structures to directly answer repetitive inquiries that frequently cause random memory accesses. Furthermore, CompSeed demonstrates better performance as sequencing coverage increases, as it focuses solely on the small informative portion of sequencing reads after compression. The innovative strategy highlights the promising potential of integrating sequence compression and alignment to tackle the ever-growing volume of sequencing data. Availability and implementation CompSeed is available at https://github.com/i-xiaohu/CompSeed.",
+    "citationCount": 1,
+    "referenceCount": 35
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "6a68e2adaa273e828f0eae4da251c50c50a72f35",
+    "title": "Dynamic Index Construction with Deep Reinforcement Learning",
+    "year": 2022,
+    "venue": "Data Science and Engineering",
+    "authors": [
+        "Sai Wu",
+        "Ying Li",
+        "Haoqi Zhu",
+        "J. Zhao",
+        "Gang Chen"
+    ],
+    "doi": "10.1007/s41019-022-00186-4",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6a68e2adaa273e828f0eae4da251c50c50a72f35",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s41019-022-00186-4.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Thanks to the rapid advances in artificial intelligence, a brand new venue for database performance optimization is through deep neural networks and the reinforcement learning paradigm. Alongside the long literature in this regime, an iconic and crucial problem is the index structure building. For this problem, the prior works have largely adopted a pure learning-based solution replacing the traditional methods such as a B-tree and Hashing. While this line of research has drawn much attention in the field, they ubiquitously abandon the semantic guarantees and also suffer from performance loss in certain scenarios. In this work, we propose the Neural Index Search (NIS) framework. The core to this framework is to train a search policy to find a near optimal combination plan over the existing index structures, together with the required configuration parameters associated with each index structure in the plan. We argue that compared against the pure learning approaches, NIS enjoys the advantages brought by the chosen conventional index structures and further robustly enhances the performance from any singular index structure. Extensive empirical results demonstrate that our framework achieves state-of-the-art performances on several benchmarks.",
+    "citationCount": 23,
+    "referenceCount": 33
+}

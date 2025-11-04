@@ -1,0 +1,35 @@
+{
+    "paperId": "e97b6af9f64f73358f706d34a7433d207f57f40e",
+    "title": "Towards a Benchmark for Learned Systems",
+    "year": 2021,
+    "venue": "2021 IEEE 37th International Conference on Data Engineering Workshops (ICDEW)",
+    "authors": [
+        "Laurent Bindschaedler",
+        "Andreas Kipf",
+        "Tim Kraska",
+        "Ryan Marcus",
+        "U. F. Minhas"
+    ],
+    "doi": "10.1109/ICDEW53142.2021.00029",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e97b6af9f64f73358f706d34a7433d207f57f40e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper aims to initiate a discussion around benchmarking data management systems with machine-learned components. Traditional benchmarks such as TPC or YCSB are insufficient to analyze and understand these learned systems because they evaluate the performance under a stable workload and data distribution. Learned systems automatically specialize and adapt database components to a changing workload, database, and execution environment, thereby making conventional metrics such as average throughput ill-suited to understand their performance fully. Moreover, the standard cost-per-performance metrics fail to account for essential trade-offs related to the training cost of models and the elimination of manual database tuning. We present several ideas for designing new benchmarks that are better suited to evaluate learned systems. The main challenges entail developing new metrics to capture the particularities of learned systems and ensuring that benchmark results remain comparable across many deployments with wide-ranging designs.",
+    "citationCount": 10,
+    "referenceCount": 42
+}

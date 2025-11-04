@@ -1,0 +1,34 @@
+{
+    "paperId": "50fee45be27e96cf651c6ee5809988b5138b1ecf",
+    "title": "Warper: Efficiently Adapting Learned Cardinality Estimators to Data and Workload Drifts",
+    "year": 2022,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Beibin Li",
+        "Yao Lu",
+        "Srikanth Kandula"
+    ],
+    "doi": "10.1145/3514221.3526179",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/50fee45be27e96cf651c6ee5809988b5138b1ecf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent learned cardinality estimation (CE) models are vulnerable when query predicates or the underlying datasets drift from what the models were trained upon. We propose a system Warper that accelerates model adaptation to drifts; Warper generates additional queries when limited examples are available from the new workload and carefully picks which queries to use to update the CE model. We show that Warper can be used to adapt different CE models including ones that support queries over single tables and join expressions. Experiments with different drifts suggest that Warper has a small computational cost and adapts much faster compared to state-of-the-art solutions. We also show that faster model adaptation improves query performance by shortening the period for which imperfect query plans are picked by a query optimizer due to incorrect cardinality estimates.",
+    "citationCount": 32,
+    "referenceCount": 53
+}

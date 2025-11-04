@@ -1,0 +1,46 @@
+{
+    "paperId": "e2be7cd38737099a741184ad62587a3fd226db55",
+    "title": "Learning Neural PDE Solvers with Convergence Guarantees",
+    "year": 2019,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Jun-Ting Hsieh",
+        "Shengjia Zhao",
+        "Stephan Eismann",
+        "L. Mirabella",
+        "Stefano Ermon"
+    ],
+    "doi": null,
+    "arxivId": "1906.01200",
+    "url": "https://www.semanticscholar.org/paper/e2be7cd38737099a741184ad62587a3fd226db55",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Partial differential equations (PDEs) are widely used across the physical and computational sciences. Decades of research and engineering went into designing fast iterative solution methods. Existing solvers are general purpose, but may be sub-optimal for specific classes of problems. In contrast to existing hand-crafted solutions, we propose an approach to learn a fast iterative solver tailored to a specific domain. We achieve this goal by learning to modify the updates of an existing solver using a deep neural network. Crucially, our approach is proven to preserve strong correctness and convergence guarantees. After training on a single geometry, our model generalizes to a wide variety of geometries and boundary conditions, and achieves 2-3 times speedup compared to state-of-the-art solvers.",
+    "citationCount": 150,
+    "referenceCount": 26
+}

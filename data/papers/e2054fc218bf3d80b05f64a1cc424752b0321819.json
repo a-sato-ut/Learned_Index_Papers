@@ -1,0 +1,27 @@
+{
+    "paperId": "e2054fc218bf3d80b05f64a1cc424752b0321819",
+    "title": "iFM-index: A Novel FM-Index Based on Machine Learning",
+    "year": 2024,
+    "venue": "2024 4th International Conference on Electronic Information Engineering and Computer Science (EIECS)",
+    "authors": [
+        "Wendi Chen",
+        "Yun Xu"
+    ],
+    "doi": "10.1109/EIECS63941.2024.10800059",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e2054fc218bf3d80b05f64a1cc424752b0321819",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sequence alignment is an increasingly important tool with the generation of large amounts of low-cost sequencing data, and it is typically accelerated by building an index. The FM-index, a well-known compressed full-text index, shows excellent performance for genomic data in practice, but it is limited by space. In the FM-index, $O_{cc}$ is an auxiliary structure for efficiently calculating the number of occurrences of each character in each position of the reference. However, $O_{cc}$ takes up the majority of space in the FM-index because its size is proportional to the length of the original reference. One way to reduce space of $O_{cc}$ is sampling, i.e., storing one row every several rows, but the space overhead is still high. In this paper, we propose $i\\mathbf{FM}$ -index, an intelligent FM -index that uses a new computational structure based on machine learning to replace $O_{cc}$, For each character in the reference, we build a linear regression model on its $O_{cc}$ values. The space overhead of the model is much lower than that of $O_{cc}$. When searching for the reads over the reference, iFM-index uses the model to predict the $O_{cc}$ values, ensuring that the error of each prediction is no greater than a given constant $\\varepsilon$ by the segmented model. Our experiments show that replacing $O_{cc}$ with a linear regression model can achieve significant space savings, yet still be time-efficient.",
+    "citationCount": 0,
+    "referenceCount": 14
+}

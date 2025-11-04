@@ -1,0 +1,33 @@
+{
+    "paperId": "5f910030bbbfe1bc4057574b5cf218b5ca9b0d79",
+    "title": "Tsunami: A Learned Multi-dimensional Index for Correlated Data and Skewed Workloads",
+    "year": 2020,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Jialin Ding",
+        "Vikram Nathan",
+        "Mohammad Alizadeh",
+        "Tim Kraska"
+    ],
+    "doi": "10.14778/3425879.3425880",
+    "arxivId": "2006.13282",
+    "url": "https://www.semanticscholar.org/paper/5f910030bbbfe1bc4057574b5cf218b5ca9b0d79",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dspace.mit.edu/bitstream/1721.1/132295/2/3425879.3425880.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Filtering data based on predicates is one of the most fundamental operations for any modern data warehouse. Techniques to accelerate the execution of filter expressions include clustered indexes, specialized sort orders (e.g., Z-order), multi-dimensional indexes, and, for high selectivity queries, secondary indexes. However, these schemes are hard to tune and their performance is inconsistent. Recent work on learned multi-dimensional indexes has introduced the idea of automatically optimizing an index for a particular dataset and workload. However, the performance of that work suffers in the presence of correlated data and skewed query workloads, both of which are common in real applications. In this paper, we introduce Tsunami, which addresses these limitations to achieve up to 6X faster query performance and up to 8X smaller index size than existing learned multi-dimensional indexes, in addition to up to 11X faster query performance and 170X smaller index size than optimally-tuned traditional indexes.",
+    "citationCount": 158,
+    "referenceCount": 48
+}

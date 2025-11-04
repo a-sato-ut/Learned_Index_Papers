@@ -1,0 +1,35 @@
+{
+    "paperId": "3a3e9648ccc800ce91fac33f426022e1ca3374d0",
+    "title": "A Distributed Learned Hash Table",
+    "year": 2025,
+    "venue": "IEEE International Conference on Network Protocols",
+    "authors": [
+        "Shengze Wang",
+        "Yi Liu",
+        "Xiaoxue Zhang",
+        "Liting Hu",
+        "Chen Qian"
+    ],
+    "doi": "10.1109/ICNP65844.2025.11192384",
+    "arxivId": "2508.14239",
+    "url": "https://www.semanticscholar.org/paper/3a3e9648ccc800ce91fac33f426022e1ca3374d0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Distributed Hash Tables (DHTs) are pivotal in numerous high-impact key-value applications built on distributed networked systems, offering a decentralized architecture that avoids single points of failure and improves data availability. Despite their widespread utility, DHTs face substantial challenges in handling range queries, which are crucial for applications such as LLM serving, distributed storage, databases, content delivery networks, and blockchains. To address this limitation, we present LEAD, a novel system incorporating learned models within DHT structures to significantly optimize range query performance. LEAD utilizes a recursive machine learning model to map and retrieve data across a distributed system while preserving the inherent order of data. LEAD includes the designs to minimize range query latency and message cost while maintaining high scalability and resilience to network churn. Our comprehensive evaluations, conducted in both testbed implementation and simulations, demonstrate that LEAD achieves tremendous advantages in system efficiency compared to existing range query methods in large-scale distributed systems, reducing query latency and message cost by 80% to 90%+. Furthermore, LEAD exhibits remarkable scalability and robustness against system churn, providing a robust, scalable solution for efficient data retrieval in distributed key-value systems.",
+    "citationCount": 1,
+    "referenceCount": 68
+}

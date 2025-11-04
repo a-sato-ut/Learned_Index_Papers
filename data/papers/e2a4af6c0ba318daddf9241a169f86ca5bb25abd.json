@@ -1,0 +1,35 @@
+{
+    "paperId": "e2a4af6c0ba318daddf9241a169f86ca5bb25abd",
+    "title": "leSAX Index: A Learned SAX Representation Index for Time Series Similarity Search",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Guozhong Li",
+        "Byron Choi",
+        "Rundong Zuo",
+        "S. Bhowmick",
+        "Jianliang Xu"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00152",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e2a4af6c0ba318daddf9241a169f86ca5bb25abd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Time series similarity search (TSSS) is a fundamental task across various applications, including classification, motif discovery, and anomaly detection. However, existing iSAX-based index methods, while known for their efficiency, often rely on hand-crafted techniques (e.g., PAA and SAX) for z-normalized time series data. However, these techniques do not fully exploit the full representation space and pose challenges to indexing. In this paper, we propose a learned index approach for TSSS. Specifically, we introduce SAXnet, a novel two-stage neural network that generates the learned SAX representation (leSAX representation) for both z-normalized and non-z-normalized time series data. The benefits of SAXnet are threefold: ① full exploitation of latent space, ② preservation of time series shapes and global information for indexing, and ③ elimination of the need for hand-crafted techniques. We then propose leSaxindex, a novel learned SAX representation index, which consists of a leSAX tree and a learned index. The distribution of the leSAX representations in the leSAX tree is adjusted to achieve a near-uniform distribution for index efficiency. Furthermore, we propose a learned index structure that works alongside the leSAX tree, applied recursively in case of large index leaf nodes. We have conducted comprehensive experiments on exact similarity search using our SAXnet and leSAX index on both real and synthetic time series datasets. The results demonstrate that our leSAX method outperforms state-of-the-art methods in efficiency, achieving performance improvements ranging from 3.6× to 17×.",
+    "citationCount": 1,
+    "referenceCount": 50
+}

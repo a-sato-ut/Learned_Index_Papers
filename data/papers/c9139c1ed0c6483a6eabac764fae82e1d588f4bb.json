@@ -1,0 +1,34 @@
+{
+    "paperId": "c9139c1ed0c6483a6eabac764fae82e1d588f4bb",
+    "title": "Differentially Private Learned Indexes",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jianzhang Du",
+        "Tilak Mudgal",
+        "Rutvi Rahul Gadre",
+        "Yukui Luo",
+        "Chenghong Wang"
+    ],
+    "doi": "10.48550/arXiv.2410.21164",
+    "arxivId": "2410.21164",
+    "url": "https://www.semanticscholar.org/paper/c9139c1ed0c6483a6eabac764fae82e1d588f4bb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we address the problem of efficiently answering predicate queries on encrypted databases, those secured by Trusted Execution Environments (TEEs), which enable untrusted providers to process encrypted user data without revealing its contents. A common strategy in modern databases to accelerate predicate queries is the use of indexes, which map attribute values (keys) to their corresponding positions in a sorted data array. This allows for fast lookup and retrieval of data subsets that satisfy specific predicates. Unfortunately, indexes cannot be directly applied to encrypted databases due to strong data dependent leakages. Recent approaches apply differential privacy (DP) to construct noisy indexes that enable faster access to encrypted data while maintaining provable privacy guarantees. However, these methods often suffer from large storage costs, with index sizes typically scaling linearly with the key space. To address this challenge, we propose leveraging learned indexes, a trending technique that repurposes machine learning models as indexing structures, to build more compact DP indexes.",
+    "citationCount": 0,
+    "referenceCount": 22
+}

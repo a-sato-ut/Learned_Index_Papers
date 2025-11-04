@@ -1,0 +1,44 @@
+{
+    "paperId": "7a63ba6f585200fa60b9ad981aaea9d4790a6229",
+    "title": "Barbarians at the Gate: How AI is Upending Systems Research",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Audrey Cheng",
+        "Shu Liu",
+        "Melissa Z. Pan",
+        "Zhifei Li",
+        "Bowen Wang",
+        "Alex Krentsel",
+        "Tian Xia",
+        "Mert Cemri",
+        "Jongseok Park",
+        "Shuo Yang",
+        "Jeff Chen",
+        "Lakshya A Agrawal",
+        "Aditya Desai",
+        "Jiarong Xing",
+        "Koushik Sen",
+        "Matei Zaharia",
+        "Ion Stoica"
+    ],
+    "doi": null,
+    "arxivId": "2510.06189",
+    "url": "https://www.semanticscholar.org/paper/7a63ba6f585200fa60b9ad981aaea9d4790a6229",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Artificial Intelligence (AI) is starting to transform the research process as we know it by automating the discovery of new solutions. Given a task, the typical AI-driven approach is (i) to generate a set of diverse solutions, and then (ii) to verify these solutions and select one that solves the problem. Crucially, this approach assumes the existence of a reliable verifier, i.e., one that can accurately determine whether a solution solves the given problem. We argue that systems research, long focused on designing and evaluating new performance-oriented algorithms, is particularly well-suited for AI-driven solution discovery. This is because system performance problems naturally admit reliable verifiers: solutions are typically implemented in real systems or simulators, and verification reduces to running these software artifacts against predefined workloads and measuring performance. We term this approach as AI-Driven Research for Systems (ADRS), which iteratively generates, evaluates, and refines solutions. Using penEvolve, an existing open-source ADRS instance, we present case studies across diverse domains, including load balancing for multi-region cloud scheduling, Mixture-of-Experts inference, LLM-based SQL queries, and transaction scheduling. In multiple instances, ADRS discovers algorithms that outperform state-of-the-art human designs (e.g., achieving up to 5.0x runtime improvements or 50% cost reductions). We distill best practices for guiding algorithm evolution, from prompt design to evaluator construction, for existing frameworks. We then discuss the broader implications for the systems community: as AI assumes a central role in algorithm design, we argue that human researchers will increasingly focus on problem formulation and strategic guidance. Our results highlight both the disruptive potential and the urgent need to adapt systems research practices in the age of AI.",
+    "citationCount": 1,
+    "referenceCount": 73
+}

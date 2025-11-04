@@ -1,0 +1,36 @@
+{
+    "paperId": "30ca0628399664e75254e37b2cad06437d4cc09f",
+    "title": "Scaling by Learning: Accelerating Open vSwitch Data Path With Neural Networks",
+    "year": 2023,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "Alon Rashelbach",
+        "Ori Rottenstreich",
+        "M. Silberstein"
+    ],
+    "doi": "10.1109/TNET.2022.3215143",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/30ca0628399664e75254e37b2cad06437d4cc09f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Open vSwitch (OVS) is a widely used open-source virtual switch implementation. In this work, we seek to scale up OVS to support hundreds of thousands of OpenFlow rules by accelerating the core component of its data-path - the packet classification mechanism. To do so we use NuevoMatch, a recent algorithm that uses neural network inference to match packets, and promises significant scalability and performance benefits. We overcome the primary algorithmic challenge of the slow training rate in the vanilla NuevoMatch, speeding it up by over three orders of magnitude. This improvement enables two design options to integrate NuevoMatch with OVS: (1) as an extra caching layer in front of OVS’s megaflow cache, and (2) using it to completely replace OVS’s data-path while performing classification directly on OpenFlow rules, and obviating control-path upcalls. Comprehensive evaluation on real-world packet traces and ClassBench rules demonstrates geometric mean speedups of <inline-formula> <tex-math notation=\"LaTeX\">$1.9\\times $ </tex-math></inline-formula> and <inline-formula> <tex-math notation=\"LaTeX\">$12.3\\times $ </tex-math></inline-formula> for the first and second designs, respectively, for 500K rules, with the latter also supporting up to 60K OpenFlow rule updates/second, by far exceeding the original OVS.",
+    "citationCount": 3,
+    "referenceCount": 49
+}

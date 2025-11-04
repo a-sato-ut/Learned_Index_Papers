@@ -1,0 +1,39 @@
+{
+    "paperId": "1208d5e7546f3a2ab6d88cbb0bf1c0248261ffd1",
+    "title": "Leaper",
+    "year": 2020,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Lei Yang",
+        "Hong Wu",
+        "Tieying Zhang",
+        "Xuntao Cheng",
+        "Feifei Li",
+        "Lei Zou",
+        "Yujie Wang",
+        "Rong-yao Chen",
+        "Jianying Wang",
+        "Gui Huang"
+    ],
+    "doi": "10.14778/3407790.3407803",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1208d5e7546f3a2ab6d88cbb0bf1c0248261ffd1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Frequency-based cache replacement policies that work well on page-based database storage engines are no longer sufficient for the emerging LSM-tree (Log-Structure Merge-tree) based storage engines. Due to the append-only and copy-on-write techniques applied to accelerate writes, the state-of-the-art LSM-tree adopts mutable record blocks and issues frequent background operations (i.e., compaction, flush) to reorganize records in possibly every block. As a side-effect, such operations invalidate the corresponding entries in the cache for each involved record, causing sudden drops on the cache hit rates and spikes on access latency. Given the observation that existing methods cannot address this cache invalidation problem, we propose Leaper, a machine learning method to predict hot records in an LSM-tree storage engine and prefetch them into the cache without being disturbed by background operations. We implement Leaper in a state-of-the-art LSM-tree storage engine, X-Engine, as a light-weight plug-in. Evaluation results show that Leaper eliminates about 70% cache invalidations and 99% latency spikes with at most 0.95% overheads as measured in real-world workloads.",
+    "citationCount": 36,
+    "referenceCount": 45
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "81dc3aab6bb808efea75ca4244ccf6e3667fcee2",
+    "title": "Approximate Query Processing for Data Exploration using Deep Generative Models",
+    "year": 2019,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Saravanan Thirumuruganathan",
+        "Shohedul Hasan",
+        "Nick Koudas",
+        "Gautam Das"
+    ],
+    "doi": "10.1109/ICDE48307.2020.00117",
+    "arxivId": "1903.10000",
+    "url": "https://www.semanticscholar.org/paper/81dc3aab6bb808efea75ca4244ccf6e3667fcee2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data is generated at an unprecedented rate surpassing our ability to analyze them. The database community has pioneered many novel techniques for Approximate Query Processing (AQP) that could give approximate results in a fraction of time needed for computing exact results. In this work, we explore the usage of deep learning (DL) for answering aggregate queries specifically for interactive applications such as data exploration and visualization. We use deep generative models, an unsupervised learning based approach, to learn the data distribution faithfully such that aggregate queries could be answered approximately by generating samples from the learned model. The model is often compact – few hundred KBs – so that arbitrary AQP queries could be answered on the client side without contacting the database server. Our other contributions include identifying model bias and minimizing it through a rejection sampling based approach and an algorithm to build model ensembles for AQP for improved accuracy. Our extensive experiments show that our proposed approach can provide answers with high accuracy and low latency.",
+    "citationCount": 54,
+    "referenceCount": 52
+}

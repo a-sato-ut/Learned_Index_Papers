@@ -1,0 +1,31 @@
+{
+    "paperId": "dc1ec8604c916e85386cf60addc99fd14a733f1b",
+    "title": "Sketches for Blockchains",
+    "year": 2021,
+    "venue": "International Conference on Communication Systems and Networks",
+    "authors": [
+        "Ori Rottenstreich"
+    ],
+    "doi": "10.1109/COMSNETS51098.2021.9352944",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dc1ec8604c916e85386cf60addc99fd14a733f1b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Blockchains suffer from a critical scalability problem where traditionally each network node maintains all network state, including records since the establishment of the blockchain. Sketches are popular hash-based data structures used to represent a large amount of data while supporting particular queries such as on set membership, cardinality estimation and identification of large elements. Often, to achieve time and memory savings, sketches allow potential inaccuracies in answers to the queries. The design of popular blockchain networks such as Bitcoin and Ethereum makes use of sketches for various tasks such as summarization of transaction blocks or declaring the interests of light nodes. Similarly, they seem natural to deal with the size of the state in blockchains. In this paper, we study existing and potential future applications of sketches in blockchains. We first summarize current blockchain use cases of sketches. Likewise, we explore how this coupling can be generalized to a wider range of sketches and additional functionalities. In particular, we explain how sketches can detect anomalies based on efficient an summary of the state or traffic.",
+    "citationCount": 19,
+    "referenceCount": 51
+}

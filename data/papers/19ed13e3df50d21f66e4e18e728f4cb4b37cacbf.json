@@ -1,0 +1,36 @@
+{
+    "paperId": "19ed13e3df50d21f66e4e18e728f4cb4b37cacbf",
+    "title": "Efficient Approximate Nearest Neighbor Search via Data-Adaptive Parameter Adjustment in Hierarchical Navigable Small Graphs",
+    "year": 2025,
+    "venue": "Design, Automation and Test in Europe",
+    "authors": [
+        "Huijun Jin",
+        "Jieun Lee",
+        "Shengmin Piao",
+        "Sang-Ki Seo",
+        "Sein Kwon",
+        "Sanghyun Park"
+    ],
+    "doi": "10.23919/DATE64628.2025.10992903",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/19ed13e3df50d21f66e4e18e728f4cb4b37cacbf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hierarchical Navigable Small World (HNSW) graphs are a state-of-the-art solution for approximate nearest neighbor search, widely applied in areas like recommendation systems, computer vision, and natural language processing. However, the effectiveness of the HNSW algorithm is constrained by its reliance on static parameter settings, which do not account for variations in data density and dimensionality across different datasets. This paper introduces Dynamic HNSW, an adaptive method that dynamically adjusts key parameters - such as the $M$ (number of connections per node) and ef (search depth) - based on both local data density and dimensionality of the dataset. The proposed approach improves flexibility and efficiency, allowing the graph to adapt to diverse data characteristics. Experimental results across multiple datasets demonstrate that Dynamic HNSW significantly reduces graph build time by up to 33.11% and memory usage by up to 32.44%, while maintaining comparable recall, thereby outperforming the conventional HNSW in both scalability and efficiency.",
+    "citationCount": 0,
+    "referenceCount": 33
+}

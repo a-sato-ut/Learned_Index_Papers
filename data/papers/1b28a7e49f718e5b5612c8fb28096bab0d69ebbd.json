@@ -1,0 +1,37 @@
+{
+    "paperId": "1b28a7e49f718e5b5612c8fb28096bab0d69ebbd",
+    "title": "Memory-Efficient RkNN Retrieval by Nonlinear k-Distance Approximation",
+    "year": 2020,
+    "venue": "2020 IEEE/WIC/ACM International Joint Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT)",
+    "authors": [
+        "Sandra Obermeier",
+        "M. Berrendorf",
+        "Peer Kröger"
+    ],
+    "doi": "10.1109/WIIAT50758.2020.00056",
+    "arxivId": "2011.01773",
+    "url": "https://www.semanticscholar.org/paper/1b28a7e49f718e5b5612c8fb28096bab0d69ebbd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2011.01773",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The reverse k-nearest neighbor (RkNN) query is an established query type with various applications reaching from identifying highly influential objects over incrementally updating kNN graphs to optimizing sensor communication and outlier detection. State-of-the-art solutions exploit that the k-distances in real-world datasets often follow the power-law distribution, and bound them with linear lines in log-log space. In this work, we investigate this assumption and uncover that it is violated in regions of changing density, which we show are typical for real-life datasets. Towards a generic solution, we pose the estimation of k-distances as a regression problem. Thereby, we enable harnessing the power of the abundance of available Machine Learning models and profiting from their advancement. We propose a flexible approach which allows steering the performance-memory consumption trade-off, and in particular to find good solutions with a fixed memory budget crucial in the context of edge computing. Moreover, we show how to obtain and improve guaranteed bounds essential to exact query processing. In experiments on real-world datasets, we demonstrate how this framework can significantly reduce the index memory consumption, and strongly reduce the candidate set size. We publish our code at https://github.com/sobermeier/nonlinear-kdist, and a detailed technical report at https://arxiv.org/abs/2011.01773.",
+    "citationCount": 0,
+    "referenceCount": 28
+}

@@ -1,0 +1,54 @@
+{
+    "paperId": "52792163f2ca9ba00b1e825168fbee7e7459f4c9",
+    "title": "Looper: An End-to-End ML Platform for Product Decisions",
+    "year": 2021,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "I. Markov",
+        "Hanson Wang",
+        "Nitya Kasturi",
+        "Shaun Singh",
+        "Szeto Wai Yuen",
+        "Mia Garrard",
+        "Sarah Tran",
+        "Yin Huang",
+        "Zehui Wang",
+        "I. Glotov",
+        "Tanvi Gupta",
+        "Boshuang Huang",
+        "Peng Chen",
+        "Xiaowen Xie",
+        "Michael Belkin",
+        "Sal Uryasev",
+        "Sam Howie",
+        "E. Bakshy",
+        "Norm Zhou"
+    ],
+    "doi": "10.1145/3534678.3539059",
+    "arxivId": "2110.07554",
+    "url": "https://www.semanticscholar.org/paper/52792163f2ca9ba00b1e825168fbee7e7459f4c9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2110.07554",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern software systems and products increasingly rely on machine learning models to make data-driven decisions based on interactions with users, infrastructure and other systems. For broader adoption, this practice must (i) accommodate product engineers without ML backgrounds, (ii) support finegrain product-metric evaluation and (iii) optimize for product goals. To address shortcomings of prior platforms, we introduce general principles for and the architecture of an ML platform, Looper, with simple APIs for decision-making and feedback collection. Looper covers the end-to-end ML lifecycle from collecting training data and model training to deployment and inference, and extends support to personalization, causal evaluation with heterogenous treatment effects, and Bayesian tuning for product goals. During the 2021 production deployment, Looper simultaneously hosted 440-1,000 ML models that made 4-6 million real-time decisions per second. We sum up experiences of platform adopters and describe their learning curve.",
+    "citationCount": 16,
+    "referenceCount": 62
+}

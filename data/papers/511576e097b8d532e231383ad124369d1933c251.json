@@ -1,0 +1,34 @@
+{
+    "paperId": "511576e097b8d532e231383ad124369d1933c251",
+    "title": "APEX: A High-Performance Learned Index on Persistent Memory",
+    "year": 2021,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Baotong Lu",
+        "Jialin Ding",
+        "Eric Lo",
+        "U. F. Minhas",
+        "Tianzheng Wang"
+    ],
+    "doi": "10.14778/3494124.3494141",
+    "arxivId": "2105.00683",
+    "url": "https://www.semanticscholar.org/paper/511576e097b8d532e231383ad124369d1933c251",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2105.00683",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The recently released persistent memory (PM) offers high performance, persistence, and is cheaper than DRAM. This opens up new possibilities for indexes that operate and persist data directly on the memory bus. Recent learned indexes exploit data distribution and have shown great potential for some workloads. However, none support persistence or instant recovery, and existing PM-based indexes typically evolve B+-trees without considering learned indexes.\n This paper proposes APEX, a new PM-optimized learned index that offers high performance, persistence, concurrency, and instant recovery. APEX is based on ALEX, a state-of-the-art updatable learned index, to combine and adapt the best of past PM optimizations and learned indexes, allowing it to reduce PM accesses while still exploiting machine learning. Our evaluation on Intel DCPMM shows that APEX can perform up to ~15× better than existing PM indexes and can recover from failures in ~42ms.",
+    "citationCount": 61,
+    "referenceCount": 72
+}

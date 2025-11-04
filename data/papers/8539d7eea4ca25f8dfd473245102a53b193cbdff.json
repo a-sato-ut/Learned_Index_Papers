@@ -1,0 +1,34 @@
+{
+    "paperId": "8539d7eea4ca25f8dfd473245102a53b193cbdff",
+    "title": "MT-Index: A Trustworthy Index For Multimodal Data Sharing",
+    "year": 2024,
+    "venue": "International Conference on Trust, Security and Privacy in Computing and Communications",
+    "authors": [
+        "Qianyue Fan",
+        "Shiqian Wang",
+        "Zhe Feng",
+        "Li Di"
+    ],
+    "doi": "10.1109/TrustCom63139.2024.00355",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8539d7eea4ca25f8dfd473245102a53b193cbdff",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Due to security risks such as data theft, data tampering, and replay attacks during data sharing, data owners need to establish a trust relationship before sharing their data. To reduce the burdens of data retrieval, how to generate an efficient and secure index has become a challenge. Crypto-based solutions currently only encrypt the data to ensure confidentiality, which ignore the integrity and correctness of the sharing data. An hash-based authentication structures called Merkle Tree is an effective tool for data integrity verification. However, it incurs high maintenance costs when dealing with dynamically changing datasets and is limited by data modalities. In this paper, we propose a trustworthy index for multimodal data sharing (MT-Index). Specifically, we propose a Merkle tree based on the Semantic Web, replacing traditional data labels with semantic graphs to represent the content of data blocks. We utilize timestamp to mark the update operations and store them in the leaf nodes of the tree, so as to effectively handle multimodal data and dynamic dataset changes. Additionally, we design a trust network based on zero-knowledge proofs, utilizing ZK-STARKs to ensure the credibility of one-to-one interactions, and implement a two-round protocol to verify the trust mechanism among multiple parties. Through formal analysis, we demonstrate that MT-Index achieves the desired security objectives with minimal storage and generation overhead.",
+    "citationCount": 0,
+    "referenceCount": 18
+}

@@ -19,8 +19,18 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
 
     setLoading(true);
     try {
-      const response = await fetch(`${API_BASE}/api/search?query=${encodeURIComponent(query)}&limit=200`);
+      const url = `${API_BASE}/api/search?query=${encodeURIComponent(query)}&limit=200`;
+      console.log('Searching with URL:', url);
+      
+      const response = await fetch(url);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
       const data: SearchResult = await response.json();
+      console.log('Search result:', data);
+      
       setResult(data);
       if (data.paper && activeTab === 'graph') {
         // グラフを再描画
@@ -28,7 +38,8 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       }
     } catch (error) {
       console.error('Search error:', error);
-      alert('検索に失敗しました');
+      const errorMessage = error instanceof Error ? error.message : '不明なエラー';
+      alert(`検索に失敗しました: ${errorMessage}\n\nバックエンドサーバー（${API_BASE}）が起動しているか確認してください。`);
     } finally {
       setLoading(false);
     }

@@ -1,0 +1,38 @@
+{
+    "paperId": "13dc39734fa13713c042d2b10598e4998c4eb6b1",
+    "title": "PolyFit: Polynomial-based Indexing Approach for Fast Approximate Range Aggregate Queries",
+    "year": 2020,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "Zhe Li",
+        "Tsz Nam Chan",
+        "Man Lung Yiu",
+        "Christian S. Jensen"
+    ],
+    "doi": "10.5441/002/edbt.2021.22",
+    "arxivId": "2003.08031",
+    "url": "https://www.semanticscholar.org/paper/13dc39734fa13713c042d2b10598e4998c4eb6b1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Range aggregate queries find frequent application in data analytics. In some use cases, approximate results are preferred over accurate results if they can be computed rapidly and satisfy approximation guarantees. Inspired by a recent indexing approach, we provide means of representing a discrete point data set by continuous functions that can then serve as compact index structures. More specifically, we develop a polynomial-based indexing approach, called PolyFit, for processing approximate range aggregate queries. PolyFit is capable of supporting multiple types of range aggregate queries, including COUNT, SUM, MIN and MAX aggregates, with guaranteed absolute and relative error bounds. Experiment results show that PolyFit is faster and more accurate and compact than existing learned index structures.",
+    "citationCount": 6,
+    "referenceCount": 78
+}

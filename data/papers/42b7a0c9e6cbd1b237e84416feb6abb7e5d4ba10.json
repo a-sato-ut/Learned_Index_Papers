@@ -1,0 +1,34 @@
+{
+    "paperId": "42b7a0c9e6cbd1b237e84416feb6abb7e5d4ba10",
+    "title": "GridTables: A One-Size-Fits-Most H2TAP Data Store",
+    "year": 2020,
+    "venue": "Datenbank-Spektrum",
+    "authors": [
+        "Marcus Pinnecke",
+        "Gabriel Campero Durand",
+        "David Broneske",
+        "Roman Zoun",
+        "G. Saake"
+    ],
+    "doi": "10.1007/s13222-019-00330-x",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/42b7a0c9e6cbd1b237e84416feb6abb7e5d4ba10",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1007/s13222-019-00330-x",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Heterogeneous HybridTransactionalAnalytical Processing (H2\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\mathrm{H}^{2}$$\\end{document}TAP) database systems have been developed to match the requirements for low latency analysis of real-time operational data. Due to technical challenges, these systems are hard to architect, non-trivial to engineer, and complex to administrate. Current research has proposed excellent solutions to many of those challenges in isolation – a unified engine enabling to optimize performance by combining these solutions is still missing. In this concept paper, we suggest a highly flexible and adaptive data structure (called gridtable) to physically organize sparse but structured records in the context of H2\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\mathrm{H}^{2}$$\\end{document}TAP. For this, we focus on the design of an efficient highly-flexible storage layout that is built from scratch for mixed query workloads. The key challenges we address are: (1) partial storage in different memory locations, and (2) the ability to optimize for mixed OLTP-/OLAP access patterns. To guarantee safe and well-specified data definition or manipulation, as well as fast querying with no compromises on performance, we propose two dedicated access paths to the storage. In this paper, we explore the architecture and internals of gridtables showing design goals, concepts and trade-offs. We close this paper with open research questions and challenges that must be addressed in order to take advantage of the flexibility of our solution.",
+    "citationCount": 5,
+    "referenceCount": 65
+}

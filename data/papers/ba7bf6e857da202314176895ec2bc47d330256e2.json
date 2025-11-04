@@ -1,0 +1,34 @@
+{
+    "paperId": "ba7bf6e857da202314176895ec2bc47d330256e2",
+    "title": "Learning to Optimize Join Queries With Deep Reinforcement Learning",
+    "year": 2018,
+    "venue": "arXiv.org",
+    "authors": [
+        "S. Krishnan",
+        "Zongheng Yang",
+        "Ken Goldberg",
+        "Joseph M Hellerstein",
+        "Ion Stoica"
+    ],
+    "doi": null,
+    "arxivId": "1808.03196",
+    "url": "https://www.semanticscholar.org/paper/ba7bf6e857da202314176895ec2bc47d330256e2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Exhaustive enumeration of all possible join orders is often avoided, and most optimizers leverage heuristics to prune the search space. The design and implementation of heuristics are well-understood when the cost model is roughly linear, and we find that these heuristics can be significantly suboptimal when there are non-linearities in cost. Ideally, instead of a fixed heuristic, we would want a strategy to guide the search space in a more data-driven way---tailoring the search to a specific dataset and query workload. Recognizing the link between classical Dynamic Programming enumeration methods and recent results in Reinforcement Learning (RL), we propose a new method for learning optimized join search strategies. We present our RL-based DQ optimizer, which currently optimizes select-project-join blocks. We implement three versions of DQ to illustrate the ease of integration into existing DBMSes: (1) A version built on top of Apache Calcite, (2) a version integrated into PostgreSQL, and (3) a version integrated into SparkSQL. Our extensive evaluation shows that DQ achieves plans with optimization costs and query execution times competitive with the native query optimizer in each system, but can execute significantly faster after learning (often by orders of magnitude).",
+    "citationCount": 237,
+    "referenceCount": 50
+}

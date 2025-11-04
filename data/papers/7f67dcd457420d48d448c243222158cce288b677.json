@@ -1,0 +1,34 @@
+{
+    "paperId": "7f67dcd457420d48d448c243222158cce288b677",
+    "title": "End-to-End Learning to Index and Search in Large Output Spaces",
+    "year": 2022,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Nilesh Gupta",
+        "Patrick H. Chen",
+        "Hsiang-Fu Yu",
+        "Cho-Jui Hsieh",
+        "I. Dhillon"
+    ],
+    "doi": "10.48550/arXiv.2210.08410",
+    "arxivId": "2210.08410",
+    "url": "https://www.semanticscholar.org/paper/7f67dcd457420d48d448c243222158cce288b677",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2210.08410",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Extreme multi-label classification (XMC) is a popular framework for solving many real-world problems that require accurate prediction from a very large number of potential output choices. A popular approach for dealing with the large label space is to arrange the labels into a shallow tree-based index and then learn an ML model to efficiently search this index via beam search. Existing methods initialize the tree index by clustering the label space into a few mutually exclusive clusters based on pre-defined features and keep it fixed throughout the training procedure. This approach results in a sub-optimal indexing structure over the label space and limits the search performance to the quality of choices made during the initialization of the index. In this paper, we propose a novel method ELIAS which relaxes the tree-based index to a specialized weighted graph-based index which is learned end-to-end with the final task objective. More specifically, ELIAS models the discrete cluster-to-label assignments in the existing tree-based index as soft learnable parameters that are learned jointly with the rest of the ML model. ELIAS achieves state-of-the-art performance on several large-scale extreme classification benchmarks with millions of labels. In particular, ELIAS can be up to 2.5% better at precision@1 and up to 4% better at recall@100 than existing XMC methods. A PyTorch implementation of ELIAS along with other resources is available at https://github.com/nilesh2797/ELIAS.",
+    "citationCount": 17,
+    "referenceCount": 39
+}

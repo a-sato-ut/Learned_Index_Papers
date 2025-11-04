@@ -1,0 +1,36 @@
+{
+    "paperId": "287050dc91b146768c9d4435e5582fc9975ba84c",
+    "title": "Learned Cardinalities: Estimating Correlated Joins with Deep Learning",
+    "year": 2018,
+    "venue": "Conference on Innovative Data Systems Research",
+    "authors": [
+        "Andreas Kipf",
+        "Thomas Kipf",
+        "Bernhard Radke",
+        "Viktor Leis",
+        "P. Boncz",
+        "A. Kemper"
+    ],
+    "doi": null,
+    "arxivId": "1809.00677",
+    "url": "https://www.semanticscholar.org/paper/287050dc91b146768c9d4435e5582fc9975ba84c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We describe a new deep learning approach to cardinality estimation. MSCN is a multi-set convolutional network, tailored to representing relational query plans, that employs set semantics to capture query features and true cardinalities. MSCN builds on sampling-based estimation, addressing its weaknesses when no sampled tuples qualify a predicate, and in capturing join-crossing correlations. Our evaluation of MSCN using a real-world dataset shows that deep learning significantly enhances the quality of cardinality estimation, which is the core problem in query optimization.",
+    "citationCount": 420,
+    "referenceCount": 32
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "8731e01cba81f6b9bfa79430f3c2d23ff36e5bf6",
+    "title": "Deep Learning-Based Bloom Filter for Efficient Multi-key Membership Testing",
+    "year": 2023,
+    "venue": "Data Science and Engineering",
+    "authors": [
+        "Haitian Chen",
+        "Ziwei Wang",
+        "Yunchuan Li",
+        "Ruixin Yang",
+        "Yan Zhao",
+        "Ruibo Zhou",
+        "Kai Zheng"
+    ],
+    "doi": "10.1007/s41019-023-00224-9",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8731e01cba81f6b9bfa79430f3c2d23ff36e5bf6",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s41019-023-00224-9.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multi-key membership testing plays a crucial role in computing systems and networking applications, encompassing web search, mail systems, distributed databases, firewalls, and network routing. Traditional approaches, such as the Bloom filter, encounter limitations within this specific context. Addressing these challenges, we propose the Multi-key Learned Bloom Filter (MLBF), a hybrid method that combines machine learning techniques with the Bloom filter. The MLBF introduces a value-interaction-based multi-key classifier and a multi-key Bloom filter. Furthermore, we introduce an Interval-based MLBF approach, which categorizes keys into specific intervals based on data distribution to minimize the False Positive Rate (FPR). Additionally, MLBF incorporates an out-of-distribution (OOD) detection component to identify data shifts. Through extensive experimental evaluations on three authentic datasets, we demonstrate the superiority of the proposed MLBF in terms of FPR and query efficiency.",
+    "citationCount": 4,
+    "referenceCount": 31
+}

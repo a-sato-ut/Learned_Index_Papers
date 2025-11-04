@@ -1,0 +1,33 @@
+{
+    "paperId": "fc23f94cad3ac60bbb4a3132c9be68cc1494be9d",
+    "title": "Approximate Sketches",
+    "year": 2024,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Brian Tsan",
+        "Asoke Datta",
+        "Yesdaulet Izenov",
+        "Florin Rusu"
+    ],
+    "doi": "10.1145/3639321",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fc23f94cad3ac60bbb4a3132c9be68cc1494be9d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3639321",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sketches are single-pass small-space data summaries that can quickly estimate the cardinality of join queries. However, sketches are not directly applicable to join queries with dynamic filter conditions --- where arbitrary selection predicate(s) are applied --- since a sketch is limited to a fixed selection. While multiple sketches for various selections can be used in combination, they each incur individual storage and maintenance costs. Alternatively, exact sketches can be built during runtime for every selection. To make this process scale, a high-degree of parallelism --- available in hardware accelerators such as GPUs --- is required. Therefore, sketch usage for cardinality estimation in query optimization is limited. Following recent work that applies transformers to cardinality estimation, we design a novel learning-based method to approximate the sketch of any arbitrary selection, enabling sketches for join queries with filter conditions. We train a transformer on each table to estimate the sketch of any subset of the table, i.e., any arbitrary selection. Transformers achieve this by learning the joint distribution amongst table attributes, which is equivalent to a multidimensional sketch. Subsequently, transformers can approximate any sketch, enabling sketches for join cardinality estimation. In turn, estimating joins via approximate sketches allows tables to be modeled individually and thus scales linearly with the number of tables. We evaluate the accuracy and efficacy of approximate sketches on queries with selection predicates consisting of conjunctions of point and range conditions. Approximate sketches achieve similar accuracy to exact sketches with at least one order of magnitude less overhead.",
+    "citationCount": 4,
+    "referenceCount": 33
+}

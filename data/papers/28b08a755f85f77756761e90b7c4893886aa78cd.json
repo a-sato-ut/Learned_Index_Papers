@@ -1,0 +1,29 @@
+{
+    "paperId": "28b08a755f85f77756761e90b7c4893886aa78cd",
+    "title": "Meta-learning with Hopfield Neural Network",
+    "year": 2022,
+    "venue": "IEEE Uttar Pradesh Section International Conference on Electrical, Computer and Electronics Engineering",
+    "authors": [
+        "Sambhavi Tiwari",
+        "Manas Gogoi",
+        "S. Verma",
+        "Krishna Pratap Singh"
+    ],
+    "doi": "10.1109/UPCON56432.2022.9986399",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/28b08a755f85f77756761e90b7c4893886aa78cd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we propose a novel meta-learning method that leverages the advantages of both meta-learning and storage. In meta-learning, the neural network tries to learn parameters distributed across multiple tasks. Meta-learning provides quick learning with unseen meta-testing tasks. In model-based meta-learning methods, an external memory module is used to retain a memory of important parameters from one task to the other, enabling meta-learning. The model proposed in this work consists of a long short-term memory(LSTM) neural network with an external memory network known as Hopfield neural network. Hopfield neural network is a single-layer, non-linear, auto-associative model that uses an external memory network. Unlike previous methods, our proposed model $LSTM_{HAM}$, i.e., long short term memory with Hopfield associative memory focuses on storing knowledge that uses an additional memory network to store and retrieve patterns using different location-based access mechanisms. Our model extends the capabilities of the LSTM and performs meta-learning best on 5-way 10-shot task setting with an average accuracy of approximately 60 percent.",
+    "citationCount": 3,
+    "referenceCount": 34
+}

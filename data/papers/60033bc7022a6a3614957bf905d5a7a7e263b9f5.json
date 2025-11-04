@@ -1,0 +1,30 @@
+{
+    "paperId": "60033bc7022a6a3614957bf905d5a7a7e263b9f5",
+    "title": "Scheduling with Predictions and the Price of Misprediction",
+    "year": 2019,
+    "venue": "Information Technology Convergence and Services",
+    "authors": [
+        "M. Mitzenmacher"
+    ],
+    "doi": "10.4230/LIPIcs.ITCS.2020.14",
+    "arxivId": "1902.00732",
+    "url": "https://www.semanticscholar.org/paper/60033bc7022a6a3614957bf905d5a7a7e263b9f5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In many traditional job scheduling settings, it is assumed that one knows the time it will take for a job to complete service. In such cases, strategies such as shortest job first can be used to improve performance in terms of measures such as the average time a job waits in the system. We consider the setting where the service time is not known, but is predicted by for example a machine learning algorithm. Our main result is the derivation, under natural assumptions, of formulae for the performance of several strategies for queueing systems that use predictions for service times in order to schedule jobs. As part of our analysis, we suggest the framework of the \"price of misprediction,\" which offers a measure of the cost of using predicted information.",
+    "citationCount": 112,
+    "referenceCount": 35
+}

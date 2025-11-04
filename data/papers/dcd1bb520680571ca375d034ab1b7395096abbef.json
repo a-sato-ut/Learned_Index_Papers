@@ -1,0 +1,31 @@
+{
+    "paperId": "dcd1bb520680571ca375d034ab1b7395096abbef",
+    "title": "Distributed Locking: Performance Analysis and Optimization Strategies",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Andre Rodriguez",
+        "William Osborn"
+    ],
+    "doi": "10.48550/arXiv.2504.03073",
+    "arxivId": "2504.03073",
+    "url": "https://www.semanticscholar.org/paper/dcd1bb520680571ca375d034ab1b7395096abbef",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Distributed locking mechanisms are fundamental to ensuring data consistency and integrity in distributed systems. This paper presents a comprehensive analysis of distributed locking algorithms, focusing on their performance characteristics under various workload conditions. We compare traditional centralized locking approaches with modern distributed protocols, evaluating them based on throughput, latency, and scalability metrics. Our experimental results demonstrate that optimized distributed locking protocols can achieve up to 68\\% better performance compared to centralized approaches in high-contention scenarios, while maintaining strong consistency guarantees. Furthermore, we propose novel optimizations for distributed locking that significantly reduce coordination overhead in geo-distributed deployments. The findings contribute to the growing body of knowledge on designing efficient concurrency control mechanisms for modern distributed systems.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

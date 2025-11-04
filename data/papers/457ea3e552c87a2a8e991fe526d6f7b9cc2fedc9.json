@@ -1,0 +1,33 @@
+{
+    "paperId": "457ea3e552c87a2a8e991fe526d6f7b9cc2fedc9",
+    "title": "An Empirical Analysis of Deep Learning for Cardinality Estimation",
+    "year": 2019,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jennifer Ortiz",
+        "M. Balazinska",
+        "J. Gehrke",
+        "S. Keerthi"
+    ],
+    "doi": null,
+    "arxivId": "1905.06425",
+    "url": "https://www.semanticscholar.org/paper/457ea3e552c87a2a8e991fe526d6f7b9cc2fedc9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We implement and evaluate deep learning for cardinality estimation by studying the accuracy, space and time trade-offs across several architectures. We find that simple deep learning models can learn cardinality estimations across a variety of datasets (reducing the error by 72% - 98% on average compared to PostgreSQL). In addition, we empirically evaluate the impact of injecting cardinality estimates produced by deep learning models into the PostgreSQL optimizer. In many cases, the estimates from these models lead to better query plans across all datasets, reducing the runtimes by up to 49% on select-project-join workloads. As promising as these models are, we also discuss and address some of the challenges of using them in practice.",
+    "citationCount": 57,
+    "referenceCount": 73
+}

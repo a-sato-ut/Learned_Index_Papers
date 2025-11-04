@@ -1,0 +1,32 @@
+{
+    "paperId": "109b4bdd8807f9c9547940ac78df85bfbb5a3a00",
+    "title": "Redbench: A Benchmark Reflecting Real Workloads",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Skander Krid",
+        "Mihail Stoian",
+        "Andreas Kipf"
+    ],
+    "doi": "10.1145/3735403.3735998",
+    "arxivId": "2506.12488",
+    "url": "https://www.semanticscholar.org/paper/109b4bdd8807f9c9547940ac78df85bfbb5a3a00",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Instance-optimized components have made their way into production systems. To some extent, this adoption is due to the characteristics of customer workloads, which can be individually leveraged during the model training phase. However, there is a gap between research and industry that impedes the development of realistic learned components: the lack of suitable workloads. Existing ones, such as TPC-H and TPC-DS, and even more recent ones, such as DSB and CAB, fail to exhibit real workload patterns, particularly distribution shifts. In this paper, we introduce Redbench, a collection of 30 workloads that reflect query patterns observed in the real world. The workloads were obtained by sampling queries from support benchmarks and aligning them with workload characteristics observed in Redset.",
+    "citationCount": 1,
+    "referenceCount": 30
+}

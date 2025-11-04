@@ -1,0 +1,39 @@
+{
+    "paperId": "9d4ce6376fca8b9c98fb8bd6fa26a1bf0f578158",
+    "title": "Scalable k-nearest neighbor algorithms based on learned functions",
+    "year": 2023,
+    "venue": "International Conference on Applied Mathematics, Modelling and Intelligent Computing",
+    "authors": [
+        "Chuanjun Xing",
+        "Jie Xu",
+        "Feng Sun",
+        "Jingwen Cai",
+        "Yong Zhang",
+        "Mingchao Wang"
+    ],
+    "doi": "10.1117/12.2686316",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9d4ce6376fca8b9c98fb8bd6fa26a1bf0f578158",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate k-Nearest Neighbor (kNN) is a fundamental problem in data science. A lot of traditional approaches have been devel- oped to solve this problem, yet none of them can achieve high accuracy, small memory usage and fast query speed. These methods can be in- efficient since they don’t improve with experience(learning from errors or heuristics employed). A recent trend in algorithm design consists of augmenting classic data structures with machine learning models. Mo- tivated by this, we present a learned index for kNN query in massive amounts of data, named LBF. It robustly combines a traditional index with a learned model. What’s more, a multiple feature extraction mod- ule is embedded into our model to make full use of the raw input. These make our method satisfies all the requirements of a good similarity in- dexing scheme. Theoretical proofs and experimental results on a variety of datasets show that compared to the state-of-the-art methods, we can achieve a comparable accuracy with much less memory usage.",
+    "citationCount": 0,
+    "referenceCount": 15
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "4f399ee35030e1d9a6e519e70221f72136965e63",
+    "title": "Workload-Aware Column Imprints",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Noah Slavitch"
+    ],
+    "doi": "10.1145/3318464.3384411",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4f399ee35030e1d9a6e519e70221f72136965e63",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In-memory columnar databases use indexes to accelerate highly selective queries. The additional storage requirement of indexes becomes prohibitive when kept in memory. For example, an inverted index requires as much space as the column itself. Column Imprints (CI) have been proposed as a space-efficient structure that supports range queries. We examine the limitations of CI and we suggest three enhancements for in-memory databases. We propose a workload-aware approach which considers recent data access patterns when constructing CI. We optimize the histogram towards reducing false positives and cache misses for highly selective queries. We propose efficient algorithms to construct our data structures. Preliminary experiments confirm that: 1) our workload-aware imprints reduce the cache lines scanned anywhere from 30% to 50% when compared to the original CI, and 2) have significantly smaller storage requirements.",
+    "citationCount": 2,
+    "referenceCount": 7
+}

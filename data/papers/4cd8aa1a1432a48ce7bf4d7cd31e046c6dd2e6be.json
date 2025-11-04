@@ -1,0 +1,26 @@
+{
+    "paperId": "4cd8aa1a1432a48ce7bf4d7cd31e046c6dd2e6be",
+    "title": "Learning From User-Specified Optimizer Hints in Database Systems",
+    "year": 2024,
+    "venue": "Foundations of Computing and Decision Sciences",
+    "authors": [
+        "Maciej Zakrzewicz"
+    ],
+    "doi": "10.2478/fcds-2024-0011",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4cd8aa1a1432a48ce7bf4d7cd31e046c6dd2e6be",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://sciendo.com/pdf/10.2478/fcds-2024-0011",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract Recently, numerous machine learning (ML) techniques have been applied to address database performance management problems, including cardinality estimation, cost modeling, optimal join order prediction, hint generation, etc. In this paper, we focus on query optimizer hints employed by users in their queries in order to mask some Query Optimizer deficiencies. We treat the query optimizer hints, bound to previous queries, as significant additional query metadata and learn to automatically predict which new queries will pose similar performance challenges and should therefore also be supported by query optimizer hints. To validate our approach, we have performed a number of experiments using real-life SQL workloads and we achieved promising results.",
+    "citationCount": 0,
+    "referenceCount": 13
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "24a1f900d8ff9279f082d3a1494c0771cbea10db",
+    "title": "LATEST: Learning-Assisted Selectivity Estimation Over Spatio-Textual Streams",
+    "year": 2021,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Mayur Patil",
+        "A. Magdy"
+    ],
+    "doi": "10.1109/ICDE51399.2021.00142",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/24a1f900d8ff9279f082d3a1494c0771cbea10db",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Selectivity and cardinality estimation are main driving factors for developing cheap query plans and ultimately faster query processing. Traditionally, database systems use estimation data structures, e.g., histograms, to maintain data summaries. Machine learning models have recently been employed, acting as black boxes, in several database tasks, including cardinality estimation. In the dynamic streaming environments, both estimation data structures and machine learning models struggle with adaptation for dynamic changes in data and query workloads. This paper proposes LATEST; a system module that uses machine learning to enable dynamic adaptation of estimation data structures. For spatial-keyword queries in a streaming environment, it shows on par or better performance than the state-of-the-art estimators. LATEST builds an incremental supervised learning model over a moving time window that helps the underlying system to switch among several estimation structures to keep estimation accuracy high at all times. As an incremental learner, LATEST effectively adapts to dynamic changes of both data and queries in streaming environments. Our extensive experiments on three real datasets and various query workloads verify the effectiveness of LATEST with higher accuracy and lower response times over the state-of-the-art estimators.",
+    "citationCount": 4,
+    "referenceCount": 72
+}

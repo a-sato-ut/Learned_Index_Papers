@@ -1,0 +1,42 @@
+{
+    "paperId": "0de84acd45b2d2b905107e9e4239c588497a6a93",
+    "title": "Multiple Set Matching and Pre-Filtering with Bloom Multifilters",
+    "year": 2019,
+    "venue": "arXiv.org",
+    "authors": [
+        "Francesco Concas",
+        "Pengfei Xu",
+        "M. A. Hoque",
+        "Jiaheng Lu",
+        "Sasu Tarkoma"
+    ],
+    "doi": null,
+    "arxivId": "1901.01825",
+    "url": "https://www.semanticscholar.org/paper/0de84acd45b2d2b905107e9e4239c588497a6a93",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Bloom filter is a space-efficient probabilistic data structure for checking elements' membership in a set. Given multiple sets, however, a standard Bloom filter is not sufficient when looking for the items to which an element or a set of input elements belong to. In this article, we solve multiple set matching problem by proposing two efficient Bloom Multifilters called Bloom Matrix and Bloom Vector. Both of them are space efficient and answer queries with a set of identifiers for multiple set matching problems. We show that the space efficiency can be optimized further according to the distribution of labels among multiple sets: Uniform and Zipf. While both of them are space efficient, Bloom Vector can efficiently exploit Zipf distribution of data for further space reduction. Our results also highlight that basic ADD and LOOKUP operations on Bloom Matrix are faster than on Bloom Vector. However, Bloom Matrix does not meet the theoretical false positive rate of less than $10^{-2}$ for LOOKUP operations if the represented data or the labels are not uniformly distributed among the multiple sets. Consequently, we introduce \\textit{Bloom Test} which uses Bloom Matrix as the pre-filter structure to determine which structure is suitable for improved performance with an arbitrary input dataset.",
+    "citationCount": 0,
+    "referenceCount": 29
+}

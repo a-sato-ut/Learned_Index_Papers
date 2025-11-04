@@ -1,0 +1,32 @@
+{
+    "paperId": "c7b15ef0019af2df5f11bb5d906657f65727a4af",
+    "title": "ML-AQP: Query-Driven Approximate Query Processing based on Machine Learning",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Fotis Savva",
+        "C. Anagnostopoulos",
+        "P. Triantafillou"
+    ],
+    "doi": null,
+    "arxivId": "2003.06613",
+    "url": "https://www.semanticscholar.org/paper/c7b15ef0019af2df5f11bb5d906657f65727a4af",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As more and more organizations rely on data-driven decision making, large-scale analytics become increasingly important. However, an analyst is often stuck waiting for an exact result. As such, organizations turn to Cloud providers that have infrastructure for efficiently analyzing large quantities of data. But, with increasing costs, organizations have to optimize their usage. Having a cheap alternative that provides speed and efficiency will go a long way. Concretely, we offer a solution that can provide approximate answers to aggregate queries, relying on Machine Learning (ML), which is able to work alongside Cloud systems. Our developed lightweight ML-led system can be stored on an analyst's local machine or deployed as a service to instantly answer analytic queries, having low response times and monetary/computational costs and energy footprint. To accomplish this we leverage the knowledge obtained by previously answered queries and build ML models that can estimate the result of new queries in an efficient and inexpensive manner. The capabilities of our system are demonstrated using extensive evaluation with both real and synthetic datasets/workloads and well known benchmarks.",
+    "citationCount": 14,
+    "referenceCount": 66
+}

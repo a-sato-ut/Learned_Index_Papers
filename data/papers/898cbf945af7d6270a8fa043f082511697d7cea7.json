@@ -1,0 +1,36 @@
+{
+    "paperId": "898cbf945af7d6270a8fa043f082511697d7cea7",
+    "title": "Interval cracking and its application to databases of complex geometries",
+    "year": 2024,
+    "venue": "BigData Congress [Services Society]",
+    "authors": [
+        "Masoumeh Vahedi",
+        "Henning Christiansen"
+    ],
+    "doi": "10.1109/BigData62323.2024.10825101",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/898cbf945af7d6270a8fa043f082511697d7cea7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A new adaptive index construction technique is suggested for large datasets with intervals as keys. As previous cracking approaches, it starts from an unsorted table, and a search tree is gradually built according to the queries, reaching a better and better performance. It can be used as a primary index or in combinations: another primary index manages search for clusters of objects, and interval cracking optimizes the search within clusters. We investigate this for learned indexes for complex geometric objects. Depending on the dataset, the combined approach or cracking as the only index works best.",
+    "citationCount": 0,
+    "referenceCount": 25
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "e2c84550d04d2bb198ae38728c3d97030a746578",
+    "title": "Prefetching Using Principles of Hippocampal-Neocortical Interaction",
+    "year": 2023,
+    "venue": "USENIX Workshop on Hot Topics in Operating Systems",
+    "authors": [
+        "Michael Wu",
+        "Ketaki Joshi",
+        "Andrew Sheinberg",
+        "Guilherme Cox",
+        "Anurag Khandelwal",
+        "Raghavendra Pradyumna Pothukuchi",
+        "A. Bhattacharjee"
+    ],
+    "doi": "10.1145/3593856.3595901",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e2c84550d04d2bb198ae38728c3d97030a746578",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3593856.3595901",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Memory prefetching improves performance across many systems layers. However, achieving high prefetch accuracy with low overhead is challenging, as memory hierarchies and application memory access patterns become more complicated. Furthermore, a prefetcher's ability to adapt to new access patterns as they emerge is becoming more crucial than ever. Recent work has demonstrated the use of deep learning techniques to improve prefetching accuracy, albeit with impractical compute and storage overheads. This paper suggests taking inspiration from the learning mechanisms and memory architecture of the human brain---specifically, the hippocampus and neocortex---to build resource-efficient, accurate, and adaptable prefetchers.",
+    "citationCount": 2,
+    "referenceCount": 49
+}

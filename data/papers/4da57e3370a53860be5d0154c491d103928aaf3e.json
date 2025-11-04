@@ -1,0 +1,28 @@
+{
+    "paperId": "4da57e3370a53860be5d0154c491d103928aaf3e",
+    "title": "Cardinality Estimation of an SQL Query Using Recursive Neural Networks",
+    "year": 2020,
+    "venue": "Mathematical Problems of Computer Science",
+    "authors": [
+        "D. Karamyan"
+    ],
+    "doi": "10.51408/1963-0058",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4da57e3370a53860be5d0154c491d103928aaf3e",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://mpcs.sci.am/index.php/mpcs/article/download/461/422/866",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "To learn complex interactions between predicates and accurately estimate the cardinality of an SQL query, we develop a novel framework based on recursive tree-structured neural networks, which take into account the natural properties of logical expressions: compositionality and n-ary associativity. The proposed architecture is an extension of MSCN (multi-set convolutional network) for queries containing both conjunction and disjunction operators. The goal is to represent an arbitrary logical expression in a continuous vector space by combining sub-expression vectors according to the operator type. We compared the proposed approach with the histogram-based approach on the real-world dataset and showed that our approach significantly outperforms histograms with a large margin.",
+    "citationCount": 6,
+    "referenceCount": 15
+}

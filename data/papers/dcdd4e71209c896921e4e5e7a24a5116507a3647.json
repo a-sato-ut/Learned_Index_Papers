@@ -1,0 +1,35 @@
+{
+    "paperId": "dcdd4e71209c896921e4e5e7a24a5116507a3647",
+    "title": "Accelerating Deep Learning Inference via Learned Caches",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Arjun Balasubramanian",
+        "Adarsh Kumar",
+        "Yuhan Liu",
+        "Han Cao",
+        "S. Venkataraman",
+        "Aditya Akella"
+    ],
+    "doi": null,
+    "arxivId": "2101.07344",
+    "url": "https://www.semanticscholar.org/paper/dcdd4e71209c896921e4e5e7a24a5116507a3647",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Neural Networks (DNNs) are witnessing increased adoption in multiple domains owing to their high accuracy in solving real-world problems. However, this high accuracy has been achieved by building deeper networks, posing a fundamental challenge to the low latency inference desired by user-facing applications. Current low latency solutions trade-off on accuracy or fail to exploit the inherent temporal locality in prediction serving workloads. We observe that caching hidden layer outputs of the DNN can introduce a form of late-binding where inference requests only consume the amount of computation needed. This enables a mechanism for achieving low latencies, coupled with an ability to exploit temporal locality. However, traditional caching approaches incur high memory overheads and lookup latencies, leading us to design learned caches - caches that consist of simple ML models that are continuously updated. We present the design of GATI, an end-to-end prediction serving system that incorporates learned caches for low-latency DNN inference. Results show that GATI can reduce inference latency by up to 7.69X on realistic workloads.",
+    "citationCount": 21,
+    "referenceCount": 79
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "791920f41603a99c838a6d6102b45ef237432a94",
+    "title": "SWIX: A Memory-efficient Sliding Window Learned Index",
+    "year": 2024,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Liang Liang",
+        "Guang Yang",
+        "Ali Hadian",
+        "L. Croquevielle",
+        "Thomas Heinis"
+    ],
+    "doi": "10.1145/3639296",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/791920f41603a99c838a6d6102b45ef237432a94",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3639296",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data stream processing systems enable querying over sliding windows of streams of data. Efficient index structures for the streaming window are a crucial building block to enable querying the sliding window for operations such as aggregation and joins. This paper proposes SWIX, a novel memory-efficient learned index for sliding windows. Unlike conventional learned indexes that rely on tree structures to achieve logarithmic query cost, SWIX has a flat structure that uses substantially less memory and enables efficient query execution while having a low cost for index maintenance when inserting (and retraining). SWIX dynamically adapts itself to the real-time distribution shifts of data streams. SWIX outperforms existing indexes in terms of query execution time and memory footprint for workloads characterized by very frequent updates. Our results show that SWIX has a significantly smaller memory footprint than conventional, streaming, and learned indexes, using only 22% to 42% of the size compared to state-of-the-art approaches, yet outperforming them by up 1.2× to 1.6× on average (and up to 52×) in terms of query time, making it a space- and time-efficient method for indexing data streams. For concurrent learned indexes, Parallel SWIX can achieve up to 3.45× throughput with only 34% of memory consumption.",
+    "citationCount": 5,
+    "referenceCount": 45
+}

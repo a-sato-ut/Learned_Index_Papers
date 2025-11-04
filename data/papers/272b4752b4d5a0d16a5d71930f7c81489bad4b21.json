@@ -1,0 +1,32 @@
+{
+    "paperId": "272b4752b4d5a0d16a5d71930f7c81489bad4b21",
+    "title": "Selectivity correction with online machine learning",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Max Halford",
+        "Philippe Saint-Pierre",
+        "F. Morvan"
+    ],
+    "doi": null,
+    "arxivId": "2009.09884",
+    "url": "https://www.semanticscholar.org/paper/272b4752b4d5a0d16a5d71930f7c81489bad4b21",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Computer systems are full of heuristic rules which drive the decisions they make. These rules of thumb are designed to work well on average, but ignore specific information about the available context, and are thus sub-optimal. The emerging field of machine learning for systems attempts to learn decision rules with machine learning algorithms. In the database community, many recent proposals have been made to improve selectivity estimation with batch machine learning methods. Such methods are all batch methods which require retraining and cannot handle concept drift, such as workload changes and schema modifications. We present online machine learning as an alternative approach. Online models learn on the fly and do not require storing data, they are more lightweight than batch models, and finally may adapt to concept drift. As an experiment, we teach models to improve the selectivity estimates made by PostgreSQL's cost model. Our experiments make the case that simple online models are able to compete with a recently proposed deep learning method.",
+    "citationCount": 4,
+    "referenceCount": 44
+}

@@ -1,0 +1,40 @@
+{
+    "paperId": "25f70f9bfb256546e9f3ac994ed1d50d3b48e23e",
+    "title": "Qd-tree: Learning Data Layouts for Big Data Analytics",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Zongheng Yang",
+        "Badrish Chandramouli",
+        "Chi Wang",
+        "J. Gehrke",
+        "Yinan Li",
+        "U. F. Minhas",
+        "P. Larson",
+        "Donald Kossmann",
+        "R. Acharya"
+    ],
+    "doi": "10.1145/3318464.3389770",
+    "arxivId": "2004.10898",
+    "url": "https://www.semanticscholar.org/paper/25f70f9bfb256546e9f3ac994ed1d50d3b48e23e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3318464.3389770",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Corporations today collect data at an unprecedented and accelerating scale, making the need to run queries on large datasets increasingly important. Technologies such as columnar block-based data organization and compression have become standard practice in most commercial database systems. However, the problem of best assigning records to data blocks on storage is still open. For example, today's systems usually partition data by arrival time into row groups, or range/hash partition the data based on selected fields. For a given workload, however, such techniques are unable to optimize for the important metric of the number of blocks accessed by a query. This metric directly relates to the I/O cost, and therefore performance, of most analytical queries. Further, they are unable to exploit additional available storage to drive this metric down further. In this paper, we propose a new framework called a query-data routing tree, or qd-tree, to address this problem, and propose two algorithms for their construction based on greedy and deep reinforcement learning techniques. Experiments over benchmark and real workloads show that a qd-tree can provide physical speedups of more than an order of magnitude compared to current blocking schemes, and can reach within 2X of the lower bound for data skipping based on selectivity, while providing complete semantic descriptions of created blocks.",
+    "citationCount": 105,
+    "referenceCount": 52
+}

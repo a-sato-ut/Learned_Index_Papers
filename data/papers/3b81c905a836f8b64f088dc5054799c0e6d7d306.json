@@ -1,0 +1,39 @@
+{
+    "paperId": "3b81c905a836f8b64f088dc5054799c0e6d7d306",
+    "title": "P4Alex: A Scalable Range Matching Approach for Programmable Switches",
+    "year": 2025,
+    "venue": "ICC 2025 - IEEE International Conference on Communications",
+    "authors": [
+        "Jiashuo Yu",
+        "Longlong Zhu",
+        "Hongyan Liu",
+        "Dong Zhang",
+        "Chunming Wu"
+    ],
+    "doi": "10.1109/ICC52391.2025.11160789",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3b81c905a836f8b64f088dc5054799c0e6d7d306",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Range matching (RM), a flexible primitive for implementing network applications on programmable switches, is often subject to limited TCAM resources. Consequently, existing RM approaches rely on SRAM/ALU-assisted data structures to extend TCAM capacity. However, they consume significant SRAM, ALU, and pipeline stages, which hinders the implementation of other primitives (e.g., basic forwarding). In this paper, we propose P4Alex, a scalable RM framework for programmable switches. The key idea is leveraging emerging learned index structures to support RM, which replaces the storage by model inference for lightweight and fixed index depth. Unfortunately, the learning index structure cannot be directly implemented on programmable switches due to hardware limitations (e.g., floating-point computation and no-loop operations). In response, we design several optimizations in P4Alex to make it deployable. We successfully implemented P4Alex on Intel Tofino switches. Experimental results show that, compared to existing RM approaches, P4Alex extends RM capabilities from tens of thousands to millions. At the same scales, P4Alex reduces TCAM and SRAM resource consumption by up to 89.9% and 43.7%, respectively, while increasing latency by only $0.48 \\mu ~\\mathrm{s}$.",
+    "citationCount": 0,
+    "referenceCount": 26
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "275651532d622b2bafc31abd3d5f1320460bc52b",
+    "title": "Micro-architectural analysis of in-memory OLTP: Revisited",
+    "year": 2016,
+    "venue": "The VLDB journal",
+    "authors": [
+        "Utku Sirin",
+        "Pınar Tözün",
+        "Danica Porobic",
+        "Ahmad Yasin",
+        "A. Ailamaki"
+    ],
+    "doi": "10.1007/s00778-021-00663-8",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/275651532d622b2bafc31abd3d5f1320460bc52b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s00778-021-00663-8.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Micro-architectural behavior of traditional disk-based online transaction processing (OLTP) systems has been investigated extensively over the past couple of decades. Results show that traditional OLTP systems mostly under-utilize the available micro-architectural resources. In-memory OLTP systems, on the other hand, process all the data in main-memory and, therefore, can omit the buffer pool. Furthermore, they usually adopt more lightweight concurrency control mechanisms, cache-conscious data structures, and cleaner codebases since they are usually designed from scratch. Hence, we expect significant differences in micro-architectural behavior when running OLTP on platforms optimized for in-memory processing as opposed to disk-based database systems. In particular, we expect that in-memory systems exploit micro-architectural features such as instruction and data caches significantly better than disk-based systems. This paper sheds light on the micro-architectural behavior of in-memory database systems by analyzing and contrasting it to the behavior of disk-based systems when running OLTP workloads. The results show that, despite all the design changes, in-memory OLTP exhibits very similar micro-architectural behavior to disk-based OLTP: more than half of the execution time goes to memory stalls where instruction cache misses or the long-latency data misses from the last-level cache (LLC) are the dominant factors in the overall execution time. Even though ground-up designed in-memory systems can eliminate the instruction cache misses, the reduction in instruction stalls amplifies the impact of LLC data misses. As a result, only 30% of the CPU cycles are used to retire instructions, and 70% of the CPU cycles are wasted to stalls for both traditional disk-based and new generation in-memory OLTP.",
+    "citationCount": 18,
+    "referenceCount": 66
+}

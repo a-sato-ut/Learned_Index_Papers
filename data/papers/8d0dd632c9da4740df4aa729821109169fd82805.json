@@ -1,0 +1,34 @@
+{
+    "paperId": "8d0dd632c9da4740df4aa729821109169fd82805",
+    "title": "Microlearner: A fine-grained Learning Optimizer for Big Data Workloads at Microsoft",
+    "year": 2021,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Alekh Jindal",
+        "S. Qiao",
+        "Rathijit Sen",
+        "Hiren Patel"
+    ],
+    "doi": "10.1109/ICDE51399.2021.00275",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8d0dd632c9da4740df4aa729821109169fd82805",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Big data systems have become increasingly complex making the job of a query optimizer incredibly difficult. This is due to more complicated decision making, more complex query plans seen, and more tedious objective functions in cloud-based big data workloads. As a result, production cloud query optimizers are often far from optimal. In this paper, we describe building a learning query optimizer for big data workloads at Microsoft. We make four major contributions. First, we describe the challenges in cloud query optimizers based on our observations from the big data workloads at Microsoft. Second, we discuss what makes machine learning an attractive approach to aid the big data query optimizers in decision making. Third, we present Microlearner, a practical approach to characterize large cloud workloads into smaller subsets and build micromodels over each subset to tame the complexity of big data workloads And finally, we describe the productization of Microlearner, using learned cardinality as a concrete example, via performance results over very large production workloads and illustrating the various challenges involved in deployment.",
+    "citationCount": 20,
+    "referenceCount": 25
+}

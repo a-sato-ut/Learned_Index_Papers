@@ -1,0 +1,36 @@
+{
+    "paperId": "df0f7f38d9abed37667ac6bd2a5e2e4688fd3f21",
+    "title": "A \"Learned\" Approach to Quicken and Compress Rank/Select Dictionaries",
+    "year": 2021,
+    "venue": "Workshop on Algorithm Engineering and Experimentation",
+    "authors": [
+        "Antonio Boffa",
+        "P. Ferragina",
+        "Giorgio Vinciguerra"
+    ],
+    "doi": "10.1137/1.9781611976472.4",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/df0f7f38d9abed37667ac6bd2a5e2e4688fd3f21",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://epubs.siam.org/doi/pdf/10.1137/1.9781611976472.4",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We address the well-known problem of designing, implementing and experimenting compressed data structures for supporting rank and select queries over a dictionary of integers. This problem has been studied far and wide since the end of the ‘80s with tons of important theoretical and practical results. Following a recent line of research on the so-called learned data structures, we ﬁrst show that this problem has a surprising connection with the geometry of a set of points in the Cartesian plane suitably derived from the input integers. We then build upon some classical results in computational geometry to introduce the ﬁrst “learned” scheme for implementing a compressed rank/select dictionary. We prove theoretical bounds on its time and space performance both in the worst case and in the case of input distributions with ﬁnite mean and variance. We corroborate these theoretical results with a large set of experiments over datasets originating from a variety of sources and applications (Web, DNA sequencing, information retrieval and natural language processing), and we show that a carefully engineered version of our approach provides new interesting space-time trade-oﬀs with respect to several well-established implementations of Elias-Fano, RRR-vector, and random-access vectors of Elias γ / δ -coded gaps.",
+    "citationCount": 22,
+    "referenceCount": 62
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "a77da8b279b99969a632766d08384fd459a0152d",
+    "title": "BMTree: Designing, Learning, and Updating Piecewise Space-Filling Curves for Multi-Dimensional Data Indexing",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jiangneng Li",
+        "Yuang Liu",
+        "Zheng Wang",
+        "Gao Cong",
+        "Cheng Long",
+        "W. Aref",
+        "Han Mao Kiah",
+        "Bin Cui"
+    ],
+    "doi": "10.48550/arXiv.2505.01697",
+    "arxivId": "2505.01697",
+    "url": "https://www.semanticscholar.org/paper/a77da8b279b99969a632766d08384fd459a0152d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Space-filling curves (SFC, for short) have been widely applied to index multi-dimensional data, which first maps the data to one dimension, and then a one-dimensional indexing method, e.g., the B-tree indexes the mapped data. Existing SFCs adopt a single mapping scheme for the whole data space. However, a single mapping scheme often does not perform well on all the data space. In this paper, we propose a new type of SFC called piecewise SFCs that adopts different mapping schemes for different data subspaces. Specifically, we propose a data structure termed the Bit Merging tree (BMTree) that can generate data subspaces and their SFCs simultaneously, and achieve desirable properties of the SFC for the whole data space. Furthermore, we develop a reinforcement learning-based solution to build the BMTree, aiming to achieve excellent query performance. To update the BMTree efficiently when the distributions of data and/or queries change, we develop a new mechanism that achieves fast detection of distribution shifts in data and queries, and enables partial retraining of the BMTree. The retraining mechanism achieves performance enhancement efficiently since it avoids retraining the BMTree from scratch. Extensive experiments show the effectiveness and efficiency of the BMTree with the proposed learning-based methods.",
+    "citationCount": 0,
+    "referenceCount": 53
+}

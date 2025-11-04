@@ -1,0 +1,37 @@
+{
+    "paperId": "33b18e0478f95ff84d295963448449f23d5d9227",
+    "title": "Fast Linear Interpolation",
+    "year": 2021,
+    "venue": "ACM Journal on Emerging Technologies in Computing Systems",
+    "authors": [
+        "Nathan Zhang",
+        "K. Canini",
+        "S. Silva",
+        "M. Gupta"
+    ],
+    "doi": "10.1145/3423184",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/33b18e0478f95ff84d295963448449f23d5d9227",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1145/3423184",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present fast implementations of linear interpolation operators for piecewise linear functions and multi-dimensional look-up tables. These operators are common for efficient transformations in image processing and are the core operations needed for lattice models like deep lattice networks, a popular machine learning function class for interpretable, shape-constrained machine learning. We present new strategies for an efficient compiler-based solution using MLIR to accelerate linear interpolation. For real-world machine-learned multi-layer lattice models that use multidimensional linear interpolation, we show these strategies run 5-10× faster on a standard CPU compared to an optimized C++ interpreter implementation.",
+    "citationCount": 23,
+    "referenceCount": 36
+}

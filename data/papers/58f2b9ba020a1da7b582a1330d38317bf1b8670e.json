@@ -1,0 +1,35 @@
+{
+    "paperId": "58f2b9ba020a1da7b582a1330d38317bf1b8670e",
+    "title": "FeCBF: A Novel Sub-Optimal Cascaded Bloom Filter Structure Based on Feature Extraction",
+    "year": 2024,
+    "venue": "IEEE Access",
+    "authors": [
+        "Quang-Manh Duong",
+        "Khoa-Sang Nguyen",
+        "Hai-Duong Nguyen",
+        "Xuan-Uoc Dao",
+        "Anh-Tuan do",
+        "Quang-Kien Trinh"
+    ],
+    "doi": "10.1109/ACCESS.2024.3399062",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/58f2b9ba020a1da7b582a1330d38317bf1b8670e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10526248.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This work presents the Feature extraction Cascaded Bloom Filter (FeCBF), a novel probabilistic data structure formed by cascading multiple Bloom filters in an optimum sequence. The FeCBF’s distinctive design of alternating positive and negative filter layers effectively suppresses False Positive/Negative Rates (FPR/FNR), enabling exact filtering with reasonable resource cost. Compared to other state-of-the-art designs on the same experimental dataset, FeCBF demonstrates significant memory space savings of 45% to 76% while maintaining the best FPR in its class. The proposed model also includes a closed-form expression for determining the sub-optimal FeCBF configuration based on desired filter performance metrics, offering the potential for automatic design flow. The FeCBF architecture, designed for hardware implementation, holds promise for many applications. It can be readily deployed as an accelerator in various computing problems, including massive content filtering, network traffic filtering, and online malware/virus detection.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

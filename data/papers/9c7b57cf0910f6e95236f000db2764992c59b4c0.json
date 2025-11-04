@@ -1,0 +1,37 @@
+{
+    "paperId": "9c7b57cf0910f6e95236f000db2764992c59b4c0",
+    "title": "BitTuner: A Toolbox for Automatically Configuring Learned Data Compressors",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Qiyu Liu",
+        "Yuxin Luo",
+        "Mengke Cui",
+        "Siyuan Han",
+        "Jingshu Peng",
+        "Jin Li",
+        "Lei Chen"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00349",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9c7b57cf0910f6e95236f000db2764992c59b4c0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Compressing sorted keys is a fundamental operation in data management and information retrieval. Inspired by the success of learned index, recent studies apply simple ML models to compress large-scale sorted keys, leading to the concept of learned compressor. Intuitively, learned compressors losslessly encode sorted keys by approximating them with an error-bounded ML model (e.g., a piecewise linear function) and a residual array to ensure lossless key restoration. However, determining the optimal configuration of underlying ML models to maximize compression efficacy is nontrivial. To address this, by analyzing the distribution characteristics of input keys, we propose BitTuner, a novel framework that automatically sets model hyper-parameters to provably achieve the best compression ratio. We demonstrate BitTuner on two real-world scenarios: inverted list compression and vectorDB codebook compression. The results show that BitTuner automates the parameter tuning procedure and achieves superior compression efficacy when compared to generic compressors such as LZ4 and LZMA.",
+    "citationCount": 3,
+    "referenceCount": 11
+}

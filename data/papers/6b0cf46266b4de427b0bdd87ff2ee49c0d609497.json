@@ -1,0 +1,39 @@
+{
+    "paperId": "6b0cf46266b4de427b0bdd87ff2ee49c0d609497",
+    "title": "APB-tree: An Adaptive Pre-built Tree Indexing Scheme for NVM-based IoT Systems",
+    "year": 2024,
+    "venue": "ACM Transactions on Embedded Computing Systems",
+    "authors": [
+        "Shih-Wen Hsu",
+        "Yen-Ting Chen",
+        "Kam-Yiu Lam",
+        "Yuan-Hao Chang",
+        "W. Shih",
+        "Han-Chieh Chao"
+    ],
+    "doi": "10.1145/3677179",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6b0cf46266b4de427b0bdd87ff2ee49c0d609497",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3677179",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the proliferation of sensors and the emergence of novel applications, IoT data has grown exponentially in recent years. Given this trend, efficient data management is crucial for a system to easily access vast amounts of information. For decades, B+-tree-based indexing schemes have been widely adopted for providing effective search in IoT systems. However, in systems with pre-distributed sensors, B+-tree-based indexes fail to optimally utilize the known IoT data distribution, leading to significant write overhead and energy consumption. Furthermore, as non-volatile memory (NVM) technology emerges as the alternative storage medium, the inherent write asymmetry of NVM leads to instability issues in IoT systems, especially for write-intensive applications. In this research, by considering the write overheads of tree-based indexing schemes and key-range distribution assumption, we rethink the design of the tree-based indexing schemes and propose an adaptive pre-built tree (APB-tree) indexing scheme to reduce the write overhead in serving insertion and deletion of keys in the NVM-based IoT system. The APB-tree profiles the hot region of the key distribution from the known key range to pre-allocate the index structure that alleviates online index management costs and runtime index overhead. Meanwhile, the APB-tree maintains the scalability of a tree-based index structure to accommodate the large amount of new data brought by the additional nodes to the IoT system. Extensive experiments demonstrate that our solution achieves significant performance improvements in write operations while maintaining effective energy consumption in the NVM-based IoT system. We compare the energy and time required for basic key operations such as Put(), Get(), and Delete() in APB-trees and B+-tree-based indexing schemes. Under workloads with varying ratios of these operations, the proposed design effectively reduces execution time by 47% to 72% and energy consumption by 11% to 72% compared to B+-tree-based indexing schemes.",
+    "citationCount": 0,
+    "referenceCount": 42
+}

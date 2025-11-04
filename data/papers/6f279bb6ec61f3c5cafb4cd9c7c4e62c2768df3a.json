@@ -1,0 +1,33 @@
+{
+    "paperId": "6f279bb6ec61f3c5cafb4cd9c7c4e62c2768df3a",
+    "title": "Meta-Sketch: A Neural Data Structure for Estimating Item Frequencies of Data Streams",
+    "year": 2023,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Yukun Cao",
+        "Yuan Feng",
+        "Xike Xie"
+    ],
+    "doi": "10.1609/aaai.v37i6.25846",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6f279bb6ec61f3c5cafb4cd9c7c4e62c2768df3a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/25846/25618",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "To estimate item frequencies of data streams with limited space, sketches are widely used in real applications, including real-time web analytics, network monitoring, and self-driving. Sketches can be viewed as a model which maps the identifier of a stream item to the corresponding frequency domain. Starting from the premise, we envision a neural data structure, which we term the meta-sketch, to go beyond the basic structure of conventional sketches. The meta-sketch learns basic sketching abilities from meta-tasks constituted with synthetic datasets following Zipf distributions in the pre-training phase, and can be fast adapted to real (skewed) distributions in the adaption phase. Extensive experiments demonstrate the performance gains of the meta-sketch and offer insights into our proposals.",
+    "citationCount": 12,
+    "referenceCount": 39
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "e31288cc06ee057ac26ef07e2904e5fdbb920982",
+    "title": "Seesaw Counting Filter: A Dynamic Filtering Framework for Vulnerable Negative Keys",
+    "year": 2023,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Meng Li",
+        "Deyi Chen",
+        "Haipeng Dai",
+        "Rongbiao Xie",
+        "Siqiang Luo",
+        "Rong Gu",
+        "Tong Yang",
+        "Guihai ChenFellow"
+    ],
+    "doi": "10.1109/TKDE.2023.3273709",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e31288cc06ee057ac26ef07e2904e5fdbb920982",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Bloom filter is an efficient data structure for filtering negative keys (keys not in a given set) with substantially small space. However, in real-world applications, there widely exist vulnerable negative keys, which will bring high costs if not being properly filtered, especially when positive keys are added/deleted dynamically. Such problem gets more severe when keys within one set are dynamically added or deleted. Recently, there are works focusing on handling such (vulnerable) negative keys by incorporating learning techniques. These learning-based filters fail to work as the learning techniques can hardly handle incremental insertions or deletions. To address the problem, we propose <underline>S</underline>ee<underline>S</underline>aw <underline>C</underline>ounting <underline>F</underline>ilter (SSCF), which is innovated with encapsulating the vulnerable negative keys into a unified counter array named seesaw counter array, and dynamically modulating (or varying) the applied hash functions to guard the encapsulated keys from being misidentified. Moreover, we design ada-SSCF to handle the scenarios where the vulnerable negative keys cannot be obtained in advance. We extensively evaluate our SSCF, which shows that SSCF outperforms the cutting-edge filters by <inline-formula><tex-math notation=\"LaTeX\">$3\\times$</tex-math><alternatives><mml:math><mml:mrow><mml:mn>3</mml:mn><mml:mo>×</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href=\"li-ieq1-3273709.gif\"/></alternatives></inline-formula> on averages regarding accuracy while ensuring a low operation latency. All source codes are in (SSCF-authors).",
+    "citationCount": 2,
+    "referenceCount": 31
+}

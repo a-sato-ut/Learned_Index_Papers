@@ -1,0 +1,33 @@
+{
+    "paperId": "fece6afcbdb303fb526e707ff1b97c6e7afb16d1",
+    "title": "PG2S+: Stack Distance Construction Using Popularity, Gap and Machine Learning",
+    "year": 2020,
+    "venue": "The Web Conference",
+    "authors": [
+        "Jiangwei Zhang",
+        "Y. Tay"
+    ],
+    "doi": "10.1145/3366423.3380176",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fece6afcbdb303fb526e707ff1b97c6e7afb16d1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Stack distance characterizes temporal locality of workloads and plays a vital role in cache analysis since the 1970s. However, exact stack distance calculation is too costly, and impractical for online use. Hence, much work was done to optimize the exact computation, or approximate it through sampling or modeling. This paper introduces a new approximation technique PG2S that is based on reference popularity and gap distance. This approximation is exact under the Independent Reference Model (IRM). The technique is further extended, using machine learning, to PG2S+ for non-IRM reference patterns. Extensive experiments show that PG2S+ is much more accurate and robust than other state-of-the-art algorithms for determining stack distance. PG2S+ is the first technique to exploit the strong correlation among reference popularity, gap distance and stack distance.",
+    "citationCount": 5,
+    "referenceCount": 37
+}

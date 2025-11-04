@@ -1,0 +1,34 @@
+{
+    "paperId": "9b61b15f61962973cc8302b3f2ce9e8bfbe0cfa4",
+    "title": "EffiMatch: Enabling Fast and Accurate Learning-based Packet Classification",
+    "year": 2025,
+    "venue": "IEEE International Conference on Network Protocols",
+    "authors": [
+        "Lida Liao",
+        "Yuhan Wu",
+        "Jiashuo Yu",
+        "Longlong Zhu",
+        "Hongyan Liu",
+        "Junjie Lin",
+        "Dong Zhang",
+        "Xiang Chen",
+        "Chunming Wu"
+    ],
+    "doi": "10.1109/ICNP65844.2025.11192436",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9b61b15f61962973cc8302b3f2ce9e8bfbe0cfa4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning-based Packet Classification methods reduce memory overhead by using lightweight Recursive Model Index(RMI) structures to limit the search range, followed by linear matching. However, they face a trade-off: complex RMI structures achieve smaller search ranges but slow down lookup, while simpler ones are faster but require larger scans. In this paper, we propose EffiMatch, a parallel multi-model lookup architecture aimed at resolving the trade-off between RMI complexity and linear search range in learning-based index systems. We propose two key designs: 1) We design a partitioning strategy called Distribution-Distance Partitioning (DDP), which groups data points with similar trends into the same segment. Combined with parallel lookup, this reduces the linear search range while maintaining high lookup speed. 2) We propose a more fine-grained binarization method, Base-Index Representation (BI), which approximates floating-point operations using integers. This method further reduces the search range without increasing model complexity. Experimental results show that EffiMatch reduces the linear search range by 26.84% using lower-complexity RMI models, which improves lookup speed by up to 6× and reduces construction time by up to 4 orders of magnitude compared to state-of-the-art LPC methods.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "ca685eaf2631abfeeb9d81590a4be7e0fc93daad",
+    "title": "DBTable: Leveraging Discriminative Bitsets for High-Performance Packet Classification",
+    "year": 2024,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "Zhengyu Liao",
+        "Shiyou Qian",
+        "Zhonglong Zheng",
+        "Jiange Zhang",
+        "Jian Cao",
+        "Guangtao Xue",
+        "Minglu Li"
+    ],
+    "doi": "10.1109/TNET.2024.3452780",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ca685eaf2631abfeeb9d81590a4be7e0fc93daad",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Packet classification, as a crucial function of networks, has been extensively investigated. In recent years, the rapid advancement of software-defined networking (SDN) has introduced new demands for packet classification, particularly in supporting dynamic rule updates and fast lookup. This paper presents a novel structure called DBTable for efficient packet classification to achieve high overall performance. DBTable integrates the strengths of conventional packet classification methods and neural network concepts. Within DBTable, a straightforward indexing scheme is proposed to eliminate rule replication, thereby ensuring high update performance. Additionally, we propose an iterative method for generating a discriminative bitset (DBS) to evenly partition rules. By utilizing the DBS, rules can be efficiently mapped in a hash table, thus achieving exceptional lookup performance. Moreover, DBTable incorporates a hybrid structure to further optimize the worst-case lookup performance, primarily caused by data skewness. The experiment results on 12 256k rulesets show that, compared to seven state-of-the-art schemes, DBTable achieves an overall lookup speed improvement ranging from 1.53x to 7.29x, while maintaining the fastest update speed.",
+    "citationCount": 3,
+    "referenceCount": 54
+}

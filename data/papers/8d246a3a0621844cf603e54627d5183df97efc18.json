@@ -1,0 +1,42 @@
+{
+    "paperId": "8d246a3a0621844cf603e54627d5183df97efc18",
+    "title": "Monotonic Cardinality Estimation of Similarity Selection: A Deep Learning Approach",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Yaoshu Wang",
+        "Chuan Xiao",
+        "Jianbin Qin",
+        "Xin Cao",
+        "Yifang Sun",
+        "Wei Wang",
+        "Makoto Onizuka"
+    ],
+    "doi": "10.1145/3318464.3380570",
+    "arxivId": "2002.06442",
+    "url": "https://www.semanticscholar.org/paper/8d246a3a0621844cf603e54627d5183df97efc18",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3318464.3380570",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we investigate the possibilities of utilizing deep learning for cardinality estimation of similarity selection. Answering this problem accurately and efficiently is essential to many data management applications, especially for query optimization. Moreover, in some applications the estimated cardinality is supposed to be consistent and interpretable. Hence a monotonic estimation w.r.t. the query threshold is preferred. We propose a novel and generic method that can be applied to any data type and distance function. Our method consists of a feature extraction model and a regression model. The feature extraction model transforms original data and threshold to a Hamming space, in which a deep learning-based regression model is utilized to exploit the incremental property of cardinality w.r.t. the threshold for both accuracy and monotonicity. We develop a training strategy tailored to our model as well as techniques for fast estimation. We also discuss how to handle updates. We demonstrate the accuracy and the efficiency of our method through experiments, and show how it improves the performance of a query optimizer.",
+    "citationCount": 26,
+    "referenceCount": 76
+}

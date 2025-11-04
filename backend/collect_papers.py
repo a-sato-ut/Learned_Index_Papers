@@ -50,7 +50,8 @@ def list_citing_paper_ids_if_not_exists(pid: str):
     filepath = CITATION_FOLDER / f"{pid}.json"
     if filepath.exists():
         with open(filepath, "r", encoding="utf-8") as f:
-            return json.load(f)
+            data = json.load(f)
+            return data["citationPaperIds"]
     citing_ids = list_citing_paper_ids(pid, per_page=100)
     save_citing_paper_ids(pid, citing_ids)
     return citing_ids
@@ -59,19 +60,19 @@ def list_citing_paper_ids_if_not_exists(pid: str):
 def collect_citing_paper_metadata_list(pid: str, verbose: bool = False):
     # この論文を引用している論文たちのメタ情報を収集
     metadata_list = []
-    citing_datas = list_citing_paper_ids_if_not_exists(pid)
+    citing_ids = list_citing_paper_ids_if_not_exists(pid)
     if verbose:
-        print(f"[INFO] Collecting {len(citing_datas)} citing paper metadata ({pid})")
-    for citing_id in tqdm(citing_datas["citationPaperIds"], disable=not verbose):
+        print(f"[INFO] Collecting {len(citing_ids)} citing paper metadata ({pid})")
+    for citing_id in tqdm(citing_ids, disable=not verbose):
         metadata_list.append(get_paper_metadata_if_not_exists(citing_id))
     return metadata_list
 
 
 if __name__ == "__main__":
-    # base_title = "The case for learned index structures"
-    # base_year = 2017
-    base_title = "Partitioned Learned Bloom Filter"
-    base_year = 2020
+    base_title = "The case for learned index structures"
+    base_year = 2017
+    # base_title = "Partitioned Learned Bloom Filter"
+    # base_year = 2020
 
     # 1. base paperのメタ情報を収集し保存
     base_pid = get_paper_id_by_title(base_title, year=base_year)

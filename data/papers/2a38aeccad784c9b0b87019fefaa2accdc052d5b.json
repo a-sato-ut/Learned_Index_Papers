@@ -1,0 +1,34 @@
+{
+    "paperId": "2a38aeccad784c9b0b87019fefaa2accdc052d5b",
+    "title": "Learning State Representations for Query Optimization with Deep Reinforcement Learning",
+    "year": 2018,
+    "venue": "DEEM@SIGMOD",
+    "authors": [
+        "Jennifer Ortiz",
+        "M. Balazinska",
+        "J. Gehrke",
+        "S. S. Keerthi"
+    ],
+    "doi": "10.1145/3209889.3209890",
+    "arxivId": "1803.08604",
+    "url": "https://www.semanticscholar.org/paper/2a38aeccad784c9b0b87019fefaa2accdc052d5b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3209889.3209890",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We explore the idea of using deep reinforcement learning for query optimization. The approach is to build queries incrementally by encoding properties of subqueries using a learned representation. In this paper, we focus specifically on the state representation problem and the formation of the state transition function. We show preliminary results and discuss how we can use the state representation to improve query optimization using reinforcement learning.",
+    "citationCount": 164,
+    "referenceCount": 20
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "0fe6fcfbb5f090e0b8a5c5e8fce6d991bef0159e",
+    "title": "A Robust Optimisation Perspective on Counterexample-Guided Repair of Neural Networks",
+    "year": 2023,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "David Boetius",
+        "S. Leue",
+        "Tobias Sutter"
+    ],
+    "doi": "10.48550/arXiv.2301.11342",
+    "arxivId": "2301.11342",
+    "url": "https://www.semanticscholar.org/paper/0fe6fcfbb5f090e0b8a5c5e8fce6d991bef0159e",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2301.11342",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Counterexample-guided repair aims at creating neural networks with mathematical safety guarantees, facilitating the application of neural networks in safety-critical domains. However, whether counterexample-guided repair is guaranteed to terminate remains an open question. We approach this question by showing that counterexample-guided repair can be viewed as a robust optimisation algorithm. While termination guarantees for neural network repair itself remain beyond our reach, we prove termination for more restrained machine learning models and disprove termination in a general setting. We empirically study the practical implications of our theoretical results, demonstrating the suitability of common verifiers and falsifiers for repair despite a disadvantageous theoretical result. Additionally, we use our theoretical insights to devise a novel algorithm for repairing linear regression models based on quadratic programming, surpassing existing approaches.",
+    "citationCount": 4,
+    "referenceCount": 88
+}

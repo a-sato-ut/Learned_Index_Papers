@@ -1,0 +1,34 @@
+{
+    "paperId": "1abe63c2305af996ea35312f36322286f1fac080",
+    "title": "Learned Index for Spatial Queries",
+    "year": 2019,
+    "venue": "International Conference on Mobile Data Management",
+    "authors": [
+        "Haixin Wang",
+        "Xiaoyi Fu",
+        "Jianliang Xu",
+        "Hua Lu"
+    ],
+    "doi": "10.1109/MDM.2019.00121",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1abe63c2305af996ea35312f36322286f1fac080",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the pervasiveness of location-based services (LBS), spatial data processing has received considerable attention in the research of database system management. Among various spatial query techniques, index structures play a key role in data access and query processing. However, existing spatial index structures (e.g., R-tree) mainly focus on partitioning data space or data objects. In this paper, we explore the potential to construct the spatial index structure by learning the distribution of the data. We design a new data-driven spatial index structure, namely learned Z-order Model (ZM) index, which combines the Z-order space filling curve and the staged learning model. Experimental results on both real and synthetic datasets show that our learned index significantly reduces the memory cost and performs more efficiently than R-tree in most scenarios.",
+    "citationCount": 86,
+    "referenceCount": 24
+}

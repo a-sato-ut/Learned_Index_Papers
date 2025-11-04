@@ -1,0 +1,35 @@
+{
+    "paperId": "ee2812c7569e287ec8aa4eb6801a18e740960f35",
+    "title": "Bipartite Graph Convolutional Hashing for Effective and Efficient Top-N Search in Hamming Space",
+    "year": 2023,
+    "venue": "The Web Conference",
+    "authors": [
+        "Yankai Chen",
+        "Yixiang Fang",
+        "Yifei Zhang",
+        "Irwin King"
+    ],
+    "doi": "10.1145/3543507.3583219",
+    "arxivId": "2304.00241",
+    "url": "https://www.semanticscholar.org/paper/ee2812c7569e287ec8aa4eb6801a18e740960f35",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2304.00241",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Searching on bipartite graphs is basal and versatile to many real-world Web applications, e.g., online recommendation, database retrieval, and query-document searching. Given a query node, the conventional approaches rely on the similarity matching with the vectorized node embeddings in the continuous Euclidean space. To efficiently manage intensive similarity computation, developing hashing techniques for graph-structured data has recently become an emerging research direction. Despite the retrieval efficiency in Hamming space, prior work is however confronted with catastrophic performance decay. In this work, we investigate the problem of hashing with Graph Convolutional Network on bipartite graphs for effective Top-N search. We propose an end-to-end Bipartite Graph Convolutional Hashing approach, namely BGCH, which consists of three novel and effective modules: (1) adaptive graph convolutional hashing, (2) latent feature dispersion, and (3) Fourier serialized gradient estimation. Specifically, the former two modules achieve the substantial retention of the structural information against the inevitable information loss in hash encoding; the last module develops Fourier Series decomposition to the hashing function in the frequency domain mainly for more accurate gradient estimation. The extensive experiments on six real-world datasets not only show the performance superiority over the competing hashing-based counterparts, but also demonstrate the effectiveness of all proposed model components contained therein.",
+    "citationCount": 27,
+    "referenceCount": 72
+}

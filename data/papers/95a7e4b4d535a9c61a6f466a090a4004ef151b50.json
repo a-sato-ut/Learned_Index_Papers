@@ -1,0 +1,33 @@
+{
+    "paperId": "95a7e4b4d535a9c61a6f466a090a4004ef151b50",
+    "title": "Machine Learning for Data Management: A System View",
+    "year": 2022,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Guoliang Li",
+        "Xuanhe Zhou"
+    ],
+    "doi": "10.1109/icde53745.2022.00297",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/95a7e4b4d535a9c61a6f466a090a4004ef151b50",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning techniques have been proposed to optimize data management in recent years. Compared with traditional empirical data management, learning-based methods extract knowledge from historical tasks, generalize the extracted knowledge to similar new tasks, and can achieve better performance in many scenarios (e.g., knob tuning, cardinality estimation). However, data management systems require to handle various and dynamic workloads in different scenarios, and there are some challenges in applying machine learning techniques for data management systems. First, with various workloads and hundreds of system metrics, how to select and characterize effective features for data management problems? Second, with diversified machine learning models, how to design the proper models? Third, with various data management requirements, how to validate whether the machine learning models can meet the requirements? In this tutorial, we discuss existing learning-based data management studies and how they solve the above challenges, and provide some future research directions.",
+    "citationCount": 13,
+    "referenceCount": 57
+}

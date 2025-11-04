@@ -1,0 +1,33 @@
+{
+    "paperId": "f74d97489141beb2e1c3bb9b6c787d5e1d639233",
+    "title": "SuRF: Identification of Interesting Data Regions with Surrogate Models",
+    "year": 2020,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Fotis Savva",
+        "C. Anagnostopoulos",
+        "P. Triantafillou"
+    ],
+    "doi": "10.1109/ICDE48307.2020.00118",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f74d97489141beb2e1c3bb9b6c787d5e1d639233",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://eprints.gla.ac.uk/209812/7/209812.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Several data mining tasks focus on repeatedly inspecting multidimensional data regions summarized by a statistic. The value of this statistic (e.g., region-population sizes, order moments) is used to classify the region’s interesting-ness. These regions can be naively extracted from the entire dataspace – however, this is extremely time-consuming and compute-resource demanding. This paper studies the reverse problem: analysts provide a cut-off value for a statistic of interest and in turn our proposed framework efficiently identifies multidimensional regions whose statistic exceeds (or is below) the given cut-off value (according to user’s needs). However, as data dimensions and size increase, such task inevitably becomes laborious and costly. To alleviate this cost, our solution, coined SuRF (SUrrogate Region Finder), leverages historical region evaluations to train surrogate models that learn to approximate the distribution of the statistic of interest. It then makes use of evolutionary multi-modal optimization to effectively and efficiently identify regions of interest regardless of data size and dimensionality. The accuracy, efficiency, and scalability of our approach are demonstrated with experiments using synthetic and real-world datasets and compared with other methods.",
+    "citationCount": 3,
+    "referenceCount": 31
+}

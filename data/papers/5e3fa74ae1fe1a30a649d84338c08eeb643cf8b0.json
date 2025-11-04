@@ -1,0 +1,39 @@
+{
+    "paperId": "5e3fa74ae1fe1a30a649d84338c08eeb643cf8b0",
+    "title": "LIFT: Reinforcement Learning in Computer Systems by Learning From Demonstrations",
+    "year": 2018,
+    "venue": "arXiv.org",
+    "authors": [
+        "Michael Schaarschmidt",
+        "A. Kuhnle",
+        "Ben Ellis",
+        "Kai Fricke",
+        "Felix Gessert",
+        "Eiko Yoneki"
+    ],
+    "doi": null,
+    "arxivId": "1808.07903",
+    "url": "https://www.semanticscholar.org/paper/5e3fa74ae1fe1a30a649d84338c08eeb643cf8b0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Reinforcement learning approaches have long appealed to the data management community due to their ability to learn to control dynamic behavior from raw system performance. Recent successes in combining deep neural networks with reinforcement learning have sparked significant new interest in this domain. However, practical solutions remain elusive due to large training data requirements, algorithmic instability, and lack of standard tools. In this work, we introduce LIFT, an end-to-end software stack for applying deep reinforcement learning to data management tasks. While prior work has frequently explored applications in simulations, LIFT centers on utilizing human expertise to learn from demonstrations, thus lowering online training times. We further introduce TensorForce, a TensorFlow library for applied deep reinforcement learning exposing a unified declarative interface to common RL algorithms, thus providing a backend to LIFT. We demonstrate the utility of LIFT in two case studies in database compound indexing and resource management in stream processing. Results show LIFT controllers initialized from demonstrations can outperform human baselines and heuristics across latency metrics and space usage by up to 70%.",
+    "citationCount": 41,
+    "referenceCount": 77
+}

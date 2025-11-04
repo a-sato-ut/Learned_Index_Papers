@@ -1,0 +1,42 @@
+{
+    "paperId": "69a1a63522c141124dd6f1e114ca5aa334299ebb",
+    "title": "A Highly Efficient Cross-matching Scheme using Learned Index Structure",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Phu-Minh Lam",
+        "Dongwei Fan",
+        "Hongbo Wei",
+        "Jun Wang",
+        "Yu Zhou",
+        "Qi Ma",
+        "Baolong Zhang",
+        "Xiazhao Zhang",
+        "Yongheng Wang"
+    ],
+    "doi": null,
+    "arxivId": "2504.10931",
+    "url": "https://www.semanticscholar.org/paper/69a1a63522c141124dd6f1e114ca5aa334299ebb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Spatial data fusion is a bottleneck when it meets the scale of 10 billion records. Cross-matching celestial catalogs is just one example of this. To challenge this, we present a framework that enables efficient cross-matching using Learned Index Structures. Our approach involves a data transformation method to map multi-dimensional data into easily learnable distributions, coupled with a novel search algorithm that leverages the advantages of model pairs, significantly enhancing the efficiency of nearest-neighbor search. In this study, we utilized celestial catalog data derived from astronomical surveys to construct the index and evaluated the speed of the cross-matching process. Using the HEALPix segmentation scheme, we built an independent model object for each tile and developed an end-to-end pipeline to construct a framework with semantic guarantees for record retrieval in query and range search. Our results show that the proposed method improves cross-matching speed by more than four times compared to KD-trees for a radius range between 1 milli-arcseconds and 100 arcseconds.",
+    "citationCount": 0,
+    "referenceCount": 13
+}

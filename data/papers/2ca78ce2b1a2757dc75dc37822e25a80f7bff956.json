@@ -1,0 +1,42 @@
+{
+    "paperId": "2ca78ce2b1a2757dc75dc37822e25a80f7bff956",
+    "title": "Work-in-Progress: Lark: A Learned Secondary Index Toward LSM-tree for Resource-Constrained Embedded Storage Systems",
+    "year": 2022,
+    "venue": "International Conference on Hardware/Software Codesign and System Synthesis",
+    "authors": [
+        "Jianan Yuan",
+        "Huan Liu",
+        "Shangyu Wu",
+        "Yi-Chien Lin",
+        "Tiantian Wang",
+        "Chenlin Ma",
+        "Rui Mao",
+        "Yi Wang"
+    ],
+    "doi": "10.1109/CODES-ISSS55005.2022.00012",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2ca78ce2b1a2757dc75dc37822e25a80f7bff956",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LSM-tree-based key-value stores are popular in embedded storage systems. With the growing demands of data analysis, the secondary index is created to support non-primary-key lookups. However, the lookup efficiency and space consumption of secondary index remain for further optimization. Inspired by the learned index, this paper presents Lark, a learned secondary index toward LSM-tree for resource-constrained embedded storage systems. Lark employs machine learning to speed up the non-primary-key queries and compress secondary indexes. Our preliminary evaluations show that, in comparison with traditional secondary index schemes, Lark achieves better lookup performance with less space consumption.",
+    "citationCount": 2,
+    "referenceCount": 4
+}

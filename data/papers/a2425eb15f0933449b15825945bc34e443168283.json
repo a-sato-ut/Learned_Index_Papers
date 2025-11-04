@@ -1,0 +1,32 @@
+{
+    "paperId": "a2425eb15f0933449b15825945bc34e443168283",
+    "title": "Approximate Nearest Neighbor Query Processing on High Dimensional Data with a Learned Index",
+    "year": 2025,
+    "venue": "IEEE International Conference on Consumer Electronics",
+    "authors": [
+        "Pin-Rui Chen",
+        "Chuan-Ming Liu"
+    ],
+    "doi": "10.1109/ICCE63647.2025.10930213",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a2425eb15f0933449b15825945bc34e443168283",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "High-dimensional data nearest neighbor search can be applied to tasks such as audio-visual-text classification, similarity search, recommendation systems, and more. Due to the curse of dimensionality, traditional spatial indexing methods tend to exhibit linear or worse query performance as data dimensionality increases. As a result, ANN(Approximate Nearest Neighbor) search, which strikes a balance between accuracy and performance, has become an alternative for handling high-dimensional data. In recent years, using machine learning models to predict results instead of relying on traditional index-based query results has emerged as a feasible approach, sacrificing some accuracy in exchange for faster query times and significantly reduced storage space. This research proposes a learned index based on data partitioning, using a Vision Transformer model to predict the partition where the data resides. It also utilizes batch queries to enhance the parallelization advantage of the model and compares the two-stage query performance on both GPU and CPU.",
+    "citationCount": 0,
+    "referenceCount": 11
+}

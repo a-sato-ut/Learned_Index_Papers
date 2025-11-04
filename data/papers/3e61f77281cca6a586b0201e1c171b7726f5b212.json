@@ -1,0 +1,37 @@
+{
+    "paperId": "3e61f77281cca6a586b0201e1c171b7726f5b212",
+    "title": "Dynamic trajectory index method based on large-scale real-time trajectory data",
+    "year": 2025,
+    "venue": "PeerJ Computer Science",
+    "authors": [
+        "Huawei Zhai",
+        "Licheng Cui",
+        "Kemal Polat",
+        "Fayadh S. Alenezi"
+    ],
+    "doi": "10.7717/peerj-cs.2785",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3e61f77281cca6a586b0201e1c171b7726f5b212",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Constructing a trajectory index can efficiently improve the performances of trajectory data processing, provide basic supports for trajectory data mining. With the constantly growing of trajectory data scale and increasing demands for trajectory retrieval efficiency and accuracy, the indexing methods have become more and more crucial. The indexing method faces significant challenges in terms of spatiotemporal trajectory locality, imbalanced trajectory distribution and low trajectory data value density. To address these, we proposed an indexing method based on large-scale real-time trajectory data, it extends the vertical storage mode of HBase, designs the core index, and optimizes the design of the row key, refines the data retrieval process and provides specific mappings for each independent part of the dataset. Besides, it designs the primary index, implements a dynamic indexing mechanism, dynamically load relevant index based on query strategies to flexibly meet the complex query requirements. Comparative experiments demonstrate that the proposed index method is superior in range retrievals and trajectory retrievals, the responding speed is faster.",
+    "citationCount": 0,
+    "referenceCount": 37
+}

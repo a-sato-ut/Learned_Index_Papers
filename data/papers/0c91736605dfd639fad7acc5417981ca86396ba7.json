@@ -1,0 +1,33 @@
+{
+    "paperId": "0c91736605dfd639fad7acc5417981ca86396ba7",
+    "title": "DRLindex: deep reinforcement learning index advisor for a cluster database",
+    "year": 2020,
+    "venue": "International Database Engineering and Applications Symposium",
+    "authors": [
+        "Zahra Sadri",
+        "L. Gruenwald",
+        "Eleazar Leal"
+    ],
+    "doi": "10.1145/3410566.3410603",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0c91736605dfd639fad7acc5417981ca86396ba7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cloud database providers provision different architectures to guarantee high availability. One of these architectures is a cluster database that consists of several database engine nodes, where data is replicated among the nodes. Although the cloud database providers provide various auto-indexing tools, these tools mostly address characteristics of a database deployed on a single node, not a cluster. It is possible to install an index advisor on each node, which recommends an index set for that node. The problem with this approach is that the current index advisors for a single node aim to minimize the processing cost of the workload; however, on a cluster database, other goals such as load balancing can be considered. Hence, the better solution could be an index advisor which has a comprehensive view of the cluster node. In this paper, we propose an index advisor for a replicated database on a database cluster for a read-only workload. The advisor considers both query processing cost and load balancing. It utilizes a Deep Reinforcement Learning (DRL) approach in which a DRL agent learns to select a set of index configurations for nodes in a cluster. We describe the components of the DRL-advisor such as the agent, the environment, a set of actions, the reward function, and other modules. Experimental results validate the effectiveness of the algorithm.",
+    "citationCount": 27,
+    "referenceCount": 19
+}

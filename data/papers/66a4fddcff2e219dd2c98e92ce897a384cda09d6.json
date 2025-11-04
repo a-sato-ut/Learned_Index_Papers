@@ -1,0 +1,38 @@
+{
+    "paperId": "66a4fddcff2e219dd2c98e92ce897a384cda09d6",
+    "title": "Partitioner Selection with EASE to Optimize Distributed Graph Processing",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Nikolai Merkel",
+        "R. Mayer",
+        "Tawkir Ahmed Fakir",
+        "H. Jacobsen"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00185",
+    "arxivId": "2304.04976",
+    "url": "https://www.semanticscholar.org/paper/66a4fddcff2e219dd2c98e92ce897a384cda09d6",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2304.04976",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "For distributed graph processing on massive graphs, a graph is partitioned into multiple equally-sized parts which are distributed among machines in a compute cluster. In the last decade, many partitioning algorithms have been developed which differ from each other with respect to the partitioning quality, the run-time of the partitioning and the type of graph for which they work best. The plethora of graph partitioning algorithms makes it a challenging task to select a partitioner for a given scenario. Different studies exist that provide qualitative insights into the characteristics of graph partitioning algorithms that support a selection. However, in order to enable automatic selection, a quantitative prediction of the partitioning quality, the partitioning run-time and the run-time of subsequent graph processing jobs is needed. In this paper, we propose a machine learning-based approach to provide such a quantitative prediction for different types of edge partitioning algorithms and graph processing workloads. We show that training based on generated graphs achieves high accuracy, which can be further improved when using real-world data. Based on the predictions, the automatic selection reduces the end-to-end run-time on average by 11.1% compared to a random selection, by 17.4% compared to selecting the partitioner that yields the lowest cut size, and by 29.1% compared to the worst strategy, respectively. Furthermore, in 35.7% of the cases, the best strategy was selected.",
+    "citationCount": 5,
+    "referenceCount": 91
+}

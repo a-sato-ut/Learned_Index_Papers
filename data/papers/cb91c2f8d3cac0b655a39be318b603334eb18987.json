@@ -1,0 +1,45 @@
+{
+    "paperId": "cb91c2f8d3cac0b655a39be318b603334eb18987",
+    "title": "Learning to Optimize Tensor Programs",
+    "year": 2018,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Tianqi Chen",
+        "Lianmin Zheng",
+        "Eddie Q. Yan",
+        "Ziheng Jiang",
+        "T. Moreau",
+        "L. Ceze",
+        "Carlos Guestrin",
+        "A. Krishnamurthy"
+    ],
+    "doi": null,
+    "arxivId": "1805.08166",
+    "url": "https://www.semanticscholar.org/paper/cb91c2f8d3cac0b655a39be318b603334eb18987",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce a learning-based framework to optimize tensor programs for deep learning workloads. Efficient implementations of tensor operators, such as matrix multiplication and high dimensional convolution, are key enablers of effective deep learning systems. However, existing systems rely on manually optimized libraries such as cuDNN where only a narrow range of server class GPUs are well-supported. The reliance on hardware-specific operator libraries limits the applicability of high-level graph optimizations and incurs significant engineering costs when deploying to new hardware targets. We use learning to remove this engineering burden. We learn domain-specific statistical cost models to guide the search of tensor operator implementations over billions of possible program variants. We further accelerate the search by effective model transfer across workloads. Experimental results show that our framework delivers performance competitive with state-of-the-art hand-tuned libraries for low-power CPU, mobile GPU, and server-class GPU.",
+    "citationCount": 427,
+    "referenceCount": 45
+}

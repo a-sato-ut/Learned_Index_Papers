@@ -1,0 +1,33 @@
+{
+    "paperId": "c72b5467f78855b6ece8b4e4638bb5debbd649ab",
+    "title": "TONE: cutting tail-latency in learned indexes",
+    "year": 2022,
+    "venue": "CHEOPS@EuroSys",
+    "authors": [
+        "Yong Zhang",
+        "Xinran Xiong",
+        "Oana Balmau"
+    ],
+    "doi": "10.1145/3503646.3524295",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c72b5467f78855b6ece8b4e4638bb5debbd649ab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Low memory footprint and tail latency are important in indexing for data management systems. Learned indexes have been gaining popularity in recent years due to their low memory overhead, and adaptability to fluctuations in workloads. However, state-of-the-art learned indexes are optimized for read-heavy workloads where the key access distribution is relatively stable, and thus exhibit high tail latency for insertions. Our main observation is that high insertion tail latency stems from structural modification operations in the index, such as node expansions and splits. Based on this insight, we propose a new tail-latency optimized learned index we call TONE. TONE has a novel node layout for leaves and adaptable policies for triggering structural modification operations. Moreover, TONE provides a shard-based mechanism to boost parallelism, while minimizing contention. We evaluate the insertion tail-latency and overall throughput of TONE and provide a comprehensive comparison to state-of-the-art indexes such as skiplists (used in RocksDB) and existing learned indexes. We show that TONE reduces the 99p write tail-latency up to one order of magnitude and has a low memory use.",
+    "citationCount": 6,
+    "referenceCount": 18
+}

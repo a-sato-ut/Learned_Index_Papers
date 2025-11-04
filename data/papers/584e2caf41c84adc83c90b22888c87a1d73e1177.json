@@ -1,0 +1,41 @@
+{
+    "paperId": "584e2caf41c84adc83c90b22888c87a1d73e1177",
+    "title": "Matrix Profile Index Approximation for Streaming Time Series",
+    "year": 2021,
+    "venue": "2021 IEEE International Conference on Big Data (Big Data)",
+    "authors": [
+        "Maryam Shahcheraghi",
+        "Trevor Cappon",
+        "Samet Oymak",
+        "E. Papalexakis",
+        "Eamonn J. Keogh",
+        "Zachary Zimmerman",
+        "P. Brisk"
+    ],
+    "doi": "10.1109/BigData52589.2021.9671484",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/584e2caf41c84adc83c90b22888c87a1d73e1177",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Discovery of motifs (repeated patterns) in time series is a key factor across numerous industries and scientific fields. These and related problems have effectively been solved for offline analysis of time series; however, these approaches are computationally intensive and do not lend themselves to streaming time series, where the sampling rate imposes real-time constraints on computation and there is strong desire to locate computation as close as possible to the sensor. One promising solution is to use low-cost machine learning models to provide approximate answers to these problems. For example, prior work has trained models to predict the similarity of the most recently sampled window of data points to a representative time series used for training. This work addresses a more challenging problem: to predict not only the \"strength\" of the match, but also the relative location in the representative time series where the match occurs. We evaluate our approach on two different real world datasets; we demonstrate speedups as high as 40× compared to exact computations, with predictive accuracy as high as 87.9%, depending on the granularity of the prediction.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

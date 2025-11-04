@@ -1,0 +1,34 @@
+{
+    "paperId": "7913430d7659f62eda2539ce78353209a2d32a24",
+    "title": "Implementation Of Dynamic De Bruijn Graphs Via Learned Index",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Riccardo Nigrelli"
+    ],
+    "doi": "10.48550/arXiv.2406.12339",
+    "arxivId": "2406.12339",
+    "url": "https://www.semanticscholar.org/paper/7913430d7659f62eda2539ce78353209a2d32a24",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "De Bruijn graphs are essential for sequencing data analysis and must be efficiently constructed and stored for large-scale population studies. They also need to be dynamic to allow updates such as adding or removing edges and nodes. Existing dynamic implementations include DynamicBOSS and dynamicDBG. In 2018, a new family of data structures called learned indexes was introduced by Tim Kraska and Alex Beutel, with a particularly efficient implementation proposed by Paolo Ferragina and Giorgio Vinciguerra in 2020. This paper presents a new method for implementing De Bruijn graphs using learned indexes and compares its performance with current implementations. The new method shows improved time and memory efficiency for edge and node insertions, particularly with large datasets (over 110 million k-mers).",
+    "citationCount": 0,
+    "referenceCount": 12
+}

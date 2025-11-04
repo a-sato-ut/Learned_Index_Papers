@@ -1,0 +1,45 @@
+{
+    "paperId": "6a5c18be7fbb0a8782bdc3c310448a9adb3718ce",
+    "title": "Sapling: Accelerating Suffix Array Queries with Learned Data Models",
+    "year": 2020,
+    "venue": "bioRxiv",
+    "authors": [
+        "Melanie Kirsche",
+        "Arun Das",
+        "M. Schatz"
+    ],
+    "doi": "10.1101/2020.01.29.925768",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6a5c18be7fbb0a8782bdc3c310448a9adb3718ce",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.biorxiv.org/content/biorxiv/early/2020/01/30/2020.01.29.925768.full.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Motivation As genomic data becomes more abundant, efficient algorithms and data structures for sequence alignment become increasingly important. The suffix array is a widely used data structure to accelerate alignment, but the binary search algorithm used to query it requires widespread memory accesses, causing a large number of cache misses on large datasets. Results Here we present Sapling, an algorithm for sequence alignment which uses a learned data model to augment the suffix array and enable faster queries. We investigate different types of data models, providing an analysis of different neural network models as well as providing an open-source aligner with a compact, practical piecewise linear model. We show that Sapling outperforms both an optimized binary search approach and multiple existing read aligners on a wide collection of genomes, including human, bacteria, and plants, speeding up the algorithm by more than a factor of two while adding less than 1% to the suffix array’s memory footprint. Availability and implementation The source code and tutorial are available open-source at https://github.com/mkirsche/sapling. Supplementary Information Supplementary notes and figures are available online.",
+    "citationCount": 26,
+    "referenceCount": 28
+}

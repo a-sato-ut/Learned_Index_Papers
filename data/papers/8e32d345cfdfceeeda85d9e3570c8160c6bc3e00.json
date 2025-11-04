@@ -1,0 +1,36 @@
+{
+    "paperId": "8e32d345cfdfceeeda85d9e3570c8160c6bc3e00",
+    "title": "Learning Minimum Bounding Rectangles for Efficient Trajectory Similarity Search",
+    "year": 2020,
+    "venue": "2020 IEEE International Conference on Big Data (Big Data)",
+    "authors": [
+        "Hani Ramadhan",
+        "Joonho Kwon"
+    ],
+    "doi": "10.1109/BigData50022.2020.9377839",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8e32d345cfdfceeeda85d9e3570c8160c6bc3e00",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Early pruning of dissimilar trajectories is important in similar trajectory search on a big mobility data. R-trees can perform the pruning effectively, but the search and index size become inefficient due to numerous overlapping of minimum bounding regions in a dense and big dataset. Thus, we introduce the extended usage of learned index to learn the minimum bounding rectangles for trajectory similarity search. Our approach is designed to provide an effective pruning for trajectory similarity search with less storage size.",
+    "citationCount": 2,
+    "referenceCount": 7
+}

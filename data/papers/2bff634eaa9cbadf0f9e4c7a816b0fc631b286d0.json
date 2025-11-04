@@ -1,0 +1,42 @@
+{
+    "paperId": "2bff634eaa9cbadf0f9e4c7a816b0fc631b286d0",
+    "title": "Parallel computation of PDFs on big spatial data using Spark",
+    "year": 2018,
+    "venue": "Distributed and parallel databases",
+    "authors": [
+        "Ji Liu",
+        "Noel Moreno Lemus",
+        "Esther Pacitti",
+        "F. Porto",
+        "P. Valduriez"
+    ],
+    "doi": "10.1007/s10619-019-07260-3",
+    "arxivId": "1805.03141",
+    "url": "https://www.semanticscholar.org/paper/2bff634eaa9cbadf0f9e4c7a816b0fc631b286d0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We consider big spatial data, which is typically produced in scientific areas such as geological or seismic interpretation. The spatial data can be produced by observation (e.g. using sensors or soil instruments) or numerical simulation programs and correspond to points that represent a 3D soil cube area. However, errors in signal processing and modeling create some uncertainty, and thus a lack of accuracy in identifying geological or seismic phenomenons. Such uncertainty must be carefully analyzed. To analyze uncertainty, the main solution is to compute a Probability Density Function (PDF) of each point in the spatial cube area. However, computing PDFs on big spatial data can be very time consuming (from several hours to even months on a computer cluster). In this paper, we propose a new solution to efficiently compute such PDFs in parallel using Spark, with three methods: data grouping, machine learning prediction and sampling. We evaluate our solution by extensive experiments on different computer clusters using big data ranging from hundreds of GB to several TB. The experimental results show that our solution scales up very well and can reduce the execution time by a factor of 33 (in the order of seconds or minutes) compared with a baseline method.",
+    "citationCount": 6,
+    "referenceCount": 53
+}

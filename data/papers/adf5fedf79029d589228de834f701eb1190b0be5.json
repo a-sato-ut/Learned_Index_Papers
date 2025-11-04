@@ -1,0 +1,37 @@
+{
+    "paperId": "adf5fedf79029d589228de834f701eb1190b0be5",
+    "title": "Benchmarking learned indexes",
+    "year": 2020,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Ryan Marcus",
+        "Andreas Kipf",
+        "Alexander van Renen",
+        "Mihail Stoian",
+        "Sanchit Misra",
+        "A. Kemper",
+        "Thomas Neumann",
+        "Tim Kraska"
+    ],
+    "doi": "10.14778/3421424.3421425",
+    "arxivId": "2006.12804",
+    "url": "https://www.semanticscholar.org/paper/adf5fedf79029d589228de834f701eb1190b0be5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2006.12804",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advancements in learned index structures propose replacing existing index structures, like B-Trees, with approximate learned models. In this work, we present a unified benchmark that compares well-tuned implementations of three learned index structures against several state-of-the-art \"traditional\" baselines. Using four real-world datasets, we demonstrate that learned index structures can indeed outperform non-learned indexes in read-only in-memory workloads over a dense array. We investigate the impact of caching, pipelining, dataset size, and key size. We study the performance profile of learned index structures, and build an explanation for why learned models achieve such good performance. Finally, we investigate other important properties of learned index structures, such as their performance in multi-threaded systems and their build times.",
+    "citationCount": 161,
+    "referenceCount": 30
+}

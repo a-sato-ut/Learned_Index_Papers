@@ -1,0 +1,62 @@
+{
+    "paperId": "7c4145425972a208d472e69b318d0b1b8cf21cdf",
+    "title": "GraphBLAS on the Edge: Anonymized High Performance Streaming of Network Traffic",
+    "year": 2022,
+    "venue": "IEEE Conference on High Performance Extreme Computing",
+    "authors": [
+        "Michael Jones",
+        "J. Kepner",
+        "Daniel Andersen",
+        "A. Buluç",
+        "C. Byun",
+        "K. Claffy",
+        "Tim Davis",
+        "W. Arcand",
+        "Jonathan Bernays",
+        "David Bestor",
+        "William Bergeron",
+        "V. Gadepally",
+        "Micheal Houle",
+        "M. Hubbell",
+        "Hayden Jananthan",
+        "Anna Klein",
+        "C. Meiners",
+        "Lauren Milechin",
+        "J. Mullen",
+        "Sandeep Pisharody",
+        "Andrew Prout",
+        "A. Reuther",
+        "Antonio Rosa",
+        "S. Samsi",
+        "Jon Sreekanth",
+        "Douglas Stetson",
+        "Charles Yee",
+        "P. Michaleas"
+    ],
+    "doi": "10.1109/HPEC55821.2022.9926332",
+    "arxivId": "2203.13934",
+    "url": "https://www.semanticscholar.org/paper/7c4145425972a208d472e69b318d0b1b8cf21cdf",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2203.13934",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Long range detection is a cornerstone of defense in many operating domains (land, sea, undersea, air, space,…,). In the cyber domain, long range detection requires the analysis of significant network traffic from a variety of observatories and outposts. Construction of anonymized hypersparse traffic matrices on edge network devices can be a key enabler by providing significant data compression in a rapidly analyzable format that protects privacy. GraphBLAS is ideally suited for both constructing and analyzing anonymized hypersparse traffic matrices. The performance of GraphBLAS on an Accolade Technologies edge network device is demonstrated on a near worse case traffic scenario using a continuous stream of CAIDA Telescope darknet packets. The performance for varying numbers of traffic buffers, threads, and processor cores is explored. Anonymized hypersparse traffic matrices can be constructed at a rate of over 50,000,000 packets per second; exceeding a typical 400 Gigabit network link. This performance demonstrates that anonymized hypersparse traffic matrices are readily computable on edge network devices with minimal compute resources and can be a viable data product for such devices.",
+    "citationCount": 14,
+    "referenceCount": 69
+}

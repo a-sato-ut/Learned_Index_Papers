@@ -1,0 +1,38 @@
+{
+    "paperId": "92aed22dcf8626f79d9aa3a5a23d28b799ca341e",
+    "title": "Paella: Low-latency Model Serving with Software-defined GPU Scheduling",
+    "year": 2023,
+    "venue": "Symposium on Operating Systems Principles",
+    "authors": [
+        "Kelvin K. W. Ng",
+        "Henri Maxime Demoulin",
+        "Vincent Liu"
+    ],
+    "doi": "10.1145/3600006.3613163",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/92aed22dcf8626f79d9aa3a5a23d28b799ca341e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Model serving systems play a critical role in multiplexing machine learning inference jobs across shared GPU infrastructure. These systems have traditionally sat at a high level of abstraction---receiving jobs from clients through a narrow API and relying on black-box GPU scheduling mechanisms when dispatching them. Fundamental limitations in the built-in GPU hardware scheduler, in particular, can lead to inefficiency when executing concurrent jobs. The current abstraction level also incurs system overheads that are similarly most significant when the GPU is heavily shared. In this paper, we argue for co-designing the model compiler, local clients, and the scheduler to bypass the built-in GPU scheduler and enable software control of kernel execution order. Doing so enables the use of arbitrary scheduling algorithms and reduces system overheads throughout the critical path of inference.",
+    "citationCount": 32,
+    "referenceCount": 70
+}

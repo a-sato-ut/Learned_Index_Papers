@@ -1,0 +1,40 @@
+{
+    "paperId": "4896f4044193521fd7ae20b2af3c5a75c70af51c",
+    "title": "AStore: Uniformed Adaptive Learned Index and Cache for RDMA-Enabled Key-Value Store",
+    "year": 2024,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Pengpeng Qiao",
+        "Zhiwei Zhang",
+        "Yuntong Li",
+        "Ye Yuan",
+        "Shuliang Wang",
+        "Guoren Wang",
+        "Jeffrey Xu Yu"
+    ],
+    "doi": "10.1109/TKDE.2024.3355100",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4896f4044193521fd7ae20b2af3c5a75c70af51c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Distributed key-value storage and computation are essential components of cloud services. As the demand for high-performance systems has increased significantly, a new architecture has been motivated to separate computing and storage nodes and connect them using RDMA-enabled networks. Existing RDMA-enabled systems use client-side cached indexes to reduce communication overhead and improve performance. However, such approaches could result in high server CPU contention due to heavy dynamic workloads (i.e., inserts), and cause a large accuracy gap because of the different indexes between client-side and server-side. These drawbacks limit the performance of RDMA-enabled systems. In this paper, to deal with these issues, we introduce AStore to achieve high performance with low memory footprint. AStore employs a new uniformed architecture, utilizing an adaptive learned index as both the server-side learned index and the client-side cached index, to handle dynamic and static workloads. We propose several optimization techniques to optimize dynamic and static workload procedures and design the leaf node lock mechanism to support high concurrent access. Extensive evaluations on YCSB, LGN, and OSM datasets demonstrate that AStore achieves competitive performance on read-only workloads by up to 75.2%, 107.3% and 57.7%, as well as improving performance on write-read workloads by up to 65.7%, 108.7% and 74.3% than XStore.",
+    "citationCount": 0,
+    "referenceCount": 62
+}

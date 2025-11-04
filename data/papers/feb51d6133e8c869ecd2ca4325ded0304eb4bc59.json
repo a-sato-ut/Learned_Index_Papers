@@ -1,0 +1,34 @@
+{
+    "paperId": "feb51d6133e8c869ecd2ca4325ded0304eb4bc59",
+    "title": "COLE: A Column-based Learned Storage for Blockchain Systems",
+    "year": 2023,
+    "venue": "USENIX Conference on File and Storage Technologies",
+    "authors": [
+        "Ce Zhang",
+        "Cheng Xu",
+        "Haibo Hu",
+        "Jianliang Xu"
+    ],
+    "doi": "10.48550/arXiv.2306.10739",
+    "arxivId": "2306.10739",
+    "url": "https://www.semanticscholar.org/paper/feb51d6133e8c869ecd2ca4325ded0304eb4bc59",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2306.10739",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Blockchain systems suffer from high storage costs as every node needs to store and maintain the entire blockchain data. After investigating Ethereum's storage, we find that the storage cost mostly comes from the index, i.e., Merkle Patricia Trie (MPT). To support provenance queries, MPT persists the index nodes during the data update, which adds too much storage overhead. To reduce the storage size, an initial idea is to leverage the emerging learned index technique, which has been shown to have a smaller index size and more efficient query performance. However, directly applying it to the blockchain storage results in even higher overhead owing to the requirement of persisting index nodes and the learned index's large node size. To tackle this, we propose COLE, a novel column-based learned storage for blockchain systems. We follow the column-based database design to contiguously store each state's historical values, which are indexed by learned models to facilitate efficient data retrieval and provenance queries. We develop a series of write-optimized strategies to realize COLE in disk environments. Extensive experiments are conducted to validate the performance of the proposed COLE system. Compared with MPT, COLE reduces the storage size by up to 94% while improving the system throughput by $1.4\\times$-$5.4\\times$.",
+    "citationCount": 4,
+    "referenceCount": 68
+}

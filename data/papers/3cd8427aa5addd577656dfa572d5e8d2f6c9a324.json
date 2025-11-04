@@ -1,0 +1,33 @@
+{
+    "paperId": "3cd8427aa5addd577656dfa572d5e8d2f6c9a324",
+    "title": "Bandit join: preliminary results",
+    "year": 2020,
+    "venue": "aiDM@SIGMOD",
+    "authors": [
+        "Vahid Ghadakchi",
+        "Mian Xie",
+        "Arash Termehchy"
+    ],
+    "doi": "10.1145/3401071.3401655",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3cd8427aa5addd577656dfa572d5e8d2f6c9a324",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Join is arguably the most costly and frequently used operation in relational query processing. Join algorithms usually spend the majority of their time on scanning and attempting to join the parts of the base relations that do not satisfy the join condition and do not generate any results. This causes slow response time, particularly, in interactive and exploratory environments where users would like real-time performance. In this paper, we outline our vision on using online learning and adaptation to execute joins efficiently. In our approach, scan operators that precede a join, learn which parts of the relations are more likely to join during the query execution and produce more results faster by doing fewer I/O accesses. Our empirical studies using standard benchmarks indicate that this approach outperforms similar methods considerably.",
+    "citationCount": 4,
+    "referenceCount": 17
+}

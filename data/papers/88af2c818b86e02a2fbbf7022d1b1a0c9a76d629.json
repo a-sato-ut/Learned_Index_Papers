@@ -1,0 +1,32 @@
+{
+    "paperId": "88af2c818b86e02a2fbbf7022d1b1a0c9a76d629",
+    "title": "Considerations for handling updates in learned index structures",
+    "year": 2019,
+    "venue": "aiDM@SIGMOD",
+    "authors": [
+        "A. Hadian",
+        "T. Heinis"
+    ],
+    "doi": "10.1145/3329859.3329874",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/88af2c818b86e02a2fbbf7022d1b1a0c9a76d629",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learned models have recently been suggested as a rival for index structures such as B-trees and hash tables. An optimized learned index potentially has a significantly smaller memory footprint compared to its algorithmic counterparts, which alleviates the relatively high computational complexity of ML models. One unexplored aspect of learned index structures, however, is handling updates to the data and hence the model. In this paper we therefore discuss updates to the data and their implications for the model. Moreover, we suggest a method for eliminating the drift - the error of learned index models caused by the updates to the index- so that the learned model can maintain its performance under higher update rates.",
+    "citationCount": 24,
+    "referenceCount": 11
+}

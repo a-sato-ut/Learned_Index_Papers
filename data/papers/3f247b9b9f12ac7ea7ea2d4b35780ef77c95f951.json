@@ -1,0 +1,32 @@
+{
+    "paperId": "3f247b9b9f12ac7ea7ea2d4b35780ef77c95f951",
+    "title": "Opportunistic View Materialization with Deep Reinforcement Learning",
+    "year": 2019,
+    "venue": "arXiv.org",
+    "authors": [
+        "Xi Liang",
+        "Aaron J. Elmore",
+        "S. Krishnan"
+    ],
+    "doi": null,
+    "arxivId": "1903.01363",
+    "url": "https://www.semanticscholar.org/paper/3f247b9b9f12ac7ea7ea2d4b35780ef77c95f951",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Carefully selected materialized views can greatly improve the performance of OLAP workloads. We study using deep reinforcement learning to learn adaptive view materialization and eviction policies. Our insight is that such selection policies can be effectively trained with an asynchronous RL algorithm, that runs paired counter-factual experiments during system idle times to evaluate the incremental value of persisting certain views. Such a strategy obviates the need for accurate cardinality estimation or hand-designed scoring heuristics. We focus on inner-join views and modeling effects in a main-memory, OLAP system. Our research prototype system, called DQM, is implemented in SparkSQL and we experiment on several workloads including the Join Order Benchmark and the TPC-DS workload. Results suggest that: (1) DQM can outperform heuristic when their assumptions are not satisfied by the workload or there are temporal effects like period maintenance, (2) even with the cost of learning, DQM is more adaptive to changes in the workload, and (3) DQM is broadly applicable to different workloads and skews.",
+    "citationCount": 40,
+    "referenceCount": 32
+}

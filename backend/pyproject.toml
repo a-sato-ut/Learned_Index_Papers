@@ -5,6 +5,7 @@ requires-python = ">=3.9"
 dependencies = [
     "arxiv>=2.1.0",
     "beautifulsoup4>=4.12.0",
+    "fastapi>=0.104.0",
     "lxml>=4.9.0",
     "networkx>=3.1",
     "pandas>=2.0.0",
@@ -12,4 +13,6 @@ dependencies = [
     "python-dotenv>=1.0.0",
     "requests>=2.31.0",
     "tqdm>=4.67.1",
+    "unicorn>=2.1.4",
+    "uvicorn[standard]>=0.24.0",
 ]

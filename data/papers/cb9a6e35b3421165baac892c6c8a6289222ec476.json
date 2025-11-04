@@ -1,0 +1,40 @@
+{
+    "paperId": "cb9a6e35b3421165baac892c6c8a6289222ec476",
+    "title": "Using Learned Indexes to Improve Time Series Indexing Performance on Embedded Sensor Devices",
+    "year": 2023,
+    "venue": "International Conference on Sensor Networks",
+    "authors": [
+        "David Ding",
+        "Ivan Carvalho",
+        "R. Lawrence"
+    ],
+    "doi": "10.5220/0011692900003399",
+    "arxivId": "2302.03085",
+    "url": "https://www.semanticscholar.org/paper/cb9a6e35b3421165baac892c6c8a6289222ec476",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.5220/0011692900003399",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficiently querying data on embedded sensor and IoT devices is challenging given the very limited memory and CPU resources. With the increasing volumes of collected data, it is critical to process, filter, and manipulate data on the edge devices where it is collected to improve efficiency and reduce network transmissions. Existing embedded index structures do not adapt to the data distribution and characteristics. This paper demonstrates how applying learned indexes that develop space efficient summaries of the data can dramatically improve the query performance and predictability. Learned indexes based on linear approximations can reduce the query I/O by 50 to 90% and improve query throughput by a factor of 2 to 5, while only requiring a few kilobytes of RAM. Experimental results on a variety of time series data sets demonstrate the advantages of learned indexes that considerably improve over the state-of-the-art index algorithms.",
+    "citationCount": 3,
+    "referenceCount": 24
+}

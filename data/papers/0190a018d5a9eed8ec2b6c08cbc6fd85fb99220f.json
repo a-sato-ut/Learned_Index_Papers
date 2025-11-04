@@ -1,0 +1,33 @@
+{
+    "paperId": "0190a018d5a9eed8ec2b6c08cbc6fd85fb99220f",
+    "title": "PQ Bench: Benchmarking Pruning and Quantization Techniques",
+    "year": 2025,
+    "venue": "DEEM@SIGMOD",
+    "authors": [
+        "Jonas Schulze",
+        "Nils Strassenburg",
+        "T. Rabl"
+    ],
+    "doi": "10.1145/3735654.3735940",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0190a018d5a9eed8ec2b6c08cbc6fd85fb99220f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning models are increasingly deployed in performance-critical applications, where computational efficiency must be balanced with accuracy. Model compression techniques such as pruning and quantization help address this challenge. However, they are often evaluated solely on accuracy, overlooking their impact on model size and inference time for a given hardware setup. To support practitioners in selecting and evaluating different model compression techniques, we introduce our benchmarking framework, PQ Bench. It pre-implements a set of popular compression techniques and automates the process of benchmarking their effects on accuracy, inference speed, and memory footprint. In our evaluation, we demonstrate the use of PQ Bench and provide key insights into the trade-offs across various models, compression strategies, and configurations.",
+    "citationCount": 0,
+    "referenceCount": 46
+}

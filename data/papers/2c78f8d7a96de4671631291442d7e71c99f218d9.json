@@ -1,0 +1,44 @@
+{
+    "paperId": "2c78f8d7a96de4671631291442d7e71c99f218d9",
+    "title": "Estimating Cardinalities with Deep Sketches",
+    "year": 2019,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Andreas Kipf",
+        "Dimitri Vorona",
+        "Jonas Müller",
+        "Thomas Kipf",
+        "Bernhard Radke",
+        "Viktor Leis",
+        "P. Boncz",
+        "Thomas Neumann",
+        "A. Kemper"
+    ],
+    "doi": "10.1145/3299869.3320218",
+    "arxivId": "1904.08223",
+    "url": "https://www.semanticscholar.org/paper/2c78f8d7a96de4671631291442d7e71c99f218d9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1904.08223",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce Deep Sketches, which are compact models of databases that allow us to estimate the result sizes of SQL queries. Deep Sketches are powered by a new deep learning approach to cardinality estimation that can capture correlations between columns, even across tables. Our demonstration allows users to define such sketches on the TPC-H and IMDb datasets, monitor the training process, and run ad-hoc queries against trained sketches. We also estimate query cardinalities with HyPer and PostgreSQL to visualize the gains over traditional cardinality estimators.",
+    "citationCount": 42,
+    "referenceCount": 21
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "57414dc5efedb58c7ae51ba397e30c79c59c13eb",
+    "title": "External vs. Internal: An Essay on Machine Learning Agents for Autonomous Database Management Systems",
+    "year": 2022,
+    "venue": "IEEE Data Engineering Bulletin",
+    "authors": [
+        "Andrew Pavlo",
+        "Matthew Butrovich",
+        "Ananya Joshi",
+        "Lin Ma",
+        "Prashanth Menon",
+        "Dana Van Aken",
+        "Lisa Lee",
+        "R. Salakhutdinov"
+    ],
+    "doi": "10.37745/ejcsit.2013/vol10n52431",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/57414dc5efedb58c7ae51ba397e30c79c59c13eb",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.eajournals.org/wp-content/uploads/External-vs.-Internal.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There are many possible ways to configure database management systems (DBMSs) have challenging to manage and set.The problem increased in large-scale deployments with thousands or millions of individual DBMS that each have their setting requirements. Recent research has explored using machine learning-based (ML) agents to overcome this problem's automated tuning of DBMSs. These agents extract performance metrics and behavioral information from the DBMS and then train models with this data to select tuning actions that they predict will have the most benefit. This paper discusses two engineering approaches for integrating ML agents in a DBMS. The first is to build an external tuning controller that treats the DBMS as a black box. The second is to incorporate the ML agents natively in the DBMS's architecture.",
+    "citationCount": 29,
+    "referenceCount": 76
+}

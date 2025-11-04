@@ -1,0 +1,31 @@
+{
+    "paperId": "14aa0a4116fbdd3683603b960d82798f5a5a1188",
+    "title": "Dynamic Necklace Splitting",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Rishi Advani",
+        "Abolfazl Asudeh",
+        "Mohsen Dehghankar",
+        "Stavros Sintos"
+    ],
+    "doi": null,
+    "arxivId": "2510.00162",
+    "url": "https://www.semanticscholar.org/paper/14aa0a4116fbdd3683603b960d82798f5a5a1188",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The necklace splitting problem is a classic problem in fair division with many applications, including data-informed fair hash maps. We extend necklace splitting to a dynamic setting, allowing for relocation, insertion, and deletion of beads. We present linear-time, optimal algorithms for the two-color case that support all dynamic updates. For more than two colors, we give linear-time, optimal algorithms for relocation subject to a restriction on the number of agents. Finally, we propose a randomized algorithm for the two-color case that handles all dynamic updates, guarantees approximate fairness with high probability, and runs in polylogarithmic time when the number of agents is small.",
+    "citationCount": 0,
+    "referenceCount": 16
+}

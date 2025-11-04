@@ -1,0 +1,36 @@
+{
+    "paperId": "7d655f6ac307f20ceeddb39b18508e5fd97b0b53",
+    "title": "Learned Indexing in Proteins: Extended Work on Substituting Complex Distance Calculations with Embedding and Clustering Techniques",
+    "year": 2022,
+    "venue": "",
+    "authors": [
+        "Jaroslav Ovlha",
+        "Ter'ezia Slanin'akov'a",
+        "Martin Gendiar",
+        "Matej Antol",
+        "Vlastislav Dohnal"
+    ],
+    "doi": null,
+    "arxivId": "2208.08910",
+    "url": "https://www.semanticscholar.org/paper/7d655f6ac307f20ceeddb39b18508e5fd97b0b53",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Despite the constant evolution of similarity searching research, it continues to face the same challenges stemming from the complexity of the data, such as the curse of dimensionality and computationally expensive distance functions. Various machine learning techniques have proven capable of replacing elaborate mathematical models with combinations of simple linear functions, often gaining speed and simplicity at the cost of formal guarantees of accuracy and correctness of querying. The authors explore the potential of this research trend by presenting a lightweight solution for the complex problem of 3D protein structure search. The solution consists of three steps -- (i) transformation of 3D protein structural information into very compact vectors, (ii) use of a probabilistic model to group these vectors and respond to queries by returning a given number of similar objects, and (iii) a final filtering step which applies basic vector distance functions to refine the result.",
+    "citationCount": 0,
+    "referenceCount": 26
+}

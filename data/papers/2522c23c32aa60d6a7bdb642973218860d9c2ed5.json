@@ -1,0 +1,36 @@
+{
+    "paperId": "2522c23c32aa60d6a7bdb642973218860d9c2ed5",
+    "title": "SOSD: A Benchmark for Learned Indexes",
+    "year": 2019,
+    "venue": "arXiv.org",
+    "authors": [
+        "Andreas Kipf",
+        "Ryan Marcus",
+        "Alexander van Renen",
+        "Mihail Stoian",
+        "A. Kemper",
+        "Tim Kraska",
+        "Thomas Neumann"
+    ],
+    "doi": null,
+    "arxivId": "1911.13014",
+    "url": "https://www.semanticscholar.org/paper/2522c23c32aa60d6a7bdb642973218860d9c2ed5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A groundswell of recent work has focused on improving data management systems with learned components. Specifically, work on learned index structures has proposed replacing traditional index structures, such as B-trees, with learned models. Given the decades of research committed to improving index structures, there is significant skepticism about whether learned indexes actually outperform state-of-the-art implementations of traditional structures on real-world data. To answer this question, we propose a new benchmarking framework that comes with a variety of real-world datasets and baseline implementations to compare against. We also show preliminary results for selected index structures, and find that learned models indeed often outperform state-of-the-art implementations, and are therefore a promising direction for future research.",
+    "citationCount": 101,
+    "referenceCount": 21
+}

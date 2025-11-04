@@ -1,0 +1,39 @@
+{
+    "paperId": "f032cd555b945b60e636e67a312aa485525754f6",
+    "title": "Seesaw Counting Filter: An Efficient Guardian for Vulnerable Negative Keys During Dynamic Filtering",
+    "year": 2022,
+    "venue": "The Web Conference",
+    "authors": [
+        "Meng Li",
+        "Deyi Chen",
+        "Haipeng Dai",
+        "Rongbiao Xie",
+        "Siqiang Luo",
+        "Rong Gu",
+        "Tong Yang",
+        "Guihai Chen"
+    ],
+    "doi": "10.1145/3485447.3511996",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f032cd555b945b60e636e67a312aa485525754f6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Bloom filter is an efficient data structure for filtering negative keys (keys not in a given set) with substantially small space. However, in real-world applications, there widely exist vulnerable negative keys, which will bring high costs if not being properly filtered, especially when positive keys are added/deleted dynamically. To address the problem, we propose SeeSaw Counting Filter (SSCF), which is innovated with encapsulating the vulnerable negative keys into a unified counter array named seesaw counter array, and dynamically modulating (or varying) the applied hash functions to guard the encapsulated keys from being misidentified. Moreover, we propose ada-SSCF to handle the scenarios where the vulnerable negative keys cannot be obtained in advance. We extensively evaluate our SSCF, which shows that SSCF outperforms the cutting-edge filters by 3 × on averages regarding accuracy while ensuring a low operation latency. All source codes are in [2].",
+    "citationCount": 12,
+    "referenceCount": 28
+}

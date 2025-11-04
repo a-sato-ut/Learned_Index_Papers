@@ -1,0 +1,35 @@
+{
+    "paperId": "c31355a1aa0024630eca25bbde0606b9b0d71358",
+    "title": "A Method for Optimizing Opaque Filter Queries",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Wenjia He",
+        "Michael R. Anderson",
+        "M. Strome",
+        "Michael J. Cafarella"
+    ],
+    "doi": "10.1145/3318464.3389766",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c31355a1aa0024630eca25bbde0606b9b0d71358",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3318464.3389766",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "An important class of database queries in machine learning and data science workloads is the opaque filter query: a query with a selection predicate that is implemented with a UDF, with semantics that are unknown to the query optimizer. Some typical examples would include a CNN-style trained image classifier, or a textual sentiment classifier. Because the optimizer does not know the predicate's semantics, it cannot employ standard optimizations, yielding long query times. We propose voodoo indexing, a two-phase method for optimizing opaque filter queries. Before any query arrives, the method builds a hierarchical \"query-independent\" index of the database contents, which groups together similar objects. At query-time, the method builds a map of how much each group satisfies the predicate, while also exploiting the map to accelerate execution. Unlike past methods, voodoo indexing does not require insight into predicate semantics, works on any data type, and does not require in-query model training. We describe both standalone and SparkSQL-specific implementations, plus experiments on both image and text data, on more than 100 distinct opaque predicates. We show voodoo indexing can yield up to an 88% improvement over standard scan behavior, and a 79% improvement over the previous best method adapted from research literature.",
+    "citationCount": 17,
+    "referenceCount": 47
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "c64d01d2a67f94df28f35bc45caa5cdd39037789",
+    "title": "Shift-Table: A Low-latency Learned Index for Range Queries using Model Correction",
+    "year": 2021,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "A. Hadian",
+        "T. Heinis"
+    ],
+    "doi": "10.5441/002/edbt.2021.23",
+    "arxivId": "2101.10457",
+    "url": "https://www.semanticscholar.org/paper/c64d01d2a67f94df28f35bc45caa5cdd39037789",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Indexing large-scale databases in main memory is still challenging today. Learned index structures -- in which the core components of classical indexes are replaced with machine learning models -- have recently been suggested to significantly improve performance for read-only range queries. However, a recent benchmark study shows that learned indexes only achieve limited performance improvements for real-world data on modern hardware. More specifically, a learned model cannot learn the micro-level details and fluctuations of data distributions thus resulting in poor accuracy; or it can fit to the data distribution at the cost of training a big model whose parameters cannot fit into cache. As a consequence, querying a learned index on real-world data takes a substantial number of memory lookups, thereby degrading performance. In this paper, we adopt a different approach for modeling a data distribution that complements the model fitting approach of learned indexes. We propose Shift-Table, an algorithmic layer that captures the micro-level data distribution and resolves the local biases of a learned model at the cost of at most one memory lookup. Our suggested model combines the low latency of lookup tables with learned indexes and enables low-latency processing of range queries. Using Shift-Table, we achieve a speedup of 1.5X to 2X on real-world datasets compared to trained and tuned learned indexes.",
+    "citationCount": 21,
+    "referenceCount": 43
+}

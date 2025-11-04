@@ -1,0 +1,32 @@
+{
+    "paperId": "18a9128844d99f2fd68d74cbde191cf8f089ff4d",
+    "title": "Learned Accelerator Framework for Angular-Distance-Based High-Dimensional DBSCAN",
+    "year": 2023,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "Yifan Wang",
+        "D. Wang"
+    ],
+    "doi": "10.48550/arXiv.2302.03136",
+    "arxivId": "2302.03136",
+    "url": "https://www.semanticscholar.org/paper/18a9128844d99f2fd68d74cbde191cf8f089ff4d",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2302.03136",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Density-based clustering is a commonly used tool in data science. Today many data science works are utilizing high-dimensional neural embeddings. However, traditional density-based clustering techniques like DBSCAN have a degraded performance on high-dimensional data. In this paper, we propose LAF, a generic learned accelerator framework to speed up the original DBSCAN and the sampling-based variants of DBSCAN on high-dimensional data with angular distance metric. This framework consists of a learned cardinality estimator and a post-processing module. The cardinality estimator can fast predict whether a data point is core or not to skip unnecessary range queries, while the post-processing module detects the false negative predictions and merges the falsely separated clusters. The evaluation shows our LAF-enhanced DBSCAN method outperforms the state-of-the-art efficient DBSCAN variants on both efficiency and quality.",
+    "citationCount": 1,
+    "referenceCount": 29
+}

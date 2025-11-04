@@ -1,0 +1,33 @@
+{
+    "paperId": "3fd8ba5f55e61c14ffff7c22d77a322413d0f803",
+    "title": "An analysis and comparison of database cracking kernels",
+    "year": 2018,
+    "venue": "International Workshop on Data Management on New Hardware",
+    "authors": [
+        "Immanuel Haffner",
+        "F. Schuhknecht",
+        "J. Dittrich"
+    ],
+    "doi": "10.1145/3211922.3211930",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3fd8ba5f55e61c14ffff7c22d77a322413d0f803",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3211922.3211930",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Database indexes are a core technique to speed up data retrieval in any kind of data processing system. However, in the presence of schemas with many attributes it becomes infeasible to create indexes for all columns, as maintenance costs and space requirements are simply too high. In these situations, a much more promising approach is to adaptively index the data, i.e. the database gradually partitions (or cracks) those columns that are frequently used in selections. In doing so, the \"indexedness\" of a table adapts to the requirements of the workload. A large body of work has investigated database cracking, which is a subset of adaptive indexing. Irrespective of their algorithmic behavior, essentially all these works have in common, that the proposed methods use a simple two-sided in-place cracking kernel at the core, which performs a partitioning step. As this partitioning makes a large portion of the total indexing effort, the choice of the kernel can make a factor of two difference in the running time for a method sitting on top. To approach the topic, we first perform an experimental evaluation of existing state-of-the-art kernels and study their respective downsides in detail. Based on the gained insights, we propose both an advanced version of the best existing kernel as well as a new and unconventional approach, which utilizes features of the operating system as well as data parallelism. In our final evaluation of all kernels, we vary entry size, index layout, selectivity, and number of threads, and provide a decision tree to select the best cracking kernel for the respective situation.",
+    "citationCount": 8,
+    "referenceCount": 25
+}

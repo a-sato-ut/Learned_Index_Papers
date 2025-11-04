@@ -1,0 +1,39 @@
+{
+    "paperId": "d58986cee264fd004efd2d7c3533102b6fca015c",
+    "title": "AutoSpec: Automated Generation of Neural Network Specifications",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Shuowei Jin",
+        "Francis Y. Yan",
+        "Cheng Tan",
+        "Anuj Kalia",
+        "Xenofon Foukas",
+        "Z. M. Mao"
+    ],
+    "doi": "10.48550/arXiv.2409.10897",
+    "arxivId": "2409.10897",
+    "url": "https://www.semanticscholar.org/paper/d58986cee264fd004efd2d7c3533102b6fca015c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The increasing adoption of neural networks in learning-augmented systems highlights the importance of model safety and robustness, particularly in safety-critical domains. Despite progress in the formal verification of neural networks, current practices require users to manually define model specifications -- properties that dictate expected model behavior in various scenarios. This manual process, however, is prone to human error, limited in scope, and time-consuming. In this paper, we introduce AutoSpec, the first framework to automatically generate comprehensive and accurate specifications for neural networks in learning-augmented systems. We also propose the first set of metrics for assessing the accuracy and coverage of model specifications, establishing a benchmark for future comparisons. Our evaluation across four distinct applications shows that AutoSpec outperforms human-defined specifications as well as two baseline approaches introduced in this study.",
+    "citationCount": 0,
+    "referenceCount": 28
+}

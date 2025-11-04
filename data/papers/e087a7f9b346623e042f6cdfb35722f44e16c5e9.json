@@ -1,0 +1,32 @@
+{
+    "paperId": "e087a7f9b346623e042f6cdfb35722f44e16c5e9",
+    "title": "Fair-Count-Min: Frequency Estimation under Equal Group-wise Approximation Factor",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "N. Shahbazi",
+        "Stavros Sintos",
+        "Abolfazl Asudeh"
+    ],
+    "doi": "10.48550/arXiv.2505.18919",
+    "arxivId": "2505.18919",
+    "url": "https://www.semanticscholar.org/paper/e087a7f9b346623e042f6cdfb35722f44e16c5e9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Frequency estimation in streaming data often relies on sketches like Count-Min (CM) to provide approximate answers with sublinear space. However, CM sketches introduce additive errors that disproportionately impact low-frequency elements, creating fairness concerns across different groups of elements. We introduce Fair-Count-Min, a frequency estimation sketch that guarantees equal expected approximation factors across element groups, thus addressing the unfairness issue. We propose a column partitioning approach with group-aware semi-uniform hashing to eliminate collisions between elements from different groups. We provide theoretical guarantees for fairness, analyze the price of fairness, and validate our theoretical findings through extensive experiments on real-world and synthetic datasets. Our experimental results show that Fair-Count-Min achieves fairness with minimal additional error and maintains competitive efficiency compared to standard CM sketches.",
+    "citationCount": 0,
+    "referenceCount": 80
+}

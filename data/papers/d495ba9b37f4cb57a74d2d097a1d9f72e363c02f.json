@@ -1,0 +1,36 @@
+{
+    "paperId": "d495ba9b37f4cb57a74d2d097a1d9f72e363c02f",
+    "title": "Fast and Accurate Weight Updating Strategy for Resistive Random-Access Memory (RRAM)-Based Neural Networks",
+    "year": 2023,
+    "venue": "IEEE Electron Device Letters",
+    "authors": [
+        "Yulin Feng",
+        "Peng Huang",
+        "Yiyang Chen",
+        "Yizhou Zhang",
+        "Ruiyi Li",
+        "Zheng Zhou",
+        "Lifeng Liu",
+        "Xiaoyan Liu",
+        "Jinfeng Kang"
+    ],
+    "doi": "10.1109/LED.2023.3239608",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d495ba9b37f4cb57a74d2d097a1d9f72e363c02f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The mathematical relationships between the operating voltages and the conductance of resistance random-access memory (RRAM) are found based on the statistical measurements of the 1-transistor 1-RRAM (1T1R) array. According to the corresponding relationships, a one-shot operation scheme without verification after programming is proposed for weight updating of RRAM-based neural networks. The proposed operation scheme enables parallel column-by-column SET and row-by-row RESET, which achieves fast and accurate conductance modulation in the 1T1R array. By utilizing the one-shot scheme for weight updating of the deep-Q network, the training efficiency improves 40 times compared with the incremental step pulse programming (ISPP) scheme.",
+    "citationCount": 2,
+    "referenceCount": 30
+}

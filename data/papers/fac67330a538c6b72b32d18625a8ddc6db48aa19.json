@@ -1,0 +1,41 @@
+{
+    "paperId": "fac67330a538c6b72b32d18625a8ddc6db48aa19",
+    "title": "DLB: Deep Learning Based Load Balancing",
+    "year": 2019,
+    "venue": "IEEE International Conference on Cloud Computing",
+    "authors": [
+        "Xiao-ke Zhu",
+        "Qi Zhang",
+        "Ling Liu",
+        "Taining Cheng",
+        "Shaowen Yao",
+        "W. Zhou",
+        "Jing He"
+    ],
+    "doi": "10.1109/CLOUD53861",
+    "arxivId": "1910.08494",
+    "url": "https://www.semanticscholar.org/paper/fac67330a538c6b72b32d18625a8ddc6db48aa19",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/1910.08494",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we introduce DLB, a Deep Learning based load Balancing mechanism, to effectively address the data skew problem. The key idea of DLB is to replace hash functions in the load balancing mechanisms with deep learning models, which are trained to be able to map different distributions of workloads and data to the servers in a uniformed manner. We implemented DLB and deployed it on a practical Cloud environment using CloudSim. Experimental results using both synthetic and real-world data sets show that compared with traditional hash function based load balancing methods, DLB is able to achieve more balanced mappings, especially when the workload is highly skewed.",
+    "citationCount": 10,
+    "referenceCount": 31
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "1bc24c47be90399dd99aa9c3b474c39622bfbc15",
+    "title": "Cutting Learned Index into Pieces: An In-depth Inquiry into Updatable Learned Indexes",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Jiake Ge",
+        "Boyu Shi",
+        "Yanfeng Chai",
+        "Yuan Luo",
+        "Yunda Guo",
+        "Yinxuan He",
+        "Yunpeng Chai"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00031",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1bc24c47be90399dd99aa9c3b474c39622bfbc15",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Numerous high-performance updatable learned indexes have recently been designed to support the writing requirements in practical systems. Researchers have proposed various strategies to improve the availability of updatable learned indexes. However, it is unclear which strategy is more profitable. Therefore, we deconstruct the design of learned indexes into multiple dimensions and in-depth evaluate their impacts on the overall performance, respectively. Through the in-depth exploration of learned indexes, we reckon that the approximation algorithm is the most crucial design dimension for improving the performance of the learned indexes rather than the popular works that focus on the learned index structure. Moreover, this paper makes a comprehensive end-to-end evaluation based on a high-performance key-value store to answer people’s concerns about which learned index is better and whether learned indexes can outperform traditional ones. Finally, according to end-to-end and in-depth evaluation results, we give some constructive suggestions on designing a better learned index in these dimensions, especially how to design an excellent approximate algorithm to improve the lookup and insertion performance of learned indexes.",
+    "citationCount": 11,
+    "referenceCount": 39
+}

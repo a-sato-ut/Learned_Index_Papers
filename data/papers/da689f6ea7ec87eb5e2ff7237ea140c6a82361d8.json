@@ -1,0 +1,38 @@
+{
+    "paperId": "da689f6ea7ec87eb5e2ff7237ea140c6a82361d8",
+    "title": "Learned Indexes for a Google-scale Disk-based Database",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hussam Abu-Libdeh",
+        "Deniz Altinbuken",
+        "Alex Beutel",
+        "Ed H. Chi",
+        "Lyric Doshi",
+        "Tim Kraska",
+        "Xiaozhou Li",
+        "Andy Ly",
+        "Christopher Olston"
+    ],
+    "doi": null,
+    "arxivId": "2012.12501",
+    "url": "https://www.semanticscholar.org/paper/da689f6ea7ec87eb5e2ff7237ea140c6a82361d8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There is great excitement about learned index structures, but understandable skepticism about the practicality of a new method uprooting decades of research on B-Trees. In this paper, we work to remove some of that uncertainty by demonstrating how a learned index can be integrated in a distributed, disk-based database system: Google's Bigtable. We detail several design decisions we made to integrate learned indexes in Bigtable. Our results show that integrating learned index significantly improves the end-to-end read latency and throughput for Bigtable.",
+    "citationCount": 44,
+    "referenceCount": 15
+}

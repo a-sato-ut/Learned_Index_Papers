@@ -1,0 +1,40 @@
+{
+    "paperId": "109d8d701f83497ca074e33f3d0443799fa28fe9",
+    "title": "LISA: Towards Learned DNA Sequence Search",
+    "year": 2019,
+    "venue": "arXiv.org",
+    "authors": [
+        "Darryl Ho",
+        "Jialin Ding",
+        "Sanchit Misra",
+        "Nesime Tatbul",
+        "Vikram Nathan",
+        "Vasimuddin",
+        "Tim Kraska"
+    ],
+    "doi": null,
+    "arxivId": "1910.04728",
+    "url": "https://www.semanticscholar.org/paper/109d8d701f83497ca074e33f3d0443799fa28fe9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Next-generation sequencing (NGS) technologies have enabled affordable sequencing of billions of short DNA fragments at high throughput, paving the way for population-scale genomics. Genomics data analytics at this scale requires overcoming performance bottlenecks, such as searching for short DNA sequences over long reference sequences. In this paper, we introduce LISA (Learned Indexes for Sequence Analysis), a novel learning-based approach to DNA sequence search. As a first proof of concept, we focus on accelerating one of the most essential flavors of the problem, called exact search. LISA builds on and extends FM-index, which is the state-of-the-art technique widely deployed in genomics tool-chains. Initial experiments with human genome datasets indicate that LISA achieves up to a factor of 4X performance speedup against its traditional counterpart.",
+    "citationCount": 16,
+    "referenceCount": 26
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "829b4839eeded3d4c42a945060029acc9d3b3763",
+    "title": "The PGM-index",
+    "year": 2019,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "P. Ferragina",
+        "Giorgio Vinciguerra"
+    ],
+    "doi": "10.14778/3389133.3389135",
+    "arxivId": "1910.06169",
+    "url": "https://www.semanticscholar.org/paper/829b4839eeded3d4c42a945060029acc9d3b3763",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1910.06169",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present the first learned index that supports predecessor, range queries and updates within provably efficient time and space bounds in the worst case. In the (static) context of just predecessor and range queries these bounds turn out to be optimal. We call this learned index the Piecewise Geometric Model index (PGM-index). Its flexible design allows us to introduce three variants which are novel in the context of learned data structures. The first variant of the PGM-index is able to adapt itself to the distribution of the query operations, thus resulting in the first known distribution-aware learned index to date. The second variant exploits the repetitiveness possibly present at the level of the learned models that compose the PGM-index to further compress its succinct space footprint. The third one is a multicriteria variant of the PGM-index that efficiently auto-tunes itself in a few seconds over hundreds of millions of keys to satisfy space-time constraints which evolve over time across users, devices and applications. These theoretical achievements are supported by a large set of experimental results on known datasets which show that the fully-dynamic PGM-index improves the space occupancy of existing traditional and learned indexes by up to three orders of magnitude, while still achieving their same or even better query and update time efficiency. As an example, in the static setting of predecessor and range queries, the PGM-index matches the query performance of a cache-optimised static B+-tree within two orders of magnitude (83×) less space; whereas in the fully-dynamic setting, where insertions and deletions are allowed, the PGM-index improves the query and update time performance of a B+-tree by up to 71% within three orders of magnitude (1140×) less space.",
+    "citationCount": 148,
+    "referenceCount": 55
+}

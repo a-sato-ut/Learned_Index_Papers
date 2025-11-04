@@ -1,0 +1,35 @@
+{
+    "paperId": "94a02cbffa96346530ebcf1edb7e048c48d958a8",
+    "title": "NEIST: A Neural-Enhanced Index for Spatio-Temporal Queries",
+    "year": 2019,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Sai Wu",
+        "Zhifei Pang",
+        "Gang Chen",
+        "Yunjun Gao",
+        "Cenjiong Zhao",
+        "Shili Xiang"
+    ],
+    "doi": "10.1109/TKDE.2019.2945947",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/94a02cbffa96346530ebcf1edb7e048c48d958a8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/tkde.2019.2945947",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Previous work on the spatio-temporal index often adopts a simple linear model to predict the future positions of moving objects, which may generate numerous errors for complex road networks and fast moving objects. In this paper, we propose NEIST, a neural-enhanced index to process spatio-temporal queries with enhanced efficiency and accuracy, by intelligently leveraging the movement patterns among moving objects. NEIST applies a Recurrent Neural Network (RNN) model to predict future positions of moving objects based on observed trajectories. To reduce the prediction overhead, a suffix-tree is further built to index trajectories with similar suffixes, and thus similar objects within a given similarity bound are grouped together to share the same prediction result. A prediction result in NEIST represents possible positions of a group of moving objects in the next <inline-formula><tex-math notation=\"LaTeX\">$t$</tex-math><alternatives><mml:math><mml:mi>t</mml:mi></mml:math><inline-graphic xlink:href=\"pang-ieq1-2945947.gif\"/></alternatives></inline-formula> time slots. Inside each time slot, traditional linear prediction model is then adopted and a TPR-Tree is built to support spatio-temporal queries. We use Singapore and Porto taxi trajectory datasets to evaluate NEIST. Compared to previous approaches, NEIST achieves a much more efficient query performance and is able to produce about 70 percent more accurate results.",
+    "citationCount": 6,
+    "referenceCount": 35
+}

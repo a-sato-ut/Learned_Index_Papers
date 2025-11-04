@@ -1,0 +1,34 @@
+{
+    "paperId": "9032a75a23c30dae4476e317cffe717c28d306b4",
+    "title": "Robust Cardinality: a novel approach for cardinality prediction in SQL queries",
+    "year": 2021,
+    "venue": "Journal of the Brazilian Computer Society",
+    "authors": [
+        "Francisco D. B. S. Praciano",
+        "P. Amora",
+        "Italo C. Abreu",
+        "F. Pereira",
+        "Javam C. Machado"
+    ],
+    "doi": "10.1186/s13173-021-00115-9",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9032a75a23c30dae4476e317cffe717c28d306b4",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://journal-bcs.springeropen.com/counter/pdf/10.1186/s13173-021-00115-9",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Database Management Systems (DBMSs) use declarative language to execute queries to stored data. The DBMS defines how data will be processed and ultimately retrieved. Therefore, it must choose the best option from the different possibilities based on an estimation process. The optimization process uses estimated cardinalities to make optimization decisions, such as choosing predicate order. In this paper, we propose Robust Cardinality, an approach to calculate cardinality estimates of query operations to guide the execution engine of the DBMSs to choose the best possible form or at least avoid the worst one. By using machine learning, instead of the current histogram heuristics, it is possible to improve these estimates; hence, leading to more efficient query execution. We perform experimental tests using PostgreSQL, comparing both estimators and a modern technique proposed in the literature. With Robust Cardinality, a lower estimation error of a batch of queries was obtained and PostgreSQL executed these queries more efficiently than when using the default estimator. We observed a 3% reduction in execution time after reducing 4 times the query estimation error. From the results, it is possible to conclude that this new approach results in improvements in query processing in DBMSs, especially in the generation of cardinality estimates.",
+    "citationCount": 2,
+    "referenceCount": 43
+}

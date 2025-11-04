@@ -1,0 +1,31 @@
+{
+    "paperId": "305dd8cc9fe46a0ac643edfcaeff3ce3148a6109",
+    "title": "Evaluating Learned Indexes for External-Memory Joins",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yuvaraj Chesetti",
+        "Prashant Pandey"
+    ],
+    "doi": "10.48550/arXiv.2407.00590",
+    "arxivId": "2407.00590",
+    "url": "https://www.semanticscholar.org/paper/305dd8cc9fe46a0ac643edfcaeff3ce3148a6109",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Joins are among the most time-consuming and data-intensive operations in relational query processing. Much research effort has been applied to the optimization of join processing due to their frequent execution. Recent studies have shown that CDF-based learned models can create smaller and faster indexes, accelerating in-memory joins. However, their effectiveness for external-memory joins, which are crucial for large-scale databases, remains underexplored. This paper evaluates the impact of learned indexes on external-memory joins for both sorted and unsorted data. We compare learned index-based joins against traditional join methods such as hash joins, sort joins, and indexed nested-loop joins on real-world and simulated datasets. Additionally, we analyze learned index-based joins across multiple dimensions, including storage device types, data sorting, parallelism, constrained memory environments, and varying model error. The detailed evaluation enables us to determine the most appropriate learned index to employ for external-memory joins. Our experiments reveal that, unlike in-memory settings, learned indexes in external-memory joins can trade off accuracy for space without significantly degrading performance. While learned indexes provide smaller index sizes and faster lookups, they perform similarly to B-trees in external-memory joins since the total amount of I/O, which dominates runtime, remains unchanged. Additionally, the construction times of learned indexes are approximately $1000\\times$ longer, and although they are $2-4\\times$ smaller than the internal nodes of a B-tree, these nodes only represent $0.4%-1%$ of the data size and typically fit in main memory.",
+    "citationCount": 0,
+    "referenceCount": 39
+}
