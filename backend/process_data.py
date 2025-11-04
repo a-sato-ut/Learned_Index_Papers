@@ -145,14 +145,18 @@ class Corpus:
         return self.papers.get(paper_id)
 
     def get_cites(self, paper_id: str, limit: int = 200) -> List[Paper]:
-        """この論文が引用している論文のリストを取得"""
-        citation_ids = self.cites.get(paper_id, [])[:limit]
-        return [self.papers[pid] for pid in citation_ids if pid in self.papers]
+        """この論文が引用している論文のリストを取得（cited_byの数が多い順）"""
+        citation_ids = self.cites.get(paper_id, [])
+        papers = [self.papers[pid] for pid in citation_ids if pid in self.papers]
+        papers.sort(key=lambda p: p.citationCount, reverse=True)
+        return papers[:limit]
 
     def get_cited_by(self, paper_id: str, limit: int = 200) -> List[Paper]:
-        """この論文を引用している論文のリストを取得"""
-        cited_by_ids = self.cited_by.get(paper_id, [])[:limit]
-        return [self.papers[pid] for pid in cited_by_ids if pid in self.papers]
+        """この論文を引用している論文のリストを取得（cited_byの数が多い順）"""
+        cited_by_ids = self.cited_by.get(paper_id, [])
+        papers = [self.papers[pid] for pid in cited_by_ids if pid in self.papers]
+        papers.sort(key=lambda p: p.citationCount, reverse=True)
+        return papers[:limit]
 
 
 # グローバルCorpusインスタンス

@@ -1,0 +1,34 @@
+{
+    "paperId": "c0ba93140109ba8df17125c2245b706729a3632b",
+    "title": "CGDTest: A Constrained Gradient Descent Algorithm for Testing Neural Networks",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Vineel Nagisetty",
+        "Laura Graves",
+        "Guanting Pan",
+        "Piyush Jha",
+        "Vijay Ganesh"
+    ],
+    "doi": "10.48550/arXiv.2304.01826",
+    "arxivId": "2304.01826",
+    "url": "https://www.semanticscholar.org/paper/c0ba93140109ba8df17125c2245b706729a3632b",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2304.01826",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we propose a new Deep Neural Network (DNN) testing algorithm called the Constrained Gradient Descent (CGD) method, and an implementation we call CGDTest aimed at exposing security and robustness issues such as adversarial robustness and bias in DNNs. Our CGD algorithm is a gradient-descent (GD) method, with the twist that the user can also specify logical properties that characterize the kinds of inputs that the user may want. This functionality sets CGDTest apart from other similar DNN testing tools since it allows users to specify logical constraints to test DNNs not only for $\\ell_p$ ball-based adversarial robustness but, more importantly, includes richer properties such as disguised and flow adversarial constraints, as well as adversarial robustness in the NLP domain. We showcase the utility and power of CGDTest via extensive experimentation in the context of vision and NLP domains, comparing against 32 state-of-the-art methods over these diverse domains. Our results indicate that CGDTest outperforms state-of-the-art testing tools for $\\ell_p$ ball-based adversarial robustness, and is significantly superior in testing for other adversarial robustness, with improvements in PAR2 scores of over 1500% in some cases over the next best tool. Our evaluation shows that our CGD method outperforms competing methods we compared against in terms of expressibility (i.e., a rich constraint language and concomitant tool support to express a wide variety of properties), scalability (i.e., can be applied to very large real-world models with up to 138 million parameters), and generality (i.e., can be used to test a plethora of model architectures).",
+    "citationCount": 1,
+    "referenceCount": 59
+}

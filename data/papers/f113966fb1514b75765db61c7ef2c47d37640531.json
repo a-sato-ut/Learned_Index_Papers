@@ -1,0 +1,28 @@
+{
+    "paperId": "f113966fb1514b75765db61c7ef2c47d37640531",
+    "title": "TFQS: HBase-based Cache Optimization Model for Secondary Index",
+    "year": 2024,
+    "venue": "2024 4th International Conference on Advanced Enterprise Information System (AEIS)",
+    "authors": [
+        "Fan Ding",
+        "Meng Zhou",
+        "Lizhi Lv"
+    ],
+    "doi": "10.1109/AEIS65978.2024.00013",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f113966fb1514b75765db61c7ef2c47d37640531",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data is characterized by large scale, diversity, velocity and low value density in the Internet of Everything era. Traditional relational databases face significant challenges in efficiently storing and querying large volumes of heterogeneous data. In particularly, healthcare data not only has the features of big data but also real-time capability, privacy, security, and time dependency. The effective management of such data is currently a hot research topic. HBase is a widely used NoSQL database in big data applications, which provides fast write throughput and high concurrency. However, the query on non-rowkeys columns is low due to that filters are combined with a full table scan to complete one query. To overcome this problem, we propose a new cache optimization algorithm TFQS (Temperature Frequency Queue Segment) which improve data retrieval efficiency by building HBase non-rowkeys secondary index with Elasticsearch. In additional, TFQS can improve memory efficiency, further increasing query speed and efficiency. Finally, comparative experiments were performed on the real healthcare data set MIMIC-III. The results show that TFQS enhanced performance of conditional queries by approximately 75.6% compared to HBase, and by around 58.5% and 28.7% compared to Phoenix and Solr respectively. Our solution yielded 18 times and 8.7 times improvements on range queries compared with Phoenix and Solr. Cache hit rate is about 10.4% higher than native HBase.",
+    "citationCount": 0,
+    "referenceCount": 33
+}

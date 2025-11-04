@@ -1,0 +1,37 @@
+{
+    "paperId": "6c74d1ac13d6fb64e03ad94e7215926f91a0380a",
+    "title": "TESSM: Tree-based Selective State Space Models for Efficient Join Order Selection Learning",
+    "year": 2024,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Yaohui Chu",
+        "Yizhe Liu",
+        "Yue Zhang",
+        "Xuan Hou",
+        "Longfei Yu",
+        "Zhaohui Peng"
+    ],
+    "doi": "10.1145/3627673.3679742",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6c74d1ac13d6fb64e03ad94e7215926f91a0380a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Join order optimization is pivotal in database query optimization, seeking the most efficient join sequence to reduce execution costs. As more tables join, the complexity surges, turning it into an NP-hard problem due to the exponential growth of possible orders. Deep reinforcement learning (DRL) has recently made significant strides, outperforming traditional algorithms by treating join selection as a Markov Decision Process to devise more effective strategies.Current methods struggle with integrating query semantics and plan structures, as well as encountering issues with complex joins where bottom-up learning can lead to information loss.To tackle these issues, we present the Tree-based Selective State Space Models for Efficient Join Order Selection Learning(TESSM). This framework uses the Tree Mamba architecture to integrate join pattern graphs with execution plan nodes, enhancing long-term dependency information flow. A tiered training strategy enhances the model's training precision and speed.Our approach has proven effective, as evidenced by JOB and TPC-H benchmark tests, showing TESSM's substantial improvements in query optimization efficiency and effectiveness.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "5003f40b1c13f801cf3e4589b0fa2c464112d479",
+    "title": "Learning to Learn with Indispensable Connections",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sambhavi Tiwari",
+        "Manas Gogoi",
+        "Shekhar Verma",
+        "Krishna Pratap Singh"
+    ],
+    "doi": "10.48550/arXiv.2304.02862",
+    "arxivId": "2304.02862",
+    "url": "https://www.semanticscholar.org/paper/5003f40b1c13f801cf3e4589b0fa2c464112d479",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2304.02862",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Meta-learning aims to solve unseen tasks with few labelled instances. Nevertheless, despite its effectiveness for quick learning in existing optimization-based methods, it has several flaws. Inconsequential connections are frequently seen during meta-training, which results in an over-parameterized neural network. Because of this, meta-testing observes unnecessary computations and extra memory overhead. To overcome such flaws. We propose a novel meta-learning method called Meta-LTH that includes indispensible (necessary) connections. We applied the lottery ticket hypothesis technique known as magnitude pruning to generate these crucial connections that can effectively solve few-shot learning problem. We aim to perform two things: (a) to find a sub-network capable of more adaptive meta-learning and (b) to learn new low-level features of unseen tasks and recombine those features with the already learned features during the meta-test phase. Experimental results show that our proposed Met-LTH method outperformed existing first-order MAML algorithm for three different classification datasets. Our method improves the classification accuracy by approximately 2% (20-way 1-shot task setting) for omniglot dataset.",
+    "citationCount": 1,
+    "referenceCount": 47
+}

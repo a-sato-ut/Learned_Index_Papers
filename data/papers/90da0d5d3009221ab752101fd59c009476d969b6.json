@@ -1,0 +1,33 @@
+{
+    "paperId": "90da0d5d3009221ab752101fd59c009476d969b6",
+    "title": "Towards Exploratory Query Optimization for Template-Based SQL Workloads",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Jieming Feng",
+        "Zhanhuai Li",
+        "Qun Chen"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00019",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/90da0d5d3009221ab752101fd59c009476d969b6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "SQL query optimization aims to choose an optimal Query Execution Plan (QEP) for a query. The existing optimizers usually choose the plan with the minimal execution cost. However, in some real scenarios (e.g., cloud OLAP), it is a business imperative to minimize the cost of an entire workload. Unfortunately, the greedy optimizers are prone to generating execution plans that are only suboptimal from the workload perspective. In this paper, we propose a novel QEP optimization approach for template-based SQL that aims to minimize the execution cost of an entire workload instead of individual queries. While choosing an execution plan for a query, the proposed approach considers a plan's impact on future query execution as well as its own execution cost. We first define an exploratory metric, Plan Exploration Value (PEV), to measure a plan's potential benefit to future query execution. Then, we model exploratory plan selection as an optimization problem with cost constraints, and present an efficient algorithm based on dynamic programming for its solution. Finally, we evaluate the performance of the proposed approach by a comparative study on benchmark workloads. Our extensive experiments have shown that it generates more efficient workload execution plans than the existing alternatives.",
+    "citationCount": 1,
+    "referenceCount": 75
+}

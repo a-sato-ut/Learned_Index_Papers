@@ -1,0 +1,33 @@
+{
+    "paperId": "2300b39b8168656f53819efa8722dbca8795c89e",
+    "title": "A DPLL(T) Framework for Verifying Deep Neural Networks",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hai V. Duong",
+        "Linhan Li",
+        "Thanh-Dat Nguyen",
+        "Matthew B. Dwyer"
+    ],
+    "doi": "10.48550/arXiv.2307.10266",
+    "arxivId": "2307.10266",
+    "url": "https://www.semanticscholar.org/paper/2300b39b8168656f53819efa8722dbca8795c89e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.10266",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Neural Networks (DNNs) have emerged as an effective approach to tackling real-world problems. However, like human-written software, DNNs can have bugs and can be attacked. To address this, research has explored a wide-range of algorithmic approaches to verify DNN behavior. In this work, we introduce NeuralSAT, a new verification approach that adapts the widely-used DPLL(T) algorithm used in modern SMT solvers. A key feature of SMT solvers is the use of conflict clause learning and search restart to scale verification. Unlike prior DNN verification approaches, NeuralSAT combines an abstraction-based deductive theory solver with clause learning and an evaluation clearly demonstrates the benefits of the approach on a set of challenging verification benchmarks.",
+    "citationCount": 12,
+    "referenceCount": 109
+}

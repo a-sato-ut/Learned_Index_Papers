@@ -1,0 +1,32 @@
+{
+    "paperId": "75947583768e7b92773e751f236af4f257acb5eb",
+    "title": "Privacy-Preserving Fine-Grained Redaction with Policy Fuzzy Matching in Blockchain-Based Mobile Crowdsensing",
+    "year": 2023,
+    "venue": "Electronics",
+    "authors": [
+        "Hongchen Guo",
+        "Haotian Liang",
+        "Mingyang Zhao",
+        "Yao Xiao",
+        "Tong Wu",
+        "Jingfeng Xue",
+        "Liehuang Zhu"
+    ],
+    "doi": "10.3390/electronics12163416",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/75947583768e7b92773e751f236af4f257acb5eb",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2079-9292/12/16/3416/pdf?version=1691751353",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The redactable blockchain has emerged as a promising technique in mobile crowdsensing, allowing users to break immutability in a controlled manner selectively. Unfortunately, current fine-grained redactable blockchains suffer two significant limitations in terms of security and functionality, which severely impede their application in mobile crowdsensing. For security, the transparency of the blockchain allows anyone to access both the data and policy, which consequently results in a breach of user privacy. Regarding functionality, current solutions cannot support error tolerance during policy matching, thereby limiting their applicability in various situations, such as fingerprint-based and face-based identification scenarios. This paper presents a privacy-preserving fine-grained redactable blockchain with policy fuzzy matching, named PRBFM. PRBFM supports fuzzy policy matching and partitions users’ privileges without compromising user privacy. The idea of PRBFM is to leverage threshold linear secret sharing based on the Lagrange interpolation theorem to distribute the decryption keys and chameleon hash trapdoors. Additionally, we have incorporated a privacy-preserving policy matching delegation mechanism into PRBFM to minimize user overhead. Our security analysis demonstrates that PRBFM can defend against the chosen-ciphertext attack. Moreover, experiments conducted on the FISCO blockchain platform show that PRBFM is at least 7.8 times faster than existing state-of-the-art solutions.",
+    "citationCount": 4,
+    "referenceCount": 40
+}

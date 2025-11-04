@@ -1,0 +1,33 @@
+{
+    "paperId": "84badec243c43b2ed490b8e85e84b3ae7e9b109e",
+    "title": "Robust Learning-Augmented Dictionaries",
+    "year": 2024,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "Ali Zeynali",
+        "Shahin Kamali",
+        "M. Hajiesmaili"
+    ],
+    "doi": "10.48550/arXiv.2402.09687",
+    "arxivId": "2402.09687",
+    "url": "https://www.semanticscholar.org/paper/84badec243c43b2ed490b8e85e84b3ae7e9b109e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present the first learning-augmented data structure for implementing dictionaries with optimal consistency and robustness. Our data structure, named RobustSL, is a skip list augmented by predictions of access frequencies of elements in a data sequence. With proper predictions, RobustSL has optimal consistency (achieves static optimality). At the same time, it maintains a logarithmic running time for each operation, ensuring optimal robustness, even if predictions are generated adversarially. Therefore, RobustSL has all the advantages of the recent learning-augmented data structures of Lin, Luo, and Woodruff (ICML 2022) and Cao et al. (arXiv 2023), while providing robustness guarantees that are absent in the previous work. Numerical experiments show that RobustSL outperforms alternative data structures using both synthetic and real datasets.",
+    "citationCount": 5,
+    "referenceCount": 23
+}

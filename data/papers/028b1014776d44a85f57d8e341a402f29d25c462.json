@@ -1,0 +1,42 @@
+{
+    "paperId": "028b1014776d44a85f57d8e341a402f29d25c462",
+    "title": "ConZone: A Zoned Flash Storage Emulator for Consumer Devices",
+    "year": 2025,
+    "venue": "Design, Automation and Test in Europe",
+    "authors": [
+        "Dingcui Yu",
+        "Jialin Liu",
+        "Yumiao Zhao",
+        "Wentong Li",
+        "Ziang Huang",
+        "Zonghuan Yan",
+        "Mengyang Ma",
+        "Liang Shi"
+    ],
+    "doi": "10.23919/DATE64628.2025.10993146",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/028b1014776d44a85f57d8e341a402f29d25c462",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Considering the potential benefits to lifespan and performance, zoned flash storage is expected to be incorporated into the next generation of consumer devices. However, due to the limited volatile cache and heterogeneous flash cells of consumer-grade flash storage, adopting a zone abstraction requires additional internal hardware design to maximize its benefits. To understand and efficiently improve the hardware design on consumer-grade zoned flash storage, we present ConZone—the first emulator tailored to the characteristics of consumer-grade zoned flash storage. Users can explore the internal architecture and management strategies of consumer-grade zoned flash storage and integrate the optimization with software. We validate the accuracy of ConZone by realizing a hardware architecture for consumer-grade zoned flash storage and comparing it with the state-of-the-art. We also make a case study for read performance research with ConZone to explore the design of mapping mechanisms and cache management strategies.",
+    "citationCount": 1,
+    "referenceCount": 30
+}

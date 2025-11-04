@@ -1,0 +1,32 @@
+{
+    "paperId": "eb92536fa8c6b940ceddda157007847bf01762a5",
+    "title": "A Novel Technique for Query Plan Representation Based on Graph Neural Nets",
+    "year": 2024,
+    "venue": "International Conference on Data Warehousing and Knowledge Discovery",
+    "authors": [
+        "Baoming Chang",
+        "Amin Kamali",
+        "Verena Kantere"
+    ],
+    "doi": "10.1007/978-3-031-68323-7_25",
+    "arxivId": "2405.04814",
+    "url": "https://www.semanticscholar.org/paper/eb92536fa8c6b940ceddda157007847bf01762a5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning representations for query plans play a pivotal role in machine learning-based query optimizers of database management systems. To this end, particular model architectures are proposed in the literature to transform the tree-structured query plans into representations with formats learnable by downstream machine learning models. However, existing research rarely compares and analyzes the query plan representation capabilities of these tree models and their direct impact on the performance of the overall optimizer. To address this problem, we perform a comparative study to explore the effect of using different state-of-the-art tree models on the optimizer's cost estimation and plan selection performance in relatively complex workloads. Additionally, we explore the possibility of using graph neural networks (GNNs) in the query plan representation task. We propose a novel tree model BiGG employing Bidirectional GNN aggregated by Gated recurrent units (GRUs) and demonstrate experimentally that BiGG provides significant improvements to cost estimation tasks and relatively excellent plan selection performance compared to the state-of-the-art tree models.",
+    "citationCount": 4,
+    "referenceCount": 29
+}

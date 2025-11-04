@@ -1,0 +1,36 @@
+{
+    "paperId": "1d8b191688f6ae15db5168d4dd77e623e9b10051",
+    "title": "ParaCkpt: Heterogeneous Multi-Path Checkpointing Mechanism for Training Deep Learning Models",
+    "year": 2024,
+    "venue": "ICCD",
+    "authors": [
+        "Shucheng Wang",
+        "Qiang Cao",
+        "Kaiye Zhou",
+        "Jun Xu",
+        "Zhandong Guo",
+        "Jiannan Guo"
+    ],
+    "doi": "10.1109/ICCD63220.2024.00036",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1d8b191688f6ae15db5168d4dd77e623e9b10051",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Training large deep learning models is extremely computationally intensive and time-consuming; therefore, it relies on checkpointing mechanisms to save snapshots promptly, ensuring rapid recovery from a myriad of failures. Existing checkpointing approaches save snapshots to either CPU memory or storage, overlooking their aggregated I/O capability. In this paper, we propose a heterogeneous multi-path checkpointing mechanism, ParaCkpt, to make full use of both PCle-bandwidth and I/O capability of memory and storage to accelerate check-pointing. ParaCkpt first identifies multiple paths for GPUs to CPU memory, local and remote storages, and determines their available bandwidths. Then, ParaCkpt strategically partitions the training model states into a set of path-based shards and drains them from GPUs to the memory and storage in parallel. Moreover, ParaCkpt employs a two-stage persistence strategy to flush in-memory shards to local SSDs in the background, and then stores local shards using compression to remote storage. Finally, ParaCkpt maintains global snapshots distributed across memory and storage, enabling rapid recovery via the multi-path way. We evaluate ParaCkpt with various real-world deep learning models. ParaCkpt outperforms native Pytorch and state-of-the-art asynchronous checkpointing approaches by up to 96 x and 2.3 x in throughput, respectively.",
+    "citationCount": 0,
+    "referenceCount": 37
+}

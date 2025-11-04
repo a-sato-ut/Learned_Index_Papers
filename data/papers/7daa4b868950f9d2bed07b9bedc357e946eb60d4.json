@@ -1,0 +1,38 @@
+{
+    "paperId": "7daa4b868950f9d2bed07b9bedc357e946eb60d4",
+    "title": "DEM: A Method for Certifying Deep Neural Network Classifier Outputs in Aerospace",
+    "year": 2024,
+    "venue": "Symposium on Dependable Autonomic and Secure Computing",
+    "authors": [
+        "Guy Katz",
+        "Natan Levy",
+        "Idan Refaeli",
+        "Raz Yerushalmi"
+    ],
+    "doi": "10.1109/DASC62030.2024.10748779",
+    "arxivId": "2401.02283",
+    "url": "https://www.semanticscholar.org/paper/7daa4b868950f9d2bed07b9bedc357e946eb60d4",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2401.02283",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Air transportation, a critical component of modern life, faces significant challenges concerning efficiency, environ-mental sustainability, and safety. Addressing these challenges necessitates innovative solutions, such as using deep neural networks (DNNs). However, although DNNs demonstrate remark-able performance, they remain susceptible to tiny perturbations in their inputs, which may result in misclassification. The vulnerability, known as adversarial inputs, may trigger a chain of events that could result in significant, or even catastrophic, failures. In this regard, adversarial inputs constitute a crucial obstacle to the integration of DNNs into safety-critical aerospace systems. In the present work, we introduce a novel, output-centric method for certifying DNNs that addresses this challenge. This method utilizes statistical techniques to flag out specific inputs for which the DNN's output might be unreliable so that a human expert may examine them. In contrast to existing techniques, which typically attempt to certify the entire DNN, the proposed method certifies specific outputs. Moreover, the proposed method uses the DNN as a black box and makes no assumptions about its topology. We developed a proof-of-concept tool called DEM to demon-strate the feasibility of the proposed method. For evaluation, we tested the proposed method on a VGG-16 model, trained on the CIFAR16 dataset, showing that the proposed method achieved a high percentage of success in detecting adversarial inputs. We believe this work constitutes another step towards integrating deep neural networks in safety-critical applications - especially in the aerospace domain, where high standards of quality and reliability are crucial.",
+    "citationCount": 1,
+    "referenceCount": 43
+}

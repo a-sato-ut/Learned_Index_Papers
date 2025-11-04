@@ -1,0 +1,34 @@
+{
+    "paperId": "d2aa7b7e33b1b4ee7bd8beb61058dea1683af1aa",
+    "title": "Microsecond-scale Dynamic Validation of Idempotency for GPU Kernels",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Mingcong Han",
+        "Weihang Shen",
+        "Guanwen Peng",
+        "Rong Chen",
+        "Haibo Chen"
+    ],
+    "doi": "10.48550/arXiv.2410.23661",
+    "arxivId": "2410.23661",
+    "url": "https://www.semanticscholar.org/paper/d2aa7b7e33b1b4ee7bd8beb61058dea1683af1aa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We discovered that a GPU kernel can have both idempotent and non-idempotent instances depending on the input. These kernels, called conditionally-idempotent, are prevalent in real-world GPU applications (490 out of 547 from six applications). Consequently, prior work that classifies GPU kernels as either idempotent or non-idempotent can severely compromise the correctness or efficiency of idempotence-based systems. This paper presents PICKER, the first system for instance-level idempotency validation. PICKER dynamically validates the idempotency of GPU kernel instances before their execution, by utilizing their launch arguments. Several optimizations are proposed to significantly reduce validation latency to microsecond-scale. Evaluations using representative GPU applications (547 kernels and 18,217 instances in total) show that PICKER can identify idempotent instances with no false positives and a false-negative rate of 18.54%, and can complete the validation within 5 us for all instances. Furthermore, by integrating PICKER, a fault-tolerant system can reduce the checkpoint cost to less than 4% and a scheduling system can reduce the preemption latency by 84.2%.",
+    "citationCount": 3,
+    "referenceCount": 73
+}

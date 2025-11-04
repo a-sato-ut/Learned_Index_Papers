@@ -1,0 +1,36 @@
+{
+    "paperId": "deff9260621cc0466169d57e8ef764902d5126b8",
+    "title": "OS-R1: Agentic Operating System Kernel Tuning with Reinforcement Learning",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hongyu Lin",
+        "Yuchen Li",
+        "Haoran Luo",
+        "Kaichun Yao",
+        "Libo Zhang",
+        "Mingjie Xing",
+        "Yanjun Wu"
+    ],
+    "doi": "10.48550/arXiv.2508.12551",
+    "arxivId": "2508.12551",
+    "url": "https://www.semanticscholar.org/paper/deff9260621cc0466169d57e8ef764902d5126b8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Linux kernel tuning is essential for optimizing operating system (OS) performance. However, existing methods often face challenges in terms of efficiency, scalability, and generalization. This paper introduces OS-R1, an agentic Linux kernel tuning framework powered by rule-based reinforcement learning (RL). By abstracting the kernel configuration space as an RL environment, OS-R1 facilitates efficient exploration by large language models (LLMs) and ensures accurate configuration modifications. Additionally, custom reward functions are designed to enhance reasoning standardization, configuration modification accuracy, and system performance awareness of the LLMs. Furthermore, we propose a two-phase training process that accelerates convergence and minimizes retraining across diverse tuning scenarios. Experimental results show that OS-R1 significantly outperforms existing baseline methods, achieving up to 5.6% performance improvement over heuristic tuning and maintaining high data efficiency. Notably, OS-R1 is adaptable across various real-world applications, demonstrating its potential for practical deployment in diverse environments. Our dataset and code are publicly available at https://github.com/LHY-24/OS-R1.",
+    "citationCount": 1,
+    "referenceCount": 21
+}

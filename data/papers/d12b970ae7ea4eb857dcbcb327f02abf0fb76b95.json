@@ -1,0 +1,35 @@
+{
+    "paperId": "d12b970ae7ea4eb857dcbcb327f02abf0fb76b95",
+    "title": "Employing Streaming Machine Learning for Modeling Workload Patterns in Multi-Tiered Data Storage Systems",
+    "year": 2025,
+    "venue": "Future Internet",
+    "authors": [
+        "Edson Ramiro Lucas Filho",
+        "George Savva",
+        "Lun Yang",
+        "Ke-Bo Fu",
+        "Jianqiang Shen",
+        "H. Herodotou"
+    ],
+    "doi": "10.3390/fi17040170",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d12b970ae7ea4eb857dcbcb327f02abf0fb76b95",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern multi-tiered data storage systems optimize file access by managing data across a hybrid composition of caches and storage tiers while using policies whose decisions can severely impact the storage system’s performance. Recently, different Machine-Learning (ML) algorithms have been used to model access patterns from complex workloads. Yet, current approaches train their models offline in a batch-based approach, even though storage systems are processing a stream of file requests with dynamic workloads. In this manuscript, we advocate the streaming ML paradigm for modeling access patterns in multi-tiered storage systems as it introduces various advantages, including high efficiency, high accuracy, and high adaptability. Moreover, representative file access patterns, including temporal, spatial, length, and frequency patterns, are identified for individual files, directories, and file formats, and used as features. Streaming ML models are developed, trained, and tested on different file system traces for making two types of predictions: the next offset to be read in a file and the future file hotness. An extensive evaluation is performed with production traces provided by Huawei Technologies, showing that the models are practical, with low memory consumption (<1.3 MB) and low training delay (<1.8 ms per training instance), and can make accurate predictions online (0.98 F1 score and 0.07 MAE on average).",
+    "citationCount": 0,
+    "referenceCount": 80
+}

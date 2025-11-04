@@ -1,0 +1,37 @@
+{
+    "paperId": "2a67c447c4aa03d7ebb85efde39b40cfc3bba6b4",
+    "title": "Harnessing Neuron Stability to Improve DNN Verification",
+    "year": 2024,
+    "venue": "Proc. ACM Softw. Eng.",
+    "authors": [
+        "Hai Duong",
+        "Dong Xu",
+        "ThanhVu Nguyen",
+        "Matthew B. Dwyer"
+    ],
+    "doi": "10.1145/3643765",
+    "arxivId": "2401.14412",
+    "url": "https://www.semanticscholar.org/paper/2a67c447c4aa03d7ebb85efde39b40cfc3bba6b4",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2401.14412",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Neural Networks (DNN) have emerged as an effective approach to tackling real-world problems. However, like human-written software, DNNs are susceptible to bugs and attacks. This has generated significant interest in developing effective and scalable DNN verification techniques and tools. Recent developments in DNN verification have highlighted the potential of constraint-solving approaches that combine abstraction techniques with SAT solving. Abstraction approaches are effective at precisely encoding neuron behavior when it is linear, but they lead to overapproximation and combinatorial scaling when behavior is non-linear. SAT approaches in DNN verification have incorporated standard DPLL techniques, but have overlooked important optimizations found in modern SAT solvers that help them scale on industrial benchmarks. In this paper, we present VeriStable, a novel extension of the recently proposed DPLL-based constraint DNN verification approach. VeriStable leverages the insight that while neuron behavior may be non-linear across the entire DNN input space, at intermediate states computed during verification many neurons may be constrained to have linear behavior – these neurons are stable. Efficiently detecting stable neurons reduces combinatorial complexity without compromising the precision of abstractions. Moreover, the structure of clauses arising in DNN verification problems shares important characteristics with industrial SAT benchmarks. We adapt and incorporate multi-threading and restart optimizations targeting those characteristics to further optimize DPLL-based DNN verification. We evaluate the effectiveness of VeriStable across a range of challenging benchmarks including fully- connected feedforward networks (FNNs), convolutional neural networks (CNNs) and residual networks (ResNets) applied to the standard MNIST and CIFAR datasets. Preliminary results show that VeriStable is competitive and outperforms state-of-the-art DNN verification tools, including α-β-CROWN and MN-BaB, the first and second performers of the VNN-COMP, respectively.",
+    "citationCount": 13,
+    "referenceCount": 83
+}

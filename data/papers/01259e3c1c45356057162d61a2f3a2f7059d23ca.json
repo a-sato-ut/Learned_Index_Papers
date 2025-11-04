@@ -1,0 +1,44 @@
+{
+    "paperId": "01259e3c1c45356057162d61a2f3a2f7059d23ca",
+    "title": "Heimdall: Optimizing Storage I/O Admission with Extensive Machine Learning Pipeline",
+    "year": 2025,
+    "venue": "European Conference on Computer Systems",
+    "authors": [
+        "D. Kurniawan",
+        "Rani Ayu Putri",
+        "Peiran Qin",
+        "Kahfi S. Zulkifli",
+        "Ray A. O. Sinurat",
+        "Jaki Bhimani",
+        "S. Madireddy",
+        "A. I. Kistijantoro",
+        "Haryadi S. Gunawi"
+    ],
+    "doi": "10.1145/3689031.3717496",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/01259e3c1c45356057162d61a2f3a2f7059d23ca",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper introduces Heimdall, a highly accurate and efficient machine learning-powered I/O admission policy for flash storage, designed to operate in a black-box manner. We make domain-specific innovations in various ML stages by introducing accurate period-based labeling, 3-stage noise filtering, in-depth feature engineering, and fine-grained tuning, which together improve the decision accuracy from 67% up to 93%. We perform various deployment optimizations to reach a sub-μs inference latency and a small, 28KB, memory overhead. With 500 unbiased random experiments derived from production traces, we show Heimdall delivers 15-35% lower average I/O latency compared to the state of the art and up to 2x faster to a baseline. Heimdall is ready for user-level, in-kernel, and distributed deployments.",
+    "citationCount": 2,
+    "referenceCount": 89
+}

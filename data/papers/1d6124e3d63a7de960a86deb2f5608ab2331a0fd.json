@@ -1,0 +1,33 @@
+{
+    "paperId": "1d6124e3d63a7de960a86deb2f5608ab2331a0fd",
+    "title": "PREMAP: A Unifying PREiMage APproximation Framework for Neural Networks",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Xiyue Zhang",
+        "Benjie Wang",
+        "Marta Z. Kwiatkowska",
+        "Huan Zhang"
+    ],
+    "doi": "10.48550/arXiv.2408.09262",
+    "arxivId": "2408.09262",
+    "url": "https://www.semanticscholar.org/paper/1d6124e3d63a7de960a86deb2f5608ab2331a0fd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Most methods for neural network verification focus on bounding the image, i.e., set of outputs for a given input set. This can be used to, for example, check the robustness of neural network predictions to bounded perturbations of an input. However, verifying properties concerning the preimage, i.e., the set of inputs satisfying an output property, requires abstractions in the input space. We present a general framework for preimage abstraction that produces under- and over-approximations of any polyhedral output set. Our framework employs cheap parameterised linear relaxations of the neural network, together with an anytime refinement procedure that iteratively partitions the input region by splitting on input features and neurons. The effectiveness of our approach relies on carefully designed heuristics and optimization objectives to achieve rapid improvements in the approximation volume. We evaluate our method on a range of tasks, demonstrating significant improvement in efficiency and scalability to high-input-dimensional image classification tasks compared to state-of-the-art techniques. Further, we showcase the application to quantitative verification and robustness analysis, presenting a sound and complete algorithm for the former and providing sound quantitative results for the latter.",
+    "citationCount": 4,
+    "referenceCount": 58
+}

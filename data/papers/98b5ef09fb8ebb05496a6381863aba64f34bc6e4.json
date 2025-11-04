@@ -1,0 +1,36 @@
+{
+    "paperId": "98b5ef09fb8ebb05496a6381863aba64f34bc6e4",
+    "title": "EmbedDB: A High-Performance Time Series Database for Embedded Systems",
+    "year": 2024,
+    "venue": "International Conference on Enterprise Information Systems",
+    "authors": [
+        "Justin Schoenit",
+        "Seth Akins",
+        "Ramon Lawrence"
+    ],
+    "doi": "10.5220/0012558100003690",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/98b5ef09fb8ebb05496a6381863aba64f34bc6e4",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.5220/0012558100003690",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": ": Efficient data processing on embedded devices may reduce network communication and improve battery usage allowing for longer sensor lifetime. Data processing is challenged by limited CPU and memory hardware. EmbedDB is a key-value data store supporting time series and relational data on memory-constrained devices. EmbedDB is competitive with SQLite on more powerful embedded hardware such as the Raspberry Pi and executes on hardware such as Arduinos that SQLite and other previous systems cannot. Experimental results evaluating EmbedDB on time series query processing show a speedup of five times compared to SQLite on a Raspberry Pi on many queries, and the ability to execute data processing on small embedded systems not well supported by existing databases.",
+    "citationCount": 0,
+    "referenceCount": 16
+}

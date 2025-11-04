@@ -1,0 +1,37 @@
+{
+    "paperId": "2f0a904e7da6e335020ebec16848b3d0b4e92a47",
+    "title": "EmbedDB: A High-Performance Database for Resource-Constrained Embedded Systems Too Small for SQLite",
+    "year": 2024,
+    "venue": "ACM Symposium on Applied Computing",
+    "authors": [
+        "Justin Schoenit",
+        "Seth Akins",
+        "Ramon Lawrence"
+    ],
+    "doi": "10.1145/3605098.3636116",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2f0a904e7da6e335020ebec16848b3d0b4e92a47",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data processing on the smallest devices typically requires custom development as embedded databases such as SQLite require too many resources for use. This work develops EmbedDB, an embedded, key-value database optimized for memory-constrained devices and time series analysis. Experimental results demonstrate that EmbedDB is 5 times faster on a Raspberry Pi for time series query processing and runs with high performance on Arduino-based systems that SQLite and other previous systems cannot.",
+    "citationCount": 0,
+    "referenceCount": 10
+}

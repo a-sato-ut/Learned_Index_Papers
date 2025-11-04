@@ -19,7 +19,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
 
     setLoading(true);
     try {
-      const url = `${API_BASE}/api/search?query=${encodeURIComponent(query)}&limit=200`;
+      const url = `${API_BASE}/api/search?query=${encodeURIComponent(query)}`;
       console.log('Searching with URL:', url);
       
       const response = await fetch(url);
@@ -102,7 +102,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
 
     const citesLevel2Promises = data.cites.map(async (citedPaper) => {
       try {
-        const response = await fetch(`${API_BASE}/api/paper/${citedPaper.paperId}?limit=200`);
+        const response = await fetch(`${API_BASE}/api/paper/${citedPaper.paperId}?limit=20`);
         if (response.ok) {
           const paperData = await response.json();
           return { cites: paperData.cites || [], cited_by: paperData.cited_by || [] };
@@ -115,7 +115,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
 
     const citedByLevel2Promises = data.cited_by.map(async (citingPaper) => {
       try {
-        const response = await fetch(`${API_BASE}/api/paper/${citingPaper.paperId}?limit=200`);
+        const response = await fetch(`${API_BASE}/api/paper/${citingPaper.paperId}?limit=20`);
         if (response.ok) {
           const paperData = await response.json();
           return { cites: paperData.cites || [], cited_by: paperData.cited_by || [] };

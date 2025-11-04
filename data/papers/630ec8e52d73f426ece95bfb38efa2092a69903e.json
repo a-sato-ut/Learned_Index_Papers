@@ -1,0 +1,39 @@
+{
+    "paperId": "630ec8e52d73f426ece95bfb38efa2092a69903e",
+    "title": "Predictive Queue-Based Rate Control for Low Latency in Lossless Data Center Networks",
+    "year": 2024,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "Pingping Dong",
+        "Xiaojuan Lu",
+        "Tairan Huang",
+        "Liying Chen",
+        "Yang Yang",
+        "Lianming Zhang"
+    ],
+    "doi": "10.1109/TNSM.2024.3363463",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/630ec8e52d73f426ece95bfb38efa2092a69903e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In lossless data center networks (DCN), many existing congestion control schemes are used to address the impact caused by priority-based flow control (PFC), such as congestion spreading, and victim flow problems. However, in some special cases, this problem is not solved. Through observation, we examine the interaction between flow control and congestion control, and realize that the mismatch between hop-by-hop flow control and end-to-end congestion feedback, as well as inaccurate rate regulation, are the root causes of frequent PFC triggering. Therefore, we propose Egress Queue Congestion Information Notification (EQCIN). EQCIN implements threshold-based flow identification to avoid packet buildup due to congestion spreading being considered as the root cause of congestion, while using direct feedback from the congestion side to reduce unnecessary link loss. For different flow identifiers, EQCIN adopts different algorithms to achieve targeted rate control. Experimental results show that EQCIN can reduce the number of PFC PAUSEs tends to zero, compared to TIMELY, DCQCN, DCQCN+TCD and improve the link utilization by 7%-77%, respectively.",
+    "citationCount": 4,
+    "referenceCount": 30
+}

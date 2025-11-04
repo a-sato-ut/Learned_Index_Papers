@@ -1,0 +1,37 @@
+{
+    "paperId": "164da0bc3d86b493125db66e67c8e9edca6deb48",
+    "title": "Quasi-Optimal Path Convergence-Aided Automorphism Ensemble Decoding of Reed–Muller Codes",
+    "year": 2025,
+    "venue": "Entropy",
+    "authors": [
+        "Kai Tian",
+        "He Sun",
+        "Yukai Liu",
+        "Rongke Liu"
+    ],
+    "doi": "10.3390/e27040424",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/164da0bc3d86b493125db66e67c8e9edca6deb48",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "By exploiting the rich automorphisms of Reed–Muller (RM) codes, the recently developed automorphism ensemble (AE) successive cancellation (SC) decoder achieves a near-maximum-likelihood (ML) performance for short block lengths. However, the appealing performance of AE-SC decoding arises from the diversity gain that requires a list of SC decoding attempts, which results in a high decoding complexity. To address this issue, this paper proposes a novel quasi-optimal path convergence (QOPC)-aided early termination (ET) technique for AE-SC decoding. This technique detects strong convergence between the partial path metrics (PPMs) of SC constituent decoders to reliably identify the optimal decoding path at runtime. When the QOPC-based ET criterion is satisfied during the AE-SC decoding, only the identified path is allowed to proceed for a complete codeword estimate, while the remaining paths are terminated early. The numerical results demonstrated that for medium-to-high-rate RM codes in the short-length regime, the proposed QOPC-aided ET method incurred negligible performance loss when applied to fully parallel AE-SC decoding. Meanwhile, it achieved a complexity reduction that ranged from 35.9% to 47.4% at a target block error rate (BLER) of 10−3, where it consistently outperformed a state-of-the-art path metric threshold (PMT)-aided ET method. Additionally, under a partially parallel framework of AE-SC decoding, the proposed QOPC-aided ET method achieved a greater complexity reduction that ranged from 81.3% to 86.7% at a low BLER that approached 10−5 while maintaining a near-ML decoding performance.",
+    "citationCount": 1,
+    "referenceCount": 28
+}

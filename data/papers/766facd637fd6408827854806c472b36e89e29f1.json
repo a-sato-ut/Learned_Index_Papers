@@ -1,0 +1,34 @@
+{
+    "paperId": "766facd637fd6408827854806c472b36e89e29f1",
+    "title": "Hare: A Systematic Framework for Efficient and Generally Automatic Hotspot Offloading on Programmable Switches",
+    "year": 2025,
+    "venue": "IEEE Transactions on Networking",
+    "authors": [
+        "Xueying Zhu",
+        "Yingtao Li",
+        "Xiang Li",
+        "Jialin Li",
+        "Zeke Wang"
+    ],
+    "doi": "10.1109/TON.2024.3524580",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/766facd637fd6408827854806c472b36e89e29f1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Switch-based hotspot offloading is a trendy solution for latency-sensitive applications to achieve high system throughput with an acceptable P99 query response latency. However, due to the varying object sizes, dynamic workloads, and complex query-processing functions of the latency-sensitive applications, existing switch-based dynamic hotspot offloading approaches struggle to handle these applications effectively. This is mainly because of their inefficient switch resource utilization and non-generalizable hotspot offloading designs. So we propose Hare, a systematic framework that consists of three techniques to address these issues. First, Hare uses a MAT-based cross-stage structure to store and perform hit-checks for large hotspots on the switch data plane. Second, Hare uses a switch-server co-offloading mechanism to support fast and precise offloading. Third, Hare is designed to enable generally automatic offloading by decoupling application-related query processing with hotspot offloading. Compared to the state-of-the-art approaches, Hare supports <inline-formula> <tex-math notation=\"LaTeX\">$8.86\\times \\sim 9.97\\times $ </tex-math></inline-formula> larger hotspot size, achieves <inline-formula> <tex-math notation=\"LaTeX\">$1.27 \\times \\sim 6.61 \\times $ </tex-math></inline-formula> higher system throughput, and can recover the system throughput and the P99 query response latency within 8s.",
+    "citationCount": 0,
+    "referenceCount": 67
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "90ec21cb69adc4bf9a020286ff453304bec653c0",
+    "title": "Efficient Preimage Approximation for Neural Network Certification",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Anton Björklund",
+        "M. Zaitsev",
+        "Marta Z. Kwiatkowska"
+    ],
+    "doi": "10.48550/arXiv.2505.22798",
+    "arxivId": "2505.22798",
+    "url": "https://www.semanticscholar.org/paper/90ec21cb69adc4bf9a020286ff453304bec653c0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The growing reliance on artificial intelligence in safety- and security-critical applications demands effective neural network certification. A challenging real-world use case is\"patch attacks\", where adversarial patches or lighting conditions obscure parts of images, for example, traffic signs. A significant step towards certification against patch attacks was recently achieved using PREMAP, which uses under- and over-approximations of the preimage, the set of inputs that lead to a specified output, for the certification. While the PREMAP approach is versatile, it is currently limited to fully-connected neural networks of moderate dimensionality. In order to tackle broader real-world use cases, we present novel algorithmic extensions to PREMAP involving tighter bounds, adaptive Monte Carlo sampling, and improved branching heuristics. Firstly, we demonstrate that these efficiency improvements significantly outperform the original PREMAP and enable scaling to convolutional neural networks that were previously intractable. Secondly, we showcase the potential of preimage approximation methodology for analysing and certifying reliability and robustness on a range of use cases from computer vision and control.",
+    "citationCount": 0,
+    "referenceCount": 53
+}

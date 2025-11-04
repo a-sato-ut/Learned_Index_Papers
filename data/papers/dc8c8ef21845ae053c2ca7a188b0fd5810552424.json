@@ -1,0 +1,43 @@
+{
+    "paperId": "dc8c8ef21845ae053c2ca7a188b0fd5810552424",
+    "title": "SmartChoices: Augmenting Software with Learned Implementations",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "D. Golovin",
+        "Gábor Bartók",
+        "Eric Chen",
+        "Emily A. Donahue",
+        "Tzu-Kuo Huang",
+        "Efi Kokiopoulou",
+        "Ruoyan Qin",
+        "Nikhil Sarda",
+        "Justin Sybrandt",
+        "Vincent Tjeng"
+    ],
+    "doi": "10.48550/arXiv.2304.13033",
+    "arxivId": "2304.13033",
+    "url": "https://www.semanticscholar.org/paper/dc8c8ef21845ae053c2ca7a188b0fd5810552424",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2304.13033",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In many software systems, heuristics are used to make decisions - such as cache eviction, task scheduling, and information presentation - that have a significant impact on overall system behavior. While machine learning may outperform these heuristics, replacing existing heuristics in a production system safely and reliably can be prohibitively costly. We present SmartChoices, a novel approach that reduces the cost to deploy production-ready ML solutions for contextual bandits problems. SmartChoices' interface cleanly separates problem formulation from implementation details: engineers describe their use case by defining datatypes for the context, arms, and feedback that are passed to SmartChoices APIs, while SmartChoices manages encoding&logging data and training, evaluating&deploying policies. Our implementation codifies best practices, is efficient enough for use in low-level applications, and provides valuable production features off the shelf via a shared library. Overall, SmartChoices enables non-experts to rapidly deploy production-ready ML solutions by eliminating many sources of technical debt common to ML systems. Engineers have independently used SmartChoices to improve a wide range of software including caches, batch processing workloads, and UI layouts, resulting in better latency, throughput, and click-through rates.",
+    "citationCount": 2,
+    "referenceCount": 39
+}

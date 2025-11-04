@@ -1,0 +1,35 @@
+{
+    "paperId": "cb7dcfd1effa22c63cb52a021b08f5e71d2d799e",
+    "title": "Dynamic Response Control Strategy for Parallel Hybrid Ships Based on PMP-HMPC",
+    "year": 2024,
+    "venue": "Processes",
+    "authors": [
+        "Enzhe Song",
+        "Zhijiang Liu",
+        "Chong Yao",
+        "Xiaojun Sun",
+        "Xuchang Yang",
+        "Minghui Bao"
+    ],
+    "doi": "10.3390/pr12112564",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cb7dcfd1effa22c63cb52a021b08f5e71d2d799e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2227-9717/12/11/2564/pdf?version=1731923053",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With increasingly stringent emission regulations, various clean fuel engines, electric propulsion systems, and renewable energy sources have been demonstratively applied in marine power systems. The development of control strategies that can effectively and efficiently coordinate the operation of multiple energy sources has become a key research focus. This study uses a modular modeling method to establish a system simulation model for a parallel hybrid ship with a natural gas engine (NGE) as the prime mover, and designs an energy management control strategy that can run in real time. The strategy is based on Pontryagin’s minimum principle (PMP) for power allocation, and is supplemented by a hybrid model predictive control (HMPC) method for speed-tracking control of the power system. Finally, the designed strategy is evaluated. Through simulation and hardware-in-the-loop (HIL) experimental validation, results compared with the Rule-based strategy indicate that under the given conditions, the SOC final value deviation from the initial value is reduced from 11.5% (in the reference strategy) to 0.39%. The system speed error integral is significantly lower at 39.06, compared to 2264.67 in the reference strategy. While gas consumption increased slightly by 2.4%, emissions were reduced by 3.2%.",
+    "citationCount": 2,
+    "referenceCount": 40
+}

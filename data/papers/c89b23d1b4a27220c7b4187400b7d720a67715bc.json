@@ -1,0 +1,34 @@
+{
+    "paperId": "c89b23d1b4a27220c7b4187400b7d720a67715bc",
+    "title": "SemaSK: Answering Semantics-aware Spatial Keyword Queries with Large Language Models",
+    "year": 2025,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "Zesong Zhang",
+        "Jianzhong Qi",
+        "Xin Cao",
+        "Christian S. Jensen"
+    ],
+    "doi": "10.48786/edbt.2025.99",
+    "arxivId": "2503.04234",
+    "url": "https://www.semanticscholar.org/paper/c89b23d1b4a27220c7b4187400b7d720a67715bc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Geo-textual objects, i.e., objects with both spatial and textual attributes, such as points-of-interest or web documents with location tags, are prevalent and fuel a range of location-based services. Existing spatial keyword querying methods that target such data have focused primarily on efficiency and often involve proposals for index structures for efficient query processing. In these studies, due to challenges in measuring the semantic relevance of textual data, query constraints on the textual attributes are largely treated as a keyword matching process, ignoring richer query and data semantics. To advance the semantic aspects, we propose a system named SemaSK that exploits the semantic capabilities of large language models to retrieve geo-textual objects that are more semantically relevant to a query. Experimental results on a real dataset offer evidence of the effectiveness of the system, and a system demonstration is presented in this paper.",
+    "citationCount": 0,
+    "referenceCount": 15
+}

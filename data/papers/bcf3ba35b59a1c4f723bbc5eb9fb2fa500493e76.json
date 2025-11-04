@@ -1,0 +1,40 @@
+{
+    "paperId": "bcf3ba35b59a1c4f723bbc5eb9fb2fa500493e76",
+    "title": "LightFS: A Lightweight Host-CSD Coordinated File System Optimizing for Heavy Small File Accesses",
+    "year": 2024,
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "authors": [
+        "Jiali Li",
+        "Zhaoyan Shen",
+        "Duo Liu",
+        "Xianzhang Chen",
+        "Kan Zhong",
+        "Zhaoyang Zeng",
+        "Yujuan Tan"
+    ],
+    "doi": "10.1109/TCAD.2024.3443010",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bcf3ba35b59a1c4f723bbc5eb9fb2fa500493e76",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Computational storage drive (CSD) improves the data processing efficiency by processing the data within the storage. However, existing CSDs rely on the host-centric file systems to manage the data, where the layouts of files are retrieved by the host and sent to the CSD, resulting in additional I/O overhead and reduced processing efficiency, especially in heavy small file accesses. Moreover, the lack of consistency mechanisms poses potential consistency issues. To address these challenges, we propose LightFS, a lightweight host-CSD coordinated file system for the CSD file management. To reduce task offloading overhead, LightFS builds an index file $.ndpmeta$ which summarizes the files’ metadata and shares between the host and CSD to enable CSD to retrieve the file layout in storage directly. To ensure consistency, LightFS employs a metadata locker and an update synchronizer. The metadata locker leverages the out-of-place update feature of the flash to capture a snapshot of the file to be written without any data copy, while the update synchronizer triggers metadata updates by monitoring the addresses of written blocks to ensure that the modified file is successfully written to the CSD. We implement and evaluate LightFS on a real testbed, and the results demonstrate that LightFS achieves $3.66\\times $ performance improvement on the average in real-world operations.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

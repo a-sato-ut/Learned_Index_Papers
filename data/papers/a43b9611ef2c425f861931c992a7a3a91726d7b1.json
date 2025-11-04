@@ -1,0 +1,32 @@
+{
+    "paperId": "a43b9611ef2c425f861931c992a7a3a91726d7b1",
+    "title": "Secure Range-Searching Using Copy-And-Recurse",
+    "year": 2024,
+    "venue": "IACR Cryptology ePrint Archive",
+    "authors": [
+        "Eyal Kushnir",
+        "Guy Moshkowich",
+        "Hayim Shaul"
+    ],
+    "doi": "10.56553/popets-2024-0096",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a43b9611ef2c425f861931c992a7a3a91726d7b1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Range searching is the problem of preprocessing a set of points P, such that given a query range gamma we can efficiently compute some function f(P cap gamma). For example, in a 1 dimensional range counting query, P is a set of numbers, gamma is a segment and we need to count how many numbers of P are in gamma. In higher dimensions, P is a set of d dimensional points and the query range is some volume in R^d. In general, we want to compute more than just counting, for example, the average of P cap gamma. Range searching has applications in databases where some SELECT queries can be translated to range queries. It had received a lot of attention in computational geometry where a data structure called partition tree was shown to solve range queries in time sub-linear in |P| using space only linear in |P|. In this paper we consider partition trees under FHE where we answer range queries without learning the value of the points or the parameters of the range. We show how partition trees can be securely traversed with O(t n^{1-1/d+epsilon} + n^{1+epsilon}) operations, where n=|P|, t is the number of operations needed to compare to gamma and epsilon>0 is a parameter. When the ranges are axis-parallel hyper-boxes the running time is O(t n^epsilon + n log^{d-1} n). As far as we know, this is the first non-trivial bound on range searching under FHE and it improves over the naive solution that needs O(t n) operations. Our algorithms are independent of the encryption scheme but as an example we implemented them using the CKKS FHE scheme. Our experiments show that for databases of sizes 2^{23} and 2^{25}, our algorithms run x2.8 and x4.7 (respectively) faster than the naive algorithm. The improvement of our algorithm comes from a method we call copy-and-recurse. With it we efficiently traverse a r-ary tree (where each inner node has r children) that also has the property that at most xi of them need to be recursed into when traversing the tree. We believe this method is interesting in its own and can be used to improve traversals in other tree-like structures.",
+    "citationCount": 3,
+    "referenceCount": 38
+}

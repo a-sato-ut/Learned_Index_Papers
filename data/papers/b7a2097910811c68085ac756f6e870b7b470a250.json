@@ -1,0 +1,31 @@
+{
+    "paperId": "b7a2097910811c68085ac756f6e870b7b470a250",
+    "title": "MaLV-OS: Rethinking the Operating System Architecture for Machine Learning in Virtualized Clouds",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Stella Bitchebe",
+        "Oana Balmau"
+    ],
+    "doi": "10.48550/arXiv.2508.03676",
+    "arxivId": "2508.03676",
+    "url": "https://www.semanticscholar.org/paper/b7a2097910811c68085ac756f6e870b7b470a250",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A large body of research has employed Machine Learning (ML) models to develop learned operating systems (OSes) and kernels. The latter dynamically adapts to the job load and dynamically adjusts resources (CPU, IO, memory, network bandwidth) allocation to respond to the actual user demand. What this work has in common is that it utilizes ML to improve kernel decisions. To this day, and to the best of our knowledge, no work has taken the opposite direction, i.e., using OS to improve ML. While some work proposes applying system-level optimizations to ML algorithms, they do not tailor the OS to adapt to the ML context. To address this limitation, we take an orthogonal approach in this paper by leveraging the OS to enhance the performance of ML models and algorithms. We explore the path towards an ML-specialized OS, MaLV-OS. MaLV-OS rethinks the OS architecture to make it specifically tailored to ML workloads, especially in virtualized clouds, which are now widely used to run ML applications. MaLV-OS envisioned architecture includes (1) a micro-kernel, Micro-LAKE, which allows kernel space applications to use the GPU, and (2) an MLaaS (ML as a Service) subsystem that gathers ML models to help Micro-LAKE with memory management and CPU scheduling. MaLV-OS architecture also offloads system-sensitive parts of the models to the OS, to lighten the model complexity and programming, and speed up its execution. Finally, MaLV-OS integrates an open-source GPU virtualization software, merged directly into the hypervisor. For more flexibility, MaLV-OS vision is to enable the virtual machine to dynamically select MLaaS policies that can improve the performance of the model the user is running. Because MLaaS is designed as loadable kernel modules, the MaLV-OS architecture enables the dynamic addition of new capabilities to the MLaaS subsystem.",
+    "citationCount": 0,
+    "referenceCount": 66
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "387553152c1c5066b90e97a7b691a544abf3a70c",
+    "title": "Robustness Verification of Deep Neural Networks using Star-Based Reachability Analysis with Variable-Length Time Series Input",
+    "year": 2023,
+    "venue": "International Workshop on Formal Methods for Industrial Critical Systems",
+    "authors": [
+        "Neelanjana Pal",
+        "Diego Manzanas Lopez",
+        "Taylor T. Johnson"
+    ],
+    "doi": "10.48550/arXiv.2307.13907",
+    "arxivId": "2307.13907",
+    "url": "https://www.semanticscholar.org/paper/387553152c1c5066b90e97a7b691a544abf3a70c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.13907",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data-driven, neural network (NN) based anomaly detection and predictive maintenance are emerging research areas. NN-based analytics of time-series data offer valuable insights into past behaviors and estimates of critical parameters like remaining useful life (RUL) of equipment and state-of-charge (SOC) of batteries. However, input time series data can be exposed to intentional or unintentional noise when passing through sensors, necessitating robust validation and verification of these NNs. This paper presents a case study of the robustness verification approach for time series regression NNs (TSRegNN) using set-based formal methods. It focuses on utilizing variable-length input data to streamline input manipulation and enhance network architecture generalizability. The method is applied to two data sets in the Prognostics and Health Management (PHM) application areas: (1) SOC estimation of a Lithium-ion battery and (2) RUL estimation of a turbine engine. The NNs' robustness is checked using star-based reachability analysis, and several performance measures evaluate the effect of bounded perturbations in the input on network outputs, i.e., future outcomes. Overall, the paper offers a comprehensive case study for validating and verifying NN-based analytics of time-series data in real-world applications, emphasizing the importance of robustness testing for accurate and reliable predictions, especially considering the impact of noise on future outcomes.",
+    "citationCount": 1,
+    "referenceCount": 47
+}

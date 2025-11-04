@@ -1,0 +1,33 @@
+{
+    "paperId": "3828eb8f8d99892a386dda5d9086f836721381eb",
+    "title": "DNN Verification, Reachability, and the Exponential Function Problem",
+    "year": 2023,
+    "venue": "International Conference on Concurrency Theory",
+    "authors": [
+        "Omri Isac",
+        "Yoni Zohar",
+        "Clark W. Barrett",
+        "Guy Katz"
+    ],
+    "doi": "10.48550/arXiv.2305.06064",
+    "arxivId": "2305.06064",
+    "url": "https://www.semanticscholar.org/paper/3828eb8f8d99892a386dda5d9086f836721381eb",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2305.06064",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep neural networks (DNNs) are increasingly being deployed to perform safety-critical tasks. The opacity of DNNs, which prevents humans from reasoning about them, presents new safety and security challenges. To address these challenges, the verification community has begun developing techniques for rigorously analyzing DNNs, with numerous verification algorithms proposed in recent years. While a significant amount of work has gone into developing these verification algorithms, little work has been devoted to rigorously studying the computability and complexity of the underlying theoretical problems. Here, we seek to contribute to the bridging of this gap. We focus on two kinds of DNNs: those that employ piecewise-linear activation functions (e.g., ReLU), and those that employ piecewise-smooth activation functions (e.g., Sigmoids). We prove the two following theorems: 1) The decidability of verifying DNNs with a particular set of piecewise-smooth activation functions is equivalent to a well-known, open problem formulated by Tarski; and 2) The DNN verification problem for any quantifier-free linear arithmetic specification can be reduced to the DNN reachability problem, whose approximation is NP-complete. These results answer two fundamental questions about the computability and complexity of DNN verification, and the ways it is affected by the network's activation functions and error tolerance; and could help guide future efforts in developing DNN verification tools.",
+    "citationCount": 6,
+    "referenceCount": 69
+}

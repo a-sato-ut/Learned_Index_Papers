@@ -1,0 +1,37 @@
+{
+    "paperId": "8d5afbffefdfcca435dcd8834a7628cc1b351908",
+    "title": "Attacks on Encrypted Response-Hiding Range Search Schemes in Multiple Dimensions",
+    "year": 2023,
+    "venue": "Proceedings on Privacy Enhancing Technologies",
+    "authors": [
+        "Evangelia Anna Markatou",
+        "Francesca Falzon",
+        "Zachary Espiritu",
+        "R. Tamassia"
+    ],
+    "doi": "10.56553/popets-2023-0106",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8d5afbffefdfcca435dcd8834a7628cc1b351908",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://petsymposium.org/popets/2023/popets-2023-0106.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this work, we present the first database reconstruction attacks against response-hiding private range search schemes on encrypted databases of arbitrary dimensions. Falzon et al. (VLDB 2022) present a number of range-supporting schemes on arbitrary dimensions exhibiting different security and efficiency trade-offs. Additionally, they characterize a form of leakage, structure pattern leakage, also present in many one-dimensional schemes e.g., Demertzis et al. (SIGMOD 2016) and Faber et al. (ESORICS 2015). We present the first systematic study of this leakage and attack a broad collection of schemes, including schemes that allow the responses to contain false-positives (often considered the gold standard in security). We characterize the information theoretic limitations of a passive persistent adversary. Our work shows that for range queries, structure pattern leakage can be as vulnerable to attacks as access pattern leakage. We give a comprehensive evaluation of our attacks with a complexity analysis, a prototype implementation, and an experimental assessment on real-world datasets.",
+    "citationCount": 14,
+    "referenceCount": 86
+}

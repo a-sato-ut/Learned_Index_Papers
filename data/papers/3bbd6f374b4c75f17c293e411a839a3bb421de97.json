@@ -1,0 +1,35 @@
+{
+    "paperId": "3bbd6f374b4c75f17c293e411a839a3bb421de97",
+    "title": "AutoRIC: Automated Neural Network Repairing Based on Constrained Optimization",
+    "year": 2024,
+    "venue": "ACM Transactions on Software Engineering and Methodology",
+    "authors": [
+        "Xinyu Sun",
+        "Wanwei Liu",
+        "Shangwen Wang",
+        "Tingyu Chen",
+        "Ye Tao",
+        "Xiaoguang Mao"
+    ],
+    "doi": "10.1145/3690634",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3bbd6f374b4c75f17c293e411a839a3bb421de97",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural networks are important computational models used in the domains of artificial intelligence and software engineering. Parameters of a neural network are obtained via training it against a specific dataset with a standard process, which guarantees each sample within that set is mapped to the correct class. In general, for a trained neural network, there is no warranty of high-level properties, such as fairness, robustness, and so forth. In this case, one need to tune the parameters in an alternative manner, and it is called repairing. In this paper, we present AutoRIC (Automated Repair wIth Constraints), an analytical-approach-based white-box repairing framework against general properties that could be quantitatively measured. Our approach is mainly based on constrained optimization, namely, we treat the properties of neural network as the optimized objective described by a quadratic formula about the faulty parameters. To ensure the classification accuracy of the repaired neural network, we impose linear inequality constraints to the inputs that obtain incorrect outputs from the neural network. In general, this may generate a huge amount of constraints, resulting in the prohibitively high cost in the problem solving, or even making the problem unable to be solved by the constraint solver. To circumvent this, we present a selection strategy to diminish the restrictions, i.e., we always select the most ‘strict’ ones into the constraint set each time. Experimental results show that repairing with constraints performs efficiently and effectively. AutoRIC tends to achieve a satisfactory repairing result whereas brings in a negligible accuracy drop. AutoRIC enjoys a notable time advantage and this advantage becomes increasingly evident as the network complexity rises. Moreover, experiment results also demonstrate that repairing based on unconstrained optimizations are not stable, which embodies the necessity of constraints.",
+    "citationCount": 3,
+    "referenceCount": 53
+}

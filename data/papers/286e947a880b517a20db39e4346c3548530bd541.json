@@ -1,0 +1,31 @@
+{
+    "paperId": "286e947a880b517a20db39e4346c3548530bd541",
+    "title": "Verifying Global Neural Network Specifications using Hyperproperties",
+    "year": 2023,
+    "venue": "FoMLAS@CAV",
+    "authors": [
+        "David Boetius",
+        "S. Leue"
+    ],
+    "doi": "10.48550/arXiv.2306.12495",
+    "arxivId": "2306.12495",
+    "url": "https://www.semanticscholar.org/paper/286e947a880b517a20db39e4346c3548530bd541",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2306.12495",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current approaches to neural network verification focus on specifications that target small regions around known input data points, such as local robustness. Thus, using these approaches, we can not obtain guarantees for inputs that are not close to known inputs. Yet, it is highly likely that a neural network will encounter such truly unseen inputs during its application. We study global specifications that — when satisfied — provide guarantees for all potential inputs. We introduce a hyperproperty formalism that allows for expressing global specifications such as monotonicity, Lipschitz continuity, global robustness, and dependency fairness. Our formalism enables verifying global specifications using existing neural network verification approaches by leveraging capabilities for verifying general computational graphs. Thereby, we extend the scope of guarantees that can be provided using existing methods. Recent success in verifying specific global specifications shows that attaining strong guarantees for all potential data points is feasible.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

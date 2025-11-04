@@ -1,0 +1,33 @@
+{
+    "paperId": "933ed3321c06d8e90793776eeef7307859d1c4ad",
+    "title": "Constrained Quadratic Model for Optimizing Join Orders",
+    "year": 2024,
+    "venue": "Q-DATA@SIGMOD",
+    "authors": [
+        "Pranshi Saxena",
+        "Ibrahim Sabek",
+        "Federico Spedalieri"
+    ],
+    "doi": "10.1145/3665225.3665447",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/933ed3321c06d8e90793776eeef7307859d1c4ad",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present a quantum-based approach for the optimization of join orders in database applications. Our approach relies on a hybrid framework, where classical heuristics are combined with a quantum processor to accelerate the search over the set of solutions to a constrained problem. By taking advantage of a previously introduced formulation of the join order optimization as a Quadratic Unconstrained Binary Optimization (QUBO) problem, we implement it using the Constrained Quadratic Model (CQM), a hybrid classical-quantum solver that interfaces classical heuristics with D-Wave’s quantum annealer. We show that even a generic implementation of this classical-quantum hybrid framework produces competitive results for the join order problem, suggesting that better-tailored hybrid solvers could produce a computational advantage.",
+    "citationCount": 10,
+    "referenceCount": 40
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "8a639eb781cf95fe86c6e2175c3e3faefb2c58ce",
+    "title": "OQueue: Observable Communication in Learning Directed Operating Systems",
+    "year": 2025,
+    "venue": "PACMI@SOSP",
+    "authors": [
+        "Aditya Atul Tewari",
+        "Sujay Yadalam",
+        "A. Peters",
+        "Saurabh Agarwal",
+        "Aditya Akella",
+        "Michael Swift",
+        "Chris Rossbach"
+    ],
+    "doi": "10.1145/3766882.3767174",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8a639eb781cf95fe86c6e2175c3e3faefb2c58ce",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The need for rapid policy development and Machine Learning (ML) to catch up with the increasing demands on Operating Systems made by evolving hardware and applications has exposed the lack of a data-plane abstraction for efficient data movement between OS subsystems. OQueues are a new data-plane abstraction designed to aid in flexible data-driven policy design. They express a novel observer paradigm, utilizing weak observers for history introspection and strong observers for exactly-once view semantics. We evaluate the utility and scalability of OQueues and use them to implement several ML-based policies for a file-prefetcher.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

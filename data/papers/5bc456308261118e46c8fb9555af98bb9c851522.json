@@ -1,0 +1,40 @@
+{
+    "paperId": "5bc456308261118e46c8fb9555af98bb9c851522",
+    "title": "Controller Synthesis for Autonomous Systems With Deep-Learning Perception Components",
+    "year": 2024,
+    "venue": "IEEE Transactions on Software Engineering",
+    "authors": [
+        "R. Calinescu",
+        "Calum Imrie",
+        "Ravi Mangal",
+        "G. Rodrigues",
+        "Corina S. Păsăreanu",
+        "Misael Alpizar Santana",
+        "Gricel Vázquez"
+    ],
+    "doi": "10.1109/TSE.2024.3385378",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5bc456308261118e46c8fb9555af98bb9c851522",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/32/4359463/10496502.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present DeepDECS, a new method for the synthesis of correct-by-construction software controllers for autonomous systems that use deep neural network (DNN) classifiers for the perception step of their decision-making processes. Despite major advances in deep learning in recent years, providing safety guarantees for these systems remains very challenging. Our controller synthesis method addresses this challenge by integrating DNN verification with the synthesis of verified Markov models. The synthesised models correspond to discrete-event software controllers guaranteed to satisfy the safety, dependability and performance requirements of the autonomous system, and to be Pareto optimal with respect to a set of optimisation objectives. We evaluate the method in simulation by using it to synthesise controllers for mobile-robot collision limitation, and for maintaining driver attentiveness in shared-control autonomous driving.",
+    "citationCount": 15,
+    "referenceCount": 86
+}

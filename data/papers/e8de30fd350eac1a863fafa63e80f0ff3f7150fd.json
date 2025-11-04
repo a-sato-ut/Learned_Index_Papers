@@ -1,0 +1,37 @@
+{
+    "paperId": "e8de30fd350eac1a863fafa63e80f0ff3f7150fd",
+    "title": "FOJA:Feature Optimization for Join Order Selection Based on AlphaJoin",
+    "year": 2024,
+    "venue": "IEEE International Conference on e-Business Engineering",
+    "authors": [
+        "Chong Sun",
+        "Bowen Zhang",
+        "Jun Tie",
+        "Fan Yin",
+        "Yong Ai",
+        "Mian Wu",
+        "Shipeng Cao"
+    ],
+    "doi": "10.1109/ICEBE62490.2024.00052",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e8de30fd350eac1a863fafa63e80f0ff3f7150fd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query optimization remains a challenging issue, with existing database management systems (DBMSs) often missing optimal execution plans. Determining an effective join order is crucial for achieving good performance in database systems. A major challenge in join order selection is enumerating a set of candidate orders and identifying the most efficient one. Searching within a larger candidate space increases the likelihood of finding a good plan but also raises the cost of query optimization. Using deep reinforcement learning to optimize the join order selection problem, the embedding representations generated during feature extraction for queries significantly influence the resulting query execution plan. Current join order selection methods, such as Alpha.loin, do not consider selectivity-the ratio of rows that satisfy the conditions within the result set-as a feature, nor do they account for the choice of join operators. In this paper, we introduce selectivity as a weighted feature and include join operators in the feature set to recommend suitable join operators. Building on AlphaJoin, we incorporate selectivity and operator choice, and conduct experiments on the more comprehensive JOB dataset, demonstrating the effectiveness of our proposed solution.",
+    "citationCount": 0,
+    "referenceCount": 17
+}

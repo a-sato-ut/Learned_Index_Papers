@@ -1,0 +1,36 @@
+{
+    "paperId": "5ddc1eee2b34fadb7551038f2573e9dd597edab3",
+    "title": "Efficient Neural Network Verification via Order Leading Exploration of Branch-and-Bound Trees (Artifact)",
+    "year": 2025,
+    "venue": "Dagstuhl Artifacts Ser.",
+    "authors": [
+        "Guanqin Zhang",
+        "Kota Fukuda",
+        "Zhenya Zhang",
+        "H. D. Bandara",
+        "Shiping Chen",
+        "Jianjun Zhao",
+        "Yulei Sui"
+    ],
+    "doi": "10.4230/LIPIcs.ECOOP.2025.36",
+    "arxivId": "2507.17453",
+    "url": "https://www.semanticscholar.org/paper/5ddc1eee2b34fadb7551038f2573e9dd597edab3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The vulnerability of neural networks to adversarial perturbations has necessitated formal verification techniques that can rigorously certify the quality of neural networks. As the state-of-the-art, branch and bound (BaB) is a\"divide-and-conquer\"strategy that applies off-the-shelf verifiers to sub-problems for which they perform better. While BaB can identify the sub-problems that are necessary to be split, it explores the space of these sub-problems in a naive\"first-come-first-serve\"manner, thereby suffering from an issue of inefficiency to reach a verification conclusion. To bridge this gap, we introduce an order over different sub-problems produced by BaB, concerning with their different likelihoods of containing counterexamples. Based on this order, we propose a novel verification framework Oliva that explores the sub-problem space by prioritizing those sub-problems that are more likely to find counterexamples, in order to efficiently reach the conclusion of the verification. Even if no counterexample can be found in any sub-problem, it only changes the order of visiting different sub-problem and so will not lead to a performance degradation. Specifically, Oliva has two variants, including $Oliva^{GR}$, a greedy strategy that always prioritizes the sub-problems that are more likely to find counterexamples, and $Oliva^{SA}$, a balanced strategy inspired by simulated annealing that gradually shifts from exploration to exploitation to locate the globally optimal sub-problems. We experimentally evaluate the performance of Oliva on 690 verification problems spanning over 5 models with datasets MNIST and CIFAR10. Compared to the state-of-the-art approaches, we demonstrate the speedup of Oliva for up to 25X in MNIST, and up to 80X in CIFAR10.",
+    "citationCount": 0,
+    "referenceCount": 62
+}

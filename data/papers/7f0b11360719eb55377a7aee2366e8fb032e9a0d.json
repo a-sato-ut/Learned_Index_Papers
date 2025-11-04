@@ -1,0 +1,39 @@
+{
+    "paperId": "7f0b11360719eb55377a7aee2366e8fb032e9a0d",
+    "title": "Towards Capacity-Adjustable and Scalable Quotient Filter Design for Packet Classification in Software-Defined Networks",
+    "year": 2022,
+    "venue": "IEEE Open Journal of the Computer Society",
+    "authors": [
+        "Minghao Xie",
+        "Q. Chen",
+        "Tao Wang",
+        "Feng Wang",
+        "Yongchao Tao",
+        "Lianglun Cheng"
+    ],
+    "doi": "10.1109/OJCS.2022.3219631",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7f0b11360719eb55377a7aee2366e8fb032e9a0d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/8782664/9024218/09939040.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Software defined networking (SDN), which can provide a dynamic and configurable network architecture for resource allocation, have been widely employed for efficient massive data traffic management. To accelerate the packet classification process in SDN, the hash-based filters which can support fast approximate membership query have been widely employed. However, the existing Quotient Filters are limited to fixed size and the number of elements has to be provided in advance. Thus, in this paper, we investigate the first capacity adjustable and scalable quotient filter for dynamic packet classification in SDN. Firstly, a novel Index Independent Quotient Filter (IIQF) is designed, which can adjust its capacity in a more precise level to support dynamic set representation. The algorithms for the operations of insertion, querying, deletion and capacity adjustment of IIQF are also given. Secondly, on the basis of IIQF, a Scalable Index Independent Quotient Filter (SIIQF) is designed to ensure the consistency of the designed quotient filter when adjusting its size. The theoretical performance of the proposed SIIQF, including the error rate, probability of collisions, and the time and space complexity are all analyzed. An instance of employing SIIQF for packet classification with tuple space searching algorithm is also introduced. Finally, the extensive simulations demonstrate the performance gains achieved by the proposed SIIQF compared with the baseline methods.",
+    "citationCount": 2,
+    "referenceCount": 36
+}

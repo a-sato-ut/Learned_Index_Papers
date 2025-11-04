@@ -1,0 +1,36 @@
+{
+    "paperId": "86a8348993c559b87757bbda58d9da657cf4aff9",
+    "title": "Monitizer: Automating Design and Evaluation of Neural Network Monitors",
+    "year": 2024,
+    "venue": "International Conference on Computer Aided Verification",
+    "authors": [
+        "Muqsit Azeem",
+        "Marta Grobelna",
+        "Sudeep Kanav",
+        "Jan Kretínský",
+        "Stefanie Mohr",
+        "Sabine Rieder"
+    ],
+    "doi": "10.48550/arXiv.2405.10350",
+    "arxivId": "2405.10350",
+    "url": "https://www.semanticscholar.org/paper/86a8348993c559b87757bbda58d9da657cf4aff9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The behavior of neural networks (NNs) on previously unseen types of data (out-of-distribution or OOD) is typically unpredictable. This can be dangerous if the network's output is used for decision-making in a safety-critical system. Hence, detecting that an input is OOD is crucial for the safe application of the NN. Verification approaches do not scale to practical NNs, making runtime monitoring more appealing for practical use. While various monitors have been suggested recently, their optimization for a given problem, as well as comparison with each other and reproduction of results, remain challenging. We present a tool for users and developers of NN monitors. It allows for (i) application of various types of monitors from the literature to a given input NN, (ii) optimization of the monitor's hyperparameters, and (iii) experimental evaluation and comparison to other approaches. Besides, it facilitates the development of new monitoring approaches. We demonstrate the tool's usability on several use cases of different types of users as well as on a case study comparing different approaches from recent literature.",
+    "citationCount": 2,
+    "referenceCount": 57
+}

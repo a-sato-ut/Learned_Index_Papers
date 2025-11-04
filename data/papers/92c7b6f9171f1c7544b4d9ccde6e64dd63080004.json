@@ -1,0 +1,38 @@
+{
+    "paperId": "92c7b6f9171f1c7544b4d9ccde6e64dd63080004",
+    "title": "PathGES: An Efficient and Secure Graph Encryption Scheme for Shortest Path Queries",
+    "year": 2024,
+    "venue": "IACR Cryptology ePrint Archive",
+    "authors": [
+        "Francesca Falzon",
+        "Esha Ghosh",
+        "Kenneth G. Paterson",
+        "Roberto Tamassia"
+    ],
+    "doi": "10.1145/3658644.3670305",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/92c7b6f9171f1c7544b4d9ccde6e64dd63080004",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3658644.3670305",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The increasing importance of graph databases and cloud storage services prompts the study of private queries on graphs. We propose PathGES, a graph encryption scheme (GES) for single-pair shortest path queries. PathGES is efficient and mitigates the state-of-the-art attack by Falzon and Paterson (2022) on the GES by Ghosh, Kamara, and Tamassia (2021), while only incurring an additional logarithmic factor in storage overhead. PathGES leverages a novel data structure that minimizes leakage and server computation. We generalize what it means for one leakage function to leak less than another by defining a relation with respect to a family of query sequences and show that our scheme provably leaks less than the GKT scheme when all queries have been issued. We complement our security proof with a cryptanalysis that demonstrates an information-theoretic gap in the size of the query reconstruction space of our scheme as compared to the GKT scheme and provide concrete examples of the gap for several graph families. Our prototype implementation of PathGES is efficient in practice for real-world social network and geographic data sets. In comparison with the GKT scheme, PathGES has the same response size on average and up to 1.5x faster round-trip query time.",
+    "citationCount": 4,
+    "referenceCount": 64
+}
