@@ -14,6 +14,7 @@ from pydantic import BaseModel
 PAPERS_FOLDER = Path(__file__).parent.parent / "data" / "papers"
 CITATIONS_FOLDER = Path(__file__).parent.parent / "data" / "citations"
 PROCESSED_DATA_FOLDER = Path(__file__).parent.parent / "processed_data"
+BASE_PID = "0539535989147bc7033f4a34931c7b8e17f1c650"
 
 app = FastAPI(title="Learned Index Papers API")
 
@@ -58,43 +59,69 @@ class Corpus:
         self._load_data()
 
     def _load_data(self):
-        """データを読み込む"""
-        # 論文データを読み込む
-        for paper_file in PAPERS_FOLDER.glob("*.json"):
+        """データを読み込む - BASE_PIDを引用している論文だけを読み込む"""
+        # まず、BASE_PIDを引用している論文IDのリストを取得
+        base_citation_file = CITATIONS_FOLDER / f"{BASE_PID}.json"
+        papers_to_load = set()
+        
+        if base_citation_file.exists():
             try:
-                with open(paper_file, "r", encoding="utf-8") as f:
+                with open(base_citation_file, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                    paper = Paper(**data)
-                    self.papers[paper.paperId] = paper
+                    citing_paper_ids = data.get("citationPaperIds", [])
+                    papers_to_load.update(citing_paper_ids)
+                    print(f"Found {len(citing_paper_ids)} papers citing BASE_PID")
             except Exception as e:
-                print(f"Error loading paper {paper_file}: {e}")
+                print(f"Error loading BASE_PID citation file: {e}")
+        else:
+            print(f"Warning: BASE_PID citation file not found: {base_citation_file}")
+        
+        # BASE_PID自体も含める（検索結果に表示するため）
+        papers_to_load.add(BASE_PID)
+        
+        # BASE_PIDを引用している論文のデータだけを読み込む
+        for paper_id in papers_to_load:
+            paper_file = PAPERS_FOLDER / f"{paper_id}.json"
+            if paper_file.exists():
+                try:
+                    with open(paper_file, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                        paper = Paper(**data)
+                        self.papers[paper.paperId] = paper
+                except Exception as e:
+                    print(f"Error loading paper {paper_file}: {e}")
+            else:
+                print(f"Warning: Paper file not found: {paper_file}")
 
-        # 引用データを読み込む
+        # 引用データを読み込む（読み込んだ論文に関連するものだけ）
         # citations/{paperId}.json の citationPaperIds は、その paperId を引用している（cited by）論文のリスト
-        for citation_file in CITATIONS_FOLDER.glob("*.json"):
-            try:
-                with open(citation_file, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    paper_id = data["paperId"]
-                    citation_ids = data.get("citationPaperIds", [])
+        for paper_id in papers_to_load:
+            citation_file = CITATIONS_FOLDER / f"{paper_id}.json"
+            if citation_file.exists():
+                try:
+                    with open(citation_file, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                        citation_ids = data.get("citationPaperIds", [])
 
-                    # cited_by を構築（この論文を引用している論文）
-                    # citation_ids は paper_id を引用している論文のリスト
-                    self.cited_by[paper_id] = citation_ids
+                        # cited_by を構築（この論文を引用している論文）
+                        # citation_ids は paper_id を引用している論文のリスト
+                        # ただし、読み込んだ論文に含まれるものだけを記録
+                        filtered_citation_ids = [cid for cid in citation_ids if cid in papers_to_load]
+                        self.cited_by[paper_id] = filtered_citation_ids
 
-                    # cites を構築（この論文が引用している論文）
-                    # citation_ids の各論文が paper_id を引用しているということは、
-                    # 逆方向では、citation_ids の各論文が paper_id を引用している
-                    # つまり、cites[citation_id] に paper_id を追加
-                    for citation_id in citation_ids:
-                        if citation_id not in self.cites:
-                            self.cites[citation_id] = []
-                        if paper_id not in self.cites[citation_id]:
-                            self.cites[citation_id].append(paper_id)
-            except Exception as e:
-                print(f"Error loading citation {citation_file}: {e}")
+                        # cites を構築（この論文が引用している論文）
+                        # citation_ids の各論文が paper_id を引用しているということは、
+                        # 逆方向では、citation_ids の各論文が paper_id を引用している
+                        # つまり、cites[citation_id] に paper_id を追加
+                        for citation_id in filtered_citation_ids:
+                            if citation_id not in self.cites:
+                                self.cites[citation_id] = []
+                            if paper_id not in self.cites[citation_id]:
+                                self.cites[citation_id].append(paper_id)
+                except Exception as e:
+                    print(f"Error loading citation {citation_file}: {e}")
 
-        print(f"Loaded {len(self.papers)} papers")
+        print(f"Loaded {len(self.papers)} papers (filtered to BASE_PID citations)")
 
     def _lcs_length(self, s1: str, s2: str) -> int:
         """最長共通部分列（LCS）の長さを計算（連続しない文字列を許す）"""
