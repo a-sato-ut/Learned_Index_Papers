@@ -71,8 +71,6 @@ def collect_citing_paper_metadata_list(pid: str, verbose: bool = False):
 if __name__ == "__main__":
     base_title = "The case for learned index structures"
     base_year = 2017
-    # base_title = "Partitioned Learned Bloom Filter"
-    # base_year = 2020
 
     # 1. base paperのメタ情報を収集し保存
     base_pid = get_paper_id_by_title(base_title, year=base_year)
