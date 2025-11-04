@@ -176,14 +176,12 @@
   flex: 1;
 }
 
-.paper-card-title a {
+.paper-card-title {
   color: #1f2937;
-  text-decoration: none;
 }
 
-.paper-card-title a:hover {
+.paper-card:hover .paper-card-title {
   color: #3b82f6;
-  text-decoration: underline;
 }
 
 .paper-card-type {
@@ -244,13 +242,27 @@
   gap: 15px;
 }
 
-.paper-card-arxiv {
-  color: #3b82f6;
-  text-decoration: none;
+.paper-card-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
-.paper-card-arxiv:hover {
-  text-decoration: underline;
+.paper-card-link {
+  color: #3b82f6;
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 2px 6px;
+  border: 1px solid #3b82f6;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.paper-card-link:hover {
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
 }
 
 .paper-explorer-graph {

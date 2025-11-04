@@ -329,6 +329,12 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                 <span>Cited by: ${paper.citationCount}</span>
                 <span>ReferenceCount: ${paper.referenceCount}</span>
               </div>
+              <div class="paper-card-links">
+                ${paper.arxivId ? `<a href="https://arxiv.org/abs/${paper.arxivId}" target="_blank" rel="noopener noreferrer" class="paper-card-link">arXiv</a>` : ''}
+                ${paper.doi ? `<a href="https://doi.org/${paper.doi}" target="_blank" rel="noopener noreferrer" class="paper-card-link">DOI</a>` : ''}
+                ${paper.url ? `<a href="${paper.url}" target="_blank" rel="noopener noreferrer" class="paper-card-link">S2</a>` : ''}
+                ${paper.openAccessPdf ? `<a href="${paper.openAccessPdf}" target="_blank" rel="noopener noreferrer" class="paper-card-link">PDF</a>` : ''}
+              </div>
             </div>
           `);
         
@@ -647,6 +653,12 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                 <span>Cited by: ${paper.citationCount}</span>
                 <span>ReferenceCount: ${paper.referenceCount}</span>
               </div>
+              <div class="paper-card-links">
+                ${paper.arxivId ? `<a href="https://arxiv.org/abs/${paper.arxivId}" target="_blank" rel="noopener noreferrer" class="paper-card-link">arXiv</a>` : ''}
+                ${paper.doi ? `<a href="https://doi.org/${paper.doi}" target="_blank" rel="noopener noreferrer" class="paper-card-link">DOI</a>` : ''}
+                ${paper.url ? `<a href="${paper.url}" target="_blank" rel="noopener noreferrer" class="paper-card-link">S2</a>` : ''}
+                ${paper.openAccessPdf ? `<a href="${paper.openAccessPdf}" target="_blank" rel="noopener noreferrer" class="paper-card-link">PDF</a>` : ''}
+              </div>
             </div>
           `);
         
@@ -816,13 +828,27 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   };
 
   const PaperCard: React.FC<{ paper: Paper; type: 'cites' | 'cited_by' }> = ({ paper, type }) => {
+    const handleCardClick = (e: React.MouseEvent) => {
+      // フッターのリンクがクリックされた場合は検索を実行しない
+      const target = e.target as HTMLElement;
+      if (target.closest('.paper-card-links')) {
+        return;
+      }
+      e.stopPropagation();
+      setQuery(paper.title);
+      setActiveTab('list');
+      searchPapers(paper.title);
+    };
+
     return (
-      <div className={`paper-card paper-card-${type}`}>
+      <div 
+        className={`paper-card paper-card-${type}`}
+        onClick={handleCardClick}
+        style={{ cursor: 'pointer' }}
+      >
         <div className="paper-card-header">
           <h3 className="paper-card-title">
-            <a href={paper.url} target="_blank" rel="noopener noreferrer">
-              {paper.title}
-            </a>
+            {paper.title}
           </h3>
           <span className="paper-card-type">{type === 'cites' ? 'Cites' : 'Cited by'}</span>
         </div>
@@ -841,16 +867,48 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             <span>Cited by: {paper.citationCount}</span>
             <span>ReferenceCount: {paper.referenceCount}</span>
           </div>
-          {paper.arxivId && (
-            <a
-              href={`https://arxiv.org/abs/${paper.arxivId}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="paper-card-arxiv"
-            >
-              arXiv:{paper.arxivId}
-            </a>
-          )}
+          <div className="paper-card-links" onClick={(e) => e.stopPropagation()}>
+            {paper.arxivId && (
+              <a
+                href={`https://arxiv.org/abs/${paper.arxivId}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="paper-card-link"
+              >
+                arXiv
+              </a>
+            )}
+            {paper.doi && (
+              <a
+                href={`https://doi.org/${paper.doi}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="paper-card-link"
+              >
+                DOI
+              </a>
+            )}
+            {paper.url && (
+              <a
+                href={paper.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="paper-card-link"
+              >
+                S2
+              </a>
+            )}
+            {paper.openAccessPdf && (
+              <a
+                href={paper.openAccessPdf}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="paper-card-link"
+              >
+                PDF
+              </a>
+            )}
+          </div>
         </div>
       </div>
     );
