@@ -1,0 +1,34 @@
+{
+    "paperId": "12f59975d3e64ce30ba65df14b97f3c5488543b7",
+    "title": "A Monte Carlo Approach for Nonsmooth Convex Optimization via Proximal Splitting Algorithms",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Nicholas Di",
+        "Eric C. Chi",
+        "Samy Wu Fung"
+    ],
+    "doi": null,
+    "arxivId": "2509.07914",
+    "url": "https://www.semanticscholar.org/paper/12f59975d3e64ce30ba65df14b97f3c5488543b7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Operator splitting algorithms are a cornerstone of modern first-order optimization, relying critically on proximal operators as their fundamental building blocks. However, explicit formulas for proximal operators are available only for limited classes of functions, restricting the applicability of these methods. Recent work introduced HJ-Prox, a zeroth-order Monte Carlo approximation of the proximal operator derived from Hamilton-Jacobi PDEs, which circumvents the need for closed-form solutions. In this work, we extend the scope of HJ-Prox by establishing that it can be seamlessly incorporated into operator splitting schemes while preserving convergence guarantees. In particular, we show that replacing exact proximal steps with HJ-Prox approximations in algorithms such as proximal gradient descent, Douglas-Rachford splitting, Davis-Yin splitting, and the primal-dual hybrid gradient method still ensures convergence under mild conditions.",
+    "citationCount": 0,
+    "referenceCount": 25
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "a5df0043b9e7f3a9c986bcf8901ca46d5494cd12",
+    "title": "Robust Data-Driven Accelerated Mirror Descent",
+    "year": 2022,
+    "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+    "authors": [
+        "Hongwei Tan",
+        "Subhadip Mukherjee",
+        "Junqi Tang",
+        "A. Hauptmann",
+        "C. Schönlieb"
+    ],
+    "doi": "10.1109/ICASSP49357.2023.10096875",
+    "arxivId": "2210.12238",
+    "url": "https://www.semanticscholar.org/paper/a5df0043b9e7f3a9c986bcf8901ca46d5494cd12",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://oulurepo.oulu.fi/bitstream/10024/43750/1/nbnfi-fe2023071090466.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning-to-optimize is an emerging framework that leverages training data to speed up the solution of certain optimization problems. One such approach is based on the classical mirror descent algorithm, where the mirror map is modelled using input-convex neural networks. In this work, we extend this functional parameterization approach by introducing momentum into the iterations, based on the classical accelerated mirror descent. Our approach combines short-time accelerated convergence with stable long-time behavior. We empirically demonstrate additional robustness with respect to multiple parameters on denoising and deconvolution experiments.",
+    "citationCount": 1,
+    "referenceCount": 23
+}

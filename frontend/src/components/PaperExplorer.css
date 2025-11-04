@@ -265,6 +265,26 @@
   display: block;
 }
 
+.paper-explorer-loading {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+}
+
+.paper-explorer-loading p {
+  font-size: 1.2rem;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
 .paper-explorer-no-result {
   text-align: center;
   padding: 40px;

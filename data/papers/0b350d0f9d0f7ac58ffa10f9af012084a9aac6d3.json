@@ -1,0 +1,40 @@
+{
+    "paperId": "0b350d0f9d0f7ac58ffa10f9af012084a9aac6d3",
+    "title": "The Heterophilic Snowflake Hypothesis: Training and Empowering GNNs for Heterophilic Graphs",
+    "year": 2024,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Kun Wang",
+        "Guibin Zhang",
+        "Xinnan Zhang",
+        "Junfeng Fang",
+        "Xun Wu",
+        "Guohao Li",
+        "Shirui Pan",
+        "Wei Huang",
+        "Yuxuan Liang"
+    ],
+    "doi": "10.1145/3637528.3671791",
+    "arxivId": "2406.12539",
+    "url": "https://www.semanticscholar.org/paper/0b350d0f9d0f7ac58ffa10f9af012084a9aac6d3",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2406.12539",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph Neural Networks (GNNs) have become pivotal tools for a range of graph-based learning tasks. Notably, most current GNN architectures operate under the assumption of homophily, whether explicitly or implicitly. While this underlying assumption is frequently adopted, it is not universally applicable, which can result in potential shortcomings in learning effectiveness. In this paper, or the first time, we transfer the prevailing concept of \"one node one receptive field\" to the heterophilic graph. By constructing a proxy label predictor, we enable each node to possess a latent prediction distribution, which assists connected nodes in determining whether they should aggregate their associated neighbors. Ultimately, every node can have its own unique aggregation hop and pattern, much like each snowflake is unique and possesses its own characteristics. Based on observations, we innovatively introduce the Heterophily Snowflake Hypothesis and provide an effective solution to guide and facilitate research on heterophilic graphs and beyond. We conduct comprehensive experiments including (1) main results on 10 graphs with varying heterophily ratios across 10 backbones; (2) scalability on various deep GNN backbones (SGC, JKNet, etc.) across various large number of layers (2,4,6,8,16,32 layers); (3) comparison with conventional snowflake hypothesis; (4) efficiency comparison with existing graph pruning algorithms. Our observations show that our framework acts as a versatile operator for diverse tasks. It can be integrated into various GNN frameworks, boosting performance in-depth and offering an explainable approach to choosing the optimal network depth. The source code is available at https://github.com/bingreeky/HeteroSnoH.",
+    "citationCount": 11,
+    "referenceCount": 75
+}

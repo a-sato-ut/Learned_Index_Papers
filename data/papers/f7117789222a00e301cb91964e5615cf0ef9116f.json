@@ -1,0 +1,39 @@
+{
+    "paperId": "f7117789222a00e301cb91964e5615cf0ef9116f",
+    "title": "BoolGebra: Attributed Graph-Learning for Boolean Algebraic Manipulation",
+    "year": 2024,
+    "venue": "Design, Automation and Test in Europe",
+    "authors": [
+        "Yingjie Li",
+        "Anthony Agnesina",
+        "Yanqing Zhang",
+        "Haoxing Ren",
+        "Cunxi Yu"
+    ],
+    "doi": "10.48550/arXiv.2401.10753",
+    "arxivId": "2401.10753",
+    "url": "https://www.semanticscholar.org/paper/f7117789222a00e301cb91964e5615cf0ef9116f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Logic optimization is an essential stage in the design automation flow for digital systems as the performance of the system at logic level can have significant impacts on the final chip area, timing closure, and the power efficiency of the system. Logic optimization is a technology-independent circuit optimization at the logic level conducted on multi-level technology-independent representations such as And-Inverter-Graphs (AIGs) [1] and Majority-Inverter-Graphs (MIGs) [2] of the digital logic. Existing state-of-the-art (SOTA) Directed-Acyclic-Graphs (DAGs) aware Boolean optimization algorithms, such as structural rewriting (rw) [1], resubstitution (rs) [3], and refactoring (rf) [1] in ABC [4], are conducted on the AIG data structure with a graph-level single optimization concept, i.e., all nodes in the graph have one same fixed optimization opportunity, while overlooking other potential optimization opportunities. [5] proposes orchestrated logic optimization, which is a fine-grained node-level logic optimization method incorporating multiple optimization techniques within a single AIG traversal. However, the enlarged search space pose a significant challenge in searching optimal solutions without domain knowledge.",
+    "citationCount": 2,
+    "referenceCount": 41
+}

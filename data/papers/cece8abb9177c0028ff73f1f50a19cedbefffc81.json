@@ -1,0 +1,37 @@
+{
+    "paperId": "cece8abb9177c0028ff73f1f50a19cedbefffc81",
+    "title": "Resource-Efficient Invariant Networks: Exponential Gains by Unrolled Optimization",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sam Buchanan",
+        "Jingkai Yan",
+        "Ellie Haber",
+        "John N. Wright"
+    ],
+    "doi": "10.48550/arXiv.2203.05006",
+    "arxivId": "2203.05006",
+    "url": "https://www.semanticscholar.org/paper/cece8abb9177c0028ff73f1f50a19cedbefffc81",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.05006",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Achieving invariance to nuisance transformations is a fundamental challenge in the construction of robust and reliable vision systems. Existing approaches to invariance scale exponentially with the dimension of the family of transformations, making them unable to cope with natural variabilities in visual data such as changes in pose and perspective. We identify a common limitation of these approaches--they rely on sampling to traverse the high-dimensional space of transformations--and propose a new computational primitive for building invariant networks based instead on optimization, which in many scenarios provides a provably more efficient method for high-dimensional exploration than sampling. We provide empirical and theoretical corroboration of the efficiency gains and soundness of our proposed method, and demonstrate its utility in constructing an efficient invariant network for a simple hierarchical object detection task when combined with unrolled optimization. Code for our networks and experiments is available at https://github.com/sdbuch/refine.",
+    "citationCount": 3,
+    "referenceCount": 87
+}

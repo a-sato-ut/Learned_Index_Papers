@@ -1,0 +1,35 @@
+{
+    "paperId": "ea38182f7626bb75b12a1f35b97664c8a3298209",
+    "title": "A Resource-Aware Deep Cost Model for Big Data Query Processing",
+    "year": 2022,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Yan Li",
+        "Liwei Wang",
+        "Sheng Wang",
+        "Yuan Sun",
+        "Zhiyong Peng"
+    ],
+    "doi": "10.1109/icde53745.2022.00071",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ea38182f7626bb75b12a1f35b97664c8a3298209",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The efficiency of query processing is highly affected by execution plans and allocated resources in the Spark SQL big data processing engine. However, the cost models for Spark SQL are still based on hand-crafted rules. The learning-based cost models have been proposed for relational databases, but it does not consider the effect of the available resources. To address this, we propose a resource-aware deep learning model that can automatically predict the execution time of query plans based on historical data. To train our model, we embed the query execution plans based on the query plan tree and extract features from the allocated resources. A deep learning model with adaptive attention mechanisms is then trained to predict the execution time of query plans. The experiments show that our deep cost model can achieve higher accuracy in predicting the execution time of query plans compared to traditional rule-based methods and relational database learning-based optimizers.",
+    "citationCount": 13,
+    "referenceCount": 44
+}

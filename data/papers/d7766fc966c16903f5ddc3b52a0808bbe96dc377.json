@@ -1,0 +1,45 @@
+{
+    "paperId": "d7766fc966c16903f5ddc3b52a0808bbe96dc377",
+    "title": "A Multi-Node Multi-GPU Distributed GNN Training Framework for Large-Scale Online Advertising",
+    "year": 2024,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Xuewu Jiao",
+        "Xinsheng Luo",
+        "Miao Li",
+        "Jiang Bian",
+        "Junchao Yang",
+        "Wei Hu",
+        "Mingqing Hu",
+        "Weipeng Lu",
+        "Shikun Feng",
+        "Danlei Feng",
+        "Dongxu Yang",
+        "Haoyi Xiong",
+        "Shuanglong Li",
+        "Lin Liu"
+    ],
+    "doi": "10.1145/3627673.3680018",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d7766fc966c16903f5ddc3b52a0808bbe96dc377",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph Neural Networks (GNNs) have become critical in various domains such as online advertising but face scalability challenges due to the growing size of graph data, leading to the needs for advanced distributed GPU computation strategies across multiple nodes. This paper presents PGLBox-Cluster, a robust distributed graph learning framework constructed atop the PaddlePaddle platform, implemented to efficiently process graphs comprising billions of nodes and edges. Through strategic partitioning of the model, node attributes, and graph data and leveraging industrial-grade RPC and NCCL for communication, PGLBox-Cluster facilitates effective distributed computation. The extensive experimental results confirm that PGLBox-Cluster achieves a 1.94x to 2.93x speedup over the single-node configuration, significantly elevating graph neural network scalability and efficiency by handling datasets exceeding 3 billion nodes and 120 billion edges with its novel asynchronous communication and graph partitioning techniques. The repository is released at This Link.",
+    "citationCount": 1,
+    "referenceCount": 25
+}

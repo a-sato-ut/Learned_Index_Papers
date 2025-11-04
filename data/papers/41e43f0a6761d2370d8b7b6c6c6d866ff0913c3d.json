@@ -1,0 +1,41 @@
+{
+    "paperId": "41e43f0a6761d2370d8b7b6c6c6d866ff0913c3d",
+    "title": "FASTEN: Fast GPU-accelerated Segmented Matrix Multiplication for Heterogenous Graph Neural Networks",
+    "year": 2024,
+    "venue": "International Conference on Supercomputing",
+    "authors": [
+        "Keren Zhou",
+        "Karthik Ganapathi Subramanian",
+        "Po-Hsun Lin",
+        "Matthias Fey",
+        "Binqian Yin",
+        "Jiajia Li"
+    ],
+    "doi": "10.1145/3650200.3656593",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/41e43f0a6761d2370d8b7b6c6c6d866ff0913c3d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3650200.3656593",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper introduces FASTEN, a cutting-edge library developed to address the computational challenges inherent in Heterogeneous Graph Neural Networks (HGNNs). The key focus of FASTEN is the optimization of segmented matrix multiplication, a critical operator where existing GNN frameworks and linear algebra libraries often fall short. FASTEN offers an array of solutions to these challenges, including a routing table designed for efficient workload scheduling, adaptive algorithms tailored for handling segments of different shapes and segmented dimensions, and a performance model-guided autotuner to select the best configurations. Furthermore, FASTEN implements interfaces to integrate with widely-used frameworks like PyG, ensuring straightforward adoption in existing HGNN models with minimal adjustments. We have performed comprehensive benchmarks on advanced GPU architectures, including NVIDIA H100, A100, and RTX4090, to demonstrate that FASTEN significantly improves both operator-wise and end-to-end performance across various datasets and HGNNs.",
+    "citationCount": 1,
+    "referenceCount": 60
+}

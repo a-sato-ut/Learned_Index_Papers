@@ -1,0 +1,41 @@
+{
+    "paperId": "372e6868a0ece91ef4d38bee7711e12bd5eb7722",
+    "title": "Graph Bottlenecked Social Recommendation",
+    "year": 2024,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Yonghui Yang",
+        "Le Wu",
+        "Zihan Wang",
+        "Zhuangzhuang He",
+        "Richang Hong",
+        "Meng Wang"
+    ],
+    "doi": "10.1145/3637528.3671807",
+    "arxivId": "2406.08214",
+    "url": "https://www.semanticscholar.org/paper/372e6868a0ece91ef4d38bee7711e12bd5eb7722",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2406.08214",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Sociology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the emergence of social networks, social recommendation has become an essential technique for personalized services. Recently, graph-based social recommendations have shown promising results by capturing the high-order social influence. Most empirical studies of graph-based social recommendations directly take the observed social networks into formulation, and produce user preferences based on social homogeneity. Despite the effectiveness, we argue that social networks in the real-world are inevitably noisy~(existing redundant social relations), which may obstruct precise user preference characterization. Nevertheless, identifying and removing redundant social relations is challenging due to a lack of labels. In this paper, we focus on learning the denoised social structure to facilitate recommendation tasks from an information bottleneck perspective. Specifically, we propose a novel Graph Bottlenecked Social Recommendation (GBSR) framework to tackle the social noise issue. GBSR is a model-agnostic social denoising framework, that aims to maximize the mutual information between the denoised social graph and recommendation labels, meanwhile minimizing it between the denoised social graph and the original one. This enables GBSR to learn the minimal yet sufficient social structure, effectively reducing redundant social relations and enhancing social recommendations. Technically, GBSR consists of two elaborate components, preference-guided social graph refinement, and HSIC-based bottleneck learning. Extensive experimental results demonstrate the superiority of the proposed GBSR, including high performances and good generality combined with various backbones. Our code is available at: https://github.com/yimutianyang/KDD24-GBSR.",
+    "citationCount": 19,
+    "referenceCount": 69
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "a3918eb48a566c1b80aa166a887004b99289a725",
+    "title": "Self-Supervised Learning of Iterative Solvers for Constrained Optimization",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Lukas Lüken",
+        "Sergio Lucia"
+    ],
+    "doi": "10.48550/arXiv.2409.08066",
+    "arxivId": "2409.08066",
+    "url": "https://www.semanticscholar.org/paper/a3918eb48a566c1b80aa166a887004b99289a725",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Obtaining the solution of constrained optimization problems as a function of parameters is very important in a multitude of applications, such as control and planning. Solving such parametric optimization problems in real time can present significant challenges, particularly when it is necessary to obtain highly accurate solutions or batches of solutions. To solve these challenges, we propose a learning-based iterative solver for constrained optimization which can obtain very fast and accurate solutions by customizing the solver to a specific parametric optimization problem. For a given set of parameters of the constrained optimization problem, we propose a first step with a neural network predictor that outputs primal-dual solutions of a reasonable degree of accuracy. This primal-dual solution is then improved to a very high degree of accuracy in a second step by a learned iterative solver in the form of a neural network. A novel loss function based on the Karush-Kuhn-Tucker conditions of optimality is introduced, enabling fully self-supervised training of both neural networks without the necessity of prior sampling of optimizer solutions. The evaluation of a variety of quadratic and nonlinear parametric test problems demonstrates that the predictor alone is already competitive with recent self-supervised schemes for approximating optimal solutions. The second step of our proposed learning-based iterative constrained optimizer achieves solutions with orders of magnitude better accuracy than other learning-based approaches, while being faster to evaluate than state-of-the-art solvers and natively allowing for GPU parallelization.",
+    "citationCount": 1,
+    "referenceCount": 22
+}

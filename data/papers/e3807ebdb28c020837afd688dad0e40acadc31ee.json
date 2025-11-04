@@ -1,0 +1,36 @@
+{
+    "paperId": "e3807ebdb28c020837afd688dad0e40acadc31ee",
+    "title": "Differentiating Through Integer Linear Programs with Quadratic Regularization and Davis-Yin Splitting",
+    "year": 2023,
+    "venue": "Trans. Mach. Learn. Res.",
+    "authors": [
+        "Daniel Mckenzie",
+        "Samy Wu Fung",
+        "Howard Heaton"
+    ],
+    "doi": null,
+    "arxivId": "2301.13395",
+    "url": "https://www.semanticscholar.org/paper/e3807ebdb28c020837afd688dad0e40acadc31ee",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In many applications, a combinatorial problem must be repeatedly solved with similar, but distinct parameters. Yet, the parameters $w$ are not directly observed; only contextual data $d$ that correlates with $w$ is available. It is tempting to use a neural network to predict $w$ given $d$. However, training such a model requires reconciling the discrete nature of combinatorial optimization with the gradient-based frameworks used to train neural networks. We study the case where the problem in question is an Integer Linear Program (ILP). We propose applying a three-operator splitting technique, also known as Davis-Yin splitting (DYS), to the quadratically regularized continuous relaxation of the ILP. We prove that the resulting scheme is compatible with the recently introduced Jacobian-free backpropagation (JFB). Our experiments on two representative ILPs: the shortest path problem and the knapsack problem, demonstrate that this combination-DYS on the forward pass, JFB on the backward pass-yields a scheme which scales more effectively to high-dimensional problems than existing schemes. All code associated with this paper is available at github.com/mines-opt-ml/fpo-dys.",
+    "citationCount": 8,
+    "referenceCount": 58
+}

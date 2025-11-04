@@ -1,0 +1,46 @@
+{
+    "paperId": "4be952924cd565488b4a239dc6549095029ee578",
+    "title": "Learning for Robust Combinatorial Optimization: Algorithm and Application",
+    "year": 2021,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Zhihui Shao",
+        "Jianyi Yang",
+        "Cong Shen",
+        "Shaolei Ren"
+    ],
+    "doi": "10.1109/INFOCOM48880.2022.9796715",
+    "arxivId": "2112.10377",
+    "url": "https://www.semanticscholar.org/paper/4be952924cd565488b4a239dc6549095029ee578",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2112.10377",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning to optimize (L2O) has recently emerged as a promising approach to solving optimization problems by exploiting the strong prediction power of neural networks and offering lower runtime complexity than conventional solvers. While L2O has been applied to various problems, a crucial yet challenging class of problems — robust combinatorial optimization in the form of minimax optimization — have largely remained under-explored. In addition to the exponentially large decision space, a key challenge for robust combinatorial optimization lies in the inner optimization problem, which is typically non-convex and entangled with outer optimization. In this paper, we study robust combinatorial optimization and propose a novel learning-based optimizer, called LRCO (Learning for Robust Combinatorial Optimization), which quickly outputs a robust solution in the presence of uncertain context. LRCO leverages a pair of learning-based optimizers — one for the minimizer and the other for the maximizer — that use their respective objective functions as losses and can be trained without the need of labels for training problem instances. To evaluate the performance of LRCO, we perform simulations for the task offloading problem in vehicular edge computing. Our results highlight that LRCO can greatly reduce the worst-case cost and improve robustness, while having a very low runtime complexity.",
+    "citationCount": 6,
+    "referenceCount": 53
+}

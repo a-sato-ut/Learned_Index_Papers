@@ -1,0 +1,43 @@
+{
+    "paperId": "974c188281765c4db1eb15d4d4fc72ca22a9c0cc",
+    "title": "Scalable Optimal Transport Methods in Machine Learning: A Contemporary Survey.",
+    "year": 2023,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "authors": [
+        "Abdelwahed Khamis",
+        "Russell Tsuchida",
+        "Mohamed Tarek",
+        "V. Rolland",
+        "L. Petersson"
+    ],
+    "doi": "10.1109/TPAMI.2024.3379571",
+    "arxivId": "2305.05080",
+    "url": "https://www.semanticscholar.org/paper/974c188281765c4db1eb15d4d4fc72ca22a9c0cc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/34/4359286/10476763.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Optimal Transport (OT) is a mathematical framework that first emerged in the eighteenth century and has led to a plethora of methods for answering many theoretical and applied questions. The last decade has been a witness to the remarkable contributions of this classical optimization problem to machine learning. This paper is about where and how optimal transport is used in machine learning with a focus on the question of scalable optimal transport. We provide a comprehensive survey of optimal transport while ensuring an accessible presentation as permitted by the nature of the topic and the context. First, we explain the optimal transport background and introduce different flavors (i.e. mathematical formulations), properties, and notable applications. We then address the fundamental question of how to scale optimal transport to cope with the current demands of big and high dimensional data. We conduct a systematic analysis of the methods used in the literature for scaling OT and present the findings in a unified taxonomy. We conclude with presenting some open challenges and discussing potential future research directions. A live repository of related OT research papers is maintained in https://github.com/abdelwahed/OT_for_big_data.git.",
+    "citationCount": 25,
+    "referenceCount": 317
+}

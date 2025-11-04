@@ -1,0 +1,30 @@
+{
+    "paperId": "66e308d35882775cfedb6f8f2984345551b6d2d1",
+    "title": "Physics-Inspired Binary Neural Networks: Interpretable Compression with Theoretical Guarantees",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Arian Eamaz",
+        "Farhang Yeganegi",
+        "M. Soltanalian"
+    ],
+    "doi": null,
+    "arxivId": "2502.01908",
+    "url": "https://www.semanticscholar.org/paper/66e308d35882775cfedb6f8f2984345551b6d2d1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Why rely on dense neural networks and then blindly sparsify them when prior knowledge about the problem structure is already available? Many inverse problems admit algorithm-unrolled networks that naturally encode physics and sparsity. In this work, we propose a Physics-Inspired Binary Neural Network (PIBiNN) that combines two key components: (i) data-driven one-bit quantization with a single global scale, and (ii) problem-driven sparsity predefined by physics and requiring no updates during training. This design yields compression rates below one bit per weight by exploiting structural zeros, while preserving essential operator geometry. Unlike ternary or pruning-based schemes, our approach avoids ad-hoc sparsification, reduces metadata overhead, and aligns directly with the underlying task. Experiments suggest that PIBiNN achieves advantages in both memory efficiency and generalization compared to competitive baselines such as ternary and channel-wise quantization.",
+    "citationCount": 0,
+    "referenceCount": 27
+}

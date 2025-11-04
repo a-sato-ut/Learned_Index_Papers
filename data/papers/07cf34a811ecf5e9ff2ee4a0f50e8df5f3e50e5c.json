@@ -1,0 +1,34 @@
+{
+    "paperId": "07cf34a811ecf5e9ff2ee4a0f50e8df5f3e50e5c",
+    "title": "Enhancing Graph Neural Networks via Memorized Global Information",
+    "year": 2024,
+    "venue": "ACM Transactions on the Web",
+    "authors": [
+        "Ruihong Zeng",
+        "Jinyuan Fang",
+        "Siwei Liu",
+        "Zaiqiao Meng",
+        "Shangsong Liang"
+    ],
+    "doi": "10.1145/3689430",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/07cf34a811ecf5e9ff2ee4a0f50e8df5f3e50e5c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3689430",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph neural networks (GNNs) have gained significant attention for their impressive results on different graph-based tasks. The essential mechanism of GNNs is the message-passing framework, whereby node representations are aggregated from local neighborhoods. Recently, Transformer-based GNNs have been introduced to learn the long-range dependencies, enhancing performance. However, their quadratic computational complexity, due to the attention computation, has constrained their applicability on large-scale graphs. To address this issue, we propose MGIGNN (Memorized Global Information Graph Neural Network), an innovative approach that leverages memorized global information to enhance existing GNNs in both transductive and inductive scenarios. Specifically, MGIGNN captures long-range dependencies by identifying and incorporating global similar nodes, which are defined as nodes exhibiting similar features, structural patterns and label information within a graph. To alleviate the computational overhead associated with computing embeddings for all nodes, we introduce an external memory module to facilitate the retrieval of embeddings and optimize performance on large graphs. To enhance the memory-efficiency, MGIGNN selectively retrieves global similar nodes from a small set of candidate nodes. These candidate nodes are selected from the training nodes based on a sparse node selection distribution with a Dirichlet prior. This selecting approach not only reduces the memory size required but also ensures efficient utilization of computational resources. Through comprehensive experiments conducted on ten widely-used and real-world datasets, including seven homogeneous datasets and three heterogeneous datasets, we demonstrate that our MGIGNN can generally improve the performance of existing GNNs on node classification tasks under both inductive and transductive settings.",
+    "citationCount": 1,
+    "referenceCount": 104
+}

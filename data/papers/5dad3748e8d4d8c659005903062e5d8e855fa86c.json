@@ -1,0 +1,35 @@
+{
+    "paperId": "5dad3748e8d4d8c659005903062e5d8e855fa86c",
+    "title": "Landscape Learning for Neural Network Inversion",
+    "year": 2022,
+    "venue": "IEEE International Conference on Computer Vision",
+    "authors": [
+        "Ruoshi Liu",
+        "Chen-Guang Mao",
+        "Purva Tendulkar",
+        "Hongya Wang",
+        "Carl Vondrick"
+    ],
+    "doi": "10.1109/ICCV51070.2023.00213",
+    "arxivId": "2206.09027",
+    "url": "https://www.semanticscholar.org/paper/5dad3748e8d4d8c659005903062e5d8e855fa86c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many machine learning methods operate by inverting a neural network at inference time, which has become a popular technique for solving inverse problems in computer vision, robotics, and graphics. However, these methods often involve gradient descent through a highly non-convex loss landscape, causing the optimization process to be unstable and slow. We introduce a method that learns a loss landscape where gradient descent is efficient, bringing massive improvement and acceleration to the inversion process. We demonstrate this advantage on a number of methods for both generative and discriminative tasks, including GAN inversion, adversarial defense, and 3D human pose reconstruction.",
+    "citationCount": 11,
+    "referenceCount": 83
+}

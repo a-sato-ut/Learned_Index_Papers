@@ -1,0 +1,42 @@
+{
+    "paperId": "b1f9e30e0d1cc7b3fb35e845bbcae199cb83bbfb",
+    "title": "A neural network approach for solving the Monge-Ampère equation with transport boundary condition",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Roel Hacking",
+        "L. Kusch",
+        "Koondanibha Mitra",
+        "M. Anthonissen",
+        "W. IJzerman"
+    ],
+    "doi": "10.48550/arXiv.2410.19496",
+    "arxivId": "2410.19496",
+    "url": "https://www.semanticscholar.org/paper/b1f9e30e0d1cc7b3fb35e845bbcae199cb83bbfb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper introduces a novel neural network-based approach to solving the Monge-Amp\\`ere equation with the transport boundary condition, specifically targeted towards optical design applications. We leverage multilayer perceptron networks to learn approximate solutions by minimizing a loss function that encompasses the equation's residual, boundary conditions, and convexity constraints. Our main results demonstrate the efficacy of this method, optimized using L-BFGS, through a series of test cases encompassing symmetric and asymmetric circle-to-circle, square-to-circle, and circle-to-flower reflector mapping problems. Comparative analysis with a conventional least-squares finite-difference solver reveals the competitive, and often superior, performance of our neural network approach on the test cases examined here. A comprehensive hyperparameter study further illuminates the impact of factors such as sampling density, network architecture, and optimization algorithm. While promising, further investigation is needed to verify the method's robustness for more complicated problems and to ensure consistent convergence. Nonetheless, the simplicity and adaptability of this neural network-based approach position it as a compelling alternative to specialized partial differential equation solvers.",
+    "citationCount": 1,
+    "referenceCount": 33
+}

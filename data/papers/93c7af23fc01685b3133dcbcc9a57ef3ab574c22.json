@@ -1,0 +1,38 @@
+{
+    "paperId": "93c7af23fc01685b3133dcbcc9a57ef3ab574c22",
+    "title": "Robust Inverse Retrieval in Online Advertising with Contrastive Learning",
+    "year": 2025,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Phaniram Sayapaneni",
+        "Konstantin Shmakov",
+        "Sunil Goda"
+    ],
+    "doi": "10.1145/3726302.3731967",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/93c7af23fc01685b3133dcbcc9a57ef3ab574c22",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sponsored product plays a key role at advertising business which attracts an increasing number of advertisers seeking better platforms to promote their products. Connecting advertiser's products (demand) to the customer interests (supply) becomes a crucial factor in forecasting advertising campaign success. In this work, we propose a general framework for learning the inverse product retrieval process, a more complex procedure compared to the conventional forward approach. The first set of challenges arise due to a significant level of noise in the retrieval data caused by users who deviate from the intended platform usage. To address this, we propose a contrastive learning approach that minimizes the effect of such noise in data, ensuring robustness against false positives and false negatives. In addition, we propose a calibration procedure for the inverse retrieval that handles dynamic size of a set of queries that may retrieve any particular product of interest. Our framework is universally applicable across various contexts of an advertising platform, including but not limited to search pages, item pages, and browsing pages. We showcase the efficacy of the proposed approach using Walmart's advertising data in ten product domains.",
+    "citationCount": 0,
+    "referenceCount": 29
+}

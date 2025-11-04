@@ -1,0 +1,42 @@
+{
+    "paperId": "57fa73e09a3edca986969071a0b407a619cab2aa",
+    "title": "Bio-SODA: Enabling Natural Language Question Answering over Knowledge Graphs without Training Data",
+    "year": 2021,
+    "venue": "International Conference on Statistical and Scientific Database Management",
+    "authors": [
+        "A. Sima",
+        "T. M. Farias",
+        "M. Anisimova",
+        "C. Dessimoz",
+        "M. Robinson-Rechavi",
+        "E. Zbinden",
+        "Kurt Stockinger"
+    ],
+    "doi": "10.1145/3468791.3469119",
+    "arxivId": "2104.13744",
+    "url": "https://www.semanticscholar.org/paper/57fa73e09a3edca986969071a0b407a619cab2aa",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2104.13744",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The problem of natural language processing over structured data has become a growing research field, both within the relational database and the Semantic Web community, with significant efforts involved in question answering over knowledge graphs (KGQA). However, many of these approaches are either specifically targeted at open-domain question answering using DBpedia, or require large training datasets to translate a natural language question to SPARQL in order to query the knowledge graph. Hence, these approaches often cannot be applied directly to complex scientific datasets where no prior training data is available. In this paper, we focus on the challenges of natural language processing over knowledge graphs of scientific datasets. In particular, we introduce Bio-SODA, a natural language processing engine that does not require training data in the form of question-answer pairs for generating SPARQL queries. Bio-SODA uses a generic graph-based approach for translating user questions to a ranked list of SPARQL candidate queries. Furthermore, Bio-SODA uses a novel ranking algorithm that includes node centrality as a measure of relevance for selecting the best SPARQL candidate query. Our experiments with real-world datasets across several scientific domains, including the official bioinformatics Question Answering over Linked Data (QALD) challenge, as well as the CORDIS dataset of European projects, show that Bio-SODA outperforms publicly available KGQA systems by an F1-score of least 20% and by an even higher factor on more complex bioinformatics datasets.",
+    "citationCount": 18,
+    "referenceCount": 45
+}

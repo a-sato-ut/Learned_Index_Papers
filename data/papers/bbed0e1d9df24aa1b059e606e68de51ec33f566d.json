@@ -1,0 +1,41 @@
+{
+    "paperId": "bbed0e1d9df24aa1b059e606e68de51ec33f566d",
+    "title": "Accelerated Forward-Backward Optimization Using Deep Learning",
+    "year": 2021,
+    "venue": "SIAM Journal on Optimization",
+    "authors": [
+        "Sebastian Banert",
+        "Jevgenija Rudzusika",
+        "O. Öktem",
+        "J. Adler"
+    ],
+    "doi": "10.1137/22m1532548",
+    "arxivId": "2105.05210",
+    "url": "https://www.semanticscholar.org/paper/bbed0e1d9df24aa1b059e606e68de51ec33f566d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2105.05210",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose several deep-learning accelerated optimization solvers with convergence guarantees. We use ideas from the analysis of accelerated forward-backward schemes like FISTA, but instead of the classical approach of proving convergence for a choice of parameters, such as a step-size, we show convergence whenever the update is chosen in a specific set. Rather than picking a point in this set using some predefined method, we train a deep neural network to pick the best update. Finally, we show that the method is applicable to several cases of smooth and non-smooth optimization and show superior results to established accelerated solvers.",
+    "citationCount": 23,
+    "referenceCount": 44
+}

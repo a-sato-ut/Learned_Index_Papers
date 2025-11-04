@@ -1,0 +1,40 @@
+{
+    "paperId": "dce8048496f05563ca140f7c3ae77773cf1dd52e",
+    "title": "Learning to Optimize for Mixed-Integer Non-linear Programming",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Bo Tang",
+        "Elias B. Khalil",
+        "Ján Drgona"
+    ],
+    "doi": "10.48550/arXiv.2410.11061",
+    "arxivId": "2410.11061",
+    "url": "https://www.semanticscholar.org/paper/dce8048496f05563ca140f7c3ae77773cf1dd52e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Mixed-integer nonlinear programs (MINLPs) arise in domains as diverse as energy systems and transportation, but are notoriously difficult to solve, particularly at scale. While learning-to-optimize (L2O) methods have been successful at continuous optimization, extending them to MINLPs is challenging due to integer constraints. To overcome this, we propose a novel L2O approach with two integer correction layers to ensure the integrality of the solution and a projection step to ensure the feasibility of the solution. We prove that the projection step converges, providing a theoretical guarantee for our method. Our experiments show that our methods efficiently solve MINLPs with up to tens of thousands of variables, providing high-quality solutions within milliseconds, even for problems where traditional solvers and heuristics fail. This is the first general L2O method for parametric MINLPs, finding solutions to some of the largest instances reported to date.",
+    "citationCount": 4,
+    "referenceCount": 92
+}

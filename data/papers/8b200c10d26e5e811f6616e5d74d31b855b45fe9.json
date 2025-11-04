@@ -1,0 +1,28 @@
+{
+    "paperId": "8b200c10d26e5e811f6616e5d74d31b855b45fe9",
+    "title": "Enhancing Efficiency in Hierarchical Reinforcement Learning through Topological-Sorted Potential Calculation",
+    "year": 2023,
+    "venue": "Electronics",
+    "authors": [
+        "Ziyun Zhou",
+        "Jingwei Shang",
+        "Yimang Li"
+    ],
+    "doi": "10.3390/electronics12173700",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8b200c10d26e5e811f6616e5d74d31b855b45fe9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2079-9292/12/17/3700/pdf?version=1693550434",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hierarchical reinforcement learning (HRL) offers a hierarchical structure for organizing tasks, enabling agents to learn and make decisions autonomously in complex environments. However, traditional HRL approaches face limitations in effectively handling complex tasks. Reward machines, which specify high-level goals and associated rewards for sub-goals, have been introduced to address these limitations by facilitating the agent’s understanding and reasoning with respect to the task hierarchy. In this paper, we propose a novel approach to enhance HRL performance through topologically sorted potential calculation for reward machines. By leveraging the topological structure of the task hierarchy, our method efficiently determines potentials for different sub-goals. This topological sorting enables the agent to prioritize actions leading to the accomplishment of higher-level goals, enhancing the learning process. To assess the efficacy of our approach, we conducted experiments in the grid-world environment with OpenAI-Gym. The results showcase the superiority of our proposed method over traditional HRL techniques and reward machine-based reinforcement learning approaches in terms of learning efficiency and overall task performance.",
+    "citationCount": 0,
+    "referenceCount": 14
+}

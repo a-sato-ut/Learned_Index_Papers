@@ -1,0 +1,36 @@
+{
+    "paperId": "0f031a447113814648f5bac912649ebb8f849a7a",
+    "title": "MMHCL: Multi-Modal Hypergraph Contrastive Learning for Recommendation",
+    "year": 2025,
+    "venue": "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMCCAP)",
+    "authors": [
+        "Xu Guo",
+        "Tong Zhang",
+        "Fuyun Wang",
+        "Xudong Wang",
+        "Xiaoya Zhang",
+        "Xin Liu",
+        "Zhen Cui"
+    ],
+    "doi": "10.1145/3762665",
+    "arxivId": "2504.16576",
+    "url": "https://www.semanticscholar.org/paper/0f031a447113814648f5bac912649ebb8f849a7a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The burgeoning presence of multimodal content-sharing platforms propels the development of personalized recommender systems. Previous works usually suffer from data sparsity and cold-start problems and may fail to adequately explore semantic user–product associations from multimodal data. To address these issues, we propose a novel Multi-Modal Hypergraph Contrastive Learning (MMHCL) framework for user recommendation. For a comprehensive information exploration from user–product relations, we construct two hypergraphs, i.e., a user-to-user (u2u) hypergraph and an item-to-item (i2i) hypergraph, to mine shared preferences among users and intricate multimodal semantic resemblance among items, respectively. This process yields denser second-order semantics that are fused with first-order user–item interaction as complementary to alleviate the data sparsity issue. Then, we design a contrastive feature enhancement paradigm by applying synergistic contrastive learning. By maximizing/minimizing the mutual information between second-order (e.g., shared preference pattern for users) and first-order (information of selected items for users) embeddings of the same/different users and items, the feature distinguishability can be effectively enhanced. Compared with using sparse primary user–item interaction only, our MMHCL obtains denser second-order hypergraphs and excavates more abundant shared attributes to explore the user–product associations, which to a certain extent alleviates the problems of data sparsity and cold-start. Extensive experiments have comprehensively demonstrated the effectiveness of our method. Our code is publicly available at https://github.com/Xu107/MMHCL.",
+    "citationCount": 2,
+    "referenceCount": 72
+}

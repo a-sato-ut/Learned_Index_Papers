@@ -1,0 +1,38 @@
+{
+    "paperId": "4f9f96679e943f7447ac431dffea506767d3cf3f",
+    "title": "Improving physics-informed neural networks with meta-learned optimization",
+    "year": 2023,
+    "venue": "Journal of machine learning research",
+    "authors": [
+        "Alexander Bihlo"
+    ],
+    "doi": "10.48550/arXiv.2303.07127",
+    "arxivId": "2303.07127",
+    "url": "https://www.semanticscholar.org/paper/4f9f96679e943f7447ac431dffea506767d3cf3f",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2303.07127",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We show that the error achievable using physics-informed neural networks for solving systems of differential equations can be substantially reduced when these networks are trained using meta-learned optimization methods rather than to using fixed, hand-crafted optimizers as traditionally done. We choose a learnable optimization method based on a shallow multi-layer perceptron that is meta-trained for specific classes of differential equations. We illustrate meta-trained optimizers for several equations of practical relevance in mathematical physics, including the linear advection equation, Poisson's equation, the Korteweg--de Vries equation and Burgers' equation. We also illustrate that meta-learned optimizers exhibit transfer learning abilities, in that a meta-trained optimizer on one differential equation can also be successfully deployed on another differential equation.",
+    "citationCount": 24,
+    "referenceCount": 42
+}

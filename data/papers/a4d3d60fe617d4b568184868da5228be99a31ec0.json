@@ -1,0 +1,43 @@
+{
+    "paperId": "a4d3d60fe617d4b568184868da5228be99a31ec0",
+    "title": "Accelerate Presolve in Large-Scale Linear Programming via Reinforcement Learning",
+    "year": 2023,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "authors": [
+        "Yufei Kuang",
+        "Xijun Li",
+        "Jie Wang",
+        "Fangzhou Zhu",
+        "Meng Lu",
+        "Zhihai Wang",
+        "Jianguo Zeng",
+        "Houqiang Li",
+        "Yongdong Zhang",
+        "Feng Wu"
+    ],
+    "doi": "10.1109/TPAMI.2025.3562286",
+    "arxivId": "2310.11845",
+    "url": "https://www.semanticscholar.org/paper/a4d3d60fe617d4b568184868da5228be99a31ec0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As one of the most critical components in modern LP solvers, presolve in linear programming (LP) employs a rich set of presolvers to remove different types of redundancy in input problems by equivalent transformations. We found from extensive experiments that the presolve routine—that is, the method determining (P1) which presolvers to select, (P2) in what order to execute, and (P3) when to stop—significantly impacts the efficiency of solving LPs. However, designing high-quality presolve routines is highly challenging due to the enormous search space, and further optimizing the routines on different tasks for high performance demands extensive domain knowledge and manual tuning. To tackle this problem, we propose the first learning based framework—that is, reinforcement learning for presolve (RL4Presolve)—to learn high-quality presolve routines. An appealing feature is that we employ a novel adaptive action sequence that learns complex routines efficiently by generating combinations of presolvers automatically at each step. Extensive experiments demonstrate that RL4Presolve achieves significant improvement (up to roughly 90% ) in the efficiency of solving LPs. Furthermore, we extract routines from learned policies for simple and efficient deployment without GPU resources to Huawei's supply chain, where extensive manual tuning for each separate task was required previously due to the high economic value.",
+    "citationCount": 6,
+    "referenceCount": 56
+}

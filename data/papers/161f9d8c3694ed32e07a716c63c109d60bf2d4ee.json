@@ -1,0 +1,41 @@
+{
+    "paperId": "161f9d8c3694ed32e07a716c63c109d60bf2d4ee",
+    "title": "Tag Tree-Guided Multi-grained Alignment for Multi-Domain Short Video Recommendation",
+    "year": 2024,
+    "venue": "ACM Multimedia",
+    "authors": [
+        "Yuting Zhang",
+        "Zhao Zhang",
+        "Yiqing Wu",
+        "Ying Sun",
+        "Fuzhen Zhuang",
+        "Wenhui Yu",
+        "Lantao Hu",
+        "Han Li",
+        "Kun Gai",
+        "Zhulin An",
+        "Yongjun Xu"
+    ],
+    "doi": "10.1145/3664647.3681692",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/161f9d8c3694ed32e07a716c63c109d60bf2d4ee",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multi-Domain Recommendation (MDR) aims to leverage data from multiple domains to enhance recommendations through overlapping users or items. However, extreme overlap sparsity in some applications makes it challenging for existing multi-domain models to capture domain-shared information. Also, the sparse overlapping users or items result in a cold start problem in every single domain and hinder feature space alignment of different domains, posing a challenge for joint optimization across domains. However, in multi-domain short video recommendation, we identify two key characteristics that can greatly alleviate the overlapping sparsity issue and enable domain alignment. (1) The following relations between users and publishers exhibit strong preferences and a concentration effect, as popular video publishers, who constitute a small portion of all users, are followed by a majority of users across various domains. (2) The tag tree structure shared by all videos can help facilitate multi-grained alignment across multiple domains. Based on these characteristics, we propose tag tree-guided multi-grained alignment with publisher enhancement for multi-domain video recommendation. Our model integrates publisher and tag nodes into the user-video bipartite graph as central nodes, enabling user and video alignment across all domains via graph propagation. Then, we propose a tag tree-guided decomposition method to obtain hierarchical graphs for multi-grained alignment. Further, we design tree-guided contrastive learning methods to capture the intra-level and inter-level node relations respectively. Finally, extensive experiments on two real-world short video recommendation datasets demonstrate the effectiveness of our model. Our code is available at https://github.com/17231087/TGMAPE.git",
+    "citationCount": 2,
+    "referenceCount": 36
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "9d2da1671929736048ff9affcdb08d3b039d5bfd",
+    "title": "Fully Zeroth-Order Bilevel Programming via Gaussian Smoothing",
+    "year": 2024,
+    "venue": "Journal of Optimization Theory and Applications",
+    "authors": [
+        "Alireza Aghasi",
+        "Saeed Ghadimi"
+    ],
+    "doi": "10.48550/arXiv.2404.00158",
+    "arxivId": "2404.00158",
+    "url": "https://www.semanticscholar.org/paper/9d2da1671929736048ff9affcdb08d3b039d5bfd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we study and analyze zeroth-order stochastic approximation algorithms for solving bilvel problems, when neither the upper/lower objective values, nor their unbiased gradient estimates are available. In particular, exploiting Stein's identity, we first use Gaussian smoothing to estimate first- and second-order partial derivatives of functions with two independent block of variables. We then used these estimates in the framework of a stochastic approximation algorithm for solving bilevel optimization problems and establish its non-asymptotic convergence analysis. To the best of our knowledge, this is the first time that sample complexity bounds are established for a fully stochastic zeroth-order bilevel optimization algorithm.",
+    "citationCount": 4,
+    "referenceCount": 87
+}

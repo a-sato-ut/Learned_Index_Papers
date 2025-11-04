@@ -1,0 +1,39 @@
+{
+    "paperId": "b1aab171f1ceed1066e90d6c1a6dbe5e814337ab",
+    "title": "LSM TR-Tree: An Efficient Spatial-Temporal Index for Real-Time IoV Data Storage",
+    "year": 2024,
+    "venue": "2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)",
+    "authors": [
+        "Yiran Shao",
+        "Zhenwu Chen",
+        "Yongfeng Zhen",
+        "Fenghua Zhu",
+        "Lei Peng"
+    ],
+    "doi": "10.1109/ITSC58415.2024.10919968",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b1aab171f1ceed1066e90d6c1a6dbe5e814337ab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the rapid development of Internet of Vehicles (IoV) technology, the number of smart vehicles and roadside units has increased dramatically, accelerating the rate of real-time data generation within the IoV environment. To optimize the storage efficiency of massive real-time IoV data, this paper proposes a new two-dimensional spatial-temporal index structure, named after LSM TR-Tree. As a spatial index, the TR-Tree not only determines the timing of Minimum Bounding Rectangle (MBR) adjustments based on the real-time trajectory of vehicles, but also incrementally updates the index structure based on changes in the relative positions of vehicles, significantly enhancing the efficiency of spatial index reconstruction. By integrating the TR-Tree with the LSM-Tree, a complete spatial-temporal index structure is formed. This study employs the NGSIM US101 dataset and conducts experiments in AsterixDB. The results demonstrate that the LSM TR-Tree shows significant performance advantages in terms of writing efficiency and spatial query response compared to the single temporal index LSM-Tree and traditional spatial-temporal index LSM R-Tree, effectively proving the feasibility and advanced nature of the LSM TR-Tree in handling massive real-time IoV data.",
+    "citationCount": 0,
+    "referenceCount": 15
+}

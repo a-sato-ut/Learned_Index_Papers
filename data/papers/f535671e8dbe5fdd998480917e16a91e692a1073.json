@@ -1,0 +1,32 @@
+{
+    "paperId": "f535671e8dbe5fdd998480917e16a91e692a1073",
+    "title": "Explainable Surgical Procedures Recommender System Leveraging Large Language Models",
+    "year": 2025,
+    "venue": "ACM Transactions on Recommender Systems",
+    "authors": [
+        "Adir Solomon",
+        "M. Glebov",
+        "T. Lazebnik"
+    ],
+    "doi": "10.1145/3767326",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f535671e8dbe5fdd998480917e16a91e692a1073",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Significant advancements have recently been made in the fields of recommender systems and natural language processing, particularly with large language models (LLMs). In most cases, recommender systems have been used to suggest items and enhance personalization for users, while LLMs have been applied to textual tasks such as text completion, translation, and summarization. In this study, we demonstrate that integrating recommender system models with recent LLMs can effectively suggest appropriate surgical procedures for patients. We employ several LLMs to process clinical text in a morphologically rich language, serving three crucial roles: information representation, information enrichment, and explaining the surgical procedure suggestions made by the recommender system. Our method was evaluated using real-world clinical data, considering patients’ demographic attributes and health conditions. To assess the explainability of our method, we conducted an extensive experiment involving several clinicians. The results achieved by our method indicate that using recommender systems and LLMs can lead to high performance and improved explanations. Our study has the potential to enhance the personalization of healthcare and could be adopted by health services to assist healthcare professionals in recommending appropriate surgical procedures.",
+    "citationCount": 0,
+    "referenceCount": 104
+}

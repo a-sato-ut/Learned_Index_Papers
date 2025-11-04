@@ -1,0 +1,39 @@
+{
+    "paperId": "b55ced7263cfb45e3eb9421e15f334388925a86f",
+    "title": "Correlation-Aware Graph Convolutional Networks for Multi-Label Node Classification",
+    "year": 2024,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Yuan-Qi Bei",
+        "Weizhi Chen",
+        "Hao Chen",
+        "Sheng Zhou",
+        "Carl Yang",
+        "Jiapei Fan",
+        "Longtao Huang",
+        "Jiajun Bu"
+    ],
+    "doi": "10.1145/3690624.3709197",
+    "arxivId": "2411.17350",
+    "url": "https://www.semanticscholar.org/paper/b55ced7263cfb45e3eb9421e15f334388925a86f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multi-label node classification is an important yet under-explored domain in graph mining as many real-world nodes belong to multiple categories rather than just a single one. Although a few efforts have been made by utilizing Graph Convolution Networks (GCNs) to learn node representations and model correlations between multiple labels in the embedding space, they still suffer from the ambiguous feature and ambiguous topology induced by multiple labels, which reduces the credibility of the messages delivered in graphs and overlooks the label correlations on graph data. Therefore, it is crucial to reduce the ambiguity and empower the GCNs for accurate classification. However, this is quite challenging due to the requirement of retaining the distinctiveness of each label while fully harnessing the correlation between labels simultaneously. To address these issues, in this paper, we propose a Correlation-aware Graph Convolutional Network (CorGCN) for multi-label node classification. By introducing a novel Correlation-Aware Graph Decomposition module, CorGCN can learn a graph that contains rich label-correlated information for each label. It then employs a Correlation-Enhanced Graph Convolution to model the relationships between labels during message passing to further bolster the classification process. Extensive experiments on five datasets demonstrate the effectiveness of our proposed CorGCN.",
+    "citationCount": 3,
+    "referenceCount": 57
+}

@@ -1,0 +1,45 @@
+{
+    "paperId": "169b36376db30b3c6a482b8e20f2cf51a00e870e",
+    "title": "Using Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction",
+    "year": 2024,
+    "venue": "IEEE Transactions on Computational Imaging",
+    "authors": [
+        "Tao Hong",
+        "Zhaoyi Xu",
+        "Jason Hu",
+        "Jeffrey A. Fessler"
+    ],
+    "doi": "10.1109/tci.2025.3622903",
+    "arxivId": "2411.08178",
+    "url": "https://www.semanticscholar.org/paper/169b36376db30b3c6a482b8e20f2cf51a00e870e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Model-based iterative reconstruction plays a key role in solving inverse problems. However, the associated minimization problems are generally large-scale, nonsmooth, and sometimes even nonconvex, which present challenges in designing efficient iterative solvers. Preconditioning methods can significantly accelerate the convergence of iterative methods. In some applications, computing preconditioners on-the-fly is beneficial. Moreover, forward models in image reconstruction are typically represented as operators, and the corresponding explicit matrices are often unavailable, which brings additional challenges in designing preconditioners. Therefore, for practical use, computing and applying preconditioners should be computationally inexpensive. This paper adapts the randomized Nystr\\\"om approximation to compute effective preconditioners that accelerate image reconstruction without requiring an explicit matrix for the forward model. We leverage modern GPU computational platforms to compute the preconditioner on-the-fly. Moreover, we propose efficient approaches for applying the preconditioners to problems with classical nonsmooth regularizers, i.e., wavelet, total variation, and Hessian Schatten-norm. Our numerical results on image deblurring, super-resolution with impulsive noise, and 2D computed tomography reconstruction illustrate the efficiency and effectiveness of the proposed preconditioner.",
+    "citationCount": 2,
+    "referenceCount": 69
+}

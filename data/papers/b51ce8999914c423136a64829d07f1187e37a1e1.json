@@ -1,0 +1,32 @@
+{
+    "paperId": "b51ce8999914c423136a64829d07f1187e37a1e1",
+    "title": "DumpKV: Learning based lifetime aware garbage collection for key value separation in LSM-tree",
+    "year": 2024,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Zhutao Zhuang",
+        "Xinqi Zeng",
+        "Zhiguang Chen"
+    ],
+    "doi": "10.48550/arXiv.2406.01250",
+    "arxivId": "2406.01250",
+    "url": "https://www.semanticscholar.org/paper/b51ce8999914c423136a64829d07f1187e37a1e1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Key-value separation is used in LSM-tree to store large values in separate log files to reduce write amplification but requires garbage collection to recycle invalid values. Existing LSM-tree typically adopts a static policy to recycle obsolete values, struggling to achieve low write amplification as it is challenging to predefine the static parameters for garbage collection. In this work we propose DumpKV, a learning-based lifetime-aware garbage collection mechanism which achieves lower write amplification. DumpKV trains a machine learning model based on the access history of keys and accordingly uses the lightweight model to predict the lifetime of each key, where the predicted lifetime can be used to guide the garbage collection. To reduce the interference to write throughput introduced by garbage collection, DumpKV conducts feature collection during L0-L1 compaction, leveraging the fact that LSM-tree is small under KV separation. Experimental results show that DumpKV reduces GC write size by 25.7%-53.3% in real-world workloads and 19%-65% in synthetic workloads compared to baseline key-value separation LSM-tree KV stores with small feature storage overhead.",
+    "citationCount": 2,
+    "referenceCount": 67
+}

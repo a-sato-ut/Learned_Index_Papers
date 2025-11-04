@@ -1,0 +1,29 @@
+{
+    "paperId": "104827c2b68de3c0ac18cce4a4c6092b9ef92661",
+    "title": "GEMM Tiling Configuration Search Algorithm based on Deep Reinforcement Learning",
+    "year": 2024,
+    "venue": "Proceedings of the 5th International Conference on Computer Information and Big Data Applications",
+    "authors": [
+        "Zhenshan Bao",
+        "Yiming Li",
+        "Wenbo Zhang"
+    ],
+    "doi": "10.1145/3671151.3671166",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/104827c2b68de3c0ac18cce4a4c6092b9ef92661",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generalized matrix multiplication (GEMM) has become the fundamental operator in deep learning. Operators of deep learning need to be transformed and optimized into executable code for specific hardware. However, existing deep learning frameworks rely on handwritten libraries that are not scalable for various hardware target. In this paper we introduce a compiler-level tuning algorithm based on Neighborhood Actor Advantage Critic (N-A2C) method for GEMM tiling optimization. Experiment results shows that our method achieves 8% and 20% computational time savings of GEMM compared Xgboost and RNN methods when exploring 1% of the search space.",
+    "citationCount": 0,
+    "referenceCount": 8
+}

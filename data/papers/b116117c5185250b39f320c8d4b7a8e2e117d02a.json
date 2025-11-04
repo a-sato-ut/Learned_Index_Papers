@@ -1,0 +1,38 @@
+{
+    "paperId": "b116117c5185250b39f320c8d4b7a8e2e117d02a",
+    "title": "Downlink Beamforming Optimization via Deep Learning",
+    "year": 2023,
+    "venue": "Allerton Conference on Communication, Control, and Computing",
+    "authors": [
+        "Jeremy Johnston",
+        "Xiao-Yang Liu",
+        "Shixun Wu",
+        "Xiaodong Wang"
+    ],
+    "doi": "10.1109/Allerton58177.2023.10313512",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b116117c5185250b39f320c8d4b7a8e2e117d02a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We target a class of applications characterized by the need to repeatedly and rapidly solve instances of a given class of optimization problems. We adopt a deep learning approach to train a model to map an input problem instance to an approximate solution. Thus the cost of optimization is \"amortized\" over the training distribution, shifting the computational burden from online optimization to offline learning. At the inference stage, mere feedforward computation of the learned model yields an approximate solution to any sample problem instance—resulting in orders of magnitude speed-ups compared to state-of-the-art optimization algorithms. As a case study we consider MISO downlink beamforming optimization, where each problem instance corresponds to transmit beamformer design given a particular channel realization. Learning a near-optimal channel-beamformer mapping requires either of two curriculum learning strategies: First, the reward curriculum defines a sequence of training objective functions of increasing complexity, employing the mean-squared error criterion before switching to a more complex performance criterion (e.g., sum rate). Second, the subspace curriculum defines a sequence of training data distributions by restricting the data to linear subspaces of increasing dimension. For the MISO beamforming problem, the learned optimizer achieves near-optimal objective value (sum rate or min rate) across a wide range of signal-to-noise ratios.",
+    "citationCount": 2,
+    "referenceCount": 15
+}

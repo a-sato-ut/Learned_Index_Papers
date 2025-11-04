@@ -1,0 +1,36 @@
+{
+    "paperId": "31b345a5bc3c8c01646e6414ca1318c2e8315443",
+    "title": "Automated Dynamic Algorithm Configuration",
+    "year": 2022,
+    "venue": "Journal of Artificial Intelligence Research",
+    "authors": [
+        "Steven Adriaensen",
+        "André Biedenkapp",
+        "Gresa Shala",
+        "Noor H. Awad",
+        "Theresa Eimer",
+        "M. Lindauer",
+        "F. Hutter"
+    ],
+    "doi": "10.48550/arXiv.2205.13881",
+    "arxivId": "2205.13881",
+    "url": "https://www.semanticscholar.org/paper/31b345a5bc3c8c01646e6414ca1318c2e8315443",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2205.13881",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The performance of an algorithm often critically depends on its parameter configuration. While a variety of automated algorithm configuration methods have been proposed to relieve users from the tedious and error-prone task of manually tuning parameters, there is still a lot of untapped potential as the learned configuration is static, i.e., parameter settings remain fixed throughout the run. However, it has been shown that some algorithm parameters are best adjusted dynamically during execution. Thus far, this is most commonly achieved through hand-crafted heuristics. A promising recent alternative is to automatically learn such dynamic parameter adaptation policies from data. In this article, we give the first comprehensive account of this new field of automated dynamic algorithm configuration (DAC), present a series of recent advances, and provide a solid foundation for future research in this field. Specifically, we (i) situate DAC in the broader historical context of AI research; (ii) formalize DAC as a computational problem; (iii) identify the methods used in prior art to tackle this problem; and (iv) conduct empirical case studies for using DAC in evolutionary optimization, AI planning, and machine learning.",
+    "citationCount": 46,
+    "referenceCount": 175
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "0d2bd37b95d2df3d357cd6d786156ee64a9e2e99",
+    "title": "Towards an Adaptable and Generalizable Optimization Engine in Decision and Control: A Meta Reinforcement Learning Approach",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sungwook Yang",
+        "Chaoying Pei",
+        "Ran Dai",
+        "Chuangchuang Sun"
+    ],
+    "doi": "10.48550/arXiv.2401.02508",
+    "arxivId": "2401.02508",
+    "url": "https://www.semanticscholar.org/paper/0d2bd37b95d2df3d357cd6d786156ee64a9e2e99",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sampling-based model predictive control (MPC) has found significant success in optimal control problems with non-smooth system dynamics and cost function. Many machine learning-based works proposed to improve MPC by a) learning or fine-tuning the dynamics/ cost function, or b) learning to optimize for the update of the MPC controllers. For the latter, imitation learning-based optimizers are trained to update the MPC controller by mimicking the expert demonstrations, which, however, are expensive or even unavailable. More significantly, many sequential decision-making problems are in non-stationary environments, requiring that an optimizer should be adaptable and generalizable to update the MPC controller for solving different tasks. To address those issues, we propose to learn an optimizer based on meta-reinforcement learning (RL) to update the controllers. This optimizer does not need expert demonstration and can enable fast adaptation (e.g., few-shots) when it is deployed in unseen control tasks. Experimental results validate the effectiveness of the learned optimizer regarding fast adaptation.",
+    "citationCount": 0,
+    "referenceCount": 5
+}

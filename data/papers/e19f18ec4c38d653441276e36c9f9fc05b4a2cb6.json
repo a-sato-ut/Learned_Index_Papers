@@ -1,0 +1,33 @@
+{
+    "paperId": "e19f18ec4c38d653441276e36c9f9fc05b4a2cb6",
+    "title": "How Feasible is Augmenting Fake Nodes with Learnable Features as a Counter-strategy against Link Stealing Attacks?",
+    "year": 2024,
+    "venue": "Conference on Data and Application Security and Privacy",
+    "authors": [
+        "Mir Imtiaz Mostafiz",
+        "Imtiaz Karim",
+        "Elisa Bertino"
+    ],
+    "doi": "10.1145/3714393.3726500",
+    "arxivId": "2503.09726",
+    "url": "https://www.semanticscholar.org/paper/e19f18ec4c38d653441276e36c9f9fc05b4a2cb6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph Neural Networks (GNNs) are widely used and deployed for graph-based prediction tasks. However, as good as GNNs are for learning graph data, they also come with the risk of privacy leakage. For instance, an attacker can run carefully crafted queries on the GNNs and, from the responses, can infer the existence of an edge between a pair of nodes. This attack, dubbed as a link-stealing attack, can jeopardize the user's privacy by leaking potentially sensitive information. To protect against this attack, we propose an approach called Node Augmentation for Restricting Graphs from Insinuating their Structure (NARGIS) and study its feasibility. NARGIS is focused on reshaping the graph embedding space so that the posterior from the GNN model will still provide utility for the prediction task but will introduce ambiguity for the linkstealing attackers. NARGIS applies spectral clustering on the given graph to facilitate it being augmented with new nodes with learned features instead of fixed ones. It utilizes tri-level optimization for learning parameters for the GNN model, surrogate attacker model, and our defense model (i.e., learnable node features). We extensively evaluate NARGIS on three benchmark citation datasets over eight knowledge availability settings for the attackers. We also evaluate the model fidelity and defense performance on influence-based link inference attacks. Through our studies, we have figured out the best feature of NARGIS-its superior fidelity-privacy performance trade-off in a significant number of cases. We also have discovered cases where there needs to be improvement and have proposed ways to integrate different schemes to make the model more robust against link stealing attacks.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "77d642d1add1fa21bfdfc29f972d161c21c1a38c",
+    "title": "SpChar: Characterizing the Sparse Puzzle via Decision Trees",
+    "year": 2023,
+    "venue": "J. Parallel Distributed Comput.",
+    "authors": [
+        "Francesco Sgherzi",
+        "Marco Siracusa",
+        "Ivan Fernandez",
+        "Adrià Armejach",
+        "Miquel Moret'o"
+    ],
+    "doi": "10.48550/arXiv.2304.06944",
+    "arxivId": "2304.06944",
+    "url": "https://www.semanticscholar.org/paper/77d642d1add1fa21bfdfc29f972d161c21c1a38c",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2304.06944",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sparse matrix computation is crucial in various modern applications, including large-scale graph analytics, deep learning, and recommender systems. The performance of sparse kernels varies greatly depending on the structure of the input matrix, making it difficult to gain a comprehensive understanding of sparse computation and its relationship to inputs, algorithms, and target machine architecture. Despite extensive research on certain sparse kernels, such as Sparse Matrix-Vector Multiplication (SpMV), the overall family of sparse algorithms has yet to be investigated as a whole. This paper introduces SpChar, a workload characterization methodology for general sparse computation. SpChar employs tree-based models to identify the most relevant hardware and input characteristics, starting from hardware and input-related metrics gathered from Performance Monitoring Counters (PMCs) and matrices. Our analysis enables the creation of a characterization loop that facilitates the optimization of sparse computation by mapping the impact of architectural features to inputs and algorithmic choices. We apply SpChar to more than 600 matrices from the SuiteSparse Matrix collection and three state-of-the-art Arm CPUs to determine the critical hardware and software characteristics that affect sparse computation. In our analysis, we determine that the biggest limiting factors for high-performance sparse computation are (1) the latency of the memory system, (2) the pipeline flush overhead resulting from branch misprediction, and (3) the poor reuse of cached elements. Additionally, we propose software and hardware optimizations that designers can implement to create a platform suitable for sparse computation. We then investigate these optimizations using the gem5 simulator to achieve a significant speedup of up to 2.63x compared to a CPU where the optimizations are not applied.",
+    "citationCount": 2,
+    "referenceCount": 168
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "cf7617d740e696d12b947aae8b51f7bb92937ad5",
+    "title": "Mixture of Experts for Node Classification",
+    "year": 2024,
+    "venue": "International Conference on Multimedia Retrieval",
+    "authors": [
+        "Yu Shi",
+        "Yiqi Wang",
+        "Weixuan Liang",
+        "Jiaxin Zhang",
+        "Pan Dong",
+        "Aiping Li"
+    ],
+    "doi": "10.1145/3731715.3733392",
+    "arxivId": "2412.00418",
+    "url": "https://www.semanticscholar.org/paper/cf7617d740e696d12b947aae8b51f7bb92937ad5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Nodes in the real-world graphs exhibit diverse patterns in numerous aspects, such as degree and homophily. However, most existent node predictors fail to capture a wide range of node patterns or to make predictions based on distinct node patterns, resulting in unsatisfactory classification performance. In this paper, we reveal that different node predictors are good at handling nodes with specific patterns and only apply one node predictor uniformly could lead to suboptimal result. To mitigate this gap, we propose a mixture of experts framework, MoE-NP, for node classification. Specifically, MoE-NP combines a mixture of node predictors and strategically selects models based on node patterns. Experimental results from a range of real-world datasets demonstrate significant performance improvements from MoE-NP.",
+    "citationCount": 2,
+    "referenceCount": 38
+}

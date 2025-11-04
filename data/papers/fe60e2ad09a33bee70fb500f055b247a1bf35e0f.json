@@ -1,0 +1,35 @@
+{
+    "paperId": "fe60e2ad09a33bee70fb500f055b247a1bf35e0f",
+    "title": "Transformer-Based Learned Optimization",
+    "year": 2022,
+    "venue": "Computer Vision and Pattern Recognition",
+    "authors": [
+        "Erik Gartner",
+        "Luke Metz",
+        "Mykhaylo Andriluka",
+        "C. Freeman",
+        "C. Sminchisescu"
+    ],
+    "doi": "10.1109/CVPR52729.2023.01152",
+    "arxivId": "2212.01055",
+    "url": "https://www.semanticscholar.org/paper/fe60e2ad09a33bee70fb500f055b247a1bf35e0f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2212.01055",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a new approach to learned optimization where we represent the computation of an optimizer's update step using a neural network. The parameters of the optimizer are then learned by training on a set of optimization tasks with the objective to perform minimization efficiently. Our innovation is a new neural network architecture, Optimus, for the learned optimizer inspired by the classic BFGS algorithm. As in BFGS, we estimate a preconditioning matrix as a sum of rank-one updates but use a Transformerbased neural network to predict these updates jointly with the step length and direction. In contrast to several recent learned optimization-based approaches [24, 27], our formulation allows for conditioning across the dimensions of the parameter space of the target problem while remaining applicable to optimization tasks of variable dimensionality without retraining. We demonstrate the advantages of our approach on a benchmark composed of objective functions traditionally used for the evaluation of optimization algorithms, as well as on the real world-task of physics-based visual reconstruction of articulated 3d human motion.",
+    "citationCount": 17,
+    "referenceCount": 60
+}

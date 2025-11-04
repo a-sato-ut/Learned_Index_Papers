@@ -14,12 +14,14 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   const [activeTab, setActiveTab] = useState<'list' | 'graph' | 'graphYear'>('list');
   const svgRef = useRef<SVGSVGElement>(null);
 
-  const searchPapers = async () => {
-    if (!query.trim()) return;
+  const searchPapers = async (searchQuery?: string) => {
+    const queryToUse = searchQuery || query;
+    if (!queryToUse.trim()) return;
 
     setLoading(true);
+    setResult(null);
     try {
-      const url = `${API_BASE}/api/search?query=${encodeURIComponent(query)}`;
+      const url = `${API_BASE}/api/search?query=${encodeURIComponent(queryToUse)}`;
       console.log('Searching with URL:', url);
       
       const response = await fetch(url);
@@ -34,6 +36,8 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       setResult(data);
       if (data.paper && activeTab === 'graph') {
         setTimeout(() => drawGraph(data), 100);
+      } else if (data.paper && activeTab === 'graphYear') {
+        setTimeout(() => drawGraphYear(data), 100);
       }
     } catch (error) {
       console.error('Search error:', error);
@@ -298,6 +302,11 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         hoveredNode = d;
         const paper = d.paper;
         
+        const previousDiv = tooltipForeignObject.select('div').node() as HTMLDivElement | null;
+        if (previousDiv) {
+          previousDiv.onclick = null;
+        }
+        
         const tooltipDiv = tooltipForeignObject
           .html('')
           .append('xhtml:div')
@@ -325,10 +334,11 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         
         const divElement = tooltipDiv.node() as HTMLDivElement;
         if (divElement) {
-          divElement.onclick = () => {
+          divElement.onclick = (e) => {
+            e.stopPropagation();
             setQuery(paper.title);
             setActiveTab('list');
-            setTimeout(() => searchPapers(), 0);
+            searchPapers(paper.title);
           };
           divElement.onmouseenter = () => {
             if (tooltipTimeout) {
@@ -341,6 +351,9 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
               hoveredNode = null;
               tooltip.style('opacity', 0);
               tooltipForeignObject.style('pointer-events', 'none');
+              if (divElement) {
+                divElement.onclick = null;
+              }
               tooltipTimeout = null;
             }, 300);
           };
@@ -357,6 +370,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           hoveredNode = null;
           tooltip.style('opacity', 0);
           tooltipForeignObject.style('pointer-events', 'none');
+          const currentDiv = tooltipForeignObject.select('div').node() as HTMLDivElement | null;
+          if (currentDiv) {
+            currentDiv.onclick = null;
+          }
           tooltipTimeout = null;
         }, 300);
       });
@@ -603,6 +620,11 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         hoveredNode = d;
         const paper = d.paper;
         
+        const previousDiv = tooltipForeignObject.select('div').node() as HTMLDivElement | null;
+        if (previousDiv) {
+          previousDiv.onclick = null;
+        }
+        
         const tooltipDiv = tooltipForeignObject
           .html('')
           .append('xhtml:div')
@@ -630,10 +652,11 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         
         const divElement = tooltipDiv.node() as HTMLDivElement;
         if (divElement) {
-          divElement.onclick = () => {
+          divElement.onclick = (e) => {
+            e.stopPropagation();
             setQuery(paper.title);
             setActiveTab('list');
-            setTimeout(() => searchPapers(), 0);
+            searchPapers(paper.title);
           };
           divElement.onmouseenter = () => {
             if (tooltipTimeout) {
@@ -646,6 +669,9 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
               hoveredNode = null;
               tooltip.style('opacity', 0);
               tooltipForeignObject.style('pointer-events', 'none');
+              if (divElement) {
+                divElement.onclick = null;
+              }
               tooltipTimeout = null;
             }, 300);
           };
@@ -662,6 +688,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           hoveredNode = null;
           tooltip.style('opacity', 0);
           tooltipForeignObject.style('pointer-events', 'none');
+          const currentDiv = tooltipForeignObject.select('div').node() as HTMLDivElement | null;
+          if (currentDiv) {
+            currentDiv.onclick = null;
+          }
           tooltipTimeout = null;
         }, 300);
       });
@@ -842,12 +872,18 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           placeholder="論文タイトルで検索..."
           className="paper-explorer-input"
         />
-        <button onClick={searchPapers} disabled={loading} className="paper-explorer-button">
+        <button onClick={() => searchPapers()} disabled={loading} className="paper-explorer-button">
           {loading ? '検索中...' : '検索'}
         </button>
       </div>
 
-      {result && result.paper && (
+      {loading && (
+        <div className="paper-explorer-loading">
+          <p>検索中...</p>
+        </div>
+      )}
+
+      {!loading && result && result.paper && (
         <>
           <div className="paper-explorer-result-header">
             <div className="paper-explorer-result-main">
@@ -915,7 +951,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         </>
       )}
 
-      {result && !result.paper && (
+      {!loading && result && !result.paper && (
         <div className="paper-explorer-no-result">
           <p>該当する論文が見つかりませんでした。</p>
         </div>

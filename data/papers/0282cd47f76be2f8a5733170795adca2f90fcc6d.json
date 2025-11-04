@@ -1,0 +1,32 @@
+{
+    "paperId": "0282cd47f76be2f8a5733170795adca2f90fcc6d",
+    "title": "MONGOOSE: Path-wise Smooth Bayesian Optimisation via Meta-learning",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Adam X. Yang",
+        "L. Aitchison",
+        "Henry B. Moss"
+    ],
+    "doi": "10.48550/arXiv.2302.11533",
+    "arxivId": "2302.11533",
+    "url": "https://www.semanticscholar.org/paper/0282cd47f76be2f8a5733170795adca2f90fcc6d",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2302.11533",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In Bayesian optimisation, we often seek to minimise the black-box objective functions that arise in real-world physical systems. A primary contributor to the cost of evaluating such black-box objective functions is often the effort required to prepare the system for measurement. We consider a common scenario where preparation costs grow as the distance between successive evaluations increases. In this setting, smooth optimisation trajectories are preferred and the jumpy paths produced by the standard myopic (i.e.\\ one-step-optimal) Bayesian optimisation methods are sub-optimal. Our algorithm, MONGOOSE, uses a meta-learnt parametric policy to generate smooth optimisation trajectories, achieving performance gains over existing methods when optimising functions with large movement costs.",
+    "citationCount": 5,
+    "referenceCount": 54
+}

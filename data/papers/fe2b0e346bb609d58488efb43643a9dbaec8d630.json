@@ -1,0 +1,29 @@
+{
+    "paperId": "fe2b0e346bb609d58488efb43643a9dbaec8d630",
+    "title": "An Efficient Encrypted Speech Retrieval Based on Unsupervised Hashing and B+ Tree Dynamic Index",
+    "year": 2023,
+    "venue": "Computers, Materials &amp; Continua",
+    "authors": [
+        "Qiu-yu Zhang",
+        "Yu Jia",
+        "Fang-peng Li",
+        "Le-Tian Fan"
+    ],
+    "doi": "10.32604/cmc.2023.038911",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fe2b0e346bb609d58488efb43643a9dbaec8d630",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.32604/cmc.2023.038911",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": ": Existing speech retrieval systems are frequently confronted with expanding volumes of speech data. The dynamic updating strategy applied to construct the index can timely process to add or remove unnecessary speech data to meet users’ real-time retrieval requirements. This study proposes an efficient method for retrieving encryption speech, using unsupervised deep hashing and B + tree dynamic index, which avoid privacy leakage of speech data and enhance the accuracy and efficiency of retrieval. The cloud’s encryption speech library is constructed by using the multi-threaded Dijk-Gentry-Halevi-Vaikuntanathan (DGHV) Fully Homomorphic Encryption (FHE) technique, which encrypts the original speech. In addition, this research employs Residual Neural Network18-Gated Recurrent Unit (ResNet18-GRU), which is used to learn the compact binary hash codes, store binary hash codes in the designed B + tree index table, and create a mapping relation of one to one between the binary hash codes and the corresponding encrypted speech. External B + tree index technology is applied to achieve dynamic index updating of the B + tree index table, thereby satisfying users’ needs for real-time retrieval. The experimental results on THCHS-30 and TIMIT showed that the retrieval accuracy of the proposed method is more than 95.84% compared to the existing unsupervised hashing methods. The retrieval efficiency is greatly improved. Compared to the method of using hash index tables, and the speech data’s security is effectively guaranteed",
+    "citationCount": 0,
+    "referenceCount": 41
+}

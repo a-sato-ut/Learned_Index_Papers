@@ -1,0 +1,36 @@
+{
+    "paperId": "b13ddf3c6d3292c2cdf3cbef5dcca18f0275bf11",
+    "title": "A Malicious Domains Detection Method Based on File Sandbox Traffic",
+    "year": 2023,
+    "venue": "IEEE Network",
+    "authors": [
+        "Daojing He",
+        "Jiayu Dai",
+        "Hongjie Gu",
+        "Shanshan Zhu",
+        "Sammy Chan",
+        "Jingyong Su",
+        "M. Guizani"
+    ],
+    "doi": "10.1109/MNET.127.2200280",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b13ddf3c6d3292c2cdf3cbef5dcca18f0275bf11",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the recent increasing number of malicious cyber activities using domain names as attack vectors, malicious domains must be detected and blocked in order to combat cyber attackers. However, current studies of malicious domains detection are limited to Domain Name System (DNS) traffic features or character features, which ignore the associations of malware and malicious domain in the detection. In this paper, we propose a malicious domains detection approach based on domain relationship features extracted from real sandbox traffic. We construct heterogeneous graphs based on sandbox traffic and use the Relational Graph Convolutional Network (RGCN) to build detection models to extract inter-node relationship features. Experiments were conducted using data extracted from real sandbox traffic, and our approach achieved an accuracy of 87.11%. The experimental results demonstrate the effectiveness of using relationship features extracted from sandbox traffic for malicious domains detection.",
+    "citationCount": 2,
+    "referenceCount": 22
+}

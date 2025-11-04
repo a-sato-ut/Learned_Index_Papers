@@ -1,0 +1,39 @@
+{
+    "paperId": "691583c9669bc36040f32cdcec5f162165c69f06",
+    "title": "Taking the human out of decomposition-based optimization via artificial intelligence: Part II. Learning to initialize",
+    "year": 2023,
+    "venue": "Computers and Chemical Engineering",
+    "authors": [
+        "Ilias Mitrai",
+        "P. Daoutidis"
+    ],
+    "doi": "10.48550/arXiv.2310.07082",
+    "arxivId": "2310.07082",
+    "url": "https://www.semanticscholar.org/paper/691583c9669bc36040f32cdcec5f162165c69f06",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2310.07082",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The repeated solution of large-scale optimization problems arises frequently in process systems engineering tasks. Decomposition-based solution methods have been widely used to reduce the corresponding computational time, yet their implementation has multiple steps that are difficult to configure. We propose a machine learning approach to learn the optimal initialization of such algorithms which minimizes the computational time. Active and supervised learning is used to learn a surrogate model that predicts the computational performance for a given initialization. We apply this approach to the initialization of Generalized Benders Decomposition for the solution of mixed integer model predictive control problems. The surrogate models are used to find the optimal number of initial cuts that should be added in the master problem. The results show that the proposed approach can lead to a significant reduction in solution time, and active learning can reduce the data required for learning.",
+    "citationCount": 7,
+    "referenceCount": 80
+}

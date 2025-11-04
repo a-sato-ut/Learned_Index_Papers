@@ -1,0 +1,42 @@
+{
+    "paperId": "61bdf73428fd5289343103a544bc95240e62fd94",
+    "title": "Residual Correction Models for AC Optimal Power Flow Using DC Optimal Power Flow Solutions",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Muhy Eddin Za’ter",
+        "B. Hodge",
+        "Kyri Baker"
+    ],
+    "doi": null,
+    "arxivId": "2510.16064",
+    "url": "https://www.semanticscholar.org/paper/61bdf73428fd5289343103a544bc95240e62fd94",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Solving the nonlinear AC optimal power flow (AC OPF) problem remains a major computational bottleneck for real-time grid operations. In this paper, we propose a residual learning paradigm that uses fast DC optimal power flow (DC OPF) solutions as a baseline, and learns only the nonlinear corrections required to provide the full AC-OPF solution. The method utilizes a topology-aware Graph Neural Network with local attention and two-level DC feature integration, trained using a physics-informed loss that enforces AC power-flow feasibility and operational limits. Evaluations on OPFData for 57-, 118-, and 2000-bus systems show around 25% lower MSE, up to 3X reduction in feasibility error, and up to 13X runtime speedup compared to conventional AC OPF solvers. The model maintains accuracy under N-1 contingencies and scales efficiently to large networks. These results demonstrate that residual learning is a practical and scalable bridge between linear approximations and AC-feasible OPF, enabling near real-time operational decision making.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

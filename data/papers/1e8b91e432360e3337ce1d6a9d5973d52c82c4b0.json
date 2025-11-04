@@ -1,0 +1,39 @@
+{
+    "paperId": "1e8b91e432360e3337ce1d6a9d5973d52c82c4b0",
+    "title": "Implicit Models: Expressive Power Scales with Test-Time Compute",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Jialin Liu",
+        "Lisang Ding",
+        "Stanley Osher",
+        "Wotao Yin"
+    ],
+    "doi": null,
+    "arxivId": "2510.03638",
+    "url": "https://www.semanticscholar.org/paper/1e8b91e432360e3337ce1d6a9d5973d52c82c4b0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Implicit models, an emerging model class, compute outputs by iterating a single parameter block to a fixed point. This architecture realizes an infinite-depth, weight-tied network that trains with constant memory, significantly reducing memory needs for the same level of performance compared to explicit models. While it is empirically known that these compact models can often match or even exceed larger explicit networks by allocating more test-time compute, the underlying mechanism remains poorly understood. We study this gap through a nonparametric analysis of expressive power. We provide a strict mathematical characterization, showing that a simple and regular implicit operator can, through iteration, progressively express more complex mappings. We prove that for a broad class of implicit models, this process lets the model's expressive power scale with test-time compute, ultimately matching a much richer function class. The theory is validated across three domains: image reconstruction, scientific computing, and operations research, demonstrating that as test-time iterations increase, the complexity of the learned mapping rises, while the solution quality simultaneously improves and stabilizes.",
+    "citationCount": 0,
+    "referenceCount": 103
+}

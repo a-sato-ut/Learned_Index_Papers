@@ -1,0 +1,36 @@
+{
+    "paperId": "7820cb83f2fd0375c0af7fc8362eb6e64c41e8e5",
+    "title": "Inertial Proximal Difference-of-Convex Algorithm with Convergent Bregman Plug-and-Play for Nonconvex Imaging",
+    "year": 2024,
+    "venue": "",
+    "authors": [
+        "Tsz Ching Chow",
+        "Chao Huang",
+        "Zhongming Wu",
+        "Tieyong Zeng",
+        "Angelica I. Avilés-Rivero"
+    ],
+    "doi": null,
+    "arxivId": "2409.03262",
+    "url": "https://www.semanticscholar.org/paper/7820cb83f2fd0375c0af7fc8362eb6e64c41e8e5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Imaging tasks are typically tackled using a structured optimization framework. This paper delves into a class of algorithms for difference-of-convex (DC) structured optimization, focusing on minimizing a DC function along with a possibly nonconvex function. Existing DC algorithm (DCA) versions often fail to effectively handle nonconvex functions or exhibit slow convergence rates. We propose a novel inertial proximal DC algorithm in Bregman geometry, named iBPDCA, designed to address nonconvex terms and enhance convergence speed through inertial techniques. We provide a detailed theoretical analysis, establishing both subsequential and global convergence of iBPDCA via the Kurdyka-{\\L}ojasiewicz property. Additionally, we introduce a Plug-and-Play variant, PnP-iBPDCA, which employs a deep neural network-based prior for greater flexibility and robustness while ensuring theoretical convergence. We also establish that the Gaussian gradient step denoiser used in our method is equivalent to evaluating the Bregman proximal operator for an implicitly weakly convex functional. We extensively validate our method on Rician noise and phase retrieval. We demonstrate that iBPDCA surpasses existing state-of-the-art methods.",
+    "citationCount": 0,
+    "referenceCount": 98
+}

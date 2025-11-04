@@ -1,0 +1,35 @@
+{
+    "paperId": "3bd006e096fd8e6b23dc8a8c916ccca2eadb66a7",
+    "title": "In Search of Micromodels: Black-box Evaluation of Spatio-temporal Models in Normal and Extreme Conditions",
+    "year": 2022,
+    "venue": "Journal of Communications Software and Systems",
+    "authors": [
+        "Ivana Nižetić Kosović",
+        "Toni Mastelić",
+        "Domina Sokol",
+        "Diana Škurić Kuražić"
+    ],
+    "doi": "10.24138/jcomss-2022-0092",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3bd006e096fd8e6b23dc8a8c916ccca2eadb66a7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://jcoms.fesb.unist.hr/pdfs/v18n3_2022-0092_nizetic_kosovic.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "—Spatio-temporal modelling is an emerging research area due to the increasing availability of sensor data collected across space and time. The models are build either with a model- driven or data-driven approach. The former often results in complex monolith models that are not suitable for lightweight Edge deployment. The latter requires a vast amount of data and may not provide an overall good performance. Consequently, the data-driven approach is being used to substitute only parts of model-driven outputs, by creating micromodels that tackle spe- cific scenarios. The main contribution of this paper is a definition and demonstration of the process for finding such scenarios for which a spatio-temporal model could be improved or replaced by a micromodel and deployed on Edge. The process is demonstrated on an example of a Numerical Weather Prediction model (NWP), namely its outputs of temperature and precipitation. NWP is evaluated using black-box testing considering the specificity of spatial and temporal components, in both normal and extreme conditions. The novelty of this process is its ability to highlight weaknesses of the existing expert models and suggest scenarios in which the models can be improved and deployed on the Edge.",
+    "citationCount": 0,
+    "referenceCount": 32
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "d69afc5cd4f8db69eeeced56832afe1842e0d81e",
+    "title": "Moco: A Learnable Meta Optimizer for Combinatorial Optimization",
+    "year": 2024,
+    "venue": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+    "authors": [
+        "Tim Dernedde",
+        "Daniela Thyssens",
+        "Soren Dittrich",
+        "Maximilan Stubbemann",
+        "Lars Schmidt-Thieme"
+    ],
+    "doi": "10.1007/978-981-96-8180-8_19",
+    "arxivId": "2402.04915",
+    "url": "https://www.semanticscholar.org/paper/d69afc5cd4f8db69eeeced56832afe1842e0d81e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Relevant combinatorial optimization problems (COPs) are often NP-hard. While they have been tackled mainly via handcrafted heuristics in the past, advances in neural networks have motivated the development of general methods to learn heuristics from data. Many approaches utilize a neural network to directly construct a solution, but are limited in further improving based on already constructed solutions at inference time. Our approach, Moco, defines a lightweight solution construction procedure, guided by a single continuous vector $\\theta$ (called heatmap) and learns a neural network to update $\\theta$ for a single instance of a COP at inference time. The update is based on various features of the current search state. The training procedure is budget aware, targeting the overall best solution found during the entire search. Moco is a fully learnable meta optimizer not utilizing problem specific heuristics or requiring optimal solutions for training. We test Moco on the Traveling Salesman Problem (TSP) and Maximum Independent Set (MIS) and show that it significantly improves over other heatmap based methods.",
+    "citationCount": 6,
+    "referenceCount": 53
+}

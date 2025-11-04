@@ -1,0 +1,38 @@
+{
+    "paperId": "e2ab53f1f052f7a34c544979594f3ff2f1ade6dc",
+    "title": "A Gradient Guided Diffusion Framework for Chance Constrained Programming",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Boyang Zhang",
+        "Zhiguo Wang",
+        "Ya-Feng Liu"
+    ],
+    "doi": null,
+    "arxivId": "2510.12238",
+    "url": "https://www.semanticscholar.org/paper/e2ab53f1f052f7a34c544979594f3ff2f1ade6dc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Chance constrained programming (CCP) is a powerful framework for addressing optimization problems under uncertainty. In this paper, we introduce a novel Gradient-Guided Diffusion-based Optimization framework, termed GGDOpt, which tackles CCP through three key innovations. First, GGDOpt accommodates a broad class of CCP problems without requiring the knowledge of the exact distribution of uncertainty-relying solely on a set of samples. Second, to address the nonconvexity of the chance constraints, it reformulates the CCP as a sampling problem over the product of two distributions: an unknown data distribution supported on a nonconvex set and a Boltzmann distribution defined by the objective function, which fully leverages both first- and second-order gradient information. Third, GGDOpt has theoretical convergence guarantees and provides practical error bounds under mild assumptions. By progressively injecting noise during the forward diffusion process to convexify the nonconvex feasible region, GGDOpt enables guided reverse sampling to generate asymptotically optimal solutions. Experimental results on synthetic datasets and a waveform design task in wireless communications demonstrate that GGDOpt outperforms existing methods in both solution quality and stability with nearly 80% overhead reduction.",
+    "citationCount": 0,
+    "referenceCount": 58
+}

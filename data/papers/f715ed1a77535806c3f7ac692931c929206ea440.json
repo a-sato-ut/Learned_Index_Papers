@@ -1,0 +1,36 @@
+{
+    "paperId": "f715ed1a77535806c3f7ac692931c929206ea440",
+    "title": "Asymptotic Analysis and Truncated Backpropagation for the Unrolled Primal-Dual Algorithm",
+    "year": 2023,
+    "venue": "European Signal Processing Conference",
+    "authors": [
+        "Christoph Brauer",
+        "Dirk A. Lorenz"
+    ],
+    "doi": "10.23919/EUSIPCO58844.2023.10289985",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f715ed1a77535806c3f7ac692931c929206ea440",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://elib.dlr.de/199388/2/eusipco23_brauer_slides.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Algorithm unrolling combines the advantages of model based optimization with the flexibility of data-based methods by adapting a parameterized objective to a distribution of problem instances from a finite sample from that distribution. At inference time, a fixed number of iterations of a suitable optimization algorithm is used to make predictions on unseen data. To compute gradients for learning, the last iterate is differentiated with respect to the parameters by backpropagation schemes that get expensive when the number of unrolled iterations gets large. Therefore, only few unrolled iterations are used which compromises the claimed interpretability in terms of the underlying optimization objective. In this work, we consider convex objective functions, derive an explicit limit of the parameter gradients for a large number of unrolled iterations, derive a training procedure that is computationally tractable and retains interpretability, and show the effectiveness of the method using the example of speech dequantization.",
+    "citationCount": 1,
+    "referenceCount": 28
+}

@@ -1,0 +1,42 @@
+{
+    "paperId": "e866be9fd45a6705491781949cc1268408384805",
+    "title": "Gradient Methods with Online Scaling",
+    "year": 2024,
+    "venue": "Annual Conference Computational Learning Theory",
+    "authors": [
+        "Wenzhi Gao",
+        "Ya-Chi Chu",
+        "Yinyu Ye",
+        "Madeleine Udell"
+    ],
+    "doi": "10.48550/arXiv.2411.01803",
+    "arxivId": "2411.01803",
+    "url": "https://www.semanticscholar.org/paper/e866be9fd45a6705491781949cc1268408384805",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce a framework to accelerate the convergence of gradient-based methods with online learning. The framework learns to scale the gradient at each iteration through an online learning algorithm and provably accelerates gradient-based methods asymptotically. In contrast with previous literature, where convergence is established based on worst-case analysis, our framework provides a strong convergence guarantee with respect to the optimal scaling matrix for the iteration trajectory. For smooth strongly convex optimization, our results provide an $O(\\kappa^\\star \\log(1/\\varepsilon)$) complexity result, where $\\kappa^\\star$ is the condition number achievable by the optimal preconditioner, improving on the previous $O(\\sqrt{n}\\kappa^\\star \\log(1/\\varepsilon))$ result. In particular, a variant of our method achieves superlinear convergence on convex quadratics. For smooth convex optimization, we show for the first time that the widely-used hypergradient descent heuristic improves on the convergence of gradient descent.",
+    "citationCount": 10,
+    "referenceCount": 48
+}

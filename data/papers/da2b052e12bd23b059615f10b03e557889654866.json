@@ -1,0 +1,43 @@
+{
+    "paperId": "da2b052e12bd23b059615f10b03e557889654866",
+    "title": "Primitive Agentic First-Order Optimization",
+    "year": 2024,
+    "venue": "International Conference on Control, Decision and Information Technologies",
+    "authors": [
+        "R. Sala"
+    ],
+    "doi": "10.1109/CoDIT62066.2024.10708534",
+    "arxivId": "2406.04841",
+    "url": "https://www.semanticscholar.org/paper/da2b052e12bd23b059615f10b03e557889654866",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficient numerical optimization methods can improve performance and reduce the environmental impact of computing in many applications. This work presents a proof-of-concept study combining primitive state representations and agent-environment interactions as first-order optimizers in the setting of budget-limited optimization. Through reinforcement learning (RL) over a set of training instances of an optimization problem class, optimal policies for sequential update selection of algorithmic iteration steps are approximated in generally formulated low-dimensional partial state representations that consider aspects of progress and resource use. For the investigated case studies, deployment of the trained agents to unseen instances of the quadratic optimization problem classes outperformed conventional optimal algorithms with optimized hyperparameters. The results show that elementary RL methods combined with succinct partial state representations can be used as heuristics to manage complexity in RL-based optimization, paving the way for agentic optimization approaches.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

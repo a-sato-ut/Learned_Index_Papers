@@ -1,0 +1,36 @@
+{
+    "paperId": "3d61bf2890453518a9ea6d93114d34329cd10860",
+    "title": "UNEM: UNrolled Generalized EM for Transductive Few-Shot Learning",
+    "year": 2024,
+    "venue": "Computer Vision and Pattern Recognition",
+    "authors": [
+        "Long Zhou",
+        "Fereshteh Shakeri",
+        "Aymen Sadraoui",
+        "M. Kaaniche",
+        "J. Pesquet",
+        "Ismail Ben Ayed"
+    ],
+    "doi": "10.1109/CVPR52734.2025.00903",
+    "arxivId": "2412.16739",
+    "url": "https://www.semanticscholar.org/paper/3d61bf2890453518a9ea6d93114d34329cd10860",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Transductive few-shot learning has recently triggered wide attention in computer vision. Yet, current methods introduce key hyper-parameters, which control the prediction statistics of the test batches, such as the level of class balance, affecting performances significantly. Such hyper-parameters are empirically grid-searched over validation data, and their configurations may vary substantially with the target dataset and pre-training model, making such empirical searches both sub-optimal and computationally intractable. In this work, we advocate and introduce the unrolling paradigm, also referred to as \"learning to optimize\", in the context of few-shot learning, thereby learning efficiently and effectively a set of optimized hyperparameters. Specifically, we unroll a generalization of the ubiquitous Expectation-Maximization (EM) optimizer into a neural network architecture, mapping each of its iterates to a layer and learning a set of key hyper-parameters over validation data. Our unrolling approach covers various statistical feature distributions and pre-training paradigms, including recent foundational vision-language models and standard vision-only classifiers. We report comprehensive experiments, which cover a breadth of fine-grained downstream image classification tasks, showing significant gains brought by the proposed unrolled EM algorithm over iterative variants. The achieved improvements reach up to 10% and 7.5% on vision-only and vision-language benchmarks, respectively. The source code and learned parameters are available at https://github.com/ZhouLong0/UNEM-Transductive.",
+    "citationCount": 0,
+    "referenceCount": 64
+}

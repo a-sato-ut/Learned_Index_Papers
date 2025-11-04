@@ -1,0 +1,45 @@
+{
+    "paperId": "991f574b9769f8f623a51fd84c5b61a5eed24097",
+    "title": "Bi-Sparse Unsupervised Feature Selection",
+    "year": 2024,
+    "venue": "IEEE Transactions on Image Processing",
+    "authors": [
+        "Xianchao Xiu",
+        "Chenyi Huang",
+        "Pan Shang",
+        "Wanquan Liu"
+    ],
+    "doi": "10.48550/arXiv.2412.16819",
+    "arxivId": "2412.16819",
+    "url": "https://www.semanticscholar.org/paper/991f574b9769f8f623a51fd84c5b61a5eed24097",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "To deal with high-dimensional unlabeled datasets in many areas, principal component analysis (PCA) has become a rising technique for unsupervised feature selection (UFS). However, most existing PCA-based methods only consider the structure of datasets by embedding a single sparse regularization or constraint on the transformation matrix. In this paper, we introduce a novel bi-sparse method called BSUFS to improve the performance of UFS. The core idea of BSUFS is to incorporate ℓ2,p-norm and ℓq-norm into the classical PCA, which enables our method to select relevant features and filter out irrelevant noises, thereby obtaining discriminative features. Here, the parameters p and q are within the range of [0, 1). Therefore, BSUFS not only constructs a unified framework for bi-sparse optimization, but also includes some existing works as special cases. To solve the resulting non-convex model, we propose an efficient proximal alternating minimization (PAM) algorithm using Stiefel manifold optimization and sparse optimization techniques. In addition, the computational complexity analysis is presented. Extensive numerical experiments on synthetic and real-world datasets demonstrate the effectiveness of our proposed BSUFS. The results reveal the advantages of bi-sparse optimization in feature selection and show its potential for other fields in image processing. Our code is available at https://github.com/xianchaoxiu/BSUFS.",
+    "citationCount": 0,
+    "referenceCount": 52
+}

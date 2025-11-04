@@ -1,0 +1,43 @@
+{
+    "paperId": "31ee10ae651e7e98f16e61b7bc1845ed8b4ca7f8",
+    "title": "Bundle Network: a Machine Learning-Based Bundle Method",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Francesca Demelas",
+        "Joseph Le Roux",
+        "A. Frangioni",
+        "Mathieu Lacroix",
+        "Emiliano Traversi",
+        "Roberto Wolfler Calvo"
+    ],
+    "doi": "10.48550/arXiv.2509.24736",
+    "arxivId": "2509.24736",
+    "url": "https://www.semanticscholar.org/paper/31ee10ae651e7e98f16e61b7bc1845ed8b4ca7f8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents Bundle Network, a learning-based algorithm inspired by the Bundle Method for convex non-smooth minimization problems. Unlike classical approaches that rely on heuristic tuning of a regularization parameter, our method automatically learns to adjust it from data. Furthermore, we replace the iterative resolution of the optimization problem that provides the search direction-traditionally computed as a convex combination of gradients at visited points-with a recurrent neural model equipped with an attention mechanism. By leveraging the unrolled graph of computation, our Bundle Network can be trained end-to-end via automatic differentiation. Experiments on Lagrangian dual relaxations of the Multi-Commodity Network Design and Generalized Assignment problems demonstrate that our approach consistently outperforms traditional methods relying on grid search for parameter tuning, while generalizing effectively across datasets.",
+    "citationCount": 0,
+    "referenceCount": 52
+}

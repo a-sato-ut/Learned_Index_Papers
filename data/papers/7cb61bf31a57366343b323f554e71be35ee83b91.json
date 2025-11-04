@@ -1,0 +1,35 @@
+{
+    "paperId": "7cb61bf31a57366343b323f554e71be35ee83b91",
+    "title": "μLO: Compute-Efficient Meta-Generalization of Learned Optimizers",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Benjamin Th'erien",
+        "Charles-'Etienne Joseph",
+        "Boris Knyazev",
+        "Edouard Oyallon",
+        "Irina Rish",
+        "Eugene Belilovsky"
+    ],
+    "doi": "10.48550/arXiv.2406.00153",
+    "arxivId": "2406.00153",
+    "url": "https://www.semanticscholar.org/paper/7cb61bf31a57366343b323f554e71be35ee83b91",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learned optimizers (LOs) can significantly reduce the wall-clock training time of neural networks, substantially reducing training costs. However, they can struggle to optimize unseen tasks (meta-generalize), especially when training networks wider than those seen during meta-training. To address this, we derive the Maximal Update Parametrization ($\\mu$P) for two state-of-the-art learned optimizer architectures and propose a simple meta-training recipe for $\\mu$-parameterized LOs ($\\mu$LOs). Our empirical evaluation demonstrates that LOs meta-trained with our recipe substantially improve meta-generalization to wider unseen tasks when compared to LOs trained under standard parametrization (SP), as they are trained in existing work. We also empirically observe that $\\mu$LOs trained with our recipe exhibit unexpectedly improved meta-generalization to deeper networks ($5\\times$ meta-training) and surprising generalization to much longer training horizons ($25\\times$ meta-training) when compared to SP LOs.",
+    "citationCount": 4,
+    "referenceCount": 49
+}

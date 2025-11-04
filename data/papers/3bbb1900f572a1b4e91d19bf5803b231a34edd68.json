@@ -1,0 +1,35 @@
+{
+    "paperId": "3bbb1900f572a1b4e91d19bf5803b231a34edd68",
+    "title": "Transformers as Unrolled Inference in Probabilistic Laplacian Eigenmaps: An Interpretation and Potential Improvements",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Aditya Ravuri",
+        "Neil D. Lawrence"
+    ],
+    "doi": "10.48550/arXiv.2507.21040",
+    "arxivId": "2507.21040",
+    "url": "https://www.semanticscholar.org/paper/3bbb1900f572a1b4e91d19bf5803b231a34edd68",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a probabilistic interpretation of transformers as unrolled inference steps assuming a probabilistic Laplacian Eigenmaps model from the ProbDR framework. Our derivation shows that at initialisation, transformers perform\"linear\"dimensionality reduction. We also show that within the transformer block, a graph Laplacian term arises from our arguments, rather than an attention matrix (which we interpret as an adjacency matrix). We demonstrate that simply subtracting the identity from the attention matrix (and thereby taking a graph diffusion step) improves validation performance on a language model and a simple vision transformer.",
+    "citationCount": 0,
+    "referenceCount": 19
+}

@@ -1,0 +1,41 @@
+{
+    "paperId": "e706fb609bbeb489e81d0881d374cce290c1bc82",
+    "title": "On the Evolutionary of Bloom Filter False Positives - An Information Theoretical Approach to Optimizing Bloom Filter Parameters",
+    "year": 2023,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Zhuochen Fan",
+        "Gang Wen",
+        "Zhipeng Huang",
+        "Yang Zhou",
+        "Qiaobin Fu",
+        "Tong Yang",
+        "Alex X. Liu",
+        "Bin Cui"
+    ],
+    "doi": "10.1109/TKDE.2022.3200045",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e706fb609bbeb489e81d0881d374cce290c1bc82",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The fundamental issue of how to calculate the false positive probability of widely used Bloom Filters (BF), from which the conventional wisdom is to derive the optimal value of <inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math><alternatives><mml:math><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href=\"fan-ieq1-3200045.gif\"/></alternatives></inline-formula>, remains elusive. Since Bloom gave the false positive formula in 1970, in 2008, Bose et al. pointed out that Bloom's formula is flawed; and in 2010, Christensen et al. pointed out that Bose's formula is also flawed and gave another formula. Although Christensen's formula is perfectly accurate, it is time-consuming and impossible to calculate the optimal value of <inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math><alternatives><mml:math><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href=\"fan-ieq2-3200045.gif\"/></alternatives></inline-formula>. Based on the following observation: for a BF with <inline-formula><tex-math notation=\"LaTeX\">$m$</tex-math><alternatives><mml:math><mml:mi>m</mml:mi></mml:math><inline-graphic xlink:href=\"fan-ieq3-3200045.gif\"/></alternatives></inline-formula> bits and <inline-formula><tex-math notation=\"LaTeX\">$n$</tex-math><alternatives><mml:math><mml:mi>n</mml:mi></mml:math><inline-graphic xlink:href=\"fan-ieq4-3200045.gif\"/></alternatives></inline-formula> elements, if and only if its entropy is the largest, its false positive probability is the smallest, we propose the first approach to calculating the optimal <inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math><alternatives><mml:math><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href=\"fan-ieq5-3200045.gif\"/></alternatives></inline-formula> without any false positive formula. Furthermore, we propose a new and more accurate upper bound for the false positive probability. When the size of a Bloom Filter becomes infinitely large, our upper bound turns equal to the lower bound, which becomes Bloom's formula and deepens our understanding towards it. Besides, we derive the bounds of correct rate of Counting Bloom Filters (CBFs) by applying our proposed formulas about BFs to them.",
+    "citationCount": 3,
+    "referenceCount": 66
+}

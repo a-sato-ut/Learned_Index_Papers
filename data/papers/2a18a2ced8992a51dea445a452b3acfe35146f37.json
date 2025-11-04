@@ -1,0 +1,34 @@
+{
+    "paperId": "2a18a2ced8992a51dea445a452b3acfe35146f37",
+    "title": "Learning from Offline and Online Experiences: A Hybrid Adaptive Operator Selection Framework",
+    "year": 2024,
+    "venue": "Annual Conference on Genetic and Evolutionary Computation",
+    "authors": [
+        "Jiyuan Pei",
+        "Jialin Liu",
+        "Yi Mei"
+    ],
+    "doi": "10.1145/3638529.3654062",
+    "arxivId": "2404.10252",
+    "url": "https://www.semanticscholar.org/paper/2a18a2ced8992a51dea445a452b3acfe35146f37",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2404.10252",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In many practical applications, usually, similar optimisation problems or scenarios repeatedly appear. Learning from previous problem-solving experiences can help adjust algorithm components of meta-heuristics, e.g., adaptively selecting promising search operators, to achieve better optimisation performance. However, those experiences obtained from previously solved problems, namely offline experiences, may sometimes provide misleading perceptions when solving a new problem, if the characteristics of previous problems and the new one are relatively different. Learning from online experiences obtained during the ongoing problem-solving process is more instructive but highly restricted by limited computational resources. This paper focuses on the effective combination of offline and online experiences. A novel hybrid framework that learns to dynamically and adaptively select promising search operators is proposed. Two adaptive operator selection modules with complementary paradigms cooperate in the framework to learn from offline and online experiences and make decisions. An adaptive decision policy is maintained to balance the use of those two modules in an online manner. Extensive experiments on 170 widely studied real-value benchmark optimisation problems and a benchmark set with 34 instances for combinatorial optimisation show that the proposed hybrid framework outperforms the state-of-the-art methods. Ablation study verifies the effectiveness of each component of the framework.",
+    "citationCount": 7,
+    "referenceCount": 44
+}

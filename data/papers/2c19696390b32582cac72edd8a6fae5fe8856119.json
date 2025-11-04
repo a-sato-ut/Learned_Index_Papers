@@ -1,0 +1,40 @@
+{
+    "paperId": "2c19696390b32582cac72edd8a6fae5fe8856119",
+    "title": "Neural incomplete factorization: learning preconditioners for the conjugate gradient method",
+    "year": 2023,
+    "venue": "Trans. Mach. Learn. Res.",
+    "authors": [
+        "Paul Häusner",
+        "O. Öktem",
+        "Jens Sjölund"
+    ],
+    "doi": "10.48550/arXiv.2305.16368",
+    "arxivId": "2305.16368",
+    "url": "https://www.semanticscholar.org/paper/2c19696390b32582cac72edd8a6fae5fe8856119",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.16368",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The convergence of the conjugate gradient method for solving large-scale and sparse linear equation systems depends on the spectral properties of the system matrix, which can be improved by preconditioning. In this paper, we develop a computationally efficient data-driven approach to accelerate the generation of effective preconditioners. We, therefore, replace the typically hand-engineered preconditioners by the output of graph neural networks. Our method generates an incomplete factorization of the matrix and is, therefore, referred to as neural incomplete factorization (NeuralIF). Optimizing the condition number of the linear system directly is computationally infeasible. Instead, we utilize a stochastic approximation of the Frobenius loss which only requires matrix-vector multiplications for efficient training. At the core of our method is a novel message-passing block, inspired by sparse matrix theory, that aligns with the objective of finding a sparse factorization of the matrix. We evaluate our proposed method on both synthetic problem instances and on problems arising from the discretization of the Poisson equation on varying domains. Our experiments show that by using data-driven preconditioners within the conjugate gradient method we are able to speed up the convergence of the iterative procedure. The code is available at https://github.com/paulhausner/neural-incomplete-factorization.",
+    "citationCount": 12,
+    "referenceCount": 75
+}

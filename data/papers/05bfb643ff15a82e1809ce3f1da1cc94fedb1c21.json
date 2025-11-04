@@ -1,0 +1,42 @@
+{
+    "paperId": "05bfb643ff15a82e1809ce3f1da1cc94fedb1c21",
+    "title": "DEs-Inspired Accelerated Unfolded Linearized ADMM Networks for Inverse Problems",
+    "year": 2024,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "authors": [
+        "Weixin An",
+        "Yuanyuan Liu",
+        "Fanhua Shang",
+        "Hongying Liu",
+        "Licheng Jiao"
+    ],
+    "doi": "10.1109/TNNLS.2024.3382030",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/05bfb643ff15a82e1809ce3f1da1cc94fedb1c21",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many research works have shown that the traditional alternating direction multiplier methods (ADMMs) can be better understood by continuous-time differential equations (DEs). On the other hand, many unfolded algorithms directly inherit the traditional iterations to build deep networks. Although they achieve superior practical performance and a faster convergence rate than traditional counterparts, there is a lack of clear insight into unfolded network structures. Thus, we attempt to explore the unfolded linearized ADMM (LADMM) from the perspective of DEs, and design more efficient unfolded networks. First, by proposing an unfolded Euler LADMM scheme and inspired by the trapezoid discretization, we design a new more accurate Trapezoid LADMM scheme. For the convenience of implementation, we provide its explicit version via a prediction–correction strategy. Then, to expand the representation space of unfolded networks, we design an accelerated variant of our Euler LADMM scheme, which can be interpreted as second-order DEs with stronger representation capabilities. To fully explore this representation space, we designed an accelerated Trapezoid LADMM scheme. To the best of our knowledge, this is the first work to explore a comprehensive connection with theoretical guarantees between unfolded ADMMs and first- (second-) order DEs. Finally, we instantiate our schemes as (A-)ELADMM and (A-)TLADMM with the proximal operators, and (A-)ELADMM-Net and (A-)TLADMM-Net with convolutional neural networks (CNNs). Extensive inverse problem experiments show that our Trapezoid LADMM schemes perform better than well-known methods.",
+    "citationCount": 0,
+    "referenceCount": 88
+}

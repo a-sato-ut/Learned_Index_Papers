@@ -1,0 +1,36 @@
+{
+    "paperId": "b87261488abb45b7a9a5c55e2d506b8e9c5c6c5b",
+    "title": "Deoxys: Defensive Approximate Computing for Secure Graph Neural Networks",
+    "year": 2024,
+    "venue": "IEEE International Conference on Application-Specific Systems, Architectures, and Processors",
+    "authors": [
+        "Haoran Su",
+        "Nan Wu"
+    ],
+    "doi": "10.1109/ASAP61560.2024.00022",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b87261488abb45b7a9a5c55e2d506b8e9c5c6c5b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph data and graph neural networks (GNNs) have demonstrated their significance in a wide range of high-impact applications. However, GNNs are vulnerable to adversarial attacks and can be easily deceived by data perturbations, posing challenges for their application in safety- and security-critical tasks. Striving to improve the robustness of GNNs, we propose applying hardware-supported approximate computing (AxC) operators in GNN computation. Notably, the effectiveness of adversarial attacks on exact GNN models is difficult to transfer to their AxC counterparts, since approximation-induced noise can increase classification margins, thereby reducing misclassification rates across evasion attacks. As defensive AxC heightens computational robustness, it can be integrated with other defensive approaches focusing on graph topology recovery. Evaluation indicates that: (1) defensive AxC enhances the robustness of GNNs, leading to an average 2.5× increase in the fraction of correctly classified target nodes; (2) it can additionally strengthen robustness beyond a graph topology recovery approach, with significant increases in classification margins; (3) approximate GNN models achieve comparable classification accuracy without retraining and reduce hardware resource utilization and energy consumption. Deoxys is available at https://github.com/lydiawunan/Deoxys.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

@@ -1,0 +1,44 @@
+{
+    "paperId": "e63b79b09f7a3160001ffa67ee8baff17e29ef6a",
+    "title": "Make Optimization Once and for All with Fine-grained Guidance",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Mingjia Shi",
+        "Ruihan Lin",
+        "Xuxi Chen",
+        "Yuhao Zhou",
+        "Zezhen Ding",
+        "Pingzhi Li",
+        "Tong Wang",
+        "Kai Wang",
+        "Zhangyang Wang",
+        "Jiheng Zhang",
+        "Tianlong Chen"
+    ],
+    "doi": "10.48550/arXiv.2503.11462",
+    "arxivId": "2503.11462",
+    "url": "https://www.semanticscholar.org/paper/e63b79b09f7a3160001ffa67ee8baff17e29ef6a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning to Optimize (L2O) enhances optimization efficiency with integrated neural networks. L2O paradigms achieve great outcomes, e.g., refitting optimizer, generating unseen solutions iteratively or directly. However, conventional L2O methods require intricate design and rely on specific optimization processes, limiting scalability and generalization. Our analyses explore general framework for learning optimization, called Diff-L2O, focusing on augmenting sampled solutions from a wider view rather than local updates in real optimization process only. Meanwhile, we give the related generalization bound, showing that the sample diversity of Diff-L2O brings better performance. This bound can be simply applied to other fields, discussing diversity, mean-variance, and different tasks. Diff-L2O's strong compatibility is empirically verified with only minute-level training, comparing with other hour-levels.",
+    "citationCount": 1,
+    "referenceCount": 53
+}

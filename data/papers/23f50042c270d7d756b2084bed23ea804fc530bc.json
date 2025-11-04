@@ -1,0 +1,43 @@
+{
+    "paperId": "23f50042c270d7d756b2084bed23ea804fc530bc",
+    "title": "UTOPY: Unrolling Algorithm Learning via Fidelity Homotopy for Inverse Problems",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Roman Jacome",
+        "Romario Gualdr'on-Hurtado",
+        "León Suárez-Rodríguez",
+        "Henry Arguello"
+    ],
+    "doi": null,
+    "arxivId": "2509.14394",
+    "url": "https://www.semanticscholar.org/paper/23f50042c270d7d756b2084bed23ea804fc530bc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Imaging Inverse problems aim to reconstruct an underlying image from undersampled, coded, and noisy observations. Within the wide range of reconstruction frameworks, the unrolling algorithm is one of the most popular due to the synergistic integration of traditional model-based reconstruction methods and modern neural networks, providing an interpretable and highly accurate reconstruction. However, when the sensing operator is highly ill-posed, gradient steps on the data-fidelity term can hinder convergence and degrade reconstruction quality. To address this issue, we propose UTOPY, a homotopy continuation formulation for training the unrolling algorithm. Mainly, this method involves using a well-posed (synthetic) sensing matrix at the beginning of the unrolling network optimization. We define a continuation path strategy to transition smoothly from the synthetic fidelity to the desired ill-posed problem. This strategy enables the network to progressively transition from a simpler, well-posed inverse problem to the more challenging target scenario. We theoretically show that, for projected gradient descent-like unrolling models, the proposed continuation strategy generates a smooth path of unrolling solutions. Experiments on compressive sensing and image deblurring demonstrate that our method consistently surpasses conventional unrolled training, achieving up to 2.5 dB PSNR improvement in reconstruction performance. Source code at",
+    "citationCount": 0,
+    "referenceCount": 39
+}

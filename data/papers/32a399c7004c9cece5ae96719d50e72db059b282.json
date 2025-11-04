@@ -1,0 +1,43 @@
+{
+    "paperId": "32a399c7004c9cece5ae96719d50e72db059b282",
+    "title": "Calibration of Derivative Pricing Models: a Multi-Agent Reinforcement Learning Perspective",
+    "year": 2022,
+    "venue": "International Conference on AI in Finance",
+    "authors": [
+        "N. Vadori"
+    ],
+    "doi": "10.1145/3604237.3626837",
+    "arxivId": "2203.06865",
+    "url": "https://www.semanticscholar.org/paper/32a399c7004c9cece5ae96719d50e72db059b282",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2203.06865",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Economics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Economics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "One of the most fundamental questions in quantitative finance is the existence of continuous-time diffusion models that fit market prices of a given set of options. Traditionally, one employs a mix of intuition, theoretical and empirical analysis to find models that achieve exact or approximate fits. Our contribution is to show how a suitable game theoretical formulation of this problem can help solve this question by leveraging existing developments in modern deep multi-agent reinforcement learning to search in the space of stochastic processes. Our experiments show that we are able to learn local volatility, as well as path-dependence required in the volatility process to minimize the price of a Bermudan option. Our algorithm can be seen as a particle method à la Guyon et Henry-Labordere where particles, instead of being designed to ensure , are learning RL-driven agents cooperating towards more general calibration targets.",
+    "citationCount": 1,
+    "referenceCount": 33
+}

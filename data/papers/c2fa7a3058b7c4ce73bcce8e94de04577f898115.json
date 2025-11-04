@@ -1,0 +1,42 @@
+{
+    "paperId": "c2fa7a3058b7c4ce73bcce8e94de04577f898115",
+    "title": "Thinking Out of the Box: Hybrid SAT Solving by Unconstrained Continuous Optimization",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhiwei Zhang",
+        "Samy Wu Fung",
+        "Anastasios Kyrillidis",
+        "Stanley Osher",
+        "M. Vardi"
+    ],
+    "doi": "10.48550/arXiv.2506.00674",
+    "arxivId": "2506.00674",
+    "url": "https://www.semanticscholar.org/paper/c2fa7a3058b7c4ce73bcce8e94de04577f898115",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Boolean satisfiability (SAT) problem lies at the core of many applications in combinatorial optimization, software verification, cryptography, and machine learning. While state-of-the-art solvers have demonstrated high efficiency in handling conjunctive normal form (CNF) formulas, numerous applications require non-CNF (hybrid) constraints, such as XOR, cardinality, and Not-All-Equal constraints. Recent work leverages polynomial representations to represent such hybrid constraints, but it relies on box constraints that can limit the use of powerful unconstrained optimizers. In this paper, we propose unconstrained continuous optimization formulations for hybrid SAT solving by penalty terms. We provide theoretical insights into when these penalty terms are necessary and demonstrate empirically that unconstrained optimizers (e.g., Adam) can enhance SAT solving on hybrid benchmarks. Our results highlight the potential of combining continuous optimization and machine-learning-based methods for effective hybrid SAT solving.",
+    "citationCount": 1,
+    "referenceCount": 57
+}

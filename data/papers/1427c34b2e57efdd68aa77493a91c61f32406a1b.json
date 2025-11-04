@@ -1,0 +1,43 @@
+{
+    "paperId": "1427c34b2e57efdd68aa77493a91c61f32406a1b",
+    "title": "Learning to Optimally Dispatch Power: Performance on a Nation-Wide Real-World Dataset",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ignacio Boero",
+        "Santiago Diaz",
+        "Tom'as V'azquez",
+        "Enzo Coppes",
+        "P. Belzarena",
+        "Federico Larroca"
+    ],
+    "doi": "10.48550/arXiv.2505.24505",
+    "arxivId": "2505.24505",
+    "url": "https://www.semanticscholar.org/paper/1427c34b2e57efdd68aa77493a91c61f32406a1b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Optimal Reactive Power Dispatch (ORPD) problem plays a crucial role in power system operations, ensuring voltage stability and minimizing power losses. Recent advances in machine learning, particularly within the ``learning to optimize'' framework, have enabled fast and efficient approximations of ORPD solutions, typically by training models on precomputed optimization results. While these approaches have demonstrated promising performance on synthetic datasets, their effectiveness under real-world grid conditions remains largely unexplored. This paper makes two key contributions. First, we introduce a publicly available power system dataset that includes both the structural characteristics of Uruguay's electrical grid and nearly two years of real-world operational data, encompassing actual demand and generation profiles. Given Uruguay's high penetration of renewable energy, the ORPD problem has become the primary optimization challenge in its power network. Second, we assess the impact of real-world data on learning-based ORPD solutions, revealing a significant increase in prediction errors when transitioning from synthetic to actual demand and generation inputs. Our results highlight the limitations of existing models in learning under the complex statistical properties of real grid conditions and emphasize the need for more expressive architectures. By providing this dataset, we aim to facilitate further research into robust learning-based optimization techniques for power system management.",
+    "citationCount": 0,
+    "referenceCount": 14
+}

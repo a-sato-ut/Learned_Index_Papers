@@ -1,0 +1,40 @@
+{
+    "paperId": "3b2fba38c8bbd09e02defb5bb66c56d397fde1fa",
+    "title": "OpReg-Boost: Learning to Accelerate Online Algorithms with Operator Regression",
+    "year": 2021,
+    "venue": "Conference on Learning for Dynamics & Control",
+    "authors": [
+        "Nicola Bastianello",
+        "Andrea Simonetto",
+        "E. Dall’Anese"
+    ],
+    "doi": null,
+    "arxivId": "2105.13271",
+    "url": "https://www.semanticscholar.org/paper/3b2fba38c8bbd09e02defb5bb66c56d397fde1fa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents a new regularization approach – termed OpReg-Boost – to boost the convergence of online optimization and learning algorithms. In particular, the paper considers online algorithms for optimization problems with a time-varying (weakly) convex composite cost. For a given online algorithm, OpReg-Boost learns the closest algorithmic map that yields linear convergence; to this end, the learning procedure hinges on the concept of operator regression . We show how to formalize the operator regression problem and propose a computationally-eﬃcient Peaceman-Rachford solver that exploits a closed-form solution of simple quadratically-constrained quadratic programs (QCQPs). Simulation results showcase the superior properties of OpReg-Boost w.r.t. the more classical forward-backward algorithm, FISTA, and Anderson acceleration.",
+    "citationCount": 3,
+    "referenceCount": 69
+}

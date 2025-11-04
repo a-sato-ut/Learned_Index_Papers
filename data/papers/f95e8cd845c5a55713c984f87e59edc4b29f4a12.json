@@ -1,0 +1,32 @@
+{
+    "paperId": "f95e8cd845c5a55713c984f87e59edc4b29f4a12",
+    "title": "Planning of Heuristics: Strategic Planning on Large Language Models with Monte Carlo Tree Search for Automating Heuristic Optimization",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Chaoxu Mu",
+        "Xufeng Zhang",
+        "Hui Wang"
+    ],
+    "doi": "10.48550/arXiv.2502.11422",
+    "arxivId": "2502.11422",
+    "url": "https://www.semanticscholar.org/paper/f95e8cd845c5a55713c984f87e59edc4b29f4a12",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Heuristics have achieved great success in solving combinatorial optimization problems~(COPs). However, heuristics designed by humans require too much domain knowledge and testing time. Since Large Language Models~(LLMs) possess strong capabilities to understand and generate content with a knowledge base that covers various domains, they offer potential ways to automatically optimize heuristics. To this end, we propose Planning of Heuristics~(PoH), an optimization method that integrates LLM self-reflection with Monte Carlo Tree Search, a well-known planning algorithm. PoH iteratively refines generated heuristics by evaluating their performance and providing improvement suggestions. Our method enables to iteratively evaluate the generated heuristics~(states) and improve them based on the improvement suggestions~(actions) and evaluation results~(rewards), by effectively simulating future states to search for paths with higher rewards. In this paper, we apply PoH to solve the Traveling Salesman Problem and the Flow Shop Scheduling Problem. The experimental results show that PoH outperforms hand-crafted heuristics and other Automatic Heuristic Design methods based on LLMs, and achieves the state-of-the-art performance in automating heuristic optimization with LLMs to solve tested COPs, especially with large sizes.",
+    "citationCount": 4,
+    "referenceCount": 34
+}

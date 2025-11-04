@@ -1,0 +1,40 @@
+{
+    "paperId": "53f97097b17c33c3c6c02819cc969432842547b8",
+    "title": "Learning to Optimize in Model Predictive Control",
+    "year": 2022,
+    "venue": "IEEE International Conference on Robotics and Automation",
+    "authors": [
+        "J. Sacks",
+        "Byron Boots"
+    ],
+    "doi": "10.1109/ICRA46639.2022.9812369",
+    "arxivId": "2212.02603",
+    "url": "https://www.semanticscholar.org/paper/53f97097b17c33c3c6c02819cc969432842547b8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2212.02603",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sampling-based Model Predictive Control (MPC) is a flexible control framework that can reason about non-smooth dynamics and cost functions. Recently, significant work has focused on the use of machine learning to improve the performance of MPC, often through learning or fine-tuning the dynamics or cost function. In contrast, we focus on learning to optimize more effectively. In other words, to improve the update rule within MPC. We show that this can be particularly useful in sampling-based MPC, where we often wish to minimize the number of samples for computational reasons. Unfortunately, the cost of computational efficiency is a reduction in performance; fewer samples results in noisier updates. We show that we can contend with this noise by learning how to update the control distribution more effectively and make better use of the few samples that we have. Our learned controllers are trained via imitation learning to mimic an expert which has access to substantially more samples. We test the efficacy of our approach on multiple simulated robotics tasks in sample-constrained regimes and demonstrate that our approach can outperform a MPC controller with the same number of samples.",
+    "citationCount": 25,
+    "referenceCount": 58
+}

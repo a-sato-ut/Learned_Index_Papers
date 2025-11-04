@@ -1,0 +1,40 @@
+{
+    "paperId": "1b43851d722a769247bafda009abedf535059f02",
+    "title": "Challenges and Opportunities of Using Transformer-Based Multi-Task Learning in NLP Through ML Lifecycle: A Survey",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Lovre Torbarina",
+        "Tin Ferkovic",
+        "Lukasz Roguski",
+        "Velimir Mihelčić",
+        "Bruno Šarlija",
+        "Zeljko Kraljevic"
+    ],
+    "doi": "10.48550/arXiv.2308.08234",
+    "arxivId": "2308.08234",
+    "url": "https://www.semanticscholar.org/paper/1b43851d722a769247bafda009abedf535059f02",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2308.08234",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The increasing adoption of natural language processing (NLP) models across industries has led to practitioners' need for machine learning systems to handle these models efficiently, from training to serving them in production. However, training, deploying, and updating multiple models can be complex, costly, and time-consuming, mainly when using transformer-based pre-trained language models. Multi-Task Learning (MTL) has emerged as a promising approach to improve efficiency and performance through joint training, rather than training separate models. Motivated by this, we first provide an overview of transformer-based MTL approaches in NLP. Then, we discuss the challenges and opportunities of using MTL approaches throughout typical ML lifecycle phases, specifically focusing on the challenges related to data engineering, model development, deployment, and monitoring phases. This survey focuses on transformer-based MTL architectures and, to the best of our knowledge, is novel in that it systematically analyses how transformer-based MTL in NLP fits into ML lifecycle phases. Furthermore, we motivate research on the connection between MTL and continual learning (CL), as this area remains unexplored. We believe it would be practical to have a model that can handle both MTL and CL, as this would make it easier to periodically re-train the model, update it due to distribution shifts, and add new capabilities to meet real-world requirements.",
+    "citationCount": 5,
+    "referenceCount": 126
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "bf12eb5959d7e2d365893a038805c623815033db",
+    "title": "GFairHint: Improving Individual Fairness for Graph Neural Networks via Fairness Hint",
+    "year": 2023,
+    "venue": "ACM Transactions on Knowledge Discovery from Data",
+    "authors": [
+        "Paiheng Xu",
+        "Yuhang Zhou",
+        "Bang An",
+        "Wei Ai",
+        "Furong Huang"
+    ],
+    "doi": "10.1145/3714472",
+    "arxivId": "2305.15622",
+    "url": "https://www.semanticscholar.org/paper/bf12eb5959d7e2d365893a038805c623815033db",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2305.15622",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Given the growing concerns about fairness in machine learning and the impressive performance of Graph Neural Networks (GNNs) on graph data learning, algorithmic fairness in GNNs has attracted significant attention. While many existing studies improve fairness at the group level, only a few works promote individual fairness, which renders similar outcomes for similar individuals. A desirable framework that promotes individual fairness should (1) balance fairness and performance, (2) accommodate two commonly-used individual similarity measures (externally annotated and computed from input features), and, (3) generalize across various GNNs. Unfortunately, none of the prior work achieves all the desirables. In this work, we propose a novel method, GFairHint, which promotes individual fairness in GNNs and achieves all aforementioned desirables. GFairHint learns fairness representations through an auxiliary link prediction task, which is inspired by a theoretical analysis of the definition of individual fairness. We then concatenate the representations with the learned node embeddings in original GNNs as a “fairness hint”. Through extensive experimental investigations on five real-world graph datasets under three prevalent GNNs covering both individual similarity measures above, GFairHint achieves the best fairness results in almost all combinations of datasets with various backbone models, while generating comparable utility results, with much less computational cost compared to the previous state-of-the-art method.",
+    "citationCount": 8,
+    "referenceCount": 61
+}

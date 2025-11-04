@@ -1,0 +1,44 @@
+{
+    "paperId": "deffb9c6578923728eb9460b57a5f1ae3ca89bee",
+    "title": "An Introduction to Bilevel Optimization: Foundations and applications in signal processing and machine learning",
+    "year": 2023,
+    "venue": "IEEE Signal Processing Magazine",
+    "authors": [
+        "Yihua Zhang",
+        "Prashant Khanduri",
+        "Ioannis C. Tsaknakis",
+        "Yuguang Yao",
+        "Min-Fong Hong",
+        "Sijia Liu"
+    ],
+    "doi": "10.1109/MSP.2024.3358284",
+    "arxivId": "2308.00788",
+    "url": "https://www.semanticscholar.org/paper/deffb9c6578923728eb9460b57a5f1ae3ca89bee",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2308.00788",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, bilevel optimization (BLO) has taken center stage in some very exciting developments in the area of signal processing (SP) and machine learning (ML). Roughly speaking, BLO is a classical optimization problem that involves two levels of hierarchy (i.e., upper and lower levels), wherein obtaining the solution to the upper-level problem requires solving the lower-level one. BLO has become popular largely because it is powerful in modeling problems in SP and ML, among others, that involve optimizing nested objective functions. Prominent applications of BLO range from resource allocation for wireless systems to adversarial ML. In this work, we focus on a class of tractable BLO problems that often appear in SP and ML applications. We provide an overview of some basic concepts of this class of BLO problems, such as their optimality conditions, standard algorithms (including their optimization principles and practical implementations) as well as how they can be leveraged to obtain state-of-the-art results for several key SP and ML applications. Further, we discuss some recent advances in BLO theory and its implications for applications, and we point out some limitations of the state of the art that require significant future research efforts. We hope that this article, together with the associated open source BLO toolbox we developed for algorithm benchmarking, can serve to accelerate the adoption of BLO as a generic tool to model, analyze, and innovate on a wide array of emerging SP and ML applications.",
+    "citationCount": 41,
+    "referenceCount": 146
+}

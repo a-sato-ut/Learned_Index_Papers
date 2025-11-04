@@ -1,0 +1,27 @@
+{
+    "paperId": "41019a6b12bf1772759cd3e4420b536e031a9c4c",
+    "title": "Malicious URL Detection with Advanced Machine Learning and Optimization-Supported Deep Learning Models",
+    "year": 2025,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Fuat Türk",
+        "Mahmut Kılıçaslan"
+    ],
+    "doi": "10.3390/app151810090",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/41019a6b12bf1772759cd3e4420b536e031a9c4c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study presents a comprehensive comparative analysis of machine learning, deep learning, and optimization-based hybrid methods for malicious URL detection on the Malicious Phish dataset. For feature selection and model hyperparameter tuning, the Genetic Algorithm (GA), Particle Swarm Optimization (PSO), and Harris Hawk Optimizer (HHO) were employed. Both multiclass and binary classification tasks were addressed using classic machine learning algorithms such as LightGBM, XGBoost, and Random Forest, as well as deep learning models including LSTM, CNN, and hybrid CNN+LSTM architectures, with optimization support also integrated into these models. The experimental results reveal that the ELECTRA-based deep learning model achieved outstanding accuracy and F1-scores of up to 99% in both multiclass and binary scenarios. Although optimization-supported hybrid models also improved performance, the language-model-based ELECTRA architecture demonstrated a significant superiority over classical and optimized approaches. The findings indicate that optimization algorithms are effective in feature selection and enhancing model performance, yet next-generation language models clearly set a new benchmark in malicious URL detection.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

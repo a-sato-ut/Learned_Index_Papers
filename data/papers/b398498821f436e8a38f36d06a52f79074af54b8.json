@@ -1,0 +1,33 @@
+{
+    "paperId": "b398498821f436e8a38f36d06a52f79074af54b8",
+    "title": "Exploring Feature-based Knowledge Distillation for Recommender System: A Frequency Perspective",
+    "year": 2024,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Zhangchi Zhu",
+        "Wei Zhang"
+    ],
+    "doi": "10.1145/3690624.3709248",
+    "arxivId": "2411.10676",
+    "url": "https://www.semanticscholar.org/paper/b398498821f436e8a38f36d06a52f79074af54b8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we analyze the feature-based knowledge distillation for recommendation from the frequency perspective. By defining knowledge as different frequency components of the features, we theoretically demonstrate that regular feature-based knowledge distillation is equivalent to equally minimizing losses on all knowledge and further analyze how this equal loss weight allocation method leads to important knowledge being overlooked. In light of this, we propose to emphasize important knowledge by redistributing knowledge weights. Furthermore, we propose FreqD, a lightweight knowledge reweighting method, to avoid the computational cost of calculating losses on each knowledge. Extensive experiments demonstrate that FreqD consistently and significantly outperforms state-of-the-art knowledge distillation methods for recommender systems. Our code is available at https://github.com/woriazzc/KDs.",
+    "citationCount": 1,
+    "referenceCount": 48
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "07b5d3d0438c9bd6cf32376988daabf568ade6a1",
+    "title": "Adaptive Graph Contrastive Learning for Recommendation",
+    "year": 2023,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Ya Jiang",
+        "Chao Huang",
+        "Liang-Ying Huang"
+    ],
+    "doi": "10.1145/3580305.3599768",
+    "arxivId": "2305.10837",
+    "url": "https://www.semanticscholar.org/paper/07b5d3d0438c9bd6cf32376988daabf568ade6a1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2305.10837",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph neural networks (GNNs) have recently emerged as an effective collaborative filtering (CF) approaches for recommender systems. The key idea of GNN-based recommender systems is to recursively perform message passing along user-item interaction edges to refine encoded embeddings, relying on sufficient and high-quality training data. However, user behavior data in practical recommendation scenarios is often noisy and exhibits skewed distribution. To address these issues, some recommendation approaches, such as SGL, leverage self-supervised learning to improve user representations. These approaches conduct self-supervised learning through creating contrastive views, but they depend on the tedious trial-and-error selection of augmentation methods. In this paper, we propose a novel Adaptive Graph Contrastive Learning (AdaGCL) framework that conducts data augmentation with two adaptive contrastive view generators to better empower the CF paradigm. Specifically, we use two trainable view generators - a graph generative model and a graph denoising model - to create adaptive contrastive views. With two adaptive contrastive views, AdaGCL introduces additional high-quality training signals into the CF paradigm, helping to alleviate data sparsity and noise issues. Extensive experiments on three real-world datasets demonstrate the superiority of our model over various state-of-the-art recommendation methods. Our model implementation codes are available at the link https://github.com/HKUDS/AdaGCL.",
+    "citationCount": 144,
+    "referenceCount": 67
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "e5bcc1e400f7e79ef5d866678bfdfd31eb3cb489",
+    "title": "Multi-Order Relations Hyperbolic Fusion for Heterogeneous Graphs",
+    "year": 2023,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Junlin Li",
+        "Yueheng Sun",
+        "Minglai Shao"
+    ],
+    "doi": "10.1145/3583780.3614979",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e5bcc1e400f7e79ef5d866678bfdfd31eb3cb489",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Heterogeneous graphs with multiple node and edge types are prevalent in real-world scenarios. However, most methods use meta-paths on the original graph structure to learn information in heterogeneous graphs, and these methods only consider pairwise relations and rely on meta-paths. In this paper, we use simplicial complexes to extract higher-order relations containing multiple nodes from heterogeneous graphs. We also discover power-law structures in both the heterogeneous graph and the extracted simplicial complex. Thus, we propose the Simplicial Hyperbolic Attention Network (SHAN), a graph neural network for heterogeneous graphs. SHAN extracts simplicial complexes and the original graph structure from the heterogeneous graph to represent multi-order relations between nodes. Next, SHAN uses hyperbolic multi-perspective attention to learn the importance of different neighbors and relations in hyperbolic space. Finally, SHAN integrates multi-order relations to obtain a more comprehensive node representation. We conducted extensive experiments to verify the effectiveness of SHAN and the results of node classification experiments on three publicly available heterogeneous graph datasets demonstrate that SHAN outperforms representative baseline models.",
+    "citationCount": 4,
+    "referenceCount": 44
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "879d8b700762d5e17af67d568957c24ea66776e0",
+    "title": "Joinable Search Over Multi-Source Spatial Datasets: Overlap, Coverage, and Efficiency",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Wenzhe Yang",
+        "Sheng Wang",
+        "Zhiyu Chen",
+        "Yuan Sun",
+        "Zhiyong Peng"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00050",
+    "arxivId": "2311.13383",
+    "url": "https://www.semanticscholar.org/paper/879d8b700762d5e17af67d568957c24ea66776e0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The search for joinable data is pivotal for numerous applications, such as data integration, data augmentation, and data analysis. Although there have been many successful joinable search studies for table discovery, the study of finding joinable spatial datasets for a given query from multiple spatial data sources has not been well considered. This paper studies two cases of joinable search problems from multiple spatial data sources. In addition to the overlap joinable search problem (OJSP), we also propose a novel coverage joinable search problem (CJSP) that has not been considered before, motivated by many real-world applications in the field of spatial search. To support two cases of joinable search over multiple spatial data sources seamlessly, we propose a multi-source spatial dataset search framework. Firstly, we design a DIstributed Tree-based Spatial index structure called DITS, which is used not only to design acceleration strategies to speed up joinable searches, but also to support efficient communication between multiple data sources. Additionally, we prove that the CJSP is NP-hard and design a greedy approximate algorithm to solve the problem. We evaluate the efficiency of our search framework on five real-world data sources, and the experimental results show that our framework can significantly reduce running time and communication costs compared with baselines.",
+    "citationCount": 0,
+    "referenceCount": 75
+}

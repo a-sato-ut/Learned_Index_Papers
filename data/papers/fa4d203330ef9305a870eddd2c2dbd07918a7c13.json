@@ -1,0 +1,35 @@
+{
+    "paperId": "fa4d203330ef9305a870eddd2c2dbd07918a7c13",
+    "title": "RNN Beamforming Optimizer for Rate-Splitting Multiple Access and Cell-Free Massive MIMO",
+    "year": 2025,
+    "venue": "IEEE Transactions on Communications",
+    "authors": [
+        "Jeremy Johnston",
+        "Xiaodong Wang"
+    ],
+    "doi": "10.1109/TCOMM.2024.3486982",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fa4d203330ef9305a870eddd2c2dbd07918a7c13",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Next-generation wireless technologies such as rate-splitting multiple access (RSMA) and massive MIMO are characterized by optimization problems too complex to solve in real-time, hence suboptimal heuristics are adopted in practice. As we explore in this paper, machine learning techniques have the potential to upend this paradigm, offering new algorithms customized for a particular distribution of problems. We consider MISO downlink beamforming optimization for NOMA, SDMA, and RSMA with sum rate and min rate criteria. We apply the framework of learning to optimize to learn an RNN optimizer that produces beamformers with much less computation than existing optimization algorithms such as weighted-MMSE. The RNN inference complexity scales linearly with the size of the antenna array and therefore is suitable for massive MIMO. We show that the learned optimizer is also compatible with a distributed beamforming scenario such as cell-free massive MIMO with information exchange facilitated by a central processor. Our simulation results show that the learned optimizer is competitive with state-of-the-art optimization methods, but requires a fraction of the computational cost.",
+    "citationCount": 1,
+    "referenceCount": 48
+}

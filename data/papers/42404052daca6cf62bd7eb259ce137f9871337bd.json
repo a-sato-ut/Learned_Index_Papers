@@ -1,0 +1,47 @@
+{
+    "paperId": "42404052daca6cf62bd7eb259ce137f9871337bd",
+    "title": "Interference Nulling Using Reconfigurable Intelligent Surface",
+    "year": 2021,
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "authors": [
+        "Tao Jiang",
+        "Weiyong Yu"
+    ],
+    "doi": "10.1109/jsac.2022.3143220",
+    "arxivId": "2112.13261",
+    "url": "https://www.semanticscholar.org/paper/42404052daca6cf62bd7eb259ce137f9871337bd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2112.13261",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper investigates the interference nulling capability of reconfigurable intelligent surface (RIS) in a multiuser environment where multiple single-antenna transceivers communicate simultaneously in a shared spectrum. From a theoretical perspective, we show that when the channels between the RIS and the transceivers have line-of-sight and the direct paths are blocked, it is possible to adjust the phases of the RIS elements to null out all the interference completely and to achieve the maximum <inline-formula> <tex-math notation=\"LaTeX\">$K$ </tex-math></inline-formula> degrees-of-freedom (DoF) in the overall <inline-formula> <tex-math notation=\"LaTeX\">$K$ </tex-math></inline-formula>-user interference channel, provided that the number of RIS elements exceeds some finite value that depends on <inline-formula> <tex-math notation=\"LaTeX\">$K$ </tex-math></inline-formula>. Algorithmically, for any fixed channel realization we formulate the interference nulling problem as a feasibility problem, and propose an alternating projection algorithm to efficiently solve the resulting nonconvex problem with local convergence guarantee. Numerical results show that the proposed alternating projection algorithm can null all the interference if the number of RIS elements is only slightly larger than a threshold of <inline-formula> <tex-math notation=\"LaTeX\">$2K(K-1)$ </tex-math></inline-formula>. For the practical sum-rate maximization objective, this paper proposes to use the zero-forcing solution obtained from alternating projection as an initial point for subsequent Riemannian conjugate gradient optimization and shows that it has a significant performance advantage over random initializations. For the objective of maximizing the minimum rate, this paper proposes a subgradient projection method which is capable of achieving excellent performance at low complexity.",
+    "citationCount": 80,
+    "referenceCount": 46
+}

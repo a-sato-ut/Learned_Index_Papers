@@ -1,0 +1,38 @@
+{
+    "paperId": "63f1879a95180213cd6d11c6d5d9d6c8e9655483",
+    "title": "Machine Learning-Assisted Multiobjective Evolutionary Algorithm for Routing and Packing",
+    "year": 2025,
+    "venue": "IEEE Transactions on Evolutionary Computation",
+    "authors": [
+        "Fei Liu",
+        "Qingfu Zhang",
+        "Qingling Zhu",
+        "Xialiang Tong",
+        "Mingxuan Yuan"
+    ],
+    "doi": "10.1109/TEVC.2024.3357819",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/63f1879a95180213cd6d11c6d5d9d6c8e9655483",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many combinatorial multiobjective optimization problems involve very costly-to-evaluate objectives and constraints. It is very difficult, if not impossible, for traditional heuristics to solve these problems with an acceptable amount of computational time. In this article, we show that offline machine learning can be very useful to assist multiobjective evolutionary algorithms to tackle this kind of problem. We take a complicated real-life multiobjective routing-packing problem as the test bed. We propose to use offline machine learning methods to replace time-consuming packing heuristics for packing feasibility prediction. Experiments show that the machine learning models can be 1000 times faster than some commonly used packing heuristics and their accuracy can be as high as 98%. We adopt decomposition-based multiobjective evolutionary algorithmic to decompose the problem into a number of single objective subproblems and solve them in a collaborative manner. We propose an encoding strategy to represent each routing scheme and use genetic operators to generate new routes. Experimental studies have been conducted on 100 instances from HUAWEI’s real-world logistics application and two test suites from the literature. Our proposed method can solve each HUAWEI instance in around 1 min. Our solutions on the two test suites are comparable to other existing algorithms, and the overall computational cost of our method is significantly lower than others.",
+    "citationCount": 8,
+    "referenceCount": 66
+}

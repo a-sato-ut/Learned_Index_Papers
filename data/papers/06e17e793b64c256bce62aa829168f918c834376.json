@@ -1,0 +1,38 @@
+{
+    "paperId": "06e17e793b64c256bce62aa829168f918c834376",
+    "title": "Image Deblurring Based on Convex Non-Convex Sparse Regularization and Plug-and-Play Algorithm",
+    "year": 2023,
+    "venue": "Algorithms",
+    "authors": [
+        "Yi Wang",
+        "Yating Xu",
+        "Tianjian Li",
+        "Tao Zhang",
+        "Jian Zou"
+    ],
+    "doi": "10.3390/a16120574",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/06e17e793b64c256bce62aa829168f918c834376",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1999-4893/16/12/574/pdf?version=1702913033",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Image deblurring based on sparse regularization has garnered significant attention, but there are still certain limitations that need to be addressed. For instance, convex sparse regularization tends to exhibit biased estimation, which can adversely impact the deblurring performance, while non-convex sparse regularization poses challenges in terms of solving techniques. Furthermore, the performance of the traditional iterative algorithm also needs to be improved. In this paper, we propose an image deblurring method based on convex non-convex (CNC) sparse regularization and a plug-and-play (PnP) algorithm. The utilization of CNC sparse regularization not only mitigates estimation bias but also guarantees the overall convexity of the image deblurring model. The PnP algorithm is an advanced learning-based optimization algorithm that surpasses traditional optimization algorithms in terms of efficiency and performance by utilizing the state-of-the-art denoiser to replace the proximal operator. Numerical experiments verify the performance of our proposed algorithm in image deblurring.",
+    "citationCount": 2,
+    "referenceCount": 24
+}

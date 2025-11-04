@@ -1,0 +1,37 @@
+{
+    "paperId": "d92fe2b8861e8ef74e030d674bedcd505a98def9",
+    "title": "Is Scaling Learned Optimizers Worth It? Evaluating The Value of VeLO's 4000 TPU Months",
+    "year": 2023,
+    "venue": "ICBINB",
+    "authors": [
+        "Fady Rezk",
+        "Antreas Antoniou",
+        "Henry Gouk",
+        "Timothy M. Hospedales"
+    ],
+    "doi": "10.48550/arXiv.2310.18191",
+    "arxivId": "2310.18191",
+    "url": "https://www.semanticscholar.org/paper/d92fe2b8861e8ef74e030d674bedcd505a98def9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We analyze VeLO (versatile learned optimizer), the largest scale attempt to train a general purpose\"foundational\"optimizer to date. VeLO was trained on thousands of machine learning tasks using over 4000 TPU months with the goal of producing an optimizer capable of generalizing to new problems while being hyperparameter free, and outperforming industry standards such as Adam. We independently evaluate VeLO on the MLCommons optimizer benchmark suite. We find that, contrary to initial claims: (1) VeLO has a critical hyperparameter that needs problem-specific tuning, (2) VeLO does not necessarily outperform competitors in quality of solution found, and (3) VeLO is not faster than competing optimizers at reducing the training loss. These observations call into question VeLO's generality and the value of the investment in training it.",
+    "citationCount": 2,
+    "referenceCount": 20
+}

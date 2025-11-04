@@ -1,0 +1,43 @@
+{
+    "paperId": "512321596bcda529e64416149cfa1133cfdc8c5a",
+    "title": "Rapid and Power-Aware Learned Optimization for Modular Receive Beamforming",
+    "year": 2024,
+    "venue": "IEEE Transactions on Communications",
+    "authors": [
+        "Ohad Levy",
+        "Nir Shlezinger"
+    ],
+    "doi": "10.1109/TCOMM.2025.3543229",
+    "arxivId": "2408.00439",
+    "url": "https://www.semanticscholar.org/paper/512321596bcda529e64416149cfa1133cfdc8c5a",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2408.00439",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multiple-input multiple-output (MIMO) systems play a key role in wireless communication technologies. A widely considered approach to realize scalable MIMO systems involves architectures comprised of multiple separate modules, each with its own beamforming capability. Such models accommodate cell-free massive MIMO and partially connected hybrid MIMO architectures. A core issue with the implementation of modular MIMO arises from the need to rapidly set the beampatterns of the modules, while maintaining their power efficiency. This leads to challenging constrained optimization that should be repeatedly solved on each coherence duration. In this work, we propose a power-oriented optimization algorithm for beamforming in uplink modular hybrid MIMO systems, which learns from data to operate rapidly. We derive our learned optimizer by tackling the rate maximization objective using projected gradient ascent steps with momentum. We then leverage data to tune the hyperparameters of the optimizer, allowing it to operate reliably in a fixed and small number of iterations while completely preserving its interpretable operation. We show how power efficient beamforming can be encouraged by the learned optimizer, via boosting architectures with low-resolution phase shifts and with deactivated analog components. Numerical results show that our learn-to-optimize method notably reduces the number of iterations and computation latency required to reliably tune modular MIMO receivers, and that it allows obtaining desirable balances between power efficient designs and throughput.",
+    "citationCount": 2,
+    "referenceCount": 57
+}

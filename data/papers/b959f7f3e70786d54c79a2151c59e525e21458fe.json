@@ -1,0 +1,46 @@
+{
+    "paperId": "b959f7f3e70786d54c79a2151c59e525e21458fe",
+    "title": "Learning to Learn Graph Topologies",
+    "year": 2021,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Xingyue Pu",
+        "Tianyue Cao",
+        "Xiaoyun Zhang",
+        "Xiaowen Dong",
+        "Siheng Chen"
+    ],
+    "doi": null,
+    "arxivId": "2110.09807",
+    "url": "https://www.semanticscholar.org/paper/b959f7f3e70786d54c79a2151c59e525e21458fe",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning a graph topology to reveal the underlying relationship between data entities plays an important role in various machine learning and data analysis tasks. Under the assumption that structured data vary smoothly over a graph, the problem can be formulated as a regularised convex optimisation over a positive semidefinite cone and solved by iterative algorithms. Classic methods require an explicit convex function to reflect generic topological priors, e.g. the $\\ell_1$ penalty for enforcing sparsity, which limits the flexibility and expressiveness in learning rich topological structures. We propose to learn a mapping from node data to the graph structure based on the idea of learning to optimise (L2O). Specifically, our model first unrolls an iterative primal-dual splitting algorithm into a neural network. The key structural proximal projection is replaced with a variational autoencoder that refines the estimated graph with enhanced topological properties. The model is trained in an end-to-end fashion with pairs of node data and graph samples. Experiments on both synthetic and real-world data demonstrate that our model is more efficient than classic iterative algorithms in learning a graph with specific topological properties.",
+    "citationCount": 43,
+    "referenceCount": 47
+}

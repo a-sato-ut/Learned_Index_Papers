@@ -1,0 +1,35 @@
+{
+    "paperId": "f4aa6528b0ec31fd0e03421a18220d5a23adc43e",
+    "title": "Symmetry-Aware Fully-Amortized Optimization with Scale Equivariant Graph Metanetworks",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Bart Kuipers",
+        "Freek Byrman",
+        "Daniel Uyterlinde",
+        "Alejandro Garc'ia-Castellanos"
+    ],
+    "doi": null,
+    "arxivId": "2510.08300",
+    "url": "https://www.semanticscholar.org/paper/f4aa6528b0ec31fd0e03421a18220d5a23adc43e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Amortized optimization accelerates the solution of related optimization problems by learning mappings that exploit shared structure across problem instances. We explore the use of Scale Equivariant Graph Metanetworks (ScaleGMNs) for this purpose. By operating directly in weight space, ScaleGMNs enable single-shot fine-tuning of existing models, reducing the need for iterative optimization. We demonstrate the effectiveness of this approach empirically and provide a theoretical result: the gauge freedom induced by scaling symmetries is strictly smaller in convolutional neural networks than in multi-layer perceptrons. This insight helps explain the performance differences observed between architectures in both our work and that of Kalogeropoulos et al. (2024). Overall, our findings underscore the potential of symmetry-aware metanetworks as a powerful approach for efficient and generalizable neural network optimization. Open-source code: https://github.com/daniuyter/scalegmn_amortization",
+    "citationCount": 0,
+    "referenceCount": 25
+}

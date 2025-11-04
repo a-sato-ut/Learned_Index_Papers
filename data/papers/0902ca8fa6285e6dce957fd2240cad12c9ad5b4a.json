@@ -1,0 +1,39 @@
+{
+    "paperId": "0902ca8fa6285e6dce957fd2240cad12c9ad5b4a",
+    "title": "A Generalization Result for Convergence in Learning-to-Optimize",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Michael Sucker",
+        "Peter Ochs"
+    ],
+    "doi": "10.48550/arXiv.2410.07704",
+    "arxivId": "2410.07704",
+    "url": "https://www.semanticscholar.org/paper/0902ca8fa6285e6dce957fd2240cad12c9ad5b4a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning-to-optimize leverages machine learning to accelerate optimization algorithms. While empirical results show tremendous improvements compared to classical optimization algorithms, theoretical guarantees are mostly lacking, such that the outcome cannot be reliably assured. Especially, convergence is hardly studied in learning-to-optimize, because conventional convergence guarantees in optimization are based on geometric arguments, which cannot be applied easily to learned algorithms. Thus, we develop a probabilistic framework that resembles classical optimization and allows for transferring geometric arguments into learning-to-optimize. Based on our new proof-strategy, our main theorem is a generalization result for parametric classes of potentially non-smooth, non-convex loss functions and establishes the convergence of learned optimization algorithms to critical points with high probability. This effectively generalizes the results of a worst-case analysis into a probabilistic framework, and frees the design of the learned algorithm from using safeguards.",
+    "citationCount": 0,
+    "referenceCount": 86
+}

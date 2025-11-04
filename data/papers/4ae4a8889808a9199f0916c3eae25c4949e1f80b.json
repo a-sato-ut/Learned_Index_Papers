@@ -1,0 +1,36 @@
+{
+    "paperId": "4ae4a8889808a9199f0916c3eae25c4949e1f80b",
+    "title": "A Deep Reinforcement Learning Approach to Efficient Distributed Optimization",
+    "year": 2023,
+    "venue": "IEEE Transactions on Control of Network Systems",
+    "authors": [
+        "Daokuan Zhu",
+        "Tianqi Xu",
+        "Jie Lu"
+    ],
+    "doi": "10.1109/tcns.2025.3587331",
+    "arxivId": "2311.08827",
+    "url": "https://www.semanticscholar.org/paper/4ae4a8889808a9199f0916c3eae25c4949e1f80b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In distributed optimization, the practical problem-solving performance is essentially sensitive to algorithm selection, parameter setting, problem type and data pattern. Thus, it is often laborious to acquire a highly efficient method for a given specific problem. In this paper, we propose a learning-based method to achieve efficient distributed optimization over networked systems. Specifically, a deep reinforcement learning (DRL) framework is developed for adaptive configuration within a parameterized unifying algorithmic form, which incorporates an abundance of decentralized first-order and second-order optimization algorithms. We exploit the local consensus and objective information to represent the regularities of problem instances and trace the solving progress, which constitute the states observed by a DRL agent. The framework is trained using Proximal Policy Optimization (PPO) on a number of practical problem instances of similar structures yet different problem data. Experiments on various smooth and non-smooth classes of objective functions demonstrate that our proposed learning-based method outperforms several state-of-the-art distributed optimization algorithms in terms of convergence speed and solution accuracy.",
+    "citationCount": 2,
+    "referenceCount": 44
+}

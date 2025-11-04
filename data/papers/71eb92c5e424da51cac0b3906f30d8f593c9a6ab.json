@@ -1,0 +1,40 @@
+{
+    "paperId": "71eb92c5e424da51cac0b3906f30d8f593c9a6ab",
+    "title": "Accelerating Multi-Block Constrained Optimization Through Learning to Optimize",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ling Liang",
+        "Cameron Austin",
+        "Haizhao Yang"
+    ],
+    "doi": "10.48550/arXiv.2409.17320",
+    "arxivId": "2409.17320",
+    "url": "https://www.semanticscholar.org/paper/71eb92c5e424da51cac0b3906f30d8f593c9a6ab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning to Optimize (L2O) approaches, including algorithm unrolling, plug-and-play methods, and hyperparameter learning, have garnered significant attention and have been successfully applied to the Alternating Direction Method of Multipliers (ADMM) and its variants. However, the natural extension of L2O to multi-block ADMM-type methods remains largely unexplored. Such an extension is critical, as multi-block methods leverage the separable structure of optimization problems, offering substantial reductions in per-iteration complexity. Given that classical multi-block ADMM does not guarantee convergence, the Majorized Proximal Augmented Lagrangian Method (MPALM), which shares a similar form with multi-block ADMM and ensures convergence, is more suitable in this setting. Despite its theoretical advantages, MPALM's performance is highly sensitive to the choice of penalty parameters. To address this limitation, we propose a novel L2O approach that adaptively selects this hyperparameter using supervised learning. We demonstrate the versatility and effectiveness of our method by applying it to the Lasso problem and the optimal transport problem. Our numerical results show that the proposed framework outperforms popular alternatives. Given its applicability to generic linearly constrained composite optimization problems, this work opens the door to a wide range of potential real-world applications.",
+    "citationCount": 0,
+    "referenceCount": 60
+}

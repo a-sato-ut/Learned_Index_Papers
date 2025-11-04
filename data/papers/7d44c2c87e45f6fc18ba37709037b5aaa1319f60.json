@@ -1,0 +1,36 @@
+{
+    "paperId": "7d44c2c87e45f6fc18ba37709037b5aaa1319f60",
+    "title": "Gamora: Graph Learning based Symbolic Reasoning for Large-Scale Boolean Networks",
+    "year": 2023,
+    "venue": "Design Automation Conference",
+    "authors": [
+        "Nan Wu",
+        "Yingjie Li",
+        "Cong Hao",
+        "Steve Dai",
+        "Cunxi Yu",
+        "Yuan Xie"
+    ],
+    "doi": "10.1109/DAC56929.2023.10247828",
+    "arxivId": "2303.08256",
+    "url": "https://www.semanticscholar.org/paper/7d44c2c87e45f6fc18ba37709037b5aaa1319f60",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2303.08256",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Reasoning high-level abstractions from bit-blasted Boolean networks (BNs) such as gate-level netlists can significantly benefit functional verification, logic minimization, datapath synthesis, malicious logic identification, etc. Mostly, conventional reasoning approaches leverage structural hashing and functional propagation, suffering from limited scalability and inefficient usage of modern computing power. In response, we propose a novel symbolic reasoning framework exploiting graph neural networks (GNNs) and GPU acceleration to reason high-level functional blocks from gate-level netlists, namely Gamora, which offers high reasoning performance w.r.t exact reasoning algorithms, strong scalability to BNs with over 33 million nodes, and generalization capability from simple to complex designs. To further demonstrate the capability of Gamora, we also evaluate its reasoning performance after various technology mapping options, since technology-dependent optimizations are known to make functional reasoning much more challenging. Experimental results show that (1) Gamora reaches almost 100% and over 97% reasoning accuracy for carry-save-array (CSA) and Booth-encoded multipliers, respectively, with up to six orders of magnitude speedups compared to the state-of-the-art implementation in the ABC framework; (2) Gamora maintains high reasoning accuracy (>92%) in finding functional modules after complex technology mapping, and we comprehensively analyze the impacts on Gamora reasoning from technology mapping. Gamora is available at https://github.com/Yu-Utah/Gamora.",
+    "citationCount": 34,
+    "referenceCount": 28
+}

@@ -1,0 +1,40 @@
+{
+    "paperId": "92c8217f50062673ab108f7ea64b20333f2008df",
+    "title": "Learning to Generalize Provably in Learning to Optimize",
+    "year": 2023,
+    "venue": "International Conference on Artificial Intelligence and Statistics",
+    "authors": [
+        "Junjie Yang",
+        "Tianlong Chen",
+        "Mingkang Zhu",
+        "Fengxiang He",
+        "Dacheng Tao",
+        "Yitao Liang",
+        "Zhangyang Wang"
+    ],
+    "doi": "10.48550/arXiv.2302.11085",
+    "arxivId": "2302.11085",
+    "url": "https://www.semanticscholar.org/paper/92c8217f50062673ab108f7ea64b20333f2008df",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2302.11085",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning to optimize (L2O) has gained increasing popularity, which automates the design of optimizers by data-driven approaches. However, current L2O methods often suffer from poor generalization performance in at least two folds: (i) applying the L2O-learned optimizer to unseen optimizees, in terms of lowering their loss function values (optimizer generalization, or ``generalizable learning of optimizers\"); and (ii) the test performance of an optimizee (itself as a machine learning model), trained by the optimizer, in terms of the accuracy over unseen data (optimizee generalization, or ``learning to generalize\"). While the optimizer generalization has been recently studied, the optimizee generalization (or learning to generalize) has not been rigorously studied in the L2O context, which is the aim of this paper. We first theoretically establish an implicit connection between the local entropy and the Hessian, and hence unify their roles in the handcrafted design of generalizable optimizers as equivalent metrics of the landscape flatness of loss functions. We then propose to incorporate these two metrics as flatness-aware regularizers into the L2O framework in order to meta-train optimizers to learn to generalize, and theoretically show that such generalization ability can be learned during the L2O meta-training process and then transformed to the optimizee loss function. Extensive experiments consistently validate the effectiveness of our proposals with substantially improved generalization on multiple sophisticated L2O models and diverse optimizees. Our code is available at: https://github.com/VITA-Group/Open-L2O/tree/main/Model_Free_L2O/L2O-Entropy.",
+    "citationCount": 9,
+    "referenceCount": 58
+}

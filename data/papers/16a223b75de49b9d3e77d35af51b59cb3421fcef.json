@@ -1,0 +1,49 @@
+{
+    "paperId": "16a223b75de49b9d3e77d35af51b59cb3421fcef",
+    "title": "Reinforcement learning-trained optimisers and Bayesian optimisation for online particle accelerator tuning",
+    "year": 2024,
+    "venue": "Scientific Reports",
+    "authors": [
+        "Jan Kaiser",
+        "Chenran Xu",
+        "A. Eichler",
+        "Andrea Santamaria Garcia",
+        "Oliver Stein",
+        "E. Bründermann",
+        "W. Kuropka",
+        "H. Dinter",
+        "F. Mayet",
+        "T. Vinatier",
+        "F. Burkart",
+        "Holger Schlarb"
+    ],
+    "doi": "10.1038/s41598-024-66263-y",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/16a223b75de49b9d3e77d35af51b59cb3421fcef",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.nature.com/articles/s41598-024-66263-y.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Online tuning of particle accelerators is a complex optimisation problem that continues to require manual intervention by experienced human operators. Autonomous tuning is a rapidly expanding field of research, where learning-based methods like Bayesian optimisation (BO) hold great promise in improving plant performance and reducing tuning times. At the same time, reinforcement learning (RL) is a capable method of learning intelligent controllers, and recent work shows that RL can also be used to train domain-specialised optimisers in so-called reinforcement learning-trained optimisation (RLO). In parallel efforts, both algorithms have found successful adoption in particle accelerator tuning. Here we present a comparative case study, assessing the performance of both algorithms while providing a nuanced analysis of the merits and the practical challenges involved in deploying them to real-world facilities. Our results will help practitioners choose a suitable learning-based tuning algorithm for their tuning tasks, accelerating the adoption of autonomous tuning algorithms, ultimately improving the availability of particle accelerators and pushing their operational limits.",
+    "citationCount": 13,
+    "referenceCount": 58
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "7c2214ae9a881b3282bb867f912f62d19ac402e6",
+    "title": "Predicting Cache Behaviour of Concurrent Applications",
+    "year": 2024,
+    "venue": "IEEE International Conference on Emerging Technologies and Factory Automation",
+    "authors": [
+        "Shamoona Imtiaz",
+        "M. Behnam",
+        "Gabriele Capannini",
+        "Jan Carlson",
+        "Marcus Jägemar"
+    ],
+    "doi": "10.1109/ETFA61755.2024.10710908",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7c2214ae9a881b3282bb867f912f62d19ac402e6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern digital solutions are built around a variety of applications. The continuous integration of these applications brings advancements in technology. Therefore, it is essential to understand how these applications will behave when they run together. However, this can be challenging to interpret due to the increasing complexity of the execution details. One such fundamental detail is the utilization of shared cache as it goes hand in hand with the computation capacity of computer systems. Since cache utilization behavior is not simple enough to translate with few assumptions we have investigated if this complex behavior can be predicted with the help of machine learning. We trained the deep neural network with enough examples that represent the cache behavior when applications were running alone and when they were running concurrently on the same core. The Long Short-Term Memory (LSTM) network learns the entire execution period of each application in the training set. As a result, without running two applications together in reality, provided with the L1 cache misses of two applications (running alone), it can predict how the cache will look like if two applications wish to run together. The model returns a time series that reflects the cache behavior in concurrency.",
+    "citationCount": 0,
+    "referenceCount": 26
+}

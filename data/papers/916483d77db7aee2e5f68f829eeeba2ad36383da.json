@@ -1,0 +1,36 @@
+{
+    "paperId": "916483d77db7aee2e5f68f829eeeba2ad36383da",
+    "title": "QLABGrad: A Hyperparameter-Free and Convergence-Guaranteed Scheme for Deep Learning",
+    "year": 2023,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Minghan Fu",
+        "Fang-Xiang Wu"
+    ],
+    "doi": "10.1609/aaai.v38i11.29095",
+    "arxivId": "2302.00252",
+    "url": "https://www.semanticscholar.org/paper/916483d77db7aee2e5f68f829eeeba2ad36383da",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/29095/30071",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The learning rate is a critical hyperparameter for deep learning\ntasks since it determines the extent to which the model\nparameters are adjusted during the learning course. However,\nthe choice of learning rates typically depends on empirical\njudgment, which may not result in satisfactory outcomes\nwithout intensive try-and-error experiments. In this\nstudy, we propose a novel learning rate adaptation scheme\ncalled QLABGrad. Without any user-specified hyperparameter,\nQLABGrad automatically determines the learning rate by\noptimizing the quadratic loss approximation-based (QLAB)\nfunction for a given gradient descent direction, where only\none extra forward propagation is required. We theoretically\nprove the convergence of QLABGrad under the smooth Lipschitz\ncondition on the loss function. Experiment results on\nmultiple architectures, including MLP, CNN, and ResNet, on\nMNIST, CIFAR10, and ImageNet datasets, demonstrate that\nQLABGrad outperforms widely adopted schemes for deep\nlearning.",
+    "citationCount": 9,
+    "referenceCount": 27
+}

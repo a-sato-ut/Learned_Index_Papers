@@ -1,0 +1,43 @@
+{
+    "paperId": "78f64140349f450f5ab0a023cc598e0ded325f15",
+    "title": "Learning to Optimize With Convergence Guarantees Using Nonlinear System Theory",
+    "year": 2024,
+    "venue": "IEEE Control Systems Letters",
+    "authors": [
+        "Andrea Martin",
+        "Luca Furieri"
+    ],
+    "doi": "10.1109/LCSYS.2024.3406967",
+    "arxivId": "2403.09389",
+    "url": "https://www.semanticscholar.org/paper/78f64140349f450f5ab0a023cc598e0ded325f15",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2403.09389",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The increasing reliance on numerical methods for controlling dynamical systems and training machine learning models underscores the need to devise algorithms that dependably and efficiently navigate complex optimization landscapes. Classical gradient descent methods offer strong theoretical guarantees for convex problems; however, they demand meticulous hyperparameter tuning for non-convex ones. The emerging paradigm of learning to optimize (L2O) automates the discovery of algorithms with optimized performance leveraging learning models and data – yet, it lacks a theoretical framework to analyze convergence of the learned algorithms. In this letter, we fill this gap by harnessing nonlinear system theory. Specifically, we propose an unconstrained parametrization of all convergent algorithms for smooth non-convex objective functions. Notably, our framework is directly compatible with automatic differentiation tools, ensuring convergence by design while learning to optimize.",
+    "citationCount": 9,
+    "referenceCount": 28
+}

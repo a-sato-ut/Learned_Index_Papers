@@ -1,0 +1,41 @@
+{
+    "paperId": "46f6e9918823c7b4b71cd40f3031b49d5221ee31",
+    "title": "Plug-and-Play ADMM for MRI Reconstruction with Convex Nonconvex Sparse regularization",
+    "year": 2021,
+    "venue": "IEEE Access",
+    "authors": [
+        "Jincheng Li",
+        "Jinlan Li",
+        "Zhaoyang Xie",
+        "Jian Zou"
+    ],
+    "doi": "10.1109/ACCESS.2021.3124600",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/46f6e9918823c7b4b71cd40f3031b49d5221ee31",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09597555.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Traditional ℓ1-regularized compressed sensing magnetic resonance imaging (CS-MRI) model tends to underestimate the fine textures and edges of the MR image, which play important roles in clinical diagnosis. In contrast, the convex nonconvex (CNC) strategy allows the use of nonconvex regularization while maintaining the convexity of the total objective function. Plug-and-play (PnP) algorithm is a powerful framework for sparse regularization problems, which plug any advanced denoiser into traditional proximal algorithms. In this paper, we propose a PnP-ADMM algorithm for CS-MRI reconstruction with CNC sparse regularization. We first obtain the proximal operator for CNC sparse regularization. Then we present PnP-ADMM algorithm by replacing the proximal operator of ADMM with properly pre-trained denoisers. Furthermore, we conduct comparison experiments using various denoisers under different sampling templates for different images. The experimental results verify the effectiveness of the proposed algorithm with both numerical criteria and visual effects.",
+    "citationCount": 8,
+    "referenceCount": 67
+}

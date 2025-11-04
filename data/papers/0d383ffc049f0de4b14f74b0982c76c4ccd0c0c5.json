@@ -1,0 +1,39 @@
+{
+    "paperId": "0d383ffc049f0de4b14f74b0982c76c4ccd0c0c5",
+    "title": "AI-Driven QoS-Aware Scheduling for Serverless Video Analytics at the Edge",
+    "year": 2024,
+    "venue": "Inf.",
+    "authors": [
+        "Dimitrios Giagkos",
+        "Achilleas Tzenetopoulos",
+        "Dimosthenis Masouros",
+        "Sotirios Xydis",
+        "F. Catthoor",
+        "Dimitrios Soudris"
+    ],
+    "doi": "10.3390/info15080480",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0d383ffc049f0de4b14f74b0982c76c4ccd0c0c5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Today, video analytics are becoming extremely popular due to the increasing need for extracting valuable information from videos available in public sharing services through camera-driven streams in IoT environments. To avoid data communication overheads, a common practice is to have computation close to the data source rather than Cloud offloading. Typically, video analytics are organized as separate tasks, each with different resource requirements (e.g., computational- vs. memory-intensive tasks). The serverless computing paradigm forms a promising approach for mapping such types of applications, enabling fine-grained deployment and management in a per-function, and per-device manner. However, there is a tradeoff between QoS adherence and resource efficiency. Performance variability due to function co-location and prevalent resource heterogeneity make maintaining QoS challenging. At the same time, resource efficiency is essential to avoid waste, such as unnecessary power consumption and CPU reservation. In this paper, we present Darly, a QoS-, interference- and heterogeneity-aware Deep Reinforcement Learning-based Scheduler for serverless video analytics deployments on top of distributed Edge nodes. The proposed framework incorporates a DRL agent that exploits performance counters to identify the levels of interference and the degree of heterogeneity in the underlying Edge infrastructure. It combines this information along with user-defined QoS requirements to improve resource allocations by deciding the placement, migration, or horizontal scaling of serverless functions. We evaluate Darly on a typical Edge cluster with a real-world workflow composed of commonly used serverless video analytics functions and show that our approach achieves efficient scheduling of the deployed functions by satisfying multiple QoS requirements for up to 91.6% (Profile-based) of the total requests under dynamic conditions.",
+    "citationCount": 1,
+    "referenceCount": 61
+}

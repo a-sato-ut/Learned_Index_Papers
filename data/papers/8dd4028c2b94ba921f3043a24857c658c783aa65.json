@@ -1,0 +1,38 @@
+{
+    "paperId": "8dd4028c2b94ba921f3043a24857c658c783aa65",
+    "title": "NPA: Improving Large-scale Graph Neural Networks with Non-parametric Attention",
+    "year": 2024,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Wentao Zhang",
+        "Guochen Yan",
+        "Yu Shen",
+        "Yang Ling",
+        "Yangyu Tao",
+        "Bin Cui",
+        "Jian Tang"
+    ],
+    "doi": "10.1145/3626246.3653399",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8dd4028c2b94ba921f3043a24857c658c783aa65",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent works show great interest in designing Graph Neural Networks (GNNs) that scale to large graphs. While previous work focuses on designing advanced sampling techniques for existing GNNs, the design of non-parametric GNNs, an orthogonal direction for scalable performance, has aroused lots of concerns recently. For example, nearly all top solutions in the Open Graph Benchmark leaderboard are non-parametric GNNs. Despite their high predictive performance and scalability, non-parametric GNNs still face two limitations. First, due to the propagation of over-smoothed features, they suffer from severe performance degradation along with the propagation depth. More importantly, they only consider the graph structure and ignore the feature influence during the non-parametric propagation, leading to sub-optimal propagated features. To address these limitations, we present non-parametric attention (NPA), a plug-and-play module that is compatible with non-parametric GNNs, to get scalable and deep GNNs simultaneously. We have deployed NPA in Tencent with the Angel platform, and we further evaluate NPA on both real-world datasets and large-scale industrial datasets. Experimental results on seven homophilic graphs (including the industrial Tencent Video graph) and five heterophilic graphs demonstrate NPA enjoys high performance -- achieves large performance gain over existing non-parametric GNNs, deeper architecture -- improves non-parametric GNNs with large model depth, and high scalability -- can support large-scale graphs with low time costs. Notably, it achieves state-of-the-art performance on the large ogbn-papers100M dataset.",
+    "citationCount": 1,
+    "referenceCount": 48
+}

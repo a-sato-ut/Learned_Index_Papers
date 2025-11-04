@@ -1,0 +1,43 @@
+{
+    "paperId": "b8f3f9f00f28bc234eda56bbbb2a752afdf9ccf0",
+    "title": "Rapid Optimization of Superposition Codes for Multi-Hop NOMA MANETs via Deep Unfolding",
+    "year": 2024,
+    "venue": "IEEE Transactions on Communications",
+    "authors": [
+        "Tomer Alter",
+        "Nir Shlezinger"
+    ],
+    "doi": "10.48550/arXiv.2406.05747",
+    "arxivId": "2406.05747",
+    "url": "https://www.semanticscholar.org/paper/b8f3f9f00f28bc234eda56bbbb2a752afdf9ccf0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Various communication technologies are expected to utilize mobile ad hoc networks (MANETs). By combining MANETs with non-orthogonal multiple access (NOMA) communications, one can support scalable, spectrally efficient, and flexible network topologies. To achieve these benefits of NOMA MANETs, one should determine the transmission protocol, particularly the superposition code. However, the latter involves lengthy optimization that has to be repeated when the topology changes. In this work, we propose an algorithm for rapidly optimizing superposition codes in multi-hop NOMA MANETs. To achieve reliable tunning with few iterations, we adopt the emerging deep unfolding methodology, leveraging data to boost reliable settings. Our superposition coding optimization algorithm utilizes a small number of projected gradient steps while learning its per-user hyperparameters to maximize the minimal rate over past channels in an unsupervised manner. The learned optimizer is designed for both settings with full channel state information, as well as when the channel coefficients are to be estimated from pilots. We show that the combination of principled optimization and machine learning yields a scalable optimizer, that once trained, can be applied to different topologies. We cope with the non-convex nature of the optimization problem by applying parallel-learned optimization with different starting points as a form of ensemble learning. Our numerical results demonstrate that the proposed method enables the rapid setting of high-rate superposition codes for various channels.",
+    "citationCount": 1,
+    "referenceCount": 37
+}

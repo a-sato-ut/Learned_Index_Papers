@@ -1,0 +1,30 @@
+{
+    "paperId": "81df34f51c49d225f1cd89995aef1f68686569bc",
+    "title": "Learning to Process Topic Aware Queries on Geo-Textual Streaming Data",
+    "year": 2022,
+    "venue": "2022 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom)",
+    "authors": [
+        "Mayur Patil"
+    ],
+    "doi": "10.1109/ISPA-BDCloud-SocialCom-SustainCom57177.2022.00063",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/81df34f51c49d225f1cd89995aef1f68686569bc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the past few years, location-aware systems have become an integral and important part of modern applications, including social media applications that have seen an unprecedented rise in popularity. Fast-paced, highly dynamic streams of geo-textual data are generated from such applications consisting of millions of users who demand fast query processing and performance. During a search in location-based systems, topic-aware search allows retrieving relevant data based on a specified ‘topic’ of interest. This paper presents efficient and scalable techniques to process topic-aware spatial keyword search on streaming data. Modern applications require quick system responses for topic-aware queries with spatial and keyword filters. Processing such large amounts of geo-tagged stream data is time-consuming and inefficient with current methods for topic-based search. To solve this problem, we build techniques for indexing and processing by introducing an index called Topic Aware Grid (TAG). TAG integrates spatial and topic information using a variation of the Grid index where cells of the index are attached to local topic models. We perform extensive experiments on real datasets with real and synthetic query workloads that verify the increased performance of our work over alternate techniques for geo-textual streams.",
+    "citationCount": 0,
+    "referenceCount": 38
+}

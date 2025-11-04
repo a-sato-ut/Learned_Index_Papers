@@ -1,0 +1,34 @@
+{
+    "paperId": "1c77b15fc688df2b6a83622d0fd48aeb6e1e27db",
+    "title": "Simple yet Effective Graph Distillation via Clustering",
+    "year": 2025,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Yurui Lai",
+        "Taiyan Zhang",
+        "Renchi Yang"
+    ],
+    "doi": "10.1145/3711896.3737130",
+    "arxivId": "2505.20807",
+    "url": "https://www.semanticscholar.org/paper/1c77b15fc688df2b6a83622d0fd48aeb6e1e27db",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Despite plentiful successes achieved by graph representation learning in various domains, the training of graph neural networks (GNNs) still remains tenaciously challenging due to the tremendous computational overhead needed for sizable graphs in practice. Recently, graph data distillation (GDD), which seeks to distill large graphs into compact and informative ones, has emerged as a promising technique to enable efficient GNN training. However, most existing GDD works rely on heuristics that align model gradients or representation distributions on condensed and original graphs, leading to compromised result quality, expensive training for distilling large graphs, or both. Motivated by this, this paper presents an efficient and effective GDD approach, ClustGDD. Under the hood, ClustGDD resorts to synthesizing the condensed graph and node attributes through fast and theoretically-grounded clustering that minimizes the within-cluster sum of squares and maximizes the homophily on the original graph. The fundamental idea is inspired by our empirical and theoretical findings unveiling the connection between clustering and empirical condensation quality using Fréchet Inception Distance, a well-known quality metric for synthetic images. Furthermore, to mitigate the adverse effects caused by the homophily-based clustering, ClustGDD refines the nodal attributes of the condensed graph with a small augmentation learned via class-aware graph sampling and consistency loss. Our extensive experiments exhibit that GNNs trained over condensed graphs output by ClustGDD consistently achieve superior or comparable performance to state-of-the-art GDD methods in terms of node classification on five benchmark datasets, while being orders of magnitude faster.",
+    "citationCount": 0,
+    "referenceCount": 61
+}

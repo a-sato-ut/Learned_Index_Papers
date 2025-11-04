@@ -1,0 +1,38 @@
+{
+    "paperId": "5c5d2298a079d33dd33d7a9cd2414fb39f4a07a3",
+    "title": "Teach Me How to Denoise: A Universal Framework for Denoising Multi-modal Recommender Systems via Guided Calibration",
+    "year": 2025,
+    "venue": "Web Search and Data Mining",
+    "authors": [
+        "Hongji Li",
+        "Hanwen Du",
+        "Youhua Li",
+        "Junchen Fu",
+        "Chunxiao Li",
+        "Ziyi Zhuang",
+        "Jiakang Li",
+        "Yongxin Ni"
+    ],
+    "doi": "10.1145/3701551.3703507",
+    "arxivId": "2504.14214",
+    "url": "https://www.semanticscholar.org/paper/5c5d2298a079d33dd33d7a9cd2414fb39f4a07a3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The surge in multimedia content has led to the development of Multi-Modal Recommender Systems (MMRecs), which use diverse modalities-like text, images, videos, and audio-for more personalized recommendations. However, MMRecs struggle with the challenge of noisy data from the misalignment among modal content and the difference between modal and recommendation semantics, while traditional denoising methods fall short in addressing these issues due to the complexity of multi-modal data. To overcome this, we propose a universal guided in-sync distillation denoising framework for multi-modal recommndation (GUIDER), aimed at improving MMRecs by denoising user feedbacks. Specifically, GUIDER employs a re-calibration strategy to identify clean and noisy interactions from modal content. Furthermore, it incorporates a Denoising Bayesian Personalized Ranking (DBPR) loss function to denoise implicit user feedback. Finally, it utilizes a denoising knowledge distillation objective based on Optimal Transport (OT) distance to guide the mapping from modality representations to recommendation semantics spaces. GUIDER can be seamlessly integrated into existing MMRecs methods as a plug-and-play solution for recommendation denoising. Experiment results on four public datasets show its effectiveness and universality across various MMRecs.",
+    "citationCount": 0,
+    "referenceCount": 58
+}

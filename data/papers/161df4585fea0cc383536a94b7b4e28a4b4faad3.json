@@ -1,0 +1,40 @@
+{
+    "paperId": "161df4585fea0cc383536a94b7b4e28a4b4faad3",
+    "title": "Learning Provably Improves the Convergence of Gradient Descent",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Qingyu Song",
+        "Wei Lin",
+        "Hong Xu"
+    ],
+    "doi": "10.48550/arXiv.2501.18092",
+    "arxivId": "2501.18092",
+    "url": "https://www.semanticscholar.org/paper/161df4585fea0cc383536a94b7b4e28a4b4faad3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learn to Optimize (L2O) trains deep neural network-based solvers for optimization, achieving success in accelerating convex problems and improving non-convex solutions. However, L2O lacks rigorous theoretical backing for its own training convergence, as existing analyses often use unrealistic assumptions -- a gap this work highlights empirically. We bridge this gap by proving the training convergence of L2O models that learn Gradient Descent (GD) hyperparameters for quadratic programming, leveraging the Neural Tangent Kernel (NTK) theory. We propose a deterministic initialization strategy to support our theoretical results and promote stable training over extended optimization horizons by mitigating gradient explosion. Our L2O framework demonstrates over 50% better optimality than GD and superior robustness over state-of-the-art L2O methods on synthetic datasets. The code of our method can be found from https://github.com/NetX-lab/MathL2OProof-Official.",
+    "citationCount": 0,
+    "referenceCount": 40
+}

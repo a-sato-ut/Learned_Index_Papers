@@ -1,0 +1,43 @@
+{
+    "paperId": "903e81e01e764e7bd496694564fa3ff512c1730e",
+    "title": "Unrolled Expectation Maximization for Sparse Radio Interferometric Imaging",
+    "year": 2024,
+    "venue": "European Signal Processing Conference",
+    "authors": [
+        "Nawel Arab",
+        "Yassine Mhiri",
+        "Isabelle Vin",
+        "M. Korso",
+        "Pascal Larzabal"
+    ],
+    "doi": "10.23919/eusipco63174.2024.10715472",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/903e81e01e764e7bd496694564fa3ff512c1730e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper introduces an unrolled Expectation Maximization (EM) algorithm for sparse image reconstruction from radio interferometric measurements in the presence of a compound Gaussian distribution noise. Traditional model-based reconstruction methods, rooted in inference and optimization fields, provide an initial foundation with theoretical guarantees, but their performance is highly linked to the model accuracy and the choice of hyperparameter values. The popularity of supervised machine learning rose over the last decade, yet they faced hurdles related to interpretability and theoretical foundations. The emergence of unrolled algorithms addresses these limitations by combining the strengths of both approaches. We specifically focus on unrolling a regularized EM algorithm as a feedforward neural network with a residual connection. Experimental results showcase improvements over the iterative EM version.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "d61ba0fa0717f96a1f55736c65dafcdc45c572ff",
+    "title": "Enhancing phishing detection with dynamic optimization and character-level deep learning in cloud environments",
+    "year": 2025,
+    "venue": "PeerJ Computer Science",
+    "authors": [
+        "Vishnukumar Ravula",
+        "M. Ramaiah"
+    ],
+    "doi": "10.7717/peerj-cs.2640",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d61ba0fa0717f96a1f55736c65dafcdc45c572ff",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As cloud computing becomes increasingly prevalent, the detection and prevention of phishing URL attacks are essential, particularly in the Internet of Vehicles (IoV) environment, to maintain service reliability. In such a scenario, an attacker could send misleading phishing links, potentially compromising the system’s functionality or, at worst, leading to a complete shutdown. To address these emerging threats, this study introduces a novel Dynamic Arithmetic Optimization Algorithm with Deep Learning-Driven Phishing URL Classification (DAOA-DLPC) model for cloud-enabled IoV infrastructure. The candidate’s research utilizes character-level embeddings instead of word embeddings, as the former can capture intricate URL patterns more effectively. These embeddings are integrated with a deep learning model, the Multi-Head Attention and Bidirectional Gated Recurrent Units (MHA-BiGRU). To improve precision, hyperparameter tuning has been done using DAOA. The proposed method offers a feasible solution for identifying the phishing URLs, and the method achieves computational efficiency through the attention mechanism and dynamic hyperparameter optimization. The need for this work comes from the observation that the traditional machine learning approaches are not effective in dynamic environments like phishing threat landscapes in a dynamic environment such as the one of phishing threats. The presented DLPC approach is capable of learning new forms of phishing attacks in real time and reduce false positives. The experimental results show that the proposed DAOA-DLPC model outperforms the other models with an accuracy of 98.85%, recall of 98.49%, and F1-score of 98.38% and can effectively detect safe and phishing URLs in dynamic environments. These results imply that the proposed model is useful in distinguishing between safe and unsafe URLs than the conventional models.",
+    "citationCount": 0,
+    "referenceCount": 37
+}

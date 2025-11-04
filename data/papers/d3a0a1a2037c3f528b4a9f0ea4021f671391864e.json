@@ -1,0 +1,42 @@
+{
+    "paperId": "d3a0a1a2037c3f528b4a9f0ea4021f671391864e",
+    "title": "Safeguarded Learned Convex Optimization",
+    "year": 2020,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Howard Heaton",
+        "Xiaohan Chen",
+        "Zhangyang Wang",
+        "W. Yin"
+    ],
+    "doi": "10.1609/aaai.v37i6.25950",
+    "arxivId": "2003.01880",
+    "url": "https://www.semanticscholar.org/paper/d3a0a1a2037c3f528b4a9f0ea4021f671391864e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/25950/25722",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Applications abound in which optimization problems must be repeatedly solved, each time with new (but similar) data. Analytic optimization algorithms can be hand-designed to provably solve these problems in an iterative fashion. On one hand, data-driven algorithms can \"learn to optimize\" (L2O) with much fewer iterations and similar cost per iteration as general-purpose optimization algorithms. On the other hand, unfortunately, many L2O algorithms lack converge guarantees. To fuse the advantages of these approaches, we present a Safe-L2O framework. Safe-L2O updates incorporate a safeguard to guarantee convergence for convex problems with proximal and/or gradient oracles. The safeguard is simple and computationally cheap to implement, and it is activated only when the data-driven L2O updates would perform poorly or appear to diverge. This yields the numerical benefits of employing machine learning to create rapid L2O algorithms while still guaranteeing convergence. Our numerical examples show convergence of Safe-L2O algorithms, even when the provided data is not from the distribution of training data.",
+    "citationCount": 27,
+    "referenceCount": 48
+}

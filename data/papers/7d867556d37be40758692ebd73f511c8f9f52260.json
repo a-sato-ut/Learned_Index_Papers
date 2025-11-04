@@ -1,0 +1,39 @@
+{
+    "paperId": "7d867556d37be40758692ebd73f511c8f9f52260",
+    "title": "Construction of Hierarchical Neural Architecture Search Spaces based on Context-free Grammars",
+    "year": 2022,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Simon Schrodi",
+        "Daniel Stoll",
+        "Binxin Ru",
+        "R. Sukthanker",
+        "T. Brox",
+        "F. Hutter"
+    ],
+    "doi": null,
+    "arxivId": "2211.01842",
+    "url": "https://www.semanticscholar.org/paper/7d867556d37be40758692ebd73f511c8f9f52260",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The discovery of neural architectures from simple building blocks is a long-standing goal of Neural Architecture Search (NAS). Hierarchical search spaces are a promising step towards this goal but lack a unifying search space design framework and typically only search over some limited aspect of architectures. In this work, we introduce a unifying search space design framework based on context-free grammars that can naturally and compactly generate expressive hierarchical search spaces that are 100s of orders of magnitude larger than common spaces from the literature. By enhancing and using their properties, we effectively enable search over the complete architecture and can foster regularity. Further, we propose an efficient hierarchical kernel design for a Bayesian Optimization search strategy to efficiently search over such huge spaces. We demonstrate the versatility of our search space design framework and show that our search strategy can be superior to existing NAS approaches. Code is available at https://github.com/automl/hierarchical_nas_construction.",
+    "citationCount": 8,
+    "referenceCount": 114
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "b5b157bbbbc5761b8ca08bf91ac0a077aaec3e66",
+    "title": "Optimization for Amortized Inverse Problems",
+    "year": 2022,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "Tianci Liu",
+        "Tong Yang",
+        "Quan Zhang",
+        "Qi Lei"
+    ],
+    "doi": null,
+    "arxivId": "2210.13983",
+    "url": "https://www.semanticscholar.org/paper/b5b157bbbbc5761b8ca08bf91ac0a077aaec3e66",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Incorporating a deep generative model as the prior distribution in inverse problems has established substantial success in reconstructing images from corrupted observations. Notwithstanding, the existing optimization approaches use gradient descent largely without adapting to the non-convex nature of the problem and can be sensitive to initial values, impeding further performance improvement. In this paper, we propose an efficient amortized optimization scheme for inverse problems with a deep generative prior. Specifically, the optimization task with high degrees of difficulty is decomposed into optimizing a sequence of much easier ones. We provide a theoretical guarantee of the proposed algorithm and empirically validate it on different inverse problems. As a result, our approach outperforms baseline methods qualitatively and quantitatively by a large margin.",
+    "citationCount": 6,
+    "referenceCount": 65
+}

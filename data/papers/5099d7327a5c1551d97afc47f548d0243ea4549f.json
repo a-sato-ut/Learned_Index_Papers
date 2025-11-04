@@ -1,0 +1,32 @@
+{
+    "paperId": "5099d7327a5c1551d97afc47f548d0243ea4549f",
+    "title": "Seer: Predictive Runtime Kernel Selection for Irregular Problems",
+    "year": 2024,
+    "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+    "authors": [
+        "Léon Frénot",
+        "Fernando Magno Quintão Pereira"
+    ],
+    "doi": "10.1145/3640537.3641569",
+    "arxivId": "2403.17017",
+    "url": "https://www.semanticscholar.org/paper/5099d7327a5c1551d97afc47f548d0243ea4549f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3640537.3641569",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern GPUs are designed for regular problems and suffer from load imbalance when processing irregular data. Prior to our work, a domain expert selects the best kernel to map fine-grained irregular parallelism to a GPU. We instead propose Seer, an abstraction for producing a simple, reproduceable, and understandable decision tree selector model which performs runtime kernel selection for irregular workloads. To showcase our framework, we conduct a case study in Sparse Matrix Vector Multiplication (SpMV), in which Seer predicts the best strategy for a given dataset with an improvement of 2× over the best single iteration kernel across the entire SuiteSparse Matrix Collection dataset.",
+    "citationCount": 1,
+    "referenceCount": 40
+}

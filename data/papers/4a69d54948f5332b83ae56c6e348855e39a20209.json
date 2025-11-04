@@ -1,0 +1,52 @@
+{
+    "paperId": "4a69d54948f5332b83ae56c6e348855e39a20209",
+    "title": "An Adaptive and Robust Deep Learning Framework for THz Ultra-Massive MIMO Channel Estimation",
+    "year": 2022,
+    "venue": "IEEE Journal on Selected Topics in Signal Processing",
+    "authors": [
+        "Wentao Yu",
+        "Yifei Shen",
+        "Hengtao He",
+        "Xianghao Yu",
+        "Shenghui Song",
+        "Jun Zhang",
+        "K. Letaief"
+    ],
+    "doi": "10.1109/JSTSP.2023.3282832",
+    "arxivId": "2211.15939",
+    "url": "https://www.semanticscholar.org/paper/4a69d54948f5332b83ae56c6e348855e39a20209",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/jstsp.2023.3282832",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Terahertz ultra-massive MIMO (THz UM-MIMO) is envisioned as one of the key enablers of 6G wireless networks, for which channel estimation is highly challenging. Traditional analytical estimation methods are no longer effective, as the enlarged array aperture and the small wavelength result in a mixture of far-field and near-field paths, constituting a hybrid-field channel. Deep learning (DL)-based methods, despite the competitive performance, generally lack theoretical guarantees and scale poorly with the size of the array. In this article, we propose a general DL framework for THz UM-MIMO channel estimation, which leverages existing iterative channel estimators and is with provable guarantees. Each iteration is implemented by a fixed point network (FPN), consisting of a closed-form linear estimator and a DL-based non-linear estimator. The proposed method perfectly matches the THz UM-MIMO channel estimation due to several unique advantages. First, the complexity is low and adaptive. It enjoys provable linear convergence with a low per-iteration cost and monotonically increasing accuracy, which enables an adaptive accuracy-complexity tradeoff. Second, it is robust to practical distribution shifts and can directly generalize to a variety of heavily out-of-distribution scenarios with almost no performance loss, which is suitable for the complicated THz channel conditions. For practical usage, the proposed framework is further extended to wideband THz UM-MIMO systems with beam squint effect. Theoretical analysis and extensive simulation results are provided to illustrate the advantages over the state-of-the-art methods in estimation accuracy, convergence rate, complexity, and robustness.",
+    "citationCount": 57,
+    "referenceCount": 58
+}

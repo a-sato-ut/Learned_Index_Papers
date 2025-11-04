@@ -1,0 +1,37 @@
+{
+    "paperId": "14c27b1820e28d500496a10b179993012285768d",
+    "title": "Improving Learning to Optimize Using Parameter Symmetries",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Guy Zamir",
+        "Aryan Dokania",
+        "Bo Zhao",
+        "Rose Yu"
+    ],
+    "doi": "10.48550/arXiv.2504.15399",
+    "arxivId": "2504.15399",
+    "url": "https://www.semanticscholar.org/paper/14c27b1820e28d500496a10b179993012285768d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We analyze a learning-to-optimize (L2O) algorithm that exploits parameter space symmetry to enhance optimization efficiency. Prior work has shown that jointly learning symmetry transformations and local updates improves meta-optimizer performance. Supporting this, our theoretical analysis demonstrates that even without identifying the optimal group element, the method locally resembles Newton's method. We further provide an example where the algorithm provably learns the correct symmetry transformation during training. To empirically evaluate L2O with teleportation, we introduce a benchmark, analyze its success and failure cases, and show that enhancements like momentum further improve performance. Our results highlight the potential of leveraging neural network parameter space symmetry to advance meta-optimization.",
+    "citationCount": 2,
+    "referenceCount": 38
+}

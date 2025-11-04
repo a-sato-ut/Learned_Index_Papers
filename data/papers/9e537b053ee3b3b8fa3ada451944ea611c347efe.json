@@ -1,0 +1,35 @@
+{
+    "paperId": "9e537b053ee3b3b8fa3ada451944ea611c347efe",
+    "title": "PyLO: Towards Accessible Learned Optimizers in PyTorch",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Paul Janson",
+        "Benjamin Thérien",
+        "Quentin Anthony",
+        "Xiaolong Huang",
+        "A. Moudgil",
+        "Eugene Belilovsky"
+    ],
+    "doi": "10.48550/arXiv.2506.10315",
+    "arxivId": "2506.10315",
+    "url": "https://www.semanticscholar.org/paper/9e537b053ee3b3b8fa3ada451944ea611c347efe",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learned optimizers have been an active research topic over the past decade, with increasing progress toward practical, general-purpose optimizers that can serve as drop-in replacements for widely used methods like Adam. However, recent advances -- such as VeLO, which was meta-trained for 4000 TPU-months -- remain largely inaccessible to the broader community, in part due to their reliance on JAX and the absence of user-friendly packages for applying the optimizers after meta-training. To address this gap, we introduce PyLO, a PyTorch-based library that brings learned optimizers to the broader machine learning community through familiar, widely adopted workflows. Unlike prior work focused on synthetic or convex tasks, our emphasis is on applying learned optimization to real-world large-scale pre-training tasks. Our release includes a CUDA-accelerated version of the small_fc_lopt learned optimizer architecture from (Metz et al., 2022a), delivering substantial speedups -- from 39.36 to 205.59 samples/sec throughput for training ViT B/16 with batch size 32. PyLO also allows us to easily combine learned optimizers with existing optimization tools such as learning rate schedules and weight decay. When doing so, we find that learned optimizers can substantially benefit. Our code is available at https://github.com/Belilovsky-Lab/pylo",
+    "citationCount": 0,
+    "referenceCount": 29
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "7727f5885d93ed8fababa7b3c2a94d907e75fed8",
+    "title": "Feedback Reciprocal Graph Collaborative Filtering",
+    "year": 2024,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Weijun Chen",
+        "Yuan-Qi Bei",
+        "Qijie Shen",
+        "Hao Chen",
+        "Xiao Huang",
+        "Feiran Huang"
+    ],
+    "doi": "10.48550/arXiv.2408.02404",
+    "arxivId": "2408.02404",
+    "url": "https://www.semanticscholar.org/paper/7727f5885d93ed8fababa7b3c2a94d907e75fed8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Collaborative filtering on user-item interaction graphs has achieved success in the industrial recommendation. However, recommending users' truly fascinated items poses a seesaw dilemma for collaborative filtering models learned from the interaction graph. On the one hand, not all items that users interact with are equally appealing. Some items are genuinely fascinating to users, while others are unfascinated. Training graph collaborative filtering models in the absence of distinction between them can lead to the recommendation of unfascinating items to users. On the other hand, disregarding the interacted but unfascinating items during graph collaborative filtering will result in an incomplete representation of users' interaction intent, leading to a decline in the model's recommendation capabilities. To address this seesaw problem, we propose Feedback Reciprocal Graph Collaborative Filtering (FRGCF), which emphasizes the recommendation of fascinating items while attenuating the recommendation of unfascinating items. Specifically, FRGCF first partitions the entire interaction graph into the Interacted & Fascinated (I&F) graph and the Interacted & Unfascinated (I&U) graph based on the user feedback. Then, FRGCF introduces separate collaborative filtering on the I&F graph and the I&U graph with feedback-reciprocal contrastive learning and macro-level feedback modeling. This enables the I&F graph recommender to learn multi-grained interaction characteristics from the I&U graph without being misdirected by it. Extensive experiments on four benchmark datasets and a billion-scale industrial dataset demonstrate that FRGCF improves the performance by recommending more fascinating items and fewer unfascinating items. Besides, online A/B tests on Taobao's recommender system verify the superiority of FRGCF.",
+    "citationCount": 3,
+    "referenceCount": 32
+}

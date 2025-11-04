@@ -1,0 +1,52 @@
+{
+    "paperId": "dfd672a153ab6b6a96d15a937329d63c18b6f6e2",
+    "title": "Equilibrated Zeroth-Order Unrolled Deep Networks for Accelerated MRI",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhuoxu Cui",
+        "Jing Cheng",
+        "Qi Zhu",
+        "Yuanyuan Liu",
+        "Seng Jia",
+        "Kankan Zhao",
+        "Ziwen Ke",
+        "Wenqi Huang",
+        "Haifeng Wang",
+        "Yanjie Zhu",
+        "Dong Liang"
+    ],
+    "doi": null,
+    "arxivId": "2112.09891",
+    "url": "https://www.semanticscholar.org/paper/dfd672a153ab6b6a96d15a937329d63c18b6f6e2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, model-driven deep learning unrolls a certain iterative algorithm of a regularization model into a cascade network by replacing the first-order information (i.e., (sub)gradient or proximal operator) of the regularizer with a network module, which appears more explainable and predictable compared to common data-driven networks. Conversely, in theory, there is not necessarily such a functional regularizer whose first-order information matches the replaced network module, which means the network output may not be covered by the original regularization model. Moreover, up to now, there is also no theory to guarantee the global convergence and robustness (regularity) of unrolled networks under realistic assumptions. To bridge this gap, this paper propose to present a safeguarded methodology on network unrolling. Specifically, focusing on accelerated MRI, we unroll a zeroth-order algorithm, of which the network module represents the regularizer itself, so that the network output can be still covered by the regularization model. Furthermore, inspired by the ideal of deep equilibrium models, before backpropagating, we carry out the unrolled iterative network to converge to a fixed point to ensure the convergence. In case the measurement data contains noise, we prove that the proposed network is robust against noisy interference. Finally, numerical experiments show that the proposed network consistently outperforms the state-of-the-art MRI reconstruction methods including traditional regularization methods and other deep learning methods.",
+    "citationCount": 8,
+    "referenceCount": 50
+}

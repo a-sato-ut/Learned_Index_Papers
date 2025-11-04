@@ -1,0 +1,37 @@
+{
+    "paperId": "4a4190b9473296ada3937bbf6dc3f18f01cc6f02",
+    "title": "A Curriculum Learning Approach to Optimization with Application to Downlink Beamforming",
+    "year": 2024,
+    "venue": "IEEE Transactions on Signal Processing",
+    "authors": [
+        "Jeremy Johnston",
+        "Xiao-Yang Liu",
+        "Shixun Wu",
+        "Xiaodong Wang"
+    ],
+    "doi": "10.1109/TSP.2023.3334396",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4a4190b9473296ada3937bbf6dc3f18f01cc6f02",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We investigate neural networks’ ability to approximate the solution map of certain classes of beamforming optimization problems. The model is trained in an unsupervised manner to map a given channel realization to a near-optimal point of the corresponding optimization problem instance. Training is offline so that online optimization requires only the feedforward computation, the complexity of which is orders of magnitude less than state-of-the-art optimization algorithms. In order to obtain a near-optimal channel-beamformer mapping, either of two curriculum learning strategies is required: The reward curriculum employs a sequence of learning objectives of increasing complexity. The subspace curriculum employs a sequence of training data distributions restricting the data to linear subspaces of increasing dimension. For the MISO beamforming problem, the learned optimizer achieves near-optimal objective value (sum rate or minimum rate) across a wide range of signal-to-noise ratios. In the MIMO and relay scenarios, the learned optimizer is on par with and in some cases far exceeds performance of suboptimal beamforming strategies.",
+    "citationCount": 10,
+    "referenceCount": 31
+}

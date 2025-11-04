@@ -1,0 +1,33 @@
+{
+    "paperId": "6a4719871c5d51ad2cd140561652500df06409bd",
+    "title": "Algorithm Evolution Using Large Language Model",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Fei Liu",
+        "Xialiang Tong",
+        "Mingxuan Yuan",
+        "Qingfu Zhang"
+    ],
+    "doi": "10.48550/arXiv.2311.15249",
+    "arxivId": "2311.15249",
+    "url": "https://www.semanticscholar.org/paper/6a4719871c5d51ad2cd140561652500df06409bd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Optimization can be found in many real-life applications. Designing an effective algorithm for a specific optimization problem typically requires a tedious amount of effort from human experts with domain knowledge and algorithm design skills. In this paper, we propose a novel approach called Algorithm Evolution using Large Language Model (AEL). It utilizes a large language model (LLM) to automatically generate optimization algorithms via an evolutionary framework. AEL does algorithm-level evolution without model training. Human effort and requirements for domain knowledge can be significantly reduced. We take constructive methods for the salesman traveling problem as a test example, we show that the constructive algorithm obtained by AEL outperforms simple hand-crafted and LLM-generated heuristics. Compared with other domain deep learning model-based algorithms, these methods exhibit excellent scalability across different problem sizes. AEL is also very different from previous attempts that utilize LLMs as search operators in algorithms.",
+    "citationCount": 57,
+    "referenceCount": 89
+}

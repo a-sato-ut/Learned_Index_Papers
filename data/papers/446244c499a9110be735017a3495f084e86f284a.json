@@ -1,0 +1,39 @@
+{
+    "paperId": "446244c499a9110be735017a3495f084e86f284a",
+    "title": "DFGNN: Dual-frequency Graph Neural Network for Sign-aware Feedback",
+    "year": 2024,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Yiqing Wu",
+        "Ruobing Xie",
+        "Zhao Zhang",
+        "Xu Zhang",
+        "Fuzhen Zhuang",
+        "Leyu Lin",
+        "Zhanhui Kang",
+        "Yongjun Xu"
+    ],
+    "doi": "10.1145/3637528.3671701",
+    "arxivId": "2405.15280",
+    "url": "https://www.semanticscholar.org/paper/446244c499a9110be735017a3495f084e86f284a",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2405.15280",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The graph-based recommendation has achieved great success in recent years. However, most existing graph-based recommendations focus on capturing user preference based on positive edges/feedback, while ignoring negative edges/feedback (e.g., dislike, low rating) that widely exist in real-world recommender systems. How to utilize negative feedback in graph-based recommendations still remains underexplored. In this study, we first conducted a comprehensive experimental analysis and found that (1) existing graph neural networks are not well-suited for modeling negative feedback, which acts as a high-frequency signal in a user-item graph. (2) The graph-based recommendation suffers from the representation degeneration problem. Based on the two observations, we propose a novel model that models positive and negative feedback from a frequency filter perspective called Dual-frequency Graph Neural Network for Sign-aware Recommendation (DFGNN). Specifically, in DFGNN, the designed dual-frequency graph filter (DGF) captures both low-frequency and high-frequency signals that contain positive and negative feedback. Furthermore, the proposed signed graph regularization is applied to maintain the user/item embedding uniform in the embedding space to alleviate the representation degeneration problem. Additionally, we conduct extensive experiments on real-world datasets and demonstrate the effectiveness of the proposed model. Codes of our model will be released upon acceptance.",
+    "citationCount": 6,
+    "referenceCount": 46
+}

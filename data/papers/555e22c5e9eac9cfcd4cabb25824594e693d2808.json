@@ -1,0 +1,31 @@
+{
+    "paperId": "555e22c5e9eac9cfcd4cabb25824594e693d2808",
+    "title": "An Evolutionary Multitasking-Based Unsupervised Learning Framework for Learning to Optimize",
+    "year": 2025,
+    "venue": "IEEE Congress on Evolutionary Computation",
+    "authors": [
+        "Wei Wang",
+        "Yindong Shen"
+    ],
+    "doi": "10.1109/CEC65147.2025.11043004",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/555e22c5e9eac9cfcd4cabb25824594e693d2808",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning to optimize (L2O) is a paradigm designed to train a learnable optimizer that can quickly infer optimal solutions with less computation. While supervised learning (SL) and reinforcement learning (RL) are prevalent, SL needs to obtain optimal solutions of training instances beforehand and RL heavily relies on the meticulous design of rewards. More importantly, both paradigms struggle with good generalization across new problem instances. Therefore, this paper pioneers a novel learning framework, named evolutionary multitasking-based unsupervised learning (EMTUL), eliminating dependency on optimal labels and complicated rewards, and maintaining diversified parameter vectors to improve generalization. Taking the traveling salesman problem (TSP) as a case study, a lightweight learnable optimizer named tour generator (TrGen) is devised. During training, each instance is treated as a task, and an EMT algorithm is employed to train the TrGen on multiple tasks simultaneously. Upon termination of the algorithm, an epoch ends, and a set of candidate parameter vectors is preserved for the subsequent epoch based on distribution diversity and generalization performance. This approach gradually directs the training process towards diversified search regions beneficial for generalization. Following training, the set of candidate parameter vectors serves as a knowledge reserve. When encountering new instances, the learnable optimizer can either directly infer optimal solutions via the knowledge reserve or fine-tune its parameters to accommodate the specifics of each new instance. The main benefits of the EMTUL are: 1) it directly uses the objective function as the loss function, dispensing the necessity of optimal solutions and differentiable loss or reward function; 2) it maintains a set of elite parameter vectors to efficiently handle new instances. Finally, experimental results demonstrate that TrGen, with few model parameters and trained under EMTUL, effectively identifies global or local optima for new instances of varying scales, even with relatively few training instances.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

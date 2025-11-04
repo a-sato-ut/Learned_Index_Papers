@@ -1,0 +1,37 @@
+{
+    "paperId": "39ed175274c7e965ab97dcf749ce68c268514019",
+    "title": "Few-shot HPC application runtime prediction",
+    "year": 2023,
+    "venue": "2023 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops)",
+    "authors": [
+        "Si Chen",
+        "Simon Garcia De Gonzalo",
+        "A. Wildani"
+    ],
+    "doi": "10.1109/CLUSTERWorkshops61457.2023.00018",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/39ed175274c7e965ab97dcf749ce68c268514019",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Precise runtime prediction for HPC jobs is essential for streamlined hardware/software co-design, resource allocation, and assessing the impact of hardware alterations. Existing runtime prediction methods, however, are generally application and architecture-specific, hindering their broad applicability. In response, we propose a novel meta-learning and simulation-based model that accommodates a wide range of applications and architectures. This method efficiently addresses new runtime challenges using only a limited number of samples. As demonstrated by our experiments, with just ten training samples, this model attains an average MAPE of 19% on the SPEC CPU 2006 benchmarks.",
+    "citationCount": 0,
+    "referenceCount": 13
+}

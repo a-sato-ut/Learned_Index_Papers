@@ -1,0 +1,39 @@
+{
+    "paperId": "94aa5c952e50dec361ceeab2f4a7b1f165e8917b",
+    "title": "Using Neural and Graph Neural Recommender Systems to Overcome Choice Overload: Evidence From a Music Education Platform",
+    "year": 2023,
+    "venue": "ACM Trans. Inf. Syst.",
+    "authors": [
+        "Hédi Razgallah",
+        "Michalis Vlachos",
+        "Ahmad Ajalloeian",
+        "Ninghao Liu",
+        "Johannes Schneider",
+        "Alexis Steinmann"
+    ],
+    "doi": "10.1145/3637873",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/94aa5c952e50dec361ceeab2f4a7b1f165e8917b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Education",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The application of recommendation technologies has been crucial in the promotion of physical and digital content across numerous global platforms such as Amazon, Apple, and Netflix. Our study aims to investigate the advantages of employing recommendation technologies on educational platforms, with a particular focus on an educational platform for learning and practicing music. Our research is based on data from Tomplay, a music platform that offers sheet music with professional audio recordings, enabling users to discover and practice music content at varying levels of difficulty. Through our analysis, we emphasize the distinct interaction patterns on educational platforms like Tomplay, which we compare with other commonly used recommendation datasets. We find that interactions are comparatively sparse on educational platforms, with users often focusing on specific content as they learn, rather than interacting with a broader range of material. Therefore, our primary goal is to address the issue of data sparsity. We achieve this through entity resolution principles and propose a neural network (NN)-based recommendation model. Further, we improve this model by utilizing graph neural networks (GNNs), which provide superior predictive accuracy compared to NNs. Notably, our study demonstrates that GNNs are highly effective even for users with little or no historical preferences (cold-start problem). Our cold-start experiments also provide valuable insights into an independent issue, namely, the number of historical interactions needed by a recommendation model to gain a comprehensive understanding of a user. Our findings demonstrate that a platform acquires a solid knowledge of a user’s general preferences and characteristics with 50 past interactions. Overall, our study makes significant contributions to information systems research on business analytics and prescriptive analytics. Moreover, our framework and evaluation results offer implications for various stakeholders, including online educational institutions, education policymakers, and learning platform users.",
+    "citationCount": 10,
+    "referenceCount": 66
+}

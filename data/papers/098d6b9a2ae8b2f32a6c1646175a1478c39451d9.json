@@ -1,0 +1,38 @@
+{
+    "paperId": "098d6b9a2ae8b2f32a6c1646175a1478c39451d9",
+    "title": "Gradient-based algorithms for multi-objective bi-level optimization",
+    "year": 2024,
+    "venue": "Science China Mathematics",
+    "authors": [
+        "Xinmin Yang",
+        "Wei Yao",
+        "Haian Yin",
+        "Shangzhi Zeng",
+        "Jin Zhang"
+    ],
+    "doi": "10.1007/s11425-023-2302-9",
+    "arxivId": "2406.05455",
+    "url": "https://www.semanticscholar.org/paper/098d6b9a2ae8b2f32a6c1646175a1478c39451d9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multi-Objective Bi-Level Optimization (MOBLO) addresses nested multi-objective optimization problems common in a range of applications. However, its multi-objective and hierarchical bilevel nature makes it notably complex. Gradient-based MOBLO algorithms have recently grown in popularity, as they effectively solve crucial machine learning problems like meta-learning, neural architecture search, and reinforcement learning. Unfortunately, these algorithms depend on solving a sequence of approximation subproblems with high accuracy, resulting in adverse time and memory complexity that lowers their numerical efficiency. To address this issue, we propose a gradient-based algorithm for MOBLO, called gMOBA, which has fewer hyperparameters to tune, making it both simple and efficient. Additionally, we demonstrate the theoretical validity by accomplishing the desirable Pareto stationarity. Numerical experiments confirm the practical efficiency of the proposed method and verify the theoretical results. To accelerate the convergence of gMOBA, we introduce a beneficial L2O neural network (called L2O-gMOBA) implemented as the initialization phase of our gMOBA algorithm. Comparative results of numerical experiments are presented to illustrate the performance of L2O-gMOBA.",
+    "citationCount": 0,
+    "referenceCount": 79
+}

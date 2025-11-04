@@ -1,0 +1,40 @@
+{
+    "paperId": "5caa0a22e7f5ef4b3d8788e92a18746ef2f38449",
+    "title": "Accelerating Legacy Numerical Solvers by Non-intrusive Gradient-based Meta-solving",
+    "year": 2024,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "S. Arisaka",
+        "Qianxiao Li"
+    ],
+    "doi": "10.48550/arXiv.2405.02952",
+    "arxivId": "2405.02952",
+    "url": "https://www.semanticscholar.org/paper/5caa0a22e7f5ef4b3d8788e92a18746ef2f38449",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Scientific computing is an essential tool for scientific discovery and engineering design, and its computational cost is always a main concern in practice. To accelerate scientific computing, it is a promising approach to use machine learning (especially meta-learning) techniques for selecting hyperparameters of traditional numerical methods. There have been numerous proposals to this direction, but many of them require automatic-differentiable numerical methods. However, in reality, many practical applications still depend on well-established but non-automatic-differentiable legacy codes, which prevents practitioners from applying the state-of-the-art research to their own problems. To resolve this problem, we propose a non-intrusive methodology with a novel gradient estimation technique to combine machine learning and legacy numerical codes without any modification. We theoretically and numerically show the advantage of the proposed method over other baselines and present applications of accelerating established non-automatic-differentiable numerical solvers implemented in PETSc, a widely used open-source numerical software library.",
+    "citationCount": 0,
+    "referenceCount": 47
+}
