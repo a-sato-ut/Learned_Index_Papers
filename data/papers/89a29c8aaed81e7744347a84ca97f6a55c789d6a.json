@@ -1,0 +1,36 @@
+{
+    "paperId": "89a29c8aaed81e7744347a84ca97f6a55c789d6a",
+    "title": "GARLIC: GAussian Representation LearnIng for spaCe partitioning",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Panagiotis Rigas",
+        "Panagiotis Drivas",
+        "C. Tzamos",
+        "Ioannis Chamodrakas",
+        "G. Ioannakis",
+        "Leonidas J. Guibas",
+        "I. Emiris"
+    ],
+    "doi": "10.48550/arXiv.2505.24608",
+    "arxivId": "2505.24608",
+    "url": "https://www.semanticscholar.org/paper/89a29c8aaed81e7744347a84ca97f6a55c789d6a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present \\textbf{GARLIC}, a representation learning approach for Euclidean approximate nearest neighbor (ANN) search in high dimensions. Existing partitions tend to rely on isotropic cells, fixed global resolution, or balanced constraints, which fragment dense regions and merge unrelated points in sparse ones, thereby increasing the candidate count when probing only a few cells. Our method instead partitions \\(\\mathbb{R}^d\\) into anisotropic Gaussian cells whose shapes align with local geometry and sizes adapt to data density. Information-theoretic objectives balance coverage, overlap, and geometric alignment, while split/clone refinement introduces Gaussians only where needed. At query time, Mahalanobis distance selects relevant cells and localized quantization prunes candidates. This yields partitions that reduce cross-cell neighbor splits and candidate counts under small probe budgets, while remaining robust even when trained on only a small fraction of the dataset. Overall, GARLIC introduces a geometry-aware space-partitioning paradigm that combines information-theoretic objectives with adaptive density refinement, offering competitive recall--efficiency trade-offs for Euclidean ANN search.",
+    "citationCount": 0,
+    "referenceCount": 65
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "638c01f5bf9c25528260cb18bd69cb6eb551bd8f",
+    "title": "Hierarchical Autoencoder-based Lossy Compression for Large-scale High-resolution Scientific Data",
+    "year": 2023,
+    "venue": "Computing&amp;AI Connect",
+    "authors": [
+        "Hieu Le",
+        "Hernan Santos",
+        "Ji'an Tao"
+    ],
+    "doi": "10.69709/CAIC.2024.193132",
+    "arxivId": "2307.04216",
+    "url": "https://www.semanticscholar.org/paper/638c01f5bf9c25528260cb18bd69cb6eb551bd8f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Lossy compression has become essential an important technique to reduce data size in many domains. This type of compression is especially valuable for large-scale scientific data, whose size ranges up to several petabytes. Although Autoencoder-based models have been successfully leveraged to compress images and videos, such neural networks have not widely gained attention in the scientific data domain. Our work presents a neural network that not only significantly compresses large-scale scientific data, but also maintains high reconstruction quality. The proposed model is tested with scientific benchmark data available publicly and applied to a large-scale high-resolution climate modeling data set. Our model achieves a compression ratio of 140 on several benchmark data sets without compromising the reconstruction quality. 2D simulation data from the High-Resolution Community Earth System Model (CESM) Version 1.3 over 500 years are also being compressed with a compression ratio of 200 while the reconstruction error is negligible for scientific analysis.",
+    "citationCount": 6,
+    "referenceCount": 70
+}

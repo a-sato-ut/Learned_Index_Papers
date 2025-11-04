@@ -1,0 +1,39 @@
+{
+    "paperId": "014541fe24332e037ecfd636c9ef78c54fe7452b",
+    "title": "Towards Truly Adaptive Byzantine Fault-Tolerant Consensus",
+    "year": 2024,
+    "venue": "ACM SIGOPS Operating Systems Review",
+    "authors": [
+        "Chenyuan Wu",
+        "Haoyun Qin",
+        "Mohammad Javad Amiri",
+        "B. T. Loo",
+        "Dahlia Malkhi",
+        "Ryan Marcus"
+    ],
+    "doi": "10.1145/3689051.3689055",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/014541fe24332e037ecfd636c9ef78c54fe7452b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "To acheive maximum performance, Byzantine fault-tolerant (BFT) systems must be manually tuned when hardware, network, or workload properties change. This paper presents our vision for a reinforcement learning (RL) based Byzantine fault-tolerant (BFT) system that adjusts effectively in realtime to changing fault scenarios and workloads. We identify several variables that can impact the performance of a BFT protocol, and show how these variables can serve as features in an RL engine in order to choose the context-dependent bestperforming BFT protocol in real-time. We further outline a decentralized RL approach capable of tolerating adversarial data pollution, where nodes share local metering values and reach the same learning output by consensus.",
+    "citationCount": 3,
+    "referenceCount": 36
+}

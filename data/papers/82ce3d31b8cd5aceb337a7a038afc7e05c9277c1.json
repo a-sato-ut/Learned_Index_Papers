@@ -1,0 +1,37 @@
+{
+    "paperId": "82ce3d31b8cd5aceb337a7a038afc7e05c9277c1",
+    "title": "Efficient Partial Order Based Transaction Processing for Permissioned Blockchains",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Shuai Zhao",
+        "Zhiwei Zhang",
+        "Junkai Wang",
+        "Ye Yuan",
+        "Meihui Zhang",
+        "Guoren Wang",
+        "Jiang Xiao"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00152",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/82ce3d31b8cd5aceb337a7a038afc7e05c9277c1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the development of permissioned blockchains, transaction processing plays an increasingly crucial role in improving performance. The execution and consensus phases in existing transaction processing methods are based on total order. The consensus phase constructs a total order representing the execution order and submission order of different transactions. Then, in the execution phase, transactions are executed or validated sequentially based on this total order. However, while the total order guarantees consistency across nodes, it also restricts the execution order of any two transactions, even if there is no conflict between them. Additionally, existing methods process transactions based on block snapshots before the consensus phase, but these snapshots are only updated after reaching consensus. The stale data between these phases results in high transaction abort rates due to delays in updated visibility. Therefore, we propose a novel blockchain called Partial Order-Based Ledger (POBL). POBL constructs a partial order of transaction executions in the execution phase and then, in the consensus phase, builds a consistent submission order based on this execution partial order. Notably, POBL allows the visibility of transaction processing results in the execution phase even before committing its block. To ensure the correct execution, the consensus and execution phases need to consider the consistency of data and the dependencies between transactions. Therefore, we use a graph, PGraph, to capture the concurrent partial order in the execution phase. In the consensus phase, we propose a consensus algorithm to conduct the maximal common subgraph, CPGraph, based on the PGraphs of different nodes. We propose to validate blocks and transactions in parallel based on CPGraph, without being restricted by the order between blocks. We perform extensive experiments compared to state-of-the-art architectural systems, and our method significantly outperforms existing work.",
+    "citationCount": 2,
+    "referenceCount": 55
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "19ebe343e3a3b85f5655579fd54a99f8075bd444",
+    "title": "A Hybrid Cost Model for Evaluating Query Execution Plans",
+    "year": 2023,
+    "venue": "International Conference on Artificial Intelligence and Knowledge Engineering",
+    "authors": [
+        "Ning Wang",
+        "Amin Kamali",
+        "Verena Kantere",
+        "Calisto Zuzate",
+        "Vincent Corvinelli",
+        "Brandon Frendo",
+        "Steve Donoghue"
+    ],
+    "doi": "10.1109/AIKE59827.2023.00030",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/19ebe343e3a3b85f5655579fd54a99f8075bd444",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query optimization aims to select a query execution plan among all query paths for a given query. The query optimization of traditional relational database management systems (RDBMSs) relies on the estimation of the cost of the alternative query plans in the query plan search space provided by a cost model. The classic cost model (CCM) may lead the optimizer to choose query plans with poor execution time due to inaccurate cardinality estimations and simplifying assumptions [7, 8, 14]. A learned cost model (LCM) based on machine learning does not rely on such estimations and learns the cost from runtime [5, 10, 11]. While learned cost models are shown to improve the average performance, they may not guarantee that optimal performance would be consistently achieved. In addition, the query plans generated using the LCM may not necessarily outperform the query plans generated with the CCM. In this paper, we propose a hybrid approach to solve this problem by striking a balance between the LCM and the CCM. The hybrid model uses the LCM when it is expected to be reliable in selecting a good plan and falls back to the CCM otherwise. The evaluation results of the hybrid model demonstrate promising performance, indicating potential for successful use in future applications.",
+    "citationCount": 1,
+    "referenceCount": 15
+}

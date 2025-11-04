@@ -1,0 +1,40 @@
+{
+    "paperId": "c651574c8a6affdf893984a7dc609fd6771c713c",
+    "title": "FTGraph: A Flexible Tree-Based Graph Store on Persistent Memory for Large-Scale Dynamic Graphs",
+    "year": 2024,
+    "venue": "IEEE International Conference on Cluster Computing",
+    "authors": [
+        "Gan Sun",
+        "Jiang Zhou",
+        "Bo Li",
+        "Xiaoyan Gu",
+        "Weiping Wang",
+        "Shuibing He"
+    ],
+    "doi": "10.1109/CLUSTER59578.2024.00011",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c651574c8a6affdf893984a7dc609fd6771c713c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Traditional in-memory graph systems often suffer from scalability due to the limited capacity and volatility of DRAM. Emerging non-volatile memory (NVM) provides an opportunity to achieve highly scalable and high-performance graph stores for its large capacity and persistence characteristics. However, directly deploying current in-memory graph storage systems on NVM would cause significant inefficiencies in NVM access, as their graph organization designed for DRAM may incur higher write amplification, crash inconsistency and costly concurrency control overhead in NVM for write-intensive work-loads. In this paper, we propose FTGraph, a Flexible Tree-based Graph storage system, for both efficient dynamical graph updates and analysis. To achieve this goal, we introduce a novel degree-aware suffix bit tree to effectively manage vertices and edges of the graph, enabling adaptability to real-world power-law degree distributions while significantly reducing NVM writes. Based on it, we adopt two optimization methods, logical vertex ID translation and sequential storage, for vertices with very high degrees within the tree to enhance graph analysis operations. We further integrate 8B NVM atomic writes with optimistic version-based concurrency control through a dual bitmap design to ensure low-overhead, log-free crash consistency and reduce read-writer contention. Experimental results show that FTGraph achieves up to $\\mathbf{21.2}\\times$ higher update performance and up to $\\mathbf{85.4}\\times$ higher analysis performance, compared with state-of-the-art dynamic graph systems implemented on NVMs.",
+    "citationCount": 0,
+    "referenceCount": 38
+}

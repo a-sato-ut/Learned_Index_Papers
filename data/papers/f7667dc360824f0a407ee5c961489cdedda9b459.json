@@ -1,0 +1,31 @@
+{
+    "paperId": "f7667dc360824f0a407ee5c961489cdedda9b459",
+    "title": "Fast Indexing for Temporal Information Retrieval",
+    "year": 2025,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Christian Rauch",
+        "Panagiotis Bouros"
+    ],
+    "doi": "10.1145/3749164",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f7667dc360824f0a407ee5c961489cdedda9b459",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Temporal aspects have received tons of interest in Information Retrieval (IR) and related fields, including database search. The focus of temporal IR is on improving the effectiveness of search by exploiting temporal information in objects and queries. In this work, we study efficient indexing for the fundamental time-travel IR query. Given such a query q with a time interval of interest and a set of descriptive elements (e.g., keywords), the goal is to retrieve all data objects (e.g., documents) whose time interval overlaps with query's and their description contains the elements in q. Existing methods extend the inverted index to answer time-travel IR queries, with simple but ineffective temporal indexing. We propose new methods which capitalize on the state-of-the-art interval index HINT in two ways; either by extending again the inverted index or adopting the time-first irHINT approach which directly builds on HINT. Our experiments showed that irHINT outperforms all IR-first methods, while exhibiting good indexing and updating costs.",
+    "citationCount": 0,
+    "referenceCount": 67
+}

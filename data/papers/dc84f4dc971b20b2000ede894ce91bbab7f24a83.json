@@ -1,0 +1,35 @@
+{
+    "paperId": "dc84f4dc971b20b2000ede894ce91bbab7f24a83",
+    "title": "KnobCF: Uncertainty-aware Knob Tuning",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yu Yan",
+        "Junfang Huang",
+        "Hongzhi Wang",
+        "Jian Geng",
+        "Kaixin Zhang",
+        "Tao Yu"
+    ],
+    "doi": "10.48550/arXiv.2407.02803",
+    "arxivId": "2407.02803",
+    "url": "https://www.semanticscholar.org/paper/dc84f4dc971b20b2000ede894ce91bbab7f24a83",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The knob tuning aims to optimize database performance by searching for the most effective knob configuration under a certain workload. Existing works suffer two significant problems. On the one hand, there exist multiple similar even useless evaluations of knob tuning even with the diverse searching methods because of the different sensitivities of knobs on a certain workload. On the other hand, the single evaluation of knob configurations may bring overestimation or underestimation because of the query uncertainty performance. To solve the above problems, we propose a decoupled query uncertainty-aware knob classifier, called KnobCF, to enhance the knob tuning. Our method has three significant contributions: (1) We propose a novel concept of the uncertainty-aware knob configuration estimation to enhance the knob tuning process. (2) We provide an effective few-shot uncertainty knob estimator without extra time consumption in training data collection, which has a high time efficiency in practical tuning tasks. (3) Our method provides a general framework that could be easily deployed in any knob tuning task because we make no changes to the knob tuners and the database management system. Our experiments on four open-source benchmarks demonstrate that our method effectively reduces useless evaluations and improves the tuning results. Especially in TPCC, our method achieves competitive tuning results with only 60% to 70% time consumption compared to the full workload evaluations.",
+    "citationCount": 0,
+    "referenceCount": 47
+}

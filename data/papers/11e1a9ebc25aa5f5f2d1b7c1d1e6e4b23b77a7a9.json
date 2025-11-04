@@ -1,0 +1,26 @@
+{
+    "paperId": "11e1a9ebc25aa5f5f2d1b7c1d1e6e4b23b77a7a9",
+    "title": "Blocky Volume Package: a Web-friendly Volume Storage and Compression Solution",
+    "year": 2023,
+    "venue": "Computer Science Research Notes",
+    "authors": [
+        "Žiga Lesar",
+        "Ciril Bohak",
+        "M. Marolt"
+    ],
+    "doi": "10.24132/csrn.3301.25",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/11e1a9ebc25aa5f5f2d1b7c1d1e6e4b23b77a7a9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.24132/csrn.3301.25",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Blocky Volume Package (BVP) format is a distributed, platform-independent and API-independent format for storing static and temporal volumetric data. It is designed for efficient transfer over a network by supporting sparse volumes, multiple resolutions, random access, and streaming, as well as providing a strict framework for supporting a wide palette of encoding formats. The BVP format achieves this by dividing a volume or a volume sequence into blocks that can be compressed and reused. The metadata for the blocks are stored in separate files so that a client has all the information required for loading and decoding the blocks before the actual transmission, decoding and rendering take place. This design allows for random access and parallel loading and has been specifically designed for efficient use on the web platform by adhering to the current living standards. In the paper, we compare the BVP format with some of the most often implemented volume storage formats, and show that the BVP format supports most major features of these formats while at the same time being easily implementable and extensible.",
+    "citationCount": 0,
+    "referenceCount": 50
+}

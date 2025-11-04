@@ -1,0 +1,34 @@
+{
+    "paperId": "01976df01efe41924c9940360da95157ab0f8802",
+    "title": "A Design Space Exploration and Evaluation for Main-Memory Hash Joins in Storage Class Memory",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Wentao Huang",
+        "Yunhong Ji",
+        "Xuan Zhou",
+        "Bin He",
+        "K. Tan"
+    ],
+    "doi": "10.14778/3583140.3583144",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/01976df01efe41924c9940360da95157ab0f8802",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.14778/3583140.3583144",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we seek to perform a rigorous experimental study of main-memory hash joins in storage class memory (SCM). In particular, we perform a design space exploration in real SCM for two state-of-the-art join algorithms: partitioned hash join (PHJ) and non-partitioned hash join (NPHJ), and identify the most crucial factors to implement an SCM-friendly join. Moreover, we present a rigorous evaluation with a broad spectrum of workloads for both joins and provide an in-depth analysis for choosing the most suitable algorithm in real SCM environment. With the most extensive experimental analysis up-to-date, we maintain that although there is no one universal winner in all scenarios, PHJ is generally superior to NPHJ in real SCM.",
+    "citationCount": 7,
+    "referenceCount": 98
+}

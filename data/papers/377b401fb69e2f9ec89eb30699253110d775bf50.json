@@ -1,0 +1,46 @@
+{
+    "paperId": "377b401fb69e2f9ec89eb30699253110d775bf50",
+    "title": "Hypersparse Traffic Matrix Construction using GraphBLAS on a DPU",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "William Bergeron",
+        "Michael Jones",
+        "Chase Barber",
+        "Kale DeYoung",
+        "G. Amariucai",
+        "Kaleb Ernst",
+        "Nathan Fleming",
+        "P. Michaleas",
+        "Sandeep Pisharody",
+        "Nathan Wells",
+        "Antonio Rosa",
+        "Eugene Y. Vasserman",
+        "J. Kepner"
+    ],
+    "doi": "10.48550/arXiv.2310.18334",
+    "arxivId": "2310.18334",
+    "url": "https://www.semanticscholar.org/paper/377b401fb69e2f9ec89eb30699253110d775bf50",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Low-power small form factor data processing units (DPUs) enable offloading and acceleration of a broad range of networking and security services. DPUs have accelerated the transition to programmable networking by enabling the replacement of FPGAs/ASICs in a wide range of network oriented devices. The GraphBLAS sparse matrix graph open standard math library is well-suited for constructing anonymized hypersparse traffic matrices of network traffic which can enable a wide range of network analytics. This paper measures the performance of the GraphBLAS on an ARM based NVIDIA DPU (BlueField 2) and, to the best of our knowledge, represents the first reported GraphBLAS results on a DPU and/or ARM based system. Anonymized hypersparse traffic matrices were constructed at a rate of over 18 million packets per second.",
+    "citationCount": 1,
+    "referenceCount": 7
+}

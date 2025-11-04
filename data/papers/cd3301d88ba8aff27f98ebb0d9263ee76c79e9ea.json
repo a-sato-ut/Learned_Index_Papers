@@ -1,0 +1,33 @@
+{
+    "paperId": "cd3301d88ba8aff27f98ebb0d9263ee76c79e9ea",
+    "title": "Approximate Reverse Top-k Spatial-Keyword Queries",
+    "year": 2023,
+    "venue": "International Conference on Mobile Data Management",
+    "authors": [
+        "Shunya Nishio",
+        "Daichi Amagata",
+        "Takahiro Hara"
+    ],
+    "doi": "10.1109/MDM58254.2023.00026",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cd3301d88ba8aff27f98ebb0d9263ee76c79e9ea",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Location-based services are becoming more involved with our daily lives, so many works have considered efficiently retrieving useful objects from spatial-keyword databases. These works are promising on the user sides, but none of them considers the service provider sides. To gain profits and enrich recommendation lists, service providers conduct market analyses and want to know potential users who may be interested in their services. In this paper, to satisfy this requirement, we propose a new query, approximate reverse top-k spatial-keyword (ART) query. Given a set O of spatial-keyword objects, a set S of users (their locations and preferable keywords), a query object q, k, and an approximation ratio ϵ, an ART query retrieves such users that q is included in their approximate top-k results among O and q. A straightforward approach to processing this query is to run a top-k spatial-keyword search for each user in S. This is clearly expensive, as the number of users is generally large. We therefore propose PART, an efficient algorithm for ART query processing. In addition, we propose B-PART, which enables the processing of multiple ART queries in a batch. We conduct extensive experiments using real datasets, and the results demonstrate the efficiencies of our algorithms.",
+    "citationCount": 1,
+    "referenceCount": 49
+}

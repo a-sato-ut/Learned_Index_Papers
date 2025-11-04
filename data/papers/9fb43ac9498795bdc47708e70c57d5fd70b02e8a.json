@@ -1,0 +1,36 @@
+{
+    "paperId": "9fb43ac9498795bdc47708e70c57d5fd70b02e8a",
+    "title": "MorphDAG: A Workload-Aware Elastic DAG-Based Blockchain",
+    "year": 2024,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Shijie Zhang",
+        "Jiang Xiao",
+        "Enping Wu",
+        "Feng Cheng",
+        "Bo Li",
+        "Wei Wang",
+        "Hai Jin"
+    ],
+    "doi": "10.1109/TKDE.2024.3382743",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9fb43ac9498795bdc47708e70c57d5fd70b02e8a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/69/4358933/10483543.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Directed Acyclic Graph (DAG)-based blockchain represents a paradigm shift from conventional blockchains, which has the potential to drastically improve throughput performance through concurrent storage and executions. In practice, however, existing DAG-based blockchains fail to deliver such promises, often with limited throughput, high conflicts, and security vulnerabilities under dynamic workloads. The root causes are their unawareness of the workload characteristics of different workload sizes and skewed access patterns. In this article, we propose MorphDAG, the first workload-aware DAG-based blockchain that can significantly enhance throughput without compromising security and achieve elastic scaling under realistic workloads. We derive the theoretically optimal degree of storage concurrency to achieve high throughput while retaining system security as the workload size changes, while enabling fine-grained concurrency adjustment that accommodates a Proof-of-Stake (PoS)-based consensus protocol. We develop a dual-mode transaction processing mechanism that effectively resolves the conflicts brought by skewed access. We implement a prototype of MorphDAG and evaluate under real-world workloads. Extensive evaluations demonstrate that MorphDAG improves end-to-end throughput by up to 2.3× and 2.4× over state-of-the-art DAG-based blockchain systems AdaptChain and OHIE, respectively.",
+    "citationCount": 5,
+    "referenceCount": 37
+}

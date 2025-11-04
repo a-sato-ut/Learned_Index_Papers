@@ -1,0 +1,42 @@
+{
+    "paperId": "74f3f4c029de06fce6f1da65d4fc4214c0446c25",
+    "title": "DiskAdapt: Hard Disk Failure Prediction Based on Pre-Training and Fine-Tuning",
+    "year": 2025,
+    "venue": "Measurement and Modeling of Computer Systems",
+    "authors": [
+        "Rongjia Han",
+        "Kunzheng Lv",
+        "Peishun Liu",
+        "Yashi Huang",
+        "Quanjie Dou",
+        "Tian Yin",
+        "Hengtao Wang",
+        "YiBao Song"
+    ],
+    "doi": "10.1145/3727113",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/74f3f4c029de06fce6f1da65d4fc4214c0446c25",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the rapid development of information technology, data centers have become increasingly reliant on storage devices. However, the risk of physical damage to these devices poses significant challenges to data security. As a result, fault prediction technology has become crucial for improving the reliability of storage systems. Current research primarily focuses on analyzing hard drive operational data using machine learning or deep learning. However, most methods are trained and tested on a single model of hard drive, leading to insufficient generalization in fault detection. Large data centers typically use hard drives from multiple manufacturers and different models, with frequent replacements, making it difficult for existing methods to fully meet enterprise needs. To address these challenges, this paper proposes a hard drive fault prediction model based on pretraining and fine-tuning, named DiskAdapt. The model adopts the AdaptFormer architecture and leverages a pretraining-fine-tuning framework to extract multivariate time series features that precisely reflect the operational state of hard drives. By integrating these multivariate features and performing feature alignment operations, the model achieves accurate fault prediction. Extensive experiments conducted on multiple public datasets demonstrate that our method outperforms other baseline models.",
+    "citationCount": 0,
+    "referenceCount": 33
+}

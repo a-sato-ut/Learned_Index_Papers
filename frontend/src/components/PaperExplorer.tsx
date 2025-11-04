@@ -71,6 +71,8 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     const width = svgRef.current.clientWidth || 1200;
     const height = svgRef.current.clientHeight || 800;
 
+    const g = svg.append('g');
+
     const nodes: PaperNode[] = [];
     const edges: PaperEdge[] = [];
     const nodeMap = new Map<string, PaperNode>();
@@ -222,8 +224,16 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       });
     });
 
-    // リンクの定義
-    const link = svg
+    const zoom = d3
+      .zoom<SVGSVGElement, unknown>()
+      .scaleExtent([0.1, 4])
+      .on('zoom', (event) => {
+        g.attr('transform', event.transform);
+      });
+
+    svg.call(zoom);
+
+    const link = g
       .append('g')
       .attr('class', 'links')
       .selectAll<SVGLineElement, PaperEdge>('line')
@@ -234,8 +244,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       .attr('stroke-width', 2)
       .attr('stroke-opacity', 0.6);
 
-    // ノードの定義
-    const node = svg
+    const node = g
       .append('g')
       .attr('class', 'nodes')
       .selectAll<SVGGElement, PaperNode>('g')
@@ -353,7 +362,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           <p className="paper-card-abstract">{paper.abstract.substring(0, 200)}...</p>
         )}
         <div className="paper-card-footer">
-          <span>Citations: {paper.citationCount}</span>
+          <div className="paper-card-stats">
+            <span>Cited by: {paper.citationCount}</span>
+            <span>ReferenceCount: {paper.referenceCount}</span>
+          </div>
           {paper.arxivId && (
             <a
               href={`https://arxiv.org/abs/${paper.arxivId}`}

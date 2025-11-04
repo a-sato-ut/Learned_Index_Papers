@@ -1,0 +1,36 @@
+{
+    "paperId": "3d5855dbcaed1176a71998f2a6abe2a6c0397c20",
+    "title": "Interception prediction and clustering method for maritime threat targets under escort of USV swarm",
+    "year": 2025,
+    "venue": "Engineering computations",
+    "authors": [
+        "Zhenyu Xiao",
+        "Yulei Liao",
+        "Qiang Zhang"
+    ],
+    "doi": "10.1108/ec-06-2024-0542",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3d5855dbcaed1176a71998f2a6abe2a6c0397c20",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "PurposeUtilizing USV Swarm for escort operations represents a maritime security model that can provide comprehensive, all-weather, multidimensional protection for vessels at sea.Design/methodology/approach(1) Addressing the problem of intercepting maritime threat targets, this paper proposes a method for calculating interception points based on DCPA (Distance to Closest Point of Approach). (2) Furthermore, to address the clustering of interception points, this paper introduces a TK-means algorithm based on the threat degree. This algorithm, grounded in the threat degree calculation formula designed in this paper, improves the initialization strategy and allocation rules of the traditional K-means algorithm, enabling interception points with similar threat levels to be grouped together.Findings1) Simulation comparisons demonstrate that by considering the relative velocity and position between the maritime threat target and the escort object, the proposed method yields more reasonable interception points, thereby effectively enhancing the navigational safety. (2) Simulation comparison experiments indicate that the improved algorithm more effectively clusters the interception points.Originality/valueIn summary, the proposed calculation method and the improved algorithm better meet security decision-making needs and further enhance the navigational safety of the escorted vessels.",
+    "citationCount": 1,
+    "referenceCount": 26
+}

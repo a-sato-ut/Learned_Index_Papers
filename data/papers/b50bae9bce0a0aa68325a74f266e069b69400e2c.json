@@ -1,0 +1,31 @@
+{
+    "paperId": "b50bae9bce0a0aa68325a74f266e069b69400e2c",
+    "title": "Graph-based Approximate Nearest Neighbor Search by Deep Reinforcement Routing",
+    "year": 2025,
+    "venue": "Proceedings of the 33rd ACM International Conference on Multimedia",
+    "authors": [
+        "Mingjie Li",
+        "Junhao Lin",
+        "Dian Ouyang",
+        "Ying Zhang",
+        "Wei Wang"
+    ],
+    "doi": "10.1145/3746027.3754945",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b50bae9bce0a0aa68325a74f266e069b69400e2c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We focus on the approximate nearest neighbor search (ANNS) in high dimensional space, which is a fundamental technique in computer vision and multimedia database. Among the ANNS solutions, graph-based approaches achieve excellent performance by executing a routing algorithm on a proximity graph to retrieve the nearest neighbors. However, most of their routing strategies are heuristic-based greedy routing, leading to suboptimal search results with large number of hops. In this paper, we propose a novel routing paradigm on graphs for ANNS problem by deep reinforcement learning. We design a reinforcement model to learn the routing policy by making use of both graph global and local topology information. A hops-optimized reward mechanism is devised to enable the model to be more efficient and effective. The final searching algorithm with the learned model is able to find the nearest neighbors without any backtracking in a small number of hops. Comprehensive experiments on real-world datasets demonstrate the superiorities of the proposed method over the state-of-the-art ANNS approaches.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

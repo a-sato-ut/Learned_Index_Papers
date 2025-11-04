@@ -1,0 +1,41 @@
+{
+    "paperId": "e4b1af4486b86d2717af6c898278f1371d8b5a6a",
+    "title": "Main memory controller with multiple media technologies for big data workloads",
+    "year": 2023,
+    "venue": "Journal of Big Data",
+    "authors": [
+        "Miguel A. Avargues",
+        "Manel Lurbe",
+        "S. Petit",
+        "M. E. Gómez",
+        "Rui Yang",
+        "Xiaoping Zhu",
+        "Guanhao Wang",
+        "J. Sahuquillo"
+    ],
+    "doi": "10.1186/s40537-023-00761-0",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e4b1af4486b86d2717af6c898278f1371d8b5a6a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-023-00761-0",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "SRAM and DRAM memory technologies have been dominant in the implementations of memory subsystems. In recent years, and mainly driven by the huge memory demands of big data applications, NVRAM technology has emerged as a denser memory technology, enabling the design of new hybrid DRAM/NVRAM memory hierarchies that combine multiple memory media technologies to balance memory capacity, latency, cost, and endurance. Two main approaches are being applied to the design of hybrid memory hierarchies: the hybrid address space approach, which relies on the programmer or the operating system to choose the memory technology where each memory page should be stored; and the (only) NVM address space approach, where a faster technology (e.g. commodity DRAM) is needed to acts as a cache of NVRAM to boost the performance. This approach presents architectural challenges such the organization of metadata (e.g. cache tags) and the selection of the proper technology for each memory component. In contrast to existing approaches, this work proposes a memory controller that leverages novel memory technologies such as eDRAM and MRAM to mitigate NVRAM bus contention and improve the performance of the NVM address space. The devised solution proposes a two-level cache hierarchy in the memory controller: a SRAM sector cache and a (x)RAM cache. The (x)RAM cache, much denser, helps significantly reduce the number of accesses to NVRAM. Experimental results show that implementing the (x)RAM cache with eDRAM or MRAM is the best performing approach. Moreover, the eRAM is able to improve the SRAM cache miss penalty by up to 50% and 80%, and overall system performance by 15% and 23%.",
+    "citationCount": 1,
+    "referenceCount": 47
+}

@@ -1,0 +1,43 @@
+{
+    "paperId": "37aa0c8b1eac068fbbfc6336b98c06f4e84b23e7",
+    "title": "Towards an integrated approach for managing and streaming 3D spatial data at the component level in spatial data infrastructures",
+    "year": 2024,
+    "venue": "International Journal of Geographical Information Science",
+    "authors": [
+        "Dayu Yu",
+        "Peng Yue",
+        "Binwen Wu",
+        "Filip Biljecki",
+        "Min Chen",
+        "Luancheng Lu"
+    ],
+    "doi": "10.1080/13658816.2024.2434606",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/37aa0c8b1eac068fbbfc6336b98c06f4e84b23e7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract Transitions of spatial data infrastructures (SDIs) support applications from 2D landscapes to 3D scenes. The existing methods for describing, managing, and providing services for 3D spatial data often lack coordination and efficiency. Moreover, the added complexity of 3D data structures necessitates novel approaches for component-level management and streaming capabilities. In response, we developed a generic conceptual model suitable for component-level management of diverse 3D spatial data in SDIs and discussed the design rationales and key considerations underlying the model. We formalized the flexible data composition and fine-grained lifecycle management in this model and specified this model at the cloud-optimized encoding level to enable efficient CRUD operations and streaming delivery of massive 3D spatial data. Our approach enabled direct streaming of the managed 3D spatial data without the need for redundant replication. We implemented, evaluated, and discussed the proposed approach in terms of service, accessibility, visualization, analysis cases, and efficiency. The results show that the proposed method is efficient in managing 3D spatial data and enables users to conduct 3D geo-analysis on the basis of specific parts of the data as needed. This work provides a scientific exploration that integrates the management and services of 3D spatial data in SDIs.",
+    "citationCount": 3,
+    "referenceCount": 45
+}

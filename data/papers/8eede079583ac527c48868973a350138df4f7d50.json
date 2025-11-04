@@ -1,0 +1,39 @@
+{
+    "paperId": "8eede079583ac527c48868973a350138df4f7d50",
+    "title": "Towards Effective Transportation Mode-Aware Trajectory Recovery: Heterogeneity, Personalization and Efficiency",
+    "year": 2025,
+    "venue": "IEEE Transactions on Mobile Computing",
+    "authors": [
+        "Chenxing Wang",
+        "Fang Zhao",
+        "Haiyong Luo",
+        "Yuchen Fang",
+        "Haichao Zhang",
+        "Haoyu Xiong"
+    ],
+    "doi": "10.1109/TMC.2024.3501280",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8eede079583ac527c48868973a350138df4f7d50",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We focus on the transportation-aware trajectory recovery problem, which is distinct from the conventional vehicle-based trajectory recovery, facing three major challenges: heterogeneity, personalization and efficiency. For the heterogeneity, the velocity of the mobile object is intrinsically correlated with the specific transportation mode, containing inherent heterogeneity. For the personalization, the trajectory data is complicated by substantial variations in users, which are different in personalized behaviors. For the efficiency, previous works mostly employ sequence-to-sequence framework which limits their efficiency due to the auto-regressive inference pattern. To address these challenges, we design a novel efficient and effective multi-modal deep model, coined as PTrajRec, for transportation-aware trajectory recovery. Specifically, we initially embed location, behavior, and transportation mode modalities in distinct channels, which not only reflect spatio-temporal information encapsulated in location sequences but also introduce the heterogeneity and personalization characteristics associated with mode and behavior sequences. For further modeling these modalities, we employ the auto-correlation mechanism to learn periodic dependencies on the temporal dimension and the graph attention mechanism to learn road network dependencies on the spatial dimension. At last, we propose a dual-view constraint mechanism to assist the efficient trajectory recovery framework and design three auxiliary tasks to address the inherent heterogeneity and efficiency design. Extensive experimental results on two real-world datasets demonstrate the superiority of our proposed method compared to state-of-the-art baselines with reduced computation cost and excellent performance.",
+    "citationCount": 2,
+    "referenceCount": 38
+}

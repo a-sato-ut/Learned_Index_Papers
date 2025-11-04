@@ -1,0 +1,39 @@
+{
+    "paperId": "e03c6ecee5cde2fb13fbb35816eba3e80200ca1c",
+    "title": "OLTP Engines on Modern Storage Architectures",
+    "year": 2025,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Daokun Hu",
+        "Quanqing Xu",
+        "Chuanhui Yang"
+    ],
+    "doi": "10.1145/3722212.3725633",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e03c6ecee5cde2fb13fbb35816eba3e80200ca1c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Online transaction processing (OLTP) engines are crucial components of database systems, facing significant challenges due to the rapid growth of data on the Internet. Memory-oriented OLTP engines struggle with the cost and capacity limitations of hosting large data volumes, while disk-oriented engines suffer performance degradation when their working set size exceeds available memory. Limitations in DRAM density and disk latency hinder scalability and service quality, complicating large-scale data management and transaction execution. In recent years, advancements in storage architecture, such as persistent memory, NVMe SSDs, and CXL, help alleviate these memory and I/O pressures by bridging the performance gap between DRAM and traditional block storage devices or efficiently expanding memory pools. These technologies are used to enhance and accelerate OLTP engines, with emerging storage hardware and protocols offering improved scalability and remote access. Despite these innovations, new challenges arise, requiring advanced data management strategies in dynamic environments. This tutorial provides an overview of modern OLTP engines leveraging cutting-edge storage solutions, exploring storage hierarchies, protocols, and programming models that offer insights for researchers and industry professionals. Additionally, it highlights the challenges and opportunities presented by emerging storage architectures for OLTP engines.",
+    "citationCount": 0,
+    "referenceCount": 59
+}

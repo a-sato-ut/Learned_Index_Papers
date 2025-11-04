@@ -1,0 +1,35 @@
+{
+    "paperId": "dff6c46b3d37f3b41e1f56d78b68817590639515",
+    "title": "SOLA-GCL: Subgraph-Oriented Learnable Augmentation Method for Graph Contrastive Learning",
+    "year": 2025,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Tianhao Peng",
+        "Xuhong Li",
+        "Haitao Yuan",
+        "Yuchen Li",
+        "Haoyi Xiong"
+    ],
+    "doi": "10.48550/arXiv.2503.10100",
+    "arxivId": "2503.10100",
+    "url": "https://www.semanticscholar.org/paper/dff6c46b3d37f3b41e1f56d78b68817590639515",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph contrastive learning has emerged as a powerful technique for learning graph representations that are robust and discriminative. However, traditional approaches often neglect the critical role of subgraph structures, particularly the intra-subgraph characteristics and inter-subgraph relationships, which are crucial for generating informative and diverse contrastive pairs. These subgraph features are crucial as they vary significantly across different graph types, such as social networks where they represent communities, and biochemical networks where they symbolize molecular interactions. To address this issue, our work proposes a novel subgraph-oriented learnable augmentation method for graph contrastive learning, termed SOLA-GCL, that centers around subgraphs, taking full advantage of the subgraph information for data augmentation. Specifically, SOLA-GCL initially partitions a graph into multiple densely connected subgraphs based on their intrinsic properties. To preserve and enhance the unique characteristics inherent to subgraphs, a graph view generator optimizes augmentation strategies for each subgraph, thereby generating tailored views for graph contrastive learning. This generator uses a combination of intra-subgraph and inter-subgraph augmentation strategies, including node dropping, feature masking, intra-edge perturbation, inter-edge perturbation, and subgraph swapping. Extensive experiments have been conducted on various graph learning applications, ranging from social networks to molecules, under semi-supervised learning, unsupervised learning, and transfer learning settings to demonstrate the superiority of our proposed approach.",
+    "citationCount": 4,
+    "referenceCount": 56
+}

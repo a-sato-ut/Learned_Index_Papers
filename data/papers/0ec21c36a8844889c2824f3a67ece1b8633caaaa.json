@@ -1,0 +1,38 @@
+{
+    "paperId": "0ec21c36a8844889c2824f3a67ece1b8633caaaa",
+    "title": "A Dynamic Adaptive Framework for Practical Byzantine Fault Tolerance Consensus Protocol in the Internet of Things",
+    "year": 2024,
+    "venue": "IEEE transactions on computers",
+    "authors": [
+        "Chunpei Li",
+        "Wangjie Qiu",
+        "Xianxian Li",
+        "Chen Liu",
+        "Zhiming Zheng"
+    ],
+    "doi": "10.1109/TC.2024.3377921",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0ec21c36a8844889c2824f3a67ece1b8633caaaa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Practical Byzantine Fault Tolerance (PBFT) protocol-supported blockchain can provide decentralized security and trust mechanisms for the Internet of Things (IoT). However, the PBFT protocol is not specifically designed for IoT applications. Consequently, adapting PBFT to the dynamic changes of an IoT environment with incomplete information represents a challenge that urgently needs to be addressed. To this end, we introduce DA-PBFT, a PBFT dynamic adaptive framework based on a multi-agent architecture. DA-PBFT divides the dynamic adaptive process into two sub-processes: optimality-seeking and optimization decision-making. During the optimality-seeking process, a PBFT optimization model is constructed based on deep reinforcement learning. This model is designed to generate PBFT optimization strategies for consensus nodes. In the optimization decision-making process, a PBFT optimization decision consensus mechanism is constructed based on the Borda count method. This mechanism ensures consistency in PBFT optimization decisions within an environment characterized by incomplete information. Furthermore, we designed a dynamic adaptive incentive mechanism to explore the Nash equilibrium conditions and security aspects of DA-PBFT. The experimental results demonstrate that DA-PBFT is capable of achieving consistency in PBFT optimization decisions within an environment of incomplete information, thereby offering robust and efficient transaction throughput for IoT applications.",
+    "citationCount": 10,
+    "referenceCount": 40
+}

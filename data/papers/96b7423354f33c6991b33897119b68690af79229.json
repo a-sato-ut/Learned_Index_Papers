@@ -1,0 +1,30 @@
+{
+    "paperId": "96b7423354f33c6991b33897119b68690af79229",
+    "title": "Robust Tree-based Learned Vector Index with Query-aware Repartitioning",
+    "year": 2025,
+    "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "authors": [
+        "Wenqing Wei",
+        "Defu Lian",
+        "Qingshuai Feng",
+        "Yongji Wu"
+    ],
+    "doi": "10.1145/3711896.3737112",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/96b7423354f33c6991b33897119b68690af79229",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate Vector Retrieval (AVR), which aims to efficiently retrieve the most similar items from a large dataset, is a fundamental task in a variety of applications such as information retrieval, recommender systems, and large language models. Advances in representation learning and multimodal neural models have enabled diverse data types (e.g., text, images, audio) to be embedded into a shared vector space, facilitating similarity-based retrieval in AVR. While single-modal AVR assumes query and database embeddings follow the same distribution (In-Distribution, ID), cross-modal AVR introduces a distribution shift, where query vectors (e.g., text) are Out-of-Distribution (OOD) relative to the database (e.g., images). This mismatch complicates retrieval and degrades accuracy, making it a key challenge in AVR. Existing methods typically focus on either ID or OOD queries but struggle to handle both within a unified framework. In this paper, we propose RObust Tree-based LE arned IndeX (ROTLEX), a novel and robust method for effectively handling both ID and OOD queries in AVR. ROTLEX employs a hierarchical space partitioning structure and a query-aware repartitioning method. It recursively partitions the space into a K-ary tree, where separate encoders generate query embeddings that interact with shared tree node embeddings for retrieving vectors similar to the query. The repartitioning method transforms query routing probabilities into vector assignments using the same neural network. With a balanced assignment strategy, ROTLEX dynamically updates the tree and repartitions database vectors, significantly improving OOD query performance. Extensive experiments on real-world datasets show that ROTLEX achieves state-of-the-art trade-offs between latency and accuracy on both CPU and GPU.",
+    "citationCount": 0,
+    "referenceCount": 62
+}

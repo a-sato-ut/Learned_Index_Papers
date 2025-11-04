@@ -1,0 +1,31 @@
+{
+    "paperId": "ea2d7f75b62de226b4218dc0b84dd669a86ef724",
+    "title": "Learning Adaptive Hypersphere: Boosting Efficiency on Approximate Nearest Neighbor Search",
+    "year": 2024,
+    "venue": "IEEE Signal Processing Letters",
+    "authors": [
+        "Liefu Ai",
+        "Changyu Jiang"
+    ],
+    "doi": "10.1109/LSP.2024.3427696",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ea2d7f75b62de226b4218dc0b84dd669a86ef724",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Existing approximate nearest neighbor (ANN) search, whether exhaustive or non-exhaustive manner, needs to rerank candidate vectors to return final search results after finding candidate vectors. Then, the number of candidate vectors has important impacts on search time costs. In this letter, a hypersphere-based filtration mechanism is proposed to accelerate ANN search with no harm to search accuracy. To learn the hypersphere model, a fully connected neural network is employed in which training data of independence on vector dimension is constructed, such that the hypersphere model can generalize to various datasets of different vector dimension without any architectural adjustments. An adaptive size of the hypersphere is generated for each query vector. Only the candidate vectors located inside the hypersphere are kept and taken into reranking, thus, the number of reranking vectors is furthest reduced. The proposed hypersphere-based filtration can be conveniently integrated with various quantization-based ANN search methods. Experimental results on two public datasets demonstrate that the proposed hypersphere-based filtration can boost search efficiency effectively with no negative impacts on search accuracy.",
+    "citationCount": 0,
+    "referenceCount": 29
+}

@@ -1,0 +1,42 @@
+{
+    "paperId": "7d386736158e9f7f4b489797df4b47a69fec695a",
+    "title": "Representing Flow Fields with Divergence-Free Kernels for Reconstruction",
+    "year": 2025,
+    "venue": "Proceedings of the ACM on Computer Graphics and Interactive Techniques",
+    "authors": [
+        "Xingyu Ni",
+        "Jingrui Xing",
+        "Xingqiao Li",
+        "Bin Wang",
+        "Bao Chen"
+    ],
+    "doi": "10.1145/3747872",
+    "arxivId": "2504.01913",
+    "url": "https://www.semanticscholar.org/paper/7d386736158e9f7f4b489797df4b47a69fec695a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Accurately reconstructing continuous flow fields from sparse or indirect measurements remains an open challenge, as existing techniques often suffer from oversmoothing artifacts, reliance on heterogeneous architectures, and the computational burden of enforcing physics-informed losses in implicit neural representations (INRs). In this paper, we introduce a novel flow field reconstruction framework based on divergence-free kernels (DFKs), which inherently enforce incompressibility while capturing fine structures without relying on hierarchical or heterogeneous representations. Through qualitative analysis and quantitative ablation studies, we identify the matrix-valued radial basis functions derived from Wendland’s \\(\\mathcal {C}^4\\) polynomial (DFKs-Wen4) as the optimal form of analytically divergence-free approximation for velocity fields, owing to their favorable numerical properties, including compact support, positive definiteness, and second-order differentiability. Experiments across various reconstruction tasks, spanning data compression, inpainting, super-resolution, and time-continuous flow inference, have demonstrated that DFKs-Wen4 outperform INRs and other divergence-free representations in both reconstruction accuracy and computational efficiency, while requiring the fewest trainable parameters.",
+    "citationCount": 0,
+    "referenceCount": 78
+}

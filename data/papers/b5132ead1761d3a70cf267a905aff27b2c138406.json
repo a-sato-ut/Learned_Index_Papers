@@ -1,0 +1,34 @@
+{
+    "paperId": "b5132ead1761d3a70cf267a905aff27b2c138406",
+    "title": "Neos: A NVMe-GPUs Direct Vector Service Buffer in User Space",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Yuchen Huang",
+        "Xiaopeng Fan",
+        "Song Yan",
+        "Chuliang Weng"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00289",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b5132ead1761d3a70cf267a905aff27b2c138406",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the development of AI generated content and LLM (Large Language Model), demands of vector management have brought prosperity to vector databases. However, the status that vectors cannot be retrieved before being indexed, harms timeliness of vector databases. Updating indexes immediately when adding new vectors, reduces throughput of storage. Due to this contradiction, when facing streaming data, using vector database solely in vector services cannot have it both ways: real-time searches and high-throughput storage. This paper proposes a vector buffer engine, Neos. It is designed for real-time unindexed-vector searches on streaming input and buffering vectors with high throughput before loading them into vector databases. On one hand, we build a lightweight storage on raw NVMe device and liberate throughput from indexes, to maximize storage performance. On the other hand, we realize direct NVMe-GPUs 110 stack and a CPU-GPU heterogeneous task architecture for low-latency unindexed-vector searches on streaming data. Experiments show that our approach performs with 1.5x to 3.4x bandwidth, as low as 20% latency compared to existing 110 stacks, and up to orders-of-magnitude higher vector storage throughput under concurrent RIW workloads. Further, N eos can handle real-time unindexed - vector searches with millisecond-level latency on streaming input, a capability that current vector systems lack.",
+    "citationCount": 7,
+    "referenceCount": 73
+}

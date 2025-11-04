@@ -1,0 +1,33 @@
+{
+    "paperId": "0e82eed361bef28fc47db2d96b61b2a726929367",
+    "title": "Collaborative Texture Filtering",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Tomas Akenine-Möller",
+        "P. Ebelin",
+        "Matt Pharr",
+        "Bartlomiej Wronski"
+    ],
+    "doi": "10.2312/hpg.20251174",
+    "arxivId": "2506.17770",
+    "url": "https://www.semanticscholar.org/paper/0e82eed361bef28fc47db2d96b61b2a726929367",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advances in texture compression provide major improvements in compression ratios, but cannot use the GPU's texture units for decompression and filtering. This has led to the development of stochastic texture filtering (STF) techniques to avoid the high cost of multiple texel evaluations with such formats. Unfortunately, those methods can give undesirable visual appearance changes under magnification and may contain visible noise and flicker despite the use of spatiotemporal denoisers. Recent work substantially improves the quality of magnification filtering with STF by sharing decoded texel values between nearby pixels (Wronski 2025). Using GPU wave communication intrinsics, this sharing can be performed inside actively executing shaders without memory traffic overhead. We take this idea further and present novel algorithms that use wave communication between lanes to avoid repeated texel decompression prior to filtering. By distributing unique work across lanes, we can achieve zero-error filtering using<=1 texel evaluations per pixel given a sufficiently large magnification factor. For the remaining cases, we propose novel filtering fallback methods that also achieve higher quality than prior approaches.",
+    "citationCount": 0,
+    "referenceCount": 22
+}

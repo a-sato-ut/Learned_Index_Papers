@@ -1,0 +1,36 @@
+{
+    "paperId": "62c00d0a86af24ebfc7991757d9e8934227559d5",
+    "title": "Granularity Optimization of Travel Trajectory Based on Node2vec: A Case Study on Urban Travel Time Prediction",
+    "year": 2024,
+    "venue": "ISPRS Int. J. Geo Inf.",
+    "authors": [
+        "Hui Dong",
+        "Xiao Pan",
+        "Xiao Chen"
+    ],
+    "doi": "10.3390/ijgi13120435",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/62c00d0a86af24ebfc7991757d9e8934227559d5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/ijgi13120435",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Intersections are known to cause significant changes in traffic states. However, existing link-level trajectory optimization methods often overlook intersection information, making it challenging to preserve key traffic state features during the optimization process. To address this limitation, a novel approach is proposed that integrates node2vec and K-means algorithms. First, the role of intersections in linking road segments is considered. The node2vec algorithm is employed to capture the deep spatial similarity between links while weakening the adjacency relationship between links before and after intersections. This process generates feature representations for each link. Subsequently, clustering centers are initialized at the intersections, and K-means clustering is applied based on these link feature representations. Through this method, consecutive links within a trajectory that belong to the same cluster are merged, thus optimizing the granularity of the trajectory. Finally, experimental analysis and validation are conducted using link-level travel trajectory data from Shenzhen. The results demonstrate that, under optimal conditions, the mean absolute error (MAE), the mean absolute percentage error (MAPE), and the root mean square error (RMSE) values are reduced by 8.91%, 9.44%, and 8.96%, respectively, while computational efficiency is increased by 30.08%. The proposed trajectory granularity optimization method, which accounts for the existence of intersections, not only effectively retains the key traffic state features from the original trajectory but also significantly reduces training time while improving the model’s prediction accuracy.",
+    "citationCount": 0,
+    "referenceCount": 32
+}

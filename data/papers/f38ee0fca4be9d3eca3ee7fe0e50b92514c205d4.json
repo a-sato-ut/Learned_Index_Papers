@@ -1,0 +1,51 @@
+{
+    "paperId": "f38ee0fca4be9d3eca3ee7fe0e50b92514c205d4",
+    "title": "Special Session - Non-Volatile Memories: Challenges and Opportunities for Embedded System Architectures with Focus on Machine Learning Applications",
+    "year": 2023,
+    "venue": "International Conference on Compilers, Architecture, and Synthesis for Embedded Systems",
+    "authors": [
+        "Jörg Henkel",
+        "Lokesh Siddhu",
+        "Lars Bauer",
+        "J. Teich",
+        "Stefan Wildermann",
+        "M. Tahoori",
+        "Mahta Mayahinia",
+        "J. Castrillón",
+        "Asif Ali Khan",
+        "Hamid Farzaneh",
+        "J. P. D. de Lima",
+        "Jian-Jia Chen",
+        "Christian Hakert",
+        "Kuan-Hsun Chen",
+        "Chia-Lin Yang",
+        "Hsiang-Yun Cheng"
+    ],
+    "doi": "10.1145/3607889.3609088",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f38ee0fca4be9d3eca3ee7fe0e50b92514c205d4",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3607889.3609088",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper explores the challenges and opportunities of integrating non-volatile memories (NVMs) into embedded systems for machine learning. NVMs offer advantages such as increased memory density, lower power consumption, non-volatility, and compute-in-memory capabilities. The paper focuses on integrating NVMs into embedded systems, particularly in intermittent computing, where systems operate during periods of available energy. NVM technologies bring persistence closer to the CPU core, enabling efficient designs for energy-constrained scenarios. Next, computation in resistive NVMs is explored, highlighting its potential for accelerating machine learning algorithms. However, challenges related to reliability and device non-idealities need to be addressed. The paper also discusses memory-centric machine learning, leveraging NVMs to overcome the memory wall challenge. By optimizing memory layouts and utilizing probabilistic decision tree execution and neural network sparsity, NVM-based systems can improve cache behavior and reduce unnecessary computations. In conclusion, the paper emphasizes the need for further research and optimization for the widespread adoption of NVMs in embedded systems presenting relevant challenges, especially for machine learning applications.",
+    "citationCount": 2,
+    "referenceCount": 74
+}

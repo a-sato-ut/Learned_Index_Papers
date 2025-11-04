@@ -1,0 +1,46 @@
+{
+    "paperId": "b86fef6390553c3fafeb360d3ef4505bcd0791a3",
+    "title": "Fluid Simulation on Neural Flow Maps",
+    "year": 2023,
+    "venue": "ACM Transactions on Graphics",
+    "authors": [
+        "Yitong Deng",
+        "Hong-Xing Yu",
+        "Diyang Zhang",
+        "Jiajun Wu",
+        "Bo Zhu"
+    ],
+    "doi": "10.1145/3618392",
+    "arxivId": "2312.14635",
+    "url": "https://www.semanticscholar.org/paper/b86fef6390553c3fafeb360d3ef4505bcd0791a3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2312.14635",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce Neural Flow Maps, a novel simulation method bridging the emerging paradigm of implicit neural representations with fluid simulation based on the theory of flow maps, to achieve state-of-the-art simulation of in-viscid fluid phenomena. We devise a novel hybrid neural field representation, Spatially Sparse Neural Fields (SSNF), which fuses small neural networks with a pyramid of overlapping, multi-resolution, and spatially sparse grids, to compactly represent long-term spatiotemporal velocity fields at high accuracy. With this neural velocity buffer in hand, we compute long-term, bidirectional flow maps and their Jacobians in a mechanistically symmetric manner, to facilitate drastic accuracy improvement over existing solutions. These long-range, bidirectional flow maps enable high advection accuracy with low dissipation, which in turn facilitates high-fidelity incompressible flow simulations that manifest intricate vortical structures. We demonstrate the efficacy of our neural fluid simulation in a variety of challenging simulation scenarios, including leapfrogging vortices, colliding vortices, vortex reconnections, as well as vortex generation from moving obstacles and density differences. Our examples show increased performance over existing methods in terms of energy conservation, visual complexity, adherence to experimental observations, and preservation of detailed vortical structures.",
+    "citationCount": 36,
+    "referenceCount": 136
+}

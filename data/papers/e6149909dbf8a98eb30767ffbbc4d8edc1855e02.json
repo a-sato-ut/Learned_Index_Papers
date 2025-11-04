@@ -1,0 +1,64 @@
+{
+    "paperId": "e6149909dbf8a98eb30767ffbbc4d8edc1855e02",
+    "title": "Focusing and Calibration of Large Scale Network Sensors Using GraphBLAS Anonymized Hypersparse Matrices",
+    "year": 2023,
+    "venue": "IEEE Conference on High Performance Extreme Computing",
+    "authors": [
+        "J. Kepner",
+        "Michael Jones",
+        "Phil Dykstra",
+        "C. Byun",
+        "Tim Davis",
+        "Hayden Jananthan",
+        "W. Arcand",
+        "David Bestor",
+        "William Bergeron",
+        "V. Gadepally",
+        "Micheal Houle",
+        "M. Hubbell",
+        "Anna Klein",
+        "Lauren Milechin",
+        "Guillermo Morales",
+        "J. Mullen",
+        "Ritesh Patel",
+        "A. Pentland",
+        "Sandeep Pisharody",
+        "Andrew Prout",
+        "A. Reuther",
+        "Antonio Rosa",
+        "S. Samsi",
+        "Tyler H. Trigg",
+        "Charles Yee",
+        "P. Michaleas"
+    ],
+    "doi": "10.1109/HPEC58863.2023.10363471",
+    "arxivId": "2309.01806",
+    "url": "https://www.semanticscholar.org/paper/e6149909dbf8a98eb30767ffbbc4d8edc1855e02",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2309.01806",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Defending community-owned cyber space requires community-based efforts. Large-scale network observations that uphold the highest regard for privacy are key to protecting our shared cyberspace. Deployment of the necessary network sensors requires careful sensor placement, focusing, and calibration with significant volumes of network observations. This paper demonstrates novel focusing and calibration procedures on a multi-billion packet dataset using high-performance GraphBLAS anonymized hypersparse matrices. The run-time performance on a real-world data set confirms previously observed real-time processing rates for high-bandwidth links while achieving significant data compression. The output of the analysis demonstrates the effectiveness of these procedures at focusing the traffic matrix and revealing the underlying stable heavy-tail statistical distributions that are necessary for anomaly detection. A simple model of the corresponding probability of detection (Pd) and probability of false alarm (Pfa) for these distributions highlights the criticality of network sensor focusing and calibration. Once a sensor is properly focused and calibrated it is then in a position to carry out two of the central tenets of good cybersecurity: (1) continuous observation of the network and (2) minimizing unbrokered network connections.",
+    "citationCount": 4,
+    "referenceCount": 62
+}

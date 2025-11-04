@@ -1,0 +1,31 @@
+{
+    "paperId": "a56e1b7ed8611aa763db08c8fc48c61ebe2a589e",
+    "title": "GRNND: A GPU-Parallel Relative NN-Descent Algorithm for Efficient Approximate Nearest Neighbor Graph Construction",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Xiang Li",
+        "Qiong Chang",
+        "Yun Li",
+        "Jun Miyazaki"
+    ],
+    "doi": null,
+    "arxivId": "2510.02774",
+    "url": "https://www.semanticscholar.org/paper/a56e1b7ed8611aa763db08c8fc48c61ebe2a589e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Relative Nearest Neighbor Descent (RNN-Descent) is a state-of-the-art algorithm for constructing sparse approximate nearest neighbor (ANN) graphs by combining the iterative refinement of NN-Descent with the edge-pruning rules of the Relative Neighborhood Graph (RNG). It has demonstrated strong effectiveness in large-scale search tasks such as information retrieval and related tasks. However, as the amount and dimensionality of data increase, the complexity of graph construction in RNN-Descent rises sharply, making this stage increasingly time-consuming and even prohibitive for subsequent query processing. In this paper, we propose GRNND, the first GPU-parallel algorithm of RNN-Descent designed to fully exploit GPU architecture. GRNND introduces a disordered neighbor propagation strategy to mitigate synchronized update traps, enhancing structural diversity, and avoiding premature convergence during parallel execution. It also leverages warp-level cooperative operations and a double-buffered neighbor pool with fixed capacity for efficient memory access, eliminate contention, and enable highly parallelized neighbor updates. Extensive experiments demonstrate that GRNND consistently outperforms existing CPU- and GPU-based methods. GRNND achieves 2.4 to 51.7x speedup over existing GPU methods, and 17.8 to 49.8x speedup over CPU methods.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

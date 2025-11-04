@@ -1,0 +1,56 @@
+{
+    "paperId": "b3f9dcf22d988aa06b5caf0291a620ac0c054368",
+    "title": "Separation Is for Better Reunion: Data Lake Storage at Huawei",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Xin Tang",
+        "Chengliang Chai",
+        "Dawei Zhao",
+        "Hao-Shang Ma",
+        "Yong Zheng",
+        "Zhenyong Fan",
+        "Xin Wu",
+        "Jiaquan Zhang",
+        "Rui Zhang",
+        "Duanshun Li",
+        "Yi He",
+        "Keji Huang",
+        "Guangbin Meng",
+        "Yidong Wang",
+        "Yue Zhou",
+        "Tao Tao",
+        "Lirong Jian",
+        "Jiwu Shu",
+        "Yuping Wang",
+        "Ye Yuan",
+        "Guoren Wang",
+        "Guoliang Li"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00386",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b3f9dcf22d988aa06b5caf0291a620ac0c054368",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Huawei collaborates with some Chinese large busi-ness companies to store and process exabytes of nationwide operational data in data lake storage to provide business insights. Specifically, our customers will ask to store and process massive log message data to support their real-time and decision-making applications. Thus, we need computation and storage components in the analytic platform to process and store these data cost-efficiently. To meet these user requirements, we have designed a storage system in data lake, StreamLake, which introduces a novel design to serve log message streaming and batch data processing in distributed storage, with high scalability, efficiency, reliability and low cost. Specifically, we introduce a stream (storage) object as a storage abstraction for message streaming data to achieve the storage-disaggregated architecture with high scalability and reliability. Moreover, we utilize the erasure coding and tiered storage to save the storage cost, and furthermore, the stream object can be automatically converted to a table object such that cost-effective stream and batch data processing can be achieved. For tabular data, we implement the lakehouse functionality to support ACID via the table object, with a metadata acceleration to improve the efficiency of data access between the compute and storage engines. Also, we design a LakeBrain optimizer at the storage side to optimize the query performance and resource utilization under the storage-disaggregated architecture. Finally, we have also deployed StreamLake in China Mobile, the world's largest mobile network operator to serve over 20PB production data, and the results demonstrate improvements of 30% to 4x in terms of query performance and over 37% in terms of cost saving.",
+    "citationCount": 1,
+    "referenceCount": 30
+}

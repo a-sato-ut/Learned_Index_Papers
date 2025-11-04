@@ -1,0 +1,41 @@
+{
+    "paperId": "1f69ae899cabada84dfef52fb541ea7bfe09b9d6",
+    "title": "Real-time Indexing for Large-scale Recommendation by Streaming Vector Quantization Retriever",
+    "year": 2025,
+    "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "authors": [
+        "Xingyan Bin",
+        "Jianfei Cui",
+        "Wujie Yan",
+        "Zhichen Zhao",
+        "Xintian Han",
+        "Chongyang Yan",
+        "Feng Zhang",
+        "Xun Zhou",
+        "Xiao Yang",
+        "Zuotao Liu"
+    ],
+    "doi": "10.1145/3711896.3737259",
+    "arxivId": "2501.08695",
+    "url": "https://www.semanticscholar.org/paper/1f69ae899cabada84dfef52fb541ea7bfe09b9d6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Retrievers, which form one of the most important recommendation stages, are responsible for efficiently selecting possible positive samples to the later stages under strict latency limitations. Because of this, large-scale systems always rely on approximate calculations and indexes to roughly shrink candidate scale, with a simple ranking model. Most of the existing methods mainly focus on incorporating complicated ranking models. However, index structure is not improved, which also bottlenecks the whole effectiveness. In this paper, we propose a novel index structure: streaming Vector Quantization model, as a new generation of retrieval paradigm. Streaming VQ attaches items with indexes in real time, granting it immediacy. Moreover, through meticulous verification of possible variants, it achieves additional benefits like index balancing and reparability, enabling it to support complicated ranking models as existing approaches. Streaming VQ has been deployed and replaced all major retrievers in Douyin and Douyin Lite, resulting in remarkable user engagement gain.",
+    "citationCount": 5,
+    "referenceCount": 29
+}

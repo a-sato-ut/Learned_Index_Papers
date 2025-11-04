@@ -1,0 +1,35 @@
+{
+    "paperId": "a8b6baa2892c6aa04f1541093451fc316b7fc5ab",
+    "title": "MDTRL: A Multi-Source Deep Trajectory Representation Learning for the Accurate and Fast Similarity Query",
+    "year": 2025,
+    "venue": "IEEE transactions on intelligent transportation systems (Print)",
+    "authors": [
+        "Junhua Fang",
+        "Chunhui Feng",
+        "P. Chao",
+        "Jiajie Xu",
+        "Pengpeng Zhao",
+        "Lei Zhao"
+    ],
+    "doi": "10.1109/TITS.2024.3510534",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a8b6baa2892c6aa04f1541093451fc316b7fc5ab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Trajectory similarity is a fundamental operation in spatial-temporal data mining with wide-ranging applications. However, trajectories inherently exhibit diversity due to varied sampling and distribution of trajectory points, influenced by different motion patterns, sampling methods, and route constraints. This diversity leads to varying results in trajectory similarity measures, including DTW, LCSS, ED, Hausdorff, EDR, etc. In this paper, we argue for a comprehensive consideration of various distance metrics to enhance accuracy. To address this, this paper proposes a Multi-source Deep Trajectory Representation Learning method for accurate and efficient similarity queries. In particular, MDTRL comprises two key modules: (1) A novel trajectory representation module that incorporates an attention-based embedding mechanism and a deep metric learning network aggregating multiple measures. (2) A continuous metric learning strategy that adaptively updates similarity, thereby enhancing the accuracy of similarity queries. We employ the locality sensitive hashing index to further improve the similarity query. Extensive experiments conducted on real trajectory datasets reveal that MDTRL has state-of-the-art solutions, in terms of both effectiveness and efficiency across multi-source trajectories. It achieves 5x-15x speedup and 10%-15% accuracy improvement over Euclidean, Hausdorff, DTW, and Discrete Fréchet measures.",
+    "citationCount": 1,
+    "referenceCount": 58
+}

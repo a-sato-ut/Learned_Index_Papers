@@ -1,0 +1,30 @@
+{
+    "paperId": "ea0b8ac59613461ef944dfe31a30028f81eb115f",
+    "title": "RA-Sketch: A Unified Framework for Rapid and Accurate Sketch Configurations",
+    "year": 2025,
+    "venue": "IEEE International Conference on Network Protocols",
+    "authors": [
+        "Kejun Guo",
+        "Fuliang Li",
+        "Yuting Liu",
+        "Jiaxing Shen",
+        "Xingwei Wang"
+    ],
+    "doi": "10.1109/ICNP65844.2025.11192332",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ea0b8ac59613461ef944dfe31a30028f81eb115f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Network measurement sketches enable efficient traffic monitoring but require careful parameter configuration to balance accuracy and memory efficiency. We present RA-Sketch, a framework for generating memory-optimal sketch configurations that satisfy user-defined error constraints across diverse network measurement tasks. Unlike existing approaches that rely on computationally intensive experimental testing, RA-Sketch introduces: 1) Poisson-distributed collision modeling to construct error predictors for both frequency-independent tasks (membership query, heavy-hitter detection) and frequency-dependent tasks (frequency/cardinality estimation), eliminating the need for empirical validation; 2) A hierarchical search strategy combining power-of-two scaling and binary search, reducing iterations through optimized parameter initialization. RA-Sketch supports 10+ sketch architectures including Bloom Filter, Elastic Sketch, HeavyGuardian, HeavyKeeper, CM/CO Sketch, gSkt, rSkt1 and so on. Evaluations on real-world network traces demonstrate: 1) 6–7 orders of magnitude faster configuration than benchmark-based methods; 2) Prediction errors ≤10% for heavy-hitter detection, while prediction errors for membership query, and frequency/cardinality estimation are close to zero; 3) Memory utilization approaches theoretical minima. The framework’s generality and efficiency enable real-time reconfiguration of sketches under dynamic network conditions.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

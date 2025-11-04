@@ -1,0 +1,40 @@
+{
+    "paperId": "ed5ad328ed5160e3ef7b84ad31361779003e5927",
+    "title": "A data organization approach in geospatial data cube based on variable spatial grids",
+    "year": 2025,
+    "venue": "International Conference on Agro-Geoinformatics",
+    "authors": [
+        "Yongyi Mi",
+        "Ruixiang Liu",
+        "Peng Yue"
+    ],
+    "doi": "10.1109/Agro-Geoinformatics66479.2025.11136366",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ed5ad328ed5160e3ef7b84ad31361779003e5927",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Geospatial Data Cube (GDC) aims to enable unified organization and analysis of multi-source heterogeneous geospatial data. Currently, most existing mainstream GDC implementations typically support data ingestion within a single Coordinate Reference System (CRS) and resolution level, which limits data transparency and reduces the analysis accuracy. To address the challenges, the study proposes a data organization approach in geospatial data cube based on variable spatial grids. First, the study proposes a standardized GDC organization method that supports multiple CRSs and multi-resolution datasets. Second, the study enhances the vector-based cube warping algorithm by refining its target data granularity from the image level to the tile level, enabling lossless resampling across grid systems in GDC. Furthermore, utilizing the parallel computing framework, a cross-CRS and multi-resolution computation strategy in GDC is implemented. Finally, the feasibility and effectiveness of the proposed methods are demonstrated through a time-series case study of water extraction using Gaofen-1 and Sentinel-2 satellite data.",
+    "citationCount": 0,
+    "referenceCount": 13
+}

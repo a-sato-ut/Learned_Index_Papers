@@ -1,0 +1,34 @@
+{
+    "paperId": "f5283cc1de39ddb9231c0cb5400e49a5982b5a02",
+    "title": "Rendering Large Volume Datasets in Unreal Engine 5: A Survey",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Markus Schlüter",
+        "Tom Kwasnitschka",
+        "A. Bernstetter",
+        "Jens Karstens"
+    ],
+    "doi": "10.48550/arXiv.2504.07485",
+    "arxivId": "2504.07485",
+    "url": "https://www.semanticscholar.org/paper/f5283cc1de39ddb9231c0cb5400e49a5982b5a02",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this technical report, we discuss several approaches to in-core rendering of large volumetric datasets in Unreal Engine 5 (UE5). We explore the following methods: the TBRayMarcher Plugin, the Niagara Fluids Plugin , and various approaches using Sparse Volume Textures (SVT), with a particular focus on Heterogeneous Volumes (HV). We found the HV approach to be the most promising. The biggest challenge we encountered with other approaches was the need to chunk datasets so that each fits into volume textures smaller than one gigavoxel. While this enables display of the entire dataset at reasonable frame rates, it introduces noticeable artifacts at chunk borders due to incorrect lighting, as each chunk lacks information about its neighbors. After addressing some (signed) int32 overflows in the Engine's SVT-related source code by converting them to to (unsigned) uint32 or int64, the SVT-based HV system allows us to render sparse datasets up to 32k x 32k x 16k voxels, provided the compressed tile data (including MIP data and padding for correct interpolation) does not exceed 4 gigavoxels. In the future, we intend to extend the existing SVT streaming functionality to support out-of-core rendering, in order to eventually overcome VRAM limitations, graphics API constraints, and the performance issues associated with 64-bit arithmetic in GPU shaders.",
+    "citationCount": 0,
+    "referenceCount": 16
+}

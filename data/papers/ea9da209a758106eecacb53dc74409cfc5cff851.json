@@ -1,0 +1,35 @@
+{
+    "paperId": "ea9da209a758106eecacb53dc74409cfc5cff851",
+    "title": "A Function-Based Approach to Interactive High-Precision Volumetric Design and Fabrication",
+    "year": 2023,
+    "venue": "ACM Transactions on Graphics",
+    "authors": [
+        "Christopher Uchytil",
+        "Duane Storti"
+    ],
+    "doi": "10.1145/3622934",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ea9da209a758106eecacb53dc74409cfc5cff851",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3622934",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present a novel function representation (F-Rep) based geometric modeling kernel tailor-made to support computer aided design (CAD) and fabrication of high resolution volumetric models containing hundreds of billions of voxel grid elements. Our modeling kernel addresses existing limitations associated with evaluating, storing, and accessing volumetric data produced by F-Reps in contexts outside of rendering. The result is an F-Rep modeling kernel well suited for CAD-based applications. Our kernel utilizes a sparse volume data structure to manage F-Rep data while efficient F-Rep evaluation is achieved through a combination of interval arithmetic (IA), just-in-time (JIT) compilation of user-defined functions, and massively parallel evaluation on the GPU. We employ IA as the basis for local pruning of the function evaluation tree to minimize total function evaluations, we use a novel JIT compilation scheme to optimize function execution, and we take advantage of GPU-parallelism to enhance computational throughput. We illustrate the kernel’s effectiveness in visualizing and slicing models with complex defining functions and detailed geometry, and utilize the geometry kernel to manufacture a physical part. Additionally, we present performance metrics across multiple hardware configurations demonstrating significant performance improvements over existing F-Rep geometry kernels, and we examine how our geometry kernel scales with computing power.",
+    "citationCount": 3,
+    "referenceCount": 47
+}

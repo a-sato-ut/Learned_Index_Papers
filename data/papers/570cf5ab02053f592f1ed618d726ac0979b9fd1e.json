@@ -1,0 +1,34 @@
+{
+    "paperId": "570cf5ab02053f592f1ed618d726ac0979b9fd1e",
+    "title": "ASTRA: Accurate and Scalable ANNS-based Training of Extreme Classifiers",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sonu Mehta",
+        "Jayashree Mohan",
+        "Nagarajan Natarajan",
+        "R. Ramjee",
+        "Manik Varma"
+    ],
+    "doi": "10.48550/arXiv.2409.20156",
+    "arxivId": "2409.20156",
+    "url": "https://www.semanticscholar.org/paper/570cf5ab02053f592f1ed618d726ac0979b9fd1e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "`Extreme Classification'' (or XC) is the task of annotating data points (queries) with relevant labels (documents), from an extremely large set of $L$ possible labels, arising in search and recommendations. The most successful deep learning paradigm that has emerged over the last decade or so for XC is to embed the queries (and labels) using a deep encoder (e.g. DistilBERT), and use linear classifiers on top of the query embeddings. This architecture is of appeal because it enables millisecond-time inference using approximate nearest neighbor search (ANNS). The key question is how do we design training algorithms that are accurate as well as scale to $O(100M)$ labels on a limited number of GPUs. State-of-the-art XC techniques that demonstrate high accuracies (e.g., DEXML, Ren\\'ee, DEXA) on standard datasets have per-epoch training time that scales as $O(L)$ or employ expensive negative sampling strategies, which are prohibitive in XC scenarios. In this work, we develop an accurate and scalable XC algorithm ASTRA with two key observations: (a) building ANNS index on the classifier vectors and retrieving hard negatives using the classifiers aligns the negative sampling strategy to the loss function optimized; (b) keeping the ANNS indices current as the classifiers change through the epochs is prohibitively expensive while using stale negatives (refreshed periodically) results in poor accuracy; to remedy this, we propose a negative sampling strategy that uses a mixture of importance sampling and uniform sampling. By extensive evaluation on standard XC as well as proprietary datasets with 120M labels, we demonstrate that ASTRA achieves SOTA precision, while reducing training time by 4x-15x relative to the second best.",
+    "citationCount": 0,
+    "referenceCount": 43
+}

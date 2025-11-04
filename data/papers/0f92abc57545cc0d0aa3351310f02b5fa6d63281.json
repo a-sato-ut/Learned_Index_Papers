@@ -1,0 +1,35 @@
+{
+    "paperId": "0f92abc57545cc0d0aa3351310f02b5fa6d63281",
+    "title": "Steiner-Hardness: A Query Hardness Measure for Graph-Based ANN Indexes",
+    "year": 2024,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Zeyu Wang",
+        "Qitong Wang",
+        "Xiaoxing Cheng",
+        "Peng Wang",
+        "Themis Palpanas",
+        "Wei Wang"
+    ],
+    "doi": "10.48550/arXiv.2408.13899",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0f92abc57545cc0d0aa3351310f02b5fa6d63281",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Graph-based indexes have been widely employed to accelerate approximate similarity search of high-dimensional vectors. However, the performance of graph indexes to answer different queries varies vastly, leading to an unstable quality of service for downstream applications. This necessitates an effective measure to test query hardness on graph indexes. Nonetheless, popular distance-based hardness measures like LID lose their effects due to the ignorance of the graph structure. In this paper, we propose\n Steiner\n -hardness, a novel connection-based graph-native query hardness measure. Specifically, we first propose a theoretical framework to analyze the minimum query effort on graph indexes and then define\n Steiner\n -hardness as the minimum effort on a representative graph. Moreover, we prove that our\n Steiner\n -hardness is highly relevant to the classical Directed\n Steiner\n Tree (DST) problems. In this case, we design a novel algorithm to reduce our problem to DST problems and then leverage their solvers to help calculate\n Steiner\n -hardness efficiently. Compared with LID and other similar measures,\n Steiner\n -hardness shows a significantly better correlation with the actual query effort on various datasets. Additionally, an unbiased evaluation designed based on\n Steiner\n -hardness reveals new ranking results, indicating a meaningful direction for enhancing the robustness of graph indexes.\n",
+    "citationCount": 9,
+    "referenceCount": 58
+}

@@ -1,0 +1,43 @@
+{
+    "paperId": "3d582d511d8b2db1cf6d993fc8a3fdb3b7529c0b",
+    "title": "Towards Effective Next POI Prediction: Spatial and Semantic Augmentation with Remote Sensing Data",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Nan Jiang",
+        "Haitao Yuan",
+        "Jianing Si",
+        "Minxiao Chen",
+        "Shangguang Wang"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00104",
+    "arxivId": "2404.04271",
+    "url": "https://www.semanticscholar.org/paper/3d582d511d8b2db1cf6d993fc8a3fdb3b7529c0b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2404.04271",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The next point-of-interest (POI) prediction is a significant task in location-based services, yet its complexity arises from the consolidation of spatial and semantic intent. This fusion is subject to the influences of historical preferences, prevailing location, and environmental factors, thereby posing significant challenges. In addition, the uneven POI distribution further complicates the next POI prediction procedure. To address these challenges, we enrich input features and propose an effective deep-learning method within a two-step prediction framework. Our method first incorporates remote sensing data, capturing pivotal environmental context to enhance input features regarding both location and semantics. Subsequently, we employ a region quad-tree structure to integrate urban remote sensing, road network, and POI distribution spaces, aiming to devise a more coherent graph representation method for urban spatial. Leveraging this method, we construct the QR-P graph for the user's historical trajectories to encapsulate historical travel knowledge, thereby augmenting input features with comprehensive spatial and semantic insights. We devise distinct embedding modules to encode these features and employ an attention mechanism to fuse diverse encodings. In the two-step prediction procedure, we initially identify potential spatial zones by predicting user-preferred tiles, followed by pinpointing specific POls of a designated type within the projected tiles. Empirical findings from four real-world location-based social network datasets underscore the remarkable superiority of our proposed approach over competitive baseline methods.",
+    "citationCount": 4,
+    "referenceCount": 55
+}

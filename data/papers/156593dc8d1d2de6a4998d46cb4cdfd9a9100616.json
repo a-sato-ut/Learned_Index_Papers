@@ -1,0 +1,36 @@
+{
+    "paperId": "156593dc8d1d2de6a4998d46cb4cdfd9a9100616",
+    "title": "Distributed Transaction Processing in Untrusted Environments",
+    "year": 2024,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Mohammad Javad Amiri",
+        "D. Agrawal",
+        "A. El Abbadi",
+        "B. T. Loo"
+    ],
+    "doi": "10.1145/3626246.3654684",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/156593dc8d1d2de6a4998d46cb4cdfd9a9100616",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Byzantine Fault-Tolerant (BFT) protocols have recently been extensively used by distributed and decentralized data management systems with non-trustworthy infrastructures to establish consensus on the order of transactions. BFT protocols cover a broad spectrum of design dimensions from infrastructure settings, such as the communication topology, to more technical features, such as commitment strategy and even fundamental social choice properties like order-fairness. The proliferation of different protocols has made it difficult to navigate the BFT landscape, let alone determine the protocol that best meets application needs. In this tutorial, we discuss BFT protocols that are used in modern large-scale data management systems, present a design space consisting of a set of design dimensions and explore several design choices that capture the trade-offs between different design space dimensions. The presented design space and its design choices will help developers analyze BFT protocols, understand how different protocols are related to each other, and find the protocol that best fits their needs.",
+    "citationCount": 0,
+    "referenceCount": 190
+}

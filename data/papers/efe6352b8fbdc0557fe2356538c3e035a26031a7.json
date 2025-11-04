@@ -1,0 +1,32 @@
+{
+    "paperId": "efe6352b8fbdc0557fe2356538c3e035a26031a7",
+    "title": "A study on the role of hash function in encrypting sensitive information in network security protection",
+    "year": 2024,
+    "venue": "Applied Mathematics and Nonlinear Sciences",
+    "authors": [
+        "Ju Wu",
+        "Dehong Wang",
+        "Xiaoxia Peng"
+    ],
+    "doi": "10.2478/amns-2024-3171",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/efe6352b8fbdc0557fe2356538c3e035a26031a7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract The fields of information encryption and privacy protection widely use hash functions, but the traditional hash functions still struggle to handle the increasingly complex encryption tasks of sensitive data. The study enhances the traditional hash function and develops a hash function (SHF) that is based on random and chaotic structures. The SHF random function and SHF chaotic mapping are constructed, respectively. The SHF chaotic hash encryption algorithm encrypts the database, and the choice of encryption method constructs the overall architecture for encrypting and decrypting sensitive information. Finally, we examine the performance of the SHF chaotic hash encryption algorithm from four aspects: security, information entropy, resistance to differential attacks, and encryption and decryption time. The field distribution of the ciphertext encrypted by the SHF chaotic hash algorithm for plaintext is between [-150, 150], and the distribution of the unencrypted plaintext is in the range of [-100, 100]. Compared to plaintext, the distribution of the ciphertext is more dispersed and uniform. The information entropy results of the SHF chaotic hash encryption algorithm consistently exceed 7.998, the NPCR values fall within the standard range of 99.6094%, and the UACI values essentially hover around the standard value of 33.4%, indicating its ability to effectively withstand attacks. The SHF chaotic hash encryption algorithm has an encryption time of 0.398S and a decryption time of 0.398S, making it ideal for use in wireless sensor networks.",
+    "citationCount": 0,
+    "referenceCount": 13
+}

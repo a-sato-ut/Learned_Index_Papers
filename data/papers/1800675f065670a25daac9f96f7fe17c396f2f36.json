@@ -1,0 +1,33 @@
+{
+    "paperId": "1800675f065670a25daac9f96f7fe17c396f2f36",
+    "title": "Large Language Model as a Teacher for Zero-shot Tagging at Extreme Scales",
+    "year": 2024,
+    "venue": "International Conference on Computational Linguistics",
+    "authors": [
+        "Jinbin Zhang",
+        "Nasib Ullah",
+        "Rohit Babbar"
+    ],
+    "doi": null,
+    "arxivId": "2406.09288",
+    "url": "https://www.semanticscholar.org/paper/1800675f065670a25daac9f96f7fe17c396f2f36",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Extreme Multi-label Text Classification (XMC) entails selecting the most relevant labels for an instance from a vast label set. Extreme Zero-shot XMC (EZ-XMC) extends this challenge by operating without annotated data, relying only on raw text instances and a predefined label set, making it particularly critical for addressing cold-start problems in large-scale recommendation and categorization systems. State-of-the-art methods, such as MACLR and RTS, leverage lightweight bi-encoders but rely on suboptimal pseudo labels for training, such as document titles (MACLR) or document segments (RTS), which may not align well with the intended tagging or categorization tasks. On the other hand, LLM-based approaches, like ICXML, achieve better label-instance alignment but are computationally expensive and impractical for real-world EZ-XMC applications due to their heavy inference costs. In this paper, we introduce LMTX (Large language Model as Teacher for eXtreme classification), a novel framework that bridges the gap between these two approaches. LMTX utilizes an LLM to identify high-quality pseudo labels during training, while employing a lightweight bi-encoder for efficient inference. This design eliminates the need for LLMs at inference time, offering the benefits of improved label alignment without sacrificing computational efficiency. Our approach achieves superior performance and efficiency over both LLM and non-LLM based approaches, establishing a new state-of-the-art in EZ-XMC.",
+    "citationCount": 2,
+    "referenceCount": 64
+}

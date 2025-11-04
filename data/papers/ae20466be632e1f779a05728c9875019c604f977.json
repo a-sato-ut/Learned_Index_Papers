@@ -1,0 +1,38 @@
+{
+    "paperId": "ae20466be632e1f779a05728c9875019c604f977",
+    "title": "Hardware-Decoder-Friendly High Throughput String Prediction for SCC Implemented in AVS3",
+    "year": 2025,
+    "venue": "IEEE Signal Processing Letters",
+    "authors": [
+        "Liping Zhao",
+        "Zhuge Yan",
+        "Zongda Wu",
+        "Jiangda Wang",
+        "Tao Lin"
+    ],
+    "doi": "10.1109/LSP.2025.3545284",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ae20466be632e1f779a05728c9875019c604f977",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "String prediction (SP) is a highly efficient screen content coding technique adopted into international and China video coding standards. However, SP requires a high number of SRAM fetches to decode and output a block for display, leading to low throughput (T). Low T results in a high decoder and SRAM clock frequency to output the required number of display pixels, which is determined by the specific display resolution and frame rate. To achieve hardware-decoder-friendly high throughput SP (HTSP), this paper exploits specific SRAM fetch rate constraints for five SRAM-cell sizes commonly used in hardware decoder designs. Additionally, the optimal reference string selection process is formulated as a multi-constraint rate-distortion optimization (MCRDO) problem and a novel reference string searching method is presented. HTSP boosts throughput by up to 4 times compared to the state-of-the- art SP, with only a negligible impact on coding efficiency.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

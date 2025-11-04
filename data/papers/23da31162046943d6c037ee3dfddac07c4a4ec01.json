@@ -1,0 +1,35 @@
+{
+    "paperId": "23da31162046943d6c037ee3dfddac07c4a4ec01",
+    "title": "Capsule: An Out-of-Core Training Mechanism for Colossal GNNs",
+    "year": 2025,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Yongan Xiang",
+        "Zezhong Ding",
+        "Rui Guo",
+        "Shangyou Wang",
+        "Xike Xie",
+        "S. K. Zhou"
+    ],
+    "doi": "10.1145/3709669",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/23da31162046943d6c037ee3dfddac07c4a4ec01",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cutting-edge platforms of graph neural networks (GNNs), such as DGL and PyG, harness the parallel processing power of GPUs to extract structural information from graph data, achieving state-of-the-art (SOTA) performance in fields such as recommendation systems, knowledge graphs, and bioinformatics. Despite the computational advantages provided by GPUs, these GNN platforms struggle with scalability challenges due to the colossal graphical structures processed and the limited memory capacities of GPUs. In response, this work introduces Capsule, a new out-of-core mechanism for large-scale GNN training. Unlike existing out-of-core GNN systems, which use main or secondary memory as operative memory and use CPU kernels during non-backpropagation computation, Capsule uses GPU memory and GPU kernels. By substantially leveraging the parallelization capabilities of GPUs, Capsule significantly enhances GNN training efficiency. In addition, Capsule can be smoothly integrated to mainstream open-source GNN frameworks, DGL and PyG, in a play-and-plug manner. Through a prototype implementation and comprehensive experiments on real datasets, we demonstrate that Capsule can achieve up to a 12.02× improvement in runtime efficiency, while using only 22.24% of the main memory, compared to SOTA out-of-core GNN systems.",
+    "citationCount": 3,
+    "referenceCount": 94
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "4a8c868a19f3c490d8e6960f8c9cb4803808545c",
+    "title": "CRouting: Reducing Expensive Distance Calls in Graph-Based Approximate Nearest Neighbor Search",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhenxin Li",
+        "Shuibing He",
+        "Jiahao Guo",
+        "Xuechen Zhang",
+        "Xian-He Sun",
+        "Gang Chen"
+    ],
+    "doi": "10.48550/arXiv.2509.00365",
+    "arxivId": "2509.00365",
+    "url": "https://www.semanticscholar.org/paper/4a8c868a19f3c490d8e6960f8c9cb4803808545c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate nearest neighbor search (ANNS) is a crucial problem in information retrieval and AI applications. Recently, there has been a surge of interest in graph-based ANNS algorithms due to their superior efficiency and accuracy. However, the repeated computation of distances in high-dimensional spaces constitutes the primary time cost of graph-based methods. To accelerate the search, we propose a novel routing strategy named CRouting, which bypasses unnecessary distance computations by exploiting the angle distributions of high-dimensional vectors. CRouting is designed as a plugin to optimize existing graph-based search with minimal code modifications. Our experiments show that CRouting reduces the number of distance computations by up to 41.5% and boosts queries per second by up to 1.48$\\times$ on two predominant graph indexes, HNSW and NSG. Code is publicly available at https://github.com/ISCS-ZJU/CRouting.",
+    "citationCount": 0,
+    "referenceCount": 72
+}

@@ -1,0 +1,41 @@
+{
+    "paperId": "e90a6f2e0b74f4d0dce877c4292d1c52e543a92e",
+    "title": "HI-CMAIM: Hybrid Intelligence-Based Multi-Source Unstructured Chinese Map Annotation Interpretation Model",
+    "year": 2025,
+    "venue": "Remote Sensing",
+    "authors": [
+        "Jiaxin Ren",
+        "Wanzeng Liu",
+        "Jun Chen",
+        "Xiuli Zhu",
+        "Ran Li",
+        "Tingting Zhao",
+        "Jiadong Zhang",
+        "Y. Tao",
+        "Shunxi Yin",
+        "Xi Zhai",
+        "Yunlu Peng",
+        "Xinpeng Wang"
+    ],
+    "doi": "10.3390/rs17020204",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e90a6f2e0b74f4d0dce877c4292d1c52e543a92e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/rs17020204",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Map annotation interpretation is crucial for geographic information extraction and intelligent map analysis. This study addresses the challenges associated with interpreting Chinese map annotations, specifically visual complexity and data scarcity issues, by proposing a hybrid intelligence-based multi-source unstructured Chinese map annotation interpretation method (HI-CMAIM). Firstly, leveraging expert knowledge in an innovative way, we constructed a high-quality expert knowledge-based map annotation dataset (EKMAD), which significantly enhanced data diversity and accuracy. Furthermore, an improved annotation detection model (CMA-DB) and an improved annotation recognition model (CMA-CRNN) were designed based on the characteristics of map annotations, both incorporating expert knowledge. A two-stage transfer learning strategy was employed to tackle the issue of limited training samples. Experimental results demonstrated the superiority of HI-CMAIM over existing algorithms. In the detection task, CMA-DB achieved an 8.54% improvement in Hmean (from 87.73% to 96.27%) compared to the DB algorithm. In the recognition task, CMA-CRNN achieved a 15.54% improvement in accuracy (from 79.77% to 95.31%) and a 4-fold reduction in NED (from 0.1026 to 0.0242), confirming the effectiveness and advancement of the proposed method. This research not only provides a novel approach and data support for Chinese map annotation interpretation but also fills the gap of high-quality, diverse datasets. It holds practical application value in fields such as geographic information systems and cartography, significantly contributing to the advancement of intelligent map interpretation.",
+    "citationCount": 2,
+    "referenceCount": 28
+}

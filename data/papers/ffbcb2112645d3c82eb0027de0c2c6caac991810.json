@@ -1,0 +1,32 @@
+{
+    "paperId": "ffbcb2112645d3c82eb0027de0c2c6caac991810",
+    "title": "ML-Powered Index Tuning: An Overview of Recent Progress and Open Challenges",
+    "year": 2023,
+    "venue": "SIGMOD record",
+    "authors": [
+        "Tarique Siddiqui",
+        "Wentao Wu"
+    ],
+    "doi": "10.1145/3641832.3641836",
+    "arxivId": "2308.13641",
+    "url": "https://www.semanticscholar.org/paper/ffbcb2112645d3c82eb0027de0c2c6caac991810",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2308.13641",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The increasing scale and complexity of workloads in modern cloud services highlight a crucial challenge in automated index tuning: recommending high-quality indexes while ensuring scalability. This is further complicated by the need for these automated solutions to minimize query performance regressions in production deployments. This paper directs attention to some of these challenges in automated index tuning and explores ways in which machine learning (ML) techniques provide new opportunities in their mitigation. In particular, we reflect on our recent efforts in developing ML techniques for workload selection, candidate index filtering, speeding up index configuration search, reducing the amount of query optimizer calls, and lowering the chances of performance regressions. We highlight the key takeaways from these efforts and underline the gaps that need to be closed for their effective functioning within the traditional index tuning framework. Additionally, we present a preliminary cross-platform design aimed at democratizing index tuning across multiple SQL-like systems-an imperative in today's continuously expanding data system landscape. We believe our findings will help provide context and impetus to the research and development efforts in automated index tuning.",
+    "citationCount": 10,
+    "referenceCount": 82
+}

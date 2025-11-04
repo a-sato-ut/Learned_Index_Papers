@@ -1,0 +1,34 @@
+{
+    "paperId": "ad7f7f5d15b3beaff04242380f525c9da75f367c",
+    "title": "Intelligent Transaction Generation Control for Permissioned Blockchain-Based Services",
+    "year": 2025,
+    "venue": "IEEE Transactions on Services Computing",
+    "authors": [
+        "Dongsun Kim",
+        "Sinwoong Yun",
+        "Sungho Lee",
+        "Jemin Lee",
+        "D. Niyato"
+    ],
+    "doi": "10.1109/TSC.2025.3528318",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ad7f7f5d15b3beaff04242380f525c9da75f367c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Since the permissioned blockchain technology has been proposed to ensure data integrity in distributed systems, the low throughput and high latency have been recognized as major issues. In some applications, the data, available later than allowed time, can be useless, so the effective throughput is newly considered, defined as the average number of transactions per second, committed within the required latencies. For maximizing the effective throughput, we propose a novel intelligent transaction generation control (i-TGC) method to determine the transaction generation for each client. To improve performance in the dynamic environment of blockchain services based on real-time information, we employ the reinforcement learning (RL) for the i-TGC algorithm. Our experiment results show the i-TGC outperforms the probabilistic transaction generation control (p-TGC), which generates transactions randomly with the optimal probability that maximizes the effective throughput. We also verify the performance of the i-TGC for various environments with different block sizes, block generation timeout, traffic patterns, and the number of clients. The i-TGC can be a way to accelerate the usage of the permissioned blockchain for latency-sensitive services.",
+    "citationCount": 1,
+    "referenceCount": 46
+}

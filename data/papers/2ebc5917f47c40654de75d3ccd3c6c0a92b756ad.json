@@ -1,0 +1,43 @@
+{
+    "paperId": "2ebc5917f47c40654de75d3ccd3c6c0a92b756ad",
+    "title": "NVM in Data Storage: A Post-Optane Future",
+    "year": 2025,
+    "venue": "ACM Transactions on Storage",
+    "authors": [
+        "Sajad Karim",
+        "Johannes Wünsche",
+        "Michael Kuhn",
+        "Gunter Saake",
+        "David Broneske"
+    ],
+    "doi": "10.1145/3731454",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2ebc5917f47c40654de75d3ccd3c6c0a92b756ad",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Materials Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The dynamic evolution of non-volatile memory (NVM) technologies from Read-Only Memory (ROM) to flash memory, and recent innovations in Magnetoresistive RAM (MRAM), Phase Change Memory (PCM), and Resistive RAM (ReRAM) signify a pivotal shift in data storage capabilities and applications. This progression, marked by enhancements in performance and density, fills the gap between Dynamic RAM (DRAM) and flash storage, meeting the demands of data-rich domains such as high-performance computing and databases. The integration of NVM like the formerly commercially available Optane Persistent Memory (PMem) has introduced a paradigm shift in storage system design, addressing challenges related to latency, data proximity, memory constraints, and energy efficiency which are critical in computing. Despite facing hurdles, such as performance asymmetry in Optane PMem, the potential of NVM in data storage systems has been shown with research focusing on speeding up indexing, small data accesses, and cache-less I/O paths. We review existing and emerging NVM technologies based on their physical properties and application in data storage. We underscore the significance of NVM in offering unique access characteristics that address the limitations of traditional storage devices, thereby extending the data storage landscape. We discuss the programming challenges and hardware-software strategies crucial for NVM’s seamless integration and widespread industry adoption. Additionally, we discuss the discontinuation of Optane, the ongoing challenges and the need for storage system designs to adapt to non-block based storage to leverage NVM’s performance benefits. We conclude that while advancements in NVM promise improved performance and endurance, practical availability depends on addressing challenges such as density, heat management, and reliability. Support in the existing software ecosystem is also crucial for its widespread adoption. Furthermore, Compute Express Link (CXL) is highlighted as a significant development that can streamline the memory hierarchy and support the adoption of NVM, enabling more flexible designs and effective usage of storage media in next-generation data storage systems. Overall, CXL offers a promising method to include NVM in future systems. However, in the meantime, data storage systems will rely on NVMe SSDs due to their performance and availability. But, we encourage further research into integrating NVM devices due to data management constraints with conventional block-based data management and advocate for the availability of NVM-ready software to users.",
+    "citationCount": 0,
+    "referenceCount": 184
+}

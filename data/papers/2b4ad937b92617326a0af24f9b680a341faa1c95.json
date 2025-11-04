@@ -1,0 +1,34 @@
+{
+    "paperId": "2b4ad937b92617326a0af24f9b680a341faa1c95",
+    "title": "TIDE: Indexing Time Intervals by Duration and Endpoint",
+    "year": 2025,
+    "venue": "International Symposium on Spatial and Temporal Databases",
+    "authors": [
+        "Kai Wang",
+        "Moin Hussain Moti",
+        "Dimitris Papadias"
+    ],
+    "doi": "10.1145/3748777.3748785",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2b4ad937b92617326a0af24f9b680a341faa1c95",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Indexes for large collections of intervals are common in temporal databases, where each record has a lifespan, or validity interval. We propose a universal representation that encapsulates various interval indexes using diagonal corner structures, providing valuable insights about their effectiveness. Moreover, we exploit our findings to develop TIDE, a disk-based index for historical intervals. TIDE adopts a two-level architecture. A top tree organizes intervals by their duration. The leaf nodes of the top tree correspond to the root nodes of bottom trees, ordering intervals by their endpoints. Both top and bottom trees are append-only B+-trees to facilitate fast insertions. An experimental evaluation with real data sets shows that TIDE achieves impressive performance gains with respect to its direct competitor, on insertion (up to x100) and query processing (up to x7000) speed.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

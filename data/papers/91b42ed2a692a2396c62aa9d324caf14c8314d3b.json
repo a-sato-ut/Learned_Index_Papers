@@ -1,0 +1,38 @@
+{
+    "paperId": "91b42ed2a692a2396c62aa9d324caf14c8314d3b",
+    "title": "Accelerated Volumetric Compression without Hierarchies: A Fourier Feature Based Implicit Neural Representation Approach",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Leona Zurková",
+        "P. Strakoš",
+        "Michal Kravcenko",
+        "T. Brzobohatý",
+        "Lubomír Ríha"
+    ],
+    "doi": "10.48550/arXiv.2508.08937",
+    "arxivId": "2508.08937",
+    "url": "https://www.semanticscholar.org/paper/91b42ed2a692a2396c62aa9d324caf14c8314d3b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Volumetric data compression is critical in fields like medical imaging, scientific simulation, and entertainment. We introduce a structure-free neural compression method combining Fourierfeature encoding with selective voxel sampling, yielding compact volumetric representations and faster convergence. Our dynamic voxel selection uses morphological dilation to prioritize active regions, reducing redundant computation without any hierarchical metadata. In the experiment, sparse training reduced training time by 63.7 % (from 30 to 11 minutes) with only minor quality loss: PSNR dropped 0.59 dB (from 32.60 to 32.01) and SSIM by 0.008 (from 0.948 to 0.940). The resulting neural representation, stored solely as network weights, achieves a compression rate of 14 and eliminates traditional data-loading overhead. This connects coordinate-based neural representation with efficient volumetric compression, offering a scalable, structure-free solution for practical applications.",
+    "citationCount": 1,
+    "referenceCount": 3
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "c6f0e6f2d57a1790ce56bfae896f1f7fe32a11a6",
+    "title": "Retrieving Top-N Weighted Spatial k-cliques",
+    "year": 2022,
+    "venue": "2022 IEEE International Conference on Big Data (Big Data)",
+    "authors": [
+        "Ryosuke Taniguchi",
+        "Daichi Amagata",
+        "Takahiro Hara"
+    ],
+    "doi": "10.1109/BigData55660.2022.10021071",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c6f0e6f2d57a1790ce56bfae896f1f7fe32a11a6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Spatial data analysis is a classic yet important topic because of its wide range of applications. Recently, as a spatial data analysis approach, a neighbor graph of a set P of spatial points has often been employed. This paper also considers a spatial neighbor graph and addresses a new problem, namely top-N weighted spatial k-clique retrieval. This problem searches for the N minimum weighted cliques consisting of k points in P, and it has important applications, such as community detection and co-location pattern mining. Recent spatial datasets have many points, and efficiently dealing with such big datasets is one of the main requirements of applications. A straightforward approach to solving our problem is to try to enumerate all k-cliques, which incurs O(nkk2) time. Since k ≥ 3, this approach cannot achieve the main requirement, so computing the result without enumerating unnecessary k-cliques is required. This paper achieves this challenging task and proposes a simple practically-efficient algorithm that returns the exact answer. We conduct experiments using two real spatial datasets consisting of million points, and the results show the efficiency of our algorithm, e.g., it can return the exact top-N result within 1 second when N ≤ 1000 and k ≤ 7.",
+    "citationCount": 0,
+    "referenceCount": 61
+}

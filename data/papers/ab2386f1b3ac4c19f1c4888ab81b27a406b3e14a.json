@@ -1,0 +1,40 @@
+{
+    "paperId": "ab2386f1b3ac4c19f1c4888ab81b27a406b3e14a",
+    "title": "On the Necessity of World Knowledge for Mitigating Missing Labels in Extreme Classification",
+    "year": 2024,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Jatin Prakash",
+        "Anirudh Buvanesh",
+        "Bishal Santra",
+        "D. Saini",
+        "Sachin Yadav",
+        "Jian Jiao",
+        "Yashoteja Prabhu",
+        "Amit Sharma",
+        "Manik Varma"
+    ],
+    "doi": "10.1145/3690624.3709290",
+    "arxivId": "2408.09585",
+    "url": "https://www.semanticscholar.org/paper/ab2386f1b3ac4c19f1c4888ab81b27a406b3e14a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Extreme Classification (XC) aims to map a query to the most relevant documents from a very large document set. XC algorithms used in real-world applications typically learn this mapping from datasets curated from implicit feedback, such as user clicks. However, these datasets often suffer from missing labels. In this work, we observe that systematic missing labels lead to missing knowledge, which is critical for modelling relevance between queries and documents. We formally show that this absence of knowledge is hard to recover using existing methods such as propensity weighting and data imputation strategies that solely rely on the training dataset. While Large Language Models (LLMs) provide an attractive solution to augment the missing knowledge, leveraging them in applications with low latency requirements and large document sets is challenging. To mitigate missing knowledge at scale, we propose SKIM (Scalable Knowledge Infusion for Missing Labels), an algorithm that leverages a combination of Small Language Models or SLMs, e.g., Llama2-7b, and abundant unstructured meta-data to effectively address the missing label problem. We show the efficacy of our method on large-scale public datasets through a combination of unbiased evaluation strategies, such as exhaustive human annotations and simulation-based evaluation benchmarks. SKIM outperforms existing methods on Recall@100 by more than 10 absolute points. Additionally, SKIM scales to proprietary query-ad retrieval datasets containing 10 million documents, outperforming baseline methods by 12% in offline evaluations and increasing ad click-yield by 1.23% in an online A/B test conducted on Bing Search. We release the code and trained models at: github.com/bicycleman15/skim",
+    "citationCount": 1,
+    "referenceCount": 103
+}

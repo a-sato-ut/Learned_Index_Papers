@@ -1,0 +1,34 @@
+{
+    "paperId": "0fa9877ebd55735d956270c34809fb639c0ae520",
+    "title": "Leveraging Workload Prediction for Query Optimization in Multi-Tenant Parallel DBMSs",
+    "year": 2024,
+    "venue": "International Conference on Cloud and Big Data Computing",
+    "authors": [
+        "Mira El Danaoui",
+        "Shaoyi Yin",
+        "A. Hameurlain",
+        "F. Morvan"
+    ],
+    "doi": "10.1145/3694860.3694866",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0fa9877ebd55735d956270c34809fb639c0ae520",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the realm of Database-as-a-Service (DBaaS), multi-tenancy has emerged as a key concept, enabling a single database instance to be shared among multiple tenants. Within a multi-tenant parallel DBMS, at any point, many tenants may submit SQL queries concurrently, each associated with a performance Service-Level Objective (SLO). Any violation to these SLOs requires the provider to pay fines. Given the instability of query workload in these systems, along with the need to satisfy the strict performance objectives, innovative query optimization strategies are required. These strategies should be well adapted to the specific needs of multi-tenant environments while ensuring profitability for the service provider. In this paper, we design a workload prediction management system (or Prediction Manager in short) inside the query optimizer. The main objective of this manager is to continuously predict the upcoming workload and make this information available to the optimizer. This enables the query optimizer, along with the performance SLOs, to decide when and which execution plan to select. Experimental results showed high efficiency in terms of the provider's long-term profit relatively to those in existing literature.",
+    "citationCount": 1,
+    "referenceCount": 19
+}

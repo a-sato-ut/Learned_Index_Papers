@@ -1,0 +1,38 @@
+{
+    "paperId": "59c4875dbd61bf6c721756ad6c6ad881fa9093e8",
+    "title": "Effective Network-Wide Traffic Measurement: A Lightweight Distributed Sketch Deployment",
+    "year": 2024,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Fuliang Li",
+        "Kejun Guo",
+        "Jiaxing Shen",
+        "Xingwei Wang"
+    ],
+    "doi": "10.1109/INFOCOM52122.2024.10621384",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/59c4875dbd61bf6c721756ad6c6ad881fa9093e8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Network measurement is critical for various network applications, but scaling measurement techniques to the network-wide level is challenging for existing sketch-based solutions. Centralized sketch deployment provides low resource usage but suffers from poor load balancing. In contrast, collaborative measurement achieves load balancing through flow distribution across switches but requires high resource usage. This paper presents a novel lightweight distributed deployment framework that overcomes the limitations above. First, our framework is lightweight such that it splits sketches into segments and allocates them across forwarding paths to minimize resource usage and achieve load balancing. This also enables per-packet load balancing by distributing computations across switches. Second, our framework is also optimized for load balancing by coordinating between flows and enabling finer-grained flow distribution. We evaluate the proposed framework on various network topologies and different sketch deployments. Results indicate our solution matches the load balancing of collaborative measurement while approaching the low resource usage of centralized deployment. Moreover, it achieves superior performance in per-packet load balancing, which is not considered in previous deployment policies. Our work provides efficient distributed sketch deployment to strike a balance between load balancing and resource usage enabling effective network-wide measurement.",
+    "citationCount": 4,
+    "referenceCount": 33
+}

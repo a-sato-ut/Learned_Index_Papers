@@ -1,0 +1,34 @@
+{
+    "paperId": "b18f108bd5268f8913844ca9b92ea6c09307747c",
+    "title": "Triparts: Scalable Streaming Graph Partitioning to Enhance Community Structure",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Ruchi Bhoot",
+        "Tuhin Khare",
+        "Manoj Agarwal",
+        "Siddharth Jaiswal",
+        "Yogesh L. Simmhan"
+    ],
+    "doi": "10.14778/3746405.3746423",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b18f108bd5268f8913844ca9b92ea6c09307747c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "k-way edge based partitioning algorithms for processing large streaming graphs, such as social networks and web crawls, assign each arriving edge to one of the k partitions. This can result in vertices being replicated on multiple partitions. Typically, such partitioning algorithms aim to balance the edge counts across partitions while minimizing the vertex replication. However, such objectives ignore the community structure inherently embedded in the graph, which is an important quality metric for clustering and graph mining applications that subsequently operate on the partitions. To address this gap, we propose a novel optimization goal to maximize the number of local triangles in the partitions as an additional objective. Triangle count is an effective metric to measure the conservation of community structure. Further, we propose TriParts a family of heuristics for online partitioning over an edge stream. They use three complementary state data structures: Bloom Filters, Triangle Map and High degree Map. Each state adds tangible value to meet our objectives. We validate TriParts on six diverse real world graphs with up to 1.6B edges and varying triangle densities. Our best heuristic outperforms the state-of-the-art DBH and HDRF streaming graph partitioners on the triangle-count metric by up to 4–8.3x while maintaining competitive vertex replication factor and edge-balancing. We achieve an ingest rate of 500k edges/sec on a 16 node cluster. We also offer detailed results on the configuration parameters, scalability and overheads of TriParts, and its practical benefits for distributed graph analytics.",
+    "citationCount": 0,
+    "referenceCount": 84
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "7d662cbcc34ce9513f9b0bf766168e44a729630b",
+    "title": "Unleashing Graph Partitioning for Large-Scale Nearest Neighbor Search",
+    "year": 2024,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Lars Gottesbüren",
+        "Laxman Dhulipala",
+        "Rajesh Jayaram",
+        "Jakub Lacki"
+    ],
+    "doi": "10.48550/arXiv.2403.01797",
+    "arxivId": "2403.01797",
+    "url": "https://www.semanticscholar.org/paper/7d662cbcc34ce9513f9b0bf766168e44a729630b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n We consider the fundamental problem of decomposing a large-scale approximate nearest neighbor search (ANNS) problem into smaller sub-problems. The goal is to partition the input points into neighborhood-preserving\n shards\n , so that the nearest neighbors of any point are contained in only a few shards. When a query arrives, a\n routing\n algorithm is used to identify the shards which should be searched for its nearest neighbors. This approach forms the backbone of distributed ANNS, where the dataset is so large that it must be split across multiple machines.\n \n \n In this paper, we design simple and highly efficient routing methods based on clustering and locality-sensitive hashing. We prove strong theoretical guarantees for the LSH-based method, whereas the clustering-based method exhibits better empirical performance. A crucial characteristic of our routing algorithms is that they are inherently modular, and can be used with\n any\n partitioning method. This addresses a key drawback of prior approaches, where the routing algorithms are inextricably linked to their associated partitioning method. In particular, due to their modular structure, our routing methods enable the use of\n balanced graph partitioning\n , which is a high-quality partitioning method without a naturally associated routing algorithm. Prior routing methods compatible with graph partitioning are too slow to train on large-scale data.\n \n We provide the first routing methods that are simultaneously compatible with graph partitioning, fast to train, admit low latency, and achieve high recall. In a comprehensive evaluation of our partitioning and routing on billion-scale datasets, we show that our methods outperform existing scalable partitioning methods by significant margins, achieving up to 1.72× higher QPS at 90% 10-recall than the best competitor and 1.27× in the geometric mean. Through fast and modular routing we establish graph partitioning as the new method of choice for partitioning large-scale ANNS datasets.",
+    "citationCount": 3,
+    "referenceCount": 44
+}

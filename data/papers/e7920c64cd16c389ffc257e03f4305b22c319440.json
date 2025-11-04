@@ -1,0 +1,42 @@
+{
+    "paperId": "e7920c64cd16c389ffc257e03f4305b22c319440",
+    "title": "Porting AI/ML Models to Intelligence Processing Units (IPUs)",
+    "year": 2023,
+    "venue": "Practice and Experience in Advanced Research Computing",
+    "authors": [
+        "Abhinand Nasari",
+        "Lujun Zhai",
+        "Zhenhua He",
+        "Hieu Hanh Le",
+        "S. Cui",
+        "Dhruva K. Chakravorty",
+        "Jian Tao",
+        "Honggao Liu"
+    ],
+    "doi": "10.1145/3569951.3603632",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e7920c64cd16c389ffc257e03f4305b22c319440",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Intelligence processing units (IPUs) are specifically designed accelerators that are dedicated to support artificial intelligence (AI) and machine learning (ML) workflows. Here, we report on the performance characteristics and code-porting experiences on Graphcore IPUs offered on the new National Science Foundation (NSF)-funded Accelerating Computing for Emerging Sciences (ACES) testbed. Our benchmarks compared performance of AI/ML frameworks on ACES IPUS to similar runs on the Graphcloud environment, a commercial IPU cloud service offered by Graphcore. We also ported two PyTorch neural network models from Graphics Processing Units (GPUs) to IPUs to ensure the efficacy of the software environment. The ported models include the TransCycleGAN model that is used in reconstructing high-resolution images from low-resolution images, and the Hierarchical Autoencoder that is for large-scale high-resolution scientific data compression in climate models. These models were successfully ported on mulitple IPUs using utilities in the Graphcore Poplar software development kit. Increasing the number of IPUs resulted in a considerable enhancement in the model's throughput.",
+    "citationCount": 8,
+    "referenceCount": 30
+}

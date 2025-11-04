@@ -1,0 +1,42 @@
+{
+    "paperId": "ccf16458d40ff353ee96e92d32dc03ddc186aeff",
+    "title": "A SHDAViT-MCA Block-Based Network for Remote-Sensing Semantic Change Detection",
+    "year": 2025,
+    "venue": "Remote Sensing",
+    "authors": [
+        "Weiqi Ren",
+        "Zhigang Zhang",
+        "Shaowen Liu",
+        "Haoran Xu",
+        "Zheng Ma",
+        "Rui Gao",
+        "Qingming Kong",
+        "Shoutian Dong",
+        "Zhongbin Su"
+    ],
+    "doi": "10.3390/rs17173026",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ccf16458d40ff353ee96e92d32dc03ddc186aeff",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Agricultural and Food Sciences",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study addresses the challenge of accurately detecting agricultural land-use changes in bi-temporal remote sensing imagery, which is hindered by cross-temporal interference, multi-scale feature modeling limitations, and poor large-area scalability. The study proposes the Semantic Change Detection (SCD) with Single-Head Dual-Attention Vision Transformer (SHDAViT) and Multidimensional Collaborative Attention (MCA) Block-Based Network (SMBNet). The SHDAViT module enhances local-global feature aggregation through a single-head self-attention mechanism combined with channel–spatial dual attention. The MCA module mitigates cross-temporal style discrepancies by modeling cross-dimensional feature interactions, fusing bi-temporal information to accentuate true change regions. SHDAViT extracts discriminative features from each phase image, MCA aligns and fuses these features to suppress noise and amplify effective change signals. Evaluated on the newly developed AgriCD dataset and the JL1 benchmark, SMBNet outperforms five mainstream methods (BiSRNet, Bi-SRUNet++, HRSCD.str3, HRSCD.str4, and CDSC), achieving state-of-the-art performance, with F1 scores of 91.18% (AgriCD) and 86.44% (JL1), demonstrating superior accuracy in detecting subtle farmland transitions. Experimental results confirm the framework’s robustness against label imbalance and environmental variations, offering a practical solution for agricultural monitoring.",
+    "citationCount": 0,
+    "referenceCount": 54
+}

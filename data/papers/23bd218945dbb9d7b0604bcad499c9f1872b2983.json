@@ -1,0 +1,43 @@
+{
+    "paperId": "23bd218945dbb9d7b0604bcad499c9f1872b2983",
+    "title": "Distributed Neural Representation for Reactive In Situ Visualization",
+    "year": 2023,
+    "venue": "IEEE Transactions on Visualization and Computer Graphics",
+    "authors": [
+        "Qi Wu",
+        "J. Insley",
+        "Victor A. Mateevitsi",
+        "S. Rizzi",
+        "M. Papka",
+        "Kwan-Liu Ma"
+    ],
+    "doi": "10.1109/TVCG.2024.3432710",
+    "arxivId": "2304.10516",
+    "url": "https://www.semanticscholar.org/paper/23bd218945dbb9d7b0604bcad499c9f1872b2983",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Implicit neural representations (INRs) have emerged as a powerful tool for compressing large-scale volume data. This opens up new possibilities for in situ visualization. However, the efficient application of INRs to distributed data remains an underexplored area. In this work, we develop a distributed volumetric neural representation and optimize it for in situ visualization. Our technique eliminates data exchanges between processes, achieving state-of-the-art compression speed, quality and ratios. Our technique also enables the implementation of an efficient strategy for caching large-scale simulation data in high temporal frequencies, further facilitating the use of reactive in situ visualization in a wider range of scientific problems. We integrate this system with the Ascent infrastructure and evaluate its performance and usability using real-world simulations.",
+    "citationCount": 5,
+    "referenceCount": 99
+}

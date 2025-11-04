@@ -1,0 +1,42 @@
+{
+    "paperId": "38044180586c1fcee63bf42c22f0ec5e418bc3bf",
+    "title": "Fully-fused Multi-Layer Perceptrons on Intel Data Center GPUs",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Kai Yuan",
+        "Christoph Bauinger",
+        "Xiangyi Zhang",
+        "Pascal Baehr",
+        "Matthias Kirchhart",
+        "Darius Dabert",
+        "Adrien Tousnakhoff",
+        "Pierre Boudier",
+        "Michael Paulitsch"
+    ],
+    "doi": "10.48550/arXiv.2403.17607",
+    "arxivId": "2403.17607",
+    "url": "https://www.semanticscholar.org/paper/38044180586c1fcee63bf42c22f0ec5e418bc3bf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents a SYCL implementation of Multi-Layer Perceptrons (MLPs), which targets and is optimized for the Intel Data Center GPU Max 1550. To increase the performance, our implementation minimizes the slow global memory accesses by maximizing the data reuse within the general register file and the shared local memory by fusing the operations in each layer of the MLP. We show with a simple roofline model that this results in a significant increase in the arithmetic intensity, leading to improved performance, especially for inference. We compare our approach to a similar CUDA implementation for MLPs and show that our implementation on the Intel Data Center GPU outperforms the CUDA implementation on Nvidia's H100 GPU by a factor up to 2.84 in inference and 1.75 in training. The paper also showcases the efficiency of our SYCL implementation in three significant areas: Image Compression, Neural Radiance Fields, and Physics-Informed Machine Learning. In all cases, our implementation outperforms the off-the-shelf Intel Extension for PyTorch (IPEX) implementation on the same Intel GPU by up to a factor of 30 and the CUDA PyTorch version on Nvidia's H100 GPU by up to a factor 19. The code can be found at https://github.com/intel/tiny-dpcpp-nn.",
+    "citationCount": 2,
+    "referenceCount": 127
+}

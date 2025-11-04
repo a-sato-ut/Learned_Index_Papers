@@ -1,0 +1,35 @@
+{
+    "paperId": "d3b0a263b505a8509b4180e851f695f6a8d2ea5a",
+    "title": "Efficient Data-aware Distance Comparison Operations for High-Dimensional Approximate Nearest Neighbor Search",
+    "year": 2024,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Liwei Deng",
+        "Penghao Chen",
+        "Ximu Zeng",
+        "Tianfu Wang",
+        "Yan Zhao",
+        "Kai Zheng"
+    ],
+    "doi": "10.48550/arXiv.2411.17229",
+    "arxivId": "2411.17229",
+    "url": "https://www.semanticscholar.org/paper/d3b0a263b505a8509b4180e851f695f6a8d2ea5a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n High-dimensional approximate\n K\n nearest neighbor search (AKNN) is a fundamental task for various applications, including information retrieval. Most existing algorithms for AKNN can be decomposed into two main components, i.e., candidate generation and distance comparison operations (DCOs). While different methods have unique ways of generating candidates, they all share the same DCO process. In this study, we focus on accelerating the process of DCOs that dominates the time cost in most existing AKNN algorithms. To achieve this, we propose an Data-Aware Distance Estimation approach, called\n DADE\n , which approximates the\n exact\n distance in a lower-dimensional space. We theoretically prove that the distance estimation in\n DADE\n is\n unbiased\n in terms of data distribution. Furthermore, we propose an optimized estimation based on the unbiased distance estimation formulation. In addition, we propose a hypothesis testing approach to adaptively determine the number of dimensions needed to estimate the\n exact\n distance with sufficient confidence. We integrate\n DADE\n into widely-used AKNN search algorithms, e.g.,\n IVF\n and\n HNSW\n , and conduct extensive experiments to demonstrate the superiority.\n",
+    "citationCount": 2,
+    "referenceCount": 54
+}
