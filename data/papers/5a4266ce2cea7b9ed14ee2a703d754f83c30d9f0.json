@@ -1,0 +1,30 @@
+{
+    "paperId": "5a4266ce2cea7b9ed14ee2a703d754f83c30d9f0",
+    "title": "Queues with Small Advice",
+    "year": 2020,
+    "venue": "Conference on Applied and Computational Discrete Algorithms",
+    "authors": [
+        "M. Mitzenmacher"
+    ],
+    "doi": "10.1137/1.9781611976830.1",
+    "arxivId": "2006.15463",
+    "url": "https://www.semanticscholar.org/paper/5a4266ce2cea7b9ed14ee2a703d754f83c30d9f0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Motivated by recent work on scheduling with predicted job sizes, we consider the performance of scheduling algorithms with minimal advice, namely a single bit. Besides demonstrating the power of very limited advice, such schemes are quite natural. In the prediction setting, one bit of advice can be used to model a simple prediction as to whether a job is \"large\" or \"small\"; that is, whether a job is above or below a given threshold. Further, one-bit advice schemes can correspond to mechanisms that tell whether to put a job at the front or the back for the queue, a limitation which may be useful in many implementation settings. Finally, queues with a single bit of advice have a simple enough state that they can be analyzed in the limiting mean-field analysis framework for the power of two choices. Our work follows in the path of recent work by showing that even small amounts of even possibly inaccurate information can greatly improve scheduling performance.",
+    "citationCount": 22,
+    "referenceCount": 21
+}

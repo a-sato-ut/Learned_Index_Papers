@@ -1,0 +1,35 @@
+{
+    "paperId": "87c5325b54a83c94a1bb5ed50407ef78782dacb4",
+    "title": "Improved Generalization Bound and Learning of Sparsity Patterns for Data-Driven Low-Rank Approximation",
+    "year": 2022,
+    "venue": "International Conference on Artificial Intelligence and Statistics",
+    "authors": [
+        "Shinsaku Sakaue",
+        "Taihei Oki"
+    ],
+    "doi": "10.48550/arXiv.2209.08281",
+    "arxivId": "2209.08281",
+    "url": "https://www.semanticscholar.org/paper/87c5325b54a83c94a1bb5ed50407ef78782dacb4",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2209.08281",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning sketching matrices for fast and accurate low-rank approximation (LRA) has gained increasing attention. Recently, Bartlett, Indyk, and Wagner (COLT 2022) presented a generalization bound for the learning-based LRA. Specifically, for rank-$k$ approximation using an $m \\times n$ learned sketching matrix with $s$ non-zeros in each column, they proved an $\\tilde{\\mathrm{O}}(nsm)$ bound on the \\emph{fat shattering dimension} ($\\tilde{\\mathrm{O}}$ hides logarithmic factors). We build on their work and make two contributions. 1. We present a better $\\tilde{\\mathrm{O}}(nsk)$ bound ($k \\le m$). En route to obtaining this result, we give a low-complexity \\emph{Goldberg--Jerrum algorithm} for computing pseudo-inverse matrices, which would be of independent interest. 2. We alleviate an assumption of the previous study that sketching matrices have a fixed sparsity pattern. We prove that learning positions of non-zeros increases the fat shattering dimension only by ${\\mathrm{O}}(ns\\log n)$. In addition, experiments confirm the practical benefit of learning sparsity patterns.",
+    "citationCount": 5,
+    "referenceCount": 31
+}

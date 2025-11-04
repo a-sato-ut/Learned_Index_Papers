@@ -1,0 +1,34 @@
+{
+    "paperId": "db09d891c7ed1f08f39a878b8417ba42ad19eed3",
+    "title": "Prior-Free Mechanism with Welfare Guarantees",
+    "year": 2024,
+    "venue": "The Web Conference",
+    "authors": [
+        "Guru Guruganesh",
+        "Jon Schneider",
+        "Joshua Wang"
+    ],
+    "doi": "10.1145/3589334.3645500",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/db09d891c7ed1f08f39a878b8417ba42ad19eed3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We consider the problem of designing prior-free revenue-maximizing mechanisms for allocating items to n buyers when the mechanism is additionally provided with an estimate for the optimal welfare (which is guaranteed to be correct to within a multiplicative factor of 1/α). In the digital goods setting (where we can allocate items to an arbitrary subset of the buyers), we demonstrate a mechanism that achieves revenue that is O(log n/α)-competitive with the optimal welfare. In the public goods setting (where we either must allocate the item to all buyers or to no buyers), we demonstrate a mechanism which is O(n log 1/α) competitive. In both settings, we show the dependence on α and n is tight. Finally, we discuss generalizations to broader classes of allocation constraints.",
+    "citationCount": 0,
+    "referenceCount": 21
+}

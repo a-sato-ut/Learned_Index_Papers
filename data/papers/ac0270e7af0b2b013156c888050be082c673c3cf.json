@@ -1,0 +1,39 @@
+{
+    "paperId": "ac0270e7af0b2b013156c888050be082c673c3cf",
+    "title": "A Survey of Learned Indexes for the Multi-dimensional Space",
+    "year": 2024,
+    "venue": "ACM Computing Surveys",
+    "authors": [
+        "Abdullah Al-Mamun",
+        "Hao Wu",
+        "Qiyang He",
+        "Jianguo Wang",
+        "W. Aref"
+    ],
+    "doi": "10.1145/3768575",
+    "arxivId": "2403.06456",
+    "url": "https://www.semanticscholar.org/paper/ac0270e7af0b2b013156c888050be082c673c3cf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A recent research trend involves treating database index structures as Machine Learning (ML) models. In this domain, single or multiple ML models are trained to learn the mapping from keys to positions inside a data set. This class of indexes is known as “Learned Indexes.” Learned indexes have demonstrated improved search performance and reduced space requirements for one-dimensional data. The concept of one-dimensional learned indexes has naturally been extended to multi-dimensional (e.g., spatial) data, leading to the development of “Learned Multi-dimensional Indexes.” This survey presents a taxonomy that classifies and categorizes both learned one- and multi-dimensional indexes, and surveys the existing literature on learned indexes according to this taxonomy with an emphasis on learned multi-dimensional index structures. Specifically, it reviews the current state of this research area, explains the core concepts behind each proposed method, and classifies these methods based on several well-defined criteria. Additionally, we present a timeline to illustrate the evolution of research on learned indexes. Finally, we highlight several open challenges and future research directions in this emerging and highly active field.",
+    "citationCount": 15,
+    "referenceCount": 230
+}

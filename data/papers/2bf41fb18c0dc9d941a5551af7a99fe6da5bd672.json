@@ -1,0 +1,32 @@
+{
+    "paperId": "2bf41fb18c0dc9d941a5551af7a99fe6da5bd672",
+    "title": "Learned Sorted Table Search and Static Indexes in Small Model Space",
+    "year": 2021,
+    "venue": "International Conference of the Italian Association for Artificial Intelligence",
+    "authors": [
+        "Domenico Amato",
+        "Giosuè Lo Bosco",
+        "R. Giancarlo"
+    ],
+    "doi": "10.1007/978-3-031-08421-8_32",
+    "arxivId": "2107.09480",
+    "url": "https://www.semanticscholar.org/paper/2bf41fb18c0dc9d941a5551af7a99fe6da5bd672",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2107.09480",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine Learning Techniques, properly combined with Data Structures, have resulted in Learned Static Indexes, innovative and powerful tools that speed-up Binary Search, with the use of additional space with respect to the table being searched into. Such space is devoted to the Machine Learning Model. Although in their infancy, they are methodologically and practically important, due to the pervasiveness of Sorted Table Search procedures. In modern applications, model space is a key factor and, in fact, a major open question concerning this area is to assess to what extent one can enjoy the speed-up of Binary Search achieved by Learned Indexes while using constant or nearly constant space models. In this paper, we investigate the mentioned question by (a) introducing two new models, i.e., the Learned k-ary Search Model and the Synoptic Recursive Model Index, respectively; (b) systematically exploring the time-space trade-offs of a hierarchy of existing models, i.e., the ones in the reference software platform Searching on Sorted Data, together with the new ones proposed here. By adhering and extending the current benchmarking methodology, we experimentally show that the Learned k-ary Search Model can speed up Binary Search in constant additional space. Our second model, together with the bi-criteria Piece-wise Geometric Model index, can achieve a speed-up of Binary Search with a model space of 0:05% more than the one taken by the table, being competitive in terms of time-space trade-off with existing proposals. The Synoptic Recursive Model Index and the bi-criteria Piece-wise Geometric Model complement each other quite well across the various levels of the internal memory hierarchy. Finally, our findings stimulate research in this area, since they highlight the need for further studies regarding the time-space relation in Learned Indexes.",
+    "citationCount": 6,
+    "referenceCount": 54
+}

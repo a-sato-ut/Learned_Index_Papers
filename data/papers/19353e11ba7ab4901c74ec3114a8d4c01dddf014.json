@@ -1,0 +1,41 @@
+{
+    "paperId": "19353e11ba7ab4901c74ec3114a8d4c01dddf014",
+    "title": "Learning-Augmented Algorithms for the Bahncard Problem",
+    "year": 2024,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Hailiang Zhao",
+        "Xueyan Tang",
+        "Peng Chen",
+        "Shuiguang Deng"
+    ],
+    "doi": "10.48550/arXiv.2410.15257",
+    "arxivId": "2410.15257",
+    "url": "https://www.semanticscholar.org/paper/19353e11ba7ab4901c74ec3114a8d4c01dddf014",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we study learning-augmented algorithms for the Bahncard problem. The Bahncard problem is a generalization of the ski-rental problem, where a traveler needs to irrevocably and repeatedly decide between a cheap short-term solution and an expensive long-term one with an unknown future. Even though the problem is canonical, only a primal-dual-based learning-augmented algorithm was explicitly designed for it. We develop a new learning-augmented algorithm, named PFSUM, that incorporates both history and short-term future to improve online decision making. We derive the competitive ratio of PFSUM as a function of the prediction error and conduct extensive experiments to show that PFSUM outperforms the primal-dual-based algorithm.",
+    "citationCount": 2,
+    "referenceCount": 31
+}

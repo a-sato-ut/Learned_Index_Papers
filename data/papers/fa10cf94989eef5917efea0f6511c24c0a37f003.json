@@ -1,0 +1,36 @@
+{
+    "paperId": "fa10cf94989eef5917efea0f6511c24c0a37f003",
+    "title": "Range IP oriented fast search algorithm for IPSec gateway security policies",
+    "year": 2024,
+    "venue": "IEEE International Conference on High Performance Computing and Communications",
+    "authors": [
+        "Bo Jin",
+        "Xingwei Cai",
+        "Yuhao Liu",
+        "Nannan Xia",
+        "Zhiyong Zha",
+        "Yongchao Shen",
+        "Kai Peng"
+    ],
+    "doi": "10.1109/HPCC64274.2024.00163",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fa10cf94989eef5917efea0f6511c24c0a37f003",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Given the increased complexity and volume of IP traffic, maintaining efficient and secure network operations poses substantial challenges. IPSec gateways, critical for ensuring secure communications over IP networks, require robust and efficient security policy search mechanisms. Traditional methods, such as the interval tree algorithm, often fall short in terms of speed and scalability when faced with large and dynamic IP ranges. This paper addresses these demands by proposing a novel IP range search algorithm termed Fast Limit Hash Interval-Tree Search (FLHIS). The FLHIS algorithm utilizes a two-stage processing approach for IP ranges within security policies, combining the range matching capabilities of interval trees with the rapid matching abilities of hash tables to achieve swift target security policy searches. Additionally, a limiting value is set to control the data volume within each hash node, balancing the data scale between nodes and minimizing the search time within nodes. Experimental comparisons with traditional interval tree algorithms demonstrate that the FLHIS algorithm significantly improves performance, reducing search times to just 12.5% of those observed with the interval tree algorithm in the best-case scenario. This advancement is crucial for enhancing the performance and reliability of IPSec gateways in contemporary network environments.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

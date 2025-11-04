@@ -1,0 +1,34 @@
+{
+    "paperId": "d8ed106e13d5615211f83859e61adca97f51327f",
+    "title": "The “AI + R” - tree: An Instance-optimized R - tree",
+    "year": 2022,
+    "venue": "International Conference on Mobile Data Management",
+    "authors": [
+        "Abdullah Al-Mamun",
+        "Ch. Md. Rakin Haider",
+        "Jianguo Wang",
+        "W. Aref"
+    ],
+    "doi": "10.1109/MDM55031.2022.00023",
+    "arxivId": "2207.00550",
+    "url": "https://www.semanticscholar.org/paper/d8ed106e13d5615211f83859e61adca97f51327f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2207.00550",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The emerging class of instance-optimized systems has shown potential to achieve high performance by specializing to a specific data and query workloads. Particularly, Machine Learning (ML) techniques have been applied successfully to build various instance-optimized components (e.g., learned indexes). This paper investigates to leverage ML techniques to enhance the performance of spatial indexes, particularly the R-tree, for a given data and query workloads. As the areas covered by the R-tree index nodes overlap in space, upon searching for a specific point in space, multiple paths from root to leaf may potentially be explored. In the worst case, the entire R-tree could be searched. In this paper, we define and use the overlap ratio to quantify the de-gree of extraneous leaf node accesses required by a range query. The goal is to enhance the query performance of a traditional R-tree for high-overlap range queries as they tend to incur long running-times. We introduce a new AI-tree that transforms the search operation of an R-tree into a multi-label classification task to exclude the extraneous leaf node accesses. Then, we augment a traditional R-tree to the AI-tree to form a hybrid “AI+R”-tree. The “AI+R”-tree can automatically differentiate between the high- and low-overlap queries using a learned model. Thus, the “AI+R”-tree processes high-overlap queries using the AI-tree, and the low-overlap queries using the R-tree. Experiments on real datasets demonstrate that the “AI+R”-tree can enhance the query performance over a traditional R-tree by up to 500%.",
+    "citationCount": 12,
+    "referenceCount": 49
+}

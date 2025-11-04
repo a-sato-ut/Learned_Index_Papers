@@ -1,0 +1,34 @@
+{
+    "paperId": "e3940b2fbc758d5fb4269c88e7b47676b0b35170",
+    "title": "LSched: A Workload-Aware Learned Query Scheduler for Analytical Database Systems",
+    "year": 2022,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Ibrahim Sabek",
+        "T. Ukyab",
+        "Tim Kraska"
+    ],
+    "doi": "10.1145/3514221.3526158",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e3940b2fbc758d5fb4269c88e7b47676b0b35170",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3514221.3526158",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query scheduling is a crucial task for analytical database systems that can greatly affect the query latency. However, existing scheduling approaches are based on heuristics and not optimal. A recent trial proposed to use reinforcement learning for automatically learning end-to-end scheduling policies. However, such trial was not capable of considering the database-specific characteristics (e.g., operator types, pipelining), and hence becomes not efficient for analytical database systems. In this paper, we try to fill this gap and introduce LSched (Learned Scheduler), a fully learned workload-aware query scheduler for in-memory analytical database systems. LSched provides an efficient inter-query and intra-query scheduling for dynamic analytical workloads (i.e., different queries can arrive/depart at any time). We integrated LSched with an efficient in-memory analytical database system, and evaluated it with TPCH, SSB, and JOB benchmarks. Our evaluation shows that LSched improves over the performance of existing state-of-the-art query schedulers and heuristic-based ones by at least 35% and 50% in both streaming and batching query workloads.",
+    "citationCount": 24,
+    "referenceCount": 67
+}

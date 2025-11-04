@@ -1,0 +1,34 @@
+{
+    "paperId": "ab398a1b581ae282ffa4f644f3b01f5b84323ad3",
+    "title": "Algorithms with Prediction Portfolios",
+    "year": 2022,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "M. Dinitz",
+        "Sungjin Im",
+        "Thomas Lavastida",
+        "Benjamin Moseley",
+        "Sergei Vassilvitskii"
+    ],
+    "doi": "10.48550/arXiv.2210.12438",
+    "arxivId": "2210.12438",
+    "url": "https://www.semanticscholar.org/paper/ab398a1b581ae282ffa4f644f3b01f5b84323ad3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2210.12438",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The research area of algorithms with predictions has seen recent success showing how to incorporate machine learning into algorithm design to improve performance when the predictions are correct, while retaining worst-case guarantees when they are not. Most previous work has assumed that the algorithm has access to a single predictor. However, in practice, there are many machine learning methods available, often with incomparable generalization guarantees, making it hard to pick a best method a priori. In this work we consider scenarios where multiple predictors are available to the algorithm and the question is how to best utilize them. Ideally, we would like the algorithm's performance to depend on the quality of the best predictor. However, utilizing more predictions comes with a cost, since we now have to identify which prediction is the best. We study the use of multiple predictors for a number of fundamental problems, including matching, load balancing, and non-clairvoyant scheduling, which have been well-studied in the single predictor setting. For each of these problems we introduce new algorithms that take advantage of multiple predictors, and prove bounds on the resulting performance.",
+    "citationCount": 24,
+    "referenceCount": 51
+}

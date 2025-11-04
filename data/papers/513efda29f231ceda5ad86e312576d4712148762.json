@@ -1,0 +1,35 @@
+{
+    "paperId": "513efda29f231ceda5ad86e312576d4712148762",
+    "title": "LIOF: Make the Learned Index Learn Faster With Higher Accuracy",
+    "year": 2025,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Tao Ji",
+        "Kai Zhong",
+        "Luming Sun",
+        "Yiyan Li",
+        "Cuiping Li",
+        "Hong Chen"
+    ],
+    "doi": "10.1109/TKDE.2025.3548298",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/513efda29f231ceda5ad86e312576d4712148762",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learned indexes, emerging as a promising alternative to traditional indexes like B+Tree, utilize machine learning models to enhance query performance and reduce memory usage. However, the widespread adoption of learned indexes is limited by their expensive training cost and the need for high accuracy of internal models. Although some studies attempt to optimize the building process of these learned indexes, existing methods are restrictive in scope and applicability. They are usually tailored to specific index types and heavily rely on pre-trained model knowledge, making deployment a challenging task. In this work, we introduce the Learned Index Optimization Framework (LIOF), a general and easily integrated solution aimed at expediting the training process and improving the accuracy of index model for one-dimensional and multi-dimensional learned indexes. The optimization of LIOF for the learned indexes is intuitive, directly providing optimized parameters for index models based on the distribution of node data. By leveraging the correlation between key distribution and node model parameters, LIOF significantly reduces the training epochs required for each node model. Initially, we introduce an optimization strategy inspired by optimization-based meta-learning to train the LIOF to generate optimized initial parameters for index node models. Subsequently, we present a data-driven encoder and a parameter-centric decoder network, which adaptively translate key distribution into a latent variable representation and decode it into optimized node model initialization. Additionally, to further utilize characteristics of key distribution, we propose a monotonic regularizer and focal loss, guiding LIOF training towards efficiency and precision. Through extensive experimentation on real-world and synthetic datasets, we demonstrate that LIOF provides substantial enhancements in both training efficiency and the predictive accuracy for learned indexes.",
+    "citationCount": 0,
+    "referenceCount": 54
+}

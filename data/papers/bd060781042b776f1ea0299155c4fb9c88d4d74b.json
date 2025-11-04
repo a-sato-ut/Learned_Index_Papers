@@ -1,0 +1,40 @@
+{
+    "paperId": "bd060781042b776f1ea0299155c4fb9c88d4d74b",
+    "title": "Algorithm Configuration for Structured Pfaffian Settings",
+    "year": 2024,
+    "venue": "Trans. Mach. Learn. Res.",
+    "authors": [
+        "Maria-Florina Balcan",
+        "Anh Nguyen",
+        "Dravyansh Sharma"
+    ],
+    "doi": null,
+    "arxivId": "2409.04367",
+    "url": "https://www.semanticscholar.org/paper/bd060781042b776f1ea0299155c4fb9c88d4d74b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data-driven algorithm design automatically adapts algorithms to specific application domains, achieving better performance. In the context of parameterized algorithms, this approach involves tuning the algorithm's hyperparameters using problem instances drawn from the problem distribution of the target application domain. This can be achieved by maximizing empirical utilities that measure the algorithms' performance as a function of their hyperparameters, using problem instances. While empirical evidence supports the effectiveness of data-driven algorithm design, providing theoretical guarantees for several parameterized families remains challenging. This is due to the intricate behaviors of their corresponding utility functions, which typically admit piecewise discontinuous structures. In this work, we present refined frameworks for providing learning guarantees for parameterized data-driven algorithm design problems in both distributional and online learning settings. For the distributional learning setting, we introduce the \\textit{Pfaffian GJ framework}, an extension of the classical \\textit{GJ framework}, that is capable of providing learning guarantees for function classes for which the computation involves Pfaffian functions. Unlike the GJ framework, which is limited to function classes with computation characterized by rational functions, our proposed framework can deal with function classes involving Pfaffian functions, which are much more general and widely applicable. We then show that for many parameterized algorithms of interest, their utility function possesses a \\textit{refined piecewise structure}, which automatically translates to learning guarantees using our proposed framework.",
+    "citationCount": 4,
+    "referenceCount": 83
+}

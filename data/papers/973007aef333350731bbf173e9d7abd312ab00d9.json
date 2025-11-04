@@ -1,0 +1,39 @@
+{
+    "paperId": "973007aef333350731bbf173e9d7abd312ab00d9",
+    "title": "Learning-Augmented Streaming Codes are Approximately Optimal for Variable-Size Messages",
+    "year": 2022,
+    "venue": "International Symposium on Information Theory",
+    "authors": [
+        "Michael Rudow",
+        "K. V. Rashmi"
+    ],
+    "doi": "10.48550/arXiv.2205.08521",
+    "arxivId": "2205.08521",
+    "url": "https://www.semanticscholar.org/paper/973007aef333350731bbf173e9d7abd312ab00d9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2205.08521",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Real-time streaming communication requires a high quality-of-service despite contending with packet loss. Streaming codes are a class of codes best suited for this setting. A key challenge for streaming codes is that they operate in an \"online\" setting in which the amount of data to be transmitted varies over time and is not known in advance. Mitigating the adverse effects of variability requires spreading the data that arrives at a time slot over multiple future packets, and the optimal strategy for spreading depends on the arrival pattern. Algebraic coding techniques alone are therefore insufficient for designing rate-optimal codes. We combine algebraic coding techniques with a learning-augmented algorithm for spreading to design the first approximately rate-optimal streaming codes for a range of parameter regimes that are important for practical applications. An extended version of this paper is available at: [1].",
+    "citationCount": 12,
+    "referenceCount": 59
+}

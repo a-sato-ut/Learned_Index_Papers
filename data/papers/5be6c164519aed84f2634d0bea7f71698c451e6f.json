@@ -1,0 +1,36 @@
+{
+    "paperId": "5be6c164519aed84f2634d0bea7f71698c451e6f",
+    "title": "Efficiently Solving Discounted MDPs with Predictions on Transition Matrices",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Lixing Lyu",
+        "Jiashuo Jiang",
+        "Wang Chi Cheung"
+    ],
+    "doi": "10.48550/arXiv.2502.15345",
+    "arxivId": "2502.15345",
+    "url": "https://www.semanticscholar.org/paper/5be6c164519aed84f2634d0bea7f71698c451e6f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study infinite-horizon Discounted Markov Decision Processes (DMDPs) under a generative model. Motivated by the Algorithm with Advice framework Mitzenmacher and Vassilvitskii 2022, we propose a novel framework to investigate how a prediction on the transition matrix can enhance the sample efficiency in solving DMDPs and improve sample complexity bounds. We focus on the DMDPs with $N$ state-action pairs and discounted factor $\\gamma$. Firstly, we provide an impossibility result that, without prior knowledge of the prediction accuracy, no sampling policy can compute an $\\epsilon$-optimal policy with a sample complexity bound better than $\\tilde{O}((1-\\gamma)^{-3} N\\epsilon^{-2})$, which matches the state-of-the-art minimax sample complexity bound with no prediction. In complement, we propose an algorithm based on minimax optimization techniques that leverages the prediction on the transition matrix. Our algorithm achieves a sample complexity bound depending on the prediction error, and the bound is uniformly better than $\\tilde{O}((1-\\gamma)^{-4} N \\epsilon^{-2})$, the previous best result derived from convex optimization methods. These theoretical findings are further supported by our numerical experiments.",
+    "citationCount": 3,
+    "referenceCount": 63
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "848f9929044d5ce38febdfe32d0a46fd5d56dae2",
+    "title": "Telescoping Filter: A Practical Adaptive Filter",
+    "year": 2021,
+    "venue": "Embedded Systems and Applications",
+    "authors": [
+        "David J. Lee",
+        "Samuel McCauley",
+        "Shikha Singh",
+        "Maximilian Stein"
+    ],
+    "doi": "10.4230/LIPIcs.ESA.2021.60",
+    "arxivId": "2107.02866",
+    "url": "https://www.semanticscholar.org/paper/848f9929044d5ce38febdfe32d0a46fd5d56dae2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Filters are small, fast, and approximate set membership data structures. They are often used to filter out expensive accesses to a remote set S for negative queries (that is, filtering out queries x ∉ S). Filters have one-sided errors: on a negative query, a filter may say \"present\" with a tunable false-positive probability of e. Correctness is traded for space: filters only use log (1/e) + O(1) bits per element. \nThe false-positive guarantees of most filters, however, hold only for a single query. In particular, if x is a false positive, a subsequent query to x is a false positive with probability 1, not e. With this in mind, recent work has introduced the notion of an adaptive filter. A filter is adaptive if each query is a false positive with probability e, regardless of answers to previous queries. This requires \"fixing\" false positives as they occur. \nAdaptive filters not only provide strong false positive guarantees in adversarial environments but also improve query performance on practical workloads by eliminating repeated false positives. \nExisting work on adaptive filters falls into two categories. On the one hand, there are practical filters, based on the cuckoo filter, that attempt to fix false positives heuristically without meeting the adaptivity guarantee. On the other hand, the broom filter is a very complex adaptive filter that meets the optimal theoretical bounds. \nIn this paper, we bridge this gap by designing the telescoping adaptive filter (TAF), a practical, provably adaptive filter. We provide theoretical false-positive and space guarantees for our filter, along with empirical results where we compare its performance against state-of-the-art filters. We also implement the broom filter and compare it to the TAF. Our experiments show that theoretical adaptivity can lead to improved false-positive performance on practical inputs, and can be achieved while maintaining throughput that is similar to non-adaptive filters.",
+    "citationCount": 15,
+    "referenceCount": 34
+}

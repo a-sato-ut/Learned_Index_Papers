@@ -1,0 +1,39 @@
+{
+    "paperId": "a6548c87ee9dc8dd4f315121289008b7d9c3c98c",
+    "title": "Accelerating Matroid Optimization through Fast Imprecise Oracles",
+    "year": 2024,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Franziska Eberle",
+        "Felix Hommelsheim",
+        "Alexander Lindermayr",
+        "Zhenwei Liu",
+        "Nicole Megow",
+        "Jens Schlöter"
+    ],
+    "doi": "10.48550/arXiv.2402.02774",
+    "arxivId": "2402.02774",
+    "url": "https://www.semanticscholar.org/paper/a6548c87ee9dc8dd4f315121289008b7d9c3c98c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Querying complex models for precise information (e.g. traffic models, database systems, large ML models) often entails intense computations and results in long response times. Thus, weaker models which give imprecise results quickly can be advantageous, provided inaccuracies can be resolved using few queries to a stronger model. In the fundamental problem of computing a maximum-weight basis of a matroid, a well-known generalization of many combinatorial optimization problems, algorithms have access to a clean oracle to query matroid information. We additionally equip algorithms with a fast but dirty oracle modelling an unknown, potentially different matroid. We design and analyze practical algorithms which only use few clean queries w.r.t. the quality of the dirty oracle, while maintaining robustness against arbitrarily poor dirty matroids, approaching the performance of classic algorithms for the given problem. Notably, we prove that our algorithms are, in many respects, best-possible. Further, we outline extensions to other matroid oracle types, non-free dirty oracles and other matroid problems.",
+    "citationCount": 2,
+    "referenceCount": 49
+}

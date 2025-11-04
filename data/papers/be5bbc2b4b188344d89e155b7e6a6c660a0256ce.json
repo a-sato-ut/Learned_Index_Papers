@@ -1,0 +1,35 @@
+{
+    "paperId": "be5bbc2b4b188344d89e155b7e6a6c660a0256ce",
+    "title": "On Instance-Optimal Algorithms for a Generalization of Nuts and Bolts and Generalized Sorting",
+    "year": 2022,
+    "venue": "International Workshop and International Workshop on Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques",
+    "authors": [
+        "Mayank Goswami",
+        "R. Jacob"
+    ],
+    "doi": "10.4230/LIPIcs.APPROX/RANDOM.2024.23",
+    "arxivId": "2211.04601",
+    "url": "https://www.semanticscholar.org/paper/be5bbc2b4b188344d89e155b7e6a6c660a0256ce",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We generalize the classical nuts and bolts problem to a setting where the input is a collection of $n$ nuts and $m$ bolts, and there is no promise of any matching pairs. It is not allowed to compare a nut directly with a nut or a bolt directly with a bolt, and the goal is to perform the fewest nut-bolt comparisons to discover the partial order between the nuts and bolts. We term this problem \\emph{bipartite sorting}. We show that instances of bipartite sorting of the same size exhibit a wide range of complexity, and propose to perform a fine-grained analysis for this problem. We rule out straightforward notions of instance-optimality as being too stringent, and adopt a \\emph{neighborhood-based} definition. Our definition may be of independent interest as a unifying lens for instance-optimal algorithms for other static problems existing in literature. This includes problems like sorting (Estivill-Castro and Woods, ACM Comput. Surv. 1992), convex hull (Afshani, Barbay and Chan, JACM 2017), adaptive joins (Demaine, L\\'{o}pez-Ortiz and Munro, SODA 2000), and the recent concept of universal optimality for graphs (Haeupler, Hlad\\'ik, Rozho\\v{n}, Tarjan and T\\v{e}tek, 2023). As our main result on bipartite sorting, we give a randomized algorithm that is within a factor of $O(\\log ^3 (n+m))$ of being instance-optimal w.h.p., with respect to the neighborhood-based definition. As our second contribution, we generalize bipartite sorting to DAG sorting, when the underlying DAG is not necessarily bipartite. As an unexpected consequence of a simple algorithm for DAG sorting, we rule out a potential lower bound on the widely-studied problem of \\emph{sorting with priced information}, posed by (Charikar, Fagin, Guruswami, Kleinberg, Raghavan and Sahai, STOC 2000).",
+    "citationCount": 1,
+    "referenceCount": 29
+}

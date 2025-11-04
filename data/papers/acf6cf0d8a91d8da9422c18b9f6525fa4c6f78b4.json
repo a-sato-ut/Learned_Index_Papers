@@ -1,0 +1,35 @@
+{
+    "paperId": "acf6cf0d8a91d8da9422c18b9f6525fa4c6f78b4",
+    "title": "Fast and Simple Densest Subgraph with Predictions",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Thai Bui",
+        "H. Vu"
+    ],
+    "doi": "10.48550/arXiv.2505.12600",
+    "arxivId": "2505.12600",
+    "url": "https://www.semanticscholar.org/paper/acf6cf0d8a91d8da9422c18b9f6525fa4c6f78b4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study the densest subgraph problem and its variants through the lens of learning-augmented algorithms. For this problem, the greedy algorithm by Charikar (APPROX 2000) provides a linear-time $ 1/2 $-approximation, while computing the exact solution typically requires solving a linear program or performing maximum flow computations.We show that given a partial solution, i.e., one produced by a machine learning classifier that captures at least a $ (1 - \\epsilon) $-fraction of nodes in the optimal subgraph, it is possible to design an extremely simple linear-time algorithm that achieves a provable $ (1 - \\epsilon) $-approximation. Our approach also naturally extends to the directed densest subgraph problem and several NP-hard variants.An experiment on the Twitch Ego Nets dataset shows that our learning-augmented algorithm outperforms Charikar's greedy algorithm and a baseline that directly returns the predicted densest subgraph without additional algorithmic processing.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

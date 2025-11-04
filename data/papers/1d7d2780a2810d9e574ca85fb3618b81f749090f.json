@@ -1,0 +1,35 @@
+{
+    "paperId": "1d7d2780a2810d9e574ca85fb3618b81f749090f",
+    "title": "Distillation-Enabled Knowledge Alignment Protocol for Semantic Communication in AI Agent Networks",
+    "year": 2025,
+    "venue": "IEEE Communications Letters",
+    "authors": [
+        "Jingzhi Hu",
+        "Geoffrey Ye Li"
+    ],
+    "doi": "10.1109/LCOMM.2025.3601995",
+    "arxivId": "2505.17030",
+    "url": "https://www.semanticscholar.org/paper/1d7d2780a2810d9e574ca85fb3618b81f749090f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Future networks are envisioned to connect massive artificial intelligence (AI) agents, enabling their extensive collaboration on diverse tasks. Compared to traditional entities, these agents naturally suit the semantic communication (SC), which can significantly enhance the bandwidth efficiency. Nevertheless, SC requires the knowledge among agents to be aligned, while agents have distinct expert knowledge for their individual tasks in practice. In this paper, we propose a distillation-enabled knowledge alignment protocol (DeKAP), which distills the expert knowledge of each agent into parameter-efficient low-rank matrices, allocates them across the network, and allows agents to simultaneously maintain aligned knowledge for multiple tasks. We formulate the joint minimization of alignment loss, communication overhead, and storage cost as a large-scale integer linear programming problem and develop a highly efficient greedy algorithm. From computer simulation, the DeKAP establishes knowledge alignment with the lowest communication and computation resources compared to conventional approaches.",
+    "citationCount": 1,
+    "referenceCount": 18
+}

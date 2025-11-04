@@ -1,0 +1,32 @@
+{
+    "paperId": "5013c78394c0c40625bdcf077835eebf06f07cc3",
+    "title": "Tuple Bubbles: Learned Tuple Representations for Tunable Approximate Query Processing",
+    "year": 2023,
+    "venue": "aiDM@SIGMOD",
+    "authors": [
+        "Damjan Gjurovski",
+        "S. Michel"
+    ],
+    "doi": "10.1145/3593078.3593931",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5013c78394c0c40625bdcf077835eebf06f07cc3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a versatile approach to lightweight, approximate query processing by learning compact but tunably precise representations of larger quantities of original tuples, coined bubbles. Instead of working with tables of tuples, the query processing operates on bubbles but leaves the traditional query processing paradigms conceptually applicable. We believe this is a natural and viable approach to render approximate query processing feasible for large data in disaggregated cloud settings or resource-limited scenarios. Bubbles are tunable regarding the compactness of enclosed tuples as well as the granularity of statistics and the way they are instantiated. We present a first working solution that models bubble contents using Bayesian networks and unsupervised deep learning models, respectively, and discuss the pros and cons of these models. In an experimental evaluation, we demonstrate the performance benefits and limitations of the proposed approaches against state-of-the-art competitors over synthetic and real-world datasets.",
+    "citationCount": 1,
+    "referenceCount": 36
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "91996caa93f4d322411470463bf6050bb2b90295",
+    "title": "Compressibility Measures and Succinct Data Structures for Piecewise Linear Approximations",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "P. Ferragina",
+        "Filippo Lari"
+    ],
+    "doi": "10.48550/arXiv.2509.07827",
+    "arxivId": "2509.07827",
+    "url": "https://www.semanticscholar.org/paper/91996caa93f4d322411470463bf6050bb2b90295",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study the problem of deriving compressibility measures for Piecewise Linear Approximations (PLAs), i.e., error-bounded approximations of a set of two-dimensional increasing data points using a sequence of segments. Such approximations are widely used tools in implementing many learned data structures, which mix learning models with traditional algorithmic design blocks to exploit regularities in the underlying data distribution, providing novel and effective space-time trade-offs. We introduce the first lower bounds to the cost of storing PLAs in two settings, namely compression and indexing. We then compare these compressibility measures to known data structures, and show that they are asymptotically optimal up to a constant factor from the space lower bounds. Finally, we design the first data structures for the aforementioned settings that achieve the space lower bounds plus small additive terms, which turn out to be succinct in most practical cases. Our data structures support the efficient retrieval and evaluation of a segment in the (compressed) PLA for a given $x$-value, which is a core operation in any learned data structure relying on PLAs. As a result, our paper offers the first theoretical analysis of the maximum compressibility achievable by PLA-based learned data structures, and provides novel storage schemes for PLAs offering strong theoretical guarantees while also suggesting simple and efficient practical implementations.",
+    "citationCount": 0,
+    "referenceCount": 25
+}

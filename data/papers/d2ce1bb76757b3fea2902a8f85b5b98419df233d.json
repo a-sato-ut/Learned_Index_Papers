@@ -1,0 +1,32 @@
+{
+    "paperId": "d2ce1bb76757b3fea2902a8f85b5b98419df233d",
+    "title": "Compressing (Multidimensional) Learned Bloom Filters",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Angjela Davitkova",
+        "Damjan Gjurovski",
+        "S. Michel"
+    ],
+    "doi": "10.48550/arXiv.2208.03029",
+    "arxivId": "2208.03029",
+    "url": "https://www.semanticscholar.org/paper/d2ce1bb76757b3fea2902a8f85b5b98419df233d",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2208.03029",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Bloom ﬁlters are widely used data structures that compactly represent sets of elements. Querying a Bloom ﬁlter reveals if an element is not included in the underlying set or is included with a certain error rate. This membership testing can be modeled as a binary classiﬁcation problem and solved through deep learning models, leading to what is called learned Bloom ﬁlters. We have identiﬁed that the beneﬁts of learned Bloom ﬁlters are apparent only when considering a vast amount of data, and even then, there is a possibility to further reduce their memory consumption. For that reason, we introduce a lossless input compression technique that improves the memory consumption of the learned model while preserving a comparable model accuracy. We evaluate our approach and show signiﬁcant memory consumption improvements over learned Bloom ﬁlters.",
+    "citationCount": 5,
+    "referenceCount": 12
+}

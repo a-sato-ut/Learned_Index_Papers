@@ -1,0 +1,38 @@
+{
+    "paperId": "5e982163c22a3dd48d2e83a5c08cb6dc6a484bcb",
+    "title": "A Nearly Tight Analysis of Greedy k-means++",
+    "year": 2022,
+    "venue": "ACM-SIAM Symposium on Discrete Algorithms",
+    "authors": [
+        "C. Grunau",
+        "Ahmet Alper Ozudougru",
+        "Václav Rozhoň",
+        "Jakub Tvetek"
+    ],
+    "doi": "10.48550/arXiv.2207.07949",
+    "arxivId": "2207.07949",
+    "url": "https://www.semanticscholar.org/paper/5e982163c22a3dd48d2e83a5c08cb6dc6a484bcb",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2207.07949",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The famous $k$-means++ algorithm of Arthur and Vassilvitskii [SODA 2007] is the most popular way of solving the $k$-means problem in practice. The algorithm is very simple: it samples the first center uniformly at random and each of the following $k-1$ centers is then always sampled proportional to its squared distance to the closest center so far. Afterward, Lloyd's iterative algorithm is run. The $k$-means++ algorithm is known to return a $\\Theta(\\log k)$ approximate solution in expectation. In their seminal work, Arthur and Vassilvitskii [SODA 2007] asked about the guarantees for its following \\emph{greedy} variant: in every step, we sample $\\ell$ candidate centers instead of one and then pick the one that minimizes the new cost. This is also how $k$-means++ is implemented in e.g. the popular Scikit-learn library [Pedregosa et al.; JMLR 2011]. We present nearly matching lower and upper bounds for the greedy $k$-means++: We prove that it is an $O(\\ell^3 \\log^3 k)$-approximation algorithm. On the other hand, we prove a lower bound of $\\Omega(\\ell^3 \\log^3 k / \\log^2(\\ell\\log k))$. Previously, only an $\\Omega(\\ell \\log k)$ lower bound was known [Bhattacharya, Eube, R\\\"oglin, Schmidt; ESA 2020] and there was no known upper bound.",
+    "citationCount": 14,
+    "referenceCount": 32
+}

@@ -1,0 +1,28 @@
+{
+    "paperId": "d1e078b89ee14d587f5ce414c6f6e1715c4e7352",
+    "title": "Enhancing Distributed Sketch under Path Deviation and Multipath Routing",
+    "year": 2023,
+    "venue": "International Conference on Innovative Computing and Cloud Computing",
+    "authors": [
+        "Jiayuan Chen",
+        "Liyuan Gu",
+        "Ye Tian"
+    ],
+    "doi": "10.1109/ICCC59590.2023.10507344",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d1e078b89ee14d587f5ce414c6f6e1715c4e7352",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sketch-based method has emerged as a promising approach to network measurement. Yet, implementing sketches presents challenges related to memory resources and flow coverage. Recently, Distributed Sketch, a per-flow measurement method that maps fragments of a network-wide sketch into multiple switches, was introduced to address these limitations. However, this approach assumes that all packets of a network flow are forwarded along a single path, without considering the multipath routing and possible path deviation.In this paper, we investigate the impact of multipath routing on Distributed Sketches and propose a sketch update algorithm for counting packets of per-packet multipath flows. Also, we extend Distributed Sketch so that flows deviating from the planned path are visible. Evaluations on the FatTree testbed show that our scheme can more accurately measure network traffic containing multipath flows and cope with path deviations.",
+    "citationCount": 0,
+    "referenceCount": 19
+}

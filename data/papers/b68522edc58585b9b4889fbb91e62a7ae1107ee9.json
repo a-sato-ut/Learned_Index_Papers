@@ -1,0 +1,39 @@
+{
+    "paperId": "b68522edc58585b9b4889fbb91e62a7ae1107ee9",
+    "title": "Data-Driven Solution Portfolios",
+    "year": 2024,
+    "venue": "Information Technology Convergence and Services",
+    "authors": [
+        "M. Drygala",
+        "Silvio Lattanzi",
+        "Andreas Maggiori",
+        "Miltiadis Stouras",
+        "Ola Svensson",
+        "Sergei Vassilvitskii"
+    ],
+    "doi": "10.48550/arXiv.2412.00717",
+    "arxivId": "2412.00717",
+    "url": "https://www.semanticscholar.org/paper/b68522edc58585b9b4889fbb91e62a7ae1107ee9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we consider a new problem of portfolio optimization using stochastic information. In a setting where there is some uncertainty, we ask how to best select $k$ potential solutions, with the goal of optimizing the value of the best solution. More formally, given a combinatorial problem $\\Pi$, a set of value functions $V$ over the solutions of $\\Pi$, and a distribution $D$ over $V$, our goal is to select $k$ solutions of $\\Pi$ that maximize or minimize the expected value of the {\\em best} of those solutions. For a simple example, consider the classic knapsack problem: given a universe of elements each with unit weight and a positive value, the task is to select $r$ elements maximizing the total value. Now suppose that each element's weight comes from a (known) distribution. How should we select $k$ different solutions so that one of them is likely to yield a high value? In this work, we tackle this basic problem, and generalize it to the setting where the underlying set system forms a matroid. On the technical side, it is clear that the candidate solutions we select must be diverse and anti-correlated; however, it is not clear how to do so efficiently. Our main result is a polynomial-time algorithm that constructs a portfolio within a constant factor of the optimal.",
+    "citationCount": 3,
+    "referenceCount": 13
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "9408a4f1bbc71dad90e6b89e72440956aad0a07c",
+    "title": "Clustering-based Low Rank Approximation Method",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Yujun Zhu",
+        "Jie Zhu",
+        "Hizba Arshad",
+        "Zhongming Wang",
+        "Ju Ming"
+    ],
+    "doi": null,
+    "arxivId": "2502.14331",
+    "url": "https://www.semanticscholar.org/paper/9408a4f1bbc71dad90e6b89e72440956aad0a07c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a clustering-based generalized low rank approximation method, which takes advantage of appealing features from both the generalized low rank approximation of matrices (GLRAM) and cluster analysis. It exploits a more general form of clustering generators and similarity metrics so that it is more suitable for matrix-structured data relative to conventional partitioning methods. In our approach, we first pre-classify the initial matrix collection into several small subset clusters and then sequentially compress the matrices within the clusters. This strategy enhances the numerical precision of the low-rank approximation. In essence, we combine the ideas of GLRAM and clustering into a hybrid algorithm for dimensionality reduction. The proposed algorithm can be viewed as the generalization of both techniques. Theoretical analysis and numerical experiments are established to validate the feasibility and effectiveness of the proposed algorithm.",
+    "citationCount": 0,
+    "referenceCount": 55
+}

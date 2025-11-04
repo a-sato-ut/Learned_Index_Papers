@@ -1,0 +1,35 @@
+{
+    "paperId": "2ceb6a49ef17f577d56fbf800482d2e64ba30cea",
+    "title": "A Universal Error Measure for Input Predictions Applied to Online Graph Problems",
+    "year": 2022,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "G. Bernardini",
+        "Alexander Lindermayr",
+        "A. Marchetti-Spaccamela",
+        "Nicole Megow",
+        "L. Stougie",
+        "Michelle Sweering"
+    ],
+    "doi": "10.48550/arXiv.2205.12850",
+    "arxivId": "2205.12850",
+    "url": "https://www.semanticscholar.org/paper/2ceb6a49ef17f577d56fbf800482d2e64ba30cea",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2205.12850",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce a novel measure for quantifying the error in input predictions. The error is based on a minimum-cost hyperedge cover in a suitably defined hypergraph and provides a general template which we apply to online graph problems. The measure captures errors due to absent predicted requests as well as unpredicted actual requests; hence, predicted and actual inputs can be of arbitrary size. We achieve refined performance guarantees for previously studied network design problems in the online-list model, such as Steiner tree and facility location. Further, we initiate the study of learning-augmented algorithms for online routing problems, such as the online traveling salesperson problem and the online dial-a-ride problem, where (transportation) requests arrive over time (online-time model). We provide a general algorithmic framework and we give error-dependent performance bounds that improve upon known worst-case barriers, when given accurate predictions, at the cost of slightly increased worst-case bounds when given predictions of arbitrary quality.",
+    "citationCount": 18,
+    "referenceCount": 66
+}

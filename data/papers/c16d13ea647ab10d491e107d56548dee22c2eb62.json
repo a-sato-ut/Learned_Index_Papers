@@ -1,0 +1,32 @@
+{
+    "paperId": "c16d13ea647ab10d491e107d56548dee22c2eb62",
+    "title": "Making In-Memory Learned Indexes Efficient on Disk",
+    "year": 2024,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Jiaoyi Zhang",
+        "Kai Su",
+        "Huanchen Zhang"
+    ],
+    "doi": "10.1145/3654954",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c16d13ea647ab10d491e107d56548dee22c2eb62",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3654954",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learned indexes have been demonstrated to outperform traditional ones in memory-resident scenarios. However, recent studies show that they fail to outperform B+tree when extended to disks directly. In this paper, we argue that it is feasible to create efficient disk-based learned indexes by applying a set of general transformations and optimizations to existing in-memory ones. Through theoretical analysis and controlled experiments, we propose six transformation guidelines applicable to various state-of-the-art learned index structures to fully leverage the characteristics of disk storage. Our evaluation shows that the indexes developed by applying our guidelines achieve a Pareto improvement in both throughput and space efficiency compared to the traditional B+tree and previous implementations of disk-based learned indexes.",
+    "citationCount": 15,
+    "referenceCount": 39
+}

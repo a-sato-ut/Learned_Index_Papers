@@ -1,0 +1,39 @@
+{
+    "paperId": "a39e90225f19d792032c77acd453af1056adb3b4",
+    "title": "How hard is learning to cut? Trade-offs and sample complexity",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sammy Khalife",
+        "Andrea Lodi"
+    ],
+    "doi": "10.48550/arXiv.2506.00252",
+    "arxivId": "2506.00252",
+    "url": "https://www.semanticscholar.org/paper/a39e90225f19d792032c77acd453af1056adb3b4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the recent years, branch-and-cut algorithms have been the target of data-driven approaches designed to enhance the decision making in different phases of the algorithm such as branching, or the choice of cutting planes (cuts). In particular, for cutting plane selection two score functions have been proposed in the literature to evaluate the quality of a cut: branch-and-cut tree size and gap closed. In this paper, we present new sample complexity lower bounds, valid for both scores. We show that for a wide family of classes $\\mathcal{F}$ that maps an instance to a cut, learning over an unknown distribution of the instances to minimize those scores requires at least (up to multiplicative constants) as many samples as learning from the same class function $\\mathcal{F}$ any generic target function (using square loss). Our results also extend to the case of learning from a restricted set of cuts, namely those from the Simplex tableau. To the best of our knowledge, these constitute the first lower bounds for the learning-to-cut framework. We compare our bounds to known upper bounds in the case of neural networks and show they are nearly tight. We illustrate our results with a graph neural network selection evaluated on set covering and facility location integer programming models and we empirically show that the gap closed score is an effective proxy to minimize the branch-and-cut tree size. Although the gap closed score has been extensively used in the integer programming literature, this is the first principled analysis discussing both scores at the same time both theoretically and computationally.",
+    "citationCount": 0,
+    "referenceCount": 19
+}

@@ -1,0 +1,28 @@
+{
+    "paperId": "fdd300c23a68401bba02152c0a310e913b42035a",
+    "title": "Learning-Augmented Scheduling",
+    "year": 2024,
+    "venue": "IEEE transactions on computers",
+    "authors": [
+        "Tianming Zhao",
+        "Wei Li",
+        "Albert Y. Zomaya"
+    ],
+    "doi": "10.1109/TC.2024.3441856",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fdd300c23a68401bba02152c0a310e913b42035a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The recent revival in learning theory has provided us with improved capabilities for accurate predictions. This work contributes to an emerging research agenda of online scheduling with predictions by studying makespan minimization in uniformly related machine non-clairvoyant scheduling with job size predictions. Our task is to design online algorithms that use predictions and have performance guarantees tied to prediction quality. We first propose a simple algorithm-independent prediction error metric to quantify prediction quality. Then we design an offline improved 2-relaxed decision procedure approximating the optimal schedule to effectively use the predictions. With the decision procedure, we propose an online <inline-formula><tex-math notation=\"LaTeX\">$O(\\min\\{\\log\\eta,\\log m\\})$</tex-math><alternatives><mml:math display=\"inline\"><mml:mi>O</mml:mi><mml:mo stretchy=\"false\">(</mml:mo><mml:mo movablelimits=\"true\">min</mml:mo><mml:mo stretchy=\"false\">{</mml:mo><mml:mi>log</mml:mi><mml:mo>⁡</mml:mo><mml:mi>η</mml:mi><mml:mo>,</mml:mo><mml:mi>log</mml:mi><mml:mo>⁡</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy=\"false\">}</mml:mo><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic xlink:href=\"zhao-ieq1-3441856.gif\"/></alternatives></inline-formula>-competitive static scheduling algorithm assuming a known prediction error. We use this algorithm to construct a robust <inline-formula><tex-math notation=\"LaTeX\">$O(\\min\\{\\log\\eta,\\log m\\})$</tex-math><alternatives><mml:math display=\"inline\"><mml:mi>O</mml:mi><mml:mo stretchy=\"false\">(</mml:mo><mml:mo movablelimits=\"true\">min</mml:mo><mml:mo stretchy=\"false\">{</mml:mo><mml:mi>log</mml:mi><mml:mo>⁡</mml:mo><mml:mi>η</mml:mi><mml:mo>,</mml:mo><mml:mi>log</mml:mi><mml:mo>⁡</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy=\"false\">}</mml:mo><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic xlink:href=\"zhao-ieq2-3441856.gif\"/></alternatives></inline-formula>-competitive static scheduling algorithm that does not assume a known error. Finally, we extend these static scheduling algorithms to address dynamic scheduling where jobs arrive over time. The dynamic scheduling algorithms attain the same competitive ratios as the static ones. The presented algorithms require just moderate predictions to break the <inline-formula><tex-math notation=\"LaTeX\">$\\Omega(\\log m)$</tex-math><alternatives><mml:math display=\"inline\"><mml:mi mathvariant=\"normal\">Ω</mml:mi><mml:mo stretchy=\"false\">(</mml:mo><mml:mi>log</mml:mi><mml:mo>⁡</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic xlink:href=\"zhao-ieq3-3441856.gif\"/></alternatives></inline-formula> competitive ratio lower bound, showing the potential of predictions in managing uncertainty.",
+    "citationCount": 0,
+    "referenceCount": 37
+}

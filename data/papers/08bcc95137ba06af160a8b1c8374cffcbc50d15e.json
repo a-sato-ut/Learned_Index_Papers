@@ -1,0 +1,37 @@
+{
+    "paperId": "08bcc95137ba06af160a8b1c8374cffcbc50d15e",
+    "title": "Fast Succinct Retrieval and Approximate Membership using Ribbon",
+    "year": 2021,
+    "venue": "The Sea",
+    "authors": [
+        "P. Dillinger",
+        "Lorenz Hübschle-Schneider",
+        "Peter Sanders",
+        "Stefan Walzer"
+    ],
+    "doi": "10.4230/LIPIcs.SEA.2022.4",
+    "arxivId": "2109.01892",
+    "url": "https://www.semanticscholar.org/paper/08bcc95137ba06af160a8b1c8374cffcbc50d15e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A retrieval data structure for a static function f : S → { 0 , 1 } r supports queries that return f ( x ) for any x ∈ S . Retrieval data structures can be used to implement a static approximate membership query data structure (AMQ), i.e., a Bloom filter alternative, with false positive rate 2 − r . The information-theoretic lower bound for both tasks is r | S | bits. While succinct theoretical constructions using (1 + o (1)) r | S | bits were known, these could not achieve very small overheads in practice because they have an unfavorable space–time tradeoff hidden in the asymptotic costs or because small overheads would only be reached for physically impossible input sizes. With bumped ribbon retrieval (BuRR) , we present the first practical succinct retrieval data structure. In an extensive experimental evaluation BuRR achieves space overheads well below 1 % while being faster than most previously used retrieval data structures (typically with space overheads at least an order of magnitude larger) and faster than classical Bloom filters (with space overhead ≥ 44 %). This efficiency, including favorable constants, stems from a combination of simplicity, word parallelism, and high locality. We additionally describe homogeneous ribbon filter AMQs , which are even simpler and faster at the price of slightly larger space overhead.",
+    "citationCount": 33,
+    "referenceCount": 56
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "b157e9d41af215b0ab83956cfe367d4c2d4cb500",
+    "title": "Distributed Computation with Local Advice",
+    "year": 2024,
+    "venue": "International Symposium on Distributed Computing",
+    "authors": [
+        "Alkida Balliu",
+        "Sebastian Brandt",
+        "Fabian Kuhn",
+        "Krzysztof Nowicki",
+        "Dennis Olivetti",
+        "Eva Rotenberg",
+        "J. Suomela"
+    ],
+    "doi": "10.4230/LIPIcs.DISC.2025.12",
+    "arxivId": "2405.04519",
+    "url": "https://www.semanticscholar.org/paper/b157e9d41af215b0ab83956cfe367d4c2d4cb500",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this work we study local computation with advice: the goal is to solve a graph problem $\\Pi$ with a distributed algorithm in $T(\\Delta)$ communication rounds, for some function $T$ that only depends on the maximum degree $\\Delta$ of the graph, and the key question is how many bits of advice per node are needed. Some of our results regard Locally Checkable Labeling problems (LCLs), which are constraint-satisfaction graph problems that can be defined with a finite set of valid input/output-labeled neighborhoods. Our main results are: - Any LCL can be solved with only $1$ bit of advice per node in graphs with sub-exponential growth. Moreover, we can make the set of nodes that carry advice bits arbitrarily sparse. As a corollary, any LCL admits a locally checkable proof with $1$ bit per node in graphs with sub-exponential growth. - The assumption of sub-exponential growth is complemented by a conditional lower bound: assuming the Exponential-Time Hypothesis, there are locally checkable labeling problems that cannot be solved in general with any constant number of bits per node. - In any graph we can find an almost-balanced orientation with $1$ bit of advice per node, and again we can make the advice arbitrarily sparse. As a corollary, we can also compress an arbitrary subset of edges so that a node of degree $d$ stores only $d/2 + 2$ bits, and we can decompress it locally, in $T(\\Delta)$ rounds. - In any graph of maximum degree $\\Delta$, we can find a $\\Delta$-coloring (if it exists) with $1$ bit of advice per node, and again, we can make the advice arbitrarily sparse. - In any $3$-colorable graph, we can find a $3$-coloring with $1$ bit of advice per node. As a corollary, in bounded-degree graphs there is a locally checkable proof that certifies $3$-colorability with $1$ bit of advice per node.",
+    "citationCount": 0,
+    "referenceCount": 62
+}

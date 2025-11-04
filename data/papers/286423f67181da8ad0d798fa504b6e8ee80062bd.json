@@ -1,0 +1,33 @@
+{
+    "paperId": "286423f67181da8ad0d798fa504b6e8ee80062bd",
+    "title": "Model Reuse in Learned Spatial Indexes",
+    "year": 2024,
+    "venue": "International Conference on Statistical and Scientific Database Management",
+    "authors": [
+        "Mayur Patil",
+        "Chinya V Ravishankar"
+    ],
+    "doi": "10.1145/3676288.3676293",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/286423f67181da8ad0d798fa504b6e8ee80062bd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learned database indexes use machine learning algorithms to directly predict the location of a query key within a sorted key array, thereby eliminating index search overhead. Prior work shows learned indexes outperforming traditional indexes in both space and query time for one-dimensional data, especially for read-intensive workloads. Usually, learned indexes linearize the multi-dimensional data with a space-filling curve before generating the index. However, learned indexes can have very high build times. Multi-level models are often needed, since a single model built for the entire dataset has low accuracy. The total number of models is often large, drastically increasing model build time. We present a new approach to these challenges called Learned Spatial Indexing with model Reuse (LSIR) that dramatically reduces learned index training time, via model reuse. We first adaptively partition the dataset into cells, and form clusters of cells with similar data distributions. We next build a “seed” model for each cluster, and tune it for each cell in the cluster. Our experiments on large datasets and query workloads, both real-world and synthetic, show that our approach reduces build time by more than 90% compared to traditional learned spatial indexes, with improved model accuracy. LSIR also reduces query response time by 80%, 40%, and 52% for point, range, and kNN queries respectively.",
+    "citationCount": 1,
+    "referenceCount": 66
+}

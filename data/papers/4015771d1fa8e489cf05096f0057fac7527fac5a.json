@@ -1,0 +1,30 @@
+{
+    "paperId": "4015771d1fa8e489cf05096f0057fac7527fac5a",
+    "title": "LK-Index: A Learned Index for KNN Queries",
+    "year": 2024,
+    "venue": "IEEE Access",
+    "authors": [
+        "Yongxin Peng"
+    ],
+    "doi": "10.1109/ACCESS.2024.3433524",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4015771d1fa8e489cf05096f0057fac7527fac5a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/access.2024.3433524",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The k-Nearest Neighbor (kNN) search is a crucial problem in database and data mining, especially in high-dimensional space. However, traditional kNN algorithms based on distance metrics and brute-force search often have low search efficiency and accuracy, and high computational complexity when dealing with large-scale high-dimensional datasets. These limitations have made them a bottleneck in practical applications. Inspired by the recently learned index that replaces B-tree with machine learning models, I propose a method for kNN search based on a learned index, named LK-index. Initially, a conventional tree-based index is created to process queries. The tree index is then utilized to find the k-nearest neighbor points, and the neural network is trained to act as a learned index. Finally, the actual k-nearest neighbors are obtained by computing the potential k-nearest neighbor points. Experiments conducted on synthetic and real-world datasets demonstrate that the LK-index yields certain advantages regarding search accuracy and time consumption.",
+    "citationCount": 3,
+    "referenceCount": 23
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "5351609775d0264ed5bdb2490c332acb2912a46d",
+    "title": "Zero-Indexing Internet Search Augmented Generation for Large Language Models",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Guangxin He",
+        "Zonghong Dai",
+        "Jiangcheng Zhu",
+        "Binqiang Zhao",
+        "Chenyue Li",
+        "You Peng",
+        "Chen Wang",
+        "Binhang Yuan"
+    ],
+    "doi": "10.48550/arXiv.2411.19478",
+    "arxivId": "2411.19478",
+    "url": "https://www.semanticscholar.org/paper/5351609775d0264ed5bdb2490c332acb2912a46d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Retrieval augmented generation has emerged as an effective method to enhance large language model performance. This approach typically relies on an internal retrieval module that uses various indexing mechanisms to manage a static pre-processed corpus. However, such a paradigm often falls short when it is necessary to integrate the most up-to-date information that has not been updated into the corpus during generative inference time. In this paper, we explore an alternative approach that leverages standard search engine APIs to dynamically integrate the latest online information (without maintaining any index for any fixed corpus), thereby improving the quality of generated content. We design a collaborative LLM-based paradigm, where we include: (i) a parser-LLM that determines if the Internet augmented generation is demanded and extracts the search keywords if so with a single inference; (ii) a mixed ranking strategy that re-ranks the retrieved HTML files to eliminate bias introduced from the search engine API; and (iii) an extractor-LLM that can accurately and efficiently extract relevant information from the fresh content in each HTML file. We conduct extensive empirical studies to evaluate the performance of this Internet search augmented generation paradigm. The experimental results demonstrate that our method generates content with significantly improved quality. Our system has been successfully deployed in a production environment to serve 01.AI's generative inference requests.",
+    "citationCount": 1,
+    "referenceCount": 53
+}

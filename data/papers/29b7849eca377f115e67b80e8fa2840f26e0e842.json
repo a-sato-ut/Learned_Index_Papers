@@ -1,0 +1,35 @@
+{
+    "paperId": "29b7849eca377f115e67b80e8fa2840f26e0e842",
+    "title": "An Empirical Evaluation of Columnar Storage Formats",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Xinyu Zeng",
+        "Yulong Hui",
+        "Jiahong Shen",
+        "Andrew Pavlo",
+        "Wes McKinney",
+        "Huanchen Zhang"
+    ],
+    "doi": "10.48550/arXiv.2304.05028",
+    "arxivId": "2304.05028",
+    "url": "https://www.semanticscholar.org/paper/29b7849eca377f115e67b80e8fa2840f26e0e842",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2304.05028",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Columnar storage is a core component of a modern data analytics system. Although many database management systems (DBMSs) have proprietary storage formats, most provide extensive support to open-source storage formats such as Parquet and ORC to facilitate cross-platform data sharing. But these formats were developed over a decade ago, in the early 2010s, for the Hadoop ecosystem. Since then, both the hardware and workload landscapes have changed.\n In this paper, we revisit the most widely adopted open-source columnar storage formats (Parquet and ORC) with a deep dive into their internals. We designed a benchmark to stress-test the formats' performance and space efficiency under different workload configurations. From our comprehensive evaluation of Parquet and ORC, we identify design decisions advantageous with modern hardware and real-world data distributions. These include using dictionary encoding by default, favoring decoding speed over compression ratio for integer encoding algorithms, making block compression optional, and embedding finer-grained auxiliary data structures. We also point out the inefficiencies in the format designs when handling common machine learning workloads and using GPUs for decoding. Our analysis identified important considerations that may guide future formats to better fit modern technology trends.",
+    "citationCount": 37,
+    "referenceCount": 91
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "ab74094fceff93d315cd5fd01b691842935a9579",
+    "title": "The role of classifiers and data complexity in learned Bloom filters: insights and recommendations",
+    "year": 2024,
+    "venue": "Journal of Big Data",
+    "authors": [
+        "Dario Malchiodi",
+        "Davide Raimondi",
+        "G. Fumagalli",
+        "Raffaele Giancarlo",
+        "Marco Frasca"
+    ],
+    "doi": "10.1186/s40537-024-00906-9",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ab74094fceff93d315cd5fd01b691842935a9579",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-024-00906-9",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Bloom filters, since their introduction over 50 years ago, have become a pillar to handle membership queries in small space, with relevant application in Big Data Mining and Stream Processing. Further improvements have been recently proposed with the use of Machine Learning techniques: learned Bloom filters. Those latter make considerably more complicated the proper parameter setting of this multi-criteria data structure, in particular in regard to the choice of one of its key components (the classifier) and accounting for the classification complexity of the input dataset. Given this State of the Art, our contributions are as follows. (1) A novel methodology, supported by software, for designing, analyzing and implementing learned Bloom filters that account for their own multi-criteria nature, in particular concerning classifier type choice and data classification complexity. Extensive experiments show the validity of the proposed methodology and, being our software public, we offer a valid tool to the practitioners interested in using learned Bloom filters. (2) Further contributions to the advancement of the State of the Art that are of great practical relevance are the following: (a) the classifier inference time should not be taken as a proxy for the filter reject time; (b) of the many classifiers we have considered, only two offer good performance; this result is in agreement with and further strengthens early findings in the literature; (c) Sandwiched Bloom filter, which is already known as being one of the references of this area, is further shown here to have the remarkable property of robustness to data complexity and classifier performance variability.",
+    "citationCount": 1,
+    "referenceCount": 60
+}

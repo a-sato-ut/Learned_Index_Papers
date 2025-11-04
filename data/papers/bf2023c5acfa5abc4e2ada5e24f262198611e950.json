@@ -1,0 +1,34 @@
+{
+    "paperId": "bf2023c5acfa5abc4e2ada5e24f262198611e950",
+    "title": "II-LA-KM: Improved Initialization of a Learning-Augmented Clustering Algorithm for Effective Rock Discontinuity Grouping",
+    "year": 2024,
+    "venue": "Mathematics",
+    "authors": [
+        "Yihang Xu",
+        "Junxi Wu",
+        "Guoyan Zhao",
+        "Meng Wang",
+        "Xing Zhou"
+    ],
+    "doi": "10.3390/math12203195",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bf2023c5acfa5abc4e2ada5e24f262198611e950",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/math12203195",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Rock mass discontinuities are an excellent information set for reflecting the geometric, spatial, and physical properties of the rock mass. Using clustering algorithms to analyze them is a significant way to select advantageous orientations of structural surfaces and provide a scientific theoretical basis for other rock mass engineering research. Traditional clustering algorithms often suffer from sensitivity to initialization and lack practical applicability, as discontinuity data are typically rough, low-precision, and unlabeled. Confronting these challenges, II-LA-KM, a learning-augmented clustering algorithm with improved initialization for rock discontinuity grouping, is proposed. Our method begins with heuristically selecting initial centers to ensure they are well-separated. Then, optimal transport is used to adjust these centers, minimizing the transport cost between them and other points. To enhance fault tolerance, a learning-augmented algorithm is integrated that iteratively reduces clustering costs, refining the initial results toward optimal clustering. Extensive experiments on a simulated artificial dataset and a real dataset from Woxi, Hunan, China, featuring both orientational and non-orientational attributes, demonstrate the effectiveness of II-LA-KM. The algorithm achieves a 97.5% accuracy on the artificial dataset and successfully differentiates between overlapping groups. Its performance is even more pronounced on the real dataset, underscoring its robustness for handling complex and noisy data. These strengths make our approach highly beneficial for practical rock discontinuity grouping applications.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

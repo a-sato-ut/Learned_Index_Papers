@@ -1,0 +1,36 @@
+{
+    "paperId": "04dd0db22240d2493ac92947c27e72a1a49fa5e5",
+    "title": "Learned Query Optimizer: What is New and What is Next",
+    "year": 2024,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Rong Zhu",
+        "Lianggui Weng",
+        "Bolin Ding",
+        "Jingren Zhou"
+    ],
+    "doi": "10.1145/3626246.3654692",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/04dd0db22240d2493ac92947c27e72a1a49fa5e5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent times, learned query optimizer has becoming a hot research topic in learned databases. It serves as the most suitable experimental plots for utilizing numerous machine-learning techniques and exhibits its superiority with enough evidence. In this tutorial, we aim to provide a wide and deep review and analysis on this field, ranging from theory to practice. At first, we would categorize and introduce representative methods for each learned component in the query optimizer, as well as for the end-to-end learned query optimizer. Then, we describe some benchmark evaluations and prototype applications. Their results have exhibited the bright future of applying learned query optimizers in practice. Based on them, we describe a cutting edge system with step-by-step guidelines. It is a middleware proposed recently to reduce the difficulties of developing and deploying learned algorithms in databases. It would help researchers to iterate their work and make learned query optimizers truly applicable in production. Finally, we summarize and point out several future directions. We hope this tutorial could inspire and guide both researchers and engineers working on learned query optimizers, as well as other contexts in learned databases.",
+    "citationCount": 9,
+    "referenceCount": 83
+}

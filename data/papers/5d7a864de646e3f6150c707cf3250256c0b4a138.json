@@ -1,0 +1,35 @@
+{
+    "paperId": "5d7a864de646e3f6150c707cf3250256c0b4a138",
+    "title": "QUIC-FL: Quick Unbiased Compression for Federated Learning",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ran Ben Basat",
+        "S. Vargaftik",
+        "Amit Portnoy",
+        "Gil Einziger",
+        "Y. Ben-Itzhak",
+        "M. Mitzenmacher"
+    ],
+    "doi": "10.48550/arXiv.2205.13341",
+    "arxivId": "2205.13341",
+    "url": "https://www.semanticscholar.org/paper/5d7a864de646e3f6150c707cf3250256c0b4a138",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2205.13341",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Distributed Mean Estimation (DME), in which $n$ clients communicate vectors to a parameter server that estimates their average, is a fundamental building block in communication-efficient federated learning. In this paper, we improve on previous DME techniques that achieve the optimal $O(1/n)$ Normalized Mean Squared Error (NMSE) guarantee by asymptotically improving the complexity for either encoding or decoding (or both). To achieve this, we formalize the problem in a novel way that allows us to use off-the-shelf mathematical solvers to design the quantization.",
+    "citationCount": 14,
+    "referenceCount": 112
+}

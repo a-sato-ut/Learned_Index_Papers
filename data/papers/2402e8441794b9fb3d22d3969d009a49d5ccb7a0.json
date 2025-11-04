@@ -1,0 +1,38 @@
+{
+    "paperId": "2402e8441794b9fb3d22d3969d009a49d5ccb7a0",
+    "title": "Metric Clustering and MST with Strong and Weak Distance Oracles",
+    "year": 2023,
+    "venue": "Annual Conference Computational Learning Theory",
+    "authors": [
+        "M. Bateni",
+        "Prathamesh Dharangutte",
+        "Rajesh Jayaram",
+        "Chen Wang"
+    ],
+    "doi": "10.48550/arXiv.2310.15863",
+    "arxivId": "2310.15863",
+    "url": "https://www.semanticscholar.org/paper/2402e8441794b9fb3d22d3969d009a49d5ccb7a0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study optimization problems in a metric space $(\\mathcal{X},d)$ where we can compute distances in two ways: via a ''strong'' oracle that returns exact distances $d(x,y)$, and a ''weak'' oracle that returns distances $\\tilde{d}(x,y)$ which may be arbitrarily corrupted with some probability. This model captures the increasingly common trade-off between employing both an expensive similarity model (e.g. a large-scale embedding model), and a less accurate but cheaper model. Hence, the goal is to make as few queries to the strong oracle as possible. We consider both so-called ''point queries'', where the strong oracle is queried on a set of points $S \\subset \\mathcal{X} $ and returns $d(x,y)$ for all $x,y \\in S$, and ''edge queries'' where it is queried for individual distances $d(x,y)$. Our main contributions are optimal algorithms and lower bounds for clustering and Minimum Spanning Tree (MST) in this model. For $k$-centers, $k$-median, and $k$-means, we give constant factor approximation algorithms with only $\\tilde{O}(k)$ strong oracle point queries, and prove that $\\Omega(k)$ queries are required for any bounded approximation. For edge queries, our upper and lower bounds are both $\\tilde{\\Theta}(k^2)$. Surprisingly, for the MST problem we give a $O(\\sqrt{\\log n})$ approximation algorithm using no strong oracle queries at all, and a matching $\\Omega(\\sqrt{\\log n})$ lower bound. We empirically evaluate our algorithms, and show that their quality is comparable to that of the baseline algorithms that are given all true distances, but while querying the strong oracle on only a small fraction ($<1\\%$) of points.",
+    "citationCount": 8,
+    "referenceCount": 53
+}

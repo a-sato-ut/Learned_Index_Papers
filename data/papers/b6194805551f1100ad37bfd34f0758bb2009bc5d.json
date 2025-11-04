@@ -1,0 +1,34 @@
+{
+    "paperId": "b6194805551f1100ad37bfd34f0758bb2009bc5d",
+    "title": "On the Choice of General Purpose Classifiers in Learned Bloom Filters: An Initial Analysis Within Basic Filters",
+    "year": 2021,
+    "venue": "International Conference on Pattern Recognition Applications and Methods",
+    "authors": [
+        "G. Fumagalli",
+        "Davide Raimondi",
+        "R. Giancarlo",
+        "D. Malchiodi",
+        "Marco Frasca"
+    ],
+    "doi": "10.5220/0010889000003122",
+    "arxivId": "2112.06563",
+    "url": "https://www.semanticscholar.org/paper/b6194805551f1100ad37bfd34f0758bb2009bc5d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.5220/0010889000003122",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Bloom Filters are a fundamental and pervasive data structure. Within the growing area of Learned Data Structures, several Learned versions of Bloom Filters have been considered, yielding advantages over classic Filters. Each of them uses a classifier, which is the Learned part of the data structure. Although it has a central role in those new filters, and its space footprint as well as classification time may affect the performance of the Learned Filter, no systematic study of which specific classifier to use in which circumstances is available. We report progress in this area here, providing also initial guidelines on which classifier to choose among five classic classification paradigms.",
+    "citationCount": 11,
+    "referenceCount": 37
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "3fd53b5b98f843243ffb2c7747b2fed6d2629479",
+    "title": "Poster: Maintaining Sets With Deletions in the Data Plane",
+    "year": 2023,
+    "venue": "EuroP4@CoNEXT",
+    "authors": [
+        "Jonathan Diamant",
+        "Shir Landau Feibish"
+    ],
+    "doi": "10.1145/3630047.3630195",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3fd53b5b98f843243ffb2c7747b2fed6d2629479",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sets are one of the most fundamental data types in Computer Science, and data structures used to maintain sets are used in many algorithms. These structures normally support three basic operations: insertion, look-up (i.e. set-membership query), and deletion. The most common set-membership data structure used in the data plane is the Bloom Filter (BF). While BFs are relatively easy to adapt to the data plane, they offer a limited set-membership functionality as they do not support deletions. If deletions are required, a Counting Bloom Filter (CBF) (which maintains counters instead of bits) may be used. Yet, if a key was inserted multiple times, multiple deletions would be needed to completely remove the key from the structure. We present MEM-D, a fast and lightweight set-membership data structure for the data plane, which supports all three operations: look-up, insertion, and deletion. MEM-D supports the uniqueness property, meaning that a key would be removed with a single deletion operation even if it was inserted multiple times. MEM-D provides a false positive (FP) error rate similar to the rate of the standard BF and additionally may incur a small false negative (FN) error. We have implemented MEM-D on a hardware Tofino target using P4. To the best of our knowledge, MEM-D is the first data structure for set-membership in the data plane, which supports deletion.",
+    "citationCount": 0,
+    "referenceCount": 28
+}

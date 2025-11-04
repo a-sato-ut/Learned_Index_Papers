@@ -1,0 +1,38 @@
+{
+    "paperId": "2e270b1c86e039fdd60fc5773a907316554317ed",
+    "title": "Improved Bounds for Online Facility Location with Predictions",
+    "year": 2021,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Dimitris Fotakis",
+        "Evangelia Gergatsouli",
+        "Themis Gouleakis",
+        "Nikolas Patris"
+    ],
+    "doi": "10.1609/aaai.v39i25.34903",
+    "arxivId": "2107.08277",
+    "url": "https://www.semanticscholar.org/paper/2e270b1c86e039fdd60fc5773a907316554317ed",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We consider the Online Facility Location (OFL) problem in the framework of learning-augmented online algorithms. In Online Facility Location (OFL), demands arrive one-by-one in a metric space and must be (irrevocably) assigned to an open facility upon arrival, without any knowledge about future demands. We focus on uniform facility opening costs and present an online algorithm for OFL that exploits potentially imperfect predictions on the locations of the optimal facilities. We prove that the competitive ratio decreases from sublogarithmic in the number n of demands to constant as the so-called η1 error, i.e., the sum of distances of the predicted locations to the optimal facility locations, decreases towards zero. E.g., our analysis implies that if for some ε > 0, η1 = OPT / n^ε, where OPT is the cost of the optimal solution, the competitive ratio is O(1/ε). We complement our analysis with a matching lower bound establishing that the dependence of the algorithm's competitive ratio on the η1 error is optimal, up to constant factors.",
+    "citationCount": 13,
+    "referenceCount": 35
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "29866a7df34f4819e58f4a98b69c5bed7e21c21b",
+    "title": "Subgame Optimal and Prior-Independent Online Algorithms",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jason D. Hartline",
+        "Aleck C. Johnsen",
+        "Anant Shah"
+    ],
+    "doi": "10.48550/arXiv.2403.10451",
+    "arxivId": "2403.10451",
+    "url": "https://www.semanticscholar.org/paper/29866a7df34f4819e58f4a98b69c5bed7e21c21b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper takes a game theoretic approach to the design and analysis of online algorithms and illustrates the approach on the finite-horizon ski-rental problem. This approach allows beyond worst-case analysis of online algorithms. First, we define\"subgame optimality\"which is stronger than worst case optimality in that it requires the algorithm to take advantage of an adversary not playing a worst case input. Algorithms only focusing on the worst case can be far from subgame optimal. Second, we consider prior-independent design and analysis of online algorithms, where rather than choosing a worst case input, the adversary chooses a worst case independent and identical distribution over inputs. Prior-independent online algorithms are generally analytically intractable; instead we give a fully polynomial time approximation scheme to compute them. Highlighting the potential improvement from these paradigms for the finite-horizon ski-rental problem, we empirically compare worst-case, subgame optimal, and prior-independent algorithms in the prior-independent framework.",
+    "citationCount": 1,
+    "referenceCount": 20
+}

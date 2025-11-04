@@ -1,0 +1,32 @@
+{
+    "paperId": "da5997f0064b2c0ed603de9b0347bc137d40a3d7",
+    "title": "Querying in Constant Expected Time with Learned Indexes",
+    "year": 2024,
+    "venue": "",
+    "authors": [
+        "L. Croquevielle",
+        "Guang Yang",
+        "Liang Lian",
+        "Ali Hadian",
+        "Thomas Heinis"
+    ],
+    "doi": null,
+    "arxivId": "2405.03851",
+    "url": "https://www.semanticscholar.org/paper/da5997f0064b2c0ed603de9b0347bc137d40a3d7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learned indexes leverage machine learning models to accelerate query answering in databases, showing impressive practical performance. However, theoretical understanding of these methods remains incomplete. Existing research suggests that learned indexes have superior asymptotic complexity compared to their non-learned counterparts, but these findings have been established under restrictive probabilistic assumptions. Specifically, for a sorted array with $n$ elements, it has been shown that learned indexes can find a key in $O(\\log(\\log n))$ expected time using at most linear space, compared with $O(\\log n)$ for non-learned methods. In this work, we prove $O(1)$ expected time can be achieved with at most linear space, thereby establishing the tightest upper bound so far for the time complexity of an asymptotically optimal learned index. Notably, we use weaker probabilistic assumptions than prior research, meaning our work generalizes previous results. Furthermore, we introduce a new measure of statistical complexity for data. This metric exhibits an information-theoretical interpretation and can be estimated in practice. This characterization provides further theoretical understanding of learned indexes, by helping to explain why some datasets seem to be particularly challenging for these methods.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

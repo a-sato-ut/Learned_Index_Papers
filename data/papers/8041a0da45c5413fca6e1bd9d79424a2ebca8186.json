@@ -1,0 +1,35 @@
+{
+    "paperId": "8041a0da45c5413fca6e1bd9d79424a2ebca8186",
+    "title": "Byzantine Agreement with Predictions",
+    "year": 2025,
+    "venue": "ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing",
+    "authors": [
+        "Naama Ben-David",
+        "M. A. Dzulfikar",
+        "Faith Ellen",
+        "S. Gilbert"
+    ],
+    "doi": "10.1145/3732772.3733518",
+    "arxivId": "2505.01793",
+    "url": "https://www.semanticscholar.org/paper/8041a0da45c5413fca6e1bd9d79424a2ebca8186",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study the problem of Byzantine Agreement with predictions in synchronous message passing systems. Along with a proposal, each process is also given a prediction, i.e., extra information that is not guaranteed to be true. For example, one might imagine that the prediction is produced by a network security monitoring service that looks for patterns of malicious behavior. Our goal is to design an algorithm that is more efficient when the predictions are accurate, smoothly degrades in performance as predictions decrease in accuracy, and in the worst case performs (almost) as well as any algorithm without predictions even when the predictions are completely inaccurate. On the negative side, we show that Byzantine Agreement with predictions still requires Ω(n + t2) messages, even in executions where the predictions are completely accurate. On the positive side, we show that classification predictions, which provide information about which processes might be faulty, can help improve the round complexity of synchronous Byzantine Agreement. We present new algorithms that leverage classification predictions to yield better round complexity, and we show that the round complexity achieved is (almost) optimal as a function of the prediction quality.",
+    "citationCount": 0,
+    "referenceCount": 46
+}

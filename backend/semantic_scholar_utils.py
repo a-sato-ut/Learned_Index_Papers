@@ -11,6 +11,7 @@ S2_BASE = "https://api.semanticscholar.org/graph/v1"
 API_KEY = os.getenv("SEMANTIC_SCHOLAR_API_KEY")
 
 _DEFAULT_TIMEOUT = 30
+_DELAY_BASE = 5
 _MAX_RETRIES = 6
 _BACKOFF_BASE = 1.8
 _SESSION = requests.Session()
@@ -40,14 +41,14 @@ def _request_json(
                 return resp.json()
             # レート/一時障害はリトライ
             if resp.status_code in (429, 500, 502, 503, 504):
-                delay = (_BACKOFF_BASE ** attempt) + (0.05 * attempt)
+                delay = (_BACKOFF_BASE ** attempt) + (_DELAY_BASE * attempt)
                 time.sleep(delay)
                 continue
             # それ以外のエラーは詳細を出す
             raise RuntimeError(f"S2 API error {resp.status_code}: {resp.text}")
         except requests.RequestException as e:
             # ネットワーク系もリトライ
-            delay = (_BACKOFF_BASE ** attempt) + (0.05 * attempt)
+            delay = (_BACKOFF_BASE ** attempt) + (_DELAY_BASE * attempt)
             time.sleep(delay)
             last_err = e
     # リトライ尽きた

@@ -1,0 +1,37 @@
+{
+    "paperId": "8a89aa7dcf5b5a10f53bf4ba3d04c497b9528d69",
+    "title": "Non-clairvoyant Scheduling with Predictions",
+    "year": 2023,
+    "venue": "ACM Transactions on Parallel Computing",
+    "authors": [
+        "Sungjin Im",
+        "Ravi Kumar",
+        "Mahshid Montazer Qaem",
+        "Manish Purohit"
+    ],
+    "doi": "10.1145/3593969",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8a89aa7dcf5b5a10f53bf4ba3d04c497b9528d69",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3593969",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the single-machine non-clairvoyant scheduling problem, the goal is to minimize the total completion time of jobs whose processing times are unknown a priori. We revisit this well-studied problem and consider the question of how to effectively use (possibly erroneous) predictions of the processing times. We study this question from ground zero by first asking what constitutes a good prediction; we then propose a new measure to gauge prediction quality and design scheduling algorithms with strong guarantees under this measure. Our approach to derive a prediction error measure based on natural desiderata could find applications for other online problems.",
+    "citationCount": 5,
+    "referenceCount": 36
+}

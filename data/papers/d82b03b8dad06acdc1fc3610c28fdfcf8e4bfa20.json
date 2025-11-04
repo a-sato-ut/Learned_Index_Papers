@@ -1,0 +1,35 @@
+{
+    "paperId": "d82b03b8dad06acdc1fc3610c28fdfcf8e4bfa20",
+    "title": "Scheduling with Untrusted Predictions",
+    "year": 2022,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "authors": [
+        "E. Bampis",
+        "Konstantinos Dogeas",
+        "A. Kononov",
+        "Giorgio Lucarelli",
+        "Fanny Pascual"
+    ],
+    "doi": "10.24963/ijcai.2022/636",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d82b03b8dad06acdc1fc3610c28fdfcf8e4bfa20",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.ijcai.org/proceedings/2022/0636.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Using machine-learned predictions to create algorithms with better approximation guarantees is a very fresh and active field. In this work, we study classic scheduling problems under the learning augmented setting. More specifically, we consider the problem of scheduling jobs with arbitrary release dates on a single machine and the problem of scheduling jobs with a common release date on multiple machines. Our objective is to minimize the sum of completion times. For both problems, we propose algorithms which use predictions for taking their decisions. Our algorithms are consistent -- i.e. when the predictions are accurate, the performances of our algorithms are close to those of an optimal offline algorithm--, and robust -- i.e. when the predictions are wrong, the performance of our algorithms are close to those of an online algorithm without predictions. In addition, we confirm the above theoretical bounds by conducting experimental evaluation comparing the proposed algorithms to the offline optimal ones for both the single and multiple machines settings.",
+    "citationCount": 16,
+    "referenceCount": 34
+}

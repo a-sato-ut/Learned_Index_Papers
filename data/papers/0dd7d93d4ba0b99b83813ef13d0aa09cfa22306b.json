@@ -1,0 +1,38 @@
+{
+    "paperId": "0dd7d93d4ba0b99b83813ef13d0aa09cfa22306b",
+    "title": "Computational Algebra with Attention: Transformer Oracles for Border Basis Algorithms",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hiroshi Kera",
+        "Nico Pelleriti",
+        "Yuki Ishihara",
+        "Max Zimmer",
+        "S. Pokutta"
+    ],
+    "doi": "10.48550/arXiv.2505.23696",
+    "arxivId": "2505.23696",
+    "url": "https://www.semanticscholar.org/paper/0dd7d93d4ba0b99b83813ef13d0aa09cfa22306b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Solving systems of polynomial equations, particularly those with finitely many solutions, is a crucial challenge across many scientific fields. Traditional methods like Gr\\\"obner and Border bases are fundamental but suffer from high computational costs, which have motivated recent Deep Learning approaches to improve efficiency, albeit at the expense of output correctness. In this work, we introduce the Oracle Border Basis Algorithm, the first Deep Learning approach that accelerates Border basis computation while maintaining output guarantees. To this end, we design and train a Transformer-based oracle that identifies and eliminates computationally expensive reduction steps, which we find to dominate the algorithm's runtime. By selectively invoking this oracle during critical phases of computation, we achieve substantial speedup factors of up to 3.5x compared to the base algorithm, without compromising the correctness of results. To generate the training data, we develop a sampling method and provide the first sampling theorem for border bases. We construct a tokenization and embedding scheme tailored to monomial-centered algebraic computations, resulting in a compact and expressive input representation, which reduces the number of tokens to encode an $n$-variate polynomial by a factor of $O(n)$. Our learning approach is data efficient, stable, and a practical enhancement to traditional computer algebra algorithms and symbolic computation.",
+    "citationCount": 3,
+    "referenceCount": 63
+}

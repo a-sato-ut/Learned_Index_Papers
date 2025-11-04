@@ -1,0 +1,38 @@
+{
+    "paperId": "0d352c530dd041a4c7a525e8b3f0e94f60c8fb34",
+    "title": "Learning-Augmented k-means Clustering",
+    "year": 2021,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Jon C. Ergun",
+        "Zhili Feng",
+        "Sandeep Silwal",
+        "David P. Woodruff",
+        "Samson Zhou"
+    ],
+    "doi": null,
+    "arxivId": "2110.14094",
+    "url": "https://www.semanticscholar.org/paper/0d352c530dd041a4c7a525e8b3f0e94f60c8fb34",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "$k$-means clustering is a well-studied problem due to its wide applicability. Unfortunately, there exist strong theoretical limits on the performance of any algorithm for the $k$-means problem on worst-case inputs. To overcome this barrier, we consider a scenario where\"advice\"is provided to help perform clustering. Specifically, we consider the $k$-means problem augmented with a predictor that, given any point, returns its cluster label in an approximately optimal clustering up to some, possibly adversarial, error. We present an algorithm whose performance improves along with the accuracy of the predictor, even though na\\\"{i}vely following the accurate predictor can still lead to a high clustering cost. Thus if the predictor is sufficiently accurate, we can retrieve a close to optimal clustering with nearly optimal runtime, breaking known computational barriers for algorithms that do not have access to such advice. We evaluate our algorithms on real datasets and show significant improvements in the quality of clustering.",
+    "citationCount": 39,
+    "referenceCount": 74
+}

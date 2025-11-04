@@ -1,0 +1,37 @@
+{
+    "paperId": "a8ba3461d4d5d785da85c57c2c8f1fccc51e708a",
+    "title": "Canadian Traveller Problem with Predictions",
+    "year": 2022,
+    "venue": "Workshop on Approximation and Online Algorithms",
+    "authors": [
+        "E. Bampis",
+        "B. Escoffier",
+        "Michalis Xefteris"
+    ],
+    "doi": "10.48550/arXiv.2209.11100",
+    "arxivId": "2209.11100",
+    "url": "https://www.semanticscholar.org/paper/a8ba3461d4d5d785da85c57c2c8f1fccc51e708a",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2209.11100",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this work, we consider the $k$-Canadian Traveller Problem ($k$-CTP) under the learning-augmented framework proposed by Lykouris&Vassilvitskii. $k$-CTP is a generalization of the shortest path problem, and involves a traveller who knows the entire graph in advance and wishes to find the shortest route from a source vertex $s$ to a destination vertex $t$, but discovers online that some edges (up to $k$) are blocked once reaching them. A potentially imperfect predictor gives us the number and the locations of the blocked edges. We present a deterministic and a randomized online algorithm for the learning-augmented $k$-CTP that achieve a tradeoff between consistency (quality of the solution when the prediction is correct) and robustness (quality of the solution when there are errors in the prediction). Moreover, we prove a matching lower bound for the deterministic case establishing that the tradeoff between consistency and robustness is optimal, and show a lower bound for the randomized algorithm. Finally, we prove several deterministic and randomized lower bounds on the competitive ratio of $k$-CTP depending on the prediction error, and complement them, in most cases, with matching upper bounds.",
+    "citationCount": 5,
+    "referenceCount": 40
+}

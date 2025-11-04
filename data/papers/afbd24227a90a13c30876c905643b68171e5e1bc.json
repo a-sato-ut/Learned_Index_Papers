@@ -1,0 +1,37 @@
+{
+    "paperId": "afbd24227a90a13c30876c905643b68171e5e1bc",
+    "title": "On Nonlinear Learned String Indexing",
+    "year": 2023,
+    "venue": "IEEE Access",
+    "authors": [
+        "P. Ferragina",
+        "Marco Frasca",
+        "Giosuè Cataldo Marinò",
+        "Giorgio Vinciguerra"
+    ],
+    "doi": "10.1109/ACCESS.2023.3295434",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/afbd24227a90a13c30876c905643b68171e5e1bc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10184017.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We investigate the potential of several artificial neural network architectures to be used as an index on a sorted set of strings, namely, as a mapping from a query string to (an estimate of) its lexicographic rank in the set, which allows solving some interesting string-search operations such as range and prefix searches. Our evaluation on a variety of real and synthetic datasets shows that learned models can beat the space vs error trade-off of the classic (possibly compressed) trie-based solutions for relatively dense datasets only, while being slower to be trained and queried. This leads us to conclude that learned models are not yet competitive with classic trie-based solutions, and thus cannot completely replace them, but possibly only integrate them. Although our study does not settle the question conclusively, it highlights appropriate methods, provides a baseline for comparison, and introduces several open problems, thereby serving as a starting point for future research.",
+    "citationCount": 8,
+    "referenceCount": 59
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "eab4145ff3517d97b02d4c910593a2a23eed434f",
+    "title": "Online Interval Scheduling with Predictions",
+    "year": 2023,
+    "venue": "Workshop on Algorithms and Data Structures",
+    "authors": [
+        "J. Boyar",
+        "Lene M. Favrholdt",
+        "Shahin Kamali",
+        "Kim S. Larsen"
+    ],
+    "doi": "10.48550/arXiv.2302.13701",
+    "arxivId": "2302.13701",
+    "url": "https://www.semanticscholar.org/paper/eab4145ff3517d97b02d4c910593a2a23eed434f",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2302.13701",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In online interval scheduling, the input is an online sequence of intervals, and the goal is to accept a maximum number of non-overlapping intervals. In the more general disjoint path allocation problem, the input is a sequence of requests, each consisting of pairs of vertices of a known graph, and the goal is to accept a maximum number of requests forming edge-disjoint paths between accepted pairs. We study a setting with a potentially erroneous prediction specifying the set of requests forming the input sequence and provide tight upper and lower bounds on the competitive ratios of online algorithms as a function of the prediction error. We also present asymptotically tight trade-offs between consistency (competitive ratio with error-free predictions) and robustness (competitive ratio with adversarial predictions) of interval scheduling algorithms. Finally, we provide experimental results on real-world scheduling workloads that confirm our theoretical analysis.",
+    "citationCount": 8,
+    "referenceCount": 44
+}

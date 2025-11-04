@@ -1,0 +1,32 @@
+{
+    "paperId": "a10131d2110ecad50983ade567c9c5455ee6172d",
+    "title": "LETIndex: A Secure Learned Index with TEE",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Shuting Cao",
+        "Zeping Niu",
+        "Guoliang Li"
+    ],
+    "doi": "10.14778/3750601.3750682",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a10131d2110ecad50983ade567c9c5455ee6172d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Trusted execution environment (TEE) offers a promising approach to building encrypted databases, which keep data confidential for users. However, designing an efficient index for TEE databases remains a significant challenge. Due to the limited enclave memory and system call support in enclaves, traditional indexes incur massive context switches (including enclave entry and exiting), which cause performance regression. Existing approaches, such as introducing rich execution environment (REE) buffer pools or index parameter optimization, may not alleviate these problems effectively. To address these limitations, we propose LETIndex, an efficient learned dynamic index designed for TEE databases. LETIndex adopts LSM-structured Piecewise Geometric Model (PGM) indexes and an adaptive prefetch mechanism to support lookup, range queries, and updates with significantly reduced context switches and disk I/O overhead. Experimental results show that LETIndex achieves superior performance compared to existing approaches on the SOSD benchmark. We demonstrate LETIndex with two real scenarios, binary join and multi-tale join.",
+    "citationCount": 0,
+    "referenceCount": 8
+}

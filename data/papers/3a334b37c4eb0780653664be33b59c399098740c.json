@@ -1,0 +1,34 @@
+{
+    "paperId": "3a334b37c4eb0780653664be33b59c399098740c",
+    "title": "Online TSP with Predictions",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hsiao-Yu Hu",
+        "Hao-Ting Wei",
+        "Meng-Hsi Li",
+        "Kai-Min Chung",
+        "Chung-Shou Liao"
+    ],
+    "doi": "10.48550/arXiv.2206.15364",
+    "arxivId": "2206.15364",
+    "url": "https://www.semanticscholar.org/paper/3a334b37c4eb0780653664be33b59c399098740c",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2206.15364",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We initiate the study of online routing problems with predictions, inspired by recent exciting results in the area of learning-augmented algorithms. A learning-augmented online algorithm which incorporates predictions in a black-box manner to outperform existing algorithms if the predictions are accurate while otherwise maintaining theoretical guarantees even when the predictions are extremely erroneous is a popular framework for overcoming pessimistic worst-case competitive analysis. In this study, we particularly begin investigating the classical online traveling salesman problem (OLTSP), where future requests are augmented with predictions. Unlike the prediction models in other previous studies, each actual request in the OLTSP, associated with its arrival time and position, may not coincide with the predicted ones, which, as imagined, leads to a troublesome situation. Our main result is to study different prediction models and design algorithms to improve the best-known results in the different settings. Moreover, we generalize the proposed results to the online dial-a-ride problem.",
+    "citationCount": 3,
+    "referenceCount": 29
+}

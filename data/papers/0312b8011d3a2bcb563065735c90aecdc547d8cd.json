@@ -1,0 +1,36 @@
+{
+    "paperId": "0312b8011d3a2bcb563065735c90aecdc547d8cd",
+    "title": "PA-LBF: Prefix-Based and Adaptive Learned Bloom Filter for Spatial Data",
+    "year": 2023,
+    "venue": "International Journal of Intelligent Systems",
+    "authors": [
+        "Meng Zeng",
+        "Beiji Zou",
+        "Xiaoyan Kui",
+        "Chengzhang Zhu",
+        "Ling Xiao",
+        "Zhi Chen",
+        "Jingyu Du"
+    ],
+    "doi": "10.1155/2023/4970776",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0312b8011d3a2bcb563065735c90aecdc547d8cd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://downloads.hindawi.com/journals/ijis/2023/4970776.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The recently proposed learned bloom filter (LBF) opens a new perspective on how to reconstruct bloom filters with machine learning. However, the LBF has a massive time cost and does not apply to multidimensional spatial data. In this paper, we propose a prefix-based and adaptive learned bloom filter (PA-LBF) for spatial data, which efficiently supports the insertion and deletion. The proposed PA-LBF is divided into three parts: (1) the prefix-based classification. The Z-order space-filling curve is used to extract data, prefix it, and classify it. (2) The adaptive learning process. The multiple independent adaptive sub-LBFs are designed to train the suffixes of data, combined with part 1, to reduce the false positive rate (FPR), query, and learning process time consumption. (3) The backup filter uses CBF. Two kinds of backup CBF are constructed to meet the situation of different insertion and deletion frequencies. Experimental results prove the validity of the theory and show that the PA-LBF reduces the FPR by 84.87%, 79.53%, and 43.01% with the same memory usage compared with the LBF on three real-world spatial datasets. Moreover, the time consumption of PA-LBF can be reduced to \n \n 5\n ×\n \n and \n \n 2.05\n ×\n \n that of the LBF on the query and learning process, respectively.",
+    "citationCount": 5,
+    "referenceCount": 34
+}

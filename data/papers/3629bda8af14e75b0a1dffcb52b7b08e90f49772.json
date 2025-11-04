@@ -1,0 +1,38 @@
+{
+    "paperId": "3629bda8af14e75b0a1dffcb52b7b08e90f49772",
+    "title": "Toward Real-Time Posture Classification: Reality Check",
+    "year": 2025,
+    "venue": "Electronics",
+    "authors": [
+        "Hongbo Zhang",
+        "Denis Gračanin",
+        "Wenjing Zhou",
+        "Drew Dudash",
+        "Gregory Rushton"
+    ],
+    "doi": "10.3390/electronics14091876",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3629bda8af14e75b0a1dffcb52b7b08e90f49772",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Fall prevention has always been a crucial topic for injury prevention. Research shows that real-time posture monitoring and subsequent fall prevention are important for the prevention of fall-related injuries. In this research, we determine a real-time posture classifier by comparing classical and deep machine learning classifiers in terms of their accuracy and robustness for posture classification. For this, multiple classical classifiers, including classical machine learning, support vector machine, random forest, neural network, and Adaboost methods, were used. Deep learning methods, including LSTM and transformer, were used for posture classification. In the experiment, joint data were obtained using an RGBD camera. The results show that classical machine learning posture classifier accuracy was between 75% and 99%, demonstrating that the use of classical machine learning classification alone is sufficient for real-time posture classification even with missing joints or added noise. The deep learning method LSTM was also effective in classifying the postures with high accuracy, despite incurring a significant computational overhead cost, thus compromising the real-time posture classification performance. The research thus shows that classical machine learning methods are worthy of our attention, at least, to consider for reuse or reinvention, especially for real-time posture classification tasks. The insight of using a classical posture classifier for large-scale human posture classification is also given through this research.",
+    "citationCount": 1,
+    "referenceCount": 83
+}

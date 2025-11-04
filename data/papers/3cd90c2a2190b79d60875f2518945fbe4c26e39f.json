@@ -1,0 +1,38 @@
+{
+    "paperId": "3cd90c2a2190b79d60875f2518945fbe4c26e39f",
+    "title": "Task Scheduling for Probabilistic In -Band Network Telemetry",
+    "year": 2022,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "Wei Chen",
+        "Ye Tian",
+        "Zhongxiang Wei",
+        "Jiangyu Pan",
+        "Xinming Zhang"
+    ],
+    "doi": "10.1109/TNET.2022.3189370",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3cd90c2a2190b79d60875f2518945fbe4c26e39f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In-band Network Telemetry (INT) is a novel framework for monitoring network health in real-time, and its recent variant, Probabilistic INT (PINT), reduces its bandwidth consumption with a probabilistic approach. However, as we show in this paper, a PINT task can be successfully accomplished only when it is allocated a sufficient number of packets, and if there are many tasks executed in parallel, packets become a scarce resource. Meanwhile, today’s production network generally executes multiple measurement tasks for tracing different network states simultaneously. Therefore, in such a context, scheduling parallel PINT tasks on one single INT flow that has a limited number of packets becomes a critical problem. In this paper, we address this problem for the first time. We propose an algorithm that efficiently schedules multiple parallel PINT tasks on a flow by allocating the flow’s packets to the tasks and showing that the allocation is optimal. We realize the algorithm with a packet processing pipeline and implement it on software and hardware-programmable switches. Comprehensive evaluation on a FatTree testbed shows that at a low scheduling overhead, our algorithm can conduct parallel PINT tasks to detect various network faults in a timely and accurate manner. Additionally, the algorithm accomplishes more PINT tasks with higher quality than the alternative solutions.",
+    "citationCount": 8,
+    "referenceCount": 39
+}

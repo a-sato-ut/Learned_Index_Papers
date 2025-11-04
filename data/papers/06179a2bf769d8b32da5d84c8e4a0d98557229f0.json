@@ -1,0 +1,40 @@
+{
+    "paperId": "06179a2bf769d8b32da5d84c8e4a0d98557229f0",
+    "title": "Meta-Learning Adversarial Bandit Algorithms",
+    "year": 2023,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "M. Khodak",
+        "Ilya Osadchiy",
+        "Keegan Harris",
+        "Maria-Florina Balcan",
+        "K. Levy",
+        "R. Meir",
+        "Zhiwei Steven Wu"
+    ],
+    "doi": "10.48550/arXiv.2307.02295",
+    "arxivId": "2307.02295",
+    "url": "https://www.semanticscholar.org/paper/06179a2bf769d8b32da5d84c8e4a0d98557229f0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.02295",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study online meta-learning with bandit feedback, with the goal of improving performance across multiple tasks if they are similar according to some natural similarity measure. As the first to target the adversarial online-within-online partial-information setting, we design meta-algorithms that combine outer learners to simultaneously tune the initialization and other hyperparameters of an inner learner for two important cases: multi-armed bandits (MAB) and bandit linear optimization (BLO). For MAB, the meta-learners initialize and set hyperparameters of the Tsallis-entropy generalization of Exp3, with the task-averaged regret improving if the entropy of the optima-in-hindsight is small. For BLO, we learn to initialize and tune online mirror descent (OMD) with self-concordant barrier regularizers, showing that task-averaged regret varies directly with an action space-dependent measure they induce. Our guarantees rely on proving that unregularized follow-the-leader combined with two levels of low-dimensional hyperparameter tuning is enough to learn a sequence of affine functions of non-Lipschitz and sometimes non-convex Bregman divergences bounding the regret of OMD.",
+    "citationCount": 4,
+    "referenceCount": 57
+}

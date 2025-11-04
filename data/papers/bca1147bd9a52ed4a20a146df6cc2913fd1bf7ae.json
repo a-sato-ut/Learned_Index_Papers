@@ -1,0 +1,33 @@
+{
+    "paperId": "bca1147bd9a52ed4a20a146df6cc2913fd1bf7ae",
+    "title": "Detecting Top-k Flows Combining Probabilistic Sketch and Sliding Window",
+    "year": 2024,
+    "venue": "IEEE Access",
+    "authors": [
+        "Keke Zheng",
+        "Wenzhu Chen",
+        "Botao Feng",
+        "Hanxin Zhang"
+    ],
+    "doi": "10.1109/ACCESS.2024.3385499",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bca1147bd9a52ed4a20a146df6cc2913fd1bf7ae",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10493006.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficient real-time top-k flows measurement plays a pivotal role in enhancing both network performance and security, including tasks such as timely traffic scheduling, optimizing network latency and identifying potential security threats. However, traditional methods for detecting top-k flows suffer from decreased accuracy and high memory overhead. Furthermore, many existing methods overlook finer-grained measurements, such as the detection within the latest short time intervals. With the increasing expansion scale and link speed of the network, an accurate real-time top-k flows identified method is required. This paper proposes wSketch, a novel sketch-based method for real-time top-k flows detection. The innovations of wSketch are that it combines with the sliding window model and circular queue model, and introduces a novel probabilistic update solution. The probabilistic update mechanism gives the larger flow a greater chance of retention, the sliding window model focuses on the latest flow in the last $\\mathbb {W}$ time units, and the circular queue reduces memory consumption. Therefore, wSketch provides insights into the current network situation and does well in anticipating future trends. The experimental results showcase wSketch’s superior performance, achieving over 96% accuracy with a small memory size of 20KB.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

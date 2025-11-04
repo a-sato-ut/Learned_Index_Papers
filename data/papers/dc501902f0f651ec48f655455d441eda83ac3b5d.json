@@ -1,0 +1,31 @@
+{
+    "paperId": "dc501902f0f651ec48f655455d441eda83ac3b5d",
+    "title": "A short note about the learning-augmented secretary problem",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Davin Choo",
+        "Chun Kai Ling"
+    ],
+    "doi": "10.48550/arXiv.2410.06583",
+    "arxivId": "2410.06583",
+    "url": "https://www.semanticscholar.org/paper/dc501902f0f651ec48f655455d441eda83ac3b5d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We consider the secretary problem through the lens of learning-augmented algorithms. As it is known that the best possible expected competitive ratio is $1/e$ in the classic setting without predictions, a natural goal is to design algorithms that are 1-consistent and $1/e$-robust. Unfortunately, [FY24] provided hardness constructions showing that such a goal is not attainable when the candidates' true values are allowed to scale with $n$. Here, we provide a simple and explicit alternative hardness construction showing that such a goal is not achievable even when the candidates' true values are constants that do not scale with $n$.",
+    "citationCount": 1,
+    "referenceCount": 5
+}

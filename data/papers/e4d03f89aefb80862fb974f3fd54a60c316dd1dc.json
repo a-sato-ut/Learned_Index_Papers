@@ -1,0 +1,39 @@
+{
+    "paperId": "e4d03f89aefb80862fb974f3fd54a60c316dd1dc",
+    "title": "Online Bipartite Matching with Advice: Tight Robustness-Consistency Tradeoffs for the Two-Stage Model",
+    "year": 2022,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Billy Jin",
+        "Will Ma"
+    ],
+    "doi": "10.48550/arXiv.2206.11397",
+    "arxivId": "2206.11397",
+    "url": "https://www.semanticscholar.org/paper/e4d03f89aefb80862fb974f3fd54a60c316dd1dc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2206.11397",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Two-stage bipartite matching is a fundamental problem of optimization under uncertainty introduced by Feng, Niazadeh, and Saberi (2021), who study it under the stochastic and adversarial paradigms of uncertainty. We propose a method to interpolate between these paradigms, using the Algorithms with Predictions (ALPS) framework. To elaborate, given some form of information (e.g. a distributional prediction) about the uncertainty, we consider the optimal decision assuming that information is correct to be some\"advice\", whose accuracy is unknown. In the ALPS framework, we define Consistency to be an algorithm's performance relative to the advice, and Robustness to be an algorithm's performance relative to the hindsight-optimal decision. We characterize the tight tradeoff between Consistency and Robustness for four settings of two-stage matching: unweighted, vertex-weighted, edge-weighted, and fractional budgeted allocation. Additionally, we show our algorithm achieves state-of-the-art performance in both synthetic and real-data simulations.",
+    "citationCount": 29,
+    "referenceCount": 31
+}

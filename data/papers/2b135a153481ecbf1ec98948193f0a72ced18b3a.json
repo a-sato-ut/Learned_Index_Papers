@@ -1,0 +1,29 @@
+{
+    "paperId": "2b135a153481ecbf1ec98948193f0a72ced18b3a",
+    "title": "Non-negative low-rank approximations for multi-dimensional arrays on statistical manifold",
+    "year": 2023,
+    "venue": "Information Geometry",
+    "authors": [
+        "Kazu Ghalamkari",
+        "M. Sugiyama"
+    ],
+    "doi": "10.1007/s41884-023-00100-5",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2b135a153481ecbf1ec98948193f0a72ced18b3a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s41884-023-00100-5.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Although low-rank approximation of multi-dimensional arrays has been widely discussed in linear algebra, its statistical properties remain unclear. In this paper, we use information geometry to uncover a statistical picture of non-negative low-rank approximations. First, we treat each input array as a probability distribution using a log-linear model on a poset, where a structure of an input array is realized as a partial order. We then describe the low-rank condition of arrays as constraints on parameters of the model and formulate the low-rank approximation as a projection onto a subspace that satisfies such constraints, where parameters correspond to coordinate systems of a statistical manifold. Second, based on information-geometric analysis of low-rank approximation, we point out the unexpected relationship between the rank-1 non-negative low-rank approximation and mean-field approximation , a well-established method in physics that uses a one-body problem to approximate a many-body problem. Third, our theoretical discussion leads to a novel optimization method of non-negative low-rank approximation, called Legendre Tucker rank reduction. Because the proposed method does not use the gradient method, it does not require tuning parameters such as initial position, learning rate, and stopping criteria. In addition, the flexibility of the log-linear model enables us to treat the problem of non-negative multiple matrix factorization (NMMF), a variant of low-rank approximation with shared factors. We find the best rank-1 NMMF formula as a closed form and develop a rapid rank-1 NMF method for arrays with missing entries based on the closed form, called A1GM.",
+    "citationCount": 2,
+    "referenceCount": 62
+}

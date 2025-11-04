@@ -1,0 +1,32 @@
+{
+    "paperId": "e970d243e9fb56100a0371733466ad887a038938",
+    "title": "Chat2Data: An Interactive Data Analysis System with RAG, Vector Databases and LLMs",
+    "year": 2024,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Xinyang Zhao",
+        "Xuanhe Zhou",
+        "Guoliang Li"
+    ],
+    "doi": "10.14778/3685800.3685905",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e970d243e9fb56100a0371733466ad887a038938",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Traditional data analysis methods require users to write programming codes or issue SQL queries to analyze the data, which are inconvenient for ordinary users. Large language models (LLMs) can alleviate these limitations by enabling users to interact with the data with natural language (NL), e.g., result retrieval and summarization for unstructured data and transforming the NL text to SQL queries or codes for structured data. However, existing LLMs have three limitations: hallucination (due to lacking domain knowledge for vertical domains), high cost for LLM reasoning, and low accuracy for complicated tasks. To address these problems, we propose a prototype, Chat2Data, to interactively analyze the data with natural language. Chat2Data adopts a three-layer method, where the first layer uses Retrieval-Augmented Generation (RAG) to embed domain knowledge in order to address the hallucination problem, the second layer utilizes vector databases to reduce the number of interactions with LLMs so as to improve the performance, and the third layer designs a pipeline agent to decompose a complex task to multiple subtasks and use multiple round reasoning to generate the results in order to improve the accuracy of LLMs. We demonstrate Chat2Data with two real scenarios, unstructured data retrieval and summarization, and natural language-based structured data analysis. The online demo is available at\n http://vdemo.dbmind.cn.\n",
+    "citationCount": 31,
+    "referenceCount": 8
+}

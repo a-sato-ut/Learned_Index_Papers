@@ -1,0 +1,34 @@
+{
+    "paperId": "1159249648128ed8bf20f9b5ef93174702b2e27d",
+    "title": "Learning-Augmented Frequent Directions",
+    "year": 2025,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Anders Aamand",
+        "Justin Y. Chen",
+        "Siddharth Gollapudi",
+        "Sandeep Silwal",
+        "Hao Wu"
+    ],
+    "doi": "10.48550/arXiv.2503.00937",
+    "arxivId": "2503.00937",
+    "url": "https://www.semanticscholar.org/paper/1159249648128ed8bf20f9b5ef93174702b2e27d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "An influential paper of Hsu et al. (ICLR'19) introduced the study of learning-augmented streaming algorithms in the context of frequency estimation. A fundamental problem in the streaming literature, the goal of frequency estimation is to approximate the number of occurrences of items appearing in a long stream of data using only a small amount of memory. Hsu et al. develop a natural framework to combine the worst-case guarantees of popular solutions such as CountMin and CountSketch with learned predictions of high frequency elements. They demonstrate that learning the underlying structure of data can be used to yield better streaming algorithms, both in theory and practice. We simplify and generalize past work on learning-augmented frequency estimation. Our first contribution is a learning-augmented variant of the Misra-Gries algorithm which improves upon the error of learned CountMin and learned CountSketch and achieves the state-of-the-art performance of randomized algorithms (Aamand et al., NeurIPS'23) with a simpler, deterministic algorithm. Our second contribution is to adapt learning-augmentation to a high-dimensional generalization of frequency estimation corresponding to finding important directions (top singular vectors) of a matrix given its rows one-by-one in a stream. We analyze a learning-augmented variant of the Frequent Directions algorithm, extending the theoretical and empirical understanding of learned predictions to matrix streaming.",
+    "citationCount": 1,
+    "referenceCount": 37
+}

@@ -1,0 +1,42 @@
+{
+    "paperId": "a80900a3f4dfa3d1f3be81954217479fb35a1389",
+    "title": "Toward Robust and Efficient ML-Based GPU Caching for Modern Inference",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Peng Chen",
+        "Jiaji Zhang",
+        "Hailiang Zhao",
+        "Yirong Zhang",
+        "Jiahong Yu",
+        "Xueyan Tang",
+        "Yixuan Wang",
+        "Hao Li",
+        "Jianping Zou",
+        "Gang Xiong",
+        "Kingsum Chow",
+        "Shuibing He",
+        "Shuiguang Deng"
+    ],
+    "doi": "10.48550/arXiv.2509.20979",
+    "arxivId": "2509.20979",
+    "url": "https://www.semanticscholar.org/paper/a80900a3f4dfa3d1f3be81954217479fb35a1389",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In modern GPU inference, cache efficiency remains a major bottleneck. In recommendation models, embedding hit rates largely determine throughput, while in large language models, KV-cache misses substantially increase time-to-first-token (TTFT). Heuristic policies such as \\textsc{LRU} often struggle under structured access patterns. Learning-based approaches are promising, but in practice face two major limitations: they degrade sharply when predictions are inaccurate, or they gain little even with accurate predictions due to conservative designs. Some also incur high overhead, further limiting practicality. We present \\textsc{LCR}, a practical framework for learning-based GPU caching that delivers performance gains while ensuring robustness and efficiency. Its core algorithm, \\textsc{LARU}, enhances \\textsc{LRU} with machine-learned predictions and dynamically adapts to prediction accuracy through online error estimation. When predictions are accurate, \\textsc{LARU} achieves near-optimal performance. With inaccurate predictions, it degrades gracefully to near-\\textsc{LRU} performance. With \\textsc{LCR}, we bridge the gap between empirical progress and theoretical advances in learning-based caching. Experiments show that \\textsc{LCR} delivers consistent gains under realistic conditions. In DLRM and LLM scenarios, it improves throughput by up to 24.2\\% and reduces P99 TTFT by up to 28.3\\%, outperforming widely used inference systems. Even under poor predictions, its performance remains stable, demonstrating practical robustness.",
+    "citationCount": 0,
+    "referenceCount": 52
+}

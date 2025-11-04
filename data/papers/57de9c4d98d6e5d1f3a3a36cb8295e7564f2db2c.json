@@ -1,0 +1,39 @@
+{
+    "paperId": "57de9c4d98d6e5d1f3a3a36cb8295e7564f2db2c",
+    "title": "REncoder: A Space-Time Efficient Range Filter with Local Encoder",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Ziwei Wang",
+        "Zheng Zhong",
+        "Jiarui Guo",
+        "Yuhan Wu",
+        "Haoyu Li",
+        "Tong Yang",
+        "Yaofeng Tu",
+        "Huanchen Zhang",
+        "Bin Cui"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00158",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/57de9c4d98d6e5d1f3a3a36cb8295e7564f2db2c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A range filter is a data structure to answer range membership queries. Range queries are common in modern applications, and range filters have gained rising attention for improving the performance of range queries by ruling out empty range queries. However, state-of-the-art range filters, such as SuRF and Rosetta, suffer either high false positive rate or low throughput. In this paper, we propose a novel range filter, called REncoder. It organizes all prefixes of keys into a segment tree, and locally encodes the segment tree into a Bloom filter to accelerate queries. REncoder supports diverse workloads by adaptively choosing how many levels of the segment tree to store. We theoretically prove that the error of REncoder is bounded and derive the asymptotic space complexity under the bounded error. We conduct extensive experiments on both synthetic datasets and real datasets. The experimental results show that REncoder outperforms all state-of-the-art range filters.",
+    "citationCount": 17,
+    "referenceCount": 57
+}

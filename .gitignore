@@ -15,16 +15,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Data
-# data/とprocessed_data/の中身を無視（.gitkeepは除く）
-data/*
-!data/papers/
-data/papers/*
-!data/papers/.gitkeep
-processed_data/*
-!processed_data/.gitkeep
-*.pdf
-
 # IDE
 .vscode/
 .idea/

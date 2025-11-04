@@ -1,0 +1,36 @@
+{
+    "paperId": "b5cfeb8d47948c355d9d13622710fb526bdbd8c6",
+    "title": "Compressive Meta-Learning",
+    "year": 2025,
+    "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "authors": [
+        "Daniel Mas Montserrat",
+        "David Bonet",
+        "Maria Perera",
+        "Xavier Giró-i-Nieto",
+        "A. Ioannidis"
+    ],
+    "doi": "10.1145/3711896.3736889",
+    "arxivId": "2508.11090",
+    "url": "https://www.semanticscholar.org/paper/b5cfeb8d47948c355d9d13622710fb526bdbd8c6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid expansion in the size of new datasets has created a need for fast and efficient parameter-learning techniques. Compressive learning is a framework that enables efficient processing by using random, nonlinear features to project large-scale databases onto compact, information-preserving representations whose dimensionality is independent of the number of samples and can be easily stored, transferred, and processed. These database-level summaries are then used to decode parameters of interest from the underlying data distribution without requiring access to the original samples, offering an efficient and privacy-friendly learning framework. However, both the encoding and decoding techniques are typically randomized and data-independent, failing to exploit the underlying structure of the data. In this work, we propose a framework that meta-learns both the encoding and decoding stages of compressive learning methods by using neural networks that provide faster and more accurate systems than the current state-of-the-art approaches. To demonstrate the potential of the presented Compressive Meta-Learning framework, we explore multiple applications--including neural network-based compressive PCA, compressive ridge regression, compressive k-means, and autoencoders.",
+    "citationCount": 0,
+    "referenceCount": 77
+}

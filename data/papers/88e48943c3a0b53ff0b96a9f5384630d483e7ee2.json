@@ -1,0 +1,33 @@
+{
+    "paperId": "88e48943c3a0b53ff0b96a9f5384630d483e7ee2",
+    "title": "Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Read Speed",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Fuheng Zhao",
+        "Leron Reznikov",
+        "D. Agrawal",
+        "A. El Abbadi"
+    ],
+    "doi": "10.48550/arXiv.2305.05074",
+    "arxivId": "2305.05074",
+    "url": "https://www.semanticscholar.org/paper/88e48943c3a0b53ff0b96a9f5384630d483e7ee2",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.05074",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Log Structured Merge Trees (LSM-tree) based key-value stores are widely used in many storage systems to support a variety of operations such as updates, point reads, and range reads. Traditionally, LSM-tree's merge policy organizes data into multiple levels of exponentially increasing capacity to support high-speed writes. However, we contend that the traditional merge policies are not optimized for reads. In this work, we present Autumn, a scalable and read optimized LSM-tree based key-value stores with minimal point and range read cost. The key idea in improving the read performance is to dynamically adjust the capacity ratio between two adjacent levels as more data are stored. As a result, smaller levels gradually increase their capacities and merge more often. In particular, the point and range read cost improves from the previous best known $O(logN)$ complexity to $O(\\sqrt{logN})$ in Autumn by applying the novel Garnering merge policy. While Garnering merge policy optimizes for both point reads and range reads, it maintains high performance for updates. Moreover, to further improve the update costs, Autumn uses a small amount of bounded space of DRAM to pin/keep the first level of LSM-tree. We implemented Autumn on top of LevelDB and experimentally showcases the gain in performance for real world workloads.",
+    "citationCount": 3,
+    "referenceCount": 76
+}

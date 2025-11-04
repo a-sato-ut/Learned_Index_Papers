@@ -1,0 +1,31 @@
+{
+    "paperId": "028d337490c535bcf7940c02d0c1de1f784e252d",
+    "title": "Ribbon filter: practically smaller than Bloom and Xor",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "P. Dillinger",
+        "Stefan Walzer"
+    ],
+    "doi": null,
+    "arxivId": "2103.02515",
+    "url": "https://www.semanticscholar.org/paper/028d337490c535bcf7940c02d0c1de1f784e252d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Filter data structures over-approximate a set of hashable keys, i.e. set membership queries may incorrectly come out positive. A filter with false positive rate $f \\in (0,1]$ is known to require $\\ge \\log_2(1/f)$ bits per key. At least for larger $f \\ge 2^{-4}$, existing practical filters require a space overhead of at least 20% with respect to this information-theoretic bound. \nWe introduce the Ribbon filter: a new filter for static sets with a broad range of configurable space overheads and false positive rates with competitive speed over that range, especially for larger $f \\ge 2^{-7}$. In many cases, Ribbon is faster than existing filters for the same space overhead, or can achieve space overhead below 10% with some additional CPU time. An experimental Ribbon design with load balancing can even achieve space overheads below 1%. \nA Ribbon filter resembles an Xor filter modified to maximize locality and is constructed by solving a band-like linear system over Boolean variables. In previous work, Dietzfelbinger and Walzer describe this linear system and an efficient Gaussian solver. We present and analyze a faster, more adaptable solving process we call \"Rapid Incremental Boolean Banding ON the fly,\" which resembles hash table construction. We also present and analyze an attractive Ribbon variant based on making the linear system homogeneous, and describe several more practical enhancements.",
+    "citationCount": 43,
+    "referenceCount": 66
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "473b0f28da62b18ee388a974a0090c4b9c513580",
+    "title": "Multi-Queue SSD I/O Modeling & Its Implications for Data Structure Design",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Erin Ransom",
+        "Andrew Lim",
+        "Michael D Mitzenmacher"
+    ],
+    "doi": "10.48550/arXiv.2507.06349",
+    "arxivId": "2507.06349",
+    "url": "https://www.semanticscholar.org/paper/473b0f28da62b18ee388a974a0090c4b9c513580",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Understanding the performance profiles of storage devices and how best to utilize them has always been non-trivial due to factors such as seek times, caching, scheduling, concurrent access, flash wear-out, and garbage collection. However, analytical frameworks that provide simplified abstractions of storage performance can still be accurate enough to evaluate external memory algorithms and data structures at the design stage. For example, the Disk Access Machine (DAM) model assumes that a storage device transfers data in fixed-size blocks of size B and that all transfers have unit latency. This abstraction is already sufficient to explain some of the benefits of data structures such as B-trees and Log-Structured Merge trees (LSM trees); however, storage technology advances have significantly reduced current models'accuracy and utility. This paper introduces the Multi-Queue Solid State Drive (MQSSD) model, a new storage abstraction. This model builds upon previous models and aims to more accurately represent the performance characteristics of modern storage hardware. We identify key performance-critical aspects of modern multi-queue solid-state drives on which we base our model and demonstrate these characteristics on actual hardware. We then show how our model can be applied to LSM-tree-based storage engines to optimize them for modern storage hardware. We highlight that leveraging concurrent access is crucial for fully utilizing the high throughput of multi-queue SSDs, enabling designs that may appear counterintuitive under traditional paradigms We then validate these insights through experiments using Facebook's LSM-tree-based key-value store, RocksDB. We conclude that the MQSSD model offers a more accurate abstraction of modern hardware than previous models, allowing for greater insight and optimization.",
+    "citationCount": 0,
+    "referenceCount": 37
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "6b5d9d0e30e6ec70a1cc555912f50f20b7f1b01c",
+    "title": "A Novel Prediction Setup for Online Speed-Scaling",
+    "year": 2021,
+    "venue": "Scandinavian Workshop on Algorithm Theory",
+    "authors": [
+        "A. Antoniadis",
+        "Peyman Jabbarzade Ganje",
+        "Golnoosh Shahkarami"
+    ],
+    "doi": "10.4230/LIPIcs.SWAT.2022.9",
+    "arxivId": "2112.03082",
+    "url": "https://www.semanticscholar.org/paper/6b5d9d0e30e6ec70a1cc555912f50f20b7f1b01c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Given the rapid rise in energy demand by data centers and computing systems in general, it is fundamental to incorporate energy considerations when designing (scheduling) algorithms. Machine learning can be a useful approach in practice by predicting the future load of the system based on, for example, historical data. However, the effectiveness of such an approach highly depends on the quality of the predictions and can be quite far from optimal when predictions are sub-par. On the other hand, while providing a worst-case guarantee, classical online algorithms can be pessimistic for large classes of inputs arising in practice. This paper, in the spirit of the new area of machine learning augmented algorithms, attempts to obtain the best of both worlds for the classical, deadline based, online speed-scaling problem: Based on the introduction of a novel prediction setup, we develop algorithms that (i) obtain provably low energy-consumption in the presence of adequate predictions, and (ii) are robust against inadequate predictions, and (iii) are smooth, i.e., their performance gradually degrades as the prediction error increases.",
+    "citationCount": 19,
+    "referenceCount": 32
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "dc6ee25197f968b9c41ba80e3896eca1d9c2eced",
+    "title": "Are Joins over LSM-trees Ready: Take RocksDB as an Example",
+    "year": 2024,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Weiping Yu",
+        "Fan Wang",
+        "Xuwei Zhang",
+        "Siqiang Luo"
+    ],
+    "doi": "10.14778/3717755.3717767",
+    "arxivId": "2501.16759",
+    "url": "https://www.semanticscholar.org/paper/dc6ee25197f968b9c41ba80e3896eca1d9c2eced",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LSM-tree-based data stores are widely adopted in industries for their excellent performance. As data scale increases, disk-based join operations become indispensable yet costly for the database, making the selection of suitable join methods crucial for system optimization. Current LSM-based stores generally adhere to conventional relational database practices and support only a limited number of join methods. However, the LSM-tree delivers distinct read and write efficiency compared to the relational databases, which could accordingly impact the performance of various join methods. Therefore, it is necessary to reconsider the selection of join methods in this context to fully explore the potential of various join algorithms and index designs. In this work, we present a systematic study and an exhaustive benchmark for joins over LSM-trees. We define a configuration space for join methods, encompassing various join algorithms, secondary index types, and consistency strategies. We also summarize a theoretical analysis to evaluate the overhead of each join method for an in-depth understanding. Furthermore, we implement all join methods in the configuration space on a unified platform and compare their performance through extensive experiments. Our theoretical and experimental results yield several insights and takeaways tailored to joins in LSM-based stores that aid developers in choosing proper join methods based on their working conditions.",
+    "citationCount": 0,
+    "referenceCount": 71
+}

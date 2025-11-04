@@ -1,0 +1,33 @@
+{
+    "paperId": "17cfa48bcaaaed4a8d9fe451a7b8d6a4c25a8cad",
+    "title": "Dijkstras algorithm with predictions to solve the single-source many-targets shortest-path problem",
+    "year": 2021,
+    "venue": "",
+    "authors": [
+        "W. Feijen",
+        "Guido Schafer"
+    ],
+    "doi": null,
+    "arxivId": "2112.11927",
+    "url": "https://www.semanticscholar.org/paper/17cfa48bcaaaed4a8d9fe451a7b8d6a4c25a8cad",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study the use of machine learning techniques to solve a fundamental shortest path problem, known as the single-source many-targets shortest path problem (SSMTSP). Given a directed graph with non-negative edge weights, our goal is to compute a shortest path from a given source node to any of several target nodes. Basically, our idea is to equip an adapted version of Dijkstras algorithm with machine learning predictions to solve this problem: Based on the trace of the algorithm, we design a neural network that predicts the shortest path distance after a few iterations. The prediction is then used to prune the search space explored by Dijkstras algorithm, which may significantly reduce the number of operations on the underlying priority queue. We note that our algorithm works independently of the specific method that is used to arrive at such predictions. Crucially, we require that our algorithm always computes an optimal solution (independently of the accuracy of the prediction) and provides a certificate of optimality. As we show, in the worst-case this might force our algorithm to use the same number of queue operations as Dijkstras algorithm, even if the prediction is correct. In general, however, our algorithm may save a significant fraction of the priority queue operations. We derive structural insights that allow us to lower bound these savings on partial random instances. In these instances, an adversary can fix the instance arbitrarily except for the weights of a subset of relevant edges, which are chosen randomly. Our bound shows that the number of relevant edges which are pruned increases as the prediction error decreases. We then use these insights to derive closed-form expressions of the expected number of saved queue operations on random instances.",
+    "citationCount": 3,
+    "referenceCount": 54
+}

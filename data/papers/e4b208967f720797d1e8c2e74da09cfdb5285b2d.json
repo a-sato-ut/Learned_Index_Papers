@@ -1,0 +1,38 @@
+{
+    "paperId": "e4b208967f720797d1e8c2e74da09cfdb5285b2d",
+    "title": "On the Complexity of Algorithms with Predictions for Dynamic Graph Problems",
+    "year": 2023,
+    "venue": "Information Technology Convergence and Services",
+    "authors": [
+        "Monika Henzinger",
+        "Andrea Lincoln",
+        "B. Saha",
+        "Martin P. Seybold",
+        "Christopher Ye"
+    ],
+    "doi": "10.48550/arXiv.2307.16771",
+    "arxivId": "2307.16771",
+    "url": "https://www.semanticscholar.org/paper/e4b208967f720797d1e8c2e74da09cfdb5285b2d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.16771",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "{\\em Algorithms with predictions} incorporate machine learning predictions into algorithm design. A plethora of recent works incorporated predictions to improve on worst-case optimal bounds for online problems. In this paper, we initiate the study of complexity of dynamic data structures with predictions, including dynamic graph algorithms. Unlike in online algorithms, the main goal in dynamic data structures is to maintain the solution {\\em efficiently} with every update. Motivated by work in online algorithms, we investigate three natural models of predictions: (1) $\\varepsilon$-accurate predictions where each predicted request matches the true request with probability at least $\\varepsilon$, (2) list-accurate predictions where a true request comes from a list of possible requests, and (3) bounded delay predictions where the true requests are some (unknown) permutations of the predicted requests. For $\\varepsilon$-accurate predictions, we show that lower bounds from the non-prediction setting of a problem carry over, up to a $1-\\varepsilon$ factor. Then we give general reductions among the prediction models for a problem, showing that lower bounds for bounded delay imply lower bounds for list-accurate predictions, which imply lower bounds for $\\varepsilon$-accurate predictions. Further, we identify two broad problem classes based on lower bounds due to the Online Matrix Vector (OMv) conjecture. Specifically, we show that dynamic problems that are {\\em locally correctable} have strong conditional lower bounds for list-accurate predictions that are equivalent to the non-prediction setting, unless list-accurate predictions are perfect. Moreover, dynamic problems that are {\\em locally reducible} have a smooth transition in the running time. We categorize problems accordingly and give upper bounds that show that our lower bounds are almost tight, including problems in dynamic graphs.",
+    "citationCount": 14,
+    "referenceCount": 102
+}

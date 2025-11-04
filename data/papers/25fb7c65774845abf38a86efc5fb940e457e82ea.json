@@ -1,0 +1,36 @@
+{
+    "paperId": "25fb7c65774845abf38a86efc5fb940e457e82ea",
+    "title": "Algorithms with Calibrated Machine Learning Predictions",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Judy Hanwen Shen",
+        "Ellen Vitercik",
+        "Anders Wikum"
+    ],
+    "doi": "10.48550/arXiv.2502.02861",
+    "arxivId": "2502.02861",
+    "url": "https://www.semanticscholar.org/paper/25fb7c65774845abf38a86efc5fb940e457e82ea",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The field of algorithms with predictions incorporates machine learning advice in the design of online algorithms to improve real-world performance. A central consideration is the extent to which predictions can be trusted -- while existing approaches often require users to specify an aggregate trust level, modern machine learning models can provide estimates of prediction-level uncertainty. In this paper, we propose calibration as a principled and practical tool to bridge this gap, demonstrating the benefits of calibrated advice through two case studies: the ski rental and online job scheduling problems. For ski rental, we design an algorithm that achieves near-optimal prediction-dependent performance and prove that, in high-variance settings, calibrated advice offers more effective guidance than alternative methods for uncertainty quantification. For job scheduling, we demonstrate that using a calibrated predictor leads to significant performance improvements over existing methods. Evaluations on real-world data validate our theoretical findings, highlighting the practical impact of calibration for algorithms with predictions.",
+    "citationCount": 5,
+    "referenceCount": 40
+}

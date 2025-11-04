@@ -1,0 +1,30 @@
+{
+    "paperId": "c0d65cbfe47cf733f7dbca09938eb18786665572",
+    "title": "Beyond Efficiency: Emotion-Aware Competitive Analysis of Online Algorithms",
+    "year": 2025,
+    "venue": "IEEE Access",
+    "authors": [
+        "Christine Markarian"
+    ],
+    "doi": "10.1109/ACCESS.2025.3622165",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c0d65cbfe47cf733f7dbca09938eb18786665572",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many of today’s infrastructures, from transportation and healthcare to cloud computing and digital marketplaces, rely on algorithms that must act online, meaning they make decisions sequentially without knowledge of the future. The classical framework for evaluating such algorithms is competitive analysis, which compares their performance against an ideal offline benchmark with full knowledge of all inputs. This approach has guided decades of research and remains essential for understanding efficiency under uncertainty. Yet efficiency alone cannot capture all the factors that determine system success in practice. Repeated denials, inconsistent outcomes, and unequal treatment can generate frustration, erode trust, and undermine long-term stability. To address this gap, Emotional Competitive Analysis is introduced, a framework that preserves the rigor of classical analysis while extending it with human-centered dimensions. Formal emotional state variables such as frustration, trust, and stability are defined and integrated into the Emotional Competitive Ratio (ECR), which evaluates algorithms jointly on efficiency and emotional dynamics. As a case study, the focus is on online bipartite matching, a canonical problem in the field that is widely used as a benchmark due to its clarity and broad applicability. Three main results are established: 1) algorithms that are optimal under classical analysis can perform poorly under emotional metrics, 2) emotion-aware variants achieve bicriteria guarantees, and 3) no algorithm can simultaneously optimize both objectives. By embedding evolving affective states into evaluation, Emotional Competitive Analysis bridges efficiency and experience, offering a rigorous and necessary extension of the theory of online algorithms.",
+    "citationCount": 0,
+    "referenceCount": 56
+}

@@ -1,0 +1,43 @@
+{
+    "paperId": "ad0579d94b605cc49293c2fb67721b2386999f7b",
+    "title": "Fast and space-efficient taxonomic classification of long reads with hierarchical interleaved XOR filters",
+    "year": 2023,
+    "venue": "bioRxiv",
+    "authors": [
+        "Jens-Uwe Ulrich",
+        "B. Renard"
+    ],
+    "doi": "10.1101/gr.278623.123",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ad0579d94b605cc49293c2fb67721b2386999f7b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Metagenomic long-read sequencing is gaining popularity for various applications, including pathogen detection and microbiome studies. To analyze the large data created in those studies, software tools need to taxonomically classify the sequenced molecules and estimate the relative abundances of organisms in the sequenced sample. Due to the exponential growth of reference genome databases, the current taxonomic classification methods have large computational requirements. This issue motivated us to develop a new data structure for fast and memoryefficient querying of long reads. Here we present Taxor as a new tool for long-read metagenomic classification using a hierarchical interleaved XOR filter data structure for indexing and querying large reference genome sets. Taxor implements several k-mer-based approaches such as syncmers for pseudoalignment to classify reads and an Expectation-Maximization algorithm for metagenomic profiling. Our results show that Taxor outperforms competing shortand long-read tools regarding precision, while having a similar recall. Most notably, Taxor reduces the memory requirements and index size by more than 50% and is among the fastest tools regarding query times. This enables real-time metagenomics analysis with large reference databases on a small laptop in the field. Taxor is available at https://gitlab.com/dacs-hpi/taxor.",
+    "citationCount": 9,
+    "referenceCount": 58
+}

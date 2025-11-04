@@ -1,0 +1,44 @@
+{
+    "paperId": "6d409bd1562219c109629bc5db0e5f5099b3bdfb",
+    "title": "Beyond IID: data-driven decision-making in heterogeneous environments",
+    "year": 2022,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Omar Besbes",
+        "Will Ma",
+        "Omar Mouchtaki"
+    ],
+    "doi": "10.48550/arXiv.2206.09642",
+    "arxivId": "2206.09642",
+    "url": "https://www.semanticscholar.org/paper/6d409bd1562219c109629bc5db0e5f5099b3bdfb",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2206.09642",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Economics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "How should one leverage historical data when past observations are not perfectly indicative of the future, for example, because of the presence of unobserved confounders which one cannot “correct” for? Motivated by this question, we study a data-driven decision-making framework in which historical samples are generated from unknown and different distributions assumed to lie in a heterogeneity ball with known radius and centered around the (also) unknown future (out-of-sample) distribution on which the performance of a decision will be evaluated. This work aims to analyze the performance of central data-driven policies and also near-optimal ones in these heterogeneous environments, and it aims to understand key drivers of performance. We establish a first result that allows us to upper bound the asymptotic worst-case regret of a broad class of policies. Leveraging this result, for any integral probability metric, we provide a general analysis of the performance achieved by sample average approximation (SAA) as a function of the radius of the heterogeneity ball. This analysis is centered around the approximation parameter, a notion of complexity we introduce to capture how the interplay between the heterogeneity and the problem structure impacts the performance of SAA. In turn, we illustrate, through several widely studied problems—for example, newsvendor, pricing—how this methodology can be applied and find that the performance of SAA varies considerably depending on the combinations of problem classes and heterogeneity. The failure of SAA for certain instances motivates the design of alternative policies to achieve rate optimality. We derive problem-dependent policies achieving strong guarantees for the illustrative problems described above and provide initial results toward a principled approach for the design and analysis of general rate-optimal algorithms. This paper was accepted by Vivek Farias, data science. Supplemental Material: The online appendix is available at https://doi.org/10.1287/mnsc.2022.03448 .",
+    "citationCount": 11,
+    "referenceCount": 77
+}

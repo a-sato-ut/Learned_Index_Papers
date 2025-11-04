@@ -1,0 +1,39 @@
+{
+    "paperId": "de020c6853b7a0d6345043b4bb8b8f1760615e1c",
+    "title": "FEBench: A Benchmark for Real-Time Relational Data Feature Extraction",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Xuanhe Zhou",
+        "Cheng Chen",
+        "Kun Li",
+        "Bin He",
+        "Mian Lu",
+        "Qiaosheng Liu",
+        "Wei Huang",
+        "Guoliang Li",
+        "Zhao Zheng",
+        "Yuqiang Chen"
+    ],
+    "doi": "10.14778/3611540.3611550",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/de020c6853b7a0d6345043b4bb8b8f1760615e1c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As the use of online AI inference services rapidly expands in various applications (e.g., fraud detection in banking, product recommendation in e-commerce), real-time feature extraction (RTFE) systems have been developed to compute the requested features from incoming data tuples in ultra-low latency. Similar to relational databases, these RTFE procedures can be expressed using SQL-like languages. However, there is a lack of research on the workload characteristics and specialized benchmarks for RTFE, especially in comparison with existing database workloads and benchmarks (e.g., concurrent transactions in TPC-C). In this paper, we study the RTFE workload characteristics using over one hundred real datasets from open repositories (e.g. Kaggle, Tianchi, UCI ML, KiltHub) and those from 4Paradigm. The study highlights the significant differences between RTFE workloads and existing database benchmarks in terms of application scenarios, operator distributions, and query structures. Based on these findings, we propose to develop a realtime feature extraction benchmark named FEBench based on the four important criteria for a domain-specific benchmark proposed by Jim Gray. FEBench consists of selected representative datasets, query templates, and an online request simulator. We use FEBench to evaluate the effectiveness of feature extraction systems including OpenMLDB and Flink and find that each system exhibits distinct advantages and limitations in terms of overall latency, tail latency, and concurrency performance.",
+    "citationCount": 11,
+    "referenceCount": 46
+}

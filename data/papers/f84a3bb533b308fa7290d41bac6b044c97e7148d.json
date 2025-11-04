@@ -1,0 +1,35 @@
+{
+    "paperId": "f84a3bb533b308fa7290d41bac6b044c97e7148d",
+    "title": "GeoBloom: Revisiting Lightweight Models for Geographic Information Retrieval",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Yi Li",
+        "Gao Cong"
+    ],
+    "doi": "10.14778/3718057.3718064",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f84a3bb533b308fa7290d41bac6b044c97e7148d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Geographic Information Retrieval (GIR) systems process text queries with geographic location to identify relevant geographic objects for users. Although recent advancements have leveraged Pre-trained Language Models (PLMs) for their robust semantic comprehension, these models typically depend on extensive\n labeled queries\n and require considerable computational resources. Deviating from this prevailing trend, we propose GeoBloom, a lightweight framework that surpasses the effectiveness of PLMs with fewer or no labeled queries, with remarkable efficiency in both time and space.\n \n GeoBloom tackles critical challenges such as the lack of labeled queries, low data (labeled) efficiency, and high computational demands. At its core, it employs Bloom filters to encode text at a fine-grained term level and uses intersecting bits to create a robust unsupervised text similarity metric. A specialized Bloom Filter Evaluator is proposed to assess the importance of each intersecting bit, focusing on those associated with ground truth, improving effectiveness with fewer training labels. For enhanced search efficiency, the evaluator exploits the inherent sparsity of Bloom filters, achieving remarkably low time and space complexities. This efficiency is further boosted by a tree-based index that partitions the search space while preserving effectiveness. Extensive experiments show that GeoBloom surpasses state-of-the-art baselines in both unsupervised (up to 15.66% improvement) and supervised settings (up to 10.94% improvement) on real datasets in terms of NDCG@5. Furthermore, GeoBloom operates up to 80x faster and saves up to 74.72% memory and 87.64% disk space over PLM-based alternatives, rendering it highly potent for real-world applications.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

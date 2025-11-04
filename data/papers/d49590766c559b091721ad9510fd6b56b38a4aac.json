@@ -1,0 +1,39 @@
+{
+    "paperId": "d49590766c559b091721ad9510fd6b56b38a4aac",
+    "title": "Learning-Based Sketch for Adaptive and High-Performance Network Measurement",
+    "year": 2024,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "Fuliang Li",
+        "Yiming Lv",
+        "Yangsheng Yan",
+        "Chengxi Gao",
+        "Xingwei Wang",
+        "Jiannong Cao"
+    ],
+    "doi": "10.1109/TNET.2024.3364176",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d49590766c559b091721ad9510fd6b56b38a4aac",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the development of network measurement technologies, a hybrid measurement architecture can effectively optimize the sketch structure in switches, making it more adaptable to the current complex and volatile network environment. However, current optimization technologies based on hybrid measurement architectures generally suffer from insufficient automation, difficulty of learning effective numerical features, and lack of generality, resulting in poor scalability in real deployment. To solve these problems, we propose the TalentSketch framework, based on which we further develop DeepSketch for effective sketch optimization. First, we use Seq2Seq to automatically identify target flows instead of relying on manual thresholds. Second, we propose a new training strategy that extracts low-precision flows for models with weak learning capabilities. Last, we develop a new sketch optimization framework that can optimize different kinds of sketches only by changing the training data for generality. A large number of experimental results show that DeepSketch exhibits superior performance. For example: (1) the accuracy of optimized sketches has increased by 20% to 73%, (2) Without replacing the model structure, the accuracy of the optimized sketches can generally reach over 80%. (3) The impact of low sampling rates on accuracy is less than 1% on various sketches.",
+    "citationCount": 3,
+    "referenceCount": 43
+}

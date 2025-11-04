@@ -1,0 +1,32 @@
+{
+    "paperId": "dc7d220aa08e688ce16d98e9bbc9322a6bb0fcb9",
+    "title": "Accelerating Approximate Nearest Neighbor Search in Hierarchical Graphs: Efficient Level Navigation with Shortcuts",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Zengyang Gong",
+        "Yuxiang Zeng",
+        "Lei Chen"
+    ],
+    "doi": "10.14778/3748191.3748212",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dc7d220aa08e688ce16d98e9bbc9322a6bb0fcb9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate Nearest Neighbor (ANN) search is a foundational yet computationally demanding query in vector databases, critical for applications such as information retrieval and generative AI inference. Hierarchical graph-based methods have attracted significant attention due to their promising query performances compared to other indexes for ANN search. However, these methods still face efficiency bottlenecks because they rely on exhaustive and level-by-level traversals within hierarchical graphs. This paper introduces SHG, a novel hierarchical graph-based index that enhances search efficiency by bypassing intermediate and redundant levels. Specifically, SHG leverages a hierarchical vector compression method to reduce the time spent on distance computations, and employs a new data structure called shortcuts to determine the number of intermediate levels that can be safely skipped. Extensive experiments demonstrate that our solution achieves 1.5–1.8× speedup compared to state-of-the-art methods. Meanwhile, our method significantly improves the robustness of ANN search, boosting recall by up to 20% for certain queries on benchmark datasets.",
+    "citationCount": 0,
+    "referenceCount": 52
+}

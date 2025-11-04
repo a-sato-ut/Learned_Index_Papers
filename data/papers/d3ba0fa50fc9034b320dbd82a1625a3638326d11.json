@@ -1,0 +1,34 @@
+{
+    "paperId": "d3ba0fa50fc9034b320dbd82a1625a3638326d11",
+    "title": "Robust Load Balancing with Machine Learned Advice",
+    "year": 2022,
+    "venue": "ACM-SIAM Symposium on Discrete Algorithms",
+    "authors": [
+        "Sara Ahmadian",
+        "Hossein Esfandiari",
+        "V. Mirrokni",
+        "Binghui Peng"
+    ],
+    "doi": "10.1137/1.9781611977073.2",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d3ba0fa50fc9034b320dbd82a1625a3638326d11",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Motivated by the exploding growth of web-based services and the importance of eﬃciently managing the computational resources of such systems, we introduce and study a theoretical model for load balancing of very large databases such as commercial search engines. Our model is a more realistic version of the well-received balls-into-bins model with an additional constraint that limits the number of servers that carry each piece of the data. This additional constraint is necessary when, on one hand, the data is so large that we can not copy the whole data on each server. On the other hand, the query response time is so limited that we can not ignore the fact that the number of queries for each piece of the data changes over time, and hence we can not simply split the data over diﬀerent machines. In this paper, we develop an almost optimal load balancing algorithm that works given an estimate of the load of each piece of the data. Our algorithm is almost perfectly robust to wrong estimates, to the extent that even when all of the loads are adversarially chosen the performance of our algorithm is 1 − 1 /e , which is provably optimal. Along the way, we develop various techniques for analyzing the balls-into-bins process under certain correlations and build a novel connection with the multiplicative weights update scheme.",
+    "citationCount": 13,
+    "referenceCount": 41
+}

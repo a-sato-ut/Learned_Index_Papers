@@ -1,0 +1,31 @@
+{
+    "paperId": "f607e3d72127bd0014ea405035ef09b087236ea3",
+    "title": "A Case for Partitioned Bloom Filters",
+    "year": 2020,
+    "venue": "IEEE transactions on computers",
+    "authors": [
+        "P. Almeida"
+    ],
+    "doi": "10.1109/TC.2022.3218995",
+    "arxivId": "2009.11789",
+    "url": "https://www.semanticscholar.org/paper/f607e3d72127bd0014ea405035ef09b087236ea3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://repositorium.sdum.uminho.pt/bitstream/1822/90004/1/TC3218995-accepted-version.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In a partitioned Bloom Filter (PBF) the bit vector is split into disjoint parts, one per hash function. Contrary to hardware designs, where they prevail, software implementations mostly ignore PBFs, considering them worse than standard Bloom filters (SBF), due to the slightly larger false positive rate (FPR). In this paper, by performing an in-depth analysis, first we show that the FPR advantage of SBFs is smaller than thought; more importantly, by deriving the per-element FPR, we show that SBFs have weak spots in the domain: elements that test as false positives much more frequently than expected. This is relevant in scenarios where an element is tested against many filters. Moreover, SBFs are prone to exhibit extremely weak spots if naive double hashing is used, something occurring in mainstream libraries. PBFs exhibit a uniform distribution of the FPR over the domain, with no weak spots, even using naive double hashing. Finally, we survey scenarios beyond set membership testing, identifying many advantages of having disjoint parts, in designs using SIMD techniques, for filter size reduction, test of set disjointness, and duplicate detection in streams. PBFs are better, and should replace SBFs, in general purpose libraries and as the base for novel designs.",
+    "citationCount": 9,
+    "referenceCount": 46
+}

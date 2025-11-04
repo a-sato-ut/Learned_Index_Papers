@@ -1,0 +1,36 @@
+{
+    "paperId": "e0d01757a47e508128a7c8d670b69d2481147d84",
+    "title": "Efficient approximation schemes for scheduling on a stochastic number of machines",
+    "year": 2024,
+    "venue": "Symposium on Theoretical Aspects of Computer Science",
+    "authors": [
+        "Leah Epstein",
+        "Asaf Levin"
+    ],
+    "doi": "10.48550/arXiv.2409.10155",
+    "arxivId": "2409.10155",
+    "url": "https://www.semanticscholar.org/paper/e0d01757a47e508128a7c8d670b69d2481147d84",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study three two-stage optimization problems with a similar structure and different objectives. In the first stage of each problem, the goal is to assign input jobs of positive sizes to unsplittable bags. After this assignment is decided, the realization of the number of identical machines that will be available is revealed. Then, in the second stage, the bags are assigned to machines. The probability vector of the number of machines in the second stage is known to the algorithm as part of the input before making the decisions of the first stage. Thus, the vector of machine completion times is a random variable. The goal of the first problem is to minimize the expected value of the makespan of the second stage schedule, while the goal of the second problem is to maximize the expected value of the minimum completion time of the machines in the second stage solution. The goal of the third problem is to minimize the \\ell_p norm for a fixed p>1, where the norm is applied on machines' completion times vectors. Each one of the first two problems admits a PTAS as Buchem et al. showed recently. Here we significantly improve all their results by designing an EPTAS for each one of these problems. We also design an EPTAS for \\ell_p norm minimization for any p>1.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

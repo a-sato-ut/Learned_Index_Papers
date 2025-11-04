@@ -1,0 +1,34 @@
+{
+    "paperId": "ba360d9b9bf20c52e984e48bce9705d8227d48c9",
+    "title": "Comparing the Hardness of Online Minimization and Maximization Problems with Predictions",
+    "year": 2024,
+    "venue": "IJTCS-FAW",
+    "authors": [
+        "Magnus Berg"
+    ],
+    "doi": "10.48550/arXiv.2409.12694",
+    "arxivId": "2409.12694",
+    "url": "https://www.semanticscholar.org/paper/ba360d9b9bf20c52e984e48bce9705d8227d48c9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We build on the work of Berg, Boyar, Favrholdt, and Larsen, who developed a complexity theory for online problems with and without predictions (arXiv:2406.18265), focussing on minimization problems with binary predictions, where they define a hierarchy of complexity classes that classifies online problems based on the competitiveness of best possible deterministic online algorithms for each problem. We continue their work, focussing on online maximization problems. First, we compare the competitiveness of the base online minimization problem from Berg, Boyar, Favrholdt, and Larsen, Asymmetric String Guessing, to the competitiveness of Online Bounded Degree Independent Set. Formally, we show that there exist algorithms of any given competitiveness for Asymmetric String Guessing if and only if there exist algorithms of the same competitiveness for Online Bounded Degree Independent Set, while respecting that the competitiveness of algorithms is measured differently for minimization and maximization problems. Moreover, we give several hardness preserving reductions between different online maximization problems, which imply new membership, hardness, and completeness results for the complexity classes. Finally, we show new positive and negative algorithmic results for (among others) Online Bounded Degree Independent Set, Online Interval Scheduling, Online Set Packing, and Online Bounded Minimum Degree Clique.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

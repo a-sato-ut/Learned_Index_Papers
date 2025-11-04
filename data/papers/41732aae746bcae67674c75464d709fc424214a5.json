@@ -1,0 +1,34 @@
+{
+    "paperId": "41732aae746bcae67674c75464d709fc424214a5",
+    "title": "Cardinality Estimation Adaptive Cuckoo Filters (CE-ACF): Approximate Membership Check and Distinct Query Count for High-Speed Network Monitoring",
+    "year": 2024,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "P. Reviriego",
+        "Jim Apple",
+        "Álvaro Alonso",
+        "Otmar Ertl",
+        "Niv Dayan"
+    ],
+    "doi": "10.1109/TNET.2023.3302306",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/41732aae746bcae67674c75464d709fc424214a5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/tnet.2023.3302306",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In network monitoring applications, it is often beneficial to employ a fast approximate set-membership filter to check if a given packet belongs to a monitored flow. Recent adaptive filter designs, such as the Adaptive Cuckoo Filter, are especially promising for such use cases as they adapt fingerprints to eliminate recurring false positives. In many traffic monitoring applications, it is also of interest to know the number of distinct flows that traverse a link or the number of nodes that are sending traffic. This is commonly done using cardinality estimation sketches. Therefore, on a given switch or network device, the same packets are typically processed using both a filter and a cardinality estimator. Having to process each packet with two independent data structures adds complexity to the implementation and limits performance. This paper shows that adaptive cuckoo filters can also be used to estimate the number of distinct negative elements queried on the filter. In flow monitoring, those distinct queries correspond to distinct flows. This is interesting as we get the cardinality estimation for free as part of the normal adaptive filter’s operation. We provide (1) a theoretical analysis, (2) simulation results, and (3) an evaluation with real packet traces to show that adaptive cuckoo filters can accurately estimate a wide range of cardinalities in practical scenarios.",
+    "citationCount": 2,
+    "referenceCount": 58
+}

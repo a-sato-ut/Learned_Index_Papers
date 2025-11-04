@@ -1,0 +1,34 @@
+{
+    "paperId": "d1ce83df90eb3a9afd3550e1b94d39a20b035033",
+    "title": "Learned Indexes with Distribution Smoothing via Virtual Points",
+    "year": 2024,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "Kasun Amarasinghe",
+        "Farhana Choudhury",
+        "Jianzhong Qi",
+        "James Bailey"
+    ],
+    "doi": "10.48550/arXiv.2408.06134",
+    "arxivId": "2408.06134",
+    "url": "https://www.semanticscholar.org/paper/d1ce83df90eb3a9afd3550e1b94d39a20b035033",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent research on learned indexes has created a new perspective for indexes as models that map keys to their respective storage locations. These learned indexes are created to approximate the cumulative distribution function of the key set, where using only a single model may have limited accuracy. To overcome this limitation, a typical method is to use multiple models, arranged in a hierarchical manner, where the query performance depends on two aspects: (i) traversal time to find the correct model and (ii) search time to find the key in the selected model. Such a method may cause some key space regions that are difficult to model to be placed at deeper levels in the hierarchy. To address this issue, we propose an alternative method that modifies the key space as opposed to any structural or model modifications. This is achieved through making the key set more learnable (i.e., smoothing the distribution) by inserting virtual points. Furthermore, we develop an algorithm named CSV to integrate our virtual point insertion method into existing learned indexes, reducing both their traversal and search time. We implement CSV on state-of-the-art learned indexes and evaluate them on real-world datasets. Extensive experimental results show significant query performance improvement for the keys in deeper levels of the index structures at a low storage cost.",
+    "citationCount": 1,
+    "referenceCount": 40
+}

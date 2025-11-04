@@ -1,0 +1,37 @@
+{
+    "paperId": "a7d38ecda2844bb8826edd3ef8c7f9152727f664",
+    "title": "Learning to Warm-Start Fixed-Point Optimization Algorithms",
+    "year": 2023,
+    "venue": "Journal of machine learning research",
+    "authors": [
+        "Rajiv Sambharya",
+        "Georgina Hall",
+        "Brandon Amos",
+        "Bartolomeo Stellato"
+    ],
+    "doi": "10.48550/arXiv.2309.07835",
+    "arxivId": "2309.07835",
+    "url": "https://www.semanticscholar.org/paper/a7d38ecda2844bb8826edd3ef8c7f9152727f664",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2309.07835",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce a machine-learning framework to warm-start fixed-point optimization algorithms. Our architecture consists of a neural network mapping problem parameters to warm starts, followed by a predefined number of fixed-point iterations. We propose two loss functions designed to either minimize the fixed-point residual or the distance to a ground truth solution. In this way, the neural network predicts warm starts with the end-to-end goal of minimizing the downstream loss. An important feature of our architecture is its flexibility, in that it can predict a warm start for fixed-point algorithms run for any number of steps, without being limited to the number of steps it has been trained on. We provide PAC-Bayes generalization bounds on unseen data for common classes of fixed-point operators: contractive, linearly convergent, and averaged. Applying this framework to well-known applications in control, statistics, and signal processing, we observe a significant reduction in the number of iterations and solution time required to solve these problems, through learned warm starts.",
+    "citationCount": 23,
+    "referenceCount": 123
+}

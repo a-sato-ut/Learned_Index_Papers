@@ -1,0 +1,35 @@
+{
+    "paperId": "8212907ec96659a48106130e1e465298a071d62a",
+    "title": "Floating-floating point: a highly accurate number representation with flexible Counting ranges",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Itamar Cohen",
+        "Gil Einziger"
+    ],
+    "doi": "10.48550/arXiv.2410.03692",
+    "arxivId": "2410.03692",
+    "url": "https://www.semanticscholar.org/paper/8212907ec96659a48106130e1e465298a071d62a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficient number representation is essential for federated learning, natural language processing, and network measurement solutions. Due to timing, area, and power constraints, such applications use narrow bit-width (e.g., 8-bit) number systems. The widely used floating-point systems exhibit a trade-off between the counting range and accuracy. This paper introduces Floating-Floating-Point (F2P) - a floating point number that varies the partition between mantissa and exponent. Such flexibility leads to a large counting range combined with improved accuracy over a selected sub-range. Our evaluation demonstrates that moving to F2P from the state-of-the-art improves network measurement accuracy and federated learning.",
+    "citationCount": 0,
+    "referenceCount": 14
+}

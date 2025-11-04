@@ -1,0 +1,41 @@
+{
+    "paperId": "88f72a0ae778e0fd002495702e67b87ffca5d0a9",
+    "title": "Generalized Sorting with Predictions",
+    "year": 2020,
+    "venue": "SIAM Symposium on Simplicity in Algorithms",
+    "authors": [
+        "P. Lu",
+        "Xuandi Ren",
+        "Enze Sun",
+        "Yubo Zhang"
+    ],
+    "doi": "10.1137/1.9781611976496.13",
+    "arxivId": "2011.00172",
+    "url": "https://www.semanticscholar.org/paper/88f72a0ae778e0fd002495702e67b87ffca5d0a9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://epubs.siam.org/doi/pdf/10.1137/1.9781611976496.13",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generalized sorting problem, also known as sorting with forbidden comparisons, was first introduced by Huang et al. together with a randomized algorithm which requires $\\tilde O(n^{3/2})$ probes. We study this problem with additional predictions for all pairs of allowed comparisons as input. We propose a randomized algorithm which uses $O(n \\log n+w)$ probes with high probability and a deterministic algorithm which uses $O(nw)$ probes, where $w$ is the number of mistakes made by prediction.",
+    "citationCount": 13,
+    "referenceCount": 11
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "5088b608281ef54639bf82085e69a81fa668b17a",
+    "title": "Supporting Dynamic Insertions in xor and Binary Fuse Filters With the Integrated xor/BIF-Bloom Filter",
+    "year": 2024,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "Roberto Martínez",
+        "P. Reviriego",
+        "D. Larrabeiti"
+    ],
+    "doi": "10.1109/TNSM.2024.3362380",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5088b608281ef54639bf82085e69a81fa668b17a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://oa.upm.es/79066/1/XOR_BLOOM_FILTER_AD.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate membership check filters are widely used in networking applications to resolve membership queries at high speed with a low memory cost. Due to their extensive use, many filter types have been proposed. Two recent and interesting alternatives are the xor filter and the binary fuse filter, which in certain configurations have one of the lowest false positive rates, are faster and use less memory than other filters. However, one of the main drawbacks of xor and binary fuse filters is that it is not possible to add keys once the filter has been built. This limits their use in many network related applications where keys have to be added dynamically. This paper presents the Integrated xor-Bloom filter (IXOR) and the Integrated binary fuse-Bloom filter (IBIF), both schemes allow dynamic insertions in xor and binary fuse filters without the need to reconstruct the filters. The schemes have been implemented and evaluated showing that a large number of dynamic insertions can be supported with a limited memory overhead and a small impact on the false positive probability and lookup speed. Therefore, the proposed filters can bring the benefits of xor and binary fuse filters to networking applications that need to support dynamic insertions.",
+    "citationCount": 1,
+    "referenceCount": 25
+}

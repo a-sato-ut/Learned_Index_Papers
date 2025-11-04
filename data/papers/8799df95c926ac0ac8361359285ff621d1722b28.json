@@ -1,0 +1,34 @@
+{
+    "paperId": "8799df95c926ac0ac8361359285ff621d1722b28",
+    "title": "Understanding Robustness Issues of Updatable Learned Indexes: [Experiments & Analysis]",
+    "year": 2025,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Yuanhui Luo",
+        "Minhui Xie",
+        "Yiheng Tong",
+        "Shichao Jiang",
+        "Yunpeng Chai"
+    ],
+    "doi": "10.1145/3749188",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8799df95c926ac0ac8361359285ff621d1722b28",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learned indexes are viewed as promising substitutes for traditional indexes due to their excellent performance, especially in read-only workloads. Previous studies have shown that updatable learned indexes perform exceptionally well in many cases, suggesting they are nearly ready for real-world applications. However, unlike traditional indexes such as B+tree and ART, updatable learned indexes are prone to instability of real-time trained models, resulting in inherently uncertain structures. This raises skepticism about their robustness, hindering their broader adoption. In this paper, we conduct a systematic benchmark and analysis to address this concern, corroborating doubts about the lack of robustness in state-of-the-art updatable learned indexes. We demonstrate that, contrary to previous findings, updatable learned indexes cannot robustly surpass traditional indexes, even losing their expected advantage under read-intensive workloads. We further reveal the root causes, including overfitted models, unbalanced structures, ineffective adjustments, and excessive space reservation. In addition, we explore potential mitigation methods to address these challenges. We hope our findings will highlight the critical importance of robustness in the design of updatable learned indexes, ultimately paving the way for their real-world adoption.",
+    "citationCount": 0,
+    "referenceCount": 63
+}

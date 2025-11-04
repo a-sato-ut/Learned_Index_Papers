@@ -1,0 +1,39 @@
+{
+    "paperId": "a7c9a3a3d8fb28ff94480d1f48274f15dd4df625",
+    "title": "HeX: Encrypted Rich Queries With Forward and Backward Privacy Using Trusted Hardware",
+    "year": 2025,
+    "venue": "IEEE Transactions on Dependable and Secure Computing",
+    "authors": [
+        "Haotian Wu",
+        "Zhe Peng",
+        "Jiang Xiao",
+        "Lei Xue",
+        "Chenhao Lin",
+        "Sai-Ho Chung"
+    ],
+    "doi": "10.1109/TDSC.2025.3540958",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a7c9a3a3d8fb28ff94480d1f48274f15dd4df625",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Dynamic searchable symmetric encryption (DSSE) schemes empower data owners to outsource their encrypted data to clouds while retaining the ability to update or search on it. Despite a lot of efforts devoted in recent years, there are still several challenges that have not been well addressed. First, the confidentiality of data might be compromised if forward privacy and backward privacy cannot be ensured. Second, only the traditional single keyword-file search has attracted tremendous attention, while other popular queries like Boolean queries and range queries are not fully investigated. Lastly, how to solve these problems on untrusted servers that may deviate from pre-defined protocols is also challenging. In this article, aiming to tackle the above problems, we propose a novel DSSE scheme named <inline-formula><tex-math notation=\"LaTeX\">${\\sf HeX}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"sans-serif\">HeX</mml:mi></mml:math><inline-graphic xlink:href=\"peng-ieq1-3540958.gif\"/></alternatives></inline-formula> based on Trusted Execution Environment (TEE) that supports rich queries on untrusted servers while guaranteeing forward and backward privacy. We achieve strong forward and backward security by designing a deferred obfuscating read-write technique atop the bitmap index. We further extend the basic scheme to realize Boolean queries and range queries by reducing them to basic keyword queries. Strict theoretical analysis is conducted to prove the security of <inline-formula><tex-math notation=\"LaTeX\">${\\sf HeX}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"sans-serif\">HeX</mml:mi></mml:math><inline-graphic xlink:href=\"peng-ieq2-3540958.gif\"/></alternatives></inline-formula>, and extensive evaluations illustrate its efficiency and practicality.",
+    "citationCount": 2,
+    "referenceCount": 43
+}

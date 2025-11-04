@@ -1,0 +1,37 @@
+{
+    "paperId": "31ac4ac96db4d97f4ad92942481b326cd8da99a4",
+    "title": "LIVAK: A High-Performance In-Memory Learned Index for Variable-Length Keys",
+    "year": 2024,
+    "venue": "Design Automation Conference",
+    "authors": [
+        "Zhaole Chu",
+        "Zhou Zhang",
+        "Peiquan Jin",
+        "Xiaoliang Wang",
+        "Yongping Luo",
+        "Xujian Zhao"
+    ],
+    "doi": "10.1145/3649329.3657385",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/31ac4ac96db4d97f4ad92942481b326cd8da99a4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In-memory learned index has been an efficient approach supporting in-memory fast data access. However, existing learned indexes are inefficient in supporting variable-length keys. To address this issue, we propose a new in-memory learned index called LIVAK that adopts a hybrid structure involving trie, learned index, and B+-tree. Each node indexes an 8-byte slice of keys, and we use learned indexes for large nodes but B+-trees for small nodes. Also, LIVAK presents a character re-encoding mechanism to avoid performance degradation. We compare LIVAK with B+-tree, Masstree, and SIndex on various datasets and workloads, and the results suggest the efficiency of LIVAK.",
+    "citationCount": 0,
+    "referenceCount": 17
+}

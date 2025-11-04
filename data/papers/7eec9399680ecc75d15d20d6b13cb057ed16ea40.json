@@ -1,0 +1,35 @@
+{
+    "paperId": "7eec9399680ecc75d15d20d6b13cb057ed16ea40",
+    "title": "On the Security of Quotient Filters: Attacks and Potential Countermeasures",
+    "year": 2024,
+    "venue": "IEEE transactions on computers",
+    "authors": [
+        "P. Reviriego",
+        "Miguel González",
+        "Niv Dayan",
+        "G. Huecas",
+        "Shanshan Liu",
+        "Fabrizio Lombardi"
+    ],
+    "doi": "10.1109/TC.2024.3371793",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7eec9399680ecc75d15d20d6b13cb057ed16ea40",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/12/4358213/10454246.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The security of probabilistic data structures is increasingly important due to their wide adoption in many computing systems and applications. In particular, the security of approximate membership check filters such as Bloom or cuckoo filters has been recently studied showing how an attacker can degrade the filter performance in some settings. In this paper, we consider for the first time the security of another popular approximate membership check filter, the Quotient Filter (QF). Our analysis and simulations show that quotient filters are vulnerable to both white and black box attackers that can cause insertion failures and degrade the filter performance very significantly. An interesting finding is that quotient filters are vulnerable to a new type of attack, not applicable to Bloom or cuckoo filters, that can degrade the speed of queries dramatically. The paper also briefly discusses and evaluates potential countermeasures to detect and protect against those attacks.",
+    "citationCount": 1,
+    "referenceCount": 45
+}

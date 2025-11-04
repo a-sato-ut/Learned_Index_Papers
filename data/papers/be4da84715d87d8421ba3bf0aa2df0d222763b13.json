@@ -1,0 +1,36 @@
+{
+    "paperId": "be4da84715d87d8421ba3bf0aa2df0d222763b13",
+    "title": "Offline and Online Algorithms for SSD Management",
+    "year": 2023,
+    "venue": "Communications of the ACM",
+    "authors": [
+        "Tomer Lange",
+        "J. Naor",
+        "Gala Yadgar"
+    ],
+    "doi": "10.1145/3596205",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/be4da84715d87d8421ba3bf0aa2df0d222763b13",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Flash-based solid-state drives (SSDs) are a key component in most computer systems, thanks to their ability to support parallel I/O at sub-millisecond latency and consistently high throughput. At the same time, due to the limitations of the flash media, they perform writes out-of-place, often incurring a high internal overhead which is referred to as write amplification. Minimizing this overhead has been the focus of numerous studies by the systems research community for more than two decades. The abundance of system-level optimizations for reducing SSD write amplification, which is typically based on experimental evaluation, stands in stark contrast to the lack of theoretical algorithmic results in this problem domain. To bridge this gap, we explore the problem of reducing write amplification from an algorithmic perspective, considering it in both offline and online settings. In the offline setting, we present a near-optimal algorithm. In the online setting, we first consider algorithms that have no prior knowledge about the input and show that in this case, the greedy algorithm is optimal. Then, we design an online algorithm that uses predictions about the input. We show that when predictions are relatively accurate, our algorithm significantly improves over the greedy algorithm. We complement our theoretical findings with an empirical evaluation of our algorithms, comparing them with the state-of-the-art scheme. The results confirm that our algorithms exhibit an improved performance for a wide range of input traces.",
+    "citationCount": 5,
+    "referenceCount": 18
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "7bb4a934a9ef5e5f8ada57febd491b4867c659e2",
+    "title": "Neural Sum-of-Squares: Certifying the Nonnegativity of Polynomials with Transformers",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Nico Pelleriti",
+        "Christoph Spiegel",
+        "Shiwei Liu",
+        "David Mart'inez-Rubio",
+        "Max Zimmer",
+        "S. Pokutta"
+    ],
+    "doi": null,
+    "arxivId": "2510.13444",
+    "url": "https://www.semanticscholar.org/paper/7bb4a934a9ef5e5f8ada57febd491b4867c659e2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Certifying nonnegativity of polynomials is a well-known NP-hard problem with direct applications spanning non-convex optimization, control, robotics, and beyond. A sufficient condition for nonnegativity is the Sum of Squares (SOS) property, i.e., it can be written as a sum of squares of other polynomials. In practice, however, certifying the SOS criterion remains computationally expensive and often involves solving a Semidefinite Program (SDP), whose dimensionality grows quadratically in the size of the monomial basis of the SOS expression; hence, various methods to reduce the size of the monomial basis have been proposed. In this work, we introduce the first learning-augmented algorithm to certify the SOS criterion. To this end, we train a Transformer model that predicts an almost-minimal monomial basis for a given polynomial, thereby drastically reducing the size of the corresponding SDP. Our overall methodology comprises three key components: efficient training dataset generation of over 100 million SOS polynomials, design and training of the corresponding Transformer architecture, and a systematic fallback mechanism to ensure correct termination, which we analyze theoretically. We validate our approach on over 200 benchmark datasets, achieving speedups of over $100\\times$ compared to state-of-the-art solvers and enabling the solution of instances where competing approaches fail. Our findings provide novel insights towards transforming the practical scalability of SOS programming.",
+    "citationCount": 0,
+    "referenceCount": 22
+}

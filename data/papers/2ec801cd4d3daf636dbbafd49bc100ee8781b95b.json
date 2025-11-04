@@ -1,0 +1,34 @@
+{
+    "paperId": "2ec801cd4d3daf636dbbafd49bc100ee8781b95b",
+    "title": "Scheduling with Speed Predictions",
+    "year": 2022,
+    "venue": "Workshop on Approximation and Online Algorithms",
+    "authors": [
+        "Eric Balkanski",
+        "Ting-Chieh Ou",
+        "C. Stein",
+        "Hao-Ting Wei"
+    ],
+    "doi": "10.48550/arXiv.2205.01247",
+    "arxivId": "2205.01247",
+    "url": "https://www.semanticscholar.org/paper/2ec801cd4d3daf636dbbafd49bc100ee8781b95b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2205.01247",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Algorithms with predictions is a recent framework that has been used to overcome pessimistic worst-case bounds in incomplete information settings. In the context of scheduling, very recent work has leveraged machine-learned predictions to design algorithms that achieve improved approximation ratios in settings where the processing times of the jobs are initially unknown. In this paper, we study the speed-robust scheduling problem where the speeds of the machines, instead of the processing times of the jobs, are unknown and augment this problem with predictions. Our main result is an algorithm that achieves a $\\min\\{\\eta^2(1+\\alpha), (2 + 2/\\alpha)\\}$ approximation, for any $\\alpha \\in (0,1)$, where $\\eta \\geq 1$ is the prediction error. When the predictions are accurate, this approximation outperforms the best known approximation for speed-robust scheduling without predictions of $2-1/m$, where $m$ is the number of machines, while simultaneously maintaining a worst-case approximation of $2 + 2/\\alpha$ even when the predictions are arbitrarily wrong. In addition, we obtain improved approximations for three special cases: equal job sizes, infinitesimal job sizes, and binary machine speeds. We also complement our algorithmic results with lower bounds. Finally, we empirically evaluate our algorithm against existing algorithms for speed-robust scheduling.",
+    "citationCount": 7,
+    "referenceCount": 20
+}

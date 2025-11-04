@@ -1,0 +1,31 @@
+{
+    "paperId": "837840c29b9cef4df596b1bceaba9815606125a1",
+    "title": "Fast Partitioned Learned Bloom Filter",
+    "year": 2023,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Atsuki Sato",
+        "Yusuke Matsui"
+    ],
+    "doi": "10.48550/arXiv.2306.02846",
+    "arxivId": "2306.02846",
+    "url": "https://www.semanticscholar.org/paper/837840c29b9cef4df596b1bceaba9815606125a1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2306.02846",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A Bloom filter is a memory-efficient data structure for approximate membership queries used in numerous fields of computer science. Recently, learned Bloom filters that achieve better memory efficiency using machine learning models have attracted attention. One such filter, the partitioned learned Bloom filter (PLBF), achieves excellent memory efficiency. However, PLBF requires a $O(N^3k)$ time complexity to construct the data structure, where $N$ and $k$ are the hyperparameters of PLBF. One can improve memory efficiency by increasing $N$, but the construction time becomes extremely long. Thus, we propose two methods that can reduce the construction time while maintaining the memory efficiency of PLBF. First, we propose fast PLBF, which can construct the same data structure as PLBF with a smaller time complexity $O(N^2k)$. Second, we propose fast PLBF++, which can construct the data structure with even smaller time complexity $O(Nk\\log N + Nk^2)$. Fast PLBF++ does not necessarily construct the same data structure as PLBF. Still, it is almost as memory efficient as PLBF, and it is proved that fast PLBF++ has the same data structure as PLBF when the distribution satisfies a certain constraint. Our experimental results from real-world datasets show that (i) fast PLBF and fast PLBF++ can construct the data structure up to 233 and 761 times faster than PLBF, (ii) fast PLBF can achieve the same memory efficiency as PLBF, and (iii) fast PLBF++ can achieve almost the same memory efficiency as PLBF. The codes are available at https://github.com/atsukisato/FastPLBF .",
+    "citationCount": 10,
+    "referenceCount": 25
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "f42f0c315fb2733531aaa649a02bb5876e9e5c55",
+    "title": "DISCO: A Dynamically Configurable Sketch Framework in Skewed Data Streams",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Jiaqian Liu",
+        "Ran Ben Basat",
+        "Louis De Wardt",
+        "Haipeng Dai",
+        "Guihai Chen"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00365",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f42f0c315fb2733531aaa649a02bb5876e9e5c55",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sketches have gained popularity as effective methods for estimating frequency in data streams, and optimizing their accuracy is critical in many applications. However, while sketches are backed by a standard guarantee under the worst-case analysis, their actual errors can vary significantly with real-world skewed data streams. Therefore, it is challenging to configure sketches to optimize accuracy without prior knowledge of the input. Moreover, even with a new configuration, it is unclear when to apply it. This paper presents a novel sketch framework that can be dy-namically configured to optimize the accuracy given a processed data stream. Specifically, we provide a precise guarantee and derive an optimal number of hash functions under the Zipfian distribution, which is an appropriate way to model skewed data streams in practice. We then propose a dynamically configurable sketch framework, namely DISCO, that can estimate the distri-bution parameter and adjust the number of hash functions on the fly to optimize accuracy. We provide rigorous mathematical analysis and apply DISCO to three classical solutions, including the Count-min, Conservative Update, and Count sketches. Experimental results, using synthetic and real datasets, show that DISCO can achieve the optimal configuration for the metric (i.e., FP) related to the sketch guarantee, while achieving near-optimal accuracy for other common metrics (e.g., ARE) compared with state-of-the-art methods.",
+    "citationCount": 4,
+    "referenceCount": 52
+}

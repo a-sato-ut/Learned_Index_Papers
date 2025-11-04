@@ -1,0 +1,36 @@
+{
+    "paperId": "34fc9dab7537eeffaf1cd6522b948fa4997c60ec",
+    "title": "Faster Global Minimum Cut with Predictions",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Benjamin Moseley",
+        "Helia Niaparast",
+        "Karan Singh"
+    ],
+    "doi": "10.48550/arXiv.2503.05004",
+    "arxivId": "2503.05004",
+    "url": "https://www.semanticscholar.org/paper/34fc9dab7537eeffaf1cd6522b948fa4997c60ec",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Global minimum cut is a fundamental combinatorial optimization problem with wide-ranging applications. Often in practice, these problems are solved repeatedly on families of similar or related instances. However, the de facto algorithmic approach is to solve each instance of the problem from scratch discarding information from prior instances. In this paper, we consider how predictions informed by prior instances can be used to warm-start practical minimum cut algorithms. The paper considers the widely used Karger's algorithm and its counterpart, the Karger-Stein algorithm. Given good predictions, we show these algorithms become near-linear time and have robust performance to erroneous predictions. Both of these algorithms are randomized edge-contraction algorithms. Our natural idea is to probabilistically prioritize the contraction of edges that are unlikely to be in the minimum cut.",
+    "citationCount": 1,
+    "referenceCount": 39
+}

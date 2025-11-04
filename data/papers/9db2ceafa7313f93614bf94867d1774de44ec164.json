@@ -1,0 +1,38 @@
+{
+    "paperId": "9db2ceafa7313f93614bf94867d1774de44ec164",
+    "title": "Online Learning and Bandits with Queried Hints",
+    "year": 2022,
+    "venue": "Information Technology Convergence and Services",
+    "authors": [
+        "Aditya Bhaskara",
+        "Sreenivas Gollapudi",
+        "Sungjin Im",
+        "Kostas Kollias",
+        "Kamesh Munagala"
+    ],
+    "doi": "10.48550/arXiv.2211.02703",
+    "arxivId": "2211.02703",
+    "url": "https://www.semanticscholar.org/paper/9db2ceafa7313f93614bf94867d1774de44ec164",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2211.02703",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We consider the classic online learning and stochastic multi-armed bandit (MAB) problems, when at each step, the online policy can probe and find out which of a small number ($k$) of choices has better reward (or loss) before making its choice. In this model, we derive algorithms whose regret bounds have exponentially better dependence on the time horizon compared to the classic regret bounds. In particular, we show that probing with $k=2$ suffices to achieve time-independent regret bounds for online linear and convex optimization. The same number of probes improve the regret bound of stochastic MAB with independent arms from $O(\\sqrt{nT})$ to $O(n^2 \\log T)$, where $n$ is the number of arms and $T$ is the horizon length. For stochastic MAB, we also consider a stronger model where a probe reveals the reward values of the probed arms, and show that in this case, $k=3$ probes suffice to achieve parameter-independent constant regret, $O(n^2)$. Such regret bounds cannot be achieved even with full feedback after the play, showcasing the power of limited ``advice'' via probing before making the play. We also present extensions to the setting where the hints can be imperfect, and to the case of stochastic MAB where the rewards of the arms can be correlated.",
+    "citationCount": 9,
+    "referenceCount": 66
+}

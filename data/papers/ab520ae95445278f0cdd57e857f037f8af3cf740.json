@@ -1,0 +1,37 @@
+{
+    "paperId": "ab520ae95445278f0cdd57e857f037f8af3cf740",
+    "title": "CoLA: Model Collaboration for Log-based Anomaly Detection",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Xuhang Zhu",
+        "Xiu Tang",
+        "Sai Wu",
+        "Jichen Li",
+        "Haobo Wang",
+        "Chang Yao",
+        "Quanqing Xu",
+        "Gang Chen"
+    ],
+    "doi": "10.14778/3749646.3749668",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ab520ae95445278f0cdd57e857f037f8af3cf740",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Log-based anomaly detection plays a crucial role in ensuring the reliability of systems. While deep learning-based small detection models (SDMs) are efficient, the large language models (LLMs) are accurate and capable of providing explanations. Intuitively, a compelling question arises: Can we seamlessly combine the advantages of both approaches? In this work, we delve into this underexplored research direction and propose CoLA, a novel collaborative log anomaly detection framework. During collaborative inference, an SDM serves as a filter to select potentially anomalous instances, while a downstream LLM acts as an expert to detect anomalies, offer explanations, and refine the SDM. Extensive experiments on three large real-world datasets demonstrate that CoLA significantly outperforms state-of-the-art methods in terms of effectiveness, efficiency, and explainability, while also greatly reducing labor costs.",
+    "citationCount": 0,
+    "referenceCount": 44
+}

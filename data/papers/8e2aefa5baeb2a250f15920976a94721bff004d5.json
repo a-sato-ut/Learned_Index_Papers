@@ -1,0 +1,41 @@
+{
+    "paperId": "8e2aefa5baeb2a250f15920976a94721bff004d5",
+    "title": "Deploying a Steered Query Optimizer in Production at Microsoft",
+    "year": 2022,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Wangda Zhang",
+        "Matteo Interlandi",
+        "Paul Mineiro",
+        "S. Qiao",
+        "Nasim Ghazanfari",
+        "Karlen Lie",
+        "Marc T. Friedman",
+        "Rafah Hosn",
+        "Hiren Patel",
+        "Alekh Jindal"
+    ],
+    "doi": "10.1145/3514221.3526052",
+    "arxivId": "2210.13625",
+    "url": "https://www.semanticscholar.org/paper/8e2aefa5baeb2a250f15920976a94721bff004d5",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2210.13625",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern analytical workloads are highly heterogeneous and massively complex, making generic out of the box query optimizers untenable for many customers and scenarios. As a result, it is important to specialize these optimizers to instances of the workloads. In this paper, we continue a recent line of work in steering a query optimizer towards better plans for a given workload, and make major strides in pushing previous research ideas to production deployment. Along the way we solve several operational challenges including, making steering actions more manageable, keeping the costs of steering within budget, and avoiding unexpected performance regressions in production. Our resulting system, QO-Advisor, essentially externalizes the query planner to a massive offline pipeline for better exploration and specialization. We discuss various aspects of our design and show detailed results over production SCOPE workloads at Microsoft, where the system is currently enabled by default.",
+    "citationCount": 26,
+    "referenceCount": 54
+}

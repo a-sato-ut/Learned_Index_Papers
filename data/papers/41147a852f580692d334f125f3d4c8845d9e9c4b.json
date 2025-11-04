@@ -1,0 +1,34 @@
+{
+    "paperId": "41147a852f580692d334f125f3d4c8845d9e9c4b",
+    "title": "Predictive Flows for Faster Ford-Fulkerson",
+    "year": 2023,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "Sami Davies",
+        "Benjamin Moseley",
+        "Sergei Vassilvitskii",
+        "Yuyan Wang"
+    ],
+    "doi": "10.48550/arXiv.2303.00837",
+    "arxivId": "2303.00837",
+    "url": "https://www.semanticscholar.org/paper/41147a852f580692d334f125f3d4c8845d9e9c4b",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2303.00837",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent work has shown that leveraging learned predictions can improve the running time of algorithms for bipartite matching and similar combinatorial problems. In this work, we build on this idea to improve the performance of the widely used Ford-Fulkerson algorithm for computing maximum flows by seeding Ford-Fulkerson with predicted flows. Our proposed method offers strong theoretical performance in terms of the quality of the prediction. We then consider image segmentation, a common use-case of flows in computer vision, and complement our theoretical analysis with strong empirical results.",
+    "citationCount": 19,
+    "referenceCount": 39
+}

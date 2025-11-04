@@ -1,0 +1,33 @@
+{
+    "paperId": "9405d489ac4198909717228b8d8c489320c2d2d5",
+    "title": "Online Unit Profit Knapsack with Untrusted Predictions",
+    "year": 2022,
+    "venue": "Scandinavian Workshop on Algorithm Theory",
+    "authors": [
+        "J. Boyar",
+        "Lene M. Favrholdt",
+        "Kim S. Larsen"
+    ],
+    "doi": "10.48550/arXiv.2203.00285",
+    "arxivId": "2203.00285",
+    "url": "https://www.semanticscholar.org/paper/9405d489ac4198909717228b8d8c489320c2d2d5",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.00285",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A variant of the online knapsack problem is considered in the settings of trusted and untrusted predictions. In Unit Profit Knapsack, the items have unit profit, and it is easy to find an optimal solution offline: Pack as many of the smallest items as possible into the knapsack. For Online Unit Profit Knapsack, the competitive ratio is unbounded. In contrast, previous work on online algorithms with untrusted predictions generally studied problems where an online algorithm with a constant competitive ratio is known. The prediction, possibly obtained from a machine learning source, that our algorithm uses is the average size of those smallest items that fit in the knapsack. For the prediction error in this hard online problem, we use the ratio $r=\\frac{a}{\\hat{a}}$ where $a$ is the actual value for this average size and $\\hat{a}$ is the prediction. The algorithm presented achieves a competitive ratio of $\\frac{1}{2r}$ for $r\\geq 1$ and $\\frac{r}{2}$ for $r\\leq 1$. Using an adversary technique, we show that this is optimal in some sense, giving a trade-off in the competitive ratio attainable for different values of $r$. Note that the result for accurate advice, $r=1$, is only $\\frac{1}{2}$, but we show that no algorithm knowing the value $a$ can achieve a competitive ratio better than $\\frac{e-1}{e}\\approx 0.6321$ and present an algorithm with a matching upper bound. We also show that this latter algorithm attains a competitive ratio of $r\\frac{e-1}{e}$ for $r \\leq 1$ and $\\frac{e-r}{e}$ for $1 \\leq r",
+    "citationCount": 10,
+    "referenceCount": 45
+}

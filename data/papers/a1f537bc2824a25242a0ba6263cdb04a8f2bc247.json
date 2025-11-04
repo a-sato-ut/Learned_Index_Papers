@@ -1,0 +1,36 @@
+{
+    "paperId": "a1f537bc2824a25242a0ba6263cdb04a8f2bc247",
+    "title": "Machine Covering in the Random-Order Model",
+    "year": 2021,
+    "venue": "Algorithmica",
+    "authors": [
+        "S. Albers",
+        "Waldo G'alvez",
+        "Maximilian Janke"
+    ],
+    "doi": "10.1007/s00453-022-01011-0",
+    "arxivId": "2110.09161",
+    "url": "https://www.semanticscholar.org/paper/a1f537bc2824a25242a0ba6263cdb04a8f2bc247",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the Online Machine Covering problem, jobs, defined by their sizes, arrive one by one and have to be assigned to m parallel and identical machines, with the goal of maximizing the load of the least-loaded machine. Unfortunately, the classical model allows only fairly pessimistic performance guarantees: The best possible deterministic ratio of m is achieved by the Greedy-strategy, and the best known randomized algorithm has competitive ratio O~(m)\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${\\tilde{O}}(\\sqrt{m})$$\\end{document}, which cannot be improved by more than a logarithmic factor. Modern results try to mitigate this by studying semi-online models, where additional information about the job sequence is revealed in advance or extra resources are provided to the online algorithm. In this work, we study the Machine Covering problem in the recently popular random-order model. Here, no extra resources are present but, instead, the adversary is weakened in that it can only decide upon the input set while jobs are revealed uniformly at random. It is particularly relevant to Machine Covering where lower bounds are usually associated to highly structured input sequences. We first analyze Graham’s Greedy-strategy in this context and establish that its competitive ratio decreases slightly to Θmlog(m)\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\Theta \\left( \\frac{m}{\\log (m)}\\right) $$\\end{document}, which is asymptotically tight. Then, as our main result, we present an improved O~(m4)\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${\\tilde{O}}(\\root 4 \\of {m})$$\\end{document}-competitive algorithm for the problem. This result is achieved by exploiting the extra information coming from the random order of the jobs, using sampling techniques to devise an improved mechanism to distinguish jobs that are relatively large from small ones. We complement this result with a first lower bound, showing that no algorithm can have a competitive ratio of Olog(m)loglog(m)\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$O\\left( \\frac{\\log (m)}{\\log \\log (m)}\\right) $$\\end{document} in the random-order model. This lower bound is achieved by studying a novel variant of the Secretary problem, which could be of independent interest.",
+    "citationCount": 6,
+    "referenceCount": 48
+}
