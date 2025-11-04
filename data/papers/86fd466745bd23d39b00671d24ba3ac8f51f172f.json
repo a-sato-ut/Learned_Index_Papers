@@ -1,0 +1,35 @@
+{
+    "paperId": "86fd466745bd23d39b00671d24ba3ac8f51f172f",
+    "title": "CTuner: Automatic NoSQL Database Tuning with Causal Reinforcement Learning",
+    "year": 2024,
+    "venue": "Asia-Pacific Symposium on Internetware",
+    "authors": [
+        "Genting Mai",
+        "Zilong He",
+        "Guangba Yu",
+        "Zhiming Chen",
+        "Pengfei Chen"
+    ],
+    "doi": "10.1145/3671016.3674809",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/86fd466745bd23d39b00671d24ba3ac8f51f172f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid development of information technology has necessitated the management of large volumes of data in modern society, leading to the emergence of NoSQL databases (e.g., MongoDB). To meet the huge demand for efficient data management and query, optimizing the performance of these databases has become crucial. Currently, some reinforcement learning-based methods have been used to improve the efficiency of databases by tuning customizable database configurations. However, these methods have limitations: they ignore operating system configurations, incur high training costs with more knobs, and adapt poorly to new environments with varying workloads and hardware. To address these issues, we propose a novel and effective approach named CTuner for the online performance tuning of NoSQL databases. CTuner skips cold start by Bayesian optimization-based learning, and improves the exploitation strategy of the Twin Delayed Deep Deterministic Policy Gradient (TD3) model with causal inference. Practical implementation and experimental evaluations on three prominent NoSQL databases show that CTuner can find a better configuration at the same time cost than state-of-the-art approaches, with up to a 27.4% improvement in throughput and up to 13.2 % reduction in 95 %-tail latency. Moreover, we introduce meta-learning to enhance the adaptability of CTuner and confirm that it is able to reliably improve performance under new environments and workloads.",
+    "citationCount": 0,
+    "referenceCount": 55
+}

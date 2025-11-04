@@ -1,0 +1,36 @@
+{
+    "paperId": "ca7f7e294eca2e93680de33b1101174df92165c8",
+    "title": "On Streaming Codes for Simultaneously Correcting Burst and Random Erasures",
+    "year": 2024,
+    "venue": "International Symposium on Information Theory",
+    "authors": [
+        "Shobhit Bhatnagar",
+        "Biswadip Chakraborty",
+        "P. V. Kumar"
+    ],
+    "doi": "10.1109/ISIT57864.2024.10619263",
+    "arxivId": "2405.06621",
+    "url": "https://www.semanticscholar.org/paper/ca7f7e294eca2e93680de33b1101174df92165c8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2405.06621",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Streaming codes are packet-level codes that recover dropped packets within a strict decoding-delay constraint. We study streaming codes over a sliding-window (SW) channel model which admits only those erasure patterns which allow either a single burst erasure of $\\leq b$ packets along with $\\leq e$ random packet erasures, or else, $\\leq a$ random packet erasures, in any sliding-window of $w$ time slots. We determine the optimal rate of a streaming code constructed via the popular diagonal embedding (DE) technique over such a SW channel under delay constraint $\\tau=(w-1)$ and provide an $O(w)$ field size code construction. For the case $e > 1$, we show that it is not possible to significantly reduce this field size requirement, assuming the well-known MDS conjecture. We then provide a block code construction whose DE yields a streaming code achieving the rate derived above, over a field of size sub-linear in $w$, for a family of parameters having $e=1$. We show the field size optimality of this construction for some parameters, and near-optimality for others under a sparsity constraint. Additionally, we derive an upper-bound on the minimum distance of a cyclic code and characterize cyclic codes which achieve this bound via their ability to simultaneously recover from burst and random erasures.",
+    "citationCount": 1,
+    "referenceCount": 39
+}

@@ -1,0 +1,27 @@
+{
+    "paperId": "56803db70d8073d5bf90fec82f69ca04ada9927b",
+    "title": "MR3: An execution framework for hive and spark",
+    "year": 2025,
+    "venue": "ETRI Journal",
+    "authors": [
+        "Seonggon Namgung",
+        "Sungwoo Park"
+    ],
+    "doi": "10.4218/etrij.2024-0488",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/56803db70d8073d5bf90fec82f69ca04ada9927b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Resource utilization in multi‐tenant environments remains a critical challenge for distributed data processing frameworks such as Apache Hive and Apache Spark. To address this, we propose MR3, a new execution framework designed to enhance efficiency by allowing multiple directed acyclic graphs (DAGs) to share a common pool of workers and reusing these workers across different clients. MR3 introduces a novel dynamic task scheduling policy that prioritizes tasks with all input data ready, irrespective of their statically assigned priorities, to improve resource utilization. We integrate MR3 into Hive and Spark, creating Hive‐MR3, an extension of Hive which uses MR3 as its execution backend, and Spark‐MR3, an add‐on to Spark which replaces the scheduler backend with MR3. Our experiments on the TPC‐DS benchmark show that the dynamic task scheduling policy of MR3 improves the throughput of Hive‐MR3 for concurrent queries by 8.9% to 43.3%. Additionally, when running multiple Spark applications, Spark‐MR3 outperforms vanilla Spark by reducing the running time by up to 36.3%. These results underscore the potential of MR3 to improve performance of distributed data processing frameworks in multi‐tenant environments.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

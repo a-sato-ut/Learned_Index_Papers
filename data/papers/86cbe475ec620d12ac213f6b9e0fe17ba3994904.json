@@ -1,0 +1,37 @@
+{
+    "paperId": "86cbe475ec620d12ac213f6b9e0fe17ba3994904",
+    "title": "A ConvNets-based approach for capturing the heterogeneity of spatial domain in parallel geoprocessing",
+    "year": 2024,
+    "venue": "International Journal of Digital Earth",
+    "authors": [
+        "Fan Gao",
+        "Wei Lu",
+        "Linlu Gan",
+        "Chenglong Xu"
+    ],
+    "doi": "10.1080/17538947.2024.2398066",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/86cbe475ec620d12ac213f6b9e0fe17ba3994904",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1080/17538947.2024.2398066",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "ABSTRACT Predicting computational intensity (CI) is essential for domain decomposition and load balance in parallel geoprocessing. However, traditional CI prediction is limited in capturing the heterogeneity of spatial domain, leading to poor accuracy and load imbalance. Leveraging recent advancements in deep learning from Artificial Intelligence (AI), this paper proposes a deep learning-based approach for predicting CI and enhancing domain decomposition, which reduces the dependency on expert knowledge through automatic feature learning. In the approach, Convolutional Neural Networks are employed to capture the heterogeneity of spatial domain, encompassing structural, distribution, and topological characteristics. A fully connected layer is then utilized for CI prediction and optimized domain decomposition. Comparative experiments were implemented between the proposed approach and three traditional methods, using two cases: spatial intersection on vector data and peak perilousness assessment. The results demonstrate that the proposed approach achieves a speedup ratio of 19.8 and a parallel efficiency of 0.82. The findings highlight the advantages of the proposed approach in terms of parallel performance and usability. This study serves as a valuable reference for illustrating how deep learning can enhance parallel geoprocessing, providing a roadmap for applying deep learning techniques to geocomputations and fostering further advancements of AI GIS.",
+    "citationCount": 2,
+    "referenceCount": 52
+}

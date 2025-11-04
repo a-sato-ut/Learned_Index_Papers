@@ -1,0 +1,30 @@
+{
+    "paperId": "5baab8022fe4f0b735165e6fdb7c7c09b380ada6",
+    "title": "RBOIRA: Integrating Rules and Reinforcement Learning to Improve Index Recommendation",
+    "year": 2023,
+    "venue": "ICST Transactions on Scalable Information Systems",
+    "authors": [
+        "Wenbo Yu",
+        "Jinguo You",
+        "Xiangyu Niu",
+        "Jianfeng He",
+        "Yunwei Zhang"
+    ],
+    "doi": "10.4108/eetsis.3822",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5baab8022fe4f0b735165e6fdb7c7c09b380ada6",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://publications.eai.eu/index.php/sis/article/download/3822/2505",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "INTRODUCTION: The index is one of the most effective ways to improve the database query performance. The expert-based index recommendation approach cannot adjust the index configuration in real time. At the same time, reinforcement learning can automatically update the index and improve the recommended configuration by leveraging expert experience.OBJECTIVES: This paper proposes the RBOIRA, which combines rules and reinforcement learning to recommend the optimal index configuration for a set of workloads in a dynamic database.METHODS: Firstly, RBOIRA designed three heuristic rules for pruning index candidates. Secondly, it uses reinforcement learning to recommend the optimal index configuration for a set of workloads in the database. Finally, we conducted extensive experiments to evaluate RBOIRA using the TPC-H database benchmark.RESULTS: RBOIRA recommends index configurations with superior performance compared to the baselines we define and other reinforcement learning methods used in related work and also has robustness in different database sizes.",
+    "citationCount": 2,
+    "referenceCount": 33
+}

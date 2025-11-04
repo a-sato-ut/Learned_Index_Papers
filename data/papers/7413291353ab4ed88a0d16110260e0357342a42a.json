@@ -1,0 +1,32 @@
+{
+    "paperId": "7413291353ab4ed88a0d16110260e0357342a42a",
+    "title": "Extensible Query Optimizers in Practice",
+    "year": 2024,
+    "venue": "Found. Trends Databases",
+    "authors": [
+        "Bailu Ding",
+        "Vivek R. Narasayya",
+        "Surajit Chaudhuri"
+    ],
+    "doi": "10.1561/1900000077",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7413291353ab4ed88a0d16110260e0357342a42a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The performance of a query crucially depends on the ability of the query optimizer to choose a good execution plan from a large space of alternatives. With the discovery of algebraic transformation rules and the emergence of new application-specific contexts, extensibility has become a key requirement for query optimizers. This monograph describes extensible query optimizers in detail, focusing on the Volcano/Cascades framework used by several database systems including Microsoft SQL Server. We explain the need for extensible query optimizer architectures and how the optimizer navigates the search space efficiently. We then discuss several important transformations that are commonly used in practice. We describe cost estimation, an essential component that the optimizer relies upon to quantitatively compare alternative plans in the search space. We discuss how database systems manage plans over their lifetime as data and workloads change. We conclude with a few open challenges.",
+    "citationCount": 7,
+    "referenceCount": 106
+}

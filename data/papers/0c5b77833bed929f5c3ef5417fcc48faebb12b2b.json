@@ -1,0 +1,29 @@
+{
+    "paperId": "0c5b77833bed929f5c3ef5417fcc48faebb12b2b",
+    "title": "Transformative Progress in Document Digitization: An In-Depth Exploration of Machine and Deep Learning Models for Character Recognition",
+    "year": 2023,
+    "venue": "Data and Metadata",
+    "authors": [
+        "Ali Benaissa",
+        "A. Bahri",
+        "Ahmad El Allaoui",
+        "My Abdelouahab Salahddine"
+    ],
+    "doi": "10.56294/dm2023174",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0c5b77833bed929f5c3ef5417fcc48faebb12b2b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dm.saludcyt.ar/index.php/dm/article/download/174/341",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Introduction: this paper explores the effectiveness of character recognition models for document digitization, leveraging diverse machine learning and deep learning techniques. The study, driven by the increasing relevance of image classification in various applications, focuses on evaluating Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Recurrent Neural Network (RNN), Convolutional Neural Network (CNN), and VGG16 with transfer learning. The research employs a challenging French alphabet dataset, comprising 82 classes, to assess the models' capacity to discern intricate patterns and generalize across diverse characters. Objective: This study investigates the effectiveness of character recognition models for document digitization using diverse machine learning and deep learning techniques. Methods: the methodology initiates with data preparation, involving the creation of a merged dataset from distinct sections, encompassing digits, French special characters, symbols, and the French alphabet. The dataset is subsequently partitioned into training, test, and evaluation sets. Each model undergoes meticulous training and evaluation over a specific number of epochs. The recording of fundamental metrics includes accuracy, precision, recall, and F1-score for CNN, RNN, and VGG16, while SVM and KNN are evaluated based on accuracy, macro avg, and weighted avg. Results: the outcomes highlight distinct strengths and areas for improvement across the evaluated models. SVM demonstrates remarkable accuracy of 98.63%, emphasizing its efficacy in character recognition. KNN exhibits high reliability with an overall accuracy of 97%, while the RNN model faces challenges in training and generalization. The CNN model excels with an accuracy of 97.268%, and VGG16 with transfer learning achieves notable enhancements, reaching accuracy rates of 94.83% on test images and 94.55% on evaluation images. Conclusion: our study evaluates the performance of five models—Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Recurrent Neural Network (RNN), Convolutional Neural Network (CNN), and VGG16 with transfer learning—on character recognition tasks. SVM and KNN demonstrate high accuracy, while RNN faces challenges in training. CNN excels in image classification, and VGG16, with transfer learning, enhances accuracy significantly. This comparative analysis aids in informed model selection for character recognition applications.",
+    "citationCount": 1,
+    "referenceCount": 8
+}

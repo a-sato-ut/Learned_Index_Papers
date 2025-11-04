@@ -1,0 +1,32 @@
+{
+    "paperId": "a1f2201375aa4183f444682977522199ba84eaa6",
+    "title": "ProRes: Proactive re-selection of materialized views",
+    "year": 2022,
+    "venue": "Computer Science and Information Systems",
+    "authors": [
+        "M. Mouna",
+        "Ladjel Bellatreche",
+        "Boustia Narhimene"
+    ],
+    "doi": "10.2298/csis210606003m",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a1f2201375aa4183f444682977522199ba84eaa6",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://www.doiserbia.nb.rs/ft.aspx?id=1820-02142200003M",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Materialized View Selection is one of the most studied problems in the\n database field, covering SQL and NoSQL technologies as well as different\n deployment infrastructures (centralized, parallel, cloud). This problem has\n become more complex with the arrival of data warehouses, being coupled with\n the physical de sign phase that aims at optimizing query performance.\n Selecting the best set of materialized views to optimize query performance\n is a challenging task. Given their importance and the complexity of their\n selection, several research efforts both from academia and industry have\n been conducted. Results are promising - some solutions are being\n implemented by commercial and open-source DBMSs -, but they do not factor in\n the following properties of nowadays analytical queries: (i) large scale\n queries, (ii) their dynamicity, and (iii) their high interaction. Studies to\n date fail to consider that complete set of properties. Considering the three\n properties simultaneously is crucial regarding today?s analytical\n requirements, which involve dynamic and interactive queries. In this paper,\n we first present a concise state of the art of the materialized view\n selection problem (VSP) by analyzing its ecosystem. Secondly, we propose a\n proactive re-selection approach that considers the three properties\n concurrently. It features twomain phases: offline and online. In the offline\n phase, we manage a set of the first queries based on a given threshold _ by\n selecting materialized views through a hypergraph structure. The second\n phase manages the addition of new queries by scheduling them, updates the\n structure of the hypergraph, and selects new views by eliminating the least\n beneficial ones. Finally, extensive experiments are conducted using the Star\n Schema Benchmark data set to evaluate the effectiveness and efficiency of\n our approach.",
+    "citationCount": 3,
+    "referenceCount": 64
+}

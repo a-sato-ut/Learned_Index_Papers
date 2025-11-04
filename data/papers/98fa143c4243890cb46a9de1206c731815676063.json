@@ -1,0 +1,57 @@
+{
+    "paperId": "98fa143c4243890cb46a9de1206c731815676063",
+    "title": "AI as an intervention: improving clinical outcomes relies on a causal approach to AI development and validation",
+    "year": 2025,
+    "venue": "J. Am. Medical Informatics Assoc.",
+    "authors": [
+        "Shalmali Joshi",
+        "Iñigo Urteaga",
+        "Wouter A. C. van Amsterdam",
+        "G. Hripcsak",
+        "P. Elias",
+        "Benjamin R. C. Amor",
+        "Noémie Elhadad",
+        "J. Fackler",
+        "M. Sendak",
+        "Jenna Wiens",
+        "Kaivalya Deshpande",
+        "Yoav Wald",
+        "M. Fiterau",
+        "Z. Lipton",
+        "Daniel Malinsky",
+        "Madhur Nayan",
+        "Hongseok Namkoong",
+        "Soojin Park",
+        "Julia E. Vogt",
+        "Rajesh Ranganath"
+    ],
+    "doi": "10.1093/jamia/ocae301",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/98fa143c4243890cb46a9de1206c731815676063",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1093/jamia/ocae301",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract The primary practice of healthcare artificial intelligence (AI) starts with model development, often using state-of-the-art AI, retrospectively evaluated using metrics lifted from the AI literature like AUROC and DICE score. However, good performance on these metrics may not translate to improved clinical outcomes. Instead, we argue for a better development pipeline constructed by working backward from the end goal of positively impacting clinically relevant outcomes using AI, leading to considerations of causality in model development and validation, and subsequently a better development pipeline. Healthcare AI should be “actionable,” and the change in actions induced by AI should improve outcomes. Quantifying the effect of changes in actions on outcomes is causal inference. The development, evaluation, and validation of healthcare AI should therefore account for the causal effect of intervening with the AI on clinically relevant outcomes. Using a causal lens, we make recommendations for key stakeholders at various stages of the healthcare AI pipeline. Our recommendations aim to increase the positive impact of AI on clinical outcomes.",
+    "citationCount": 16,
+    "referenceCount": 40
+}

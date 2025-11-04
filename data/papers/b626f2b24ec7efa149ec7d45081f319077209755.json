@@ -1,0 +1,34 @@
+{
+    "paperId": "b626f2b24ec7efa149ec7d45081f319077209755",
+    "title": "BACH: Bridging Adjacency List and CSR Format using LSM-Trees for HGTAP Workloads",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Jianfeng Huang",
+        "Cao Yihao",
+        "Shubing Ren",
+        "Baohua Wu",
+        "Dongjing Miao"
+    ],
+    "doi": "10.14778/3718057.3718076",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b626f2b24ec7efa149ec7d45081f319077209755",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Modern data-intensive applications require databases that support fast analytical processing on massive dynamic graphs in real time, while simultaneously providing transactional guarantees for modifying graph-based objects (\n i.e.\n , edges, vertices and their properties). Achieving efficient Hybrid Graph Transactional/Analytical Processing (HGTAP) in a database poses significant challenges due to the simultaneous requirements of high operation throughput, high data freshness, and high performance isolation when processing concurrent read/write queries on intricate graph topology. Existing disk-based graph databases fail to meet these requirements at the same time due to their inclined data layout, such as the transactional storage based on adjacency list and the analytical storage based on CSR (compressed sparse row) format.\n \n \n To address these challenges, we present BACH (Bridging Adjacency List and CSR Format using LSM (Log-Structured Merge)-Trees for HGTAP Workloads) to fill the gaps in HGTAP databases. BACH expands the design space of traditional LSM-Trees to accommodate different graph data layouts in different levels. The compaction process is further extended to seamlessly transform the graph layout from the TP-friendly adjacency list to the AP-friendly CSR format through the data propagation to deeper levels in the LSM-Tree. A novel compaction policy, namely\n elastic merge\n , is carefully devised to adapt to diverse workloads and the skew vertex degree distribution on graph data. These techniques lead to a\n Graph-aware Real-time (GR)-LSM-Tree\n , which can provide consistently efficient data access for diverse workloads throughout the entire lifespan of graph objects. Then, a lightweight multi-version scheme is devised for the\n GR-LSM-Tree\n to accelerate the concurrent read/write processing with the\n snap-shot\n isolation guarantee. Comprehensive experiments demonstrate that BACH significantly outperforms other disk-based graph database solutions in HGTAP workloads.\n",
+    "citationCount": 0,
+    "referenceCount": 37
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "0953ada119f384f328b6102e6b7963b3bde7cc9e",
+    "title": "Zero-Shot and Few-Shot Learning for Lung Cancer Multi-Label Classification using Vision Transformer",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "F. Guo",
+        "Yingfang Fan"
+    ],
+    "doi": "10.48550/arXiv.2205.15290",
+    "arxivId": "2205.15290",
+    "url": "https://www.semanticscholar.org/paper/0953ada119f384f328b6102e6b7963b3bde7cc9e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2205.15290",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Lung cancer is the leading cause of cancer-related death worldwide. Lung adenocarcinoma (LUAD) and lung squamous cell carcinoma (LUSC) are the most common histologic subtypes of non-small-cell lung cancer (NSCLC). Histology is an essential tool for lung cancer diagnosis. Pathologists make classifications according to the dominant subtypes. Although morphology remains the standard for diagnosis, significant tool needs to be developed to elucidate the diagnosis. In our study, we utilize the pre-trained Vision Transformer (ViT) model to classify multiple label lung cancer on histologic slices (from dataset LC25000), in both Zero-Shot and Few-Shot settings. Then we compare the performance of Zero-Shot and Few-Shot ViT on accuracy, precision, recall, sensitivity and specificity. Our study show that the pre-trained ViT model has a good performance in Zero-Shot setting, a competitive accuracy ($99.87\\%$) in Few-Shot setting ({epoch = 1}) and an optimal result ($100.00\\%$ on both validation set and test set) in Few-Shot seeting ({epoch = 5}).",
+    "citationCount": 7,
+    "referenceCount": 38
+}

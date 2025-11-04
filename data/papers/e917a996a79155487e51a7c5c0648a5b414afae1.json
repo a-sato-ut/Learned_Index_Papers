@@ -1,0 +1,38 @@
+{
+    "paperId": "e917a996a79155487e51a7c5c0648a5b414afae1",
+    "title": "Functionality-Aware Database Tuning via Multi-Task Learning",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Zhongwei Yue",
+        "Shujian Peng",
+        "Peng Cai",
+        "Xuan Zhou",
+        "Huiqi Hu",
+        "Rong Zhang",
+        "Quanqing Xu",
+        "Chuanhui Yang"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00014",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e917a996a79155487e51a7c5c0648a5b414afae1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Functionalities of a database system are co-designed and jointly maintain the database performance. Each function-ality usually has its own metrics to evaluate its state. Previous knobs tuning methods regard the database system as a black box and aim to automatically find the optimal configurations by collecting and observing the overall performance data (e.g., transaction throughput per second) under various configuration knobs. However, if a functionality is not running in the tuning phase, its knobs irrelevant to performance changes can also be tuned by existing tools and potential risks would be introduced. To resolve this problem, we design a database knob tuning framework to support functionality-aware knobs tuning. It uses multitask learning to take the database overall performance as the objective of main learning task, and each function module as a separate learning task. This framework enhances the tuning results through learning the relationships between different tasks, and avoids adjusting irrelevant knobs by perceiving the status of functionalities. We validate its generalizability on OceanBase and PostgreSQL. Experimental results show that better performances were achieved on the overall performance and the metrics of various functionalities.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

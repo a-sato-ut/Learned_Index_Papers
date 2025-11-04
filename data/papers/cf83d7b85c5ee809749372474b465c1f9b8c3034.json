@@ -1,0 +1,41 @@
+{
+    "paperId": "cf83d7b85c5ee809749372474b465c1f9b8c3034",
+    "title": "UniView: A Unified Autonomous Materialized View Management System for Various Databases",
+    "year": 2024,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Zhenrong Xu",
+        "Pengfei Wang",
+        "Guoze Xue",
+        "Qitong Yan",
+        "Shenghao Gong",
+        "Yelan Jiang",
+        "Yuren Mao",
+        "Yunjun Gao",
+        "Shu Shen",
+        "Wei Zhang",
+        "Dan Luo",
+        "Lu Chen"
+    ],
+    "doi": "10.14778/3685800.3685873",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cf83d7b85c5ee809749372474b465c1f9b8c3034",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Materialized views (MVs) are critical for improving query performance of database systems, especially in online analytical processing (OLAP) databases. Typically, MVs are maintained by DBAs, which relies on prior knowledge and manual operations. Recently, autonomous solutions are designed for specific databases. However, a data warehouse for OLAP is typically hierarchical, which uses different database engines at different stages. Hence, existing methods have limitations in terms of autonomy and unification to support practical applications.\n Motivated by these, we develop UniView, a unified autonomous materialized view management system that supports various popular databases, including Spark SQL, PostgreSQL, and ClickHouse. Moreover, we provide a cross-platform web user interface, where users can carry out the process of materialized views and evaluate the optimization performance. In the demonstration, we show that UniView is user-friendly and can achieve superior performance in the practical industry scenarios.",
+    "citationCount": 1,
+    "referenceCount": 6
+}

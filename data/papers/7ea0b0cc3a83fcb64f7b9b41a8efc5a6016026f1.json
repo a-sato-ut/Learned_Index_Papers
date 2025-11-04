@@ -1,0 +1,37 @@
+{
+    "paperId": "7ea0b0cc3a83fcb64f7b9b41a8efc5a6016026f1",
+    "title": "Balancing the Blend: An Experimental Analysis of Trade-offs in Hybrid Search",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Mengzhao Wang",
+        "Boyu Tan",
+        "Yunjun Gao",
+        "Hai Jin",
+        "Yingfeng Zhang",
+        "Xiangyu Ke",
+        "Xiaoliang Xu",
+        "Yifan Zhu"
+    ],
+    "doi": "10.48550/arXiv.2508.01405",
+    "arxivId": "2508.01405",
+    "url": "https://www.semanticscholar.org/paper/7ea0b0cc3a83fcb64f7b9b41a8efc5a6016026f1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hybrid search, the integration of lexical and semantic retrieval, has become a cornerstone of modern information retrieval systems, driven by demanding applications like Retrieval-Augmented Generation (RAG). The architectural design space for these systems is vast and complex, yet a systematic, empirical understanding of the trade-offs among their core components--retrieval paradigms, combination schemes, and re-ranking methods--is critically lacking. To address this, and informed by our experience building the Infinity open-source database, we present the first systematic benchmark of advanced hybrid search architectures. Our framework evaluates four retrieval paradigms--Full-Text Search (FTS), Sparse Vector Search (SVS), Dense Vector Search (DVS), and Tensor Search (TenS)--benchmarking their combinations and re-ranking strategies across 11 real-world datasets. Our results reveal three key findings for practitioners and researchers: (1) A\"weakest link\"phenomenon, where a single underperforming retrieval path can disproportionately degrade overall accuracy, highlighting the need for path-wise quality assessment before fusion. (2) A data-driven map of the performance trade-offs, demonstrating that optimal configurations depend heavily on resource constraints and data characteristics, moving beyond a one-size-fits-all approach. (3) The identification of Tensor-based Re-ranking Fusion (TRF) as a high-efficacy alternative to mainstream fusion methods, offering the semantic power of tensor search at a fraction of the computational and memory cost. Our findings offer concrete guidelines for designing the next generation of adaptive, scalable hybrid search systems while also identifying key directions for future research.",
+    "citationCount": 0,
+    "referenceCount": 125
+}

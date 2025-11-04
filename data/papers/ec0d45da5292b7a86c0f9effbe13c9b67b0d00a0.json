@@ -1,0 +1,33 @@
+{
+    "paperId": "ec0d45da5292b7a86c0f9effbe13c9b67b0d00a0",
+    "title": "Mycelium: A Transformation-Embedded LSM-Tree",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Holly Casaletto",
+        "Jeff Lefevre",
+        "Aldrin Montana",
+        "Peter Alvaro"
+    ],
+    "doi": "10.48550/arXiv.2506.08923",
+    "arxivId": "2506.08923",
+    "url": "https://www.semanticscholar.org/paper/ec0d45da5292b7a86c0f9effbe13c9b67b0d00a0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Compaction is a necessary, but often costly background process in write-optimized data structures like LSM-trees that reorganizes incoming data that is sequentially appended to logs. In this paper, we introduce Transformation-Embedded LSM-trees (TE-LSM), a novel approach that transparently embeds a variety of data transformations into the compaction process. While many others have sought to reduce the high cost of compaction, TE-LSMs leverage the opportunity to embed other useful work to amortize IO costs and amplification. We illustrate the use of a TE-LSM in Mycelium, our prototype built on top of RocksDB that extends the compaction process through a cross-column-family merging mechanism. Mycelium enables seamless integration of a transformer interface and aims to better prepare data for future accesses based on access patterns. We use Mycelium to explore three types of transformations: splitting column groups, converting data formats, and index building. In addition to providing a cost model analysis, we evaluate Mycelium's write and read performance using YCSB workloads. Our results show that Mycelium incurs a 20% write throughput overhead - significantly lower than the 35% to 60% overhead observed in naive approaches that perform data transformations outside of compaction-while achieving up to 425% improvements in read latency compared to RocksDB baseline.",
+    "citationCount": 0,
+    "referenceCount": 42
+}

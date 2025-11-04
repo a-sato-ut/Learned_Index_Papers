@@ -1,0 +1,34 @@
+{
+    "paperId": "4a6f3a911b46a5e2bc0670d0b9ba1ece344ab727",
+    "title": "Learning Interpretable Scheduling Algorithms for Data Processing Clusters",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhibo Hu",
+        "Chen Wang",
+        "Helen Paik",
+        "Yanfeng Shu",
+        "Liming Zhu"
+    ],
+    "doi": "10.48550/arXiv.2405.19131",
+    "arxivId": "2405.19131",
+    "url": "https://www.semanticscholar.org/paper/4a6f3a911b46a5e2bc0670d0b9ba1ece344ab727",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Workloads in data processing clusters are often represented in the form of DAG (Directed Acyclic Graph) jobs. Scheduling DAG jobs is challenging. Simple heuristic scheduling algorithms are often adopted in practice in production data centres. There is much room for scheduling performance optimisation for cost saving. Recently, reinforcement learning approaches (like decima) have been attempted to optimise DAG job scheduling and demonstrate clear performance gain in comparison to traditional algorithms. However, reinforcement learning (RL) approaches face their own problems in real-world deployment. In particular, their black-box decision making processes and generalizability in unseen workloads may add a non-trivial burden to the cluster administrators. Moreover, adapting RL models on unseen workloads often requires significant amount of training data, which leaves edge cases run in a sub-optimal mode. To fill the gap, we propose a new method to distill a simple scheduling policy based on observations of the behaviours of a complex deep learning model. The simple model not only provides interpretability of scheduling decisions, but also adaptive to edge cases easily through tuning. We show that our method achieves high fidelity to the decisions made by deep learning models and outperforms these models when additional heuristics are taken into account.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

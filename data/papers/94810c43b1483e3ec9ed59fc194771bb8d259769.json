@@ -1,0 +1,31 @@
+{
+    "paperId": "94810c43b1483e3ec9ed59fc194771bb8d259769",
+    "title": "BrainPy: a flexible, integrative, efficient, and extensible framework towards general-purpose brain dynamics programming",
+    "year": 2022,
+    "venue": "bioRxiv",
+    "authors": [
+        "Chaoming Wang",
+        "Xiaoyu Chen",
+        "Tianqiu Zhang",
+        "Si Wu"
+    ],
+    "doi": "10.1101/2022.10.28.514024",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/94810c43b1483e3ec9ed59fc194771bb8d259769",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.biorxiv.org/content/biorxiv/early/2022/10/28/2022.10.28.514024.full.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The neural mechanisms underlying brain functions are extremely complicated. Brain dynamics modeling is an indispensable tool for elucidating these mechanisms by modeling the dynamics of the neural circuits that execute brain functions. To ease and facilitate brain dynamics modeling, a general-purpose programming framework is needed to enable users to freely define neural models across multiple scales; efficiently simulate, train, and analyze model dynamics; and conveniently extend new modeling approaches. By utilizing the advanced just-in-time (JIT) compilation, we developed BrainPy. BrainPy provides a rich infrastructure tailored for brain dynamics programming, which supports an integrated platform for brain dynamics model building, simulation, training, and analysis. Models in BrainPy can be JIT compiled into binary instructions for multiple devices (including CPU, GPU, and TPU) to achieve a high running performance comparable to native C or CUDA. Moreover, BrainPy features an extensible architecture allowing easy expansion of new infrastructure, utilities, and machine learning approaches.",
+    "citationCount": 8,
+    "referenceCount": 65
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "e88f0a19588d6b5614bd49d125e7f4dc6b9c46b7",
+    "title": "The AHA-Tree: An Adaptive Index for HTAP Workloads",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Lu Xing",
+        "Walid G. Aref"
+    ],
+    "doi": "10.48550/arXiv.2406.08746",
+    "arxivId": "2406.08746",
+    "url": "https://www.semanticscholar.org/paper/e88f0a19588d6b5614bd49d125e7f4dc6b9c46b7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this demo, we realize data indexes that can morph from being write-optimized at times to being read-optimized at other times nonstop with zero-down time during the workload transitioning. These data indexes are useful for HTAP systems (Hybrid Transactional and Analytical Processing Systems), where transactional workloads are write-heavy while analytical workloads are read-heavy. Traditional indexes, e.g., B+-tree and LSM-Tree, although optimized for one kind of workload, cannot perform equally well under all workloads. To migrate from the write-optimized LSM-Tree to a read-optimized B+-tree is costly and mandates some system down time to reorganize data. We design adaptive indexes that can dynamically morph from a pure LSM-tree to a pure buffered B-tree back and forth, and has interesting states in-between. There are two challenges: allowing concurrent operations and avoiding system down time. This demo benchmarks the proposed AHA-Tree index under dynamic workloads and shows how the index evolves from one state to another without blocking.",
+    "citationCount": 2,
+    "referenceCount": 20
+}

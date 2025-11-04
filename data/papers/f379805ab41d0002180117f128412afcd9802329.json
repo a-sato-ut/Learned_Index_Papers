@@ -1,0 +1,39 @@
+{
+    "paperId": "f379805ab41d0002180117f128412afcd9802329",
+    "title": "RTGDC: a real-time ingestion and processing approach in geospatial data cube for digital twin of earth",
+    "year": 2024,
+    "venue": "International Journal of Digital Earth",
+    "authors": [
+        "Ruixiang Liu",
+        "P. Yue",
+        "Boyi Shangguan",
+        "J. Gong",
+        "Longgang Xiang",
+        "Binbin Lu"
+    ],
+    "doi": "10.1080/17538947.2024.2365386",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f379805ab41d0002180117f128412afcd9802329",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.tandfonline.com/doi/pdf/10.1080/17538947.2024.2365386?needAccess=true",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "ABSTRACT The emergence of the Digital Twin of Earth (DTE) signifies a pivotal advancement in the field of the Digital Earth, which includes observations, simulations, and predictions regarding the state of the Earth system and its temporal evolution. While the Geospatial Data Cubes (GDCs) hold promise in probing the DTE across time, existing GDC approaches are not well-suited for real-time data ingestion and processing. This paper proposes the design and implementation of a real-time ingestion and processing approach in Geospatial Data Cube (RTGDC), achieved by ingesting real-time observation streams into data cubes. The methodology employs a publish/subscribe model for efficient observation ingestion. To optimize observation processing within the data cube, a distributed streaming computing framework is utilized in the implementation of the RTGDC. This approach significantly enhances the real-time capabilities of GDCs, providing an efficient solution that brings the realization of the DTE concept within closer reach. In RTGDC, two cases involving local and global scales were implemented, and their real-time performance was evaluated based on latency, throughput, and parallel efficiency.",
+    "citationCount": 2,
+    "referenceCount": 96
+}

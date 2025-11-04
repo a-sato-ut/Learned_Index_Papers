@@ -1,0 +1,38 @@
+{
+    "paperId": "40cb63f2934abbd1782b70c767dc91c154aed990",
+    "title": "Histogram cube: towards lightweight interactive spatiotemporal aggregation of big earth observation data",
+    "year": 2023,
+    "venue": "International Journal of Digital Earth",
+    "authors": [
+        "Jiyuan Li",
+        "Lingkui Meng",
+        "Miao Zhang",
+        "Zhou Jiang",
+        "Weihang Jin"
+    ],
+    "doi": "10.1080/17538947.2023.2278684",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/40cb63f2934abbd1782b70c767dc91c154aed990",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.tandfonline.com/doi/pdf/10.1080/17538947.2023.2278684?needAccess=true",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "ABSTRACT In the era of Earth Observation (EO) big data, interactive spatiotemporal aggregation analysis is a critical tool for exploring geographic patterns. However, existing methods are inefficient and complex. Their interactive performance greatly depends on large-scale computing resources, especially data cube infrastructure. In this study, from a green computing perspective, we propose a lightweight data cube model based on the preaggregation concept, in which the frequency histogram of EO data is employed as a specific measure. The cube space was divided into lattice pyramids by the Google S2 grid system, and histogram statistics of the EO data were injected into in-memory cuboids. Therefore, exploratory aggregation analysis of EO datasets could be rapidly converted into multidimensional-view query processes. We implemented the prototype system on a local PC and conducted a case study of global vegetation index aggregation. The experiments showed that the proposed model is smaller, faster and consumes less energy than ArcGIS Pro and XCube, and facilitates green computing strategies involving a cube infrastructure. Due to the standalone mode, larger dataset will result in longer cube building time with indexing latency. The efficiency of the approach comes at the expense of accuracy, and the inherent uncertainties were examined in this paper.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

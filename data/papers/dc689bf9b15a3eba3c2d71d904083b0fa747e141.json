@@ -1,0 +1,36 @@
+{
+    "paperId": "dc689bf9b15a3eba3c2d71d904083b0fa747e141",
+    "title": "TopTune: Tailored Optimization for Categorical and Continuous Knobs Towards Accelerated and Improved Database Performance Tuning",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Rukai Wei",
+        "Yu Liu",
+        "Yufeng Hou",
+        "Heng Cui",
+        "Yongqiang Zhang",
+        "Ke Zhou"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00052",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dc689bf9b15a3eba3c2d71d904083b0fa747e141",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Using a machine learning (ML) model as a core component in database knob tuning has demonstrated remarkable advancements in recent years. However, a model that optimizes both categorical and continuous values in the same way may not guarantee efficiency and effectiveness in knob tuning. This is due to the fact that the usual assumption of a differentiable input space for efficient exploration of continuous spaces does not hold true in categorical spaces. Moreover, the inherent complexity of interdependences among knobs and the high-dimensionality of the configuration space compound the challenges of tuning. In this paper, we propose TopTune, which employs tailored optimization for continuous and categorical knobs, to achieve accelerated tuning efficiency and improved tuning performance. Specifically, we decompose the configuration space into two orthogonal subspaces: categorical and continuous spaces. Subsequently, we employ Bayesian optimization models, i.e., SMAC and GP to explore the categorical and continuous subspaces, respectively. These two models will alternately explore the two spaces with the proposed communication mechanism to ensure TopTune can capture the dependence between continuous and categorical knobs. Furthermore, to balance efficiency and accuracy, we utilize a knob-dimensional projection strategy to reduce the exploration domain by embedding the high-dimension configuration space into a lower-dimensional proxy space. In addition, we implement batch Bayesian optimization technology, which enables parallel knob evaluation while balancing exploration and exploitation. We evaluate TopTune under different benchmarks (SYSBENCH, TPC-C, and JOB), metrics (throughput and latency), and DBMSs (MySQL and Dameng). Extensive experiments demonstrate that TopTune identifies better configurations in up to approximately 12.2× less time while achieving a 10.7% improvement in throughput compared to state-of-the-art methods.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

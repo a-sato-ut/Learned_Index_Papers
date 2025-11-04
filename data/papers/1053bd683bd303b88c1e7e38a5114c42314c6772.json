@@ -1,0 +1,38 @@
+{
+    "paperId": "1053bd683bd303b88c1e7e38a5114c42314c6772",
+    "title": "Database as Runtime: Compiling LLMs to SQL for In-database Model Serving",
+    "year": 2025,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Wenbo Sun",
+        "Ziyu Li",
+        "Rihan Hai"
+    ],
+    "doi": "10.1145/3722212.3725093",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1053bd683bd303b88c1e7e38a5114c42314c6772",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deploying large language models (LLMs) often requires specialized hardware and complex frameworks, creating barriers for CPU-based environments with resource constraints. These systems, common in air-gapped or edge scenarios, lack support for maintenance due to security, budget, or technical limits. To address this, we introduce TranSQL+, a compiler that translates LLM inference into SQL queries, enabling deployment on relational databases. By converting transformer operations into relational algebra, TranSQL+ generates vector-oriented SQL queries that leverage native database features (buffer management, indexing) to manage computations without hardware accelerators or deep learning frameworks. Demonstrated with the LLaMA3.1 8B model on DuckDB, results show relational databases can effectively serve LLMs, reducing deployment barriers and expanding access to advanced AI.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

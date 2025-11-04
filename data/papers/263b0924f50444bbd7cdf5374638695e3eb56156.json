@@ -1,0 +1,33 @@
+{
+    "paperId": "263b0924f50444bbd7cdf5374638695e3eb56156",
+    "title": "Automatic Database Knob Tuning: A Survey",
+    "year": 2023,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Xinyang Zhao",
+        "Xuanhe Zhou",
+        "Guoliang Li"
+    ],
+    "doi": "10.1109/TKDE.2023.3266893",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/263b0924f50444bbd7cdf5374638695e3eb56156",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Knob tuning plays an important role in database optimization, which tunes knob settings to optimize the database performance or improve resource utilization. However, there are several common challenges in knob tuning. First, databases have hundreds of configuration knobs, and it is hard to determine the knobs that cause the performance/resource bottlenecks. Second, most knobs are of continuous values and cause large search space, where heuristic knob tuning may not find high-performance knob settings within limited time. Third, it is increasingly tricky to conduct knob tuning with the proliferation of cloud services, where we need to tune a large number of database instances for various scenarios (e.g., different applications, datasets, and hardware). Recently, many learning-based knob tuning methods are proposed to alleviate those problems. The core idea of learning-based knob tuning is that, with the help of machine learning techniques, it is reasonable to collect knob tuning data, leverage these data to train a knob tuning model, and utilize the tuning model to recommend knob settings for new similar scenarios, so as to achieve the optimization objectives. In this paper, we provide a comprehensive survey on database knob tuning. The pipeline of knob tuning includes knob selection, feature selection, tuning methods, and transfer techniques. First, for knob selection, we introduce the main categories of database knobs and summarize existing knob selection algorithms. Second, for feature selection, we introduce commonly-used tuning features and explain existing feature selection techniques (e.g., runtime metric selection and workload encoding). Third, for tuning methods, we compare four classes of tuning methods, i.e., heuristic methods, Bayesian-optimization methods, deep-learning methods, and reinforcement-learning methods. In particular, we summarize the challenges and discuss how existing methods address those challenges. Moreover, we discuss some transfer techniques that utilize historically well-trained tuning models in new scenarios. Fourth, we discuss the implementation of automatic knob tuning methods in typical systems (e.g., commercial relational databases and Big Data analytics systems). Lastly, we provide some research challenges and future research opportunities. We believe this survey can help researchers better understand the knob tuning problems and existing approaches and further encourage them to solve the remaining problems in automatic knob tuning.",
+    "citationCount": 41,
+    "referenceCount": 102
+}

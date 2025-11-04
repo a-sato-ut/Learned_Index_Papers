@@ -1,0 +1,37 @@
+{
+    "paperId": "b38ae14be97018d917c7ce28bd6768453de7d6fc",
+    "title": "ROSE: Relational and Prototypical Structure Learning for Universal Domain Adaptive Hashing",
+    "year": 2024,
+    "venue": "IEEE Transactions on Information Forensics and Security",
+    "authors": [
+        "Xinlong Yang",
+        "Haixin Wang",
+        "Jinan Sun",
+        "Yijia Xiao",
+        "Wei Xiang",
+        "Chong Chen",
+        "Xian-Sheng Hua",
+        "Xiao Luo"
+    ],
+    "doi": "10.1109/TIFS.2024.3444319",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b38ae14be97018d917c7ce28bd6768453de7d6fc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As an important problem in searching system development, domain adaptive retrieval seeks to train a retrieval model with both labeled source samples and unlabeled target samples. Although several domain adaptive hashing algorithms have been proposed to handle the problem with high efficiency, they often presume that source and target domains share all classes. However, prior knowledge about the label space on the target domain is hard to obtain in reality. To tackle this, we study a novel and challenging problem of universal domain adaptive retrieval, which evidently increases the difficulty of effective domain alignment. In this paper, we propose a hashing method named Relational and prOtotypical Structure lEarning (ROSE) to solve the problem. In particular, to overcome domain shift, we construct a relational structure depicting cross-domain similar pairs based on ranking statistics, then learn from the structure by maximizing the similarity between similar pairs compared with challenging negatives. Moreover, target private samples are detected using the min-max criterion, which helps to construct hashing prototypes in the Hamming space. On this basis, we combine prototypical structure learning with online clustering in the Hamming space, which improves target semantic learning under label deficiency. Extensive experiments on several benchmarks demonstrate that our proposed ROSE significantly outperforms a wide range of state-of-the-art methods. Our source code is available at https://github.com/WillDreamer/Rose.git.",
+    "citationCount": 1,
+    "referenceCount": 81
+}

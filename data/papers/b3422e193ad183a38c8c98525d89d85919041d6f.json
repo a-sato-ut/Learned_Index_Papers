@@ -1,0 +1,33 @@
+{
+    "paperId": "b3422e193ad183a38c8c98525d89d85919041d6f",
+    "title": "HWTune: A Hardware-Aware Database Tuning System with Deep Reinforcement Learning",
+    "year": 2023,
+    "venue": "2023 5th International Conference on Data-driven Optimization of Complex Systems (DOCS)",
+    "authors": [
+        "Jian Wang",
+        "Lei Chen",
+        "Lin Yang",
+        "Ming Wang"
+    ],
+    "doi": "10.1109/DOCS60977.2023.10294845",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b3422e193ad183a38c8c98525d89d85919041d6f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Database knob tuning can improve database performance, such as increasing throughput and reducing latency. However, manually finding optimal knob settings is challenging and time-consuming. In recent years, deep reinforcement learning (DRL) has been widely used to automate database knob tuning, but it has several limitations. First, existing DRL methods ignore the strong correlation between the database and the hardware configuration, leading to improper utilization of hardware resources and prolonged tuning times. Second, the workloads of real production environments are dynamically changing, yet existing DRL methods do not account for workload characteristics, resulting in suboptimal knob recommendations. To address these problems, we propose HWTune, a hardware-aware and workload-adaptive automatic database tuning system based on DRL. HWTune first collects hardware information from the database deployment environment and employs the Knob Space Trimming (KST) algorithm to reduce the knob value space. It then applies the SHapley Additive exPlanations (SHAP) algorithm to rank the importance of knobs for different workloads. Finally, it utilizes the Fast Convergence Deep Deterministic Policy Gradient (FC-DDPG) model based on DDPG to recommend knobs. Experimental results demonstrate that compared to the state-of-the-art tuning methods, HWTune can considerably reduce tuning time while guaranteeing the tuning performance.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

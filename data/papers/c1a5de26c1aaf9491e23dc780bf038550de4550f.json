@@ -1,0 +1,37 @@
+{
+    "paperId": "c1a5de26c1aaf9491e23dc780bf038550de4550f",
+    "title": "Framework for Organizing Viewsheds From Multiple Observation Points: Enabling Bidirectional Landscape Visibility Information Queries",
+    "year": 2025,
+    "venue": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "authors": [
+        "Runzi Chen",
+        "Renjie Li",
+        "Pengcheng Deng",
+        "Baolei Sun"
+    ],
+    "doi": "10.1109/JSTARS.2025.3602482",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c1a5de26c1aaf9491e23dc780bf038550de4550f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Viewshed analysis holds significant value in landscape assessment and management. However, current research faces dual limitations: inefficient organization of viewsheds from multiple observation points and inability to analyze bidirectional visibility relationships between multiple observation points and ground cells. This study develops a 3-D tensor (observation point–row–column) that integrates detailed visibility relationships between landscape units and ground cells and proposes a framework for organizing viewsheds from multiple observation points that supports bidirectional queries. The framework implements a three-stage optimization strategy: 1) decimal encoding of observation point dimension data, 2) a mapping mechanism from ground cells to observation point sets, and 3) run-length encoding-based organization of mapping data. Experimental results demonstrate that when using ASCII storage format, the framework achieves a 98% storage space reduction compared to conventional viewshed matrix methods while maintaining comparable query efficiency, with storage requirements similar to those of NetCDF format. Moreover, with 7-Zip compression, the framework achieves further space savings: a 40% reduction relative to viewshed matrix methods and a 70% reduction compared to NetCDF format. This research not only enriches the theory of multiple-observation-point viewshed analysis but also provides technical reference for geographic information product development, offering important application value for landscape conservation and planning.",
+    "citationCount": 0,
+    "referenceCount": 53
+}

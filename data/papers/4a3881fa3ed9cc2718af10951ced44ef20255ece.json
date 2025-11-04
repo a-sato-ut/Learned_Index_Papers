@@ -1,0 +1,32 @@
+{
+    "paperId": "4a3881fa3ed9cc2718af10951ced44ef20255ece",
+    "title": "Explainable AI for DBA: Bridging the DBA's experience and machine learning in tuning database systems",
+    "year": 2023,
+    "venue": "Concurrency and Computation",
+    "authors": [
+        "Abdelkader Ouared",
+        "Moussa Amrani",
+        "P. Schobbens"
+    ],
+    "doi": "10.1002/cpe.7698",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4a3881fa3ed9cc2718af10951ced44ef20255ece",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently artificial intelligence techniques in the database community have become a driver for many database applications. The proposed solution adopting AI in the core database shows that incorporating AI improves the query processing and the self‐tuning of database systems. In traditional systems, self‐tuning database systems are commonly addressed with heuristics to suggest the physical structures (e.g., creation of indexes and materialized views) that enable the fastest execution of queries. However, existing designer tools do not explain/justify how the system behaves and the reasoning behind tuning activities. Moreover, these tools do not keep the database administrator (DBA) in the loop of the optimization process to trust some of the automatic tuning decisions. To address this problem, we introduce a framework called Explain‐Tun that enables to predict and explain self‐tuning actions with transparent strategy from historical data using two explicit models, that is, decision tree and random forests. First, we propose AI‐based DBMS to explain how to select physical structures and provide decision rules extracted by machine learning (ML) as a designed plug‐gable component. Second, a goal‐oriented model to keep DBA in the loop of the optimization process in order to manipulate ML models as CRUD entities. Finally, we evaluate our approach on three use cases, results show that bridging the DBA's experience and ML make sense in tuning database systems.",
+    "citationCount": 3,
+    "referenceCount": 41
+}

@@ -1,0 +1,40 @@
+{
+    "paperId": "defc06199f7c0ac13a7cdaf90c36d332b1310fa4",
+    "title": "LDPP: A Learned Directory Placement Policy in Distributed File Systems",
+    "year": 2022,
+    "venue": "International Conference on Parallel Processing",
+    "authors": [
+        "Yuanzhang Wang",
+        "Fengkui Yang",
+        "Ji Zhang",
+        "Chun-hua Li",
+        "Ke Zhou",
+        "Chong Liu",
+        "Zhuo Cheng",
+        "Wei Fang",
+        "Jinhu Liu"
+    ],
+    "doi": "10.1145/3545008.3545057",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/defc06199f7c0ac13a7cdaf90c36d332b1310fa4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Load balance is a critical problem in distributed file systems. Previous works focus on how to distribute data evenly on different nodes or storage devices from the perspective of file level, but neglect to effectively take advantage of the directory’s locality and the long duration of the directory’s hotness, which may affect the degree of balance and cause performance degradation. To overcome this shortcoming, in this paper, we propose a learning-based directory placement policy, called LDPP, which determines the data layout by predicting the load. We first establish a relationship between directory request characteristics and state information to predict the state information of the directory (storage capacity, bandwidth, and IOPS). Then, the new directory is placed on different nodes in a multi-dimensional manner based on the Manhattan distance according to the predicted multidimensional state information. In addition, we also take into account the trade-off between the same category directory classified by the load prediction module and the peer directories and explore their influence on the balance. Extensive experiments demonstrate that LDPP not only efficiently alleviates load imbalance and increases the utilization of the resources but also improves DFS performance in practice, which can reduce service latency by up to 36 and increase IOPS and bandwidth by 8 and 9, respectively.",
+    "citationCount": 3,
+    "referenceCount": 46
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "ec2e033a54e450ea0387ea6ac2d6e9f4045ce31a",
+    "title": "A GPT-enhanced framework on knowledge extraction and reuse for geographic analysis models in Google Earth Engine",
+    "year": 2024,
+    "venue": "International Journal of Digital Earth",
+    "authors": [
+        "Jianyuan Liang",
+        "Anqi Zhao",
+        "Shuyang Hou",
+        "Fengying Jin",
+        "Huayi Wu"
+    ],
+    "doi": "10.1080/17538947.2024.2398063",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ec2e033a54e450ea0387ea6ac2d6e9f4045ce31a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1080/17538947.2024.2398063",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "ABSTRACT Geographic analysis models are becoming increasingly important in the era of geospatial big data. As a cloud platform that combines massive geospatial data resources with powerful computational capabilities, the Google Earth Engine (GEE) gathers a large number of workflow scripts for different geographic analysis tasks and gradually evolves into a comprehensive knowledge repository. However, due to the complexity nature of GEE workflow scripts, extracting modeling knowledge from these GEE workflow scripts remains a challenge. Besides, these GEE workflow scripts are often tightly coupled with the GEE environment, which limits their reuse in the broader geospatial community. To address these issues, this paper proposes a GEE knowledge extraction and reuse framework, which uncovers factual meta-information and modeling processes embedded within the GEE workflow script by leveraging ChatGPT and the abstract syntax tree (AST). A GEE knowledge encapsulation template is developed to systematically describe this modeling knowledge. Through case studies, we demonstrate that this framework can be integrated with existing geospatial service technologies, simplify the extraction of modeling knowledge from GEE workflow scripts, and enhance their application in different modeling environments. Moreover, by incorporating ChatGPT, this framework exhibits the potential for intelligent generation of geographic analysis models.",
+    "citationCount": 8,
+    "referenceCount": 55
+}

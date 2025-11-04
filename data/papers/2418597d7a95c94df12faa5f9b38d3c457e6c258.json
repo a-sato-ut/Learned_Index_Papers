@@ -1,0 +1,32 @@
+{
+    "paperId": "2418597d7a95c94df12faa5f9b38d3c457e6c258",
+    "title": "EMIT: Micro-Invasive Database Configuration Tuning",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jian Geng",
+        "Hongzhi Wang",
+        "Yu Yan"
+    ],
+    "doi": "10.48550/arXiv.2406.00616",
+    "arxivId": "2406.00616",
+    "url": "https://www.semanticscholar.org/paper/2418597d7a95c94df12faa5f9b38d3c457e6c258",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The process of database knob tuning has always been a challenging task. Recently, database knob tuning methods has emerged as a promising solution to mitigate these issues. However, these methods still face certain limitations.On one hand, when applying knob tuning algorithms to optimize databases in practice, it either requires frequent updates to the database or necessitates acquiring database workload and optimizing through workload replay. The former approach involves constant exploration and updating of database configurations, inevitably leading to a decline in database performance during optimization. The latter, on the other hand, requires the acquisition of workload data, which could lead to data leakage issues. Moreover, the hyperparameter configuration space for database knobs is vast, making it challenging for optimizers to converge. These factors significantly hinder the practical implementation of database tuning. To address these concerns, we proposes an efficient and micro-invasive knob tuning method. This method relies on workload synthesis on cloned databases to simulate the workload that needs tuning, thus minimizing the intrusion on the database. And we utilizing a configuration replacement strategy to filter configuration candidates that perform well under the synthesized workload to find best configuration. And during the tuning process, we employ a knowledge transfer method to extract a common high-performance space, to boost the convergence of the optimizer.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

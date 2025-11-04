@@ -1,0 +1,37 @@
+{
+    "paperId": "f9bb72f8c2d92452ac98b8b715dedcc5926396f0",
+    "title": "LEON: A New Framework for ML-Aided Query Optimization",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Xu Chen",
+        "Haitian Chen",
+        "Zibo Liang",
+        "Shuncheng Liu",
+        "Jinghong Wang",
+        "Kai Zeng",
+        "Han Su",
+        "Kai Zheng"
+    ],
+    "doi": "10.14778/3598581.3598597",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f9bb72f8c2d92452ac98b8b715dedcc5926396f0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Query optimization has long been a fundamental yet challenging topic in the database field. With the prosperity of machine learning (ML), some recent works have shown the advantages of reinforcement learning (RL) based learned query optimizer. However, they suffer from fundamental limitations due to the data-driven nature of ML. Motivated by the ML characteristics and database maturity, we propose\n LEON\n -a framework for ML-aidEd query OptimizatioN.\n LEON\n improves the expert query optimizer to self-adjust to the particular deployment by leveraging ML and the fundamental knowledge in the expert query optimizer. To train the ML model, a pairwise ranking objective is proposed, which is substantially different from the previous regression objective. To help the optimizer to escape the local minima and avoid failure, a ranking and uncertainty-based exploration strategy is proposed, which discovers the valuable plans to aid the optimizer. Furthermore, an ML model-guided pruning is proposed to increase the planning efficiency without hurting too much performance. Extensive experiments offer evidence that the proposed framework can outperform the state-of-the-art methods in terms of end-to-end latency performance, training efficiency, and stability.\n",
+    "citationCount": 38,
+    "referenceCount": 49
+}

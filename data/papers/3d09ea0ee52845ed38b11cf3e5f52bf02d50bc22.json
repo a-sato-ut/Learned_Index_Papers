@@ -1,0 +1,38 @@
+{
+    "paperId": "3d09ea0ee52845ed38b11cf3e5f52bf02d50bc22",
+    "title": "A Generic Framework for Finding Special Quadratic Elements in Data Streams",
+    "year": 2024,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "Jiaqian Liu",
+        "Haipeng Dai",
+        "Rui Xia",
+        "Meng Li",
+        "Ran Ben Basat",
+        "Rui Li",
+        "Rong Gu",
+        "Jiaqi Zheng",
+        "Guihai Chen"
+    ],
+    "doi": "10.1109/TNET.2024.3392029",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3d09ea0ee52845ed38b11cf3e5f52bf02d50bc22",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Finding special items in data streams, like heavy hitters, top-k items, and persistent items, has always been a hot topic in the field of network measurement. While data streams nowadays are usually high-dimensional, most prior works optimize data structures to accurately find special items according to a certain primary dimension and yield little insight into the correlations between dimensions, where the dimension can be a single data dimension or a combination of multiple data dimensions. Therefore, we propose to find special quadratic elements in data streams to reveal the close correlations between the primary and secondary dimensions. Here, both the primary and secondary dimensions are selected according to specific application purposes. Based on the special items mentioned above, we extend our problem to three applications related to heavy hitters, top-k, and persistent items, and design a generic framework DUET to process them. We analyze the error bound of our algorithm theoretically and conduct extensive experiments on four publicly available data sets. Our experimental results show that DUET can achieve 3.5 times higher throughput and three orders of magnitude lower average relative error than cutting-edge algorithms. Moreover, we propose an optimized framework based on DUET, namely O-DUET, to further improve the estimation accuracy. We also discuss a hardware-version DUET and deploy it on Tofino.",
+    "citationCount": 1,
+    "referenceCount": 59
+}

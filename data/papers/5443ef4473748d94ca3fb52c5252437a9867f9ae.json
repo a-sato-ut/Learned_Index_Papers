@@ -1,0 +1,38 @@
+{
+    "paperId": "5443ef4473748d94ca3fb52c5252437a9867f9ae",
+    "title": "Quantum Machine Learning for Join Order Optimization using Variational Quantum Circuits",
+    "year": 2023,
+    "venue": "BiDEDE@SIGMOD",
+    "authors": [
+        "Tobias Winker",
+        "Umut Çalıkyılmaz",
+        "L. Gruenwald",
+        "Sven Groppe"
+    ],
+    "doi": "10.1145/3579142.3594299",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5443ef4473748d94ca3fb52c5252437a9867f9ae",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The optimization of queries speeds up query processing in databases. One of the most time-consuming tasks in query processing is the join operation, where the order of the joins plays a crucial role in determining the number of tuples to be processed for intermediate results, and hence, the overall processing costs. In this paper, we use a variational quantum circuit (VQC) to create a hybrid classical-quantum machine learning algorithm to predict efficient join orders by learning from past join orders. We develop an encoding of the join order problem using a low number of qubits. We show that VQCs with filtering of cross joins outperform the classical dynamic programming optimizer of PostgreSQL with a 2.7% faster execution time.",
+    "citationCount": 30,
+    "referenceCount": 36
+}

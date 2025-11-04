@@ -1,0 +1,33 @@
+{
+    "paperId": "387ccafedaaba107e8fd25ea62f854e60e02e4ee",
+    "title": "An update-intensive LSM-based R-tree index",
+    "year": 2023,
+    "venue": "The VLDB journal",
+    "authors": [
+        "Jae-Jyn Shin",
+        "Libin Zhou",
+        "Jianguo Wang",
+        "W. Aref"
+    ],
+    "doi": "10.1007/s00778-024-00876-7",
+    "arxivId": "2305.01087",
+    "url": "https://www.semanticscholar.org/paper/387ccafedaaba107e8fd25ea62f854e60e02e4ee",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many applications require update-intensive workloads on spatial objects, e.g., social-network services and shared-riding services that track moving objects. By buffering insert and delete operations in memory, the Log Structured Merge Tree (LSM) has been used widely in various systems because of its ability to handle write-heavy workloads. While the focus on LSM has been on key-value stores and their optimizations, there is a need to study how to efficiently support LSM-based secondary indexes (e.g., location-based indexes) as modern, heterogeneous data necessitates the use of secondary indexes. In this paper, we investigate the augmentation of a main-memory-based memo structure into an LSM secondary index structure to handle update-intensive workloads efficiently. We conduct this study in the context of an R-tree-based secondary index. In particular, we introduce the LSM RUM-tree that demonstrates the use of an Update Memo in an LSM-based R-tree to enhance the performance of the R-tree’s insert, delete, update, and search operations. The LSM RUM-tree introduces new strategies to control the size of the Update Memo to make sure it always fits in memory for high performance. The Update Memo is a light-weight in-memory structure that is suitable for handling update-intensive workloads without introducing significant overhead. Experimental results using real spatial data demonstrate that the LSM RUM-tree achieves up to 6.6x speedup on update operations and up to 249292x speedup on query processing over existing LSM R-tree implementations.",
+    "citationCount": 6,
+    "referenceCount": 92
+}

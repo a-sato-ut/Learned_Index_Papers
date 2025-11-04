@@ -1,0 +1,35 @@
+{
+    "paperId": "f54e1b3f23a91e39b19cb7700960a9a1a5cf1b0f",
+    "title": "KnobTune: A Dynamic Database Configuration Tuning Strategy Leveraging Historical Workload Similarities",
+    "year": 2024,
+    "venue": "CMLDS",
+    "authors": [
+        "Yueyang Zhan",
+        "Rui Xi",
+        "Jianming Liao",
+        "Shuhuan Fan",
+        "Mengshu Hou"
+    ],
+    "doi": "10.1145/3661725.3661734",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f54e1b3f23a91e39b19cb7700960a9a1a5cf1b0f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Confronted with an abundance of adjustable parameters and ever-shifting workloads, database configuration tuning grapples with persistent challenges. The intricate task of thoroughly optimizing all these configuration \"knobs\" to attain peak performance proves arduous and time-consuming. Current strategies often necessitate numerous performance assessments preceding configuration tuning, alongside the selection of pivotal knobs aimed at reducing the parameter space. Nonetheless, crafting a database configuration tuning strategy that accommodates dynamically fluctuating workloads remains a formidable challenge, owing to the substantial variations in optimization requirements across diverse application scenarios and workloads. This paper introduces an innovative configuration tuning approach, coined as KnobTune. Initially, it leverages SHAP (SHapley Additive exPlanations) values to assess the significance of historical tuning tasks’ key knobs. Subsequently, it integrates SQL textual features and internal database operational metrics as workload attributes, assigning weights based on their similarity to historical workloads to select key knobs. Comparative evaluations of some benchmarks are conducted to validate the efficacy of this methodology. The results show that our proposed strategy adeptly identifies and adjusts critical knobs when confronted with varying workloads, delivering substantial enhancements in performance optimization compared to prevailing approaches.",
+    "citationCount": 1,
+    "referenceCount": 25
+}

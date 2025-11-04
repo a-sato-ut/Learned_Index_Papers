@@ -1,0 +1,31 @@
+{
+    "paperId": "a33a8b895fe8d1fc9568b201560528760df8507c",
+    "title": "TranSQL+: Serving Large Language Models with SQL on Low-Resource Hardware",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Wenbo Sun",
+        "Qiming Guo",
+        "Wenlu Wang",
+        "Rihan Hai"
+    ],
+    "doi": null,
+    "arxivId": "2502.02818",
+    "url": "https://www.semanticscholar.org/paper/a33a8b895fe8d1fc9568b201560528760df8507c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deploying Large Language Models (LLMs) on resource-constrained devices remains challenging due to limited memory, lack of GPUs, and the complexity of existing runtimes. In this paper, we introduce TranSQL+, a template-based code generator that translates LLM computation graphs into pure SQL queries for execution in relational databases. Without relying on external libraries, TranSQL+, leverages mature database features, such as vectorized execution and out-of-core processing, for efficient inference. We further propose a row-to-column (ROW2COL) optimization that improves join efficiency in matrix operations. Evaluated on Llama3-8B and DeepSeekMoE models, TranSQL+ achieves up to 20x lower prefill latency and 4x higher decoding speed compared to DeepSpeed Inference and Llama.cpp in low-memory and CPU-only configurations. Our results highlight relational databases as a practical environment for LLMs on low-resource hardware.",
+    "citationCount": 0,
+    "referenceCount": 50
+}

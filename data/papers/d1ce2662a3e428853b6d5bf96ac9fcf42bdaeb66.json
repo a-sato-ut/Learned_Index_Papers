@@ -1,0 +1,40 @@
+{
+    "paperId": "d1ce2662a3e428853b6d5bf96ac9fcf42bdaeb66",
+    "title": "OGEScript: an OGC-oriented Interoperable Script API for Online Geospatial Analysis",
+    "year": 2023,
+    "venue": "International Conference on Agro-Geoinformatics",
+    "authors": [
+        "Kaixuan Wang",
+        "P. Yue",
+        "Dayu Yu",
+        "R. Liu",
+        "Haipeng Deng",
+        "Haoyu Liu"
+    ],
+    "doi": "10.1109/Agro-Geoinformatics59224.2023.10233317",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d1ce2662a3e428853b6d5bf96ac9fcf42bdaeb66",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advance in online geospatial analysis shows the promise to adopt an online interactive development environment (IDE). Scripts in IDE can be improved to follow geospatial “recipes” such as geospatial concepts and operators to facilitate online geoprocessing. This could be done by incorporating OGC (Open Geospatial Consortium) style APIs into scripts, thus improving the interoperability of scripts across online coding environments in different geospatial cloud platforms. The paper proposes an OGC-oriented interoperable script API called OGEScript. By leveraging the object-oriented design pattern, geospatial resources defined in OGC specifications are mapped to classes within the OGEScript. This mapping allows for a uniform script-based object access to data and processing functions (traditionally in OGC APIs) available in background cloud platforms. Existing scripting languages like Python can be extended to develop such functionality. The approach is implemented in a cloud platform named Open Geospatial Engine (OGE) to demonstrate the applicability of the approach.",
+    "citationCount": 1,
+    "referenceCount": 11
+}

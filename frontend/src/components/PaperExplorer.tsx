@@ -11,7 +11,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   const [query, setQuery] = useState('Partitioned Learned Bloom Filter');
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<SearchResult | null>(null);
-  const [activeTab, setActiveTab] = useState<'list' | 'graph'>('list');
+  const [activeTab, setActiveTab] = useState<'list' | 'graph' | 'graphYear'>('list');
   const svgRef = useRef<SVGSVGElement>(null);
 
   const searchPapers = async () => {
@@ -56,33 +56,25 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   }, []);
 
   useEffect(() => {
-    if (result && result.paper && activeTab === 'graph') {
-      drawGraph(result);
+    if (result && result.paper && (activeTab === 'graph' || activeTab === 'graphYear')) {
+      if (activeTab === 'graph') {
+        drawGraph(result);
+      } else {
+        drawGraphYear(result);
+      }
     }
   }, [result, activeTab]);
 
-  const drawGraph = async (data: SearchResult) => {
-    if (!svgRef.current || !data.paper) return;
-
-    const centerPaper = data.paper;
-    const svg = d3.select(svgRef.current);
-    svg.selectAll('*').remove();
-
-    const width = svgRef.current.clientWidth || 1200;
-    const height = svgRef.current.clientHeight || 800;
-
-    const g = svg.append('g');
-
+  const fetchGraphNodes = async (data: SearchResult) => {
     const nodes: PaperNode[] = [];
     const edges: PaperEdge[] = [];
     const nodeMap = new Map<string, PaperNode>();
+    const centerPaper = data.paper!;
 
     const centerNode: PaperNode = {
       id: centerPaper.paperId,
       paper: centerPaper,
       type: 'center',
-      fx: width / 2,
-      fy: height / 2,
     };
     nodes.push(centerNode);
     nodeMap.set(centerPaper.paperId, centerNode);
@@ -224,6 +216,28 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       });
     });
 
+    return { nodes, edges, centerPaper };
+  };
+
+  const drawGraph = async (data: SearchResult) => {
+    if (!svgRef.current || !data.paper) return;
+
+    const { nodes, edges, centerPaper } = await fetchGraphNodes(data);
+
+    const svg = d3.select(svgRef.current);
+    svg.selectAll('*').remove();
+
+    const width = svgRef.current.clientWidth || 1200;
+    const height = svgRef.current.clientHeight || 800;
+
+    const g = svg.append('g');
+
+    const centerNode = nodes.find(n => n.id === centerPaper.paperId);
+    if (centerNode) {
+      centerNode.fx = width / 2;
+      centerNode.fy = height / 2;
+    }
+
     const zoom = d3
       .zoom<SVGSVGElement, unknown>()
       .scaleExtent([0.1, 4])
@@ -340,6 +354,118 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     }
   };
 
+  const drawGraphYear = async (data: SearchResult) => {
+    if (!svgRef.current || !data.paper) return;
+
+    const { nodes, edges, centerPaper } = await fetchGraphNodes(data);
+
+    const svg = d3.select(svgRef.current);
+    svg.selectAll('*').remove();
+
+    const width = svgRef.current.clientWidth || 1200;
+    const height = svgRef.current.clientHeight || 800;
+    const padding = 50;
+    const yearWidth = 150;
+
+    const g = svg.append('g');
+
+    const years = Array.from(new Set(nodes.map(n => n.paper.year).filter(y => y !== undefined))) as number[];
+    years.sort((a, b) => a - b);
+
+    const yearPositions = new Map<number, number>();
+    years.forEach((year, index) => {
+      yearPositions.set(year, padding + index * yearWidth);
+    });
+
+    const yearGroups = new Map<number, PaperNode[]>();
+    nodes.forEach(node => {
+      const year = node.paper.year || 0;
+      if (!yearGroups.has(year)) {
+        yearGroups.set(year, []);
+      }
+      yearGroups.get(year)!.push(node);
+    });
+
+    yearGroups.forEach((yearNodes, year) => {
+      const xPos = yearPositions.get(year) || padding;
+      yearNodes.forEach((node, index) => {
+        const yPos = padding + (index * 80);
+        node.x = xPos;
+        node.y = yPos;
+        node.fx = xPos;
+        node.fy = yPos;
+      });
+    });
+
+    const zoom = d3
+      .zoom<SVGSVGElement, unknown>()
+      .scaleExtent([0.1, 4])
+      .on('zoom', (event) => {
+        g.attr('transform', event.transform);
+      });
+
+    svg.call(zoom);
+
+    const link = g
+      .append('g')
+      .attr('class', 'links')
+      .selectAll<SVGLineElement, PaperEdge>('line')
+      .data(edges)
+      .enter()
+      .append('line')
+      .attr('stroke', (d) => (d.type === 'cites' ? '#3b82f6' : '#ef4444'))
+      .attr('stroke-width', 2)
+      .attr('stroke-opacity', 0.6);
+
+    const node = g
+      .append('g')
+      .attr('class', 'nodes')
+      .selectAll<SVGGElement, PaperNode>('g')
+      .data(nodes)
+      .enter()
+      .append('g')
+      .attr('class', 'node');
+
+    node
+      .append('circle')
+      .attr('r', (d) => (d.type === 'center' ? 12 : 6))
+      .attr('fill', (d) => {
+        if (d.type === 'center') return '#10b981';
+        return d.type === 'cites' ? '#3b82f6' : '#ef4444';
+      })
+      .attr('stroke', '#fff')
+      .attr('stroke-width', 2);
+
+    node
+      .append('text')
+      .text((d) => d.paper.title.substring(0, 30) + (d.paper.title.length > 30 ? '...' : ''))
+      .attr('dx', (d) => (d.type === 'center' ? 15 : 10))
+      .attr('dy', 4)
+      .attr('font-size', (d) => (d.type === 'center' ? '12px' : '10px'))
+      .attr('fill', '#333')
+      .style('pointer-events', 'none');
+
+    link
+      .attr('x1', (d) => {
+        const source = typeof d.source === 'object' ? d.source : nodes.find((n) => n.id === d.source);
+        return source?.x || 0;
+      })
+      .attr('y1', (d) => {
+        const source = typeof d.source === 'object' ? d.source : nodes.find((n) => n.id === d.source);
+        return source?.y || 0;
+      })
+      .attr('x2', (d) => {
+        const target = typeof d.target === 'object' ? d.target : nodes.find((n) => n.id === d.target);
+        return target?.x || 0;
+      })
+      .attr('y2', (d) => {
+        const target = typeof d.target === 'object' ? d.target : nodes.find((n) => n.id === d.target);
+        return target?.y || 0;
+      });
+
+    node.attr('transform', (d) => `translate(${d.x || 0},${d.y || 0})`);
+  };
+
   const PaperCard: React.FC<{ paper: Paper; type: 'cites' | 'cited_by' }> = ({ paper, type }) => {
     return (
       <div className={`paper-card paper-card-${type}`}>
@@ -433,6 +559,12 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             >
               Graph
             </button>
+            <button
+              className={`paper-explorer-tab ${activeTab === 'graphYear' ? 'active' : ''}`}
+              onClick={() => setActiveTab('graphYear')}
+            >
+              Graph (year)
+            </button>
           </div>
 
           {activeTab === 'list' && (
@@ -456,7 +588,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             </div>
           )}
 
-          {activeTab === 'graph' && (
+          {(activeTab === 'graph' || activeTab === 'graphYear') && (
             <div className="paper-explorer-graph">
               <svg ref={svgRef} width="100%" height="800px" />
             </div>

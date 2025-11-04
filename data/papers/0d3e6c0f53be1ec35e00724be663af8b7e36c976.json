@@ -1,0 +1,47 @@
+{
+    "paperId": "0d3e6c0f53be1ec35e00724be663af8b7e36c976",
+    "title": "Efficient distributed association management method of data, model, and knowledge for digital twin railway",
+    "year": 2024,
+    "venue": "International Journal of Digital Earth",
+    "authors": [
+        "Yongxin Guo",
+        "Qing Zhu",
+        "Yuling Ding",
+        "Yun Li",
+        "Haoyu Wu",
+        "Yang He",
+        "Zhihong Li",
+        "Hankan Li",
+        "Liguo Zhang",
+        "Yuanzhen Zhao",
+        "Yan Pan",
+        "Ting Yang",
+        "Mingwei Liu",
+        "Haowei Zeng"
+    ],
+    "doi": "10.1080/17538947.2024.2340089",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0d3e6c0f53be1ec35e00724be663af8b7e36c976",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.tandfonline.com/doi/pdf/10.1080/17538947.2024.2340089?needAccess=true",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "ABSTRACT Digital twin railway is a pivotal foundation for the intelligent construction and maintenance of railway engineering projects within extensive open spaces. Its essence is the integrated representation and association management of multi-granularity spatiotemporal data, executable analysis models, and professional knowledge. These elements are characterized by the prominent characteristics of multi-source, heterogeneity, and massive volume. However, current decentralized and independent management strategies often neglect the dynamic coupling relationships between them, and numerous multi-path joins and conversion aggregation operations exist across various spatial scale applications. Consequently, this results in challenges such as the inability to dynamically couple data-model-knowledge and conduct global association retrieval, thereby limiting the potential for real-time analysis and intelligent application capabilities. To address these problems, we first constructed a tripartite graph model ($DMK{\\rm -}Graph\\; model$DMK−Graphmodel) that explicitly associates temporal, spatial, and interactive relationships. Subsequently, an association management architecture was proposed, accompanied by a global association graph index ($DMK{\\rm -}Graph\\; index$DMK−Graphindex) and a global-local indexing mechanism. Finally, a prototype system for railway data-model-knowledge association management was developed. The effectiveness of the distributed association management method was demonstrated by employing a case study of high-temperature safety risk analysis in railway tunnel engineering with multi-physics field coupling.",
+    "citationCount": 10,
+    "referenceCount": 60
+}

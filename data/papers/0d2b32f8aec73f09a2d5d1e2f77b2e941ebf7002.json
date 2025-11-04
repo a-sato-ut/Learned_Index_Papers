@@ -1,0 +1,36 @@
+{
+    "paperId": "0d2b32f8aec73f09a2d5d1e2f77b2e941ebf7002",
+    "title": "Conditionally Risk-Averse Contextual Bandits",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "M'onika Farsang",
+        "Paul Mineiro",
+        "Wangda Zhang"
+    ],
+    "doi": "10.48550/arXiv.2210.13573",
+    "arxivId": "2210.13573",
+    "url": "https://www.semanticscholar.org/paper/0d2b32f8aec73f09a2d5d1e2f77b2e941ebf7002",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2210.13573",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Contextual bandits with average-case statistical guarantees are inadequate in risk-averse situations because they might trade off degraded worst-case behaviour for better average performance. Designing a risk-averse contextual bandit is challenging because exploration is necessary but risk-aversion is sensitive to the entire distribution of rewards; nonetheless we exhibit the first risk-averse contextual bandit algorithm with an online regret guarantee. We conduct experiments from diverse scenarios where worst-case outcomes should be avoided, from dynamic pricing, inventory management, and self-tuning software; including a production exascale data processing system.",
+    "citationCount": 2,
+    "referenceCount": 62
+}

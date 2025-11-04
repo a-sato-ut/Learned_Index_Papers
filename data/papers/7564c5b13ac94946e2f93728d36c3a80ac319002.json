@@ -1,0 +1,40 @@
+{
+    "paperId": "7564c5b13ac94946e2f93728d36c3a80ac319002",
+    "title": "Fast Matrix Multiplication meets the Submodular Width",
+    "year": 2024,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Mahmoud Abo Khamis",
+        "Xiao Hu",
+        "Dan Suciu"
+    ],
+    "doi": "10.1145/3725235",
+    "arxivId": "2412.06189",
+    "url": "https://www.semanticscholar.org/paper/7564c5b13ac94946e2f93728d36c3a80ac319002",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "One fundamental question in database theory is the following: Given a Boolean conjunctive query Q, what is the best complexity for computing the answer to Q in terms of the input database size N? When restricted to the class of combinatorial algorithms, it is known that the best known complexity for any query Q is captured by the submodular width of Q. However, beyond combinatorial algorithms, certain queries are known to admit faster algorithms that often involve a clever combination of fast matrix multiplication and data partitioning. Nevertheless, there is no systematic way to derive and analyze the complexity of such algorithms for arbitrary queries Q. In this work, we introduce a general framework that captures the best complexity for answering any Boolean conjunctive query Q using matrix multiplication. Our framework unifies both combinatorial and non-combinatorial techniques under the umbrella of information theory. It generalizes the notion of submodular width to a new stronger notion called the ω-submodular width that naturally incorporates the power of fast matrix multiplication. We describe a matching algorithm that computes the answer to any query Q in time corresponding to the ω-submodular width of Q. We show that our framework recovers the best known complexities for Boolean queries that have been studied in the literature, to the best of our knowledge, and also discovers new algorithms for some classes of queries that improve upon the best known complexities.",
+    "citationCount": 5,
+    "referenceCount": 34
+}

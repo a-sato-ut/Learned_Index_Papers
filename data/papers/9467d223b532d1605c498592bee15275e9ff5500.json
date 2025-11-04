@@ -1,0 +1,36 @@
+{
+    "paperId": "9467d223b532d1605c498592bee15275e9ff5500",
+    "title": "Twisted Twin: A Collaborative and Competitive Memory Management Approach in HTAP Systems",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Jiani Yang",
+        "Sai Wu",
+        "Yong Wang",
+        "Dongxiang Zhang",
+        "Yifei Liu",
+        "Xiu Tang",
+        "Gang Chen"
+    ],
+    "doi": "10.14778/3748191.3748197",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9467d223b532d1605c498592bee15275e9ff5500",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Many GaussDB customers, particularly small and medium-sized enterprises (SMEs), require high transaction throughput with occasional analytical queries. HTAP systems that deploy both OLTP and OLAP engines on a single server to manage hybrid workloads have become increasingly popular among customers for achieving high cost-efficiency and data freshness. However, co-locating these systems can lead to resource contention, particularly for memory, potentially degrading overall system performance and causing Service-Level Agreements (SLA) violations. To address this issue, we propose\n T\n 2\n (Twisted Twin), an adaptive memory management approach that dynamically allocates memory between OLTP and OLAP components. This approach ensures OLTP meets SLA while optimizing the efficiency of OLAP query processing. However, this is non-trivial, as memory allocation triggers a cascade of effects, including in-memory column selection and data synchronization, both critical in HTAP systems. To overcome these challenges, we introduce a Bayesian optimization framework tailored for fluctuating workloads that adjusts memory allocation responsively. Experiments conducted on the real-world HTAP system, GaussDB-HTAP, demonstrate the effectiveness and efficiency of\n T\n 2\n .\n",
+    "citationCount": 0,
+    "referenceCount": 49
+}

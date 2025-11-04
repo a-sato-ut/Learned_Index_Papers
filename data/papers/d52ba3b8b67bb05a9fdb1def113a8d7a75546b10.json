@@ -1,0 +1,36 @@
+{
+    "paperId": "d52ba3b8b67bb05a9fdb1def113a8d7a75546b10",
+    "title": "ContTune: Continuous Tuning by Conservative Bayesian Optimization for Distributed Stream Data Processing Systems",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Jinqing Lian",
+        "Xinyi Zhang",
+        "Yingxia Shao",
+        "Zenglin Pu",
+        "Qingfeng Xiang",
+        "Yawen Li",
+        "Bin Cui"
+    ],
+    "doi": "10.48550/arXiv.2309.12239",
+    "arxivId": "2309.12239",
+    "url": "https://www.semanticscholar.org/paper/d52ba3b8b67bb05a9fdb1def113a8d7a75546b10",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2309.12239",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The past decade has seen rapid growth of distributed stream data processing systems. Under these systems, a stream application is realized as a Directed Acyclic Graph (DAG) of operators, where the level of parallelism of each operator has a substantial impact on its overall performance. However, finding optimal levels of parallelism remains challenging. Most existing methods are heavily coupled with the topological graph of operators, unable to efficiently tune under-provisioned jobs. They either insufficiently use previous tuning experience by treating successively tuning independently, or explore the configuration space aggressively, violating the Service Level Agreements (SLA).\n To address the above problems, we propose ContTune, a continuous tuning system for stream applications. It is equipped with a novel Big-small algorithm, in which the Big phase decouples the tuning from the topological graph by decomposing the job tuning problem into sub-problems that can be solved concurrently. We propose a conservative Bayesian Optimization (CBO) technique in the Small phase to speed up the tuning process by utilizing the previous observations. It leverages the state-of-the-art (SOTA) tuning method as conservative exploration to avoid SLA violations. Experimental results show that ContTune reduces up to 60.75% number of reconfigurations under synthetic workloads and up to 57.5% number of reconfigurations under real workloads, compared to the SOTA method DS2.",
+    "citationCount": 4,
+    "referenceCount": 78
+}

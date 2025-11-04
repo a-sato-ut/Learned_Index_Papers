@@ -1,0 +1,39 @@
+{
+    "paperId": "a009ea0f7b24adb8edece824ddcef73104d761d1",
+    "title": "HCiM: ADC-Less Hybrid Analog-Digital Compute in Memory Accelerator for Deep Learning Workloads",
+    "year": 2024,
+    "venue": "Asia and South Pacific Design Automation Conference",
+    "authors": [
+        "Shubham Negi",
+        "Utkarsh Saxena",
+        "Deepika Sharma",
+        "Kaushik Roy"
+    ],
+    "doi": "10.1145/3658617.3697572",
+    "arxivId": "2403.13577",
+    "url": "https://www.semanticscholar.org/paper/a009ea0f7b24adb8edece824ddcef73104d761d1",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2403.13577",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Analog Compute-in-Memory (CiM) accelerators are increasingly recognized for their efficiency in accelerating Deep Neural Networks (DNNs). However, their dependence on Analog-to-Digital Converters (ADCs) for accumulating partial sums from crossbars leads to substantial power and area overhead. Moreover, the high area overhead of ADCs constrains throughput due to the limited number of ADCs that can be integrated per crossbar. To mitigate this issue, extreme low-precision quantization (binary or ternary) for partial sums can be adopted, eliminating the need for ADCs. While this strategy effectively reduces ADC costs, it introduces the challenge of managing numerous floating-point scale factors, which are trainable parameters like DNN weights. These scale factors must be multiplied with the binary or ternary outputs at the crossbar columns to maintain system accuracy, offsetting the benefits of CiM and partial sum quantization. To that effect, we propose an algorithm-hardware co-design approach. Initially, DNNs are trained with two-stage quantization-aware training. Subsequently, we introduce HCiM, an ADC-Less Hybrid Analog-Digital CiM accelerator. HCiM uses analog CiM crossbars for performing Matrix-Vector Multiplication operations, coupled with a digital CiM array for processing scale factors. Compared to an analog CiM baseline architecture using 7 and 2-bit ADCs, HCiM provides energy reductions up to 28× and 11×, respectively, with a minimal drop in accuracy.",
+    "citationCount": 2,
+    "referenceCount": 26
+}

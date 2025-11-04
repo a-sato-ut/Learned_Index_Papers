@@ -1,0 +1,37 @@
+{
+    "paperId": "f1bf9c36f4f68920b2b14a45292219e5ca3c5800",
+    "title": "Formal and Practical Elements for the Certification of Machine Learning Systems",
+    "year": 2023,
+    "venue": "Symposium on Dependable Autonomic and Secure Computing",
+    "authors": [
+        "Jean-Guillaume Durand",
+        "Arthur Dubois",
+        "Robert J. Moss"
+    ],
+    "doi": "10.1109/DASC58513.2023.10311201",
+    "arxivId": "2310.03217",
+    "url": "https://www.semanticscholar.org/paper/f1bf9c36f4f68920b2b14a45292219e5ca3c5800",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2310.03217",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Over the past decade, machine learning has demonstrated impressive results, often surpassing human capabilities in sensing tasks relevant to autonomous flight. Unlike traditional aerospace software, the parameters of machine learning models are not hand-coded nor derived from physics but learned from data. They are automatically adjusted during a training phase, and their values do not usually correspond to physical requirements. As a result, requirements cannot be directly traced to lines of code, hindering the current bottom-up aerospace certification paradigm. This paper attempts to address this gap by 1) demystifying the inner workings and processes to build machine learning models, 2) formally establishing theoretical guarantees given by those processes, and 3) complementing these formal elements with practical considerations to develop a complete certification argument for safety-critical machine learning systems. Based on a scalable statistical verifier, our proposed framework is model-agnostic and tool-independent, making it adaptable to many use cases in the industry. We demonstrate results on a widespread application in autonomous flight: vision-based landing.",
+    "citationCount": 5,
+    "referenceCount": 43
+}

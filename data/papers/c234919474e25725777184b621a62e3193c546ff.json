@@ -1,0 +1,35 @@
+{
+    "paperId": "c234919474e25725777184b621a62e3193c546ff",
+    "title": "A Natural Language-Based Automatic Identification System Trajectory Query Approach Using Large Language Models",
+    "year": 2025,
+    "venue": "ISPRS International Journal of Geo-Information",
+    "authors": [
+        "Xuan Guo",
+        "Shutong Yu",
+        "Jinxue Zhang",
+        "Huanyu Bi",
+        "Xiaohui Chen",
+        "Junnan Liu"
+    ],
+    "doi": "10.3390/ijgi14050204",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c234919474e25725777184b621a62e3193c546ff",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The trajectory data collected by an Automatic Identification System (AIS) are an essential resource for various ships, and effective filtering and querying approaches are fundamental for managing these data. Natural language has become the preferred way to express complex query requirements and intents, due to its intuitiveness and universal applicability. In light of this, we propose a natural language-based AIS trajectory query approach using large language models. Firstly, trajectory textualization was designed to convert the time sequences of trajectories into semantic descriptions by segmenting AIS trajectories, extracting semantics, and constructing trajectory documents. Then, the semantic trajectory querying was completed by rewriting queries, retrieving AIS trajectories, and generating answers. Finally, comparative experiments were conducted to highlight the improvements in accuracy and relevance achieved by our proposed method over traditional approaches. Furthermore, a human study demonstrated the user-friendly interaction experience enabled by our approach. Additionally, we conducted an ablation study to illustrate the significant contributions of each module within our framework. The results demonstrate that our approach effectively bridges the gap between AIS trajectories and natural language query intents, offering an intuitive, user-friendly, and accessible solution for domain experts and novices.",
+    "citationCount": 0,
+    "referenceCount": 53
+}

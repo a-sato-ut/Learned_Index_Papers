@@ -1,0 +1,35 @@
+{
+    "paperId": "a7bab064ea62f4cd235d079325770f7048583afa",
+    "title": "On Streaming Codes for Burst and Random Errors",
+    "year": 2024,
+    "venue": "International Symposium on Information Theory",
+    "authors": [
+        "Shobhit Bhatnagar",
+        "P. V. Kumar"
+    ],
+    "doi": "10.1109/ISIT57864.2024.10619534",
+    "arxivId": "2405.06606",
+    "url": "https://www.semanticscholar.org/paper/a7bab064ea62f4cd235d079325770f7048583afa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Streaming codes (SCs) are packet-level codes that recover erased packets within a strict decoding-delay deadline. SCs for various packet erasure channel models such as sliding-window (SW) channel models that admit random or burst erasures in any SW of a fixed length have been studied in the literature, and their optimal rate has been characterized. In this paper, we study error-correcting streaming codes (SCERRS), i.e., packet-level codes which recover erroneous packets within a delay constraint. We study SCERRS for two classes of SW channel models, one that admits random packet errors, and another that admits multiple bursts of packet errors, in any SW of a fixed length. For the case of random packet errors, we establish the equivalence of an $SC_{ERR}$ and a corresponding SC that recovers from random packet erasures, thus determining the optimal rate of an SCERR for this setting. We then focus on SCs that recover from multiple erasure bursts and derive a rate-upper-bound for such SCS. We show the necessity of a divisibility constraint for the existence of an SC constructed by the popular diagonal embedding technique, that achieves this rate-bound under a stringent delay requirement. Sufficiency of this divisibility constraint follows from a construction known in prior literature. We further show the equivalence of the SCs considered and SCERRS for the setting of multiple error bursts, under a stringent delay requirement.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

@@ -1,0 +1,49 @@
+{
+    "paperId": "1c0a282cfbb421e24b1a870c0fe8d5450e567316",
+    "title": "Towards Query Optimizer as a Service (QOaaS) in a Unified LakeHouse Ecosystem: Can One QO Rule Them All?",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Rana Alotaibi",
+        "Yuanyuan Tian",
+        "Stefan Grafberger",
+        "Jes'us Camacho-Rodr'iguez",
+        "Nicolas Bruno",
+        "Brian Kroth",
+        "Sergiy Matusevych",
+        "Ashvin Agrawal",
+        "Mahesh Behera",
+        "Ashit Gosalia",
+        "C. Galindo-Legaria",
+        "Milind Joshi",
+        "Milan Potocnik",
+        "Beysim Sezgin",
+        "Xiaoyu Li",
+        "Carlo Curino"
+    ],
+    "doi": "10.48550/arXiv.2411.13704",
+    "arxivId": "2411.13704",
+    "url": "https://www.semanticscholar.org/paper/1c0a282cfbb421e24b1a870c0fe8d5450e567316",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Customer demand, regulatory pressure, and engineering efficiency are the driving forces behind the industry-wide trend of moving from siloed engines and services that are optimized in isolation to highly integrated solutions. This is confirmed by the wide adoption of open formats, shared component libraries, and the meteoric success of integrated data lake experiences such as Microsoft Fabric. In this paper, we study the implications of this trend to Query Optimizer (QO) and discuss our experience of building Calcite and extending Cascades into QO components of Microsoft SQL Server, Fabric Data Warehouse (DW), and SCOPE. We weigh the pros and cons of a drastic change in direction: moving from bespoke QOs or library-sharing (\\`a la Calcite) to rewriting the QO stack and fully embracing Query Optimizer as a Service (QOaaS). We report on some early successes and stumbles as we explore these ideas with prototypes compatible with Fabric DW and Spark. The benefits include centralized workload-level optimizations, multi-engine federation, and accelerated feature creation, but the challenges are equally daunting. We plan to engage CIDR audience in a debate on this exciting topic.",
+    "citationCount": 1,
+    "referenceCount": 25
+}

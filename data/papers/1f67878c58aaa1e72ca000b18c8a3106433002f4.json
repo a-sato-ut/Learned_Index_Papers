@@ -1,0 +1,33 @@
+{
+    "paperId": "1f67878c58aaa1e72ca000b18c8a3106433002f4",
+    "title": "Bucket-Level Elastic Cuckoo Filter Based on Consistent Hashing with High Memory Efficiency",
+    "year": 2023,
+    "venue": "IEEE International Conference on Network Protocols",
+    "authors": [
+        "Guannan Pan",
+        "Yongchao Zhang",
+        "Qingjun Xiao"
+    ],
+    "doi": "10.1109/ICNP59255.2023.10355601",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1f67878c58aaa1e72ca000b18c8a3106433002f4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate Membership Query (AMQ) filter is a group of probabilistic data structures, such as Bloom filter and cuckoo filter, which supports approximate set membership queries under constant memory budget and time cost. It has numerous applications in real-world scenarios, such as connection tracking and IP blacklisting for network management and security. However, dynamic datasets are pervasive in practice, with the number of elements fluctuating significantly over time. This requires an AMQ structure to support the run-time memory reallocation for dynamic set representation. Although previous works exist that enhance the cuckoo filter to be memory elastic, most of them only support coarse-grained memory expansion at the filter level or the mini-filter level. We propose a new AMQ filter named BECF (Bucket-level Elastic Cuckoo Filter) that allows fine-grained expansion and shrinkage at the bucket level. BECF combines cuckoo filter with consistent hashing technique, which one-to-one maps the buckets of a cuckoo filter to the segments of a hashring. To allow the number of segments to increase dynamically, BECF splits an arbitrary segment into two child segments, and adopts a segment re-addressing technique that borrows extra bits from element fingerprint to identify the child segment prefix. We also minimize the data movement between the parent and the child segments (or buckets), and preserve all the good properties of cuckoo filter after the expansion. Our experiments show that BECF attains 37% lower memory cost (while holding the same number of elements), 12% higher insertion speed and 20% faster query speed than other designs.",
+    "citationCount": 3,
+    "referenceCount": 25
+}

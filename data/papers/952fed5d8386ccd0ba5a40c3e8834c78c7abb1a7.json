@@ -1,0 +1,39 @@
+{
+    "paperId": "952fed5d8386ccd0ba5a40c3e8834c78c7abb1a7",
+    "title": "GlossAPI: Architecturing the Greek Data Pile for LLM development",
+    "year": 2024,
+    "venue": "Panhellenic Conference on Informatics",
+    "authors": [
+        "Mohsan Ali",
+        "Nina Giallousi",
+        "Alexandros Melidis",
+        "C. Alexopoulos",
+        "Y. Charalabidis"
+    ],
+    "doi": "10.1145/3716554.3716557",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/952fed5d8386ccd0ba5a40c3e8834c78c7abb1a7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the release of large language models such as ChatGPT, there has been a surge in demand for national language data sources. Greek language resources, in particular, have become widely available and are frequently discussed in the context of LLM development for tailored or custom use. The development of large language models presents several challenges, one of which is data preparation, which must be of high quality and grounded in linguistic, conceptual, and historical foundations. Creating data sets of this nature is a highly complex task. This study focuses on the collection, curation, and management of data sets for the Greek language, as well as making the data provision for use in training custom Greek LLMs smoother, not only for custom LLM development but also for fine-tuning existing LLM models. Immediately after the ChatGPT invention, the GlossAPI project initiative started in 2023. This research encourages the need for a Greek data pile creation, which is further dependent upon the data collection, acquisition, data cleaning, annotation, and classification steps. Upon cleaning the data pile, storage of the data pile and serving it to the LLMs or other users is the main concern. This concern is resolved by the use of an integrative, capable database solution that can facilitate in-database inference, including data collection, annotation, classification, and storage. For each of these stages, a special protocol requires, for instance, the use of existing LLMs or other artificial intelligence models for data preprocessing, annotation, and classification. To store data, we need a database that can seamlessly integrate with other data resources. Our study aim at the development of an architecture to unite Greek data pile and intelligent AI models at a one place using MindsDB integrative capabilities. MindsDB is an emerging database with an integration functionality to wide variety of AI models which can facilitate the data processing, annotation, classification through the integration of Supervised, unsupervised, and even though LLMs models.",
+    "citationCount": 0,
+    "referenceCount": 21
+}

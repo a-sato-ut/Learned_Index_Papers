@@ -1,0 +1,35 @@
+{
+    "paperId": "db218660310f613c6d567ef31f12f2d5360635eb",
+    "title": "An Efficient FEC Scheme with SLA Consideration for Low Latency Transmissions",
+    "year": 2024,
+    "venue": "IEEE/IFIP Network Operations and Management Symposium",
+    "authors": [
+        "Chao Xu",
+        "Jessie Hui Wang",
+        "Rui Li",
+        "Zongpeng Li",
+        "Hao Wu",
+        "Jilong Wang"
+    ],
+    "doi": "10.1109/NOMS59830.2024.10575194",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/db218660310f613c6d567ef31f12f2d5360635eb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Forward Error Correction (FEC) is the preferred method for recovering lost packets in time-sensitive applications. The key for FEC to recover lost packets successfully is whether the number of redundant packets is sufficient. Due to imperfect loss prediction algorithms, existing FEC schemes, which set the number of redundant packets according to the prediction results, make transport service providers likely to fall into the awkward situation of either failing to recover lost packets or wasting a large amount of bandwidth. In this work, we propose P-FEC, an FEC scheme that can take SLA into consideration and empirically achieve the targeted decoding success rate while minimizing bandwidth waste. P-FEC combines intra- and inter-generation coding to balance decoding success rate and bandwidth waste, in which intra-generation provides quick but conservative recovery and inter-generation coding provides delayed but more efficient loss recovery services. We future profile the loss prediction errors to derive cumulative distribution functions of the errors for diverse network conditions, and then determine the parameters of intra- and inter-generation coding according to these distribution functions. The real-world transmission experiments empirically demonstrate that P-FEC can achieve the targeted decoding success rate while its bandwidth waste is only 1%-16% of the FEC with the code rate that can theoretically guarantee the target success rate. Furthermore, P-FEC can work well with computation light-weighted prediction algorithms although these algorithms have low accuracy, which makes it extremely useful for the transmission environment with limited computing resources.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

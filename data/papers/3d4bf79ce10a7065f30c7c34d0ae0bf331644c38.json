@@ -1,0 +1,38 @@
+{
+    "paperId": "3d4bf79ce10a7065f30c7c34d0ae0bf331644c38",
+    "title": "Heterogeneous Student Knowledge Distillation From BERT Using a Lightweight Ensemble Framework",
+    "year": 2024,
+    "venue": "IEEE Access",
+    "authors": [
+        "Ching-Sheng Lin",
+        "Chung-Nan Tsai",
+        "J. Jwo",
+        "Cheng-Hsiung Lee",
+        "Xin Wang"
+    ],
+    "doi": "10.1109/ACCESS.2024.3372568",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3d4bf79ce10a7065f30c7c34d0ae0bf331644c38",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10458136.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Education",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning models have demonstrated their effectiveness in capturing complex relationships between input features and target outputs across many different application domains. These models, however, often come with considerable memory and computational demands, posing challenges for deployment on resource-constrained edge devices. Knowledge distillation is a prominent technique for transferring the expertise from an advanced yet heavy teacher model to a more efficient leaner student model. As ensemble methods have exhibited notable enhancements in model generalization and have achieved state-of-the-art performance in various machine learning tasks, we adopt ensemble techniques to perform knowledge distillation from BERT using multiple lightweight student models. Our approach applies lean architectural paradigms of spatial and sequential networks including LSTM, CNN and their fusion to perform data processing from distinct perspectives. Instead of using contextual word representations which require more space in natural language processing applications, we take advantage of a single static pre-trained and low-dimensional word embedding space to be shared among student models. Empirical studies are conducted on the sentiment classification problem and our model outperforms not only other existing techniques but also the teacher model.",
+    "citationCount": 3,
+    "referenceCount": 58
+}

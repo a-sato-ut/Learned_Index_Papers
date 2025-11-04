@@ -1,0 +1,34 @@
+{
+    "paperId": "2923d6b1b6714dcc84da209a8a45b09d23c603c4",
+    "title": "Dendrite: Bolt-on Adaptivity for Data Systems",
+    "year": 2021,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Brad Glasbergen",
+        "Fa-Jung Wu",
+        "K. Daudjee"
+    ],
+    "doi": "10.1145/3448016.3452755",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2923d6b1b6714dcc84da209a8a45b09d23c603c4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Client application workloads for data systems are known to vary in load and access patterns over time. This variability can place undue stress on data systems, tying up resources and degrading performance. To meet this challenge, systems must adapt by adjusting resource allocation and processing techniques to ameliorate contention and to deliver stable performance. We demonstrate Dendrite, a system designed to bootstrap adaptivity for data systems through its widely-applicable approach for extracting metrics, developing adaption rules, and applying them through user-defined functions to effect system behaviour changes. We highlight Dendrite's features and capabilities through a proof-of-concept implementation with the popular PostgreSQL database system.",
+    "citationCount": 1,
+    "referenceCount": 11
+}

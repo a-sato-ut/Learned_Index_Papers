@@ -1,0 +1,31 @@
+{
+    "paperId": "fe60f5142a1a6c64032afb99cc6556c03456f48f",
+    "title": "Experience-Based Parallel DDPG for Automatic Tuning of Ceph Knobs",
+    "year": 2024,
+    "venue": "2024 3rd International Conference on Cloud Computing, Big Data Application and Software Engineering (CBASE)",
+    "authors": [
+        "Zhaoji Tian",
+        "Chongren Yu",
+        "Zhen Shan",
+        "Shuangfei Yin",
+        "Han Xu",
+        "Bin Zhao"
+    ],
+    "doi": "10.1109/CBASE64041.2024.10824653",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fe60f5142a1a6c64032afb99cc6556c03456f48f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Tuning Ceph knobs based on business scenarios can significantly enhance performance, and the current state-of-the-art solutions for automatic knob tuning are based on deep reinforcement learning. However, the extensive random exploration process in the early stages of deep reinforcement learning training results in recommendation times for optimal knob configurations exceeding 20 hours. To improve performance by automatically optimizing Ceph knobs and simultaneously reducing the time required to recommend the optimal configuration, this paper introduces an automatic knob tuning system named EPDT-C(Experience-based Parallel DDPG for Automatic Tuning of Ceph Knobs). The main contributions are twofold: 1) An acceptance-rejection method is utilized to refine Latin hypercube sampling, ensuring that the collected konb configuration samples meet the inter-knob constraints, thus avoiding Ceph system failures due to improper parameter configuration; 2) Based on the Ape-X architecture, a multi-threaded DDPG-based automatic tuning approach is proposed, which ensures optimal performance improvements while reducing the overall tuning duration. Experimental results show that the proposed method in this paper increases IOPS by 40% and 200% compared to the default Ceph knob configuration, and reduces the time required to recommend the optimal knob configuration by 6.67% and 33.33% compared to the state-of-the-art approaches ADSTS and Magpie, respectively.",
+    "citationCount": 1,
+    "referenceCount": 21
+}

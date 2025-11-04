@@ -1,0 +1,35 @@
+{
+    "paperId": "53b5c11ab0b19b17d440013adc58d02d74515249",
+    "title": "AQETuner: Reliable Query-level Configuration Tuning for Analytical Query Engines",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Lixiang Chen",
+        "Yuxing Han",
+        "Yu Chen",
+        "Xing Chen",
+        "Chengcheng Yang",
+        "Weining Qian"
+    ],
+    "doi": "10.48550/arXiv.2504.11756",
+    "arxivId": "2504.11756",
+    "url": "https://www.semanticscholar.org/paper/53b5c11ab0b19b17d440013adc58d02d74515249",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Modern analytical query engines (AQEs) are essential for large-scale data analysis and processing. These systems usually provide numerous query-level tunable knobs that significantly affect individual query performance. While several studies have explored automatic DBMS configuration tuning, they have several limitations to handle query-level tuning. Firstly, they fail to capture how knobs influence query plans, which directly affect query performance. Secondly, they overlook query failures during the tuning processing, resulting in low tuning efficiency. Thirdly, they struggle with cold-start problems for new queries, leading to prolonged tuning time. To address these challenges, we propose AQETuner, a novel Bayesian Optimization-based system tailored for\n reliable\n query-level knob tuning in AQEs. AQETuner first applies the attention mechanisms to jointly encode the knobs and plan query, effectively identifying the impact of knobs on plan nodes. Then, AQETuner employs a dual-task Neural Process to predict both query performance and failures, leveraging their interactions to guide the tuning process. Furthermore, AQETuner utilizes Particle Swarm Optimization to efficiently generate high-quality samples in parallel during the initial tuning stage for the new queries. Experimental results show that AQETuner significantly outperforms existing methods, reducing query latency by up to 23.7% and query failures by up to 51.2%.\n",
+    "citationCount": 0,
+    "referenceCount": 55
+}

@@ -1,0 +1,40 @@
+{
+    "paperId": "9c17761d89ba342e54426ce3f3373ac9243c49ec",
+    "title": "Explicit Rate-Optimal Streaming Codes With Smaller Field Size",
+    "year": 2024,
+    "venue": "IEEE Transactions on Information Theory",
+    "authors": [
+        "Myna Vajha",
+        "Vinayak Ramkumar Nikhil",
+        "M. I. P. V. Krishnan",
+        "Life Fellow Ieee Kumar",
+        "M. Nikhil",
+        "M. Krishnan",
+        "P. V. Kumar"
+    ],
+    "doi": "10.1109/TIT.2023.3328812",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9c17761d89ba342e54426ce3f3373ac9243c49ec",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2105.04432",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Streaming codes are a class of packet-level erasure codes that ensure packet recovery over a sliding window channel which allows either a burst erasure of size <inline-formula> <tex-math notation=\"LaTeX\">$b$ </tex-math></inline-formula> or <inline-formula> <tex-math notation=\"LaTeX\">$a$ </tex-math></inline-formula> random erasures within any window of size <inline-formula> <tex-math notation=\"LaTeX\">$(\\tau +1)$ </tex-math></inline-formula> time units, under a strict decoding-delay constraint <inline-formula> <tex-math notation=\"LaTeX\">$\\tau $ </tex-math></inline-formula>. The field size over which streaming codes are constructed is an important factor in determining the implementation complexity. The best-known explicit rate-optimal streaming code, which covers all <inline-formula> <tex-math notation=\"LaTeX\">$\\{a,b,\\tau \\}$ </tex-math></inline-formula> parameter choices, requires a field size of <inline-formula> <tex-math notation=\"LaTeX\">$q^{2}$ </tex-math></inline-formula>, where <inline-formula> <tex-math notation=\"LaTeX\">$q \\ge \\tau +b-a$ </tex-math></inline-formula> is a prime power. In this work, we present an explicit rate-optimal streaming code over a field of size <inline-formula> <tex-math notation=\"LaTeX\">$q^{2}$ </tex-math></inline-formula>, for prime power <inline-formula> <tex-math notation=\"LaTeX\">$q \\ge \\tau $ </tex-math></inline-formula>. This is the smallest known field size for an explicit rate-optimal construction that takes into account all <inline-formula> <tex-math notation=\"LaTeX\">$\\{a,b,\\tau \\}$ </tex-math></inline-formula> parameters. We achieve this by modifying the non-explicit code construction due to Krishnan et al., without changing the field size. We also present a generalization of our construction, which results in streaming codes over further smaller fields by trading off code rate.",
+    "citationCount": 16,
+    "referenceCount": 47
+}

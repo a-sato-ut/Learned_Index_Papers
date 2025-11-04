@@ -1,0 +1,32 @@
+{
+    "paperId": "0713f8914ae9b2dc40c04b00b5848fdeb909dab3",
+    "title": "Automatic Configuration Tuning on Cloud Database: A Survey",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Limeng Zhang",
+        "M. A. Babar"
+    ],
+    "doi": "10.48550/arXiv.2404.06043",
+    "arxivId": "2404.06043",
+    "url": "https://www.semanticscholar.org/paper/0713f8914ae9b2dc40c04b00b5848fdeb909dab3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Faced with the challenges of big data, modern cloud database management systems are designed to efficiently store, organize, and retrieve data, supporting optimal performance, scalability, and reliability for complex data processing and analysis. However, achieving good performance in modern databases is non-trivial as they are notorious for having dozens of configurable knobs, such as hardware setup, software setup, database physical and logical design, etc., that control runtime behaviors and impact database performance. To find the optimal configuration for achieving optimal performance, extensive research has been conducted on automatic parameter tuning in DBMS. This paper provides a comprehensive survey of predominant configuration tuning techniques, including Bayesian optimization-based solutions, Neural network-based solutions, Reinforcement learning-based solutions, and Search-based solutions. Moreover, it investigates the fundamental aspects of parameter tuning pipeline, including tuning objective, workload characterization, feature pruning, knowledge from experience, configuration recommendation, and experimental settings. We highlight technique comparisons in each component, corresponding solutions, and introduce the experimental setting for performance evaluation. Finally, we conclude this paper and present future research opportunities. This paper aims to assist future researchers and practitioners in gaining a better understanding of automatic parameter tuning in cloud databases by providing state-of-the-art existing solutions, research directions, and evaluation benchmarks.",
+    "citationCount": 5,
+    "referenceCount": 93
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "49beab6faf0126d47e19fb781e1677742c150d9c",
+    "title": "The Duck's Brain: Training and Inference of Neural Networks in Modern Database Engines",
+    "year": 2023,
+    "venue": "Datenbank-Spektrum",
+    "authors": [
+        "Maximilian E. Schüle",
+        "Thomas Neumann",
+        "A. Kemper"
+    ],
+    "doi": "10.48550/arXiv.2312.17355",
+    "arxivId": "2312.17355",
+    "url": "https://www.semanticscholar.org/paper/49beab6faf0126d47e19fb781e1677742c150d9c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Although database systems perform well in data access and manipulation, their relational model hinders data scientists from formulating machine learning algorithms in SQL. Nevertheless, we argue that modern database systems perform well for machine learning algorithms expressed in relational algebra. To overcome the barrier of the relational model, this paper shows how to transform data into a coordinate relational representation for training neural networks in SQL: We first describe building blocks for data transformation, model training and inference in SQL-92 and their counterparts using an extended array data type. Then, we compare the implementation for model training and inference using array data types to the one using a coordinate relational representation in SQL-92 only. The evaluation in terms of runtime and memory consumption proves the suitability of modern database systems for matrix algebra, although specialised array data types perform better than matrices in coordinate relational representation.",
+    "citationCount": 1,
+    "referenceCount": 61
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "236221df00129d376eb0bb9748ed0fd738014cd7",
+    "title": "An Experimental Study on Federated Equi-Joins",
+    "year": 2024,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Shuyuan Li",
+        "Yuxiang Zeng",
+        "Yuxiang Wang",
+        "Yiman Zhong",
+        "Zimu Zhou",
+        "Yongxin Tong"
+    ],
+    "doi": "10.1109/TKDE.2024.3375028",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/236221df00129d376eb0bb9748ed0fd738014cd7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data federation has emerged as a novel database system enabling collaborative queries across mutually distrusted data owners. Federated equi-join, a commonly used operation in data federation, combines relations from distinct data owners while preserving their data privacy. Due to the wide applications of this query, many solutions to federated equi-joins have been proposed. However, it is still challenging for practitioners to choose the most appropriate algorithm due to various reasons, including incomplete evaluation protocols (e.g., lack of evaluating multi-way equi-joins), under-explored performance metric (main memory usage), and absence of a standardized comparison. Motivated by this reason, this paper conducts a comprehensive experimental study and builds a new benchmark, called <inline-formula><tex-math notation=\"LaTeX\">${\\sf FEJ-Bench}$</tex-math><alternatives><mml:math><mml:mrow><mml:mi mathvariant=\"sans-serif\">FEJ</mml:mi><mml:mo>-</mml:mo><mml:mi mathvariant=\"sans-serif\">Bench</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href=\"tong-ieq1-3375028.gif\"/></alternatives></inline-formula>, for federated equi-joins. The experimental study and the benchmark consist of eight state-of-the-art algorithms and five datasets. Our evaluation reveals the query efficiency ranking, its impact factors, and potential research opportunities. Finally, we open-source <inline-formula><tex-math notation=\"LaTeX\">${\\sf FEJ-Bench}$</tex-math><alternatives><mml:math><mml:mrow><mml:mi mathvariant=\"sans-serif\">FEJ</mml:mi><mml:mo>-</mml:mo><mml:mi mathvariant=\"sans-serif\">Bench</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href=\"tong-ieq2-3375028.gif\"/></alternatives></inline-formula> on GitHub, which is the first benchmark for federated equi-joins. Our findings aim to guide researchers and practitioners in deploying federated equi-joins in practice.",
+    "citationCount": 4,
+    "referenceCount": 43
+}

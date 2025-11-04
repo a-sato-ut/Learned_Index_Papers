@@ -1,0 +1,28 @@
+{
+    "paperId": "3aea6a3453efd6fa2ee6a6123765a7d19f399e78",
+    "title": "An Efficient Document Retrieval for Korean Open-Domain Question Answering Based on ColBERT",
+    "year": 2023,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Byungha Kang",
+        "Yeonghwa Kim",
+        "Youhyun Shin"
+    ],
+    "doi": "10.3390/app132413177",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3aea6a3453efd6fa2ee6a6123765a7d19f399e78",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2076-3417/13/24/13177/pdf?version=1702360648",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Open-domain question answering requires the task of retrieving documents with high relevance to the query from a large-scale corpus. Deep learning-based dense retrieval methods have become the primary approach for finding related documents. Although deep learning-based methods have improved search accuracy compared to traditional techniques, they simultaneously impose a considerable increase in computational burden. Consequently, research on efficient models and methods that optimize the trade-off between search accuracy and time to alleviate computational demands is required. In this paper, we propose a Korean document retrieval method utilizing ColBERT’s late interaction paradigm to efficiently calculate the relevance between questions and documents. For open-domain Korean question answering document retrieval, we construct a Korean dataset using various corpora from AI-Hub. We conduct experiments comparing the search accuracy and inference time among the traditional IR (information retrieval) model BM25, the dense retrieval approach utilizing BERT-based models for Korean, and our proposed method. The experimental results demonstrate that our approach achieves a higher accuracy than BM25 and requires less search time than the dense retrieval method employing KoBERT. Moreover, the most outstanding performance is observed when using KoSBERT, a pre-trained Korean language model that learned to position semantically similar sentences closely in vector space.",
+    "citationCount": 2,
+    "referenceCount": 16
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "58d5e454364a3e1c592499734d7d40be6a3bbed5",
+    "title": "Adaptive Buffer Replacement Policies for Multi-Tenant Cloud Services",
+    "year": 2023,
+    "venue": "Data Storage and Data Engineering",
+    "authors": [
+        "Zekai Zhu",
+        "Peiquan Jin",
+        "Xiaoliang Wang",
+        "Yigui Yuan",
+        "Shouhong Wan"
+    ],
+    "doi": "10.1109/DSDE58527.2023.00024",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/58d5e454364a3e1c592499734d7d40be6a3bbed5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cloud services such as multi-tenant content delivery networks (CDN) have become a trend because they can offer personalized business support for tenants. However, the business modes of different tenants are usually different. Thus, it is not appropriate to use a single buffering strategy on cloud servers because it cannot adapt to various access patterns of tenants. In this paper, we propose to develop adaptive buffer management for multi-tenant cloud services. Particularly, we present an adaptive buffer replacement policy called ARP (Adaptive Replacement Policy) for each tenant. ARP can automatically choose a recency-based or a frequency-based replacement policy according to the workload characteristics. Further, to solve the problem that ARP needs to manually set a parameter $p$, we present an optimization for ARP, called ARP+, to automatically adjust the value of parameter $p$ according to the workload characteristics. We conduct experiments on multiple tailor-made workloads. The results show that both ARP and ARP+ outperform conventional buffering policies, including LRU, LFU, LIRS, and LRU-2. In addition, ARP+ can automatically adapt to the change of access patterns, which is more suitable for multi-tenant cloud scenarios.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

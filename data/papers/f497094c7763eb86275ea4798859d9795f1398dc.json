@@ -1,0 +1,30 @@
+{
+    "paperId": "f497094c7763eb86275ea4798859d9795f1398dc",
+    "title": "Learned Query Superoptimization",
+    "year": 2023,
+    "venue": "VLDB Workshops",
+    "authors": [
+        "Ryan Marcus"
+    ],
+    "doi": "10.48550/arXiv.2303.15308",
+    "arxivId": "2303.15308",
+    "url": "https://www.semanticscholar.org/paper/f497094c7763eb86275ea4798859d9795f1398dc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2303.15308",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Traditional query optimizers are designed to be fast and stateless: each query is quickly optimized using approximate statistics, sent off to the execution engine, and promptly forgotten. Recent work on learned query optimization have shown that it is possible for a query optimizer to\"learn from its mistakes,\"correcting erroneous query plans the next time a plan is produced. But what if query optimizers could avoid mistakes entirely? This paper presents the idea of learned query superoptimization. A new generation of query superoptimizers could autonomously experiment to discover optimal plans using exploration-driven algorithms, iterative Bayesian optimization, and program synthesis. While such superoptimizers will take significantly longer to optimize a given query, superoptimizers have the potential to massively accelerate a large number of important repetitive queries being executed on data systems today.",
+    "citationCount": 2,
+    "referenceCount": 49
+}

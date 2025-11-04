@@ -1,0 +1,40 @@
+{
+    "paperId": "4fb08944cd83db3e97a6c73ffa4dc1c8e1248c79",
+    "title": "WAF: An Efficient WebAssembly-Based Execution Environment for User-Defined Functions",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Zhuo Huang",
+        "Haoqiang Fan",
+        "Junhui Peng",
+        "Qi Wu",
+        "Song Wu",
+        "Chen Yu",
+        "Hai Jin",
+        "Qiming Liu",
+        "Wei Yang",
+        "Shuo Yu"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00150",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4fb08944cd83db3e97a6c73ffa4dc1c8e1248c79",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "User-Defined Functions (UDFs) have long served as the standard method for extending the capabilities of data management systems. With the advent of WebAssembly (WASM), UDFs' dependencies, such as language runtimes and libraries, can be compiled into a WASM module, which is then instantiated to execute the UDF. This approach offers several key advantages: 1) it allows developers to write UDFs in their preferred programming language, rather than being limited to those natively supported by the database engine; 2) it isolates UDFs' dependencies within the WASM module, mitigating the risk of errors caused by conflicting dependencies on the same host; and 3) it promotes cross-platform compatibility, enabling seamless execution of UDFs across different engines, operating systems, and architectures. However, our analysis reveals that executing a WASM-based UDF incurs overhead due to data transfer between the database engine and the WASM runtime. This process involves data copying and data layout adjustments, which can significantly impact performance. To address these challenges, we present WAF, a WASM-based UDF execution environment. WAF leverages shared memory to eliminate data copying and shifts data layout adjustments from the execution phase to the compilation phase. Experimental results show that WAF reduces the execution overhead of WASM-based UDFs by 3.1x and achieves an 18.1x speedup compared to the container-based approach, eliminating nearly all data transfer delays.",
+    "citationCount": 0,
+    "referenceCount": 58
+}
