@@ -1,0 +1,34 @@
+{
+    "paperId": "34fd7d37805986607212a7f3f1677b5e476f4c2c",
+    "title": "Low Rank Approximation for Learned Query Optimization",
+    "year": 2024,
+    "venue": "aiDM@SIGMOD",
+    "authors": [
+        "Zixuan Yi",
+        "Yao Tian",
+        "Z. Ives",
+        "Ryan Marcus"
+    ],
+    "doi": "10.1145/3663742.3663974",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/34fd7d37805986607212a7f3f1677b5e476f4c2c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present LimeQO, a learned steering query optimizer based on linear methods, such as matrix completion, for repetitive workloads. LimeQO can forgo expensive neural networks by taking advantage of the low-rank structure of query workloads. Using offline execution, LimeQO can accelerate workloads by up to 2x with zero regressions in just a few hours, while using 100-1000x fewer computational resources than deep learning techniques.",
+    "citationCount": 2,
+    "referenceCount": 33
+}

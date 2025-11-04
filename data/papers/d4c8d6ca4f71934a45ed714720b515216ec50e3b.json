@@ -1,0 +1,35 @@
+{
+    "paperId": "d4c8d6ca4f71934a45ed714720b515216ec50e3b",
+    "title": "DELRec: Distilling Sequential Pattern to Enhance LLMs-Based Sequential Recommendation",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Haoyi Zhang",
+        "Guohao Sun",
+        "Jinhu Lu",
+        "Guanfeng Liu",
+        "X. Fang"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00089",
+    "arxivId": "2406.11156",
+    "url": "https://www.semanticscholar.org/paper/d4c8d6ca4f71934a45ed714720b515216ec50e3b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sequential recommendation (SR) tasks aim to predict users' next interaction by learning their behavior sequence and capturing the connection between users' past interactions and their changing preferences. Conventional SR models often focus solely on capturing sequential patterns within the training data, neglecting the broader context and semantic information embedded in item titles from external sources. This limits their predictive power and adaptability. Large language models (LLMs) have recently shown promise in SR tasks due to their advanced understanding capabilities and strong generalization abilities. Researchers have attempted to enhance LLMs-based recommendation performance by incorporating information from conventional SR models. However, previous approaches have encountered problems such as 1) limited textual information leading to poor recommendation performance, 2) incomplete understanding and utilization of conventional SR model information by LLMs, and 3) excessive complexity and low interpretability of LLMs-based methods. To improve the performance of LLMs-based SR, we propose a novel framework, Distilling Sequential Pattern to Enhance LLMs-based Sequential Recommendation (DELRec), which aims to extract knowledge from conventional SR models and enable LLMs to easily comprehend and utilize the extracted knowledge for more effective SRs. DELRec consists of two main stages: 1) Distill Pattern from Conventional SR Models, focusing on extracting behavioral patterns exhibited by conventional SR models using soft prompts through two well-designed strategies; 2) LLMs-based Sequential Recommendation, aiming to fine-tune LLMs to effectively use the distilled auxiliary information to perform SR tasks. Extensive experimental results conducted on four real datasets validate the effectiveness of the DELRec framework.",
+    "citationCount": 0,
+    "referenceCount": 48
+}

@@ -1,0 +1,26 @@
+{
+    "paperId": "872c44189f10c49ac1328a7fc851f0104fdd7275",
+    "title": "Spam Detection on YouTube Comments Using Advanced Machine Learning Models: A Comparative Study",
+    "year": 2024,
+    "venue": "Brilliance Research of Artificial Intelligence",
+    "authors": [
+        "Gregorius Airlangga"
+    ],
+    "doi": "10.47709/brilliance.v4i2.4670",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/872c44189f10c49ac1328a7fc851f0104fdd7275",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The exponential growth of user-generated content on platforms like YouTube has led to an increase in spam comments, which negatively affect the user experience and content moderation efforts. This research presents a comprehensive comparative study of various machine learning models for detecting spam comments on YouTube. The study evaluates a range of traditional and ensemble models, including Linear Support Vector Classifier (LinearSVC), RandomForest, LightGBM, XGBoost, and a VotingClassifier, with the goal of identifying the most effective approach for automated spam detection. The dataset consists of labeled YouTube comments, and text preprocessing was performed using Term Frequency-Inverse Document Frequency (TF-IDF) vectorization. Each model was trained and evaluated using a stratified 10-fold cross-validation to ensure robustness and generalizability. LinearSVC outperformed all other models, achieving an accuracy of 95.33% and an F1-score of 95.32%. The model demonstrated superior precision (95.46%) and recall (95.33%), making it highly effective in distinguishing between spam and legitimate comments. The results highlight the potential of LinearSVC for real-time spam detection systems, offering a reliable balance between accuracy and computational efficiency. Furthermore, the study suggests that while ensemble models like RandomForest and VotingClassifier performed well, they did not surpass the simpler LinearSVC model in this context. Future work will explore the incorporation of deep learning techniques, such as Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs), to capture more complex patterns and further enhance spam detection accuracy on social media platforms like YouTube.",
+    "citationCount": 3,
+    "referenceCount": 42
+}

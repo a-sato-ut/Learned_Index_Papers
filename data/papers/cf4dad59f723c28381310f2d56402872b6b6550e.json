@@ -1,0 +1,39 @@
+{
+    "paperId": "cf4dad59f723c28381310f2d56402872b6b6550e",
+    "title": "Characterizing Network Requirements for GPU API Remoting in AI Applications",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Tianxia Wang",
+        "Zhuofu Chen",
+        "Xingda Wei",
+        "Jinyu Gu",
+        "Rong Chen",
+        "Haibo Chen"
+    ],
+    "doi": "10.48550/arXiv.2401.13354",
+    "arxivId": "2401.13354",
+    "url": "https://www.semanticscholar.org/paper/cf4dad59f723c28381310f2d56402872b6b6550e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "GPU remoting is a promising technique for supporting AI applications. Networking plays a key role in enabling remoting. However, for efficient remoting, the network requirements in terms of latency and bandwidth are unknown. In this paper, we take a GPU-centric approach to derive the minimum latency and bandwidth requirements for GPU remoting, while ensuring no (or little) performance degradation for AI applications. Our study including theoretical model demonstrates that, with careful remoting design, unmodified AI applications can run on the remoting setup using commodity networking hardware without any overhead or even with better performance, with low network demands.",
+    "citationCount": 2,
+    "referenceCount": 45
+}

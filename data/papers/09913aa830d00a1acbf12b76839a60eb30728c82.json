@@ -1,0 +1,36 @@
+{
+    "paperId": "09913aa830d00a1acbf12b76839a60eb30728c82",
+    "title": "Neural Sum Rate Maximization for AI-Native Wireless Networks: Alternating Direction Method of Multipliers Framework and Algorithm Unrolling",
+    "year": 2024,
+    "venue": "NetAISys@MobiSys",
+    "authors": [
+        "Siya Chen",
+        "Chee-Wei Tan"
+    ],
+    "doi": "10.1145/3662004.3663552",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/09913aa830d00a1acbf12b76839a60eb30728c82",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3662004.3663552",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we introduce Neural Sum Rate Maximization to address nonconvex problems in maximizing sum rates with a total power constraint for downlink multiple access. We combine the optimization-theoretic methods and neural network-based algorithm unrolling techniques to map iterations onto trainable neural network layers, enabling development and deployment in the AI-native layer for future wireless networks. Our approach leverages mathematical structures in sum rate optimization, such as the alternating direction method of multipliers and the standard interference function framework for iterative algorithm design. By integrating algorithm unrolling techniques, our approach can learn from data and significantly enhance efficiency. Numerical experiments demonstrate the method's advantages in efficiency, performance, and interpretability, which are particularly beneficial for resource-constrained optimization in AI-native wireless networks.",
+    "citationCount": 2,
+    "referenceCount": 28
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "3d00801437862542cfede8be67977395483b833e",
+    "title": "Interactive Search with Reinforcement Learning",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Weicheng Wang",
+        "Victor Junqiu Wei",
+        "Min Xie",
+        "Di Jiang",
+        "Lixin Fan",
+        "Haijun Yang"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00112",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3d00801437862542cfede8be67977395483b833e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The interactive regret query is one of the most representative multi-criteria decision-making queries. It identifies tuples that satisfy users' preferences via iterative user interaction. In each interactive round, it asks users a question to learn about their preferences. Once the users' preferences are sufficiently learned, it returns tuples based on the learned preferences. Nevertheless, existing algorithms for this query are typically short-term focused, i.e., they ask questions by only considering each individual interactive round, without taking the overall interaction process as a whole. This may harm the long-term benefit, leading to a large number of rounds in the overall process. To address this, we propose two algorithms based on reinforcement learning, aiming to effectively improve the overall interaction process. We first formalize the interactive regret query as a Markov Decision Process. Then, we propose two interactive algorithms, namely EA and AA, which utilize reinforcement learning to learn a good policy for selecting questions during the interaction. Both algorithms are optimized not only for the current interactive round but also for the overall interaction process, with the goal of minimizing the total number of questions asked (i.e., the total number of interactive rounds). Extensive experiments were conducted on synthetic and real datasets, showing that our algorithms reduce the number of questions asked by approximately 50% compared to existing ones under typical settings.",
+    "citationCount": 0,
+    "referenceCount": 41
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "635bef39b6e6c61b7d311eb7a0aa6252a8f886c9",
+    "title": "Scalable Graph Indexing using GPUs for Approximate Nearest Neighbor Search",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhonggen Li",
+        "Xiangyu Ke",
+        "Yifan Zhu",
+        "Bocheng Yu",
+        "Baihua Zheng",
+        "Yunjun Gao"
+    ],
+    "doi": "10.48550/arXiv.2508.08744",
+    "arxivId": "2508.08744",
+    "url": "https://www.semanticscholar.org/paper/635bef39b6e6c61b7d311eb7a0aa6252a8f886c9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate nearest neighbor search (ANNS) in high-dimensional vector spaces has a wide range of real-world applications. Numerous methods have been proposed to handle ANNS efficiently, while graph-based indexes have gained prominence due to their high accuracy and efficiency. However, the indexing overhead of graph-based indexes remains substantial. With exponential growth in data volume and increasing demands for dynamic index adjustments, this overhead continues to escalate, posing a critical challenge. In this paper, we introduce Tagore, a fast library accelerated by GPUs for graph indexing, which has powerful capabilities of constructing refinement-based graph indexes such as NSG and Vamana. We first introduce GNN-Descent, a GPU-specific algorithm for efficient k-Nearest Neighbor (k-NN) graph initialization. GNN-Descent speeds up the similarity comparison by a two-phase descent procedure and enables highly parallelized neighbor updates. Next, aiming to support various k-NN graph pruning strategies, we formulate a universal computing procedure termed CFS and devise two generalized GPU kernels for parallel processing complex dependencies in neighbor relationships. For large-scale datasets exceeding GPU memory capacity, we propose an asynchronous GPU-CPU-disk indexing framework with a cluster-aware caching mechanism to minimize the I/O pressure on the disk. Extensive experiments on 7 real-world datasets exhibit that Tagore achieves 1.32x-112.79x speedup while maintaining the index quality.",
+    "citationCount": 0,
+    "referenceCount": 68
+}

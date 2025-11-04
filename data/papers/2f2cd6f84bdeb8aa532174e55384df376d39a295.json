@@ -1,0 +1,38 @@
+{
+    "paperId": "2f2cd6f84bdeb8aa532174e55384df376d39a295",
+    "title": "IntSR: An Integrated Generative Framework for Search and Recommendation",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Huimin Yan",
+        "Longfei Xu",
+        "Junjie Sun",
+        "Ni Ou",
+        "Wei Luo",
+        "Xing Tan",
+        "Ran Cheng",
+        "Kaikui Liu",
+        "Xiangxiang Chu"
+    ],
+    "doi": "10.48550/arXiv.2509.21179",
+    "arxivId": "2509.21179",
+    "url": "https://www.semanticscholar.org/paper/2f2cd6f84bdeb8aa532174e55384df376d39a295",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative recommendation has emerged as a promising paradigm, demonstrating remarkable results in both academic benchmarks and industrial applications. However, existing systems predominantly focus on unifying retrieval and ranking while neglecting the integration of search and recommendation (S&R) tasks. What makes search and recommendation different is how queries are formed: search uses explicit user requests, while recommendation relies on implicit user interests. As for retrieval versus ranking, the distinction comes down to whether the queries are the target items themselves. Recognizing the query as central element, we propose IntSR, an integrated generative framework for S&R. IntSR integrates these disparate tasks using distinct query modalities. It also addresses the increased computational complexity associated with integrated S&R behaviors and the erroneous pattern learning introduced by a dynamically changing corpus. IntSR has been successfully deployed across various scenarios in Amap, leading to substantial improvements in digital asset's GMV(+9.34%), POI recommendation's CTR(+2.76%), and travel mode suggestion's ACC(+7.04%).",
+    "citationCount": 0,
+    "referenceCount": 33
+}

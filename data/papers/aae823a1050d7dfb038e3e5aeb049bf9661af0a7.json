@@ -1,0 +1,37 @@
+{
+    "paperId": "aae823a1050d7dfb038e3e5aeb049bf9661af0a7",
+    "title": "A Wind Turbine Instance Segmentation Approach Based on Boundary Optimization",
+    "year": 2024,
+    "venue": "2024 7th International Conference on Mechanical, Control and Computer Engineering (ICMCCE)",
+    "authors": [
+        "Huiqing Xu",
+        "Zhiyong Huang",
+        "Siheng Xiao",
+        "Wang Zhu"
+    ],
+    "doi": "10.1109/ICMCCE63640.2024.11163433",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/aae823a1050d7dfb038e3e5aeb049bf9661af0a7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Focusing on the problems of Unmanned Aerial Vehicle (UVA) taken images wind turbine component insufficient segmentation precision of the current instance segmentation approaches, we propose the explicit boundary mask Region-based Convolution Neural Network, named EBMask R-CNN, according to the characteristics from UVA taken images and wind turbine components. Firstly, a multi task learning approach is adopted to explicitly add boundary predictions for each object based on instance segmentation, which improves the prediction accuracy of the instance mask by the jointly learning of instance masks and boundary predictions. Secondly, we use adaptive pooling based on multi-scale attention to extract region proposals features during the classification and localization of object bounding boxes; Finally, a lightweight and efficient triple attention modeling the dependency relationships between different domains and pixels based on rotation operations and residual transformations, is embedded to the backbone network, which enhances its feature representation ability. Experimental results show that the above mentioned approach has better performance compared to the popular approaches, and the approach has been successfully applied to a wind power company’s UAV intelligent inspection and maintenance system to reduce the transmission pressure of UAV taken images.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

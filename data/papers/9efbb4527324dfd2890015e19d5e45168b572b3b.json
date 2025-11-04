@@ -1,0 +1,39 @@
+{
+    "paperId": "9efbb4527324dfd2890015e19d5e45168b572b3b",
+    "title": "Comparative Analysis of AI-Driven Machine Learning Models for Fault Detection and Maintenance Optimization in Photovoltaic Systems",
+    "year": 2025,
+    "venue": "Solar Energy and Sustainable Development Journal",
+    "authors": [
+        "Abdellahi Moulaye Rchid",
+        "M. Attia",
+        "Mohamed El Mamy Mohamed Mahmoud",
+        "Vatma Elvally",
+        "Zoubir Aoulmi",
+        "Abdelkader Ould Mahmoud"
+    ],
+    "doi": "10.51646/jsesd.v14i1.419",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9efbb4527324dfd2890015e19d5e45168b572b3b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.51646/jsesd.v14i1.419",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the increasing adoption of solar photovoltaic (PV) systems, ensuring their reliability and efficiency is crucial for sustainable energy production. However, traditional fault detection methods rely on expensive manual inspections or sensor-based monitoring, often slow and inefficient. This study aims to bridge this gap by leveraging machine learning techniques to enhance fault detection and maintenance optimization in PV systems. We evaluate five advanced machine learning models—Random Forest, XGBoost, Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), and Support Vector Machines (SVM)—using accurate operational data from a 250-kW PV power station. The dataset includes key operational parameters such as current, voltage, power output, temperature, and irradiance. Data preprocessing included outlier removal, feature selection via Pearson correlation, and normalization to improve model performance. The models were trained and tested using an 80-20 data split and evaluated based on classification accuracy, precision, recall, and F1-score. Our results show that XGBoost achieved the highest accuracy (88%), making it the best candidate for real-time predictive maintenance. Random Forest also performed well (87% accuracy), particularly in handling noisy data. ANN and CNN models effectively detected long-term degradation patterns, supporting preventive maintenance strategies. Based on these findings, we propose a dual maintenance strategy: XGBoost and Random Forest for real-time fault detection, while ANN and CNN monitor gradual system deterioration. This research provides a practical framework for integrating machine learning techniques into PV system management, offering a scalable solution to enhance reliability, reduce maintenance costs, and optimize energy efficiency.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

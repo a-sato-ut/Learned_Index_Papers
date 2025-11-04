@@ -1,0 +1,39 @@
+{
+    "paperId": "c7ad406ded402094842a24ba0d7414e50ed539c0",
+    "title": "A Recurrent Deep Network for Gait Phase Identification from EMG Signals During Exoskeleton-Assisted Walking",
+    "year": 2024,
+    "venue": "Italian National Conference on Sensors",
+    "authors": [
+        "B. M. V. Guerra",
+        "Micaela Schmid",
+        "Stefania Sozzi",
+        "Serena Pizzocaro",
+        "A. D. De Nunzio",
+        "Stefano Ramat"
+    ],
+    "doi": "10.3390/s24206666",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c7ad406ded402094842a24ba0d7414e50ed539c0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/s24206666",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Lower limb exoskeletons represent a relevant tool for rehabilitating gait in patients with lower limb movement disorders. Partial assistance exoskeletons adaptively provide the joint torque needed, on top of that produced by the patient, for a correct and stable gait, helping the patient to recover an autonomous gait. Thus, the device needs to identify the different phases of the gait cycle to produce precisely timed commands that drive its joint motors appropriately. In this study, EMG signals have been used for gait phase detection considering that EMG activations lead limb kinematics by at least 120 ms. We propose a deep learning model based on bidirectional LSTM to identify stance and swing gait phases from EMG data. We built a dataset of EMG signals recorded at 1500 Hz from four muscles from the dominant leg in a population of 26 healthy subjects walking overground (WO) and walking on a treadmill (WT) using a lower limb exoskeleton. The data were labeled with the corresponding stance or swing gait phase based on limb kinematics provided by inertial motion sensors. The model was studied in three different scenarios, and we explored its generalization abilities and evaluated its applicability to the online processing of EMG data. The training was always conducted on 500-sample sequences from WO recordings of 23 subjects. Testing always involved WO and WT sequences from the remaining three subjects. First, the model was trained and tested on 500 Hz EMG data, obtaining an overall accuracy on the WO and WT test datasets of 92.43% and 91.16%, respectively. The simulation of online operation required 127 ms to preprocess and classify one sequence. Second, the trained model was evaluated against a test set built on 1500 Hz EMG data. The accuracies were lower, yet the processing times were 11 ms faster. Third, we partially retrained the model on a subset of the 1500 Hz training dataset, achieving 87.17% and 89.64% accuracy on the 1500 Hz WO and WT test sets, respectively. Overall, the proposed deep learning model appears to be a valuable candidate for entering the control pipeline of a lower limb rehabilitation exoskeleton in terms of both the achieved accuracy and processing times.",
+    "citationCount": 5,
+    "referenceCount": 72
+}

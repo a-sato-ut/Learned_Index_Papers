@@ -1,0 +1,28 @@
+{
+    "paperId": "697b80907f54410ae86c364651b3bcdb0de640bb",
+    "title": "PlanRGCN: Predicting SPARQL Query Performance",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Abiram Mohanaraj",
+        "Matteo Lissandrini",
+        "Katja Hose"
+    ],
+    "doi": "10.14778/3725688.3725694",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/697b80907f54410ae86c364651b3bcdb0de640bb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query Performance Prediction (QPP) is the task of predicting the query runtime performance prior to its execution. While QPP has been studied in relational database systems, it has received little attention for RDF stores, i.e., triplestores that are queried via the SPARQL query language. Existing methods predict the query performance based on the syntactic similarity between a given query and past queries in the query logs. This means that they are not able to generalize to unseen queries with unseen structures or characteristics. We propose a novel GCNN architecture, PlanRGCN, to generalize to unseen queries, fully exploit statistics on the stored KG, and offer more scalable pre-training than the state of the art methods. Furthermore, our architecture is the first to support non-trivial SPARQL operators. In our experiments, we demonstrate both the superior robustness of our prediction method and its practical effect on two downstream tasks: (1) load balancing, achieving a throughput improvement of up to 207% on real-world query logs and (2) execution control, processing up to 70% more queries.",
+    "citationCount": 1,
+    "referenceCount": 60
+}

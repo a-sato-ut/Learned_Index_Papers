@@ -1,0 +1,34 @@
+{
+    "paperId": "927571ef5f9fcea5538cab81c22eeda7e2fcc1d8",
+    "title": "Performance Evaluation of Machine Learning Models for Predicting Household Energy Consumption: A Comparative Study",
+    "year": 2024,
+    "venue": "Indonesian Journal of Artificial Intelligence and Data Mining",
+    "authors": [
+        "Gregorius Airlangga"
+    ],
+    "doi": "10.24014/ijaidm.v8i1.32791",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/927571ef5f9fcea5538cab81c22eeda7e2fcc1d8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Accurate prediction of household energy consumption is critical for improving energy efficiency and optimizing resource allocation in smart grids. This study evaluates the performance of several machine learning regression models, including Linear Regression, Ridge Regression, Lasso Regression, Random Forest, Gradient Boosting, XGBoost, CatBoost, and LightGBM, for predicting daily household energy consumption. The models were trained and tested on time series data, and their performance was measured using four key metrics: Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R². Results show that non-linear models, especially ensemble-based methods such as Random Forest and CatBoost, outperformed traditional linear regression models. Random Forest achieved the lowest MAE (0.1682) and competitive RMSE (0.2450), making it the best overall model. CatBoost, with its advanced gradient boosting algorithm, also demonstrated superior predictive accuracy, achieving an RMSE of 0.2421 and an MAE of 0.1830. In contrast, linear models struggled to capture the complex patterns in the data, with Linear Regression showing the worst performance. The negative R² scores across all models indicate challenges in explaining the variance in the dataset, which may be attributed to external factors or noise not captured by the models. This study highlights the importance of choosing appropriate machine learning models for time series forecasting and recommends further exploration of deep learning models and external features to improve prediction accuracy.",
+    "citationCount": 0,
+    "referenceCount": 27
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "1bbdd6bcefdd8a27b0d0df3cb2c53ba3f6b34801",
+    "title": "Doc2Agent: Scalable Generation of Tool-Using Agents from API Documentation",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Xinyi Ni",
+        "Haonan Jian",
+        "Qiuyang Wang",
+        "Vedanshi Chetan Shah",
+        "Pengyu Hong"
+    ],
+    "doi": "10.48550/arXiv.2506.19998",
+    "arxivId": "2506.19998",
+    "url": "https://www.semanticscholar.org/paper/1bbdd6bcefdd8a27b0d0df3cb2c53ba3f6b34801",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "REST APIs play important roles in enriching the action space of web agents, yet most API-based agents rely on curated and uniform toolsets that do not reflect the complexity of real-world APIs. Building tool-using agents for arbitrary domains remains a major challenge, as it requires reading unstructured API documentation, testing APIs and inferring correct parameters. We propose Doc2Agent, a scalable pipeline to build agents that can call Python-based tools generated from API documentation. Doc2Agent generates executable tools from API documentations and iteratively refines them using a code agent. We evaluate our approach on real-world APIs, WebArena APIs, and research APIs, producing validated tools. We achieved a 55\\% relative performance improvement with 90\\% lower cost compared to direct API calling on WebArena benchmark. A domain-specific agent built for glycomaterial science further demonstrates the pipeline's adaptability to complex, knowledge-rich tasks. Doc2Agent offers a generalizable solution for building tool agents from unstructured API documentation at scale.",
+    "citationCount": 1,
+    "referenceCount": 58
+}

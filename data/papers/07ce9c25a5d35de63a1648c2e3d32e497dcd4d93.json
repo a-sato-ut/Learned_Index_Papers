@@ -1,0 +1,33 @@
+{
+    "paperId": "07ce9c25a5d35de63a1648c2e3d32e497dcd4d93",
+    "title": "Non‐Linearity Incremental Ensemble Learning Based Depth Explorations of Latent Individual Contributions",
+    "year": 2025,
+    "venue": "Electronics Letters",
+    "authors": [
+        "Xiaozheng Deng",
+        "Yuanyuan Zhang",
+        "Shasha Mao",
+        "Peng Liu"
+    ],
+    "doi": "10.1049/ell2.70178",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/07ce9c25a5d35de63a1648c2e3d32e497dcd4d93",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1049/ell2.70178",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In ensemble learning, individual accuracy and diversities are two key factors for improving the ensemble performance, and most existing methods have been designed from the view of boosting individual diversities. Whereas stronger individual diversities inevitably result in decreasing accuracies of partial individuals, it brings a great challenge for improving the ensemble performance. In fact, we observe that the contribution of individuals should be a crucial factor for ensemble learning, which can effectively alleviate the problem of balancing diversity and accuracy, but it is ignored in most existing studies. Based on this, we propose a new incremental non‐linearity deep ensemble learning method that effectively combines multiple individuals based on the exploration of individual contributions by utilizing deep learning. In the proposed method, a characterization matrix is first constructed to represent the original individuals. Then, a deep ensemble network is constructed to explore the potential contribution of individuals in conjunction with the optimization objective of ensemble learning. Interestingly, a special layer is designed to achieve the minimization of ensemble error. Finally, experimental results on public datasets illustrate that the proposed method achieves the average 0.66–4.8% performance improvements compared to existing typical ensemble methods.",
+    "citationCount": 0,
+    "referenceCount": 17
+}

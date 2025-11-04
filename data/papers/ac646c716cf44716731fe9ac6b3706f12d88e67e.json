@@ -1,0 +1,38 @@
+{
+    "paperId": "ac646c716cf44716731fe9ac6b3706f12d88e67e",
+    "title": "Embedding-to-Prefix: Parameter-Efficient Personalization for Pre-Trained Large Language Models",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Bernd Huber",
+        "G. Fazelnia",
+        "Andreas Damianou",
+        "Sebastian Peleato",
+        "Max Lefarov",
+        "Praveen Ravichandran",
+        "Marco De Nadai",
+        "Mounia Lalmas-Roelleke",
+        "Paul N. Bennett"
+    ],
+    "doi": "10.48550/arXiv.2505.17051",
+    "arxivId": "2505.17051",
+    "url": "https://www.semanticscholar.org/paper/ac646c716cf44716731fe9ac6b3706f12d88e67e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large language models (LLMs) excel at generating contextually relevant content. However, tailoring these outputs to individual users for effective personalization is a significant challenge. While rich user-specific information often exists as pre-existing user representations, such as embeddings learned from preferences or behaviors, current methods to leverage these for LLM personalization typically require costly fine-tuning or token-heavy prompting. We propose Embedding-to-Prefix (E2P), a parameter-efficient method that injects pre-computed context embeddings into an LLM's hidden representation space through a learned projection to a single soft token prefix. This enables effective personalization while keeping the backbone model frozen and avoiding expensive adaptation techniques. We evaluate E2P across two public datasets and in a production setting: dialogue personalization on Persona-Chat, contextual headline generation on PENS, and large-scale personalization for music and podcast consumption. Results show that E2P preserves contextual signals and achieves strong performance with minimal computational overhead, offering a scalable, efficient solution for contextualizing generative AI systems.",
+    "citationCount": 3,
+    "referenceCount": 57
+}

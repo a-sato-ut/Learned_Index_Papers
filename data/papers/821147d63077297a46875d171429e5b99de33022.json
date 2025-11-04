@@ -1,0 +1,36 @@
+{
+    "paperId": "821147d63077297a46875d171429e5b99de33022",
+    "title": "Machine Learning Applied to Reference Signal-Less Detection of Motion Artifacts in Photoplethysmographic Signals: A Review",
+    "year": 2024,
+    "venue": "Italian National Conference on Sensors",
+    "authors": [
+        "E. J. Argüello-Prada",
+        "Javier Ferney Castillo García"
+    ],
+    "doi": "10.3390/s24227193",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/821147d63077297a46875d171429e5b99de33022",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Review",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning algorithms have brought remarkable advancements in detecting motion artifacts (MAs) from the photoplethysmogram (PPG) with no measured or synthetic reference data. However, no study has provided a synthesis of these methods, let alone an in-depth discussion to aid in deciding which one is more suitable for a specific purpose. This narrative review examines the application of machine learning techniques for the reference signal-less detection of MAs in PPG signals. We did not consider articles introducing signal filtering or decomposition algorithms without previous identification of corrupted segments. Studies on MA-detecting approaches utilizing multiple channels and additional sensors such as accelerometers were also excluded. Despite its promising results, the literature on this topic shows several limitations and inconsistencies, particularly those regarding the model development and testing process and the measures used by authors to support the method’s suitability for real-time applications. Moreover, there is a need for broader exploration and validation across different body parts and a standardized set of experiments specifically designed to test and validate MA detection approaches. It is essential to provide enough elements to enable researchers and developers to objectively assess the reliability and applicability of these methods and, therefore, obtain the most out of them.",
+    "citationCount": 3,
+    "referenceCount": 84
+}

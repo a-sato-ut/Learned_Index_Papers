@@ -1,0 +1,33 @@
+{
+    "paperId": "df619f6787748d947dcada6820e56327b6c663e3",
+    "title": "HybHuff: Lossless Compression for Hypergraphs via Entropy-Guided Huffman-Bitwise Coordination",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Tianyu Zhao",
+        "Dongfang Zhao",
+        "Luanzheng Guo",
+        "Nathan R. Tallent"
+    ],
+    "doi": "10.48550/arXiv.2506.15844",
+    "arxivId": "2506.15844",
+    "url": "https://www.semanticscholar.org/paper/df619f6787748d947dcada6820e56327b6c663e3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hypergraphs provide a natural representation for many-to-many relationships in data-intensive applications, yet their scalability is often hindered by high memory consumption. While prior work has improved computational efficiency, reducing the space overhead of hypergraph representations remains a major challenge. This paper presents a hybrid compression framework for integer-based hypergraph adjacency formats, which adaptively combines Huffman encoding and bitwise encoding to exploit structural redundancy. We provide a theoretical analysis showing that an optimal encoding ratio exists between the two schemes, and introduce an empirical strategy to approximate this ratio for practical use. Experiments on real-world hypergraphs demonstrate that our method consistently outperforms standard compressors such as Zip and ZFP in compression rate by up to 2.3x with comparable decoding overhead. To assess practical utility, we integrate our framework with three common hypergraph workloads: breadth-first search, PageRank, and k-core label propagation, and show that compression incurs negligible performance loss. Extensive evaluations across four benchmark datasets confirm the efficiency and applicability of our approach.",
+    "citationCount": 0,
+    "referenceCount": 64
+}

@@ -1,0 +1,45 @@
+{
+    "paperId": "6436b88428f3c4f18a27d3ed3dae676c2b1cae4d",
+    "title": "RTGPU: Real-Time Computing with Graphics Processing Units",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "A. Gheibi-Fetrat",
+        "Amirsaeed Ahmadi-Tonekaboni",
+        "Farzam Koohi-Ronaghi",
+        "Pariya Hajipour",
+        "Sana Babayan-Vanestan",
+        "Fatemeh Fotouhi",
+        "Elahe Mortazavian-Farsani",
+        "Pouria Khajehpour-Dezfouli",
+        "Sepideh Safari",
+        "S. Hessabi",
+        "H. Sarbazi-Azad"
+    ],
+    "doi": "10.48550/arXiv.2507.06069",
+    "arxivId": "2507.06069",
+    "url": "https://www.semanticscholar.org/paper/6436b88428f3c4f18a27d3ed3dae676c2b1cae4d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this work, we survey the role of GPUs in real-time systems. Originally designed for parallel graphics workloads, GPUs are now widely used in time-critical applications such as machine learning, autonomous vehicles, and robotics due to their high computational throughput. Their parallel architecture is well-suited for accelerating complex tasks under strict timing constraints. However, their integration into real-time systems presents several challenges, including non-preemptive execution, execution time variability, and resource contention; factors that can lead to unpredictable delays and deadline violations. We examine existing solutions that address these challenges, including scheduling algorithms, resource management techniques, and synchronization methods, and highlight open research directions to improve GPU predictability and performance in real-time environments.",
+    "citationCount": 0,
+    "referenceCount": 149
+}

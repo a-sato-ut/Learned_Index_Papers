@@ -1,0 +1,39 @@
+{
+    "paperId": "cfcbd2f5bf6c2a8a84654b95024e2cad0193e63b",
+    "title": "Incremental IVF Index Maintenance for Streaming Vector Search",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jason Mohoney",
+        "Anil Pacaci",
+        "S. R. Chowdhury",
+        "U. F. Minhas",
+        "Jeffery Pound",
+        "Cedric Renggli",
+        "N. Reyhani",
+        "Ihab F. Ilyas",
+        "Theodoros Rekatsinas",
+        "Shivaram Venkataraman"
+    ],
+    "doi": "10.48550/arXiv.2411.00970",
+    "arxivId": "2411.00970",
+    "url": "https://www.semanticscholar.org/paper/cfcbd2f5bf6c2a8a84654b95024e2cad0193e63b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The prevalence of vector similarity search in modern machine learning applications and the continuously changing nature of data processed by these applications necessitate efficient and effective index maintenance techniques for vector search indexes. Designed primarily for static workloads, existing vector search indexes degrade in search quality and performance as the underlying data is updated unless costly index reconstruction is performed. To address this, we introduce Ada-IVF, an incremental indexing methodology for Inverted File (IVF) indexes. Ada-IVF consists of 1) an adaptive maintenance policy that decides which index partitions are problematic for performance and should be repartitioned and 2) a local re-clustering mechanism that determines how to repartition them. Compared with state-of-the-art dynamic IVF index maintenance strategies, Ada-IVF achieves an average of 2x and up to 5x higher update throughput across a range of benchmark workloads.",
+    "citationCount": 2,
+    "referenceCount": 66
+}

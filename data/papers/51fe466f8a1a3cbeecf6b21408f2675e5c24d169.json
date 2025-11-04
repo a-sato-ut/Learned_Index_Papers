@@ -1,0 +1,39 @@
+{
+    "paperId": "51fe466f8a1a3cbeecf6b21408f2675e5c24d169",
+    "title": "A Systematic Literature Review of Machine Learning Approaches for Migrating Monolithic Systems to Microservices",
+    "year": 2025,
+    "venue": "IEEE Transactions on Software Engineering",
+    "authors": [
+        "Imen Trabelsi",
+        "Brahim Mahmoudi",
+        "Jean Baptiste Minani",
+        "Naouel Moha",
+        "Yann-Gaël Guéhéneuc"
+    ],
+    "doi": "10.1109/tse.2025.3603897",
+    "arxivId": "2508.15941",
+    "url": "https://www.semanticscholar.org/paper/51fe466f8a1a3cbeecf6b21408f2675e5c24d169",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Scalability and maintainability challenges in monolithic systems have led to the adoption of microservices, which divide systems into smaller, independent services. However, migrating existing monolithic systems to microservices is a complex and resource-intensive task, which can benefit from machine learning (ML) to automate some of its phases. Choosing the right ML approach for migration remains challenging for practitioners. Previous works studied separately the objectives, artifacts, techniques, tools, and benefits and challenges of migrating monolithic systems to microservices. No work has yet investigated systematically existing ML approaches for this migration to understand the \\revised{automated migration phases}, inputs used, ML techniques applied, evaluation processes followed, and challenges encountered. We present a systematic literature review (SLR) that aggregates, synthesises, and discusses the approaches and results of 81 primary studies (PSs) published between 2015 and 2024. We followed the Preferred Reporting Items for Systematic Review and Meta-Analysis (PRISMA) statement to report our findings and answer our research questions (RQs). We extract and analyse data from these PSs to answer our RQs. We synthesise the findings in the form of a classification that shows the usage of ML techniques in migrating monolithic systems to microservices. The findings reveal that some phases of the migration process, such as monitoring and service identification, are well-studied, while others, like packaging microservices, remain unexplored. Additionally, the findings highlight key challenges, including limited data availability, scalability and complexity constraints, insufficient tool support, and the absence of standardized benchmarking, emphasizing the need for more holistic solutions.",
+    "citationCount": 0,
+    "referenceCount": 123
+}

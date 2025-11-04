@@ -1,0 +1,45 @@
+{
+    "paperId": "0965b64bb641dc80fe672f2da35a50bfab630302",
+    "title": "Space Booking: Enabling Performance-Critical Applications in Broadband Satellite Networks",
+    "year": 2025,
+    "venue": "IEEE International Conference on Distributed Computing Systems",
+    "authors": [
+        "Xiaojian Wang",
+        "Ruozhou Yu",
+        "Dejun Yang",
+        "Guoliang Xue",
+        "Qiushi Wei",
+        "Huayue Gu",
+        "Zhouyu Li"
+    ],
+    "doi": "10.1109/ICDCS63083.2025.00100",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0965b64bb641dc80fe672f2da35a50bfab630302",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Low Earth Orbit Satellite Networks (LSNs), as the new generation of backbone networks, can provide low-latency network connectivity anywhere on Earth. However, their dynamic topology and unpredictable global usage patterns hinder reliable communication, limiting their application in supporting real-time applications that require predictable performance. Specifically, the highly dynamic LSN may experience congestion and energy depletion due to uneven user demands and the periodic movement of satellites. In this paper, we design a Congestion and Energy-Aware pricing and resource Reservation algorithm, CEAR, which enables a LSN to reserve network resources for online arriving real-time communication requests, ensuring reliable communication to support performance-critical applications such as disaster monitoring and remote teleconferencing. To maintain the long-term performance of the network, the LSN operator sets resource prices for link bandwidth and satellite energy consumption across the network. The resource prices act as a proxy between the resource reservation decisions for each communication request and the operator’s objective to maximize throughput and network utility and/or to balance network-wide resource depletion. CEAR is guided by online competitive algorithm design and achieves a competitive social welfare. Extensive simulations using real-world LSN topology show that CEAR achieves high social welfare while maintaining low network-wide congestion and energy deficit.",
+    "citationCount": 0,
+    "referenceCount": 53
+}

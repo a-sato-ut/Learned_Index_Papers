@@ -1,0 +1,41 @@
+{
+    "paperId": "38f6a6f772b7f2ababc7a224da18cc2e46d95478",
+    "title": "PFCA: Efficient Path Filtering with Causal Analysis for Healthcare Risk Prediction",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Hao Wang",
+        "Jiyun Shi",
+        "Yuhao Chen",
+        "Haochen Xu",
+        "Chi Zhang",
+        "Zhaojing Luo",
+        "Meihui Zhang"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00176",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/38f6a6f772b7f2ababc7a224da18cc2e46d95478",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Electronic health records (EHRs) store patient medical history in the structured data format, which facilitates automatic healthcare risk prediction, thereby improving personalized healthcare management and treatment. There are two main categories of methods for automatic healthcare risk prediction. The first models time-series information or relationships between visits for enhanced patient representations. However, given the high dimensionality nature of the EHR data, it often obtains compromise results due to the lack of training data. The second exploits external knowledge, e.g., knowledge graphs (KGs), to augment the training data, but less attention has been paid to distinguishing the importance of features and filtering out irrelevant external knowledge, leading to overwhelming noise and inefficiency. Additionally, the joint relationships between patient features were not emphasized, which are highlighted in clinical practice. In this paper, we propose an efficient Path Filtering with Causal Analysis (PFCA) approach for enhanced healthcare risk prediction to address these challenges. PFCA first extracts personalized knowledge graphs (PKGs) consisting of paths linking the patient's features to targets and then devises a fine-grained filtering method based on path messages to remove irrelevant paths for better efficiency. Then we develop an effective similarity-based method to model different features' joint interactions with targets to learn augmented representations for each feature. Furthermore, we design a causal analysis method that includes a novel causal intervention mechanism to mine and prioritize causal features for improved predictive performance. Finally, by exploiting the attention weights of paths in the PKGs, PFCA provides target-oriented interpretations, showing how patients' features lead to targets through significant paths. Experimental results on three public real-world datasets and four healthcare risk prediction tasks confirm PFCA's effectiveness in improving predictive performance compared to ten state-of-the-art baselines, demonstrate its efficiency of path filtering and interpretability.",
+    "citationCount": 1,
+    "referenceCount": 68
+}

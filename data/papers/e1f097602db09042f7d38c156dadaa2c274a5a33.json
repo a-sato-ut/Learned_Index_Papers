@@ -1,0 +1,38 @@
+{
+    "paperId": "e1f097602db09042f7d38c156dadaa2c274a5a33",
+    "title": "Edge-LLM: A Collaborative Framework for Large Language Model Serving in Edge Computing",
+    "year": 2024,
+    "venue": "2024 IEEE International Conference on Web Services (ICWS)",
+    "authors": [
+        "Fenglong Cai",
+        "Dong Yuan",
+        "Zhe Yang",
+        "Li-zhen Cui"
+    ],
+    "doi": "10.1109/ICWS62655.2024.00099",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e1f097602db09042f7d38c156dadaa2c274a5a33",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid advancement and extensive implementation of Large Language Models (LLMs) are milestones in the realm of artificial intelligence. Although Parameter-Efficient Transfer Learning (PETL), a.k.a. Adapter, methods have reduced the barrier for fine-tuning and inference on LLMs, it becomes a challenge to efficiently deploy and fine-tuning different adapter models needed for massive AI applications. With the popularity of SoC chips, the computing power of edge devices has improved significantly. To meet the computational resources required by LLM applications and improve quality of service (QoS), we propose Edge-LLM, a server-node collaboration framework for large-scale language model serving, to efficiently utilize edge resources to accelerate LLM fine-tuning and inference in resource-constrained scenarios. In the framework, we implement an adaptive quantization strategy, FM cache mechanism, and value density first (VDF) scheduling algorithm to reduce GPU overhead and accelerate LLM computation. The experimental results demonstrate that Edge-LLM can significantly improve overall computational speed by a factor of 17, decrease the number of tasks experiencing timeouts by 63%, and reduce GPU overhead by up to 43%.",
+    "citationCount": 25,
+    "referenceCount": 33
+}

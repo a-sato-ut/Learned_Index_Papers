@@ -1,0 +1,33 @@
+{
+    "paperId": "715950433f291121b38c6eb8d3849eb362898e78",
+    "title": "Multi-Transformer-Based Ensemble Embedding Model for Enhanced Vector Search in NoSQL Database: A Comparative Statistical and Performance Analysis",
+    "year": 2025,
+    "venue": "International journal of mathematical, engineering and management sciences",
+    "authors": [
+        "Narut Butploy",
+        "Kanokwan Khiewwan",
+        "Jaturong Thongchai",
+        "Sawet Somnugpong",
+        "Pakin Maneechot",
+        "Phrommate Verapan",
+        "Khumphicha Tantisantisom",
+        "Karthikeyan Velmurugan"
+    ],
+    "doi": "10.33889/ijmems.2025.10.6.086",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/715950433f291121b38c6eb8d3849eb362898e78",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Transformer-based embedding models are widely used for similarity search as they are reliable and efficient for capturing semantic similarity. This study uses all-MiniLM-L6-v2, paraphrase-MiniLM-L6-v2 and all-distilroberta-v1 transformer-based embedding models to find the similarity search for Wikipedia documents. All three transformer models are ensembled for enhanced semantic search, and Principal Component Analysis (PCA) is applied to ensure smooth assembly of a different dimensionality model. To understand the strength of the proposed transformer models, 2,000 Wikipedia documents were arbitrarily selected and converted into vectors before storing them in MongoDB. The ground truth of the proposed transformer-based models was examined using 996 TREC questions. The all-MiniLM-L6-v2 and paraphrase-MiniLM-L6-v2 consume less memory than all-distilroberta-v1 model. However, the ensemble process abruptly increased the memory usage to 924.79 MB, higher than individual models. Following that, the average execution time for each query increased to 0.1031 seconds. Beneficially, the ensemble+PCA attained higher precision@10 and recall, resulting in a higher F1 score with an average of 0.5094. The error analysis method indicates that the ensemble+PCA approach significantly improved the semantic search with a higher relevant rate to the raised query. Furthermore, ensemble-based PCA methods are recommended for large dataset handling and are suitable for real-time applications.",
+    "citationCount": 0,
+    "referenceCount": 29
+}

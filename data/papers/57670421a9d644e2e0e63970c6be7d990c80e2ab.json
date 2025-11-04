@@ -1,0 +1,35 @@
+{
+    "paperId": "57670421a9d644e2e0e63970c6be7d990c80e2ab",
+    "title": "FSNet: Feasibility-Seeking Neural Network for Constrained Optimization with Guarantees",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hoang T. Nguyen",
+        "P. Donti"
+    ],
+    "doi": "10.48550/arXiv.2506.00362",
+    "arxivId": "2506.00362",
+    "url": "https://www.semanticscholar.org/paper/57670421a9d644e2e0e63970c6be7d990c80e2ab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficiently solving constrained optimization problems is crucial for numerous real-world applications, yet traditional solvers are often computationally prohibitive for real-time use. Machine learning-based approaches have emerged as a promising alternative to provide approximate solutions at faster speeds, but they struggle to strictly enforce constraints, leading to infeasible solutions in practice. To address this, we propose the Feasibility-Seeking Neural Network (FSNet), which integrates a feasibility-seeking step directly into its solution procedure to ensure constraint satisfaction. This feasibility-seeking step solves an unconstrained optimization problem that minimizes constraint violations in a differentiable manner, enabling end-to-end training and providing guarantees on feasibility and convergence. Our experiments across a range of different optimization problems, including both smooth/nonsmooth and convex/nonconvex problems, demonstrate that FSNet can provide feasible solutions with solution quality comparable to (or in some cases better than) traditional solvers, at significantly faster speeds.",
+    "citationCount": 1,
+    "referenceCount": 49
+}

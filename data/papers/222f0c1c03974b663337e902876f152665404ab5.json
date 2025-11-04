@@ -1,0 +1,38 @@
+{
+    "paperId": "222f0c1c03974b663337e902876f152665404ab5",
+    "title": "FRESH: Towards Efficient Graph Queries in an Outsourced Graph",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Kai Huang",
+        "Yunqi Li",
+        "Qingqing Ye",
+        "Yao Tian",
+        "Xi Zhao",
+        "Yue Cui",
+        "Haibo Hu",
+        "Xiaofang Zhou"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00346",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/222f0c1c03974b663337e902876f152665404ab5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The constantly increasing scale of graphs leads to higher costs in terms of data storage and computation. Consequently, there is a growing trend of outsourcing and analyzing graphs in clouds. As there is a concern that cloud servers may extract sensitive information from these graphs, the graphs being outsourced must be pre-anonymized, leading to increased space consumption and degraded graph query processing efficiency. Previous work has attempted to address this issue by outsourcing a compacted anonymized graph to the cloud. However, the solution typically focuses on a specific type of query, such as a subgraph query, and cannot adequately accommodate real-life scenarios where multiple applications often work concurrently on the same graph. In this paper, we propose a generic framework called FRESH to handle various graph queries efficiently within a single outsourced graph. To reduce the size of the outsourced graph, we developed a novel graph contraction scheme that transforms a big graph into a compact one while preserving graph privacy. To showcase the adaptability of classical graph query algorithms (e.g., subgraph query, triangle counting, and shortest distance query), we demonstrate their successful execution on the same compact graph created through our contraction scheme. We further extend our framework by incorporating optimizations that significantly improve query processing efficiency. Extensive experimental results demonstrate the superiority of FRESH over traditional techniques.",
+    "citationCount": 2,
+    "referenceCount": 69
+}

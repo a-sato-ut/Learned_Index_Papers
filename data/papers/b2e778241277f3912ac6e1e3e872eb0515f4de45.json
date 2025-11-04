@@ -1,0 +1,38 @@
+{
+    "paperId": "b2e778241277f3912ac6e1e3e872eb0515f4de45",
+    "title": "SynthVLM: Towards High-Quality and Efficient Synthesis of Image-Caption Datasets for Vision-Language Models",
+    "year": 2024,
+    "venue": "Proceedings of the 33rd ACM International Conference on Multimedia",
+    "authors": [
+        "Zheng Liu",
+        "Hao Liang",
+        "Bozhou Li",
+        "Wentao Xiong",
+        "Chong Chen",
+        "Conghui He",
+        "Wentao Zhang",
+        "Bin Cui"
+    ],
+    "doi": "10.1145/3746027.3758222",
+    "arxivId": "2407.20756",
+    "url": "https://www.semanticscholar.org/paper/b2e778241277f3912ac6e1e3e872eb0515f4de45",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Vision-Language Models (VLMs) have recently emerged, demonstrating remarkable vision-understanding capabilities. However, training these models requires large-scale datasets, which brings challenges related to efficiency, effectiveness, and quality of web data. In this paper, we introduce SynthVLM, a new data synthesis and curation method for generating image-caption pairs. Unlike traditional methods, where captions are generated from images, SynthVLM utilizes advanced diffusion models and high-quality captions to synthesize and select images from text captions, thereby creating precisely aligned image-text pairs. We further introduce SynthVLM-100K, a high-quality dataset consisting of 100K curated and synthesized image-caption pairs. In both model and human evaluations, SynthVLM-100K outperforms traditional real-world datasets. Leveraging this dataset, we develop a new family of multimodal large language models (MLLMs), SynthVLM-7B and SynthVLM-13B, which achieve state-of-the-art (SOTA) performance on various vision question-answering (VQA) tasks. Notably, our models outperform LLaVA across most metrics with only 18% pretrain data. Furthermore, SynthVLM-7B and SynthVLM-13B attain SOTA performance on the MMLU benchmark, demonstrating that the high-quality SynthVLM-100K dataset preserves language abilities. Our dataset and the complete data generating and curating methods can be found in https://github.com/starriver030515/SynthVLM.",
+    "citationCount": 0,
+    "referenceCount": 76
+}

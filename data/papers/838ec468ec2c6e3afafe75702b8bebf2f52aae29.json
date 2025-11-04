@@ -1,0 +1,34 @@
+{
+    "paperId": "838ec468ec2c6e3afafe75702b8bebf2f52aae29",
+    "title": "Synthesis of Ventilator Dyssynchrony Waveforms using a Hybrid Generative Model and a Lung Model",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Sagar Deep Deb",
+        "S. Dey",
+        "Deepak K. Agrawal"
+    ],
+    "doi": null,
+    "arxivId": "2505.16462",
+    "url": "https://www.semanticscholar.org/paper/838ec468ec2c6e3afafe75702b8bebf2f52aae29",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Ventilator dyssynchrony (VD) is often described as a mismatch between a patient breathing effort and the ventilator support during mechanical ventilation. This mismatch is often associated with an increased risk of lung injury and longer hospital stays. The manual VD detection method is unreliable and requires considerable effort from medical professionals. Automating this process requires a computational pipeline that can identify VD breaths from continuous waveform signals. For that, while various machine learning (ML) models have been proposed, their accuracy is often limited due to the unavailability of a large, well-annotated VD waveform dataset. This paper presents a new approach combining mathematical and deep generative models to generate synthetic, clinically relevant VD waveforms. The mathematical model, which we call the VD lung ventilator model (VDLV), can accurately replicate clinically observable deformation in the pressure and volume waveforms. These temporal deformations are hypothesized to be related to specific VD breaths. We leverage the VDLV model to produce training waveform datasets covering normal and various VD breaths. These datasets are further diversified using deep learning models such as Generative Adversarial Network (GAN) and Conditional GAN (cGAN). The performance of both GAN and cGAN models is assessed through quantitative metrics, demonstrating that this hybrid approach effectively creates realistic and diverse VD waveforms. Notably, the pressure and volume cGAN models enable the generation of more precise and targeted VD signals. These improved synthetic waveform datasets have the potential to significantly enhance the accuracy and robustness of VD detection algorithms.",
+    "citationCount": 0,
+    "referenceCount": 50
+}

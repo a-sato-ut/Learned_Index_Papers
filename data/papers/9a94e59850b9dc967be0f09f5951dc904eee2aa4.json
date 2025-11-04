@@ -1,0 +1,34 @@
+{
+    "paperId": "9a94e59850b9dc967be0f09f5951dc904eee2aa4",
+    "title": "Anomaly detection for high‐dimensional dynamic data stream using stacked habituation autoencoder and union kernel density estimator",
+    "year": 2023,
+    "venue": "Concurrency and Computation",
+    "authors": [
+        "Zhixia Zeng",
+        "Ruohe Huang",
+        "Ruliang Xiao",
+        "Xinhong Lin",
+        "Shenmin Zhang"
+    ],
+    "doi": "10.1002/cpe.7718",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9a94e59850b9dc967be0f09f5951dc904eee2aa4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the rapid development of communication technology, various complex heterogeneous sensor network applications produce a large number of high‐dimensional dynamic data streams, which results in more difficult to anomaly detection than ever before. So, anomaly detection for high‐dimensional dynamic data streams is of a more and more challenging problem. This paper proposes a novel method for detecting anomalies in high‐dimensional dynamic data streams by utilizing several components. Firstly, it uses a stacked habituation autoencoder with habituation physiological mechanism to detect similarity anomalies more easily and capture feature relationships. Secondly, a union kernel density estimator with micro‐cluster is designed to improve online anomaly detection accuracy by estimating the data density. Lastly, candidate anomaly sets and a delayed processing approach are utilized to cope with conceptual drift and evolution in the data stream, allowing the system to adapt to changes in the data over time. Extensive experiments on four high‐dimensional dynamic data streams of the Internet of Things show that the proposed method is very effective.",
+    "citationCount": 4,
+    "referenceCount": 45
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "6aa5177b38969f69a5c1b17b2846e6e90bd684e8",
+    "title": "Learnable Item Tokenization for Generative Recommendation",
+    "year": 2024,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Wenjie Wang",
+        "Honghui Bao",
+        "Xinyu Lin",
+        "Jizhi Zhang",
+        "Yongqi Li",
+        "Fuli Feng",
+        "See-Kiong Ng",
+        "Tat-Seng Chua"
+    ],
+    "doi": "10.1145/3627673.3679569",
+    "arxivId": "2405.07314",
+    "url": "https://www.semanticscholar.org/paper/6aa5177b38969f69a5c1b17b2846e6e90bd684e8",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2405.07314",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Utilizing powerful Large Language Models (LLMs) for generative recommendation has attracted much attention. Nevertheless, a crucial challenge is transforming recommendation data into the language space of LLMs through effective item tokenization. Current approaches, such as ID, textual, and codebook-based identifiers, exhibit shortcomings in encoding semantic information, incorporating collaborative signals, or handling code assignment bias. To address these limitations, we propose LETTER (a LEarnable Tokenizer for generaTivE Recommendation), which integrates hierarchical semantics, collaborative signals, and code assignment diversity to satisfy the essential requirements of identifiers. LETTER incorporates Residual Quantized VAE for semantic regularization, a contrastive alignment loss for collaborative regularization, and a diversity loss to mitigate code assignment bias. We instantiate LETTER on two models and propose a ranking-guided generation loss to augment their ranking ability theoretically. Experiments on three datasets validate the superiority of LETTER, advancing the state-of-the-art in the field of LLM-based generative recommendation.",
+    "citationCount": 66,
+    "referenceCount": 49
+}

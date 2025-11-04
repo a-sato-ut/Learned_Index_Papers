@@ -1,0 +1,36 @@
+{
+    "paperId": "0dcdc6d2b21e4679dc6c22af390b6d3b8d71c18d",
+    "title": "Explainable Spatio-Temporal Inference Network for Car-Sharing Demand Prediction",
+    "year": 2025,
+    "venue": "ISPRS Int. J. Geo Inf.",
+    "authors": [
+        "Nihad Brahimi",
+        "Huaping Zhang",
+        "Zahid Razzaq"
+    ],
+    "doi": "10.3390/ijgi14040163",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0dcdc6d2b21e4679dc6c22af390b6d3b8d71c18d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/ijgi14040163",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficient resource allocation in car-sharing systems relies on precise predictions of demand. Predicting vehicle demand is challenging due to the interconnections of temporal, spatial, and spatio-temporal features. This paper presents the Explainable Spatio-Temporal Inference Network (eX-STIN), a new approach that improves upon our prior Unified Spatio-Temporal Inference Prediction Network (USTIN) model. It offers a comprehensive framework for the integration of various data. The eX-STIN model enhances the previous one by utilizing Ensemble Empirical Mode Decomposition (EEMD), which results in refined feature extraction. It uses Minimum Redundancy Maximum Relevance (mRMR) to find features that are relevant and not redundant, and Shapley Additive Explanations (SHAP) to show how each feature affects the model’s predictions. We conducted extensive experiments that use real car-sharing data to thoroughly evaluate the efficacy of the eX-STIN model. The studies revealed the model’s ability to accurately represent the relationships among temporal, spatial, and spatio-temporal features, outperforming the state-of-the-art models. Moreover, the experiments revealed that eX-STIN exhibits enhanced predictive accuracy compared to the USTIN model. This proposed approach enhances both the accuracy of demand prediction and the transparency of resource allocation decisions in car-sharing services.",
+    "citationCount": 1,
+    "referenceCount": 65
+}

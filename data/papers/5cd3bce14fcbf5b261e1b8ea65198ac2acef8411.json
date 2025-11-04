@@ -1,0 +1,28 @@
+{
+    "paperId": "5cd3bce14fcbf5b261e1b8ea65198ac2acef8411",
+    "title": "Learning to Hash with Long-Short-Term Graph Neural Networks for Efficient Social Recommendation*",
+    "year": 2024,
+    "venue": "IEEE International Conference on High Performance Computing and Communications",
+    "authors": [
+        "Lin Liu",
+        "Boyang Liu",
+        "Chenxu Wang"
+    ],
+    "doi": "10.1109/HPCC64274.2024.00173",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5cd3bce14fcbf5b261e1b8ea65198ac2acef8411",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Social recommendation leverages social relationships to predict user preferences, effectively addressing challenges like data sparsity and cold-start issues. Given that social relationships and user-item interactions can be naturally represented as graph structures, graph neural networks (GNNs) have demonstrated significant success in social recommendation. However, most existing approaches predominantly focus on social relationships while overlooking the sequential nature of user interactions. Temporal information in these interactions can significantly enhance the modeling of user preferences. Additionally, the rapid growth of social media content has led to an exponential increase in data, posing challenges for efficiently retrieving desirable items from this vast pool of information. To address these dual challenges: recommendation performance and efficiency. We propose an efficient social recommendation method based on hash learning and long short-term representation, termed HLSGNN. Our model comprises two key components: one that learns users’ and items’ long-and short-term features by incorporating interaction timestamp information and relational influences, and another that converts user-item features into hash codes. Unlike traditional hash-based recommendation methods, our approach is trained end-to-end, jointly optimizing user rating prediction and two additional constraints (i.e., orthogonality and balance constraints). Extensive experiments on two publicly available datasets demonstrate that our model not only achieves comparable performance to real-valued models but also significantly enhances inference efficiency, offering several-fold improvements in speed.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

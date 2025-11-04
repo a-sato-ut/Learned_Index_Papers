@@ -1,0 +1,36 @@
+{
+    "paperId": "a0bd6a584f30586944b8b930496ae17e0f22e12b",
+    "title": "R2ec: Towards Large Recommender Models with Reasoning",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Runyang You",
+        "Yongqi Li",
+        "Xinyu Lin",
+        "Xin Zhang",
+        "Wenjie Wang",
+        "Wenjie Li",
+        "Liqiang Nie"
+    ],
+    "doi": "10.48550/arXiv.2505.16994",
+    "arxivId": "2505.16994",
+    "url": "https://www.semanticscholar.org/paper/a0bd6a584f30586944b8b930496ae17e0f22e12b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large recommender models have extended LLMs as powerful recommenders via encoding or item generation, and recent breakthroughs in LLM reasoning synchronously motivate the exploration of reasoning in recommendation. In this work, we propose R$^2$ec, a unified large recommender model with intrinsic reasoning capability. R$^2$ec introduces a dual-head architecture that supports both reasoning chain generation and efficient item prediction in a single model, significantly reducing inference latency. To overcome the lack of annotated reasoning data, we design RecPO, a reinforcement learning framework that optimizes reasoning and recommendation jointly with a novel fused reward mechanism. Extensive experiments on three datasets demonstrate that R$^2$ec outperforms traditional, LLM-based, and reasoning-augmented recommender baselines, while further analyses validate its competitive efficiency among conventional LLM-based recommender baselines and strong adaptability to diverse recommendation scenarios. Code and checkpoints available at https://github.com/YRYangang/RRec.",
+    "citationCount": 3,
+    "referenceCount": 44
+}

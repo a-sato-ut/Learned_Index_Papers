@@ -1,0 +1,33 @@
+{
+    "paperId": "6e8b74667c41386fba9c29b0181282fd49665015",
+    "title": "MATT-CTR: Unleashing a Model-Agnostic Test-Time Paradigm for CTR Prediction with Confidence-Guided Inference Paths",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Moyu Zhang",
+        "Yun Chen",
+        "Yujun Jin",
+        "Jinxin Hu",
+        "Yu Zhang",
+        "Xiaoyi Zeng"
+    ],
+    "doi": null,
+    "arxivId": "2510.08932",
+    "url": "https://www.semanticscholar.org/paper/6e8b74667c41386fba9c29b0181282fd49665015",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, a growing body of research has focused on either optimizing CTR model architectures to better model feature interactions or refining training objectives to aid parameter learning, thereby achieving better predictive performance. However, previous efforts have primarily focused on the training phase, largely neglecting opportunities for optimization during the inference phase. Infrequently occurring feature combinations, in particular, can degrade prediction performance, leading to unreliable or low-confidence outputs. To unlock the predictive potential of trained CTR models, we propose a Model-Agnostic Test-Time paradigm (MATT), which leverages the confidence scores of feature combinations to guide the generation of multiple inference paths, thereby mitigating the influence of low-confidence features on the final prediction. Specifically, to quantify the confidence of feature combinations, we introduce a hierarchical probabilistic hashing method to estimate the occurrence frequencies of feature combinations at various orders, which serve as their corresponding confidence scores. Then, using the confidence scores as sampling probabilities, we generate multiple instance-specific inference paths through iterative sampling and subsequently aggregate the prediction scores from multiple paths to conduct robust predictions. Finally, extensive offline experiments and online A/B tests strongly validate the compatibility and effectiveness of MATT across existing CTR models.",
+    "citationCount": 0,
+    "referenceCount": 61
+}

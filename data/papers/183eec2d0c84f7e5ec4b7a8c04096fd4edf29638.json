@@ -1,0 +1,36 @@
+{
+    "paperId": "183eec2d0c84f7e5ec4b7a8c04096fd4edf29638",
+    "title": "TALKPLAY: Multimodal Music Recommendation with Large Language Models",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Seungheon Doh",
+        "Keunwoo Choi",
+        "Juhan Nam"
+    ],
+    "doi": "10.48550/arXiv.2502.13713",
+    "arxivId": "2502.13713",
+    "url": "https://www.semanticscholar.org/paper/183eec2d0c84f7e5ec4b7a8c04096fd4edf29638",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present TALKPLAY, a novel multimodal music recommendation system that reformulates recommendation as a token generation problem using large language models (LLMs). By leveraging the instruction-following and natural language generation capabilities of LLMs, our system effectively recommends music from diverse user queries while generating contextually relevant responses. While pretrained LLMs are primarily designed for text modality, TALKPLAY extends their scope through two key innovations: a multimodal music tokenizer that encodes audio features, lyrics, metadata, semantic tags, and playlist co-occurrence signals; and a vocabulary expansion mechanism that enables unified processing and generation of both linguistic and music-relevant tokens. By integrating the recommendation system directly into the LLM architecture, TALKPLAY transforms conventional systems by: (1) unifying previous two-stage conversational recommendation systems (recommendation engines and dialogue managers) into a cohesive end-to-end system, (2) effectively utilizing long conversational context for recommendation while maintaining strong performance in extended multi-turn interactions, and (3) generating natural language responses for seamless user interaction. Our qualitative and quantitative evaluation demonstrates that TALKPLAY significantly outperforms unimodal approaches based solely on text or listening history in both recommendation performance and conversational naturalness.",
+    "citationCount": 4,
+    "referenceCount": 70
+}

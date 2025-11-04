@@ -1,0 +1,31 @@
+{
+    "paperId": "7bb6dc1404d2e2224e23c0468a96bbbf32d582b4",
+    "title": "Edge Computing-Driven Real-Time Drone Detection Using YOLOv9 and NVIDIA Jetson Nano",
+    "year": 2024,
+    "venue": "Drones",
+    "authors": [
+        "Raj Hakani",
+        "Abhishek Rawat"
+    ],
+    "doi": "10.3390/drones8110680",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7bb6dc1404d2e2224e23c0468a96bbbf32d582b4",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/drones8110680",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Drones, with their ability to vertically take off and land with their stable hovering performance, are becoming favorable in both civilian and military domains. However, this introduces risks of its misuse, which may include security threats to airports, institutes of national importance, VIP security, drug trafficking, privacy breaches, etc. To address these issues, automated drone detection systems are essential for preventing unauthorized drone activities. Real-time detection requires high-performance devices such as GPUs. For our experiments, we utilized the NVIDIA Jetson Nano to support YOLOv9-based drone detection. The performance evaluation of YOLOv9 to detect drones is based on metrics like mean average precision (mAP), frames per second (FPS), precision, recall, and F1-score. Experimental data revealed significant improvements over previous models, with a mAP of 95.7%, a precision of 0.946, a recall of 0.864, and an F1-score of 0.903, marking a 4.6% enhancement over YOLOv8. This paper utilizes YOLOv9, optimized with pre-trained weights and transfer learning, achieving significant accuracy in real-time drone detection. Integrated with the NVIDIA Jetson Nano, the system effectively identifies drones at altitudes ranging from 15 feet to 110 feet while adapting to various environmental conditions. The model’s precision and adaptability make it particularly suitable for deployment in security-sensitive areas, where quick and accurate detection is crucial. This research establishes a solid foundation for future counter-drone applications and shows great promise for enhancing situational awareness in critical, high-risk environments.",
+    "citationCount": 13,
+    "referenceCount": 65
+}

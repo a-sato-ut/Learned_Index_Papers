@@ -1,0 +1,27 @@
+{
+    "paperId": "dcc8390efbc0f61f9aa9c445565e216cb1f4e3a0",
+    "title": "Enhanced Localisation and Handwritten Digit Recognition Using ConvCARU",
+    "year": 2025,
+    "venue": "Applied Sciences",
+    "authors": [
+        "S. Im",
+        "Ka‐Hou Chan"
+    ],
+    "doi": "10.3390/app15126772",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dcc8390efbc0f61f9aa9c445565e216cb1f4e3a0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Predicting the motion of handwritten digits in video sequences is challenging due to complex spatiotemporal dependencies, variable writing styles, and the need to preserve fine-grained visual details—all of which are essential for real-time handwriting recognition and digital learning applications. In this context, our study aims to develop a robust predictive framework that can accurately forecast digit trajectories while preserving structural integrity. To address these challenges, we propose a novel video prediction architecture integrating ConvCARU with a modified DCGAN to effectively separate the background from the foreground. This ensures the enhanced extraction and preservation of spatial and temporal features through convolution-based gating and adaptive fusion mechanisms. Based on extensive experiments conducted on the MNIST dataset, which comprises 70 K pixel images, our approach achieves an SSIM of 0.901 and a PSNR of 29.31 dB. This reflects a statistically significant improvement in PSNR of +0.20 dB (p < 0.05) compared to current state-of-the-art models, thus demonstrating its superior capability in maintaining consistent structural fidelity in predicted video frames. Furthermore, our framework performs better in terms of computational efficiency, with lower memory consumption compared to most other approaches. This underscores its practicality for deployment in real-time, resource-constrained applications. These promising results consequently validate the effectiveness of our integrated ConvCARU–DCGAN approach in capturing fine-grained spatiotemporal dependencies, positioning it as a compelling solution for enhancing video-based handwriting recognition and sequence forecasting. This paves the way for its adoption in diverse applications requiring high-resolution, efficient motion prediction.",
+    "citationCount": 0,
+    "referenceCount": 44
+}

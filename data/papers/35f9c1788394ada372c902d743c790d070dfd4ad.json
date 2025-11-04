@@ -1,0 +1,41 @@
+{
+    "paperId": "35f9c1788394ada372c902d743c790d070dfd4ad",
+    "title": "Exploring Distributed Vector Databases Performance on HPC Platforms: A Study with Qdrant",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Seth Ockerman",
+        "Amal Gueroudji",
+        "Song Young Oh",
+        "Robert Underwood",
+        "Nicholas Chia",
+        "Kyle Chard",
+        "Robert Ross",
+        "Shivaram Venkataraman"
+    ],
+    "doi": "10.48550/arXiv.2509.12384",
+    "arxivId": "2509.12384",
+    "url": "https://www.semanticscholar.org/paper/35f9c1788394ada372c902d743c790d070dfd4ad",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Vector databases have rapidly grown in popularity, enabling efficient similarity search over data such as text, images, and video. They now play a central role in modern AI workflows, aiding large language models by grounding model outputs in external literature through retrieval-augmented generation. Despite their importance, little is known about the performance characteristics of vector databases in high-performance computing (HPC) systems that drive large-scale science. This work presents an empirical study of distributed vector database performance on the Polaris supercomputer in the Argonne Leadership Computing Facility. We construct a realistic biological-text workload from BV-BRC and generate embeddings from the peS2o corpus using Qwen3-Embedding-4B. We select Qdrant to evaluate insertion, index construction, and query latency with up to 32 workers. Informed by practical lessons from our experience, this work takes a first step toward characterizing vector database performance on HPC platforms to guide future research and optimization.",
+    "citationCount": 0,
+    "referenceCount": 46
+}

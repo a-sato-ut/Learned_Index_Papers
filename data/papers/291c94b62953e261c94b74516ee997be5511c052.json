@@ -1,0 +1,41 @@
+{
+    "paperId": "291c94b62953e261c94b74516ee997be5511c052",
+    "title": "A survey on LoRA of large language models",
+    "year": 2024,
+    "venue": "Frontiers of Computer Science",
+    "authors": [
+        "Yuren Mao",
+        "Yuhang Ge",
+        "Yijiang Fan",
+        "Wenyi Xu",
+        "Yu Mi",
+        "Zhonghao Hu",
+        "Yunjun Gao"
+    ],
+    "doi": "10.1007/s11704-024-40663-9",
+    "arxivId": "2407.11046",
+    "url": "https://www.semanticscholar.org/paper/291c94b62953e261c94b74516ee997be5511c052",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1007/s11704-024-40663-9",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Low-Rank Adaptation (LoRA), which updates the dense neural network layers with pluggable low-rank matrices, is one of the best performed parameter efficient fine-tuning paradigms. Furthermore, it has significant advantages in cross-task generalization and privacy-preserving. Hence, LoRA has gained much attention recently, and the number of related literature demonstrates exponential growth. It is necessary to conduct a comprehensive overview of the current progress on LoRA. This survey categorizes and reviews the progress from the perspectives of (1) downstream adaptation improving variants that improve LoRA’s performance on downstream tasks; (2) cross-task generalization methods that mix multiple LoRA plugins to achieve cross-task generalization; (3) efficiency-improving methods that boost the computation-efficiency of LoRA; (4) data privacy-preserving methods that use LoRA in federated learning; (5) application. Besides, this survey also discusses the future directions in this field.",
+    "citationCount": 76,
+    "referenceCount": 228
+}

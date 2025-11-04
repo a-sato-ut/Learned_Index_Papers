@@ -1,0 +1,34 @@
+{
+    "paperId": "afdb0861cf5b86ecf49725ffa314f053c0e55956",
+    "title": "SkewRoute: Training-Free LLM Routing for Knowledge Graph Retrieval-Augmented Generation via Score Skewness of Retrieved Context",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hairu Wang",
+        "Yuan Feng",
+        "Yukun Cao",
+        "Xike Xie",
+        "Kevin Zhou"
+    ],
+    "doi": "10.48550/arXiv.2505.23841",
+    "arxivId": "2505.23841",
+    "url": "https://www.semanticscholar.org/paper/afdb0861cf5b86ecf49725ffa314f053c0e55956",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large language models excel at many tasks but often incur high inference costs during deployment. To mitigate hallucination, many systems use a knowledge graph to enhance retrieval-augmented generation (KG-RAG). However, the large amount of retrieved knowledge contexts increase these inference costs further. A promising solution to balance performance and cost is LLM routing, which directs simple queries to smaller LLMs and complex ones to larger LLMs. However, no dedicated routing methods currently exist for RAG, and existing training-based routers face challenges scaling to this domain due to the need for extensive training data. We observe that the score distributions produced by the retrieval scorer strongly correlate with query difficulty. Based on this, we propose an extremely simple yet effective routing framework, the first specifically designed for KG-RAG that efficiently balances performance and cost in a plug-and-play manner. It delivers over 3x higher routing effectiveness while reducing runtime to less than 0.001x compared to existing methods. Our code is available at https://github.com/hrwang00/SkewRoute.",
+    "citationCount": 0,
+    "referenceCount": 40
+}

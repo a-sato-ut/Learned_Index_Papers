@@ -1,0 +1,35 @@
+{
+    "paperId": "3c7b85af34f089552d5655047ba71ffd897403e1",
+    "title": "Contrastive Cross-scale Graph Knowledge Synergy",
+    "year": 2023,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Yifei Zhang",
+        "Yankai Chen",
+        "Zixing Song",
+        "Irwin King"
+    ],
+    "doi": "10.1145/3580305.3599286",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3c7b85af34f089552d5655047ba71ffd897403e1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph representation learning via Contrastive Learning (GCL) has drawn considerable attention recently. Efforts are mainly focused on gathering more global information via contrasting on a single high-level graph view, which, however, underestimates the inherent complex and hierarchical properties in many real-world networks, leading to sub-optimal embeddings. To incorporate these properties of a complex graph, we propose Cross-Scale Contrastive Graph Knowledge Synergy (CGKS), a generic feature learning framework, to advance graph contrastive learning with enhanced generalization ability and the awareness of latent anatomies. Specifically, to maintain the hierarchical information, we create a so-call graph pyramid (GP) consisting of coarse-grained graph views. Each graph view is obtained via the careful design topology-aware graph coarsening layer that extends the Laplacian Eigenmaps with negative sampling. To promote cross-scale information sharing and knowledge interactions among GP, we propose a novel joint optimization formula that contains a pairwise contrastive loss between any two coarse-grained graph views. This synergy loss not only promotes knowledge sharing that yields informative representations, but also stabilizes the training process. Experiments on various downstream tasks demonstrate the substantial improvements of the proposed method over its counterparts.",
+    "citationCount": 24,
+    "referenceCount": 60
+}

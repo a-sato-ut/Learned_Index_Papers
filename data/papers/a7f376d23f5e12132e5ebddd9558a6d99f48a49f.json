@@ -1,0 +1,42 @@
+{
+    "paperId": "a7f376d23f5e12132e5ebddd9558a6d99f48a49f",
+    "title": "LEANN: A Low-Storage Vector Index",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yichuan Wang",
+        "Shu Liu",
+        "Zhifei Li",
+        "Yongji Wu",
+        "Ziming Mao",
+        "Yilong Zhao",
+        "Xiao Yan",
+        "Zhiying Xu",
+        "Yang Zhou",
+        "Ion Stoica",
+        "Sewon Min",
+        "Matei Zaharia",
+        "Joseph Gonzalez"
+    ],
+    "doi": "10.48550/arXiv.2506.08276",
+    "arxivId": "2506.08276",
+    "url": "https://www.semanticscholar.org/paper/a7f376d23f5e12132e5ebddd9558a6d99f48a49f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Embedding-based search is widely used in applications such as recommendation and retrieval-augmented generation (RAG). Recently, there is a growing demand to support these capabilities over personal data stored locally on devices. However, maintaining the necessary data structure associated with the embedding-based search is often infeasible due to its high storage overhead. For example, indexing 100 GB of raw data requires 150 to 700 GB of storage, making local deployment impractical. Reducing this overhead while maintaining search quality and latency becomes a critical challenge. In this paper, we present LEANN, a storage-efficient approximate nearest neighbor (ANN) search index optimized for resource-constrained personal devices. LEANN combines a compact graph-based structure with an efficient on-the-fly recomputation strategy to enable fast and accurate retrieval with minimal storage overhead. Our evaluation shows that LEANN reduces index size to under 5% of the original raw data, achieving up to 50 times smaller storage than standard indexes, while maintaining 90% top-3 recall in under 2 seconds on real-world question answering benchmarks.",
+    "citationCount": 1,
+    "referenceCount": 70
+}

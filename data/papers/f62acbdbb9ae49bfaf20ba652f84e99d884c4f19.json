@@ -1,0 +1,40 @@
+{
+    "paperId": "f62acbdbb9ae49bfaf20ba652f84e99d884c4f19",
+    "title": "Use of a Structured Knowledge Base Enhances Metadata Curation by Large Language Models",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sowmya S. Sundaram",
+        "Benjamin D. Solomon",
+        "Avani Khatri",
+        "Anisha Laumas",
+        "Purvesh Khatri",
+        "Mark A. Musen"
+    ],
+    "doi": "10.48550/arXiv.2404.05893",
+    "arxivId": "2404.05893",
+    "url": "https://www.semanticscholar.org/paper/f62acbdbb9ae49bfaf20ba652f84e99d884c4f19",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Metadata play a crucial role in ensuring the findability, accessibility, interoperability, and reusability of datasets. This paper investigates the potential of large language models (LLMs), specifically GPT-4, to improve adherence to metadata standards. We conducted experiments on 200 random data records describing human samples relating to lung cancer from the NCBI BioSample repository, evaluating GPT-4's ability to suggest edits for adherence to metadata standards. We computed the adherence accuracy of field name-field value pairs through a peer review process, and we observed a marginal average improvement in adherence to the standard data dictionary from 79% to 80% (p<0.5). We then prompted GPT-4 with domain information in the form of the textual descriptions of CEDAR templates and recorded a significant improvement to 97% from 79% (p<0.01). These results indicate that, while LLMs may not be able to correct legacy metadata to ensure satisfactory adherence to standards when unaided, they do show promise for use in automated metadata curation when integrated with a structured knowledge base",
+    "citationCount": 5,
+    "referenceCount": 16
+}

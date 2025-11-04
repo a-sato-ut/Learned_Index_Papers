@@ -1,0 +1,31 @@
+{
+    "paperId": "cbb5b1d5ea96b88a6e1d168ea4380d226db14fd5",
+    "title": "Thin Film Thickness Analysis Using a Deep Learning Algorithm with a Consideration of Reflectance Fluctuation",
+    "year": 2025,
+    "venue": "International Journal of Precision Engineering and Manufacturing-Smart Technology",
+    "authors": [
+        "Joonyoung Lee",
+        "Jonghan Jin"
+    ],
+    "doi": "10.57062/ijpem-st.2024.00164",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cbb5b1d5ea96b88a6e1d168ea4380d226db14fd5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Materials Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A deep learning algorithm for thin film thickness analysis based on spectral reflectometry, using a dataset that reflects experimental conditions, has been proposed and implemented. This study extends our previous research, in which we designed an artificial neural network (ANN) algorithm using theoretical reflectance spectrum datasets and quantitatively evaluated it according to the international standard traceability system. The evaluation results indicated that one of the major sources of uncertainty was the offset between the outputs of the ANN algorithm and the certified values of certified reference materials (CRMs). In this study, we focused on how much the uncertainty factor related to the offset is affected by using a dataset that reflects experimental conditions instead of theoretical reflectance spectrum datasets. By applying the fluctuations in reflectance obtained from experiments to the theoretical reflectance spectrum, we created a dataset to train the ANN algorithm under the same conditions as in our previous studies for comparison. As a result, the major uncertainty factor related to the offset improved by about 30%. This study demonstrates the importance of having datasets that accurately reflect real-world conditions for training ANN algorithms.",
+    "citationCount": 0,
+    "referenceCount": 37
+}

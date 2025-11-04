@@ -1,0 +1,32 @@
+{
+    "paperId": "e8d042ef4d318093fe6d172b66de512db876124d",
+    "title": "A Self-Supervised Point Cloud Completion Method for Digital Twin Smart Factory Scenario Construction",
+    "year": 2025,
+    "venue": "Electronics",
+    "authors": [
+        "Yongjie Xu",
+        "Haihua Zhu",
+        "Barmak Honarvar Shakibaei Asli"
+    ],
+    "doi": "10.3390/electronics14101934",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e8d042ef4d318093fe6d172b66de512db876124d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/electronics14101934",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the development of digital twin (DT) workshops, constructing accurate DT models has become a key step toward enabling intelligent manufacturing. To address challenges such as incomplete data acquisition, noise sensitivity, and the heavy reliance on manual annotations in traditional modeling methods, this paper proposes a self-supervised deep learning approach for point cloud completion. The proposed model integrates self-supervised learning strategies for inferring missing regions, a Feature Pyramid Network (FPN), and cross-attention mechanisms to extract critical geometric and structural features from incomplete point clouds, thereby reducing dependence on labeled data and improving robustness to noise and incompleteness. Building on this foundation, a point cloud-based DT workshop modeling framework is introduced, incorporating transfer learning techniques to enable domain adaptation from synthetic to real-world industrial datasets, which significantly reduces the reliance on high-quality industrial point cloud data. Experimental results demonstrate that the proposed method achieves superior completion and reconstruction performance on both public benchmarks and real-world workshop scenarios, achieving an average CD-ℓ2 score of 15.96 on the 3D-EPN dataset. Furthermore, the method produces high-fidelity models in practical applications, providing a solid foundation for the precise construction and deployment of virtual scenes in DT workshops.",
+    "citationCount": 1,
+    "referenceCount": 21
+}

@@ -1,0 +1,42 @@
+{
+    "paperId": "34b753179472fe605bdbbda7f3478bd79b53ba6d",
+    "title": "DynamoLLM: Designing LLM Inference Clusters for Performance and Energy Efficiency",
+    "year": 2024,
+    "venue": "International Symposium on High-Performance Computer Architecture",
+    "authors": [
+        "Jovan Stojkovic",
+        "Chaojie Zhang",
+        "Íñigo Goiri",
+        "Josep Torrellas",
+        "Esha Choukse"
+    ],
+    "doi": "10.1109/HPCA61900.2025.00102",
+    "arxivId": "2408.00741",
+    "url": "https://www.semanticscholar.org/paper/34b753179472fe605bdbbda7f3478bd79b53ba6d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid evolution and widespread adoption of generative large language models (LLMs) have made them a pivotal workload in various applications. Today, LLM inference clusters receive a large number of queries with strict Service Level Objectives (SLOs). To achieve the desired performance, these models execute on power-hungry GPUs, causing inference clusters to consume large amounts of energy and, consequently, result in substantial carbon emissions. Fortunately, we find that there is an opportunity to improve energy efficiency by exploiting the heterogeneity in inference compute properties and the fluctuations in inference workloads. However, the diversity and dynamicity of these environments create a large search space, where different system configurations (e.g., number of instances, model parallelism, and GPU frequency) translate into different energy-performance trade-offs. To address these challenges, we propose DynamoLLM, the first energy-management framework for LLM inference environments. DynamoLLM automatically and dynamically reconfigures the inference cluster to optimize for energy of LLM serving under the services’ performance SLOs. We show that at a service level, on average, DynamoLLM conserves 52% of the energy and 38% of the operational carbon emissions, and reduces the cost to the customer by 61%, while meeting the latency SLOs.",
+    "citationCount": 61,
+    "referenceCount": 87
+}

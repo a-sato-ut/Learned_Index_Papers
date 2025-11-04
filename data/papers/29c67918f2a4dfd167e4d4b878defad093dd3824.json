@@ -1,0 +1,35 @@
+{
+    "paperId": "29c67918f2a4dfd167e4d4b878defad093dd3824",
+    "title": "VELO: A Vector Database-Assisted Cloud-Edge Collaborative LLM QoS Optimization Framework",
+    "year": 2024,
+    "venue": "2024 IEEE International Conference on Web Services (ICWS)",
+    "authors": [
+        "Zhi Yao",
+        "Zhiqing Tang",
+        "Jiong Lou",
+        "Ping Shen",
+        "Weijia Jia"
+    ],
+    "doi": "10.1109/ICWS62655.2024.00105",
+    "arxivId": "2406.13399",
+    "url": "https://www.semanticscholar.org/paper/29c67918f2a4dfd167e4d4b878defad093dd3824",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Large Language Model (LLM) has gained significant popularity and is extensively utilized across various domains. Most LLM deployments occur within cloud data centers, where they encounter substantial response delays and incur high costs, thereby impacting the Quality of Services (QoS) at the network edge. Leveraging vector database caching to store LLM request results at the edge can substantially mitigate response delays and cost associated with similar requests, which has been overlooked by previous research. Addressing these gaps, this paper introduces a novel Vector database-assisted cloud-Edge collaborative LLM QoS Optimization (VELO) framework. Firstly, we propose the VELO framework, which ingeniously employs vector database to cache the results of some LLM requests at the edge to reduce the response time of subsequent similar requests. Diverging from direct optimization of the LLM, our VELO framework does not necessitate altering the internal structure of LLM and is broadly applicable to diverse LLMs. Subsequently, building upon the VELO framework, we formulate the QoS optimization problem as a Markov Decision Process (MDP) and devise an algorithm grounded in Multi-Agent Reinforcement Learning (MARL) to decide whether to request the LLM in the cloud or directly return the results from the vector database at the edge. Moreover, to enhance request feature extraction and expedite training, we refine the policy network of MARL and integrate expert demonstrations. Finally, we implement the proposed algorithm within a real edge system. Experimental findings confirm that our VELO framework substantially enhances user satisfaction by concurrently diminishing delay and resource consumption for edge users utilizing LLMs.",
+    "citationCount": 14,
+    "referenceCount": 44
+}

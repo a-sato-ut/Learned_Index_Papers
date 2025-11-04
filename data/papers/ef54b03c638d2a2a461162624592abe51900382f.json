@@ -1,0 +1,34 @@
+{
+    "paperId": "ef54b03c638d2a2a461162624592abe51900382f",
+    "title": "VETT: VectorDB-Enabled Transfer-Learning for Time-Series Forecasting",
+    "year": 2024,
+    "venue": "International Conference on AI-ML-Systems",
+    "authors": [
+        "Alessandro Falcetta",
+        "Giulio Cristofaro",
+        "Lorenzo Epifani",
+        "Manuel Roveri"
+    ],
+    "doi": "10.1145/3703412.3704452",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ef54b03c638d2a2a461162624592abe51900382f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Transfer learning is a technique that allows one to learn effective models for a given task, leveraging models that were previously trained on other tasks. In recent years, transfer learning has been applied in the context of time-series processing, with notable examples in anomaly detection and classification. However, a general, cross-domain, and scalable approach for transfer learning in time-series forecasting is missing. In this work we propose VETT, a novel approach that leverages feature similarity search (implemented through vector databases) and ensemble models for effective transfer learning for time-series forecasting. The architecture, designed to be deployed on the Cloud, is tested on benchmarks and state-of-the-art datasets to assess both its effectiveness and efficiency with respect to traditional solutions.",
+    "citationCount": 0,
+    "referenceCount": 38
+}

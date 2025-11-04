@@ -1,0 +1,32 @@
+{
+    "paperId": "d75ddcbb0537fba197b8043aaf2419b64ae3805f",
+    "title": "FATO-SQL: a comprehensive framework for high-performance Text-to-SQL task",
+    "year": 2024,
+    "venue": "Other Conferences",
+    "authors": [
+        "Yongnan Chen",
+        "Shijia Gu",
+        "Zixiang He"
+    ],
+    "doi": "10.1117/12.3049621",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d75ddcbb0537fba197b8043aaf2419b64ae3805f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13395/133953A/FATO-SQL--a-comprehensive-framework-for-high-performance-Text/10.1117/12.3049621.pdf",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Text-to-SQL tasks aim to bridge the gap between natural language questions and SQL queries, enabling efficient interaction with databases without the need for expertise in SQL coding. In this paper, we introduce FATO-SQL, a novel Large Language Model (LLM)-based framework designed for medium-scale LLMs to generate complex SQL queries. FATO-SQL leverages the Retrieval-Augmented Generation (RAG), prompting engineering, and two rounds of LLM calls for SQL generation and diverse response generation. We implemented FATO-SQL using production data from the petrochemical industry, testing it with multiple tables joins and multi-level nested SQL queries. Results show that FATO-SQL achieves an overall accuracy of 94% on 40 testing questions. The FATO-SQL framework demonstrates promising potential for practical industrial applications, highlighting its efficacy and adaptability in real-world scenarios.",
+    "citationCount": 1,
+    "referenceCount": 34
+}

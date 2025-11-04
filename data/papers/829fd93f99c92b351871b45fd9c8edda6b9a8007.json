@@ -1,0 +1,33 @@
+{
+    "paperId": "829fd93f99c92b351871b45fd9c8edda6b9a8007",
+    "title": "Evaluating Learned Query Performance Prediction Models at LinkedIn: Challenges, Opportunities, and Findings",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Chujun Song",
+        "Slim Bouguerra",
+        "Erik Krogen",
+        "Daniel Abadi"
+    ],
+    "doi": "10.48550/arXiv.2504.17181",
+    "arxivId": "2504.17181",
+    "url": "https://www.semanticscholar.org/paper/829fd93f99c92b351871b45fd9c8edda6b9a8007",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advancements in learning-based query performance prediction models have demonstrated remarkable efficacy. However, these models are predominantly validated using synthetic datasets focused on cardinality or latency estimations. This paper explores the application of these models to LinkedIn's complex real-world OLAP queries executed on Trino, addressing four primary research questions: (1) How do these models perform on real-world industrial data with limited information? (2) Can these models generalize to new tasks, such as CPU time prediction and classification? (3) What additional information available from the query plan could be utilized by these models to enhance their performance? (4) What are the theoretical performance limits of these models given the available data? To address these questions, we evaluate several models-including TLSTM, TCNN, QueryFormer, and XGBoost, against the industrial query workload at LinkedIn, and extend our analysis to CPU time regression and classification tasks. We also propose a multi-task learning approach to incorporate underutilized operator-level metrics that could enhance model understanding. Additionally, we empirically analyze the inherent upper bound that can be achieved from the models.",
+    "citationCount": 0,
+    "referenceCount": 49
+}

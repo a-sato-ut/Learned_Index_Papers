@@ -1,0 +1,33 @@
+{
+    "paperId": "6f5e15f3628e8be5d5a47717e81443013a3ee7b5",
+    "title": "Automated segmentation and classification of supraspinatus fatty infiltration in shoulder magnetic resonance image using a convolutional neural network",
+    "year": 2024,
+    "venue": "Frontiers in Medicine",
+    "authors": [
+        "Juan Pablo Saavedra",
+        "Guillermo Droppelmann",
+        "Carlos Jorquera",
+        "F. Feijoo"
+    ],
+    "doi": "10.3389/fmed.2024.1416169",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6f5e15f3628e8be5d5a47717e81443013a3ee7b5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3389/fmed.2024.1416169",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Background Goutallier’s fatty infiltration of the supraspinatus muscle is a critical condition in degenerative shoulder disorders. Deep learning research primarily uses manual segmentation and labeling to detect this condition. Employing unsupervised training with a hybrid framework of segmentation and classification could offer an efficient solution. Aim To develop and assess a two-step deep learning model for detecting the region of interest and categorizing the magnetic resonance image (MRI) supraspinatus muscle fatty infiltration according to Goutallier’s scale. Materials and methods A retrospective study was performed from January 1, 2019 to September 20, 2020, using 900 MRI T2-weighted images with supraspinatus muscle fatty infiltration diagnoses. A model with two sequential neural networks was implemented and trained. The first sub-model automatically detects the region of interest using a U-Net model. The second sub-model performs a binary classification using the VGG-19 architecture. The model’s performance was computed as the average of five-fold cross-validation processes. Loss, accuracy, Dice coefficient (CI. 95%), AU-ROC, sensitivity, and specificity (CI. 95%) were reported. Results Six hundred and six shoulders MRIs were analyzed. The Goutallier distribution was presented as follows: 0 (66.50%); 1 (18.81%); 2 (8.42%); 3 (3.96%); 4 (2.31%). Segmentation results demonstrate high levels of accuracy (0.9977 ± 0.0002) and Dice score (0.9441 ± 0.0031), while the classification model also results in high levels of accuracy (0.9731 ± 0.0230); sensitivity (0.9000 ± 0.0980); specificity (0.9788 ± 0.0257); and AUROC (0.9903 ± 0.0092). Conclusion The two-step training method proposed using a deep learning model demonstrated strong performance in segmentation and classification tasks.",
+    "citationCount": 2,
+    "referenceCount": 32
+}

@@ -1,0 +1,43 @@
+{
+    "paperId": "c4131584c66badbfe8e54c8d8f6f56ae57ead8f6",
+    "title": "Large Language Models for Knowledge-Free Network Management: Feasibility Study and Opportunities",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hoon Lee",
+        "Mintae Kim",
+        "Seunghwan Baek",
+        "Namyoon Lee",
+        "M. Debbah",
+        "Inkyu Lee"
+    ],
+    "doi": "10.48550/arXiv.2410.17259",
+    "arxivId": "2410.17259",
+    "url": "https://www.semanticscholar.org/paper/c4131584c66badbfe8e54c8d8f6f56ae57ead8f6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Traditional network management algorithms have relied on prior knowledge of system models and networking scenarios. In practice, a universal optimization framework is desirable where a sole optimization module can be readily applied to arbitrary network management tasks without any knowledge of the system. To this end, knowledge-free optimization techniques are necessary whose operations are independent of scenario-specific information including objective functions, system parameters, and network setups. The major challenge of this paradigm-shifting approach is the requirement of a hyper-intelligent black-box optimizer that can establish efficient decision-making policies using its internal reasoning capabilities. This article presents a novel knowledge-free network management paradigm with the power of foundation models called large language models (LLMs). Trained on vast amounts of datasets, LLMs can understand important contexts from input prompts containing minimal system information, thereby offering remarkable inference performance even for entirely new tasks. Pretrained LLMs can be potentially leveraged as foundation models for versatile network optimization. By eliminating the dependency on prior knowledge, LLMs can be seamlessly applied for various network management tasks. The viability of this approach is demonstrated for resource management problems using GPT-3.5-Turbo. Numerical results validate that knowledge-free LLM optimizers are able to achieve comparable performance to existing knowledge-based optimization algorithms.",
+    "citationCount": 4,
+    "referenceCount": 15
+}

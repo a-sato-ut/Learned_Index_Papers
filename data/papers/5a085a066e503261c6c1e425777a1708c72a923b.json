@@ -1,0 +1,33 @@
+{
+    "paperId": "5a085a066e503261c6c1e425777a1708c72a923b",
+    "title": "Leveraging Large Language Model for Information Retrieval-based Bug Localization",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Moumita Asad",
+        "Rafed Muhammad Yasir",
+        "Armin Geramirad",
+        "Sam Malek"
+    ],
+    "doi": "10.48550/arXiv.2508.00253",
+    "arxivId": "2508.00253",
+    "url": "https://www.semanticscholar.org/paper/5a085a066e503261c6c1e425777a1708c72a923b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Information Retrieval-based Bug Localization (IRBL) aims to identify buggy source files for a given bug report. Traditional and deep-learning-based IRBL techniques often suffer from vocabulary mismatch and dependence on project-specific metadata, while recent Large Language Model (LLM)-based approaches are limited by insufficient contextual information. To address these issues, we propose GenLoc, an LLM-based technique that combines semantic retrieval with code-exploration functions to iteratively analyze the code base and identify potential buggy files. We evaluate GenLoc on two diverse datasets: a benchmark of 9,097 bugs from six large open-source projects and the GHRB (GitHub Recent Bugs) dataset of 131 recent bugs across 16 projects. Results demonstrate that GenLoc substantially outperforms traditional IRBL, deep learning approaches and recent LLM-based methods, while also localizing bugs that other techniques fail to detect.",
+    "citationCount": 1,
+    "referenceCount": 96
+}

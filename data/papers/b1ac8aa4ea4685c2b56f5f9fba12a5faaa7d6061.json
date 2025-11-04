@@ -1,0 +1,37 @@
+{
+    "paperId": "b1ac8aa4ea4685c2b56f5f9fba12a5faaa7d6061",
+    "title": "VisionEmbedder: Bit-Level-Compact Key-Value Storage with Constant Lookup, Rapid Updates, and Rare Failure",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Yuhan Wu",
+        "Feiyu Wang",
+        "Yifan Zhu",
+        "Zhuochen Fan",
+        "‡. ZhitingXiong",
+        "Tong Yang",
+        "Bin Cui"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00324",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b1ac8aa4ea4685c2b56f5f9fba12a5faaa7d6061",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In key-value storage scenarios where storage space is at a premium, our focus is on a class of solutions that only store the value, which is highly space-efficient. While these solutions have proven their worth in distributed storage, networking, and bioinformatics, they still face two significant issues: one is that their space cost could be further reduced; the other is their are vulnerable to update failures, which can necessitate a complete table reconstruction. To address these issues, we introduce VisionEmbedder, a compact key-value embedder with constant-time lookup, fast dynamic updates, and a near-zero risk of reconstruction. VisionEmbedder cuts down the storage requirement from 2.2L bits to just 1.6L bits per key-value pair with an L-bit value, and it significantly reduces the chance of update failures by a factor of n, where $n$ is the number of keys (for instance, 1 million or more). The compromise with VisionEmbedder comes with a minor reduction in query throughput on certain data sizes. The enhancements offered by VisionEmbedder have been theoretically validated and are effective across any dataset. Additionally, we have implemented VisionEmbedder on both FPGA and CPU platforms, with all codes made available as open-source.",
+    "citationCount": 1,
+    "referenceCount": 48
+}

@@ -1,0 +1,41 @@
+{
+    "paperId": "78d28b911a51d11c85a614e1117c0c52ee294373",
+    "title": "Towards Efficient and Practical GPU Multitasking in the Era of LLM",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jiarong Xing",
+        "Yifan Qiao",
+        "Simon Mo",
+        "Xingqi Cui",
+        "Gur-Eyal Sela",
+        "Yang Zhou",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+    ],
+    "doi": "10.48550/arXiv.2508.08448",
+    "arxivId": "2508.08448",
+    "url": "https://www.semanticscholar.org/paper/78d28b911a51d11c85a614e1117c0c52ee294373",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "GPU singletasking is becoming increasingly inefficient and unsustainable as hardware capabilities grow and workloads diversify. We are now at an inflection point where GPUs must embrace multitasking, much like CPUs did decades ago, to meet the demands of modern AI workloads. In this work, we highlight the key requirements for GPU multitasking, examine prior efforts, and discuss why they fall short. To advance toward efficient and practical GPU multitasking, we envision a resource management layer, analogous to a CPU operating system, to handle various aspects of GPU resource management and sharing. We outline the challenges and potential solutions, and hope this paper inspires broader community efforts to build the next-generation GPU compute paradigm grounded in multitasking.",
+    "citationCount": 0,
+    "referenceCount": 40
+}

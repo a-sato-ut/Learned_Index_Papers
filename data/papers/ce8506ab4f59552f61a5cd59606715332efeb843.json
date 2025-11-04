@@ -1,0 +1,37 @@
+{
+    "paperId": "ce8506ab4f59552f61a5cd59606715332efeb843",
+    "title": "Design of QazSL Sign Language Recognition System for Physically Impaired Individuals",
+    "year": 2025,
+    "venue": "Journal of Robotics and Control (JRC)",
+    "authors": [
+        "Lazzat Zholshiyeva",
+        "T. Zhukabayeva",
+        "D. Baumuratova",
+        "Azamat Serek"
+    ],
+    "doi": "10.18196/jrc.v6i1.23879",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ce8506ab4f59552f61a5cd59606715332efeb843",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automating real-time sign language translation through deep learning and machine learning techniques can greatly enhance communication between the deaf community and the wider public. This research investigates how these technologies can change the way individuals with speech impairments communicate. Despite advancements, developing accurate models for recognizing both static and dynamic gestures remains challenging due to variations in gesture speed and length, which affect the effectiveness of the models. We introduce a hybrid approach that merges machine learning and deep learning methods for sign language recognition. We provide new model for the recognition of Kazakh Sign Language (QazSL), employing five algorithms: Support Vector Machine (SVM), Long Short Term Memory (LSTM), Gated Recurrent Unit (GRU), Convolutional Neural Networks (CNN) with VGG19, ResNet-50, and YOLOv5. The models were trained on a QazSL dataset of more than 4,400 photos. Among the assessed models, the GRU attained the highest accuracy of 100%, followed closely by SVM and YOLOv5 at 99.98%, VGG19 at 98.87% for dynamic dactyls, LSTM at 85%, and ResNet-50 at 78.61%. These findings illustrate the comparative eﬀicacy of each method in real-time gesture recognition. The results yield significant insights for enhancing sign language recognition systems, presenting possible advancements in accessibility and communication for those with hearing impairments.",
+    "citationCount": 2,
+    "referenceCount": 76
+}

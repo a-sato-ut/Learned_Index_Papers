@@ -1,0 +1,44 @@
+{
+    "paperId": "2c1f9846dac926c6a0f95805fac6fc15ac398fb3",
+    "title": "Integrating Advanced Language Models and Economic Incentives for Domain Adaptive Medical Data Stewardship",
+    "year": 2024,
+    "venue": "IEEE International Conference on Bioinformatics and Biomedicine",
+    "authors": [
+        "Mingtao Ma",
+        "Yi Yang",
+        "Yang Han",
+        "Xueyuan Deng",
+        "Qianyu Fan",
+        "Yanjin Feng"
+    ],
+    "doi": "10.1109/BIBM62325.2024.10821718",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2c1f9846dac926c6a0f95805fac6fc15ac398fb3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Economics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The evolving healthcare landscape necessitates unprecedented levels of robust data management and seamless information exchange. Multi-modal Large Language Models (MMLLMs) have emerged as pivotal tools in healthcare data administration, yet face significant challenges in data security, information currency, and crucially, domain adaptation. This study presents a groundbreaking framework that synergizes hybrid Retrieval-Augmented Generation (RAG) with medical MMLLMs, incorporating advanced domain adaptation techniques and rigorous mathematical foundations. Our approach introduces a novel information-theoretic framework for quantifying multimodal data quality and freshness. We derive tight bounds on the trade-off between data utility and privacy. This theoretical foundation underpins our stratified cross-chain infrastructure, ensuring secure and privacy-preserving data processing. At the core of our innovation is a sophisticated domain adaptation strategy, leveraging optimal transport theory to minimize the discrepancy between source and target domains. We prove the convergence of our adaptation algorithm to a global optimum with rate. This theoretical guarantee ensures robust performance across diverse healthcare contexts, a significant advancement over previous domain-agnostic approaches. To address information asymmetry in data sharing, we develop a contract theory-based incentive mechanism. We prove the existence of a unique optimal contract structure and derive closed-form expressions for the optimal quality-payment schedules. The efficiency of data sharing and domain adaptation is further optimized through a novel reinforcement learning algorithm grounded in generative diffusion models, achieving convergence to a locally optimal policy with probability 1. Our work not only advances the theoretical understanding of multi-modal learning and domain adaptation but also provides practical tools for enhancing patient care and data utilization in diverse medical contexts.",
+    "citationCount": 0,
+    "referenceCount": 32
+}

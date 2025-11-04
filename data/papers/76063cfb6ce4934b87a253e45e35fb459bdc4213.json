@@ -1,0 +1,31 @@
+{
+    "paperId": "76063cfb6ce4934b87a253e45e35fb459bdc4213",
+    "title": "Testing Database Systems with Large Language Model Synthesized Fragments",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Suyang Zhong",
+        "Manuel Rigger"
+    ],
+    "doi": "10.48550/arXiv.2505.02012",
+    "arxivId": "2505.02012",
+    "url": "https://www.semanticscholar.org/paper/76063cfb6ce4934b87a253e45e35fb459bdc4213",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Various automated testing approaches have been proposed for Database Management Systems (DBMSs). Many such approaches generate pairs of equivalent queries to identify bugs that cause DBMSs to compute incorrect results, and have found hundreds of bugs in mature, widely used DBMSs. Most of these approaches are based on manually written SQL generators; however, their bug-finding capabilities remain constrained by the limited set of SQL features supported by the generators. In this work, we propose ShQveL, an approach that augments existing SQL test-case generators by leveraging Large Language Models (LLMs) to synthesize SQL fragments. Our key idea is to systematically incorporate SQL features gained through automated interactions with LLMs into the SQL generators, increasing the features covered while efficiently generating test cases. Specifically, ShQveL uses SQL sketches -- SQL statements with incomplete code segments that LLMs fill -- to integrate LLM-generated content into the generator. We evaluated ShQveL on 5 DBMSs and discovered 55 unique and previously unknown bugs, 50 of which were promptly fixed after our reports.",
+    "citationCount": 1,
+    "referenceCount": 44
+}

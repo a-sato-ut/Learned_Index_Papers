@@ -1,0 +1,33 @@
+{
+    "paperId": "1aade0ad4d729f8e8627af318fc1fe8bca6a9084",
+    "title": "View-Aware Contrastive Learning for Incomplete Tabular Data with Low-Label Regimes",
+    "year": 2025,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Yingqiu Yang",
+        "Qianye Lin",
+        "Zeyue Li",
+        "Yakui Wang",
+        "Siyu Liang",
+        "Siyuan Zhang",
+        "Yiyan Wang",
+        "Chunli Lv"
+    ],
+    "doi": "10.3390/app15116001",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1aade0ad4d729f8e8627af318fc1fe8bca6a9084",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "To address the challenges of label sparsity and feature incompleteness in structured data, a self-supervised representation learning method based on multi-view consistency constraints is proposed in this paper. Robust modeling of high-dimensional sparse tabular data is achieved through integration of a view-disentangled encoder, intra- and cross-view contrastive mechanisms, and a joint loss optimization module. The proposed method incorporates feature clustering-based view partitioning, multi-view consistency alignment, and masked reconstruction mechanisms, thereby enhancing the model’s representational capacity and generalization performance under weak supervision. Across multiple experiments conducted on four types of datasets, including user rating data, platform activity logs, and financial transactions, the proposed approach maintains superior performance even under extreme conditions of up to 40% feature missingness and only 10% label availability. The model achieves an accuracy of 0.87, F1-score of 0.83, and AUC of 0.90 while reducing the normalized mean squared error to 0.066. These results significantly outperform mainstream baseline models such as XGBoost, TabTransformer, and VIME, demonstrating the proposed method’s robustness and broad applicability across diverse real-world tasks. The findings suggest that the proposed method offers an efficient and reliable paradigm for modeling sparse structured data.",
+    "citationCount": 0,
+    "referenceCount": 42
+}

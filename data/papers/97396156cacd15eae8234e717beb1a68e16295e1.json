@@ -1,0 +1,34 @@
+{
+    "paperId": "97396156cacd15eae8234e717beb1a68e16295e1",
+    "title": "Optimizing Database Performance in Complex Event Processing through Indexing Strategies",
+    "year": 2024,
+    "venue": "International Conference on Data Technologies and Applications",
+    "authors": [
+        "Maryam Abbasi",
+        "Marco V. Bernardo",
+        "Paulo Váz",
+        "J. Silva",
+        "Pedro Martins"
+    ],
+    "doi": "10.3390/data9080093",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/97396156cacd15eae8234e717beb1a68e16295e1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2306-5729/9/8/93/pdf?version=1721901284",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Complex event processing (CEP) systems have gained significant importance in various domains, such as finance, logistics, and security, where the real-time analysis of event streams is crucial. However, as the volume and complexity of event data continue to grow, optimizing the performance of CEP systems becomes a critical challenge. This paper investigates the impact of indexing strategies on the performance of databases handling complex event processing. We propose a novel indexing technique, called Hierarchical Temporal Indexing (HTI), specifically designed for the efficient processing of complex event queries. HTI leverages the temporal nature of event data and employs a multi-level indexing approach to optimize query execution. By combining temporal indexing with spatial- and attribute-based indexing, HTI aims to accelerate the retrieval and processing of relevant events, thereby improving overall query performance. In this study, we evaluate the effectiveness of HTI by implementing complex event queries on various CEP systems with different indexing strategies. We conduct a comprehensive performance analysis, measuring the query execution times and resource utilization (CPU, memory, etc.), and analyzing the execution plans and query optimization techniques employed by each system. Our experimental results demonstrate that the proposed HTI indexing strategy outperforms traditional indexing approaches, particularly for complex event queries involving temporal constraints and multi-dimensional event attributes. We provide insights into the strengths and weaknesses of each indexing strategy, identifying the factors that influence performance, such as data volume, query complexity, and event characteristics. Furthermore, we discuss the implications of our findings for the design and optimization of CEP systems, offering recommendations for indexing strategy selection based on the specific requirements and workload characteristics. Finally, we outline the potential limitations of our study and suggest future research directions in this domain.",
+    "citationCount": 2,
+    "referenceCount": 62
+}

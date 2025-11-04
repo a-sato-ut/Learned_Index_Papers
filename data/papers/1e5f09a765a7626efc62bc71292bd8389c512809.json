@@ -1,0 +1,35 @@
+{
+    "paperId": "1e5f09a765a7626efc62bc71292bd8389c512809",
+    "title": "Deep Learning Ensemble for Flood Probability Analysis",
+    "year": 2024,
+    "venue": "Water",
+    "authors": [
+        "Fred Sseguya",
+        "Kyung-Soo Jun"
+    ],
+    "doi": "10.3390/w16213092",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1e5f09a765a7626efc62bc71292bd8389c512809",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/w16213092",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Predicting flood events is complex due to uncertainties from limited gauge data, high data and computational demands of traditional physical models, and challenges in spatial and temporal scaling. This research innovatively uses only three remotely sensed and computed factors: rainfall, runoff and temperature. We also employ three deep learning models—Feedforward Neural Network (FNN), Convolutional Neural Network (CNN), and Long Short-Term Memory (LSTM)—along with a deep neural network ensemble (DNNE) using synthetic data to predict future flood probabilities, utilizing the Savitzky–Golay filter for smoothing. Using a hydrometeorological dataset from 1993–2022 for the Nile River basin, six flood predictors were derived. The FNN and LSTM models exhibited high accuracy and stable loss, indicating minimal overfitting, while the CNN showed slight overfitting. Performance metrics revealed that FNN achieved 99.63% accuracy and 0.999886 ROC AUC, CNN had 95.42% accuracy and 0.893218 ROC AUC, and LSTM excelled with 99.82% accuracy and 0.999967 ROC AUC. The DNNE outperformed individual models in reliability and consistency. Runoff and rainfall were the most influential predictors, while temperature had minimal impact.",
+    "citationCount": 2,
+    "referenceCount": 73
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "3c1d2b6cf5a5f6b9721c93c1a874338cc77b48a0",
+    "title": "LLM4DSR: Leveraging Large Language Model for Denoising Sequential Recommendation",
+    "year": 2025,
+    "venue": "ACM Transactions on Information Systems",
+    "authors": [
+        "Bohao Wang",
+        "Feng Liu",
+        "Changwang Zhang",
+        "Jiawei Chen",
+        "Yudi Wu",
+        "Sheng Zhou",
+        "Xingyu Lou",
+        "Jun Wang",
+        "Yan Feng",
+        "Chun Chen",
+        "Can Wang"
+    ],
+    "doi": "10.1145/3762182",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3c1d2b6cf5a5f6b9721c93c1a874338cc77b48a0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sequential recommenders generate recommendations based on users’ historical interaction sequences. However, in practice, these sequences are often contaminated by noisy interactions, which can arise from various factors such as clickbait, the influence of prominently positioned items, or accidental interactions. Such noise can significantly degrade recommendation performance. Accurately identifying such noisy interactions without additional information is particularly challenging due to the absence of explicit supervisory signals indicating noise. Large Language Models (LLMs), equipped with extensive open knowledge and semantic reasoning abilities, offer a promising avenue to bridge this information gap. However, employing LLMs for denoising in sequential recommendation presents notable challenges: 1) Direct application of pretrained LLMs may not be competent for the denoising task, frequently generating nonsensical responses; 2) Fine-tuning on the denoising task can partially mitigate the issue of generating nonsensical outputs. However, even after fine-tuning, the reliability of LLM outputs remains questionable, especially given the complexity of the denoising task and the inherent hallucination issue of LLMs. To tackle these challenges, we propose LLM4DSR, a tailored approach for denoising sequential recommendation using LLMs. We constructed a self-supervised fine-tuning task to activate LLMs’ capabilities to identify noisy items and suggest replacements. Furthermore, we developed an uncertainty estimation module that ensures only high-confidence responses are utilized for sequence corrections. Remarkably, LLM4DSR is model-agnostic, allowing corrected sequences to be flexibly applied across various recommendation models. To the best of our knowledge, this is the first work that employs LLMs for sequential recommendation denoising while addressing the unique challenges of adapting LLMs to this task. Extensive experiments conducted on three real-world datasets across two noise settings validate the effectiveness of LLM4DSR, demonstrating an average improvement of 12.9% in NDCG@20. The code is available at https://github.com/WANGBohaO-jpg/LLM4DSR.",
+    "citationCount": 0,
+    "referenceCount": 59
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "939c7d8c31326cbe654a89a7d436997fc68e78cc",
+    "title": "Practical Insertion-Only Convex Hull",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "I. Hoog",
+        "Henrik Reinstädtler",
+        "Eva Rotenberg"
+    ],
+    "doi": "10.48550/arXiv.2508.17496",
+    "arxivId": "2508.17496",
+    "url": "https://www.semanticscholar.org/paper/939c7d8c31326cbe654a89a7d436997fc68e78cc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Convex hull data structures are fundamental in computational geometry. We study insertion-only data structures, supporting various containment and intersection queries. When $P$ is sorted by $x$- or $y$-coordinate, convex hulls can be constructed in linear time using classical algorithms such as Graham scan. We investigate a variety of methods tailored to the insertion-only setting. We explore a broad selection of trade-offs involving robustness, memory access patterns, and space usage, providing an extensive evaluation of both existing and novel techniques. Logarithmic-time methods rely on pointer-based tree structures, which suffer in practice due to poor memory locality. Motivated by this, we develop a vector-based solution inspired by Overmars'logarithmic method. Our structure has worse asymptotic bounds, supporting queries in $O(\\log^2 n)$ time, but stores data in $O(\\log n)$ contiguous vectors, greatly improving cache performance. Through empirical evaluation on real-world and synthetic data sets, we uncover surprising trends. Let $h$ denote the size of the convex hull. We show that a na\\\"ive $O(h)$ insertion-only algorithm based on Graham scan consistently outperforms both theoretical and practical state-of-the-art methods under realistic workloads, even on data sets with rather large convex hulls. While tree-based methods with $O(\\log h)$ update times offer solid theoretical guarantees, they are never optimal in practice. In contrast, our vector-based logarithmic method, despite its theoretically inferior bounds, is highly competitive across all tested scenarios. It is optimal whenever the convex hull becomes large.",
+    "citationCount": 0,
+    "referenceCount": 43
+}

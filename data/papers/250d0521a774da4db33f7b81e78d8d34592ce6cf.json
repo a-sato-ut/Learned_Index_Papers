@@ -1,0 +1,33 @@
+{
+    "paperId": "250d0521a774da4db33f7b81e78d8d34592ce6cf",
+    "title": "TokenRec: Learning to Tokenize ID for LLM-Based Generative Recommendations",
+    "year": 2024,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Haohao Qu",
+        "Wenqi Fan",
+        "Zihuai Zhao",
+        "Qing Li"
+    ],
+    "doi": "10.1109/TKDE.2025.3599265",
+    "arxivId": "2406.10450",
+    "url": "https://www.semanticscholar.org/paper/250d0521a774da4db33f7b81e78d8d34592ce6cf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There is a growing interest in utilizing large language models (LLMs) to advance next-generation Recommender Systems (RecSys), driven by their outstanding language understanding and reasoning capabilities. In this scenario, tokenizing users and items becomes essential for ensuring seamless alignment of LLMs with recommendations. While studies have made progress in representing users and items using textual contents or latent representations, challenges remain in capturing high-order collaborative knowledge into discrete tokens compatible with LLMs and generalizing to unseen users/items. To address these challenges, we propose a novel framework called TokenRec, which introduces an effective ID tokenization strategy and an efficient retrieval paradigm for LLM-based recommendations. Our tokenization strategy involves quantizing the masked user/item representations learned from collaborative filtering into discrete tokens, thus achieving smooth incorporation of high-order collaborative knowledge and generalizable tokenization of users and items for LLM-based RecSys. Meanwhile, our generative retrieval paradigm is designed to efficiently recommend top-K items for users, eliminating the need for the time-consuming auto-regressive decoding and beam search processes used by LLMs, thus significantly reducing inference time. Comprehensive experiments validate the effectiveness of the proposed methods, demonstrating that TokenRec outperforms competitive benchmarks, including both traditional recommender systems and emerging LLM-based recommender systems.",
+    "citationCount": 22,
+    "referenceCount": 77
+}

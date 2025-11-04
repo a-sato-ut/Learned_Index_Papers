@@ -1,0 +1,32 @@
+{
+    "paperId": "1f5806e1322658df47551c300a241a13d24c95d4",
+    "title": "General Optimal Step-size for ADMM-type Algorithms: Domain Parametrization and Optimal Rates",
+    "year": 2023,
+    "venue": "",
+    "authors": [
+        "Yifan Ran"
+    ],
+    "doi": null,
+    "arxivId": "2309.10124",
+    "url": "https://www.semanticscholar.org/paper/1f5806e1322658df47551c300a241a13d24c95d4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this work, we solve a 49-year open problem, the general optimal step-size for ADMM-type algorithms. For a convex program: $\\text{min.} \\,\\, f({x}) + g({z})$, $\\text{s.t.}\\, {A}{x} - {B}{z} = {c} $, given an arbitrary fixed-point initialization $ {\\zeta}^0 $, an optimal step-size choice is given by a root of the following polynomial: \\begin{equation*} \\rho^4\\Vert {A}{x}^\\star\\Vert^2 - \\rho^3\\langle {A}{x}^\\star, {\\zeta}^0\\rangle + \\rho\\langle {\\lambda}^\\star,{\\zeta}^0\\rangle - \\Vert{\\lambda}^\\star\\Vert^2 = 0, \\end{equation*} with $ \\rho \\neq 0 $ a domain step-size, which relates to the classical positive one via $ \\gamma = \\rho^2$. We denote by $ \\cdot^\\star $ the optimal solution, by $ {\\lambda} $ the Lagrange multiplier associated with the equality constraint (dual variable). The above polynomial always admits a closed-form solution. The optimality is in the sense that a worst-case fixed-point convergence rate is minimized, which is a balance of the normalized primal and dual iterates convergence speed (reciprocally related). In cases where either the primal or dual solution is trivial (a zero vector), improvement can be made by accelerating the non-trivial sequence only. For practical use, adaptively replace the above optimal solutions with the current iterates, which are known at every iteration. Numerically, it exhibits almost identical performance as the theoretical one (after a few iterations), similar to the underlying best fixed step-size (found by exhaustive grid search).",
+    "citationCount": 2,
+    "referenceCount": 35
+}

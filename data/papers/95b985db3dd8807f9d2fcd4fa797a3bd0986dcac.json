@@ -1,0 +1,34 @@
+{
+    "paperId": "95b985db3dd8807f9d2fcd4fa797a3bd0986dcac",
+    "title": "Fast Adaptive Approximate Nearest Neighbor Search with Cluster-Shaped Indices",
+    "year": 2025,
+    "venue": "Big Data and Cognitive Computing",
+    "authors": [
+        "Vladimir Kazakovtsev",
+        "Mikhail Plekhanov",
+        "Alexandr Naumchev",
+        "G. Shkaberina",
+        "I. Masich",
+        "Lyudmila Egorova",
+        "Alena Stupina",
+        "Aleksey Popov",
+        "L. Kazakovtsev"
+    ],
+    "doi": "10.3390/bdcc9100254",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/95b985db3dd8807f9d2fcd4fa797a3bd0986dcac",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this study, we propose a novel adaptive algorithm for approximate nearest neighbor (ANN) search, based on the inverted file (IVF) index (cluster-based index) and online query complexity classification. The concept of the classical IVF search implemented in vector databases is as follows: all data vectors are divided into clusters, and each cluster is assigned to its central point (centroid). For an ANN search query, the closest centroids are determined, and the further search continues in the corresponding clusters only. In our study, the complexity of each query is assessed and classified with the use of results of an initial trial search in a limited number of clusters. Based on this classification, the algorithm dynamically determines the presumably sufficient number of clusters which is sufficient to achieve the desired Recall value, thereby improving vector search efficiency. Our experiments show that such a complexity classifier can be built with the use of a single feature, and we propose an algorithm for its training. We studied the impact of various features on the query processing and discovered a strong dependence on the number of clusters that contains at least one nearest neighbor (productive clusters). The new algorithm is designed to be implemented on top of the IVF search which is a well-known algorithm for approximate nearest neighbor search and uses existing IVF indexes that are widely used in the most popular vector database management systems, such as pgvector. The results obtained demonstrate a significant increase in the speed of nearest neighbor search (up to 35%) while maintaining a high Recall rate of 0.99. Additionally, the search algorithm is deterministic, which might be extremely important for tasks where the reproducibility of results plays a crucial role. The developed algorithm has been tested on datasets of varying sizes up to one billion data vectors.",
+    "citationCount": 0,
+    "referenceCount": 70
+}

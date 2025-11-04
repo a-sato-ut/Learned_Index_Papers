@@ -1,0 +1,40 @@
+{
+    "paperId": "d676d2522891d7cdb81b88d8ba59a3333b594ddc",
+    "title": "Towards Reliable Vector Database Management Systems: A Software Testing Roadmap for 2030",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Shenao Wang",
+        "Yanjie Zhao",
+        "Yinglin Xie",
+        "Zhao Liu",
+        "Xinyi Hou",
+        "Quanchen Zou",
+        "Haoyu Wang"
+    ],
+    "doi": "10.48550/arXiv.2502.20812",
+    "arxivId": "2502.20812",
+    "url": "https://www.semanticscholar.org/paper/d676d2522891d7cdb81b88d8ba59a3333b594ddc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid growth of Large Language Models (LLMs) and AI-driven applications has propelled Vector Database Management Systems (VDBMSs) into the spotlight as a critical infrastructure component. VDBMS specializes in storing, indexing, and querying dense vector embeddings, enabling advanced LLM capabilities such as retrieval-augmented generation, long-term memory, and caching mechanisms. However, the explosive adoption of VDBMS has outpaced the development of rigorous software testing methodologies tailored for these emerging systems. Unlike traditional databases optimized for structured data, VDBMS face unique testing challenges stemming from the high-dimensional nature of vector data, the fuzzy semantics in vector search, and the need to support dynamic data scaling and hybrid query processing. In this paper, we begin by conducting an empirical study of VDBMS defects and identify key challenges in test input generation, oracle definition, and test evaluation. Drawing from these insights, we propose the first comprehensive research roadmap for developing effective testing methodologies tailored to VDBMS. By addressing these challenges, the software testing community can contribute to the development of more reliable and trustworthy VDBMS, enabling the full potential of LLMs and data-intensive AI applications.",
+    "citationCount": 1,
+    "referenceCount": 38
+}

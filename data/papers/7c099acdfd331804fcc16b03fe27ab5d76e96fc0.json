@@ -1,0 +1,43 @@
+{
+    "paperId": "7c099acdfd331804fcc16b03fe27ab5d76e96fc0",
+    "title": "Automatically Classifying Vestibular Gait Using Time-series Data from Wearable IMUs",
+    "year": 2024,
+    "venue": "Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+    "authors": [
+        "Safa Jabri",
+        "Lucy Spicher",
+        "W. Carender",
+        "Jenna Wiens",
+        "K. Sienko"
+    ],
+    "doi": "10.1109/EMBC53108.2024.10782477",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7c099acdfd331804fcc16b03fe27ab5d76e96fc0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Disorders affecting the vestibular system affect the ability to maintain balance and increase the risk of falls. Identifying individuals with vestibular deficits is an important step to inform referral to specialized testing, vestibular rehabilitation, and fall-prevention interventions. Instrumented gait assessments using wearable inertial measurement units (IMUs) and machine learning (ML) algorithms could support the accurate and automated identification of individuals with vestibular deficits. While prior work has demonstrated the feasibility of the automatic classification of vestibular gait, it relied on manual feature-engineering whereby discriminative features are identified and calculated prior to model training. The goal of this study was to develop and validate ML models that automatically learn from minimally pre-processed IMU data to classify gait kinematics from individuals with vestibular deficits and age-matched controls. Thirty study participants (15 with vestibular deficits and 15 age-matched controls) walked with their eyes closed on a 6-meter walkway with an IMU placed on the left arm. Two Bi-directional LSTM (BiLSTM) models were trained on the minimally pre-processed timeseries data alone as well as fusing the timeseries data with engineered features used in prior work. Classification performance was reported and compared to performance from feature-based approaches in terms of area under the receiver operating characteristic curve (AUROC) scores. Results showed that the BiLSTM models trained on minimally pre-processed time-series data achieved excellent classification performance (AUROC = 0.86), and their performance was comparable (p-value > 0.05) to previously published Random Forest models trained on engineered gait features extracted from the same dataset (AUROC = 0.89). These findings highlight that BiLSTM models were able to learn discriminative patterns from the minimally pre-processed IMU data in vestibular gait classification tasks.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

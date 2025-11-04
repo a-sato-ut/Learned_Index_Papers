@@ -1,0 +1,39 @@
+{
+    "paperId": "43c25198f9898a15496622b2e58e83d868214f2f",
+    "title": "Flux: Decoupled Auto-Scaling for Heterogeneous Query Workload in Alibaba AnalyticDB",
+    "year": 2024,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Wei Li",
+        "Jiachi Zhang",
+        "Ye Yin",
+        "Yan Li",
+        "Zhanyang Zhu",
+        "Wenchao Zhou",
+        "Liang Lin",
+        "Feifei Li"
+    ],
+    "doi": "10.1145/3626246.3653381",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/43c25198f9898a15496622b2e58e83d868214f2f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern cloud data warehouses are integral to processing heterogeneous query workloads, which range from quick online transactions to intensive ad-hoc queries and extract, transform, load (ETL) processes. The synchronization of heterogeneous workloads, particularly the blend of short and long-running queries, often degrades performance due to intricate concurrency controls and cooperative multi-tasking execution models. Additionally, the auto-scaling mechanisms for mixed workloads can lead to spikes in demand and underutilized resources, impacting both performance and cost-efficiency. This paper introduces the Flux, a cloud-native workload auto-scaling platform designed for Alibaba AnalyticDB, which implements a pioneering decoupled auto-scaling architecture. By separating the scaling mechanisms for short and long-running queries, Flux not only resolves performance bottlenecks but also harnesses the elasticity of serverless container instances for on-demand resource provisioning. Our extensive evaluations demonstrate Flux's superiority over traditional scaling methods, with up to a 75% reduction in query response time (RT), a 19.0% increase in resource utilization ratio, and a 77.8% decrease in cost overhead.",
+    "citationCount": 5,
+    "referenceCount": 37
+}

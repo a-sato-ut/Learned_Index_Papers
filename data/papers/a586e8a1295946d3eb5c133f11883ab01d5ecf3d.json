@@ -1,0 +1,31 @@
+{
+    "paperId": "a586e8a1295946d3eb5c133f11883ab01d5ecf3d",
+    "title": "MUSS: Multilevel Subset Selection for Relevance and Diversity",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Vu Nguyen",
+        "Andrey Kan"
+    ],
+    "doi": "10.48550/arXiv.2503.11126",
+    "arxivId": "2503.11126",
+    "url": "https://www.semanticscholar.org/paper/a586e8a1295946d3eb5c133f11883ab01d5ecf3d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The problem of relevant and diverse subset selection has a wide range of applications, including recommender systems and retrieval-augmented generation (RAG). For example, in recommender systems, one is interested in selecting relevant items, while providing a diversified recommendation. Constrained subset selection problem is NP-hard, and popular approaches such as Maximum Marginal Relevance (MMR) are based on greedy selection. Many real-world applications involve large data, but the original MMR work did not consider distributed selection. This limitation was later addressed by a method called DGDS which allows for a distributed setting using random data partitioning. Here, we exploit structure in the data to further improve both scalability and performance on the target application. We propose MUSS, a novel method that uses a multilevel approach to relevant and diverse selection. In a recommender system application, our method can not only improve the performance up to $4$ percent points in precision, but is also $20$ to $80$ times faster. Our method is also capable of outperforming baselines on RAG-based question answering accuracy. We present a novel theoretical approach for analyzing this type of problems, and show that our method achieves a constant factor approximation of the optimal objective. Moreover, our analysis also resulted in a $\\times 2$ tighter bound for DGDS compared to previously known bound.",
+    "citationCount": 0,
+    "referenceCount": 50
+}

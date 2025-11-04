@@ -1,0 +1,32 @@
+{
+    "paperId": "5606211736f4e6d564d9e4b2a03bc884b43307bd",
+    "title": "To Each (Textual Sequence) Its Own: Improving Memorized-Data Unlearning in Large Language Models",
+    "year": 2024,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "George-Octavian Barbulescu",
+        "Peter Triantafillou"
+    ],
+    "doi": "10.48550/arXiv.2405.03097",
+    "arxivId": "2405.03097",
+    "url": "https://www.semanticscholar.org/paper/5606211736f4e6d564d9e4b2a03bc884b43307bd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LLMs have been found to memorize training textual sequences and regurgitate verbatim said sequences during text generation time. This fact is known to be the cause of privacy and related (e.g., copyright) problems. Unlearning in LLMs then takes the form of devising new algorithms that will properly deal with these side-effects of memorized data, while not hurting the model's utility. We offer a fresh perspective towards this goal, namely, that each textual sequence to be forgotten should be treated differently when being unlearned based on its degree of memorization within the LLM. We contribute a new metric for measuring unlearning quality, an adversarial attack showing that SOTA algorithms lacking this perspective fail for privacy, and two new unlearning methods based on Gradient Ascent and Task Arithmetic, respectively. A comprehensive performance evaluation across an extensive suite of NLP tasks then mapped the solution space, identifying the best solutions under different scales in model capacities and forget set sizes and quantified the gains of the new approaches.",
+    "citationCount": 31,
+    "referenceCount": 64
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "834137d34c0d6d39ec51c95f2b283345620dc79e",
+    "title": "Do Predictors for Resource Overcommitment Even Predict?",
+    "year": 2024,
+    "venue": "EuroMLSys@EuroSys",
+    "authors": [
+        "Georgia Christofidi",
+        "Thaleia Dimitra Doudali"
+    ],
+    "doi": "10.1145/3642970.3655838",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/834137d34c0d6d39ec51c95f2b283345620dc79e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Resource overcommitment allows datacenters to improve resource efficiency. In this approach, the system allocates to the users the amount of resources to be most likely used, not necessarily the ones requested. To do so, the system monitors resource usage over time and predicts its future behaviour. High prediction accuracy is very important because underestimations may lead to degraded performance and user experience. In response, production-level solutions follow a conservative approach that chooses the maximum value among various other predictors. This paper reveals that this approach severely overestimates resource usage, predicting values that even surpass the amount of resources requested by the user. Our experimental analysis shows that current predictors allow for overcommitment to actually happen only 6% of the times, due to severe mispredictions that incur 568% average relative error. We show that current predictors end up causing immense resource waste. We quantify the benefit from an oracular predictor to be 59% higher resource savings, on average, compared to the currently used ones. In conclusion, this paper motivates the need to create more accurate predictors for resource overcommitment and discusses potential challenges and new questions that arise.",
+    "citationCount": 4,
+    "referenceCount": 35
+}

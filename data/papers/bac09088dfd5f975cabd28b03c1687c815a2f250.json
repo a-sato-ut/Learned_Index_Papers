@@ -1,0 +1,30 @@
+{
+    "paperId": "bac09088dfd5f975cabd28b03c1687c815a2f250",
+    "title": "Predicting Job Change Intentions for a Food Manufacturing Company: A Deep Learning Case Study",
+    "year": 2024,
+    "venue": "International Journal For Multidisciplinary Research",
+    "authors": [
+        "Rachid Ejjami"
+    ],
+    "doi": "10.36948/ijfmr.2024.v06i04.24871",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bac09088dfd5f975cabd28b03c1687c815a2f250",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.ijfmr.com/papers/2024/4/24871.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study aims to address employee job change intention in the competitive food manufacturing industry by developing deep learning models to predict job change intentions. Using a comprehensive dataset of 32,000 employee records, including demographics, education, and work experience, the study employed a quantitative methodology with neural network analysis. Various deep learning models were implemented and evaluated using TensorFlow and Keras, with techniques like GridSearchCV, Random Search CV, SMOTE, and Keras Tuner used for hyperparameter tuning and addressing class imbalance. The findings revealed significant differences in model effectiveness, with Model 7: Complex Neural Network Architecture, featuring a complex architecture and appropriate regularization, achieving a reasonable balance across metrics and demonstrating improved recall for job changers. This suggests its suitability for predicting job change intention in a food manufacturing company. The study concludes that well-tuned deep learning models can significantly enhance predictive accuracy, offering valuable insights for HR professionals to develop targeted retention strategies. Future research should explore additional features influencing staff job change intention, validate these models across diverse organizational contexts, and integrate real-time data analytics and explainable AI techniques to improve transparency and effectiveness in HR practices.",
+    "citationCount": 1,
+    "referenceCount": 35
+}

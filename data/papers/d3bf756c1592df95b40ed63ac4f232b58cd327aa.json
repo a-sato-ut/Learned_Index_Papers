@@ -1,0 +1,28 @@
+{
+    "paperId": "d3bf756c1592df95b40ed63ac4f232b58cd327aa",
+    "title": "Graph-Based Model of Semantic Entanglement in Information Sources Using Embedding Representations and Coherence Analysis",
+    "year": 2025,
+    "venue": "2025 International Russian Automation Conference (RusAutoCon)",
+    "authors": [
+        "N. Dmitriev",
+        "Andrey Zaytsev",
+        "E. Konnikov"
+    ],
+    "doi": "10.1109/RusAutoCon65989.2025.11177441",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d3bf756c1592df95b40ed63ac4f232b58cd327aa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The article proposes a graph-based framework for representing semantic entanglement in information sources by means of sentence embedding representations and coherence evaluation. Initially the text undergoes segmentation at sentence level and is vectorized with a Sentence BERT model fine-tuned for semantic proximity measurement. Subsequently a semantic graph is generated where an edge is instantiated whenever the cosine similarity between two sentence vectors surpasses the threshold θ corresponding to the eighty-fifth percentile of all pairwise similarity values. To quantify the topological and semantic characteristics of this graph the following metrics are computed: Semantic Entanglement Index, Quantum Coherence, Superpositional Ambiguity, Spectral Entropy, and Fractal Dimension. The methodology integrates thematic aggregation via BERTopic with class-based TF IDF multiscale visualization through t SNE PCA and UMAP alongside conventional graph theoretic measures such as centrality and clustering coefficient. An empirical evaluation conducted on a corpus of philosophical and economic texts revealed strong adaptability to fragmented and technically rich passages precise identification of semantic hubs and resilience to noise. Future developments will extend the paradigm to encompass multimodal analysis dynamic graph models and integration with ontological systems.",
+    "citationCount": 0,
+    "referenceCount": 29
+}

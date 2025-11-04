@@ -1,0 +1,27 @@
+{
+    "paperId": "70ced510a2fe0b82c2ecdce3a7e8119e09dae23f",
+    "title": "Leveraging Generative AI in Short Document Indexing",
+    "year": 2024,
+    "venue": "Electronics",
+    "authors": [
+        "Sara Bouzid",
+        "Loïs Piron"
+    ],
+    "doi": "10.3390/electronics13173563",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/70ced510a2fe0b82c2ecdce3a7e8119e09dae23f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/electronics13173563",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The efficiency of information retrieval systems primarily depends on the effective representation of documents during query processing. This representation is mainly constructed from relevant document terms identified and selected during their indexing, which are then used for retrieval. However, when documents contain only a few features, such as in short documents, the resulting representation may be information-poor due to a lack of index terms and their lack of relevance. Although document representation can be enriched using techniques like word embeddings, these techniques require large pre-trained datasets, which are often unavailable in the context of domain-specific short documents. This study investigates a new approach to enrich document representation during indexing using generative AI. In the proposed approach, relevant terms extracted from documents and preprocessed for indexing are enriched with a list of key terms suggested by a large language model (LLM). After conducting a small benchmark of several renowned LLM models for key term suggestions from a set of short texts, the GPT-4o model was chosen to experiment with the proposed indexing approach. The findings of this study yielded notable results, demonstrating that generative AI can efficiently fill the knowledge gap in document representation, regardless of the retrieval technique used.",
+    "citationCount": 2,
+    "referenceCount": 53
+}

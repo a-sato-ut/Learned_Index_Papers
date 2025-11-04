@@ -1,0 +1,35 @@
+{
+    "paperId": "4b741de43f414ea961f145f25abc949a1b486708",
+    "title": "A Hybrid CNN-LSTM Approach for Classifying Cattle Behavior Using Accelerometer Data",
+    "year": 2025,
+    "venue": "IEEE International Conference on Circuits and Systems for Communications",
+    "authors": [
+        "Khalid El Moutaouakil",
+        "Noureddine Falih"
+    ],
+    "doi": "10.1109/ICCSC66714.2025.11135242",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4b741de43f414ea961f145f25abc949a1b486708",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Agricultural and Food Sciences",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this publication, we present a new hybrid model based on animal behavior classification using the accelerometer data through the integration of CNNs LSTM networks. Proper classification of behavior patterns from sensor data is of paramount value, particularly for the production and welfare aspects, as understanding cattle behavior is important. Traditional approaches have problems identifying both spatial and temporal features within time series data. In our model, spatial features are extracted first from the accelerometer signals using CNN layers, then the signals are fed into LSTM layers that model long-range temporal dependencies. We use a comprehensive dataset to cover the entire spectrum of behavior delineation such as walking, ruminating, and resting to assess the performance of our model. The results confirm that the CNN-LSTM model provides better performance than conventional classification techniques in distinguishing and classifying data, with remarkable improvement on accuracy and robustness. This study advances the field of bioinformatics by enabling automatic behavioral classification which can be leveraged in cattle monitoring systems, behavioral ecology, and animal welfare research.",
+    "citationCount": 0,
+    "referenceCount": 16
+}

@@ -1,0 +1,28 @@
+{
+    "paperId": "e017068fa26827c9d576272ecfb873d0eec7885c",
+    "title": "Detecting Instruction Fine-tuning Attacks on Language Models using Influence Function",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Jiawei Li"
+    ],
+    "doi": null,
+    "arxivId": "2504.09026",
+    "url": "https://www.semanticscholar.org/paper/e017068fa26827c9d576272ecfb873d0eec7885c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Instruction finetuning attacks pose a serious threat to large language models (LLMs) by subtly embedding poisoned examples in finetuning datasets, leading to harmful or unintended behaviors in downstream applications. Detecting such attacks is challenging because poisoned data is often indistinguishable from clean data and prior knowledge of triggers or attack strategies is rarely available. We present a detection method that requires no prior knowledge of the attack. Our approach leverages influence functions under semantic transformation: by comparing influence distributions before and after a sentiment inversion, we identify critical poison examples whose influence is strong and remain unchanged before and after inversion. We show that this method works on sentiment classification task and math reasoning task, for different language models. Removing a small set of critical poisons (about 1% of the data) restores the model performance to near-clean levels. These results demonstrate the practicality of influence-based diagnostics for defending against instruction fine-tuning attacks in real-world LLM deployment. Artifact available at https://github.com/lijiawei20161002/Poison-Detection. WARNING: This paper contains offensive data examples.",
+    "citationCount": 0,
+    "referenceCount": 41
+}

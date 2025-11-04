@@ -1,0 +1,32 @@
+{
+    "paperId": "26717d031bc1d9f831d5c3425fb8bd9254329e14",
+    "title": "RAGent: Retrieval-based Access Control Policy Generation",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sakuna Jayasundara",
+        "N. Arachchilage",
+        "Giovanni Russello"
+    ],
+    "doi": "10.48550/arXiv.2409.07489",
+    "arxivId": "2409.07489",
+    "url": "https://www.semanticscholar.org/paper/26717d031bc1d9f831d5c3425fb8bd9254329e14",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Manually generating access control policies from an organization's high-level requirement specifications poses significant challenges. It requires laborious efforts to sift through multiple documents containing such specifications and translate their access requirements into access control policies. Also, the complexities and ambiguities of these specifications often result in errors by system administrators during the translation process, leading to data breaches. However, the automated policy generation frameworks designed to help administrators in this process are unreliable due to limitations, such as the lack of domain adaptation. Therefore, to improve the reliability of access control policy generation, we propose RAGent, a novel retrieval-based access control policy generation framework based on language models. RAGent identifies access requirements from high-level requirement specifications with an average state-of-the-art F1 score of 87.9%. Through retrieval augmented generation, RAGent then translates the identified access requirements into access control policies with an F1 score of 77.9%. Unlike existing frameworks, RAGent generates policies with complex components like purposes and conditions, in addition to subjects, actions, and resources. Moreover, RAGent automatically verifies the generated policies and iteratively refines them through a novel verification-refinement mechanism, further improving the reliability of the process by 3%, reaching the F1 score of 80.6%. We also introduce three annotated datasets for developing access control policy generation frameworks in the future, addressing the data scarcity of the domain.",
+    "citationCount": 7,
+    "referenceCount": 84
+}

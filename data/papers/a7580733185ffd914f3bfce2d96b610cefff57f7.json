@@ -1,0 +1,34 @@
+{
+    "paperId": "a7580733185ffd914f3bfce2d96b610cefff57f7",
+    "title": "Information Extraction of FMCW Laser Ranging Based on ResNet-BiGRU",
+    "year": 2024,
+    "venue": "Asia Communications and Photonics conference and Exhibition",
+    "authors": [
+        "Pansong Zhang",
+        "Zhuoran Wang",
+        "Haohao Zhao",
+        "G. Yuan",
+        "Shichang Xu"
+    ],
+    "doi": "10.1109/ACP/IPOC63121.2024.10809780",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a7580733185ffd914f3bfce2d96b610cefff57f7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Frequency Modulated Continuous Wave (FMCW) Light Detection and Ranging (LiDAR) system is known for its high accuracy and resolution, capable of precisely obtaining distance information of target objects. However, traditional methods for extracting distance information may not be robust enough and can be affected by noise, thereby impacting measurement accuracy. To address this issue, this research proposes a method based on deep neural networks that combines Residual Network (ResNet) and Bidirectional Gated Recurrent Unit (BiGRU) to enhance the performance of the FMCW LiDAR system. The ResNet model adds identity mappings to the original Convolutional Neural Network (CNN) model to improve the efficiency of backpropagation and parameter optimization, while the BiGRU utilizes its bidirectional learning capability to effectively analyze time series data and capture dynamic changes. By using the ResNet-BiGRU network to invert the beat frequency signals at different distances, the experimental results show that the ranging accuracy has been significantly improved, and the network's robustness has also been enhanced.",
+    "citationCount": 0,
+    "referenceCount": 6
+}

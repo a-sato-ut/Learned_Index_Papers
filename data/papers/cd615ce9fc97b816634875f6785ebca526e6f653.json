@@ -1,0 +1,35 @@
+{
+    "paperId": "cd615ce9fc97b816634875f6785ebca526e6f653",
+    "title": "Exploring the Landscape: Analysis of Model Results on Various Convolutional Neural Network Architectures for iRESPOND System",
+    "year": 2024,
+    "venue": "International Journal of Advanced Computer Science and Applications",
+    "authors": [
+        "Freddie Prianes",
+        "Kaela Marie N. Fortuno",
+        "Rosel O. Onesa",
+        "Brenda Benosa",
+        "Thelma Domingo Palaoag",
+        "Nancy Flores"
+    ],
+    "doi": "10.14569/ijacsa.2024.0150352",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cd615ce9fc97b816634875f6785ebca526e6f653",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://thesai.org/Downloads/Volume15No3/Paper_52-Exploring_the_Landscape_Analysis_of_Model_Results.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "—In the era of rapid technological advancement, the integration of cutting-edge technologies plays a pivotal role in enhancing the efficiency and responsiveness of critical systems. iRESPOND, a real-time Geospatial Information and Alert System, stands at the forefront of such innovations, facilitating timely and informed decision-making in dynamic environments. As the demand for accurate and swift responses, the role of CNN models in iRESPOND becomes significant. The study focuses on seven prominent CNN architectures, namely EfficientNet (B0, B7, V2B0, and V2L), InceptionV3, ResNet50, and VGG19 and with the integration of different optimizers and learning rates. The methodology employed a strategic implementation of looping during the training phase. This iterative approach is designed to systematically re-train the CNN models, emphasizing identifying the most suitable architecture among the seven considered variants. The primary objective is to discern the optimal architecture and fine-tune critical parameters, explicitly targeting the optimizer and learning rate values. The differential impact of each model on the system's ability is to discern patterns and anomalies in the image datasets. ResNet50 exhibited robust performance showcasing suitability for real-time processing in dynamic environments with a better accuracy result of 95.02%. However, the EfficientNetV2B0 model, characterized by its advancements in network scaling, presented promising results with a lower loss of 0.187. Generally, the findings not only contribute valuable insights into the optimal selection of architectures for iRESPOND but also highlight the importance of fine-tuning hyperparameters through an iterative training approach, which paves the way for the continued enhancement of iRESPOND as an adaptive system.",
+    "citationCount": 0,
+    "referenceCount": 50
+}

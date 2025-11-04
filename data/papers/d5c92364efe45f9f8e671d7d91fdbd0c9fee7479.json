@@ -1,0 +1,46 @@
+{
+    "paperId": "d5c92364efe45f9f8e671d7d91fdbd0c9fee7479",
+    "title": "Flux: Unifying Heterogeneous Infrastructure for Alibaba AnalyticDB",
+    "year": 2025,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Wei Li",
+        "Jiachi Zhang",
+        "Ye Yin",
+        "Yan Li",
+        "Zhanyang Zhu",
+        "Yuhao Li",
+        "Zhencan Peng",
+        "Lan Lu",
+        "Wenchao Zhou",
+        "Liang Lin",
+        "Feifei Li"
+    ],
+    "doi": "10.1145/3722212.3724438",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d5c92364efe45f9f8e671d7d91fdbd0c9fee7479",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The growing complexity and variety of workloads in cloud data warehouses encompass both traditional analytical workloads and emerging AI-related workloads. And this diversity has highlighted the limitations of traditional CPU-based systems in processing heterogeneous workloads. Hardware acceleration, including Field-Programmable Gate Arrays (FPGAs) and Graphics Processing Units (GPUs), improves computational efficiency. However, the high total cost of ownership (TCO) hinders widespread adoption of the acceleration hardware in cloud data warehouses. Addressing the challenge, we introduce Flux, a unified cluster management system on heterogeneous infrastructure for Alibaba AnalyticDB. Our work begins by defining an acceleration priority score that evaluates the cost saving and acceleration ratios for different workloads. By employing this metric, we design a priority-based workload manager and a unified resource scheduler that optimizes the performance and TCOs for both the users and cloud service providers. In the end, we present empirical evaluations conducted on real-world AnalyticDB instances, demonstrating an average 4.39x acceleration, a 21.9% reduction in user TCO, and a 47% decrease in cloud service providers' TCO.",
+    "citationCount": 0,
+    "referenceCount": 73
+}

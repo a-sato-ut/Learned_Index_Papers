@@ -1,0 +1,38 @@
+{
+    "paperId": "794bc6bbe25f5d109e4628775c27bf376d76638a",
+    "title": "High Throughput Shortest Distance Query Processing on Large Dynamic Road Networks",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Xinjie Zhou",
+        "Mengxuan Zhang",
+        "Lei Li",
+        "Xiaofang Zhou"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00092",
+    "arxivId": "2409.06148",
+    "url": "https://www.semanticscholar.org/paper/794bc6bbe25f5d109e4628775c27bf376d76638a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Shortest path (SP) computation is the building block for many location-based services, and achieving high throughput SP query processing with real-time response is crucial for those services. However, existing solutions can hardly handle high throughput queries on large dynamic road networks due to either slow query efficiency or poor dynamic adaption. In this paper, we leverage graph partitioning and propose novel Partitioned Shortest Path (PSP) indexes to address this problem. Specifically, we first put forward a cross-boundary strategy to accelerate the query processing of PSP index and analyze its efficiency upper bound theoretically. After that, we propose a non-trivial Partitioned Multi-stage Hub Labeling (PMHL) that subtly aggregates multiple PSP strategies to achieve fast index maintenance and consecutive query efficiency improvement during index update. Lastly, to further optimize throughput, we design tree decomposition-based graph partitioning and propose Post-partitioned MHL (PostMHL) with faster query processing and index update. Experiments on real-world road networks show that our methods outperform state-of-the-art baselines in query throughput, yielding up to 2 orders of magnitude improvement.",
+    "citationCount": 2,
+    "referenceCount": 80
+}

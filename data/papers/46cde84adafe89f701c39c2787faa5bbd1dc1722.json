@@ -1,0 +1,32 @@
+{
+    "paperId": "46cde84adafe89f701c39c2787faa5bbd1dc1722",
+    "title": "SIA-Net: Sparse Interactive Attention Network for Multimodal Emotion Recognition",
+    "year": 2024,
+    "venue": "IEEE Transactions on Computational Social Systems",
+    "authors": [
+        "Ieee Shuzhen Li Student Member",
+        "Ieee Tong Zhang Senior Member",
+        "Ieee C. L. Philip Chen Fellow"
+    ],
+    "doi": "10.1109/TCSS.2024.3409715",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/46cde84adafe89f701c39c2787faa5bbd1dc1722",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multimodal emotion recognition (MER) integrates multiple modalities to identify the user's emotional state, which is the core technology of natural and friendly human–computer interaction systems. Currently, many researchers have explored comprehensive multimodal information for MER, but few consider that comprehensive multimodal features may contain noisy, useless, or redundant information, which interferes with emotional feature representation. To tackle this challenge, this article proposes a sparse interactive attention network (SIA-Net) for MER. In SIA-Net, the sparse interactive attention (SIA) module mainly consists of intramodal sparsity and intermodal sparsity. The intramodal sparsity provides sparse but effective unimodal features for multimodal fusion. The intermodal sparsity adaptively sparses intramodal and intermodal interactive relations and encodes them into sparse interactive attention. The sparse interactive attention with a small number of nonzero weights then act on multimodal features to highlight a few but important features and suppress numerous redundant features. Furthermore, the intramodal sparsity and intermodal sparsity are deep sparse representations that make unimodal features and multimodal interactions sparse without complicated optimization. The extensive experimental results show that SIA-Net achieves superior performance on three widely used datasets.",
+    "citationCount": 8,
+    "referenceCount": 85
+}

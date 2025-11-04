@@ -1,0 +1,31 @@
+{
+    "paperId": "714dbe15c2b77a95f75130743c2ebe76060b0adb",
+    "title": "Sphinx: A Succinct Perfect Hash Index for x86",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Sajad Faghfoor Maghrebi",
+        "Niv Dayan"
+    ],
+    "doi": "10.14778/3749646.3749703",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/714dbe15c2b77a95f75130743c2ebe76060b0adb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many modern key-value stores rely on an in-memory index to map the location of each data entry in storage. The size of this index often becomes a memory bottleneck that makes it difficult to scale the system to large data sizes. To address this problem, the state-of-the-art approach is to structure this index as a succinct perfect hash table using only ≈ 4 bits per key. The downside is that the hash table encoding is computationally expensive to parse and may harm overall system performance.\n We introduce Sphinx, a succinct perfect hash table reengineered for high performance on commodity CPUs. Sphinx is encoded in a manner that lends itself to efficient access using rank and select primitives, and it uses auxiliary metadata to decode common hash table slots instantaneously. Sphinx is also expandable and parallelizable. We compare Sphinx to the best alternatives and show that it leads to a 2x reduction in query latency, update latency, and memory footprint.",
+    "citationCount": 0,
+    "referenceCount": 58
+}

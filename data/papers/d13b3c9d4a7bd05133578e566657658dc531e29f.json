@@ -1,0 +1,32 @@
+{
+    "paperId": "d13b3c9d4a7bd05133578e566657658dc531e29f",
+    "title": "Adding Domain Knowledge to Query-Driven Learned Databases",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Peizhi Wu",
+        "Ryan Marcus",
+        "Z. Ives"
+    ],
+    "doi": "10.48550/arXiv.2312.01025",
+    "arxivId": "2312.01025",
+    "url": "https://www.semanticscholar.org/paper/d13b3c9d4a7bd05133578e566657658dc531e29f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, \\emph{learned cardinality estimation} has emerged as an alternative to traditional query optimization methods: by training machine learning models over observed query performance, learned cardinality estimation techniques can accurately predict query cardinalities and costs -- accounting for skew, correlated predicates, and many other factors that traditional methods struggle to capture. However, query-driven learned cardinality estimators are dependent on sample workloads, requiring vast amounts of labeled queries. Further, we show that state-of-the-art query-driven techniques can make significant and unpredictable errors on queries that are outside the distribution of their training set. We show that these out-of-distribution errors can be mitigated by incorporating the \\emph{domain knowledge} used in traditional query optimizers: \\emph{constraints} on values and cardinalities (e.g., based on key-foreign-key relationships, range predicates, and more generally on inclusion and functional dependencies). We develop methods for \\emph{semi-supervised} query-driven learned query optimization, based on constraints, and we experimentally demonstrate that such techniques can increase a learned query optimizer's accuracy in cardinality estimation, reduce the reliance on massive labeled queries, and improve the robustness of query end-to-end performance.",
+    "citationCount": 1,
+    "referenceCount": 52
+}

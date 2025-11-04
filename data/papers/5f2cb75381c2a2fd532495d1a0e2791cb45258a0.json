@@ -1,0 +1,31 @@
+{
+    "paperId": "5f2cb75381c2a2fd532495d1a0e2791cb45258a0",
+    "title": "Bridging geological domain gaps in fluid classification using siamese networks and cross-domain adaptation",
+    "year": 2025,
+    "venue": "The Physics of Fluids",
+    "authors": [
+        "Hengxiao Li",
+        "Sibo Qiao"
+    ],
+    "doi": "10.1063/5.0264493",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5f2cb75381c2a2fd532495d1a0e2791cb45258a0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Geology",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Traditional fluid identification methods usually rely on labeled data, which is both scarce and expensive in real-world applications. One significant challenge in this regard is the difficulty of transferring fluid identification techniques across diverse geological environments. To address this issue, we propose a new fluid identification method that integrates siamese networks with cross-domain adaptation mechanisms (FCSCD). The primary objective of FCSCD is to bridge the data distribution gap between different geological domains, thereby improving fluid identification efficiency. By harnessing the contrastive learning power of siamese networks, FCSCD promotes the transfer of knowledge between source and target domains by measuring feature similarities across these geological settings. Furthermore, the adoption of cross-domain adaptation mechanisms ensures that the distribution differences of fluid categories are aligned, which ultimately improves classification accuracy. This method proves particularly effective for fluid identification tasks in complex reservoirs, where substantial geological variations between regions pose significant challenges for traditional models. Experimental results from a typical well dataset in the Tarim Oilfield show that the FCSCD model outperforms traditional approaches by a large margin. Comparative experiments also highlight the exceptional adaptability and robustness of FCSCD in managing fluid boundary complexities and addressing shifts in feature distributions across geological domains.",
+    "citationCount": 2,
+    "referenceCount": 53
+}

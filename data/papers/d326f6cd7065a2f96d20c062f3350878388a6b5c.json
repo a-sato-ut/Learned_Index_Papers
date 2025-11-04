@@ -1,0 +1,33 @@
+{
+    "paperId": "d326f6cd7065a2f96d20c062f3350878388a6b5c",
+    "title": "Low Complexity Forest Fire Detection Based on Improved YOLOv8 Network",
+    "year": 2024,
+    "venue": "Forests",
+    "authors": [
+        "Lin Lei",
+        "Ruifeng Duan",
+        "Feng Yang",
+        "Longhang Xu"
+    ],
+    "doi": "10.3390/f15091652",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d326f6cd7065a2f96d20c062f3350878388a6b5c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/f15091652",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Forest fires pose a significant threat to ecosystems and communities. This study introduces innovative enhancements to the YOLOv8n object detection algorithm, significantly improving its efficiency and accuracy for real-time forest fire monitoring. By employing Depthwise Separable Convolution and Ghost Convolution, the model’s computational complexity is significantly reduced, making it suitable for deployment on resource-constrained edge devices. Additionally, Dynamic UpSampling and Coordinate Attention mechanisms enhance the model’s ability to capture multi-scale features and focus on relevant regions, improving detection accuracy for small-scale fires. The Distance-Intersection over Union loss function further optimizes the model’s training process, leading to more accurate bounding box predictions. Experimental results on a comprehensive dataset demonstrate that our proposed model achieves a 41% reduction in parameters and a 54% reduction in GFLOPs, while maintaining a high mean Average Precision (mAP) of 99.0% at an Intersection over Union (IoU) threshold of 0.5. The proposed model offers a promising solution for real-time forest fire monitoring, enabling a timely detection of, and response to, wildfires.",
+    "citationCount": 5,
+    "referenceCount": 35
+}

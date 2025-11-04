@@ -1,0 +1,36 @@
+{
+    "paperId": "a2f6ac61319ee1b14e66e162629af1c56e6218b7",
+    "title": "Auto-Sklong: A New AutoML System for Longitudinal Classification",
+    "year": 2024,
+    "venue": "IEEE International Conference on Bioinformatics and Biomedicine",
+    "authors": [
+        "Simon Provost",
+        "A. A. Freitas"
+    ],
+    "doi": "10.1109/BIBM62325.2024.10821737",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a2f6ac61319ee1b14e66e162629af1c56e6218b7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automated Machine Learning (AutoML) addresses the challenge of selecting the best machine learning algorithm and its hyperparameter settings for a given dataset. However, existing AutoML systems typically focus on standard classification tasks and cannot directly exploit temporal information e.g. in longitudinal datasets, which contain multiple measurements of the same features over time — a common scenario in biomedical applications. We introduce Auto-Sklong, the first AutoML system that includes longitudinal classification algorithms in its search space. Experiments with 20 age-related disease datasets from the English Longitudinal Study of Ageing demonstrate that Auto-Sklong significantly outperforms a state-of-the-art AutoML system (Auto-Sklearn) and two baseline random forest methods in terms of predictive accuracy.",
+    "citationCount": 1,
+    "referenceCount": 26
+}

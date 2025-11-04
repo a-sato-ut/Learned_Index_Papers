@@ -1,0 +1,45 @@
+{
+    "paperId": "ab1af25cafce63338bbacdea81891e566a42f2c5",
+    "title": "SGDRC: Software-Defined Dynamic Resource Control for Concurrent DNN Inference on NVIDIA GPUs",
+    "year": 2024,
+    "venue": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+    "authors": [
+        "Yongkang Zhang",
+        "Haoxuan Yu",
+        "Chenxia Han",
+        "Cheng Wang",
+        "Baotong Lu",
+        "Yunzhe Li",
+        "Zhifeng Jiang",
+        "Yang Li",
+        "Xiaowen Chu",
+        "Huaicheng Li"
+    ],
+    "doi": "10.1145/3710848.3710863",
+    "arxivId": "2407.13996",
+    "url": "https://www.semanticscholar.org/paper/ab1af25cafce63338bbacdea81891e566a42f2c5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cloud service providers heavily colocate high-priority, latency sensitive (LS), and low-priority, best-effort (BE) DNN inference services on the same GPU to improve resource utilization in data centers. Among the critical shared GPU resources, there has been very limited analysis on the dynamic allocation of compute units and VRAM bandwidth, mainly for two reasons: (1) The native GPU resource management solutions are either hardware-specific, or unable to dynamically allocate resources to different tenants, or both; (2) NVIDIA doesn't expose interfaces for VRAM bandwidth allocation, and the software stack and VRAM channel architectures are black-box, both of which limit the software-level resource management. These drive prior work to design either conservative sharing policies detrimental to throughput, or static resource partitioning only applicable to a few GPU models. To bridge this gap, this paper proposes SGDRC, a fully software-defined dynamic VRAM bandwidth and compute unit management solution for concurrent DNN inference services. SGDRC aims at guaranteeing service quality, maximizing the overall throughput, and providing general applicability to NVIDIA GPUs. SGDRC first reveals a general VRAM channel hash mapping architecture of NVIDIA GPUs through comprehensive reverse engineering and eliminates VRAM channel conflicts using software-level cache coloring. SGDRC applies bimodal tensors and tidal SM masking to dynamically allocate VRAM bandwidth and compute units, and guides the allocation of resources based on offline profiling. We evaluate 11 mainstream DNNs with real-world workloads on two NVIDIA GPUs. The results show that compared with the state-of-the-art GPU sharing solutions, SGDRC achieves the highest SLO attainment rates (99.0% on average), and improves overall throughput by up to 1.47× and BE job throughput by up to 2.36×.",
+    "citationCount": 6,
+    "referenceCount": 64
+}

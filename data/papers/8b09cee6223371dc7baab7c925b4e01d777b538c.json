@@ -1,0 +1,41 @@
+{
+    "paperId": "8b09cee6223371dc7baab7c925b4e01d777b538c",
+    "title": "An interpretable alphabet for local protein structure search based on amino acid neighborhoods",
+    "year": 2025,
+    "venue": "bioRxiv",
+    "authors": [
+        "Saba Zerefa",
+        "Jesse Cool",
+        "Pramesh Singh",
+        "Samantha Petti"
+    ],
+    "doi": "10.1093/bioinformatics/btaf458",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8b09cee6223371dc7baab7c925b4e01d777b538c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Motivation Recent advancements in protein structure prediction methods have vastly increased the size of databases of protein structures, necessitating fast methods for protein structure comparison. Search methods that find structurally similar proteins can be applied to find remote homologs, study the functional relationships among proteins, and aid in protein engineering tasks. The structure comparison method Foldseek represents each protein structure as a sequence of “3Di” characters and uses highly optimized sequence comparison software to search with this alphabet. An alternate alphabet encoding richer features has the potential to improve search accuracy while leaving the underlying search algorithm unchanged. Results We design a “3Dn” structural alphabet that encodes the local neighborhoods around each amino acid in an interpretable way. In a search benchmark task, a combination of our alphabet and Foldseek’s 3Di alphabet, outperforms each alphabet individually and ranks best among local search methods that do not require amino acid identity information. We provide software tools that enable the exploration of novel alphabets and combinations of alphabets for protein structure search. Availability and implementation The code is freely available at https://github.com/spetti/structure_comparison.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

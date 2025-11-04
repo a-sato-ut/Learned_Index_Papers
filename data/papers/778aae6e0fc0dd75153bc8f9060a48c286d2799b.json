@@ -1,0 +1,40 @@
+{
+    "paperId": "778aae6e0fc0dd75153bc8f9060a48c286d2799b",
+    "title": "Bamboo Filters: Make Resizing Smooth and Adaptive",
+    "year": 2024,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "Hancheng Wang",
+        "Haipeng Dai",
+        "Shusen Chen",
+        "Meng Li",
+        "Rong Gu",
+        "Huayi Chai",
+        "Jiaqi Zheng",
+        "Zhiyuan Chen",
+        "Shuaituan Li",
+        "Xianjun Deng",
+        "Guihai Chen"
+    ],
+    "doi": "10.1109/TNET.2024.3403997",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/778aae6e0fc0dd75153bc8f9060a48c286d2799b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The approximate membership query (AMQ) data structure is a kind of space-efficient probabilistic data structure. It can approximately indicate whether an element exists in a set. The AMQ data structure has been widely used in network measurements, network security, network caching, etc. Resizing is an extensively utilized operation of the AMQ data structure, but it can lead to system performance degradation. We summarize two main problems that lead to such degradation. Specifically, one of them is that the resizing operation can block other operations, while the other one is that the throughput of AMQ structures will deteriorate after multiple resizing operations due to more computation cost. However, existing related work cannot alleviate both of them. Therefore, we propose a novel AMQ data structure called bamboo filters, which can alleviate the two problems simultaneously. Bamboo filters can insert, look up, and delete an element in constant time. They can also dynamically resize in a fine-grained way. Furthermore, we propose space utilization adaptive bamboo filters that adaptively trigger resizing operations according to the space utilization, thereby achieving lower average memory consumption. Experimental results show that our scheme significantly outperforms state-of-the-art work. Especially, bamboo filters achieve $2.12\\times $ lookup throughput of the logarithmic dynamic cuckoo filter.",
+    "citationCount": 11,
+    "referenceCount": 75
+}

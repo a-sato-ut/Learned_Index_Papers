@@ -1,0 +1,37 @@
+{
+    "paperId": "acbed493c1ac16385154de713cae2a1e327d63b4",
+    "title": "From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Kaiwen Wei",
+        "Kejun He",
+        "Xiaomian Kang",
+        "Jie Zhang",
+        "Yuming Yang",
+        "Jiang Zhong",
+        "He Bai",
+        "Junnan Zhu"
+    ],
+    "doi": "10.48550/arXiv.2509.23649",
+    "arxivId": "2509.23649",
+    "url": "https://www.semanticscholar.org/paper/acbed493c1ac16385154de713cae2a1e327d63b4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative recommendation, which directly generates item identifiers, has emerged as a promising paradigm for recommendation systems. However, its potential is fundamentally constrained by the reliance on purely autoregressive training. This approach focuses solely on predicting the next item while ignoring the rich internal structure of a user's interaction history, thus failing to grasp the underlying intent. To address this limitation, we propose Masked History Learning (MHL), a novel training framework that shifts the objective from simple next-step prediction to deep comprehension of history. MHL augments the standard autoregressive objective with an auxiliary task of reconstructing masked historical items, compelling the model to understand ``why''an item path is formed from the user's past behaviors, rather than just ``what''item comes next. We introduce two key contributions to enhance this framework: (1) an entropy-guided masking policy that intelligently targets the most informative historical items for reconstruction, and (2) a curriculum learning scheduler that progressively transitions from history reconstruction to future prediction. Experiments on three public datasets show that our method significantly outperforms state-of-the-art generative models, highlighting that a comprehensive understanding of the past is crucial for accurately predicting a user's future path. The code will be released to the public.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

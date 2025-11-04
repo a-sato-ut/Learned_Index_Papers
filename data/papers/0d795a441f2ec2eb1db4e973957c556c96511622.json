@@ -1,0 +1,27 @@
+{
+    "paperId": "0d795a441f2ec2eb1db4e973957c556c96511622",
+    "title": "Toward Using Representation Learning for Cloud Resource Usage Forecasting",
+    "year": 2024,
+    "venue": "Proceedings of the 2024 Workshop on AI For Systems",
+    "authors": [
+        "Razine Moundir Ghorab",
+        "Thaleia Dimitra Doudali"
+    ],
+    "doi": "10.1145/3660605.3660942",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0d795a441f2ec2eb1db4e973957c556c96511622",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cloud providers face issues with cost efficiency due to the inefficient utilization of resources within their clusters. To improve efficiency, cloud resource management systems use techniques such as autoscaling and overcommiting resources across users, where it is necessary to predict future resource usage. However, it is very challenging to generate accurate predictions, due to the wide variety of observed and unseen patterns. Recent works show that representation learning is very effective in generic time series forecasting. Inspired from this, we propose a system prototype for predicting cloud resource usage using representation learning. Our approach transforms time series into embeddings and explores their spatial proximity to generate predictions about future resource usage. Our experimental analysis acts as a proof-of-concept and shows that the proposed approach delivers highly accurate forecasts, significantly outperforming current machine learning baselines. Future directions of this work will focus on refining certain aspects of our proposed system and address remaining challenges and limitations.",
+    "citationCount": 0,
+    "referenceCount": 33
+}

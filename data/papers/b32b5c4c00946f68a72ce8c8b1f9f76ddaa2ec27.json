@@ -1,0 +1,43 @@
+{
+    "paperId": "b32b5c4c00946f68a72ce8c8b1f9f76ddaa2ec27",
+    "title": "HyperDB: a Novel Key Value Store for Reducing Background Traffic in Heterogeneous SSD Storage",
+    "year": 2024,
+    "venue": "International Conference on Parallel Processing",
+    "authors": [
+        "Ruisong Zhou",
+        "Yuzhan Zhang",
+        "Chunhua Li",
+        "Ke Zhou",
+        "Peng Wang",
+        "Gong Zhang",
+        "Ji Zhang",
+        "Guangyu Zhang"
+    ],
+    "doi": "10.1145/3673038.3673153",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b32b5c4c00946f68a72ce8c8b1f9f76ddaa2ec27",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3673038.3673153",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Log-structured merge tree (LSM-tree) has been widely adopted by modern key-value stores. Deploying LSM-tree across heterogeneous SSD storage which combines the fast but expensive NVMe storage tier with the slow but economical SATA storage tier has emerged as the optimal choice for maximizing cost-effectiveness. However, existing studies typically focus on optimizing the performance of individual storage layers, thereby impeding the full utilization potential of both storage layers. We notice that they tend to over-rely on one storage layer and underutilize the other. In this paper, we present HyperDB, a novel hybrid key-value store designed to enhance the overall performance of both layers via deploying tailored data structures in different media. Especially, HyperDB devises a zone-based data layout for NVMe SSDs to reduce migration overhead, while also implementing a semi-sorted table on the SATA storage layer to minimize merge overhead. Furthermore, we propose a preemptive compaction method at the block-granularity level to further alleviate resource consumption caused by background compaction. Experimental results show that HyperDB achieves 2.25 × faster on average throughput and a 60.3% reduction in background task traffic, compared to the standard use of RocksDB in data centers today.",
+    "citationCount": 2,
+    "referenceCount": 38
+}

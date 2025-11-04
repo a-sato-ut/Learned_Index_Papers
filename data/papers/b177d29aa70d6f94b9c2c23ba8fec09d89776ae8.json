@@ -1,0 +1,37 @@
+{
+    "paperId": "b177d29aa70d6f94b9c2c23ba8fec09d89776ae8",
+    "title": "Measuring GPU utilization one level deeper",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Paul Elvinger",
+        "F. Strati",
+        "Natalie Enright Jerger",
+        "Ana Klimovic"
+    ],
+    "doi": "10.48550/arXiv.2501.16909",
+    "arxivId": "2501.16909",
+    "url": "https://www.semanticscholar.org/paper/b177d29aa70d6f94b9c2c23ba8fec09d89776ae8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "GPU hardware is vastly underutilized. Even resource-intensive AI applications have diverse resource profiles that often leave parts of GPUs idle. While colocating applications can improve utilization, current spatial sharing systems lack performance guarantees. Providing predictable performance guarantees requires a deep understanding of how applications contend for shared GPU resources such as block schedulers, compute units, L1/L2 caches, and memory bandwidth. We propose a methodology to profile resource interference of GPU kernels across these dimensions and discuss how to build GPU schedulers that provide strict performance guarantees while colocating applications to minimize cost.",
+    "citationCount": 2,
+    "referenceCount": 50
+}

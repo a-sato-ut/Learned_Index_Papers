@@ -1,0 +1,35 @@
+{
+    "paperId": "f6292082f0b58075e478b940453d646f80c70c60",
+    "title": "Understanding the Robustness of Deep Recommendation under Adversarial Attacks",
+    "year": 2025,
+    "venue": "ACM Transactions on Knowledge Discovery from Data",
+    "authors": [
+        "Fulan Qian",
+        "Wenbin Chen",
+        "Hai Chen",
+        "Yan Cui",
+        "Shu Zhao",
+        "Yanping Zhang"
+    ],
+    "doi": "10.1145/3744570",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f6292082f0b58075e478b940453d646f80c70c60",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "It has been shown that deep recommendation models are susceptible to adversarial attacks, with this vulnerability potentially leading to significant economic losses in the e-commerce field. However, the robustness of deep recommendation models in response to adversarial attacks has not been systematically investigated. In this article, therefore, we comprehensively evaluate the adversarial robustness of various representative deep models in different settings, aiming to analyze their performance impact under adversarial attacks and compare it with traditional collaborative filtering models. Notably, we examine poisoning attacks under different proportions of fake users and various popularity conditions to understand why certain deep recommendation models perform exceptionally or sub-optimally. On this basis, we further proposed practical robustness improvement strategy for the problems found in the evaluation and fully verified it through rigorous experiments. Key findings include: (1) the sparser the training dataset, the weaker the robustness of a recommendation model’s performance under adversarial attacks; (2) deep recommendation models exhibit greater robustness in recommending popular items under adversarial attacks, while they are more vulnerable when attacked with non-popular items; (3) the robustness of deep recommendation models is not consistently weaker than that of traditional collaborative filtering models across all attack settings. These findings highlight the security concerns in deep recommendation systems and contribute to developing more reliable models.",
+    "citationCount": 0,
+    "referenceCount": 86
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "183c84d471339369f2d8b574d393d49949c5976d",
+    "title": "Integrating an incident dataset with a question and answering language model to assist hazard identification: Comparison of an extractive and generative model",
+    "year": 2024,
+    "venue": "Proceedings of the Institution of Mechanical Engineers. Part O, Journal of risk and reliability",
+    "authors": [
+        "John W. Ricketts",
+        "Weisi Guo",
+        "Jonathan Pelham",
+        "David Barry"
+    ],
+    "doi": "10.1177/1748006X241272831",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/183c84d471339369f2d8b574d393d49949c5976d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Robust hazard identification (HAZID) relies upon extensive knowledge of the system being analysed, the technical aspects, and how it will be used operationally. Typically, this knowledge is held by human participants who can draw out answers in natural language to hazard related questions based upon their own experience. However, several threats exist to this, such as high staff turnover, a poor learning from incidents capability or even insufficient Information Technology resources. Alternatively, incident databases hold vast amounts of hazard information that can be transformed into a source of knowledge. As mitigation to the aforementioned issues, this paper presents a Question and Answering (Q&A) Bidirectional Encoder Representations from Transformers (BERT) language model trained upon aviation incidents and a unique Q&A dataset. The model can extract answers to typical HAZID questions, based upon factual incident reports. Alongside this extractive approach, the paper also explores the use of a generative Large Language Model combined with an incident dataset. Both models proved a useful addition to HAZID activities based upon the Structured What If Technique (SWIFT), answering safety-themed questions based upon a retrieved context of incident reports that semantically matched the query. For the purposes of HAZID, it was suggested that the generative option is preferable based upon its ease of implementation, lower resource requirements and quality of responses. Additionally, it is shown that it is possible for organisations to train and create their own custom models for HAZID purposes. Future work may wish to consider the application of models that can hypothesize scenarios based upon incident reports, building further understanding to the relationships between causes, hazards and consequences.",
+    "citationCount": 0,
+    "referenceCount": 56
+}

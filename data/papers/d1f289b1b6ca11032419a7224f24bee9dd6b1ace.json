@@ -1,0 +1,40 @@
+{
+    "paperId": "d1f289b1b6ca11032419a7224f24bee9dd6b1ace",
+    "title": "Integrating Large Language Models and Knowledge Graphs for Extraction and Validation of Textual Test Data",
+    "year": 2024,
+    "venue": "International Workshop on the Semantic Web",
+    "authors": [
+        "Antonio De Santis",
+        "Marco Balduini",
+        "F. D. Santis",
+        "Andrea Proia",
+        "Arsenio Leo",
+        "Marco Brambilla",
+        "Emanuele Della Valle"
+    ],
+    "doi": "10.1007/978-3-031-77847-6_17",
+    "arxivId": "2408.01700",
+    "url": "https://www.semanticscholar.org/paper/d1f289b1b6ca11032419a7224f24bee9dd6b1ace",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Aerospace manufacturing companies, such as Thales Alenia Space, design, develop, integrate, verify, and validate products characterized by high complexity and low volume. They carefully document all phases for each product but analyses across products are challenging due to the heterogeneity and unstructured nature of the data in documents. In this paper, we propose a hybrid methodology that leverages Knowledge Graphs (KGs) in conjunction with Large Language Models (LLMs) to extract and validate data contained in these documents. We consider a case study focused on test data related to electronic boards for satellites. To do so, we extend the Semantic Sensor Network ontology. We store the metadata of the reports in a KG, while the actual test results are stored in parquet accessible via a Virtual Knowledge Graph. The validation process is managed using an LLM-based approach. We also conduct a benchmarking study to evaluate the performance of state-of-the-art LLMs in executing this task. Finally, we analyze the costs and benefits of automating preexisting processes of manual data extraction and validation for subsequent cross-report analyses.",
+    "citationCount": 3,
+    "referenceCount": 45
+}

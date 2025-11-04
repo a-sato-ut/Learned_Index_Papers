@@ -1,0 +1,39 @@
+{
+    "paperId": "bb3f7200dc35eeb99ce9c031df89648e556cbf35",
+    "title": "ATP: Achieving Throughput Peak for DNN Training via Smart GPU Memory Management",
+    "year": 2024,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Weiduo Chen",
+        "Xiaoshe Dong",
+        "Fan Zhang",
+        "Bowen Li",
+        "Yufei Wang",
+        "Qiang Wang"
+    ],
+    "doi": "10.1145/3701996",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bb3f7200dc35eeb99ce9c031df89648e556cbf35",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3701996",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Due to the limited GPU memory, the performance of large DNNs training is constrained by the unscalable batch size. Existing studies partially address the issue of GPU memory limit through tensor recomputation and swapping, but overlook the exploration of optimal performance. In response, we propose ATP, a recomputation and swapping based GPU memory management framework that aims to maximize training performance by breaking GPU memory constraints. ATP utilizes a throughput model and we propose to evaluate the theoretical peak performance achievable by DNN training on GPU, and provide the optimum memory size required for recomputation and swapping. We optimize the mechanisms for GPU memory pool and CUDA stream control, employ an optimization method to search for specific tensors requiring recomputation and swapping, thereby bringing the actual DNN training performance on ATP closer to theoretical values. Evaluations with different types of large DNN models indicate that ATP achieve throughput improvements ranging from 1.14∼ 1.49×, while support model training exceeding the GPU memory limit by up to 9.2×.",
+    "citationCount": 1,
+    "referenceCount": 36
+}

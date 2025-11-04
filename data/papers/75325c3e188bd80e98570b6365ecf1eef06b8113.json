@@ -1,0 +1,43 @@
+{
+    "paperId": "75325c3e188bd80e98570b6365ecf1eef06b8113",
+    "title": "Extremely-Compressed SSDs with I/O Behavior Prediction",
+    "year": 2024,
+    "venue": "ACM Transactions on Storage",
+    "authors": [
+        "Xiangyu Yao",
+        "Qiao Li",
+        "Kaihuan Lin",
+        "Xinbiao Gan",
+        "Jie Zhang",
+        "Congming Gao",
+        "Zhirong Shen",
+        "Quanqing Xu",
+        "Chuanhui Yang",
+        "Jason Xue"
+    ],
+    "doi": "10.1145/3677044",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/75325c3e188bd80e98570b6365ecf1eef06b8113",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As the data volume continues to grow exponentially, there is an increasing demand for large storage system capacity. Data compression techniques effectively reduce the volume of written data, enhancing space efficiency. As a result, many modern SSDs have already incorporated data compression capabilities. However, data compression introduces additional processing overhead in critical I/O paths, potentially affecting system performance. Currently, most compression solutions in flash-based storage systems employ fixed compression algorithms for all incoming data without leveraging differences among various data access patterns. This leads to sub-optimal compression efficiency. This article proposes a data-type-aware Flash Translation Layer (DAFTL) scheme to maximize space efficiency without compromising system performance. First, we propose an I/O behavior prediction method to forecast future access on specific data. Then, DAFTL matches data types with distinct I/O behaviors to compression algorithms of varying intensities, achieving an optimal balance between performance and space efficiency. Specifically, it employs higher-intensity compression algorithms for less frequently accessed data to maximize space efficiency. For frequently accessed data, it utilizes lower-intensity but faster compression algorithms to maintain system performance. Finally, an improved compact compression method is proposed to effectively eliminate page fragmentation and further enhance space efficiency. Extensive evaluations using a variety of real-world workloads, as well as the workloads with real data we collected on our platforms, demonstrate that DAFTL achieves more data reductions than other approaches. When compared to the state-of-the-art compression schemes, DAFTL reduces the total number of pages written to the SSD by an average of 8%, 21.3%, and 25.6% for data with high, medium, and low compressibility, respectively. In the case of workloads with real data, DAFTL achieves an average reduction of 10.4% in the total number of pages written to SSD. Furthermore, DAFTL exhibits comparable or even improved read and write performance compared to other solutions.",
+    "citationCount": 3,
+    "referenceCount": 63
+}

@@ -1,0 +1,28 @@
+{
+    "paperId": "4ffdb4268c8f26367165aecfc6d478303d3b14b9",
+    "title": "Proposed Long Short-Term Memory Model Utilizing Multiple Strands for Enhanced Forecasting and Classification of Sensory Measurements",
+    "year": 2025,
+    "venue": "Mathematics",
+    "authors": [
+        "Sotirios Kontogiannis",
+        "G. Kokkonis",
+        "Christos Pikridas"
+    ],
+    "doi": "10.3390/math13081263",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4ffdb4268c8f26367165aecfc6d478303d3b14b9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents a new deep learning model called the stranded Long Short-Term Memory. The model utilizes arbitrary LSTM recurrent neural networks of variable cell depths organized in classes. The proposed model can adapt to classifying emergencies at different intervals or provide measurement predictions using class-annotated or time-shifted series of sensory data inputs. In order to outperform the ordinary LSTM model’s classifications or forecasts by minimizing losses, stranded LSTM maintains three different weight-based strategies that can be arbitrarily selected prior to model training, as follows: least loss, weighted least loss, and fuzzy least loss in the LSTM model selection and inference process. The model has been tested against LSTM models for forecasting and classification, using a time series of temperature and humidity measurements taken from meteorological stations and class-annotated temperature measurements from Industrial compressors accordingly. From the experimental classification results, the stranded LSTM model outperformed 0.9–2.3% of the LSTM models carrying dual-stacked LSTM cells in terms of accuracy. Regarding the forecasting experimental results, the forecast aggregation weighted and fuzzy least loss strategies performed 5–7% better, with less loss, using the selected LSTM model strands supported by the model’s least loss strategy.",
+    "citationCount": 1,
+    "referenceCount": 59
+}

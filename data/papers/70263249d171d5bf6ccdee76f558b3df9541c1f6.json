@@ -1,0 +1,33 @@
+{
+    "paperId": "70263249d171d5bf6ccdee76f558b3df9541c1f6",
+    "title": "Self-Monitoring Large Language Models for Click-Through Rate Prediction",
+    "year": 2025,
+    "venue": "ACM Transactions on Information Systems",
+    "authors": [
+        "Huachi Zhou",
+        "Kaijing Yu",
+        "Qinggang Zhang",
+        "Hao Chen",
+        "D. Zha",
+        "Wenqi Pei",
+        "Anthony Kong",
+        "Xiao Huang"
+    ],
+    "doi": "10.1145/3763789",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/70263249d171d5bf6ccdee76f558b3df9541c1f6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Click-through rate prediction tasks estimate interaction probabilities using user-item features (i.e., the combined set of user and item features). LLMs have emerged as a promising approach by organizing these features into prompts and fine-tuning LLMs to predict the interaction label. However, our feature-wise and interaction-wise analysis reveals two critical limitations, leading to incomplete relationship modeling between user-item features and interaction labels: (i) LLMs tend to utilize only a subset of available features, neglecting others, and (ii) they struggle with predictions for tail items that appear less frequently in the training samples. To bridge this gap, we propose Feature-Instructed Large language model for Monitoring (FILM), which introduces a self-monitoring temperature mechanism that dynamically guides LLMs to focus on informative features, and an auxiliary compaction loss that facilitates better feature-interaction relationship learning for tail items. By integrating these two designs, FILM not only improves feature utilization in LLMs but also enhances predictions for tail items. Furthermore, we demonstrate that FILM-generated interaction embeddings can be transferred to lightweight models, enabling efficient deployment. Extensive experiments demonstrate that FILM achieves significant performance improvements over state-of-the-art baselines by learning better relationships between user-item features and interaction labels and generalizes under different LLM backbones.",
+    "citationCount": 0,
+    "referenceCount": 71
+}

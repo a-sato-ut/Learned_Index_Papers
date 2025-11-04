@@ -1,0 +1,39 @@
+{
+    "paperId": "7e1b99c0fd107c0b7eb1f27d9f5f997979d7a6c5",
+    "title": "Enhancing heart disease prediction using a self-attention-based transformer model",
+    "year": 2024,
+    "venue": "Scientific Reports",
+    "authors": [
+        "Atta Ur Rahman",
+        "Yousef Alsenani",
+        "Adeel Zafar",
+        "Kalim Ullah",
+        "Khaled Rabie",
+        "T. Shongwe"
+    ],
+    "doi": "10.1038/s41598-024-51184-7",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7e1b99c0fd107c0b7eb1f27d9f5f997979d7a6c5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.nature.com/articles/s41598-024-51184-7.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cardiovascular diseases (CVDs) continue to be the leading cause of more than 17 million mortalities worldwide. The early detection of heart failure with high accuracy is crucial for clinical trials and therapy. Patients will be categorized into various types of heart disease based on characteristics like blood pressure, cholesterol levels, heart rate, and other characteristics. With the use of an automatic system, we can provide early diagnoses for those who are prone to heart failure by analyzing their characteristics. In this work, we deploy a novel self-attention-based transformer model, that combines self-attention mechanisms and transformer networks to predict CVD risk. The self-attention layers capture contextual information and generate representations that effectively model complex patterns in the data. Self-attention mechanisms provide interpretability by giving each component of the input sequence a certain amount of attention weight. This includes adjusting the input and output layers, incorporating more layers, and modifying the attention processes to collect relevant information. This also makes it possible for physicians to comprehend which features of the data contributed to the model's predictions. The proposed model is tested on the Cleveland dataset, a benchmark dataset of the University of California Irvine (UCI) machine learning (ML) repository. Comparing the proposed model to several baseline approaches, we achieved the highest accuracy of 96.51%. Furthermore, the outcomes of our experiments demonstrate that the prediction rate of our model is higher than that of other cutting-edge approaches used for heart disease prediction.",
+    "citationCount": 66,
+    "referenceCount": 47
+}

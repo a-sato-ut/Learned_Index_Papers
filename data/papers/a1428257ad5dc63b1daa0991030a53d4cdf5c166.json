@@ -1,0 +1,39 @@
+{
+    "paperId": "a1428257ad5dc63b1daa0991030a53d4cdf5c166",
+    "title": "Learning Multiple Initial Solutions to Optimization Problems",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Elad Sharony",
+        "Heng Yang",
+        "Tong Che",
+        "Marco Pavone",
+        "Shie Mannor",
+        "Peter Karkus"
+    ],
+    "doi": "10.48550/arXiv.2411.02158",
+    "arxivId": "2411.02158",
+    "url": "https://www.semanticscholar.org/paper/a1428257ad5dc63b1daa0991030a53d4cdf5c166",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sequentially solving similar optimization problems under strict runtime constraints is essential for many applications, such as robot control, autonomous driving, and portfolio management. The performance of local optimization methods in these settings is sensitive to the initial solution: poor initialization can lead to slow convergence or suboptimal solutions. To address this challenge, we propose learning to predict \\emph{multiple} diverse initial solutions given parameters that define the problem instance. We introduce two strategies for utilizing multiple initial solutions: (i) a single-optimizer approach, where the most promising initial solution is chosen using a selection function, and (ii) a multiple-optimizers approach, where several optimizers, potentially run in parallel, are each initialized with a different solution, with the best solution chosen afterward. Notably, by including a default initialization among predicted ones, the cost of the final output is guaranteed to be equal or lower than with the default initialization. We validate our method on three optimal control benchmark tasks: cart-pole, reacher, and autonomous driving, using different optimizers: DDP, MPPI, and iLQR. We find significant and consistent improvement with our method across all evaluation settings and demonstrate that it efficiently scales with the number of initial solutions required. The code is available at MISO (https://github.com/EladSharony/miso).",
+    "citationCount": 3,
+    "referenceCount": 47
+}

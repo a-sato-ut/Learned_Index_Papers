@@ -1,0 +1,28 @@
+{
+    "paperId": "dadb4cf52c2a8f65c7047a3f2d0dcd2e87c6ac3c",
+    "title": "Using predefined vector systems as latent space configuration for neural network supervised training on data with arbitrarily large number of classes",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Nikita Gabdullin"
+    ],
+    "doi": null,
+    "arxivId": "2510.04090",
+    "url": "https://www.semanticscholar.org/paper/dadb4cf52c2a8f65c7047a3f2d0dcd2e87c6ac3c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Supervised learning (SL) methods are indispensable for neural network (NN) training used to perform classification tasks. While resulting in very high accuracy, SL training often requires making NN parameter number dependent on the number of classes, limiting their applicability when the number of classes is extremely large or unknown in advance. In this paper we propose a methodology that allows one to train the same NN architecture regardless of the number of classes. This is achieved by using predefined vector systems as the target latent space configuration (LSC) during NN training. We discuss the desired properties of target configurations and choose randomly perturbed vectors of An root system for our experiments. These vectors are used to successfully train encoders and visual transformers (ViT) on Cinic-10 and ImageNet-1K in low- and high-dimensional cases by matching NN predictions with the predefined vectors. Finally, ViT is trained on a dataset with 1.28 million classes illustrating the applicability of the method to training on datasets with extremely large number of classes. In addition, potential applications of LSC in lifelong learning and NN distillation are discussed illustrating versatility of the proposed methodology.",
+    "citationCount": 0,
+    "referenceCount": 61
+}

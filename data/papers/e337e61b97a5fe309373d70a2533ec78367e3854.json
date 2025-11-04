@@ -1,0 +1,39 @@
+{
+    "paperId": "e337e61b97a5fe309373d70a2533ec78367e3854",
+    "title": "κHGCN: Tree-likeness Modeling via Continuous and Discrete Curvature Learning",
+    "year": 2022,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Menglin Yang",
+        "Min Zhou",
+        "Lujia Pan",
+        "Irwin King"
+    ],
+    "doi": "10.1145/3580305.3599532",
+    "arxivId": "2212.01793",
+    "url": "https://www.semanticscholar.org/paper/e337e61b97a5fe309373d70a2533ec78367e3854",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2212.01793",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The prevalence of tree-like structures, encompassing hierarchical structures and power law distributions, exists extensively in real-world applications, including recommendation systems, ecosystems, financial networks, social networks, etc. Recently, the exploitation of hyperbolic space for tree-likeness modeling has garnered considerable attention owing to its exponential growth volume. Compared to the flat Euclidean space, the curved hyperbolic space provides a more amenable and embeddable room, especially for datasets exhibiting implicit tree-like architectures. However, the intricate nature of real-world tree-like data presents a considerable challenge, as it frequently displays a heterogeneous composition of tree-like, flat, and circular regions. The direct embedding of such heterogeneous structures into a homogeneous embedding space (i.e., hyperbolic space) inevitably leads to heavy distortions. To mitigate the aforementioned shortage, this study endeavors to explore the curvature between discrete structure and continuous learning space, aiming at encoding the message conveyed by the network topology in the learning process, thereby improving tree-likeness modeling. To the end, a curvature-aware hyperbolic graph convolutional neural network, κHGCN, is proposed, which utilizes the curvature to guide message passing and improve long-range propagation. Extensive experiments on node classification and link prediction tasks verify the superiority of the proposal as it consistently outperforms various competitive models by a large margin.",
+    "citationCount": 23,
+    "referenceCount": 102
+}

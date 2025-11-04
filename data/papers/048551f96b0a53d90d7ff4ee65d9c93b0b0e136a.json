@@ -1,0 +1,31 @@
+{
+    "paperId": "048551f96b0a53d90d7ff4ee65d9c93b0b0e136a",
+    "title": "TraceHiding: Scalable Machine Unlearning for Mobility Data",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ali Faraji",
+        "M. Papagelis"
+    ],
+    "doi": "10.48550/arXiv.2509.17241",
+    "arxivId": "2509.17241",
+    "url": "https://www.semanticscholar.org/paper/048551f96b0a53d90d7ff4ee65d9c93b0b0e136a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This work introduces TraceHiding, a scalable, importance-aware machine unlearning framework for mobility trajectory data. Motivated by privacy regulations such as GDPR and CCPA granting users\"the right to be forgotten,\"TraceHiding removes specified user trajectories from trained deep models without full retraining. It combines a hierarchical data-driven importance scoring scheme with teacher-student distillation. Importance scores--computed at token, trajectory, and user levels from statistical properties (coverage diversity, entropy, length)--quantify each training sample's impact, enabling targeted forgetting of high-impact data while preserving common patterns. The student model retains knowledge on remaining data and unlearns targeted trajectories through an importance-weighted loss that amplifies forgetting signals for unique samples and attenuates them for frequent ones. We validate on Trajectory--User Linking (TUL) tasks across three real-world higher-order mobility datasets (HO-Rome, HO-Geolife, HO-NYC) and multiple architectures (GRU, LSTM, BERT, ModernBERT, GCN-TULHOR), against strong unlearning baselines including SCRUB, NegGrad, NegGrad+, Bad-T, and Finetuning. Experiments under uniform and targeted user deletion show TraceHiding, especially its entropy-based variant, achieves superior unlearning accuracy, competitive membership inference attack (MIA) resilience, and up to 40\\times speedup over retraining with minimal test accuracy loss. Results highlight robustness to adversarial deletion of high-information users and consistent performance across models. To our knowledge, this is the first systematic study of machine unlearning for trajectory data, providing a reproducible pipeline with public code and preprocessing tools.",
+    "citationCount": 0,
+    "referenceCount": 51
+}

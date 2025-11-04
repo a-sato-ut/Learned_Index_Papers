@@ -1,0 +1,42 @@
+{
+    "paperId": "717eec744a2c7dec5924c07661fde99f45843b95",
+    "title": "Intelligent Scaling in Amazon Redshift",
+    "year": 2024,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Vikram Nathan",
+        "Vikramank Singh",
+        "Zhengchun Liu",
+        "Mohammad Rahman",
+        "Andreas Kipf",
+        "Dominik Horn",
+        "Davide Pagano",
+        "Gaurav Saxena",
+        "B. Narayanaswamy",
+        "Tim Kraska"
+    ],
+    "doi": "10.1145/3626246.3653394",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/717eec744a2c7dec5924c07661fde99f45843b95",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cloud-based data warehouses are built to be easy to use, requiring minimal intervention from customers as their workloads scale. However, there are still many dimensions of a workload that they do not scale with automatically. For example, in cloud-managed clusters, large ad-hoc queries and ETL workloads must use the same cluster size provisioned for the rest of the workload, and warehouse size does not automatically grow as the underlying data grows in size, causing queries to slow down. In this paper, we describe RAIS, the latest collection of AI-powered scaling and optimization techniques in Amazon Redshift, released in preview at re:Invent 2023, which enable it to scale both vertically and horizontally to adapt to all types of workload variability. RAIS dynamically provisions compute resources to run heavy queries efficiently and automatically optimizes warehouse size for the customer's workload, even as it shifts over time. We show that, depending on the workload, RAIS improves either cost or average query execution time by up to 7.6× and 14.2×, respectively, over existing baselines.",
+    "citationCount": 11,
+    "referenceCount": 17
+}

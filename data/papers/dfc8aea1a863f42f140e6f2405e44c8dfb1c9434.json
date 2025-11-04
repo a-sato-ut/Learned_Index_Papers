@@ -1,0 +1,38 @@
+{
+    "paperId": "dfc8aea1a863f42f140e6f2405e44c8dfb1c9434",
+    "title": "Embryo selection at the cleavage stage using Raman spectroscopy of day 3 culture medium and machine learning: a preliminary study",
+    "year": 2025,
+    "venue": "Frontiers in Endocrinology",
+    "authors": [
+        "Fang Cao",
+        "Wei Xiong",
+        "Xiaohui Lu",
+        "Yanjun Luo",
+        "Rui Yan",
+        "Li Chen",
+        "Yufeng Wang",
+        "Hanbi Wang",
+        "Xiuliang Dai"
+    ],
+    "doi": "10.3389/fendo.2025.1608318",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dfc8aea1a863f42f140e6f2405e44c8dfb1c9434",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Background Blastocyst transfer has been associated with shorter leukocyte telomere length in ART-conceived children, suggesting that extended embryo culture may accelerate aging in offspring. Selecting Day 3 embryos with high developmental potential for transfer could address this issue. The aim of this study is to investigate whether machine learning combined with Raman spectroscopy of spent Day 3 culture medium can serve as a potential method for predicting extended embryo culture outcomes, thereby enabling embryo selection at the cleavage stage. Methods This prospective study analyzed 172 Day 3 culture medium samples with known extended culture outcomes from 78 couples collected between February 2020 and February 2021. Samples were categorized into three groups based on extended culture outcomes: morphologically good blastocysts (group A), morphologically non-good blastocysts (group B), and clinically non-useful embryos (group C). For each sample, 30–40 Raman spectra were acquired. Machine learning analyses (both unsupervised and supervised) were performed for data visualization and clustering. Eighty percent of the samples from each group were used as training data, while the remaining 20% served as the test set. Twelve machine learning models, including both deep learning and traditional approaches, were independently trained and evaluated. Accuracy, sensitivity, and specificity were calculated for each model. Finally, the best four top-performing models were further combined using a stacking strategy for final prediction. Results The study included good-prognosis females (average age: 29.55 ± 2.94 years) with an adequate number of Day 3 embryos (median: 9 [7, 11]). Supervised machine learning of labeled Raman spectra revealed distinct clusters for each group. The best-performing models were multilayer perceptron, artificial neural network, gated recurrent unit, and linear discriminant analysis. Using the stacking strategy, two samples were misclassified, and 33 were correctly predicted. Sensitivity for A, B, and C predictions was 0.92, 1.00, and 0.94, respectively. Specificity for A, B, and C predictions was 1.00, 0.93, and 1.00, respectively. The overall accuracy, sensitivity, and specificity were 0.94, 0.93, and 0.97, respectively. Conclusion Our preliminary study suggests that machine learning combined with Raman spectra of spent Day 3 culture medium represents a promising non-invasive approach for embryo selection at the cleavage stage.",
+    "citationCount": 0,
+    "referenceCount": 49
+}

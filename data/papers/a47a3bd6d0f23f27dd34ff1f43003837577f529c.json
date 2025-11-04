@@ -1,0 +1,31 @@
+{
+    "paperId": "a47a3bd6d0f23f27dd34ff1f43003837577f529c",
+    "title": "Join Cardinality Estimation with OmniSketches",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "David Justen",
+        "Matthias Boehm"
+    ],
+    "doi": "10.48550/arXiv.2508.17931",
+    "arxivId": "2508.17931",
+    "url": "https://www.semanticscholar.org/paper/a47a3bd6d0f23f27dd34ff1f43003837577f529c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Join ordering is a key factor in query performance, yet traditional cost-based optimizers often produce sub-optimal plans due to inaccurate cardinality estimates in multi-predicate, multi-join queries. Existing alternatives such as learning-based optimizers and adaptive query processing improve accuracy but can suffer from high training costs, poor generalization, or integration challenges. We present an extension of OmniSketch - a probabilistic data structure combining count-min sketches and K-minwise hashing - to enable multi-join cardinality estimation without assuming uniformity and independence. Our approach introduces the OmniSketch join estimator, ensures sketch interoperability across tables, and provides an algorithm to process alpha-acyclic join graphs. Our experiments on SSB-skew and JOB-light show that OmniSketch-enhanced cost-based optimization can improve estimation accuracy and plan quality compared to DuckDB. For SSB-skew, we show intermediate result decreases up to 1,077x and execution time decreases up to 3.19x. For JOB-light, OmniSketch join cardinality estimation shows occasional individual improvements but largely suffers from a loss of witnesses due to unfavorable join graph shapes and large numbers of unique values in foreign key columns.",
+    "citationCount": 0,
+    "referenceCount": 22
+}

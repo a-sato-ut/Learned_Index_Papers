@@ -1,0 +1,33 @@
+{
+    "paperId": "294e3d288d9fa03a7751eb1310b6ab24a058cdeb",
+    "title": "Node Identifiers: Compact, Discrete Representations for Efficient Graph Learning",
+    "year": 2024,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Yuankai Luo",
+        "Qijiong Liu",
+        "Lei Shi",
+        "Xiao-Ming Wu"
+    ],
+    "doi": null,
+    "arxivId": "2405.16435",
+    "url": "https://www.semanticscholar.org/paper/294e3d288d9fa03a7751eb1310b6ab24a058cdeb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present a novel end-to-end framework that generates highly compact (typically 6-15 dimensions), discrete (int4 type), and interpretable node representations, termed node identifiers (node IDs), to tackle inference challenges on large-scale graphs. By employing vector quantization, we compress continuous node embeddings from multiple layers of a Graph Neural Network (GNN) into discrete codes, applicable under both self-supervised and supervised learning paradigms. These node IDs capture high-level abstractions of graph data and offer interpretability that traditional GNN embeddings lack. Extensive experiments on 34 datasets, encompassing node classification, graph classification, link prediction, and attributed graph clustering tasks, demonstrate that the generated node IDs significantly enhance speed and memory efficiency while achieving competitive performance compared to current state-of-the-art methods.",
+    "citationCount": 9,
+    "referenceCount": 142
+}

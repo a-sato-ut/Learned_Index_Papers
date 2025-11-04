@@ -1,0 +1,44 @@
+{
+    "paperId": "46c076bd0d3404b5273da57d6997203a661ddbff",
+    "title": "Learning to optimize with guarantees: a complete characterization of linearly convergent algorithms",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Andrea Martin",
+        "Ian R. Manchester",
+        "Luca Furieri"
+    ],
+    "doi": "10.48550/arXiv.2508.00775",
+    "arxivId": "2508.00775",
+    "url": "https://www.semanticscholar.org/paper/46c076bd0d3404b5273da57d6997203a661ddbff",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In high-stakes engineering applications, optimization algorithms must come with provable worst-case guarantees over a mathematically defined class of problems. Designing for the worst case, however, inevitably sacrifices performance on the specific problem instances that often occur in practice. We address the problem of augmenting a given linearly convergent algorithm to improve its average-case performance on a restricted set of target problems - for example, tailoring an off-the-shelf solver for model predictive control (MPC) for an application to a specific dynamical system - while preserving its worst-case guarantees across the entire problem class. Toward this goal, we characterize the class of algorithms that achieve linear convergence for classes of nonsmooth composite optimization problems. In particular, starting from a baseline linearly convergent algorithm, we derive all - and only - the modifications to its update rule that maintain its convergence properties. Our results apply to augmenting legacy algorithms such as gradient descent for nonconvex, gradient-dominated functions; Nesterov's accelerated method for strongly convex functions; and projected methods for optimization over polyhedral feasibility sets. We showcase effectiveness of the approach on solving optimization problems with tight iteration budgets in application to ill-conditioned systems of linear equations and MPC for linear systems.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

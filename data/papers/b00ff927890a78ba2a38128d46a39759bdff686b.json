@@ -1,0 +1,40 @@
+{
+    "paperId": "b00ff927890a78ba2a38128d46a39759bdff686b",
+    "title": "Cardioish: Lead-Based Feature Extraction for ECG Signals",
+    "year": 2024,
+    "venue": "Diagnostics",
+    "authors": [
+        "Turker Tuncer",
+        "A. Baig",
+        "Emrah Aydemir",
+        "T. Kıvrak",
+        "Ilknur Tuncer",
+        "Gulay Taşcı",
+        "M. Kutlu Sengul"
+    ],
+    "doi": "10.3390/diagnostics14232712",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b00ff927890a78ba2a38128d46a39759bdff686b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Background: Electrocardiography (ECG) signals are commonly used to detect cardiac disorders, with 12-lead ECGs being the standard method for acquiring these signals. The primary objective of this research is to propose a new feature engineering model that achieves both high classification accuracy and explainable results using ECG signals. To this end, a symbolic language, named Cardioish, has been introduced. Methods: In this research, two publicly available datasets were used: (i) a mental disorder classification dataset and (ii) a myocardial infarction (MI) dataset. These datasets contain ECG beats and include 4 and 11 classes, respectively. To obtain explainable results from these ECG signal datasets, a new explainable feature engineering (XFE) model has been proposed. The Cardioish-based XFE model consists of four main phases: (i) lead transformation and transition table feature extraction, (ii) iterative neighborhood component analysis (INCA) for feature selection, (iii) classification, and (iv) explainable results generation using the recommended Cardioish. In the feature extraction phase, the lead transformer converts ECG signals into lead indexes. To extract features from the transformed signals, a transition table-based feature extractor is applied, resulting in 144 features (12 × 12) from each ECG signal. In the feature selection phase, INCA is used to select the most informative features from the 144 generated, which are then classified using the k-nearest neighbors (kNN) classifier. The final phase is the explainable artificial intelligence (XAI) phase. In this phase, Cardioish symbols are created, forming a Cardioish sentence. By analyzing the extracted sentence, XAI results are obtained. Additionally, these results can be integrated into connectome theory for applications in cardiology. Results: The presented Cardioish-based XFE model achieved over 99% classification accuracy on both datasets. Moreover, the XAI results related to these disorders have been presented in this research. Conclusions: The recommended Cardioish-based XFE model achieved high classification performance for both datasets and provided explainable results. In this regard, our proposal paves a new way for ECG classification and interpretation.",
+    "citationCount": 3,
+    "referenceCount": 41
+}

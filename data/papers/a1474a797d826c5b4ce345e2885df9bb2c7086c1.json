@@ -1,0 +1,39 @@
+{
+    "paperId": "a1474a797d826c5b4ce345e2885df9bb2c7086c1",
+    "title": "FocalCA: A Hybrid-Convolutional-Attention Encoder for Intrusion Detection on UNSW-NB15 Achieving High Accuracy Without Data Balancing",
+    "year": 2025,
+    "venue": "International Conference on Applied Informatics and Communication",
+    "authors": [
+        "Amin Amiri",
+        "Alireza Ghaffarnia",
+        "Shahnewaz Karim Sakib",
+        "Dalei Wu",
+        "Yu Liang"
+    ],
+    "doi": "10.1109/ICAIC63015.2025.10848591",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a1474a797d826c5b4ce345e2885df9bb2c7086c1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study introduces FocalCA, a Hybrid Convolutional-Attention Encoder model for detecting CyberAttacks using the UNSW-NB15 dataset. Despite the inherent imbalance in the binary classification of Normal VS. Attack traffic, FocalCA shows high accuracy without requiring oversampling or data balancing, maintaining the original data integrity. FocalCA preserves the natural characteristics of the dataset, ensuring a more reliable and effective model. This approach enhances the robustness and trustworthiness of FocalCA’s results, making it a dependable solution for realworld intrusion detection scenarios. FocalCA effectively captures both global and localized patterns in network traffic by combining a Feature Tokenizer, an Attention Mechanism as Encoder, CNN, and Fully Connected layers. The model addresses class imbalance using Weighted Sampling and Focal Loss, achieving robust detection of underrepresented attack types. FocalCA achieves a test accuracy of 99.47%, with precision, recall, and F1-score metrics demonstrating strong performance across normal and attack classes. Specifically, F1scores of $\\mathbf{0. 9 8 2 7}$ for normal traffic and $\\mathbf{0. 9 9 8 6}$ for attack traffic highlight its accuracy. The macro-average and weighted-ave age F1-scores (0.9907 and 0.9931, respectively) underscore its balanced effectiveness. This study highlights FocalCA’s potential as an advanced, reliable solution for intrusion detection in real-world Cybersecurity scenarios.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

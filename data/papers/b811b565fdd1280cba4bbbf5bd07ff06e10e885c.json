@@ -1,0 +1,32 @@
+{
+    "paperId": "b811b565fdd1280cba4bbbf5bd07ff06e10e885c",
+    "title": "Soft Value Iteration for Bellman Equations via Maximum Entropy Reinforcement Learning",
+    "year": 2025,
+    "venue": "2025 IEEE International Conference on Automatic Control and Intelligent Systems (I2CACIS)",
+    "authors": [
+        "Raghavendra M. Devadas",
+        "Preethi",
+        "R. Sapna"
+    ],
+    "doi": "10.1109/I2CACIS65476.2025.11100438",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b811b565fdd1280cba4bbbf5bd07ff06e10e885c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This work evaluates the effectiveness of entropy-regularized Reinforcement Learning (RL) by contrasting Soft Value Iteration with conventional Bellman-based approaches. Based on the Maximum Entropy principle, our new Soft RL method showcases a clear performance gain in state value estimations. Experimentation within the FrozenLake-v1 environment identifies that Soft RL consistently returns higher and more consistent state values between around 2.5 and 3.5, as opposed to the 0.0 and 1.0 range of Traditional RL. Visualizations of state evaluation using heatmap representations further demonstrate the difference, with Soft RL displaying uniformly higher state assessments, reflecting robustness as well as stability. Difference analysis exemplifies consistent gaps in values among states with peaks of up to 2.9 in key regions, reflecting the higher expressiveness of the entropy-regularized approach. The findings confirm that Soft Value Iteration, based on the maximization of entropy, provides an improved, more robust framework for solving the Bellman equations for reinforcement learning problems.",
+    "citationCount": 0,
+    "referenceCount": 19
+}

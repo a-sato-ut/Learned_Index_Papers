@@ -1,0 +1,32 @@
+{
+    "paperId": "a4f77074cf61b7cd4218e30b5a70783a7dd81cd9",
+    "title": "Parameter-tuning-free data entry error unlearning with adaptive selective synaptic dampening",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Stefan Schoepf",
+        "Jack Foster",
+        "A. Brintrup"
+    ],
+    "doi": "10.48550/arXiv.2402.10098",
+    "arxivId": "2402.10098",
+    "url": "https://www.semanticscholar.org/paper/a4f77074cf61b7cd4218e30b5a70783a7dd81cd9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data entry constitutes a fundamental component of the machine learning pipeline, yet it frequently results in the introduction of labelling errors. When a model has been trained on a dataset containing such errors its performance is reduced. This leads to the challenge of efficiently unlearning the influence of the erroneous data to improve the model performance without needing to completely retrain the model. While model editing methods exist for cases in which the correct label for a wrong entry is known, we focus on the case of data entry errors where we do not know the correct labels for the erroneous data. Our contribution is twofold. First, we introduce an extension to the selective synaptic dampening unlearning method that removes the need for parameter tuning, making unlearning accessible to practitioners. We demonstrate the performance of this extension, adaptive selective synaptic dampening (ASSD), on various ResNet18 and Vision Transformer unlearning tasks. Second, we demonstrate the performance of ASSD in a supply chain delay prediction problem with labelling errors using real-world data where we randomly introduce various levels of labelling errors. The application of this approach is particularly compelling in industrial settings, such as supply chain management, where a significant portion of data entry occurs manually through Excel sheets, rendering it error-prone. ASSD shows strong performance on general unlearning benchmarks and on the error correction problem where it outperforms fine-tuning for error correction.",
+    "citationCount": 12,
+    "referenceCount": 23
+}

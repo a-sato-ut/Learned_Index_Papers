@@ -1,0 +1,36 @@
+{
+    "paperId": "65ac8bcd1d08cf17decd80ba88308ed5e5552139",
+    "title": "Spatio-Temporal Keyword Query Processing Based on Key-Value Stores",
+    "year": 2024,
+    "venue": "Data Science and Engineering",
+    "authors": [
+        "Ruiyuan Li",
+        "Xiang He",
+        "Yingying Sun",
+        "Jun Jiang",
+        "You Shang",
+        "Guanyao Li",
+        "Chao Chen"
+    ],
+    "doi": "10.1007/s41019-024-00265-8",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/65ac8bcd1d08cf17decd80ba88308ed5e5552139",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1007/s41019-024-00265-8",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the popularity of mobile devices and the development of location technology, there is an increasing amount of text data with spatial and temporal tags generated. Querying with spatial, temporal, and keyword constraints on such data, known as spatio-temporal keyword query (STK query), is of great significance. However, most existing STK query solutions rely on tree-based indexes designed for stand-alone architectures, which struggle to scale for big data. Key-value stores, with the keys as their indexes, are designed for big data scenarios. On one hand, key-value stores can only support one-dimensional indexes initially, which makes them unsuitable for multi-dimensional STK queries. On the other hand, key-value stores put their indexes out of the memory, making it inevitable to trigger many unnecessary disk I/Os and slow down the query efficiency. To this end, based on key-value stores, we provide the first attempt by combining the in-memory index with on-disk index to efficiently support STK queries. Specifically, we design two-layer filters as the in-memory index, which enormously prunes unqualified spatio-temporal keyword combinations. An eviction policy is employed for the in-memory index, allowing it to support an infinite amount of data with limited memory usage. We deploy our solution on both HBase and Redis, conducting extensive experiments with two real and one synthetic datasets. The experimental results demonstrate that our solution achieves approximately twice the query efficiency of the state-of-the-art key-value based solutions, and is much more scalable than the tree-based competitor.",
+    "citationCount": 2,
+    "referenceCount": 25
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "49eb8894b8b20551b157da48e64f506819eb9e6c",
+    "title": "Spatial Query Optimization With Learning",
+    "year": 2024,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Xin Zhang",
+        "Ahmed Eldawy"
+    ],
+    "doi": "10.14778/3685800.3685846",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/49eb8894b8b20551b157da48e64f506819eb9e6c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query optimization is a key component in database management systems (DBMS) and distributed data processing platforms. Recent research in the database community incorporated techniques from artificial intelligence to enhance query optimization. Various learning models have been extended and applied to the query optimization tasks, including query execution plan, query rewriting, and cost estimation. The tasks involved in query optimization differ based on the type of data being processed, such as relational data or spatial geometries. This tutorial reviews recent learning-based approaches for spatial query optimization tasks. We go over methods designed specifically for spatial data, as well as solutions proposed for high-dimensional data. Additionally, we present learning-based spatial indexing and spatial partitioning methods, which are also vital components in spatial data processing. We also identify several open research problems in these fields.",
+    "citationCount": 1,
+    "referenceCount": 49
+}

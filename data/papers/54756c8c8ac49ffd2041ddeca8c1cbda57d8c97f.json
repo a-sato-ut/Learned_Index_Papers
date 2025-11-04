@@ -1,0 +1,33 @@
+{
+    "paperId": "54756c8c8ac49ffd2041ddeca8c1cbda57d8c97f",
+    "title": "NetCR: Knowledge-Graph-Based Recommendation Framework for Manual Network Configuration",
+    "year": 2024,
+    "venue": "IEEE Internet of Things Journal",
+    "authors": [
+        "Zhenbei Guo",
+        "Fuliang Li",
+        "Jiaxing Shen",
+        "Xingwei Wang"
+    ],
+    "doi": "10.1109/JIOT.2023.3337017",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/54756c8c8ac49ffd2041ddeca8c1cbda57d8c97f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Network configuration plays a vital role in quality assurance of network services, requiring considerable effort and time. Automatic network configuration approaches are promising due to their capacity to automatically generate and verify configurations. However, these methods suffer from drawbacks, such as generated configuration content being largely unknown to network operators and inefficient for large-scale networks. Manual configuration is thus still the primary way of managing networks. To facilitate editing processes of manual configuration, a network-wide tool for recommending custom keywords is in urgent need. In this article, we propose a keyword recommendation tool that recommends custom keywords across various network devices. We observe that network devices of the same type and role tend to have a unified template and similar configurations, which enables recommending custom configurations between them. However, the vision entails the following three challenges. First, configurations need to be modeled accurately. Second, a wide variety of network protocols need to be supported. Third, relationships between custom keywords might be implicit and difficult to find. To address the challenges, we first built a configuration knowledge graph that could accurately model configurations, extract latent relationships between keywords, and generate explainable recommendations. Then we applied a recommendation framework to the graph for appropriate keyword recommendations. Lastly, to validate the performance, we conduct recommendations on real configurations over 26 000 times. Experimental results indicate that the overall coverage rate for matching expected configurations reaches 79.396%, and the redundancy rate is less than 20%.",
+    "citationCount": 3,
+    "referenceCount": 41
+}

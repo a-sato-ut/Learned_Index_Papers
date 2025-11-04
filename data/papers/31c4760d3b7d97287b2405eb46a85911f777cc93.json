@@ -1,0 +1,37 @@
+{
+    "paperId": "31c4760d3b7d97287b2405eb46a85911f777cc93",
+    "title": "An enhanced neural network model for predicting the remaining useful life of proton exchange membrane fuel cells",
+    "year": 2025,
+    "venue": "Scientific Reports",
+    "authors": [
+        "Honghua Pan",
+        "Yujin Zou",
+        "Xiao Sun",
+        "Jun Fu"
+    ],
+    "doi": "10.1038/s41598-025-21247-4",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/31c4760d3b7d97287b2405eb46a85911f777cc93",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this study, a GMA based approach to predict proton exchange membrane fuel cell (PEMFC) stack voltage and remaining useful life (RUL) was proposed, and how different combinations of input and output sizes affect model performance was analyzed. The results show that the GMA model effectively captures the voltage degradation trend of the PEMFC, accurately reproducing the early rapid voltage drop and the later smooth degradation. Model performance is strongly influenced by the input and output configurations. Smaller input sizes lead to larger fluctuations in performance metrics (e.g., RMSE and score), whereas larger input sizes provide more informative features and improve predictive accuracy. In particular, with an input size of 300 and an output size of 40, the model achieves its best performance, yielding the lowest RMSE and a near optimal Score. Overall, the GMA model offers clear advantages for improving the accuracy and reliability of PEMFC prediction, and its predictive effectiveness and stability can be further enhanced through careful selection of input and output sizes. This study provides a practical reference for PEMFC RUL prediction and supports maintenance planning, performance evaluation and life cycle management of fuel cells.",
+    "citationCount": 0,
+    "referenceCount": 27
+}

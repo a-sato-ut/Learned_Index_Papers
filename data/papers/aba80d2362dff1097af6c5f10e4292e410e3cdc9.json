@@ -1,0 +1,30 @@
+{
+    "paperId": "aba80d2362dff1097af6c5f10e4292e410e3cdc9",
+    "title": "DB-BERT: making database tuning tools \"read\" the manual",
+    "year": 2023,
+    "venue": "The VLDB journal",
+    "authors": [
+        "Immanuel Trummer"
+    ],
+    "doi": "10.1007/s00778-023-00831-y",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/aba80d2362dff1097af6c5f10e4292e410e3cdc9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s00778-023-00831-y.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "DB-BERT is a database tuning tool that exploits information gained via natural language analysis of manuals and other relevant text documents. It uses text to identify database system parameters to tune as well as recommended parameter values. DB-BERT applies large, pre-trained language models (specifically, the BERT model) for text analysis. During an initial training phase, it fine-tunes model weights in order to translate natural language hints into recommended settings. At run time, DB-BERT learns to aggregate, adapt, and prioritize hints to achieve optimal performance for a specific database system and benchmark. Both phases are iterative and use reinforcement learning to guide the selection of tuning settings to evaluate (penalizing settings that the database system rejects while rewarding settings that improve performance). In our experiments, we leverage hundreds of text documents about database tuning as input for DB-BERT. We compare DB-BERT against various baselines, considering different benchmarks (TPC-C and TPC-H), metrics (throughput and run time), as well as database systems (PostgreSQL and MySQL). The experiments demonstrate clearly that DB-BERT benefits from combining general information about database tuning, mined from text documents, with scenario-specific insights, gained via trial runs. The full source code of DB-BERT is available online athttps://itrummer.github.io/dbbert/.",
+    "citationCount": 1,
+    "referenceCount": 34
+}

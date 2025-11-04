@@ -1,0 +1,41 @@
+{
+    "paperId": "a23282fc463aa9711414798e2b4cedc93221b235",
+    "title": "LoopServe: An Adaptive Dual-phase LLM Inference Acceleration System for Multi-Turn Dialogues",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Haoyang Li",
+        "Zhanchao Xu",
+        "Yiming Li",
+        "Xuejia Chen",
+        "Darian Li",
+        "Anxin Tian",
+        "Q. Xiao",
+        "Cheng Deng",
+        "Jun Wang",
+        "Qing Li",
+        "Lei Chen",
+        "Mingxuan Yuan"
+    ],
+    "doi": "10.48550/arXiv.2507.13681",
+    "arxivId": "2507.13681",
+    "url": "https://www.semanticscholar.org/paper/a23282fc463aa9711414798e2b4cedc93221b235",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multi-turn dialogues are essential in many real-world applications of large language models, such as chatbots and virtual assistants. As conversation histories become longer, existing large language models face increasing computational and memory challenges, which hinder their ability to provide efficient and responsive interactions. Most current acceleration methods either compress the context or optimize key value caching, but they often rely on fixed or position-based heuristics that do not adapt well to the dynamic and unpredictable patterns found in actual multi-turn conversations. As a result, these models cannot accurately identify and prioritize the most relevant context, leading to degraded response quality. In this paper, we present LoopServe, an adaptive dual-phase inference acceleration framework for large language models in multi-turn dialogues. LoopServe introduces two main innovations. First, it performs online sparsification during the prefilling phase by dynamically selecting the most important parts of the attention matrix for each new input. Second, it uses progressive key value compression during decoding by adaptively maintaining a relevant and efficient cache based on the most recently generated output tokens. We also propose a new benchmark with eleven multi-turn datasets that reflect realistic query positions and conversational dependencies. Extensive experiments demonstrate that LoopServe consistently achieves superior effectiveness compared to existing baselines and significantly accelerates LLM inference across a wide range of long-context dialogue tasks.",
+    "citationCount": 1,
+    "referenceCount": 76
+}

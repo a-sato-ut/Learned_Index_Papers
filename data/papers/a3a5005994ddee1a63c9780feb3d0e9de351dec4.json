@@ -1,0 +1,32 @@
+{
+    "paperId": "a3a5005994ddee1a63c9780feb3d0e9de351dec4",
+    "title": "Classification of Heartbeats Using Convolutional Neural Network with Range Normalization",
+    "year": 2025,
+    "venue": "Medinformatics",
+    "authors": [
+        "Jonah Kenei",
+        "J. Moso"
+    ],
+    "doi": "10.47852/bonviewmedin52024043",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a3a5005994ddee1a63c9780feb3d0e9de351dec4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Electrocardiography (ECGs) signals are the primary means by which physicians diagnose cardiovascular-related illnesses such as abnormal heart rhythms, heart attack, and rheumatic heart. Automatically analyzing electrocardiogram (ECG) signals is a complex machine learning problem. This is because ECG waveforms can exhibit significant variability in their morphological (shape) and temporal (time-based) characteristics across different individuals. Doctors can reliably analyze electrocardiogram (ECG) signals using visual inspection of the signal waveform. However, doctors often find it challenging to analyze lengthy ECG records within a short time frame. Furthermore, the human eye has limitations in detecting subtle morphological variations within ECG signals. Although ECG signals can reveal a diverse range of heart conditions, the task of observing and categorizing long-term ECG beats can be challenging even for experts. Furthermore, because of the large volume of data, there is a significant risk of missing important information. As a result, effective computational techniques are essential to tackle this challenge. This paper introduces a deep learning approach for improving the classification of electrocardiogram (ECG) signals. The novelty in our approach is applying range normalization, which scales input data to a range of 0 to 1 before feeding it into neural network layers. The method classifies ECG signals into five categories, evaluated using the Massachusetts Institute of Technology and Boston Hospital and PTB datasets and adhering to AAMI standards. A comparison of normalization techniques with a convolutional neural network (CNN) classifier shows that the proposed method achieves average F1-scores of 99%, 85%, 95%, 81%, and 99% for the N, S, V, F, and Q classes, respectively. The overall accuracy of 98.73% demonstrates that the proposed technique outperforms existing methods.\n \nReceived: 6 August 2024 | Revised: 10 February 2025 | Accepted: 19 February 2025\n \nConflicts of Interest\nThe authors declare that they have no conflicts of interest to this work.\n \nData Availability Statement\nData sharing is not applicable to this article as no new data were created or analyzed in this study.\n \nAuthor Contribution Statement\nJonah Kenei: Conceptualization, Formal analysis, Writing – original draft, Writing – review & editing, Supervision, Project administration. Juliet Moso: Methodology, Software, Validation, Investigation, Resources, Data curation, Visualization.",
+    "citationCount": 0,
+    "referenceCount": 78
+}

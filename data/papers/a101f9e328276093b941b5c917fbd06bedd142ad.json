@@ -1,0 +1,31 @@
+{
+    "paperId": "a101f9e328276093b941b5c917fbd06bedd142ad",
+    "title": "Eye in the Sky for Sub-Tidal Seagrass Mapping: Leveraging Unsupervised Domain Adaptation with SegFormer for Multi-Source and Multi-Resolution Aerial Imagery",
+    "year": 2025,
+    "venue": "Remote Sensing",
+    "authors": [
+        "Satish Pawar",
+        "A. Thomasberger",
+        "S. Bengtson",
+        "Malte Pedersen",
+        "Karen Timmermann"
+    ],
+    "doi": "10.3390/rs17142518",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a101f9e328276093b941b5c917fbd06bedd142ad",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The accurate and large-scale mapping of seagrass meadows is essential, as these meadows form primary habitats for marine organisms and large sinks for blue carbon. Image data available for mapping these habitats are often scarce or are acquired through multiple surveys and instruments, resulting in images of varying spatial and spectral characteristics. This study presents an unsupervised domain adaptation (UDA) strategy that combines histogram-matching with the transformer-based SegFormer model to address these challenges. Unoccupied aerial vehicle (UAV)-derived imagery (3-cm resolution) was used for training, while orthophotos from airplane surveys (12.5-cm resolution) served as the target domain. The method was evaluated across three Danish estuaries (Horsens Fjord, Skive Fjord, and Lovns Broad) using one-to-one, leave-one-out, and all-to-one histogram matching strategies. The highest performance was observed at Skive Fjord, achieving an F1-score/IoU = 0.52/0.48 for the leave-one-out test, corresponding to 68% of the benchmark model that was trained on both domains. These results demonstrate the potential of this lightweight UDA approach to generalization across spatial, temporal, and resolution domains, enabling the cost-effective and scalable mapping of submerged vegetation in data-scarce environments. This study also sheds light on contrast as a significant property of target domains that impacts image segmentation.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

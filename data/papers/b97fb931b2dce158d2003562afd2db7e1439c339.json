@@ -1,0 +1,34 @@
+{
+    "paperId": "b97fb931b2dce158d2003562afd2db7e1439c339",
+    "title": "Query Optimization in the Wild: Realities and Trends",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Yuanyuan Tian"
+    ],
+    "doi": null,
+    "arxivId": "2510.20082",
+    "url": "https://www.semanticscholar.org/paper/b97fb931b2dce158d2003562afd2db7e1439c339",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "For nearly half a century, the core design of query optimizers in industrial database systems has remained remarkably stable, relying on foundational principles from System R and the Volcano/Cascades framework. However, the rise of cloud computing, massive data volumes, and unified data platforms has exposed the limitations of this traditional, monolithic architecture. Taking an industrial perspective, this paper reviews the past and present of query optimization in production systems and identifies the challenges they face today. Then this paper highlights three key trends gaining momentum in the industry that promise to address these challenges. First, a tighter feedback loop between query optimization and query execution is being used to improve the robustness of query performance. Second, the scope of optimization is expanding from a single query to entire workloads through the convergence of query optimization and workload optimization. Third, and perhaps most transformatively, the industry is moving from monolithic designs to composable architectures that foster agility and cross-engine collaboration. Together, these trends chart a clear path toward a more dynamic, holistic, and adaptable future for query optimization in practice.",
+    "citationCount": 0,
+    "referenceCount": 43
+}

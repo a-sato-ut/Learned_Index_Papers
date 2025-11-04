@@ -1,0 +1,36 @@
+{
+    "paperId": "81303a966c2359d7b4a9f4ffbdeaef62ed6f151c",
+    "title": "Think Rationally about What You See: Continuous Rationale Extraction for Relation Extraction",
+    "year": 2023,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Xuming Hu",
+        "Zhaochen Hong",
+        "Chenwei Zhang",
+        "Irwin King",
+        "Philip S. Yu"
+    ],
+    "doi": "10.1145/3539618.3592072",
+    "arxivId": "2305.03503",
+    "url": "https://www.semanticscholar.org/paper/81303a966c2359d7b4a9f4ffbdeaef62ed6f151c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3539618.3592072",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Relation extraction (RE) aims to extract potential relations according to the context of two entities, thus, deriving rational contexts from sentences plays an important role. Previous works either focus on how to leverage the entity information (e.g., entity types, entity verbalization) to inference relations, but ignore context-focused content, or use counterfactual thinking to remove the model's bias of potential relations in entities, but the relation reasoning process will still be hindered by irrelevant content. Therefore, how to preserve relevant content and remove noisy segments from sentences is a crucial task. In addition, retained content needs to be fluent enough to maintain semantic coherence and interpretability. In this work, we propose a novel rationale extraction framework named RE2, which leverages two continuity and sparsity factors to obtain relevant and coherent rationales from sentences. To solve the problem that the gold rationales are not labeled, RE2 applies an optimizable binary mask to each token in the sentence, and adjust the rationales that need to be selected according to the relation label. Experiments on four datasets show that RE2 surpasses baselines.",
+    "citationCount": 9,
+    "referenceCount": 38
+}

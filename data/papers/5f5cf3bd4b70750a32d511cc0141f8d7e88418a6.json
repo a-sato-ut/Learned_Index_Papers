@@ -1,0 +1,35 @@
+{
+    "paperId": "5f5cf3bd4b70750a32d511cc0141f8d7e88418a6",
+    "title": "Semantic Consistency based Dual-Asymmetric Discrete Online Hashing for Multi-View Streaming Data Retrieval",
+    "year": 2024,
+    "venue": "IEEE International Conference on Systems, Man and Cybernetics",
+    "authors": [
+        "Jing Chen",
+        "Yunxiao Zu",
+        "Bingjie Hou",
+        "Xinzhu Sang",
+        "Meiru Liu"
+    ],
+    "doi": "10.1109/SMC54092.2024.10831656",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5f5cf3bd4b70750a32d511cc0141f8d7e88418a6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multi-view online hashing has received much at-tention due to its huge potential in the area of large-scale multimedia retrieval. However, there are still some issues, e.g., how to alleviate the catastrophic forgetting, how to adequately extract high-level semantic information of multi-view streaming data and improve the discrimination of hash models, and how to effectively optimize the binary constraint problem. In this paper, we propose a novel Semantic Consistency based Dual-asymmetric Discrete Online Hashing method, SC-DDOH for short. It adopts a dual-asymmetric distance-based similarity supervision to retain similarities of new data chunk and database. To extract efficient high-level semantic information, an online semantic consistent supervision to mine the semantic related information from word embedding labels. Moreover, an efficient discrete iterative optimization algorithm is introduced to directly learn hash code in the Hamming space. Experiment results on three large-scale multi-view datasets demonstrate the superiority of SC-DDOH over the state-of-the-art baselines.",
+    "citationCount": 0,
+    "referenceCount": 29
+}

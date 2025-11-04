@@ -1,0 +1,44 @@
+{
+    "paperId": "1a23c7e6b4c936f20250473169b6c756d27f8915",
+    "title": "Automated CNN-based Semantic Segmentation for Thermal Image of Solar Photovoltaic (PV) Panel",
+    "year": 2024,
+    "venue": "IEEE International Conference on Control System, Computing and Engineering",
+    "authors": [
+        "Nurul Huda Ishak",
+        "I. Isa",
+        "Muhammad Khusairi Osman",
+        "Kamarulazhar Daud",
+        "Mohd Zulhamdy Ab Hamid",
+        "M. Jadin"
+    ],
+    "doi": "10.1109/ICCSCE61582.2024.10696810",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1a23c7e6b4c936f20250473169b6c756d27f8915",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Driven by the growing worldwide need for sustainable energy sources, the utilization of solar photovoltaic (PV) panels has significantly increased in many applications. However, monitoring solar PV panels using thermal imaging significantly impacts panel efficiency and performance. To address this, thermal imaging offers a promising technique for monitoring and diagnosing these issues using computer vision and intelligence methods. This study proposes an automated semantic segmentation approach based on CNN to segment solar PV panels’ thermal images. The proposed method used U-Net and ResNet as CNN-based models for segmenting two different regions, solar panels and the background of thermal images. This segmentation approach leverages the power of deep learning to analyze thermal images, effectively highlighting precise results that facilitate prompt maintenance and optimization of PV panel performance. The model’s performance and pixel are evaluated using Intersection over Union (IoU) metrics and accuracy. The result, which showcases the potential of the proposed method, reveals that the proposed method using ResNet 50 has achieved superior performance compared to ResNet 18 and augmented UNet, with an IoU score of 0.9383 and an accuracy of 97%. In conclusion, semantic segmentation based on the CNN model significantly impacts thermal image pattern recognition in solar PV pattern recognition.",
+    "citationCount": 1,
+    "referenceCount": 17
+}

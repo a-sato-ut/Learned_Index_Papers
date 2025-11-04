@@ -1,0 +1,35 @@
+{
+    "paperId": "67b8a43379637f4ccfee41a3045582aa90748e70",
+    "title": "ML-Driven Dynamic Task Scheduling for Heterogeneous Computing via Spatiotemporal Performance Prediction",
+    "year": 2025,
+    "venue": "2025 8th International Conference on Computer Information Science and Application Technology (CISAT)",
+    "authors": [
+        "Yeheng Jin",
+        "Xuejun Yu",
+        "Cunzhuo Lu",
+        "Jing Xia",
+        "Yanqi Lu",
+        "Jinyang Yan"
+    ],
+    "doi": "10.1109/CISAT66811.2025.11181702",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/67b8a43379637f4ccfee41a3045582aa90748e70",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Heterogeneous computing platforms that integrate multiple accelerators (CPUs, GPUs, and NPUs) play a pivotal role in big data and artificial intelligence applications, but face critical challenges, including insufficient precision in performance monitoring and resource utilization imbalances caused by homogeneous scheduling strategies. This study proposes a self-tuning methodology combining eBPF-based fine-grained tracing with spatiotemporal performance prediction. The framework incorporates three key innovations: (i) a kernel-user space collaborative monitoring architecture employing eBPF instrumentation to acquire and preprocess system metrics as structured datasets; (ii) a hybrid CNN-LSTM model predicting performance bottlenecks under load surges through temporal pattern recognition; (iii) a PaddleLite-implemented dynamic scheduler enabling hardware-aware task allocation. Experimental validation using MobileNet-based object detection tasks demonstrates a 45% reduction in average per-frame inference latency and a balanced resource utilization improvement (CPU/GPU utilization increased by 13.3%/20.1% while alleviating NPU overload). The proposed approach provides an effective resource management solution for domestic heterogeneous computing ecosystems.",
+    "citationCount": 0,
+    "referenceCount": 17
+}

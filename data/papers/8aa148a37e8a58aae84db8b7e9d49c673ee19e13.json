@@ -1,0 +1,37 @@
+{
+    "paperId": "8aa148a37e8a58aae84db8b7e9d49c673ee19e13",
+    "title": "Forget Vectors at Play: Universal Input Perturbations Driving Machine Unlearning in Image Classification",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Changchang Sun",
+        "Ren Wang",
+        "Yihua Zhang",
+        "Jinghan Jia",
+        "Jiancheng Liu",
+        "Gaowen Liu",
+        "Sijia Liu",
+        "Yan Yan"
+    ],
+    "doi": "10.48550/arXiv.2412.16780",
+    "arxivId": "2412.16780",
+    "url": "https://www.semanticscholar.org/paper/8aa148a37e8a58aae84db8b7e9d49c673ee19e13",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine unlearning (MU), which seeks to erase the influence of specific unwanted data from already-trained models, is becoming increasingly vital in model editing, particularly to comply with evolving data regulations like the ``right to be forgotten''. Conventional approaches are predominantly model-based, typically requiring retraining or fine-tuning the model's weights to meet unlearning requirements. In this work, we approach the MU problem from a novel input perturbation-based perspective, where the model weights remain intact throughout the unlearning process. We demonstrate the existence of a proactive input-based unlearning strategy, referred to forget vector, which can be generated as an input-agnostic data perturbation and remains as effective as model-based approximate unlearning approaches. We also explore forget vector arithmetic, whereby multiple class-specific forget vectors are combined through simple operations (e.g., linear combinations) to generate new forget vectors for unseen unlearning tasks, such as forgetting arbitrary subsets across classes. Extensive experiments validate the effectiveness and adaptability of the forget vector, showcasing its competitive performance relative to state-of-the-art model-based methods. Codes are available at https://github.com/Changchangsun/Forget-Vector.",
+    "citationCount": 2,
+    "referenceCount": 71
+}

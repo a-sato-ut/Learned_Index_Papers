@@ -1,0 +1,36 @@
+{
+    "paperId": "8e94f96d6aa48746082608e5ae4ca8983d4f38ec",
+    "title": "Interference Management for a Wireless Communication Network Using a Recurrent Neural Network Approach",
+    "year": 2024,
+    "venue": "Mathematics",
+    "authors": [
+        "Mohammad Abrar Shakil Sejan",
+        "Md Habibur Rahman",
+        "Md Abdul Aziz",
+        "Rana Tabassum",
+        "Young-Hwan You",
+        "Duck-dong Hwang",
+        "Hyoung-Kyu Song"
+    ],
+    "doi": "10.3390/math12111755",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8e94f96d6aa48746082608e5ae4ca8983d4f38ec",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2227-7390/12/11/1755/pdf?version=1717578710",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Wireless communication technologies have profoundly impacted the interconnectivity of mobile users and terminals. Nevertheless, the exponential increase in the number of users poses significant challenges, particularly in interference management, which is a major concern in wireless communication. Machine learning (ML) approaches have emerged as powerful tools for solving various problems in this domain. However, existing studies have not fully addressed the problem of interference management for wireless communication using ML techniques. In this paper, we explore the application of recurrent neural network (RNN) approaches to address co-channel interference in wireless communication. Specifically, we investigate the effectiveness of long short-term memory (LSTM), bidirectional LSTM (Bi-LSTM), and gated recurrent unit (GRU) network architectures in two different network settings. The first network comprises 10 connected devices, while the second network involves 20 devices. Our experimental results demonstrate that Bi-LSTM outperforms LSTM and GRU in terms of mean squared error, normalized mean squared error, and sum rate. While LSTM and GRU produce similar results, LSTM exhibits a marginal advantage over GRU. In addition, a combined RNN approach is also studied, and it can provide better results in dense networks.",
+    "citationCount": 11,
+    "referenceCount": 36
+}

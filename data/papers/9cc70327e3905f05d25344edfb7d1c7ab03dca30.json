@@ -1,0 +1,37 @@
+{
+    "paperId": "9cc70327e3905f05d25344edfb7d1c7ab03dca30",
+    "title": "Benchmarking OpenAI’s APIs and other Large Language Models for Repeatable and Efficient Question Answering Across Multiple Documents",
+    "year": 2024,
+    "venue": "Conference on Computer Science and Information Systems",
+    "authors": [
+        "Elena Filipovska",
+        "Ana Mladenovska",
+        "Merxhan Bajrami",
+        "Jovana Dobreva",
+        "Vellislava Hillman",
+        "Petre Lameski",
+        "Eftim Zdravevski"
+    ],
+    "doi": "10.15439/2024F3979",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9cc70327e3905f05d25344edfb7d1c7ab03dca30",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid growth of document volumes and complexity in various domains necessitates advanced automated methods to enhance the efficiency and accuracy of information extraction and analysis. This paper aims to evaluate the efficiency and repeatability of OpenAI’s APIs and other Large Language Models (LLMs) in automating question-answering tasks across multiple documents, specifically focusing on analyzing Data Privacy Policy (DPP) documents of selected EdTech providers. We test how well these models perform on large-scale text processing tasks using the OpenAI’s LLM models (GPT 3.5 Turbo, GPT 4, GPT 4o) and APIs in several frameworks: direct API calls (i.e., one-shot learning), LangChain, and Retrieval Augmented Generation (RAG) systems. We also evaluate a local deployment of quantized versions (with FAISS) of LLM models (Llama-2-13B-chat-GPTQ). Through systematic evaluation against predefined use cases and a range of metrics, including response format, execution time, and cost, our study aims to provide insights into the optimal practices for document analysis. Our findings demonstrate that using OpenAI’s LLMs via API calls is a workable workaround for accelerating document analysis when using a local GPU-powered infrastructure is not a viable solution, particularly for long texts. On the other hand, the local deployment is quite valuable for maintaining the data within the private infrastructure. Our findings show that the quantized models retain substantial relevance even with fewer parameters than ChatGPT and do not impose processing restrictions on the number of tokens. This study offers insights on maximizing the use of LLMs for better efficiency and data governance in addition to confirming their usefulness in improving document analysis procedures.",
+    "citationCount": 1,
+    "referenceCount": 18
+}

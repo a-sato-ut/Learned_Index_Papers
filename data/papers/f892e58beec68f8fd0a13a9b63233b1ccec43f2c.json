@@ -1,0 +1,35 @@
+{
+    "paperId": "f892e58beec68f8fd0a13a9b63233b1ccec43f2c",
+    "title": "Semantic-enhanced Co-attention Prompt Learning for Non-overlapping Cross-domain Recommendation",
+    "year": 2025,
+    "venue": "ACM Trans. Inf. Syst.",
+    "authors": [
+        "Lei Guo",
+        "Chenlong Song",
+        "Feng Guo",
+        "Xiaohui Han",
+        "Xiaojun Chang",
+        "Lei Zhu"
+    ],
+    "doi": "10.1145/3742422",
+    "arxivId": "2505.19085",
+    "url": "https://www.semanticscholar.org/paper/f892e58beec68f8fd0a13a9b63233b1ccec43f2c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Non-overlapping Cross-domain Sequential Recommendation (NCSR) is the task that focuses on domain knowledge transfer without overlapping entities. Compared with traditional Cross-domain Sequential Recommendation (CSR), NCSR poses several challenges: (1) NCSR methods often rely on explicit item IDs, overlooking semantic information among entities. (2) Existing CSR mainly relies on domain alignment for knowledge transfer, risking semantic loss during alignment. (3) Most previous studies do not consider the many-to-one characteristic, which is challenging because of the utilization of multiple source domains. Given the above challenges, we introduce the prompt learning technique for Many-to-one Non-overlapping Cross-domain Sequential Recommendation (MNCSR) and propose a Text-enhanced Co-attention Prompt Learning Paradigm (TCPLP). Specifically, we capture semantic meanings by representing items through text rather than IDs, leveraging natural language universality to facilitate cross-domain knowledge transfer. Unlike prior works that need to conduct domain alignment, we directly learn transferable domain information, where two types of prompts, i.e., domain-shared and domain-specific prompts, are devised, with a co-attention-based network for prompt encoding. Then, we develop a two-stage learning strategy, i.e., pre-train and prompt-tuning paradigm, for domain knowledge pre-learning and transferring, respectively. We conduct extensive experiments on three datasets and the experimental results demonstrate the superiority of our TCPLP. Our source codes have been publicly released (https://github.com/songchenlong/TCPLP).",
+    "citationCount": 0,
+    "referenceCount": 80
+}

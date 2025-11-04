@@ -1,0 +1,35 @@
+{
+    "paperId": "c2a6059d2e589b530bcab0190241361c43f8bc27",
+    "title": "RecGPT: A Foundation Model for Sequential Recommendation",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ya Jiang",
+        "Xubin Ren",
+        "Lianghao Xia",
+        "Da Luo",
+        "Kangyi Lin",
+        "Chao Huang"
+    ],
+    "doi": "10.48550/arXiv.2506.06270",
+    "arxivId": "2506.06270",
+    "url": "https://www.semanticscholar.org/paper/c2a6059d2e589b530bcab0190241361c43f8bc27",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This work addresses a fundamental barrier in recommender systems: the inability to generalize across domains without extensive retraining. Traditional ID-based approaches fail entirely in cold-start and cross-domain scenarios where new users or items lack sufficient interaction history. Inspired by foundation models' cross-domain success, we develop a foundation model for sequential recommendation that achieves genuine zero-shot generalization capabilities. Our approach fundamentally departs from existing ID-based methods by deriving item representations exclusively from textual features. This enables immediate embedding of any new item without model retraining. We introduce unified item tokenization with Finite Scalar Quantization that transforms heterogeneous textual descriptions into standardized discrete tokens. This eliminates domain barriers that plague existing systems. Additionally, the framework features hybrid bidirectional-causal attention that captures both intra-item token coherence and inter-item sequential dependencies. An efficient catalog-aware beam search decoder enables real-time token-to-item mapping. Unlike conventional approaches confined to their training domains, RecGPT naturally bridges diverse recommendation contexts through its domain-invariant tokenization mechanism. Comprehensive evaluations across six datasets and industrial scenarios demonstrate consistent performance advantages.",
+    "citationCount": 0,
+    "referenceCount": 48
+}

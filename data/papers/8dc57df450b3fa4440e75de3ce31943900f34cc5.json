@@ -1,0 +1,40 @@
+{
+    "paperId": "8dc57df450b3fa4440e75de3ce31943900f34cc5",
+    "title": "Opara: Exploiting Operator Parallelism for Expediting DNN Inference on GPUs",
+    "year": 2025,
+    "venue": "IEEE transactions on computers",
+    "authors": [
+        "Aodong Chen",
+        "Fei Xu",
+        "Li Han",
+        "Yuan Dong",
+        "Li Chen",
+        "Zhi Zhou",
+        "Fangming Liu"
+    ],
+    "doi": "10.1109/TC.2024.3475589",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8dc57df450b3fa4440e75de3ce31943900f34cc5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "GPUs have become the <italic>defacto</italic> hardware devices for accelerating Deep Neural Network (DNN) inference workloads. However, the conventional <italic>sequential execution mode of DNN operators</italic> in mainstream deep learning frameworks cannot fully utilize GPU resources, even with the operator fusion enabled, due to the increasing complexity of model structures and a greater diversity of operators. Moreover, the <italic>inadequate operator launch order</italic> in parallelized execution scenarios can lead to GPU resource wastage and unexpected performance interference among operators. In this paper, we propose <italic>Opara</italic>, a resource- and interference-aware DNN <underline>Op</underline>erator <underline>para</underline>llel scheduling framework to accelerate DNN inference on GPUs. Specifically, <italic>Opara</italic> first employs <monospace>CUDA Streams</monospace> and <monospace>CUDA Graph</monospace> to <italic>parallelize</italic> the execution of multiple operators automatically. To further expedite DNN inference, <italic>Opara</italic> leverages the resource demands of operators to judiciously adjust the operator launch order on GPUs, overlapping the execution of compute-intensive and memory-intensive operators. We implement and open source a prototype of <italic>Opara</italic> based on PyTorch in a <italic>non-intrusive</italic> manner. Extensive prototype experiments with representative DNN and Transformer-based models demonstrate that <italic>Opara</italic> outperforms the default sequential <monospace>CUDA Graph</monospace> in PyTorch and the state-of-the-art operator parallelism systems by up to <inline-formula><tex-math notation=\"LaTeX\">$1.68\\boldsymbol{\\times}$</tex-math><alternatives><mml:math><mml:mn>1.68</mml:mn><mml:mo mathvariant=\"bold\">×</mml:mo></mml:math><inline-graphic xlink:href=\"xu-ieq1-3475589.gif\"/></alternatives></inline-formula> and <inline-formula><tex-math notation=\"LaTeX\">$1.29\\boldsymbol{\\times}$</tex-math><alternatives><mml:math><mml:mn>1.29</mml:mn><mml:mo mathvariant=\"bold\">×</mml:mo></mml:math><inline-graphic xlink:href=\"xu-ieq2-3475589.gif\"/></alternatives></inline-formula>, respectively, yet with acceptable runtime overhead.",
+    "citationCount": 7,
+    "referenceCount": 26
+}

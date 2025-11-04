@@ -1,0 +1,35 @@
+{
+    "paperId": "e7cfcb1ed4f3cbd9d47587ca69999321c7010f7c",
+    "title": "Transferable Sequential Recommendation via Vector Quantized Meta Learning",
+    "year": 2024,
+    "venue": "BigData Congress [Services Society]",
+    "authors": [
+        "Zhenrui Yue",
+        "Huimin Zeng",
+        "Yang Zhang",
+        "Julian McAuley",
+        "Dong Wang"
+    ],
+    "doi": "10.1109/BigData62323.2024.10825425",
+    "arxivId": "2411.01785",
+    "url": "https://www.semanticscholar.org/paper/e7cfcb1ed4f3cbd9d47587ca69999321c7010f7c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "While sequential recommendation achieves significant progress on capturing user-item transition patterns, transferring such large-scale recommender systems remains challenging due to the disjoint user and item groups across domains. In this paper, we propose a vector quantized meta learning for transferable sequential recommenders (MetaRec). Without requiring additional modalities or shared information across domains, our approach leverages user-item interactions from multiple source domains to improve the target domain performance. To solve the input heterogeneity issue, we adopt vector quantization that maps item embeddings from heterogeneous input spaces to a shared feature space. Moreover, our meta transfer paradigm exploits limited target data to guide the transfer of source domain knowledge to the target domain (i.e., learn to transfer). In addition, MetaRec adaptively transfers from multiple source tasks by rescaling meta gradients based on the source-target domain similarity, enabling selective learning to improve recommendation performance. To validate the effectiveness of our approach, we perform extensive experiments on benchmark datasets, where MetaRec consistently outperforms baseline methods by a considerable margin.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "a85d0eb0882c15f0f2d41a5bc108c5addeb367e0",
+    "title": "Enabling Data Dependency-based Query Optimization",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Daniel Lindner",
+        "Daniel Ritter",
+        "Felix Naumann"
+    ],
+    "doi": "10.48550/arXiv.2406.06886",
+    "arxivId": "2406.06886",
+    "url": "https://www.semanticscholar.org/paper/a85d0eb0882c15f0f2d41a5bc108c5addeb367e0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Primary key (PK) and foreign key (FK) constraints are widely used for query optimization. Knowledge about additional data dependencies, such as order dependencies, enables further substantial performance improvements. However, such dependencies are not maintained by database systems or are even unknown to the user. Identifying and validating relevant dependencies automatically and efficiently remains an unsolved problem. This paper presents a system that (i) recognizes dependency candidates for optimization, (ii) efficiently validates their applicability, and (iii) optimizes query plans using valid dependencies. First, we demonstrate the performance impact of optimization techniques using data dependencies additional to PKs and FKs. Using rewritten SQL queries, we empirically show that data dependencies improve performance for a wide range of analytical database systems and benchmarks. Second, we present how to integrate data dependencies into a system to use them without (i) manual declaration and maintenance or (ii) SQL rewrites. Our integrated and fully automated system matches the performance of dedicated SQL rewrites: compared to using only PKs and FKs, queries improve with geometric mean speedups of 35 % for TPC-DS and 29 % for JOB. Individual query latencies drop by more than 90 %. The dependency discovery overhead is orders of magnitude lower than the latency improvement of a single workload execution.",
+    "citationCount": 1,
+    "referenceCount": 81
+}

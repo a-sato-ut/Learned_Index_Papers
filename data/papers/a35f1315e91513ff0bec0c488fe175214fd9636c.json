@@ -1,0 +1,38 @@
+{
+    "paperId": "a35f1315e91513ff0bec0c488fe175214fd9636c",
+    "title": "Recommender Systems in the Era of Large Language Models (LLMs)",
+    "year": 2023,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Wenqi Fan",
+        "Zihuai Zhao",
+        "Jiatong Li",
+        "Yunqing Liu",
+        "Xiaowei Mei",
+        "Yiqi Wang",
+        "Jiliang Tang",
+        "Qing Li"
+    ],
+    "doi": "10.1109/TKDE.2024.3392335",
+    "arxivId": "2307.02046",
+    "url": "https://www.semanticscholar.org/paper/a35f1315e91513ff0bec0c488fe175214fd9636c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.02046",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the prosperity of e-commerce and web applications, Recommender Systems (RecSys) have become an indispensable and important component, providing personalized suggestions that cater to user preferences. While Deep Neural Networks (DNNs) have achieved significant advancements in enhancing recommender systems, these DNN-based methods still exhibit some limitations, such as inferior capabilities to effectively capture textual side information about users and items, difficulties in generalization to various recommendation scenarios, and reasoning on their predictions, etc. Meanwhile, the development of Large Language Models (LLMs), such as ChatGPT and GPT-4, has revolutionized the fields of Natural Language Processing (NLP) and Artificial Intelligence (AI), due to their remarkable abilities in fundamental responsibilities of language understanding and generation, as well as impressive generalization capabilities and reasoning skills. As a result, recent studies have actively attempted to harness the power of LLMs to enhance recommender systems. Given the rapid evolution of this research direction in recommender systems, there is a pressing need for a systematic overview that summarizes existing LLM-empowered recommender systems. Therefore, in this survey, we comprehensively review LLM-empowered recommender systems from various perspectives including pre-training, fine-tuning, and prompting paradigms. More specifically, we first introduce the representative methods to learn user and item representations, leveraging LLMs as feature encoders. Then, we systematically review the emerging advanced techniques of LLMs for enhancing recommender systems from three paradigms, namely pre-training, fine-tuning, and prompting. Finally, we comprehensively discuss the promising future directions in this emerging field.",
+    "citationCount": 391,
+    "referenceCount": 170
+}

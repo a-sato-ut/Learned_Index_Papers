@@ -1,0 +1,32 @@
+{
+    "paperId": "fec6a0580e797672322149faaded57e1abd13ada",
+    "title": "Pctx: Tokenizing Personalized Context for Generative Recommendation",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Qiyong Zhong",
+        "Jiajie Su",
+        "Yunshan Ma",
+        "Julian McAuley",
+        "Yupeng Hou"
+    ],
+    "doi": null,
+    "arxivId": "2510.21276",
+    "url": "https://www.semanticscholar.org/paper/fec6a0580e797672322149faaded57e1abd13ada",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative recommendation (GR) models tokenize each action into a few discrete tokens (called semantic IDs) and autoregressively generate the next tokens as predictions, showing advantages such as memory efficiency, scalability, and the potential to unify retrieval and ranking. Despite these benefits, existing tokenization methods are static and non-personalized. They typically derive semantic IDs solely from item features, assuming a universal item similarity that overlooks user-specific perspectives. However, under the autoregressive paradigm, semantic IDs with the same prefixes always receive similar probabilities, so a single fixed mapping implicitly enforces a universal item similarity standard across all users. In practice, the same item may be interpreted differently depending on user intentions and preferences. To address this issue, we propose a personalized context-aware tokenizer that incorporates a user's historical interactions when generating semantic IDs. This design allows the same item to be tokenized into different semantic IDs under different user contexts, enabling GR models to capture multiple interpretive standards and produce more personalized predictions. Experiments on three public datasets demonstrate up to 11.44% improvement in NDCG@10 over non-personalized action tokenization baselines. Our code is available at https://github.com/YoungZ365/Pctx.",
+    "citationCount": 0,
+    "referenceCount": 43
+}

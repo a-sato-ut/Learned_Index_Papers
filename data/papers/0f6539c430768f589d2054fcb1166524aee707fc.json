@@ -1,0 +1,37 @@
+{
+    "paperId": "0f6539c430768f589d2054fcb1166524aee707fc",
+    "title": "Fast and Scalable Data Transfer Across Data Systems",
+    "year": 2025,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Haralampos Gavriilidis",
+        "Kaustubh Beedkar",
+        "Matthias Boehm",
+        "Volker Markl"
+    ],
+    "doi": "10.1145/3725294",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0f6539c430768f589d2054fcb1166524aee707fc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Fast and scalable data transfer is crucial in today's decentralized data ecosystems and data-driven applications. Example use cases include transferring data from operational systems to consolidated data warehouse environments, or from relational database systems to data lakes for exploratory data analysis or ML model training. Traditional data transfer approaches rely on efficient point-to-point connectors or general middleware with generic intermediate data representations. Physical environments (e.g., on-premise, cloud, or consumer nodes) also have become increasingly heterogeneous. Existing work still struggles to achieve both, fast and scalable data transfer as well as generality in terms of heterogeneous systems and environments. Hence, in this paper, we introduce a holistic data transfer framework. Our XDBC framework splits the data transfer pipeline into logical components and provides a wide variety of physical implementations for these components. This design allows a seamless integration of different systems as well as the automatic optimizations of data transfer configurations according to workload and environment characteristics. Our evaluation shows that XDBC outperforms state-of-the-art generic data transfer tools by up to 5x, while being on par with specialized approaches.",
+    "citationCount": 1,
+    "referenceCount": 38
+}

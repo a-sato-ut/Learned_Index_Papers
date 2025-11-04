@@ -1,0 +1,41 @@
+{
+    "paperId": "7c3db7bcbd4ea5d2547ac76e1567cba1d4e30514",
+    "title": "Reinforcement learning for online hyperparameter tuning in convex quadratic programming",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jeremy Bertoncini",
+        "A. Marchi",
+        "Matthias Gerdts",
+        "Simon Gottschalk"
+    ],
+    "doi": "10.48550/arXiv.2509.07404",
+    "arxivId": "2509.07404",
+    "url": "https://www.semanticscholar.org/paper/7c3db7bcbd4ea5d2547ac76e1567cba1d4e30514",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Quadratic programming is a workhorse of modern nonlinear optimization, control, and data science. Although regularized methods offer convergence guarantees under minimal assumptions on the problem data, they can exhibit the slow tail-convergence typical of first-order schemes, thus requiring many iterations to achieve high-accuracy solutions. Moreover, hyperparameter tuning significantly impacts on the solver performance but how to find an appropriate parameter configuration remains an elusive research question. To address these issues, we explore how data-driven approaches can accelerate the solution process. Aiming at high-accuracy solutions, we focus on a stabilized interior-point solver and carefully handle its two-loop flow and control parameters. We will show that reinforcement learning can make a significant contribution to facilitating the solver tuning and to speeding up the optimization process. Numerical experiments demonstrate that, after a lightweight training, the learned policy generalizes well to different problem classes with varying dimensions and to various solver configurations.",
+    "citationCount": 0,
+    "referenceCount": 38
+}

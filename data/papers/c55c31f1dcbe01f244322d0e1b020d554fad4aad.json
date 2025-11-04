@@ -1,0 +1,35 @@
+{
+    "paperId": "c55c31f1dcbe01f244322d0e1b020d554fad4aad",
+    "title": "Online Fair Division for Personalized $2$-Value Instances",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Georgios Amanatidis",
+        "Alexandros Lolos",
+        "E. Markakis",
+        "Victor Turmel"
+    ],
+    "doi": null,
+    "arxivId": "2505.22174",
+    "url": "https://www.semanticscholar.org/paper/c55c31f1dcbe01f244322d0e1b020d554fad4aad",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study an online fair division setting, where goods arrive one at a time and there is a fixed set of $n$ agents, each of whom has an additive valuation function over the goods. Once a good appears, the value each agent has for it is revealed and it must be allocated immediately and irrevocably to one of the agents. It is known that without any assumptions about the values being severely restricted or coming from a distribution, very strong impossibility results hold in this setting. To bypass the latter, we turn our attention to instances where the valuation functions are restricted. In particular, we study personalized $2$-value instances, where there are only two possible values each agent may have for each good, possibly different across agents, and we show how to obtain worst case guarantees with respect to well-known fairness notions, such as maximin share fairness and envy-freeness up to one (or two) good(s). We suggest a deterministic algorithm that maintains a $1/(2n-1)$-MMS allocation at every time step and show that this is the best possible any deterministic algorithm can achieve if one cares about every single time step; nevertheless, eventually the allocation constructed by our algorithm becomes a $1/4$-MMS allocation. To achieve this, the algorithm implicitly maintains a fragile system of priority levels for all agents. Further, we show that, by allowing some limited access to future information, it is possible to have stronger results with less involved approaches. By knowing the values of goods for $n-1$ time steps into the future, we design a matching-based algorithm that achieves an EF$1$ allocation every $n$ time steps, while always maintaining an EF$2$ allocation. Finally, we show that our results allow us to get the first nontrivial guarantees for additive instances in which the ratio of the maximum over the minimum value an agent has for a good is bounded.",
+    "citationCount": 4,
+    "referenceCount": 37
+}

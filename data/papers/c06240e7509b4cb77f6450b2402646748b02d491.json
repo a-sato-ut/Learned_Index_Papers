@@ -1,0 +1,37 @@
+{
+    "paperId": "c06240e7509b4cb77f6450b2402646748b02d491",
+    "title": "Dimensionality-Reduction Techniques for Approximate Nearest Neighbor Search: A Survey and Evaluation",
+    "year": 2024,
+    "venue": "IEEE Data Engineering Bulletin",
+    "authors": [
+        "Zeyu Wang",
+        "Haoran Xiong",
+        "Qitong Wang",
+        "Zhenying He",
+        "Peng Wang",
+        "Themis Palpanas",
+        "Wei Wang"
+    ],
+    "doi": null,
+    "arxivId": "2403.13491",
+    "url": "https://www.semanticscholar.org/paper/c06240e7509b4cb77f6450b2402646748b02d491",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate Nearest Neighbor Search (ANNS) on high-dimensional vectors has become a fundamental and essential component in various machine learning tasks. Recently, with the rapid development of deep learning models and the applications of Large Language Models (LLMs), the dimensionality of the vectors keeps growing in order to accommodate a richer semantic representation. This poses a major challenge to the ANNS solutions since distance calculation cost in ANNS grows linearly with the dimensionality of vectors. To overcome this challenge, dimensionality-reduction techniques can be leveraged to accelerate the distance calculation in the search process. In this paper, we investigate six dimensionality-reduction techniques that have the potential to improve ANNS solutions, including classical algorithms such as PCA and vector quantization, as well as algorithms based on deep learning approaches. We further describe two frameworks to apply these techniques in the ANNS workflow, and theoretically analyze the time and space costs, as well as the beneficial threshold for the pruning ratio of these techniques. The surveyed techniques are evaluated on six public datasets. The analysis of the results reveals the characteristics of the different families of techniques and provides insights into the promising future research directions.",
+    "citationCount": 2,
+    "referenceCount": 52
+}

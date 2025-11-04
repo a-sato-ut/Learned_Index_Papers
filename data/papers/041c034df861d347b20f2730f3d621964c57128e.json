@@ -1,0 +1,42 @@
+{
+    "paperId": "041c034df861d347b20f2730f3d621964c57128e",
+    "title": "A-Tune-Online: Efficient and QoS-Aware Online Configuration Tuning for Dynamic Workloads",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Yu Shen",
+        "Beicheng Xu",
+        "Yupeng Lu",
+        "Donghui Chen",
+        "Huaijun Jiang",
+        "Zhipeng Xie",
+        "Senbo Fu",
+        "Nan Zhang",
+        "Yuxin Ren",
+        "Ning Jia",
+        "Xinwei Hu",
+        "Bin Cui"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00164",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/041c034df861d347b20f2730f3d621964c57128e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automatic configuration tuning of online services with dynamic workloads has attracted increasing interest. Effective online tuning ensures configurations adapt to workload changes over time to maintain optimal online service performance. To be practical, online tuning must satisfy the dynamicity, efficiency, and Quality of Service (QoS) requirements. However, existing online tuning approaches fail to meet these requirements due to the inability to eliminate negative effects from historical observations. In this paper, we propose A-Tune-Online, an online configuration tuning system that tackles dynamic workloads, delivering superior tuning efficiency, and QoS guarantee simultaneously to a wide range of online scenarios. We identify that restarting the optimization based on explicit workload shift detection is necessary and critical to eliminate negative historical observations. First, to invoke optimization restarts appropriately, we design a multi-stage multi-indicator detection strategy based on heuristic rules and configuration replays. Then, to avoid initial efficiency drop after re-optimization, A-Tune-Online utilizes a similarity-based dual warm start scheme that transfers knowledge from similar historical workloads effectively. Finally, to prevent transient performance degradation from violating QoS guarantee after optimization restart, we leverage lower confidence bound to construct a safety region where each configuration is expected to perform better than the QoS requirement. Empirical study on five tuning scenarios showcases the superiority of A-Tune-Online compared with state-of-art tuning systems. A-Tune-Online achieves an average speedup of 2.90x and 1.72x compared with OnlineTune and DDPG+, respectively. We provide a version of our system in https://github.com/PKU-DAIR/A-Tune-Online.",
+    "citationCount": 1,
+    "referenceCount": 41
+}

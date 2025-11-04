@@ -1,0 +1,32 @@
+{
+    "paperId": "4daafb95428f20e962a8007d09f4085d32177252",
+    "title": "Closing the Performance Gap in Generative Recommenders with Collaborative Tokenization and Efficient Modeling",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Simon Lepage",
+        "Jeremie Mary",
+        "David Picard"
+    ],
+    "doi": "10.48550/arXiv.2508.14910",
+    "arxivId": "2508.14910",
+    "url": "https://www.semanticscholar.org/paper/4daafb95428f20e962a8007d09f4085d32177252",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent work has explored generative recommender systems as an alternative to traditional ID-based models, reframing item recommendation as a sequence generation task over discrete item tokens. While promising, such methods often underperform in practice compared to well-tuned ID-based baselines like SASRec. In this paper, we identify two key limitations holding back generative approaches: the lack of collaborative signal in item tokenization, and inefficiencies in the commonly used encoder-decoder architecture. To address these issues, we introduce COSETTE, a contrastive tokenization method that integrates collaborative information directly into the learned item representations, jointly optimizing for both content reconstruction and recommendation relevance. Additionally, we propose MARIUS, a lightweight, audio-inspired generative model that decouples timeline modeling from item decoding. MARIUS reduces inference cost while improving recommendation accuracy. Experiments on standard sequential recommendation benchmarks show that our approach narrows, or even eliminates, the performance gap between generative and modern ID-based models, while retaining the benefits of the generative paradigm.",
+    "citationCount": 1,
+    "referenceCount": 52
+}

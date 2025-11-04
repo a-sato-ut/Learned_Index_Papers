@@ -1,0 +1,34 @@
+{
+    "paperId": "72b60c36c416f502c3f9eec0918298f96682e2b4",
+    "title": "Efficient Distance Queries on Non-point Data",
+    "year": 2024,
+    "venue": "ACM Trans. Spatial Algorithms Syst.",
+    "authors": [
+        "Achilleas Michalopoulos",
+        "Dimitrios Tsitsigkos",
+        "Panagiotis Bouros",
+        "Nikos Mamoulis",
+        "Manolis Terrovitis"
+    ],
+    "doi": "10.1145/3698194",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/72b60c36c416f502c3f9eec0918298f96682e2b4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Distance queries, including distance-range queries, k-nearest neighbors search, and distance joins, are very popular in spatial databases. However, they have been studied mainly for point data. Inspired by a recent approach on indexing non-point objects for rectangular range queries, we propose a secondary partitioning approach for space-partitioning indices, which is appropriate for distance queries. Our approach classifies the contents of each primary partition into 16 secondary partitions, taking into consideration the begin and end values of objects with respect to the spatial extent of the primary partition. Based on this, we define algorithms for three popular spatial query types, that avoid duplicate results and skip unnecessary computations. We compare our approach to the previous secondary partitioning method and to state-of-the-art data-partitioning indexing and find that it has a significant performance advantage.",
+    "citationCount": 0,
+    "referenceCount": 49
+}

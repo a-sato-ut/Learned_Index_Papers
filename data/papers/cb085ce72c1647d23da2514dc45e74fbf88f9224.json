@@ -1,0 +1,35 @@
+{
+    "paperId": "cb085ce72c1647d23da2514dc45e74fbf88f9224",
+    "title": "Language Representations Can be What Recommenders Need: Findings and Potentials",
+    "year": 2024,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Leheng Sheng",
+        "An Zhang",
+        "Yi Zhang",
+        "Yuxin Chen",
+        "Xiang Wang",
+        "Tat-Seng Chua"
+    ],
+    "doi": null,
+    "arxivId": "2407.05441",
+    "url": "https://www.semanticscholar.org/paper/cb085ce72c1647d23da2514dc45e74fbf88f9224",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent studies empirically indicate that language models (LMs) encode rich world knowledge beyond mere semantics, attracting significant attention across various fields. However, in the recommendation domain, it remains uncertain whether LMs implicitly encode user preference information. Contrary to prevailing understanding that LMs and traditional recommenders learn two distinct representation spaces due to the huge gap in language and behavior modeling objectives, this work re-examines such understanding and explores extracting a recommendation space directly from the language representation space. Surprisingly, our findings demonstrate that item representations, when linearly mapped from advanced LM representations, yield superior recommendation performance. This outcome suggests the possible homomorphism between the advanced language representation space and an effective item representation space for recommendation, implying that collaborative signals may be implicitly encoded within LMs. Motivated by these findings, we explore the possibility of designing advanced collaborative filtering (CF) models purely based on language representations without ID-based embeddings. To be specific, we incorporate several crucial components to build a simple yet effective model, with item titles as the input. Empirical results show that such a simple model can outperform leading ID-based CF models, which sheds light on using language representations for better recommendation. Moreover, we systematically analyze this simple model and find several key features for using advanced language representations: a good initialization for item representations, zero-shot recommendation abilities, and being aware of user intention. Our findings highlight the connection between language modeling and behavior modeling, which can inspire both natural language processing and recommender system communities.",
+    "citationCount": 16,
+    "referenceCount": 118
+}

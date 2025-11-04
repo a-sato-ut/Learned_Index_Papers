@@ -1,0 +1,37 @@
+{
+    "paperId": "c4cb4009877bbd4ef0c0f942b32b7a3667ffd70f",
+    "title": "Apic: A Precomputation-Based Integer Compressor for OLTP Databases",
+    "year": 2025,
+    "venue": "Data Compression Conference",
+    "authors": [
+        "Yufan Chen",
+        "Xiangyu Zou",
+        "Kaiwen Deng",
+        "Hao Hu",
+        "Cai Deng",
+        "Ke Feng",
+        "Wen Xia"
+    ],
+    "doi": "10.1109/DCC62719.2025.00038",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c4cb4009877bbd4ef0c0f942b32b7a3667ffd70f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current compressors for OLTP databases perform well on text but face challenges with integers, although integers are a critical component of the workload. Most existing integer compressors are ineffective as a complementary solution, since they compress integers together and cannot decompress a certain integer individually, making them incompatible with the data access requirement of OLTP databases. To this end, we propose Apic, a precomputation-based arithmetic coding to efficiently compress each integers (a very tiny unit), though small data are always hard to compress, and ensure compatibility with OLTP datasets. Specifically, Apic presents Bitwidth-aware Precomputed Frequency and Prefixaware Precomputed Decoding to tackle challenges of applying arithmetic coding in this scenario, such as the substantial space costs of symbol frequencies and decompression complexity. Evaluations on real-world and desensitized commercial datasets suggest that Apic improves the compression ratio by up to 80% on integers over VByte, while preserving comparable decompression speed and thus query performance.",
+    "citationCount": 1,
+    "referenceCount": 17
+}

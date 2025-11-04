@@ -1,0 +1,36 @@
+{
+    "paperId": "ebc06a22fa91e03648bc38e3a02cf444d8d3785e",
+    "title": "CUTTANA: Scalable Graph Partitioning for Faster Distributed Graph Databases and Analytics",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Milad Rezaei Hajidehi",
+        "Sraavan Sridhar",
+        "Margo Seltzer"
+    ],
+    "doi": "10.48550/arXiv.2312.08356",
+    "arxivId": "2312.08356",
+    "url": "https://www.semanticscholar.org/paper/ebc06a22fa91e03648bc38e3a02cf444d8d3785e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph partitioning plays a pivotal role in various distributed graph processing applications, including graph analytics, graph neural network training, and distributed graph databases. A \"good\" graph partitioner reduces workload execution time, worker imbalance, and network overhead. Graphs that require distributed settings are often too large to fit in the main memory of a single machine. This challenge renders traditional in-memory graph partitioners infeasible, leading to the emergence of streaming solutions. Streaming partitioners produce lower-quality partitions, because they work from partial information and must make premature decisions before they have a complete view of a vertex's neighborhood. We introduce CUTTANA, a streaming graph partitioner that partitions massive graphs (Web/Twitter scale) with superior quality compared to existing streaming solutions. CUTTANA uses a novel buffering technique that prevents the premature assignment of vertices to partitions and a scalable coarsening and refinement technique that enables a complete graph view, improving the intermediate assignment made by a streaming partitioner. We implemented a parallel version for CUTTANA that offers nearly the same partitioning latency as existing streaming partitioners.\n Our experimental analysis shows that CUTTANA consistently yields better partitioning quality than state-of-the-art streaming vertex partitioners in terms of both edge-cut and communication volume metrics. We also evaluate the workload latencies that result from using CUTTANA and other partitioners in distributed graph analytics and databases. CUTTANA outperforms the other methods in most scenarios (algorithms, datasets). In analytics applications, CUTTANA improves runtime performance by up to 59% compared to various streaming partitioners (i.e., HDRF, Fennel, Ginger, HeiStream). In graph database tasks, CUTTANA results in higher query throughput by up to 23%, without hurting tail latency.",
+    "citationCount": 4,
+    "referenceCount": 65
+}

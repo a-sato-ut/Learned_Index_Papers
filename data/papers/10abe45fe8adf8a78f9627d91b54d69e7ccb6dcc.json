@@ -1,0 +1,34 @@
+{
+    "paperId": "10abe45fe8adf8a78f9627d91b54d69e7ccb6dcc",
+    "title": "GENPLUGIN: A Plug-and-Play Framework for Long-Tail Generative Recommendation with Exposure Bias Mitigation",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Kun Yang",
+        "Siyao Zheng",
+        "Tianyi Li",
+        "Xiaodong Li",
+        "Hui Li"
+    ],
+    "doi": "10.48550/arXiv.2507.03568",
+    "arxivId": "2507.03568",
+    "url": "https://www.semanticscholar.org/paper/10abe45fe8adf8a78f9627d91b54d69e7ccb6dcc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative recommendation (GenRec) offers LLM integration, reduced embedding costs, and eliminates per-candidate scoring, attracting great attention. Despite its promising performance, this study reveals that it suffers from generation exposure bias and poor long-tail item generalization, two critical limitations overlooked by prior works on GenRec. To address these, we propose GENPLUGIN, a plug-and-play framework featuring a dual-encoder, shared-decoder architecture. During pre-training, it aligns language and ID views via contrastive learning, harmonizing item representations across two complementary views. Besides, GENPLUGIN uses a novel training strategy that probabilistically substitutes ground-truth item ID tokens with predictions from the language-semantics encoder, alleviating exposure bias. To improve long-tail generative recommendation, we propose a retrieval-based data augmentation mechanism. It fine-tunes the decoder of GENPLUGIN to endow GENPLUGIN with the ability to use relevant users w.r.t. contexts or collaborative information to augment the generation of item ID tokens in long-tail recommendation scenarios. We have plugged GENPLUGIN into several representative GenRec models and the extensive experiments demonstrate that GENPLUGIN can notably mitigate generation exposure bias during item ID generation while significantly improving the quality of long-tail item recommendation.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

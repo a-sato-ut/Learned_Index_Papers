@@ -1,0 +1,36 @@
+{
+    "paperId": "b2806ac09c728af68a702a8e6bb5bffd118c7837",
+    "title": "Distributed Learning Dynamics Converging to the Core of B-Matchings",
+    "year": 2024,
+    "venue": "IEEE Conference on Decision and Control",
+    "authors": [
+        "Aya Hamed",
+        "J. Shamma"
+    ],
+    "doi": "10.1109/CDC56724.2024.10886228",
+    "arxivId": "2409.07754",
+    "url": "https://www.semanticscholar.org/paper/b2806ac09c728af68a702a8e6bb5bffd118c7837",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2409.07754",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "B-Matching is a special case of matching problems where nodes can join multiple matchings with the degree of each node constrained by an upper bound, the node’s B-value. The core solution of a bipartite B-matching is both a matching between the nodes respecting the upper bound constraint and an allocation of the weights of the edges among the nodes such that no group of nodes can deviate and collectively gain higher allocation. We present two learning dynamics that converge to the core of the bipartite B-matching problems. The first dynamics are centralized dynamics in the nature of the Hungarian method, which converge to the core in a polynomial time. The second dynamics are distributed dynamics, which converge to the core with probability one. For the distributed dynamics, a node maintains only a state consisting of (i) the aspiration levels for all of its possible matches and (ii) the matches, if any, to which it belongs. The node does not keep track of its history nor is it aware of the environment state. In each stage, a randomly activated node proposes to form a new match and changes its aspiration based on the success or failure of its proposal. At this stage, the proposing node inquires about the aspiration of the node it wants to match with to calculate the feasibility of the match. The environment matching structure changes whenever a proposal succeeds. A state is absorbing for the distributed dynamics if and only if it is in the core of the B-matching.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

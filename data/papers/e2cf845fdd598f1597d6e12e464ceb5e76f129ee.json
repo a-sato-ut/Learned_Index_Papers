@@ -1,0 +1,33 @@
+{
+    "paperId": "e2cf845fdd598f1597d6e12e464ceb5e76f129ee",
+    "title": "Comprehensive Quantitative Analysis of Coal-Based Liquids by Mask R-CNN-Assisted Two-Dimensional Gas Chromatography",
+    "year": 2025,
+    "venue": "Separations",
+    "authors": [
+        "Huan-Huan Fan",
+        "Xiang-Ling Wang",
+        "Jie Feng",
+        "Wen-Ying Li"
+    ],
+    "doi": "10.3390/separations12020022",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e2cf845fdd598f1597d6e12e464ceb5e76f129ee",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Chemistry",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A comprehensive understanding of the compositions and physicochemical properties of coal-based liquids is conducive to the rapid development of multipurpose, high-performance, and high-value functional chemicals. However, because of their complex compositions, coal-based liquids generate two-dimensional gas chromatography (GC × GC) chromatograms that are very complex and very time consuming to analyze. Therefore, the development of a method for accurately and rapidly analyzing chromatograms is crucial for understanding the chemical compositions and structures of coal-based liquids, such as direct coal liquefaction (DCL) oils and coal tar. In this study, DCL oils were distilled and qualitatively analyzed using GC × GC chromatograms. A deep-learning (DL) model was used to identify spectral features in GC × GC chromatograms and predominantly categorize the corresponding DCL oils as aliphatic alkanes, cycloalkanes, mono-, bi-, tri-, and tetracyclic aromatics. Regional labels associated with areas in the GC × GC chromatograms were fed into the mask-region-based convolutional neural network’s (Mask R-CNN’s) algorithm. The Mask R-CNN accurately and rapidly segmented the GC × GC chromatograms into regions representing different compounds, thereby automatically qualitatively classifying the compounds according to their spots in the chromatograms. Results show that the Mask R-CNN model’s accuracy, precision, recall, F1 value, and Intersection over Union (IoU) value were 93.71%, 96.99%, 96.27%, 0.95, and 0.93, respectively. DL is effective for visually comparing GC × GC chromatograms to analyze the compositions of chemical mixtures, accelerating GC × GC chromatogram interpretation and compound characterization and facilitating comparisons of the chemical compositions of multiple coal-based liquids produced in the coal and petroleum industry. Applying DL to analyze chromatograms improves analysis efficiency and provides a new method for analyzing GC × GC chromatograms, which is important for fast and accurate analysis.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

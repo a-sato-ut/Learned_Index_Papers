@@ -1,0 +1,33 @@
+{
+    "paperId": "d7f2001847ade90dd908ee11202a91ae03d64db2",
+    "title": "AisLSM: Revolutionizing the Compaction with Asynchronous I/Os for LSM-tree",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yanpeng Hu",
+        "Li Zhu",
+        "Lei Jia",
+        "Chundong Wang"
+    ],
+    "doi": "10.48550/arXiv.2307.16693",
+    "arxivId": "2307.16693",
+    "url": "https://www.semanticscholar.org/paper/d7f2001847ade90dd908ee11202a91ae03d64db2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.16693",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The log-structured merge tree (LSM-tree) is widely employed to build key-value (KV) stores. LSM-tree organizes multiple levels in memory and on disk. The compaction of LSM-tree, which is used to redeploy KV pairs between on-disk levels in the form of SST files, severely stalls its foreground service. We overhaul and analyze the procedure of compaction. Writing and persisting files with fsyncs for compacted KV pairs are time-consuming and, more important, occur synchronously on the critical path of compaction. The user-space compaction thread of LSM-tree stays waiting for completion signals from a kernel-space thread that is processing file write and fsync I/Os. We accordingly design a new LSM-tree variant named AisLSM with an asynchronous I/O model. In short, AisLSM conducts asynchronous writes and fsyncs for SST files generated in a compaction and overlaps CPU computations with disk I/Os for consecutive compactions. AisLSM tracks the generation dependency between input and output files for each compaction and utilizes a deferred check-up strategy to ensure the durability of compacted KV pairs. We prototype AisLSM with RocksDB and io_uring. Experiments show that AisLSM boosts the performance of RocksDB by up to 2.14x, without losing data accessibility and consistency. It also outperforms state-of-the-art LSM-tree variants with significantly higher throughput and lower tail latency.",
+    "citationCount": 1,
+    "referenceCount": 62
+}

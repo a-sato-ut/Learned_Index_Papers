@@ -1,0 +1,39 @@
+{
+    "paperId": "6869d05766d0d7b9a5f4a7235e67e4b63f42d11c",
+    "title": "Automated Weed Species Classification in Rice Cultivation Using Deep Learning",
+    "year": 2025,
+    "venue": "European Conference on Cognitive Ergonomics",
+    "authors": [
+        "Hamdadur Rahman",
+        "M. Khan",
+        "Shakil Khan",
+        "Zishad Hossain Limon",
+        "Md Ismail Hossain Siddiqui",
+        "Shimanto Krishna Chakroborty",
+        "Shamim Forhad",
+        "Abdullah Al-Sakib",
+        "S. Afridi",
+        "S. Rahman"
+    ],
+    "doi": "10.1109/ECCE64574.2025.11014047",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6869d05766d0d7b9a5f4a7235e67e4b63f42d11c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Agricultural and Food Sciences",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Weeds in rice fields compete for essential resources such as water, nutrients, and light, leading to reduced crop yields, increased production costs, and environmental concerns. Traditional methods of weed detection are often labor-intensive, subjective, and inefficient, highlighting the need for automated approaches in precision agriculture. This study introduces an ensemble model designed for robust and accurate classification of rice weeds, addressing the shortcomings of conventional methods and enhancing detection scalability. The proposed ensemble model combines four deep learning architectures: EfficientNet-V2, SqueezeNet, InceptionResNet-v2, and DenseNet-201. By leveraging the complementary strengths of these models, we aim to improve performance. The study utilizes the Rice Field Weed Detection Dataset, which contains 3,632 high-resolution images that have been augmented to a total of 21,792 samples. Advanced preprocessing techniques such as resizing, normalization, and augmentation are applied to ensure effective feature extraction. Our model achieved a remarkable classification accuracy of 99.51%, significantly surpassing individual models and other state-of-the-art approaches. In addition, we developed a web-based application for real-time weed detection, providing a user-friendly platform for farmers and agricultural professionals to implement timely weed management strategies. This system supports sustainable farming by reducing the need for excessive herbicide use and promoting environmentally friendly practices. This research highlights the potential of ensemble deep learning for precise agricultural weed detection. Future work will focus on integrating diverse datasets and developing mobile applications to enhance accessibility and scalability.",
+    "citationCount": 0,
+    "referenceCount": 26
+}

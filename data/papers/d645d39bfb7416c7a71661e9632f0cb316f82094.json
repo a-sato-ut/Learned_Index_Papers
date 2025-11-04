@@ -1,0 +1,35 @@
+{
+    "paperId": "d645d39bfb7416c7a71661e9632f0cb316f82094",
+    "title": "CascadeServe: Unlocking Model Cascades for Inference Serving",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ferdinand Kossmann",
+        "Ziniu Wu",
+        "Alex Turk",
+        "N. Tatbul",
+        "Lei Cao",
+        "Samuel Madden"
+    ],
+    "doi": "10.48550/arXiv.2406.14424",
+    "arxivId": "2406.14424",
+    "url": "https://www.semanticscholar.org/paper/d645d39bfb7416c7a71661e9632f0cb316f82094",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning (ML) models are increasingly deployed to production, calling for efficient inference serving systems. Efficient inference serving is complicated by two challenges: (i) ML models incur high computational costs, and (ii) the request arrival rates of practical applications have frequent, high, and sudden variations which make it hard to correctly provision hardware. Model cascades are positioned to tackle both of these challenges, as they (i) save work while maintaining accuracy, and (ii) expose a high-resolution trade-off between work and accuracy, allowing for fine-grained adjustments to request arrival rates. Despite their potential, model cascades haven't been used inside an online serving system. This comes with its own set of challenges, including workload adaption, model replication onto hardware, inference scheduling, request batching, and more. In this work, we propose CascadeServe, which automates and optimizes end-to-end inference serving with cascades. CascadeServe operates in an offline and online phase. In the offline phase, the system pre-computes a gear plan that specifies how to serve inferences online. In the online phase, the gear plan allows the system to serve inferences while making near-optimal adaptations to the query load at negligible decision overheads. We find that CascadeServe saves 2-3x in cost across a wide spectrum of the latency-accuracy space when compared to state-of-the-art baselines on different workloads.",
+    "citationCount": 5,
+    "referenceCount": 67
+}

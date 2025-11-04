@@ -1,0 +1,31 @@
+{
+    "paperId": "d9a80b435e9f39c8db9367017871243005203c63",
+    "title": "Efficient Model-Relational Data Management: Challenges and Opportunities",
+    "year": 2024,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Viktor Sanca",
+        "Anastasia Ailamaki"
+    ],
+    "doi": "10.1109/TKDE.2024.3384276",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d9a80b435e9f39c8db9367017871243005203c63",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As modern data pipelines continue to collect, produce, and store various data formats, extracting and combining value from traditional and context-rich sources becomes unsuitable for RDBMS. To tap into the dark data, domain experts analyze and extract insights and integrate them into various data repositories. This can involve out-of-DBMS processing with high manual effort and suboptimal performance. While AI systems based on ML models can automate the analysis, they can further generate context-rich answers. Using multiple data sources and models further exacerbates the problem of consolidating and analyzing the data of interest. We envision an analytical engine co-optimized with components that enable context-rich analysis. First, as all the data from different sources is expensive to clean ahead of time, we propose using online data integration via model-assisted similarity operations. Second, we aim for a holistic pipeline cost- and rule-based optimization across relational and model-based operators. Third, with increasingly heterogeneous hardware and workloads ranging from relational analytics to generative model inference, we envision a system that adapts to the complex query requirements at runtime. Composing ML-driven insights with established approaches aims to expand decades of research and systems-building effort in making complex functionality and performance effortless for the end user.",
+    "citationCount": 1,
+    "referenceCount": 59
+}

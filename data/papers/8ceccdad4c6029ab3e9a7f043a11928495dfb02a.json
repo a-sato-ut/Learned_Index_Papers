@@ -1,0 +1,32 @@
+{
+    "paperId": "8ceccdad4c6029ab3e9a7f043a11928495dfb02a",
+    "title": "Optimizing Article Screening and Information Extraction: A Hybrid Approach with GeminiAI and Vector Database",
+    "year": 2024,
+    "venue": "2024 4th International Conference on Digital Futures and Transformative Technologies (ICoDT2)",
+    "authors": [
+        "Mammona Qudisa",
+        "M. Fraz"
+    ],
+    "doi": "10.1109/ICoDT262145.2024.10740208",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8ceccdad4c6029ab3e9a7f043a11928495dfb02a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The exponential growth of scientific literature poses a significant challenge to researchers, resulting in redundancy in R&D due to inefficient review mechanisms. Manual literature reviews are time-consuming and resource-intensive, particularly when screening abstracts and titles, highlighting the need for innovative solutions to optimize the review process. This study introduces a three-step methodology using the GeminiAI model to streamline literature reviews: (1) Initial Screening, (2) Abstract Detail Extraction, and (3) Final Integration, with a Vector Database enabling efficient semantic searches in PDF files. In the first phase, GeminiAI achieved an accuracy of 88.66% in evaluating titles and abstracts based on specific inclusion and exclusion criteria, demonstrating its capability to filter relevant literature efficiently. The second phase enhanced this process by extracting key details, such as research-related modalities, thereby significantly reducing the pool of relevant papers. In the final step, the integration of the Vector Database with GeminiAI excelled, achieving an 80% similarity score in extracting detailed information, which greatly facilitated review writing and minimized manual effort. The user-friendly website designed for this purpose enables seamless paper uploads, with the Vector Database automatically extracting relevant details to streamline the workflow and accelerate innovation. This approach underscores the power of AI in optimizing literature reviews, reducing manual screening time and resources, and mitigating the risk of overlooking critical information. The entire system, including source code and supplementary materials, is available on our publicly accessible GitHub repository. https://github.com/mammona/ai-powered-litreview.git",
+    "citationCount": 1,
+    "referenceCount": 31
+}

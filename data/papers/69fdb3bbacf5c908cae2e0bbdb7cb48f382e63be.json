@@ -1,0 +1,33 @@
+{
+    "paperId": "69fdb3bbacf5c908cae2e0bbdb7cb48f382e63be",
+    "title": "Soft Weighted Machine Unlearning",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Xinbao Qiao",
+        "Ningning Ding",
+        "Yushi Cheng",
+        "Mengmeng Zhang"
+    ],
+    "doi": "10.48550/arXiv.2505.18783",
+    "arxivId": "2505.18783",
+    "url": "https://www.semanticscholar.org/paper/69fdb3bbacf5c908cae2e0bbdb7cb48f382e63be",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine unlearning, as a post-hoc processing technique, has gained widespread adoption in addressing challenges like bias mitigation and robustness enhancement, colloquially, machine unlearning for fairness and robustness. However, existing non-privacy unlearning-based solutions persist in using binary data removal framework designed for privacy-driven motivation, leading to significant information loss, a phenomenon known as over-unlearning. While over-unlearning has been largely described in many studies as primarily causing utility degradation, we investigate its fundamental causes and provide deeper insights in this work through counterfactual leave-one-out analysis. In this paper, we introduce a weighted influence function that assigns tailored weights to each sample by solving a convex quadratic programming problem analytically. Building on this, we propose a soft-weighted framework enabling fine-grained model adjustments to address the over-unlearning challenge. We demonstrate that the proposed soft-weighted scheme is versatile and can be seamlessly integrated into most existing unlearning algorithms. Extensive experiments show that in fairness- and robustness-driven tasks, the soft-weighted scheme significantly outperforms hard-weighted schemes in fairness/robustness metrics and alleviates the decline in utility metric, thereby enhancing machine unlearning algorithm as an effective correction solution.",
+    "citationCount": 0,
+    "referenceCount": 51
+}

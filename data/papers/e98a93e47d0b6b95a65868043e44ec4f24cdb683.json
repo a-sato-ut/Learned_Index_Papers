@@ -1,0 +1,33 @@
+{
+    "paperId": "e98a93e47d0b6b95a65868043e44ec4f24cdb683",
+    "title": "SAGE: A Framework of Precise Retrieval for RAG",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Jintao Zhang",
+        "Guoliang Li",
+        "Jinyang Su"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00108",
+    "arxivId": "2503.01713",
+    "url": "https://www.semanticscholar.org/paper/e98a93e47d0b6b95a65868043e44ec4f24cdb683",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Retrieval-augmented generation (RAG) has demonstrated significant proficiency in conducting question-answering (QA) tasks within a specified corpus. Nonetheless, numerous failure instances of RAG in QA still exist. These failures are not solely attributable to the limitations of Large Language Models (LLMs); instead, they predominantly arise from the retrieval of inaccurate information for LLMs due to two limitations: (1) Current RAG methods segment the corpus without considering semantics, making it difficult to find relevant context due to impaired correlation between questions and the segments. (2) There's a trade-off between missing essential context with fewer context retrieved and getting irrelevant context with more context retrieved. It is hard to make an ideal balance. In this paper, we introduce a RAG framework, named SAGE, designed to overcome these limitations. First, to address the issue of segmentation without considering semantics, we propose to train a semantic segmentation model. This model is trained to segment the corpus into semantically complete chunks. Second, to ensure that only the most relevant chunks are retrieved while the irrelevant ones are ignored, we design a chunk selection algorithm to dynamically select chunks based on the decreasing speed of the relevance score of chunks, leading to a more relevant selection. Third, to further ensure the precision of the retrieved chunks, we propose letting LLMs assess whether retrieved chunks are excessive or lacking and then adjust the amount of context accordingly. Experimental results show that SAGE outperforms baselines by 61.25% in the quality of QA on average. Moreover, by avoiding retrieving noisy context, SAGE lowers the cost of the tokens consumed in LLM inference and achieves a 49.41% enhancement in cost efficiency on average. Additionally, our work offers valuable insights for boosting RAG, contributing to the development of more effective RAG systems.",
+    "citationCount": 6,
+    "referenceCount": 65
+}

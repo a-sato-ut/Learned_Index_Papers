@@ -1,0 +1,31 @@
+{
+    "paperId": "e5dae81e146537c15605db4f8df4505acd7c6d21",
+    "title": "Optimized Network Security Attack Detection Algorithm Based on Deep Deterministic Policy Gradient (DDPG)",
+    "year": 2025,
+    "venue": "2025 International Conference on Artificial Intelligence and Digital Ethics (ICAIDE)",
+    "authors": [
+        "Yantao Li",
+        "Wenhui Ding"
+    ],
+    "doi": "10.1109/ICAIDE65466.2025.11189334",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e5dae81e146537c15605db4f8df4505acd7c6d21",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As network environments evolve and attack vectors grow increasingly complex, traditional intrusion detection systems (IDS) often struggle to maintain accuracy, adaptability, and realtime responsiveness. This paper proposes a novel intrusion detection framework based on the Deep Deterministic Policy Gradient (DDPG) algorithm, a deep reinforcement learning method designed for continuous action spaces. By modeling intrusion detection as a Markov Decision Process (MDP), the system continuously learns optimal detection strategies through interaction with dynamic network traffic. To enhance performance, the proposed model integrates a multi-objective reward function balancing detection precision and latency, a prioritized experience replay mechanism to address class imbalance, and a deep actor-critic architecture for expressive policy representation. Experimental evaluations conducted on the NSL-KDD and UNSW-NB15 datasets demonstrate that the proposed method significantly outperforms baseline modelsincluding SVM, Autoencoder, DQN, and standard DDPG-in terms of accuracy, F1-score, and AUC.",
+    "citationCount": 0,
+    "referenceCount": 8
+}

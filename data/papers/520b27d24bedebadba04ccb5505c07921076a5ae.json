@@ -1,0 +1,36 @@
+{
+    "paperId": "520b27d24bedebadba04ccb5505c07921076a5ae",
+    "title": "Node Compromising Detection to Mitigate Poisoning Attacks in IoT Networks",
+    "year": 2024,
+    "venue": "International Conference on Wireless Communications and Mobile Computing",
+    "authors": [
+        "Floribert Katembo Vuseghesa",
+        "Mohamed-Lamine Messai",
+        "F. Bentayeb"
+    ],
+    "doi": "10.1109/IWCMC61514.2024.10592570",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/520b27d24bedebadba04ccb5505c07921076a5ae",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The emergence of the Internet of Things (IoT) networks as a source of large amount of data has paved the way for the adoption of machine learning models. Divers datasets, used in the training phase, are issued by collected data from deployed IoT networks. This has attracted the attention of adversaries seeking to exploit these models for their gain. The adversaries compromise IoT/sensor nodes to manipulate these models through poisoning attacks wherein they introduce carefully malicious data into the model’s training dataset. In this paper, we propose a framework, namely NoComP for Node Compromising detection, to defend against poisoning attacks by detecting compromised nodes and delete their readings from the collected data. NoComP prevents datasets to be mixed poisonous collected sensed data. To this end, we use as machine learning algorithm the neural network to detect compromised nodes. This algorithm offer significant advantages in terms of efficiency and accuracy in detecting anomalies. We carry out experiments to evaluate NoComP and compare it with two existing proposals. The accuracy and efficiency results shows that NoComP outperforms the existing ones and improves the robustness against poisoning attacks.",
+    "citationCount": 3,
+    "referenceCount": 21
+}

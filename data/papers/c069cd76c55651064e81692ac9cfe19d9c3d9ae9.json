@@ -1,0 +1,34 @@
+{
+    "paperId": "c069cd76c55651064e81692ac9cfe19d9c3d9ae9",
+    "title": "EFC++: Elastic Feature Consolidation with Prototype Re-balancing for Cold Start Exemplar-free Incremental Learning",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Simone Magistri",
+        "Tomaso Trinci",
+        "Albin Soutif-Cormerais",
+        "J. Weijer",
+        "Andrew D. Bagdanov"
+    ],
+    "doi": "10.48550/arXiv.2503.10439",
+    "arxivId": "2503.10439",
+    "url": "https://www.semanticscholar.org/paper/c069cd76c55651064e81692ac9cfe19d9c3d9ae9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Exemplar-free Class Incremental Learning (EFCIL) aims to learn from a sequence of tasks without having access to previous task data. In this paper, we consider the challenging Cold Start scenario in which insufficient data is available in the first task to learn a high-quality backbone. This is especially challenging for EFCIL since it requires high plasticity, resulting in feature drift which is difficult to compensate for in the exemplar-free setting. To address this problem, we propose an effective approach to consolidate feature representations by regularizing drift in directions highly relevant to previous tasks while employing prototypes to reduce task-recency bias. Our approach, which we call Elastic Feature Consolidation++ (EFC++) exploits a tractable second-order approximation of feature drift based on a proposed Empirical Feature Matrix (EFM). The EFM induces a pseudo-metric in feature space which we use to regularize feature drift in important directions and to update Gaussian prototypes. In addition, we introduce a post-training prototype re-balancing phase that updates classifiers to compensate for feature drift. Experimental results on CIFAR-100, Tiny-ImageNet, ImageNet-Subset, ImageNet-1K and DomainNet demonstrate that EFC++ is better able to learn new tasks by maintaining model plasticity and significantly outperforms the state-of-the-art.",
+    "citationCount": 0,
+    "referenceCount": 75
+}

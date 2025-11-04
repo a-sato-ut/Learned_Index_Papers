@@ -1,0 +1,42 @@
+{
+    "paperId": "1966647636585e4355e5740aabbf9d0ab4833275",
+    "title": "Enhancing the Performance of Machine Learning and Deep Learning-Based Flood Susceptibility Models by Integrating Grey Wolf Optimizer (GWO) Algorithm",
+    "year": 2024,
+    "venue": "Remote Sensing",
+    "authors": [
+        "Ali Nouh Mabdeh",
+        "Rajendran Shobha Ajin",
+        "Seyed Vahid Razavi Termeh",
+        "Mohammad Ahmadlou",
+        "A'kif Al-Fugara"
+    ],
+    "doi": "10.3390/rs16142595",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1966647636585e4355e5740aabbf9d0ab4833275",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Flooding is a recurrent hazard occurring worldwide, resulting in severe losses. The preparation of a flood susceptibility map is a non-structural approach to flood management before its occurrence. With recent advances in artificial intelligence, achieving a high-accuracy model for flood susceptibility mapping (FSM) is challenging. Therefore, in this study, various artificial intelligence approaches have been utilized to achieve optimal accuracy in flood susceptibility modeling to address this challenge. By incorporating the grey wolf optimizer (GWO) metaheuristic algorithm into various models—including recurrent neural networks (RNNs), support vector regression (SVR), and extreme gradient boosting (XGBoost)—the objective of this modeling is to generate flood susceptibility maps and evaluate the variation in model performance. The tropical Manimala River Basin in India, severely battered by flooding in the past, has been selected as the test site. This modeling utilized 15 conditioning factors such as aspect, enhanced built-up and bareness index (EBBI), slope, elevation, geomorphology, normalized difference water index (NDWI), plan curvature, profile curvature, soil adjusted vegetation index (SAVI), stream density, soil texture, stream power index (SPI), terrain ruggedness index (TRI), land use/land cover (LULC) and topographic wetness index (TWI). Thus, six susceptibility maps are produced by applying the RNN, SVR, XGBoost, RNN-GWO, SVR-GWO, and XGBoost-GWO models. All six models exhibited outstanding (AUC above 0.90) performance, and the performance ranks in the following order: RNN-GWO (AUC: 0.968) > XGBoost-GWO (AUC: 0.961) > SVR-GWO (AUC: 0.960) > RNN (AUC: 0.956) > XGBoost (AUC: 0.953) > SVR (AUC: 0.948). It was discovered that the hybrid GWO optimization algorithm improved the performance of three models. The RNN-GWO-based flood susceptibility map shows that 8.05% of the MRB is very susceptible to floods. The modeling found that the SPI, geomorphology, LULC, stream density, and TWI are the top five influential conditioning factors.",
+    "citationCount": 27,
+    "referenceCount": 99
+}

@@ -1,0 +1,27 @@
+{
+    "paperId": "cb6513d1632053f039681df0f1bf199667e67edb",
+    "title": "Semantic-Aware Framework for Backdoor Detection in AI Models",
+    "year": 2025,
+    "venue": "International Journal on Semantic Web and Information Systems (IJSWIS)",
+    "authors": [
+        "Kang Fu",
+        "Jianhua Dai"
+    ],
+    "doi": "10.4018/ijswis.378675",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cb6513d1632053f039681df0f1bf199667e67edb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In untrusted environments, deep learning models face a serious risk of backdoor attacks, where hidden triggers can lead to malicious behavior. Existing methods are costly and struggle to handle complex, semantically hidden triggers, limiting their use in healthcare, security, and edge computing. This study introduces a semantic awareness framework that uses lightweight trusted models and Semantic Web techniques to effectively detect abnormal behavior. It identifies backdoor triggers through semantic perturbation and uses deep learning algorithms to remove them, thus maintaining performance on clean data. The experiment shows that the detection accuracy is increased by 12%, and the error deletion rate is reduced by 20%. The framework effectively handles subtle attacks. By combining semantic analysis with efficient model alignment, it provides a robust, interpretable defense against resource-constrained Settings. Contributions include a new semantic-driven detection strategy that advances practical AI security in high-risk applications such as healthcare and autonomous systems.",
+    "citationCount": 0,
+    "referenceCount": 16
+}

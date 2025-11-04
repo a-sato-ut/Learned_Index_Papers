@@ -1,0 +1,34 @@
+{
+    "paperId": "c8a795e82288bc7776688f26f78255dfb8ce4e31",
+    "title": "Transfer Learning-Based Health Monitoring of Robotic Rotate Vector Reducer Under Variable Working Conditions",
+    "year": 2025,
+    "venue": "Machines",
+    "authors": [
+        "Muhammad Umar Elahi",
+        "Izaz Raouf",
+        "Salman Khalid",
+        "Faraz Ahmad",
+        "H. Kim"
+    ],
+    "doi": "10.3390/machines13010060",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c8a795e82288bc7776688f26f78255dfb8ce4e31",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2075-1702/13/1/60/pdf?version=1737021971",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Due to their precision, compact size, and high torque transfer, Rotate vector (RV) reducers are becoming more popular in industrial robots. However, repetitive operations and varying speed conditions mean that these components are prone to mechanical failure. Therefore, it is important to develop effective health monitoring (HM) strategies. Traditional approaches for HM, including those using vibration and acoustic emission sensors, encounter such challenges as noise interference, data inconsistency, and high computational costs. Deep learning-based techniques, which use current electrical data embedded within industrial robots, address these issues, offering a more efficient solution. This research provides transfer learning (TL) models for the HM of RV reducers, which eliminate the need to train models from scratch. Fine-tuning pre-trained architectures on operational data for the three different reducers of health conditions, which are healthy, faulty, and faulty aged, improves fault classification across different motion profiles and variable speed conditions. Four TL models, EfficientNet, MobileNet, GoogleNet, and ResNET50v2, are considered. The classification accuracy and generalization capabilities of the suggested models were assessed across diverse circumstances, including low speed, high speed, and speed fluctuations. Compared to the other models, the proposed EfficientNet model showed the most promising results, achieving a testing accuracy and an F1-score of 98.33% each, which makes it best suited for the HM of robotic reducers.",
+    "citationCount": 2,
+    "referenceCount": 55
+}

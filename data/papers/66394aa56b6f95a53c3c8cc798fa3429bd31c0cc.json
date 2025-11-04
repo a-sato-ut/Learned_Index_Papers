@@ -1,0 +1,48 @@
+{
+    "paperId": "66394aa56b6f95a53c3c8cc798fa3429bd31c0cc",
+    "title": "Preference Discerning with LLM-Enhanced Generative Retrieval",
+    "year": 2024,
+    "venue": "Trans. Mach. Learn. Res.",
+    "authors": [
+        "Fabian Paischer",
+        "Liu Yang",
+        "Linfeng Liu",
+        "Shuai Shao",
+        "Kaveh Hassani",
+        "Jiacheng Li",
+        "Ricky T. Q. Chen",
+        "Zhang Gabriel Li",
+        "Xialo Gao",
+        "Wei Shao",
+        "Xue Feng",
+        "Nima Noorshams",
+        "Sem Park",
+        "Bo Long",
+        "Hamid Eghbalzadeh"
+    ],
+    "doi": "10.48550/arXiv.2412.08604",
+    "arxivId": "2412.08604",
+    "url": "https://www.semanticscholar.org/paper/66394aa56b6f95a53c3c8cc798fa3429bd31c0cc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In sequential recommendation, models recommend items based on user's interaction history. To this end, current models usually incorporate information such as item descriptions and user intent or preferences. User preferences are usually not explicitly given in open-source datasets, and thus need to be approximated, for example via large language models (LLMs). Current approaches leverage approximated user preferences only during training and rely solely on the past interaction history for recommendations, limiting their ability to dynamically adapt to changing preferences, potentially reinforcing echo chambers. To address this issue, we propose a new paradigm, namely preference discerning, which explicitly conditions a generative recommendation model on user preferences in natural language within its context. To evaluate preference discerning, we introduce a novel benchmark that provides a holistic evaluation across various scenarios, including preference steering and sentiment following. Upon evaluating current state-of-the-art methods on our benchmark, we discover that their ability to dynamically adapt to evolving user preferences is limited. To address this, we propose a new method named Mender ($\\textbf{M}$ultimodal Prefer$\\textbf{en}$ce $\\textbf{D}$iscern$\\textbf{er}$), which achieves state-of-the-art performance in our benchmark. Our results show that Mender effectively adapts its recommendation guided by human preferences, even if not observed during training, paving the way toward more flexible recommendation models.",
+    "citationCount": 6,
+    "referenceCount": 58
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "3e0612f8ed3c69a979457a48487c31abdb4b1d5f",
+    "title": "TIGER: Training Inductive Graph Neural Network for Large-scale Knowledge Graph Reasoning",
+    "year": 2024,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Kai Wang",
+        "Yuwei Xu",
+        "Siqiang Luo"
+    ],
+    "doi": "10.14778/3675034.3675039",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3e0612f8ed3c69a979457a48487c31abdb4b1d5f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Knowledge Graph (KG) Reasoning plays a vital role in various applications by predicting missing facts from existing knowledge. Inductive KG reasoning approaches based on Graph Neural Networks (GNNs) have shown impressive performance, particularly when reasoning with unseen entities and dynamic KGs. However, such state-of-the-art KG reasoning approaches encounter efficiency and scalability challenges on large-scale KGs due to the high computational costs associated with subgraph extraction - a key component in inductive KG reasoning. To address the computational challenge, we introduce TIGER, an inductive GNN training framework tailored for large-scale KG reasoning. TIGER employs a novel, efficient streaming procedure that facilitates rapid subgraph slicing and dynamic subgraph caching to minimize the cost of subgraph extraction. The fundamental challenge in TIGER lies in the optimal subgraph slicing problem, which we prove to be NP-hard. We propose a novel two-stage algorithm SiGMa to solve the problem practically. By decoupling the complicated problem into two classical ones, SiGMa achieves low computational complexity and high slice reuse. We also propose four new benchmarks for robust evaluation of large-scale inductive KG reasoning, the biggest of which performs on the Freebase KG (encompassing 86M entities, 285M edges). Through comprehensive experiments on state-of-the-art GNN-based KG reasoning models, we demonstrate that TIGER significantly reduces the running time of subgraph extraction, achieving an average 3.7× speedup relative to the basic training procedure.",
+    "citationCount": 2,
+    "referenceCount": 63
+}

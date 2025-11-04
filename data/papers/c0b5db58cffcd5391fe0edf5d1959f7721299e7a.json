@@ -1,0 +1,37 @@
+{
+    "paperId": "c0b5db58cffcd5391fe0edf5d1959f7721299e7a",
+    "title": "VDTuner: Automated Performance Tuning for Vector Data Management Systems",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Tiannuo Yang",
+        "Wen Hu",
+        "Wangqi Peng",
+        "Yusen Li",
+        "Jianguo Li",
+        "Gang Wang",
+        "Xiaoguang Liu"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00332",
+    "arxivId": "2404.10413",
+    "url": "https://www.semanticscholar.org/paper/c0b5db58cffcd5391fe0edf5d1959f7721299e7a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2404.10413",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Vector data management systems (VDMSs) have become an indispensable cornerstone in large-scale information retrieval and machine learning systems like large language models. To enhance the efficiency and flexibility of similarity search, VDMS exposes many tunable index parameters and system parameters for users to specify. However, due to the inherent characteristics of VDMS, automatic performance tuning for VDMS faces several critical challenges, which cannot be well addressed by the existing auto-tuning methods. In this paper, we introduce VDTuner, a learning-based automatic performance tuning framework for VDMS, leveraging multi-objective Bayesian optimization. VDTuner overcomes the challenges associated with VDMS by efficiently exploring a complex multi-dimensional parameter space without requiring any prior knowledge. Moreover, it is able to achieve a good balance between search speed and recall rate, delivering an optimal configuration. Extensive evaluations demonstrate that VDTuner can markedly improve VDMS performance (14.12% in search speed and 186.38 % in recall rate) compared with default setting, and is more efficient compared with state-of-the-art baselines (up to 3.57 x faster in terms of tuning time). In addition, VDTuner is scalable to specific user preference and cost-aware optimization objective. VDTuner is available online at https://github.com/tiannuo-yanWVDTuner.",
+    "citationCount": 2,
+    "referenceCount": 44
+}

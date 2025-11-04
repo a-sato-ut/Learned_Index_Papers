@@ -1,0 +1,33 @@
+{
+    "paperId": "1f5a955acc7c1e724a9f87d6474ccb379f74c0ca",
+    "title": "Comparison of Model Adaptation Techniques with Machine Unlearning",
+    "year": 2024,
+    "venue": "International Conference on Computing Communication and Networking Technologies",
+    "authors": [
+        "Indira Gandhi Delhi",
+        "S. Reddy",
+        "Rishika Anand"
+    ],
+    "doi": "10.1109/ICCCNT61001.2024.10723921",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1f5a955acc7c1e724a9f87d6474ccb379f74c0ca",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the use of data-driven learning processes, machine learning (ML) has become a disruptive technology that enables systems to gain insights and make wise judgments. But data settings are dynamic, which poses difficulties and calls for the creation of efficient machine unlearning methods. In this research, we examine how well-suited different machine unlearning techniques are to meet the changing needs of contemporary machine learning systems. We undertake a thorough comparison investigation of various unlearning approaches on MNIST dataset. These methodologies include naive retraining, influence function-based unlearning, a combination voting classifier with the SISA technique. We assess various performance parameters, to reveal subtle variations in performance as well as computing efficiency and flexibility in dynamic data contexts. Notably, naive retraining and the voting classifier demonstrate superior performance, achieving accuracy scores of 0.971 and 0.970 respectively, while influence function and SISA methods offer competitive alternatives with enhanced efficiency. Our findings underscore the importance of considering factors such as computational resources and data drift dynamics when selecting an appropriate unlearning approach. Additionally, we discuss future research directions, including dynamic ensemble learning and online learning strategies, to enhance model adaptability and efficiency in dynamic ML environments. By expanding our knowledge of machine unlearning techniques and their uses, this research helps to create more robust and morally sound machine learning systems.",
+    "citationCount": 1,
+    "referenceCount": 28
+}

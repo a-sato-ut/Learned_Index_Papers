@@ -1,0 +1,32 @@
+{
+    "paperId": "1557ec5cede8ab01494feb4517cd8cdeb843b06b",
+    "title": "GTA: Towards Generative Text-To-Audio Retrieval via Multi-Scale Tokenizer",
+    "year": 2025,
+    "venue": "Interspeech",
+    "authors": [
+        "Minghui Fang",
+        "Shengpeng Ji",
+        "Jialong Zuo",
+        "Xize Cheng",
+        "Wenrui Liu",
+        "Xiaoda Yang",
+        "Ruofan Hu",
+        "Jieming Zhu",
+        "Zhou Zhao"
+    ],
+    "doi": "10.21437/interspeech.2025-908",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1557ec5cede8ab01494feb4517cd8cdeb843b06b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Text-to-audio retrieval is a fundamental task in acoustic signal processing. Currently, mainstream approaches primarily employ a dual-tower architecture, independently encoding text and audio while performing similarity score matching. However, these methods struggle to maintain a uniform embedding space and the latency of score matching increases with corpus size. In this light, we propose GTA to move towards a generative text-to-audio retrieval paradigm. Specifically, we utilize a multi-scale audio tokenizer to embed audio semantics into identifiers, while incorporating a dual-alignment strategy to ensure consistency between audio and text semantics. Furthermore, we implement curriculum learning to bridge the gap between training and inference, guiding the model toward precise token-level generation. Extensive experiments demonstrate the effectiveness and robustness of GTA, further validating the feasibility of the generative text-to-audio retrieval paradigm.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

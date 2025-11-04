@@ -1,0 +1,37 @@
+{
+    "paperId": "5d8e9d41dd0958fdcc9d9ec5bfc8371ac3e40346",
+    "title": "Synthetic image data generation via rendering techniques for training AI-based Instance Segmentation",
+    "year": 2024,
+    "venue": "Journal of Advanced Research in Applied Sciences and Engineering Technology",
+    "authors": [
+        "N. Sazali",
+        "Kho Yik Cheng Dickson",
+        "Kettner Maurice",
+        "Friedrich Christian",
+        "Schempp Constantin",
+        "Naqib Salim",
+        "Ismayuzri Ishak",
+        "Saiful Anwar Che Ghani"
+    ],
+    "doi": "10.37934/aram.53.1.237253",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5d8e9d41dd0958fdcc9d9ec5bfc8371ac3e40346",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://semarakilmu.com.my/journals/index.php/applied_sciences_eng_tech/article/download/9571/6196",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Within the scope of the development of the project, the acceleration and gyro signal, VR implementation, and User Control for VR were realized. The starting point was a list of MPU9250 data, which are acceleration and gyro data. The goal is to do the signal processing of the signal that is got from MPU9250 and implement the data with a specific format so that the LINAK LA36 actuator can be controlled in such a way that it performs as desired position. For this purpose, a multi-axis acceleration and position sensor is mounted on a surfing board which then collects the acceleration and Gyro data. A MATLAB Program had been written to convert the desired position into a CAN message. Before that, the raw acceleration data and gyro must be converted and filtered into actual data. First, the acceleration data was collected from another group. A signal processing method has been implemented. This includes gravitational force filter, noise filter, integration, and complementary filter method was used in order to get the accurate actual data that is able to be implemented into the system. For those methods, it was necessary to deal extensively with the characteristics of signal processing. VR application was implemented in this project to give the user a sensational surfing experience in the virtual world. User control has been implemented as well to allow users to control the video. Unity with Arduino work together so that both Arduino and Unity can communicate with each other, and signal messages will be sent to the Arduino from Unity and vice versa to achieve the synchronization of the video signal and Unity VR application.",
+    "citationCount": 0,
+    "referenceCount": 63
+}

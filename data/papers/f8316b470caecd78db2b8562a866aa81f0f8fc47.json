@@ -1,0 +1,40 @@
+{
+    "paperId": "f8316b470caecd78db2b8562a866aa81f0f8fc47",
+    "title": "MemQ: A Graph-Based Query Memory Prediction Framework for Effective Workload Scheduling",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Yang Wu",
+        "Xuanhe Zhou",
+        "Xiaoguang Li",
+        "Jinhuai Kang",
+        "Chunxiao Xing",
+        "Tongliang Li",
+        "Xinjun Yang",
+        "Wenchao Zhou",
+        "Feifei Li",
+        "Yong Zhang"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00289",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f8316b470caecd78db2b8562a866aa81f0f8fc47",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query memory prediction is an essential yet underexplored problem in self-driving databases, particularly for high-concurrency workload scheduling where efficient resource utilization is critical. Existing works mainly focus on cost and latency estimation (e.g., using plan representation learning), while memory prediction poses new challenges such as requiring (1) numerous memory-specific training data, (2) memory-relevant query plan featurization strategies, and (3) a prediction model suitable for capturing the complexities of memory usage in query operations. Moreover, most learning-based approaches do not consider transferability across different datasets and database systems. This paper introduces Mem$Q$, a graph-based memory prediction framework designed for effective workload scheduling. First, we build a comprehensive training dataset for memory prediction by executing diverse query workloads across multiple datasets and recording their diverse peak memory consumptions. Second, our MemQ model leverages operator-level features of query plans, achieving high prediction accuracy, compact model size, and fast training and inference times. Third, we integrate the MemQ model into memory-aware First Fit Decreasing (FFD) and Bidrectional Fit (BF) scheduling strategy to optimize resource utilization. Extensive experiments demonstrate the effectiveness of our homogeneous query plan graph model. Moreover, our FFD scheduling strategy reduces makespan (total query execution time) by up to 55% and decreases retry counts by over 99% compared to default strategies when batch executing analytical queries on PostgreSQL. Furthermore, our novel BF strategy reduces makespan by 15.17% and reduces sum of total time by 41.41% compared with FFD strategy when batch executing mixed workloads.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

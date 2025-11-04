@@ -1,0 +1,37 @@
+{
+    "paperId": "92bf0c4b3d266dca204bde605592974a0d69cbb0",
+    "title": "A Novel Approach for Capturing Consumer Behavior and Preference - MulVAEK",
+    "year": 2025,
+    "venue": "IEEE Computational Intelligence Magazine",
+    "authors": [
+        "Yijing Li",
+        "Jing Tang",
+        "Sinan Gonul",
+        "Danielle Barbe"
+    ],
+    "doi": "10.1109/MCI.2025.3541948",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/92bf0c4b3d266dca204bde605592974a0d69cbb0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid proliferation of the E-commerce sector has profoundly transformed consumer behaviour, creating significant opportunities for businesses while simultaneously posing substantial challenges. As online shopping becomes increasingly ubiquitous, the exponential growth in data volume has impeded the task of identifying products that best align with individual preferences. Faced with an overwhelming array of similar products across multiple brands and platforms, consumers often suffer from decision fatigue, hindering their judgment to make optimal purchasing decisions. While recommendation systems have emerged as critical tools to mitigate this problem, existing approaches encounter persistent challenges in accurately modelling user preferences and behaviours, particularly using implicit feedback data such as clicks, views, and interactions. Motivated by these issues, this paper proposes a novel framework, the Multinomial Variational Autoencoder with K-means clustering (MulVAEK), designed to enhance the understanding of user preferences and behaviours from implicit feedback. Unlike conventional variational autoencoders (VAEs), which model user behaviour in latent space using Gaussian distributions, MulVAEK employs a multinomial distribution, capturing the discrete and complex nature of user-item interactions with greater fidelity. Furthermore, the integration of K-means clustering within the latent space enables the discovery of latent user archetypes and behavioural groupings, supporting the delivery of more personalised and contextually relevant recommendations. Rigorous experimental evaluations on widely recognised recommender system datasets demonstrate that MulVAEK significantly outperforms state-of-the-art methodologies, achieving superior accuracy, robustness, and interpretability across diverse recommendation scenarios.",
+    "citationCount": 0,
+    "referenceCount": 51
+}

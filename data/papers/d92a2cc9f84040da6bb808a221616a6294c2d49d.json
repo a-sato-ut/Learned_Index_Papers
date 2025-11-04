@@ -1,0 +1,31 @@
+{
+    "paperId": "d92a2cc9f84040da6bb808a221616a6294c2d49d",
+    "title": "Interpreting Public Sentiment in Diplomacy Events: A Counterfactual Analysis Framework Using Large Language Models",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Leyi Ouyang"
+    ],
+    "doi": "10.48550/arXiv.2509.20367",
+    "arxivId": "2509.20367",
+    "url": "https://www.semanticscholar.org/paper/d92a2cc9f84040da6bb808a221616a6294c2d49d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Political Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Diplomatic events consistently prompt widespread public discussion and debate. Public sentiment plays a critical role in diplomacy, as a good sentiment provides vital support for policy implementation, helps resolve international issues, and shapes a nation's international image. Traditional methods for gauging public sentiment, such as large-scale surveys or manual content analysis of media, are typically time-consuming, labor-intensive, and lack the capacity for forward-looking analysis. We propose a novel framework that identifies specific modifications for diplomatic event narratives to shift public sentiment from negative to neutral or positive. First, we train a language model to predict public reaction towards diplomatic events. To this end, we construct a dataset comprising descriptions of diplomatic events and their associated public discussions. Second, guided by communication theories and in collaboration with domain experts, we predetermined several textual features for modification, ensuring that any alterations changed the event's narrative framing while preserving its core facts.We develop a counterfactual generation algorithm that employs a large language model to systematically produce modified versions of an original text. The results show that this framework successfully shifted public sentiment to a more favorable state with a 70\\% success rate. This framework can therefore serve as a practical tool for diplomats, policymakers, and communication specialists, offering data-driven insights on how to frame diplomatic initiatives or report on events to foster a more desirable public sentiment.",
+    "citationCount": 1,
+    "referenceCount": 53
+}

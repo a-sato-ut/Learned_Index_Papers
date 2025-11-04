@@ -1,0 +1,36 @@
+{
+    "paperId": "f94f494230fef34d4d82ab678564b029704b939e",
+    "title": "The Structural Complexity of Matrix-Vector Multiplication",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Emile Anand",
+        "Jan van den Brand",
+        "Rose McCarty"
+    ],
+    "doi": "10.48550/arXiv.2502.21240",
+    "arxivId": "2502.21240",
+    "url": "https://www.semanticscholar.org/paper/f94f494230fef34d4d82ab678564b029704b939e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We consider the problem of preprocessing an $n\\times n$ matrix M, and supporting queries that, for any vector v, returns the matrix-vector product Mv. This problem has been extensively studied in both theory and practice: on one side, practitioners have developed algorithms that are highly efficient in practice, whereas theoreticians have proven that the problem cannot be solved faster than naive multiplication in the worst-case. This lower bound holds even in the average-case, implying that existing average-case analyses cannot explain this gap between theory and practice. Therefore, we study the problem for structured matrices. We show that for $n\\times n$ matrices of VC-dimension d, the matrix-vector multiplication problem can be solved with $\\tilde{O}(n^2)$ preprocessing and $\\tilde O(n^{2-1/d})$ query time. Given the low constant VC-dimensions observed in most real-world data, our results posit an explanation for why the problem can be solved so much faster in practice. Moreover, our bounds hold even if the matrix does not have a low VC-dimension, but is obtained by (possibly adversarially) corrupting at most a subquadratic number of entries of any unknown low VC-dimension matrix. Our results yield the first non-trivial upper bounds for many applications. In previous works, the online matrix-vector hypothesis (conjecturing that quadratic time is needed per query) was used to prove many conditional lower bounds, showing that it is impossible to compute and maintain high-accuracy estimates for shortest paths, Laplacian solvers, effective resistance, and triangle detection in graphs subject to node insertions and deletions in subquadratic time. Yet, via a reduction to our matrix-vector-multiplication result, we show we can maintain the aforementioned problems efficiently if the input is structured, providing the first subquadratic upper bounds in the high-accuracy regime.",
+    "citationCount": 4,
+    "referenceCount": 97
+}

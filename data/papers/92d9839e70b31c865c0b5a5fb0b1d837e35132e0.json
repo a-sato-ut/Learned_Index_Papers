@@ -1,0 +1,33 @@
+{
+    "paperId": "92d9839e70b31c865c0b5a5fb0b1d837e35132e0",
+    "title": "BiTCN-ISInformer: A Parallel Model for Regional Air Pollutant Concentration Prediction Using Bidirectional Temporal Convolutional Network and Enhanced Informer",
+    "year": 2025,
+    "venue": "Sustainability",
+    "authors": [
+        "Xinyi Mao",
+        "Gengyan Liu",
+        "Jian Wang",
+        "Yongbo Lai"
+    ],
+    "doi": "10.3390/su17198631",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/92d9839e70b31c865c0b5a5fb0b1d837e35132e0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Predicting the concentrations of air pollutants, particularly PM2.5, with accuracy and dependability is crucial for protecting human health and preserving a healthy natural environment. This research proposes a deep learning-based, robust prediction system to predict regional PM2.5 concentrations for the next one to twenty-four hours. To start, the input features of the prediction system are initially screened using a correlation analysis of various air pollutants and meteorological factors. Next, the BiTCN-ISInformer prediction model with a two-branch parallel architecture is constructed. On the one hand, the model improves the probabilistic sparse attention mechanism in the traditional Informer network by optimizing the sampling method from a single sparse sampling to a synergistic mechanism combining sparse sampling and importance sampling, which improves the prediction accuracy and reduces the computational complexity of the model; on the other hand, through the introduction of the bi-directional time-convolutional network (BiTCN) and the design of parallel architecture, the model is able to comprehensively model the short-term fluctuations and long-term trends of the temporal data and effectively increase the inference speed of the model. According to experimental research, the proposed model performs better in terms of prediction accuracy and performance than the most advanced baseline model. In the single-step and multi-step prediction experiments of Shanghai’s PM2.5 concentration, the proposed model has a root mean square error (RMSE) ranging from 2.010 to 10.029 and a mean absolute error (MAE) ranging from 1.436 to 6.865. As a result, the prediction system proposed in this research shows promise for use in air pollution early warning and prevention.",
+    "citationCount": 0,
+    "referenceCount": 56
+}

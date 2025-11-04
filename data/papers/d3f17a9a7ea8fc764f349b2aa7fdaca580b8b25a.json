@@ -1,0 +1,35 @@
+{
+    "paperId": "d3f17a9a7ea8fc764f349b2aa7fdaca580b8b25a",
+    "title": "TAL-SRX: an intelligent typing evaluation method for KASP primers based on multi-model fusion",
+    "year": 2025,
+    "venue": "Frontiers in Plant Science",
+    "authors": [
+        "Xiaojing Chen",
+        "Jingchao Fan",
+        "Shen Yan",
+        "Longyu Huang",
+        "Guomin Zhou",
+        "Jianhua Zhang"
+    ],
+    "doi": "10.3389/fpls.2025.1539068",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d3f17a9a7ea8fc764f349b2aa7fdaca580b8b25a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3389/fpls.2025.1539068",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Intelligent and accurate evaluation of KASP primer typing effect is crucial for large-scale screening of excellent markers in molecular marker-assisted breeding. However, the efficiency of both manual discrimination methods and existing algorithms is limited and cannot match the development speed of molecular markers. To address the above problems, we proposed a typing evaluation method for KASP primers by integrating deep learning and traditional machine learning algorithms, called TAL-SRX. First, three algorithms are used to optimize the performance of each model in the Stacking framework respectively, and five-fold cross-validation is used to enhance stability. Then, a hybrid neural network is constructed by combining ANN and LSTM to capture nonlinear relationships and extract complex features, while the Transformer algorithm is introduced to capture global dependencies in high-dimensional feature space. Finally, the two machine learning algorithms are fused through a soft voting integration strategy to output the KASP marker typing effect scores. In this paper, the performance of the model was tested using the KASP test results of 3399 groups of cotton variety resource materials, with an accuracy of 92.83% and an AUC value of 0.9905, indicating that the method has high accuracy, consistency and stability, and the overall performance is better than that of a single model. The performance of the TAL-SRX method is the best when compared with the different integrated combinations of methods. In summary, the TAL-SRX model has good evaluation performance and is very suitable for providing technical support for molecular marker-assisted breeding and other work.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "e9b4f5eaafa8c7ebb1bc02d523685f9ef21d5d0a",
+    "title": "TailoredSketch: A Fast and Adaptive Sketch for Efficient Per-Flow Size Measurement",
+    "year": 2025,
+    "venue": "IEEE Transactions on Network Science and Engineering",
+    "authors": [
+        "Guoju Gao",
+        "Zhaorong Qian",
+        "He Huang",
+        "Yu-E. Sun",
+        "Yangyan Du"
+    ],
+    "doi": "10.1109/TNSE.2024.3503904",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e9b4f5eaafa8c7ebb1bc02d523685f9ef21d5d0a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Accurate and fast per-flow size traffic measurement is fundamental to some network applications, especially in face of the processing and memory constraints of switches. Sketch, a compact data structure, can output high-fidelity approximate per-flow statistics. However, most existing sketches, such as Count-Min, are trapped in the dilemma between a large counting range and memory waste, due to the highly skewed characteristics of network traffic size distribution. In this paper, we propose an adaptive counter-splicing-based sketch for per-flow size measurement, called TailoredSketch. Specifically, we divide each counter of TailoredSketch into two parts, named basic and carry-in counters. When the basic counters overflow, the carry-in counters work, and meanwhile several carry-in counters in different positions can be spliced to expand the counting range. We also incorporate sampling into TailoredSketch, where we set different sampling probabilities at each layer to distinguish between elephant and mouse flows better. In order to further increase the memory utilization of TailoredSketch, we optimize it by removing the flag bits of each counter. Extensive experiments based on the real-world dataset CAIDA show that our sketch can achieve better overall performance compared to several existing algorithms.",
+    "citationCount": 5,
+    "referenceCount": 36
+}

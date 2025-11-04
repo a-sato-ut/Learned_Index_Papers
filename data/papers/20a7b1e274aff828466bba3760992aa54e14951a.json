@@ -1,0 +1,38 @@
+{
+    "paperId": "20a7b1e274aff828466bba3760992aa54e14951a",
+    "title": "How Does Generative Retrieval Scale to Millions of Passages?",
+    "year": 2023,
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+        "Ronak Pradeep",
+        "Kai Hui",
+        "Jai Gupta",
+        "Á. Lelkes",
+        "Honglei Zhuang",
+        "Jimmy J. Lin",
+        "Donald Metzler",
+        "Vinh Q. Tran"
+    ],
+    "doi": "10.48550/arXiv.2305.11841",
+    "arxivId": "2305.11841",
+    "url": "https://www.semanticscholar.org/paper/20a7b1e274aff828466bba3760992aa54e14951a",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.11841",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Popularized by the Differentiable Search Index, the emerging paradigm of generative retrieval re-frames the classic information retrieval problem into a sequence-to-sequence modeling task, forgoing external indices and encoding an entire document corpus within a single Transformer. Although many different approaches have been proposed to improve the effectiveness of generative retrieval, they have only been evaluated on document corpora on the order of 100k in size. We conduct the first empirical study of generative retrieval techniques across various corpus scales, ultimately scaling up to the entire MS MARCO passage ranking task with a corpus of 8.8M passages and evaluating model sizes up to 11B parameters. We uncover several findings about scaling generative retrieval to millions of passages; notably, the central importance of using synthetic queries as document representations during indexing, the ineffectiveness of existing proposed architecture modifications when accounting for compute cost, and the limits of naively scaling model parameters with respect to retrieval performance. While we find that generative retrieval is competitive with state-of-the-art dual encoders on small corpora, scaling to millions of passages remains an important and unsolved challenge. We believe these findings will be valuable for the community to clarify the current state of generative retrieval, highlight the unique challenges, and inspire new research directions.",
+    "citationCount": 80,
+    "referenceCount": 51
+}

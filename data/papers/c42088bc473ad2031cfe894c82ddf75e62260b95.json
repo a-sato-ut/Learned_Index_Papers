@@ -1,0 +1,38 @@
+{
+    "paperId": "c42088bc473ad2031cfe894c82ddf75e62260b95",
+    "title": "FAHL: An Efficient Labeling Index for Flow-Aware Shortest Path Querying in Road Networks",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Tangpeng Dan",
+        "Xiao Pan",
+        "Bolong Zheng",
+        "Xiaofeng Meng"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00068",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c42088bc473ad2031cfe894c82ddf75e62260b95",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As a fundamental operation of location-based services, shortest path querying is widely adopted in real-time applications. Regrettably, most prior works overlook the impact of traffic-flow on shortest path querying. Taking traffic-flow into account is essential for finding a more convenient path through the Flow-Aware Shortest Path Querying (FSPQ). FSPQ faces the following challenges: (1) index restriction, existing indexes are only constructed by the relative spatial distance, if we leverage the traffic-flow to build the index, we can reduce the index size and improve its query efficiency. (2) maintenance latency, the traffic-flow and edges' weights undergo high-frequency changes with different traffic conditions, meaning that our index must be able to support high-frequency updates. To end this, we propose a novel Flow-Aware Hierarchical Labeling Index (FAHL) in this paper. In the index construction aspect, we propose a degree-flow joint ordering method to obtain the joint vertex ordering, and then build the index on it. In this way, FAHL can not only perceive both spatial distance and traffic-flow information but also reduce the index overhead during the query. In the index maintenance aspect, we propose Improved Structure Update (ISU) and Index Label Update (ILU) algorithms to support the index updating when high-frequency flow $\\backslash$ weight changes. Moreover, a flow priority shortest path search algorithm with pruning query bounds is proposed to speed up the query processing. Extensive experiments demonstrate that our proposed method achieves 33.1% speedup on average for the flow-aware shortest path querying compared to the state-of-the-art methods.",
+    "citationCount": 0,
+    "referenceCount": 55
+}

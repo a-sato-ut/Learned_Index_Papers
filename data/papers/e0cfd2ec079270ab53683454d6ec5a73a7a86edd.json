@@ -1,0 +1,38 @@
+{
+    "paperId": "e0cfd2ec079270ab53683454d6ec5a73a7a86edd",
+    "title": "Multi-Rate Data Distillation for Deep Process Monitoring",
+    "year": 2025,
+    "venue": "IEEE Transactions on Instrumentation and Measurement",
+    "authors": [
+        "Junhua Zheng",
+        "Le Zhou",
+        "Yuting Lyu",
+        "Zeyu Yang",
+        "Zhiqiang Ge"
+    ],
+    "doi": "10.1109/TIM.2025.3571076",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e0cfd2ec079270ab53683454d6ec5a73a7a86edd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The feature of multiple data sampling rates is among the most common natures in data-driven industrial process monitoring, which may have a significant impact on its performance, in terms of false alarm, monitoring sensitivity, computational complexity, and manpower resources. Instead of continuously polishing the model structure as usual, this article proposes a cumulative data distillation strategy under the deep monitoring framework. Without increasing the number of training samples, data distillation explores more effective information through compressing various data samples into a condensed new data point. Based on two industrial case studies, both feasibility and effectiveness of the multi-rate data distillation strategy have been well evaluated and confirmed. Besides, it can be inferred that the requirement for the deep model complexity can be lowered with the introduction of the data distillation strategy, thus a relatively simpler model structure can obtain a satisfactory monitoring performance. This is actually of great significance in pursuing green artificial intelligence and lightweight deep learning models, particularly for those real-time industrial applications.",
+    "citationCount": 1,
+    "referenceCount": 43
+}

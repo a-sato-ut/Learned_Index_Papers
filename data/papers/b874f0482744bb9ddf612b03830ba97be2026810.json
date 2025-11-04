@@ -1,0 +1,34 @@
+{
+    "paperId": "b874f0482744bb9ddf612b03830ba97be2026810",
+    "title": "Reproducible Prototyping of Query Optimizer Components",
+    "year": 2025,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Rico Bergmann",
+        "Dirk Habich"
+    ],
+    "doi": "10.1145/3722212.3725637",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b874f0482744bb9ddf612b03830ba97be2026810",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query optimization was, is, and will for the foreseeable future be a very active research field with novel concepts being introduced each year. Over the last decade, two key trends have emerged in this domain: First, many researchers apply machine learning methods to replace components of the traditional optimizer architecture with learned models. Second, PostgreSQL has risen to the standard database system -- either as a benchmarking baseline, or as a target platform for implementation. However, most novel concepts are integrated directly into specific versions of PostgreSQL. As a result, the research community has produced a diverse ''zoo'' of optimization concepts that are difficult to compare. Implementations are often incompatible, rely on different PostgreSQL versions, lack clear a documentation of changes in the base system, or depend on custom tooling. To overcome this situation, this tutorial makes the following contributions: (i) we summarize important characteristics of the PostgreSQL optimizer architecture, emphasizing opportunities for extension, (ii) we survey recent research that improves the traditional optimizer architecture with a special focus on implementation and evaluation, and (iii) in a hands-on part, we showcase how proposed concepts can be expressed in a novel optimization framework to enable a common-ground comparison and rapid prototyping. Finally, we hope to raise the participants' awareness for the importance of reproducible and openly accessible prototypes, as well as for the importance of fair and transparent benchmarks.",
+    "citationCount": 0,
+    "referenceCount": 61
+}

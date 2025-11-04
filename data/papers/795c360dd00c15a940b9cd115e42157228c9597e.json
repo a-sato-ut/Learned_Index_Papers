@@ -1,0 +1,35 @@
+{
+    "paperId": "795c360dd00c15a940b9cd115e42157228c9597e",
+    "title": "Multi-level index construction method based on master–slave blockchains",
+    "year": 2024,
+    "venue": "Scientific Reports",
+    "authors": [
+        "Haolin Zhang",
+        "Su Li",
+        "Chen Liu",
+        "Guiyue Zhang",
+        "Baoyan Song",
+        "Junlu Wang"
+    ],
+    "doi": "10.1038/s41598-024-54240-4",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/795c360dd00c15a940b9cd115e42157228c9597e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Master–slave blockchain is a novel information processing technology that is domain-oriented and uses efficient cryptography principles for trustworthy communication and storage of big data. Existing indexing methods primarily target the creation of a single-structured blockchain, resulting in extensive time and memory requirements. As the scale of domain data continues to grow exponentially, master–slave blockchain systems face increasingly severe challenges with regards to low query efficiency and extended traceback times. To address these issues, this paper propose a multi-level index construction method for the master–slave blockchain (MLI). Firstly, MLI introduces a weight matrix and partitions the entire master–slave blockchain based on the master chain structure, the weight of each partition is assigned. Secondly, for the master blockchain in each partition, a master chain index construction method based on jump consistent hash (JHMI) is proposed, which takes the key value of the nodes and the number of index slots as input and outputs the master chain index. Finally, a bloom filter is introduced to improve the column-based selection function and build a secondary composite index on the subordinate blockchain corresponding to each master block. Experimental results on three constraint conditions and two types of datasets demonstrate that the proposed method reduce the index construction time by an average of 9.28%, improve the query efficiency by 12.07%, and reduce the memory overhead by 24.4%.",
+    "citationCount": 2,
+    "referenceCount": 18
+}

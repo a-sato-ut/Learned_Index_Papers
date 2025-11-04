@@ -1,0 +1,36 @@
+{
+    "paperId": "7033a2e0ec0917796608fd58551bf9fea726de57",
+    "title": "Better Decremental and Fully Dynamic Sensitivity Oracles for Subgraph Connectivity",
+    "year": 2024,
+    "venue": "International Colloquium on Automata, Languages and Programming",
+    "authors": [
+        "Yaowei Long",
+        "Yunfan Wang"
+    ],
+    "doi": "10.48550/arXiv.2402.09150",
+    "arxivId": "2402.09150",
+    "url": "https://www.semanticscholar.org/paper/7033a2e0ec0917796608fd58551bf9fea726de57",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study the \\emph{sensitivity oracles problem for subgraph connectivity} in the \\emph{decremental} and \\emph{fully dynamic} settings. In the fully dynamic setting, we preprocess an $n$-vertices $m$-edges undirected graph $G$ with $n_{\\rm off}$ deactivated vertices initially and the others are activated. Then we receive a single update $D\\subseteq V(G)$ of size $|D| = d \\leq d_{\\star}$, representing vertices whose states will be switched. Finally, we get a sequence of queries, each of which asks the connectivity of two given vertices $u$ and $v$ in the activated subgraph. The decremental setting is a special case when there is no deactivated vertex initially, and it is also known as the \\emph{vertex-failure connectivity oracles} problem. We present a better deterministic vertex-failure connectivity oracle with $\\widehat{O}(d_{\\star}m)$ preprocessing time, $\\widetilde{O}(m)$ space, $\\widetilde{O}(d^{2})$ update time and $O(d)$ query time, which improves the update time of the previous almost-optimal oracle [Long-Saranurak, FOCS 2022] from $\\widehat{O}(d^{2})$ to $\\widetilde{O}(d^{2})$. We also present a better deterministic fully dynamic sensitivity oracle for subgraph connectivity with $\\widehat{O}(\\min\\{m(n_{\\rm off} + d_{\\star}),n^{\\omega}\\})$ preprocessing time, $\\widetilde{O}(\\min\\{m(n_{\\rm off} + d_{\\star}),n^{2}\\})$ space, $\\widetilde{O}(d^{2})$ update time and $O(d)$ query time, which significantly improves the update time of the state of the art [Hu-Kosinas-Polak, 2023] from $\\widetilde{O}(d^{4})$ to $\\widetilde{O}(d^{2})$. Furthermore, our solution is even almost-optimal assuming popular fine-grained complexity conjectures.",
+    "citationCount": 4,
+    "referenceCount": 26
+}

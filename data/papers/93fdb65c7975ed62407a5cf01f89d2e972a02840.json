@@ -1,0 +1,40 @@
+{
+    "paperId": "93fdb65c7975ed62407a5cf01f89d2e972a02840",
+    "title": "Towards Unified Multi-Modal Personalization: Large Vision-Language Models for Generative Recommendation and Beyond",
+    "year": 2024,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Tianxin Wei",
+        "Bowen Jin",
+        "Ruirui Li",
+        "Hansi Zeng",
+        "Zhengyang Wang",
+        "Jianhui Sun",
+        "Qingyu Yin",
+        "Hanqing Lu",
+        "Suhang Wang",
+        "Jingrui He",
+        "Xianfeng Tang"
+    ],
+    "doi": "10.48550/arXiv.2403.10667",
+    "arxivId": "2403.10667",
+    "url": "https://www.semanticscholar.org/paper/93fdb65c7975ed62407a5cf01f89d2e972a02840",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Developing a universal model that can effectively harness heterogeneous resources and respond to a wide range of personalized needs has been a longstanding community aspiration. Our daily choices, especially in domains like fashion and retail, are substantially shaped by multi-modal data, such as pictures and textual descriptions. These modalities not only offer intuitive guidance but also cater to personalized user preferences. However, the predominant personalization approaches mainly focus on the ID or text-based recommendation problem, failing to comprehend the information spanning various tasks or modalities. In this paper, our goal is to establish a Unified paradigm for Multi-modal Personalization systems (UniMP), which effectively leverages multi-modal data while eliminating the complexities associated with task- and modality-specific customization. We argue that the advancements in foundational generative modeling have provided the flexibility and effectiveness necessary to achieve the objective. In light of this, we develop a generic and extensible personalization generative framework, that can handle a wide range of personalized needs including item recommendation, product search, preference prediction, explanation generation, and further user-guided image generation. Our methodology enhances the capabilities of foundational language models for personalized tasks by seamlessly ingesting interleaved cross-modal user history information, ensuring a more precise and customized experience for users. To train and evaluate the proposed multi-modal personalized tasks, we also introduce a novel and comprehensive benchmark covering a variety of user requirements. Our experiments on the real-world benchmark showcase the model's potential, outperforming competitive methods specialized for each task.",
+    "citationCount": 36,
+    "referenceCount": 72
+}

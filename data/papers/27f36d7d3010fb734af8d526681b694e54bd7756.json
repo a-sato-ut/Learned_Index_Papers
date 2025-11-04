@@ -1,0 +1,33 @@
+{
+    "paperId": "27f36d7d3010fb734af8d526681b694e54bd7756",
+    "title": "How Data Inter-connectivity Shapes LLMs Unlearning: A Structural Unlearning Perspective",
+    "year": 2024,
+    "venue": "",
+    "authors": [
+        "Xinchi Qiu",
+        "William F. Shen",
+        "Yihong Chen",
+        "Nicola Cancedda",
+        "Pontus Stenetorp",
+        "N. Lane"
+    ],
+    "doi": null,
+    "arxivId": "2406.16810",
+    "url": "https://www.semanticscholar.org/paper/27f36d7d3010fb734af8d526681b694e54bd7756",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "While unlearning knowledge from large language models (LLMs) is receiving increasing attention, one important aspect remains unexplored. Existing approaches and benchmarks assume data points to-be-forgotten are independent, ignoring their inter-connectivity - a fundamental characteristic of real-world data structures. In this paper, we propose PISTOL, a method for compiling structural datasets. PISTOL leverages the inherently structured nature of contractual relationships, offering several key benefits. First, it enables insights into the impact of structural data on unlearning effectiveness. Second, it provides precise and concise ground truths for clearer evaluation. Third, its attribute generation does not require input from pre-trained LLMs, mitigating confounding risks. Leveraging datasets synthesized using PISTOL, we demonstrate how data inter-connectivity impacts LLM unlearning. Specifically, (a) in both the pre-trained and fine-tuned models, unlearning difficulty increases as data inter-connectivity grows, (b) there is a positive correlation between the density of the knowledge graph and unlearning difficulty, and (c) when the to-be-forgotten data is skewed towards one domain, balancing retaining performance across all domains is challenging.",
+    "citationCount": 1,
+    "referenceCount": 60
+}

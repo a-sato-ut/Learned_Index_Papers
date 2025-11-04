@@ -1,0 +1,28 @@
+{
+    "paperId": "33c6cde19c426efb0258ad27237946ee7f607aaf",
+    "title": "Personalized Non-Player Characters: A Framework for Character-Consistent Dialogue Generation",
+    "year": 2025,
+    "venue": "Applied Informatics",
+    "authors": [
+        "Xiao Liu",
+        "Zhenping Xie",
+        "Senlin Jiang"
+    ],
+    "doi": "10.3390/ai6050093",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/33c6cde19c426efb0258ad27237946ee7f607aaf",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/ai6050093",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generating character-consistent and personalized dialogue for Non-Player Characters (NPCs) in Role-Playing Games (RPGs) poses significant challenges, especially due to limited memory retention and inconsistent character representation. This paper proposes a framework for generating personalized dialogues based on character-specific knowledge. By combining static knowledge fine-tuning and dynamic knowledge graph technology, the framework generates dialogue content that is more aligned with character settings and is highly personalized. Specifically, the paper introduces a protective static knowledge fine-tuning approach to ensure that the language model does not generate content beyond the character’s cognitive scope during conversations. Additionally, dynamic knowledge graphs are employed to store and update the interaction history between NPCs and players, forming unique “experience-response” patterns. During dialogue generation, the paper first parses player input into an Abstract Meaning Representation (AMR) graph, retrieves relevant memory nodes from the knowledge graph, and constructs a fused graph structure. This integrated graph is encoded via a graph neural network to generate high-dimensional semantic vectors, which are then used to retrieve and supplement knowledge from the vector database. Ultimately, the model generates personalized responses consistent with the NPC’s identity. Experimental results demonstrate that the framework significantly enhances the authenticity of NPC dialogues and player immersion and performs well on multiple large-scale language models.",
+    "citationCount": 1,
+    "referenceCount": 46
+}

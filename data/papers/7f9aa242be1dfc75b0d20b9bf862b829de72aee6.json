@@ -1,0 +1,35 @@
+{
+    "paperId": "7f9aa242be1dfc75b0d20b9bf862b829de72aee6",
+    "title": "Scout Sketch: Finding Promising Items in Data Streams",
+    "year": 2024,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Tianyu Ma",
+        "Guoju Gao",
+        "He Huang",
+        "Yu-E. Sun",
+        "Yangyan Du"
+    ],
+    "doi": "10.1109/INFOCOM52122.2024.10621279",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7f9aa242be1dfc75b0d20b9bf862b829de72aee6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper studies a new but important pattern for items in data streams, called promising items. The promising items mean that the frequencies of an item in multiple continuous time windows show an upward trend overall, while a slight decrease in some of these windows is allowed. Many practical applications can benefit from the property of promising items, e.g., detecting potential hot events or news in social networks, preventing network congestion in communication channels, and monitoring latent attacks in computer networks. To accurately find promising items in data streams in real-time under limited memory space, we propose a novel structure named Scout Sketch, which consists of Filter and Finder. Filter is devised based on the Bloom filter to eliminate the ungratified items with less memory overload; Finder records some necessary information about the potential items and detects the promising items at the end of each time window, where we propose some tailor-made detection operations. We also analyze the theoretical performance of Scout Sketch. Finally, we conducted extensive experiments based on four real-world datasets. The experimental results show that the F1 Score and throughput of Scout Sketch are about 2.02 and 5.61 times that of the compared solutions, respectively.",
+    "citationCount": 3,
+    "referenceCount": 43
+}

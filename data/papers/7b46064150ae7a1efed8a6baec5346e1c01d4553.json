@@ -1,0 +1,37 @@
+{
+    "paperId": "7b46064150ae7a1efed8a6baec5346e1c01d4553",
+    "title": "A Unified Gradient-based Framework for Task-agnostic Continual Learning-Unlearning",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhehao Huang",
+        "Xinwen Cheng",
+        "Jie Zhang",
+        "Jinghao Zheng",
+        "Haoran Wang",
+        "Zhengbao He",
+        "Tao Li",
+        "Xiaolin Huang"
+    ],
+    "doi": "10.48550/arXiv.2505.15178",
+    "arxivId": "2505.15178",
+    "url": "https://www.semanticscholar.org/paper/7b46064150ae7a1efed8a6baec5346e1c01d4553",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advancements in deep models have highlighted the need for intelligent systems that combine continual learning (CL) for knowledge acquisition with machine unlearning (MU) for data removal, forming the Continual Learning-Unlearning (CLU) paradigm. While existing work treats CL and MU as separate processes, we reveal their intrinsic connection through a unified optimization framework based on Kullback-Leibler divergence minimization. This framework decomposes gradient updates for approximate CLU into four components: learning new knowledge, unlearning targeted data, preserving existing knowledge, and modulation via weight saliency. A critical challenge lies in balancing knowledge update and retention during sequential learning-unlearning cycles. To resolve this stability-plasticity dilemma, we introduce a remain-preserved manifold constraint to induce a remaining Hessian compensation for CLU iterations. A fast-slow weight adaptation mechanism is designed to efficiently approximate the second-order optimization direction, combined with adaptive weighting coefficients and a balanced weight saliency mask, proposing a unified implementation framework for gradient-based CLU. Furthermore, we pioneer task-agnostic CLU scenarios that support fine-grained unlearning at the cross-task category and random sample levels beyond the traditional task-aware setups. Experiments demonstrate that the proposed UG-CLU framework effectively coordinates incremental learning, precise unlearning, and knowledge stability across multiple datasets and model architectures, providing a theoretical foundation and methodological support for dynamic, compliant intelligent systems.",
+    "citationCount": 1,
+    "referenceCount": 77
+}

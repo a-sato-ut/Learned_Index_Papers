@@ -1,0 +1,33 @@
+{
+    "paperId": "920186d5df0e420d16f5da8ce66170aeacb23d16",
+    "title": "Semantic-Guided RL for Interpretable Feature Engineering",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Mohamed Bouadi",
+        "Arta Alavi",
+        "S. Benbernou",
+        "Mourad Ouziri"
+    ],
+    "doi": "10.48550/arXiv.2410.02519",
+    "arxivId": "2410.02519",
+    "url": "https://www.semanticscholar.org/paper/920186d5df0e420d16f5da8ce66170aeacb23d16",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The quality of Machine Learning (ML) models strongly depends on the input data, as such generating high-quality features is often required to improve the predictive accuracy. This process is referred to as Feature Engineering (FE). However, since manual feature engineering is time-consuming and requires case-by-case domain knowledge, Automated Feature Engineering (AutoFE) is crucial. A major challenge that remains is to generate interpretable features. To tackle this problem, we introduce SMART, a hybrid approach that uses semantic technologies to guide the generation of interpretable features through a two-step process: Exploitation and Exploration. The former uses Description Logics (DL) to reason on the semantics embedded in Knowledge Graphs (KG) to infer domain-specific features, while the latter exploits the knowledge graph to conduct a guided exploration of the search space through Deep Reinforcement Learning (DRL). Our experiments on public datasets demonstrate that SMART significantly improves prediction accuracy while ensuring a high level of interpretability.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

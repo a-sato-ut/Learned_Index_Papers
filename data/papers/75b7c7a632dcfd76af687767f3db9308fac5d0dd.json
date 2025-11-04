@@ -1,0 +1,34 @@
+{
+    "paperId": "75b7c7a632dcfd76af687767f3db9308fac5d0dd",
+    "title": "An Augmented Index-based Efficient Community Search for Large Directed Graphs",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yankai Chen",
+        "Jie Zhang",
+        "Yixiang Fang",
+        "Xin Cao",
+        "Irwin King"
+    ],
+    "doi": "10.48550/arXiv.2311.06487",
+    "arxivId": "2311.06487",
+    "url": "https://www.semanticscholar.org/paper/75b7c7a632dcfd76af687767f3db9308fac5d0dd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Given a graph G and a query vertex q, the topic of community search (CS), aiming to retrieve a dense subgraph of G containing q, has gained much attention. Most existing works focus on undirected graphs which overlooks the rich information carried by the edge directions. Recently, the problem of community search over directed graphs (or CSD problem) has been studied; it finds a connected subgraph containing q, where the in-degree and out-degree of each vertex within the subgraph are at least k and l, respectively. However, existing solutions are inefficient, especially on large graphs. To tackle this issue, in this paper, we propose a novel index called D-Forest, which allows a CSD query to be completed within the optimal time cost. We further propose efficient index construction methods. Extensive experiments on six real large graphs show that our index-based query algorithm is up to two orders of magnitude faster than existing solutions.",
+    "citationCount": 0,
+    "referenceCount": 46
+}

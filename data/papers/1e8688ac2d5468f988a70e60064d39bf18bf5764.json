@@ -1,0 +1,35 @@
+{
+    "paperId": "1e8688ac2d5468f988a70e60064d39bf18bf5764",
+    "title": "Understanding Generative Recommendation with Semantic IDs from a Model-scaling View",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jingzhe Liu",
+        "Liam Collins",
+        "Jiliang Tang",
+        "Tong Zhao",
+        "Neil Shah",
+        "Clark Mingxuan Ju"
+    ],
+    "doi": "10.48550/arXiv.2509.25522",
+    "arxivId": "2509.25522",
+    "url": "https://www.semanticscholar.org/paper/1e8688ac2d5468f988a70e60064d39bf18bf5764",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advancements in generative models have allowed the emergence of a promising paradigm for recommender systems (RS), known as Generative Recommendation (GR), which tries to unify rich item semantics and collaborative filtering signals. One popular modern approach is to use semantic IDs (SIDs), which are discrete codes quantized from the embeddings of modality encoders (e.g., large language or vision models), to represent items in an autoregressive user interaction sequence modeling setup (henceforth, SID-based GR). While generative models in other domains exhibit well-established scaling laws, our work reveals that SID-based GR shows significant bottlenecks while scaling up the model. In particular, the performance of SID-based GR quickly saturates as we enlarge each component: the modality encoder, the quantization tokenizer, and the RS itself. In this work, we identify the limited capacity of SIDs to encode item semantic information as one of the fundamental bottlenecks. Motivated by this observation, as an initial effort to obtain GR models with better scaling behaviors, we revisit another GR paradigm that directly uses large language models (LLMs) as recommenders (henceforth, LLM-as-RS). Our experiments show that the LLM-as-RS paradigm has superior model scaling properties and achieves up to 20 percent improvement over the best achievable performance of SID-based GR through scaling. We also challenge the prevailing belief that LLMs struggle to capture collaborative filtering information, showing that their ability to model user-item interactions improves as LLMs scale up. Our analyses on both SID-based GR and LLMs across model sizes from 44M to 14B parameters underscore the intrinsic scaling limits of SID-based GR and position LLM-as-RS as a promising path toward foundation models for GR.",
+    "citationCount": 0,
+    "referenceCount": 68
+}

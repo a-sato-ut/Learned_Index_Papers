@@ -1,0 +1,39 @@
+{
+    "paperId": "b986561ffe2892038fae80d21e10b2448deae8fa",
+    "title": "BigVectorBench: Heterogeneous Data Embedding and Compound Queries are Essential in Evaluating Vector Databases",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Guoxin Kang",
+        "Zhongxin Ge",
+        "Jingpei Hu",
+        "Xueya Zhang",
+        "Lei Wang",
+        "Jianfeng Zhan"
+    ],
+    "doi": "10.14778/3718057.3718078",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b986561ffe2892038fae80d21e10b2448deae8fa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Vector databases are designed to effectively store, organize, and retrieve high-dimensional vectors, enabling faster and more accurate querying and analysis. This study highlights that the performance of cutting-edge vector databases hinges on their proficiency in managing heterogeneous data embedding and handling compound queries. The former task revolves around converting varied data types into a cohesive vector format, while the latter involves processing multimodal or single-modal queries with precise constraints. The paper advocates for evaluating these dual tasks within an integrated benchmark framework. However, state-of-the-art vector database benchmarks overlook heterogeneous data embedding and compound queries, creating a gap in evaluating vector database performance.\n To address this gap, we introduce BigVectorBench, a benchmark suite designed to evaluate vector database performance. BigVectorBench contributes by defining and evaluating the embedding performance of heterogeneous data. Additionally, it abstracts compound queries, which are increasingly used in real-world applications, replacing unimodal vector searches. Our rigorous evaluations validate the two design decisions of BigVectorBench and identify performance bottlenecks of mainstream vector databases. Its source code and user manual are available from https://github.com/BenchCouncil/BigVectorBench.",
+    "citationCount": 0,
+    "referenceCount": 91
+}

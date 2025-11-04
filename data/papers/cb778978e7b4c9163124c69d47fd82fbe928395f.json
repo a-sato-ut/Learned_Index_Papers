@@ -1,0 +1,39 @@
+{
+    "paperId": "cb778978e7b4c9163124c69d47fd82fbe928395f",
+    "title": "Fast protein structure searching using structure graph embeddings",
+    "year": 2024,
+    "venue": "bioRxiv",
+    "authors": [
+        "Joe G. Greener",
+        "Kiarash Jamali"
+    ],
+    "doi": "10.1101/2022.11.28.518224",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cb778978e7b4c9163124c69d47fd82fbe928395f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Comparing and searching protein structures independent of primary sequence has proved useful for remote homology detection, function annotation and protein classification. Fast and accurate methods to search with structures will be essential to make use of the vast databases that have recently become available, in the same way that fast protein sequence searching underpins much of bioinformatics. We train a simple graph neural network using supervised contrastive learning to learn a low-dimensional embedding of protein structure. The method, called Progres, is available as software at https://github.com/greener-group/progres and as a web server at https://progres.mrc-lmb.cam.ac.uk. It has accuracy comparable to the best current methods and can search the AlphaFold database TED domains in a tenth of a second per query on CPU.",
+    "citationCount": 14,
+    "referenceCount": 78
+}

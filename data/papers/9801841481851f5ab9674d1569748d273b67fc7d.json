@@ -1,0 +1,37 @@
+{
+    "paperId": "9801841481851f5ab9674d1569748d273b67fc7d",
+    "title": "Catalog-Native LLM: Speaking Item-ID Dialect with Less Entanglement for Recommendation",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Reza Shirkavand",
+        "Xiaokai Wei",
+        "Chen Wang",
+        "Zheng Hui",
+        "Heng Huang",
+        "Michelle Gong"
+    ],
+    "doi": null,
+    "arxivId": "2510.05125",
+    "url": "https://www.semanticscholar.org/paper/9801841481851f5ab9674d1569748d273b67fc7d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "While collaborative filtering delivers predictive accuracy and efficiency, and Large Language Models (LLMs) enable expressive and generalizable reasoning, modern recommendation systems must bring these strengths together. Growing user expectations, such as natural-language queries and transparent explanations, further highlight the need for a unified approach. However, doing so is nontrivial. Collaborative signals are often token-efficient but semantically opaque, while LLMs are semantically rich but struggle to model implicit user preferences when trained only on textual inputs. This paper introduces Item-ID + Oral-language Mixture-of-Experts Language Model (IDIOMoE), which treats item interaction histories as a native dialect within the language space, enabling collaborative signals to be understood in the same way as natural language. By splitting the Feed Forward Network of each block of a pretrained LLM into a separate text expert and an item expert with token-type gating, our method avoids destructive interference between text and catalog modalities. IDIOMoE demonstrates strong recommendation performance across both public and proprietary datasets, while preserving the text understanding of the pretrained model.",
+    "citationCount": 2,
+    "referenceCount": 96
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "9331ab4b0063221cc1028c534e30d358a753d8f0",
+    "title": "A Novel Hyperparameter Tuning Strategy Using Spider Monkey Optimization for Deep Neural Networks in Water Quality Prediction",
+    "year": 2025,
+    "venue": "Asia Pacific Symposium on Intelligent and Evolutionary Systems",
+    "authors": [
+        "D. Lusiyanti",
+        "Syaiful Anam",
+        "W. Mahmudy",
+        "Umu Saàdah"
+    ],
+    "doi": "10.1109/IES67184.2025.11160714",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9331ab4b0063221cc1028c534e30d358a753d8f0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Water quality prediction remains a critical challenge in environmental resource management, particularly when dealing with complex datasets. Deep Neural Networks (DNN) have proven effective in capturing intricate patterns within water quality data; however, their performance heavily relies on the proper configuration of hyperparameters. This study proposes a novel hyperparameter tuning strategy by integrating the Spider Monkey Optimization (SMO) algorithm into the DNN model for water quality classification. To the best of our knowledge, this is the first study applying SMO for DNN hyperparameter optimization in the context of water quality prediction. A series of experiments were conducted to compare various tuning methods, including Grid Search, Random Search, Bayesian Optimization, Genetic Algorithm (GA), Particle Swarm Optimization (PSO), and the proposed SMObased approach. Evaluation using Accuracy, F1-Score, and AUC-ROC metrics demonstrated that SMO consistently achieved superior results, with scores of $0.6833,0.7076$, and 0.715, respectively. Statistical validation using the MannWhitney U test confirmed that the performance differences between SMO and other tuning methods were statistically significant. Furthermore, sensitivity analysis showed that finetuning SMO parameters such as population size and perturbation rate could further enhance model performance. By establishing the effectiveness of SMO in DNN hyperparameter optimization, this work lays the foundation for broader exploration of metaheuristic-based tuning methods in machine learning. Moreover, applying this approach has practical value for real-time water quality monitoring, early contamination detection, and the development of more targeted and responsive resource management strategies.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

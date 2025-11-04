@@ -1,0 +1,36 @@
+{
+    "paperId": "4620306869c6e75827d13cb3f689c895c26526da",
+    "title": "Biomechanical Risk Classification in Repetitive Lifting Using Multi-Sensor Electromyography Data, Revised National Institute for Occupational Safety and Health Lifting Equation, and Deep Learning",
+    "year": 2025,
+    "venue": "Biosensors",
+    "authors": [
+        "Fatemeh Davoudi Kakhki",
+        "Hardik Vora",
+        "A. Moghadam"
+    ],
+    "doi": "10.3390/bios15020084",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4620306869c6e75827d13cb3f689c895c26526da",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/bios15020084",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Repetitive lifting tasks in occupational settings often result in shoulder injuries, impacting both health and productivity. Accurately assessing the biomechanical risk of these tasks remains a significant challenge in occupational ergonomics, particularly within manufacturing environments. Traditional assessment methods frequently rely on subjective reports and limited observations, which can introduce bias and yield incomplete evaluations. This study addresses these limitations by generating and utilizing a comprehensive dataset containing detailed time-series electromyography (EMG) data from 25 participants. Using high-precision wearable sensors, EMG data were collected from eight muscles as participants performed repetitive lifting tasks. For each task, the lifting index was calculated using the revised National Institute for Occupational Safety and Health (NIOSH) lifting equation (RNLE). Participants completed cycles of both low-risk and high-risk repetitive lifting tasks within a four-minute period, allowing for the assessment of muscle performance under realistic working conditions. This extensive dataset, comprising over 7 million data points sampled at approximately 1259 Hz, was leveraged to develop deep learning models to classify lifting risk. To provide actionable insights for practical occupational ergonomics and risk assessments, statistical features were extracted from the raw EMG data. Three deep learning models, Convolutional Neural Networks (CNNs), Multilayer Perceptron (MLP), and Long Short-Term Memory (LSTM), were employed to analyze the data and predict the occupational lifting risk level. The CNN model achieved the highest performance, with a precision of 98.92% and a recall of 98.57%, proving its effectiveness for real-time risk assessments. These findings underscore the importance of aligning model architectures with data characteristics to optimize risk management. By integrating wearable EMG sensors with deep learning models, this study enables precise, real-time, and dynamic risk assessments, significantly enhancing workplace safety protocols. This approach has the potential to improve safety planning and reduce the incidence and severity of work-related musculoskeletal disorders, ultimately promoting better health and safety outcomes across various occupational settings.",
+    "citationCount": 0,
+    "referenceCount": 66
+}

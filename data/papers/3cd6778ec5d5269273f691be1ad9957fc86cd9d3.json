@@ -1,0 +1,31 @@
+{
+    "paperId": "3cd6778ec5d5269273f691be1ad9957fc86cd9d3",
+    "title": "TimeWeaver: Orchestrating Narrative Order via Temporal Mixture-of-Experts Integrated Event–Order Bidirectional Pretraining and Multi-Granular Reward Reinforcement Learning",
+    "year": 2025,
+    "venue": "Electronics",
+    "authors": [
+        "Zhicong Lu",
+        "Wei Jia",
+        "Changyuan Tian",
+        "Li Jin",
+        "Yang Bai",
+        "Guangluan Xu"
+    ],
+    "doi": "10.3390/electronics14193880",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3cd6778ec5d5269273f691be1ad9957fc86cd9d3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Human storytellers often orchestrate diverse narrative orders (chronological, flashback) for crafting compelling stories. To equip artificial intelligence systems with such capability, existing methods rely on implicitly learning narrative sequential knowledge, or explicitly modeling narrative order through pairwise event temporal order (e.g., take medicine  get ill). However, both suffer from imbalanced narrative order distribution bias and inadequate event temporal understanding, hindering generating high-quality events in the story that balance the logic and narrative order. In this paper, we propose a narrative-order-aware framework, TimeWeaver, which presents an event–order bidirectional pretrained model integrated with temporal mixture-of-experts to orchestrate diverse narrative orders. Specifically, to mitigate imbalanced distribution bias, the temporal mixture-of-experts is devised to route events with various narrative orders to corresponding experts, grasping distinct orders of narrative generation. Then, to enhance event temporal understanding, an event sequence narrative-order-aware model is pretrained with bidirectional reasoning between event and order, encoding the event temporal orders and event correlations. At the fine-tuning stage, reinforcement learning with multi-granular optimal transport reward is designed to boost the quality of generated events. Extensive experimental results on automatic and manual evaluations demonstrate the superiority of our framework in orchestrating diverse narrative orders during story generation.",
+    "citationCount": 0,
+    "referenceCount": 21
+}

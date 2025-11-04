@@ -1,0 +1,33 @@
+{
+    "paperId": "14b053bdaf796793e2dfe24ef4af16270d2808d1",
+    "title": "Electromechanical Delay Compensation in Neuromuscular Electrical Stimulation via a Data-Driven Approach: Validation in Spinal Cord Injury Patients",
+    "year": 2025,
+    "venue": "IEEE Transactions on Medical Robotics and Bionics",
+    "authors": [
+        "Alif T",
+        "Sirsendu Sekhar Mishra",
+        "K. Garg",
+        "Deepak Joshi"
+    ],
+    "doi": "10.1109/TMRB.2025.3573415",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/14b053bdaf796793e2dfe24ef4af16270d2808d1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Electrical stimulation-based therapies are vital in managing post-spinal cord injury complications, particularly during physical rehabilitation. However, the nonlinear muscle response to electrical stimuli and the subjective, physiological variability make it challenging to predict stimulation levels for precise limb movements. The electromechanical delay (EMD), corresponding to the lag between electrical stimulation and muscle actuation, also alleviates rehabilitation outcomes. We propose a dynamic linearization-based sliding mode controller with Smith predictor configuration, compensating for EMD and regulating limb movement using electrical stimulation. Unlike model-based approaches, the proposed controller relies solely on real-time input/output data, eliminating the need for complex system modelling. Experiments with thirteen healthy and two spinal cord-injured participants demonstrated a root mean square error in the range of 2.31° to 8.63° and 1.22° to 3.21° in stimulus-assisted trajectory tracking and disturbance rejection scenarios, respectively. The proposed controller significantly outperformed (Man-Whitney U Test, p¡0.05) the conventional dynamic linearization-based sliding mode controller with an average (SD) RMSE improvement of 2.13°(0.96°). Additionally, the results indicate the robust performance of the proposed controller during impulsive disturbances during seated knee flexion and extension tasks. The proposed controller may potentially eliminate the need for extensive mathematical modelling of the subject while giving excellent trajectory-tracking performance.",
+    "citationCount": 0,
+    "referenceCount": 64
+}

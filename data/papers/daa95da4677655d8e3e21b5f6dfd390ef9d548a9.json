@@ -1,0 +1,37 @@
+{
+    "paperId": "daa95da4677655d8e3e21b5f6dfd390ef9d548a9",
+    "title": "MiniOneRec: An Open-Source Framework for Scaling Generative Recommendation",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Xiaoyu Kong",
+        "Leheng Sheng",
+        "Junfei Tan",
+        "Yuxin Chen",
+        "Jiancan Wu",
+        "An Zhang",
+        "Xiang Wang",
+        "Xiangnan He"
+    ],
+    "doi": null,
+    "arxivId": "2510.24431",
+    "url": "https://www.semanticscholar.org/paper/daa95da4677655d8e3e21b5f6dfd390ef9d548a9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The recent success of large language models (LLMs) has renewed interest in whether recommender systems can achieve similar scaling benefits. Conventional recommenders, dominated by massive embedding tables, tend to plateau as embedding dimensions grow. In contrast, the emerging generative paradigm replaces embeddings with compact Semantic ID (SID) sequences produced by autoregressive Transformers. Yet most industrial deployments remain proprietary, leaving two fundamental questions open: (1) Do the expected scaling laws hold on public benchmarks? (2) What is the minimal post-training recipe that enables competitive performance? We present MiniOneRec, to the best of our knowledge, the first fully open-source generative recommendation framework, which provides an end-to-end workflow spanning SID construction, supervised fine-tuning, and recommendation-oriented reinforcement learning. We generate SIDs via a Residual Quantized VAE and post-train Qwen backbones ranging from 0.5B to 7B parameters on the Amazon Review dataset. Our experiments reveal a consistent downward trend in both training and evaluation losses with increasing model size, validating the parameter efficiency of the generative approach. To further enhance performance, we propose a lightweight yet effective post-training pipeline that (1) enforces full-process SID alignment and (2) applies reinforcement learning with constrained decoding and hybrid rewards. Together, these techniques yield significant improvements in both ranking accuracy and candidate diversity.",
+    "citationCount": 0,
+    "referenceCount": 50
+}

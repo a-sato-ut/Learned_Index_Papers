@@ -1,0 +1,34 @@
+{
+    "paperId": "42765096b8ab46bff1b4d9b0eaaa11c8958cd91d",
+    "title": "Robust Hashing With Bilinear Drift for Image-Text Retrieval",
+    "year": 2025,
+    "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+    "authors": [
+        "Huan Zhao",
+        "Zeyi Li",
+        "Song Wang",
+        "Zixing Zhang",
+        "Keqin Li"
+    ],
+    "doi": "10.1109/TCSVT.2025.3545643",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/42765096b8ab46bff1b4d9b0eaaa11c8958cd91d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Supervised hashing models for image-text retrieval are fundamental and versatile in social media analysis and cross-lingual web search. Among them, supervised bilinear drift hashing is one of the most popular approaches. However, it still faces several challenges. For instance, how to leverage the power of bilinear drift hashing to distinguish similar and dissimilar data samples effectively; how to strengthen the semantic relationship between similar data and supervision. To solve these problems, we propose Robust Hashing with Bilinear Drift (RHBD) to improve the accuracy and robustness of the supervised model. The key idea of this work is to generate effective hash codes between image-text feature representations by combining robust data distributions and multiple supervision information. The benefits of bilinear drift with robust hashing, which enhance the discrimination of hash binary, are manifested mainly in two ways: (1) RHBD employs a semantic autoencoder with a linear drift to get a discriminative common feature representation between image and text modalities; (2) RHBD explores iteration quantization with a linear drift to well generate similarity-preserving hash codes. Moreover, we introduce multiple supervision learning to promote the consistency between data information and supervision knowledge for semantic complementarity. Results on three public datasets show that RHBD is effective in image-text retrieval, consistently outperforming other state-of-the-art models with comparable training efficiency to competitive baselines.",
+    "citationCount": 1,
+    "referenceCount": 60
+}

@@ -33,7 +33,6 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       
       setResult(data);
       if (data.paper && activeTab === 'graph') {
-        // グラフを再描画
         setTimeout(() => drawGraph(data), 100);
       }
     } catch (error) {
@@ -62,56 +61,164 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     }
   }, [result, activeTab]);
 
-  const drawGraph = (data: SearchResult) => {
+  const drawGraph = async (data: SearchResult) => {
     if (!svgRef.current || !data.paper) return;
 
+    const centerPaper = data.paper;
     const svg = d3.select(svgRef.current);
     svg.selectAll('*').remove();
 
     const width = svgRef.current.clientWidth || 1200;
     const height = svgRef.current.clientHeight || 800;
 
-    // ノードとエッジの準備
     const nodes: PaperNode[] = [];
     const edges: PaperEdge[] = [];
+    const nodeMap = new Map<string, PaperNode>();
 
-    // 中心ノード
     const centerNode: PaperNode = {
-      id: data.paper.paperId,
-      paper: data.paper,
+      id: centerPaper.paperId,
+      paper: centerPaper,
       type: 'center',
       fx: width / 2,
       fy: height / 2,
     };
     nodes.push(centerNode);
+    nodeMap.set(centerPaper.paperId, centerNode);
 
-    // Cites ノード（中心から外向き）
     data.cites.forEach((paper) => {
-      nodes.push({
+      const node: PaperNode = {
         id: paper.paperId,
         paper,
         type: 'cites',
-      });
+      };
+      nodes.push(node);
+      nodeMap.set(paper.paperId, node);
       edges.push({
-        source: data.paper!.paperId,
+        source: centerPaper.paperId,
         target: paper.paperId,
         type: 'cites',
       });
     });
 
-    // Cited by ノード（中心に向かう）
-    data.cited_by.forEach((paper) => {
-      if (!nodes.find((n) => n.id === paper.paperId)) {
-        nodes.push({
-          id: paper.paperId,
-          paper,
+    const citesLevel2Promises = data.cites.map(async (citedPaper) => {
+      try {
+        const response = await fetch(`${API_BASE}/api/paper/${citedPaper.paperId}?limit=200`);
+        if (response.ok) {
+          const paperData = await response.json();
+          return { cites: paperData.cites || [], cited_by: paperData.cited_by || [] };
+        }
+      } catch (error) {
+        console.error(`Error fetching data for ${citedPaper.paperId}:`, error);
+      }
+      return { cites: [], cited_by: [] };
+    });
+
+    const citedByLevel2Promises = data.cited_by.map(async (citingPaper) => {
+      try {
+        const response = await fetch(`${API_BASE}/api/paper/${citingPaper.paperId}?limit=200`);
+        if (response.ok) {
+          const paperData = await response.json();
+          return { cites: paperData.cites || [], cited_by: paperData.cited_by || [] };
+        }
+      } catch (error) {
+        console.error(`Error fetching data for ${citingPaper.paperId}:`, error);
+      }
+      return { cites: [], cited_by: [] };
+    });
+
+    const [citesLevel2Results, citedByLevel2Results] = await Promise.all([
+      Promise.all(citesLevel2Promises),
+      Promise.all(citedByLevel2Promises),
+    ]);
+
+    data.cites.forEach((level1Paper, index) => {
+      const level2Data = citesLevel2Results[index];
+      
+      level2Data.cites.forEach((level2Paper: Paper) => {
+        if (!nodeMap.has(level2Paper.paperId)) {
+          const node: PaperNode = {
+            id: level2Paper.paperId,
+            paper: level2Paper,
+            type: 'cites',
+          };
+          nodes.push(node);
+          nodeMap.set(level2Paper.paperId, node);
+        }
+        edges.push({
+          source: level1Paper.paperId,
+          target: level2Paper.paperId,
+          type: 'cites',
+        });
+      });
+
+      level2Data.cited_by.forEach((level2Paper: Paper) => {
+        if (!nodeMap.has(level2Paper.paperId)) {
+          const node: PaperNode = {
+            id: level2Paper.paperId,
+            paper: level2Paper,
+            type: 'cited_by',
+          };
+          nodes.push(node);
+          nodeMap.set(level2Paper.paperId, node);
+        }
+        edges.push({
+          source: level2Paper.paperId,
+          target: level1Paper.paperId,
           type: 'cited_by',
         });
+      });
+    });
+
+    data.cited_by.forEach((level1Paper, index) => {
+      if (!nodeMap.has(level1Paper.paperId)) {
+        const node: PaperNode = {
+          id: level1Paper.paperId,
+          paper: level1Paper,
+          type: 'cited_by',
+        };
+        nodes.push(node);
+        nodeMap.set(level1Paper.paperId, node);
       }
       edges.push({
-        source: paper.paperId,
-        target: data.paper!.paperId,
+        source: level1Paper.paperId,
+        target: centerPaper.paperId,
         type: 'cited_by',
+      });
+
+      const level2Data = citedByLevel2Results[index];
+      
+      level2Data.cites.forEach((level2Paper: Paper) => {
+        if (!nodeMap.has(level2Paper.paperId)) {
+          const node: PaperNode = {
+            id: level2Paper.paperId,
+            paper: level2Paper,
+            type: 'cited_by',
+          };
+          nodes.push(node);
+          nodeMap.set(level2Paper.paperId, node);
+        }
+        edges.push({
+          source: level1Paper.paperId,
+          target: level2Paper.paperId,
+          type: 'cites',
+        });
+      });
+
+      level2Data.cited_by.forEach((level2Paper: Paper) => {
+        if (!nodeMap.has(level2Paper.paperId)) {
+          const node: PaperNode = {
+            id: level2Paper.paperId,
+            paper: level2Paper,
+            type: 'cited_by',
+          };
+          nodes.push(node);
+          nodeMap.set(level2Paper.paperId, node);
+        }
+        edges.push({
+          source: level2Paper.paperId,
+          target: level1Paper.paperId,
+          type: 'cited_by',
+        });
       });
     });
 

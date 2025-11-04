@@ -1,0 +1,31 @@
+{
+    "paperId": "b725436eb74405f13bda1dc48548f0964eb8834a",
+    "title": "Random Sampling Over Spatial Range Joins",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Daichi Amagata"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00158",
+    "arxivId": "2508.15070",
+    "url": "https://www.semanticscholar.org/paper/b725436eb74405f13bda1dc48548f0964eb8834a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Spatial range joins have many applications, including geographic information systems, location-based social networking services, neuroscience, and visualization. However, joins incur not only expensive computational costs but also too large result sets. A practical and reasonable approach to alleviating these issues is to return random samples of the join results. Although this is promising and sufficient for many applications involving spatial range joins, efficiently computing random samples is not trivial. This is because we must obtain random join samples without running spatial range joins. We address this challenging problem for the first time and aim at designing a time- and space-efficient algorithm. First, we design two baseline algorithms that employ existing techniques for random sampling and show that they are not efficient. Then, we propose a new data structure that can deal with our problem in $\\tilde{O}(n+m+t)$ expected time and $O(n+m)$ space, where $n$ and $m$ are the sizes of two point sets and $t$ is the required number of samples. We conduct extensive experiments using four real spatial datasets, and the results demonstrate that our algorithm is significantly faster than the baselines in most tests.",
+    "citationCount": 1,
+    "referenceCount": 94
+}

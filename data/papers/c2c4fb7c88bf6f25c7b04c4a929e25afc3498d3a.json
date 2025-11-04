@@ -1,0 +1,36 @@
+{
+    "paperId": "c2c4fb7c88bf6f25c7b04c4a929e25afc3498d3a",
+    "title": "Deep Reinforcement Learning for Real-Time Airport Emergency Evacuation Using Asynchronous Advantage Actor–Critic (A3C) Algorithm",
+    "year": 2025,
+    "venue": "Mathematics",
+    "authors": [
+        "Yujing Zhou",
+        "Yupeng Yang",
+        "Bill Deng Pan",
+        "Yongxin Liu",
+        "S. Namilae",
+        "H. Song",
+        "Dahai Liu"
+    ],
+    "doi": "10.3390/math13142269",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c2c4fb7c88bf6f25c7b04c4a929e25afc3498d3a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Emergencies can occur unexpectedly and require immediate action, especially in aviation, where time pressure and uncertainty are high. This study focused on improving emergency evacuation in airport and aircraft scenarios using real-time decision-making support. A system based on the Asynchronous Advantage Actor–Critic (A3C) algorithm, an advanced deep reinforcement learning method, was developed to generate faster and more efficient evacuation routes compared to traditional models. The A3C model was tested in various scenarios, including different environmental conditions and numbers of agents, and its performance was compared with the Deep Q-Network (DQN) algorithm. The results showed that A3C achieved evacuations 43.86% faster on average and converged in fewer episodes (100 vs. 250 for DQN). In dynamic environments with moving threats, A3C also outperformed DQN in maintaining agent safety and adapting routes in real time. As the number of agents increased, A3C maintained high levels of efficiency and robustness. These findings demonstrate A3C’s strong potential to enhance evacuation planning through improved speed, adaptability, and scalability. The study concludes by highlighting the practical benefits of applying such models in real-world emergency response systems, including significantly faster evacuation times, real-time adaptability to evolving threats, and enhanced scalability for managing large crowds in high-density environments including airport terminals. The A3C-based model offers a cost-effective alternative to full-scale evacuation drills by enabling virtual scenario testing, supports proactive safety planning through predictive modeling, and contributes to the development of intelligent decision-support tools that improve coordination and reduce response time during emergencies.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

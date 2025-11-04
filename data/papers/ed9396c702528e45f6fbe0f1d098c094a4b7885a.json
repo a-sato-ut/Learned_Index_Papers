@@ -1,0 +1,35 @@
+{
+    "paperId": "ed9396c702528e45f6fbe0f1d098c094a4b7885a",
+    "title": "Influential Exemplar Replay for Incremental Learning in Recommender Systems",
+    "year": 2024,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Xinni Zhang",
+        "Yankai Chen",
+        "Chenhao Ma",
+        "Yixiang Fang",
+        "Irwin King"
+    ],
+    "doi": "10.1609/aaai.v38i8.28790",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ed9396c702528e45f6fbe0f1d098c094a4b7885a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/28790/29513",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Personalized recommender systems have found widespread applications for effective information filtering. Conventional models engage in knowledge mining within the static setting to reconstruct singular historical data. Nonetheless, the dynamics of real-world environments are in a constant state of flux, rendering acquired model knowledge inadequate for accommodating emergent trends and thus leading to notable recommendation performance decline. Given the typically prohibitive cost of exhaustive model retraining, it has emerged to study incremental learning for recommender systems with ever-growing data. In this paper, we propose an effective model-agnostic framework, namely INFluential Exemplar Replay (INFER). INFER facilitates recommender models in retaining the earlier assimilated knowledge, e.g., users' enduring preferences, while concurrently accommodating evolving trends manifested in users' new interaction behaviors. We commence with a vanilla implementation that centers on identifying the most representative data samples for effective consolidation of early knowledge. Subsequently, we propose an advanced solution, namely INFERONCE, to optimize the computational overhead associated with the vanilla implementation. Extensive experiments on four prototypical backbone models, two classic recommendation tasks, and four widely used benchmarks consistently demonstrate the effectiveness of our method as well as its compatibility for extending to several incremental recommender models.",
+    "citationCount": 14,
+    "referenceCount": 59
+}

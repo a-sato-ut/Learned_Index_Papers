@@ -1,0 +1,32 @@
+{
+    "paperId": "df25c53f94bffefcd8586114d7819a579ffcbb0a",
+    "title": "An Enhanced Hybrid Genetic-JAYA Algorithm for Feature Selection and SVM Parameter Optimization in Intrusion Detection Systems: Evaluation on the CICIDS Dataset",
+    "year": 2025,
+    "venue": "SHIFRA",
+    "authors": [
+        "M. Yaseen",
+        "Ahmed Hussein Ali",
+        "Mohammad Alajanbi"
+    ],
+    "doi": "10.70470/shifra/2025/006",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/df25c53f94bffefcd8586114d7819a579ffcbb0a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The changing scenario in the cybersecurity field requires intelligent and adaptive means of detecting sophisticated intrusions. This paper presents an improved hybrid Genetic-JAYA algorithm for simultaneous feature selection and hyperparameter tuning of an SVM-based IDS. Leveraging the CICIDS2017 dataset, which is well-known for its comprehensive representation of modern attack types, the model interprets the classification as a binary problem, distinguishing normal traffic from malicious activity. The presented hybridization employs the global exploration ability of the Genetic Algorithm (GA) with the parameter-less, convergence-oriented behavior of the JAYA algorithm.\nTo select the subset of features, a custom fitness function is adopted that balances classification accuracy and feature compactness, while the hyperparameters of the SVM using a radial basis function (RBF) kernel are optimized concurrently for improved detection. All results were obtained using stratified 5-fold cross-validation, with metrics averaged over 10 independent runs. The hybrid GA-JAYA-SVM model outperformed GA-SVM and JAYA-SVM, achieving an average accuracy of 98.73% (±0.45), precision of 98.63%, recall of 98.79%, and a reduced false positive rate of 1.15%.\nThe robustness and generalization capability of the model are further supported by AUC and F1-score measurements. Statistical evidence, via the Wilcoxon signed-rank test, validates the observed performance gains (p < 0.05). These results illustrate the capability of the proposed model to enhance IDS performance with minimal computational overhead an essential requirement for real-time deployment. Overall, the findings suggest that hybrid metaheuristic approaches, such as the Genetic-JAYA combination, offer strong potential for improving IDS effectiveness and form a promising foundation for future research into adaptive, intelligent, and layered cybersecurity defenses.",
+    "citationCount": 5,
+    "referenceCount": 20
+}

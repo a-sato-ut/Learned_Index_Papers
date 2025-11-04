@@ -1,0 +1,34 @@
+{
+    "paperId": "71a8182fbb2a706364c93beb2a4074270b6f4328",
+    "title": "Learned Cost Models for Query Optimization: From Batch to Streaming Systems",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Roman Heinrich",
+        "Xiao Li",
+        "Manisha Luthra",
+        "Zoi Kaoudi"
+    ],
+    "doi": "10.14778/3750601.3750699",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/71a8182fbb2a706364c93beb2a4074270b6f4328",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learned cost models (LCMs) have recently gained traction as a promising alternative to traditional cost estimation techniques in data management, offering improved accuracy by capturing complex interactions between queries, data, and runtime behavior. While initially developed for batch systems, LCMs are now increasingly applied to stream processing as well, where real-time demands pose new challenges. This tutorial presents the first unified overview of LCMs across both batch and stream processing systems, examining their role as essential components in modern query optimizers. We explore key aspects of LCM design—including input representations and model architectures—and highlight how these models deal with query optimization tasks.",
+    "citationCount": 1,
+    "referenceCount": 53
+}

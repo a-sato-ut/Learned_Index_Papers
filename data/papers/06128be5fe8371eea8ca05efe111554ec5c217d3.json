@@ -1,0 +1,34 @@
+{
+    "paperId": "06128be5fe8371eea8ca05efe111554ec5c217d3",
+    "title": "Dual generative adversarial networks based on regression and neighbor characteristics",
+    "year": 2024,
+    "venue": "PLoS ONE",
+    "authors": [
+        "Weinan Jia",
+        "Ming Lu",
+        "Qing Shen",
+        "Chun-zhi Tian",
+        "Xuyang Zheng"
+    ],
+    "doi": "10.1371/journal.pone.0291656",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/06128be5fe8371eea8ca05efe111554ec5c217d3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0291656&type=printable",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Imbalanced data is a problem in that the number of samples in different categories or target value ranges varies greatly. Data imbalance imposes excellent challenges to machine learning and pattern recognition. The performance of machine learning models leans to be partially towards the majority of samples in the imbalanced dataset, which will further affect the effect of the model. The imbalanced data problem includes an imbalanced categorical problem and an imbalanced regression problem. Many studies have been developed to address the issue of imbalanced classification data. Nevertheless, the imbalanced regression problem has not been well-researched. In order to solve the problem of unbalanced regression data, we define an RNGRU model that can simultaneously learn the regression characteristics and neighbor characteristics of regression samples. To obtain the most comprehensive sample information of regression samples, the model uses the idea of confrontation to determine the proportion between the regression characteristics and neighbor characteristics of the original samples. According to the regression characteristics of the regression samples, an index ccr (correlation change rate) is proposed to evaluate the similarity between the generated samples and the original samples. And on this basis, an RNGAN model is proposed to reduce the similarity between the generated samples and the original samples by using the idea of confrontation.",
+    "citationCount": 1,
+    "referenceCount": 38
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "4f9642570c039f0bc188baf9ce0ffcba6bd060fc",
+    "title": "Privacy-Preserving Range Aggregation Queries Using a Learning-Based Approach",
+    "year": 2025,
+    "venue": "2025 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)",
+    "authors": [
+        "Hong Guan",
+        "Jia Zou"
+    ],
+    "doi": "10.1109/PerComWorkshops65533.2025.00102",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4f9642570c039f0bc188baf9ce0ffcba6bd060fc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "It is important to balance the privacy and accuracy of range aggregation queries, which are widely used in spatial-temporal data analysis, multidimensional sensor data analysis, demographic analysis, etc., on top of private data. Existing work focuses on adding noise to the query outputs or creating noisy data synopsis to answer range aggregation queries. The state-of-the-art approach adaptively partitions the data space into multiple bins, with the assumption that the data distribution in each bin is uniform, and they pre-compute the noisy counts in each bin to form a data synopsis to answer range count queries. However, it is observed that many real-world workloads have highly skewed data distributions, where the uniformity assumption within each bin leads to suboptimal accuracy. This mismatch arises because the adaptive partitioning may fail to capture the inherent data characteristics, resulting in either excessive noise addition or significant errors in the query results. To address this limitation, we propose a novel learning-based approach, which uses a deep learning model to learn a noisy probability density function and a noisy cumulative distribution function for computing various privacy-preserving range aggregation queries. We evaluated our approach using aggregation queries over sensor data collected at combined cycle power plants, and over energy and indoor air quality data collected at smart buildings, which showed promising results compared to baseline approaches.",
+    "citationCount": 0,
+    "referenceCount": 19
+}

@@ -1,0 +1,46 @@
+{
+    "paperId": "c58b6322a4cc71ee4f881bcbce877b5f62b12ee4",
+    "title": "Apache IoTDB: A Time Series Database for Large Scale IoT Applications",
+    "year": 2025,
+    "venue": "ACM Transactions on Database Systems",
+    "authors": [
+        "Chen Wang",
+        "Jialin Qiao",
+        "Xiangdong Huang",
+        "Shaoxu Song",
+        "Haonan Hou",
+        "Tian Jiang",
+        "Lei Rui",
+        "Jianmin Wang",
+        "Jiaguang Sun"
+    ],
+    "doi": "10.1145/3726523",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c58b6322a4cc71ee4f881bcbce877b5f62b12ee4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A typical industrial scenario encounters thousands of devices with millions of sensors, consistently generating billions of data points. It poses new requirements of time series data management, not well addressed in existing solutions, including (1) device-defined ever-evolving schema, (2) mostly periodical data collection, (3) strongly correlated series, (4) variously delayed data arrival, and (5) highly concurrent data ingestion. In this paper, we present a time series database management system, Apache IoTDB. It consists of (i) a time series native file format, TsFile, with specially designed data encoding, and (ii) an IoTDB engine for efficiently handling delayed data arrivals and processing queries. We introduce a native distributed solution with distributed queries optimized by parallel operators. We also explore efficient TsFile synchronization mechanisms, ensuring seamless data integration without the need for ETL processes. The system achieves a throughput of 10 million inserted values per second. Queries such as 1-day data selection of 0.1 million points and 3-year data aggregation over 10 million points can be processed in 100 ms. Comparisons with InfluxDB, TimescaleDB, KairosDB, Parquet and ORC over real world data loads demonstrate the superiority of IoTDB and TsFile.",
+    "citationCount": 3,
+    "referenceCount": 60
+}

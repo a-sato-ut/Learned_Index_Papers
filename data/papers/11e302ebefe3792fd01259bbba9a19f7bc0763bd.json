@@ -1,0 +1,28 @@
+{
+    "paperId": "11e302ebefe3792fd01259bbba9a19f7bc0763bd",
+    "title": "Deep Learning Methods of Artificial Intelligence in Image Semantic Analysis",
+    "year": 2025,
+    "venue": "2025 International Symposium on Intelligent Robotics and Systems (ISoIRS)",
+    "authors": [
+        "Pengqin Zhang"
+    ],
+    "doi": "10.1109/ISoIRS65690.2025.11168016",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/11e302ebefe3792fd01259bbba9a19f7bc0763bd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Image semantic analysis is a core task of computer vision, which aims to reveal the deep semantics of images through pixel-level semantic annotation. Traditional deep learning methods rely on single-scale convolution, which makes it difficult to take into account both the global semantics of large objects and the details of small objects, and lack the ability to model long-distance contexts (such as the semantic association of occluded objects). This paper proposes a multiscale convolutional recurrent neural network (MSCRN), which extracts hierarchical features in parallel through $7 \\times 7$ global convolution kernels and $3 \\times 3$ local convolution kernels, and embeds bidirectional LSTM recursively to model spatial sequence dependencies. This paper tests the performance of MSCRN in image semantic analysis experiments on datasets such as CIFAR-10, PASCAL VOC, and COCO2017. Experiments show that the classification accuracy of MSCRN is 4.8 % higher than that of the single-scale network, and the fusion of multi-scale features improves the retention rate of local details accordingly (such as the sharpness of bird feather boundaries is increased by 23%). The LSTM integration strategy effectively captures the long-distance dependency between pixels (such as the segmentation accuracy of occluded bicycles is increased by 16.8 %, and the mIoU of overlapping tables and chairs is increased from 58.7 % to 79.2 %). This paper provides a theoretical framework for image semantic analysis in complex scenes.",
+    "citationCount": 0,
+    "referenceCount": 15
+}

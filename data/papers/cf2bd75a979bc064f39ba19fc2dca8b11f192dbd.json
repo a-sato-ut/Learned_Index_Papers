@@ -1,0 +1,37 @@
+{
+    "paperId": "cf2bd75a979bc064f39ba19fc2dca8b11f192dbd",
+    "title": "Reinforced IR: A Self-Boosting Framework For Domain-Adapted Information Retrieval",
+    "year": 2025,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+        "Chaofan Li",
+        "Jianlyu Chen",
+        "Yingxia Shao",
+        "Chaozhuo Li",
+        "Quanqing Xu",
+        "Defu Lian",
+        "Zheng Liu"
+    ],
+    "doi": "10.18653/v1/2025.acl-long.1071",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cf2bd75a979bc064f39ba19fc2dca8b11f192dbd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "While retrieval techniques are widely used in practice, they still face significant challenges in cross-domain scenarios. Recently, generation-augmented methods have emerged as a promising solution to this problem. These methods enhance raw queries by incorporating additional information from an LLM-based generator, facilitating more direct retrieval of relevant documents. However, existing methods struggle with highly specialized situations that require extensive domain expertise. To address this problem, we present Reinforced-IR , a novel approach that jointly adapts a pre-trained re-triever and generator for precise cross-domain retrieval. A key innovation of Reinforced-IR is its Self-Boosting framework, which enables re-triever and generator to learn from each other’s feedback. Specifically, the generator is reinforced to generate query augmentations that enhance the retriever’s performance, while the retriever is trained to better discriminate the relevant documents identified by the generator. This iterative process allows the end-to-end retrieval performance to be progressively optimized using an unlabeled corpus from the target domain. In our experiment, Reinforced-IR outperforms existing domain adaptation meth-ods by a large margin, leading to substantial improvements in retrieval quality across a wide range of application scenarios. We have publicly released our code at this repo",
+    "citationCount": 1,
+    "referenceCount": 39
+}

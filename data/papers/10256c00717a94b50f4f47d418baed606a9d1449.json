@@ -1,0 +1,37 @@
+{
+    "paperId": "10256c00717a94b50f4f47d418baed606a9d1449",
+    "title": "Generative Next POI Recommendation with Semantic ID",
+    "year": 2025,
+    "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "authors": [
+        "Dongsheng Wang",
+        "Yuxi Huang",
+        "Shen Gao",
+        "Yifan Wang",
+        "Chengrui Huang",
+        "Shuo Shang"
+    ],
+    "doi": "10.1145/3711896.3736981",
+    "arxivId": "2506.01375",
+    "url": "https://www.semanticscholar.org/paper/10256c00717a94b50f4f47d418baed606a9d1449",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Point-of-interest (POI) recommendation systems aim to predict the next destinations of user based on their preferences and historical check-ins. Existing generative POI recommendation methods usually employ random numeric IDs for POIs, limiting the ability to model semantic relationships between similar locations. In this paper, we propose Generative Next POI Recommendation with Semantic ID (GNPR-SID), an LLM-based POI recommendation model with a novel semantic POI ID (SID) representation method that enhances the semantic understanding of POI modeling. There are two key components in our GNPR-SID: (1) a Semantic ID Construction module that generates semantically rich POI IDs based on semantic and collaborative features, and (2) a Generative POI Recommendation module that fine-tunes LLMs to predict the next POI using these semantic IDs. By incorporating user interaction patterns and POI semantic features into the semantic ID generation, our method improves the recommendation accuracy and generalization of the model. To construct semantically related SIDs, we propose a POI quantization method based on residual quantized variational autoencoder, which maps POIs into a discrete semantic space. We also propose a diversity loss to ensure that SIDs are uniformly distributed across the semantic space. Extensive experiments on three benchmark datasets demonstrate that GNPR-SID substantially outperforms state-of-the-art methods, achieving up to 16% improvement in recommendation accuracy.",
+    "citationCount": 4,
+    "referenceCount": 46
+}

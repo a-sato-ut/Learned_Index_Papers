@@ -1,0 +1,33 @@
+{
+    "paperId": "9ebe2c55e274074db53a5ee650e11969c83a5f8f",
+    "title": "Enhancing Patient Outcome Predictions Through Differential Privacy with Optimized RNN Model Applied to Electronic Health Record",
+    "year": 2024,
+    "venue": "Journal of Electrical Systems",
+    "authors": [
+        "Ritunsa Mishra",
+        "Rabinarayan Satpathy",
+        "Bibudhendu Pati",
+        "Rudra Prasanna Mishra"
+    ],
+    "doi": "10.52783/jes.4861",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9ebe2c55e274074db53a5ee650e11969c83a5f8f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study introduces a novel method for predicting patient admission and discharge events using Electronic Health Records (EHR) while prioritizing the protection of personal privacy. Our approach utilizes a Simple Recurrent Neural Network (RNN) model enhanced with a Differential Privacy mechanism to strike a balance between high-accuracy outcome predictions and the confidentiality of patient data. At the core of our methodology is the application of a Simple RNN to EHR data, which facilitates the prediction of whether a patient will be admitted to or discharged from a healthcare facility. To strengthen data confidentiality, we integrate Differential Privacy by injecting controlled noise into the dataset, ensuring that our model’s predictions preserve the privacy of individual patient records. \nWe conducted experiments using six different classifiers to implement our privacy-preserving prediction strategy. Among these, the Random Forest classifier emerged as the most accurate, proving the effectiveness of our method in providing reliable predictions without compromising privacy. In contrast, the XG Boost classifier showed the least precision, indicating some limitations in its ability to balance privacy with predictive accuracy. This research significantly advances the field of healthcare informatics by presenting a sophisticated solution that combines cutting-edge predictive models with stringent privacy safeguards. Our findings highlight the critical need to maintain a delicate balance between achieving precise clinical predictions and upholding the moral responsibility to protect patient privacy in the modern landscape of digital health records.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

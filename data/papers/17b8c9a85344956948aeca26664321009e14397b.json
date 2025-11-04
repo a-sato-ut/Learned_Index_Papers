@@ -1,0 +1,34 @@
+{
+    "paperId": "17b8c9a85344956948aeca26664321009e14397b",
+    "title": "A Generative Approach for Wikipedia-Scale Visual Entity Recognition",
+    "year": 2024,
+    "venue": "Computer Vision and Pattern Recognition",
+    "authors": [
+        "Mathilde Caron",
+        "Ahmet Iscen",
+        "Alireza Fathi",
+        "Cordelia Schmid"
+    ],
+    "doi": "10.1109/CVPR52733.2024.01639",
+    "arxivId": "2403.02041",
+    "url": "https://www.semanticscholar.org/paper/17b8c9a85344956948aeca26664321009e14397b",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2403.02041",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we address web-scale visual entity recognition, specifically the task of mapping a given query image to one of the 6 million existing entities in Wikipedia. One way of approaching a problem of such scale is using dual-encoder models (e.g. CLIP), where all the entity names and query images are embedded into a unified space, paving the way for an approximate kNN search. Alternatively, it is also possible to re-purpose a captioning model to directly generate the entity names for a given image. In contrast, we introduce a novel Generative Entity Recognition (GER)framework, which given an input image learns to auto-regressively decode a semantic and discriminative “code” identifying the target entity. Our experiments demonstrate the efficacy of this GER paradigm, showcasing state-of-the-art performance on the challenging OVEN benchmark. GER surpasses strong captioning, dual-encoder, visual matching and hier-archical classification baselines, affirming its advantage in tackling the complexities of web-scale recognition.",
+    "citationCount": 7,
+    "referenceCount": 49
+}

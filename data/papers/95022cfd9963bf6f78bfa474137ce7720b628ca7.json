@@ -1,0 +1,32 @@
+{
+    "paperId": "95022cfd9963bf6f78bfa474137ce7720b628ca7",
+    "title": "Mallet: SQL Dialect Translation with LLM Rule Generation",
+    "year": 2024,
+    "venue": "aiDM@SIGMOD",
+    "authors": [
+        "Amadou Latyr Ngom",
+        "Tim Kraska"
+    ],
+    "doi": "10.1145/3663742.3663973",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/95022cfd9963bf6f78bfa474137ce7720b628ca7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Translating between the SQL dialects of different systems is important for migration and federated query processing. Existing approaches rely on hand-crafted translation rules, which tend to be incomplete and hard to maintain, especially as the number of dialects to translate increases. Thus, dialect translation remains a largely unsolved problem. To address this issue, we introduce Mallet, a system that leverages Large Language Models (LLMs) to automate the generation of SQL-to-SQL translation rules, namely schema conversion, automated UDF generation, extension selection, and expression composition. Once the rules are generated, they are infinitely reusable on new workloads without putting the LLM on the critical path of query execution. Mallet enhances the accuracy of the LLMs by (1) performing retrieval augmented generation (RAG) over system documentation and human expertise, (2) subjecting the rules to empirical validation using the actual SQL systems to detect hallucinations, and (3) automatically creating accurate few-shot learning instances. Contributors, without knowing the system's code, can improve Mallet by providing natural-language expertise for RAG.",
+    "citationCount": 6,
+    "referenceCount": 11
+}

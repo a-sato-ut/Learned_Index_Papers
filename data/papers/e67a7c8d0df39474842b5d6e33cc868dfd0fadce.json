@@ -1,0 +1,30 @@
+{
+    "paperId": "e67a7c8d0df39474842b5d6e33cc868dfd0fadce",
+    "title": "Dynamic Query Handling with RAG Fusion for PDF-Based Knowledge Retrieval Systems",
+    "year": 2025,
+    "venue": "2025 4th OPJU International Technology Conference (OTCON) on Smart Computing for Innovation and Advancement in Industry 5.0",
+    "authors": [
+        "Aakash Sonkar",
+        "Sumeet Pratap Singh",
+        "Komendra Sahu",
+        "Aayush Sahu",
+        "Sachin Mishra"
+    ],
+    "doi": "10.1109/OTCON65728.2025.11070378",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e67a7c8d0df39474842b5d6e33cc868dfd0fadce",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study explores advancements in Retrieval-Augmented Generation (RAG) systems tailored for PDF-based question answering. By leveraging domain-specific PDFs as input data, the proposed framework incorporates advanced retrieval techniques, including multi-query generation and RAG fusion, to enhance generated responses' relevance and contextual accuracy. Utilizing LangChain to orchestrate interactions between the language model and vector database (Chroma DB), the system effectively processes, embeds, and retrieves information from large-scale PDF collections. Chroma DB ensures efficient storage and similarity searches for vectorized document embeddings. The integration of advanced retrieval strategies, coupled with the dynamic query-handling capabilities of LangChain, significantly improves precision, reduces hallucinations, and enriches response quality for knowledge-intensive tasks. Preliminary results demonstrate the effectiveness of this approach in delivering timely and contextually accurate answers, showcasing its potential in addressing the challenges of traditional LLMs.",
+    "citationCount": 0,
+    "referenceCount": 28
+}

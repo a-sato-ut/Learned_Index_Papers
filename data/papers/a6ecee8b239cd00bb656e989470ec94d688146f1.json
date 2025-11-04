@@ -1,0 +1,35 @@
+{
+    "paperId": "a6ecee8b239cd00bb656e989470ec94d688146f1",
+    "title": "Machine Learning Models for Network Intrusion Detection Based on ResNet-GAN Model",
+    "year": 2024,
+    "venue": "2024 IEEE 9th International Conference on Engineering Technologies and Applied Sciences (ICETAS)",
+    "authors": [
+        "Guhan K",
+        "G. L. Karthik",
+        "D. G. Devi",
+        "S. S",
+        "Subhalaxmi Chakraborty",
+        "P. V. Prasanth"
+    ],
+    "doi": "10.1109/ICETAS62372.2024.11120219",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a6ecee8b239cd00bb656e989470ec94d688146f1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The necessity for improved intrusion detection systems (IDS) that can recognize and stop both known and unknown assaults has been brought to light by the rise in frequency and sophistication of cyberattacks. Conventional intrusion detection systems, such those based on signatures and anomalies, can have large false positive rates and little effectiveness against new threats. To overcome these challenges, this research introduces a novel IDS framework that integrates Residual Networks (ResNet) with Generative Adversarial Networks (GANs), referred to as ResNet-GAN. The ResNet component excels in deep feature extraction, capturing intricate patterns within network traffic data, while the GANs are utilized for data augmentation, creating synthetic samples that improve the model's ability to detect rare and zero-day attacks. The proposed ResNet-GAN model was rigorously evaluated using benchmark datasets, including NSL-KDD and CICIDS2017. Results indicate that the model not only enhances detection accuracy but also significantly reduces false positive rates compared to traditional IDS approaches. Specifically, the ResNet-GAN framework demonstrated superior performance in identifying complex attack patterns and maintaining robust detection capabilities in dynamic network environments. This study's findings suggest that the ResNet-GAN model offers a promising solution for real-time intrusion detection, addressing key limitations of existing IDS technologies. Future research explore further optimization of the model's computational efficiency and its application in large-scale, real-world network settings.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

@@ -1,0 +1,40 @@
+{
+    "paperId": "feda25c3c17b8bcc0f339c35a82fbe61a31df61d",
+    "title": "Scaling Permissioned Blockchain through LSM Disaggregation across Execution and Storage Nodes",
+    "year": 2024,
+    "venue": "International Conference on Parallel and Distributed Systems",
+    "authors": [
+        "Jiazhou Tian",
+        "Guangpeng Qi",
+        "Guangyong Shang",
+        "Zhen Ma",
+        "Yaxiong Liu",
+        "Meng Zhang",
+        "Jingying Li",
+        "Delun Wu",
+        "Yi Yang",
+        "Xuan Ding"
+    ],
+    "doi": "10.1109/ICPADS63350.2024.00090",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/feda25c3c17b8bcc0f339c35a82fbe61a31df61d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Permissioned blockchains are gaining traction for enterprise applications due to their enhanced security and performance characteristics. However, they face significant scalability challenges, particularly in environments with high concurrency and diverse workload demands. In this paper, we present a novel architecture for scaling permissioned blockchains by disaggregating Log-Structured Merge (LSM) trees between execution and storage nodes. Our approach leverages the inherent structure of LSM-trees to efficiently handle write-intensive workloads by separating recent updates in execution nodes and long-term data storage in storage nodes. This design supports elastic scaling of both compute and memory resources, enabling independent and efficient resource utilization. We introduce the concept of Semi-stateful Nodes, which balance the benefits of fully-stateful and stateless nodes. This approach reduces communication overhead during parallel transaction execution while simultaneously improving scalability. Our architecture also includes a parallel transaction execution algorithm to minimize Cross-Shard Transactions (CSTs) and enhance overall system performance. Through our experimentation, we demonstrate that our system achieves significant performance improvements, including up to $15 \\times$ increase in throughput compared to traditional architectures. The results indicate that our approach significantly reduces the overhead and time consumption during scalability operations in permissioned blockchains, making it a system that can achieve high scalability and good performance at a low cost.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "8a4a48807f4259d247459008b5e80f493cb59f3d",
+    "title": "A Novel Real-Time Adaptive Learning Network Using Dynamic Feedback Mechanisms for Enhanced Performance in Time-Sensitive Applications",
+    "year": 2025,
+    "venue": "2025 1st International Conference on Radio Frequency Communication and Networks (RFCoN)",
+    "authors": [
+        "Mohammed Ayesha Shahanaz",
+        "S. N. Bhavanam",
+        "Vasujadevi Midasala"
+    ],
+    "doi": "10.1109/RFCoN62306.2025.11085388",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8a4a48807f4259d247459008b5e80f493cb59f3d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A novel Real-Time Adaptive Learning Network (RTALN) using deep learning architecture is developed in this paper to enhance performance through continuous real-time feedback mechanisms. The RTALN integrates convolutional (Conv1D) and recurrent neural network (LSTM) layers with self-attention mechanisms and a reinforcement learning agent (Deep Deterministic Policy Gradient) to process and adapt to streaming data efficiently. Evaluated on the MIMIC-III Waveform Database for real-time physiological monitoring, RTALN achieved an accuracy of 99.12%, precision of 99.06%, recall of 99.4%, and F1 score of 99.1%. For anomaly detection using the HDFS Log Dataset, it achieved a precision of 99.5% and recall of 99.3%. The feedback loop operates with a latency of less than 100 milliseconds, ensuring near-instantaneous adaptation. Additionally, an intuitive dashboard, developed using Grafana, visualizes key performance indicators and adaptive changes in real-time. The RTALN sets a new benchmark in adaptive learning, particularly for time-sensitive applications such as healthcare monitoring, where immediate and accurate responses are crucial.",
+    "citationCount": 0,
+    "referenceCount": 15
+}

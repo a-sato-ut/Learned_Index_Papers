@@ -1,0 +1,44 @@
+{
+    "paperId": "eebff8c8078feba4fa80d2c9e9570c9e9a9d8092",
+    "title": "SchNet_IIA: Potential Energy Surface Fitting by Interatomic Interactions Attention Based on Transfer Learning Analysis",
+    "year": 2024,
+    "venue": "Journal of Chemical Information and Modeling",
+    "authors": [
+        "Kai-Le Jiang",
+        "Huai-Qian Wang",
+        "Hui-Fang Li",
+        "Shu-Wan Pan",
+        "Hao Zheng",
+        "Yong-Hang Zhang",
+        "Jiamei Zhang"
+    ],
+    "doi": "10.1021/acs.jcim.4c01473",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/eebff8c8078feba4fa80d2c9e9570c9e9a9d8092",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning methods for fitting potential energy surfaces and molecular dynamics simulations are becoming increasingly popular due to their potentially high accuracy and savings in computational resources. However, existing application models often rely on basic architectures like artificial neural networks (ANNs) and multilayer perceptron (MLP), lagging behind cutting-edge technologies in the machine learning domain. Furthermore, the complexity of current machine learning frameworks leads to reduced interpretability and challenges for improvement. Herein, we developed a model analysis method based on the feature-representation-transfer approach to directly perform causal analysis on the model. The internal action characteristics of the SchNet framework were successfully analyzed by constructing different source tasks and we proposed interatomic interactions attention for the characterization of doped clusters. The accuracy was enhanced by 0.015 eV/atom compared to the original model. The ability to capture atomic environment characteristics was significantly improved. The activation function was smoothed resulting in a 23.47% increase in the convergence speed. Our SchNet_IIA model demonstrates superior performance in capturing interatomic interactions. Our present work is of distinctive value as it presents a novel transfer learning analysis method with the potential to evolve into a generalized model analysis approach, providing new perspectives and solutions for the field.",
+    "citationCount": 0,
+    "referenceCount": 43
+}

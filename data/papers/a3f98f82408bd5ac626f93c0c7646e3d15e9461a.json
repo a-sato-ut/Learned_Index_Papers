@@ -1,0 +1,33 @@
+{
+    "paperId": "a3f98f82408bd5ac626f93c0c7646e3d15e9461a",
+    "title": "LLM4Hint: Leveraging Large Language Models for Hint Recommendation in Offline Query Optimization",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Suchen Liu",
+        "Jun Gao",
+        "Yinjun Han",
+        "Yang Lin"
+    ],
+    "doi": "10.48550/arXiv.2507.03384",
+    "arxivId": "2507.03384",
+    "url": "https://www.semanticscholar.org/paper/a3f98f82408bd5ac626f93c0c7646e3d15e9461a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query optimization is essential for efficient SQL query execution in DBMS, and remains attractive over time due to the growth of data volumes and advances in hardware. Existing traditional optimizers struggle with the cumbersome hand-tuning required for complex workloads, and the learning-based methods face limitations in ensuring generalization. With the great success of Large Language Model (LLM) across diverse downstream tasks, this paper explores how LLMs can be incorporated to enhance the generalization of learned optimizers. Though promising, such an incorporation still presents challenges, mainly including high model inference latency, and the substantial fine-tuning cost and suboptimal performance due to inherent discrepancy between the token sequences in LLM and structured SQL execution plans with rich numerical features. In this paper, we focus on recurring queries in offline optimization to alleviate the issue of high inference latency, and propose \\textbf{LLM4Hint} that leverages moderate-sized backbone LLMs to recommend query optimization hints. LLM4Hint achieves the goals through: (i) integrating a lightweight model to produce a soft prompt, which captures the data distribution in DBMS and the SQL predicates to provide sufficient optimization features while simultaneously reducing the context length fed to the LLM, (ii) devising a query rewriting strategy using a larger commercial LLM, so as to simplify SQL semantics for the backbone LLM and reduce fine-tuning costs, and (iii) introducing an explicit matching prompt to facilitate alignment between the LLM and the lightweight model, which can accelerate convergence of the combined model. Experiments show that LLM4Hint, by leveraging the LLM's stronger capability to understand the query statement, can outperform the state-of-the-art learned optimizers in terms of both effectiveness and generalization.",
+    "citationCount": 0,
+    "referenceCount": 56
+}

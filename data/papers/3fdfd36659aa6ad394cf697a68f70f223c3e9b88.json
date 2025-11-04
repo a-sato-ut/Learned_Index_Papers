@@ -1,0 +1,32 @@
+{
+    "paperId": "3fdfd36659aa6ad394cf697a68f70f223c3e9b88",
+    "title": "EDCIN: enhanced dual-channel interaction network for multi-label text classification",
+    "year": 2025,
+    "venue": "International Journal of Web Information Systems",
+    "authors": [
+        "Xiaoyun Liu",
+        "Kun Ma",
+        "Weijuan Zhang",
+        "Yanfang Qiu",
+        "Zhenxiang Chen",
+        "Ke Ji",
+        "Bo Yang"
+    ],
+    "doi": "10.1108/ijwis-01-2025-0019",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3fdfd36659aa6ad394cf697a68f70f223c3e9b88",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\nPurpose\nMulti-label text classification (MLTC) aims to assign relevant labels to each document. Existing approaches primarily focus on semantic attributes manually extracted from a single data source, often neglecting the contextual subtleties of low-frequency tokens. Furthermore, each label carries its own unique semantic meaning, yet traditional models typically fail to capture the fine-grained relationships between labels and their intrinsic semantic information. The purpose of this study is to address these issues by proposing an enhanced dual-channel interaction network (EDCIN) to deeply explore the dependencies between text and labels.\n\n\nDesign/methodology/approach\nThis approach is composed of three main components: smooth-guided data augmentation, dual-channel feature interaction and the classifier. Specifically, the smooth-guided data augmentation is designed to evaluate the relative importance of each word, enabling the adjustment of text feature distributions. The dual-channel feature interaction focuses on learning the complex relationships between the textual content and its associated labels.\n\n\nFindings\nThe EDCIN model demonstrates strong performance on both the AAPD and RCV1 data sets. On the AAPD data set, the values of P@n and nDCG@n are 86.84%, 62.71%, 42.04%, 83.05% and 86.07%, respectively. On the RCV1 data set, P@n and nDCG@n achieve 97.41%, 84.75%, 59.02%, 95.30% and 95.61%, respectively. These results highlight its effectiveness on MLTC tasks.\n\n\nOriginality/value\nThe smooth-guided data augmentation adjusts the distribution of text features and captures the complete semantic context. The dual-channel feature interaction thoroughly analyzes the intrinsic semantic information of labels by learning the complex feature relationships between the textual content and associated labels.\n",
+    "citationCount": 0,
+    "referenceCount": 54
+}

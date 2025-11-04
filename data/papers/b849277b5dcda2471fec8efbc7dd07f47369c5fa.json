@@ -1,0 +1,35 @@
+{
+    "paperId": "b849277b5dcda2471fec8efbc7dd07f47369c5fa",
+    "title": "Exact Verification of First-Order Methods via Mixed-Integer Linear Programming",
+    "year": 2024,
+    "venue": "",
+    "authors": [
+        "Vinit Ranjan",
+        "Stefano Gualandi",
+        "Andrea Lodi",
+        "Bartolomeo Stellato"
+    ],
+    "doi": null,
+    "arxivId": "2412.11330",
+    "url": "https://www.semanticscholar.org/paper/b849277b5dcda2471fec8efbc7dd07f47369c5fa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present exact mixed-integer linear programming formulations for verifying the performance of first-order methods for parametric quadratic optimization. We formulate the verification problem as a mixed-integer linear program where the objective is to maximize the infinity norm of the fixed-point residual after a given number of iterations. Our approach captures a wide range of gradient, projection, proximal iterations through affine or piecewise affine constraints. We derive tight polyhedral convex hull formulations of the constraints representing the algorithm iterations. To improve the scalability, we develop a custom bound tightening technique combining interval propagation, operator theory, and optimization-based bound tightening. Numerical examples, including linear and quadratic programs from network optimization, sparse coding using Lasso, and optimal control, show that our method provides several orders of magnitude reductions in the worst-case fixed-point residuals, closely matching the true worst-case performance.",
+    "citationCount": 0,
+    "referenceCount": 79
+}

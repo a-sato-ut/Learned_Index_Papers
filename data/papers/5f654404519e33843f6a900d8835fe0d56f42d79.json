@@ -1,0 +1,34 @@
+{
+    "paperId": "5f654404519e33843f6a900d8835fe0d56f42d79",
+    "title": "An Experimental Comparison of Partitioning Strategies for Distributed Graph Neural Network Training",
+    "year": 2023,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "Nikolai Merkel",
+        "Daniel Stoll",
+        "R. Mayer",
+        "H. Jacobsen"
+    ],
+    "doi": "10.48786/edbt.2025.14",
+    "arxivId": "2308.15602",
+    "url": "https://www.semanticscholar.org/paper/5f654404519e33843f6a900d8835fe0d56f42d79",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, graph neural networks (GNNs) have gained much attention as a growing area of deep learning capable of learning on graph-structured data. However, the computational and memory requirements for training GNNs on large-scale graphs make it necessary to distribute the training. A prerequisite for distributed GNN training is to partition the input graph into smaller parts that are distributed among multiple machines of a compute cluster. Although graph partitioning has been studied with regard to graph analytics and graph databases, its effect on GNN training performance is largely unexplored. As a consequence, it is unclear whether investing computational efforts into high-quality graph partitioning would pay off in GNN training scenarios. In this paper, we study the effectiveness of graph partitioning for distributed GNN training. Our study aims to understand how different factors such as GNN parameters, mini-batch size, graph type, features size, and scale-out factor influence the effectiveness of graph partitioning. We conduct experiments with two different GNN systems using vertex and edge partitioning. We found that high-quality graph partitioning is a very effective optimization to speed up GNN training and to reduce memory consumption. Furthermore, our results show that invested partitioning time can quickly be amortized by reduced GNN training time, making it a relevant optimization for most GNN scenarios. Compared to research on distributed graph processing, our study reveals that graph partitioning plays an even more significant role in distributed GNN training, which motivates further research on the graph partitioning problem.",
+    "citationCount": 2,
+    "referenceCount": 62
+}

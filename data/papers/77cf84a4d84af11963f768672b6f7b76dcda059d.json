@@ -1,0 +1,38 @@
+{
+    "paperId": "77cf84a4d84af11963f768672b6f7b76dcda059d",
+    "title": "An explainable deep learning model for diabetic foot ulcer classification using swin transformer and efficient multi-scale attention-driven network",
+    "year": 2025,
+    "venue": "Scientific Reports",
+    "authors": [
+        "R. Karthik",
+        "Armaano Ajay",
+        "Anshika Jhalani",
+        "Kruthik Ballari",
+        "Suganthi K"
+    ],
+    "doi": "10.1038/s41598-025-87519-1",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/77cf84a4d84af11963f768672b6f7b76dcda059d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1038/s41598-025-87519-1",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Diabetic Foot Ulcer (DFU) is a severe complication of diabetes mellitus, resulting in significant health and socio-economic challenges for the diagnosed individual. Severe cases of DFU can lead to lower limb amputation in diabetic patients, making their diagnosis a complex and costly process that poses challenges for medical professionals. Manual identification of DFU is particularly difficult due to their diverse visual characteristics, leading to multiple cases going undiagnosed. To address this challenge, Deep Learning (DL) methods offer an efficient and automated approach to facilitate timely treatment and improve patient outcomes. This research proposes a novel feature fusion-based model that incorporates two parallel tracks for efficient feature extraction. The first track utilizes the Swin transformer, which captures long-range dependencies by employing shifted windows and self-attention mechanisms. The second track involves the Efficient Multi-Scale Attention-Driven Network (EMADN), which leverages Light-weight Multi-scale Deformable Shuffle (LMDS) and Global Dilated Attention (GDA) blocks to extract local features efficiently. These blocks dynamically adjust kernel sizes and leverage attention modules, enabling effective feature extraction. To the best of our knowledge, this is the first work reporting the findings of a dual track architecture for DFU classification, leveraging Swin transformer and EMADN networks. The obtained feature maps from both the networks are concatenated and subjected to shuffle attention for feature refinement at a reduced computational cost. The proposed work also incorporates Grad-CAM-based Explainable Artificial Intelligence (XAI) to visualize and interpret the decision making of the network. The proposed model demonstrated better performance on the DFUC-2021 dataset, surpassing existing works and pre-trained CNN architectures with an accuracy of 78.79% and a macro F1-score of 80%.",
+    "citationCount": 4,
+    "referenceCount": 31
+}

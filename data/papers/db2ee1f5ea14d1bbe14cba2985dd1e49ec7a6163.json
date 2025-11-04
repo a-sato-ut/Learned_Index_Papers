@@ -1,0 +1,35 @@
+{
+    "paperId": "db2ee1f5ea14d1bbe14cba2985dd1e49ec7a6163",
+    "title": "PipeFilter: Parallelizable and Space-Efficient Filter for Approximate Membership Query",
+    "year": 2025,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Shankui Ji",
+        "Yangyan Du",
+        "He Huang",
+        "Yu-E. Sun",
+        "Jia Liu",
+        "Yapeng Shu"
+    ],
+    "doi": "10.1109/TKDE.2025.3543881",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/db2ee1f5ea14d1bbe14cba2985dd1e49ec7a6163",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate membership query data structures (i.e., filters) have ubiquitous applications in database and data mining. Cuckoo filters are emerging as the alternative to Bloom filters because they support deletions and usually have higher operation throughput and space efficiency. However, their designs are confined to a single-threaded execution paradigm and consequently cannot fully exploit the parallel processing capabilities of modern hardware. This paper presents PipeFilter, a faster and more space-efficient filter that harnesses pipeline parallelism for superior performance. PipeFilter re-architects the Cuckoo filter by partitioning its data structure into several sub-filters, each providing a candidate position for every item. This allows the filter operations, including insertion, lookup, and deletion, to be naturally distributed across several pipeline stages, each overseeing one of the sub-filters, which can further be implemented through multi-threaded execution or pipeline stages of programmable hardware to achieve significantly higher throughput. Meanwhile, PipeFilter excels for single-threaded execution thanks to a combination of unique design features, including <italic>block design</italic>, <italic>path prophet</italic>, <italic>round robin</italic>, and <italic>SIMD optimization</italic>, such that it achieves superior performance than the SOTAs even when running with a single core. PipeFilter also has a competitive advantage in space utilization because it permits each item to explore more candidate positions. We implement and optimize PipeFilter on four platforms (single-core CPU, multi-core CPU, FPGA, and P4 ASIC). Experimental results demonstrate that PipeFilter surpasses all baseline methods on four platforms. When running with a single core, it showcases a notable 15%<inline-formula><tex-math notation=\"LaTeX\">$\\sim$</tex-math><alternatives><mml:math><mml:mo>∼</mml:mo></mml:math><inline-graphic xlink:href=\"du-ieq1-3543881.gif\"/></alternatives></inline-formula>57% improvement in operation throughput and a high load factor exceeding 99%. When parallel processing on other platforms, PipeFilter achieves 7<inline-formula><tex-math notation=\"LaTeX\">$\\times \\sim 800\\times$</tex-math><alternatives><mml:math><mml:mrow><mml:mo>×</mml:mo><mml:mo>∼</mml:mo><mml:mn>800</mml:mn><mml:mo>×</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href=\"du-ieq2-3543881.gif\"/></alternatives></inline-formula> higher throughput than single-threaded execution.",
+    "citationCount": 0,
+    "referenceCount": 47
+}
