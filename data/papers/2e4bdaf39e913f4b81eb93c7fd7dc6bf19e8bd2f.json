@@ -1,0 +1,33 @@
+{
+    "paperId": "2e4bdaf39e913f4b81eb93c7fd7dc6bf19e8bd2f",
+    "title": "Evaluating the Feasibility of Sampling-Based Techniques for Training Multilayer Perceptrons",
+    "year": 2023,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "Sana Ebrahimi",
+        "Rishi Advani",
+        "Abolfazl Asudeh"
+    ],
+    "doi": "10.48786/edbt.2025.15",
+    "arxivId": "2306.09293",
+    "url": "https://www.semanticscholar.org/paper/2e4bdaf39e913f4b81eb93c7fd7dc6bf19e8bd2f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The training process of neural networks is known to be time-consuming, and having a deep architecture only aggravates the issue. This process consists mostly of matrix operations, among which matrix multiplication is the bottleneck. Several sampling-based techniques have been proposed for speeding up the training time of deep neural networks by approximating the matrix products. These techniques fall under two categories: (i) sampling a subset of nodes in every hidden layer as active at every iteration and (ii) sampling a subset of nodes from the previous layer to approximate the current layer's activations using the edges from the sampled nodes. In both cases, the matrix products are computed using only the selected samples. In this paper, we evaluate the feasibility of these approaches on CPU machines with limited computational resources. Making a connection between the two research directions as special cases of approximating matrix multiplications in the context of neural networks, we provide a negative theoretical analysis that shows feedforward approximation is an obstacle against scalability. We conduct comprehensive experimental evaluations that demonstrate the most pressing challenges and limitations associated with the studied approaches. We observe that the hashing-based node selection method is not scalable to a large number of layers, confirming our theoretical analysis. Finally, we identify directions for future research.",
+    "citationCount": 0,
+    "referenceCount": 62
+}

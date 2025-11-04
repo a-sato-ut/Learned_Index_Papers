@@ -1,0 +1,29 @@
+{
+    "paperId": "7adb7dff0af51c0e6482e50c0f12fa9227bdea0f",
+    "title": "CML: A Contrastive Meta Learning Method to Estimate Human Label Confidence Scores and Reduce Data Collection Cost",
+    "year": 2022,
+    "venue": "ECNLP",
+    "authors": [
+        "B. Dong",
+        "Yiyi Wang",
+        "Hanbo Sun",
+        "Yunji Wang",
+        "Alireza Hashemi",
+        "Zheng Du"
+    ],
+    "doi": "10.18653/v1/2022.ecnlp-1.5",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7adb7dff0af51c0e6482e50c0f12fa9227bdea0f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://aclanthology.org/2022.ecnlp-1.5.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep neural network models are especially susceptible to noise in annotated labels. In the real world, annotated data typically contains noise caused by a variety of factors such as task difficulty, annotator experience, and annotator bias. Label quality is critical for label validation tasks; however, correcting for noise by collecting more data is often costly. In this paper, we propose a contrastive meta-learning framework (CML) to address the challenges introduced by noisy annotated data, specifically in the context of natural language processing. CML combines contrastive and meta learning to improve the quality of text feature representations. Meta-learning is also used to generate confidence scores to assess label quality. We demonstrate that a model built on CML-filtered data outperforms a model built on clean data. Furthermore, we perform experiments on deidentified commercial voice assistant datasets and demonstrate that our model outperforms several SOTA approaches.",
+    "citationCount": 12,
+    "referenceCount": 30
+}

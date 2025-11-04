@@ -1,0 +1,37 @@
+{
+    "paperId": "1799ac17f8860244a513d42ff19f6eaf2397b7c4",
+    "title": "Utilizing Deep Reinforcement Learning for Enhanced Microgrid Voltage Regulation Under Fluctuating Load Conditions",
+    "year": 2024,
+    "venue": "2024 International Conference on Electrical Engineering and Computer Science (ICECOS)",
+    "authors": [
+        "Noer Fadzri Perdana Dinata",
+        "M. Jambak",
+        "M. Ramli",
+        "M. A. B. Sidik"
+    ],
+    "doi": "10.1109/ICECOS63900.2024.10791118",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1799ac17f8860244a513d42ff19f6eaf2397b7c4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study explores the application of Deep Reinforcement Learning (DRL) in controlling a microgrid, with a focus on evaluating the performance of a DRL-based inverter voltage regulator compared to a traditional PID-based controller. The microgrid is subjected to fluctuating load conditions, simulating real-world scenarios where load demand varies significantly. Detailed specifications for the microgrid components are provided, and both control algorithms are tested for their effectiveness in maintaining voltage stability and synchronization with the main grid. Simulation results reveal that the DRL-based controller outperforms the PID controller in tracking the main grid voltage and stabilizing the voltage profile under dynamic conditions. While islanded, the DRL controller achieves a mean absolute deviation of 0.02 from the setpoint, compared to 0.06 for the PID. In grid synchronization, the DRL maintains a synchronization error of less than $6\\ V_{rms}$, while the PID controller exhibits a larger error of up to $15\\ V_{rms}$. The DRL controller's adaptive learning capabilities allow it to respond more effectively to rapid load changes, reducing deviations and enhancing overall performance. These findings suggest that DRL offers a promising alternative to conventional control methods for microgrids, providing improved reliability and efficiency in environments characterized by high variability. Further research is recommended to optimize DRL algorithms for better voltage stability and synchronization.",
+    "citationCount": 0,
+    "referenceCount": 15
+}

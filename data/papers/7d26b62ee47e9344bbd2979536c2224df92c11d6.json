@@ -1,0 +1,36 @@
+{
+    "paperId": "7d26b62ee47e9344bbd2979536c2224df92c11d6",
+    "title": "Augur: Semantics-Aware Temporal Prefetching for Linked Data Structure",
+    "year": 2025,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Feng Xue",
+        "Junliang Wu",
+        "Chenji Han",
+        "Xinyu Li",
+        "Tingting Zhang",
+        "Tianyi Liu",
+        "Fuxin Zhang"
+    ],
+    "doi": "10.1145/3762997",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7d26b62ee47e9344bbd2979536c2224df92c11d6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Linked data structures (LDS), such as lists and trees, are widely used in modern applications. Traversing LDS typically involves a significant amount of pointer chasing. Due to the serial nature of memory access in pointer chasing, the incurred long memory latency of traversing LDS has become a critical performance bottleneck. Furthermore, the poor spatial locality in LDS makes it difficult for spatial prefetchers to predict access addresses. Although temporal prefetchers can handle irregular memory access patterns, hindered by the challenges of collecting semantic information, current state-of-the-art temporal prefetchers suffer from significant metadata redundancy and frequent metadata conflicts. Consequently, there remain substantial opportunities to enhance the LDS prefetching. To solve this problem, we propose Augur, a semantics-aware temporal prefetcher to enhance LDS performance. Augur utilizes a novel pruning method to obtain semantic information and effectively extracts node address correlations from the perspective of nodes in LDS, thereby diminishing the metadata redundancy and conflicts. Additionally, Augur employs efficient metadata management strategies that guarantee a minimal storage overhead. Evaluated on LDS workloads, Augur achieves an average performance speedup of 17.8% and 11.7% over the baseline stride prefetcher and state-of-the-art spatial prefetcher Berti, respectively. Furthermore, Augur outperforms the state-of-the-art temporal prefetcher MISB, Triage, and Triangel, by 17.4%, 12.8%, and 6.3%, respectively, with a significantly lower storage overhead of only 1.26 KB.",
+    "citationCount": 0,
+    "referenceCount": 89
+}

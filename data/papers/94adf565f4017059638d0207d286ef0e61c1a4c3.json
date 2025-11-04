@@ -1,0 +1,39 @@
+{
+    "paperId": "94adf565f4017059638d0207d286ef0e61c1a4c3",
+    "title": "Universal Set Similarity Search via Multi-Task Representation Learning",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Zhong Yang",
+        "Bolong Zheng",
+        "Guohui Li",
+        "Xi Zhao",
+        "Xiaofang Zhou"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00115",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/94adf565f4017059638d0207d286ef0e61c1a4c3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Set similarity search, as a foundational operation in data processing with diverse applications in different domains, has been extensively studied. However, in the era of big data where sets sizes and quantities are rapidly increasing, set similarity search suffers from significant computational and storage overheads. Additionally, traditional approaches struggle to universally address the search problem across different similarity measures and query types. To tackle these challenges, AI techniques, with their powerful learning capabilities, may provide a viable solution. In this paper, we first propose a multi-task representation learning approach with box embeddings that accurately simulates different similarity measures simultaneously by estimating the overlap and union relationships between set pairs in latent box space. Based on the compressed representations of sets, we then introduce a universal search approach designed to answer various set similarity queries with parallel implementation. Extensive experiments conducted on real-world datasets demonstrate the universality, accuracy and efficiency of the proposed approach, showing that it outperforms competing methods. For reproduction, we release our source code on https://github.com/yangzhong901/MTBUS.",
+    "citationCount": 0,
+    "referenceCount": 46
+}

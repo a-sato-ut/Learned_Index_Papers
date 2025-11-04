@@ -1,0 +1,35 @@
+{
+    "paperId": "a88440865df40e9bacb4e9d66a3957a1cb99da6c",
+    "title": "Towards a Pragmatic ORAM Implementation Using Caching and Prefetching",
+    "year": 2024,
+    "venue": "Pacific Rim International Symposium on Dependable Computing",
+    "authors": [
+        "Kazuaki Kawabata",
+        "Naohiro Hayashibara"
+    ],
+    "doi": "10.1109/PRDC63035.2024.00043",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a88440865df40e9bacb4e9d66a3957a1cb99da6c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Oblivious RAM (ORAM) enhances secure data storage by obscuring memory access patterns, which is essential for many secure applications. However, the expenses related to existing ORAM techniques are often excessively high for practical application. This occurs because obtaining a single data block necessitates retrieving many redundant blocks during server communication. While many optimizations concentrate on data locality and access patterns, there has been inadequate attention to caching and prefetching. Our previous research indicated that caching significantly reduces ORAM latency. We provide the architecture of an ORAM implementation that integrates caching and prefetching techniques for practical use.",
+    "citationCount": 0,
+    "referenceCount": 16
+}

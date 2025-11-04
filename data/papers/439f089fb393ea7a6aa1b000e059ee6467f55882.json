@@ -1,0 +1,36 @@
+{
+    "paperId": "439f089fb393ea7a6aa1b000e059ee6467f55882",
+    "title": "Implementation and optimization of cache data prefetcher based on SPARC processors",
+    "year": 2025,
+    "venue": "International Conference on Algorithms, Microchips and Network Applications",
+    "authors": [
+        "Tingxin Wang",
+        "Linxin Yu",
+        "Zhuang Wei"
+    ],
+    "doi": "10.1117/12.3068442",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/439f089fb393ea7a6aa1b000e059ee6467f55882",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cache data prefetching is an essential technique for mitigating the \"memory wall\" effect in modern multicore processors by preloading data to reduce access latency. This study focuses on the implementation and optimization of the BestOffset Prefetcher (BOP) algorithm within the SPARC multicore processor architecture. Leveraging spatial locality and dynamic offset strategies, the proposed design achieves efficient data prefetching while maintaining moderate hardware overhead. Experimental evaluations demonstrate significant performance improvements in sequential memory access patterns, with copy operations achieving a 39.3% improvement in single-core scenarios, and 35.5% in eight-core scenarios. For random memory access patterns, copy operations exhibit a performance gain of 6.0% in single-core environments, though benefits are constrained in multi-core, multi-cluster setups due to increased contention and coherence overheads. This work provides a scalable and low-overhead prefetching solution, contributing to enhanced execution efficiency in data-intensive multicore applications.",
+    "citationCount": 0,
+    "referenceCount": 15
+}

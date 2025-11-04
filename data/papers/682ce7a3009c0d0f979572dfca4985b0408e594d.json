@@ -1,0 +1,31 @@
+{
+    "paperId": "682ce7a3009c0d0f979572dfca4985b0408e594d",
+    "title": "Partition, Don't Sort! Compression Boosters for Cloud Data Ingestion Pipelines",
+    "year": 2024,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Patrick Hansert",
+        "Sebastian Michel"
+    ],
+    "doi": "10.14778/3681954.3682013",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/682ce7a3009c0d0f979572dfca4985b0408e594d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data Lakes deployed in the cloud are a go-to solution for enterprise data storage. While the pay-as-you-go cost model allows flexible resource allocation and billing, it mandates an efficient use of resources like CPU hours, network traffic, and used storage. The distributed nature of cloud environments necessitates partitioning the data and processing these partitions separately. In this work, we put forward a practical solution to improve the efficiency of compression algorithms on Dremel-encoded data by clustering similarly structured nested data at ingestion time, such that compressible partitions can be created. We propose a clustering approach inspired by decision trees that outpaces even the naive partition-then-sort approach by up to factor 17.44 while also boosting the compression by up to factor 2. We further show that when sorting the individual buckets, a compression boost that is competitive with the well-established increasing-cardinality heuristic can be achieved, but at a lower ingestion time.",
+    "citationCount": 2,
+    "referenceCount": 64
+}

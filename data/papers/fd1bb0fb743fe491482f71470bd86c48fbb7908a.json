@@ -1,0 +1,35 @@
+{
+    "paperId": "fd1bb0fb743fe491482f71470bd86c48fbb7908a",
+    "title": "ReSemble: Reinforced Ensemble Framework for Data Prefetching",
+    "year": 2022,
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+    "authors": [
+        "Pengmiao Zhang",
+        "R. Kannan",
+        "Ajitesh Srivastava",
+        "Anant V. Nori",
+        "V. Prasanna"
+    ],
+    "doi": "10.1109/SC41404.2022.00086",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fd1bb0fb743fe491482f71470bd86c48fbb7908a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data prefetching hides memory latency by predicting and loading necessary data into cache beforehand. Most prefetchers in the literature are efficient for specific memory address patterns thereby restricting their utility to specialized applications-they do not perform well on hybrid applications with multifarious access patterns. Therefore we propose ReSem-ble: a Reinforcement Learning (RL) based adaptive enSemble framework that enables multiple prefetchers to complement each other on hybrid applications. Our RL trained ensemble controller takes prefetch suggestions from all prefetchers as input, selects the best suggestion dynamically, and learns online toward getting higher cumulative rewards, which are collected from prefetch hits/misses. Our ensemble framework using a simple multilayer perceptron as the controller achieves on the average 85.27 % (accuracy) and 44.22 % (coverage), leading to 31.02 % IPC improvement, which outperforms state-of-the-art individual prefetchers by 8.35%-26.11 %, while also outperforming SBP, a state-of-the-art (non-RL) ensemble prefetcher by 5.69%.",
+    "citationCount": 12,
+    "referenceCount": 63
+}

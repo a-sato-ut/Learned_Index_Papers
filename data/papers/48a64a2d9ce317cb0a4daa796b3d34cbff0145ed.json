@@ -1,0 +1,41 @@
+{
+    "paperId": "48a64a2d9ce317cb0a4daa796b3d34cbff0145ed",
+    "title": "Robust Learning for Smoothed Online Convex Optimization with Feedback Delay",
+    "year": 2023,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Pengfei Li",
+        "Jianyi Yang",
+        "Adam Wierman",
+        "Shaolei Ren"
+    ],
+    "doi": "10.48550/arXiv.2310.20098",
+    "arxivId": "2310.20098",
+    "url": "https://www.semanticscholar.org/paper/48a64a2d9ce317cb0a4daa796b3d34cbff0145ed",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study a challenging form of Smoothed Online Convex Optimization, a.k.a. SOCO, including multi-step nonlinear switching costs and feedback delay. We propose a novel machine learning (ML) augmented online algorithm, Robustness-Constrained Learning (RCL), which combines untrusted ML predictions with a trusted expert online algorithm via constrained projection to robustify the ML prediction. Specifically,we prove that RCL is able to guarantee$(1+\\lambda)$-competitiveness against any given expert for any$\\lambda>0$, while also explicitly training the ML model in a robustification-aware manner to improve the average-case performance. Importantly,RCL is the first ML-augmented algorithm with a provable robustness guarantee in the case of multi-step switching cost and feedback delay.We demonstrate the improvement of RCL in both robustness and average performance using battery management for electrifying transportationas a case study.",
+    "citationCount": 4,
+    "referenceCount": 56
+}

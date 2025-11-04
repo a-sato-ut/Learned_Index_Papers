@@ -1,0 +1,35 @@
+{
+    "paperId": "4908ffbeb2e8785c03925c1f310b9a91018d7222",
+    "title": "PipeCo: Pipelining Cold Start of Deep Learning Inference Services on Serverless Platforms",
+    "year": 2025,
+    "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+    "authors": [
+        "Jiaang Duan",
+        "Shiyou Qian",
+        "Hanwen Hu",
+        "Dingyu Yang",
+        "Jian Cao",
+        "Guangtao Xue"
+    ],
+    "doi": "10.1145/3727125",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4908ffbeb2e8785c03925c1f310b9a91018d7222",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The fusion of serverless computing and deep learning (DL) has led to serverless inference, offering a promising approach for developing and deploying scalable and cost-efficient deep learning inference services (DLISs). However, the challenge of cold start presents a significant obstacle for DLISs, where DL model size greatly impacts latency. Existing studies mitigate cold starts by extending keep-alive times, which unfortunately leads to decreased resource utilization efficiency. To address this issue, we introduce PipeCo, a system designed to alleviate DLIS cold start. The core concept of PipeCo is to achieve the miniaturization and pipelining of DLIS cold start. Firstly, PipeCo utilizes a vertical partitioning approach to divide each DLIS into multiple slices, prewarming slices in a sequential and overlapping manner to decrease the overall cold-start latency. Secondly, PipeCo employs an attention-based prediction mechanism to estimate periodic patterns in requests and idle containers for scheduling slices. Thirdly, PipeCo incorporates a similarity-based container matcher for the reuse of idle containers. We implemented a prototype of PipeCo on the OpenFaaS platform and conducted extensive experiments using three real-world DLIS repositories. The results demonstrate that PipeCo effectively decreases end-to-end (E2E) latency by up to 62.67% on CPU and 58.81% on GPU clusters and reduces the overall resource usage by 65.31% compared to five state-of-the-art baselines.",
+    "citationCount": 0,
+    "referenceCount": 51
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "dc2e2446f7bd42fb7d650c7be52ad98b562486b5",
+    "title": "Robustified Learning for Online Optimization with Memory Costs",
+    "year": 2023,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Peng Li",
+        "Jianyi Yang",
+        "Shaolei Ren"
+    ],
+    "doi": "10.1109/INFOCOM53939.2023.10228998",
+    "arxivId": "2305.00677",
+    "url": "https://www.semanticscholar.org/paper/dc2e2446f7bd42fb7d650c7be52ad98b562486b5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2305.00677",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Online optimization with memory costs has many real-world applications, where sequential actions are made without knowing the future input. Nonetheless, the memory cost couples the actions over time, adding substantial challenges. Conventionally, this problem has been approached by various expert-designed online algorithms with the goal of achieving bounded worst-case competitive ratios, but the resulting average performance is often unsatisfactory. On the other hand, emerging machine learning (ML) based optimizers can improve the average performance, but suffer from the lack of worst-case performance robustness. In this paper, we propose a novel expert-robustified learning (ERL) approach, achieving both good average performance and robustness. More concretely, for robustness, ERL introduces a novel projection operator that robustifies ML actions by utilizing an expert online algorithm; for average performance, ERL trains the ML optimizer based on a recurrent architecture by explicitly considering downstream expert robustification. We prove that, for any λ ≥ 1, ERL can achieve λ-competitive against the expert algorithm and λ•C-competitive against the optimal offline algorithm (where C is the expert’s competitive ratio). Additionally, we extend our analysis to a novel setting of multi-step memory costs. Finally, our analysis is supported by empirical experiments for an energy scheduling application.",
+    "citationCount": 7,
+    "referenceCount": 45
+}

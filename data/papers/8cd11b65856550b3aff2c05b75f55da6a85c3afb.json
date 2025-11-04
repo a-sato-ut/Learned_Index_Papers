@@ -1,0 +1,39 @@
+{
+    "paperId": "8cd11b65856550b3aff2c05b75f55da6a85c3afb",
+    "title": "Adaptive Data Placement in Multi-Cloud Storage: A Non-Stationary Combinatorial Bandit Approach",
+    "year": 2023,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Li Li",
+        "Jiajie Shen",
+        "Bochun Wu",
+        "Yangfan Zhou",
+        "Xin Wang",
+        "Keqin Li"
+    ],
+    "doi": "10.1109/TPDS.2023.3306150",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8cd11b65856550b3aff2c05b75f55da6a85c3afb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multi-cloud storage is recently a viable approach to solve the vendor lock-in, reliability, and security issues in cloud storage systems. As a key concern, data placement influences the cost and performance of storage services. Yet, in practice it remains challenging to address the huge solution space. Previous studies typically focus on constructing efficient data placement schemes based on the predicted pattern of workloads or assuming fully a-priori known network conditions. They cannot be easily applied in multi-cloud storage scenarios, which typically involve dynamic network conditions and time-varying workloads. To this end, we formulate the data placement optimization in a combinatorial multi-arm bandit (CMAB) perspective and solve it by learning placement strategy online. In contrast to a stationary setting where reward distributions are unknown but identical over time, we consider a realistic multi-cloud environment with non-stationary conditions, i.e., reward distributions change over time. To swiftly accommodate this, we propose an adaptive window combinatorial upper confidence bound based data placement (AW-CUCB-DP) scheme to reduce latency and cost. In AW-CUCB-DP, a simple and efficient change detector, i.e., Page-Hinkley test with forgetting mechanism (FM-PHT), is employed to enable variable-size sliding windows to handle both gradual and abrupt variations in network conditions or workloads. We establish that AW-CUCB-DP is asymptotically optimal in the non-stationary multi-cloud environment. Trace-driven experiments further verify that our scheme outperforms alternatives, especially in highly dynamic environments.",
+    "citationCount": 12,
+    "referenceCount": 50
+}

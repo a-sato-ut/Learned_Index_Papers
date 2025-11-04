@@ -1,0 +1,41 @@
+{
+    "paperId": "247e0ae156d9ce6c659bef6dfeac2be7b0e1d07d",
+    "title": "Joint AoI and Handover Optimization in Space-Air-Ground Integrated Network",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zifan Lang",
+        "Guixia Liu",
+        "Geng Sun",
+        "Jiahui Li",
+        "Jiachen Wang",
+        "Weijie Yuan",
+        "Dusit Niyato",
+        "Dong In Kim"
+    ],
+    "doi": "10.48550/arXiv.2509.12716",
+    "arxivId": "2509.12716",
+    "url": "https://www.semanticscholar.org/paper/247e0ae156d9ce6c659bef6dfeac2be7b0e1d07d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Despite the widespread deployment of terrestrial networks, providing reliable communication services to remote areas and maintaining connectivity during emergencies remains challenging. Low Earth orbit (LEO) satellite constellations offer promising solutions with their global coverage capabilities and reduced latency, yet struggle with intermittent coverage and limited communication windows due to orbital dynamics. This paper introduces an age of information (AoI)-aware space-air-ground integrated network (SAGIN) architecture that leverages a high-altitude platform (HAP) as intelligent relay between the LEO satellites and ground terminals. Our three-layer design employs hybrid free-space optical (FSO) links for high-capacity satellite-to-HAP communication and reliable radio frequency (RF) links for HAP-to-ground transmission, and thus addressing the temporal discontinuity in LEO satellite coverage while serving diverse user priorities. Specifically, we formulate a joint optimization problem to simultaneously minimize the AoI and satellite handover frequency through optimal transmit power distribution and satellite selection decisions. This highly dynamic, non-convex problem with time-coupled constraints presents significant computational challenges for traditional approaches. To address these difficulties, we propose a novel diffusion model (DM)-enhanced dueling double deep Q-network with action decomposition and state transformer encoder (DD3QN-AS) algorithm that incorporates transformer-based temporal feature extraction and employs a DM-based latent prompt generative module to refine state-action representations through conditional denoising. Simulation results highlight the superior performance of the proposed approach compared with policy-based methods and some other deep reinforcement learning (DRL) benchmarks.",
+    "citationCount": 0,
+    "referenceCount": 50
+}

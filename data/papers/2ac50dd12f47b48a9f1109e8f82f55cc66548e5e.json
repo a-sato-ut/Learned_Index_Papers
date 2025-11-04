@@ -1,0 +1,36 @@
+{
+    "paperId": "2ac50dd12f47b48a9f1109e8f82f55cc66548e5e",
+    "title": "Lero: A Learning-to-Rank Query Optimizer",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Rong Zhu",
+        "Wei Chen",
+        "Bolin Ding",
+        "Xingguang Chen",
+        "A. Pfadler",
+        "Ziniu Wu",
+        "Jingren Zhou"
+    ],
+    "doi": "10.14778/3583140.3583160",
+    "arxivId": "2302.06873",
+    "url": "https://www.semanticscholar.org/paper/2ac50dd12f47b48a9f1109e8f82f55cc66548e5e",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2302.06873",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n A recent line of works apply machine learning techniques to assist or rebuild cost-based query optimizers in DBMS. While exhibiting superiority in some benchmarks, their deficiencies, e.g., unstable performance, high training cost, and slow model updating, stem from the inherent hardness of predicting the cost or latency of execution plans using machine learning models. In this paper, we introduce a\n learning-to-rank\n query optimizer, called Lero, which builds on top of a native query optimizer and continuously learns to improve the optimization performance. The key observation is that the relative order or\n rank\n of plans, rather than the exact cost or latency, is sufficient for query optimization. Lero employs a\n pairwise\n approach to train a classifier to compare any two plans and tell which one is better. Such a binary classification task is much easier than the regression task to predict the cost or latency, in terms of model efficiency and accuracy. Rather than building a learned optimizer from scratch, Lero is designed to leverage decades of wisdom of databases and improve the native query optimizer. With its non-intrusive design, Lero can be implemented on top of any existing DBMS with minimal integration efforts. We implement Lero and demonstrate its outstanding performance using PostgreSQL. In our experiments, Lero achieves near optimal performance on several benchmarks. It reduces the plan execution time of the native optimizer in PostgreSQL by up to 70% and other learned query optimizers by up to 37%. Meanwhile, Lero continuously learns and automatically adapts to query workloads and changes in data.\n",
+    "citationCount": 75,
+    "referenceCount": 58
+}

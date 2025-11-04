@@ -1,0 +1,32 @@
+{
+    "paperId": "655d8770dfb67b79476a6f065daa44d5d6276db1",
+    "title": "Cronus: Computer Vision-based Machine Intelligent Hybrid Memory Management",
+    "year": 2022,
+    "venue": "International Symposium on Memory Systems",
+    "authors": [
+        "Thaleia Dimitra Doudali",
+        "Ada Gavrilovska"
+    ],
+    "doi": "10.1145/3565053.3565063",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/655d8770dfb67b79476a6f065daa44d5d6276db1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current state-of-the-art resource management systems leverage Machine Learning (ML) methods to enable the efficient use of heterogeneous memory hardware, deployed across emerging computing platforms. While machine intelligence can be effectively used to learn and predict complex data access patterns of modern analytics, the use of ML over the exploded data sizes and memory footprints is prohibitive for its practical system-level integration. For this reason, recent solutions use existing lightweight historical information to predict the access behavior of majority of the application pages, and train ML models over a small page subset. To maximize application performance improvements, the pages selected for machine learning-based management are identified with elaborate page selection methods. These methods involve the calculation of detailed performance estimates depending on the configuration of the hybrid memory platform. This paper aims to reduce such vast operational overheads, that further exacerbate the existing high overheads of using machine intelligence, in return for high performance and efficiency. To this end, we build Cronus, an image-based pipeline for selecting pages for ML-based management. We visualize memory access patterns and reveal spatial and temporal correlations among the selected pages, that current methods fail to leverage. We then use the created images to detect patterns and select page groups for machine learning model deployment. Cronus drastically reduces the operational costs, while preserving the effectiveness of the page selection and achieved performance of machine intelligent hybrid memory management. This work makes a case that visualization and computer vision methods can unlock new insights and reduce the operational complexity of emerging systems solutions.",
+    "citationCount": 1,
+    "referenceCount": 29
+}

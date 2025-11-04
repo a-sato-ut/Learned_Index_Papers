@@ -1,0 +1,32 @@
+{
+    "paperId": "e89ab345ac30b6020dddc37fa5c5da5b4f590087",
+    "title": "SafeBound: A Practical System for Generating Cardinality Bounds",
+    "year": 2022,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Kyle Deeds",
+        "Dan Suciu",
+        "M. Balazinska"
+    ],
+    "doi": "10.1145/3588907",
+    "arxivId": "2211.09864",
+    "url": "https://www.semanticscholar.org/paper/e89ab345ac30b6020dddc37fa5c5da5b4f590087",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3588907",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent work has reemphasized the importance of cardinality estimates for query optimization. While new techniques have continuously improved in accuracy over time, they still generally allow for under-estimates which often lead optimizers to make overly optimistic decisions. This can be very costly for expensive queries. An alternative approach to estimation is cardinality bounding, also called pessimistic cardinality estimation, where the cardinality estimator provides guaranteed upper bounds of the true cardinality. By never underestimating, this approach allows the optimizer to avoid potentially inefficient plans. However, existing pessimistic cardinality estimators are not yet practical: they use very limited statistics on the data, and cannot handle predicates. In this paper, we introduce SafeBound, the first practical system for generating cardinality bounds. SafeBound builds on a recent theoretical work that uses degree sequences on join attributes to compute cardinality bounds, extends this framework with predicates, introduces a practical compression method for the degree sequences, and implements an efficient inference algorithm. Across four workloads, SafeBound achieves up to 80% lower end-to-end runtimes than PostgreSQL, and is on par or better than state of the art ML-based estimators and pessimistic cardinality estimators, by improving the runtime of the expensive queries. It also saves up to 500x in query planning time, and uses up to 6.8x less space compared to state of the art cardinality estimation methods.",
+    "citationCount": 24,
+    "referenceCount": 32
+}

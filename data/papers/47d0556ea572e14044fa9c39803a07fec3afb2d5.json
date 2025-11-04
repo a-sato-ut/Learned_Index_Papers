@@ -1,0 +1,37 @@
+{
+    "paperId": "47d0556ea572e14044fa9c39803a07fec3afb2d5",
+    "title": "SGDP: A Stream-Graph Neural Network Based Data Prefetcher",
+    "year": 2023,
+    "venue": "IEEE International Joint Conference on Neural Network",
+    "authors": [
+        "Yiyuan Yang",
+        "Rongshang Li",
+        "Qiquan Shi",
+        "Xijun Li",
+        "Gang Hu",
+        "Xing Li",
+        "M. Yuan"
+    ],
+    "doi": "10.1109/IJCNN54540.2023.10191927",
+    "arxivId": "2304.03864",
+    "url": "https://www.semanticscholar.org/paper/47d0556ea572e14044fa9c39803a07fec3afb2d5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2304.03864",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data prefetching is important for storage system optimization and access performance improvement. Traditional prefetchers work well for mining access patterns of sequential logical block address (LBA) but cannot handle complex non-sequential patterns that commonly exist in real-world applications. The state-of-the-art (SOTA) learning-based prefetchers cover more LBA accesses. However, they do not adequately consider the spatial interdependencies between LBA deltas, which leads to limited performance and robustness. This paper proposes a novel Stream-Graph neural network-based Data Prefetcher (SGDP). Specifically, SGDP models LBA delta streams using a weighted directed graph structure to represent interactive relations among LBA deltas and further extracts hybrid features by graph neural networks for data prefetching. We conduct extensive experiments on eight real-world datasets. Empirical results verify that SGDP outperforms the SOTA methods in terms of the hit ratio by 6.21%, the effective prefetching ratio by 7.00%, and speeds up inference time by 3.13× on average. Besides, we generalize SGDP to different variants by different stream constructions, further expanding its application scenarios and demonstrating its robustness. SGDP offers a novel data prefetching solution and has been verified in commercial hybrid storage systems in the experimental phase. Our codes and appendix are available at https://github.com/yyysjz1997/SGDP/.",
+    "citationCount": 8,
+    "referenceCount": 62
+}

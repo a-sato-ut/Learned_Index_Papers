@@ -1,0 +1,32 @@
+{
+    "paperId": "9c8d39ff89fcb358dd9c9ecdc9c56fcf0f9e94e8",
+    "title": "An Enhanced Marked Cuckoo Filter for Multi-Set Multi-Membership Querying in Distributed System",
+    "year": 2025,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Zhaolin Ma",
+        "Jiali You",
+        "Haojiang Deng"
+    ],
+    "doi": "10.1109/TKDE.2025.3579571",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9c8d39ff89fcb358dd9c9ecdc9c56fcf0f9e94e8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The issue of multi-set membership query is a fundamental task in the fields of distributed systems and computer networks. It entails identifying which sets, out of n sets <inline-formula><tex-math notation=\"LaTeX\">$S_{0}, S_{1},{\\ldots }, S_{n-1}$</tex-math><alternatives><mml:math><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>S</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>...</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mi>n</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href=\"you-ieq1-3579571.gif\"/></alternatives></inline-formula>, in a Multi Set Multi-Membership Querying (MS-MMQ) contain a given element q. To address this problem while minimizing space usage, probabilistic data structures, such as cuckoo filters, are commonly employed. However, existing sketch data structures struggle to effectively balance scalability and query efficiency. To address this challenge, we introduce an enhanced marked cuckoo filter (EMCF), which enhances support for MS-MMQ scenarios by incorporating set markers after the fingerprint field. Additionally, it grants horizontal scalability and collaborative search capabilities at the filter level through the inclusion of global markers. Furthermore, we have developed an optimized variant of the enhanced marked cuckoo filter (EMCF-V) for multi-set scenarios to achieve space optimization. Experimental results using real-world datasets demonstrate that EMCF exceeds CSC-CF by more than 10 times in terms of speed, and EMCF-V exhibits a 33.3% higher query efficiency than CSC-CF methods, particularly in multiset scenarios.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

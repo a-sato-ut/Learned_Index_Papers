@@ -1,0 +1,30 @@
+{
+    "paperId": "f48790e1535073ef29d2137f746b2cad65c59208",
+    "title": "Learning-based page replacement scheme for efficient I/O processing",
+    "year": 2025,
+    "venue": "Scientific Reports",
+    "authors": [
+        "Hwajung Kim"
+    ],
+    "doi": "10.1038/s41598-025-88736-4",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f48790e1535073ef29d2137f746b2cad65c59208",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent improvements in machine learning techniques offer new opportunities for addressing challenges across various domains. A significant focus in current research is on leveraging machine learning methodologies to improve existing resource management strategies, aiming to achieve comparable performance capabilities. In particular, reinforcement learning exhibits an appealing characteristic as it performs learning by systematically exploring actions to maximize cumulative rewards. In this paper, we introduce a Learning-based Page Replacement (LPR) scheme designed for efficient I/O processing. We propose a model that learns the memory reference patterns of a given algorithm, enabling real-time determination of the optimal replacement policy. Using two replacement policies based on least/most-recently used (LRU/MRU) strategies, LPR gives rewards or penalties to each policy based on its previous decisions. Consequently, LPR evolves its own page replacement policy to minimize cumulative regrets for each decision. Notably, our scheme achieves efficient memory management without explicitly detecting application-specific memory access patterns, relying instead on self-learning. We implement and evaluate our proposed scheme, LPR, on two distinct memory subsystems: one tailored for scientific applications and the other for out-of-core graph processing. We compare the performance of LPR against existing page replacement policies using metrics such as miss ratio and execution time. Experimental results demonstrate that our scheme effectively detects changes in memory access patterns and manages page replacement online using the best-fit policy with minimal overhead.",
+    "citationCount": 1,
+    "referenceCount": 15
+}

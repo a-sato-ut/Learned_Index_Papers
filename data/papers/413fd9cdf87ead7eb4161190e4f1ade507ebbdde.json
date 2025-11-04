@@ -1,0 +1,33 @@
+{
+    "paperId": "413fd9cdf87ead7eb4161190e4f1ade507ebbdde",
+    "title": "Tight Neural Network Verification via Semidefinite Relaxations and Linear Reformulations",
+    "year": 2022,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Jianglin Lan",
+        "Yang Zheng",
+        "A. Lomuscio"
+    ],
+    "doi": "10.1609/aaai.v36i7.20689",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/413fd9cdf87ead7eb4161190e4f1ade507ebbdde",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/20689/20448",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present a novel semidefinite programming (SDP) relaxation that\nenables tight and efficient verification of neural networks. The\ntightness is achieved by combining SDP relaxations with valid linear\ncuts, constructed by using the reformulation-linearisation technique\n(RLT). The computational efficiency results from a layerwise SDP\nformulation and an iterative algorithm for incrementally adding\nRLT-generated linear cuts to the verification formulation. The layer\nRLT-SDP relaxation here presented is shown to produce the tightest SDP\nrelaxation for ReLU neural networks available in the literature. We\nreport experimental results based on MNIST neural networks showing\nthat the method outperforms the state-of-the-art methods while\nmaintaining acceptable computational overheads. For networks of\napproximately 10k nodes (1k, respectively), the proposed method\nachieved an improvement in the ratio of certified robustness cases\nfrom 0% to 82% (from 35% to 70%, respectively).",
+    "citationCount": 20,
+    "referenceCount": 49
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "7ce942f1085d0f4b0105189c5bb2f98160248cdb",
+    "title": "CEG4N: Counter-Example Guided Neural Network Quantization Refinement",
+    "year": 2022,
+    "venue": "NSV/FoMLAS@CAV",
+    "authors": [
+        "J. Matos",
+        "I. Bessa",
+        "Edoardo Manino",
+        "Xidan Song",
+        "L. Cordeiro"
+    ],
+    "doi": "10.48550/arXiv.2207.04231",
+    "arxivId": "2207.04231",
+    "url": "https://www.semanticscholar.org/paper/7ce942f1085d0f4b0105189c5bb2f98160248cdb",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2207.04231",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural networks are essential components of learning-based software systems. However, their high compute, memory, and power requirements make using them in low resources domains challenging. For this reason, neural networks are often quantized before deployment. Existing quantization techniques tend to degrade the network accuracy. We propose Counter-Example Guided Neural Network Quantization Refinement (CEG4N). This technique combines search-based quantization and equivalence verification: the former minimizes the computational requirements, while the latter guarantees that the network's output does not change after quantization. We evaluate CEG4N~on a diverse set of benchmarks, including large and small networks. Our technique successfully quantizes the networks in our evaluation while producing models with up to 72% better accuracy than state-of-the-art techniques.",
+    "citationCount": 3,
+    "referenceCount": 32
+}

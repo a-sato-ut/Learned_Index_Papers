@@ -1,0 +1,33 @@
+{
+    "paperId": "3b6fceece908201188d7a6f2aef7363249b896eb",
+    "title": "On Optimizing Back-Substitution Methods for Neural Network Verification",
+    "year": 2022,
+    "venue": "Formal Methods in Computer-Aided Design",
+    "authors": [
+        "Tom Zelazny",
+        "Haoze Wu",
+        "Clark W. Barrett",
+        "Guy Katz"
+    ],
+    "doi": "10.34727/2022/isbn.978-3-85448-053-2_7",
+    "arxivId": "2208.07669",
+    "url": "https://www.semanticscholar.org/paper/3b6fceece908201188d7a6f2aef7363249b896eb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the increasing application of deep learning in mission-critical systems, there is a growing need to obtain formal guarantees about the behaviors of neural networks. Indeed, many approaches for verifying neural networks have been recently proposed, but these generally struggle with limited scalability or insufficient accuracy. A key component in many state-of-the-art verification schemes is computing lower and upper bounds on the values that neurons in the network can obtain for a specific input domain - and the tighter these bounds, the more likely the verification is to succeed. Many common algorithms for computing these bounds are variations of the symbolic-bound propagation method; and among these, approaches that utilize a process called back-substitution are particularly successful. In this paper, we present an approach for making back-substitution produce tighter bounds. To achieve this, we formulate and then minimize the imprecision errors incurred during back-substitution. Our technique is general, in the sense that it can be integrated into numerous existing symbolic-bound propagation techniques, with only minor modifications. We implement our approach as a proof-of-concept tool, and present favorable results compared to state-of-the-art verifiers that perform back-substitution.",
+    "citationCount": 6,
+    "referenceCount": 62
+}

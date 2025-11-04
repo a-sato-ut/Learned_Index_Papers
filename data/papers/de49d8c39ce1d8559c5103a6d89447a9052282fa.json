@@ -1,0 +1,44 @@
+{
+    "paperId": "de49d8c39ce1d8559c5103a6d89447a9052282fa",
+    "title": "Efficient Reachability Analysis for Convolutional Neural Networks Using Hybrid Zonotopes",
+    "year": 2025,
+    "venue": "American Control Conference",
+    "authors": [
+        "Yuhao Zhang",
+        "Xiangru Xu"
+    ],
+    "doi": "10.23919/ACC63710.2025.11107585",
+    "arxivId": "2503.10840",
+    "url": "https://www.semanticscholar.org/paper/de49d8c39ce1d8559c5103a6d89447a9052282fa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Feedforward neural networks are widely used in autonomous systems, particularly for control and perception tasks within the system loop. However, their vulnerability to adversarial attacks necessitates formal verification before deployment in safety-critical applications. Existing set propagation-based reachability analysis methods for feedforward neural networks often struggle to achieve both scalability and accuracy. This work presents a novel set-based approach for computing the reachable sets of convolutional neural networks. The proposed method leverages a hybrid zonotope representation and an efficient neural network reduction technique, providing a flexible trade-off between computational complexity and approximation accuracy. Numerical examples are presented to demonstrate the effectiveness of the proposed approach.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

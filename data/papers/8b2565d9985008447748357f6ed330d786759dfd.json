@@ -1,0 +1,32 @@
+{
+    "paperId": "8b2565d9985008447748357f6ed330d786759dfd",
+    "title": "Ameliorating data compression and query performance through cracked Parquet",
+    "year": 2022,
+    "venue": "BiDEDE@SIGMOD",
+    "authors": [
+        "Patrick Hansert",
+        "S. Michel"
+    ],
+    "doi": "10.1145/3530050.3532923",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8b2565d9985008447748357f6ed330d786759dfd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we propose to exploit synergy effects between partitioning and compression for Dremel-encoded nested data serving as the data storage for Spark-style processing jobs. The encoding proposed with Dremel has found widespread use in the form of open approaches like Apache Parquet, which can be used with a multitude of storage engines and processing frameworks, like Apache Spark. It stores the presence of objects in additional columns compressed using run-length encoding. Using partitioning, we can decrease the number of runs while at the same time using the partitions for data skipping. These effects can achieve a compression ratio of 1.37 while also reducing the query runtime by a factor of 1.22 in our test setup.",
+    "citationCount": 3,
+    "referenceCount": 22
+}

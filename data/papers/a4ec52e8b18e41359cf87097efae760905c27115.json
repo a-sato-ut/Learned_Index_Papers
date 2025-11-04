@@ -1,0 +1,33 @@
+{
+    "paperId": "a4ec52e8b18e41359cf87097efae760905c27115",
+    "title": "CERT: Finding Performance Issues in Database Systems Through the Lens of Cardinality Estimation",
+    "year": 2023,
+    "venue": "International Conference on Software Engineering",
+    "authors": [
+        "Jinsheng Ba",
+        "Manuel Rigger"
+    ],
+    "doi": "10.1145/3597503.3639076",
+    "arxivId": "2306.00355",
+    "url": "https://www.semanticscholar.org/paper/a4ec52e8b18e41359cf87097efae760905c27115",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3597503.3639076",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Database Management Systems (DBMSs) process a given query by creating a query plan, which is subsequently executed, to compute the query's result. Deriving an efficient query plan is challenging, and both academia and industry have invested decades into researching query optimization. Despite this, DBMSs are prone to performance issues, where a DBMS produces an unexpectedly inefficient query plan that might lead to the slow execution of a query. Finding such issues is a longstanding problem and inherently difficult, because no ground truth information on an expected exe-cution time exists. In this work, we propose Cardinality Estimation Restriction Testing (CERT), a novel technique that finds performance issues through the lens of cardinality estimation. Given a query on a database, CERT derives a more restrictive query (e.g., by replacing a LEFT JOIN with an INNER JOIN), whose estimated number of rows should not exceed the estimated number of rows for the original query. CERT tests cardinality estimation specifically, because it was shown to be the most important part for query optimization; thus, we expect that finding and fixing cardinality-estimation issues might result in the highest performance gains. In addition, we found that other kinds of query optimization issues can be exposed by unexpected estimated cardinalities, which can also be found by CERT. CERT is a black-box technique that does not require access to the source code; DBMSs expose query plans via the EXPLAIN statement. CERT eschews executing queries, which is costly and prone to performance fluctuations. We evaluated CERT on three widely used and mature DBMSs, MySQL, TiDB, and CockroachDB. CERT found 13 unique issues, of which 2 issues were fixed and 9 confirmed by the developers. We expect that this new angle on finding performance bugs will help DBMS developers in improving DMBSs' performance.",
+    "citationCount": 13,
+    "referenceCount": 63
+}

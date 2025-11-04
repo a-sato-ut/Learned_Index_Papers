@@ -1,0 +1,38 @@
+{
+    "paperId": "914cc240edf4719cd67bda82b4ad9e39e1737e2e",
+    "title": "IBP Regularization for Verified Adversarial Robustness via Branch-and-Bound",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "A. Palma",
+        "Rudy Bunel",
+        "K. Dvijotham",
+        "M. P. Kumar",
+        "Robert Stanforth"
+    ],
+    "doi": "10.48550/arXiv.2206.14772",
+    "arxivId": "2206.14772",
+    "url": "https://www.semanticscholar.org/paper/914cc240edf4719cd67bda82b4ad9e39e1737e2e",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2206.14772",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent works have tried to increase the verifiability of adversarially trained networks by running the attacks over domains larger than the original perturbations and adding various regularization terms to the objective. However, these algorithms either underperform or require complex and expensive stage-wise training procedures, hindering their practical applicability. We present IBP-R, a novel verified training algorithm that is both simple and effective. IBP-R induces network verifiability by coupling adversarial attacks on enlarged domains with a regularization term, based on inexpensive interval bound propagation, that minimizes the gap between the non-convex verification problem and its approximations. By leveraging recent branch-and-bound frameworks, we show that IBP-R obtains state-of-the-art verified robustness-accuracy trade-offs for small perturbations on CIFAR-10 while training significantly faster than relevant previous work. Additionally, we present UPB, a novel branching strategy that, relying on a simple heuristic based on $\\beta$-CROWN, reduces the cost of state-of-the-art branching algorithms while yielding splits of comparable quality.",
+    "citationCount": 19,
+    "referenceCount": 58
+}

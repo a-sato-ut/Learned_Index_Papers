@@ -1,0 +1,31 @@
+{
+    "paperId": "b341c9919fbe2b4e7b4fb94225ca0a7447699264",
+    "title": "Transformation of Locally Implemented Data Warehouses to the Cloud",
+    "year": 2025,
+    "venue": "International Conference on Innovative Computing and Cloud Computing",
+    "authors": [
+        "Patrik Kovačovič",
+        "R. Pirník",
+        "Peter Peniak",
+        "Ľubomír Hrmo",
+        "Jakub Krško",
+        "Matúš Míkvy"
+    ],
+    "doi": "10.1109/ICCC65605.2025.11022843",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b341c9919fbe2b4e7b4fb94225ca0a7447699264",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Most companies around the world have their sensitive data stored in databases that are stored in different data warehouses, and companies need to migrate this data between data warehouses. There are various tools that enable such migration. These tools work on different principles and approaches and it is difficult to choose the right tool to perform the migration. The aim of this paper is to compare different migration tools, to create a reference architecture for the migration process, to perform the migration process and finally to perform the verification of the performed migration. We have created two reference architectures using which we have performed the migration process. We created two workstations on which we tested the selected migration tools Azure Synapse Analytics and SQL Server Migration Assistant (SSMA). The migration process was successful on both sites. The reference architecture and migration tool that was used for the first site was deployed to Continental. The verification process of the migration was performed at both sites, at the first site it was performed by company personnel and the implementation of row level security (RLS) and at the second site the verification was performed using the SQL Server Migration Assistant (SSMA) tool and SQL queries.",
+    "citationCount": 1,
+    "referenceCount": 10
+}

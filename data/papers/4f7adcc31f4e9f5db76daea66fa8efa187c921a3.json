@@ -1,0 +1,38 @@
+{
+    "paperId": "4f7adcc31f4e9f5db76daea66fa8efa187c921a3",
+    "title": "Dynamic Weight Adjusting Deep Q-Networks for Real-Time Environmental Adaptation",
+    "year": 2024,
+    "venue": "2024 IEEE International Conference on Knowledge Graph (ICKG)",
+    "authors": [
+        "XinHao Zhang",
+        "Jinghan Zhang",
+        "Wujun Si",
+        "Kunpeng Liu"
+    ],
+    "doi": "10.1109/ICKG63256.2024.00070",
+    "arxivId": "2411.02559",
+    "url": "https://www.semanticscholar.org/paper/4f7adcc31f4e9f5db76daea66fa8efa187c921a3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Reinforcement Learning has shown excellent performance in generating efficient solutions for complex tasks. However, its efficacy is often limited by static training modes and heavy reliance on vast data from stable environments. To address these shortcomings, this study explores integrating dynamic weight adjustments into Deep Q-Networks (DQN) to enhance their adaptability. We implement these adjustments by modifying the sampling probabilities in the experience replay to make the model focus more on pivotal transitions as indicated by real-time environmental feedback and performance metrics. We design a novel Interactive Dynamic Evaluation Method (IDEM) for DQN that successfully navigates dynamic environments by prioritizing significant transitions based on environmental feedback and learning progress. Additionally, when faced with rapid changes in environmental conditions, IDEM-DQN shows improved performance compared to baseline methods. Our results indicate that under circumstances requiring rapid adaptation, IDEM-DQN can more effectively generalize and stabilize learning. Extensive experiments across various settings confirm that IDEM-DQN outperforms standard DQN models, particularly in environments characterized by frequent and unpredictable changes.",
+    "citationCount": 2,
+    "referenceCount": 38
+}

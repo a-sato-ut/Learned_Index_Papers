@@ -1,0 +1,32 @@
+{
+    "paperId": "e9b0f9456717fb3985ce2c6b7dc15316d2e742e1",
+    "title": "Tiresias: Enabling Predictive Autonomous Storage and Indexing",
+    "year": 2022,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Michael Abebe",
+        "Horatiu Lazu",
+        "K. Daudjee"
+    ],
+    "doi": "10.14778/3551793.3551857",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e9b0f9456717fb3985ce2c6b7dc15316d2e742e1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n To efficiently store and query a DBMS, administrators must select storage and indexing configurations. For example, one must decide whether data should be stored in rows or columns, in-memory or on disk, and which columns to index. These choices can be challenging to make for workloads that are mixed requiring hybrid transactional and analytical processing (HTAP) support. There is growing interest in system designs that can adapt how data is stored and indexed to execute these workloads efficiently. We present\n Tiresias\n , a predictor that learns the cost of data accesses and predicts their latency and likelihood under different storage scenarios. Tiresias makes these predictions by collecting observed latencies and access histories to build predictive models in an online manner, enabling autonomous storage and index adaptation. Experimental evaluation shows the benefits of predictive adaptation and the trade-offs for different predictive techniques.\n",
+    "citationCount": 7,
+    "referenceCount": 66
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "c0b37d6b239a8714773887fd39992ddb823e2b11",
+    "title": "Differentiable Logics for Neural Network Training and Verification",
+    "year": 2022,
+    "venue": "NSV/FoMLAS@CAV",
+    "authors": [
+        "Natalia Slusarz",
+        "Ekaterina Komendantskaya",
+        "M. Daggitt",
+        "Rob Stewart"
+    ],
+    "doi": "10.48550/arXiv.2207.06741",
+    "arxivId": "2207.06741",
+    "url": "https://www.semanticscholar.org/paper/c0b37d6b239a8714773887fd39992ddb823e2b11",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2207.06741",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rising popularity of neural networks (NNs) in recent years and their increasing prevalence in real-world applications have drawn attention to the importance of their verification. While verification is known to be computationally difficult theoretically [6], many techniques have been proposed for solving it in practice [1]. It has been observed in the literature that by default neural networks rarely satisfy logical constraints that we want to verify. A good course of action is to train the given NN to satisfy said constraint prior to verifying them [5, 15]. This idea is sometimes referred to as continuous verification [9, 2], referring to the loop between training and verification. Usually training with constraints is implemented by specifying a translation for a given formal logic language into loss functions. These loss functions are then used to train neural networks. Because for training purposes these functions need to be differentiable, these translations are called differentiable logics (DL). This raises several research questions. What kind of differentiable logics are possible? What difference does a specific choice of DL make in the context of continuous verification? What are the desirable criteria for a DL viewed from the point of view of the resulting loss function? In this extended abstract we will discuss and answer these questions.",
+    "citationCount": 2,
+    "referenceCount": 15
+}

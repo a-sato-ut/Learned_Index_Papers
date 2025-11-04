@@ -1,0 +1,33 @@
+{
+    "paperId": "6e6e4847d1c3f82f35d83c982c3e22d59b5a5c0d",
+    "title": "QNNRepair: Quantized Neural Network Repair",
+    "year": 2023,
+    "venue": "IEEE International Conference on Software Engineering and Formal Methods",
+    "authors": [
+        "Xidan Song",
+        "Youcheng Sun",
+        "Mustafa A. Mustafa",
+        "Lucas C. Cordeiro"
+    ],
+    "doi": "10.48550/arXiv.2306.13793",
+    "arxivId": "2306.13793",
+    "url": "https://www.semanticscholar.org/paper/6e6e4847d1c3f82f35d83c982c3e22d59b5a5c0d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2306.13793",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present QNNRepair, the first method in the literature for repairing quantized neural networks (QNNs). QNNRepair aims to improve the accuracy of a neural network model after quantization. It accepts the full-precision and weight-quantized neural networks and a repair dataset of passing and failing tests. At first, QNNRepair applies a software fault localization method to identify the neurons that cause performance degradation during neural network quantization. Then, it formulates the repair problem into a linear programming problem of solving neuron weights parameters, which corrects the QNN's performance on failing tests while not compromising its performance on passing tests. We evaluate QNNRepair with widely used neural network architectures such as MobileNetV2, ResNet, and VGGNet on popular datasets, including high-resolution images. We also compare QNNRepair with the state-of-the-art data-free quantization method SQuant. According to the experiment results, we conclude that QNNRepair is effective in improving the quantized model's performance in most cases. Its repaired models have 24% higher accuracy than SQuant's in the independent validation set, especially for the ImageNet dataset.",
+    "citationCount": 1,
+    "referenceCount": 61
+}

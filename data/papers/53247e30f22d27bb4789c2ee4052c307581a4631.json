@@ -1,0 +1,30 @@
+{
+    "paperId": "53247e30f22d27bb4789c2ee4052c307581a4631",
+    "title": "Enhancing Processor Performance using Bidirectional LSTM Memory Prefetching",
+    "year": 2024,
+    "venue": "2024 International Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT)",
+    "authors": [
+        "Rachana Gade",
+        "Aditya Bornare",
+        "Saurabh Jog",
+        "Amit Joshi",
+        "Suraj Sawant"
+    ],
+    "doi": "10.1109/3ict64318.2024.10824426",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/53247e30f22d27bb4789c2ee4052c307581a4631",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Memory prefetching plays a vital role in enhancing processor performance, with modern processors using various prefetching methods to manage data access patterns efficiently. Traditional prefetchers work well with predetermined patterns but struggle with the unpredictability of modern applications. Advanced techniques, especially those employing machine learning, aim to predict and prefetch data based on complex spatiotemporal patterns, yet they face significant challenges like the class explosion problem and labeling issues. This study proposes a Bidirectional Long Short-Term Memory (BiLSTM) deep learning model to dynamically adapt to intricate access patterns, addressing these limitations by leveraging features, localization, and semantic locality to improve prediction accuracy and adaptability. By integrating insights from traditional and machine learning-based approaches, this model seeks to optimize data prefetching, advancing memory system efficiency and ultimately enhancing overall processor performance. These contributions provide a robust framework for designing adaptive and efficient processors that can meet the demands of modern computing environments.",
+    "citationCount": 0,
+    "referenceCount": 17
+}

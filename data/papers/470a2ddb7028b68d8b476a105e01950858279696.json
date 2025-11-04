@@ -1,0 +1,33 @@
+{
+    "paperId": "470a2ddb7028b68d8b476a105e01950858279696",
+    "title": "Analyzing Query Optimizer Performance in the Presence and Absence of Cardinality Estimates",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Asoke Datta",
+        "Brian Tsan",
+        "Yesdaulet Izenov",
+        "Florin Rusu"
+    ],
+    "doi": "10.48550/arXiv.2311.17293",
+    "arxivId": "2311.17293",
+    "url": "https://www.semanticscholar.org/paper/470a2ddb7028b68d8b476a105e01950858279696",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Most query optimizers rely on cardinality estimates to determine optimal execution plans. While traditional databases such as PostgreSQL, Oracle, and Db2 utilize many types of synopses -- including histograms, samples, and sketches -- recent main-memory databases like DuckDB and Heavy.AI often operate with minimal or no estimates, yet their performance does not necessarily suffer. To the best of our knowledge, no analytical comparison has been conducted between optimizers with and without cardinality estimates to understand their performance characteristics in different settings, such as indexed, non-indexed, and multi-threaded. In this paper, we present a comparative analysis between optimizers that use cardinality estimates and those that do not. We use the Join Order Benchmark (JOB) for our evaluation and true cardinalities as the baseline. Our investigation reveals that cardinality estimates have marginal impact in non-indexed settings. Meanwhile, when indexes are available, inaccurate estimates may lead to sub-optimal physical operators -- even with an optimal join order. Furthermore, the impact of cardinality estimates is less significant in highly-parallel main-memory databases.",
+    "citationCount": 1,
+    "referenceCount": 33
+}

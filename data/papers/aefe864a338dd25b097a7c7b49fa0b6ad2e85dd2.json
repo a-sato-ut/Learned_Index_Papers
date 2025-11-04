@@ -1,0 +1,38 @@
+{
+    "paperId": "aefe864a338dd25b097a7c7b49fa0b6ad2e85dd2",
+    "title": "Reinforcement Learning-Driven Adaptive Prefetch Aggressiveness Control for Enhanced Performance in Parallel System Architectures",
+    "year": 2025,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Huijing Yang",
+        "Juan Fang",
+        "Yumin Hou",
+        "Xing Su",
+        "Neal N. Xiong"
+    ],
+    "doi": "10.1109/TPDS.2025.3550531",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/aefe864a338dd25b097a7c7b49fa0b6ad2e85dd2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In modern parallel system architectures, prefetchers are essential to mitigating the performance challenges posed by long memory access latencies. These architectures rely heavily on efficient memory access patterns to maximize system throughput and resource utilization. Prefetch aggressiveness is a central parameter in managing these access patterns; although increased prefetch aggressiveness can enhance performance for certain applications, it often risks causing cache pollution and bandwidth contention, leading to significant performance degradation in other workloads. While many existing prefetchers rely on static or simple built-in aggressiveness controllers, a more flexible, adaptive approach based on system-level feedback is essential to achieving optimal performance across parallel computing environments. In this paper, we introduce an Adaptive Prefetch Aggressiveness Control (APAC) framework that leverages Reinforcement Learning (RL) to dynamically manage prefetch aggressiveness in parallel system architectures. The APAC controller operates as an RL agent, which optimizes prefetch aggressiveness by dynamically responding to system feedback on prefetch accuracy, timeliness, and cache pollution. The agent receives a reward signal that reflects the impact of each adjustment on both performance and memory bandwidth, learning to adapt its control strategy based on workload characteristics. This data-driven adaptability makes APAC particularly well-suited for parallel architectures, where efficient resource management across cores is essential to scaling system performance. Our evaluation with the ChampSim simulator demonstrates that APAC effectively adapts to diverse workloads and system configurations, achieving performance gains of 6.73$\\%$% in multi-core systems compared to traditional Feedback Directed Prefetching (FDP). By improving memory bandwidth utilization, reducing cache pollution, and minimizing inter-core interference, APAC significantly enhances prefetching performance in multi-core processors. These results underscore APAC’s potential as a robust solution for performance optimization in parallel system architectures, where efficient resource management is paramount for scaling modern processing environments.",
+    "citationCount": 0,
+    "referenceCount": 58
+}

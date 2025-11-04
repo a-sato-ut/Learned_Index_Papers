@@ -1,0 +1,37 @@
+{
+    "paperId": "99bddb32e7621a14444e304baf8970a0e8ddeb2a",
+    "title": "FC: Adaptive Atomic Commit via Failure Detection",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Hexiang Pan",
+        "Quang-Trung Ta",
+        "Meihui Zhang",
+        "Zhanhao Zhao",
+        "Yeow Meng Chee",
+        "Gang Chen",
+        "B. Ooi"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00162",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/99bddb32e7621a14444e304baf8970a0e8ddeb2a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Atomic commit protocols (ACPs) are crucial for ensuring transaction atomicity in distributed transaction processing. However, existing ACPs, designed specifically for fixed failure conditions, cannot work efficiently in modern environments, where failures such as node crashes and connection delays can happen anytime due to the use of commodity nodes and networks. In this paper, we propose FC, a novel and practical ACP that can adapt to changes in failure conditions. In essence, FC includes three dedicated protocols, which are specifically designed for three different failure conditions: (i) failure-free: no failure occurs, (ii) crash-failure: nodes might crash but there is no delayed connection, or (iii) network-failure: both crashed nodes and delayed connection can occur. During its operation, FC can monitor if any failure occurs and dynamically switch to the most suitable protocol, using a protocol selector, whose parameters are fine-tuned by reinforcement learning. Consequently, FC improves transaction performance and robustly ensures fault tolerance when crash failures and network failures occur. We conduct extensive experiments to evaluate FC with both YCSB and TPC-C benchmarks. The experimental results show that FC achieves up to 2.88x higher throughput and 3.76x lower latency than state-of-the-art ACPs, and its sustainable performance when integrated with two popular databases, namely MongoDB and PostgreSQL.",
+    "citationCount": 0,
+    "referenceCount": 70
+}

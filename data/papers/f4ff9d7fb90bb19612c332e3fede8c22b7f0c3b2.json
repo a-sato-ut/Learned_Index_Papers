@@ -1,0 +1,42 @@
+{
+    "paperId": "f4ff9d7fb90bb19612c332e3fede8c22b7f0c3b2",
+    "title": "Boosting Write Performance of KV Stores: An NVM - Enabled Storage Collaboration Approach",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Yi Wang",
+        "Jiajian He",
+        "Kaoyi Sun",
+        "Yunhao Dong",
+        "Jiaxian Chen",
+        "Chenlin Ma",
+        "Amelie Chi Zhou",
+        "Rui Mao"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00166",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f4ff9d7fb90bb19612c332e3fede8c22b7f0c3b2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As the most common data structure for key-value stores, LogStructured Merge Tree (LSM-tree) can eliminate random write operations and keep acceptable read performance. However, write stall and write amplification introduced by the leveled compaction of LSM-tree significantly degrade the system performance. The emerging non-volatile memory (NVM) provides byte-addressable access and low-latency data persistence. Integrating DIMM-interface NVM in the design of the LSM-tree can potentially alleviate the write stall and write amplification issue, as the access speed of NVM is several orders of magnitude faster than hard disk drives or flash memory-based solid-state drives. This hybrid storage should be carefully designed, requiring new architectural and key-value structural support. This paper presents ZigZagDB, an NVM-enabled data man-agement scheme for LSM-tree-based key-value stores. ZigZagDB adds additional layers of key-value stores and uses non-volatile memory as the storage media to hold these additional layers of data. The newly designed key-value stores alternately access the data from either SSD or NVM. This ‘ZigZag’ shape of storage collaboration and synchronization can benefit write efficiency and space utilization. By utilizing the NVM with very limited capacity, the redesigned organization of LSM-tree can effectively solve the write stall and write amplification issue. We demonstrate the viability of the proposed ZigZagDB using a set of extensive experiments. Experimental results show that ZigZagDB can significantly reduce the write amplification and boost the throughput in comparison with representative schemes.",
+    "citationCount": 6,
+    "referenceCount": 47
+}

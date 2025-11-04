@@ -1,0 +1,31 @@
+{
+    "paperId": "337426e72c6413dd11d397adc080f1cf436a648e",
+    "title": "DelBugV: Delta-Debugging Neural Network Verifiers",
+    "year": 2023,
+    "venue": "Formal Methods in Computer-Aided Design",
+    "authors": [
+        "R. Elsaleh",
+        "Guy Katz"
+    ],
+    "doi": "10.34727/2023/isbn.978-3-85448-060-0_11",
+    "arxivId": "2305.18558",
+    "url": "https://www.semanticscholar.org/paper/337426e72c6413dd11d397adc080f1cf436a648e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep neural networks (DNNs) are becoming a key component in diverse systems across the board. However, despite their success, they often err miserably; and this has triggered significant interest in formally verifying them. Unfortunately, DNN verifiers are intricate tools, and are themselves susceptible to soundness bugs. Due to the complexity of DNN verifiers, as well as the sizes of the DNNs being verified, debugging such errors is a daunting task. Here, we present a novel tool, named DELBUGV, that uses automated delta debugging techniques on DNN verifiers. Given a malfunctioning DNN verifier and a correct verifier as a point of reference (or, in some cases, just a single, malfunctioning verifier), DELBUGV can produce much simpler DNN verification instances that still trigger undesired behavior — greatly facilitating the task of debugging the faulty verifier. Our tool is modular and extensible, and can easily be enhanced with additional network simplification methods and strategies. For evaluation purposes, we ran DELBUGV on 4 DNN verification engines, which were observed to produce incorrect results at the 2021 neural network verification competition (VNN-COMP’21). We were able to simplify many of the verification queries that trigger these faulty behaviors, by as much as 99%. We regard our work as a step towards the ultimate goal of producing reliable and trustworthy DNN-based software.",
+    "citationCount": 3,
+    "referenceCount": 65
+}

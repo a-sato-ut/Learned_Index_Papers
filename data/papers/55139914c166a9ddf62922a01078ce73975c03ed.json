@@ -1,0 +1,31 @@
+{
+    "paperId": "55139914c166a9ddf62922a01078ce73975c03ed",
+    "title": "Adapting Multi-objectivized Software Configuration Tuning",
+    "year": 2024,
+    "venue": "Proc. ACM Softw. Eng.",
+    "authors": [
+        "Tao Chen",
+        "Miqing Li"
+    ],
+    "doi": "10.1145/3643751",
+    "arxivId": "2404.04744",
+    "url": "https://www.semanticscholar.org/paper/55139914c166a9ddf62922a01078ce73975c03ed",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2404.04744",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "When tuning software configuration for better performance (e.g., latency or throughput), an important issue that many optimizers face is the presence of local optimum traps, compounded by a highly rugged configuration landscape and expensive measurements. To mitigate these issues, a recent effort has shifted to focus on the level of optimization model (called meta multi-objectivization or MMO) instead of designing better optimizers as in traditional methods. This is done by using an auxiliary performance objective, together with the target performance objective, to help the search jump out of local optima. While effective, MMO needs a fixed weight to balance the two objectives—a parameter that has been found to be crucial as there is a large deviation of the performance between the best and the other settings. However, given the variety of configurable software systems, the “sweet spot” of the weight can vary dramatically in different cases and it is not possible to find the right setting without time-consuming trial and error. In this paper, we seek to overcome this significant shortcoming of MMO by proposing a weight adaptation method, dubbed AdMMO. Our key idea is to adaptively adjust the weight at the right time during tuning, such that a good proportion of the nondominated configurations can be maintained. Moreover, we design a partial duplicate retention mechanism to handle the issue of too many duplicate configurations without losing the rich information provided by the “good” duplicates. Experiments on several real-world systems, objectives, and budgets show that, for 71% of the cases, AdMMO is considerably superior to MMO and a wide range of state-of-the-art optimizers while achieving generally better efficiency with the best speedup between 2.2x and 20x.",
+    "citationCount": 14,
+    "referenceCount": 59
+}

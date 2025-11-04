@@ -1,0 +1,35 @@
+{
+    "paperId": "142d21db4bab9859be7a487d3e33612f373b9640",
+    "title": "Logic of Differentiable Logics: Towards a Uniform Semantics of DL",
+    "year": 2023,
+    "venue": "Logic Programming and Automated Reasoning",
+    "authors": [
+        "Natalia Slusarz",
+        "Ekaterina Komendantskaya",
+        "M. Daggitt",
+        "Rob Stewart",
+        "Kathrin Stark"
+    ],
+    "doi": "10.48550/arXiv.2303.10650",
+    "arxivId": "2303.10650",
+    "url": "https://www.semanticscholar.org/paper/142d21db4bab9859be7a487d3e33612f373b9640",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2303.10650",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Differentiable logics (DL) have recently been proposed as a method of training neural networks to satisfy logical specifications. A DL consists of a syntax in which specifications are stated and an interpretation function that translates expressions in the syntax into loss functions. These loss functions can then be used during training with standard gradient descent algorithms. The variety of existing DLs and the differing levels of formality with which they are treated makes a systematic comparative study of their properties and implementations difficult. This paper remedies this problem by suggesting a meta-language for defining DLs that we call the Logic of Differentiable Logics, or LDL. Syntactically, it generalises the syntax of existing DLs to FOL, and for the first time introduces the formalism for reasoning about vectors and learners. Semantically, it introduces a general interpretation function that can be instantiated to define loss functions arising from different existing DLs. We use LDL to establish several theoretical properties of existing DLs and to conduct their empirical study in neural network verification.",
+    "citationCount": 19,
+    "referenceCount": 49
+}

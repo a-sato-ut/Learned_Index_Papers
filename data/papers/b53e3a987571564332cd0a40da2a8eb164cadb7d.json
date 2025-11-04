@@ -1,0 +1,35 @@
+{
+    "paperId": "b53e3a987571564332cd0a40da2a8eb164cadb7d",
+    "title": "ALECE: An Attention-based Learned Cardinality Estimator for SPJ Queries on Dynamic Workloads",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Pengfei Li",
+        "Wenqing Wei",
+        "Rong Zhu",
+        "Bolin Ding",
+        "Jingren Zhou",
+        "Hua Lu"
+    ],
+    "doi": "10.14778/3626292.3626302",
+    "arxivId": "2310.05349",
+    "url": "https://www.semanticscholar.org/paper/b53e3a987571564332cd0a40da2a8eb164cadb7d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2310.05349",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n For efficient query processing, DBMS query optimizers have for decades relied on delicate cardinality estimation methods. In this work, we propose an Attention-based LEarned Cardinality Estimator (\n ALECE\n for short) for SPJ queries. The core idea is to discover the implicit relationships between queries and underlying dynamic data using attention mechanisms in ALECE's two modules that are built on top of carefully designed featurizations for data and queries. In particular, from all attributes in the database, the data-encoder module obtains organic and learnable aggregations which implicitly represent correlations among the attributes, whereas the query-analyzer module builds a bridge between the query featurizations and the data aggregations to predict the query's cardinality. We experimentally evaluate ALECE on multiple dynamic workloads. The results show that ALECE enables PostgreSQL's optimizer to achieve nearly optimal performance, clearly outperforming its built-in cardinality estimator and other alternatives.\n",
+    "citationCount": 36,
+    "referenceCount": 65
+}

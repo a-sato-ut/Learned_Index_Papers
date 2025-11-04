@@ -1,0 +1,39 @@
+{
+    "paperId": "676d38d6df77e612f57a72b2914dcd721ce8a312",
+    "title": "BitMatcher: Bit-level Counter Adjustment for Sketches",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Qilong Shi",
+        "Chengjun Jia",
+        "Wenjun Li",
+        "Zaoxing Liu",
+        "Tong Yang",
+        "Jianan Ji",
+        "Gaogang Xie",
+        "Weizhe Zhang",
+        "Minlan Yu"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00366",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/676d38d6df77e612f57a72b2914dcd721ce8a312",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sketch has been widely used in the field of large-scale data stream processing. However, common fixed-counter algorithms such as Count-Min Sketch have to allocate larger counters, which wastes a lot of memory due to the high skewness of real-world data streams. To reduce memory usage, we propose to dynamically adjust the counter size that matches the distribution of the data stream. We introduce BitMatcher, a fast global-adjusting algorithm that automatically adjusts the counter to the appropriate size to match the data stream. During stream processing, BitMatcher identifies items hashed into a bucket based on isolated fingerprints. If it overflows, BitMatcher changes the flag bits in the bucket and dynamically increases or shrinks the size of some counters in a fine-grained manner. BitMatcher can also relocate a cold item in the bucket with the idea of cuckoo hashing to preserve the potential hot item while achieving global load balancing. Through the above way of dealing with overflow caused by skewed data, BitMatcher precisely manipulates allocated bits and maximizes memory utilization. The experiments show that BitMatcher has high throughput and can outperform SOTA by up to 4 orders of magnitude in terms of accuracy. We also deployed BitMatcher on several platforms, showing its software and hardware scalability.",
+    "citationCount": 8,
+    "referenceCount": 42
+}

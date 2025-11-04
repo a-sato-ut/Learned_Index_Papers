@@ -1,0 +1,39 @@
+{
+    "paperId": "5f94dadbd69d5983ca883707d049e5eca940e647",
+    "title": "Secure and Efficient Bloom-Filter-Based Image Search in Cloud-Based Internet of Things",
+    "year": 2024,
+    "venue": "IEEE Internet of Things Journal",
+    "authors": [
+        "Yingying Li",
+        "Jianfeng Ma",
+        "Yinbin Miao",
+        "Xiangyu Wang",
+        "Rongxing Lu",
+        "Wei Zhang"
+    ],
+    "doi": "10.1109/JIOT.2023.3301969",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5f94dadbd69d5983ca883707d049e5eca940e647",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Image search is a hot topic, which has played a significant role in various Internet of Things (IoT) applications, such as disease diagnosis, face recognition, and fingerprint recognition. Meanwhile, the proliferation of images has led image owners to outsource images to the cloud for reducing local storage and computation burdens. Therefore, image search without compromising privacy over cloud has received considerable attention and extensively explored in the literature. Many Bloom filter (BF)-based schemes have been put forth in past years, however, most of them suffer from high storage overhead, low false positive rate, and even expose the values in BF. To solve these challenges, in this article, we first design a merged and repeated indistinguishable BF (MRIBF) index structure, which can reduce the storage overhead and achieve adaptive security with a low false positive rate. Then, with the MRIBF, we propose a secure and efficient BF-based image search (BFIS) scheme to achieve a faster-than-linear and more accurate search. Detailed theoretical analysis shows that our scheme is really accurate and secure. Extensive experiments demonstrate that our scheme is indeed efficient and feasible.",
+    "citationCount": 3,
+    "referenceCount": 42
+}

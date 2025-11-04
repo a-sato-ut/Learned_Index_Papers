@@ -1,0 +1,33 @@
+{
+    "paperId": "b98348bccd7e163f0f73e94d50014e6b753302ba",
+    "title": "Query Dictionary for Frequent Non-Indexed Queries in HTAP Databases",
+    "year": 2022,
+    "venue": "IEEE Access",
+    "authors": [
+        "Sucharitha Shetty",
+        "B. D. Rao",
+        "Srikanth Prabhu"
+    ],
+    "doi": "10.1109/ACCESS.2022.3153350",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b98348bccd7e163f0f73e94d50014e6b753302ba",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09718310.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The increasing demand for the simultaneous transaction and review of the data for either decision making or forecasting has created a need for faster and better Hybrid Transactional/Analytical Processing (HTAP). This paper emphasizes the speedup of Online Analytical Processing (OLAP) operations in an HTAP environment where analytical queries are mainly repetitive and contain non-indexed keys as their predicates. Zone maps and materialized views are popular approaches adopted by more extensive databases to address this issue. However, they are absent in in-memory databases because of space constraints. Instead, in-memory databases load the cache with result pages of frequently accessed queries. Increasing the number of such queries can fill the cache and raise the system’s overhead. This paper presents Query_Dictionary, a hybrid storage solution that leverages the full capabilities of SQLite by retaining less information of repetitive queries in the cache and efficiently accommodating the newly updated data by the end-user. The solution proposes storing page-level metadata query information for a larger result set and row-level information for a smaller result set. It demonstrates Query_Dictionary capabilities on three types of representative queries: single table, binary join, and transactional queries on non-indexed attributes. In comparison with SQLite, the proposed method performs better.",
+    "citationCount": 1,
+    "referenceCount": 27
+}

@@ -1,0 +1,30 @@
+{
+    "paperId": "6df39c6d441013402535a43c9b2d2c51f43684e7",
+    "title": "Classification of Different Shoulder Girdle Motions for Prosthesis Control Using a Time-Domain Feature Extraction Technique",
+    "year": 2022,
+    "venue": "ARO. The Scientific Journal of Koya University",
+    "authors": [
+        "Huda M. Radha",
+        "A. A. Abdul Hassan",
+        "Ali H. Al-Timemy"
+    ],
+    "doi": "10.14500/aro.11064",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6df39c6d441013402535a43c9b2d2c51f43684e7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://aro.koyauniversity.org/index.php/aro/article/download/1064/283",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract—The upper limb amputation exerts a significant burden on the amputee, limiting their ability to perform everyday activities, and degrading their quality of life. Amputee patients’ quality of life can be improved if they have natural control over their prosthetic hands. Among the biological signals, most commonly used to predict upper limb motor intentions, surface electromyography (sEMG), and axial acceleration sensor signals are essential components of shoulder-level upper limb prosthetic hand control systems. In this work, a pattern recognition system is proposed to create a plan for categorizing high-level upper limb prostheses in seven various types of shoulder girdle motions. Thus, combining seven feature groups, which are root mean square, four-order autoregressive, wavelength, slope sign change, zero crossing (ZC), mean absolute value, and cardinality. In this article, the time-domain features were first extracted from the EMG and acceleration signals. Then, the spectral regression (SR) and principal component analysis dimensionality reduction methods are employed to identify the most salient features, which are then passed to the linear discriminant analysis (LDA) classifier. EMG and axial acceleration signal datasets from six intact-limbed and four amputee participants exhibited an average classification error of 15.68 % based on SR dimensionality reduction using the LDA classifier.",
+    "citationCount": 4,
+    "referenceCount": 32
+}

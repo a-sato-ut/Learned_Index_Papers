@@ -1,0 +1,34 @@
+{
+    "paperId": "c18b000cbd03341394a056430a99ac14758e99bc",
+    "title": "TransforMAP: Transformer for Memory Access Prediction",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Pengmiao Zhang",
+        "Ajitesh Srivastava",
+        "Anant V. Nori",
+        "R. Kannan",
+        "V. Prasanna"
+    ],
+    "doi": "10.48550/arXiv.2205.14778",
+    "arxivId": "2205.14778",
+    "url": "https://www.semanticscholar.org/paper/c18b000cbd03341394a056430a99ac14758e99bc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2205.14778",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data Prefetching is a technique that can hide memory latency by fetching data before it is needed by a program. Prefetching relies on accurate memory access prediction, to which task machine learning based methods are increasingly applied. Unlike previous approaches that learn from deltas or offsets and perform one access prediction, we develop TransforMAP, based on the powerful Transformer model, that can learn from the whole address space and perform multiple cache line predictions. We propose to use the binary of memory addresses as model input, which avoids information loss and saves a token table in hardware. We design a block index bitmap to collect unordered future page offsets under the current page address as learning labels. As a result, our model can learn temporal patterns as well as spatial patterns within a page. In a practical implementation, this approach has the potential to hide prediction latency because it prefetches multiple cache lines likely to be used in a long horizon. We show that our approach achieves 35.67% MPKI improvement and 20.55% IPC improvement in simulation, higher than state-of-the-art Best-Offset prefetcher and ISB prefetcher.",
+    "citationCount": 8,
+    "referenceCount": 19
+}

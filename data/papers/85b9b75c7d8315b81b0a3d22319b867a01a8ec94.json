@@ -1,0 +1,40 @@
+{
+    "paperId": "85b9b75c7d8315b81b0a3d22319b867a01a8ec94",
+    "title": "Efficient and Secure Spatial Range Query over Large-scale Encrypted Data",
+    "year": 2023,
+    "venue": "IEEE International Conference on Distributed Computing Systems",
+    "authors": [
+        "Yinbin Miao",
+        "Chao Xu",
+        "Yifeng Zheng",
+        "Ximeng Liu",
+        "Xiangdong Meng",
+        "R. Deng"
+    ],
+    "doi": "10.1109/ICDCS57875.2023.00055",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/85b9b75c7d8315b81b0a3d22319b867a01a8ec94",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Spatial range query enjoys widespread application scenarios due to the ever-growing geo-positioning technology in recent years. Huge amounts of encrypted geo-location data are being outsourced to cloud servers to alleviate local storage and computational overheads without leaking sensitive information. However, most existing Privacy-preserving Spatial Range Query (PSRQ) cannot achieve high efficiency while satisfying strong security over large-scale encrypted spatial data. To strike a best possible balance between security and efficiency, we propose a novel efficient Privacy-preserving Spatial Range Query (eP-SRQ) scheme in dual-cloud architecture over large-scale dataset. Specifically, we propose an efficient PSRQ scheme by designing a novel index structure based on Geohash algorithm, Circular Shift and Coalesce Zero-Sum Garbled Bloom Filter (CSC-ZGBF) and Symmetric Homomorphic Encryption (SHE), which makes the computational complexity of query process independent of dataset size. Formal security analysis proves that our scheme can achieve Indistinguishability against Chosen-Plaintext Attack (IND-CPA), and extensive experiments prove that our scheme is feasible in real-world applications.",
+    "citationCount": 4,
+    "referenceCount": 34
+}

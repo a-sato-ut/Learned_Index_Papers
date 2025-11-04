@@ -1,0 +1,34 @@
+{
+    "paperId": "618ec5d0eb969a883c2c6b9d804c0071eb5ad064",
+    "title": "SpotKV: Improving Read Throughput of KVS by I/O-Aware Cache and Adaptive Cuckoo Filters",
+    "year": 2024,
+    "venue": "IEEE International Conference on Cloud Computing",
+    "authors": [
+        "Yi Liu",
+        "Ruilin Zhou",
+        "Yuhang Gan",
+        "Chen Qian"
+    ],
+    "doi": "10.1109/CLOUD62652.2024.00046",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/618ec5d0eb969a883c2c6b9d804c0071eb5ad064",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LSM tree based stores are a popular database design in modern persistent storage systems due to their efficient writes with sorted keys. However, this hierarchical log structure suffers from extensive read amplification because multiple disk accesses are required when it searches for a key. Recent optimizations of LSM trees propose caching hot keys to reduce I/Os mainly based on their access frequencies. However, our empirical studies show that keys are different in I/O costs, which should also be considered in the caching policy: caching key-value pairs with high I/O cost can effectively improve query latency. In addition, false positives incurred by the Bloom filters in LSM trees introduce a large overhead to access SSTables because the queried keys do not exist. In this work, we design and implement SpotKV, which resolves the above two problems in an LSM tree store by proposing two memory-efficient data structures, weighted Count- Min sketch for access and I/O-aware cache admission and dynamic-seed Cuckoo filters for eliminating false positives, to improve data lookup throughput. We implement SpotKV on Google's LevelDB vl.20. From extensive experimental evaluations, SpotKV achieves 1.2-3.0x read throughput while using the same or smaller memory, compared with several state- of-the-art LSM tree stores under the read-heavy workloads of the YCSB benchmarks.",
+    "citationCount": 0,
+    "referenceCount": 32
+}

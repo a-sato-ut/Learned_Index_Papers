@@ -1,0 +1,32 @@
+{
+    "paperId": "71b58f7118b54c6f7e1f4e15f56e62bc76c33209",
+    "title": "Accelerating Safety Verification of Neural Network Dynamical Systems Using Assured Compressed Models",
+    "year": 2023,
+    "venue": "Chinese Control and Decision Conference",
+    "authors": [
+        "Zhongzhu Shao",
+        "Tao Wang",
+        "Weiming Xiang"
+    ],
+    "doi": "10.1109/CCDC58219.2023.10327268",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/71b58f7118b54c6f7e1f4e15f56e62bc76c33209",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we develop a formal assured simplification method to accelerate the safety verification process of a neural network model that approximates a nonlinear dynamical system. Firstly, an assured compression error is proposed to describe the maximum output difference introduced by neural network compression. A reachability-based computational process is then developed to estimate the assured compression error. The assured compression error is used to accelerate the reachability analysis and safety verification of neural network dynamical system models, which can significantly reduce the computational time for safety verification. Finally, the proposed approach is applied to a case study of a magnetic levitation system to demonstrate its correctness and effectiveness.",
+    "citationCount": 0,
+    "referenceCount": 17
+}

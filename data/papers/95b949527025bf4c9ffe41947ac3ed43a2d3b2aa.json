@@ -1,0 +1,36 @@
+{
+    "paperId": "95b949527025bf4c9ffe41947ac3ed43a2d3b2aa",
+    "title": "Anser: Adaptive Information Sharing Framework of AnalyticDB",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Liang Lin",
+        "Yuhan Li",
+        "Bin Wu",
+        "Huijun Mai",
+        "Renjie Lou",
+        "Jian Tan",
+        "Feifei Li"
+    ],
+    "doi": "10.14778/3611540.3611553",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/95b949527025bf4c9ffe41947ac3ed43a2d3b2aa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n The surge in data analytics has fostered burgeoning demand for\n AnalyticDB\n on Alibaba Cloud, which has well served thousands of customers from various business sectors. The most notable feature is the diversity of the workloads it handles, including batch processing, real-time data analytics, and unstructured data analytics. To improve the overall performance for such diverse workloads, one of the major challenges is to optimize long-running complex queries without sacrificing the processing efficiency of short-running interactive queries. While existing methods attempt to utilize runtime dynamic statistics for adaptive query processing, they often focus on specific scenarios instead of providing a holistic solution.\n \n \n To address this challenge, we propose a new framework called\n Anser\n , which enhances the design of traditional distributed data warehouses by embedding a new information sharing mechanism. This allows for the efficient management of the production and consumption of various dynamic information across the system. Building on top of\n Anser\n , we introduce a novel scheduling policy that optimizes both data and information exchanges within the physical plan, enabling the acceleration of complex analytical queries without sacrificing the performance of short-running interactive queries. We conduct comprehensive experiments over public and in-house workloads to demonstrate the effectiveness and efficiency of our proposed information sharing framework.\n",
+    "citationCount": 1,
+    "referenceCount": 52
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "d42685edf4b624ae0fe60bfb960307428f660939",
+    "title": "Turbo-Charging SPJ Query Plans with Learned Physical Join Operator Selections",
+    "year": 2022,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Axel Hertzschuch",
+        "Claudio Hartmann",
+        "Dirk Habich",
+        "Wolfgang Lehner"
+    ],
+    "doi": "10.14778/3551793.3551825",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d42685edf4b624ae0fe60bfb960307428f660939",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n The optimization of select-project-join (SPJ) queries entails two major challenges: (i) finding a good join order and (ii) selecting the best-fitting physical join operator for each single join within the chosen join order. Previous work mainly focuses on the computation of a good join order, but leaves open to which extent the physical join operator selection accounts for plan quality. Our analysis using different query optimizers indicates that physical join operator selection is crucial and that none of the investigated query optimizers reaches the full potential of optimal operator selections. To unlock this potential, we propose\n TONIC\n , a novel cardinality estimation-free extension for generic SPJ query optimizers in this paper.\n TONIC\n follows a\n learning-based\n approach and revises operator decisions for arbitrary join paths based on learned query feedback. To continuously capture and reuse optimal operator selections, we introduce a lightweight yet powerful\n Query Execution Plan Synopsis\n (\n QEP-S\n ). In comparison to related work,\n TONIC\n enables transparent planning decisions with consistent performance improvements. Using two real-life benchmarks, we demonstrate that extending existing optimizers with\n TONIC\n substantially reduces query response times with a\n cumulative\n speedup of up to 2.8x.\n",
+    "citationCount": 7,
+    "referenceCount": 47
+}

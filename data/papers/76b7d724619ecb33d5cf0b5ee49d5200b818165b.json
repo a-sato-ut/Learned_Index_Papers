@@ -1,0 +1,32 @@
+{
+    "paperId": "76b7d724619ecb33d5cf0b5ee49d5200b818165b",
+    "title": "Prefix Filter: Practically and Theoretically Better Than Bloom",
+    "year": 2022,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Tomer Even",
+        "G. Even",
+        "Adam Morrison"
+    ],
+    "doi": "10.48550/arXiv.2203.17139",
+    "arxivId": "2203.17139",
+    "url": "https://www.semanticscholar.org/paper/76b7d724619ecb33d5cf0b5ee49d5200b818165b",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.17139",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Many applications of approximate membership query data structures, or\n filters\n , require only an\n incremental\n filter that supports insertions but not deletions. However, the design space of incremental filters is missing a \"sweet spot\" filter that combines space efficiency, fast queries, and fast insertions. Incremental filters, such as the Bloom and blocked Bloom filter, are not space efficient. Dynamic filters (i.e., supporting deletions), such as the cuckoo or vector quotient filter, are space efficient but do not exhibit consistently fast insertions and queries.\n \n \n In this paper, we propose the\n prefix filter\n , an incremental filter that addresses the above challenge: (1) its space (in bits) is similar to state-of-the-art dynamic filters; (2) query throughput is high and is comparable to that of the cuckoo filter; and (3) insert throughput is high with overall build times faster than those of the vector quotient filter and cuckoo filter by 1.39X--1.46X and 3.2X--3.5X, respectively. We present a rigorous analysis of the prefix filter that holds also for practical set sizes (i.e.,\n n\n = 2\n 25\n ). The analysis deals with the probability of failure, false positive rate, and probability that an operation requires accessing more than a single cache line.\n",
+    "citationCount": 11,
+    "referenceCount": 49
+}

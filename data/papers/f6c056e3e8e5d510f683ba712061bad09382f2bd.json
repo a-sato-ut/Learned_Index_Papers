@@ -1,0 +1,35 @@
+{
+    "paperId": "f6c056e3e8e5d510f683ba712061bad09382f2bd",
+    "title": "Is Certifying $\\ell_p$ Robustness Still Worthwhile?",
+    "year": 2023,
+    "venue": "",
+    "authors": [
+        "Ravi Mangal",
+        "Klas Leino",
+        "Zifan Wang",
+        "Kai Hu",
+        "Weicheng Yu",
+        "Corina S. Păsăreanu",
+        "Anupam Datta",
+        "Matt Fredrikson"
+    ],
+    "doi": null,
+    "arxivId": "2310.09361",
+    "url": "https://www.semanticscholar.org/paper/f6c056e3e8e5d510f683ba712061bad09382f2bd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Over the years, researchers have developed myriad attacks that exploit the ubiquity of adversarial examples, as well as defenses that aim to guard against the security vulnerabilities posed by such attacks. Of particular interest to this paper are defenses that provide provable guarantees against the class of $\\ell_p$-bounded attacks. Certified defenses have made significant progress, taking robustness certification from toy models and datasets to large-scale problems like ImageNet classification. While this is undoubtedly an interesting academic problem, as the field has matured, its impact in practice remains unclear, thus we find it useful to revisit the motivation for continuing this line of research. There are three layers to this inquiry, which we address in this paper: (1) why do we care about robustness research? (2) why do we care about the $\\ell_p$-bounded threat model? And (3) why do we care about certification as opposed to empirical defenses? In brief, we take the position that local robustness certification indeed confers practical value to the field of machine learning. We focus especially on the latter two questions from above. With respect to the first of the two, we argue that the $\\ell_p$-bounded threat model acts as a minimal requirement for safe application of models in security-critical domains, while at the same time, evidence has mounted suggesting that local robustness may lead to downstream external benefits not immediately related to robustness. As for the second, we argue that (i) certification provides a resolution to the cat-and-mouse game of adversarial attacks; and furthermore, that (ii) perhaps contrary to popular belief, there may not exist a fundamental trade-off between accuracy, robustness, and certifiability, while moreover, certified training techniques constitute a particularly promising way for learning robust models.",
+    "citationCount": 1,
+    "referenceCount": 117
+}

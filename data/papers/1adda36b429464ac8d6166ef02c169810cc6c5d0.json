@@ -1,0 +1,43 @@
+{
+    "paperId": "1adda36b429464ac8d6166ef02c169810cc6c5d0",
+    "title": "ARCH-COMP21 Category Report: Artificial Intelligence and Neural Network Control Systems (AINNCS) for Continuous and Hybrid Systems Plants",
+    "year": 2021,
+    "venue": "ARCH@ADHS",
+    "authors": [
+        "Taylor T. Johnson",
+        "Diego Manzanas Lopez",
+        "Luis Benet",
+        "M. Forets",
+        "Sebastián Guadalupe",
+        "Christian Schilling",
+        "Radoslav Ivanov",
+        "Taylor J. Carpenter",
+        "James Weimer",
+        "Insup Lee"
+    ],
+    "doi": "10.29007/kfk9",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1adda36b429464ac8d6166ef02c169810cc6c5d0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://easychair.org/publications/open/Jq4h",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This report presents the results of a friendly competition for formal verification of continuous and hybrid systems with artificial intelligence (AI) components. Specifically, machine learning (ML) components in cyber-physical systems (CPS), such as feedforward neural networks used as feedback controllers in closed-loop systems are considered, which is a class of systems classically known as intelligent control systems, or in more modern and specific terms, neural network control systems (NNCS). We more broadly refer to this category as AI and NNCS (AINNCS). The friendly competition took place as part of the workshop Applied Verification for Continuous and Hybrid Systems (ARCH) in 2021. In the third edition of this AINNCS category at ARCH-COMP, three tools have been applied to solve seven different benchmark problems, (in alphabetical order): JuliaReach, NNV, and Verisig. JuliaReach is a new participant in this category, Verisig participated previously in 2019 and NNV has participated in all previous competitions. This report is a snapshot of the current landscape of tools and the types of benchmarks for which these tools are suited. Due to the diversity of problems, lack of a shared hardware platform, and the early stage of the competition, we are not ranking tools in terms of performance, yet the presented results combined with 2020 results probably provide the most complete assessment of current tools for safety verification of NNCS.",
+    "citationCount": 14,
+    "referenceCount": 47
+}

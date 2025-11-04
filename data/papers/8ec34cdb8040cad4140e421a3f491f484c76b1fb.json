@@ -1,0 +1,37 @@
+{
+    "paperId": "8ec34cdb8040cad4140e421a3f491f484c76b1fb",
+    "title": "Automated Clustering Recommendation With Database Zone Maps",
+    "year": 2024,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "S. Budalakoti",
+        "Mohamed Ziauddin",
+        "Andrew Witkowski",
+        "You Jung Kim",
+        "Ramarajan Krishnamachari",
+        "Alan Wood"
+    ],
+    "doi": "10.1145/3626246.3653397",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8ec34cdb8040cad4140e421a3f491f484c76b1fb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Zone maps are a data access structure provided in multiple data warehousing products [1, 3, 5, 14, 20], that reduce the cost of data access for a query by advance pruning of irrelevant data blocks. This is achieved by dividing the table into zones and storing for each zone, the minimum and maximum value of selected columns. The structures used to store these values are called zone maps. Zone maps are most effective for a query if the data is sorted (or clustered) on a column that the query has filters on, and if it also has zone maps constructed on the column. More selective filters are likely to lead to better performance. But as filter predicates vary from query to query, it is not straightforward to identify a single clustering that is effective across the entire workload. This paper describes a novel method for automatically analyzing a workload and recommending a clustering solution, as well as the zone maps to construct for improved performance. It works for both linear and interleaved (z-order) clustering, the two most commonly used clustering methodologies. In our experiments on the TPCH bench- mark and customer datasets, this approach provides significant performance improvements over the baseline. To the best of our knowledge, this is the first work to address the automated cluster- ing (auto-clustering) problem. The method described here has been implemented and will be released in an upcoming version of the Oracle Autonomous Database.",
+    "citationCount": 0,
+    "referenceCount": 18
+}

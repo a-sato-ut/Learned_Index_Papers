@@ -1,0 +1,41 @@
+{
+    "paperId": "b2b1af53b9b958f293d8d8259748ca5cf29cf8a5",
+    "title": "Constrained Multi-Objective Optimization for Automated Machine Learning",
+    "year": 2019,
+    "venue": "International Conference on Data Science and Advanced Analytics",
+    "authors": [
+        "Steven Gardner",
+        "Oleg Golovidov",
+        "J. Griffin",
+        "P. Koch",
+        "W. Thompson",
+        "B. Wujek",
+        "Yan Xu"
+    ],
+    "doi": "10.1109/DSAA.2019.00051",
+    "arxivId": "1908.04909",
+    "url": "https://www.semanticscholar.org/paper/b2b1af53b9b958f293d8d8259748ca5cf29cf8a5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1908.04909",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automated machine learning has gained a lot of attention recently. Building and selecting the right machine learning models is often a multi-objective optimization problem. General purpose machine learning software that simultaneously supports multiple objectives and constraints is scant, though the potential benefits are great. In this work, we present a framework called Autotune that effectively handles multiple objectives and constraints that arise in machine learning problems. Autotune is built on a suite of derivative-free optimization methods, and utilizes multi-level parallelism in a distributed computing environment for automatically training, scoring, and selecting good models. Incorporation of multiple objectives and constraints in the model exploration and selection process provides the flexibility needed to satisfy trade-offs necessary in practical machine learning applications. Experimental results from standard multi-objective optimization benchmark problems show that Autotune is very efficient in capturing Pareto fronts. These benchmark results also show how adding constraints can guide the search to more promising regions of the solution space, ultimately producing more desirable Pareto fronts. Results from two real-world case studies demonstrate the effectiveness of the constrained multi-objective optimization capability offered by Autotune.",
+    "citationCount": 16,
+    "referenceCount": 43
+}

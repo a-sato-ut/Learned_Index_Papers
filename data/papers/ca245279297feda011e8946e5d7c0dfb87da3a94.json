@@ -1,0 +1,34 @@
+{
+    "paperId": "ca245279297feda011e8946e5d7c0dfb87da3a94",
+    "title": "An End-to-End Automatic Cache Replacement Policy Using Deep Reinforcement Learning",
+    "year": 2022,
+    "venue": "International Conference on Automated Planning and Scheduling",
+    "authors": [
+        "Yangqing Zhou",
+        "Fang Wang",
+        "Zhan Shi",
+        "D. Feng"
+    ],
+    "doi": "10.1609/icaps.v32i1.19840",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ca245279297feda011e8946e5d7c0dfb87da3a94",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/ICAPS/article/download/19840/19599",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the past few decades, much research has been conducted on the design of cache replacement policies. Prior work frequently relies on manually-engineered heuristics to capture the most common cache access patterns, or predict the reuse distance and try to identify the blocks that are either cache-friendly or cache-averse. Researchers are now applying recent advances in machine learning to guide cache replacement policy, augmenting or replacing traditional heuristics and data structures. However, most existing approaches depend on the certain environment which restricted their application, e.g, most of the approaches only consider the on-chip cache consisting of program counters (PCs). Moreover, those approaches with attractive hit rates are usually unable to deal with modern irregular workloads, due to the limited feature used. In contrast, we propose a pervasive cache replacement framework to automatically learn the relationship between the probability distribution of different replacement policies and workload distribution by using deep reinforcement learning. We train an end-to-end cache replacement policy only on the past requested address through two simple and stable cache replacement policies. Furthermore, the overall framework can be easily plugged into any scenario that requires cache. Our simulation results on 8 production storage traces run against 3 different cache configurations confirm that the proposed cache replacement policy is effective and outperforms several state-of-the-art approaches.",
+    "citationCount": 16,
+    "referenceCount": 26
+}

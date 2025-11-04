@@ -1,0 +1,31 @@
+{
+    "paperId": "afd633c9b89e7c5f5003a0f44a895c48bcdc6cd1",
+    "title": "Priority Sketch: A Priority-aware Measurement Framework",
+    "year": 2024,
+    "venue": "2024 International Conference on Satellite Internet (SAT-NET)",
+    "authors": [
+        "Yuhan Wu",
+        "Zikun Li",
+        "Pu Yi",
+        "Rui Qiu",
+        "Yikai Zhao",
+        "Tong Yang"
+    ],
+    "doi": "10.1109/SAT-NET62854.2024.00012",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/afd633c9b89e7c5f5003a0f44a895c48bcdc6cd1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Network measurement plays a crucial role in modern communication systems, including satellite networks and data centers. Sketches, a series of probabilistic data streaming algorithms, have been widely used in network measurement due to their efficiency and scalability. However, ensuring the Quality of Services (QoS) for high-priority traffic requires more precise measurement techniques. Despite their widespread use, existing sketches lack the capability to differentiate between priority levels, which is essential for priority-aware measurement. In this paper, we propose Priority sketch, a framework that can make many existing sketches priority-aware. We devise an attention function to adjust the accuracy for different priority levels, and optimize the accuracy by trimming counters. Extensive experiments show that the Priority sketch is $10 \\times$ more accurate than the baseline solution.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

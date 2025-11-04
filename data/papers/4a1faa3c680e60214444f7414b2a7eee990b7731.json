@@ -1,0 +1,36 @@
+{
+    "paperId": "4a1faa3c680e60214444f7414b2a7eee990b7731",
+    "title": "Scaling #DNN-Verification Tools with Efficient Bound Propagation and Parallel Computing",
+    "year": 2023,
+    "venue": "AIRO@AI*IA",
+    "authors": [
+        "Luca Marzari",
+        "Gabriele Roncolato",
+        "Alessandro Farinelli"
+    ],
+    "doi": "10.48550/arXiv.2312.05890",
+    "arxivId": "2312.05890",
+    "url": "https://www.semanticscholar.org/paper/4a1faa3c680e60214444f7414b2a7eee990b7731",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Neural Networks (DNNs) are powerful tools that have shown extraordinary results in many scenarios, ranging from pattern recognition to complex robotic problems. However, their intricate designs and lack of transparency raise safety concerns when applied in real-world applications. In this context, Formal Verification (FV) of DNNs has emerged as a valuable solution to provide provable guarantees on the safety aspect. Nonetheless, the binary answer (i.e., safe or unsafe) could be not informative enough for direct safety interventions such as safety model ranking or selection. To address this limitation, the FV problem has recently been extended to the counting version, called #DNN-Verification, for the computation of the size of the unsafe regions in a given safety property's domain. Still, due to the complexity of the problem, existing solutions struggle to scale on real-world robotic scenarios, where the DNN can be large and complex. To address this limitation, inspired by advances in FV, in this work, we propose a novel strategy based on reachability analysis combined with Symbolic Linear Relaxation and parallel computing to enhance the efficiency of existing exact and approximate FV for DNN counters. The empirical evaluation on standard FV benchmarks and realistic robotic scenarios shows a remarkable improvement in scalability and efficiency, enabling the use of such techniques even for complex robotic applications.",
+    "citationCount": 1,
+    "referenceCount": 31
+}

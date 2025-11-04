@@ -1,0 +1,34 @@
+{
+    "paperId": "e023e3398cf91fb2fed2322d2755f4dea2d0869f",
+    "title": "Distributed processing of continuous range queries over moving objects",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jin Zhou",
+        "Hao Teng",
+        "Ziqiang Yu",
+        "Dong Wang",
+        "Jiaqi Wang"
+    ],
+    "doi": "10.48550/arXiv.2206.01905",
+    "arxivId": "2206.01905",
+    "url": "https://www.semanticscholar.org/paper/e023e3398cf91fb2fed2322d2755f4dea2d0869f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2206.01905",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Monitoring range queries over moving objects is essential to extensive location-based services. The challenge faced with these location-based services is having to process numerous concurrent range queries over a large volume of moving objects. However, the existing range query processing algorithms are almost centralized based on one single machine, which are hard to address the challenge due to the limited memory and computing resources. To address this issue, we propose a distributed search solution for processing concurrent range queries over moving objects in this work. Firstly, a Distributed Dynamic Index (DDI) that consists of a global grid index and local dynamic M-ary tree indexes was proposed to maintain the moving objects and support the search algorithm. Next, a Distributed Range Query Algorithm (DRQA) was designed based on DDI, which introduces an incremental search strategy to monitor the range queries as objects evolve; during the process, it further designs a computation sharing paradigm for processing multiple concurrent queries by making full use of their common computation to decrease the search cost. Finally, three object datasets with different distributions were simulated on a New York road network and three baseline methods were introduced to more sufficiently evaluate the performance of our proposal. Compared with state-of-the-art method, the initial query cost of the DRQA algorithm reduces by $22.7\\%$ and the incremental query cost drops by 15.2%, which certifies the superiority of our method over existing approaches.",
+    "citationCount": 1,
+    "referenceCount": 37
+}

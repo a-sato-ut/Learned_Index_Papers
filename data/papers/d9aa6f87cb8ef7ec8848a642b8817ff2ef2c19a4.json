@@ -1,0 +1,28 @@
+{
+    "paperId": "d9aa6f87cb8ef7ec8848a642b8817ff2ef2c19a4",
+    "title": "Advancements in SQL Query Optimization: A Review of Join Order and Index Selection",
+    "year": 2025,
+    "venue": "2025 5th International Conference on Machine Learning and Intelligent Systems Engineering (MLISE)",
+    "authors": [
+        "Nisuli Hettiarachchi",
+        "Prasan Yapa"
+    ],
+    "doi": "10.1109/MLISE66443.2025.11100192",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d9aa6f87cb8ef7ec8848a642b8817ff2ef2c19a4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficient SQL Query Optimization (QO) is a fundamental aspect of database management systems, aimed at enhancing query performance and reducing resource consumption typically involves selecting the most efficient execution plan for a given query, considering factors such as join order, access methods, and the use of indexes. This review paper focuses on two key agents in SQL QO: the Join Order Agent (JOA) and the Index Selection Agent (ISA). The JOA seeks to determine the optimal sequence for joining multiple tables, minimizing intermediate results and improving query execution time. The ISA identifies the most effective indexes to speed up data retrieval, considering various database schema configurations and query patterns. We review existing approaches for both agents, including heuristic-based methods, cost-based models, and machine learning (ML) techniques. The paper also highlights the challenges faced in these areas, such as the scalability of existing methods, the need for dynamic adaptation to changing workloads, and the integration of multiple optimization strategies. Finally, the paper discusses how multi-agent systems (MAS), and hybrid optimization techniques can address these challenges, offering significant improvements in QO for modern relational DBMS.",
+    "citationCount": 0,
+    "referenceCount": 53
+}

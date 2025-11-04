@@ -1,0 +1,38 @@
+{
+    "paperId": "f06c3b69e0e041d3ac880b2bdea951984034b9f6",
+    "title": "DBMind: A Self-Driving Platform in openGauss",
+    "year": 2021,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Xuanhe Zhou",
+        "Lianyuan Jin",
+        "Ji Sun",
+        "Xinyang Zhao",
+        "Xiang Yu",
+        "Shifu Li",
+        "Tianqing Wang",
+        "Kun Li",
+        "Luyang Liu"
+    ],
+    "doi": "10.14778/3476311.3476334",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f06c3b69e0e041d3ac880b2bdea951984034b9f6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We demonstrate a self-driving system DBMind , which provides three autonomous capabilities in database, including self-monitoring , self-diagnosis and self-optimization . First, self-monitoring judiciously collects database metrics and detects anomalies (e.g., slow queries and IO contention), which can profile database status while only slightly affecting system performance (<5%). Then, self-diagnosis utilizes an LSTM model to analyze the root causes of the anomalies and automatically detect root causes from a pre-defined failure hierarchy. Next, self-optimization automatically optimizes the database performance using learning-based techniques, including deep reinforcement learning based knob tuning, reinforcement learning based index selection, and encoder-decoder based view selection. We have implemented DBMind in an open source database openGauss and demonstrated real scenarios.",
+    "citationCount": 28,
+    "referenceCount": 13
+}

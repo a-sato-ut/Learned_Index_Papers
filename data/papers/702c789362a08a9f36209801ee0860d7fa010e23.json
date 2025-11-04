@@ -1,0 +1,36 @@
+{
+    "paperId": "702c789362a08a9f36209801ee0860d7fa010e23",
+    "title": "A Case for Kolmogorov-Arnold Networks in Prefetching: Towards Low-Latency, Generalizable ML-Based Prefetchers",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Dhruv Kulkarni",
+        "Bharat Bhammar",
+        "Henil Thaker",
+        "Pranav Dhobi",
+        "R. P. Gohil",
+        "Sai Manoj",
+        "S. M. I. †. Pudukotai Dinkarrao"
+    ],
+    "doi": "10.48550/arXiv.2504.09074",
+    "arxivId": "2504.09074",
+    "url": "https://www.semanticscholar.org/paper/702c789362a08a9f36209801ee0860d7fa010e23",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The memory wall problem arises due to the disparity between fast processors and slower memory, causing significant delays in data access, even more so on edge devices. Data prefetching is a key strategy to address this, with traditional methods evolving to incorporate Machine Learning (ML) for improved accuracy. Modern prefetchers must balance high accuracy with low latency to further practicality. We explore the applicability of utilizing Kolmogorov-Arnold Networks (KAN) with learnable activation functions,a prefetcher we implemented called KANBoost, to further this aim. KANs are a novel, state-of-the-art model that work on breaking down continuous, bounded multi-variate functions into functions of their constituent variables, and use these constitutent functions as activations on each individual neuron. KANBoost predicts the next memory access by modeling deltas between consecutive addresses, offering a balance of accuracy and efficiency to mitigate the memory wall problem with minimal overhead, instead of relying on address-correlation prefetching. Initial results indicate that KAN-based prefetching reduces inference latency (18X lower than state-of-the-art ML prefetchers) while achieving moderate IPC improvements (2.5\\% over no-prefetching). While KANs still face challenges in capturing long-term dependencies, we propose that future research should explore hybrid models that combine KAN efficiency with stronger sequence modeling techniques, paving the way for practical ML-based prefetching in edge devices and beyond.",
+    "citationCount": 0,
+    "referenceCount": 9
+}

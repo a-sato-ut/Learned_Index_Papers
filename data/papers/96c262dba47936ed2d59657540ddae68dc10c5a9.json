@@ -1,0 +1,36 @@
+{
+    "paperId": "96c262dba47936ed2d59657540ddae68dc10c5a9",
+    "title": "Efficient Privacy-Preserving Spatial Range Query Over Outsourced Encrypted Data",
+    "year": 2023,
+    "venue": "IEEE Transactions on Information Forensics and Security",
+    "authors": [
+        "Yinbin Miao",
+        "Yutao Yang",
+        "Xinghua Li",
+        "Zhiquan Liu",
+        "Hongwei Li",
+        "K. Choo",
+        "R. Deng"
+    ],
+    "doi": "10.1109/TIFS.2023.3288453",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/96c262dba47936ed2d59657540ddae68dc10c5a9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the rapid development of Location-Based Services (LBS), a large number of LBS providers outsource spatial data to cloud servers to reduce their high computational and storage burdens, but meanwhile incur some security issues such as location privacy leakage. Thus, extensive privacy-preserving LBS schemes have been proposed. However, the existing solutions using Bloom filter do not take into account the redundant bits that do not map information in Bloom filter, resulting in high computational overheads, and reveal the inclusion relationship in Bloom filter. To solve these issues, we propose an efficient Privacy-preserving Spatial Range Query (PSRQ) scheme by skillfully combining Geohash algorithm with Circular Shift and Coalesce Bloom Filter (CSC-BF) framework and Symmetric-key Hidden Vector Encryption (SHVE), which not only greatly reduces the computational cost of generating token but also speeds up the query efficiency on large-scale datasets. In addition, we design a Confused Bloom Filter (CBF) to confuse the inclusion relationship by confusing the values of 0 and 1 in the Bloom filter. Base on this, we further propose a more secure and practical enhanced scheme PSRQ+ by using CBF and Geohash algorithm, which can support more query ranges and achieve adaptive security. Finally, formal security analysis proves that our schemes are secure against Indistinguishability under Chosen-Plaintext Attacks (IND-CPA) and PSRQ+ achieves adaptive IND-CPA, and extensive experimental tests demonstrate that our schemes using million-level dataset improve the query efficiency by $100\\times $ compared with previous state-of-the-art solutions.",
+    "citationCount": 38,
+    "referenceCount": 35
+}

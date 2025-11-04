@@ -1,0 +1,41 @@
+{
+    "paperId": "73b35820d0f2f83a4175608132e434aa662a7fed",
+    "title": "Achieving Top-<inline-formula><tex-math notation=\"LaTeX\">$K$</tex-math><alternatives><mml:math><mml:mi>K</mml:mi></mml:math><inline-graphic xlink:href=\"yang-ieq1-3523033.gif\"/></alternatives></inline-formula>-fairness for Finding Global Top-<inline-formula><tex-math notation=\"LaTeX\">$K$</tex-math><a",
+    "year": 2025,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Yikai Zhao",
+        "Wei Zhou",
+        "Wenchen Han",
+        "Zheng Zhong",
+        "Yinda Zhang",
+        "Xiuqi Zheng",
+        "Tong Yang",
+        "Bin Cui"
+    ],
+    "doi": "10.1109/TKDE.2024.3523033",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/73b35820d0f2f83a4175608132e434aa662a7fed",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Finding top-<inline-formula><tex-math notation=\"LaTeX\">$K$</tex-math><alternatives><mml:math><mml:mi>K</mml:mi></mml:math><inline-graphic xlink:href=\"yang-ieq5-3523033.gif\"/></alternatives></inline-formula> frequent items has been a hot topic in data stream processing with wide-ranging applications. However, most existing sketch algorithms focus on finding local top-<inline-formula><tex-math notation=\"LaTeX\">$K$</tex-math><alternatives><mml:math><mml:mi>K</mml:mi></mml:math><inline-graphic xlink:href=\"yang-ieq6-3523033.gif\"/></alternatives></inline-formula> in a single data stream. In this paper, we tackle finding global top-<inline-formula><tex-math notation=\"LaTeX\">$K$</tex-math><alternatives><mml:math><mml:mi>K</mml:mi></mml:math><inline-graphic xlink:href=\"yang-ieq7-3523033.gif\"/></alternatives></inline-formula> across multiple data streams. We find that using prior sketch algorithms directly is often unfair in global scenarios, degrading global top-<inline-formula><tex-math notation=\"LaTeX\">$K$</tex-math><alternatives><mml:math><mml:mi>K</mml:mi></mml:math><inline-graphic xlink:href=\"yang-ieq8-3523033.gif\"/></alternatives></inline-formula> accuracy. We define top-<inline-formula><tex-math notation=\"LaTeX\">$K$</tex-math><alternatives><mml:math><mml:mi>K</mml:mi></mml:math><inline-graphic xlink:href=\"yang-ieq9-3523033.gif\"/></alternatives></inline-formula>-fairness and show its importance for finding global top-<inline-formula><tex-math notation=\"LaTeX\">$K$</tex-math><alternatives><mml:math><mml:mi>K</mml:mi></mml:math><inline-graphic xlink:href=\"yang-ieq10-3523033.gif\"/></alternatives></inline-formula>. To achieve this, we propose the Double-Anonymous (DA) sketch, where double-anonymity ensures fairness. We also propose two techniques, hot-filtering and early-freezing, to improve accuracy further. We theoretically prove that the DA sketch achieves top-<inline-formula><tex-math notation=\"LaTeX\">$K$</tex-math><alternatives><mml:math><mml:mi>K</mml:mi></mml:math><inline-graphic xlink:href=\"yang-ieq11-3523033.gif\"/></alternatives></inline-formula>-fairness while maintaining high accuracy. Extensive experiments verify top-<inline-formula><tex-math notation=\"LaTeX\">$K$</tex-math><alternatives><mml:math><mml:mi>K</mml:mi></mml:math><inline-graphic xlink:href=\"yang-ieq12-3523033.gif\"/></alternatives></inline-formula>-fairness in disjoint data streams, showing that the DA sketch's error is up to 129 times (60 times on average) smaller than the state-of-the-art. To enhance the applicability and technical depth, we also investigate how to extend the DA sketch to general distributed data stream scenarios and how to provide a fairer and more accurate global ranking for top-<inline-formula><tex-math notation=\"LaTeX\">$K$</tex-math><alternatives><mml:math><mml:mi>K</mml:mi></mml:math><inline-graphic xlink:href=\"yang-ieq13-3523033.gif\"/></alternatives></inline-formula> items. The experimental results show that the extended version of the DA sketch can indeed compute better rankings and still has significant advantages in general data streams.",
+    "citationCount": 3,
+    "referenceCount": 60
+}

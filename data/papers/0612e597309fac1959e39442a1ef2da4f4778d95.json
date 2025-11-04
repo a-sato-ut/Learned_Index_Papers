@@ -1,0 +1,36 @@
+{
+    "paperId": "0612e597309fac1959e39442a1ef2da4f4778d95",
+    "title": "Exponent Relaxation of Polynomial Zonotopes and Its Applications in Formal Neural Network Verification",
+    "year": 2024,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Tobias Ladner",
+        "Matthias Althoff"
+    ],
+    "doi": "10.1609/aaai.v38i19.30125",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0612e597309fac1959e39442a1ef2da4f4778d95",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/30125/31990",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Formal verification of neural networks is a challenging problem due to the complexity and nonlinearity of neural networks.\n It has been shown that polynomial zonotopes can tightly enclose the output set of a neural network.\n Unfortunately, the tight enclosure comes with additional complexity in the set representation,\n thus, rendering subsequent operations expensive to compute, such as computing interval bounds and intersection checking.\n To address this issue, we present a novel approach to restructure a polynomial zonotope to tightly enclose the original polynomial zonotope\n while drastically reducing its complexity.\n The restructuring is achieved by relaxing the exponents of the dependent factors of polynomial zonotopes and finding an appropriate approximation error.\n We demonstrate the applicability of our approach on output sets of neural networks,\n where we obtain tighter results in various subsequent operations, such as order reduction, zonotope enclosure, and range bounding.",
+    "citationCount": 2,
+    "referenceCount": 21
+}

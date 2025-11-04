@@ -1,0 +1,33 @@
+{
+    "paperId": "552206fbcd4f79569a5bd8e1a0444605ee7b16b4",
+    "title": "FaShapley: Fast and Approximated Shapley Based Model Pruning Towards Certifiably Robust DNNs",
+    "year": 2023,
+    "venue": "2023 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+    "authors": [
+        "Mintong Kang",
+        "Linyi Li",
+        "B. Li"
+    ],
+    "doi": "10.1109/SaTML54575.2023.00044",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/552206fbcd4f79569a5bd8e1a0444605ee7b16b4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Despite the great success achieved by deep neural networks (DNNs) recently, several concerns have been raised regarding their robustness against adversarial perturbations as well as large model size in resource-constrained environments. Recent studies on robust learning indicate that there is a tradeoff between robustness and model size. For instance, larger smoothed models would provide higher robustness certification. Recent works have tried to weaken such a tradeoff by training small models via optimized pruning. However, these methods usually do not directly take specific neuron properties such as their importance into account. In this paper, we focus on designing a quantitative criterion, neuron Shapley, to evaluate the neuron weight/filter importance within DNNs, leading to effective unstructured/structured pruning strategies to improve the certified robustness of the pruned models. However, directly computing Shapley value for neurons is of exponential computational complexity, and thus we propose a fast and approximated Shapley (FaShapley) method via gradient-based approximation and optimized sample-size. Theoretically, we analyze the desired properties (e.g, linearity and symmetry) and sample complexity of FaShapley. Empirically, we conduct extensive experiments on different datasets with both unstructured pruning and structured pruning. The results on several DNN architectures trained with different robust learning algorithms show that FaShapley achieves state-of-the-art certified robustness under different settings.",
+    "citationCount": 5,
+    "referenceCount": 82
+}

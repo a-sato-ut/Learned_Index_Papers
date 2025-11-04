@@ -1,0 +1,34 @@
+{
+    "paperId": "0fdc47c4d32b2e3a805cd15843f7493ade58dde0",
+    "title": "Range Cache: An Efficient Cache Component for Accelerating Range Queries on LSM - Based Key-Value Stores",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Xiaoliang Wang",
+        "Peiquan Jin",
+        "Yongping Luo",
+        "Zhaole Chu"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00044",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0fdc47c4d32b2e3a805cd15843f7493ade58dde0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LSM-tree has been widely used in key-value stores to offer high write throughputs. However, LSM-tree suffers from the block-cache invalidation problem caused by periodical compaction operations, which lowers the efficiency of the block cache and leads to poor read performance, especially for range queries. To address this problem, we propose a novel cache component named Range Cache to accelerate range queries on LSM-based key-value stores. The differences between Range Cache and the traditional block cache lie in two aspects. First, Range Cache caches the query results, i.e., key-value pairs, rather than data blocks. Second, in contrast to the traditional block cache that utilizes a hash table to index data, Range Cache incorporates an ordered index, which is more efficient for range queries. Further, we integrate Range Cache into LSM-based key-value stores without disturbing other components. With Range Cache, we can eliminate the impact of compaction operations on the block cache, avoiding the block-cache invalidation problem and reducing disk I/Os for point/range queries. We implement Range Cache on top of RocksDB and conduct system-to-system comparisons to compare Range Cache with LevelDB, RocksDB, LSbM-tree, and RemixDB under various settings. The experimental results show that Range Cache can significantly improve the cache efficiency and increase the throughput, especially for range queries.",
+    "citationCount": 1,
+    "referenceCount": 45
+}

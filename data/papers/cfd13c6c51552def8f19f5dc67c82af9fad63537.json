@@ -1,0 +1,33 @@
+{
+    "paperId": "cfd13c6c51552def8f19f5dc67c82af9fad63537",
+    "title": "Hyperion: A Highly Effective Page and PC Based Delta Prefetcher",
+    "year": 2024,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Yujie Cui",
+        "Wei Chen",
+        "Xu Cheng",
+        "Jiangfang Yi"
+    ],
+    "doi": "10.1145/3675398",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cfd13c6c51552def8f19f5dc67c82af9fad63537",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3675398",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hardware prefetching plays an important role in modern processors for hiding memory access latency. Delta prefetchers show great potential at the L1D cache level, as they can impose small storage overhead by recording deltas. Furthermore, local delta prefetchers, such as Berti, have been shown to achieve high L1D accuracy. However, there is still room for improving the L1D coverage of existing delta prefetchers. Our goal is to develop a delta prefetcher capable of achieving both high L1D coverage and accuracy. We explore delta prefetchers trained on various types of contextual information, ranging from coarse-grained to fine-grained, and analyze their L1D coverage and accuracy. Our findings indicate that training deltas based on the access histories of both PCs and memory pages for individual PCs and memory pages can lead to increased L1D coverage alongside high accuracy. Therefore, we introduce Hyperion, a highly efficient Page and PC-based delta prefetcher. In terms of the vital component of recording access histories, we implement three different structures and engage in a detailed discussion about them. Furthermore, Hyperion utilizes micro-architecture information (e.g., L1D hits or misses, PQ occupancy) and real-time L1D accuracy to dynamically adjust its issuing mechanism, further enhancing performance and L1D accuracy. Our results show that Hyperion achieves an L1D accuracy of 92.4% and an L1D coverage of 51.9%, along with an L2C coverage of 63.0% and an LLC coverage of 67.5% across a diverse range of applications, including SPEC CPU2006, SPEC CPU2017, GAP, and PARSEC, with a baseline of no prefetching. Regarding performance, Hyperion achieves a 50.1% performance gain, outperforming the state-of-the-art delta prefetcher Berti by 5.0% over baseline across all memory-intensive traces from the four benchmark suites.",
+    "citationCount": 1,
+    "referenceCount": 40
+}

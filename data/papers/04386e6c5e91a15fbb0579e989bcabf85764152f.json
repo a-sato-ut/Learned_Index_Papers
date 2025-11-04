@@ -1,0 +1,43 @@
+{
+    "paperId": "04386e6c5e91a15fbb0579e989bcabf85764152f",
+    "title": "Formal Verification and Control with Conformal Prediction",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Lars Lindemann",
+        "Yiqi Zhao",
+        "Xinyi Yu",
+        "George J. Pappas",
+        "Jyotirmoy V. Deshmukh"
+    ],
+    "doi": "10.48550/arXiv.2409.00536",
+    "arxivId": "2409.00536",
+    "url": "https://www.semanticscholar.org/paper/04386e6c5e91a15fbb0579e989bcabf85764152f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present recent advances in formal verification and control for autonomous systems with practical safety guarantees enabled by conformal prediction (CP), a statistical tool for uncertainty quantification. This survey is particularly motivated by learning-enabled autonomous systems (LEASs), where the complexity of learning-enabled components (LECs) poses a major bottleneck for applying traditional model-based verification and control techniques. To address this challenge, we advocate for CP as a lightweight alternative and demonstrate its use in formal verification, systems and control, and robotics. CP is appealing due to its simplicity (easy to understand, implement, and adapt), generality (requires no assumptions on learned models and underlying data distributions), and efficiency (real-time capable and accurate). This survey provides an accessible introduction to CP for non-experts interested in applying CP to autonomy problems. We particularly show how CP can be used for formal verification of LECs and the design of safe control as well as offline and online verification algorithms for LEASs. We present these techniques within a unifying framework that addresses the complexity of LEASs. Our exposition spans simple specifications, such as robot navigation tasks, to complex mission requirements expressed in temporal logic. Throughout the survey, we contrast CP with other statistical techniques, including scenario optimization and PAC-Bayes theory, highlighting advantages and limitations for verification and control. Finally, we outline open problems and promising directions for future research.",
+    "citationCount": 25,
+    "referenceCount": 292
+}

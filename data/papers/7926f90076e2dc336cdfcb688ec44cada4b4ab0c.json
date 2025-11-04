@@ -1,0 +1,36 @@
+{
+    "paperId": "7926f90076e2dc336cdfcb688ec44cada4b4ab0c",
+    "title": "Contention aware DRAM caching for CXL-enabled pooled memory",
+    "year": 2024,
+    "venue": "International Symposium on Memory Systems",
+    "authors": [
+        "Chandrahas Tirumalasetty",
+        "N. Annapareddy"
+    ],
+    "doi": "10.1145/3695794.3695808",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7926f90076e2dc336cdfcb688ec44cada4b4ab0c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hardware based memory pooling enabled by interconnect standards like CXL have been gaining popularity amongst cloud providers and system integrators. While pooling memory resources has cost benefits, it comes at a penalty of increased memory access latency. This paper proposes a system architecture for prefetching sub-page blocks from FAM into DRAM cache for improving the data access latency and application performance. Utility of DRAM caching is subject to bandwidth availability and contention at FAM node. To that end, we propose two contention aware enhancements to our DRAM cache prefetch mechanism. First, we consider the potential for providing additional functionality at the FAM node through weighted fair queuing of demand and prefetch requests. Second, we adapt prefetch rate at the compute-node based on observed FAM access latencies. Proposed system is evaluated in single node and multi-node configurations with applications from SPEC, PARSEC, Splash and GAP benchmark suites. Our evaluation suggests DRAM cache prefetching can improve IPC up to 7% and both proposed optimizations can further increment IPC by 7-10%, for a total IPC gain of 10-13%.",
+    "citationCount": 3,
+    "referenceCount": 87
+}

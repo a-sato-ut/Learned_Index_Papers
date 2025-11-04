@@ -1,0 +1,33 @@
+{
+    "paperId": "187ffa30c2c32c1f91ec9ecd92c952e73fadd39f",
+    "title": "SmartIndex: Learning to Index Caches to Improve Performance",
+    "year": 2023,
+    "venue": "IEEE computer architecture letters",
+    "authors": [
+        "Kevin Weston",
+        "Farabi Mahmud",
+        "Vahid Janfaza",
+        "Abdullah Muzahid"
+    ],
+    "doi": "10.1109/LCA.2023.3264478",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/187ffa30c2c32c1f91ec9ecd92c952e73fadd39f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern computers rely heavily on caches to achieve higher performance. Unfortunately, a cache indexing scheme can often cause an uneven distribution of addresses across cache sets resulting in many evictions of useful cache blocks. To address this issue, we propose SmartIndex, a self-optimized indexing scheme that leverages machine learning to actively learn the memory access pattern and dynamically adjust indexes to evenly distribute the cache lines across all sets in the cache, thereby reducing cache misses. Experimental results on a set of 26 memory-intensive applications show that for non-uniform applications, SmartIndex can reduce the misses per kilo instructions (MPKI) of a direct mapped cache by up to 39%, translating into an IPC speedup of 7.23% compared to the conventional power-of-two indexing scheme. Our experiments also show that SmartIndex can work with any cache associativity.",
+    "citationCount": 2,
+    "referenceCount": 18
+}

@@ -1,0 +1,48 @@
+{
+    "paperId": "bf2b5291361e009f7295338f61a0cafac6c54ba7",
+    "title": "Pond: CXL-Based Memory Pooling Systems for Cloud Platforms",
+    "year": 2022,
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "authors": [
+        "Huaicheng Li",
+        "Daniel S. Berger",
+        "Stanko Novakovic",
+        "Lisa R. Hsu",
+        "Dan Ernst",
+        "P. Zardoshti",
+        "Monish Shah",
+        "S. Rajadnya",
+        "Scott Lee",
+        "Ishwar Agarwal",
+        "M. Hill",
+        "M. Fontoura",
+        "R. Bianchini"
+    ],
+    "doi": "10.1145/3575693.3578835",
+    "arxivId": "2203.00241",
+    "url": "https://www.semanticscholar.org/paper/bf2b5291361e009f7295338f61a0cafac6c54ba7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3575693.3578835",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Public cloud providers seek to meet stringent performance requirements and low hardware cost. A key driver of performance and cost is main memory. Memory pooling promises to improve DRAM utilization and thereby reduce costs. However, pooling is challenging under cloud performance requirements. This paper proposes Pond, the first memory pooling system that both meets cloud performance goals and significantly reduces DRAM cost. Pond builds on the Compute Express Link (CXL) standard for load/store access to pool memory and two key insights. First, our analysis of cloud production traces shows that pooling across 8-16 sockets is enough to achieve most of the benefits. This enables a small-pool design with low access latency. Second, it is possible to create machine learning models that can accurately predict how much local and pool memory to allocate to a virtual machine (VM) to resemble same-NUMA-node memory performance. Our evaluation with 158 workloads shows that Pond reduces DRAM costs by 7% with performance within 1-5% of same-NUMA-node VM allocations.",
+    "citationCount": 341,
+    "referenceCount": 122
+}

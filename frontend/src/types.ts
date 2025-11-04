@@ -25,6 +25,7 @@ export interface PaperNode {
   id: string;
   paper: Paper;
   type: 'center' | 'cites' | 'cited_by';
+  level?: number;
   x?: number;
   y?: number;
   fx?: number | null;
@@ -37,4 +38,5 @@ export interface PaperEdge {
   source: string;
   target: string;
   type: 'cites' | 'cited_by';
+  level?: number;
 }

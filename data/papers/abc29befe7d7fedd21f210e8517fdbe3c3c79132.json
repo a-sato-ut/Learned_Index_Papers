@@ -1,0 +1,37 @@
+{
+    "paperId": "abc29befe7d7fedd21f210e8517fdbe3c3c79132",
+    "title": "Efficient and Confidentiality-Preserving Bloom Filter-Encoded Video Search",
+    "year": 2025,
+    "venue": "IEEE Internet of Things Journal",
+    "authors": [
+        "Xu Yang",
+        "Hongguang Zhao",
+        "Saiyu Qi",
+        "Ke Li",
+        "Qiuhao Wang",
+        "Yong Qi",
+        "Wei Wei",
+        "Shahid Mumtaz"
+    ],
+    "doi": "10.1109/JIOT.2025.3566086",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/abc29befe7d7fedd21f210e8517fdbe3c3c79132",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Content based video search services find extensive applications across various domains, including video surveillance and object detection. In recent times, researchers have increasingly turned their attention toward enhancing the security of video search over outsourced encrypted videos. Nonetheless, prior researchers often leverage cost-expensive techniques like Homomorphic encryption or Order-preserving encryption to ensure privacy preservation. To reduce the overhead, bloom filter (BF)-encoded keyword search is a promising technology for retrieving encrypted videos with image queries. However, it generally suffers from serious data privacy leakage since it will reveal the inclusion relationship between “1” and “0” in the BF. Fortunately, the privacy-preserving BF-based search scheme (PBKS) was recently proposed to achieve secure and effective search while protecting the values in BFs, but it still has two limitations. One is the size of a search token is very large in some cases and the other is the cloud server can infer the true value of each bit in the BF by doing a few operations. In this article, we propose an efficient and confidentiality-preserving BF-encoded video search (ECVS) scheme for retrieving encrypted videos with image queries. We first design a new prefix-constrained pseudorandom function (CPRF)-based token compression method to reduce the size of the search token and reduce the communication cost largely. Furthermore, we customize a periodic refresh mechanism to conceal the true value of each bit in the BF while avoiding excessive computational pressure on resource-limited users. Security analysis and experiments confirm the security and efficiency of our schemes.",
+    "citationCount": 1,
+    "referenceCount": 44
+}

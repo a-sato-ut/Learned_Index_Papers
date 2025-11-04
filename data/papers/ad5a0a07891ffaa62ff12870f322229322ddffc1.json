@@ -1,0 +1,44 @@
+{
+    "paperId": "ad5a0a07891ffaa62ff12870f322229322ddffc1",
+    "title": "Biostatistical Aspects of Whole Genome Sequencing Studies: Preprocessing and Quality Control",
+    "year": 2024,
+    "venue": "Biometrical journal. Biometrische Zeitschrift",
+    "authors": [
+        "R. Betschart",
+        "C. Riccio",
+        "Domingo Aguilera-Garcia",
+        "Stefan Blankenberg",
+        "Linlin Guo",
+        "H. Moch",
+        "Dagmar Seidl",
+        "Hugo Solleder",
+        "Felix Thalén",
+        "Alexandre Thiéry",
+        "R. Twerenbold",
+        "Tanja Zeller",
+        "M. Zoche",
+        "Andreas Ziegler"
+    ],
+    "doi": "10.1002/bimj.202300278",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ad5a0a07891ffaa62ff12870f322229322ddffc1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/bimj.202300278",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Rapid advances in high‐throughput DNA sequencing technologies have enabled large‐scale whole genome sequencing (WGS) studies. Before performing association analysis between phenotypes and genotypes, preprocessing and quality control (QC) of the raw sequence data need to be performed. Because many biostatisticians have not been working with WGS data so far, we first sketch Illumina's short‐read sequencing technology. Second, we explain the general preprocessing pipeline for WGS studies. Third, we provide an overview of important QC metrics, which are applied to WGS data: on the raw data, after mapping and alignment, after variant calling, and after multisample variant calling. Fourth, we illustrate the QC with the data from the GENEtic SequencIng Study Hamburg–Davos (GENESIS‐HD), a study involving more than 9000 human whole genomes. All samples were sequenced on an Illumina NovaSeq 6000 with an average coverage of 35× using a PCR‐free protocol. For QC, one genome in a bottle (GIAB) trio was sequenced in four replicates, and one GIAB sample was successfully sequenced 70 times in different runs. Fifth, we provide empirical data on the compression of raw data using the DRAGEN original read archive (ORA). The most important quality metrics in the application were genetic similarity, sample cross‐contamination, deviations from the expected Het/Hom ratio, relatedness, and coverage. The compression ratio of the raw files using DRAGEN ORA was 5.6:1, and compression time was linear by genome coverage. In summary, the preprocessing, joint calling, and QC of large WGS studies are feasible within a reasonable time, and efficient QC procedures are readily available.",
+    "citationCount": 2,
+    "referenceCount": 132
+}

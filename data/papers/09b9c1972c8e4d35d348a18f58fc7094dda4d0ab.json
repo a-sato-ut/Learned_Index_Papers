@@ -1,0 +1,39 @@
+{
+    "paperId": "09b9c1972c8e4d35d348a18f58fc7094dda4d0ab",
+    "title": "Battery Safety Evaluation Based on Risk Control and Collection Data Processing",
+    "year": 2024,
+    "venue": "IEEE International Conference on Power and Renewable Energy",
+    "authors": [
+        "Wanwei Wang",
+        "Xiaorong Huang",
+        "Ben Su",
+        "Zhiliang Cai",
+        "Jianfeng Liu",
+        "Wentao Huang"
+    ],
+    "doi": "10.1109/ICPRE62586.2024.10768587",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/09b9c1972c8e4d35d348a18f58fc7094dda4d0ab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Materials Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper introduces a battery safety assessment method grounded in risk control and data processing of collection, which evaluates the safety performance of batteries in an innovative way. The approach is predicated on the study of internal parameters that influence the safety performance of batteries, leading to the design of an equivalent circuit model. the remaining battery power is derived through the Coulomb counting method, open-circuit voltage method, and capacitance voltage method. Ultimately, safety assessment outcomes are produced by integrating risk control with data collection and processing. In order to perform a safety assessment of the battery, the parameters of the battery equivalent model were first determined based on the specifications of the battery equivalent model. Subsequently, the remaining battery power is obtained by using the ampere-hour integration method, the open-circuit voltage method, and the capacitor voltage method. After obtaining the safety assessment parameters through principal component analysis, the internal parameters of the sample power battery are combined to iteratively train the fault diagnostic model, and the fault diagnostic results of the sample power battery are output to determine the safety assessment data of the power battery. Finally, the data and parameters are used to train the risk control collection model, and then assess the battery safety. This method improves the accuracy of battery charge state estimation, improves the battery safety assessment system, and ensures the stable operation of the system.",
+    "citationCount": 0,
+    "referenceCount": 14
+}

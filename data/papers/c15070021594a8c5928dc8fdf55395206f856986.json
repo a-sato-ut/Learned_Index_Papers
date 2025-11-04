@@ -1,0 +1,41 @@
+{
+    "paperId": "c15070021594a8c5928dc8fdf55395206f856986",
+    "title": "End-to-End Performance Analysis of Learning-enabled Systems",
+    "year": 2024,
+    "venue": "ACM Workshop on Hot Topics in Networks",
+    "authors": [
+        "Pooria Namyar",
+        "Michael Schapira",
+        "Ramesh Govindan",
+        "Santiago Segarra",
+        "Ryan Beckett",
+        "S. Kakarla",
+        "Behnaz Arzani"
+    ],
+    "doi": "10.1145/3696348.3696875",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c15070021594a8c5928dc8fdf55395206f856986",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a performance analysis tool for learning-enabled systems that allows operators to uncover potential performance issues before deploying DNNs in their systems. The tools that exist for this purpose require operators to faithfully model all components (a white-box approach) or do inefficient black-box local search. We propose a gray-box alternative, which eliminates the need to precisely model all the system's components. Our approach is faster and finds substantially worse scenarios compared to prior work. We show that a state-of-the-art learning-enabled traffic engineering pipeline can underperform the optimal by 6× --- a much higher number compared to what the authors found.",
+    "citationCount": 1,
+    "referenceCount": 49
+}

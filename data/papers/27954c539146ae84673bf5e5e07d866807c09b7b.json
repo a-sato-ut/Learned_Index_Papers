@@ -1,0 +1,35 @@
+{
+    "paperId": "27954c539146ae84673bf5e5e07d866807c09b7b",
+    "title": "SIMPLE: Efficient Temporal Graph Neural Network Training at Scale with Dynamic Data Placement",
+    "year": 2024,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Shihong Gao",
+        "Yiming Li",
+        "Xin Zhang",
+        "Yanyan Shen",
+        "Yingxia Shao",
+        "Lei Chen"
+    ],
+    "doi": "10.1145/3654977",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/27954c539146ae84673bf5e5e07d866807c09b7b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Dynamic graphs are essential in real-world scenarios like social media and e-commerce for tasks such as predicting links and classifying nodes. Temporal Graph Neural Networks (T-GNNs) stand out as a prime solution for managing dynamic graphs, employing temporal message passing to compute node embeddings at specific timestamps. Nonetheless, the high CPU-GPU data loading overhead has become the bottleneck for efficient training of T-GNNs over large-scale dynamic graphs. In this work, we present SIMPLE, a versatile system designed to address the major efficiency bottleneck in training existing T-GNNs on a large scale. It incorporates a dynamic data placement mechanism, which maintains a small buffer space in available GPU memory and dynamically manages its content during T-GNN training. SIMPLE is also empowered by systematic optimizations towards data processing flow. We compare SIMPLE to the state-of-the-art generic T-GNN training system TGL on four large-scale dynamic graphs with different underlying T-GNN models. Extensive experimental results show that SIMPLE effectively cuts down 80.5% ~ 96.8% data loading cost, and accelerates T-GNN training by 1.8× ~ 3.8× (2.6× on average) compared to TGL.",
+    "citationCount": 15,
+    "referenceCount": 42
+}

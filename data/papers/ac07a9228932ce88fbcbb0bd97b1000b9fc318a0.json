@@ -1,0 +1,34 @@
+{
+    "paperId": "ac07a9228932ce88fbcbb0bd97b1000b9fc318a0",
+    "title": "Learning Semantics, Not Addresses: Runtime Neural Prefetching for Far Memory",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Yutong Huang",
+        "Zhiyuan Guo",
+        "Yiying Zhang"
+    ],
+    "doi": null,
+    "arxivId": "2506.00384",
+    "url": "https://www.semanticscholar.org/paper/ac07a9228932ce88fbcbb0bd97b1000b9fc318a0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Memory prefetching has long boosted CPU caches and is increasingly vital for far-memory systems, where large portions of memory are offloaded to cheaper, remote tiers. While effective prefetching requires accurate prediction of future accesses, prior ML approaches have been limited to simulation or small-scale hardware. We introduce FarSight, the first Linux-based far-memory system to leverage deep learning by decoupling application semantics from runtime memory layout. This separation enables offline-trained models to predict access patterns over a compact ordinal vocabulary, which are resolved at runtime through lightweight mappings. Across four data-intensive workloads, FarSight delivers up to 3.6x higher performance than the state-of-the-art.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

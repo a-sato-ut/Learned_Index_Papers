@@ -1,0 +1,41 @@
+{
+    "paperId": "a38694b3578baa9285d714c9e6f570ae0b291260",
+    "title": "Nucleotide String Indexing using Range Matching",
+    "year": 2023,
+    "venue": "ACM International Conference on Bioinformatics, Computational Biology and Biomedicine",
+    "authors": [
+        "Alon Rashelbach",
+        "Ori Rottenstreich",
+        "M. Silberstein"
+    ],
+    "doi": "10.1145/3584371.3613024",
+    "arxivId": "2308.03804",
+    "url": "https://www.semanticscholar.org/paper/a38694b3578baa9285d714c9e6f570ae0b291260",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3584371.3613024",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The most common data-structures for genome indexing exhibit a fundamental trade-off between memory footprint and performance. We present Ranger, a new indexing technique that is both memory efficient and fast, and integrate it into the popular Minimap2 tool. Ranger achieves almost identical end-to-end performance as the original Minimap2, while occupying up to 1.7× and 1.2× less memory. With a limited memory capacity, Ranger achieves up to 4.3× performance speedup compares to current indexing techniques.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

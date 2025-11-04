@@ -1,0 +1,33 @@
+{
+    "paperId": "a87f817e6e0c36712f8779e93fd2164a7c20ddba",
+    "title": "The full story of 1000 cores",
+    "year": 2022,
+    "venue": "The VLDB journal",
+    "authors": [
+        "Tiemo Bang",
+        "Norman May",
+        "Ilia Petrov",
+        "Carsten Binnig"
+    ],
+    "doi": "10.1007/s00778-022-00742-4",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a87f817e6e0c36712f8779e93fd2164a7c20ddba",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s00778-022-00742-4.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In our initial DaMoN paper, we set out the goal to revisit the results of “Starring into the Abyss [...] of Concurrency Control with [1000] Cores” (Yu in Proc. VLDB Endow 8: 209-220, 2014). Against their assumption, today we do not see single-socket CPUs with 1000 cores. Instead, multi-socket hardware is prevalent today and in fact offers over 1000 cores. Hence, we evaluated concurrency control (CC) schemes on a real (Intel-based) multi-socket platform. To our surprise, we made interesting findings opposing results of the original analysis that we discussed in our initial DaMoN paper. In this paper, we further broaden our analysis, detailing the effect of hardware and workload characteristics via additional real hardware platforms (IBM Power8 and 9) and the full TPC-C transaction mix. Among others, we identified clear connections between the performance of the CC schemes and hardware characteristics, especially concerning NUMA and CPU cache. Overall, we conclude that no CC scheme can efficiently make use of large multi-socket hardware in a robust manner and suggest several directions on how CC schemes and overall OLTP DBMS should evolve in future.",
+    "citationCount": 6,
+    "referenceCount": 79
+}

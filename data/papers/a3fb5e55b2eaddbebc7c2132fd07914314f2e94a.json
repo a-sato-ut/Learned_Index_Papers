@@ -1,0 +1,34 @@
+{
+    "paperId": "a3fb5e55b2eaddbebc7c2132fd07914314f2e94a",
+    "title": "Algorithm 1037: SuiteSparse:GraphBLAS: Parallel Graph Algorithms in the Language of Sparse Linear Algebra",
+    "year": 2023,
+    "venue": "ACM Transactions on Mathematical Software",
+    "authors": [
+        "T. Davis"
+    ],
+    "doi": "10.1145/3577195",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a3fb5e55b2eaddbebc7c2132fd07914314f2e94a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3577195",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "SuiteSparse:GraphBLAS is a full parallel implementation of the GraphBLAS standard, which defines a set of sparse matrix operations on an extended algebra of semirings using an almost unlimited variety of operators and types. When applied to sparse adjacency matrices, these algebraic operations are equivalent to computations on graphs. A description of the parallel implementation of SuiteSparse:GraphBLAS is given, including its novel parallel algorithms for sparse matrix multiply, addition, element-wise multiply, submatrix extraction and assignment, and the GraphBLAS mask/accumulator operation. Its performance is illustrated by solving the graph problems in the GAP Benchmark and by comparing it with other sparse matrix libraries.",
+    "citationCount": 19,
+    "referenceCount": 60
+}

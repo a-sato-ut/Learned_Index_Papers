@@ -1,0 +1,33 @@
+{
+    "paperId": "dcd5f89d21d397485fa385120e98ec49a2164193",
+    "title": "QardEst: Using Quantum Machine Learning for Cardinality Estimation of Join Queries",
+    "year": 2024,
+    "venue": "Q-DATA@SIGMOD",
+    "authors": [
+        "Florian Kittelmann",
+        "Pavel Sulimov",
+        "Kurt Stockinger"
+    ],
+    "doi": "10.1145/3665225.3665444",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dcd5f89d21d397485fa385120e98ec49a2164193",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://digitalcollection.zhaw.ch/bitstream/11475/30917/3/2024_Kittelmann-etal_QardEst-Evaluation-of-quantum-machine-learning-algorithms.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Classical and learned query optimizers (LQOs) use cardinality estimations as one of the critical inputs for query planning. Thus, accurately predicting the cardinality of arbitrary queries plays a vital role in query optimization. A recent boom in novel deep learning methods stimulated not only the rise of LQOs but also contributed to the appearance of learned cardinality estimators (LCEs). However, the majority of them are based on classical neural networks, ignoring that multivariate correlations between attributes across different tables could be naturally represented via entanglements in quantum circuits. In this paper, we introduce QardEst - Quantum Cardinality Estimator - a novel quantum neural network approach to estimate the cardinality of join queries. Our experiments conducted with a similar number of trainable parameters suggest that quantum neural networks executed on a quantum simulator outperform classical neural networks in terms of mean squared error as well as the q-error.",
+    "citationCount": 6,
+    "referenceCount": 52
+}

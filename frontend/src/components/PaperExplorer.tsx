@@ -75,6 +75,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       id: centerPaper.paperId,
       paper: centerPaper,
       type: 'center',
+      level: 0,
     };
     nodes.push(centerNode);
     nodeMap.set(centerPaper.paperId, centerNode);
@@ -84,6 +85,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         id: paper.paperId,
         paper,
         type: 'cites',
+        level: 1,
       };
       nodes.push(node);
       nodeMap.set(paper.paperId, node);
@@ -91,6 +93,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         source: centerPaper.paperId,
         target: paper.paperId,
         type: 'cites',
+        level: 1,
       });
     });
 
@@ -134,6 +137,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             id: level2Paper.paperId,
             paper: level2Paper,
             type: 'cites',
+            level: 2,
           };
           nodes.push(node);
           nodeMap.set(level2Paper.paperId, node);
@@ -142,6 +146,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           source: level1Paper.paperId,
           target: level2Paper.paperId,
           type: 'cites',
+          level: 2,
         });
       });
 
@@ -151,6 +156,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             id: level2Paper.paperId,
             paper: level2Paper,
             type: 'cited_by',
+            level: 2,
           };
           nodes.push(node);
           nodeMap.set(level2Paper.paperId, node);
@@ -159,6 +165,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           source: level2Paper.paperId,
           target: level1Paper.paperId,
           type: 'cited_by',
+          level: 2,
         });
       });
     });
@@ -169,6 +176,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           id: level1Paper.paperId,
           paper: level1Paper,
           type: 'cited_by',
+          level: 1,
         };
         nodes.push(node);
         nodeMap.set(level1Paper.paperId, node);
@@ -177,6 +185,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         source: level1Paper.paperId,
         target: centerPaper.paperId,
         type: 'cited_by',
+        level: 1,
       });
 
       const level2Data = citedByLevel2Results[index];
@@ -187,6 +196,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             id: level2Paper.paperId,
             paper: level2Paper,
             type: 'cited_by',
+            level: 2,
           };
           nodes.push(node);
           nodeMap.set(level2Paper.paperId, node);
@@ -195,6 +205,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           source: level1Paper.paperId,
           target: level2Paper.paperId,
           type: 'cites',
+          level: 2,
         });
       });
 
@@ -204,6 +215,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             id: level2Paper.paperId,
             paper: level2Paper,
             type: 'cited_by',
+            level: 2,
           };
           nodes.push(node);
           nodeMap.set(level2Paper.paperId, node);
@@ -212,6 +224,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           source: level2Paper.paperId,
           target: level1Paper.paperId,
           type: 'cited_by',
+          level: 2,
         });
       });
     });
@@ -254,7 +267,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       .data(edges)
       .enter()
       .append('line')
-      .attr('stroke', (d) => (d.type === 'cites' ? '#3b82f6' : '#ef4444'))
+      .attr('stroke', (d) => {
+        if (d.level === 2) return '#9ca3af';
+        return d.type === 'cites' ? '#3b82f6' : '#ef4444';
+      })
       .attr('stroke-width', 2)
       .attr('stroke-opacity', 0.6);
 
@@ -272,20 +288,90 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           .on('start', dragstarted)
           .on('drag', dragged)
           .on('end', dragended)
-      );
+      )
+      .on('mouseover', function(event, d) {
+        if (tooltipTimeout) {
+          clearTimeout(tooltipTimeout);
+          tooltipTimeout = null;
+        }
+        
+        hoveredNode = d;
+        const paper = d.paper;
+        
+        const tooltipDiv = tooltipForeignObject
+          .html('')
+          .append('xhtml:div')
+          .attr('class', `paper-card paper-card-${d.type === 'center' ? 'cites' : d.type}`)
+          .style('cursor', 'pointer')
+          .style('pointer-events', 'auto')
+          .html(`
+            <div class="paper-card-header">
+              <h3 class="paper-card-title">${paper.title}</h3>
+              <span class="paper-card-type">${d.type === 'center' ? 'Center' : d.type === 'cites' ? 'Cites' : 'Cited by'}</span>
+            </div>
+            <div class="paper-card-meta">
+              ${paper.year ? `<span class="paper-card-year">${paper.year}</span>` : ''}
+              ${paper.venue ? `<span class="paper-card-venue">${paper.venue}</span>` : ''}
+              ${paper.authors.length > 0 ? `<span class="paper-card-authors">${paper.authors.slice(0, 3).join(', ')}${paper.authors.length > 3 ? '...' : ''}</span>` : ''}
+            </div>
+            ${paper.abstract ? `<p class="paper-card-abstract">${paper.abstract.substring(0, 200)}...</p>` : ''}
+            <div class="paper-card-footer">
+              <div class="paper-card-stats">
+                <span>Cited by: ${paper.citationCount}</span>
+                <span>ReferenceCount: ${paper.referenceCount}</span>
+              </div>
+            </div>
+          `);
+        
+        const divElement = tooltipDiv.node() as HTMLDivElement;
+        if (divElement) {
+          divElement.onclick = () => {
+            setQuery(paper.title);
+            setActiveTab('list');
+            setTimeout(() => searchPapers(), 0);
+          };
+          divElement.onmouseenter = () => {
+            if (tooltipTimeout) {
+              clearTimeout(tooltipTimeout);
+              tooltipTimeout = null;
+            }
+          };
+          divElement.onmouseleave = () => {
+            tooltipTimeout = setTimeout(() => {
+              hoveredNode = null;
+              tooltip.style('opacity', 0);
+              tooltipForeignObject.style('pointer-events', 'none');
+              tooltipTimeout = null;
+            }, 300);
+          };
+        }
+        
+        tooltip
+          .attr('transform', `translate(${(d.x || 0) + 20},${(d.y || 0) - 10})`)
+          .style('opacity', 1);
+        
+        tooltipForeignObject.style('pointer-events', 'auto');
+      })
+      .on('mouseout', function() {
+        tooltipTimeout = setTimeout(() => {
+          hoveredNode = null;
+          tooltip.style('opacity', 0);
+          tooltipForeignObject.style('pointer-events', 'none');
+          tooltipTimeout = null;
+        }, 300);
+      });
 
-    // ノードの円
     node
       .append('circle')
       .attr('r', (d) => (d.type === 'center' ? 12 : 6))
       .attr('fill', (d) => {
+        if (d.level === 2) return '#9ca3af';
         if (d.type === 'center') return '#10b981';
         return d.type === 'cites' ? '#3b82f6' : '#ef4444';
       })
       .attr('stroke', '#fff')
       .attr('stroke-width', 2);
 
-    // ノードのラベル
     node
       .append('text')
       .text((d) => d.paper.title.substring(0, 30) + (d.paper.title.length > 30 ? '...' : ''))
@@ -294,6 +380,19 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       .attr('font-size', (d) => (d.type === 'center' ? '12px' : '10px'))
       .attr('fill', '#333')
       .style('pointer-events', 'none');
+
+    const tooltip = g
+      .append('g')
+      .attr('class', 'tooltip')
+      .style('opacity', 0)
+      .style('pointer-events', 'none');
+
+    const tooltipForeignObject = tooltip
+      .append('foreignObject')
+      .attr('width', 350)
+      .attr('height', 300);
+
+    let tooltipTimeout: NodeJS.Timeout | null = null;
 
     // シミュレーション
     const simulation = d3
@@ -309,6 +408,8 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       .force('center', d3.forceCenter(width / 2, height / 2))
       .force('collision', d3.forceCollide<PaperNode>().radius(30));
 
+    let hoveredNode: PaperNode | null = null;
+    
     simulation.on('tick', () => {
       link
         .attr('x1', (d) => {
@@ -329,6 +430,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         });
 
       node.attr('transform', (d) => `translate(${d.x || 0},${d.y || 0})`);
+      
+      if (hoveredNode) {
+        tooltip.attr('transform', `translate(${(hoveredNode.x || 0) + 20},${(hoveredNode.y || 0) - 10})`);
+      }
     });
 
     function dragstarted(event: d3.D3DragEvent<SVGGElement, PaperNode, PaperNode>) {
@@ -467,7 +572,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       .data(edges)
       .enter()
       .append('line')
-      .attr('stroke', (d) => (d.type === 'cites' ? '#3b82f6' : '#ef4444'))
+      .attr('stroke', (d) => {
+        if (d.level === 2) return '#9ca3af';
+        return d.type === 'cites' ? '#3b82f6' : '#ef4444';
+      })
       .attr('stroke-width', 2)
       .attr('stroke-opacity', 0.6);
 
@@ -485,12 +593,84 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           .on('start', dragstarted)
           .on('drag', dragged)
           .on('end', dragended)
-      );
+      )
+      .on('mouseover', function(event, d) {
+        if (tooltipTimeout) {
+          clearTimeout(tooltipTimeout);
+          tooltipTimeout = null;
+        }
+        
+        hoveredNode = d;
+        const paper = d.paper;
+        
+        const tooltipDiv = tooltipForeignObject
+          .html('')
+          .append('xhtml:div')
+          .attr('class', `paper-card paper-card-${d.type === 'center' ? 'cites' : d.type}`)
+          .style('cursor', 'pointer')
+          .style('pointer-events', 'auto')
+          .html(`
+            <div class="paper-card-header">
+              <h3 class="paper-card-title">${paper.title}</h3>
+              <span class="paper-card-type">${d.type === 'center' ? 'Center' : d.type === 'cites' ? 'Cites' : 'Cited by'}</span>
+            </div>
+            <div class="paper-card-meta">
+              ${paper.year ? `<span class="paper-card-year">${paper.year}</span>` : ''}
+              ${paper.venue ? `<span class="paper-card-venue">${paper.venue}</span>` : ''}
+              ${paper.authors.length > 0 ? `<span class="paper-card-authors">${paper.authors.slice(0, 3).join(', ')}${paper.authors.length > 3 ? '...' : ''}</span>` : ''}
+            </div>
+            ${paper.abstract ? `<p class="paper-card-abstract">${paper.abstract.substring(0, 200)}...</p>` : ''}
+            <div class="paper-card-footer">
+              <div class="paper-card-stats">
+                <span>Cited by: ${paper.citationCount}</span>
+                <span>ReferenceCount: ${paper.referenceCount}</span>
+              </div>
+            </div>
+          `);
+        
+        const divElement = tooltipDiv.node() as HTMLDivElement;
+        if (divElement) {
+          divElement.onclick = () => {
+            setQuery(paper.title);
+            setActiveTab('list');
+            setTimeout(() => searchPapers(), 0);
+          };
+          divElement.onmouseenter = () => {
+            if (tooltipTimeout) {
+              clearTimeout(tooltipTimeout);
+              tooltipTimeout = null;
+            }
+          };
+          divElement.onmouseleave = () => {
+            tooltipTimeout = setTimeout(() => {
+              hoveredNode = null;
+              tooltip.style('opacity', 0);
+              tooltipForeignObject.style('pointer-events', 'none');
+              tooltipTimeout = null;
+            }, 300);
+          };
+        }
+        
+        tooltip
+          .attr('transform', `translate(${(d.x || 0) + 20},${(d.y || 0) - 10})`)
+          .style('opacity', 1);
+        
+        tooltipForeignObject.style('pointer-events', 'auto');
+      })
+      .on('mouseout', function() {
+        tooltipTimeout = setTimeout(() => {
+          hoveredNode = null;
+          tooltip.style('opacity', 0);
+          tooltipForeignObject.style('pointer-events', 'none');
+          tooltipTimeout = null;
+        }, 300);
+      });
 
     node
       .append('circle')
       .attr('r', (d) => (d.type === 'center' ? 12 : 6))
       .attr('fill', (d) => {
+        if (d.level === 2) return '#9ca3af';
         if (d.type === 'center') return '#10b981';
         return d.type === 'cites' ? '#3b82f6' : '#ef4444';
       })
@@ -505,6 +685,19 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       .attr('font-size', (d) => (d.type === 'center' ? '12px' : '10px'))
       .attr('fill', '#333')
       .style('pointer-events', 'none');
+
+    const tooltip = g
+      .append('g')
+      .attr('class', 'tooltip')
+      .style('opacity', 0)
+      .style('pointer-events', 'none');
+
+    const tooltipForeignObject = tooltip
+      .append('foreignObject')
+      .attr('width', 350)
+      .attr('height', 300);
+
+    let tooltipTimeout: NodeJS.Timeout | null = null;
 
     const simulation = d3
       .forceSimulation<PaperNode>(nodes)
@@ -524,6 +717,8 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         return range ? range.center : padding;
       }).strength(0.5));
 
+    let hoveredNode: PaperNode | null = null;
+    
     simulation.on('tick', () => {
       nodes.forEach(node => {
         const year = node.paper.year || 0;
@@ -558,6 +753,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         });
 
       node.attr('transform', (d) => `translate(${d.x || 0},${d.y || 0})`);
+      
+      if (hoveredNode) {
+        tooltip.attr('transform', `translate(${(hoveredNode.x || 0) + 20},${(hoveredNode.y || 0) - 10})`);
+      }
     });
 
     function dragstarted(event: d3.D3DragEvent<SVGGElement, PaperNode, PaperNode>) {

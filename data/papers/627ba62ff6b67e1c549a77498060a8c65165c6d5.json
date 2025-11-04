@@ -1,0 +1,28 @@
+{
+    "paperId": "627ba62ff6b67e1c549a77498060a8c65165c6d5",
+    "title": "Enhanced Learned Query Driven Cardinality Estimator with Active Learning",
+    "year": 2023,
+    "venue": "2023 International Conference on Algorithms, Computing and Data Processing (ACDP)",
+    "authors": [
+        "Yiheng Tang",
+        "Siyu Zhan",
+        "Li Zhou"
+    ],
+    "doi": "10.1109/ACDP59959.2023.00021",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/627ba62ff6b67e1c549a77498060a8c65165c6d5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent research has shown the excellent per-formance of using machine learning algorithms to optimize database query optimizer, especially the cardinality estimator. Cardinality estimation is a crucial component of query op-timization, as it directly affects the accuracy of cost model and play a critical role in evaluating query execution plans. Learned query-driven cardinality estimation methods aim to capture query features and data distribution, learning the regression from query to cardinality, resulting in more pre-cise cardinality predictions. However, in dynamic production environments, the performance of supervised models can significantly decrease due to data change operations such as insertion, deletion, and update. To address this, We introduce an active learning based model updating strategy that enhances the accuracy of the learned query-driven cardinality estimator, while reducing the model update time in dynamic data change scenarios. We selected two classic, learned query-driven cardinality estimation methods (LW-NN and MSCN) and tested the impact of our proposed model updating strategy on them in the PostgreSQ L database. The experimental results show that our method achieved an effective balance between model accuracy and updating time. This indicates that our method can promote the application of learned query-driven cardinality estimator in the dynamic production deployment environment.",
+    "citationCount": 0,
+    "referenceCount": 14
+}

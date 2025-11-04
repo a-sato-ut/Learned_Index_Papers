@@ -1,0 +1,34 @@
+{
+    "paperId": "250fee4fa7f422d39a8554ae22a899625ea43c08",
+    "title": "Reachability Analysis of Neural Networks with Uncertain Parameters",
+    "year": 2023,
+    "venue": "IFAC-PapersOnLine",
+    "authors": [
+        "Pierre-Jean Meyer"
+    ],
+    "doi": "10.48550/arXiv.2303.07917",
+    "arxivId": "2303.07917",
+    "url": "https://www.semanticscholar.org/paper/250fee4fa7f422d39a8554ae22a899625ea43c08",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2303.07917",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The literature on reachability analysis methods for neural networks currently only focuses on uncertainties on the network's inputs. In this paper, we introduce two new approaches for the reachability analysis of neural networks with additional uncertainties on their internal parameters (weight matrices and bias vectors of each layer), which may open the field of formal methods on neural networks to new topics, such as safe training or network repair. The first and main method that we propose relies on existing reachability analysis approach based on mixed monotonicity (initially introduced for dynamical systems). The second proposed approach extends the ESIP (Error-based Symbolic Interval Propagation) approach which was first implemented in the verification tool Neurify, and first mentioned in the publication of the tool VeriNet. Although the ESIP approach has been shown to often outperform the mixed-monotonicity reachability analysis in the classical case with uncertainties only on the network's inputs, we show in this paper through numerical simulations that the situation is greatly reversed (in terms of precision, computation time, memory usage, and broader applicability) when dealing with uncertainties on the weights and biases.",
+    "citationCount": 0,
+    "referenceCount": 27
+}

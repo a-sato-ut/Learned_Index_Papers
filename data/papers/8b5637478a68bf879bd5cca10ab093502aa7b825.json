@@ -1,0 +1,33 @@
+{
+    "paperId": "8b5637478a68bf879bd5cca10ab093502aa7b825",
+    "title": "Remote Memory Prefetching: Is Coarse-grained Fine?",
+    "year": 2025,
+    "venue": "International Conference on Performance Engineering",
+    "authors": [
+        "James McMahon",
+        "Vinita Pawar",
+        "Ryan Stutsman"
+    ],
+    "doi": "10.1145/3680256.3721318",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8b5637478a68bf879bd5cca10ab093502aa7b825",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "CXL raises new questions about tiering, pooling, and remote memory access. In most disaggregated memory approaches, compute nodes access remote memory pools at page (4~KB) granularity. This is the case for two reasons: to help amortize high remote access costs and because the host CPUs' address translation hardware is set up for 4~KB pages. While fetching and caching whole remote pages helps with applications that have high spatial locality, for some applications it can introduce contention for cache capacity since potentially cold or unrelated adjacent data is also cached. Additionally, this can increase network bandwidth utilization. Operating at a smaller cache block granularity (e.g.\\ 64~B) could reduce remote access amplification and make more efficient use of local caches and the network. Further, operating at a cacheline granularity would allow future work to build upon the many decades of work done in CPU hardware data prefetching, since prefetchers at that level primarily operate at small cacheline granularities. Because of the higher latencies associated with remote memory access, more time and hardware resources can be used to generate prefetch predictions. This could allow previous models that were too complex for real-world CPU data prefetching to find practical application and for practical models to be scaled up. In this work, we explore whether cacheline-granular prefetching could be beneficial for memory pooling and far-memory systems. Specifically, we investigate whether it is possible to achieve performance comparable to today's page-granular remote accesses by using small, cacheline-granular remote accesses with aggressive prefetching. This paper shows that while cacheline-granular prefetching seems like a natural next step for remote CXL devices, beating page granular accesses appears to be difficult for the workloads we explored.",
+    "citationCount": 0,
+    "referenceCount": 21
+}

@@ -1,0 +1,30 @@
+{
+    "paperId": "1011413d062f4314cc01f34ebf8cac82d8ae14bc",
+    "title": "COPR -- Efficient, large-scale log storage and retrieval",
+    "year": 2024,
+    "venue": "",
+    "authors": [
+        "Julian Reichinger",
+        "Thomas Krismayer",
+        "Jan Rellermeyer"
+    ],
+    "doi": null,
+    "arxivId": "2402.18355",
+    "url": "https://www.semanticscholar.org/paper/1011413d062f4314cc01f34ebf8cac82d8ae14bc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern, large scale monitoring systems have to process and store vast amounts of log data in near real-time. At query time the systems have to find relevant logs based on the content of the log message using support structures that can scale to these amounts of data while still being efficient to use. We present our novel Compressed Probabilistic Retrieval algorithm (COPR), capable of answering Multi-Set Multi-Membership-Queries, that can be used as an alternative to existing indexing structures for streamed log data. In our experiments, COPR required up to 93% less storage space than the tested state-of-the-art inverted index and had up to four orders of magnitude less false-positives than the tested state-of-the-art membership sketch. Additionally, COPR achieved up to 250 times higher query throughput than the tested inverted index and up to 240 times higher query throughput than the tested membership sketch.",
+    "citationCount": 0,
+    "referenceCount": 42
+}

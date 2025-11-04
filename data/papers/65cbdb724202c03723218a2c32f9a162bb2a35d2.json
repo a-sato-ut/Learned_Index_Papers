@@ -1,0 +1,36 @@
+{
+    "paperId": "65cbdb724202c03723218a2c32f9a162bb2a35d2",
+    "title": "An Intelligent Framework for Oversubscription Management in CPU-GPU Unified Memory",
+    "year": 2022,
+    "venue": "Journal of Grid Computing",
+    "authors": [
+        "Xinjian Long",
+        "Xiang Gong",
+        "Huiyang Zhou"
+    ],
+    "doi": "10.1007/s10723-023-09646-1",
+    "arxivId": "2204.02974",
+    "url": "https://www.semanticscholar.org/paper/65cbdb724202c03723218a2c32f9a162bb2a35d2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2204.02974",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Unified virtual memory (UVM) improves GPU programmability by enabling on-demand data movement between CPU memory and GPU memory. However, due to the limited capacity of GPU device memory, oversubscription overhead becomes a major performance bottleneck for data-intensive workloads running on GPUs with UVM. This paper proposes a novel framework for UVM oversubscription management in discrete CPU-GPU systems. It consists of an access pattern classifier followed by a pattern-specific transformer-based model using a novel loss function aiming to reduce page thrashing. A policy engine is designed to leverage the model’s result to perform accurate page prefetching and eviction. Our evaluation shows that our proposed framework significantly outperforms the state-of-the-art (SOTA) methods on a set of 11 memory-intensive benchmarks, reducing the number of pages thrashed by 64.4% under 125% memory oversubscription compared to the baseline, while the SOTA method reduces the number of pages thrashed by 17.3%. Compared to the SOTA method, our solution achieves average IPC improvement of 1.52X and 3.66X under 125% and 150% memory oversubscription.",
+    "citationCount": 8,
+    "referenceCount": 56
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "7ec8c2481a7913bb6891adc58215eca6463061de",
+    "title": "BTCP: Binary Temporal Convolutional Network-Based Data Prefetcher for Low Inference Latency and Storage Overhead",
+    "year": 2025,
+    "venue": "IEEE Access",
+    "authors": [
+        "Chang Ho Ryu",
+        "Tae Hee Han"
+    ],
+    "doi": "10.1109/ACCESS.2025.3585251",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7ec8c2481a7913bb6891adc58215eca6463061de",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data prefetching is crucial for hiding long-latency memory access on modern high-performance processors. Machine learning (ML)-based data prefetchers have demonstrated superior address prediction performance compared with traditional rule-based prefetchers by learning complex patterns to hide long-latency memory access. However, prioritizing only predictive performance introduces challenges, such as increased inference latency and significant storage demands, when deployed in real hardware systems. To address these issues, we propose a binary temporal convolutional network-based data prefetcher (BTCP) that offers advantages in terms of computational efficiency and memory requirements, enabling feasible hardware implementation. The efficiency of BTCP is fundamentally attributed to its binary temporal convolutional network architecture, which achieves low inference latency and storage overhead by processing memory patterns through efficient binary operations. BTCP aids in detecting memory patterns by processing addresses and program counters through bitwise XOR operations and feeding them into a neural network. We employed positional delta maps to predict the closest future address, integrating address deltas with temporal weights for labeling. BTCP facilitates variable-degree prefetching by incorporating the ratio of irregular addresses into the positional delta map for enhanced training. The design choices result in an inference latency and storage overhead of only 134 cycles and 4,654 bytes, respectively, indicating a substantial decrease of 95.87% and 99.70%, respectively, compared to the leading ML-based prefetcher, TransFetch. With benchmark evaluations using SPEC CPU and GAP, BTCP achieved an IPC improvement of 18.70% over systems without prefetching, surpassing the state-of-the-art rule-based prefetcher Bingo by 2.78% and ML-based prefetcher TransFetch by 0.16%.",
+    "citationCount": 0,
+    "referenceCount": 49
+}

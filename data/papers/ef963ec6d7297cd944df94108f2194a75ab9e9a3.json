@@ -1,0 +1,36 @@
+{
+    "paperId": "ef963ec6d7297cd944df94108f2194a75ab9e9a3",
+    "title": "Heuristic Data Placement in Distributed Hierarchical Storage Network Using Deep Reinforcement Learning",
+    "year": 2025,
+    "venue": "Consumer Communications and Networking Conference",
+    "authors": [
+        "Ravi Kaler",
+        "Durga Toshniwal"
+    ],
+    "doi": "10.1109/CCNC54725.2025.10975927",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ef963ec6d7297cd944df94108f2194a75ab9e9a3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Intelligent data placement in hierarchical distributed storage networks (DSNs) has become crucial due to advancements in storage devices, an increase in big data applications, and strict time constraints. Inefficient data placement can lead to significant delays in data movement and increased service latency, impacting the overall performance of a distributed environment. It is a complex online decision-making problem due to its varying access patterns, dynamic network conditions, and ever-changing distributed environment, which traditional network optimization techniques fail to address efficiently. Reinforcement learning is best suited to address this problem as it learns from the environment dynamically and performs action. This paper presents a novel deep reinforcement learning (DRL) framework, soft actor-critic-2 (SAC-2), for heuristic data placement in the distributed network, leveraging the state-of-the-art SAC technique to improve efficiency, reduce latency, and subsequently minimize storage costs. We formulate the problem as a Markov Decision Process (MDP) model and incorporate a prioritized replay buffer for efficient learning. The heuristic data placement technique improves distributed hierarchical storage system efficiency compared to baseline strategies, as demonstrated by extensive experiments on Microsoft Research Cambridge (MSR) network traces.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "66d61f3a2d1c8e9de24446abf018ffd131df96de",
+    "title": "Fine-grained address segmentation for attention-based variable-degree prefetching",
+    "year": 2022,
+    "venue": "ACM International Conference on Computing Frontiers",
+    "authors": [
+        "Pengmiao Zhang",
+        "Ajitesh Srivastava",
+        "Anant V. Nori",
+        "R. Kannan",
+        "V. Prasanna"
+    ],
+    "doi": "10.1145/3528416.3530236",
+    "arxivId": "2205.02269",
+    "url": "https://www.semanticscholar.org/paper/66d61f3a2d1c8e9de24446abf018ffd131df96de",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3528416.3530236",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning algorithms have shown potential to improve prefetching performance by accurately predicting future memory accesses. Existing approaches are based on the modeling of text prediction, considering prefetching as a classification problem for sequence prediction. However, the vast and sparse memory address space leads to large vocabulary, which makes this modeling impractical. The number and order of outputs for multiple cache line prefetching are also fundamentally different from text prediction. We propose TransFetch, a novel way to model prefetching. To reduce vocabulary size, we use fine-grained address segmentation as input. To predict unordered sets of future addresses, we use delta bitmaps for multiple outputs. We apply an attention-based network to learn the mapping between input and output. Prediction experiments demonstrate that address segmentation achieves 26% - 36% higher F1-score than delta inputs and 15% - 24% higher F1-score than page & offset inputs for SPEC 2006, SPEC 2017, and GAP benchmarks. Simulation results show that TransFetch achieves 38.75% IPC improvement compared with no prefetching, outperforming the best-performing rule-based prefetcher BOP by 10.44% and ML-based prefetcher Voyager by 6.64%.",
+    "citationCount": 23,
+    "referenceCount": 74
+}

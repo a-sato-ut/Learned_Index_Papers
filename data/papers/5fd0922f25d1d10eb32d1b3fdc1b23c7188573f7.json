@@ -1,0 +1,37 @@
+{
+    "paperId": "5fd0922f25d1d10eb32d1b3fdc1b23c7188573f7",
+    "title": "CMCache: An Adaptive Cross-Level Data Placement Method for Multilevel Cache",
+    "year": 2025,
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "authors": [
+        "Zhaoyang Zeng",
+        "Yujuan Tan",
+        "Zhulin Ma",
+        "Jiali Li",
+        "Sanle Zhao",
+        "Duo Liu",
+        "Xianzhang Chen",
+        "Ao Ren"
+    ],
+    "doi": "10.1109/TCAD.2025.3534116",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5fd0922f25d1d10eb32d1b3fdc1b23c7188573f7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multilevel cache systems enhance I/O performance by optimizing data placement across various cache levels from a global perspective. However, existing methods often struggle to place data at the optimal cache level promptly due to their reliance on historical access patterns and inflexible placement strategies. These methods face two main challenges: 1) for already cached data with sufficient access history, existing approaches only optimize movement between adjacent cache levels, potentially delaying data arrival at its globally optimal cache level and leading to unnecessary bandwidth consumption and increased latency and 2) for newly entered data without access history, current methods cannot accurately predict their future hotness and simply place them at a fixed cache level (i.e., first or final level), overlooking future accesses of new data and potentially resulting in high cache miss rates or cache pollution. To address these issues, we propose CMCache, an adaptive cross-level data placement method for multilevel cache. CMCache applies distinct placement strategies for cached and new data to reach the optimal level timely, considering their different characteristics. It also logically divides cache space into two sections to manage cached and new data separately, dynamically adjusting section sizes based on access patterns. This approach significantly improves data placement efficiency, achieving up to an 89% reduction in miss rates and a 79% decrease in average response times compared to existing methods.",
+    "citationCount": 0,
+    "referenceCount": 51
+}

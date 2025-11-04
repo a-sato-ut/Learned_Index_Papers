@@ -1,0 +1,39 @@
+{
+    "paperId": "c7c628d7f84046168159d092bb4fcdcf9be558a3",
+    "title": "Achieving Privacy-Preserving Trajectory Query in Geospatial Information Systems With Outsourced Cloud",
+    "year": 2024,
+    "venue": "IEEE Transactions on Services Computing",
+    "authors": [
+        "Qinglei Kong",
+        "Songnian Zhang",
+        "Rongxing Lu",
+        "Haiyong Bao",
+        "Bo Chen",
+        "Shiwu Xu"
+    ],
+    "doi": "10.1109/TSC.2024.3377159",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c7c628d7f84046168159d092bb4fcdcf9be558a3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Geographic information system (GIS) enables operations for capturing, manipulating, analyzing, and displaying the spatial characteristics of objects on Earth's surface. As the objects in GISs are mostly location-dependent, various location privacy-preserving schemes are proposed to support the secure spatial query and analysis. However, existing location privacy-preserving mechanisms mainly focus on the <inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math><alternatives><mml:math><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href=\"kong-ieq1-3377159.gif\"/></alternatives></inline-formula>-nearest neighbor (<inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math><alternatives><mml:math><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href=\"kong-ieq2-3377159.gif\"/></alternatives></inline-formula>NN) queries and range queries and fail to consider the practical geographic implementation with quad-trees. We propose an efficient and privacy-preserving point-of-interest (POI) query scheme along the movement trajectory under the quad-tree setup in a two-server mode. Specifically, we first convert the secure identification of the target lowest-level tile into a series of private information retrieval (PIR) processes and securely derive the target POIs along the movement trajectory within the identified tile by constructing a linear polynomial passing through the origin and destination for secure distance comparison. Our scheme also supports the efficient loading of POIs contained in the adjacent tiles with privacy preservation. Security analysis demonstrates that ours can achieve the security goals of privacy preservation and confidentiality. We execute performance evaluations to show and validate the system efficiency, i.e., computational costs and communication overheads.",
+    "citationCount": 1,
+    "referenceCount": 34
+}

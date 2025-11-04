@@ -1,0 +1,36 @@
+{
+    "paperId": "5c54bd30e30b1d34ec5ed03d2d8ad0d84a2ca9da",
+    "title": "Diva: Making MVCC Systems HTAP-Friendly",
+    "year": 2022,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Jong-Bin Kim",
+        "Jaeseon Yu",
+        "Jaechan Ahn",
+        "Sooyong Kang",
+        "Hyungsoo Jung"
+    ],
+    "doi": "10.1145/3514221.3526135",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5c54bd30e30b1d34ec5ed03d2d8ad0d84a2ca9da",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multiversion concurrency control (MVCC) and design principles thereof are ingrained in modern database management systems, thus promoting remarkable progress in managing online transaction processing (OLTP) workloads for decades. However, MVCC systems would battle two vital concerns when facing hybrid transactional/analytical processing (HTAP). The first concern is to ensure rapid version searching for analytic queries with less I/O, and the second concern is to reclaim garbage data versions promptly for easing the strain on storage footprint. These are often tightly coupled since many MVCC systems rely on unified version storage that poses a space-time tradeoff in HTAP, giving rise to disappointing performance metrics that may negatively stereotype OLTP-friendly MVCC systems. This paper refutes the stereotype resulting from coupled design concerns and addresses the core problem by proposing Diva (Decoupling Index from Version dAta) that physically separates version index from version data; for decoupled concerns, we devise independent management policies: provisional version indexing and time interval-based version garbage collection. The separation of coupled concerns would render legacy disk-based MVCC systems more HTAP-friendly. We applied Diva to two full-fledged database systems---PostgreSQL and MySQL---and demonstrated that the systems with Diva escaped the space-time tradeoff under hybrid transactional/analytical workloads.",
+    "citationCount": 10,
+    "referenceCount": 93
+}

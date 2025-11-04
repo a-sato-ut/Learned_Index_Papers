@@ -1,0 +1,38 @@
+{
+    "paperId": "69195c0905162aa8478dfb4d367fd0003aa4890b",
+    "title": "SCOPE: Safe Exploration for Dynamic Computer Systems Optimization",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hyunji Kim",
+        "Ahsan Pervaiz",
+        "Henry Hoffmann",
+        "Michael Carbin",
+        "Yiqiang Ding"
+    ],
+    "doi": "10.48550/arXiv.2204.10451",
+    "arxivId": "2204.10451",
+    "url": "https://www.semanticscholar.org/paper/69195c0905162aa8478dfb4d367fd0003aa4890b",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2204.10451",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern computer systems need to execute under strict safety constraints (e.g. a power limit), but doing so often conflicts with their ability to deliver high performance (i.e. minimal latency). Prior work uses machine learning to automatically tune hardware resources such that the system execution meets safety constraints optimally. Such solutions monitor past system executions to learn the system’s behavior under different hardware resource allocations before dynamically tuning resources to optimize the application execution. However, system behavior can change significantly between different applications and even different inputs of the same applications. Hence, the models learned using data collected a priori are often suboptimal and violate safety constraints when used with new applications and/or inputs. To address this limitation, we introduce the concept of an execution space , which is the cross product of hardware resources, input features, and applications. Thus, a configuration is defined as a tuple of hardware resources, input features, and application. To dynamically and safely allocate hardware resources from the execution space, we present SCOPE 1 , a resource manager that leverages a novel safe exploration framework. SCOPE operates iteratively, with each iteration (i.e., reallocation) having three phases: monitoring, safe space construction, and objective optimization. To construct a safe set with high coverage (i.e., a high number of safe configurations in the predicted safe set), SCOPE introduces a locality preserving operator so that SCOPE’s exploration will rarely violate the safety constraint and have small magnitude violations if it does. We evaluate SCOPE’s ability to deliver improved latency while minimizing power constraint violations by dynamically configuring hardware while running a variety of Apache Spark applications. Compared to prior approaches that minimize power constraint violations, SCOPE consumes comparable power while improving latency by up to 9.5 × . Compared to prior approaches that minimize latency, SCOPE achieves similar latency but reduces power constraint violation rates by up to 45.88 × , achieving almost zero safety constraint violations across all applications.",
+    "citationCount": 1,
+    "referenceCount": 76
+}

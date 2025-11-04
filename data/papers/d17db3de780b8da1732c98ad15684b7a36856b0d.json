@@ -1,0 +1,34 @@
+{
+    "paperId": "d17db3de780b8da1732c98ad15684b7a36856b0d",
+    "title": "Provable observation noise robustness for neural network control systems",
+    "year": 2024,
+    "venue": "Res. Dir. Cyber Phys. Syst.",
+    "authors": [
+        "Veena Krish",
+        "Andrew Mata",
+        "Stanley Bak",
+        "Kerianne Hobbs",
+        "Amir Rahmati"
+    ],
+    "doi": "10.1017/cbp.2023.5",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d17db3de780b8da1732c98ad15684b7a36856b0d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/33C1C135187FF661586451DED1C2A19C/S2753851623000055a.pdf/div-class-title-provable-observation-noise-robustness-for-neural-network-control-systems-div.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Neural networks are vulnerable to adversarial perturbations: slight changes to inputs that can result in unexpected outputs. In neural network control systems, these inputs are often noisy sensor readings. In such settings, natural sensor noise—or an adversary who can manipulate them—may cause the system to fail. In this paper, we introduce the first technique to provably compute the minimum magnitude of sensor noise that can cause a neural network control system to violate a safety property from a given initial state. Our algorithm constructs a tree of possible successors with increasing noise until a specification is violated. We build on open-loop neural network verification methods to determine the least amount of noise that could change actions at each step of a closed-loop execution. We prove that this method identifies the unsafe trajectory with the least noise that leads to a safety violation. We evaluate our method on four systems: the Cart Pole and LunarLander environments from OpenAI gym, an aircraft collision avoidance system based on a neural network compression of ACAS Xu, and the SafeRL Aircraft Rejoin scenario. Our analysis produces unsafe trajectories where deviations under 1% of the sensor noise range make the systems behave erroneously.",
+    "citationCount": 1,
+    "referenceCount": 35
+}

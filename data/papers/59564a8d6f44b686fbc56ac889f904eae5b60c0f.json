@@ -1,0 +1,44 @@
+{
+    "paperId": "59564a8d6f44b686fbc56ac889f904eae5b60c0f",
+    "title": "CXL Topology-Aware and Expander-Driven Prefetching: Unlocking SSD Performance",
+    "year": 2025,
+    "venue": "IEEE Micro",
+    "authors": [
+        "Dongsuk Oh",
+        "Miryeong Kwon",
+        "Jiseon Kim",
+        "Eunjee Na",
+        "Junseok Moon",
+        "Hyunkyu Choi",
+        "Seonghyeon Jang",
+        "Hanjin Choi",
+        "Hongjoo Jung",
+        "Sangwon Lee",
+        "Myoungsoo Jung"
+    ],
+    "doi": "10.1109/mm.2025.3574293",
+    "arxivId": "2505.18577",
+    "url": "https://www.semanticscholar.org/paper/59564a8d6f44b686fbc56ac889f904eae5b60c0f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Integrating compute express link (CXL) with SSDs allows scalable access to large memory but has slower speeds than DRAMs. We present ExPAND, an expander-driven CXL prefetcher that offloads last-level cache (LLC) prefetching from host CPU to CXL-SSDs. ExPAND uses a heterogeneous prediction algorithm for prefetching and ensures data consistency with CXL.mem's back-invalidation. We examine prefetch timeliness for accurate latency estimation. ExPAND, being aware of CXL multi-tiered switching, provides end-to-end latency for each CXL-SSD and precise prefetch timeliness estimations. Our method reduces CXL-SSD reliance and enables direct host cache access for most data. ExPAND enhances graph application performance and SPEC CPU's performance by 9.0$\\times$ and 14.7$\\times$, respectively, surpassing CXL-SSD pools with diverse prefetching strategies.",
+    "citationCount": 0,
+    "referenceCount": 46
+}

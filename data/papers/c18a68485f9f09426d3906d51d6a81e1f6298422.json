@@ -1,0 +1,35 @@
+{
+    "paperId": "c18a68485f9f09426d3906d51d6a81e1f6298422",
+    "title": "SHARP: Software Hint-Assisted Memory Access Prediction for Graph Analytics",
+    "year": 2022,
+    "venue": "IEEE Conference on High Performance Extreme Computing",
+    "authors": [
+        "Pengmiao Zhang",
+        "R. Kannan",
+        "Xiangzhi Tong",
+        "Anant V. Nori",
+        "V. Prasanna"
+    ],
+    "doi": "10.1109/HPEC55821.2022.9926307",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c18a68485f9f09426d3906d51d6a81e1f6298422",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Memory system performance is a major bottleneck in large-scale graph analytics. Data prefetching can hide memory latency; this relies on accurate prediction of memory accesses. While recent machine learning approaches have performed well on memory access prediction, they are restricted to building general models, ignoring the shift of memory access patterns following the change of processing phases in software. We propose SHARP: a novel Software Hint-Assisted memoRy access Prediction approach for graph analytics under Scatter-Gather paradigm on multi-core shared-memory platforms. We intro-duce software hints, generated from programmer insertion, that explicitly indicate the processing phase of a graph processing program, i.e., Scatter or Gather. Assisted by the software hints, we develop phase-specific prediction models that use attention-based neural networks, trained by memory traces with rich context information. We use three widely-used graph algorithms and a variety of datasets for evaluation. With respect to Fl-score, SHARP outperforms the widely-used Delta-LSTM model by 16.45%-18.93% for the scatter phase and 9.50%-22.25% for the Gather phase, and outperforms the state-of-the-art TransFetch model by 3.66%-7.48% for the scatter phase and 2.69%-7.59% for the Gather phase.",
+    "citationCount": 8,
+    "referenceCount": 57
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "97d47c95d60d5b7ab0c6aee11a7bd76556d3cab7",
+    "title": "A Length Enhanced B+-Tree Based Index for Efficient Set Similarity Query",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Lianyin Jia",
+        "Shiqi Luo",
+        "Jiaman Ding",
+        "Suprio Ray",
+        "Mengjuan Li",
+        "Xiuxing Li"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00101",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/97d47c95d60d5b7ab0c6aee11a7bd76556d3cab7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Set Similarity Query (SSQ) is widely applied in various fields. The existing B+-tree-based SSQ approaches fail to fully exploit length filtering and require calculating similarity bounds in a node-wise manner, leading to low efficiency. To address these issues, we propose LeB, a novel length-enhanced B+-tree index, whose keys integrate set lengths and bucket mapping, enabling the direct pruning of sets that do not meet the length requirements. Building upon LeB, we present an efficient algorithm, LeBQ, which leverages length filtering and symmetric difference allocation to determine the key bounds for a query, enabling the key bounds computation only once for each query $Q$ and avoiding costly similarity bounds computation in a node-wise manner. Efficient key filtering strategies are proposed to prune sets that cannot be similar, significantly reducing the number of candidates. Based on LeBQ, LeBQ+ further reduces the number of candidates by introducing length-independent key bounds. Experimental results on four real datasets demonstrate that LeBQ+ has a higher node access efficiency and accesses only 3.08% to 27.47% nodes compared to the existing B+ -tree-based SSQ algorithm. LeBQ+ is up to 99.8 × faster than the state-of-the-art algorithms.",
+    "citationCount": 0,
+    "referenceCount": 33
+}

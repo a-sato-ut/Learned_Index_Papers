@@ -1,0 +1,35 @@
+{
+    "paperId": "634f273a65a96ba1d10dd12052a2e14bf024548a",
+    "title": "ReSLB: Load Balanced Workflow for Distributed Deep Learning Mass Spectrometry Database",
+    "year": 2022,
+    "venue": "2022 IEEE 24th Int Conf on High Performance Computing & Communications; 8th Int Conf on Data Science & Systems; 20th Int Conf on Smart City; 8th Int Conf on Dependability in Sensor, Cloud & Big Data Systems & Application (HPCC/DSS/SmartCity/DependSys)",
+    "authors": [
+        "Mocheng Li",
+        "Yang Liu",
+        "Yang Ou",
+        "Zhiguang Chen",
+        "Nong Xiao",
+        "Tao Chen"
+    ],
+    "doi": "10.1109/HPCC-DSS-SmartCity-DependSys57074.2022.00055",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/634f273a65a96ba1d10dd12052a2e14bf024548a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The proteomics data analysis pipeline based on the shotgun method requires efficient data processing methods. The parallel algorithm of mass spectrometry database search faces the problems of rapidly expanding database size but low scalability. The heterogeneous database search algorithm based on deep learning is an effective way to solve this problem. Still, the deep learning-based distributed parallel database search algorithm is lacking. This paper analyzes the database searching computational load using a neural network and designs ReSLB, a workflow for the restricted search of mass spectrometry data based on GPU cluster and neural network scoring algorithm. This work aims to ensure the high scalability of future deep learning-based mass spectrometry distributed databases. In the performance estimation of 256 GPUs, the load imbalance of less than 30% and the parallel efficiency of 60% are achieved. Compared with state-of-the-art, the time cost is reduced by 75%, and the parallel efficiency from 1 to 256 GPUs is 3.6x higher than that.",
+    "citationCount": 0,
+    "referenceCount": 17
+}

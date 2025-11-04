@@ -1,0 +1,35 @@
+{
+    "paperId": "1669de122a94e401fa6a8563dbab9002864cae61",
+    "title": "Efficiently Finding Adversarial Examples with DNN Preprocessing",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Avriti Chauhan",
+        "Mohammad Afzal",
+        "Hrishikesh Karmarkar",
+        "Y. Elboher",
+        "Kumar Madhukar",
+        "Guy Katz"
+    ],
+    "doi": "10.48550/arXiv.2211.08706",
+    "arxivId": "2211.08706",
+    "url": "https://www.semanticscholar.org/paper/1669de122a94e401fa6a8563dbab9002864cae61",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2211.08706",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": ". Deep Neural Networks (DNNs) are everywhere, frequently performing a fairly complex task that used to be unimaginable for ma-chines to carry out. In doing so, they do a lot of decision making which, depending on the application, may be disastrous if gone wrong. This necessitates a formal argument that the underlying neural networks sat-isfy certain desirable properties. Robustness is one such key property for DNNs, particularly if they are being deployed in safety- or business-critical applications. Informally speaking, a DNN is not robust if very small changes to its input may aﬀect the output in a considerable way (e.g. changes the classiﬁcation for that input). The task of ﬁnding an adversarial example is to demonstrate this lack of robustness, whenever applicable. While this is doable with the help of constrained optimization techniques, scalability becomes a challenge due to large-sized networks. This paper proposes the use of information gathered by preprocessing the DNN to heavily simplify the optimization problem. Our experiments substantiate that this is eﬀective, and does signiﬁcantly better than the state-of-the-art.",
+    "citationCount": 0,
+    "referenceCount": 28
+}

@@ -1,0 +1,28 @@
+{
+    "paperId": "9f0d1821ff3bce2503fdf5d5d687e90b36686d38",
+    "title": "Micro-MAMA: Multi-Agent Reinforcement Learning for Multicore Prefetching",
+    "year": 2025,
+    "venue": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "authors": [
+        "Charles Block",
+        "Gerasimos Gerogiannis",
+        "Josep Torrellas"
+    ],
+    "doi": "10.1145/3725843.3756096",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9f0d1821ff3bce2503fdf5d5d687e90b36686d38",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Online reinforcement learning (RL) holds promise for microarchitectural techniques like prefetching. Its ability to adapt to changing and previously-unseen scenarios makes it a versatile technique. However, when multiple RL-operated components compete for shared resources in multicore systems, they can often converge to sub-optimal policies due to conflicting incentives. In this work, we identify key challenges that arise when scaling RL-based prefetchers to multi-core environments, and relate these to known problems from Multi-Agent Reinforcement Learning (MARL). In particular, we find that recent work using multi-armed bandit algorithms for prefetching can lead to inefficient systems when memory bandwidth is limited, as each agent attempts to claim a disproportionate share of the system’s bandwidth. To solve this problem, we present μMama, a light-weight supervisor of distributed multi-armed bandit agents, which learns performant joint-policies. In μMama, distributed local agents narrow the global joint-action search space, while a central agent with a global perspective learns system-wide policies. Additionally, μMama provides key local agents with a system perspective, encouraging them to avoid actions that would harm the others. μMama exhibits high adaptability, which we show by evaluating it using multiple measures of performance. In our evaluation of an 8-core system, the policies learned by μMama outperform those of independently-operating agents by an average of 2.1% when optimizing for throughput, and by an average of 10.4% when optimizing for fairness. We also show that μMama performs better in systems that are more bandwidth constrained, as well as when profiles of the workloads are provided.",
+    "citationCount": 0,
+    "referenceCount": 55
+}

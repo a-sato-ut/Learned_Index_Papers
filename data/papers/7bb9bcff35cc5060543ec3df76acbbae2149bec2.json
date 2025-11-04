@@ -1,0 +1,40 @@
+{
+    "paperId": "7bb9bcff35cc5060543ec3df76acbbae2149bec2",
+    "title": "IDT: Intelligent Data Placement for Multi-tiered Main Memory with Reinforcement Learning",
+    "year": 2024,
+    "venue": "IEEE International Symposium on High-Performance Parallel Distributed Computing",
+    "authors": [
+        "Juneseo Chang",
+        "Wanju Doh",
+        "Yaebin Moon",
+        "Eojin Lee",
+        "Jung Ho Ahn"
+    ],
+    "doi": "10.1145/3625549.3658659",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7bb9bcff35cc5060543ec3df76acbbae2149bec2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "To address the limitation of a DRAM-based single-tier in satisfying the comprehensive demands of main memory, multi-tiered memory systems are gaining widespread adoption. To support these systems, operating-system-level solutions that analyze the application's memory access patterns and ensure data placement in the appropriate memory tier have been vastly explored. In this paper, we identify reinforcement learning (RL) as an effective solution for tiered memory management, and its policy can be formulated in a solvable form using RL. We also demonstrate that an effective region-granularity memory access monitoring method is necessary to provide an accurate environment state to the RL model. Thus, we propose IDT, an intelligent data placement for multi-tiered main memory. IDT incorporates an RL-based demotion policy autotuning and a mechanism that efficiently demotes cold pages to lower-tier memory. IDT also promotes hot pages to upper-tier memory to minimize access on slow memory, featuring a lightweight machine learning algorithm. IDT employs region-granularity memory access monitoring with statistical-testing-based adjacent region merge and split to improve precision and mitigate ambiguity observed in prior works. Experiments on an actual four-tiered memory system show that IDT achieves an average 2.08× speedup over the default Linux kernel and 11.2% performance improvement compared to the state-of-the-art solution.",
+    "citationCount": 5,
+    "referenceCount": 57
+}

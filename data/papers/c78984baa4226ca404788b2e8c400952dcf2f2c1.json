@@ -1,0 +1,33 @@
+{
+    "paperId": "c78984baa4226ca404788b2e8c400952dcf2f2c1",
+    "title": "Accelerating Graph Analytics Using Attention-Based Data Prefetcher",
+    "year": 2024,
+    "venue": "SN Computer Science",
+    "authors": [
+        "Pengmiao Zhang",
+        "Rajgopal Kannan",
+        "Anant V. Nori",
+        "Viktor K. Prasanna"
+    ],
+    "doi": "10.1007/s42979-024-02989-w",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c78984baa4226ca404788b2e8c400952dcf2f2c1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s42979-024-02989-w.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph analytics shows promise for solving challenging problems on relational data. However, memory constraints arise from the large size of graphs and the high complexity of algorithms. Data prefetching is a crucial technique to hide memory access latency by predicting and fetching data into the memory cache beforehand. Traditional prefetchers struggle with fixed rules in adapting to complex memory access patterns in graph analytics. Machine learning (ML) algorithms, particularly long short-term memory (LSTM) models, excel in memory access prediction. However, they encounter challenges such as difficulty in learning interleaved access patterns and high storage costs when predicting in large memory address space. In addition, there remains a gap between designing a high-performance ML-based memory access predictor and developing an effective ML-based prefetcher for an existing memory system. In this work, we propose a novel Attention-based prefetching framework to accelerate graph analytics applications. To achieve high-performance memory access prediction, we propose A2P, a novel Attention-based memory Access Predictor for graph analytics. We use the multi-head self-attention mechanism to extract features from memory traces. We design a novel bitmap labeling method to collect future deltas within a spatial range, making interleaved patterns easier to learn. We introduce a novel super page concept, allowing the model to surpass physical page constraints. To integrate A2P into a memory system, we design a three-module prefetching framework composed of an existing memory hierarchy, a prefetch controller, and the predictor A2P. In addition, we propose a hybrid design to combine A2P and existing hardware prefetchers for higher prefetching performance. We evaluate A2P and the prefetching framework using the widely used GAP benchmark. Prediction experiments show that for the top three predictions, A2P outperforms the widely used state-of-the-art LSTM-based model by 23.1% w.r.t. Precision, 21.2% w.r.t. Recall, and 10.4% w.r.t. Coverage. Prefetching experiments show that A2P provides 18.4% IPC Improvement on average, outperforming state-of-the-art prefetchers BO by 17.2%, ISB by 15.0%, and Delta-LSTM by 10.9%. The hybrid prefetcher combining A2P and ISB achieves 21.7% IPC Improvement, outperforming the hybrid of BO and ISB by 16.3%.",
+    "citationCount": 1,
+    "referenceCount": 37
+}

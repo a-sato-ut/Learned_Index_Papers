@@ -1,0 +1,39 @@
+{
+    "paperId": "1dcce96d5d0c32e9b7b8dbee831d6210170943a3",
+    "title": "Efficient Join Order Selection Learning with Graph-based Representation",
+    "year": 2022,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Jin Chen",
+        "Guanyu Ye",
+        "Yan Zhao",
+        "Shuncheng Liu",
+        "Liwei Deng",
+        "Xu Chen",
+        "Ruibo Zhou",
+        "Kai Zheng"
+    ],
+    "doi": "10.1145/3534678.3539303",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1dcce96d5d0c32e9b7b8dbee831d6210170943a3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Join order selection plays an important role in DBMS query optimizers. The problem aims to find the optimal join order with the minimum cost, and usually becomes an NP-hard problem due to the exponentially increasing search space. Recent advanced studies attempt to use deep reinforcement learning (DRL) to generate better join plans than the ones provided by conventional query optimizers. However, DRL-based methods require time-consuming training, which is not suitable for online applications that need frequent periodic re-training. In this paper, we propose a novel framework, namely efficient Join Order selection learninG with Graph-basEd Representation (JOGGER). We firstly construct a schema graph based on the primary-foreign key relationships, from which table representations are well learned to capture the correlations between tables. The second component is the state representation, where a graph convolutional network is utilized to encode the query graph and a tailored-tree-based attention module is designed to encode the join plan. To speed up the convergence of DRL training process, we exploit the idea of curriculum learning, in which queries are incrementally added into the training set according to the level of difficulties. We conduct extensive experiments on JOB and TPC-H datasets, which demonstrate the effectiveness and efficiency of the proposed solutions.",
+    "citationCount": 29,
+    "referenceCount": 36
+}

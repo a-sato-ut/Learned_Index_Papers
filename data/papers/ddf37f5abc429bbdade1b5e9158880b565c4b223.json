@@ -1,0 +1,33 @@
+{
+    "paperId": "ddf37f5abc429bbdade1b5e9158880b565c4b223",
+    "title": "ABMLP: Attention-Based Multi-Layer Perceptron Prefetcher",
+    "year": 2022,
+    "venue": "International Conference on Computer Science and Artificial Intelligence",
+    "authors": [
+        "Juan Fang",
+        "Xin Lv",
+        "Huayi Cai"
+    ],
+    "doi": "10.1145/3577530.3577579",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ddf37f5abc429bbdade1b5e9158880b565c4b223",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cache prefetching is a traditional way to reduce memory access latency. Machine learning algorithms have shown the potential to accurately predict the future addresses of memory accesses. The existing approach is rule-based prefetchers. Rule-based prefetchers are effective at predicting common access patterns, but they are inefficient in complex cross-page access patterns. Therefore, we propose ABMLP prefetcher, which uses the attention method to learn the mapping relationship between network input and output, and assigns the corresponding weight. We used two prefetchers, MLP prefetcher and BO prefetcher, to cope with different access patterns. Overall, ABMLP prefetcher improved 19.85% overall coverage accuracy and 18.5% IPC improvement over baseline.",
+    "citationCount": 1,
+    "referenceCount": 26
+}

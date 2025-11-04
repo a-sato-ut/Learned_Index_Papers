@@ -1,0 +1,35 @@
+{
+    "paperId": "3c7a55aff314578fa1415ab5ed3c5ed6801a5f08",
+    "title": "Memory Network Architecture for Packet Processing in Functions Virtualization",
+    "year": 2022,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "T. Korikawa",
+        "E. Oki"
+    ],
+    "doi": "10.1109/TNSM.2022.3159091",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3c7a55aff314578fa1415ab5ed3c5ed6801a5f08",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Packet processing tasks in network functions require high-performance memory systems to understand the packet information, update the packet content, and search the databases. While network virtualization is expected to bring flexible and adaptive network with reduced cost by using commercial off-the-shelf (COTS) hardware and programmable data plane technology, network function performance suffers from the poor memory systems in COTS computers and lack of scalability in programmable hardware devices. This paper proposes a memory network architecture for packet processing based on memory-centric, disaggregated computing. Unlike processor-centric architecture in today’s COTS computers, the memory network consists of multiple memory devices, where processing for the incoming packets is completed. The proposed architecture reduces packet processing latency by eliminating communication between the processor devices and the memory devices. Also, the proposed architecture provides scalability of hardware resources by dynamic memory device allocation depending on the complexity of the network function, memory-intensiveness of packet processing, and traffic load. The numerical results show that the proposed architecture reduces accumulated latency for memory accesses and increases throughput compared to the conventional, processor-centric architectures, where every memory access requires communication between the processor devices and the memory devices. The proposed architecture also reduces latency and increases throughput by allocating additional memory devices to memory-intensive tasks.",
+    "citationCount": 2,
+    "referenceCount": 94
+}

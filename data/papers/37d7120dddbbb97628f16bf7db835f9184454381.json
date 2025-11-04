@@ -1,0 +1,29 @@
+{
+    "paperId": "37d7120dddbbb97628f16bf7db835f9184454381",
+    "title": "Online Verification of Deep Neural Networks under Domain Shift or Network Updates",
+    "year": 2021,
+    "venue": "",
+    "authors": [
+        "Tianhao Wei",
+        "Changliu Liu"
+    ],
+    "doi": null,
+    "arxivId": "2106.12732",
+    "url": "https://www.semanticscholar.org/paper/37d7120dddbbb97628f16bf7db835f9184454381",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Although neural networks are widely used, it remains challenging to formally verify the safety and robustness of neural networks in real-world applications. Existing methods are designed to verify the network before deployment, which are limited to relatively simple specifications and fixed networks. These methods are not ready to be applied to real-world problems with complex and/or dynamically changing specifications and networks. To effectively handle such problems, verification needs to be performed online when these changes take place. However, it is still challenging to run existing verification algorithms online. Our key insight is that we can leverage the temporal dependencies of these changes to accelerate the verification process. This paper establishes a novel framework for scalable online verification to solve real-world verification problems with dynamically changing specifications and/or networks. We propose three types of acceleration algorithms: Branch Management to reduce repetitive computation, Perturbation Tolerance to tolerate changes, and Incremental Computation to reuse previous results. Experiment results show that our algorithms achieve up to $100\\times$ acceleration, and thus show a promising way to extend neural network verification to real-world applications.",
+    "citationCount": 1,
+    "referenceCount": 19
+}

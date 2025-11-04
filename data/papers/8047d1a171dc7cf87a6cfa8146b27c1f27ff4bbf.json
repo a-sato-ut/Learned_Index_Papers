@@ -1,0 +1,38 @@
+{
+    "paperId": "8047d1a171dc7cf87a6cfa8146b27c1f27ff4bbf",
+    "title": "A survey of mapping algorithms in the long-reads era",
+    "year": 2022,
+    "venue": "bioRxiv",
+    "authors": [
+        "Kristoffer Sahlin",
+        "Thomas Baudeau",
+        "Bastien Cazaux",
+        "C. Marchet"
+    ],
+    "doi": "10.1186/s13059-023-02972-3",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8047d1a171dc7cf87a6cfa8146b27c1f27ff4bbf",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-023-02972-3",
+    "publicationTypes": [
+        "Review",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "It has been over a decade since the first publication of a method dedicated entirely to mapping long-reads. The distinctive characteristics of long reads resulted in methods moving from the seed-and-extend framework used for short reads to a seed-and-chain framework due to the seed abundance in each read. The main novelties are based on alternative seed constructs or chaining formulations. Dozens of tools now exist, whose heuristics have evolved considerably. We provide an overview of the methods used in long-read mappers. Since they are driven by implementation-specific parameters, we develop an original visualization tool to understand the parameter settings ( http://bcazaux.polytech-lille.net/Minimap2/ ).",
+    "citationCount": 47,
+    "referenceCount": 106
+}

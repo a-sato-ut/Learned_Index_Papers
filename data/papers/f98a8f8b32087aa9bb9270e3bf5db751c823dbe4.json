@@ -1,0 +1,36 @@
+{
+    "paperId": "f98a8f8b32087aa9bb9270e3bf5db751c823dbe4",
+    "title": "Interpretable Risk-aware Access Control for Spark: Blocking Attack Purpose Behind Actions",
+    "year": 2024,
+    "venue": "ICCD",
+    "authors": [
+        "Wenbo Wang",
+        "Tao Xue",
+        "Shuailou Li",
+        "Zhaoyang Wang",
+        "Boyang Zhang",
+        "Yu Wen"
+    ],
+    "doi": "10.1109/ICCD63220.2024.00028",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f98a8f8b32087aa9bb9270e3bf5db751c823dbe4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The big data platform supports powerful data re-trieval and mining analysis, providing users with seamless access to extensive data for valuable insights. However, the increasing access to sensitive data raises privacy concerns. Existing studies utilize access control mechanisms to ensure secure data authorization. Nevertheless, previous approaches are deficient in facilitating risk control during real-time query processing and fail to elucidate the details of attack access. To address these limitations, we propose a novel Interpretable Risk-aware Access Control (IRAAC) for Spark - the advanced distributed engine for large-scale data computing in big data ecosystems. IRAAC utilizes the sequence representation techniques and contrastive learning idea from Natural Language Processing to learn patterns of attack queries for extracting critical attack subqueries. In terms of attack investigation, IRAAC designs specific templates to encourage large language models (LLMs) to provide a comprehensive delineation of potential query access risks.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

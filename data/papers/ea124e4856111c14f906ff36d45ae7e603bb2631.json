@@ -1,0 +1,32 @@
+{
+    "paperId": "ea124e4856111c14f906ff36d45ae7e603bb2631",
+    "title": "Star Based Reachability Analysis of Interval Neural Networks",
+    "year": 2023,
+    "venue": "IEEE Conference on Decision and Control",
+    "authors": [
+        "Vishnu Bondalakunta",
+        "Pavithra Prabhakar"
+    ],
+    "doi": "10.1109/CDC49753.2023.10383228",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ea124e4856111c14f906ff36d45ae7e603bb2631",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The paper explores the computation of output reachable sets for Interval Neural Networks (INNs) with ReLU activation functions. An INN is a generalization of a Neural Network (NN), where the weights and biases are intervals rather than numbers. We propose a novel algorithm for computing precise over-approximations of the output reachable sets for INNs by introducing a novel data structure called interval star set which is a generalized version of the star set. Specifically, when the INN is a traditional NN, our method reduces to the standard star-based verification of NNs. We present experimental results that demonstrate that our method outperforms the existing method based on mixed integer linear programming (MILP) for the problem of INN output reachable set computation.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

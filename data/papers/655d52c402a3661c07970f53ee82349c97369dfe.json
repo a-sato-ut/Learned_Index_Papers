@@ -1,0 +1,36 @@
+{
+    "paperId": "655d52c402a3661c07970f53ee82349c97369dfe",
+    "title": "Radian Scaling and Its Application to Enhance Electricity Load Forecasting in Smart Cities Against Concept Drift",
+    "year": 2024,
+    "venue": "Smart Cities",
+    "authors": [
+        "Mohd Hafizuddin Bin Kamilin",
+        "Shingo Yamaguchi",
+        "Mohd Anuaruddin Bin Ahmadon"
+    ],
+    "doi": "10.3390/smartcities7060133",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/655d52c402a3661c07970f53ee82349c97369dfe",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/smartcities7060133",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In a real-world implementation, machine learning models frequently experience concept drift when forecasting the electricity load. This is due to seasonal changes influencing the scale, mean, and median values found in the input data, changing their distribution. Several methods have been proposed to solve this, such as implementing automated model retraining, feature engineering, and ensemble learning. The biggest drawback, however, is that they are too complex for simple implementation in existing projects. Since the drifted data follow the same pattern as the training dataset in terms of having different scale, mean, and median values, radian scaling was proposed as a new way to scale without relying on these values. It works by converting the difference between the two sequential values into a radian for the model to compute, removing the bounding, and allowing the model to forecast beyond the training dataset scale. In the experiment, not only does the constrained gated recurrent unit model with radian scaling have shorter average training epochs, but it also lowers the average root mean square error from 158.63 to 43.375, outperforming the best existing normalization method by 72.657%.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

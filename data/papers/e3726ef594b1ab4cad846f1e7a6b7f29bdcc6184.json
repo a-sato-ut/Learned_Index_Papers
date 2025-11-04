@@ -1,0 +1,36 @@
+{
+    "paperId": "e3726ef594b1ab4cad846f1e7a6b7f29bdcc6184",
+    "title": "Raven: belady-guided, predictive (deep) learning for in-memory and content caching",
+    "year": 2022,
+    "venue": "Conference on Emerging Network Experiment and Technology",
+    "authors": [
+        "Xinyue Hu",
+        "Eman Ramadan",
+        "Wei Ye",
+        "Feng Tian",
+        "Zhi-Li Zhang"
+    ],
+    "doi": "10.1145/3555050.3569134",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e3726ef594b1ab4cad846f1e7a6b7f29bdcc6184",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Performance of caching algorithms not only determines the quality of experience for users, but also affects the operating and capital expenditures for cloud service providers. Today's production systems rely on heuristics such as LRU (least recently used) and its variants, which work well for certain types of workloads, and cannot effectively cope with diverse and time-varying workload characteristics. While learning-based caching algorithms have been proposed to deal with these challenges, they still impose assumptions about workload characteristics and often suffer poor generalizability. In this paper, we propose Raven, a general learning-based caching framework that leverages the insights from the offline optimal Belady algorithm for both in-memory and content caching. Raven learns the distributions of objects' next-request arrival times without any prior assumptions by employing Mixture Density Network (MDN)-based universal distribution estimation. It utilizes the estimated distributions to compute the probability of an object that arrives farthest than any other objects in the cache and evicts the one with the largest such probability, regulated by the sizes of objects if appropriate. Raven (probabilistically) approximates Belady by explicitly accounting for the stochastic, time-varying, and non-stationary nature of object arrival processes. Evaluation results on production workloads demonstrate that, compared with the best existing caching algorithms, Raven improves the object hit ratio and byte hit ratio by up to 7.3% and 7.1%, respectively, reduces the average access latency by up to 17.9% and the traffic to the origin servers by up to 18.8%.",
+    "citationCount": 17,
+    "referenceCount": 77
+}

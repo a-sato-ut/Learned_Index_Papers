@@ -1,0 +1,35 @@
+{
+    "paperId": "e042c6e24d1c17160cc79f2469bd389dc0c0eece",
+    "title": "LSM tree read-deletion operations optimization through the implementation of cuckoo filters",
+    "year": 2025,
+    "venue": "Journal of Big Data",
+    "authors": [
+        "Humberto Cesar Villalta Valverde",
+        "KwangSik Kim",
+        "Kisu Kim",
+        "Jinman Kwon",
+        "Jaechoon Lim",
+        "Yongjoo Jun"
+    ],
+    "doi": "10.1186/s40537-025-01097-7",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e042c6e24d1c17160cc79f2469bd389dc0c0eece",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1186/s40537-025-01097-7",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n This study aims to develop an LSM tree that uses two different kinds of probabilistic data structures (PDS). These two data structures are the Bloom Filters and the state-of-the-art Cuckoo Filter released in 2014 by Fan. Cuckoo filters are a perfect choice for saving space and also for deleting keys that are not needed in the algorithm so the filters are synchronized with the keys of all the SSTables. The implementation in this study of Cuckoo filters showed three main advantages (1) Keys that are deleted in the SSTables are immediately reflected in the Cuckoo Filters (2) When SSTables are merged, Cuckoo Filters are also merged by measuring its load factor for availability (3) The performance of Cuckoo Filters compared to Bloom filters after deleting and query shows better performance despite that cuckoo filters are also being updated. This approach is expected to reduce storage space and the amount of time for queries and deletions on the overall data structure. This new optimized LSM tree is expected to be implemented in HBase as future work to check its performance with a real-world database for more empirical results.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

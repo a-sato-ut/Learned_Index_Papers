@@ -1,0 +1,32 @@
+{
+    "paperId": "d74825fdb0773fec53ed05e5a6f546fc1f9316ba",
+    "title": "Construction of parallel one-dimensional interpolators in C++",
+    "year": 2024,
+    "venue": "Herald of Dagestan State Technical University. Technical Sciences",
+    "authors": [
+        "F. V. Abilova",
+        "M. Abilov",
+        "E. V. Selimkhanov"
+    ],
+    "doi": "10.21822/2073-6185-2023-50-4-37-50",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d74825fdb0773fec53ed05e5a6f546fc1f9316ba",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://vestnik.dgtu.ru/jour/article/download/1384/834",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Objective. The purpose of this article is to research and develop interpolators in the C++ programming language, including linear, quadratic and cubic interpolators, as well as a one-dimensional RBF interpolator. The main tasks are the use of the GSL library, the Lagrange interpolation polynomial, OpenMP, and comparative analysis with the SciPy library. The experiments are aimed at evaluating the effectiveness and applicability of various interpolation methods. Method. The work uses the GSL and Eigen libraries to implement interpolators and optimize computational processes. Linear, quadratic, and cubic interpolators are used to compare performance, and a one-dimensional RBF interpolator is being developed. The Lagrange interpolation method and parallel computing using OpenMP and SIMD are also used to improve efficiency. Result. The results of the research include the successful development and implementation of various interpolation methods in C++. Particular attention is paid to the analysis of the performance and accuracy of each method. Through a comparative analysis with the SciPy library, the authors identify the advantages and disadvantages of various interpolators. The main result is the practical applicability of these methods in the context of specific interpolation problems. Conclusion. The study made it possible to make sure that the implementation of interpolators in the C ++ language has some significant advantages compared to using the SciPy library. In particular, C++ allows for more precise and faster control over calculations, which is especially important in tasks related to numerical interpolation methods. The GSL and Eigen libraries provide powerful tools for optimization and high performance computing, which allows you to achieve high efficiency when implementing interpolation in C ++.",
+    "citationCount": 0,
+    "referenceCount": 2
+}

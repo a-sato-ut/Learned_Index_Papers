@@ -1,0 +1,40 @@
+{
+    "paperId": "e298af3132c16a90627032c4637c2823c3e318aa",
+    "title": "GPU-Accelerated Verification of Machine Learning Models for Power Systems",
+    "year": 2023,
+    "venue": "Hawaii International Conference on System Sciences",
+    "authors": [
+        "Samuel C. Chevalier",
+        "Ilgiz Murzakhanov",
+        "Spyros Chatzivasileiadis"
+    ],
+    "doi": "10.48550/arXiv.2306.10617",
+    "arxivId": "2306.10617",
+    "url": "https://www.semanticscholar.org/paper/e298af3132c16a90627032c4637c2823c3e318aa",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2306.10617",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Computational tools for rigorously verifying the performance of large-scale machine learning (ML) models have progressed significantly in recent years. The most successful solvers employ highly specialized, GPU-accelerated branch and bound routines. Such tools are crucial for the successful deployment of machine learning applications in safety-critical systems, such as power systems. Despite their successes, however, barriers prevent out-of-the-box application of these routines to power system problems. This paper addresses this issue in two key ways. First, for the first time to our knowledge, we enable the simultaneous verification of multiple verification problems (e.g., checking for the violation of all line flow constraints simultaneously and not by solving individual verification problems). For that, we introduce an exact transformation that converts the\"worst-case\"violation across a set of potential violations to a series of ReLU-based layers that augment the original neural network. This allows verifiers to interpret them directly. Second, power system ML models often must be verified to satisfy power flow constraints. We propose a dualization procedure which encodes linear equality and inequality constraints directly into the verification problem; and in a manner which is mathematically consistent with the specialized verification tools. To demonstrate these innovations, we verify problems associated with data-driven security constrained DC-OPF solvers. We build and test our first set of innovations using the $\\alpha,\\beta$-CROWN solver, and we benchmark against Gurobi 10.0. Our contributions achieve a speedup that can exceed 100x and allow higher degrees of verification flexibility.",
+    "citationCount": 4,
+    "referenceCount": 30
+}

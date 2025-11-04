@@ -1,0 +1,38 @@
+{
+    "paperId": "49afdff298c488f717a3ef374a39f06226e5f43d",
+    "title": "SEED: Speculative Security Metadata Updates for Low-Latency Secure Memory",
+    "year": 2025,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Xueliang Wei",
+        "Dan Feng",
+        "Wei Tong",
+        "Bing Wu",
+        "Xu Jiang"
+    ],
+    "doi": "10.1145/3722111",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/49afdff298c488f717a3ef374a39f06226e5f43d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1145/3722111",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Securing systems’ main memory is important for building trusted data centers. To ensure memory security, encryption and integrity verification techniques update the security metadata (e.g., encryption counters and integrity trees) during memory data writes. Existing studies are optimistic about the effect of data writes on system performance since they regard all data writes as background operations. However, we show that security metadata updates significantly increase data write latency. High-latency data writes frequently fill up write buffers in the system, forcing the system to perform the writes in the critical path. As a result, performance-critical data reads need to wait for the execution of these writes, which increases data read latency and degrades system performance. In this article, we propose SEED that improves the performance of secure memory systems by speculatively updating security metadata in the background before data writes arrive. To enable speculative updates, SEED predicts which dirty cache lines will be written to memory through natural evictions. We find that cache evictions depend on multiple factors. To decouple the dependencies for accurate predictions, we devise a two-step eviction prediction method based on our observation that the next eviction victim rarely changes in a set. The first step predicts which cache sets will evict cache lines, whereas the second step predicts which cache lines will be evicted by finding the next eviction victims in the sets. For predicted evictions, we develop a speculative updater to perform speculative updates. We analyze the invariants that must be followed by the updater to ensure the correctness of speculative updates. The updater rolls back the speculatively updated security metadata of inaccurate predictions. To reduce the rollback overhead, we devise a rollback batching and an update pausing optimization for the updater. Experimental results show that SEED reduces data write latency by 39.8%, data read latency by 44.9%, and improves performance by 40.0% on average compared with the state-of-the-art secure memory design.",
+    "citationCount": 0,
+    "referenceCount": 69
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "e66d8dee835dcc348b762190ee803dce69b3bfb4",
+    "title": "High Precision and Fast Distributed Temperature Data Demodulation Algorithm of Optical Frequency Domain Reflectometer Based on LSTM-CNN",
+    "year": 2024,
+    "venue": "IEEE Journal of Quantum Electronics",
+    "authors": [
+        "Lei Huang",
+        "Min Liu",
+        "Yingqi Cui",
+        "Zhaohao Zhu",
+        "Ping Shum"
+    ],
+    "doi": "10.1109/JQE.2024.3471988",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e66d8dee835dcc348b762190ee803dce69b3bfb4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A demodulation algorithm based on the LSTM-CNN is proposed to simultaneously achieve the demodulation of temperature data from distributed optical frequency domain reflectometry (OFDR). As for the local measurement range along the distributed fiber, the LSTM-CNN can achieve an average mean absolutely error (MAE) of only 0.0393 and the average demodulation time is only 0.1507 seconds. The comparison with the cross-correlation algorithm, Multi-Layer Perceptron (MLP), Extreme Learning Machine (ELM), Long Short-Term Memory (LSTM), and Convolutional Neural Network (CNN) demonstrates that the MAE is reduced by 85.98%, 77.23%, 88.25%, 80.95%, and 91.82%, and the average time is faster 38.19 times, 8.71 times, 3.28 times, 1.37 times, and 2.45 times, respectively. As for the full measurement range of the distributed fiber, the temperature distribution curve demodulated by LSTM-CNN is found to be consistent with the actual temperature distribution curve and the average demodulation time is 0.371 seconds, providing a new method for the temperature data demodulation in the distributed OFDR sensing system.",
+    "citationCount": 2,
+    "referenceCount": 28
+}

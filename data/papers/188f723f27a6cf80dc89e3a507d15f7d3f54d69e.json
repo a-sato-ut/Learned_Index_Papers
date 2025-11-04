@@ -1,0 +1,40 @@
+{
+    "paperId": "188f723f27a6cf80dc89e3a507d15f7d3f54d69e",
+    "title": "Machine Learning-Guided Memory Optimization for DLRM Inference on Tiered Memory",
+    "year": 2025,
+    "venue": "International Symposium on High-Performance Computer Architecture",
+    "authors": [
+        "Jie Ren",
+        "Bin Ma",
+        "Shuangyan Yang",
+        "Benjamin Francis",
+        "Ehsan K. Ardestani",
+        "Min Si",
+        "Dong Li"
+    ],
+    "doi": "10.1109/HPCA61900.2025.00121",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/188f723f27a6cf80dc89e3a507d15f7d3f54d69e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning recommendation models (DLRMs) are widely used in industry, and their memory capacity requirements reach the terabyte scale. Tiered memory architectures provide a cost-effective solution but introduce challenges in embedding-vector placement due to complex embedding-access patterns. We propose RecMG, a machine learning (ML)-guided system for vector caching and prefetching on tiered memory. RecMG accurately predicts accesses to embedding vectors with long reuse distances or few reuses. The design of RecMG focuses on making ML feasible in the context of DLRM inference by addressing unique challenges in data labeling and navigating the search space for embedding-vector placement. By employing separate ML models for caching and prefetching, plus a novel differentiable loss function, RecMG narrows the prefetching search space and minimizes on-demand fetches. Compared to state-of-the-art temporal, spatial, and ML-based prefetchers, RecMG reduces on-demand fetches by $2.2 \\times, 2.8 \\times$, and $1.5 \\times$, respectively. In industrial-scale DLRM inference scenarios, RecMG effectively reduces end-to-end DLRM inference time by up to 43%.",
+    "citationCount": 3,
+    "referenceCount": 88
+}

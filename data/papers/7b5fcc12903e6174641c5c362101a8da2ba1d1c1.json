@@ -1,0 +1,38 @@
+{
+    "paperId": "7b5fcc12903e6174641c5c362101a8da2ba1d1c1",
+    "title": "DiStore: A Fully Memory Disaggregation Friendly Key-Value Store with Improved Tail Latency and Space Efficiency",
+    "year": 2024,
+    "venue": "International Conference on Parallel Processing",
+    "authors": [
+        "Ziwei Xiong",
+        "D. Jiang",
+        "Jin Xiong"
+    ],
+    "doi": "10.1145/3673038.3673088",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7b5fcc12903e6174641c5c362101a8da2ba1d1c1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3673038.3673088",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Memory disaggregation decouples CPUs and memory in monolithic servers to form compute nodes (CNs) and memory nodes (MNs) for elastic and efficient memory scaling. Memory disaggregation benefits in-memory key-value stores (KVSs) that demand large memory capacity. Building a KVS with full functionality, low latency, and high space efficiency under memory disaggregation is critically required by real-world applications. However, we observe that existing disaggregated KVSs fail to achieve all the above demands simultaneously. In this paper, we present DiStore, a full-disaggregation-friendly KVS that accomplishes the above goals. We carefully divide the responsibilities of CNs and MNs when involved in index traversing, concurrency control, and memory management. We first design a two-layer indexing structure, separable adaptive linked array, to reduce network RTTs for index traversing and improve space efficiency. Then, DiStore introduces thread-context-based concurrency control to enable inter-thread collaborating to reduce stall time under multi-thread contention on CNs. Finally, we propose cachable disaggregated memory management to allow CNs to manage remote memory locally with marginal space overhead. We implement DiStore and the evaluation shows that DiStore can reduce P999 tail latency by up to 72.1% and improve space efficiency by up to 33.6%. Meanwhile, DiStore achieves comparable throughput as state-of-the-art disaggregated KVSs.",
+    "citationCount": 0,
+    "referenceCount": 47
+}

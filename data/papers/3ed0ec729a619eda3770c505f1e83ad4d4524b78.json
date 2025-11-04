@@ -1,0 +1,35 @@
+{
+    "paperId": "3ed0ec729a619eda3770c505f1e83ad4d4524b78",
+    "title": "Glue: Adaptively Merging Single Table Cardinality to Estimate Join Query Size",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Rong Zhu",
+        "Tian Zeng",
+        "A. Pfadler",
+        "Wei Chen",
+        "Bolin Ding",
+        "Jingren Zhou"
+    ],
+    "doi": null,
+    "arxivId": "2112.03458",
+    "url": "https://www.semanticscholar.org/paper/3ed0ec729a619eda3770c505f1e83ad4d4524b78",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cardinality estimation (CardEst), a central component of the query optimizer, plays a significant role in generating high-quality query plans in DBMS. The CardEst problem has been extensively studied in the last several decades, using both traditional and ML-enhanced methods. Whereas, the hardest problem in CardEst, i.e., how to estimate the join query size on multiple tables, has not been extensively solved. Current methods either reply on independence assumptions or apply techniques with heavy burden, whose performance is still far from satisfactory. Even worse, existing CardEst methods are often designed to optimize one goal, i.e., inference speed or estimation accuracy, which can not adapt to different occasions. In this paper, we propose a very general framework, called Glue, to tackle with these challenges. Its key idea is to elegantly decouple the correlations across different tables and losslessly merge single table CardEst results to estimate the join query size. Glue supports obtaining the single table-wise CardEst results using any existing CardEst method and can process any complex join schema. Therefore, it easily adapts to different scenarios having different performance requirements, i.e., OLTP with fast estimation time or OLAP with high estimation accuracy. Meanwhile, we show that Glue can be seamlessly integrated into the plan search process and is able to support counting distinct number of values. All these properties exhibit the potential advances of deploying Glue in real-world DBMS.",
+    "citationCount": 4,
+    "referenceCount": 43
+}

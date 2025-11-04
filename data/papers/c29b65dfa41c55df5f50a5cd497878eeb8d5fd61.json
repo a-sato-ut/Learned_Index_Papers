@@ -1,0 +1,34 @@
+{
+    "paperId": "c29b65dfa41c55df5f50a5cd497878eeb8d5fd61",
+    "title": "Heterogeneous Attention-Based Graph Convolutional Network for Solving Asymmetric Pickup and Delivery Problem",
+    "year": 2025,
+    "venue": "IEEE Transactions on Automation Science and Engineering",
+    "authors": [
+        "Jiayi Li",
+        "Guohua Wu",
+        "Mingfeng Fan",
+        "Zhiguang Cao",
+        "Yalin Wang"
+    ],
+    "doi": "10.1109/TASE.2025.3548141",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c29b65dfa41c55df5f50a5cd497878eeb8d5fd61",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, there has been a notable increase in demand for pickup and delivery services, mainly driven by the expansion of e-commerce. These services can be conceptualized as pickup and delivery problems (PDPs), which are important variants of vehicle routing problems (VRPs). While neural methods based on deep reinforcement learning (DRL) have demonstrated success in solving VRPs, current neural methods for PDP predominantly depend on customer coordinates and Euclidean distances. This heavy reliance can diminish their practical value, given the intricacies of real-world road networks and inherent asymmetries. This paper presents a novel learning-based method, i.e., HA-GCN, that couples heterogeneous attention (HA) and a graph convolutional network (GCN) to tackle the asymmetric pickup and delivery problem (APDP). The HA-GCN model utilizes HA to comprehend the innate pairing and precedence constraints between nodes in APDP. Concurrently, it employs GCN to amalgamate features of nodes and edges, facilitating the extraction of asymmetric attributes. Additionally, to augment the real-world relevance of HA-GCN, we train the model grounded in a dataset drawn from real geographic information. Comprehensive experiments suggest that our proposed method performs favorably against both traditional and learning-based state-of-the-art approaches, while demonstrating robust generalization capabilities. Note to Practitioners—Research on the pickup and delivery problem (PDP) addresses challenges in the rapidly growing field of end-to-end delivery services, such as food and parcel delivery. This study focuses on the asymmetric pickup and delivery problem (APDP), a variant of PDP reflecting real-world road networks with one-way streets and varying distances between locations. However, due to the exponential complexity and asymmetric nature of APDP, existing traditional methods and deep reinforcement learning (DRL) approaches struggle to effectively address this challenge. To address this, we propose HA-GCN, a DRL-based model compling heterogeneous attention and a graph convolutional network. HA-GCN effectively distinguishes pickup and delivery nodes in APDP, capturing differences in asymmetric distances in real-world road networks. Experimental results based on instances of different scales show that HA-GCN outperforms learning-based and traditional baselines, exhibiting satisfactory generalization capabilities. Given these confirmed advantages, our HA-GCN has great potential to not only offer the practitioners effective alternative approaches, but also improve the solution quality for the pickup and delivery in the operation of express hubs or logistics centers in specific regions of the real world.",
+    "citationCount": 0,
+    "referenceCount": 61
+}

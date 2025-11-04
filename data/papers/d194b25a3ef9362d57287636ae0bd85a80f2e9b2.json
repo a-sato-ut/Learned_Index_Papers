@@ -1,0 +1,39 @@
+{
+    "paperId": "d194b25a3ef9362d57287636ae0bd85a80f2e9b2",
+    "title": "CodingSketch: A Hierarchical Sketch with Efficient Encoding and Recursive Decoding",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Qizhi Chen",
+        "Yisen Hong",
+        "Yuhan Wu",
+        "Tong Yang",
+        "Bin Cui"
+    ],
+    "doi": "10.1109/ICDE60146.2024.00130",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d194b25a3ef9362d57287636ae0bd85a80f2e9b2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sketch is a probabilistic data structure widely used in various fields due to its high accuracy under small memory. Designing hierarchical data structures for real-world datasets with high skewness is one of the main optimization directions of Sketch. However, there is still a big accuracy gap between the existing sketches and the optimum. To fill the gap, we propose a new sketch called Coding Sketch. For the first time, we used both hierarchical structure and nearly-lossless encoding-and-decoding to compress frequent items, which significantly improves the accuracy of frequent items. Besides, we propose flagless pruning to remove the additional flag bits in traditional hierarchical structure. Thus Coding Sketch can optimize the frequency estimation of both frequent and infrequent items. Our evaluation shows that our algorithm is 10 times more accurate than the state-of-the-art under the same memory cost. All related codes are open-sourced.22https://github.com/CodingSketch/Coding-Sketc",
+    "citationCount": 1,
+    "referenceCount": 57
+}

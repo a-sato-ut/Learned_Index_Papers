@@ -1,0 +1,34 @@
+{
+    "paperId": "736cb7a66eaa0df3655a8989f2e506b4aa546144",
+    "title": "Predicate Transfer: Efficient Pre-Filtering on Multi-Join Queries",
+    "year": 2023,
+    "venue": "Conference on Innovative Data Systems Research",
+    "authors": [
+        "Yifei Yang",
+        "Hangdong Zhao",
+        "Xiangyao Yu",
+        "Paraschos Koutris"
+    ],
+    "doi": "10.48550/arXiv.2307.15255",
+    "arxivId": "2307.15255",
+    "url": "https://www.semanticscholar.org/paper/736cb7a66eaa0df3655a8989f2e506b4aa546144",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.15255",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents predicate transfer, a novel method that optimizes join performance by pre-filtering tables to reduce the join input sizes. Predicate transfer generalizes Bloom join, which conducts pre-filtering within a single join operation, to multi-table joins such that the filtering benefits can be significantly increased. Predicate transfer is inspired by the seminal theoretical results by Yannakakis, which uses semi-joins to pre-filter acyclic queries. Predicate transfer generalizes the theoretical results to any join graphs and use Bloom filters to replace semi-joins leading to significant speedup. Evaluation shows predicate transfer can outperform Bloom join by 3.1x on average on TPC-H benchmark.",
+    "citationCount": 17,
+    "referenceCount": 34
+}

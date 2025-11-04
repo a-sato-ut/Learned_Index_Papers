@@ -1,0 +1,39 @@
+{
+    "paperId": "a73a58626853c4e6fcb1ca5a966084a88ce8932a",
+    "title": "Towards Optimal Branching of Linear and Semidefinite Relaxations for Neural Network Robustness Certification",
+    "year": 2021,
+    "venue": "",
+    "authors": [
+        "Brendon G. Anderson",
+        "Ziye Ma",
+        "Jingqi Li",
+        "S. Sojoudi"
+    ],
+    "doi": null,
+    "arxivId": "2101.09306",
+    "url": "https://www.semanticscholar.org/paper/a73a58626853c4e6fcb1ca5a966084a88ce8932a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we study certifying the robustness of ReLU neural networks against adversarial input perturbations. To diminish the relaxation error suffered by the popular linear programming (LP) and semidefinite programming (SDP) certification methods, we take a branch-and-bound approach to propose partitioning the input uncertainty set and solving the relaxations on each part separately. We show that this approach reduces relaxation error, and that the error is eliminated entirely upon performing an LP relaxation with a partition intelligently designed to exploit the nature of the ReLU activations. To scale this approach to large networks, we consider using a coarser partition whereby the number of parts in the partition is reduced. We prove that computing such a coarse partition that directly minimizes the LP relaxation error is NP-hard. By instead minimizing the worst-case LP relaxation error, we develop a closed-form branching scheme in the single-hidden layer case. We extend the analysis to the SDP, where the feasible set geometry is exploited to design a branching scheme that minimizes the worst-case SDP relaxation error. Experiments on MNIST, CIFAR-10, and Wisconsin breast cancer diagnosis classifiers demonstrate significant increases in the percentages of test samples certified. By independently increasing the input size and the number of layers, we empirically illustrate under which regimes the branched LP and branched SDP are best applied. Finally, we extend our LP branching method into a multi-layer branching heuristic, which attains comparable performance to prior state-of-the-art heuristics on large-scale, deep neural network certification benchmarks.",
+    "citationCount": 1,
+    "referenceCount": 42
+}

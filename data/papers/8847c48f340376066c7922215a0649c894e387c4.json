@@ -1,0 +1,37 @@
+{
+    "paperId": "8847c48f340376066c7922215a0649c894e387c4",
+    "title": "An empirical comparison of the performances of single structure columnar in-memory and disk-resident data storage techniques using healthcare big data",
+    "year": 2023,
+    "venue": "Journal of Big Data",
+    "authors": [
+        "R. Famutimi",
+        "M. Oyelami",
+        "Ayodeji O. J. Ibitoye",
+        "O. Awoniran"
+    ],
+    "doi": "10.1186/s40537-023-00691-x",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8847c48f340376066c7922215a0649c894e387c4",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-023-00691-x",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Healthcare data in images, texts and other unstructured formats have continued to grow exponentially while generating storage concerns. Even though there are other complexities, volume complexity is a major challenge for Disk-Resident technique in storage optimization. Hence, this research aimed to empirically compare the efficiency of Disk-Resident and In-Memory single structure database technique (as opposed to multiple structure In-Memory database), using descriptive and inferential big data analytical approaches. The essence was to discover a more cost-effective storage option for healthcare big data. Data from Nigerian Health Insurance Scheme (NHIS) alongside sample patients’ history from Made-in-Nigeria Primary Healthcare Information System (MINPHIS) which included patients’ investigation, patients’ bio-data and patients’ diagnoses were the primary data for this research. An implementation of both Disk-Resident and single structure In-Memory resident data storage was carried out on these big data sources. After storage, each quantity of data items stored for different data items in Disk-Resident was then compared with that of single structure In-Memory resident system using size of items as comparison criteria and different analyses made. The results obtained showed that single structure In-Memory technique conserved up to 90.57% of memory spaces with respect to the traditional (common) Disk-Resident technique for text data items. This shows that with this In-Memory technique, an improved performance in terms of storage was obtained.",
+    "citationCount": 3,
+    "referenceCount": 22
+}

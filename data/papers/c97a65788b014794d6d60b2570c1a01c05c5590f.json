@@ -1,0 +1,44 @@
+{
+    "paperId": "c97a65788b014794d6d60b2570c1a01c05c5590f",
+    "title": "An Open-Source ML-Based Full-Stack Optimization Framework for Machine Learning Accelerators",
+    "year": 2023,
+    "venue": "ACM Trans. Design Autom. Electr. Syst.",
+    "authors": [
+        "H. Esmaeilzadeh",
+        "Soroush Ghodrati",
+        "A. Kahng",
+        "J. Kim",
+        "Sean Kinzer",
+        "Sayak Kundu",
+        "R. Mahapatra",
+        "Susmita Dey Manasi",
+        "S. Sapatnekar",
+        "Zhiang Wang",
+        "Ziqing Zeng"
+    ],
+    "doi": "10.1145/3664652",
+    "arxivId": "2308.12120",
+    "url": "https://www.semanticscholar.org/paper/c97a65788b014794d6d60b2570c1a01c05c5590f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3664652",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Parameterizable machine learning (ML) accelerators are the product of recent breakthroughs in ML. To fully enable their design space exploration (DSE), we propose a physical-design-driven, learning-based prediction framework for hardware-accelerated deep neural network (DNN) and non-DNN ML algorithms. It adopts a unified approach that combines power, performance, and area (PPA) analysis with frontend performance simulation, thereby achieving a realistic estimation of both backend PPA and system metrics such as runtime and energy. In addition, our framework includes a fully automated DSE technique, which optimizes backend and system metrics through an automated search of architectural and backend parameters. Experimental studies show that our approach consistently predicts backend PPA and system metrics with an average 7% or less prediction error for the ASIC implementation of two deep learning accelerator platforms, VTA and VeriGOOD-ML, in both a commercial 12 nm process and a research-oriented 45 nm process.",
+    "citationCount": 5,
+    "referenceCount": 45
+}

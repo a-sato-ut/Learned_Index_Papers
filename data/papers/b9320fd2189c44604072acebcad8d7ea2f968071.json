@@ -1,0 +1,33 @@
+{
+    "paperId": "b9320fd2189c44604072acebcad8d7ea2f968071",
+    "title": "The power of typed affine decision structures: a case study",
+    "year": 2023,
+    "venue": "International Journal on Software Tools for Technology Transfer (STTT)",
+    "authors": [
+        "Gerrit Nolte",
+        "Maximilian Schlüter",
+        "Alnis Murtovi",
+        "Bernhard Steffen"
+    ],
+    "doi": "10.1007/s10009-023-00701-6",
+    "arxivId": "2304.14888",
+    "url": "https://www.semanticscholar.org/paper/b9320fd2189c44604072acebcad8d7ea2f968071",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s10009-023-00701-6.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "TADS are a novel, concise white-box representation of neural networks. In this paper, we apply TADS to the problem of neural network verification, using them to generate either proofs or concise error characterizations for desirable neural network properties. In a case study, we consider the robustness of neural networks to adversarial attacks, i.e., small changes to an input that drastically change a neural networks perception, and show that TADS can be used to provide precise diagnostics on how and where robustness errors a occur. We achieve these results by introducing Precondition Projection , a technique that yields a TADS describing network behavior precisely on a given subset of its input space, and combining it with PCA, a traditional, well-understood dimensionality reduction technique. We show that PCA is easily compatible with TADS. All analyses can be implemented in a straightforward fashion using the rich algebraic properties of TADS, demonstrating the utility of the TADS framework for neural network explainability and verification. While TADS do not yet scale as efficiently as state-of-the-art neural network verifiers, we show that, using PCA-based simplifications, they can still scale to medium-sized problems and yield concise explanations for potential errors that can be used for other purposes such as debugging a network or generating new training samples.",
+    "citationCount": 3,
+    "referenceCount": 76
+}

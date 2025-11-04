@@ -1,0 +1,33 @@
+{
+    "paperId": "9b41c55186a12479ff91647127ef1ffb35be1b12",
+    "title": "Degree Sequence Bounds",
+    "year": 2025,
+    "venue": "ACM Transactions on Database Systems",
+    "authors": [
+        "Kyle Deeds",
+        "Dan Suciu",
+        "Magdalena Balazinska",
+        "Walter Cai"
+    ],
+    "doi": "10.1145/3716378",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9b41c55186a12479ff91647127ef1ffb35be1b12",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent work has demonstrated the catastrophic effects of poor cardinality estimates on query processing time. In particular, underestimating query cardinality can result in overly optimistic query plans which take orders of magnitude longer to complete than one generated with the true cardinality. Cardinality bounding avoids this pitfall by computing an upper bound on the query’s output size using statistics about the database such as table sizes and degrees, i.e. value frequencies. In this paper, we extend this line of work by proving a novel bound called the Degree Sequence Bound which takes into account the full degree sequences and the max tuple multiplicity. This work focuses on the important class of Berge-Acyclic queries for which the Degree Sequence Bound is tight and provably improves on prior work. We further describe how to practically compute this bound using a functional approximation of the true degree sequences and prove that even this functional form improves upon previous bounds. Lastly, we outline the challenges of implementing this in a real system and some techniques for overcoming these challenges.",
+    "citationCount": 0,
+    "referenceCount": 18
+}

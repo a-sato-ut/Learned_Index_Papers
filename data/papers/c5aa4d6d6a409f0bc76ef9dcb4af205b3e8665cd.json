@@ -1,0 +1,33 @@
+{
+    "paperId": "c5aa4d6d6a409f0bc76ef9dcb4af205b3e8665cd",
+    "title": "Design Guidelines for Correct, Efficient, and Scalable Synchronization using One-Sided RDMA",
+    "year": 2023,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Tobias Ziegler",
+        "J. Nelson-Slivon",
+        "Viktor Leis",
+        "Carsten Binnig"
+    ],
+    "doi": "10.1145/3589276",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c5aa4d6d6a409f0bc76ef9dcb4af205b3e8665cd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Remote data structures built with one-sided Remote Direct Memory Access (RDMA) are at the heart of many disaggregated database management systems today. Concurrent access to these data structures by thousands of remote workers necessitates a highly efficient synchronization scheme. Remarkably, our investigation reveals that existing synchronization schemes display substantial variations in performance and scalability. Even worse, some schemes do not correctly synchronize, resulting in rare and hard-to-detect data corruption. Motivated by these observations, we conduct the first comprehensive analysis of one-sided synchronization techniques and provide general principles for correct synchronization using one-sided RDMA. Our research demonstrates that adherence to these principles not only guarantees correctness but also results in substantial performance enhancements.",
+    "citationCount": 26,
+    "referenceCount": 62
+}

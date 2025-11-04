@@ -1,0 +1,32 @@
+{
+    "paperId": "2c3a1a39db3c2c509a36044a501c53e81161b77a",
+    "title": "Go Meta of Learned Cost Models: On the Power of Abstraction",
+    "year": 2023,
+    "venue": "International Conference on Model-Driven Engineering and Software Development",
+    "authors": [
+        "Abdelkader Ouared",
+        "Moussa Amrani",
+        "P. Schobbens"
+    ],
+    "doi": "10.5220/0011665800003402",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2c3a1a39db3c2c509a36044a501c53e81161b77a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.5220/0011665800003402",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": ": Cost-based optimization is a promising paradigm that relies on execution queries to enable fast and efficient execution reached by the database cost model (CM) during query processing/optimization. While a few database management systems (DBMS) already have support for mathematical CMs, developing such a CMs embedded or hard-coded for any DBMS remains a challenging and error-prone task. A generic interface must support a wide range of DBMS independently of the internal structure used for extending and modifying their signature; be efficient for good responsiveness. We propose a solution that provides a common set of parameters and cost primitives allowing intercepting the signature of the internal cost function and changing its internal parameters and configuration options. Therefore, the power of abstraction allows one to capture the designers/developers intent at a higher level of abstraction and encode expert knowledge of domain-specific transformation in order to construct complex CMs, receiving quick feedback as they calibrate and alter the specifications. Our contribution relies on a generic CM interface supported by Model-Driven Engineering paradigm to create cost functions for database operations as intermediate specifications in which more optimization concerning the performance are delegated by our framework and that can be compiled and executed by the target DBMS. A proof-of-concept prototype is implemented by considering the CM that exists in PostgreSQL optimizer.",
+    "citationCount": 2,
+    "referenceCount": 28
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "6a8c0c91b9f5591db3b50297993490de5ea1a44a",
+    "title": "Estimating the Effective Support Size in Constant Query Complexity",
+    "year": 2022,
+    "venue": "SIAM Symposium on Simplicity in Algorithms",
+    "authors": [
+        "Shyam Narayanan",
+        "Jakub Tvetek"
+    ],
+    "doi": "10.48550/arXiv.2211.11344",
+    "arxivId": "2211.11344",
+    "url": "https://www.semanticscholar.org/paper/6a8c0c91b9f5591db3b50297993490de5ea1a44a",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2211.11344",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Estimating the support size of a distribution is a well-studied problem in statistics. Motivated by the fact that this problem is highly non-robust (as small perturbations in the distributions can drastically affect the support size) and thus hard to estimate, Goldreich [ECCC 2019] studied the query complexity of estimating the $\\epsilon$-\\emph{effective support size} $\\text{Ess}_\\epsilon$ of a distribution ${P}$, which is equal to the smallest support size of a distribution that is $\\epsilon$-far in total variation distance from ${P}$. In his paper, he shows an algorithm in the dual access setting (where we may both receive random samples and query the sampling probability $p(x)$ for any $x$) for a bicriteria approximation, giving an answer in $[\\text{Ess}_{(1+\\beta)\\epsilon},(1+\\gamma) \\text{Ess}_{\\epsilon}]$ for some values $\\beta, \\gamma>0$. However, his algorithm has either super-constant query complexity in the support size or super-constant approximation ratio $1+\\gamma = \\omega(1)$. He then asked if this is necessary, or if it is possible to get a constant-factor approximation in a number of queries independent of the support size. We answer his question by showing that not only is complexity independent of $n$ possible for $\\gamma>0$, but also for $\\gamma=0$, that is, that the bicriteria relaxation is not necessary. Specifically, we show an algorithm with query complexity $O(\\frac{1}{\\beta^3 \\epsilon^3})$. That is, for any $0<\\epsilon, \\beta<1$, we output in this complexity a number $\\tilde{n} \\in [\\text{Ess}_{(1+\\beta)\\epsilon},\\text{Ess}_\\epsilon]$. We also show that it is possible to solve the approximate version with approximation ratio $1+\\gamma$ in complexity $O\\left(\\frac{1}{\\beta^2 \\epsilon} + \\frac{1}{\\beta \\epsilon \\gamma^2}\\right)$. Our algorithm is very simple, and has $4$ short lines of pseudocode.",
+    "citationCount": 2,
+    "referenceCount": 17
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "a83fb6ec620ec44aa13f3334a86d9212da0790a3",
+    "title": "FastStore: A High-Performance RDMA-Enabled Distributed Key-Value Store with Persistent Memory",
+    "year": 2023,
+    "venue": "IEEE International Conference on Distributed Computing Systems",
+    "authors": [
+        "Ziwei Xiong",
+        "D. Jiang",
+        "Jin Xiong"
+    ],
+    "doi": "10.1109/ICDCS57875.2023.00030",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a83fb6ec620ec44aa13f3334a86d9212da0790a3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Distributed persistent key-value store (KVS) plays an important role in today's storage infrastructure. The development of persistent memory (PM) and remote direct memory access (RDMA) allows to build distributed persistent KVS to provide fast data access. However, prior works focus on either PM-oriented or RDMA-oriented optimizations for key-value stores. We find these optimizations disallow a simple porting of RDMA-enabled KVS to PM or vice versa. This paper proposes FastStore, a high-performance distributed persistent KVS, by fully exploiting RDMA features and PM-friendly optimizations. First, FastStore utilizes RDMA-enabled PM exposure to establish direct indexing at the client side to reduce RTTs for reading values. Meanwhile, PM exposure allows PM sharing among cluster nodes, which helps to mitigate attribute-value skewness. Then, FastStore designs PM-friendly ownership transferring log and failure-atomic slotted-page allocator to achieve highly efficient PM management without PM leakage. Finally, FastStore proposes volatile search key to its B+tree indexing to reduce excessive PM accesses. We implement FastStore and the evaluation shows that FastStore outperforms the state-of-the-art ordered KVS Sherman by 2.8× higher throughput and 71.5% fewer RTTs.",
+    "citationCount": 1,
+    "referenceCount": 61
+}

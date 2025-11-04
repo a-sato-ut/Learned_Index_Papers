@@ -1,0 +1,35 @@
+{
+    "paperId": "940d956a6858eabaaf346962f383cdc2746b89fc",
+    "title": "A Learning-based Approach Towards Automated Tuning of SSD Configurations",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Daixuan Li",
+        "Jian Huang"
+    ],
+    "doi": null,
+    "arxivId": "2110.08685",
+    "url": "https://www.semanticscholar.org/paper/940d956a6858eabaaf346962f383cdc2746b89fc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Thanks to the mature manufacturing techniques, solid-state drives (SSDs) are highly customizable for applications today, which brings opportunities to further improve their storage performance and resource utilization. However, the SSD efficiency is usually determined by many hardware parameters, making it hard for developers to manually tune them and determine the optimal SSD configurations. In this paper, we present an automated learning-based framework, named LearnedSSD, that utilizes both supervised and unsupervised machine learning (ML) techniques to drive the tuning of hardware configurations for SSDs. LearnedSSD automatically extracts the unique access patterns of a new workload using its block I/O traces, maps the workload to previously workloads for utilizing the learned experiences, and recommends an optimal SSD configuration based on the validated storage performance. LearnedSSD accelerates the development of new SSD devices by automating the hard-ware parameter configurations and reducing the manual efforts. We develop LearnedSSD with simple yet effective learning algorithms that can run efficiently on multi-core CPUs. Given a target storage workload, our evaluation shows that LearnedSSD can always deliver an optimal SSD configuration for the target workload, and this configuration will not hurt the performance of non-target workloads.",
+    "citationCount": 4,
+    "referenceCount": 81
+}
