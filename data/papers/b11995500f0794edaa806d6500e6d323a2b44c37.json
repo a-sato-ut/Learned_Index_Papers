@@ -1,0 +1,35 @@
+{
+    "paperId": "b11995500f0794edaa806d6500e6d323a2b44c37",
+    "title": "Learning Facts at Scale with Active Reading",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jessy Lin",
+        "Vincent-Pierre Berges",
+        "Xilun Chen",
+        "Wen-tau Yih",
+        "Gargi Ghosh",
+        "Barlas Oğuz"
+    ],
+    "doi": "10.48550/arXiv.2508.09494",
+    "arxivId": "2508.09494",
+    "url": "https://www.semanticscholar.org/paper/b11995500f0794edaa806d6500e6d323a2b44c37",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LLMs are known to store vast amounts of knowledge in their parametric memory. However, learning and recalling facts from this memory is known to be unreliable, depending largely on the prevalence of particular facts in the training data and other factors which are poorly understood. Practitioners are lacking tools which will allow them to ensure that the models learn a given body of knowledge reliably and consistently. To this end, we propose Active Reading: a framework where we train models to study a given set of material with self-generated learning strategies. First, we demonstrate models trained with Active Reading on expert domains absorb significantly more knowledge than vanilla finetuning and other data augmentations. We train expert 8B models that achieve 66% on a Wikipedia-grounded subset of SimpleQA (+313% relative over vanilla finetuning) and 26% on FinanceBench (+160% relative over vanilla finetuning) by applying Active Reading to the source documents for each benchmark. Finally, we show that Active Reading can be utilized at pre-training scale to build more factual models. As a demonstration of this, we release Meta WikiExpert-8B, a Wikipedia-expert model trained on 1 trillion generated tokens, which outcompetes models with hundreds of billions of parameters on factual QA.",
+    "citationCount": 2,
+    "referenceCount": 54
+}

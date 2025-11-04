@@ -1,0 +1,38 @@
+{
+    "paperId": "0276cadff3071058e47ee3442e51718abb8d39ca",
+    "title": "Adaptive Two-Phase Finetuning LLMs for Japanese Legal Text Retrieval",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Quang Hoang Trung",
+        "Nguyen Van Hoang Phuc",
+        "Le Trung Hoang",
+        "Quang Huu Hieu",
+        "Vo Nguyen Le Duy"
+    ],
+    "doi": "10.48550/arXiv.2412.13205",
+    "arxivId": "2412.13205",
+    "url": "https://www.semanticscholar.org/paper/0276cadff3071058e47ee3442e51718abb8d39ca",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Law",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Text Retrieval (TR) involves finding and retrieving text-based content relevant to a user's query from a large repository, with applications in real-world scenarios such as legal document retrieval. While most existing studies focus on English, limited work addresses Japanese contexts. In this paper, we introduce a new dataset specifically designed for Japanese legal contexts and propose a novel two-phase pipeline tailored to this domain. In the first phase, the model learns a broad understanding of global contexts, enhancing its generalization and adaptability to diverse queries. In the second phase, the model is fine-tuned to address complex queries specific to legal scenarios. Extensive experiments are conducted to demonstrate the superior performance of our method, which outperforms existing baselines. Furthermore, our pipeline proves effective in English contexts, surpassing comparable baselines on the MS MARCO dataset. We have made our code publicly available on GitHub, and the model checkpoints are accessible via HuggingFace.",
+    "citationCount": 1,
+    "referenceCount": 48
+}

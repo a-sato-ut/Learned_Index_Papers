@@ -1,0 +1,35 @@
+{
+    "paperId": "717c16a7ba02bdff972f1809c7d29d9de0901080",
+    "title": "Personalized Federated Learning via Domain Adaptation with an Application to Distributed 3D Printing",
+    "year": 2022,
+    "venue": "Technometrics",
+    "authors": [
+        "Naichen Shi",
+        "R. Kontar"
+    ],
+    "doi": "10.1080/00401706.2022.2157882",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/717c16a7ba02bdff972f1809c7d29d9de0901080",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract Over the years, Internet of Things (IoT) devices have become more powerful. This sets forth a unique opportunity to exploit local computing resources to distribute model learning and circumvent the need to share raw data. The underlying distributed and privacy-preserving data analytics approach is often termed federated learning (FL). A key challenge in FL is the heterogeneity across local datasets. In this article, we propose a new personalized FL model, PFL-DA, by adopting the philosophy of domain adaptation. PFL-DA tackles two sources of data heterogeneity at the same time: a covariate and concept shift across local devices. We show, both theoretically and empirically, that PFL-DA overcomes intrinsic shortcomings in state of the art FL approaches and is able to borrow strength across devices while allowing them to retain their own personalized model. As a case study, we apply PFL-DA to distributed desktop 3D printing where we obtain more accurate predictions of printing speed, which can help improve the efficiency of the printers.",
+    "citationCount": 15,
+    "referenceCount": 53
+}

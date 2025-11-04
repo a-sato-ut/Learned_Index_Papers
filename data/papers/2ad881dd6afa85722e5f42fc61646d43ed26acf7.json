@@ -1,0 +1,34 @@
+{
+    "paperId": "2ad881dd6afa85722e5f42fc61646d43ed26acf7",
+    "title": "Rankers, Judges, and Assistants: Towards Understanding the Interplay of LLMs in Information Retrieval Evaluation",
+    "year": 2025,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "K. Balog",
+        "Donald Metzler",
+        "Zhen Qin"
+    ],
+    "doi": "10.1145/3726302.3730348",
+    "arxivId": "2503.19092",
+    "url": "https://www.semanticscholar.org/paper/2ad881dd6afa85722e5f42fc61646d43ed26acf7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large language models (LLMs) are increasingly integral to information retrieval (IR), powering ranking, evaluation, and AI-assisted content creation. This widespread adoption necessitates a critical examination of potential biases arising from the interplay between these LLM-based components. This paper synthesizes existing research and presents novel experiment designs that explore how LLM-based rankers and assistants influence LLM-based judges. We provide the first empirical evidence of LLM judges exhibiting significant bias towards LLM-based rankers. Furthermore, we observe limitations in LLM judges' ability to discern subtle system performance differences. Contrary to some previous findings, our preliminary study does not find evidence of bias against AI-generated content. These results highlight the need for a more holistic view of the LLM-driven information ecosystem. To this end, we offer initial guidelines and a research agenda to ensure the reliable use of LLMs in IR evaluation.",
+    "citationCount": 4,
+    "referenceCount": 72
+}

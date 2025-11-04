@@ -1,0 +1,38 @@
+{
+    "paperId": "87411e3dc48b89cc8a1f4138f80977b4f60301c2",
+    "title": "GateSeeder: Near-memory CPU-FPGA Acceleration of Short and Long Read Mapping",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Julien Eudine",
+        "M. Alser",
+        "Gagandeep Singh",
+        "Can Alkan",
+        "O. Mutlu"
+    ],
+    "doi": "10.48550/arXiv.2309.17063",
+    "arxivId": "2309.17063",
+    "url": "https://www.semanticscholar.org/paper/87411e3dc48b89cc8a1f4138f80977b4f60301c2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2309.17063",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Motivation: Read mapping is a computationally expensive process and a major bottleneck in genomics analyses. The performance of read mapping is mainly limited by the performance of three key computational steps: Index Querying, Seed Chaining, and Sequence Alignment. The first step is dominated by how fast and frequent it accesses the main memory (i.e., memory-bound), while the latter two steps are dominated by how fast the CPU can compute their computationally-costly dynamic programming algorithms (i.e., compute-bound). Accelerating these three steps by exploiting new algorithms and new hardware devices is essential to accelerate most genome analysis pipelines that widely use read mapping. Given the large body of work on accelerating Sequence Alignment, this work focuses on significantly improving the remaining steps. Results: We introduce GateSeeder, the first CPU-FPGA-based near-memory acceleration of both short and long read mapping. GateSeeder exploits near-memory computation capability provided by modern FPGAs that couple a reconfigurable compute fabric with high-bandwidth memory (HBM) to overcome the memory-bound and compute-bound bottlenecks. GateSeeder also introduces a new lightweight algorithm for finding the potential matching segment pairs. Using real ONT, HiFi, and Illumina sequences, we experimentally demonstrate that GateSeeder outperforms Minimap2, without performing sequence alignment, by up to 40.3x, 4.8x, and 2.3x, respectively. When performing read mapping with sequence alignment, GateSeeder outperforms Minimap2 by 1.15-4.33x (using KSW2) and by 1.97-13.63x (using WFA-GPU). Availability: https://github.com/CMU-SAFARI/GateSeeder",
+    "citationCount": 0,
+    "referenceCount": 54
+}

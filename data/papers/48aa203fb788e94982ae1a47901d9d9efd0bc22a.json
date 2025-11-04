@@ -1,0 +1,39 @@
+{
+    "paperId": "48aa203fb788e94982ae1a47901d9d9efd0bc22a",
+    "title": "mm2-gb: GPU Accelerated Minimap2 for Long Read DNA Mapping",
+    "year": 2024,
+    "venue": "bioRxiv",
+    "authors": [
+        "Juechu Dong",
+        "Xueshen Liu",
+        "Harisankar Sadasivan",
+        "Sriranjani Sitaraman",
+        "Satish Narayanasamy"
+    ],
+    "doi": "10.1101/2024.03.23.586366",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/48aa203fb788e94982ae1a47901d9d9efd0bc22a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.biorxiv.org/content/biorxiv/early/2024/03/27/2024.03.23.586366.full.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Long-read DNA sequencing is becoming increasingly popular for genetic diagnostics. Minimap2 is the state-of-the-art long-read aligner. However, Minimap2’s chaining step is slow on the CPU and takes 40-68% of the time especially for long DNA reads. Prior works in accelerating Minimap2 either lose mapping accuracy, are closed source (and not updated) or deliver inconsistent speedups for longer reads. We introduce mm2-gb which accelerates the chaining step of Minimap2 on GPU without compromising mapping accuracy. In addition to intra- and inter-read parallelism exploited by prior works, mm2-gb exploits finer levels of parallelism by breaking down high latency large workloads into smaller independent segments that can be run in parallel and leverages several strategies for better workload balancing including split-kernels and prioritized scheduling of segments based on sorted size. We show that mm2-gb on an AMD Instinct™ MI210 GPU achieves 2.57-5.33x performance improvement on long nanopore reads (10kb-100kb), and up to 1.87x performance gain on super long reads (100kb-300kb) compared to SIMD accelerated mm2-fast. mm2-gb is open-sourced and available at https://github.com/Minimap2onGPU/mm2-gb.",
+    "citationCount": 6,
+    "referenceCount": 19
+}

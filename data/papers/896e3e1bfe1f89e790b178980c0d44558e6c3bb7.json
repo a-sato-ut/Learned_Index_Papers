@@ -1,0 +1,34 @@
+{
+    "paperId": "896e3e1bfe1f89e790b178980c0d44558e6c3bb7",
+    "title": "Generative Multi-hop Retrieval",
+    "year": 2022,
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+        "Hyunji Lee",
+        "Sohee Yang",
+        "Hanseok Oh",
+        "Minjoon Seo"
+    ],
+    "doi": "10.18653/v1/2022.emnlp-main.92",
+    "arxivId": "2204.13596",
+    "url": "https://www.semanticscholar.org/paper/896e3e1bfe1f89e790b178980c0d44558e6c3bb7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://aclanthology.org/2022.emnlp-main.92.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A common practice for text retrieval is to use an encoder to map the documents and the query to a common vector space and perform a nearest neighbor search (NNS); multi-hop retrieval also often adopts the same paradigm, usually with a modification of iteratively reformulating the query vector so that it can retrieve different documents at each hop. However, such a bi-encoder approach has limitations in multi-hop settings; (1) the reformulated query gets longer as the number of hops increases, which further tightens the embedding bottleneck of the query vector, and (2) it is prone to error propagation. In this paper, we focus on alleviating these limitations in multi-hop settings by formulating the problem in a fully generative way. We propose an encoder-decoder model that performs multi-hop retrieval by simply generating the entire text sequences of the retrieval targets, which means the query and the documents interact in the language model’s parametric space rather than L2 or inner product space as in the bi-encoder approach. Our approach, Generative Multi-hop Retrieval (GMR), consistently achieves comparable or higher performance than bi-encoder models in five datasets while demonstrating superior GPU memory and storage footprint.",
+    "citationCount": 14,
+    "referenceCount": 46
+}

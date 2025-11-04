@@ -1,0 +1,42 @@
+{
+    "paperId": "8406c0ce2b9a2983976f2149f31724e94bc3fd3b",
+    "title": "Scalable Spatial Analytics and In Situ Query Processing in DaskDB",
+    "year": 2023,
+    "venue": "International Symposium on Spatial and Temporal Databases",
+    "authors": [
+        "Suvam Kumar Das",
+        "Ronnit Peter",
+        "S. Ray"
+    ],
+    "doi": "10.1145/3609956.3609978",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8406c0ce2b9a2983976f2149f31724e94bc3fd3b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Vast amounts of data are stored in raw data files. Data scientists and practitioners typically use data science frameworks for data analysis on raw data. Among them, Python Pandas library is one of the most popular language-based frameworks. On the other hand, relational databases (RDBMSs) are still widely used for SQL query execution. Before querying, raw data must be loaded into RDBMSs through an ETL process. Conversely, data stored in RDBMSs may need to be exported out or moved into a suitable format to perform complex data analysis. This movement of data adversely affects the time-to-insight. Recently a scalable system, called DaskDB, was introduced, which supports unified data analytics and in situ SQL query processing without requiring any data movement. It supports invoking existing Python API’s as User-Defined Functions (UDF) as a part of SQL queries, so they can be easily integrated with most of the existing Python applications. Due to the importance of supporting spatial analytics and spatial SQL queries, we have extended DaskDB to support spatial functionalities. In this paper, we present our enhanced DaskDB system. With two real-world spatial datasets, we demonstrate the scalability of DaskDB’s spatial features.",
+    "citationCount": 5,
+    "referenceCount": 10
+}

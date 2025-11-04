@@ -1,0 +1,32 @@
+{
+    "paperId": "9b452801685f9651e12f6c66023e7318c8600b4e",
+    "title": "Pretrained LLMs Learn Multiple Types of Uncertainty",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Roi Cohen",
+        "Omri Fahn",
+        "Gerard de Melo"
+    ],
+    "doi": "10.48550/arXiv.2505.21218",
+    "arxivId": "2505.21218",
+    "url": "https://www.semanticscholar.org/paper/9b452801685f9651e12f6c66023e7318c8600b4e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large Language Models are known to capture real-world knowledge, allowing them to excel in many downstream tasks. Despite recent advances, these models are still prone to what are commonly known as hallucinations, causing them to emit unwanted and factually incorrect text. In this work, we study how well LLMs capture uncertainty, without explicitly being trained for that. We show that, if considering uncertainty as a linear concept in the model's latent space, it might indeed be captured, even after only pretraining. We further show that, though unintuitive, LLMs appear to capture several different types of uncertainty, each of which can be useful to predict the correctness for a specific task or benchmark. Furthermore, we provide in-depth results such as demonstrating a correlation between our correction prediction and the model's ability to abstain from misinformation using words, and the lack of impact of model scaling for capturing uncertainty. Finally, we claim that unifying the uncertainty types as a single one using instruction-tuning or [IDK]-token tuning is helpful for the model in terms of correctness prediction.",
+    "citationCount": 1,
+    "referenceCount": 67
+}

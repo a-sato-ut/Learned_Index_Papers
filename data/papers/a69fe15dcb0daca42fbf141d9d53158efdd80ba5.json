@@ -1,0 +1,30 @@
+{
+    "paperId": "a69fe15dcb0daca42fbf141d9d53158efdd80ba5",
+    "title": "Multi-level and cross-domain search engine based on graph convolutional neural network",
+    "year": 2024,
+    "venue": "International Journal of Low-Carbon Technologies",
+    "authors": [
+        "Qiang Li",
+        "Zhuang Li",
+        "Qiulin Wang",
+        "Xiaodong Zhang",
+        "Jianghai Chen"
+    ],
+    "doi": "10.1093/ijlct/ctae059",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a69fe15dcb0daca42fbf141d9d53158efdd80ba5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://academic.oup.com/ijlct/article-pdf/doi/10.1093/ijlct/ctae059/57687406/ctae059.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n With the advent of the information age, there is a growing demand for multi-level cross-domain information retrieval by users. However, current technological solutions have not yet overcome the dilemma of automatic adjustment of search scope in cross-domain retrieval. This article proposes a multi-level cross-domain retrieval engine based on graph convolutional neural networks (GCNs). GCN can effectively capture the complex semantic structures in documents, excavate the potential dynamic context of documents by learning the relationships between nodes in the graph structure, adapt to cross-domain retrieval, extract semantic information from different levels and automatically adjust the search scope. To verify the effectiveness of the method, experiments were conducted on the NQ320k dataset and compared with SEAL, BM25, Transformer and Bert models. The results show that the cross-domain retrieval engine based on GCN has significant advantages over other methods, with Recall@100 reaching 97.44%, MRR@100 reaching 76.12% and R-Precision reaching 78.84%. In the future, the performance and applicability of the retrieval engine can be further improved by optimizing the model structure and expanding the training dataset.",
+    "citationCount": 0,
+    "referenceCount": 9
+}

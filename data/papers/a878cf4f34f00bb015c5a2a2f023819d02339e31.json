@@ -1,0 +1,38 @@
+{
+    "paperId": "a878cf4f34f00bb015c5a2a2f023819d02339e31",
+    "title": "Memorization In In-Context Learning",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Shahriar Golchin",
+        "M. Surdeanu",
+        "Steven Bethard",
+        "Eduardo Blanco",
+        "Ellen Riloff"
+    ],
+    "doi": "10.48550/arXiv.2408.11546",
+    "arxivId": "2408.11546",
+    "url": "https://www.semanticscholar.org/paper/a878cf4f34f00bb015c5a2a2f023819d02339e31",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In-context learning (ICL) has proven to be an effective strategy for improving the performance of large language models (LLMs) with no additional training. However, the exact mechanism behind this performance improvement remains unclear. This study is the first to show how ICL surfaces memorized training data and to explore the correlation between this memorization and performance on downstream tasks across various ICL regimes: zero-shot, few-shot, and many-shot. Our most notable findings include: (1) ICL significantly surfaces memorization compared to zero-shot learning in most cases; (2) demonstrations, without their labels, are the most effective element in surfacing memorization; (3) ICL improves performance when the surfaced memorization in few-shot regimes reaches a high level (about 40%); and (4) there is a very strong correlation between performance and memorization in ICL when it outperforms zero-shot learning. Overall, our study uncovers memorization as a new factor impacting ICL, raising an important question: to what extent do LLMs truly generalize from demonstrations in ICL, and how much of their success is due to memorization?",
+    "citationCount": 3,
+    "referenceCount": 67
+}

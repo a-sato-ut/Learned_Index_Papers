@@ -1,0 +1,42 @@
+{
+    "paperId": "3109c9015d3b57f0409e86e24ae377898a1e163a",
+    "title": "Collaborative and Distributed Bayesian Optimization via Consensus",
+    "year": 2023,
+    "venue": "IEEE Transactions on Automation Science and Engineering",
+    "authors": [
+        "Xubo Yue",
+        "Yang Liu",
+        "A. Berahas",
+        "Blake N. Johnson",
+        "Raed Al Kontar"
+    ],
+    "doi": "10.1109/TASE.2025.3529349",
+    "arxivId": "2306.14348",
+    "url": "https://www.semanticscholar.org/paper/3109c9015d3b57f0409e86e24ae377898a1e163a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Optimal design is a critical yet challenging task within many applications. This challenge arises from the need for extensive trial and error, often done through simulations or running field experiments. Fortunately, sequential optimal design, also referred to as Bayesian optimization when using surrogates with a Bayesian flavor, has played a key role in accelerating the design process through efficient sequential sampling strategies. However, a key opportunity exists nowadays. The increased connectivity of edge devices sets forth a new collaborative paradigm for Bayesian optimization. A paradigm whereby different clients collaboratively borrow strength from each other by effectively distributing their experimentation efforts to improve and fast-track their optimal design process. To this end, we bring the notion of consensus to Bayesian optimization, where clients agree (i.e., reach a consensus) on their next-to-sample designs. Our approach provides a generic and flexible framework that can incorporate different collaboration mechanisms. In lieu of this, we propose transitional collaborative mechanisms where clients initially rely more on each other to maneuver through the early stages with scant data, then, at the late stages, focus on their own objectives to get client-specific solutions. Theoretically, we show the sub-linear growth in regret for our proposed framework. Empirically, through simulated datasets and a real-world collaborative sensor design experiment, we show that our framework can effectively accelerate and improve the optimal design process and benefit all participants. Note to Practitioners—The proposed algorithm allows multiple clients to collaboratively distribute their trial-and-error efforts to fast-track and improve the optimal design process. In the algorithm, each client performs a test locally and then shares the results with an orchestrator. Using the information from all clients, the orchestrator then finds the best new experiment that each client should undertake and sends those back for the next round of experiments. Through this process, all clients can leverage each other’s strengths and optimize their designs with far fewer experiments than each client operating in isolation. This is confirmed through many simulation examples, along with a real-life sensor design experiment where multiple collaborating agents seqeuntially coordinate their experimentation efforts. The goal is to rapidly discover the biosensor design and measurement format parameters that find the maximum amount of captured target analyte.",
+    "citationCount": 5,
+    "referenceCount": 96
+}

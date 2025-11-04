@@ -1,0 +1,31 @@
+{
+    "paperId": "da168b242ccdd811810e6d0903f7eabddefcbc3e",
+    "title": "Graph Stream Compression Scheme Based on Pattern Dictionary Using Provenance",
+    "year": 2024,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Hyeonbyeong Lee",
+        "Bokyoung Shin",
+        "Dojin Choi",
+        "Jongtae Lim",
+        "Kyoungsoo Bok",
+        "Jaesoo Yoo"
+    ],
+    "doi": "10.3390/app14114553",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/da168b242ccdd811810e6d0903f7eabddefcbc3e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2076-3417/14/11/4553/pdf?version=1716639333",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With recent advancements in network technology and the increasing popularity of the internet, the use of social network services and Internet of Things devices has flourished, leading to a continuous generation of large volumes of graph stream data, where changes, such as additions or deletions of vertices and edges, occur over time. Additionally, owing to the need for the efficient use of storage space and security requirements, graph stream data compression has become essential in various applications. Even though various studies on graph compression methods have been conducted, most of them do not fully reflect the dynamic characteristics of graph streams and the complexity of large graphs. In this paper, we propose a compression scheme using provenance data to efficiently process and analyze large graph stream data. It obtains provenance data by analyzing graph stream data and builds a pattern dictionary based on this to perform dictionary-based compression. By improving the existing dictionary-based graph compression methods, it enables more efficient dictionary management through tracking pattern changes and evaluating their importance using provenance. Furthermore, it considers the relationships among sub-patterns using an FP-tree and performs pattern dictionary management that updates pattern scores based on time. Our experiments show that the proposed scheme outperforms existing graph compression methods in key performance metrics, such as compression rate and processing time.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

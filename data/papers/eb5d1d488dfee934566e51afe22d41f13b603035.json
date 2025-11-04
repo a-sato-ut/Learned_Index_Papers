@@ -1,0 +1,34 @@
+{
+    "paperId": "eb5d1d488dfee934566e51afe22d41f13b603035",
+    "title": "The Landscape of Memorization in LLMs: Mechanisms, Measurement, and Mitigation",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Alexander Xiong",
+        "Xuandong Zhao",
+        "Aneesh Pappu",
+        "D. Song"
+    ],
+    "doi": "10.48550/arXiv.2507.05578",
+    "arxivId": "2507.05578",
+    "url": "https://www.semanticscholar.org/paper/eb5d1d488dfee934566e51afe22d41f13b603035",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities across a wide range of tasks, yet they also exhibit memorization of their training data. This phenomenon raises critical questions about model behavior, privacy risks, and the boundary between learning and memorization. Addressing these concerns, this paper synthesizes recent studies and investigates the landscape of memorization, the factors influencing it, and methods for its detection and mitigation. We explore key drivers, including training data duplication, training dynamics, and fine-tuning procedures that influence data memorization. In addition, we examine methodologies such as prefix-based extraction, membership inference, and adversarial prompting, assessing their effectiveness in detecting and measuring memorized content. Beyond technical analysis, we also explore the broader implications of memorization, including the legal and ethical implications. Finally, we discuss mitigation strategies, including data cleaning, differential privacy, and post-training unlearning, while highlighting open challenges in balancing the minimization of harmful memorization with utility. This paper provides a comprehensive overview of the current state of research on LLM memorization across technical, privacy, and performance dimensions, identifying critical directions for future work.",
+    "citationCount": 2,
+    "referenceCount": 111
+}

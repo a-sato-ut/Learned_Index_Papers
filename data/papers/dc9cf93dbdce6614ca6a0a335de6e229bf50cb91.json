@@ -1,0 +1,31 @@
+{
+    "paperId": "dc9cf93dbdce6614ca6a0a335de6e229bf50cb91",
+    "title": "MUAR: Maximizing Utilization of Available Resources for Query Processing",
+    "year": 2023,
+    "venue": "2023 IEEE/ACM 23rd International Symposium on Cluster, Cloud and Internet Computing Workshops (CCGridW)",
+    "authors": [
+        "Mayank Patel",
+        "Minal Bhise"
+    ],
+    "doi": "10.1109/CCGridW59191.2023.00040",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dc9cf93dbdce6614ca6a0a335de6e229bf50cb91",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Processing large datasets requires significant hardware resources and energy. Researchers have observed that most database management systems could not utilize available resources efficiently, increasing data to result time and application running costs. This research explores techniques that can maximize the utilization of available resources to efficiently process large datasets on limited resource systems. The work implemented single and multiple resource maximization techniques and observed improvements in total workload execution time (WET). Results showed that combining CPU and RAM resource maximization techniques can reduce WET by 61-81% compared to the original WET observed with default resource allocation configuration. This work proposes a lightweight real-time resource allocation and task scheduling algorithm MUAR (Maximizing Utilization of Available Resources). It maximizes the utilization of available resources considering the real-time availability of resources and workload task complexity. The algorithm identifies complex multi-join queries and allocates maximum available resources for faster execution. MUAR is capable of estimating work memory value with 15-20% error required to achieve the best query performance with only single query run data. A comparison of MUAR with machine learning-based techniques like PCC and AutoToken is also presented.",
+    "citationCount": 5,
+    "referenceCount": 28
+}

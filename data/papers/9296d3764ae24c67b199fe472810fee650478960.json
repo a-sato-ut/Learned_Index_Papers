@@ -1,0 +1,51 @@
+{
+    "paperId": "9296d3764ae24c67b199fe472810fee650478960",
+    "title": "Utility of long-read sequencing for All of Us",
+    "year": 2023,
+    "venue": "bioRxiv",
+    "authors": [
+        "M. Mahmoud",
+        "Y. Huang",
+        "K. Garimella",
+        "P. Audano",
+        "W. Wan",
+        "N. Prasad",
+        "R. Handsaker",
+        "S. Hall",
+        "A. Pionzio",
+        "M. Schatz",
+        "M. Talkowski",
+        "E. Eichler",
+        "S. Levy",
+        "F. Sedlazeck"
+    ],
+    "doi": "10.1101/2023.01.23.525236",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9296d3764ae24c67b199fe472810fee650478960",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.nature.com/articles/s41467-024-44804-3.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The All of Us (AoU) initiative aims to sequence the genomes of over one million Americans from diverse ethnic backgrounds to improve personalized medical care. In a recent technical pilot, we compare the performance of traditional short-read sequencing with long-read sequencing in a small cohort of samples from the HapMap project and two AoU control samples representing eight datasets. Our analysis reveals substantial differences in the ability of these technologies to accurately sequence complex medically relevant genes, particularly in terms of gene coverage and pathogenic variant identification. We also consider the advantages and challenges of using low coverage sequencing to increase sample numbers in large cohort analysis. Our results show that HiFi reads produce the most accurate results for both small and large variants. Further, we present a cloud-based pipeline to optimize SNV, indel and SV calling at scale for long-reads analysis. These results lead to widespread improvements across AoU. Using All of Us pilot data, the authors compared short- and long-read performance across medically relevant genes and showcased the utility of long reads to improve variant detection and phasing in easy and hard to resolve medically relevant genes.",
+    "citationCount": 68,
+    "referenceCount": 68
+}

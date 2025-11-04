@@ -1,0 +1,40 @@
+{
+    "paperId": "70737764a1e89cf87650d40921f7731aafa036cc",
+    "title": "Accelerating Chaining in Genomic Analysis Using RISC- V Custom Instructions",
+    "year": 2024,
+    "venue": "Design, Automation and Test in Europe",
+    "authors": [
+        "Kisaru Liyanage",
+        "Hasindu Gamaarachchi",
+        "Hassaan Saadat",
+        "Tuo Li",
+        "Hiruna Samarakoon",
+        "Sri Parameswaran"
+    ],
+    "doi": "10.23919/DATE58400.2024.10546650",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/70737764a1e89cf87650d40921f7731aafa036cc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents a method for designing custom instructions tailored to RISC-V processors, focusing on optimizing the chaining step of Minimap2 (a software tool used to analyze DNA data emanating from third-generation sequencing machines). This custom instruction design involves employing an architectural template within the Rocket Custom Coprocessor (RoCC) unit of Rocket Chip, an open-source hardware implementation of RISC- VISA, aided by a heuristic algorithm that facilitates extracting custom instructions from high-level C code targeting the proposed architectural template. Two types of instructions are created in this work: complex computational instructions; and instructions that load static data apriori so that these data are not repeatedly brought in from the memory. The resulting custom instructions integrated into Rocket Chip demonstrate a speedup of up to 2.4 × in the chaining step of Minimap2 with no adverse impact on the final mapping accuracy compared to the original software. The acceleration of Minimap2 's chaining stage on a RISC-V processor enhances its portability and energy efficiency, making third-generation DNA sequence analysis more accessible in various settings.",
+    "citationCount": 1,
+    "referenceCount": 31
+}

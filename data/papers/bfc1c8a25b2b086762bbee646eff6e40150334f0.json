@@ -1,0 +1,32 @@
+{
+    "paperId": "bfc1c8a25b2b086762bbee646eff6e40150334f0",
+    "title": "Challenges and Barriers of Using Low Code Software for Machine Learning",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Md. Abdullah Al Alamin",
+        "Gias Uddin"
+    ],
+    "doi": "10.48550/arXiv.2211.04661",
+    "arxivId": "2211.04661",
+    "url": "https://www.semanticscholar.org/paper/bfc1c8a25b2b086762bbee646eff6e40150334f0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2211.04661",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As big data grows ubiquitous across many domains, more and more stakeholders seek to develop Machine Learning (ML) applications on their data. The success of an ML application usually depends on the close collaboration of ML experts and domain experts. However, the shortage of ML engineers remains a fundamental problem. Low-code Machine learning tools/platforms (aka, AutoML) aim to democratize ML development to domain experts by automating many repetitive tasks in the ML pipeline, such as data collection, data pre-processing, feature engineering, model design, optimal hyper-parameter configuration, and model evaluation. However, even with minimal the hand coding support via the end-to-end pipeline of AutoML tools, it still requires human involvement in vital steps such as understanding the problem scope, domain-specific data, designing an appropriate training and testing dataset, model deployment & monitoring. As AutoML has some unique characteristics to traditional ML, it is vital to study the challenges ML practitioners face while they use the currently available AutoML tools, so that appropriate measures can be taken to address the challenges and to realize the vision of democratizing ML using low code software development principles and methodologies. This research presents an empirical study of around 14k posts (questions + accepted answers) from Stack Overflow (SO) that contained AutoML-related discussions. Software developers frequently use the online developer Q&A site SO to seek technical assistance. We observe a growing number of AutoML-related discussions in SO. We use LDA Topic Modeling to determine the topics discussed in those posts. Additionally, we examine how these topics are spread across the various Machine Learning Life Cycle (MLLC) phases and their popularity and difficulty. This study offers several interesting findings. First, we find 13 AutoML topics that we group into four categories. The MLOps topic category (43% questions) is the largest, followed by Model (28% questions), Data (27% questions), Documentation (2% questions). Second, Most questions are asked during Model training (29%) (i.e., implementation phase) and Data preparation (25%) MLLC phase. Third, AutoML practitioners find the MLOps topic category most challenging, especially topics related to model deployment & monitoring and Automated ML pipeline. Fourth, the Requirement analysis and scope definition MLLC phase are the most popular and challenging for AutoML practitioners. They also find the Model deployment and Model evaluation MLLC phase more complex than other phases like Data preparation and Model training. Fifth, MLOps topic category and Model deployment and Monitoring phase are more predominant and popular in cloud-based AutoML solution and Model topic category whereas Model evaluation phase is more dominant and popular in non-cloud AutoML solutions. These findings have implications for all three AutoML stakeholders: AutoML researchers, AutoML service vendors, and AutoML developers. Academia and Industry collaboration can improve different aspects of AutoML, such as better DevOps/deployment support and tutorial-based documentation. by Model (4 topics, 27.6% questions), Data (3 topics, 27% questions), documentation (1 topic, 2.2% questions). We find that the Data Management topic under the Data category has the highest number of questions (16.8%), followed by Library/Platform Management (14.2%) under MLOps, Model Performance (12.5%) under Model. Our study reveals that AutoML practitioners mostly struggle with integrating different AutoML services to improve model performance and setting up development and deployment environment.",
+    "citationCount": 1,
+    "referenceCount": 105
+}

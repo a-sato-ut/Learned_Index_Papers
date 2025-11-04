@@ -1,0 +1,43 @@
+{
+    "paperId": "1d47240f482f95b1b6506d497c687345801eb4ac",
+    "title": "FunDa: scalable serverless data analytics and in situ query processing",
+    "year": 2025,
+    "venue": "Journal of Big Data",
+    "authors": [
+        "Elyes Lounissi",
+        "Suvam Kumar Das",
+        "Ronnit Peter",
+        "Xiaozheng Zhang",
+        "Suprio Ray",
+        "Lianyin Jia"
+    ],
+    "doi": "10.1186/s40537-025-01141-6",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1d47240f482f95b1b6506d497c687345801eb4ac",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1186/s40537-025-01141-6",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The pay-what-you-use model of serverless Cloud computing (or serverless, for short) offers significant benefits to the users. This computing paradigm is ideal for short running ephemeral tasks, however, it is not suitable for stateful long running tasks, such as complex data analytics and query processing. We propose FunDa, an on-premises serverless data analytics framework, which extends our previously proposed system for unified data analytics and in situ SQL query processing called DaskDB. Unlike existing serverless solutions, which struggle with stateful and long running data analytics tasks, FunDa overcomes their limitations. Our ongoing research focuses on developing a robust architecture for FunDa, enabling true serverless in on-premises environments, while being able to operate on a public Cloud, such as AWS Cloud. We have evaluated our system on several benchmarks with different scale factors. Our experimental results in both on-premises and AWS Cloud settings demonstrate FunDa’s ability to support automatic scaling, low-latency execution of data analytics workloads, and more flexibility to serverless users.",
+    "citationCount": 1,
+    "referenceCount": 27
+}

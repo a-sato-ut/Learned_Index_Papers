@@ -1,0 +1,38 @@
+{
+    "paperId": "9f4e953d41f2e261981f3e875123e4fb487ac6a0",
+    "title": "FunDa: Towards Serverless Data Analytics and In Situ Query Processing",
+    "year": 2024,
+    "venue": "BiDEDE@SIGMOD",
+    "authors": [
+        "Suvam Kumar Das",
+        "Ronnit Peter",
+        "Xiaozheng Zhang",
+        "Suprio Ray"
+    ],
+    "doi": "10.1145/3663741.3664788",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9f4e953d41f2e261981f3e875123e4fb487ac6a0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Serverless is a cloud computing paradigm that offers unique advantages to the users due to its pay-what-you-use model. It is particularly suitable for running ephemeral short running tasks. However, this framework is not well-suited for stateful long running data analytics and query processing tasks. Although several recent projects have proposed serverless query processing or data analytics systems that are based on AWS Lambda, they are limited by its constraints and the inherent limitations of serverless. We propose FunDa, an on-premises serverless data analytics framework, which aims to address the limitations of existing approaches. FunDa extends our previously proposed system for unified data analytics and in situ SQL query processing called DaskDB. We evaluate our prototype with two different workloads with three scale factors. While our experimental results are quite promising, they also reveal significant future research opportunities.",
+    "citationCount": 1,
+    "referenceCount": 24
+}

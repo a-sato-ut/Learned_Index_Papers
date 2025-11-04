@@ -1,0 +1,38 @@
+{
+    "paperId": "cf1669d58f2f347d1f8e1aac01fdcf9f6af08630",
+    "title": "AnVILWorkflow: A runnable workflow package for Cloud-implemented bioinformatics analysis pipelines",
+    "year": 2024,
+    "venue": "Research Square",
+    "authors": [
+        "Sehyun Oh",
+        "Kai Gravel-Pucillo",
+        "Marcel Ramos",
+        "Sean Davis",
+        "Vincent Carey",
+        "Martin Morgan",
+        "Levi Waldron"
+    ],
+    "doi": "10.21203/rs.3.rs-4370115/v1",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cf1669d58f2f347d1f8e1aac01fdcf9f6af08630",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.researchsquare.com/article/rs-4370115/latest.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Advancements in sequencing technologies and the development of new data collection methods produce large volumes of biological data. The Genomic Data Science Analysis, Visualization, and Informatics Lab-space (AnVIL) provides a cloud-based platform for democratizing access to large-scale genomics data and analysis tools. However, utilizing the full capabilities of AnVIL can be challenging for researchers without extensive bioinformatics expertise, especially for executing complex workflows. Here we present the AnVILWorkflow R package, which enables the convenient execution of bioinformatics workflows hosted on AnVIL directly from an R environment. AnVILWorkflowsimplifies the setup of the cloud computing environment, input data formatting, workflow submission, and retrieval of results through intuitive functions. We demonstrate the utility of AnVILWorkflowfor three use cases: bulk RNA-seq analysis with Salmon, metagenomics analysis with bioBakery, and digital pathology image processing with PathML. The key features of AnVILWorkflow include user-friendly browsing of available data and workflows, seamless integration of R and non-R tools within a reproducible analysis pipeline, and accessibility to scalable computing resources without direct management overhead. While some limitations exist around workflow customization, AnVILWorkflowlowers the barrier to taking advantage of AnVIL’s resources, especially for exploratory analyses or bulk processing with established workflows. This empowers a broader community of researchers to leverage the latest genomics tools and datasets using familiar R syntax. This package is distributed through the Bioconductor project (https://bioconductor.org/packages/AnVILWorkflow), and the source code is available through GitHub (https://github.com/shbrief/AnVILWorkflow).",
+    "citationCount": 0,
+    "referenceCount": 13
+}

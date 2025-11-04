@@ -1,0 +1,42 @@
+{
+    "paperId": "06567d2ffec52445044cea274ce6fff0e22b8007",
+    "title": "Federated Multiple Tensor-on-Tensor Regression (FedMTOT) for Multimodal Data Under Data-Sharing Constraints",
+    "year": 2024,
+    "venue": "Technometrics",
+    "authors": [
+        "Zihan Zhang",
+        "Shancong Mou",
+        "M. R. Gahrooei",
+        "Massimo Pacella",
+        "Jianjun Shi"
+    ],
+    "doi": "10.1080/00401706.2024.2333506",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/06567d2ffec52445044cea274ce6fff0e22b8007",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract In recent years, diversified measurements reflect the system dynamics from a more comprehensive perspective in system modeling and analysis, such as scalars, waveform signals, images, and structured point clouds. To handle such multimodal structured high-dimensional (SHD) data, combining a large amount of data from multiple sites is necessary (i) to reduce the inherent population bias from a single site and (ii) to increase the model accuracy. However, impeded by data management policies and storage costs, data could not be easily shared or directly exchanged among different sites. Instead of simplifying or facilitating the data query process, we propose a federated multiple tensor-on-tensor regression (FedMTOT) framework to train the individual system model locally using (i) its own data and (ii) data features (not data itself) from other sites. Specifically, federated computation is executed based on alternating direction method of multipliers (ADMM) to satisfy data-sharing requirements, while the individual model at each site can still benefit from feature knowledge from other sites to improve its own model accuracy. Finally, two simulations and two case studies validate the superiority of the proposed FedMTOT framework.",
+    "citationCount": 2,
+    "referenceCount": 32
+}

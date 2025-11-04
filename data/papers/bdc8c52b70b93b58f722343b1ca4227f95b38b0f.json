@@ -1,0 +1,40 @@
+{
+    "paperId": "bdc8c52b70b93b58f722343b1ca4227f95b38b0f",
+    "title": "Hardware Acceleration of Minimap2 Genomic Sequence Alignment Algorithm",
+    "year": 2024,
+    "venue": "International Conference on Parallel Processing",
+    "authors": [
+        "Jie Cheng",
+        "Lifu Hu",
+        "Wei Xu",
+        "Hanhua Chen",
+        "Tian Xia"
+    ],
+    "doi": "10.1145/3673038.3673158",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bdc8c52b70b93b58f722343b1ca4227f95b38b0f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sequence alignment, a crucial task in genome analysis for downstream applications such as mutation detection, faces challenges due to longer sequences and increased errors in the era of third-generation sequencing. This paper focuses on the optimization of Minimap2, a widely used alignment algorithm for mapping variable-length reads to extensive reference sequences. To enhance the algorithm’s performance, we introduce a novel approach leveraging FPGA technology to expedite the time-consuming extension step. Our work addresses limitations in existing hardware implementations through innovative designs. The Cyclic Variable Logical Length (CVLL) method optimizes systolic arrays by reducing latency and resource waste. Additionally, we employ 2-bit variables to streamline backtracking direction recording, simplifying FPGA implementation and significantly reducing memory usage. We further enhance the system performance by incorporating the pipeline and multi-channel techniques. Experimental results on the FX410QL FPGA platform demonstrate the notable speedups of our design, reaching a peak improvement of 2.84 × over CPU implementation, and achieving improvements compared to GPU implementation at various input lengths. Beyond algorithm acceleration, our design provides insights into enhancing genome data processing overall and implications for FPGA implementation on application-specific integrated circuits, addressing the growing gap between genome data generation and analysis.",
+    "citationCount": 3,
+    "referenceCount": 25
+}

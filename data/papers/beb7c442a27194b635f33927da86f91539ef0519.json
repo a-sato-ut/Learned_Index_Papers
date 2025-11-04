@@ -1,0 +1,47 @@
+{
+    "paperId": "beb7c442a27194b635f33927da86f91539ef0519",
+    "title": "Federated Gaussian Process: Convergence, Automatic Personalization and Multi-Fidelity Modeling",
+    "year": 2021,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "authors": [
+        "Xubo Yue",
+        "R. Kontar"
+    ],
+    "doi": "10.1109/TPAMI.2024.3355289",
+    "arxivId": "2111.14008",
+    "url": "https://www.semanticscholar.org/paper/beb7c442a27194b635f33927da86f91539ef0519",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2111.14008",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we propose <monospace>FGPR</monospace>: a Federated Gaussian process (<inline-formula><tex-math notation=\"LaTeX\">$\\mathcal {GP}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"script\">GP</mml:mi></mml:math><inline-graphic xlink:href=\"kontar-ieq1-3355289.gif\"/></alternatives></inline-formula>) regression framework that uses an averaging strategy for model aggregation and stochastic gradient descent for local computations. Notably, the resulting global model excels in personalization as <monospace>FGPR</monospace> jointly learns a shared prior across all devices. The predictive posterior is then obtained by exploiting this shared prior and conditioning on local data, which encodes personalized features from a specific dataset. Theoretically, we show that <monospace>FGPR</monospace> converges to a critical point of the full log-marginal likelihood function, subject to statistical errors. This result offers standalone value as it brings federated learning theoretical results to correlated paradigms. Through extensive case studies on several regression tasks, we show that <monospace>FGPR</monospace> excels in a wide range of applications and is a promising approach for privacy-preserving multi-fidelity data modeling.",
+    "citationCount": 13,
+    "referenceCount": 92
+}

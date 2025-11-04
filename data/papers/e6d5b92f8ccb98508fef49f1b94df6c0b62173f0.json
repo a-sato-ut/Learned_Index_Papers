@@ -1,0 +1,38 @@
+{
+    "paperId": "e6d5b92f8ccb98508fef49f1b94df6c0b62173f0",
+    "title": "Elastic Data Binning for Transient Pattern Analysis in Time-Domain Astrophysics",
+    "year": 2023,
+    "venue": "ACM Symposium on Applied Computing",
+    "authors": [
+        "Thanapol Phungtua-Eng",
+        "Yoshitaka Yamamoto",
+        "S. Sako"
+    ],
+    "doi": "10.1145/3555776.3577606",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e6d5b92f8ccb98508fef49f1b94df6c0b62173f0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Time-domain astrophysics analysis (TDAA) involves observational surveys of celestial phenomena that may contain irrelevant information because of several factors, one of which is the sensitivity of the optical telescopes. Data binning is a typical technique for removing inconsistencies and clarifying the main characteristic of the original data in astrophysics analysis. It splits the data sequence into smaller bins with a fixed size and subsequently sketches them into a new representation form. In this study, we introduce a novel approach, called elastic data binning (EBinning), to automatically adjust each bin size using two statistical metrics based on the Student's t-test for linear regression and Hoeffding inequality. We demonstrate the successful representation of various characteristics in the light curve data gathered from the Kiso Schmidt telescope using our approach and the applicability of our approach for transient pattern analysis using real world data.",
+    "citationCount": 1,
+    "referenceCount": 28
+}

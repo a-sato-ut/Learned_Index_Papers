@@ -1,0 +1,30 @@
+{
+    "paperId": "1a1cb0137e2e1258d5dcfc64a5ed75403c6ab858",
+    "title": "FGCSQL: A Three-Stage Pipeline for Large Language Model-Driven Chinese Text-to-SQL",
+    "year": 2025,
+    "venue": "Electronics",
+    "authors": [
+        "Guanyu Jiang",
+        "Weibin Li",
+        "Chenglong Yu",
+        "Zixuan Zhu",
+        "Wei Li"
+    ],
+    "doi": "10.3390/electronics14061214",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1a1cb0137e2e1258d5dcfc64a5ed75403c6ab858",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/electronics14061214",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advances in large language models have driven major breakthroughs in Text-to-SQL tasks. However, many challenges hinder the use of SQL parsers for cross-language tasks. In this article, we introduce FGCSQL, a novel three-stage pipeline framework to deal with three challenges: cross-language schema linking, SQL parsing potential of LLM, and error propagation in SQL parsers, in which the framework uniquely incorporates a filtering encoder to eliminate irrelevant database schema items, harnessing a pre-trained generative large language model fine-tuned on a carefully structured dataset for enhanced SQL parsing. Finally, a correcting decoder addresses error propagation, culminating in a robust system for semantic parsing tasks. Tested on the CSpider dataset, the FGCSQL showcases a substantial improvement in the exact-set-match (EM) accuracy and execution accuracy (EX) metrics, validating the pipeline’s architecture’s effectiveness in mitigating the challenges typically confronted in Text-to-SQL conversion, especially in cross-lingual contexts. FGCSQL outstrips existing methods in execution precision, indicating the validity of our proposed method.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

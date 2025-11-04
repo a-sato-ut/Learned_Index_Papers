@@ -1,0 +1,40 @@
+{
+    "paperId": "e804e5bfe114715af9d77ed27a009b7a894a7ed0",
+    "title": "Taming large-scale genomic analyses via sparsified genomics",
+    "year": 2025,
+    "venue": "Nature Communications",
+    "authors": [
+        "M. Alser",
+        "Julien Eudine",
+        "O. Mutlu"
+    ],
+    "doi": "10.1038/s41467-024-55762-1",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e804e5bfe114715af9d77ed27a009b7a894a7ed0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1038/s41467-024-55762-1",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Searching for similar genomic sequences is an essential and fundamental step in biomedical research. State-of-the-art computational methods performing such comparisons fail to cope with the exponential growth of genomic sequencing data. We introduce the concept of sparsified genomics where we systematically exclude a large number of bases from genomic sequences and enable faster and memory-efficient processing of the sparsified, shorter genomic sequences, while providing comparable accuracy to processing non-sparsified sequences. Sparsified genomics provides benefits to many genomic analyses and has broad applicability. Sparsifying genomic sequences accelerates the state-of-the-art read mapper (minimap2) by 2.57-5.38x, 1.13-2.78x, and 3.52-6.28x using real Illumina, HiFi, and ONT reads, respectively, while providing comparable memory footprint, 2x smaller index size, and more correctly detected variations compared to minimap2. Sparsifying genomic sequences makes containment search through very large genomes and large databases 72.7-75.88x (1.62-1.9x when indexing is preprocessed) faster and 723.3x more storage-efficient than searching through non-sparsified genomic sequences (with CMash and KMC3). Sparsifying genomic sequences enables robust microbiome discovery by providing 54.15-61.88x (1.58-1.71x when indexing is preprocessed) faster and 720x more storage-efficient taxonomic profiling of metagenomic samples over the state-of-the-art tool (Metalign). Searching for similar genomic DNA sequences remains challenging, partly due to the large size of the analyzed data. Here the authors introduce the concept of ‘sparsified genomics’, where they systematically exclude a significant proportion of bases from genomic sequences, enabling faster and memory-efficient processing, while providing comparable accuracy to processing non-sparsified sequences.",
+    "citationCount": 2,
+    "referenceCount": 137
+}

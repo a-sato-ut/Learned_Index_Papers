@@ -1,0 +1,32 @@
+{
+    "paperId": "7002faf46875c84cb3ad148f362118b46946f163",
+    "title": "CodeDSI: Differentiable Code Search",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Usama Nadeem",
+        "Noah Ziems",
+        "Shaoen Wu"
+    ],
+    "doi": "10.48550/arXiv.2210.00328",
+    "arxivId": "2210.00328",
+    "url": "https://www.semanticscholar.org/paper/7002faf46875c84cb3ad148f362118b46946f163",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2210.00328",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Reimplementing solutions to previously solved software engineering problems is not only inefficient but also introduces inadequate and error-prone code. Many existing methods achieve impressive performance on this issue by using autoregressive text-generation models trained on code. However, these methods are not without their flaws. The generated code from these models can be buggy, lack documentation, and introduce vulnerabilities that may go unnoticed by developers. An alternative to code generation -- neural code search -- is a field of machine learning where a model takes natural language queries as input and, in turn, relevant code samples from a database are returned. Due to the nature of this pre-existing database, code samples can be documented, tested, licensed, and checked for vulnerabilities before being used by developers in production. In this work, we present CodeDSI, an end-to-end unified approach to code search. CodeDSI is trained to directly map natural language queries to their respective code samples, which can be retrieved later. In an effort to improve the performance of code search, we have investigated docid representation strategies, impact of tokenization on docid structure, and dataset sizes on overall code search performance. Our results demonstrate CodeDSI strong performance, exceeding conventional robust baselines by 2-6% across varying dataset sizes.",
+    "citationCount": 4,
+    "referenceCount": 21
+}

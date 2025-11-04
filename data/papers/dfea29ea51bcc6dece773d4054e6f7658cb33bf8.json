@@ -1,0 +1,33 @@
+{
+    "paperId": "dfea29ea51bcc6dece773d4054e6f7658cb33bf8",
+    "title": "Context Aware Query Rewriting for Text Rankers using LLM",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Abhijit Anand",
+        "V. Venktesh",
+        "Vinay Setty",
+        "Avishek Anand"
+    ],
+    "doi": "10.48550/arXiv.2308.16753",
+    "arxivId": "2308.16753",
+    "url": "https://www.semanticscholar.org/paper/dfea29ea51bcc6dece773d4054e6f7658cb33bf8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2308.16753",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query rewriting refers to an established family of approaches that are applied to underspecified and ambiguous queries to overcome the vocabulary mismatch problem in document ranking. Queries are typically rewritten during query processing time for better query modelling for the downstream ranker. With the advent of large-language models (LLMs), there have been initial investigations into using generative approaches to generate pseudo documents to tackle this inherent vocabulary gap. In this work, we analyze the utility of LLMs for improved query rewriting for text ranking tasks. We find that there are two inherent limitations of using LLMs as query re-writers -- concept drift when using only queries as prompts and large inference costs during query processing. We adopt a simple, yet surprisingly effective, approach called context aware query rewriting (CAR) to leverage the benefits of LLMs for query understanding. Firstly, we rewrite ambiguous training queries by context-aware prompting of LLMs, where we use only relevant documents as context.Unlike existing approaches, we use LLM-based query rewriting only during the training phase. Eventually, a ranker is fine-tuned on the rewritten queries instead of the original queries during training. In our extensive experiments, we find that fine-tuning a ranker using re-written queries offers a significant improvement of up to 33% on the passage ranking task and up to 28% on the document ranking task when compared to the baseline performance of using original queries.",
+    "citationCount": 21,
+    "referenceCount": 59
+}

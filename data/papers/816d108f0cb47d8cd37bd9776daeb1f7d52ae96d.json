@@ -1,0 +1,27 @@
+{
+    "paperId": "816d108f0cb47d8cd37bd9776daeb1f7d52ae96d",
+    "title": "NL-Based Database Administration for Handling Heterogeneous Datasets Using Finetuned LLM",
+    "year": 2025,
+    "venue": "Proceedings of the 3rd International Conference on Futuristic Technology",
+    "authors": [
+        "Pradnya Sawant",
+        "Kavita Sonawane"
+    ],
+    "doi": "10.5220/0013608700004664",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/816d108f0cb47d8cd37bd9776daeb1f7d52ae96d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": ": Translating natural language (NL) questions into structured query language (SQL) queries is becoming increasingly important for making databases easier to use and manage. Different large language models (LLMs) have been used for this translation in recent years. These models are mostly trained and evaluated on datasets covering a few types of data manipulation language(DML) queries like projection, selection, aggregate functions, joins, etc. However, these datasets failed to contain queries required for Database Administrator(DBA) operations such as creating and modifying database schema, managing user permissions, etc. This paper presents an approach to help database administrators (DBAs) and end users interact with databases more intuitively by generating SQL queries from natural language inputs. As no such dataset is publicly available, we have created a specialized dataset called DBASQL, which includes common DBA operations addressing data definition language(DDL), data manipulation language(DML), and data control language(DCL) related natural language questions like creating tables, views, or indexes; inserting values; updating data types or values; renaming tables or columns; granting or revoking user permissions, paired with their corresponding SQL queries. For experimentation, we have finetuned Text-to-Text Transfer Transformer (T5) Large on our customized DBASQL dataset, aiming to improve the accuracy of these translations. Our evaluation shows that this approach effectively translates NL to SQL that addresses DBA operations, making it easier to handle DDL, DML, and DCL database operations without requiring extensive SQL knowledge. This research highlights the potential of NLP models to improve the efficiency of natural language to SQL translation by enabling smarter database interfaces for DBA as well. Also, the proposed DBASQL dataset can be integrated with any heterogeneous datasets, such as single-domain and cross-domain, for the translation of natural language to SQL queries. Hence, covering the border range of SQL queries that can be used by both end users and database administrators.",
+    "citationCount": 0,
+    "referenceCount": 21
+}

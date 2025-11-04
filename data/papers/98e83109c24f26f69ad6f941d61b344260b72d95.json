@@ -1,0 +1,35 @@
+{
+    "paperId": "98e83109c24f26f69ad6f941d61b344260b72d95",
+    "title": "Why These Documents? Explainable Generative Retrieval with Hierarchical Category Paths",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sangam Lee",
+        "Ryang Heo",
+        "SeongKu Kang",
+        "Susik Yoon",
+        "Jinyoung Yeo",
+        "Dongha Lee"
+    ],
+    "doi": "10.48550/arXiv.2411.05572",
+    "arxivId": "2411.05572",
+    "url": "https://www.semanticscholar.org/paper/98e83109c24f26f69ad6f941d61b344260b72d95",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative retrieval has recently emerged as a new alternative of traditional information retrieval approaches. However, existing generative retrieval methods directly decode docid when a query is given, making it impossible to provide users with explanations as an answer for\"Why this document is retrieved?\". To address this limitation, we propose Hierarchical Category Path-Enhanced Generative Retrieval(HyPE), which enhances explainability by generating hierarchical category paths step-by-step before decoding docid. HyPE leverages hierarchical category paths as explanation, progressing from broad to specific semantic categories. This approach enables diverse explanations for the same document depending on the query by using shared category paths between the query and the document, and provides reasonable explanation by reflecting the document's semantic structure through a coarse-to-fine manner. HyPE constructs category paths with external high-quality semantic hierarchy, leverages LLM to select appropriate candidate paths for each document, and optimizes the generative retrieval model with path-augmented dataset. During inference, HyPE utilizes path-aware reranking strategy to aggregate diverse topic information, allowing the most relevant documents to be prioritized in the final ranked list of docids. Our extensive experiments demonstrate that HyPE not only offers a high level of explainability but also improves the retrieval performance in the document retrieval task.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

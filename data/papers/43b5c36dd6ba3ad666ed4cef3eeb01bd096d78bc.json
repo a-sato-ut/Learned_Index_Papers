@@ -1,0 +1,37 @@
+{
+    "paperId": "43b5c36dd6ba3ad666ed4cef3eeb01bd096d78bc",
+    "title": "Memorisation Cartography: Mapping out the Memorisation-Generalisation Continuum in Neural Machine Translation",
+    "year": 2023,
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+        "Verna Dankers",
+        "Ivan Titov",
+        "Dieuwke Hupkes"
+    ],
+    "doi": "10.48550/arXiv.2311.05379",
+    "arxivId": "2311.05379",
+    "url": "https://www.semanticscholar.org/paper/43b5c36dd6ba3ad666ed4cef3eeb01bd096d78bc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "When training a neural network, it will quickly memorise some source-target mappings from your dataset but never learn some others. Yet, memorisation is not easily expressed as a binary feature that is good or bad: individual datapoints lie on a memorisation-generalisation continuum. What determines a datapoint's position on that spectrum, and how does that spectrum influence neural models' performance? We address these two questions for neural machine translation (NMT) models. We use the counterfactual memorisation metric to (1) build a resource that places 5M NMT datapoints on a memorisation-generalisation map, (2) illustrate how the datapoints' surface-level characteristics and a models' per-datum training signals are predictive of memorisation in NMT, (3) and describe the influence that subsets of that map have on NMT systems' performance.",
+    "citationCount": 5,
+    "referenceCount": 41
+}

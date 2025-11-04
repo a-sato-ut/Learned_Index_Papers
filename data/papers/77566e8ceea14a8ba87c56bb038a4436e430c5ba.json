@@ -1,0 +1,31 @@
+{
+    "paperId": "77566e8ceea14a8ba87c56bb038a4436e430c5ba",
+    "title": "Less is More: Towards Lightweight Cost Estimator for Database Systems",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Weiping Yu",
+        "Siqiang Luo"
+    ],
+    "doi": "10.48550/arXiv.2303.10983",
+    "arxivId": "2303.10983",
+    "url": "https://www.semanticscholar.org/paper/77566e8ceea14a8ba87c56bb038a4436e430c5ba",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2303.10983",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present FasCo, a simple yet effective learning-based estimator for the cost of executing a database query plan. FasCo uses significantly shorter training time and a lower inference cost than the state-of-the-art approaches, while achieving higher estimation accuracy. The effectiveness of FasCo comes from embedding abundant explicit execution-plan-based features and incorporating a novel technique called cardinality calibration. Extensive experimental results show that FasCo achieves orders of magnitude higher efficiency than the state-of-the-art methods: on the JOB-M benchmark dataset, it cuts off training plans by 98\\%, reducing training time from more than two days to about eight minutes while entailing better accuracy. Furthermore, in dynamic environments, FasCo can maintain satisfactory accuracy even without retraining, narrowing the gap between learning-based estimators and real systems.",
+    "citationCount": 0,
+    "referenceCount": 44
+}

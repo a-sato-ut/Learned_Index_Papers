@@ -1,0 +1,35 @@
+{
+    "paperId": "45bd0a6539db63000c7b36de250d4a6da3f1a5cc",
+    "title": "An Empirical Understanding of Code Clone Detection by ChatGPT",
+    "year": 2023,
+    "venue": "International Conference on Data Science and Information Technology",
+    "authors": [
+        "PeiJie Wang",
+        "Lu Zhu",
+        "Qianlu Wang",
+        "Ousainou Jaiteh",
+        "Chenkai Guo"
+    ],
+    "doi": "10.1109/DSIT60026.2023.00021",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/45bd0a6539db63000c7b36de250d4a6da3f1a5cc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As one of the most popular NLP models recently, ChatGPT has achieved remarkable applications in various NLP tasks. Code clone detection serving as a typical prediction task of software engineering has been studied for years. However, there is a lack of systematic evaluation for the ChatGPT in code clone detection. To fill in this gap, we construct a specific dataset covers multiple types of code data and conduct the first empirical study in the clone detection task for ChatGPT on both source code and binary code. Our study found that ChatGPT can successfully detect the code clones and accurately explain the code semantics for most simple cases. However, in complex binary code scenarios, ChatGPT gets limited performance. Our work shows that ChatGPT has difficulty in identifying the semantics of long assembly code. The results and findings of our research support developers to better apply the big intelligent models to the prediction tasks of software engineering field.",
+    "citationCount": 3,
+    "referenceCount": 28
+}

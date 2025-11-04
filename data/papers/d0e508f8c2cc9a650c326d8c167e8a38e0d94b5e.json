@@ -1,0 +1,38 @@
+{
+    "paperId": "d0e508f8c2cc9a650c326d8c167e8a38e0d94b5e",
+    "title": "Federated-Learning-Assisted Failure-Cause Identification in Microwave Networks",
+    "year": 2022,
+    "venue": "International Workshop on Resilient Networks Design and Modeling",
+    "authors": [
+        "Tara Tandel",
+        "Omran Ayoub",
+        "F. Musumeci",
+        "Claudio Passera",
+        "M. Tornatore"
+    ],
+    "doi": "10.1109/RNDM55901.2022.9927592",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d0e508f8c2cc9a650c326d8c167e8a38e0d94b5e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://re.public.polimi.it/bitstream/11311/1227669/1/rndm22.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine Learning (ML) adoption for automated failure management is becoming pervasive in today’s communication networks. However, ML-based failure management typically requires that monitoring data is exchanged between network devices, where data is collected, and centralized locations, e.g., servers in data centers, where data is processed. ML algorithms in this centralized location are then trained to learn mappings between collected data and desired outputs, e.g., whether a failure exists, its cause, location, etc. This paradigm poses several challenges to network operators in terms of privacy as well as in terms of computational and communication resource usage, as a massive amount of sensible failure data is transmitted over the network. To overcome such limitations, Federated Learning (FL) can be adopted, which consists of training multiple distributed ML models at multiple decentralized locations (called “clients”) using a limited amount of locally-collected data, and of sharing these trained models to a centralized location (called “server”), where these models are aggregated and shared again with clients. FL reduces data exchange between clients and a server and improves algorithms’ performance thanks to sharing knowledge among different domains (i.e., clients), leveraging different sources of local information in a collaborative environment. In this paper, we focus on applying FL to perform failure-cause identification in microwave networks. The problem is modeled as a multi-class ML classification problem with six pre-defined failure causes. Specifically, using real failure data from an operational microwave network composed of more than 10000 microwave links, we emulate a multi-operator scenario in which one operator has partial knowledge of failure causes during the training phase. Thanks to knowledge sharing, numerical results show that FL achieves up to 72% precision in identifying an unknown particular class concerning traditional ML (non- FL) approaches where training is performed without knowledge sharing.",
+    "citationCount": 4,
+    "referenceCount": 23
+}

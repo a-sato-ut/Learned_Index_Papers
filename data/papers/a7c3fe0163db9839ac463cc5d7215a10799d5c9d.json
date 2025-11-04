@@ -1,0 +1,39 @@
+{
+    "paperId": "a7c3fe0163db9839ac463cc5d7215a10799d5c9d",
+    "title": "Personalized PCA: Decoupling Shared and Unique Features",
+    "year": 2022,
+    "venue": "Journal of machine learning research",
+    "authors": [
+        "Naichen Shi",
+        "R. Kontar"
+    ],
+    "doi": "10.48550/arXiv.2207.08041",
+    "arxivId": "2207.08041",
+    "url": "https://www.semanticscholar.org/paper/a7c3fe0163db9839ac463cc5d7215a10799d5c9d",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2207.08041",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we tackle a significant challenge in PCA: heterogeneity. When data are collected from different sources with heterogeneous trends while still sharing some congruency, it is critical to extract shared knowledge while retaining the unique features of each source. To this end, we propose personalized PCA (PerPCA), which uses mutually orthogonal global and local principal components to encode both unique and shared features. We show that, under mild conditions, both unique and shared features can be identified and recovered by a constrained optimization problem, even if the covariance matrices are immensely different. Also, we design a fully federated algorithm inspired by distributed Stiefel gradient descent to solve the problem. The algorithm introduces a new group of operations called generalized retractions to handle orthogonality constraints, and only requires global PCs to be shared across sources. We prove the linear convergence of the algorithm under suitable assumptions. Comprehensive numerical experiments highlight PerPCA's superior performance in feature extraction and prediction from heterogeneous datasets. As a systematic approach to decouple shared and unique features from heterogeneous datasets, PerPCA finds applications in several tasks, including video segmentation, topic extraction, and feature clustering.",
+    "citationCount": 17,
+    "referenceCount": 41
+}

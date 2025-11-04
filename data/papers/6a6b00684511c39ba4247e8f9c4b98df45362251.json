@@ -1,0 +1,37 @@
+{
+    "paperId": "6a6b00684511c39ba4247e8f9c4b98df45362251",
+    "title": "MCGrad: Multicalibration at Web Scale",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Lorenzo Perini",
+        "Daniel Haimovich",
+        "Fridolin Linder",
+        "Niek Tax",
+        "Dima Karamshuk",
+        "Milan Vojnovic",
+        "Nastaran Okati",
+        "P. Apostolopoulos"
+    ],
+    "doi": "10.48550/arXiv.2509.19884",
+    "arxivId": "2509.19884",
+    "url": "https://www.semanticscholar.org/paper/6a6b00684511c39ba4247e8f9c4b98df45362251",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose MCGrad, a novel and scalable multicalibration algorithm. Multicalibration - calibration in sub-groups of the data - is an important property for the performance of machine learning-based systems. Existing multicalibration methods have thus far received limited traction in industry. We argue that this is because existing methods (1) require such subgroups to be manually specified, which ML practitioners often struggle with, (2) are not scalable, or (3) may harm other notions of model performance such as log loss and Area Under the Precision-Recall Curve (PRAUC). MCGrad does not require explicit specification of protected groups, is scalable, and often improves other ML evaluation metrics instead of harming them. MCGrad has been in production at Meta, and is now part of hundreds of production models. We present results from these deployments as well as results on public datasets.",
+    "citationCount": 0,
+    "referenceCount": 65
+}

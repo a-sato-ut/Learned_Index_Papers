@@ -29,6 +29,8 @@ export interface PaperNode {
   y?: number;
   fx?: number | null;
   fy?: number | null;
+  vx?: number;
+  vy?: number;
 }
 
 export interface PaperEdge {

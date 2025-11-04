@@ -1,0 +1,42 @@
+{
+    "paperId": "1e0d416a610a0e89ac9f586eceef1906d2490a36",
+    "title": "Efficient Insights Discovery through Conditional Generative Model based Query Approximation",
+    "year": 2022,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Vibhor Porwal",
+        "Subrata Mitra",
+        "F. Du",
+        "John Anderson",
+        "Nikhil Sheoran",
+        "Anup B. Rao",
+        "Tung Mai",
+        "Gautam Kowshik",
+        "Sapthotharan Nair",
+        "Sameeksha Arora",
+        "Saurabh Mahapatra"
+    ],
+    "doi": "10.1145/3514221.3520161",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1e0d416a610a0e89ac9f586eceef1906d2490a36",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There are various scenarios where very quick insights from a massive amount of data need to be extracted in a time-critical manner. These might be fresh insights or re-looking at why previous insights did not work and how to fix those. A marketing campaign is one real-world scenario where a non-programmer needs to dig such huge data in a very short period of time (a few hours) in order to hit a target revenue. In this demo paper, we will describe Electra - a system that integrates an automated data-insight discovery mechanism with a novel machine-learning (ML) driven approximate query processing (AQP) engine that can answer complex queries with a large number of predicates or conditions with high accuracy. This AQP engine uses a conditional generative model to generate a very small sample (~1000 rows) corresponding to the actual query to be answered and computes the highly accurate approximate answer from those instead of running the query against the original data. The insight discovery workflow bootstraps insights using ML algorithms based on the statistical characteristics of the data and further offers a no-code based interface to drill down for deeper insights. The queries from this interface are answered by the AQP engine that runs locally at the client-side itself to offer low latency interactions.",
+    "citationCount": 5,
+    "referenceCount": 15
+}

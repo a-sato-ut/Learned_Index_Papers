@@ -1,0 +1,33 @@
+{
+    "paperId": "87d0c84820cb94d8797cc4d738c1a5bbf67cb32d",
+    "title": "QAMPARI: A Benchmark for Open-domain Questions with Many Answers",
+    "year": 2022,
+    "venue": "IEEE Games Entertainment Media Conference",
+    "authors": [
+        "S. Amouyal",
+        "Tomer Wolfson",
+        "Ohad Rubin",
+        "Ori Yoran",
+        "Jonathan Herzig",
+        "Jonathan Berant"
+    ],
+    "doi": null,
+    "arxivId": "2205.12665",
+    "url": "https://www.semanticscholar.org/paper/87d0c84820cb94d8797cc4d738c1a5bbf67cb32d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Existing benchmarks for open-domain question answering (ODQA) typically focus on questions whose answers are all in a single paragraph. By contrast, many natural questions, such as “What players were drafted by the Brooklyn Nets?” have a long list of answers extracted from multiple paragraphs. Answering such questions requires retrieving and reading many passages from a large corpus. We introduce QAMPARI, an ODQA benchmark, where answers are lists of entities, spread across many paragraphs. We created QAMPARI by (a) generating questions with multiple answers from Wikipedia’s knowledge graph and tables, (b) automatically pairing answers with supporting evidence in Wikipedia paragraphs, and (c) manually paraphrasing questions and validating each answer. Across a wide range of ODQA models, we find that QAMPARI is challenging in terms of both passage retrieval and answer generation, with models reaching an F1 score of 32.8 at best. We view QAMPARI as a valuable resource for ODQA research, which will aid to develop models that handle a broad range of question types, including single and multi-answer questions.",
+    "citationCount": 36,
+    "referenceCount": 57
+}

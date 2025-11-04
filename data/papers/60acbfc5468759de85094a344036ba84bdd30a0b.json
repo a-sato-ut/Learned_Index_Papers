@@ -1,0 +1,38 @@
+{
+    "paperId": "60acbfc5468759de85094a344036ba84bdd30a0b",
+    "title": "Henna: hierarchical machine learning inference in programmable switches",
+    "year": 2022,
+    "venue": "NativeNI@CoNEXT",
+    "authors": [
+        "Aristide T.-J. Akem",
+        "Beyza Bütün",
+        "Michele Gucciardo",
+        "M. Fiore"
+    ],
+    "doi": "10.1145/3565009.3569520",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/60acbfc5468759de85094a344036ba84bdd30a0b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The recent proliferation of programmable network equipment has opened up new possibilities for embedding intelligence into the data plane. Deploying models directly in the data plane promises to achieve high throughput and low latency inference capabilities that cannot be attained with traditional closed loops involving control-plane operations. Recent efforts have paved the way for the integration of trained machine learning models in resource-constrained programmable switches, yet current solutions have significant limitations that translate into performance barriers when coping with complex inference tasks. In this paper, we present Henna, a first in-switch implementation of a hierarchical classification system. The concept underpinning our solution is that of splitting a difficult classification task into easier cascaded decisions, which can then be addressed with separated and resource-efficient tree-based classifiers. We propose a design of Henna that aligns with the internal organization of the Protocol Independent Switch Architecture (PISA), and integrates state-of-the-art strategies for mapping decision trees to switch hardware. We then implement Henna into a real testbed with off-the-shelf Intel Tofino programmable switches using the P4 language. Experiments with a complex 21-category classification task based on measurement data demonstrate how Henna improves the F1 score of an advanced single-stage model by 21%, while keeping usage of switch resources at 8% on average.",
+    "citationCount": 23,
+    "referenceCount": 33
+}

@@ -1,0 +1,42 @@
+{
+    "paperId": "a182be6bbb92fec7fbff0a701099d1cb8c21e2b9",
+    "title": "Solving Data-centric Tasks using Large Language Models",
+    "year": 2024,
+    "venue": "NAACL-HLT",
+    "authors": [
+        "Shraddha Barke",
+        "Christian Poelitz",
+        "Carina Negreanu",
+        "Ben Zorn",
+        "J. Cambronero",
+        "Andrew D. Gordon",
+        "Vu Le",
+        "Elnaz Nouri",
+        "Nadia Polikarpova",
+        "Advait Sarkar",
+        "Brian Slininger",
+        "N. Toronto",
+        "Jack Williams"
+    ],
+    "doi": "10.48550/arXiv.2402.11734",
+    "arxivId": "2402.11734",
+    "url": "https://www.semanticscholar.org/paper/a182be6bbb92fec7fbff0a701099d1cb8c21e2b9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large language models (LLMs) are rapidly replacing help forums like StackOverflow, and are especially helpful for non-professional programmers and end users. These users are often interested in data-centric tasks, such as spreadsheet manipulation and data wrangling, which are hard to solve if the intent is only communicated using a natural-language description, without including the data. But how do we decide how much data and which data to include in the prompt? This paper makes two contributions towards answering this question. First, we create a dataset of real-world NL-to-code tasks manipulating tabular data, mined from StackOverflow posts. Second, we introduce a cluster-then-select prompting technique, which adds the most representative rows from the input data to the LLM prompt. Our experiments show that LLM performance is indeed sensitive to the amount of data passed in the prompt, and that for tasks with a lot of syntactic variation in the input table, our cluster-then-select technique outperforms a random selection baseline.",
+    "citationCount": 3,
+    "referenceCount": 36
+}

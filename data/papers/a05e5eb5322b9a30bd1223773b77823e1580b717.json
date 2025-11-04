@@ -1,0 +1,36 @@
+{
+    "paperId": "a05e5eb5322b9a30bd1223773b77823e1580b717",
+    "title": "OneSug: The Unified End-to-End Generative Framework for E-commerce Query Suggestion",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Xian Guo",
+        "Ben Chen",
+        "Siyuan Wang",
+        "Ying Yang",
+        "Chenyi Lei",
+        "Yuqing Ding",
+        "Han Li"
+    ],
+    "doi": "10.48550/arXiv.2506.06913",
+    "arxivId": "2506.06913",
+    "url": "https://www.semanticscholar.org/paper/a05e5eb5322b9a30bd1223773b77823e1580b717",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query suggestion plays a crucial role in enhancing user experience in e-commerce search systems by providing relevant query recommendations that align with users' initial input. This module helps users navigate towards personalized preference needs and reduces typing effort, thereby improving search experience. Traditional query suggestion modules usually adopt multi-stage cascading architectures, for making a well trade-off between system response time and business conversion. But they often suffer from inefficiencies and suboptimal performance due to inconsistent optimization objectives across stages. To address these, we propose OneSug, the first end-to-end generative framework for e-commerce query suggestion. OneSug incorporates a prefix2query representation enhancement module to enrich prefixes using semantically and interactively related queries to bridge content and business characteristics, an encoder-decoder generative model that unifies the query suggestion process, and a reward-weighted ranking strategy with behavior-level weights to capture fine-grained user preferences. Extensive evaluations on large-scale industry datasets demonstrate OneSug's ability for effective and efficient query suggestion. Furthermore, OneSug has been successfully deployed for the entire traffic on the e-commerce search engine in Kuaishou platform for over 1 month, with statistically significant improvements in user top click position (-9.33%), CTR (+2.01%), Order (+2.04%), and Revenue (+1.69%) over the online multi-stage strategy, showing great potential in e-commercial conversion.",
+    "citationCount": 4,
+    "referenceCount": 54
+}

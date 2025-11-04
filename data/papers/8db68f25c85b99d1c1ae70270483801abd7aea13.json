@@ -1,0 +1,39 @@
+{
+    "paperId": "8db68f25c85b99d1c1ae70270483801abd7aea13",
+    "title": "Persistent Memory Object Storage and Indexing for Scientific Computing",
+    "year": 2020,
+    "venue": "Workshop on Memory Centric High Performance Computing",
+    "authors": [
+        "Awais Khan",
+        "Hyogi Sim",
+        "Sudharshan S. Vazhkudai",
+        "Jinseok Ma",
+        "Myeonghoon Oh",
+        "Youngjae Kim"
+    ],
+    "doi": "10.1109/MCHPC51950.2020.00006",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8db68f25c85b99d1c1ae70270483801abd7aea13",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.osti.gov/biblio/1766392",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents Mosiqs, a persistent memory object storage framework with metadata indexing and querying for scientific computing. We design Mosiqs based on the key idea that memory objects on shared PM pool can live beyond the application lifetime and can become the sharing currency for applications and scientists. Mosiqs provides an aggregate memory pool atop an array of persistent memory devices to store and access memory objects. Mosiqs uses a lightweight persistent memory key-value store to manage the metadata of memory objects such as persistent pointer mappings, which enables memory object sharing for effective scientific collaborations. Mosiqs is implemented atop PMDK. We evaluate the proposed approach on many-core server with an array of real PM devices. The preliminary evaluation confirms a 100% improvement for write and 30% in read performance against a PM-aware file system approach.",
+    "citationCount": 9,
+    "referenceCount": 41
+}

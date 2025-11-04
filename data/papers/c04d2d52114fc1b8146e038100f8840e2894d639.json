@@ -1,0 +1,39 @@
+{
+    "paperId": "c04d2d52114fc1b8146e038100f8840e2894d639",
+    "title": "Accelerating Minimap2 for Accurate Long Read Alignment on GPUs",
+    "year": 2022,
+    "venue": "bioRxiv",
+    "authors": [
+        "Harisankar Sadasivan",
+        "Milos Maric",
+        "Eric T. Dawson",
+        "Vishanth Iyer",
+        "Johnny Israeli",
+        "S. Narayanasamy"
+    ],
+    "doi": "10.26502/jbb.2642-91280067",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c04d2d52114fc1b8146e038100f8840e2894d639",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.26502/jbb.2642-91280067",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Long read sequencing technology is becoming increasingly popular for Precision Medicine applications like Whole Genome Sequencing (WGS) and microbial abundance estimation. Minimap2 is the state-of-the-art aligner and mapper used by the leading long read sequencing technologies, today. However, Minimap2 on CPUs is very slow for long noisy reads. ∼60-70% of the run-time on a CPU comes from the highly sequential chaining step in Minimap2. On the other hand, most Point-of-Care computational workflows in long read sequencing use Graphics Processing Units (GPUs). We present minimap2-accelerated (mm2-ax), a heterogeneous design for sequence mapping and alignment where minimap2’s compute intensive chaining step is sped up on the GPU and demonstrate its time and cost benefits. We extract better intra-read parallelism from chaining without loosing mapping accuracy by forward transforming Minimap2’s chaining algorithm. Moreover, we better utilize the high memory available on modern cloud instances apart from better workload balancing, data locality and minimal branch divergence on the GPU. We show mm2-ax on an NVIDIA A100 GPU improves the chaining step with 5.41 - 2.57X speedup and 4.07 - 1.93X speedup : costup over the fastest version of Minimap2, mm2-fast, benchmarked on a Google Cloud Platform instance of 30 SIMD cores.",
+    "citationCount": 35,
+    "referenceCount": 39
+}

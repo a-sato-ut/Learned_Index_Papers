@@ -1,0 +1,35 @@
+{
+    "paperId": "0ae2aa994ab8e5cda37595982a587c6dca79dd42",
+    "title": "Is ChatGPT a Good Geospatial Data Analyst? Exploring the Integration of Natural Language into Structured Query Language within a Spatial Database",
+    "year": 2024,
+    "venue": "ISPRS Int. J. Geo Inf.",
+    "authors": [
+        "Yongyao Jiang",
+        "Chaowei Yang"
+    ],
+    "doi": "10.3390/ijgi13010026",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0ae2aa994ab8e5cda37595982a587c6dca79dd42",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2220-9964/13/1/26/pdf?version=1704890764",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With recent advancements, large language models (LLMs) such as ChatGPT and Bard have shown the potential to disrupt many industries, from customer service to healthcare. Traditionally, humans interact with geospatial data through software (e.g., ArcGIS 10.3) and programming languages (e.g., Python). As a pioneer study, we explore the possibility of using an LLM as an interface to interact with geospatial datasets through natural language. To achieve this, we also propose a framework to (1) train an LLM to understand the datasets, (2) generate geospatial SQL queries based on a natural language question, (3) send the SQL query to the backend database, (4) parse the database response back to human language. As a proof of concept, a case study was conducted on real-world data to evaluate its performance on various queries. The results show that LLMs can be accurate in generating SQL code for most cases, including spatial joins, although there is still room for improvement. As all geospatial data can be stored in a spatial database, we hope that this framework can serve as a proxy to improve the efficiency of spatial data analyses and unlock the possibility of automated geospatial analytics.",
+    "citationCount": 26,
+    "referenceCount": 32
+}

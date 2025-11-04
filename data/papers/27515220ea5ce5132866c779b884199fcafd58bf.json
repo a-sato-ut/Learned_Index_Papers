@@ -1,0 +1,35 @@
+{
+    "paperId": "27515220ea5ce5132866c779b884199fcafd58bf",
+    "title": "High-Performance Remote Data Persisting for Key-Value Stores via Persistent Memory Region",
+    "year": 2024,
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "authors": [
+        "Yongping Luo",
+        "Peiquan Jin",
+        "Xiaoliang Wang",
+        "Zhaole Chu",
+        "Kuankuan Guo",
+        "Jinhui Guo"
+    ],
+    "doi": "10.1109/TCAD.2024.3442992",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/27515220ea5ce5132866c779b884199fcafd58bf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Key-value stores (KVStores), such as LevelDB and Redis, have been widely used in real-world production environments. To guarantee data durability and availability, traditional KVStores suffer from high write latency, mainly caused by the long network and data-persisting time. To solve this problem, this article presents a novel data-persisting path for KVStores, allowing remote clients to persist data to the KVStore server with <inline-formula> <tex-math notation=\"LaTeX\">$\\mu s$ </tex-math></inline-formula>-level latency. The novelty of this study is threefold. First, we propose PMRDirect, which utilizes a persistent memory region (PMR) in the NVM express standard to construct a direct data-persisting path from the RDMA networking card (NIC) to the PMR region inside an SSD. Second, to showcase PMRDirect in KVStores, we developed a new accessing stack called PMRAccess, enabling remote clients to access existing KVStores and providing durability for each write request. Specifically, we present a low-latency RDMA-based messaging mode and a chunk-based PMR management in PMRAccess to reduce write latency and improve system throughput. Finally, we conducted extensive experiments to evaluate the performance of our proposals. We first compared PMRDirect with a few remote data-persisting paths to show its effectiveness. Then, we evaluated PMRAccess upon two KVStores, including LibCuckoo (an in-memory KVStore) and LevelDB (an in-storage KVStore). The results showed that PMRAccess outperformed the SSD-based accessing stack by up to <inline-formula> <tex-math notation=\"LaTeX\">$6.1\\times $ </tex-math></inline-formula> in write throughput and <inline-formula> <tex-math notation=\"LaTeX\">$36\\times $ </tex-math></inline-formula> in write tail latency, and it achieved <inline-formula> <tex-math notation=\"LaTeX\">$1.7\\times $ </tex-math></inline-formula> higher write throughput and <inline-formula> <tex-math notation=\"LaTeX\">$0.59\\times $ </tex-math></inline-formula> lower write tail latency over the PMEM-based accessing stack. Further, we conducted a system-to-system comparison between the PMRAccess-integrated LibCuckoo and Redis, and the results showed our proposal achieved up to <inline-formula> <tex-math notation=\"LaTeX\">$13\\times $ </tex-math></inline-formula> higher throughputs and <inline-formula> <tex-math notation=\"LaTeX\">$40\\times $ </tex-math></inline-formula> lower write latency than Redis.",
+    "citationCount": 0,
+    "referenceCount": 33
+}

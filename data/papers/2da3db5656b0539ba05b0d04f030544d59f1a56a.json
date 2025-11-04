@@ -1,0 +1,38 @@
+{
+    "paperId": "2da3db5656b0539ba05b0d04f030544d59f1a56a",
+    "title": "Continual Learning for Generative Retrieval over Dynamic Corpora",
+    "year": 2023,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Jiangui Chen",
+        "Ruqing Zhang",
+        "J. Guo",
+        "M. de Rijke",
+        "Wei Chen",
+        "Yixing Fan",
+        "Xueqi Cheng"
+    ],
+    "doi": "10.1145/3583780.3614821",
+    "arxivId": "2308.14968",
+    "url": "https://www.semanticscholar.org/paper/2da3db5656b0539ba05b0d04f030544d59f1a56a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3583780.3614821",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative retrieval (GR) directly predicts the identifiers of relevant documents (i.e., docids) based on a parametric model. It has achieved solid performance on many ad-hoc retrieval tasks. So far, these tasks have assumed a static document collection. In many practical scenarios, however, document collections are dynamic, where new documents are continuously added to the corpus. The ability to incrementally index new documents while preserving the ability to answer queries with both previously and newly indexed relevant documents is vital to applying GR models. In this paper, we address this practical continual learning problem for GR. We put forward a novel Continual-LEarner for generatiVE Retrieval (CLEVER) model and make two major contributions to continual learning for GR: (i) To encode new documents into docids with low computational cost, we present Incremental Product Quantization, which updates a partial quantization codebook according to two adaptive thresholds; and (ii) To memorize new documents for querying without forgetting previous knowledge, we propose a memory-augmented learning mechanism, to form meaningful connections between old and new documents. Empirical results demonstrate the effectiveness and efficiency of the proposed model.",
+    "citationCount": 45,
+    "referenceCount": 58
+}

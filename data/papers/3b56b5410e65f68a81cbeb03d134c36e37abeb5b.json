@@ -1,0 +1,42 @@
+{
+    "paperId": "3b56b5410e65f68a81cbeb03d134c36e37abeb5b",
+    "title": "FederatedScope: A Flexible Federated Learning Platform for Heterogeneity",
+    "year": 2022,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Yuexiang Xie",
+        "Zhen Wang",
+        "Dawei Gao",
+        "Daoyuan Chen",
+        "Liuyi Yao",
+        "Weirui Kuang",
+        "Yaliang Li",
+        "Bolin Ding",
+        "Jingren Zhou"
+    ],
+    "doi": "10.14778/3579075.3579081",
+    "arxivId": "2204.05011",
+    "url": "https://www.semanticscholar.org/paper/3b56b5410e65f68a81cbeb03d134c36e37abeb5b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2204.05011",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Education",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Although remarkable progress has been made by existing federated learning (FL) platforms to provide infrastructures for development, these platforms may not well tackle the challenges brought by various types of heterogeneity. To fill this gap, in this paper, we propose a novel FL platform, named FederatedScope, which employs an event-driven architecture to provide users with great flexibility to independently describe the behaviors of different participants. Such a design makes it easy for users to describe participants with various local training processes, learning goals and backends, and coordinate them into an FL course with synchronous or asynchronous training strategies. Towards an easy-to-use and flexible platform, FederatedScope enables rich types of plug-in operations and components for efficient further development, and we have implemented several important components to better help users with privacy protection, attack simulation and auto-tuning. We have released FederatedScope at https://github.com/alibaba/FederatedScope to promote academic research and industrial deployment of federated learning in a wide range of scenarios.",
+    "citationCount": 101,
+    "referenceCount": 114
+}

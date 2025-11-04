@@ -1,0 +1,34 @@
+{
+    "paperId": "b4e71c15e0e0ee144f26a69dfce0b92cf2234e46",
+    "title": "NVM: Is it Not Very Meaningful for Databases?",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "D. Koutsoukos",
+        "R. Bhartia",
+        "Michal Friedman",
+        "Ana Klimovic",
+        "G. Alonso"
+    ],
+    "doi": "10.14778/3603581.3603586",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b4e71c15e0e0ee144f26a69dfce0b92cf2234e46",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.research-collection.ethz.ch/bitstream/20.500.11850/630556/2/3603581.3603586.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Persistent or Non Volatile Memory (PMEM) offers expanded memory capacity and faster access to persistent storage. However, there is no comprehensive empirical analysis of existing database engines under different PMEM modes, to understand how databases can benefit from the various hardware configurations. To this end, we analyze multiple different engines under common benchmarks with PMEM in AppDirect mode and Memory mode. Our results show that PMEM in Memory mode does not offer any clear performance advantage despite the larger volatile memory capacity. Also, using PMEM as persistent storage usually speeds up query execution, but with some caveats as the I/O path is not fully optimized and therefore does not always justify the additional cost. We show this to be the case through a comprehensive evaluation of different engines and database configurations under different workloads.",
+    "citationCount": 9,
+    "referenceCount": 55
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "c26fa47b2d14028c1579bad203cd9eef4a778e4c",
+    "title": "GenSAR: Unifying Balanced Search and Recommendation with Generative Retrieval",
+    "year": 2025,
+    "venue": "ACM Conference on Recommender Systems",
+    "authors": [
+        "Teng Shi",
+        "Jun Xu",
+        "Xiao Zhang",
+        "Xiaoxue Zang",
+        "Kai Zheng",
+        "Yang Song",
+        "Enyun Yu"
+    ],
+    "doi": "10.1145/3705328.3748071",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c26fa47b2d14028c1579bad203cd9eef4a778e4c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many commercial platforms provide both search and recommendation (S&R) services to meet different user needs. This creates an opportunity for joint modeling of S&R. Although many joint S&R studies have demonstrated the advantages of integrating S&R, they have also identified a trade-off between the two tasks. That is, when recommendation performance improves, search performance may decline, or vice versa. This trade-off stems from the different information requirements: search prioritizes the semantic relevance between the queries and the items, while recommendation heavily relies on the collaborative relationship between users and items. To balance semantic and collaborative information and mitigate this trade-off, two main challenges arise: (1) How to incorporate both semantic and collaborative information in item representations. (2) How to train the model to understand the different information requirements of S&R. The recent rise of generative retrieval based on Large Language Models (LLMs) for S&R offers a potential solution. Generative retrieval represents each item as an identifier, allowing us to assign multiple identifiers to each item to capture both semantic and collaborative information. Additionally, generative retrieval formulates both S&R as sequence-to-sequence tasks, enabling us to unify different tasks through varied prompts, thereby helping the model better understand the requirements of each task. Based on this, we propose GenSAR, a method that unifies balanced S&R through generative retrieval. We design joint S&R identifiers and training tasks to address the above challenges, mitigate the trade-off between S&R, and further improve both tasks. Experimental results on a public dataset and a commercial dataset validate the effectiveness of GenSAR.",
+    "citationCount": 0,
+    "referenceCount": 70
+}

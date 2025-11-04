@@ -1,0 +1,41 @@
+{
+    "paperId": "73a9eb2e94dddfe12455369abee5759e93dea82d",
+    "title": "Understanding Memorisation in LLMs: Dynamics, Influencing Factors, and Implications",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Till Speicher",
+        "Mohammad Aflah Khan",
+        "Qinyuan Wu",
+        "Vedant Nanda",
+        "Soumi Das",
+        "Bishwamittra Ghosh",
+        "Krishna P. Gummadi",
+        "Evimaria Terzi"
+    ],
+    "doi": "10.48550/arXiv.2407.19262",
+    "arxivId": "2407.19262",
+    "url": "https://www.semanticscholar.org/paper/73a9eb2e94dddfe12455369abee5759e93dea82d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Understanding whether and to what extent large language models (LLMs) have memorised training data has important implications for the reliability of their output and the privacy of their training data. In order to cleanly measure and disentangle memorisation from other phenomena (e.g. in-context learning), we create an experimental framework that is based on repeatedly exposing LLMs to random strings. Our framework allows us to better understand the dynamics, i.e., the behaviour of the model, when repeatedly exposing it to random strings. Using our framework, we make several striking observations: (a) we find consistent phases of the dynamics across families of models (Pythia, Phi and Llama2), (b) we identify factors that make some strings easier to memorise than others, and (c) we identify the role of local prefixes and global context in memorisation. We also show that sequential exposition to different random strings has a significant effect on memorisation. Our results, often surprising, have significant downstream implications in the study and usage of LLMs.",
+    "citationCount": 6,
+    "referenceCount": 30
+}

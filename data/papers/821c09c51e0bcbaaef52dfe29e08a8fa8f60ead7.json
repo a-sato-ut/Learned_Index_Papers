@@ -1,0 +1,34 @@
+{
+    "paperId": "821c09c51e0bcbaaef52dfe29e08a8fa8f60ead7",
+    "title": "Multi-DSI: Non-deterministic Identifier and Concept Alignment for Differentiable Search Index",
+    "year": 2024,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Yu-Ze Liu",
+        "Jyun-Yu Jiang",
+        "P. Cheng"
+    ],
+    "doi": "10.1145/3627673.3679971",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/821c09c51e0bcbaaef52dfe29e08a8fa8f60ead7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the advent of generative deep learning models, generative IR has gained increasing attention. However, existing methods face two issues: (1) when a document is represented by a single semantic ID, the retrieval model may fail to capture the multifaceted and complex content of the document; and (2) when the generated training data exhibits semantic ambiguity, the retrieval model may struggle to distinguish the differences in the content of similar documents. To address these issues, we propose Multi-DSI to (1) offer multiple non-deterministic semantic identifiers and (2) align the concepts of queries and documents to avoid ambiguity. Extensive experiments on two benchmark datasets demonstrate that Multi-DSI significantly outperforms baseline methods by 7.4%.",
+    "citationCount": 0,
+    "referenceCount": 26
+}

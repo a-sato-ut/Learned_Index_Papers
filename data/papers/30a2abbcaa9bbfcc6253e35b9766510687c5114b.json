@@ -1,0 +1,36 @@
+{
+    "paperId": "30a2abbcaa9bbfcc6253e35b9766510687c5114b",
+    "title": "Single-Channel Radar Signal Separation Based on Instance Segmentation With Mask Optimization",
+    "year": 2024,
+    "venue": "IEEE Transactions on Circuits and Systems - II - Express Briefs",
+    "authors": [
+        "Boyi Yang",
+        "Tao Chen",
+        "Yu Lei"
+    ],
+    "doi": "10.1109/TCSII.2024.3350662",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/30a2abbcaa9bbfcc6253e35b9766510687c5114b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This brief focuses on solving the overlapping problem of multicomponent signals. A single-channel radar signal separation algorithm based on visual separation with mask optimization is proposed. In this method, the reversible time-frequency transform using short-time Fourier is applied to the proposed method to complete time-frequency image pre-processing and time-domain signal reconstruction. Visual separation is achieved using an image instance segmentation network based on the Swin Transformer, FPN, RPN, and RolAlign structures. It can detect and mask individual signals using the same or different radar modulated type. The proposed model is considered a time-frequency domain visualization separation model, which is significantly different from existing deep learning models. To further address the issues of amplitude amplification and attenuation caused by visual separation, a mask optimization network based on convolution and deconvolution structures and its corresponding loss function based on global, local, and hyperlocal features is designed. Simulation experiments show that the proposed algorithm performs well and verify the feasibility of visual separation in radar signal separation.",
+    "citationCount": 3,
+    "referenceCount": 24
+}

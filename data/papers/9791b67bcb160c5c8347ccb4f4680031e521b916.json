@@ -1,0 +1,36 @@
+{
+    "paperId": "9791b67bcb160c5c8347ccb4f4680031e521b916",
+    "title": "Geans: A GPU-accelerated Framework for Efficient End-to-End Anonymized Network Sensing",
+    "year": 2025,
+    "venue": "IEEE Conference on High Performance Extreme Computing",
+    "authors": [
+        "Jun Mai",
+        "Qinggang Wang",
+        "Yu Huang",
+        "Pengcheng Yao",
+        "Long Zheng",
+        "Xiaofei Liao",
+        "Hai Jin"
+    ],
+    "doi": "10.1109/HPEC67600.2025.11196263",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9791b67bcb160c5c8347ccb4f4680031e521b916",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Anonymized network sensing enables privacy-preserving analysis of large-scale traffic data, supporting critical applications in security auditing, anomaly detection, and infrastructure monitoring. However, existing CPU-based solutions suffer from limited performance due to inefficient IP anonymization and fragmented block-wise matrix construction, hindering their ability to process high-volume traffic in real time. In this paper, we present Geans, a GPU-accelerated framework designed for efficient end-to-end anonymized network sensing. Geans introduces three key optimizations. First, it adopts a lookahead IP anonymization mechanism to eliminate redundant computations inherent in the prefix-preserving encryption algorithm CryptoPAN. Second, Geans employs the global matrix aggregation scheme to accelerate the construction of traffic matrices in coordinate format. Third, it integrates a heuristic hybrid encoding strategy to compress traffic matrices, thereby reducing the overhead of writing them to disk. Experimental results on both real-world and synthetic datasets demonstrate that Geans outperforms the CPU-based reference implementation of the Anonymized Network Sensing Graph Challenge by an average of 4.50× in terms of end-to-end running time improvement and up to 359.01× in terms of traffic matrix construction overhead reduction.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

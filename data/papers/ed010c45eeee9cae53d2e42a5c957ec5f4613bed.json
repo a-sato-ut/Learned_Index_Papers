@@ -1,0 +1,34 @@
+{
+    "paperId": "ed010c45eeee9cae53d2e42a5c957ec5f4613bed",
+    "title": "On the Robustness of Generative Retrieval Models: An Out-of-Distribution Perspective",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yuansan Liu",
+        "Ruqing Zhang",
+        "J. Guo",
+        "Wei Chen",
+        "Xueqi Cheng"
+    ],
+    "doi": "10.48550/arXiv.2306.12756",
+    "arxivId": "2306.12756",
+    "url": "https://www.semanticscholar.org/paper/ed010c45eeee9cae53d2e42a5c957ec5f4613bed",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2306.12756",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, we have witnessed generative retrieval increasingly gaining attention in the information retrieval (IR) field, which retrieves documents by directly generating their identifiers. So far, much effort has been devoted to developing effective generative retrieval models. There has been less attention paid to the robustness perspective. When a new retrieval paradigm enters into the real-world application, it is also critical to measure the out-of-distribution (OOD) generalization, i.e., how would generative retrieval models generalize to new distributions. To answer this question, firstly, we define OOD robustness from three perspectives in retrieval problems: 1) The query variations; 2) The unforeseen query types; and 3) The unforeseen tasks. Based on this taxonomy, we conduct empirical studies to analyze the OOD robustness of several representative generative retrieval models against dense retrieval models. The empirical results indicate that the OOD robustness of generative retrieval models requires enhancement. We hope studying the OOD robustness of generative retrieval models would be advantageous to the IR community.",
+    "citationCount": 14,
+    "referenceCount": 37
+}

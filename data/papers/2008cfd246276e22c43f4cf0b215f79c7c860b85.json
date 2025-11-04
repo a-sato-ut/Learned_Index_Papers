@@ -1,0 +1,52 @@
+{
+    "paperId": "2008cfd246276e22c43f4cf0b215f79c7c860b85",
+    "title": "PLUM: Adapting Pre-trained Language Models for Industrial-scale Generative Recommendations",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Ruining He",
+        "L. Heldt",
+        "Lichan Hong",
+        "Raghu Keshavan",
+        "Shifan Mao",
+        "Nikhil Mehta",
+        "Zhengyang Su",
+        "Alicia Y. Tsai",
+        "Yueqi Wang",
+        "Shao-Chuan Wang",
+        "Xinyang Yi",
+        "Lexi Baugher",
+        "Baykal Cakici",
+        "E. Chi",
+        "Cristos Goodrow",
+        "Ningren Han",
+        "He Ma",
+        "Romer Rosales",
+        "A. V. Soest",
+        "Devansh Tandon",
+        "Su-Lin Wu",
+        "Weilong Yang",
+        "Yilin Zheng"
+    ],
+    "doi": null,
+    "arxivId": "2510.07784",
+    "url": "https://www.semanticscholar.org/paper/2008cfd246276e22c43f4cf0b215f79c7c860b85",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large Language Models (LLMs) pose a new paradigm of modeling and computation for information tasks. Recommendation systems are a critical application domain poised to benefit significantly from the sequence modeling capabilities and world knowledge inherent in these large models. In this paper, we introduce PLUM, a framework designed to adapt pre-trained LLMs for industry-scale recommendation tasks. PLUM consists of item tokenization using Semantic IDs, continued pre-training (CPT) on domain-specific data, and task-specific fine-tuning for recommendation objectives. For fine-tuning, we focus particularly on generative retrieval, where the model is directly trained to generate Semantic IDs of recommended items based on user context. We conduct comprehensive experiments on large-scale internal video recommendation datasets. Our results demonstrate that PLUM achieves substantial improvements for retrieval compared to a heavily-optimized production model built with large embedding tables. We also present a scaling study for the model's retrieval performance, our learnings about CPT, a few enhancements to Semantic IDs, along with an overview of the training and inference methods that enable launching this framework to billions of users in YouTube.",
+    "citationCount": 0,
+    "referenceCount": 40
+}

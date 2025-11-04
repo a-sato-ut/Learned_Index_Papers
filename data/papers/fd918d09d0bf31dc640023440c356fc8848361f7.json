@@ -1,0 +1,33 @@
+{
+    "paperId": "fd918d09d0bf31dc640023440c356fc8848361f7",
+    "title": "De-DSI: Decentralised Differentiable Search Index",
+    "year": 2024,
+    "venue": "EuroMLSys@EuroSys",
+    "authors": [
+        "Petru Neague",
+        "Marcel Gregoriadis",
+        "Johan A. Pouwelse"
+    ],
+    "doi": "10.1145/3642970.3655837",
+    "arxivId": "2404.12237",
+    "url": "https://www.semanticscholar.org/paper/fd918d09d0bf31dc640023440c356fc8848361f7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2404.12237",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study introduces De-DSI, a novel framework that fuses large language models (LLMs) with genuine decentralization for information retrieval, particularly employing the differentiable search index (DSI) concept in a decentralized setting. Focused on efficiently connecting novel user queries with document identifiers without direct document access, De-DSI operates solely on query-docid pairs. To enhance scalability, an ensemble of DSI models is introduced, where the dataset is partitioned into smaller shards for individual model training. This approach not only maintains accuracy by reducing the number of data each model needs to handle but also facilitates scalability by aggregating outcomes from multiple models. This aggregation uses a beam search to identify top docids and applies a softmax function for score normalization, selecting documents with the highest scores for retrieval. The decentralized implementation demonstrates that retrieval success is comparable to centralized methods, with the added benefit of the possibility of distributing computational complexity across the network. This setup also allows for the retrieval of multimedia items through magnet links, eliminating the need for platforms or intermediaries.",
+    "citationCount": 3,
+    "referenceCount": 47
+}

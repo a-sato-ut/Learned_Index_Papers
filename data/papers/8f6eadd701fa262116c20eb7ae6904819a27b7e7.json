@@ -1,0 +1,41 @@
+{
+    "paperId": "8f6eadd701fa262116c20eb7ae6904819a27b7e7",
+    "title": "Cross Layer Design Using HW/SW Co-Design and HLS to Accelerate Chaining in Genomic Analysis",
+    "year": 2023,
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "authors": [
+        "Kisaru Liyanage",
+        "Hasindu Gamaarachchi",
+        "Roshan G. Ragel",
+        "S. Parameswaran"
+    ],
+    "doi": "10.1109/TCAD.2023.3236559",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8f6eadd701fa262116c20eb7ae6904819a27b7e7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "DNA sequence analysis is a computationally intensive task. Minimap2 is a state-of-the-art software tool for third-generation sequence analysis workflow. Nearly 50% of Minimap2’s computation time is spent on what is known as the chaining step. In this article, the chaining step is accelerated using a novel heterogeneous computing system combining an Intel FPGA-based hardware accelerator and a CPU (using high-level synthesis for the FPGA and multithreaded software for the CPU). The system in this article is capable of handling large-realistic workloads and achieves up to <inline-formula> <tex-math notation=\"LaTeX\">$\\sim 1.35\\times $ </tex-math></inline-formula> performance improvement over the software solution running on an Intel CPU with SIMD intrinsics (Intel’s latest AVX-512) while consuming <inline-formula> <tex-math notation=\"LaTeX\">$\\sim 27\\%$ </tex-math></inline-formula> less energy. When compared to the software solution running on the CPU without SIMD intrinsics, the system performs <inline-formula> <tex-math notation=\"LaTeX\">$\\sim 1.9\\times $ </tex-math></inline-formula> faster while consuming <inline-formula> <tex-math notation=\"LaTeX\">$\\sim 38\\%$ </tex-math></inline-formula> less energy. Importantly, this work also ensures that the accuracy of the output generated is not compromised for the speed-up gained (this work only has an error rate of less than 10−6% compared to 26% in previous FPGA-based chaining step accelerator).",
+    "citationCount": 9,
+    "referenceCount": 42
+}

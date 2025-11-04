@@ -1,0 +1,36 @@
+{
+    "paperId": "70b20375bf5ebade6d8140a29b5cdec2653ec088",
+    "title": "T2VIndexer: A Generative Video Indexer for Efficient Text-Video Retrieval",
+    "year": 2024,
+    "venue": "ACM Multimedia",
+    "authors": [
+        "Yili Li",
+        "Jing Yu",
+        "Keke Gai",
+        "Bang Liu",
+        "Gang Xiong",
+        "Qi Wu"
+    ],
+    "doi": "10.1145/3664647.3680673",
+    "arxivId": "2408.11432",
+    "url": "https://www.semanticscholar.org/paper/70b20375bf5ebade6d8140a29b5cdec2653ec088",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current text-video retrieval methods mainly rely on cross-modal matching between queries and videos to calculate their similarity scores, which are then sorted to obtain retrieval results. This method considers the matching between each candidate video and the query, but it incurs a significant time cost and will increase notably with the increase of candidates. Generative models are common in natural language processing and computer vision, and have been successfully applied in document retrieval, but their application in multimodal retrieval remains unexplored. To enhance retrieval efficiency, in this paper, we introduce a model-based video indexer named T2VIndexer, which is a sequence-to-sequence generative model directly generating video identifiers and retrieving candidate videos with constant time complexity. T2VIndexer aims to reduce retrieval time while maintaining high accuracy. To achieve this goal, we propose video identifier encoding and query-identifier augmentation approaches to represent videos as short sequences while preserving their semantic information. Our method consistently enhances the retrieval efficiency of current state-of-the-art models on four standard datasets. It enables baselines with only 30%-50% of the original retrieval time to achieve better retrieval performance on MSR-VTT (+1.0%), MSVD (+1.8%), ActivityNet (+1.5%), and DiDeMo (+0.2%). The code is available at https://github.com/Lilidamowang/T2VIndexer-generativeSearch.",
+    "citationCount": 4,
+    "referenceCount": 32
+}

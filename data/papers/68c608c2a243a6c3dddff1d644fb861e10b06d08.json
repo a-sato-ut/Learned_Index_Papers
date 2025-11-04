@@ -1,0 +1,44 @@
+{
+    "paperId": "68c608c2a243a6c3dddff1d644fb861e10b06d08",
+    "title": "In-Orbit Aggregator-Empowered Federated Learning Framework for Satellite and Terrestrial-Integrated Networks",
+    "year": 2024,
+    "venue": "International Conference on Information Networking",
+    "authors": [
+        "Hongrok Choi",
+        "Hochan Lee",
+        "Dongkyun Ryoo",
+        "H. Kim",
+        "Haneul Ko",
+        "Sangheon Pack"
+    ],
+    "doi": "10.1109/ICOIN59985.2024.10572142",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/68c608c2a243a6c3dddff1d644fb861e10b06d08",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we introduce a federated learning (FL) framework tailored for a satellite and terrestrial-integrated network (STIN), which employs a semi-asynchronous FL algorithm and in-orbit aggregations (IOA) to mitigate the straggler issue and enhance energy efficiency. Our goal is to optimize IOA-aware routing to enable energy-efficient model aggregation with uncertain ground stations (GSs) in terms of upload-ready timing. To this end, we utilize a time-expanded directed graph (TEDG) to effectively account for the network’s connectivity and energy demands. Furthermore, we propose a predictive algorithm to cope with the uncertainty of GSs. A preliminary result demonstrates the robustness of our approach even under inaccurate predictions, achieving a marginal gap of 2% of the cost compared to the optimal scheme.",
+    "citationCount": 0,
+    "referenceCount": 14
+}

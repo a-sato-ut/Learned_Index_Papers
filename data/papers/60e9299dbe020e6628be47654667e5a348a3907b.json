@@ -1,0 +1,32 @@
+{
+    "paperId": "60e9299dbe020e6628be47654667e5a348a3907b",
+    "title": "Towards a Meaningful Communication and Model Aggregation in Federated Learning via Genetic Programming",
+    "year": 2025,
+    "venue": "International Conference on Agents and Artificial Intelligence",
+    "authors": [
+        "Elia Pacioni",
+        "Francisco Fernández de Vega",
+        "Davide Calvaresi"
+    ],
+    "doi": "10.5220/0013380400003890",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/60e9299dbe020e6628be47654667e5a348a3907b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": ": Federated Learning (FL) enables collaborative training of machine learning models while preserving client data privacy. However, its conventional client-server paradigm presents two key challenges: (i) communication efficiency and (ii) model aggregation optimization. Inefficient communication, often caused by transmitting low-impact updates, results in unnecessary overhead, particularly in bandwidth-constrained environments such as wireless or mobile networks or in scenarios with numerous clients. Furthermore, traditional aggregation strategies lack the adaptability required for stable convergence and optimal performance. This paper emphasizes the distributed nature of FL clients (agents) and advocates for local, autonomous, and intelligent strategies to evaluate the significance of their updates—such as using a “distance” metric relative to the global model. This approach improves communication efficiency by prioritizing impactful updates. Additionally, the paper proposes an adaptive aggregation method leveraging genetic programming and transfer learning to dynamically evolve aggregation equations, optimizing the convergence process. By integrating insights from multi-agent systems, the proposed approach aims to foster more efficient and robust frameworks for decentralized learning.",
+    "citationCount": 0,
+    "referenceCount": 19
+}

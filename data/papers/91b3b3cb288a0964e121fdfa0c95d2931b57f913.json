@@ -1,0 +1,33 @@
+{
+    "paperId": "91b3b3cb288a0964e121fdfa0c95d2931b57f913",
+    "title": "Accelerating minimap2 for long-read sequencing on NUMA multi-core CPU",
+    "year": 2022,
+    "venue": "International Conference on Computer Science and Software Engineering",
+    "authors": [
+        "Qisheng Xu",
+        "Y. Dou",
+        "Yanjie Sun"
+    ],
+    "doi": "10.1145/3569966.3570012",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/91b3b3cb288a0964e121fdfa0c95d2931b57f913",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advances in three-generation sequencing technology allow for the rapid generation of large throughput of long reads, and mapping these long reads to a reference sequence is one of the first and most time-consuming steps in the downstream application of genomics. Minimap2, the state-of-the-art long-read sequencing aligner available today, has the advantage of being fast and accurate. However, as NUMA multi-core CPU gradually becomes the processors of mainstream computers, minimap2 is not specifically optimised and adapted for the NUMA multi-core architecture. Frequent remote memory accesses, resource contention and idle hardware resources result in a performance far below the theoretical peak performance of NUMA multi-core CPU. Based on the above problems, we propose three optimisation strategies, namely copying index at each NUMA node and binding threads to the cores of NUMA node, designing new IO and computation overlap mechanism, and adaptively adjusting batch_size based on IO and computation time, to achieve full utilisation of resources. We obtain three sets of human genome sequencing data from the ENA database and performed performance tests on the FT 2000+ MCD-FP92 NUMA multi-core CPU system. The three-point strategies proposed in this paper are effective in improving the performance of minimap2, with a maximum speedup of 13 percentage points.",
+    "citationCount": 1,
+    "referenceCount": 12
+}

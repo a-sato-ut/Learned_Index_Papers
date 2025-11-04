@@ -1,0 +1,36 @@
+{
+    "paperId": "1fa5d56eba6c135bd342564a1def2518ec13e46b",
+    "title": "Practical Persistent Multi-Word Compare-and-Swap Algorithms for Many-Core CPUs",
+    "year": 2024,
+    "venue": "Journal of Information Processing",
+    "authors": [
+        "Kento Sugiura",
+        "Manabu Nishimura",
+        "Y. Ishikawa"
+    ],
+    "doi": "10.48550/arXiv.2404.01710",
+    "arxivId": "2404.01710",
+    "url": "https://www.semanticscholar.org/paper/1fa5d56eba6c135bd342564a1def2518ec13e46b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the last decade, academic and industrial researchers have focused on persistent memory because of the development of the first practical product, Intel Optane. One of the main challenges of persistent memory programming is to guarantee consistent durability over separate memory addresses, and Wang et al. proposed a persistent multi-word compare-and-swap (PMwCAS) algorithm to solve this problem. However, their algorithm contains redundant compare-and-swap (CAS) and cache flush instructions and does not achieve sufficient performance on many-core CPUs. This paper proposes a new algorithm to improve performance on many-core CPUs by removing useless CAS/flush instructions from PMwCAS operations. We also exclude dirty flags, which help ensure consistent durability in the original algorithm, from our algorithm using PMwCAS descriptors as write-ahead logs. Experimental results show that the proposed method is up to ten times faster than the original algorithm and suggests several productive uses of PMwCAS operations.",
+    "citationCount": 1,
+    "referenceCount": 35
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "635cfc277ef634c37db5c6b15793c5b303b5a9ff",
+    "title": "Talking Models: Distill Pre-trained Knowledge to Downstream Models via Interactive Communication",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhe Zhao",
+        "Qingyun Liu",
+        "Huan Gui",
+        "Bang An",
+        "Lichan Hong",
+        "E. Chi"
+    ],
+    "doi": "10.48550/arXiv.2310.03188",
+    "arxivId": "2310.03188",
+    "url": "https://www.semanticscholar.org/paper/635cfc277ef634c37db5c6b15793c5b303b5a9ff",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2310.03188",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Education",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many recent breakthroughs in machine learning have been enabled by the pre-trained foundation models. By scaling up model parameters, training data, and computation resources, foundation models have significantly advanced the state-of-the-art in many applications. However, it is still an open question of how to use these models to perform downstream tasks efficiently. Knowledge distillation (KD) has been explored to tackle this challenge. KD transfers knowledge from a large teacher model to a smaller student model. While KD has been successful in improving student model performance, recent research has discovered that a powerful teacher does not necessarily lead to a powerful student, due to their huge capacity gap. In addition, the potential distribution shifts between the pre-training data and downstream tasks can make knowledge transfer in KD sub-optimal for improving downstream task performance. In this paper, we extend KD with an interactive communication process to help students of downstream tasks learn effectively from pre-trained foundation models. Our design is inspired by the way humans learn from teachers who can explain knowledge in a way that meets the students' needs. Specifically, we let each model (i.e., student and teacher) train two components: (1) an encoder encoding the model's hidden states to a message and (2) a decoder decoding any messages to its own hidden states. With encoder and decoder, not only can the teacher transfer rich information by encoding its hidden states, but also the student can send messages with information of downstream tasks to the teacher. Therefore, knowledge passing from teacher to student can be tailored to the student's capacity and downstream tasks' distributions. We conducted experiments on benchmark datasets to show that our communication mechanism outperforms state-of-the-art distillation techniques.",
+    "citationCount": 1,
+    "referenceCount": 54
+}

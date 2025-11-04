@@ -1,0 +1,33 @@
+{
+    "paperId": "de1902e403d9809d758f212c5aa491d90d757d47",
+    "title": "Evaluating the Performance of Federated Learning Across Different Training Sample Distributions",
+    "year": 2024,
+    "venue": "International Conference on Ubiquitous Information Management and Communication",
+    "authors": [
+        "Wen-Hung Liao",
+        "Shu-Yu Lin",
+        "Yi-Chieh Wu"
+    ],
+    "doi": "10.1109/IMCOM60618.2024.10418352",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/de1902e403d9809d758f212c5aa491d90d757d47",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This research investigates how the distribution of samples impacts the performance of federated learning. By simulating datasets with independent identical distribution (IID) and nonindependent identical distribution (non-IID), and varying the number of collaborating units, we observe how differences in training sample distribution affect the effectiveness of federated learning. Specifically, we discuss the special situation of nonintersecting classes in the case of non-independent identical distribution. Using deep learning methods with both pretrained and trained-from-scratch models, this study comprehensively discusses the impact of the number and distribution of units and evaluates the results of joint training based on Top-1 and Top-5 accuracy. Experimental results show that the initial weight setting of joint training has a critical impact. Random weights lead to unstable model performance, while weights set based on the same criteria yield stable and more accurate results. Additionally, model performance varies depending on characteristics of data distribution. The performance of federated-learning model trained with independent identical distribution samples is the best, followed by imbalanced distribution in non-independent identical distribution, while non-intersecting class allocation is the least ideal.",
+    "citationCount": 1,
+    "referenceCount": 17
+}

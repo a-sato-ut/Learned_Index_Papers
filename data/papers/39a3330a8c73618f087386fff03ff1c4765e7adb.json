@@ -1,0 +1,47 @@
+{
+    "paperId": "39a3330a8c73618f087386fff03ff1c4765e7adb",
+    "title": "SSRL: Self-Search Reinforcement Learning",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yuchen Fan",
+        "Kaiyan Zhang",
+        "Heng Zhou",
+        "Yuxin Zuo",
+        "Yanxu Chen",
+        "Yu Fu",
+        "Xinwei Long",
+        "Xuekai Zhu",
+        "Che Jiang",
+        "Yuchen Zhang",
+        "Li Kang",
+        "Gang Chen",
+        "Cheng Huang",
+        "Zhizhou He",
+        "Bingning Wang",
+        "Lei Bai",
+        "Ning Ding",
+        "Bowen Zhou"
+    ],
+    "doi": "10.48550/arXiv.2508.10874",
+    "arxivId": "2508.10874",
+    "url": "https://www.semanticscholar.org/paper/39a3330a8c73618f087386fff03ff1c4765e7adb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We investigate the potential of large language models (LLMs) to serve as efficient simulators for agentic search tasks in reinforcement learning (RL), thereby reducing dependence on costly interactions with external search engines. To this end, we first quantify the intrinsic search capability of LLMs via structured prompting and repeated sampling, which we term Self-Search. Our results reveal that LLMs exhibit strong scaling behavior with respect to the inference budget, achieving high pass@k on question-answering benchmarks, including the challenging BrowseComp task. Building on these observations, we introduce Self-Search RL (SSRL), which enhances LLMs'Self-Search capability through format-based and rule-based rewards. SSRL enables models to iteratively refine their knowledge utilization internally, without requiring access to external tools. Empirical evaluations demonstrate that SSRL-trained policy models provide a cost-effective and stable environment for search-driven RL training, reducing reliance on external search engines and facilitating robust sim-to-real transfer. We draw the following conclusions: 1) LLMs possess world knowledge that can be effectively elicited to achieve high performance; 2) SSRL demonstrates the potential of leveraging internal knowledge to reduce hallucination; 3) SSRL-trained models integrate seamlessly with external search engines without additional effort. Our findings highlight the potential of LLMs to support more scalable RL agent training.",
+    "citationCount": 3,
+    "referenceCount": 65
+}

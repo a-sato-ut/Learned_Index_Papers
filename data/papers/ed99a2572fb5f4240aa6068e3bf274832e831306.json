@@ -1,0 +1,34 @@
+{
+    "paperId": "ed99a2572fb5f4240aa6068e3bf274832e831306",
+    "title": "Recitation-Augmented Language Models",
+    "year": 2022,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Zhiqing Sun",
+        "Xuezhi Wang",
+        "Yi Tay",
+        "Yiming Yang",
+        "Denny Zhou"
+    ],
+    "doi": "10.48550/arXiv.2210.01296",
+    "arxivId": "2210.01296",
+    "url": "https://www.semanticscholar.org/paper/ed99a2572fb5f4240aa6068e3bf274832e831306",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2210.01296",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a new paradigm to help Large Language Models (LLMs) generate more accurate factual knowledge without retrieving from an external corpus, called RECITation-augmented gEneration (RECITE). Different from retrieval-augmented language models that retrieve relevant documents before generating the outputs, given an input, RECITE first recites one or several relevant passages from LLMs' own memory via sampling, and then produces the final answers. We show that RECITE is a powerful paradigm for knowledge-intensive NLP tasks. Specifically, we show that by utilizing recitation as the intermediate step, a recite-and-answer scheme can achieve new state-of-the-art performance in various closed-book question answering (CBQA) tasks. In experiments, we verify the effectiveness of \\method~on four pre-trained models (PaLM, UL2, OPT, and Codex) and three CBQA tasks (Natural Questions, TriviaQA, and HotpotQA). Our code is available at\"https://github.com/Edward-Sun/RECITE\".",
+    "citationCount": 73,
+    "referenceCount": 73
+}

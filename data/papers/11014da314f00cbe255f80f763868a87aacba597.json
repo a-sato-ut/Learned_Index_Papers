@@ -1,0 +1,38 @@
+{
+    "paperId": "11014da314f00cbe255f80f763868a87aacba597",
+    "title": "Introducing Packet-Level Analysis in Programmable Data Planes to Advance Network Intrusion Detection",
+    "year": 2023,
+    "venue": "Comput. Networks",
+    "authors": [
+        "R. D. Corin",
+        "Luis Augusto Dias Knob",
+        "Luca Mendozzi",
+        "D. Siracusa",
+        "Marco Savi"
+    ],
+    "doi": "10.48550/arXiv.2307.05936",
+    "arxivId": "2307.05936",
+    "url": "https://www.semanticscholar.org/paper/11014da314f00cbe255f80f763868a87aacba597",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.05936",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Programmable data planes offer precise control over the low-level processing steps applied to network packets, serving as a valuable tool for analysing malicious flows in the field of intrusion detection. Albeit with limitations on physical resources and capabilities, they allow for the efficient extraction of detailed traffic information, which can then be utilised by Machine Learning (ML) algorithms responsible for identifying security threats. In addressing resource constraints, existing solutions in the literature rely on compressing network data through the collection of statistical traffic features in the data plane. While this compression saves memory resources in switches and minimises the burden on the control channel between the data and the control plane, it also results in a loss of information available to the Network Intrusion Detection System (NIDS), limiting access to packet payload, categorical features, and the semantic understanding of network communications, such as the behaviour of packets within traffic flows. This paper proposes P4DDLe, a framework that exploits the flexibility of P4-based programmable data planes for packet-level feature extraction and pre-processing. P4DDLe leverages the programmable data plane to extract raw packet features from the network traffic, categorical features included, and to organise them in a way that the semantics of traffic flows are preserved. To minimise memory and control channel overheads, P4DDLe selectively processes and filters packet-level data, so that only the features required by the NIDS are collected. The experimental evaluation with recent Distributed Denial of Service (DDoS) attack data demonstrates that the proposed approach is very efficient in collecting compact and high-quality representations of network flows, ensuring precise detection of DDoS attacks.",
+    "citationCount": 34,
+    "referenceCount": 67
+}

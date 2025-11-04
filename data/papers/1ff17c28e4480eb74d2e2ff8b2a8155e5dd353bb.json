@@ -1,0 +1,50 @@
+{
+    "paperId": "1ff17c28e4480eb74d2e2ff8b2a8155e5dd353bb",
+    "title": "UniSearch: Rethinking Search System with a Unified Generative Architecture",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jiahui Chen",
+        "Xiaoze Jiang",
+        "Zhibo Wang",
+        "Quanzhi Zhu",
+        "Junyao Zhao",
+        "Feng Hu",
+        "Kang Pan",
+        "Ao Xie",
+        "Maohua Pei",
+        "Zhiheng Qin",
+        "Hongjing Zhang",
+        "Zhixin Zhai",
+        "Xiaobo Guo",
+        "Runbin Zhou",
+        "Kefeng Wang",
+        "Mingyang Geng",
+        "Cheng Chen",
+        "Jingshan Lv",
+        "Yupeng Huang",
+        "Xiao Liang",
+        "Han Li"
+    ],
+    "doi": "10.48550/arXiv.2509.06887",
+    "arxivId": "2509.06887",
+    "url": "https://www.semanticscholar.org/paper/1ff17c28e4480eb74d2e2ff8b2a8155e5dd353bb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern search systems play a crucial role in facilitating information acquisition. Traditional search engines typically rely on a cascaded architecture, where results are retrieved through recall, pre-ranking, and ranking stages. The complexity of designing and maintaining multiple modules makes it difficult to achieve holistic performance gains. Recent advances in generative recommendation have motivated the exploration of unified generative search as an alternative. However, existing approaches are not genuinely end-to-end: they typically train an item encoder to tokenize candidates first and then optimize a generator separately, leading to objective inconsistency and limited generalization. To address these limitations, we propose UniSearch, a unified generative search framework for Kuaishou Search. UniSearch replaces the cascaded pipeline with an end-to-end architecture that integrates a Search Generator and a Video Encoder. The Generator produces semantic identifiers of relevant items given a user query, while the Video Encoder learns latent item embeddings and provides their tokenized representations. A unified training framework jointly optimizes both components, enabling mutual enhancement and improving representation quality and generation accuracy. Furthermore, we introduce Search Preference Optimization (SPO), which leverages a reward model and real user feedback to better align generation with user preferences. Extensive experiments on industrial-scale datasets, together with online A/B testing in both short-video and live search scenarios, demonstrate the strong effectiveness and deployment potential of UniSearch. Notably, its deployment in live search yields the largest single-experiment improvement in recent years of our product's history, highlighting its practical value for real-world applications.",
+    "citationCount": 1,
+    "referenceCount": 37
+}

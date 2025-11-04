@@ -1,0 +1,45 @@
+{
+    "paperId": "0a24c5e6da13fd05f5f906e7a8ec20e7ef5d6942",
+    "title": "XMC-Agent : Dynamic Navigation over Scalable Hierarchical Index for Incremental Extreme Multi-label Classification",
+    "year": 2024,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+        "Yanjiang Liu",
+        "Tianyun Zhong",
+        "Yaojie Lu",
+        "Hongyu Lin",
+        "Ben He",
+        "Shuheng Zhou",
+        "Huijia Zhu",
+        "Weiqiang Wang",
+        "Zhongyi Liu",
+        "Xianpei Han",
+        "Le Sun",
+        "Latin Dance",
+        "⟡. Samba",
+        "Rock ⟡ Guitar",
+        "⟡. Pop"
+    ],
+    "doi": "10.18653/v1/2024.findings-acl.336",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0a24c5e6da13fd05f5f906e7a8ec20e7ef5d6942",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The eXtreme Multi-label Classification (XMC) aims to accurately assign a large number of labels to instances, presenting challenges in learning, managing, and predicting across a vast and rapidly growing set of labels. Traditional XMC methods, such as one-vs-all and tree-based methods struggle with the increasing set of labels due to their static label assumptions, while embedding-based methods face difficulties with complex mapping relationships due to their late-interaction paradigm. In this paper, we propose a large language model (LLM) powered agent framework for extreme multi-label classification – XMC-A GENT , which can effectively learn, manage and predict an extremely large and dynamically increasing set of labels. Specifically, XMC-A GENT models the extreme multi-label classification task as a dynamic navigation problem, employing a scalable hierarchical label index to effectively manage the unified label space. Additionally, we design two algorithms to enhance the dynamic navigation capabilities of XMC-A GENT : a self-construction algorithm for building the scalable hierarchical index, and an iterative feedback learning algorithm for adjusting the agent to specific tasks. Experiments demonstrate that XMC-A GENT achieves the state-of-the-art performance on three datasets.",
+    "citationCount": 2,
+    "referenceCount": 37
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "1afb3dfd5805c10de11db33ce98e53a7ee95ae6a",
+    "title": "Genealogical Population-Based Training for Hyperparameter Optimization",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Antoine Scardigli",
+        "P. Fournier",
+        "Matteo Vilucchio",
+        "D. Naccache"
+    ],
+    "doi": null,
+    "arxivId": "2109.14925",
+    "url": "https://www.semanticscholar.org/paper/1afb3dfd5805c10de11db33ce98e53a7ee95ae6a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "HyperParameter Optimization (HPO) aims at finding the best HyperParameters (HPs) of learning models, such as neural networks, in the fastest and most efficient way possible. Most recent HPO algorithms try to optimize HPs regardless of the model that obtained them, assuming that for different models, same HPs will produce very similar results. We break free from this paradigm and propose a new take on preexisting methods that we called Genealogical Population Based Training (GPBT). GPBT, via the shared histories of\"genealogically\"-related models, exploit the coupling of HPs and models in an efficient way. We experimentally demonstrate that our method cuts down by 2 to 3 times the computational cost required, generally allows a 1% accuracy improvement on computer vision tasks, and reduces the variance of the results by an order of magnitude, compared to the current algorithms. Our method is search-algorithm agnostic so that the inner search routine can be any search algorithm like TPE, GP, CMA or random search.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

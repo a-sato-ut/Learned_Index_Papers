@@ -1,0 +1,36 @@
+{
+    "paperId": "9ce98dfdb06e86800b4062a71ea4e36318fdaac6",
+    "title": "Efficient $k$-NN Search in IoT Data: Overlap Optimization in Tree-Based Indexing Structures",
+    "year": 2024,
+    "venue": "",
+    "authors": [
+        "Ala-Eddine Benrazek",
+        "Zineddine Kouahla",
+        "Brahim Farou",
+        "Hamid Seridi",
+        "Ibtissem Kemouguette"
+    ],
+    "doi": null,
+    "arxivId": "2408.16036",
+    "url": "https://www.semanticscholar.org/paper/9ce98dfdb06e86800b4062a71ea4e36318fdaac6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The proliferation of interconnected devices in the Internet of Things (IoT) has led to an exponential increase in data, commonly known as Big IoT Data. Efficient retrieval of this heterogeneous data demands a robust indexing mechanism for effective organization. However, a significant challenge remains: the overlap in data space partitions during index construction. This overlap increases node access during search and retrieval, resulting in higher resource consumption, performance bottlenecks, and impedes system scalability. To address this issue, we propose three innovative heuristics designed to quantify and strategically reduce data space partition overlap. The volume-based method (VBM) offers a detailed assessment by calculating the intersection volume between partitions, providing deeper insights into spatial relationships. The distance-based method (DBM) enhances efficiency by using the distance between partition centers and radii to evaluate overlap, offering a streamlined yet accurate approach. Finally, the object-based method (OBM) provides a practical solution by counting objects across multiple partitions, delivering an intuitive understanding of data space dynamics. Experimental results demonstrate the effectiveness of these methods in reducing search time, underscoring their potential to improve data space partitioning and enhance overall system performance.",
+    "citationCount": 0,
+    "referenceCount": 41
+}

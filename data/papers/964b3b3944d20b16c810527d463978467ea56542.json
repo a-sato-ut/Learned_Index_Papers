@@ -1,0 +1,34 @@
+{
+    "paperId": "964b3b3944d20b16c810527d463978467ea56542",
+    "title": "Efficient mapping of accurate long reads in minimizer space with mapquik",
+    "year": 2023,
+    "venue": "Genome Research",
+    "authors": [
+        "Barış Ekim",
+        "Kristoffer Sahlin",
+        "P. Medvedev",
+        "B. Berger",
+        "R. Chikhi"
+    ],
+    "doi": "10.1101/gr.277679.123",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/964b3b3944d20b16c810527d463978467ea56542",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://genome.cshlp.org/content/early/2023/06/29/gr.277679.123.full.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "DNA sequencing data continue to progress toward longer reads with increasingly lower sequencing error rates. We focus on the critical problem of mapping, or aligning, low-divergence sequences from long reads (e.g., Pacific Biosciences [PacBio] HiFi) to a reference genome, which poses challenges in terms of accuracy and computational resources when using cutting-edge read mapping approaches that are designed for all types of alignments. A natural idea would be to optimize efficiency with longer seeds to reduce the probability of extraneous matches; however, contiguous exact seeds quickly reach a sensitivity limit. We introduce mapquik, a novel strategy that creates accurate longer seeds by anchoring alignments through matches of k consecutively sampled minimizers (k-min-mers) and only indexing k-min-mers that occur once in the reference genome, thereby unlocking ultrafast mapping while retaining high sensitivity. We show that mapquik significantly accelerates the seeding and chaining steps—fundamental bottlenecks to read mapping—for both the human and maize genomes with >96% sensitivity and near-perfect specificity. On the human genome, for both real and simulated reads, mapquik achieves a 37× speedup over the state-of-the-art tool minimap2, and on the maize genome, mapquik achieves a 410× speedup over minimap2, making mapquik the fastest mapper to date. These accelerations are enabled from not only minimizer-space seeding but also a novel heuristic O(n) pseudochaining algorithm, which improves upon the long-standing O(nlogn) bound. Minimizer-space computation builds the foundation for achieving real-time analysis of long-read sequencing data.",
+    "citationCount": 9,
+    "referenceCount": 44
+}

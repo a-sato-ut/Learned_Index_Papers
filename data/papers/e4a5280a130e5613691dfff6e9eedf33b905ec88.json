@@ -1,0 +1,33 @@
+{
+    "paperId": "e4a5280a130e5613691dfff6e9eedf33b905ec88",
+    "title": "1-PAGER: One Pass Answer Generation and Evidence Retrieval",
+    "year": 2023,
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+        "Palak Jain",
+        "Livio Baldini Soares",
+        "T. Kwiatkowski"
+    ],
+    "doi": "10.48550/arXiv.2310.16568",
+    "arxivId": "2310.16568",
+    "url": "https://www.semanticscholar.org/paper/e4a5280a130e5613691dfff6e9eedf33b905ec88",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present 1-Pager the first system that answers a question and retrieves evidence using a single Transformer-based model and decoding process. 1-Pager incrementally partitions the retrieval corpus using constrained decoding to select a document and answer string, and we show that this is competitive with comparable retrieve-and-read alternatives according to both retrieval and answer accuracy metrics. 1-Pager also outperforms the equivalent closed-book question answering model, by grounding predictions in an evidence corpus. While 1-Pager is not yet on-par with more expensive systems that read many more documents before generating an answer, we argue that it provides an important step toward attributed generation by folding retrieval into the sequence-to-sequence paradigm that is currently dominant in NLP. We also show that the search paths used to partition the corpus are easy to read and understand, paving a way forward for interpretable neural retrieval.",
+    "citationCount": 7,
+    "referenceCount": 46
+}

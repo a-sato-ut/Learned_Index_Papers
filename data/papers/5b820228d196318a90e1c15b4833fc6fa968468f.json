@@ -1,0 +1,31 @@
+{
+    "paperId": "5b820228d196318a90e1c15b4833fc6fa968468f",
+    "title": "Goal-Oriented Medium Access with Distributed Belief Processing",
+    "year": 2024,
+    "venue": "",
+    "authors": [
+        "Federico Chiariotti",
+        "Andrea Munari",
+        "Leonardo Badia",
+        "P. Popovski"
+    ],
+    "doi": null,
+    "arxivId": "2412.07503",
+    "url": "https://www.semanticscholar.org/paper/5b820228d196318a90e1c15b4833fc6fa968468f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Goal-oriented communication entails the timely transmission of updates related to a specific goal defined by the application. In a distributed setup with multiple sensors, each individual sensor knows its own observation and can determine its freshness, as measured by Age of Incorrect Information (AoII). This local knowledge is suited for distributed medium access, where the transmission strategies have to deal with collisions. We present Dynamic Epistemic Logic for Tracking Anomalies (DELTA), a medium access protocol that limits collisions and minimizes AoII in anomaly reporting over dense networks. Each sensor knows its own AoII, while it can compute the belief about the AoII for all other sensors, based on their Age of Information (AoI), which is inferred from the acknowledgments. This results in a goal-oriented approach based on dynamic epistemic logic emerging from public information. We analyze the resulting DELTA protocol both from a theoretical standpoint and with Monte Carlo simulations, showing that it is significantly more efficient and robust than classical random access, while outperforming state-of-the-art scheduled schemes by at least 30%, even with imperfect feedback.",
+    "citationCount": 1,
+    "referenceCount": 43
+}

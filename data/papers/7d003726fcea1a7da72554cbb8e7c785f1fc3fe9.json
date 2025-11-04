@@ -1,0 +1,40 @@
+{
+    "paperId": "7d003726fcea1a7da72554cbb8e7c785f1fc3fe9",
+    "title": "Generating Long Semantic IDs in Parallel for Recommendation",
+    "year": 2025,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Yupeng Hou",
+        "Jiacheng Li",
+        "Ashley Shin",
+        "Jinsung Jeon",
+        "Abhishek Santhanam",
+        "Wei Shao",
+        "Kaveh Hassani",
+        "Ning Yao",
+        "Julian McAuley"
+    ],
+    "doi": "10.1145/3711896.3736979",
+    "arxivId": "2506.05781",
+    "url": "https://www.semanticscholar.org/paper/7d003726fcea1a7da72554cbb8e7c785f1fc3fe9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Semantic ID-based recommendation models tokenize each item into a small number of discrete tokens that preserve specific semantics, leading to better performance, scalability, and memory efficiency. While recent models adopt a generative approach, they often suffer from inefficient inference due to the reliance on resource-intensive beam search and multiple forward passes through the neural sequence model. As a result, the length of semantic IDs is typically restricted (e.g., to just 4 tokens), limiting their expressiveness. To address these challenges, we propose RPG, a lightweight framework for semantic ID-based recommendation. The key idea is to produce unordered, long semantic IDs, allowing the model to predict all tokens in parallel. We train the model to predict each token independently using a multi-token prediction loss, directly integrating semantics into the learning objective. During inference, we construct a graph connecting similar semantic IDs and guide decoding to avoid generating invalid IDs. Experiments show that scaling up semantic ID length to 64 enables RPG to outperform generative baselines by an average of 12.6% on the NDCG@10, while also improving inference efficiency. Code is available at: https://github.com/facebookresearch/RPG_KDD2025.",
+    "citationCount": 10,
+    "referenceCount": 62
+}

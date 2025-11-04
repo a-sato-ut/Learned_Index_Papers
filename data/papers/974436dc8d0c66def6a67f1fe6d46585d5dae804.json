@@ -1,0 +1,39 @@
+{
+    "paperId": "974436dc8d0c66def6a67f1fe6d46585d5dae804",
+    "title": "Towards Distributionally Balanced End-to-End Generative Retrieval",
+    "year": 2025,
+    "venue": "The Web Conference",
+    "authors": [
+        "Yuxuan Liu",
+        "Tianchi Yang",
+        "Zihan Zhang",
+        "Minghui Song",
+        "Haizhen Huang",
+        "Weiwei Deng",
+        "Feng Sun",
+        "Qi Zhang"
+    ],
+    "doi": "10.1145/3701716.3715263",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/974436dc8d0c66def6a67f1fe6d46585d5dae804",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative retrieval represents a promising paradigm in information retrieval, using seq2seq models to encode document features as parameters and decode relevant document identifiers (IDs) in response to search queries. Current generative retrieval methods typically rely on a pre-processing stage to assign static document IDs, which can introduce a semantic gap between ID assignments and retrieval objectives. However, optimizing both ID assignments and retrieval end-to-end is challenging, particularly due to the long-tailed distribution of real-world data that often leads to inefficient and unbalanced ID utilization. To address these challenges, we propose ASI++, an end-to-end generative retrieval approach that jointly optimizes balanced ID assignments and retrieval accuracy. ASI++ builds on the framework of vanilla ASI and introduces three novel criteria: a distribution balancing criterion to improve ID space utilization, a representation bottleneck criterion applied to the encoder to produce more distinguishable dense representations, and an information consistency criterion that aligns information retention with retrieval goals within an information-theoretic framework. We also examine various structures for learning ID assignments, such as neural quantization, differentiable product quantization, and residual quantization. Extensive offline experiments on public and industrial datasets demonstrate that ASI++ improves both retrieval performance and ID balance, with online results highlighting its significant business value in Microsoft Bing sponsored search.",
+    "citationCount": 0,
+    "referenceCount": 48
+}

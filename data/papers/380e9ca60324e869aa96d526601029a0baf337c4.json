@@ -1,0 +1,34 @@
+{
+    "paperId": "380e9ca60324e869aa96d526601029a0baf337c4",
+    "title": "C2T-ID: Converting Semantic Codebooks to Textual Document Identifiers for Generative Search",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Yingchen Zhang",
+        "Ruqing Zhang",
+        "Jiafeng Guo",
+        "Wenjun Peng",
+        "Sen Li",
+        "Fuyu Lv",
+        "Xueqi Cheng"
+    ],
+    "doi": null,
+    "arxivId": "2510.19221",
+    "url": "https://www.semanticscholar.org/paper/380e9ca60324e869aa96d526601029a0baf337c4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Designing document identifiers (docids) that carry rich semantic information while maintaining tractable search spaces is a important challenge in generative retrieval (GR). Popular codebook methods address this by building a hierarchical semantic tree and constraining generation to its child nodes, yet their numeric identifiers cannot leverage the large language model's pretrained natural language understanding. Conversely, using text as docid provides more semantic expressivity but inflates the decoding space, making the system brittle to early-step errors. To resolve this trade-off, we propose C2T-ID: (i) first construct semantic numerical docid via hierarchical clustering; (ii) then extract high-frequency metadata keywords and iteratively replace each numeric label with its cluster's top-K keywords; and (iii) an optional two-level semantic smoothing step further enhances the fluency of C2T-ID. Experiments on Natural Questions and Taobao's product search demonstrate that C2T-ID significantly outperforms atomic, semantic codebook, and pure-text docid baselines, demonstrating its effectiveness in balancing semantic expressiveness with search space constraints.",
+    "citationCount": 0,
+    "referenceCount": 33
+}

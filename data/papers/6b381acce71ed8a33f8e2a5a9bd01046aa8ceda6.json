@@ -1,0 +1,42 @@
+{
+    "paperId": "6b381acce71ed8a33f8e2a5a9bd01046aa8ceda6",
+    "title": "ReUseData: an R/Bioconductor tool for reusable and reproducible genomic data management",
+    "year": 2024,
+    "venue": "BMC Bioinformatics",
+    "authors": [
+        "Qian Liu",
+        "Qiang Hu",
+        "Song Liu",
+        "Alan Hutson",
+        "Martin Morgan"
+    ],
+    "doi": "10.1186/s12859-023-05626-0",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6b381acce71ed8a33f8e2a5a9bd01046aa8ceda6",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-023-05626-0",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Background The increasing volume and complexity of genomic data pose significant challenges for effective data management and reuse. Public genomic data often undergo similar preprocessing across projects, leading to redundant or inconsistent datasets and inefficient use of computing resources. This is especially pertinent for bioinformaticians engaged in multiple projects. Tools have been created to address challenges in managing and accessing curated genomic datasets, however, the practical utility of such tools becomes especially beneficial for users who seek to work with specific types of data or are technically inclined toward a particular programming language. Currently, there exists a gap in the availability of an R-specific solution for efficient data management and versatile data reuse. Results Here we present ReUseData , an R software tool that overcomes some of the limitations of existing solutions and provides a versatile and reproducible approach to effective data management within R. ReUseData facilitates the transformation of ad hoc scripts for data preprocessing into Common Workflow Language (CWL)-based data recipes, allowing for the reproducible generation of curated data files in their generic formats. The data recipes are standardized and self-contained, enabling them to be easily portable and reproducible across various computing platforms. ReUseData also streamlines the reuse of curated data files and their integration into downstream analysis tools and workflows with different frameworks. Conclusions ReUseData provides a reliable and reproducible approach for genomic data management within the R environment to enhance the accessibility and reusability of genomic data. The package is available at Bioconductor ( https://bioconductor.org/packages/ReUseData/ ) with additional information on the project website ( https://rcwl.org/dataRecipes/ ).",
+    "citationCount": 2,
+    "referenceCount": 31
+}

@@ -1,0 +1,40 @@
+{
+    "paperId": "1504a5b2a3388d3bdfd020e571e4af00236e7f40",
+    "title": "Towards Context-aware Reasoning-enhanced Generative Searching in E-commerce",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Zhiding Liu",
+        "Ben Chen",
+        "Mingyue Cheng",
+        "Enchong Chen",
+        "Li Li",
+        "Chenyi Lei",
+        "Wenwu Ou",
+        "Han Li",
+        "Kun Gai"
+    ],
+    "doi": null,
+    "arxivId": "2510.16925",
+    "url": "https://www.semanticscholar.org/paper/1504a5b2a3388d3bdfd020e571e4af00236e7f40",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Search-based recommendation is one of the most critical application scenarios in e-commerce platforms. Users'complex search contexts--such as spatiotemporal factors, historical interactions, and current query's information--constitute an essential part of their decision-making, reflecting implicit preferences that complement explicit query terms. Modeling such rich contextual signals and their intricate associations with candidate items remains a key challenge. Although numerous efforts have been devoted to building more effective search methods, existing approaches still show limitations in integrating contextual information, which hinders their ability to fully capture user intent. To address these challenges, we propose a context-aware reasoning-enhanced generative search framework for better \\textbf{understanding the complicated context}. Specifically, the framework first unifies heterogeneous user and item contexts into textual representations or text-based semantic identifiers and aligns them. To overcome the lack of explicit reasoning trajectories, we introduce a self-evolving post-training paradigm that iteratively combines supervised fine-tuning and reinforcement learning to progressively enhance the model's reasoning capability. In addition, we identify potential biases in existing RL algorithms when applied to search scenarios and present a debiased variant of GRPO to improve ranking performance. Extensive experiments on search log data collected from a real-world e-commerce platform demonstrate that our approach achieves superior performance compared with strong baselines, validating its effectiveness for search-based recommendation.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

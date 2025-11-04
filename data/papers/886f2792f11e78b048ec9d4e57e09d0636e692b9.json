@@ -1,0 +1,41 @@
+{
+    "paperId": "886f2792f11e78b048ec9d4e57e09d0636e692b9",
+    "title": "Personalized Tucker Decomposition: Modeling Commonality and Peculiarity on Tensor Data",
+    "year": 2023,
+    "venue": "Technometrics",
+    "authors": [
+        "Jiuyun Hu",
+        "Naichen Shi",
+        "R. Kontar",
+        "Hao Yan"
+    ],
+    "doi": "10.1080/00401706.2025.2453206",
+    "arxivId": "2309.03439",
+    "url": "https://www.semanticscholar.org/paper/886f2792f11e78b048ec9d4e57e09d0636e692b9",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2309.03439",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose personalized Tucker decomposition (perTucker) to address the limitations of traditional tensor decomposition methods in capturing heterogeneity across different datasets. perTucker decomposes tensor data into shared global components and personalized local components. We introduce a mode orthogonality assumption and develop a proximal gradient regularized block coordinate descent algorithm that is guaranteed to converge to a stationary point. By learning unique and common representations across datasets, we demonstrate perTucker's effectiveness in anomaly detection, client classification, and clustering through a simulation study and two case studies on solar flare detection and tonnage signal classification.",
+    "citationCount": 3,
+    "referenceCount": 58
+}

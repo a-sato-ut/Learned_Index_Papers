@@ -1,0 +1,38 @@
+{
+    "paperId": "f0206e82d279ad4d9ae4eaf17273b7e20edafd46",
+    "title": "Porting and Optimizing BWA-MEM2 Using the Fujitsu A64FX Processor",
+    "year": 2023,
+    "venue": "IEEE/ACM Transactions on Computational Biology & Bioinformatics",
+    "authors": [
+        "Rubén Langarita",
+        "Adrià Armejach",
+        "Pablo Ibáñez",
+        "Jesús Alastruey-Benedé",
+        "Miquel Moretó"
+    ],
+    "doi": "10.1109/TCBB.2023.3264514",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f0206e82d279ad4d9ae4eaf17273b7e20edafd46",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://upcommons.upc.edu/bitstream/2117/386457/1/Langarita%20et%20al.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sequence alignment pipelines for human genomes are an emerging workload that will dominate in the precision medicine field. BWA-MEM2 is a tool widely used in the scientific community to perform read mapping studies. In this paper, we port BWA-MEM2 to the AArch64 architecture using the ARMv8-A specification, and we compare the resulting version against an Intel Skylake system both in performance and in energy-to-solution. The porting effort entails numerous code modifications, since BWA-MEM2 implements certain kernels using x86_64 specific intrinsics, e.g., AVX-512. To adapt this code we use the recently introduced Arm's Scalable Vector Extensions (SVE). More specifically, we use Fujitsu's A64FX processor, the first to implement SVE. The A64FX powers the Fugaku Supercomputer that led the Top500 ranking from June 2020 to November 2021. After porting BWA-MEM2 we define and implement a number of optimizations to improve performance in the A64FX target architecture. We show that while the A64FX performance is lower than that of the Skylake system, A64FX delivers 11.6% better energy-to-solution on average. All the code used for this article is available at https://gitlab.bsc.es/rlangari/bwa-a64fx.",
+    "citationCount": 6,
+    "referenceCount": 52
+}

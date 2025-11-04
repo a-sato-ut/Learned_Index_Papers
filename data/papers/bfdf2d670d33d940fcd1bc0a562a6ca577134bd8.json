@@ -1,0 +1,42 @@
+{
+    "paperId": "bfdf2d670d33d940fcd1bc0a562a6ca577134bd8",
+    "title": "Prioritized experience replay in path planning via multi-dimensional transition priority fusion",
+    "year": 2023,
+    "venue": "Frontiers Neurorobotics",
+    "authors": [
+        "Nuo Cheng",
+        "Peng Wang",
+        "Guangyuan Zhang",
+        "Cui Ni",
+        "Erkin Nematov"
+    ],
+    "doi": "10.3389/fnbot.2023.1281166",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bfdf2d670d33d940fcd1bc0a562a6ca577134bd8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.frontiersin.org/articles/10.3389/fnbot.2023.1281166/pdf?isPublishedV2=False",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Introduction Deep deterministic policy gradient (DDPG)-based path planning algorithms for intelligent robots struggle to discern the value of experience transitions during training due to their reliance on a random experience replay. This can lead to inappropriate sampling of experience transitions and overemphasis on edge experience transitions. As a result, the algorithm's convergence becomes slower, and the success rate of path planning diminishes. Methods We comprehensively examines the impacts of immediate reward, temporal-difference error (TD-error), and Actor network loss function on the training process. It calculates experience transition priorities based on these three factors. Subsequently, using information entropy as a weight, the three calculated priorities are merged to determine the final priority of the experience transition. In addition, we introduce a method for adaptively adjusting the priority of positive experience transitions to focus on positive experience transitions and maintain a balanced distribution. Finally, the sampling probability of each experience transition is derived from its respective priority. Results The experimental results showed that the test time of our method is shorter than that of PER algorithm, and the number of collisions with obstacles is less. It indicated that the determined experience transition priority accurately gauges the significance of distinct experience transitions for path planning algorithm training. Discussion This method enhances the utilization rate of transition conversion and the convergence speed of the algorithm and also improves the success rate of path planning.",
+    "citationCount": 4,
+    "referenceCount": 35
+}

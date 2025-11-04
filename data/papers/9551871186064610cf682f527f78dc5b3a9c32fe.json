@@ -1,0 +1,38 @@
+{
+    "paperId": "9551871186064610cf682f527f78dc5b3a9c32fe",
+    "title": "Fixing Rogue Memorization in Many-to-One Multilingual Translators of Extremely-Low-Resource Languages by Rephrasing Training Samples",
+    "year": 2024,
+    "venue": "North American Chapter of the Association for Computational Linguistics",
+    "authors": [
+        "Paulo Cavalin",
+        "P. Domingues",
+        "Claudio Pinhanez",
+        "J. Nogima"
+    ],
+    "doi": "10.18653/v1/2024.naacl-long.253",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9551871186064610cf682f527f78dc5b3a9c32fe",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper we study the fine-tuning of pre-trained large high-resource language models (LLMs) into many-to-one multilingual machine translators for extremely-low-resource languages such as endangered Indigenous languages. We explore those issues using datasets created from pseudo-parallel translations to English of The Bible written in 39 Brazilian Indigenous languages using mBART50 and WMT19 as pre-trained models and multiple translation metrics. We examine bilingual and multilingual models and show that, according to machine translation metrics, same-linguistic family models tend to perform best. However, we also found that many-to-one multilingual systems have a tendency to learn a “rogue” strategy of storing output strings from the training data in the LLM structure and retrieving them instead of performing actual translations. We show that rephrasing the output of the training samples seems to solve the problem.",
+    "citationCount": 5,
+    "referenceCount": 46
+}

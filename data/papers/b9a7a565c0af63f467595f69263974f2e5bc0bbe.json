@@ -1,0 +1,37 @@
+{
+    "paperId": "b9a7a565c0af63f467595f69263974f2e5bc0bbe",
+    "title": "Exploring Dual Encoder Architectures for Question Answering",
+    "year": 2022,
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+        "Zhe Dong",
+        "Jianmo Ni",
+        "D. Bikel",
+        "Enrique Alfonseca",
+        "Yuanjin Wang",
+        "Chen Qu",
+        "I. Zitouni"
+    ],
+    "doi": "10.48550/arXiv.2204.07120",
+    "arxivId": "2204.07120",
+    "url": "https://www.semanticscholar.org/paper/b9a7a565c0af63f467595f69263974f2e5bc0bbe",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2204.07120",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Dual encoders have been used for question-answering (QA) and information retrieval (IR) tasks with good results. There are two major types of dual encoders, Siamese Dual Encoders (SDE), with parameters shared across two encoders, and Asymmetric Dual Encoder (ADE), with two distinctly parameterized encoders. In this work, we explore the dual encoder architectures for QA retrieval tasks. By evaluating on MS MARCO, open domain NQ, and the MultiReQA benchmarks, we show that SDE performs significantly better than ADE. We further propose three different improved versions of ADEs. Based on the evaluation of QA retrieval tasks and direct analysis of the embeddings, we demonstrate that sharing parameters in projection layers would enable ADEs to perform competitively with SDEs.",
+    "citationCount": 23,
+    "referenceCount": 18
+}

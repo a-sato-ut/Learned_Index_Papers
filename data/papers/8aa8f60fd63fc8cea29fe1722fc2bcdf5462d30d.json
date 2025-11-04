@@ -1,0 +1,41 @@
+{
+    "paperId": "8aa8f60fd63fc8cea29fe1722fc2bcdf5462d30d",
+    "title": "Steering Large Language Models for Cross-lingual Information Retrieval",
+    "year": 2024,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Ping Guo",
+        "Yubing Ren",
+        "Yue Hu",
+        "Yanan Cao",
+        "Yunpeng Li",
+        "Heyan Huang"
+    ],
+    "doi": "10.1145/3626772.3657819",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8aa8f60fd63fc8cea29fe1722fc2bcdf5462d30d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In today's digital age, accessing information across language barriers poses a significant challenge, with conventional search systems often struggling to interpret and retrieve multilingual content accurately. Addressing this issue, our study introduces a novel integration of applying Large Language Models (LLMs) as Cross-lingual Readers in information retrieval systems, specifically targeting the complexities of cross-lingual information retrieval (CLIR). We present an innovative approach: Activation Steered Multilingual Retrieval (ASMR) that employs \"steering activations''-a method to adjust and direct the LLM's focus-enhancing its ability to understand user queries and generate accurate, language-coherent responses. ASMR adeptly combines a Multilingual Dense Passage Retrieval (mDPR) system with an LLM, overcoming the limitations of traditional search engines in handling diverse linguistic inputs. This approach is particularly effective in managing the nuances and intricacies inherent in various languages. Rigorous testing on established benchmarks such as XOR-TyDi QA, and MKQA demonstrates that ASMR not only meets but surpasses existing standards in CLIR, achieving state-of-the-art performance. The results of our research hold significant implications for understanding the inherent features of how LLMs understand and generate natural languages, offering an attempt towards more inclusive, effective, and linguistically diverse information access on a global scale.",
+    "citationCount": 9,
+    "referenceCount": 82
+}

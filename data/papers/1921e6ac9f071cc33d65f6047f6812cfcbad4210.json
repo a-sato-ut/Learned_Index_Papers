@@ -1,0 +1,42 @@
+{
+    "paperId": "1921e6ac9f071cc33d65f6047f6812cfcbad4210",
+    "title": "CART: A Generative Cross-Modal Retrieval Framework With Coarse-To-Fine Semantic Modeling",
+    "year": 2024,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+        "Minghui Fang",
+        "Shengpeng Ji",
+        "Jialong Zuo",
+        "Hai Huang",
+        "Yan Xia",
+        "Jieming Zhu",
+        "Xize Cheng",
+        "Xiaoda Yang",
+        "Wenrui Liu",
+        "Gang Wang",
+        "Zhenhua Dong",
+        "Zhou Zhao"
+    ],
+    "doi": "10.18653/v1/2025.acl-long.735",
+    "arxivId": "2406.17507",
+    "url": "https://www.semanticscholar.org/paper/1921e6ac9f071cc33d65f6047f6812cfcbad4210",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cross-modal retrieval aims to search for instances, which are semantically related to the query through the interaction of different modal data. Traditional solutions utilize a single-tower or dual-tower framework to explicitly compute the score between queries and candidates, which is challenged by training cost and inference latency with large-scale data. Inspired by the remarkable performance and efficiency of generative models, we propose a generative cross-modal retrieval framework (CART) based on coarse-to-fine semantic modeling, which assigns identifiers to each candidate and treats the generating identifier as the retrieval target. Specifically, we explore an effective coarse-to-fine scheme, combining K-Means and RQ-VAE to discretize multimodal data into token sequences that support autoregressive generation. Further, considering the lack of explicit interaction between queries and candidates, we propose a feature fusion strategy to align their semantics. Extensive experiments demonstrate the effectiveness of the strategies in the CART, achieving excellent results in both retrieval performance and efficiency.",
+    "citationCount": 0,
+    "referenceCount": 67
+}

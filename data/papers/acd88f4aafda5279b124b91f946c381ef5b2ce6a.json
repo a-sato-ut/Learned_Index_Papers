@@ -1,0 +1,41 @@
+{
+    "paperId": "acd88f4aafda5279b124b91f946c381ef5b2ce6a",
+    "title": "Explicitly Integrating Judgment Prediction with Legal Document Retrieval: A Law-Guided Generative Approach",
+    "year": 2023,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Weicong Qin",
+        "Zelin Cao",
+        "Weijie Yu",
+        "Zihua Si",
+        "Sirui Chen",
+        "Jun Xu"
+    ],
+    "doi": "10.1145/3626772.3657717",
+    "arxivId": "2312.09591",
+    "url": "https://www.semanticscholar.org/paper/acd88f4aafda5279b124b91f946c381ef5b2ce6a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Law",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Legal document retrieval and judgment prediction are crucial tasks in intelligent legal systems. In practice, determining whether two documents share the same judgments is essential for establishing their relevance in legal retrieval. However, existing legal retrieval studies either ignore the vital role of judgment prediction or rely on implicit training objectives, expecting a proper alignment of legal documents in vector space based on their judgments. Neither approach provides explicit evidence of judgment consistency for relevance modeling, leading to inaccuracies and a lack of transparency in retrieval. To address this issue, we propose a law-guided method, namely GEAR, within the generative retrieval framework. GEAR explicitly integrates judgment prediction with legal document retrieval in a sequence-to-sequence manner. Specifically, given the intricate nature of legal documents, we first extract rationales from documents based on the definition of charges in law. We then employ these rationales as queries, ensuring efficiency and producing a shared, informative document representation for both tasks. Second, in accordance with the inherent hierarchy of law, we construct a law structure constraint tree and represent each candidate document as a hierarchical semantic ID based on this tree. This empowers GEAR to perform dual predictions for judgment and relevant documents in a single inference, i.e., traversing the tree from the root through intermediate judgment nodes, to document-specific leaf nodes. Third, we devise the revision loss that jointly minimizes the discrepancy between the IDs of predicted and labeled judgments, as well as retrieved documents, thus improving accuracy and consistency for both tasks. Extensive experiments on two Chinese legal case retrieval datasets show the superiority of GEAR over state-of-the-art methods while maintaining competitive judgment prediction performance. Moreover, we validate the effectiveness of GEAR on a French statutory article retrieval dataset, reaffirming its robustness across languages and domains.",
+    "citationCount": 23,
+    "referenceCount": 49
+}

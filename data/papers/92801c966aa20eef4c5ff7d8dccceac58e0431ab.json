@@ -1,0 +1,37 @@
+{
+    "paperId": "92801c966aa20eef4c5ff7d8dccceac58e0431ab",
+    "title": "From Spreadsheets and Bespoke Models to Enterprise Data Warehouses: GPT-enabled Clinical Data Ingestion into i2b2",
+    "year": 2025,
+    "venue": "medRxiv",
+    "authors": [
+        "Taowei D. Wang",
+        "Shawn N. Murphy",
+        "Victor M. Castro",
+        "Jeffrey G. Klann"
+    ],
+    "doi": "10.1101/2025.04.17.25325962",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/92801c966aa20eef4c5ff7d8dccceac58e0431ab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Objective Clinical and phenotypic data available to researchers are often found in spreadsheets or bespoke data models. Bridging these to enterprise data warehouses would enable sophisticated analytics and cohort discovery for users of platforms like NHGRI's Genomic Data Science Analysis, Visualization, and Informatics Lab-space (AnVIL). We combine data mapping methodologies, biomedical ontologies, and large language models (LLMs) to load these data into Informatics for Integrating Biology and the Bedside (i2b2), making them available to AnVIL users. Materials and Methods We developed few-shot prompts for ChatGPT-4o to generate Python scripts that facilitate the extract, transform, and load (ETL) process into i2b2. The scripts first convert a designated data dictionary (in various formats) into an intermediate common format, and then into an i2b2 ontology. Finally, the original data file is converted into i2b2 facts, using standard ontologies hosted by the National Center for Biomedical Ontology (NCBO). Results ChatGPT-4o correctly produced Python code to facilitate ETL. We converted phenotype data from three synthetic datasets from three disparate data models available in AnVIL. Our prompts generated scripts which successfully converted data on 3,458 fake patients, making it queryable in i2b2. Discussion For a few datasets, iterative prompt refinement might reduce ETL efficiency gains. However, prompt reuse significantly reduces incremental effort for additional data models. At scale, we anticipate our pipeline offers substantial time savings, which could transform future ETL workflows. Conclusion We developed an LLM-powered ETL pipeline to convert disparate datasets into i2b2 format, enabling advanced analytics and cohort discovery across heterogeneous data models.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "b800367653e9bdc98044ae806116c0f591804c74",
+    "title": "Equip Pre-ranking with Target Attention by Residual Quantization",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yutong Li",
+        "Yu Zhu",
+        "Yichen Qiao",
+        "Ziyu Guan",
+        "Lv Shao",
+        "Tong Liu",
+        "Bo Zheng"
+    ],
+    "doi": "10.48550/arXiv.2509.16931",
+    "arxivId": "2509.16931",
+    "url": "https://www.semanticscholar.org/paper/b800367653e9bdc98044ae806116c0f591804c74",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The pre-ranking stage in industrial recommendation systems faces a fundamental conflict between efficiency and effectiveness. While powerful models like Target Attention (TA) excel at capturing complex feature interactions in the ranking stage, their high computational cost makes them infeasible for pre-ranking, which often relies on simplistic vector-product models. This disparity creates a significant performance bottleneck for the entire system. To bridge this gap, we propose TARQ, a novel pre-ranking framework. Inspired by generative models, TARQ's key innovation is to equip pre-ranking with an architecture approximate to TA by Residual Quantization. This allows us to bring the modeling power of TA into the latency-critical pre-ranking stage for the first time, establishing a new state-of-the-art trade-off between accuracy and efficiency. Extensive offline experiments and large-scale online A/B tests at Taobao demonstrate TARQ's significant improvements in ranking performance. Consequently, our model has been fully deployed in production, serving tens of millions of daily active users and yielding substantial business improvements.",
+    "citationCount": 0,
+    "referenceCount": 18
+}

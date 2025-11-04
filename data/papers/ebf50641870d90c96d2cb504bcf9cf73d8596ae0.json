@@ -1,0 +1,47 @@
+{
+    "paperId": "ebf50641870d90c96d2cb504bcf9cf73d8596ae0",
+    "title": "StreamMLOps: Operationalizing Online Learning for Big Data Streaming & Real-Time Applications",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Mariam Barry",
+        "Jacob Montiel",
+        "A. Bifet",
+        "Sameer Wadkar",
+        "Nikolay Manchev",
+        "Max Halford",
+        "Raja Chiky",
+        "Saad El Jaouhari",
+        "Katherine B Shakman",
+        "Joudi Al Fehaily",
+        "Fabrice Le Deit",
+        "V. Tran",
+        "Eric Guerizec"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00272",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ebf50641870d90c96d2cb504bcf9cf73d8596ae0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Continuously learning and serving from evolving streaming data and serving in real-time is a challenging problem. Traditionally, data is partitioned and processed in batches to train machine learning (ML) models. In industrial applications, static models’ performance drops over time (model degradation, concept drift), requiring new models to be trained with recent data and redeployed in production. The scientific community has been studying online and adaptive methods to address batch-learning limitations and continuously train AI tasks for industrial applications such as cyber-security, AIOps, anomaly scoring, and drift detection in stock markets. This paper deals with the MLOps aspects of deploying such online and dynamic models to address the requirements in the production systems for real-time applications. Our architectures - based on open-source tools such as Kafka and River - demonstrated how online learning methods could be scaled horizontally in production to meet the demands of a high-velocity streaming pipeline. We demonstrate an MLOps strategy to perform incremental learning from streaming data and continuously deploy the online learning model without pausing the inference pipeline. Indeed, the design satisfies requirements such as model versioning, monitoring, audibility and reproducibility of prediction in both a supervised and semi-supervised setting. Our experiments - for malicious URLs detection task - performed on high-dimensional and feature-evolving streaming data (more than 3 million features) establish the effectiveness and efficiency of online learning models compared to batch (static) machine learning regarding both time and space complexity. Finally, we provide some best practices on data engineering for deploying online models to process a real-time feature stream in production environments. Code is publicly available for reproducibility.",
+    "citationCount": 8,
+    "referenceCount": 65
+}

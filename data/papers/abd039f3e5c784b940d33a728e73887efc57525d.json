@@ -1,0 +1,40 @@
+{
+    "paperId": "abd039f3e5c784b940d33a728e73887efc57525d",
+    "title": "Learning Driver Models for Automated Vehicles via Knowledge Sharing and Personalization",
+    "year": 2023,
+    "venue": "Transportation Research Record",
+    "authors": [
+        "Wissam Kontar",
+        "Xinzhi Zhong",
+        "Soyoung Ahn"
+    ],
+    "doi": "10.1177/03611981241298583",
+    "arxivId": "2308.16870",
+    "url": "https://www.semanticscholar.org/paper/abd039f3e5c784b940d33a728e73887efc57525d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2308.16870",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper describes a learning framework for driver models of automated vehicles (AVs) via knowledge sharing and personalization. As a result of the inherent variability in the transportation system, exposing AVs to all potential driving scenarios through empirical testing is challenging. This limitation can render AVs unaware of certain critical situations, affecting their safe and efficient operation. To address this challenge, this paper proposes a collaborative training approach that enables the sharing of knowledge among AVs while maintaining personalized models tailored to each vehicle’s unique conditions. The method adopts a federated learning strategy to facilitate privacy-aware collaboration, sharing only model parameters and never raw data. Through experimental simulations, we demonstrate the framework’s capability to (i) learn unseen driving scenarios and (ii) personalize driver models to different driving styles (aggressive and passive). Codes and data are made available at the project page https://github.com/wissamkontar.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

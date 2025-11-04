@@ -1,0 +1,36 @@
+{
+    "paperId": "4a353d97234317520193b42b4d402637ea32c6b7",
+    "title": "Distillation Enhanced Generative Retrieval",
+    "year": 2024,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+        "Yongqi Li",
+        "Zhen Zhang",
+        "Wenjie Wang",
+        "Liqiang Nie",
+        "Wenjie Li",
+        "Tat-Seng Chua"
+    ],
+    "doi": "10.48550/arXiv.2402.10769",
+    "arxivId": "2402.10769",
+    "url": "https://www.semanticscholar.org/paper/4a353d97234317520193b42b4d402637ea32c6b7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative retrieval is a promising new paradigm in text retrieval that generates identifier strings of relevant passages as the retrieval target. This paradigm leverages powerful generative language models, distinct from traditional sparse or dense retrieval methods. In this work, we identify a viable direction to further enhance generative retrieval via distillation and propose a feasible framework, named DGR. DGR utilizes sophisticated ranking models, such as the cross-encoder, in a teacher role to supply a passage rank list, which captures the varying relevance degrees of passages instead of binary hard labels; subsequently, DGR employs a specially designed distilled RankNet loss to optimize the generative retrieval model, considering the passage rank order provided by the teacher model as labels. This framework only requires an additional distillation step to enhance current generative retrieval systems and does not add any burden to the inference stage. We conduct experiments on four public datasets, and the results indicate that DGR achieves state-of-the-art performance among the generative retrieval methods. Additionally, DGR demonstrates exceptional robustness and generalizability with various teacher models and distillation losses.",
+    "citationCount": 2,
+    "referenceCount": 35
+}

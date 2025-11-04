@@ -1,0 +1,32 @@
+{
+    "paperId": "0bb3e7ac85f752030c83afd2b1067df96953cef6",
+    "title": "Improving Data Science Applications with a Visual Cross-Platform Execution Environment",
+    "year": 2024,
+    "venue": "BigData Congress [Services Society]",
+    "authors": [
+        "Lucas M. Ponce",
+        "D. Guedes"
+    ],
+    "doi": "10.1109/BigData62323.2024.10825063",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0bb3e7ac85f752030c83afd2b1067df96953cef6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Scheduling and processing decisions in multiplatform data systems can lead to efficient execution of workflow tasks across available platforms. In this work, we discuss how to create a cross-platform system for Data Science tasks that leverages modern data abstractions, such as visual programming and DataFrames. Our approach uses an extended graph to represent workflows, capturing various execution aspects, including dataset evolution, execution costs, and data migration costs across different platforms and environments. This graph can be further transformed based on predefined rules, optimization techniques, and the application of machine learning tools to guide decision-making during the scheduling of the blocks that compose the workflows in question. Empirically, we demonstrate that our prototype, which initially supports Spark and Pandas, can identify not only the best platform with 90.8% accuracy, or the best execution environment for an entire workflow (83.8%), but also achieve performance gains of up to 2.5 times by scheduling tasks on the best platform for each activity.",
+    "citationCount": 0,
+    "referenceCount": 38
+}

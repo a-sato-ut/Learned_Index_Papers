@@ -1,0 +1,30 @@
+{
+    "paperId": "4d1e91a7d0afc0a708a1a5eae5a6e6717e70990d",
+    "title": "Integrating External Knowledge with LLMs: A Systematic Review of RAG Approaches",
+    "year": 2025,
+    "venue": "2025 MIPRO 48th ICT and Electronics Convention",
+    "authors": [
+        "Ivan Mikulić",
+        "Marin Vlaić",
+        "Goran Delač",
+        "M. Šilić",
+        "Klemo Vladimir"
+    ],
+    "doi": "10.1109/MIPRO65660.2025.11131735",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4d1e91a7d0afc0a708a1a5eae5a6e6717e70990d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities in natural language understanding and generation, exhibiting exceptional in-context learning abilities without requiring extensive fine-tuning. However, these models often suffer from significant limitations, including hallucinations where fabricated or incorrect information is presented as fact, and the need for constant retraining in order to effectively integrate new knowledge. Retrieval-Augmented Generation (RAG) has emerged as a promising paradigm to address these challenges by combining LLMs with information retrieval (IR) techniques. By leveraging external knowledge bases, RAG pipelines retrieve and incorporate relevant information dynamically, enhancing the factual accuracy and adaptability of LLMs. This paper provides an overview of the state-of-the-art methods for implementing RAG in LLMs, examining key components of the RAG pipeline, including data preparation, retrieval, reranking, and post-retrieval techniques. We aim to highlight how these components collectively enable LLMs to achieve greater reliability and flexibility, paving the way for more robust AI applications.",
+    "citationCount": 0,
+    "referenceCount": 92
+}

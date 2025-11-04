@@ -1,0 +1,31 @@
+{
+    "paperId": "1090c380d271b5355e1321ad64fe7ee940d8ce45",
+    "title": "FedPAR: Federated PARAFAC2 tensor factorization for computational phenotyping",
+    "year": 2024,
+    "venue": "IISE Transactions on Healthcare Systems Engineering",
+    "authors": [
+        "Mengyu Zhao",
+        "Mostafa Reisi Gahrooei"
+    ],
+    "doi": "10.1080/24725579.2024.2333261",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1090c380d271b5355e1321ad64fe7ee940d8ce45",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract Modeling temporally irregular electronic health records (EHRs) through computational phenotyping that transforms massive EHR data into clinically meaningful medical concepts has become critical in the healthcare industry. PARAFAC2 tensor factorization has demonstrated effectiveness in extracting phenotypes from such data but is designed to have access to the dataset in a centralized form. The EHR data are often distributed across multiple entities, requiring the PARAFAC2 factorization to be conducted in a silo (separately at each entity) or by pooling the data into a central server. However, the in-silo modeling of data results in a lack of generalizability, and data pooling creates data privacy concerns. To address these challenges, we propose a federated PARAFAC2 factorization to extract interpretable clinical phenotypes when the data are distributed across multiple entities. In the proposed framework, each entity extracts phenotypes locally based on their available data and transfers the intermediary results to a server, aggregating the information to estimate aggregated phenotypes. The Alternating Direction Method of Multipliers (ADMM) algorithm is designed for problem optimization. Experiments on synthetic and real-world EHR datasets (MIMIC-III) demonstrate that the performance of the proposed approach is comparable to the centralized model that uses pooled data regarding phenotype discovery while avoiding direct data sharing.",
+    "citationCount": 4,
+    "referenceCount": 36
+}

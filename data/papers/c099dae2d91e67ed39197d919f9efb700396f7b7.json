@@ -1,0 +1,37 @@
+{
+    "paperId": "c099dae2d91e67ed39197d919f9efb700396f7b7",
+    "title": "XGBoost-B-GHM: An Ensemble Model with Feature Selection and GHM Loss Function Optimization for Credit Scoring",
+    "year": 2024,
+    "venue": "Syst.",
+    "authors": [
+        "Yuxuan Xia",
+        "Shanshan Jiang",
+        "Lingyi Meng",
+        "Xin Ju"
+    ],
+    "doi": "10.3390/systems12070254",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c099dae2d91e67ed39197d919f9efb700396f7b7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2079-8954/12/7/254/pdf?version=1721290225",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Credit evaluation has always been an important part of the financial field. The existing credit evaluation methods have difficulty in solving the problems of redundant data features and imbalanced samples. In response to the above issues, an ensemble model combining an advanced feature selection algorithm and an optimized loss function is proposed, which can be applied in the field of credit evaluation and improve the risk management ability of financial institutions. Firstly, the Boruta algorithm is embedded for feature selection, which can effectively reduce the data dimension and noise and improve the model’s capacity for generalization by automatically identifying and screening out features that are highly correlated with target variables. Then, the GHM loss function is incorporated into the XGBoost model to tackle the issue of skewed sample distribution, which is common in classification, and further improve the classification and prediction performance of the model. The comparative experiments on four large datasets demonstrate that the proposed method is superior to the existing mainstream methods and can effectively extract features and handle the problem of imbalanced samples.",
+    "citationCount": 11,
+    "referenceCount": 50
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "a5180c8f54d93629037df0afb8d793eaf4ba93ec",
+    "title": "Sample Complexity of Learning Heuristic Functions for Greedy-Best-First and A* Search",
+    "year": 2022,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Shinsaku Sakaue",
+        "Taihei Oki"
+    ],
+    "doi": "10.48550/arXiv.2205.09963",
+    "arxivId": "2205.09963",
+    "url": "https://www.semanticscholar.org/paper/a5180c8f54d93629037df0afb8d793eaf4ba93ec",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2205.09963",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Greedy best-first search (GBFS) and A* search (A*) are popular algorithms for path-finding on large graphs. Both use so-called heuristic functions, which estimate how close a vertex is to the goal. While heuristic functions have been handcrafted using domain knowledge, recent studies demonstrate that learning heuristic functions from data is effective in many applications. Motivated by this emerging approach, we study the sample complexity of learning heuristic functions for GBFS and A*. We build on a recent framework called \\textit{data-driven algorithm design} and evaluate the \\textit{pseudo-dimension} of a class of utility functions that measure the performance of parameterized algorithms. Assuming that a vertex set of size $n$ is fixed, we present $\\mathrm{O}(n\\lg n)$ and $\\mathrm{O}(n^2\\lg n)$ upper bounds on the pseudo-dimensions for GBFS and A*, respectively, parameterized by heuristic function values. The upper bound for A* can be improved to $\\mathrm{O}(n^2\\lg d)$ if every vertex has a degree of at most $d$ and to $\\mathrm{O}(n \\lg n)$ if edge weights are integers bounded by $\\mathrm{poly}(n)$. We also give $\\Omega(n)$ lower bounds for GBFS and A*, which imply that our bounds for GBFS and A* under the integer-weight condition are tight up to a $\\lg n$ factor. Finally, we discuss a case where the performance of A* is measured by the suboptimality and show that we can sometimes obtain a better guarantee by combining a parameter-dependent worst-case bound with a sample complexity bound.",
+    "citationCount": 4,
+    "referenceCount": 48
+}

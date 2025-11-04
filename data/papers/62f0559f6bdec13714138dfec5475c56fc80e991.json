@@ -1,0 +1,42 @@
+{
+    "paperId": "62f0559f6bdec13714138dfec5475c56fc80e991",
+    "title": "Hierarchical Index Retrieval-Driven Wireless Network Intent Translation With LLM",
+    "year": 2025,
+    "venue": "IEEE Transactions on Mobile Computing",
+    "authors": [
+        "Jingyu Wang",
+        "Lingqi Guo",
+        "Jianyu Wu",
+        "Caijun Yan",
+        "Haifeng Sun",
+        "Lei Zhang",
+        "Zirui Zhuang",
+        "Qi Qi",
+        "Jianxin Liao"
+    ],
+    "doi": "10.1109/TMC.2025.3564937",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/62f0559f6bdec13714138dfec5475c56fc80e991",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Intent-Based Networking (IBN) represents an emerging network management concept that is designed to fulfill user service requirements through automation. At its core, IBN is capable of translating user intent into network policies, thereby enabling automated configuration and management. However, the application of IBN has been limited by challenges associated with automation and intelligence. The recent widespread adoption of Large Language Model (LLM) has partially mitigated these issues. Nonetheless, hardware heterogeneity and high dynamic networks remain significant challenges for IBN: (i) Devices from different vendors are challenging to manage uniformly; (ii) Aligning service demands with rapidly changing network status is difficult. To address these challenges, we propose LIT, a framework of LLM-empowered Intent Translation with manual guidance. LIT incorporates Retrieval-Augmented Generation (RAG) to reference hardware manuals and enhance the generation results of LLMs. To reduce noise from retrieval results, we optimized the general RAG process. Additionally, LIT introduces MoE (Mixture of Experts) to adjust parameter values according to network status by synthesizing results from multiple expert models. Experiments demonstrate that LIT alleviates the challenges faced by IBN, achieving a 57.5% improvement in F1 score compared to the baseline.",
+    "citationCount": 1,
+    "referenceCount": 60
+}

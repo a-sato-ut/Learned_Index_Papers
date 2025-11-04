@@ -1,0 +1,58 @@
+{
+    "paperId": "80994d0ee83a267193164a7c1bdbe1c027f57784",
+    "title": "Celeste: A cloud-based genomics infrastructure with variant-calling pipeline suited for population-scale sequencing projects",
+    "year": 2025,
+    "venue": "medRxiv",
+    "authors": [
+        "Noora Siddiqui",
+        "Breanna Lee",
+        "Victoria Yi",
+        "J. Farek",
+        "Ziad M. Khan",
+        "Sara E Kalla",
+        "Qiaoyan Wang",
+        "K. Walker",
+        "James Meldrim",
+        "C. Kachulis",
+        "Michael Gatzen",
+        "N. Lennon",
+        "Shyamal Mehtalia",
+        "Severine Catreux",
+        "R. Mehio",
+        "R. A. Gibbs",
+        "E. Venner"
+    ],
+    "doi": "10.1101/2025.04.29.25326690",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/80994d0ee83a267193164a7c1bdbe1c027f57784",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Background. The All of Us Research Program (All of Us) is one of the world's largest sequencing efforts that will generate genetic data for over one million individuals from diverse backgrounds. This historic megaproject will create novel research platforms that integrate an unprecedented amount of genetic data with longitudinal health information. Here, we describe the design of Celeste, a resilient, open-source cloud architecture for implementing genomics workflows that has successfully analyzed petabytes of participant genomic information for All of Us - thereby enabling other large-scale sequencing efforts with a comprehensive set of tools to power analysis. The Celeste infrastructure is tremendously scalable and has routinely processed fluctuating workloads of up to 9,000 whole-genome sequencing (WGS) samples for All of Us, monthly. It also lends itself to multiple projects. Serverless technology and container orchestration form the basis of Celeste's system for managing this volume of data. Results. In 12 months of production (within a single Amazon Web Services (AWS) Region), around 200 million serverless functions and over 20 million messages coordinated the analysis of 1.8 million bioinformatics, quality control, and clinical reporting jobs. Adapting WGS analysis to clinical projects requires adaptation of variant-calling methods to enrich the reliable detection of variants with known clinical importance. Thus, we also share the process by which we tuned the variant-calling pipeline in use by the multiple genome centers supporting All of Us to maximize precision and accuracy for low fraction variant calls with clinical significance. Conclusions. When combined with hardware-accelerated implementations for genomic analysis, Celeste had far-reaching, positive implications for turn-around time, dynamic scalability, security, and storage of analysis for one hundred-thousand whole-genome samples and counting. Other groups may align their sequencing workflows to this harmonized pipeline standard, included within the Celeste framework, to meet clinical requisites for population-scale sequencing efforts. Celeste is available as an Amazon Web Services (AWS) deployment in GitHub, and includes command-line parameters and software containers.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

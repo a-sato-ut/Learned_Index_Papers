@@ -1,0 +1,30 @@
+{
+    "paperId": "3f5dee9c866d3fce4b0801a700d93f76be07bb24",
+    "title": "Space Layout Simulation of Assembled Nanoarchitecture Based on Improved Particle Swarm Optimization",
+    "year": 2024,
+    "venue": "Scalable Computing : Practice and Experience",
+    "authors": [
+        "Huan Huang"
+    ],
+    "doi": "10.12694/scpe.v25i2.2484",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3f5dee9c866d3fce4b0801a700d93f76be07bb24",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.scpe.org/index.php/scpe/article/download/2484/932",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In order to solve the problem that the traditional building space configuration model cannot meet the optimization of building space characteristics, the author proposes the optimization of building space utilization based on spatialized particle swarm optimization. First, to solve the problem of optimal allocation of space units, the PSO algorithm is modified to encode the space units by means of character coding.Secondly, the maximum standardization method is used for data processing, and the factors affecting space utilization are summarized, the objective function of optimal allocation of architectural space is given from three aspects: economic benefits, social benefits and ecological benefits; Finally, by analyzing the advantages and disadvantages of master-slave parallel model and point-to-point parallel model, a chained parallel structure is proposed. The experimental results show that: The experimental data is based on the utilization of building space in these three regions in 2015, and the vector map is divided into 30 m × A grid of 30 m in size, and all statistical data and spatial data are projected on each grid cell. The difference between the fitness values of the final convergence of the three parallel models is small, and the main difference is the convergence speed. During the run time test, set the three parallel models to run under the conditions of 8, 16, 32 and 64 nodes respectively. Because of the combination of the advantages of master-slave model and point-to-point model, the running time of chained parallel model is significantly lower than that of the other two parallel models. Conclusion: Through data simulation test, it is verified that the chained parallel model has higher fitness, convergence speed and shorter running time, and its performance is better than the other two, indicating that the optimization algorithm proposed by the author has good performance.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "555e2f82956f08691f664d013e6c6192dff19870",
+    "title": "MLLM-Driven Semantic Identifier Generation for Generative Cross-Modal Retrieval",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Tianyuan Li",
+        "Lei Wang",
+        "Ahtamjan Ahmat",
+        "Yating Yang",
+        "Bo Ma",
+        "Rui Dong",
+        "Bangju Han"
+    ],
+    "doi": "10.48550/arXiv.2509.17359",
+    "arxivId": "2509.17359",
+    "url": "https://www.semanticscholar.org/paper/555e2f82956f08691f664d013e6c6192dff19870",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative cross-modal retrieval, which treats retrieval as a generation task, has emerged as a promising direction with the rise of Multimodal Large Language Models (MLLMs). In this setting, the model responds to a text query by generating an identifier corresponding to the target image. However, existing methods typically rely on manually crafted string IDs, clustering-based labels, or atomic identifiers requiring vocabulary expansion, all of which face challenges in semantic alignment or scalability.To address these limitations, we propose a vocabulary-efficient identifier generation framework that prompts MLLMs to generate Structured Semantic Identifiers from image-caption pairs. These identifiers are composed of concept-level tokens such as objects and actions, naturally aligning with the model's generation space without modifying the tokenizer. Additionally, we introduce a Rationale-Guided Supervision Strategy, prompting the model to produce a one-sentence explanation alongside each identifier serves as an auxiliary supervision signal that improves semantic grounding and reduces hallucinations during training.",
+    "citationCount": 0,
+    "referenceCount": 41
+}

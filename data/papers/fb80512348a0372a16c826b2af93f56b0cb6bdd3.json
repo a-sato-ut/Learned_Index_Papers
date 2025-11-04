@@ -1,0 +1,35 @@
+{
+    "paperId": "fb80512348a0372a16c826b2af93f56b0cb6bdd3",
+    "title": "Bridge the Query and Document: Contrastive Learning for Generative Document Retrieval",
+    "year": 2024,
+    "venue": "IEEE International Joint Conference on Neural Network",
+    "authors": [
+        "Yunlong Zhao",
+        "Ziyi Ni",
+        "Zefa Hu",
+        "Shuang Xu",
+        "Bo Xu"
+    ],
+    "doi": "10.1109/IJCNN60899.2024.10650777",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fb80512348a0372a16c826b2af93f56b0cb6bdd3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative retrieval has garnered significant attention for its end-to-end optimization and exceptional performance. Compared with the dense retrieval paradigm, the generative retrieval paradigm maps a query to a relevant document ID only relying on its model parameters, greatly simplifying the retrieval process. However, generative retrieval faces two challenges: it does not explicitly model the semantic relevance between query and document, and there exists a gap between the representation of query and document. To this end, we propose the Contrastive Search Index (ConSI), a simple but effective contrastive learning framework for generative document retrieval, to address the above challenges. Experiments show that the proposed ConSI consistently surpasses the previous generative retrieval baselines, NCI. Further analysis of different factors and indicators verifies the performance enhancement brought by our method. Besides, our ConSI also achieves excellent performance in the dense retrieval paradigm, demonstrating that the designed framework boosts representation learning ability and can be directly used as a dense retriever.",
+    "citationCount": 0,
+    "referenceCount": 44
+}

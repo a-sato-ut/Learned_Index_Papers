@@ -1,0 +1,42 @@
+{
+    "paperId": "aaa5d85787ce317c83d194f1b4d2ac66fda97b65",
+    "title": "EAGER: Two-Stream Generative Recommender with Behavior-Semantic Collaboration",
+    "year": 2024,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Yejin Wang",
+        "Jiahao Xun",
+        "Mingjie Hong",
+        "Jieming Zhu",
+        "Tao Jin",
+        "Wang Lin",
+        "Haoyuan Li",
+        "Linjun Li",
+        "Yan Xia",
+        "Zhou Zhao",
+        "Zhenhua Dong"
+    ],
+    "doi": "10.1145/3637528.3671775",
+    "arxivId": "2406.14017",
+    "url": "https://www.semanticscholar.org/paper/aaa5d85787ce317c83d194f1b4d2ac66fda97b65",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2406.14017",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative retrieval has recently emerged as a promising approach to sequential recommendation, framing candidate item retrieval as an autoregressive sequence generation problem. However, existing generative methods typically focus solely on either behavioral or semantic aspects of item information, neglecting their complementary nature and thus resulting in limited effectiveness. To address this limitation, we introduce EAGER, a novel generative recommendation framework that seamlessly integrates both behavioral and semantic information. Specifically, we identify three key challenges in combining these two types of information: a unified generative architecture capable of handling two feature types, ensuring sufficient and independent learning for each type, and fostering subtle interactions that enhance collaborative information utilization. To achieve these goals, we propose (1) a two-stream generation architecture leveraging a shared encoder and two separate decoders to decode behavior tokens and semantic tokens with a confidence-based ranking strategy; (2) a global contrastive task with summary tokens to achieve discriminative decoding for each type of information; and (3) a semantic-guided transfer task designed to implicitly promote cross-interactions through reconstruction and estimation objectives. We validate the effectiveness of EAGER on four public benchmarks, demonstrating its superior performance compared to existing methods. Our source code will be publicly available on PapersWithCode.com.",
+    "citationCount": 45,
+    "referenceCount": 42
+}

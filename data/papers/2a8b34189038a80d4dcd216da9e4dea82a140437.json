@@ -1,0 +1,36 @@
+{
+    "paperId": "2a8b34189038a80d4dcd216da9e4dea82a140437",
+    "title": "AnVILMEDFORD: Documenting Cloud-Based Analysis Projects Using the MEDFORD Metadata Language",
+    "year": 2024,
+    "venue": "BigData Congress [Services Society]",
+    "authors": [
+        "Benjamin Stubbs",
+        "Polina Shpilker",
+        "Michael Sayers",
+        "Shaun Wallace",
+        "Noah M. Daniels",
+        "A. Couch"
+    ],
+    "doi": "10.1109/BigData62323.2024.10825145",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2a8b34189038a80d4dcd216da9e4dea82a140437",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper introduces AnVILMEDFORD, an R package that aims to enable MEDFORD metadata annotation from within the cloud based AnVIL platform for computational analysis. AnVILMEDFORD helps solve the problem of documentation within the AnVIL environment by providing bidirectional tools that both allow a user to generate MEDFORD documentation from a workspace, and also allow a user to update an AnVIL workspace starting with a MEDFORD meta-data file. AnVILMEDFORD accomplishes this by leveraging the Bioconductor AnVIL package and the AnVIL API to download and process AnVIL metadata, Tree-sitter-medford module along with the AnVIL API to update the workspace in the cloud. An implementation is available at https://github.com/bjstubbs/AnVILMEDFORD",
+    "citationCount": 0,
+    "referenceCount": 12
+}

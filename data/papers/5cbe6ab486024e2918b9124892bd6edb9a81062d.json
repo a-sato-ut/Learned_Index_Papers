@@ -1,0 +1,35 @@
+{
+    "paperId": "5cbe6ab486024e2918b9124892bd6edb9a81062d",
+    "title": "PMEH: A Parallel and Write-Optimized Extendible Hashing for Persistent Memory",
+    "year": 2023,
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "authors": [
+        "Jing Hu",
+        "Jianxi Chen",
+        "Yifeng Zhu",
+        "Qing Yang",
+        "Zhouxuan Peng",
+        "Ya Yu"
+    ],
+    "doi": "10.1109/TCAD.2023.3271579",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5cbe6ab486024e2918b9124892bd6edb9a81062d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Emerging persistent memory (PM) has the potential to substitute DRAM due to its near-DRAM performance and durability similar to disks. However, hash tables designed for DRAM cannot be directly adopted for PM. Moreover, prior studies on hash tables using Optane DC PM modules (DCPMMs) have shown suboptimal scalability and write performance due to expensive lock-based concurrent control and massive data movement caused by expansion. In this article, we propose an opportunistic lock-free parallel multisplit extendible hashing scheme (PMEH). First, PMEH achieves lock-free operations for evenly distributed data by partitioning the hash table into multiple zones and assigning each zone to one thread. Second, PMEH employs an opportunistic lock-free parallel scheme to effectively handle skewed data distribution, which maximizes the utilization of lock-free operations by enabling dynamic switching between lock-free and locking operations. Finally, PMEH uses multisplit with gradual splitting, instead of 2-split, to reduce the frequency of hash table expansion and, hence, reduce the data movement during expansion. The experimental results under the widely used YCSB workloads demonstrate that PMEH achieves excellent scalability regardless of data distribution. Moreover, PMEH significantly speeds up insertions by <inline-formula> <tex-math notation=\"LaTeX\">$1.44\\times $ </tex-math></inline-formula>–<inline-formula> <tex-math notation=\"LaTeX\">$15.4\\times $ </tex-math></inline-formula>, and deletion by <inline-formula> <tex-math notation=\"LaTeX\">$2.04\\times $ </tex-math></inline-formula>–<inline-formula> <tex-math notation=\"LaTeX\">$18.07\\times $ </tex-math></inline-formula> compared to other state-of-the-art hashing schemes. In addition, PMEH reduces at least 52% of extra writes while providing instant recovery.",
+    "citationCount": 0,
+    "referenceCount": 55
+}

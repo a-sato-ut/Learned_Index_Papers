@@ -1,0 +1,36 @@
+{
+    "paperId": "f2acdd2dc2cd76a186a879f4d4b16c8a672f2a1c",
+    "title": "Radar Pulse Stream Clustering Based on MaskRCNN Instance Segmentation Network",
+    "year": 2023,
+    "venue": "IEEE Signal Processing Letters",
+    "authors": [
+        "Tao Chen",
+        "Boyi Yang",
+        "Limin Guo"
+    ],
+    "doi": "10.1109/LSP.2023.3284893",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f2acdd2dc2cd76a186a879f4d4b16c8a672f2a1c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this letter, a clustering algorithm based on the MaskRCNN instance segmentation network is proposed to address the radar pulse stream clustering problem. Compared with traditional algorithms, the suggested algorithm successfully avoids the problem of preset parameters and algorithm structure constraints by using instance segmentation networks as clustering algorithms, and provides an end-to-end solution for the radar signal sorting issue. A PDW lattice mapping method is proposed to adapt to the input form of the instance segmentation network. The instance segmentation network based on ResNet, FPN, RPN, and RolAlign structure detects and masks the individual from the same or different radar signals. The simulation results show that the suggested algorithm performs the sorting of radar pulse stream under the condition of serious overlapping of radar parameters.",
+    "citationCount": 17,
+    "referenceCount": 29
+}

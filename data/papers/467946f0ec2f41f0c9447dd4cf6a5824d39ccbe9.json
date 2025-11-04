@@ -1,0 +1,37 @@
+{
+    "paperId": "467946f0ec2f41f0c9447dd4cf6a5824d39ccbe9",
+    "title": "Reindex-Then-Adapt: Improving Large Language Models for Conversational Recommendation",
+    "year": 2024,
+    "venue": "Web Search and Data Mining",
+    "authors": [
+        "Zhankui He",
+        "Zhouhang Xie",
+        "Harald Steck",
+        "Dawen Liang",
+        "Rahul Jha",
+        "Nathan Kallus",
+        "Julian McAuley"
+    ],
+    "doi": "10.1145/3701551.3703573",
+    "arxivId": "2405.12119",
+    "url": "https://www.semanticscholar.org/paper/467946f0ec2f41f0c9447dd4cf6a5824d39ccbe9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2405.12119",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large Language Models (LLMs) are revolutionizing conversational recommender systems (CRS) by effectively indexing item content, understanding complex conversational contexts, and generating relevant item titles. However, the autoregressive nature of LLMs, which outputs item titles as a long sequence of subtokens, hinders the ability to efficiently obtain and control recommendations across the entire item set. This challenge in calculating probabilities over all items limits LLMs' potential, such as (1) limiting control over recommendation popularities and (2) preventing the synergy of marrying LLMs and traditional recommender systems (RecSys). To address this challenge, we propose the Reindex-Then-Adapt (RTA) framework. It consists of two steps: (1) Reindex: a lightweight network learns to condense multi-token item titles into single tokens within the LLM and distills LLM-generated recommendations as ranked lists. This bypasses the autoregressive nature of LLMs while trying to preserve their CRS abilities; (2) Adapt: LLMs after reindexing enable efficient adjustment of probability distributions over single-token titles, further enhanced through RecSys integration. RTA bridges the strengths of LLMs and RecSys, enabling understanding of complex queries as LLMs do, while efficiently controlling recommended item distributions as in traditional RecSys. We show the effectiveness of our RTA over base LLMs across three CRS datasets with negligible additional parameters.",
+    "citationCount": 11,
+    "referenceCount": 69
+}

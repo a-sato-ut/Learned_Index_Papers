@@ -1,0 +1,39 @@
+{
+    "paperId": "2117e2cacc5da725fd8b364b0e7b32c0c8491891",
+    "title": "Differentially private distributed estimation and learning",
+    "year": 2023,
+    "venue": "IISE Transactions",
+    "authors": [
+        "Marios Papachristou",
+        "M. Amin Rahimian"
+    ],
+    "doi": "10.1080/24725854.2024.2337068",
+    "arxivId": "2306.15865",
+    "url": "https://www.semanticscholar.org/paper/2117e2cacc5da725fd8b364b0e7b32c0c8491891",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2306.15865",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract We study distributed estimation and learning problems in a networked environment where agents exchange information to estimate unknown statistical properties of random variables from their privately observed samples. The agents can collectively estimate the unknown quantities by exchanging information about their private observations, but they also face privacy risks. Our novel algorithms extend the existing distributed estimation literature and enable the participating agents to estimate the expected value of a complete sufficient statistic from private signals acquired offline or online over time and to preserve the privacy of their signals and network neighborhoods. This is achieved through linear aggregation schemes with adjusted randomization schemes that add noise to the exchanged estimates subject to differential privacy constraints, both in an offline and online manner. We provide convergence rate analysis and tight finite-time convergence bounds. We show that the noise that minimizes the convergence time to the best estimates is the Laplace noise, with parameters corresponding to each agent’s sensitivity to their signal and network characteristics. Our algorithms are amenable to dynamic topologies and balancing privacy and accuracy trade-offs. Finally, to supplement and validate our theoretical results, we run experiments on real-world data from the US Power Grid Network and electric consumption data from German Households to estimate the average power consumption of power stations and households under all privacy regimes and show that our method outperforms existing first-order, privacy-aware, distributed optimization methods.",
+    "citationCount": 1,
+    "referenceCount": 91
+}

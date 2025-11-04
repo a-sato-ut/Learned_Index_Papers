@@ -1,0 +1,36 @@
+{
+    "paperId": "bd1b5f5a1a69ff655791abf8f2242863d66b9a5f",
+    "title": "Intelligent fault diagnosis of rotating machinery under variable working conditions based on deep transfer learning with fusion of local and global time–frequency features",
+    "year": 2023,
+    "venue": "Structural Health Monitoring",
+    "authors": [
+        "Xiao Yu",
+        "Songcheng Wang",
+        "Hongyang Xu",
+        "Kun Yu",
+        "Ke Feng",
+        "Yongchao Zhang",
+        "Xiaowen Liu"
+    ],
+    "doi": "10.1177/14759217231199427",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bd1b5f5a1a69ff655791abf8f2242863d66b9a5f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the development of deep learning methods, the data-driven fault diagnosis methods have attracted a great deal of interest. However, as for the data-driven fault diagnosis methods, technology has to overcome various difficulties in the practical industrial scenarios, such as variable working conditions, insufficient effective samples, and environmental noise interference. Combining with the time–frequency analysis of vibration signals, a domain adaptation fault diagnosis model based on ResNet and Transformer (DAFDMRT) is proposed in this work, aiming to solve the problems encountered by current rotating machinery fault diagnosis methods in the field of application. Firstly, the vibration signal is processed by wavelet packet transform and the time–frequency information grayscale maps is constructed. Next, a deep fusion feature extraction network combining ResNet and Transformer encoder, is designed for the extraction and fusion of the local and global features of multi-scale time–frequency information. Finally, the multi-kernel maximum mean discrepancy is applied to measure and minimize the distribution difference between the deep features of source and target domain, thereby improving the diagnostic performance of the diagnosis model in variable working conditions. In this work, comparative experiments are conducted as for bearing and gearbox datasets under variable working conditions. The results indicate that DAFDMRT can show excellent performances in terms of fault diagnosis and generalization ability.",
+    "citationCount": 6,
+    "referenceCount": 60
+}

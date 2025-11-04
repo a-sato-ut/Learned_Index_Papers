@@ -1,0 +1,33 @@
+{
+    "paperId": "1919f2f93475a42cb8fca50ca945c4ba3b0f917d",
+    "title": "PLORC: A Pipelined Lossless Reference-Free Compression Architecture for FASTQ Files",
+    "year": 2025,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Haori Zheng",
+        "Jietao Chen",
+        "Feng Yu",
+        "Weijie Chen"
+    ],
+    "doi": "10.3390/app15105582",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1919f2f93475a42cb8fca50ca945c4ba3b0f917d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid growth of genomic sequence datasets in a FASTQ format calls for efficient storage and transmission solutions. Compression–decompression algorithms for streaming applications offer a promising potential to address these challenges. In this paper, we present a novel Pipelined Lossless Reference-free Compression (PLORC) architecture designed specifically for streaming genomic data in a FASTQ format. The proposed PLORC architecture consists of several submodules optimized for the structure of FASTQ files, maintaining the balance between the compression ratio (CR) and throughput rate (TPR). To verify the PLORC architecture in hardware, we implemented the PLORC compressor and decompressor in FPGA (field-programmable gate array). The experimental results across various open-source genomic datasets reveal that our PLORC compressor achieved about a 440 MB/s throughput rate, which was higher than the tested Gzip, LZ4, and Zstd compressors. In addition, the PLORC decompressor achieved a throughput rate matching that of the compressor. Additionally, the PLORC achieved competitive compression ratios with some well-known non-streaming compression algorithms.",
+    "citationCount": 0,
+    "referenceCount": 21
+}

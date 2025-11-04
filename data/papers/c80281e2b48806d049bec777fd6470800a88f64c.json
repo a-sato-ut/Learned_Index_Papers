@@ -1,0 +1,37 @@
+{
+    "paperId": "c80281e2b48806d049bec777fd6470800a88f64c",
+    "title": "HyperMB+tree: A High-Performance Blockchain Data Index for Efficient Search in Food Supply Chains",
+    "year": 2025,
+    "venue": "International Conference on Pattern Analysis and Intelligent Systems",
+    "authors": [
+        "Ilyas Ziaya",
+        "Brahim Farou",
+        "Zineddine Kouahla",
+        "Hamid Seridi"
+    ],
+    "doi": "10.1109/PAIS66004.2025.11126487",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c80281e2b48806d049bec777fd6470800a88f64c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Agricultural and Food Sciences",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Blockchain technology has revolutionized data management in food supply chains by offering innovative solutions for data traceability and integrity across distributed actors and stages. However, the sequential nature of blockchain, which stores data in an incremental block-based manner, introduces a temporal constraint, resulting in linear time complexity for retrieving traceability data. To address this limitation, we propose a novel approach in the Hyperledger Fabric blockchain named the HyperMB+ tree. This approach integrates a B+ tree index within each block, combined with a Merkle tree structure, to enhance search capabilities in the blockchain ledger. By modifying the transaction structure and smart contract functions to suit food supply chain design, we create a robust test network to simulate the performance of traceability queries with our method. The proposed solution is evaluated based on query time, which shows significant improvements across various data and block sizes, with reduced time complexity compared to the native blockchain structure.",
+    "citationCount": 0,
+    "referenceCount": 22
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "c1fb9252a68b857370d159fbea851afa7fcffd6e",
+    "title": "QPOPSS: Query and Parallelism Optimized Space-Saving for Finding Frequent Stream Elements",
+    "year": 2024,
+    "venue": "J. Parallel Distributed Comput.",
+    "authors": [
+        "Victor Jarlow",
+        "Charalampos Stylianopoulos",
+        "M. Papatriantafilou"
+    ],
+    "doi": "10.48550/arXiv.2409.01749",
+    "arxivId": "2409.01749",
+    "url": "https://www.semanticscholar.org/paper/c1fb9252a68b857370d159fbea851afa7fcffd6e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The frequent elements problem, a key component in demanding stream-data analytics, involves selecting elements whose occurrence exceeds a user-specified threshold. Fast, memory-efficient $\\epsilon$-approximate synopsis algorithms select all frequent elements but may overestimate them depending on $\\epsilon$ (user-defined parameter). Evolving applications demand performance only achievable by parallelization. However, algorithmic guarantees concerning concurrent updates and queries have been overlooked. We propose Query and Parallelism Optimized Space-Saving (QPOPSS), providing concurrency guarantees. The design includes an implementation of the \\emph{Space-Saving} algorithm supporting fast queries, implying minimal overlap with concurrent updates. QPOPSS integrates this with the distribution of work and fine-grained synchronization among threads, swiftly balancing high throughput, high accuracy, and low memory consumption. Our analysis, under various concurrency and data distribution conditions, shows space and approximation bounds. Our empirical evaluation relative to representative state-of-the-art methods reveals that QPOPSS's multi-threaded throughput scales linearly while maintaining the highest accuracy, with orders of magnitude smaller memory footprint.",
+    "citationCount": 2,
+    "referenceCount": 43
+}

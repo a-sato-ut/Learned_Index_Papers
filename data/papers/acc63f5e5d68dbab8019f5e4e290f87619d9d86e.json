@@ -1,0 +1,36 @@
+{
+    "paperId": "acc63f5e5d68dbab8019f5e4e290f87619d9d86e",
+    "title": "Federated Learning: Centralized and P2P for a Siamese Deep Learning Model for Diabetes Foot Ulcer Classification",
+    "year": 2023,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Mohammud Shaad Ally Toofanee",
+        "Mohamed Hamroun",
+        "Sabeena Dowlut",
+        "Karim Tamine",
+        "Vincent Petit",
+        "Anh Kiet Duong",
+        "Damien Sauveron"
+    ],
+    "doi": "10.3390/app132312776",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/acc63f5e5d68dbab8019f5e4e290f87619d9d86e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2076-3417/13/23/12776/pdf?version=1701250120",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "It is a known fact that AI models need massive amounts of data for training. In the medical field, the data are not necessarily available at a single site but are distributed over several sites. In the field of medical data sharing, particularly among healthcare institutions, the need to maintain the confidentiality of sensitive information often restricts the comprehensive utilization of real-world data in machine learning. To address this challenge, our study experiments with an innovative approach using federated learning to enable collaborative model training without compromising data confidentiality and privacy. We present an adaptation of the federated averaging algorithm, a predominant centralized learning algorithm, to a peer-to-peer federated learning environment. This adaptation led to the development of two extended algorithms: Federated Averaging Peer-to-Peer and Federated Stochastic Gradient Descent Peer-to-Peer. These algorithms were applied to train deep neural network models for the detection and monitoring of diabetic foot ulcers, a critical health condition among diabetic patients. This study compares the performance of Federated Averaging Peer-to-Peer and Federated Stochastic Gradient Descent Peer-to-Peer with their centralized counterparts in terms of model convergence and communication costs. Additionally, we explore enhancements to these algorithms using targeted heuristics based on client identities and f1-scores for each class. The results indicate that models utilizing peer-to-peer federated averaging achieve a level of convergence that is comparable to that of models trained via conventional centralized federated learning approaches. This represents a notable progression in the field of ensuring the confidentiality and privacy of medical data for training machine learning models.",
+    "citationCount": 5,
+    "referenceCount": 37
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "33478976160dd0c5477bc456188dfe600030a7b6",
+    "title": "AVATAR: Robust Voice Search Engine Leveraging Autoregressive Document Retrieval and Contrastive Learning",
+    "year": 2023,
+    "venue": "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference",
+    "authors": [
+        "Yi-Cheng Wang",
+        "Tzu-Ting Yang",
+        "Hsin-Wei Wang",
+        "Bi-Cheng Yan",
+        "Berlin Chen"
+    ],
+    "doi": "10.1109/APSIPAASC58517.2023.10317360",
+    "arxivId": "2309.01395",
+    "url": "https://www.semanticscholar.org/paper/33478976160dd0c5477bc456188dfe600030a7b6",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2309.01395",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Voice, as input, has progressively become popular on mobiles and seems to transcend almost entirely text input. Through voice, the voice search (VS) system can provide a more natural way to meet user’s information needs. However, errors from the automatic speech recognition (ASR) system can be catastrophic to the VS system. Building on the recent advanced lightweight autoregressive retrieval model, which has the potential to be deployed on mobiles, leading to a more secure and personal VS assistant. This paper presents a novel study of VS leveraging autoregressive retrieval and tackles the crucial problems facing VS, viz. the performance drop caused by ASR noise, via data augmentations and contrastive learning, showing how explicit and implicit modeling the noise patterns can alleviate the problems. A series of experiments conducted on the Open-Domain Question Answering (ODSQA) confirm our approach’s effectiveness and robustness in relation to some strong baseline systems.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

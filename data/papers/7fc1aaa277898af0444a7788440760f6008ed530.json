@@ -1,0 +1,33 @@
+{
+    "paperId": "7fc1aaa277898af0444a7788440760f6008ed530",
+    "title": "From RAG to Riches: Retrieval Interlaced with Sequence Generation",
+    "year": 2024,
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+        "Palak Jain",
+        "Livio Baldini Soares",
+        "Tom Kwiatkowski"
+    ],
+    "doi": "10.48550/arXiv.2407.00361",
+    "arxivId": "2407.00361",
+    "url": "https://www.semanticscholar.org/paper/7fc1aaa277898af0444a7788440760f6008ed530",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present RICHES, a novel approach that interleaves retrieval with sequence generation tasks. RICHES offers an alternative to conventional RAG systems by eliminating the need for separate retriever and generator. It retrieves documents by directly decoding their contents, constrained on the corpus. Unifying retrieval with generation allows us to adapt to diverse new tasks via prompting alone. RICHES can work with any Instruction-tuned model, without additional training. It provides attributed evidence, supports multi-hop retrievals and interleaves thoughts to plan on what to retrieve next, all within a single decoding pass of the LLM. We demonstrate the strong performance of RICHES across ODQA tasks including attributed and multi-hop QA.",
+    "citationCount": 7,
+    "referenceCount": 43
+}

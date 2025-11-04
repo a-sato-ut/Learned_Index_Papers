@@ -1,0 +1,39 @@
+{
+    "paperId": "da89988ea7e2fc3100bb0a942288b92765cc0e51",
+    "title": "Collaborative and Federated Black-box Optimization: A Bayesian Optimization Perspective",
+    "year": 2024,
+    "venue": "BigData Congress [Services Society]",
+    "authors": [
+        "R. Kontar"
+    ],
+    "doi": "10.1109/BigData62323.2024.10825753",
+    "arxivId": "2411.07523",
+    "url": "https://www.semanticscholar.org/paper/da89988ea7e2fc3100bb0a942288b92765cc0e51",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We focus on collaborative and federated black-box optimization (BBOpt), where agents optimize their heterogeneous black-box functions through collaborative sequential experimentation. From a Bayesian optimization perspective, we address the fundamental challenges of distributed experimentation, heterogeneity, and privacy within BBOpt, and propose three unifying frameworks to tackle these issues: (i) a global framework where experiments are centrally coordinated, (ii) a local framework that allows agents to make decisions conditioned on shared information, and (iii) a predictive framework that enhances local surrogates through collaboration to improve decision-making. We categorize existing methods within these frameworks and highlight key open questions to unlock the full potential of federated BBOpt. Our overarching goal is to shift federated learning from its predominantly descriptive/predictive paradigm to a prescriptive one, particularly in the context of BBOpt —an inherently sequential decision-making problem.",
+    "citationCount": 2,
+    "referenceCount": 33
+}

@@ -1,0 +1,45 @@
+{
+    "paperId": "e960e608c47c4e8906850888fee96b345fc936ba",
+    "title": "A Neural Corpus Indexer for Document Retrieval",
+    "year": 2022,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Yujing Wang",
+        "Ying Hou",
+        "Hong Wang",
+        "Ziming Miao",
+        "Shibin Wu",
+        "Hao Sun",
+        "Qi Chen",
+        "Yuqing Xia",
+        "Chengmin Chi",
+        "Guoshuai Zhao",
+        "Zheng Liu",
+        "Xing Xie",
+        "Hao Sun",
+        "Weiwei Deng",
+        "Qi Zhang",
+        "Mao Yang"
+    ],
+    "doi": "10.48550/arXiv.2206.02743",
+    "arxivId": "2206.02743",
+    "url": "https://www.semanticscholar.org/paper/e960e608c47c4e8906850888fee96b345fc936ba",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2206.02743",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current state-of-the-art document retrieval solutions mainly follow an index-retrieve paradigm, where the index is hard to be directly optimized for the final retrieval target. In this paper, we aim to show that an end-to-end deep neural network unifying training and indexing stages can significantly improve the recall performance of traditional methods. To this end, we propose Neural Corpus Indexer (NCI), a sequence-to-sequence network that generates relevant document identifiers directly for a designated query. To optimize the recall performance of NCI, we invent a prefix-aware weight-adaptive decoder architecture, and leverage tailored techniques including query generation, semantic document identifiers, and consistency-based regularization. Empirical studies demonstrated the superiority of NCI on two commonly used academic benchmarks, achieving +21.4% and +16.8% relative enhancement for Recall@1 on NQ320k dataset and R-Precision on TriviaQA dataset, respectively, compared to the best baseline method.",
+    "citationCount": 170,
+    "referenceCount": 65
+}

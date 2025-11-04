@@ -1,0 +1,35 @@
+{
+    "paperId": "ac0149455ffeb4b6f2edb53509cfc1386015e296",
+    "title": "Ultra-fast and High-quality Mapping of Error-prone Long Reads",
+    "year": 2023,
+    "venue": "IEEE International Conference on Bioinformatics and Biomedicine",
+    "authors": [
+        "Boyuan Sun"
+    ],
+    "doi": "10.1109/BIBM58861.2023.10385755",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ac0149455ffeb4b6f2edb53509cfc1386015e296",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "To accelerate the mapping process of vast amounts of long reads to references, a novel mapper mapquik has an over 30 times speedup compared with the de facto standard minimap2 but maintains a comparable mapping quality on the human genome. However, the mapper is only available to accurately map PacBio HiFi reads with sequencing errors lower than 1%. Since the 3rd generation long reads with modest error rates higher than 1% are still widely used, like reads from Nanopore DNA sequencing technology, a versatile long-read mapper should consider more long-read cases. This paper adopts a mapping-friendly sequence reduction idea to compress sequencing errors from different sequencing technologies to boost seed sensitivity of mapquik. For reads with relatively high error rates, we combine an error-sensitive order from a deep learning algorithm to replace the random universe minimizer order in mapquik. An improved ultra-fast long read mapper named mapquikPLUS is verified to handle most 3rd generation read mapping tasks efficiently and a pipeline of mapquikPLUS followed by minimap2 shows better performance against other approximate mappers for ANI evaluation.",
+    "citationCount": 0,
+    "referenceCount": 13
+}

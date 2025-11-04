@@ -1,0 +1,36 @@
+{
+    "paperId": "f40a03ac7d216205a70d28cfcea14cd69b9d46fb",
+    "title": "Retrieval-Augmented Visual Question Answering via Built-in Autoregressive Search Engines",
+    "year": 2025,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Xinwei Long",
+        "Zhiyuan Ma",
+        "Ermo Hua",
+        "Kaiyan Zhang",
+        "Biqing Qi",
+        "Bowen Zhou"
+    ],
+    "doi": "10.48550/arXiv.2502.16641",
+    "arxivId": "2502.16641",
+    "url": "https://www.semanticscholar.org/paper/f40a03ac7d216205a70d28cfcea14cd69b9d46fb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Retrieval-augmented generation (RAG) has emerged to address the knowledge-intensive visual question answering (VQA) task. Current methods mainly employ separate retrieval and generation modules to acquire external knowledge and generate answers, respectively. We propose ReAuSE, an alternative to the previous RAG model for the knowledge-based VQA task, which seamlessly integrates knowledge retriever into the generative multi-modal large language model, serving as a built-in search engine. Specifically, our model functions both as a generative retriever and an accurate answer generator. It not only helps retrieve documents from the knowledge base by producing identifier for each document, but it also answers visual questions based on the retrieved documents. Furthermore, we also propose a reinforced retrieval calibration module from relevance feedback to improve retrieval performance and align with the preferences for accurate answer generation. Extensive experiments on two representative OKVQA and A-OKVQA datasets demonstrate significant improvements ranging from 2.9% to 9.6% across all evaluation metrics when compared to strong baselines.",
+    "citationCount": 8,
+    "referenceCount": 47
+}

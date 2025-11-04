@@ -1,0 +1,36 @@
+{
+    "paperId": "89e4c42b70674c4554b2055bd751dc9b5d49e24e",
+    "title": "DistJoin: A Decoupled Join Cardinality Estimator based on Adaptive Neural Predicate Modulation",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Kaixin Zhang",
+        "Hongzhi Wang",
+        "Ziqi Li",
+        "Y. Lu",
+        "Yingze Li",
+        "Yu Yan",
+        "Yiming Guan"
+    ],
+    "doi": "10.48550/arXiv.2503.08994",
+    "arxivId": "2503.08994",
+    "url": "https://www.semanticscholar.org/paper/89e4c42b70674c4554b2055bd751dc9b5d49e24e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Research on learned cardinality estimation has made significant progress in recent years. However, existing methods still face distinct challenges that hinder their practical deployment in production environments. We define these challenges as the ``Trilemma of Cardinality Estimation'', where learned cardinality estimation methods struggle to balance generality, accuracy, and updatability. To address these challenges, we introduce DistJoin, a join cardinality estimator based on efficient distribution prediction using multi-autoregressive models. Our contributions are threefold: (1) We propose a method to estimate join cardinality by leveraging the probability distributions of individual tables in a decoupled manner. (2) To meet the requirements of efficiency for DistJoin, we develop Adaptive Neural Predicate Modulation (ANPM), a high-throughput distribution estimation model. (3) We demonstrate that an existing similar approach suffers from variance accumulation issues by formal variance analysis. To mitigate this problem, DistJoin employs a selectivity-based approach to infer join cardinality, effectively reducing variance. In summary, DistJoin not only represents the first data-driven method to support both equi and non-equi joins simultaneously but also demonstrates superior accuracy while enabling fast and flexible updates. The experimental results demonstrate that DistJoin achieves the highest accuracy, robustness to data updates, generality, and comparable update and inference speed relative to existing methods.",
+    "citationCount": 0,
+    "referenceCount": 64
+}

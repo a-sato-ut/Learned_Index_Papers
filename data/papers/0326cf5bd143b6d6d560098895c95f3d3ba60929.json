@@ -1,0 +1,38 @@
+{
+    "paperId": "0326cf5bd143b6d6d560098895c95f3d3ba60929",
+    "title": "Concerning the eXclusion in human genomics: The choice of sex chromosome representation in the human genome drastically affects number of identified variants",
+    "year": 2023,
+    "venue": "bioRxiv",
+    "authors": [
+        "Brendan J. Pinto",
+        "Brian O’Connor",
+        "M. Schatz",
+        "Samantha Zarate",
+        "M. Wilson"
+    ],
+    "doi": "10.1101/2023.02.22.529542",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0326cf5bd143b6d6d560098895c95f3d3ba60929",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://academic.oup.com/g3journal/advance-article-pdf/doi/10.1093/g3journal/jkad169/50972844/jkad169.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Over the past 30 years, a community of scientists have pieced together every base pair of the human reference genome from telomere-to-telomere. Interestingly, most human genomics studies omit more than 5% of the genome from their analyses. Under ‘normal’ circumstances, omitting any chromosome(s) from analysis of the human genome would be reason for concern—the exception being the sex chromosomes. Sex chromosomes in eutherians share an evolutionary origin as an ancestral pair of autosomes. In humans, they share three regions of high sequence identity (~98-100%), which—along with the unique transmission patterns of the sex chromosomes—introduce technical artifacts into genomic analyses. However, the human X chromosome bears numerous important genes—including more “immune response” genes than any other chromosome—which makes its exclusion irresponsible when sex differences across human diseases are widespread. To better characterize the effect that including/excluding the X chromosome may have on variants called, we conducted a pilot study on the Terra cloud platform to replicate a subset of standard genomic practices using both the CHM13 reference genome and sex chromosome complement-aware (SCC-aware) reference genome. We compared quality of variant calling, expression quantification, and allele-specific expression using these two reference genome versions across 50 human samples from the Genotype-Tissue-Expression consortium annotated as females. We found that after correction, the whole X chromosome (100%) can generate reliable variant calls—allowing for the inclusion of the whole genome in human genomics analyses as a departure from the status quo of omitting the sex chromosomes from empirical and clinical genomics studies.",
+    "citationCount": 5,
+    "referenceCount": 37
+}

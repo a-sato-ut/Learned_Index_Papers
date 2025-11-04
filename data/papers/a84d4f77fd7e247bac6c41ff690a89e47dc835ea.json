@@ -1,0 +1,35 @@
+{
+    "paperId": "a84d4f77fd7e247bac6c41ff690a89e47dc835ea",
+    "title": "MindRef: Mimicking Human Memory for Hierarchical Reference Retrieval with Fine-Grained Location Awareness",
+    "year": 2024,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+        "Ye Wang",
+        "Xinrun Xu",
+        "Rui Xie",
+        "Wenxin Hu",
+        "Wei Ye"
+    ],
+    "doi": "10.18653/v1/2025.acl-short.67",
+    "arxivId": "2402.17010",
+    "url": "https://www.semanticscholar.org/paper/a84d4f77fd7e247bac6c41ff690a89e47dc835ea",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "When completing knowledge-intensive tasks, humans sometimes need an answer and a corresponding reference passage for auxiliary reading. Previous methods required obtaining pre-segmented article chunks through additional retrieval models. This paper explores leveraging the parameterized knowledge stored during the pre-training phase of large language models (LLMs) to recall reference passage from any starting position independently. We propose a two-stage framework that simulates the scenario of humans recalling easily forgotten references. Initially, the LLM is prompted to recall document title identifiers to obtain a coarse-grained document set. Then, based on the acquired coarse-grained document set, it recalls fine-grained passage. In the two-stage recall process, we use constrained decoding to ensure that content outside of the stored documents is not generated. To increase speed, we only recall a short prefix in the second stage, and then locate its position to retrieve a complete passage. Experiments on KILT knowledge-sensitive tasks have verified that LLMs can independently recall reference passage locations in various task forms, and the obtained reference significantly assists downstream tasks.",
+    "citationCount": 2,
+    "referenceCount": 31
+}

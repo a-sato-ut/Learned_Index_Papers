@@ -1,0 +1,32 @@
+{
+    "paperId": "c9a347eb8e0b30e37a533abddfeff1a7f05e8fb4",
+    "title": "Efficient Unstructured Pruning of Mamba State-Space Models for Resource-Constrained Environments",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ibne Farabi Shihab",
+        "Sanjeda Akter",
+        "Anuj Sharma"
+    ],
+    "doi": "10.48550/arXiv.2505.08299",
+    "arxivId": "2505.08299",
+    "url": "https://www.semanticscholar.org/paper/c9a347eb8e0b30e37a533abddfeff1a7f05e8fb4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "State-space models (SSMs), particularly the Mamba architecture, have emerged as powerful alternatives to Transformers for sequence modeling, offering linear-time complexity and competitive performance across diverse tasks. However, their large parameter counts pose significant challenges for deployment in resource-constrained environments. We propose a novel unstructured pruning framework tailored for Mamba models that achieves up to 70\\% parameter reduction while retaining over 95\\% of the original performance. Our approach integrates three key innovations: (1) a gradient-aware magnitude pruning technique that combines weight magnitude and gradient information to identify less critical parameters, (2) an iterative pruning schedule that gradually increases sparsity to maintain model stability, and (3) a global pruning strategy that optimizes parameter allocation across the entire model. Through extensive experiments on WikiText-103, Long Range Arena, and ETT time-series benchmarks, we demonstrate significant efficiency gains with minimal performance degradation. Our analysis of pruning effects on Mamba's components reveals critical insights into the architecture's redundancy and robustness, enabling practical deployment in resource-constrained settings while broadening Mamba's applicability.",
+    "citationCount": 1,
+    "referenceCount": 66
+}

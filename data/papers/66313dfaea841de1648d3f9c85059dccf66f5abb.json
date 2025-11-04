@@ -1,0 +1,35 @@
+{
+    "paperId": "66313dfaea841de1648d3f9c85059dccf66f5abb",
+    "title": "SMX: Heterogeneous Architecture for Universal Sequence Alignment Acceleration",
+    "year": 2025,
+    "venue": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "authors": [
+        "Max Doblas",
+        "Po Jui Shih",
+        "Oscar Lostes-Cazorla",
+        "Miquel Moretó",
+        "Christopher Batten",
+        "Santiago Marco-Sola"
+    ],
+    "doi": "10.1145/3725843.3756018",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/66313dfaea841de1648d3f9c85059dccf66f5abb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sequence alignment is a fundamental building block for critical applications across multiple fields, such as computational biology and information retrieval. The rapid advancement of genome sequencing technologies and breakthrough generative AI tools, like AlphaFold, has driven an exponential increase in sequence-data production, creating a pressing need for fast and efficient sequence alignment tools to analyze ever-growing biological sequence databases. Notwithstanding the numerous accelerators proposed, from general-purpose architectures (CPUs and GPUs) to domain-specific designs (FPGAs and ASICs), the most efficient solutions suffer from over-specialization and fail to adapt to the wide variety of irregular use cases demanded by practical sequence alignment applications. Thus, it remains a challenge to design an architecture that can balance efficiency and flexibility to meet the demands of real-world alignment applications. This work introduces SMX, a heterogeneous architecture designed for high-performance sequence alignment that supports various configurations for different sequence types (DNA, protein, and ASCII text) and alignment models (including weighted gaps and substitution matrices). SMX integrates an ISA extension (SMX-1D) for irregular and sequential tasks and a specialized coprocessor (SMX-2D) to accelerate regular and parallel tasks, both orchestrated by the general-purpose core to enable seamless integration with state-of-the-art sequence alignment algorithms. Our results demonstrate that SMX’s heterogeneous architecture accelerates different sequence alignment use cases by 256–744 × compared to state-of-the-art software implementations when aligning real datasets. Compared to specialized hardware accelerators, SMX delivers up to 18.5 × more peak performance per area added while providing greater flexibility to accelerate different use cases. Physical design results targeting a 22nm technology node estimate SMX’s area at 0.34mm2, which is only 30% of a single-issue in-order CPU. SMX offers a high-performance and efficient heterogeneous architecture for accelerating practical sequence alignment algorithms, providing a scalable and flexible solution tailored to meet the needs of modern sequence-analysis tools. Furthermore, an SMX case study explores the frontier between flexibility and efficiency in domain-specific architectures and accelerators.",
+    "citationCount": 0,
+    "referenceCount": 111
+}

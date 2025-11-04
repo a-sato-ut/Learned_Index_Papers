@@ -1,0 +1,34 @@
+{
+    "paperId": "78affc983e42ce9189bd80ad1825c5a8c55eea92",
+    "title": "A-DARTS: Stable Model Selection for Data Repair in Time Series",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Mourad Khayati",
+        "Guillaume Chacun",
+        "Zakhar Tymchenko",
+        "Philippe Cudré-Mauroux"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00153",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/78affc983e42ce9189bd80ad1825c5a8c55eea92",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Time series often present gaps in the data. This phenomenon, also called missing values, is so prevalent that a cottage industry of missing-value imputation algorithms exists, each with different capabilities and efficacy/efficiency tradeoffs. So far, however, there has been no way to accurately select the most appropriate approach among all algorithms, given a new time series requiring imputation. In this paper, we introduce a new configuration-free system, A-DARTS (for Automated DAta Repair in Time Series), to automatically select the best imputation technique for a given faulty time series. A-DARTS's recommendation engine is trained via an iterative process that carefully learns the behavior of imputation algorithms using an extensive dataset of time series that we curated. The selection process is made efficient by several new pruning techniques particularly adjusted to time series data. Applications that manipulate time series can now easily embed A-DARTS's recommendation engine and impute data on the fly. Our experiments show that our system picks, on average, the best imputation algorithm 20% more frequently than the best-in-class AutoML technique. Moreover, it produces stable recommendations across datasets by incurring 2.5x less error variance, eliminating the stability issue observed in all state-of-the-art methods we tested.",
+    "citationCount": 1,
+    "referenceCount": 68
+}

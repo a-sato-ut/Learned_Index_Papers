@@ -1,0 +1,35 @@
+{
+    "paperId": "84f7cb54b5671b72fa3488def089d18add2c9752",
+    "title": "C3: Learning Congestion Controllers with Formal Certificates",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Chenxi Yang",
+        "Divyanshu Saxena",
+        "Rohit Dwivedula",
+        "Kshiteej S. Mahajan",
+        "Swarat Chaudhuri",
+        "Aditya Akella"
+    ],
+    "doi": "10.48550/arXiv.2412.10915",
+    "arxivId": "2412.10915",
+    "url": "https://www.semanticscholar.org/paper/84f7cb54b5671b72fa3488def089d18add2c9752",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning-based congestion controllers offer better adaptability compared to traditional heuristic algorithms. However, the inherent unreliability of learning techniques can cause learning-based controllers to behave poorly, creating a need for formal guarantees. While methods for formally verifying learned congestion controllers exist, these methods offer binary feedback that cannot optimize the controller toward better behavior. We improve this state-of-the-art via C3, a new learning framework for congestion control that integrates the concept of formal certification in the learning loop. C3 uses an abstract interpreter that can produce robustness and performance certificates to guide the training process, rewarding models that are robust and performant even on worst-case inputs. Our evaluation demonstrates that unlike state-of-the-art learned controllers, C3-trained controllers provide both adaptability and worst-case reliability across a range of network conditions.",
+    "citationCount": 1,
+    "referenceCount": 52
+}

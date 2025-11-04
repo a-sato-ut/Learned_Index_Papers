@@ -1,0 +1,39 @@
+{
+    "paperId": "a4a80e375b3acc4ea7b09bd7c9c3b3e02e3fbb54",
+    "title": "A framework for high-throughput sequence alignment using real processing-in-memory systems",
+    "year": 2022,
+    "venue": "Bioinform.",
+    "authors": [
+        "Safaa Diab",
+        "Amir Nassereldine",
+        "M. Alser",
+        "Juan G'omez-Luna",
+        "O. Mutlu",
+        "I. E. Hajj"
+    ],
+    "doi": "10.1093/bioinformatics/btad155",
+    "arxivId": "2208.01243",
+    "url": "https://www.semanticscholar.org/paper/a4a80e375b3acc4ea7b09bd7c9c3b3e02e3fbb54",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad155/49650358/btad155.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract Motivation Sequence alignment is a memory bound computation whose performance in modern systems is limited by the memory bandwidth bottleneck. Processing-in-memory (PIM) architectures alleviate this bottleneck by providing the memory with computing competencies. We propose Alignment-in-Memory (AIM), a framework for high-throughput sequence alignment using PIM, and evaluate it on UPMEM, the first publicly available general-purpose programmable PIM system. Results Our evaluation shows that a real PIM system can substantially outperform server-grade multi-threaded CPU systems running at full-scale when performing sequence alignment for a variety of algorithms, read lengths, and edit distance thresholds. We hope that our findings inspire more work on creating and accelerating bioinformatics algorithms for such real PIM systems. Availability and implementation Our code is available at https://github.com/safaad/aim.",
+    "citationCount": 44,
+    "referenceCount": 69
+}

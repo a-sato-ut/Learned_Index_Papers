@@ -1,0 +1,35 @@
+{
+    "paperId": "127f7d119cb5e60c3947556ac2aa8a966762f3e8",
+    "title": "WebAssembly serverless join: A Study of its Application",
+    "year": 2024,
+    "venue": "International Conference on Statistical and Scientific Database Management",
+    "authors": [
+        "Chanattan Sok",
+        "Laurent D'Orazio",
+        "Reyyan Tekin",
+        "Dimitri Tombroff"
+    ],
+    "doi": "10.1145/3676288.3676305",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/127f7d119cb5e60c3947556ac2aa8a966762f3e8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Big data’s impact is driving research into efficient solutions for managing growing datasets, with a focus on distributed systems. Recent advancements in query processing, particularly the join operator, have been significant. WebAssembly (Wasm), known for its efficiency, is increasingly adopted. This project aims to evaluate the efficiency of Wasm in serverless environments, addressing challenges posed by serverless architectures and comparing Wasm-based joins against native in performance. We propose Blossom, a Rust-based experimental platform, to give insights into Wasm-based joins. Our initial results reveal trade-offs between Wasm performance and its generality.",
+    "citationCount": 3,
+    "referenceCount": 18
+}

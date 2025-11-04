@@ -1,0 +1,36 @@
+{
+    "paperId": "705d6d87616e4217e0203e9131634a9ee47afe8c",
+    "title": "Online matching on stochastic block model",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Maria Cherifa",
+        "Clément Calauzènes",
+        "Vianney Perchet"
+    ],
+    "doi": "10.48550/arXiv.2506.04921",
+    "arxivId": "2506.04921",
+    "url": "https://www.semanticscholar.org/paper/705d6d87616e4217e0203e9131634a9ee47afe8c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "While online bipartite matching has gained significant attention in recent years, existing analyses in stochastic settings fail to capture the performance of algorithms on heterogeneous graphs, such as those incorporating inter-group affinities or other social network structures. In this work, we address this gap by studying online bipartite matching within the stochastic block model (SBM). A fixed set of offline nodes is matched to a stream of online arrivals, with connections governed probabilistically by latent class memberships. We analyze two natural algorithms: a $\\tt{Myopic}$ policy that greedily matches each arrival to the most compatible class, and the $\\tt{Balance}$ algorithm, which accounts for both compatibility and remaining capacity. For the $\\tt{Myopic}$ algorithm, we prove that the size of the matching converges, with high probability, to the solution of an ordinary differential equation (ODE), for which we provide a tractable approximation along with explicit error bounds. For the $\\tt{Balance}$ algorithm, we demonstrate convergence of the matching size to a differential inclusion and derive an explicit limiting solution. Lastly, we explore the impact of estimating the connection probabilities between classes online, which introduces an exploration-exploitation trade-off.",
+    "citationCount": 0,
+    "referenceCount": 42
+}

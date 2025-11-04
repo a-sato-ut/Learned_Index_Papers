@@ -1,0 +1,34 @@
+{
+    "paperId": "58f03d0b10c5d1d77ee86b17f220fa758181849f",
+    "title": "An Optimized, CE‐Compatible, Targeted NGS‐Based SSR Genotyping Method Using Primer‐Anchored Alignment",
+    "year": 2025,
+    "venue": "Electrophoresis",
+    "authors": [
+        "Kai Liu",
+        "Qinghui Meng",
+        "Tianlun Zheng",
+        "Nan Xie",
+        "Fan Zhou"
+    ],
+    "doi": "10.1002/elps.70007",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/58f03d0b10c5d1d77ee86b17f220fa758181849f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Microsatellites (SSRs) are highly polymorphic DNA sequences widely used in genetic research, including parentage assignment. Traditional SSR analysis relies on capillary electrophoresis (CE), which is time‐consuming and has limited capacity. Next‐generation sequencing (NGS) offers a high‐throughput and cost‐effective alternative, but existing NGS‐based SSR genotyping methods produce results that are incompatible with CE data, increasing the risk of Mendelian inheritance mismatches. This study presents an optimized, targeted, NGS‐based approach for SSR genotyping that prioritizes consistency with CE‐based results. We optimized SSRseq, a targeted NGS‐based SSR genotyping method, by (1) using primer flanking sequences as anchors for BLAST (Basic Local Alignment Search Tool)‐based read alignment to reference SSRs, enabling the utilization of both overlapping and nonoverlapping paired‐end reads; (2) inferring motif repeat counts from aligned read lengths, tolerating imperfections within the microsatellite repeat array (MRA); and (3) dynamically adjusting motif definition when discrepancies arose between expected and observed MRAs. We evaluated our optimized SSRseq against the original SSRseq and CE using four 10‐plex SSR panels for parentage assignment in Largemouth black bass (Micropterus salmoides). The optimized SSRseq substantially improved parentage assignment accuracy. Multiple combinations of two or more optimized SSRseq panels achieved an assignment rate of 1.000 and an accuracy rate of 0.950, whereas the original SSRseq's highest accuracy was 0.900, requiring all four panels. The optimized method also showed high concordance with CE genotyping at several tested loci. This optimized SSRseq approach provides a robust, efficient, and cost‐effective tool, leveraging NGS for accurate SSR genotyping in parentage assignment and other genetic analyses while minimizing Mendelian inheritance mismatches.",
+    "citationCount": 0,
+    "referenceCount": 44
+}

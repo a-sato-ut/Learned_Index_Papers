@@ -1,0 +1,35 @@
+{
+    "paperId": "4e586355c5a2c3986737c5ce56c32bbd0ea6a50e",
+    "title": "Mistill: Distilling Distributed Network Protocols From Examples",
+    "year": 2023,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "Patrick Krämer",
+        "Oliver Zeidler",
+        "Philip Diederich",
+        "Johannes Zerwas",
+        "Andreas Blenk",
+        "W. Kellerer"
+    ],
+    "doi": "10.1109/TNSM.2023.3263529",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4e586355c5a2c3986737c5ce56c32bbd0ea6a50e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Traffic Engineering (TE) mechanisms in data center networks make distributed forwarding decisions based on the global network state. Thus, new TE mechanisms require the design and implementation of effective information exchange and efficient decentralized algorithms to compute forwarding decisions, which is challenging and time-intensive. To automate and simplify this process, we propose <monospace>Mistill</monospace>. <monospace>Mistill</monospace> distills the forwarding behavior of TE policies from exemplary forwarding decisions into a Neural Network. <monospace>Mistill</monospace> learns (i) how to encode local state into update messages, (ii) which network devices must exchange updates, and (iii) how to map the exchanged updates into forwarding decisions. We demonstrate the abilities of <monospace>Mistill</monospace> by learning three TE policies, verifying their performance in simulations on synthetic and real-world traffic patterns, and by showing that the learned policies generalize to unseen traffic patterns. We implement <monospace>Mistill</monospace> as a proof-of-concept and show that <monospace>Mistill </monospace>reacts on average within 1.3ms to changes in the network.",
+    "citationCount": 0,
+    "referenceCount": 87
+}

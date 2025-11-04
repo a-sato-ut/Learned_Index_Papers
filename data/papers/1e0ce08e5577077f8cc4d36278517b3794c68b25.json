@@ -1,0 +1,39 @@
+{
+    "paperId": "1e0ce08e5577077f8cc4d36278517b3794c68b25",
+    "title": "LESER: Learning to Expand via Search Engine-feedback Reinforcement in e-Commerce",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yipeng Zhang",
+        "Bowen Liu",
+        "Xiaoshuang Zhang",
+        "Aritra Mandal",
+        "Zhe Wu",
+        "Canran Xu"
+    ],
+    "doi": "10.48550/arXiv.2509.05570",
+    "arxivId": "2509.05570",
+    "url": "https://www.semanticscholar.org/paper/1e0ce08e5577077f8cc4d36278517b3794c68b25",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "User queries in e-commerce search are often vague, short, and underspecified, making it difficult for retrieval systems to match them accurately against structured product catalogs. This challenge is amplified by the one-to-many nature of user intent, where a single query can imply diverse and competing needs. Existing methods, including neural query expansion and prompting-based LLM approaches, fall short in real-world settings: they struggle to capture nuanced user intent, often generate outputs that violate platform constraints, and rely on workflows that are difficult to scale in production. We propose Learning to Expand via Search Engine-feedback Reinforcement (LESER), a novel framework that fine-tunes a context-aware LLM using real-time search engine feedback as supervision. LESER formulates query expansion as a retrieval optimization task and leverages Group Relative Policy Optimization to learn directly from relevance and coverage metrics. LESER is trained to reason over search results and produce high quality query expansions that align with platform rules and retrieval objectives. We evaluate LESER on large-scale, real-world e-commerce datasets, demonstrating substantial improvements in both offline and online settings. Our results show that LESER not only enhances semantic coverage and retrieval relevance but also delivers measurable gains in user engagement, making it a practical and scalable solution for modern search systems.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

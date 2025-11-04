@@ -1,0 +1,38 @@
+{
+    "paperId": "b3d8ac7b788d8dcba47573d2a5680d3ea314fc5c",
+    "title": "Parallelization of the Banded Needleman & Wunsch Algorithm on UPMEM PiM Architecture for Long DNA Sequence Alignment",
+    "year": 2024,
+    "venue": "International Conference on Parallel Processing",
+    "authors": [
+        "Meven Mognol",
+        "Dominique Lavenier",
+        "Julien Legriel"
+    ],
+    "doi": "10.1145/3673038.3673094",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b3d8ac7b788d8dcba47573d2a5680d3ea314fc5c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3673038.3673094",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sequence alignment is an ubiquitous task in genomics analysis whose performance can be affected by the memory-wall on a processor-centric architecture. Processing-in-Memory (PiM) architectures provide a memory system with integrated computing capabilities to alleviate this bottleneck. In this paper, we present a long read optimized version of the Needleman and Wunsch (N&W) algorithm based on PiM devices developed by the UPMEM company. Such memories add 128 computing units to a standard 16GB DIMM. On a server equipped with 20 UPMEM PiMs, our N&W implementation outperforms standard alignment tools by an order of magnitude compared to a traditional multicore server. Code available at https://github.com/upmem/usecase_dpu_alignment.",
+    "citationCount": 3,
+    "referenceCount": 30
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "a1a369959203dc05c2eec1a2f82b3fc1dc34dded",
+    "title": "Revolutionizing Text-to-Image Retrieval as Autoregressive Token-to-Voken Generation",
+    "year": 2024,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Yongqi Li",
+        "Hongru Cai",
+        "Wenjie Wang",
+        "Leigang Qu",
+        "Yinwei Wei",
+        "Wenjie Li",
+        "Liqiang Nie",
+        "Tat-Seng Chua"
+    ],
+    "doi": "10.1145/3726302.3730077",
+    "arxivId": "2407.17274",
+    "url": "https://www.semanticscholar.org/paper/a1a369959203dc05c2eec1a2f82b3fc1dc34dded",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Text-to-image retrieval is a fundamental task in multimedia retrieval. Traditional studies have typically approached this task as a discriminative problem, matching the text and image via the cross-attention mechanism (one-tower framework) or in a common embedding space (two-tower framework). The one-tower framework excels in effectiveness but falls short in efficiency, whereas the two-tower framework is efficient but struggles to maintain competitive effectiveness. In this study, we aim to enhance both effectiveness and efficiency by transforming the text-to-image retrieval task into a token-to-voken generation problem, where fine-grained interactions are incorporated to improve effectiveness while maintaining high efficiency. Despite its potential advantages, this paradigm shift presents significant challenges: 1) misalignment with high-level semantics and 2) learning gap towards the retrieval target. To address the challenges, we propose AVG, which discretizes images into vokens while aligning with both the visual information and high-level semantics. Additionally, to bridge the learning gap between generative training and the retrieval target, AVG incorporates discriminative training to modify the learning direction during token-to-voken training. Experiments demonstrate that the benefits of paradigm innovation are realized: compared with the classical two-tower method, CLIP, AVG achieves the 7.53% relative effectiveness improvement and also 4× efficiency improvement.",
+    "citationCount": 1,
+    "referenceCount": 45
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "4a0eb9fb6e3cbe88e4790efe7b5d2b21d42b8614",
+    "title": "Event GDR: Event-Centric Generative Document Retrieval",
+    "year": 2024,
+    "venue": "The Web Conference",
+    "authors": [
+        "Yong Guan",
+        "Dingxiao Liu",
+        "Jinchen Ma",
+        "Hao Peng",
+        "Xiaozhi Wang",
+        "Lei Hou",
+        "Ru Li"
+    ],
+    "doi": "10.1145/3589335.3651500",
+    "arxivId": "2405.06886",
+    "url": "https://www.semanticscholar.org/paper/4a0eb9fb6e3cbe88e4790efe7b5d2b21d42b8614",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3589335.3651500",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative document retrieval, an emerging paradigm in information retrieval, learns to build connections between documents and identifiers within a single model, garnering significant attention. However, there are still two challenges: (1) neglecting inner-content correlation during document representation; (2) lacking explicit semantic structure during identifier construction. Nonetheless, events have enriched relations and well-defined taxonomy, which could facilitate addressing the above two challenges. Inspired by this, we propose Event GDR, an event-centric generative document retrieval model, integrating event knowledge into this task. Specifically, we utilize an exchange-then-reflection method based on multi-agents for event knowledge extraction. For document representation, we employ events and relations to model the document to guarantee the comprehensiveness and inner-content correlation. For identifier construction, we map the events to well-defined event taxonomy to construct the identifiers with explicit semantic structure. Our method achieves significant improvement over the baselines on two datasets, and also hopes to provide insights for future research.",
+    "citationCount": 1,
+    "referenceCount": 15
+}

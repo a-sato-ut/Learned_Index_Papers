@@ -1,0 +1,36 @@
+{
+    "paperId": "8e49c83961b5fe3715f1a03dd84371511481ec45",
+    "title": "CardBench: A Benchmark for Learned Cardinality Estimation in Relational Databases",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yannis Chronis",
+        "Yawen Wang",
+        "Yu Gan",
+        "Sami Abu-El-Haija",
+        "Chelsea Lin",
+        "Carsten Binnig",
+        "Fatma Özcan"
+    ],
+    "doi": "10.48550/arXiv.2408.16170",
+    "arxivId": "2408.16170",
+    "url": "https://www.semanticscholar.org/paper/8e49c83961b5fe3715f1a03dd84371511481ec45",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cardinality estimation is crucial for enabling high query performance in relational databases. Recently learned cardinality estimation models have been proposed to improve accuracy but there is no systematic benchmark or datasets which allows researchers to evaluate the progress made by new learned approaches and even systematically develop new learned approaches. In this paper, we are releasing a benchmark, containing thousands of queries over 20 distinct real-world databases for learned cardinality estimation. In contrast to other initial benchmarks, our benchmark is much more diverse and can be used for training and testing learned models systematically. Using this benchmark, we explored whether learned cardinality estimation can be transferred to an unseen dataset in a zero-shot manner. We trained GNN-based and transformer-based models to study the problem in three setups: 1-) instance-based, 2-) zero-shot, and 3-) fine-tuned. Our results show that while we get promising results for zero-shot cardinality estimation on simple single table queries; as soon as we add joins, the accuracy drops. However, we show that with fine-tuning, we can still utilize pre-trained models for cardinality estimation, significantly reducing training overheads compared to instance specific models. We are open sourcing our scripts to collect statistics, generate queries and training datasets to foster more extensive research, also from the ML community on the important problem of cardinality estimation and in particular improve on recent directions such as pre-trained cardinality estimation.",
+    "citationCount": 3,
+    "referenceCount": 21
+}

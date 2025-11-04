@@ -1,0 +1,72 @@
+{
+    "paperId": "4bf68068c9662f7739ec2e921b03678e074c2ebf",
+    "title": "RAPTOR: A Five-Safes approach to a secure, cloud native and serverless genomics data repository",
+    "year": 2022,
+    "venue": "bioRxiv",
+    "authors": [
+        "Chih Chuan Shih",
+        "Jieqi P. Chen",
+        "Ai Shan Lee",
+        "Nicolas Bertin",
+        "Maxime Hebrard",
+        "C. Khor",
+        "Zheng Li",
+        "Joanna Hui Juan Tan",
+        "W. Meah",
+        "Su Qin Peh",
+        "S. Mok",
+        "K. Sim",
+        "J. Liu",
+        "Ling Wang",
+        "Eleanor Wong",
+        "Jingmei Li",
+        "Aung Tin",
+        "Ching-Yu Chen",
+        "C. Heng",
+        "Jianqin Yuan",
+        "W. Koh",
+        "S. Saw",
+        "Y. Friedlander",
+        "X. Sim",
+        "Jin-Fang Chai",
+        "Y. Chong",
+        "S. Davila",
+        "L. Goh",
+        "Eng Sing Lee",
+        "T. Wong",
+        "N. Karnani",
+        "K. Leong",
+        "K. Yeo",
+        "J. C. Chambers",
+        "Rick Siow Mong Goh",
+        "Patrick Tan",
+        "R. Dorajoo"
+    ],
+    "doi": "10.1101/2022.10.27.514127",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4bf68068c9662f7739ec2e921b03678e074c2ebf",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.biorxiv.org/content/biorxiv/early/2022/11/04/2022.10.27.514127.full.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Genomic researchers are increasingly utilizing commercial cloud platforms (CCPs) to manage their data and analytics needs. Commercial clouds allow researchers to grow their storage and analytics capacity on demand, keeping pace with expanding project data footprints and enabling researchers to avoid large capital expenditures while paying only for IT capacity consumed by their project. Cloud computing also allows researchers to overcome common network and storage bottlenecks encountered when combining or re-analysing large datasets. However, cloud computing presents a new set of challenges. Without adequate security controls, the risk of unauthorised access may be higher for data stored on the cloud. In addition, regulators are increasingly mandating data access patterns and specific security protocols on the storage and use of genomic data to safeguard rights of the study participants. While CCPs provide tools for security and regulatory compliance, utilising these tools to build the necessary controls required for cloud solutions is not trivial as such skill sets are not commonly found in a genomics lab. The Research Assets Provisioning and Tracking Online Repository (RAPTOR) by the Genome Institute of Singapore is a cloud native genomics data repository and analytics platform focusing on security and regulatory compliance. Using a “five-safes” framework (Safe Purpose, Safe People, Safe Settings, Safe Data and Safe Output), RAPTOR provides security and governance controls to data contributors and users leveraging cloud computing for sharing and analysis of large genomic datasets without the risk of security breaches or running afoul of regulations. RAPTOR can also enable data federation with other genomic data repositories using GA4GH community-defined standards, allowing researchers to boost the statistical power of their work and overcome geographic and ancestry limitations of data sets",
+    "citationCount": 0,
+    "referenceCount": 44
+}

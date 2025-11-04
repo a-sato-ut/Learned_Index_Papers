@@ -1,0 +1,36 @@
+{
+    "paperId": "3fdaea90309c64a7c67a7b3b92b102e4b422647c",
+    "title": "SemCORE: A Semantic-Enhanced Generative Cross-Modal Retrieval Framework with MLLMs",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Haoxuan Li",
+        "Yi Bin",
+        "Yunshan Ma",
+        "Guoqing Wang",
+        "Yang Yang",
+        "See-Kiong Ng",
+        "Tat-Seng Chua"
+    ],
+    "doi": "10.48550/arXiv.2504.13172",
+    "arxivId": "2504.13172",
+    "url": "https://www.semanticscholar.org/paper/3fdaea90309c64a7c67a7b3b92b102e4b422647c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cross-modal retrieval (CMR) is a fundamental task in multimedia research, focused on retrieving semantically relevant targets across different modalities. While traditional CMR methods match text and image via embedding-based similarity calculations, recent advancements in pre-trained generative models have established generative retrieval as a promising alternative. This paradigm assigns each target a unique identifier and leverages a generative model to directly predict identifiers corresponding to input queries without explicit indexing. Despite its great potential, current generative CMR approaches still face semantic information insufficiency in both identifier construction and generation processes. To address these limitations, we propose a novel unified Semantic-enhanced generative Cross-mOdal REtrieval framework (SemCORE), designed to unleash the semantic understanding capabilities in generative cross-modal retrieval task. Specifically, we first construct a Structured natural language IDentifier (SID) that effectively aligns target identifiers with generative models optimized for natural language comprehension and generation. Furthermore, we introduce a Generative Semantic Verification (GSV) strategy enabling fine-grained target discrimination. Additionally, to the best of our knowledge, SemCORE is the first framework to simultaneously consider both text-to-image and image-to-text retrieval tasks within generative cross-modal retrieval. Extensive experiments demonstrate that our framework outperforms state-of-the-art generative cross-modal retrieval methods. Notably, SemCORE achieves substantial improvements across benchmark datasets, with an average increase of 8.65 points in Recall@1 for text-to-image retrieval.",
+    "citationCount": 2,
+    "referenceCount": 37
+}

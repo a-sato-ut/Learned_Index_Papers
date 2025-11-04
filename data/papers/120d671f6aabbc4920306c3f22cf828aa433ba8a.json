@@ -1,0 +1,37 @@
+{
+    "paperId": "120d671f6aabbc4920306c3f22cf828aa433ba8a",
+    "title": "StreamAI: Dealing with Challenges of Continual Learning Systems for Serving AI in Production",
+    "year": 2023,
+    "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)",
+    "authors": [
+        "Mariam Barry",
+        "A. Bifet",
+        "Jean-Luc Billy"
+    ],
+    "doi": "10.1109/ICSE-SEIP58684.2023.00017",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/120d671f6aabbc4920306c3f22cf828aa433ba8a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "How to build, deploy, update & maintain dynamic models which continuously learn from streaming data? This paper covers the industrialization aspects of these questions in production systems. In today’s fast-changing environments, organizations are faced with the crucial challenge of predictive analytics in online fashion from big data and deploying Artificial Intelligence models at scale. Applications include cyber-security, cloud infrastructure, social networks and financial markets. Online learning models that learn continuously and adapt to the potentially evolving data distributions have demonstrated efficiency for big data stream learning. However, the challenges of deploying and maintaining such models in production (serving) have stalled their adoption. In this paper, we first categorize key challenges faced by the R&D, MLOps and governance teams for deploying automated and self-training AI models in production. Next, we highlight the challenges related to stream-based online machine-learning systems. Finally, we propose StreamAI, a technology-agnostic architecture to deal with the MLOps journey (learning, serving, maintenance) of online models in production. We conclude with open research questions for AI, MLOps and software engineering to bridge the gaps between industry needs and research-oriented development.",
+    "citationCount": 8,
+    "referenceCount": 42
+}

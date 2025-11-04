@@ -1,0 +1,36 @@
+{
+    "paperId": "37ec28106093cf590e3f82fa6fd0ad194caf20c2",
+    "title": "Telomere-to-Telomere Phased Genome Assembly Using HERRO-Corrected Simplex Nanopore Reads",
+    "year": 2024,
+    "venue": "bioRxiv",
+    "authors": [
+        "D. Stanojević",
+        "Dehui Lin",
+        "S. Nurk",
+        "Paola Florez de Sessions",
+        "M. Šikić"
+    ],
+    "doi": "10.1101/2024.05.18.594796",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/37ec28106093cf590e3f82fa6fd0ad194caf20c2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.biorxiv.org/content/biorxiv/early/2024/05/21/2024.05.18.594796.full.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Materials Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Telomere-to-telomere phased assemblies have become the norm in genomics. To achieve these for diploid and even polyploid genomes, the contemporary approach involves a combination of two long-read sequencing technologies: high-accuracy long reads, e.g. Pacific Biosciences (PacBio) HiFi or Oxford Nanopore (ONT) ‘Duplex’ reads, and ultra-long ONT ‘Simplex’ reads. Using two different technologies increases the cost and the required amount of genomic DNA. Here, we show that comparable results are possible using error correction of ultra-long ONT Simplex reads and then assembling them using state-of-the-art de novo assembly methods. To achieve this, we have developed the deep learning-based HERRO framework, which corrects ONT Simplex reads while carefully preserving differences in related genomic sequences. Taking into account informative positions that differentiate the haplotypes or genomic repeat copies, HERRO achieves an increase of read accuracy of up to 100-fold for diploid human genomes. By combining HERRO with Verkko assembler, we achieve high contiguity on several human genomes by reconstructing many chromosomes telomere-to-telomere, including chromosomes X and Y. HERRO supports both R9.4.1 and R10.4.1 ONT Simplex reads and generalizes well to other species. These results provide an opportunity to reduce the cost of genome sequencing and use corrected ONT reads to analyze more complex genomes with different levels of ploidy or even aneuploidy.",
+    "citationCount": 19,
+    "referenceCount": 57
+}

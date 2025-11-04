@@ -1,0 +1,43 @@
+{
+    "paperId": "5b4ac9fdc04fda68c20a6f94951eb8808658e3ad",
+    "title": "Harp: Leveraging Quasi-Sequential Characteristics to Accelerate Sequence-to-Graph Mapping of Long Reads",
+    "year": 2024,
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "authors": [
+        "Yichi Zhang",
+        "Dibei Chen",
+        "Gang Zeng",
+        "Jianfeng Zhu",
+        "Zhaoshi Li",
+        "Longlong Chen",
+        "Shaojun Wei",
+        "Leibo Liu"
+    ],
+    "doi": "10.1145/3620666.3651331",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5b4ac9fdc04fda68c20a6f94951eb8808658e3ad",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Read mapping is a crucial task in computational genomics. Recently, there has been a significant paradigm shift from sequence-to-sequence mapping (S2S) to sequence-to-graph mapping (S2G). The S2G mapping incurs high graph processing overheads and leads to an unnoticed shift of performance hotspots. This presents a substantial challenge to current software implementations and hardware accelerators. This paper introduces Harp, a novel S2G mapping acceleration system. Harp leverages the structural similarities between genome graphs and sequences, significantly reducing graph processing overhead by exploiting their quasi-sequential characteristic. The Harp accelerator is co-designed with two main algorithmic components: (1) HarpTree, a compact data structure that explicitly reveals the quasi-sequential characteristic, enabling simplifications of graph processing algorithms in S2G mapping, and (2) HarpExt, a multi-stage seed-extension algorithm that mitigates graph operation overhead while maintaining the sight of S2G mapping. Harp achieves an average 140× speedup over the latest S2G mapping software and outperforms the state-of-the-art S2G accelerator by 23.6× while reducing the chip area by 72% in S2G mapping of long reads.",
+    "citationCount": 2,
+    "referenceCount": 58
+}

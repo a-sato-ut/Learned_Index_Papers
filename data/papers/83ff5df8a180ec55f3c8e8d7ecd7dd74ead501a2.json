@@ -1,0 +1,37 @@
+{
+    "paperId": "83ff5df8a180ec55f3c8e8d7ecd7dd74ead501a2",
+    "title": "AI-Assisted Edge Server Selection in 5G for Low-Latency Multimedia Applications",
+    "year": 2025,
+    "venue": "2025 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)",
+    "authors": [
+        "Ahmed Hassanein",
+        "Mahmoud Reza Hashemi",
+        "S. Shirmohammadi"
+    ],
+    "doi": "10.1109/ICMEW68306.2025.11152098",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/83ff5df8a180ec55f3c8e8d7ecd7dd74ead501a2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficient edge server selection in 5G networks is vital for supporting low-latency multimedia applications like live video streaming and online gaming. This paper proposes AI approaches, specially deep learning approaches, to dynamically assign user requests to optimal servers in low-latency scenarios, utilizing Deep Neural Networks (DNN), Long Short-Term Memory (LSTM) networks, Gated Recurrent Units (GRU) and various Transformer model variations. The models were trained on a custom dataset derived from real-world 5G traffic, incorporating features such as latency, packet lengths, user and server geolocation. Among these, the GRU model achieved the highest accuracy of 94.72 %, outperforming other models, while maintaing relatively low inference time. The conducted confusion matrix analysis highlights adaptability to network conditions and areas for improvement. This study demonstrates the promise of deep learning for intelligent resource allocation in 5G and future 6G networks.",
+    "citationCount": 0,
+    "referenceCount": 29
+}

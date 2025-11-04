@@ -1,0 +1,36 @@
+{
+    "paperId": "8633bd2068b66003ac98ed25fe014ccb060df0cd",
+    "title": "Federated Automatic Latent Variable Selection in Multi-output Gaussian Processes",
+    "year": 2024,
+    "venue": "2025 IEEE 21st International Conference on Automation Science and Engineering (CASE)",
+    "authors": [
+        "Jingyi Gao",
+        "Seokhyun Chung"
+    ],
+    "doi": "10.1109/CASE58245.2025.11163986",
+    "arxivId": "2407.16935",
+    "url": "https://www.semanticscholar.org/paper/8633bd2068b66003ac98ed25fe014ccb060df0cd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper explores a federated learning approach that automatically selects the number of latent processes in multi-output Gaussian processes (MGPs). The MGP has seen great success as a transfer learning tool when data is generated from multiple sources or units. A common approach in MGPs to transfer knowledge across units involves gathering all data from each unit to a central server and extracting common independent latent processes to express each unit as a linear combination of the shared latent patterns. However, this approach poses key challenges in (i) determining the adequate number of latent processes and (ii) relying on centralized learning which leads to potential privacy risks and significant computational burdens on the central server. To address these issues, we propose a hierarchical model that places spike-and-slab priors on the coefficients of each latent process. These priors help automatically select only needed latent processes by shrinking the coefficients of unnecessary ones to zero. To estimate the model while avoiding the drawbacks of centralized learning, we propose a variational inference-based approach, that formulates model inference as an optimization problem compatible with federated settings. We then design a federated learning algorithm that allows units to jointly select and infer the common latent processes without sharing their data. Simulation and case studies on Li-ion battery degradation demonstrate the advantageous features of our proposed approach.",
+    "citationCount": 2,
+    "referenceCount": 48
+}

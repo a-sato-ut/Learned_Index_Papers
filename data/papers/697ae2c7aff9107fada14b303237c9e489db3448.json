@@ -1,0 +1,37 @@
+{
+    "paperId": "697ae2c7aff9107fada14b303237c9e489db3448",
+    "title": "Efficient end-to-end long-read sequence mapping using minimap2-fpga integrated with hardware accelerated chaining",
+    "year": 2023,
+    "venue": "Scientific Reports",
+    "authors": [
+        "Kisaru Liyanage",
+        "Hiruna Samarakoon",
+        "Sri Parameswaran",
+        "Hasindu Gamaarachchi"
+    ],
+    "doi": "10.1038/s41598-023-47354-8",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/697ae2c7aff9107fada14b303237c9e489db3448",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.nature.com/articles/s41598-023-47354-8.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "minimap2 is the gold-standard software for reference-based sequence mapping in third-generation long-read sequencing. While minimap2 is relatively fast, further speedup is desirable, especially when processing a multitude of large datasets. In this work, we present minimap2-fpga , a hardware-accelerated version of minimap2 that speeds up the mapping process by integrating an FPGA kernel optimised for chaining. Integrating the FPGA kernel into minimap2 posed significant challenges that we solved by accurately predicting the processing time on hardware while considering data transfer overheads, mitigating hardware scheduling overheads in a multi-threaded environment, and optimizing memory management for processing large realistic datasets. We demonstrate speed-ups in end-to-end run-time for data from both Oxford Nanopore Technologies (ONT) and Pacific Biosciences (PacBio). minimap2-fpga is up to 79% and 53% faster than minimap2 for $$\\sim 30\\times $$ ∼ 30 × ONT and $$\\sim 50\\times $$ ∼ 50 × PacBio datasets respectively, when mapping without base-level alignment. When mapping with base-level alignment, minimap2-fpga is up to 62% and 10% faster than minimap2 for $$\\sim 30\\times $$ ∼ 30 × ONT and $$\\sim 50\\times $$ ∼ 50 × PacBio datasets respectively. The accuracy is near-identical to that of original minimap2 for both ONT and PacBio data, when mapping both with and without base-level alignment. minimap2-fpga is supported on Intel FPGA-based systems (evaluations performed on an on-premise system) and Xilinx FPGA-based systems (evaluations performed on a cloud system). We also provide a well-documented library for the FPGA-accelerated chaining kernel to be used by future researchers developing sequence alignment software with limited hardware background.",
+    "citationCount": 13,
+    "referenceCount": 18
+}

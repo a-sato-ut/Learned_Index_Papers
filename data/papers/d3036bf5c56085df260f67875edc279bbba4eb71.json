@@ -1,0 +1,30 @@
+{
+    "paperId": "d3036bf5c56085df260f67875edc279bbba4eb71",
+    "title": "Investigating Relative Performance of Transfer and Meta Learning",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Benji Alwis"
+    ],
+    "doi": "10.48550/arXiv.2311.00727",
+    "arxivId": "2311.00727",
+    "url": "https://www.semanticscholar.org/paper/d3036bf5c56085df260f67875edc279bbba4eb71",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Over the past decade, the field of machine learning has experienced remarkable advancements. While image recognition systems have achieved impressive levels of accuracy, they continue to rely on extensive training datasets. Additionally, a significant challenge has emerged in the form of poor out-of-distribution performance, which necessitates retraining neural networks when they encounter conditions that deviate from their training data. This limitation has notably contributed to the slow progress in self-driving car technology. These pressing issues have sparked considerable interest in methods that enable neural networks to learn effectively from limited data. This paper presents the outcomes of an extensive investigation designed to compare two distinct approaches, transfer learning and meta learning, as potential solutions to this problem. The overarching objective was to establish a robust criterion for selecting the most suitable method in diverse machine learning scenarios. Building upon prior research, I expanded the comparative analysis by introducing a new meta learning method into the investigation. Subsequently, I assessed whether the findings remained consistent under varying conditions. Finally, I delved into the impact of altering the size of the training dataset on the relative performance of these methods. This comprehensive exploration has yielded insights into the conditions favoring each approach, thereby facilitating the development of a criterion for selecting the most appropriate method in any given situation",
+    "citationCount": 0,
+    "referenceCount": 21
+}

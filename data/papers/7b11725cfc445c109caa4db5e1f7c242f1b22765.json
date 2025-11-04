@@ -1,0 +1,33 @@
+{
+    "paperId": "7b11725cfc445c109caa4db5e1f7c242f1b22765",
+    "title": "Robust Probabilistic Prediction for Stochastic Dynamical Systems",
+    "year": 2023,
+    "venue": "",
+    "authors": [
+        "T. Xu",
+        "Jianping He"
+    ],
+    "doi": null,
+    "arxivId": "2311.07108",
+    "url": "https://www.semanticscholar.org/paper/7b11725cfc445c109caa4db5e1f7c242f1b22765",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "It is critical and challenging to design robust predictors for stochastic dynamical systems (SDSs) with uncertainty quantification (UQ) in the prediction. Specifically, robustness guarantees the worst-case performance when the predictor's information set of the system is inadequate, and UQ characterizes how confident the predictor is about the predictions. However, it is difficult for traditional robust predictors to provide robust UQ because they were designed to robustify the performance of point predictions. In this paper, we investigate how to robustify the probabilistic prediction for SDS, which can inherently provide robust distributional UQ. To characterize the performance of probabilistic predictors, we generalize the concept of likelihood function to likelihood functional, and prove that this metric is a proper scoring rule. Based on this metric, we propose a framework to quantify when the predictor is robust and analyze how the information set affects the robustness. Our framework makes it possible to design robust probabilistic predictors by solving functional optimization problems concerning different information sets. In particular, we design a class of moment-based optimal robust probabilistic predictors and provide a practical Kalman-filter-based algorithm for implementation. Extensive numerical simulations are provided to elaborate on our results.",
+    "citationCount": 0,
+    "referenceCount": 48
+}

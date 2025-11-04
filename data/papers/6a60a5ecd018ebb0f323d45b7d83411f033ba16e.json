@@ -1,0 +1,35 @@
+{
+    "paperId": "6a60a5ecd018ebb0f323d45b7d83411f033ba16e",
+    "title": "Ultron: An Ultimate Retriever on Corpus with a Model-based Indexer",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yujia Zhou",
+        "Jing Yao",
+        "Zhicheng Dou",
+        "Ledell Yu Wu",
+        "Peitian Zhang",
+        "Ji-rong Wen"
+    ],
+    "doi": "10.48550/arXiv.2208.09257",
+    "arxivId": "2208.09257",
+    "url": "https://www.semanticscholar.org/paper/6a60a5ecd018ebb0f323d45b7d83411f033ba16e",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2208.09257",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Document retrieval has been extensively studied within the index-retrieve framework for decades, which has withstood the test of time. Unfortunately, such a pipelined framework limits the optimization of the final retrieval quality, because indexing and retrieving are separated stages that can not be jointly optimized in an end-to-end manner. In order to unify these two stages, we explore a model-based indexer for document retrieval. Concretely, we propose Ultron, which encodes the knowledge of all documents into the model and aims to directly retrieve relevant documents end-to-end. For the model-based indexer, how to represent docids and how to train the model are two main issues to be explored. Existing solutions suffer from semantically deficient docids and limited supervised data. To tackle these two problems, first, we devise two types of docids that are richer in semantics and easier for model inference. In addition, we propose a three-stage training workflow to capture more knowledge contained in the corpus and associations between queries and docids. Experiments on two public datasets demonstrate the superiority of Ultron over advanced baselines for document retrieval.",
+    "citationCount": 64,
+    "referenceCount": 41
+}

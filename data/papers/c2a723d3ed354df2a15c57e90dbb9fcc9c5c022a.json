@@ -1,0 +1,36 @@
+{
+    "paperId": "c2a723d3ed354df2a15c57e90dbb9fcc9c5c022a",
+    "title": "LegalSearchLM: Rethinking Legal Case Retrieval as Legal Elements Generation",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Chaeeun Kim",
+        "Jinu Lee",
+        "Wonseok Hwang"
+    ],
+    "doi": "10.48550/arXiv.2505.23832",
+    "arxivId": "2505.23832",
+    "url": "https://www.semanticscholar.org/paper/c2a723d3ed354df2a15c57e90dbb9fcc9c5c022a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Law",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Legal Case Retrieval (LCR), which retrieves relevant cases from a query case, is a fundamental task for legal professionals in research and decision-making. However, existing studies on LCR face two major limitations. First, they are evaluated on relatively small-scale retrieval corpora (e.g., 100-55K cases) and use a narrow range of criminal query types, which cannot sufficiently reflect the complexity of real-world legal retrieval scenarios. Second, their reliance on embedding-based or lexical matching methods often results in limited representations and legally irrelevant matches. To address these issues, we present: (1) LEGAR BENCH, the first large-scale Korean LCR benchmark, covering 411 diverse crime types in queries over 1.2M candidate cases; and (2) LegalSearchLM, a retrieval model that performs legal element reasoning over the query case and directly generates content containing those elements, grounded in the target cases through constrained decoding. Experimental results show that LegalSearchLM outperforms baselines by 6-20% on LEGAR BENCH, achieving state-of-the-art performance. It also demonstrates strong generalization to out-of-domain cases, outperforming naive generative models trained on in-domain data by 15%.",
+    "citationCount": 0,
+    "referenceCount": 37
+}

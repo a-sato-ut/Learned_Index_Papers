@@ -1,0 +1,33 @@
+{
+    "paperId": "dcc13addf5a8e017a498771962b5176b5793b079",
+    "title": "Optimizing Multi-Stage Language Models for Effective Japanese Legal Document Retrieval",
+    "year": 2025,
+    "venue": "Engineering, Technology &amp; Applied Science Research",
+    "authors": [
+        "Trung Quang Hoang",
+        "Hoang Le Trung",
+        "Phuc Nguyen Van Hoang",
+        "Hieu Quang Huu"
+    ],
+    "doi": "10.48084/etasr.12111",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dcc13addf5a8e017a498771962b5176b5793b079",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Law",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficient text retrieval is critical for applications such as legal document analysis, especially within specialized domains such as Japanese legal systems. Existing methods often underperform in these scenarios: conventional BM25-based systems fail to capture nuanced legal expressions and formal sentence structures common in Japanese case law, resulting in low recall for relevant precedents. Consequently, tailored solutions are required. This study proposes a novel two-phase retrieval pipeline that replaces the sparse components (e.g., BM25+, TF–IDF) found in hybrid architectures, such as CoCondenser, instead operating end-to-end with only dense language models. This pipeline applies progressive fine-tuning—beginning with masked language model pretraining and followed by contrastive learning with hard negative mining—to iteratively improve accuracy on legal-domain queries. To ensure transparency and clear comparison, this study assesses two variants: an LM-only version (using both off-the-shelf and fine-tuned models) and a hybrid version that reintegrates BM25+, allowing for quantifying the impact of sparse components on retrieval performance. On a Japanese legal dataset, the proposed approach achieved state-of-the-art performance, yielding a 5.74% improvement in Recall@10 and an 11% gain in nDCG@10 over the strongest baseline, while remaining competitive on the MS-MARCO benchmark. To further enhance robustness and adaptability, an ensemble model integrated multiple retrieval strategies, yielding superior outcomes across diverse tasks. This work sets new standards for text retrieval in both domain-specific and general contexts, offering a comprehensive solution for handling complex queries in legal and multilingual environments.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

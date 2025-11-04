@@ -1,0 +1,38 @@
+{
+    "paperId": "51a2a13266f3284c3f1f0c829f86451d6cd6f4b3",
+    "title": "In-context Prompt Learning for Test-time Vision Recognition with Frozen Vision-language Model",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Junhui Yin",
+        "Xinyu Zhang",
+        "L. Wu",
+        "Xianghua Xie",
+        "Xiaojie Wang"
+    ],
+    "doi": "10.48550/arXiv.2403.06126",
+    "arxivId": "2403.06126",
+    "url": "https://www.semanticscholar.org/paper/51a2a13266f3284c3f1f0c829f86451d6cd6f4b3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current pre-trained vision-language models, such as CLIP, have demonstrated remarkable zero-shot generalization capabilities across various downstream tasks. However, their performance significantly degrades when test inputs exhibit different distributions. In this paper, we explore the concept of test-time prompt tuning (TTPT), which facilitates the adaptation of the CLIP model to novel downstream tasks through a one-step unsupervised optimization that involves only test samples. Inspired by in-context learning in natural language processing (NLP), we propose In-Context Prompt Learning (InCPL) for test-time visual recognition tasks, which empowers a pre-trained vision-language model with labeled examples as context information on downstream task. Specifically, InCPL associates a new test sample with very few labeled examples (sometimes just one) as context information, enabling reliable label estimation for the test sample and facilitating model adaptation. To achieve this, InCPL employs an efficient language-to-vision translator to explore the textual prior information for visual prompt learning. Further, we introduce a context-aware unsupervised loss to optimize visual prompts tailored to test samples. Finally, we design a cyclic learning strategy for visual and textual prompts to ensure mutual synergy across different modalities. This enables a pre-trained, frozen CLIP model to adapt to any task using its learned adaptive prompt. Our method demonstrates superior performance and achieves state-of-the-art results across various downstream datasets.",
+    "citationCount": 3,
+    "referenceCount": 53
+}

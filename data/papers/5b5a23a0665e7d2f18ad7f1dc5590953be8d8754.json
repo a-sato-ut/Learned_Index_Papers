@@ -1,0 +1,41 @@
+{
+    "paperId": "5b5a23a0665e7d2f18ad7f1dc5590953be8d8754",
+    "title": "Cooperative Buffer Management With Fine-Grained Data Migrations for Hybrid Memory Systems",
+    "year": 2023,
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "authors": [
+        "Xiaoliang Wang",
+        "Peiquan Jin",
+        "Yongping Luo",
+        "Zhaole Chu",
+        "Yigui Yuan",
+        "Xujian Zhao",
+        "Yuanjin Lin",
+        "Kuankuan Guo"
+    ],
+    "doi": "10.1109/TCAD.2022.3210201",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5b5a23a0665e7d2f18ad7f1dc5590953be8d8754",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hybrid memory composed of DRAM and persistent memory (PM) offers a promising way to realize large-capacity main memory supporting in-memory data storage and computing. However, traditional buffer management schemes focus on improving the hit ratio but lack awareness of the limitations of PM, e.g., slower write time and lower write endurance than DRAM. Therefore, developing new buffer management policies that can reduce costly write-backs of PM blocks while maintaining high performance for the hybrid buffer, is of paramount importance. Existing approaches mainly use a page-grained buffering policy, which will cause unnecessary data migrations between DRAM and PM, leading to a high number of disk I/Os and PM writes. Aiming to reduce I/O costs and PM writes, we propose a new buffer manager named HiBuffer for DRAM/PM-based hybrid memory systems. HiBuffer presents several novel ideas. First, it adopts multigrained data layouts to manage the hybrid buffer cooperatively. In addition to the page granularity, we introduce Lines for the DRAM buffer and Sectors to the PM buffer, forming a buffer with three granularities, including Line, Sector, and Page. We prove that the multigrained cooperative buffer management can deliver higher performance than existing page-grained schemes. Second, we propose a sector-grained method to migrate data from DRAM to PM, which can avoid unnecessary data movements and reduce PM writes. Third, we use an out-of-place updating mechanism to absorb updates in DRAM, which can further reduce the writes to PM. We compare HiBuffer with three existing schemes, including LRU, CLOCK-DWF, and MiniPage, on five synthetic workloads and the YCSB benchmark using real Intel Optane DC PM. The results in terms of various metrics, including running time, PM writes, hit ratio, and disk I/Os, suggest the efficiency of HiBuffer. In particular, HiBuffer reduces the running time by up to 37.8% and the writes to PM by up to 83% compared to the competitors when evaluated on the YCSB benchmark.",
+    "citationCount": 1,
+    "referenceCount": 37
+}

@@ -369,32 +369,39 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
 
     const g = svg.append('g');
 
-    const years = Array.from(new Set(nodes.map(n => n.paper.year).filter(y => y !== undefined))) as number[];
+    const years = Array.from(new Set(nodes.map(n => n.paper.year).filter(y => y !== undefined && y !== null))) as number[];
     years.sort((a, b) => a - b);
 
     const yearPositions = new Map<number, number>();
+    const yearBounds = new Map<number, { left: number; right: number }>();
+    const yearRanges = new Map<number, { center: number; min: number; max: number }>();
+    
     years.forEach((year, index) => {
-      yearPositions.set(year, padding + index * yearWidth);
+      const centerX = padding + index * yearWidth;
+      const leftBound = centerX - yearWidth / 2;
+      const rightBound = centerX + yearWidth / 2;
+      
+      yearPositions.set(year, centerX);
+      yearBounds.set(year, { left: leftBound, right: rightBound });
+      
+      const moveableRange = rightBound - leftBound;
+      yearRanges.set(year, {
+        center: centerX,
+        min: leftBound + moveableRange * 0.1,
+        max: rightBound - moveableRange * 0.1,
+      });
     });
 
-    const yearGroups = new Map<number, PaperNode[]>();
     nodes.forEach(node => {
       const year = node.paper.year || 0;
-      if (!yearGroups.has(year)) {
-        yearGroups.set(year, []);
+      const range = yearRanges.get(year);
+      if (range) {
+        const moveableRange = range.max - range.min;
+        node.x = range.min + Math.random() * moveableRange;
+      } else {
+        node.x = padding;
       }
-      yearGroups.get(year)!.push(node);
-    });
-
-    yearGroups.forEach((yearNodes, year) => {
-      const xPos = yearPositions.get(year) || padding;
-      yearNodes.forEach((node, index) => {
-        const yPos = padding + (index * 80);
-        node.x = xPos;
-        node.y = yPos;
-        node.fx = xPos;
-        node.fy = yPos;
-      });
+      node.y = height / 2 + (Math.random() - 0.5) * 200;
     });
 
     const zoom = d3
@@ -405,6 +412,53 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       });
 
     svg.call(zoom);
+
+    const boundaryLines: number[] = [];
+    if (years.length > 0) {
+      const firstYearBounds = yearBounds.get(years[0]);
+      if (firstYearBounds) {
+        boundaryLines.push(firstYearBounds.left);
+      }
+      years.forEach(year => {
+        const bounds = yearBounds.get(year);
+        if (bounds) {
+          boundaryLines.push(bounds.right);
+        }
+      });
+    }
+    
+    const yearLines = g
+      .append('g')
+      .attr('class', 'year-lines')
+      .selectAll('line')
+      .data(boundaryLines)
+      .enter()
+      .append('line')
+      .attr('x1', (x) => x)
+      .attr('x2', (x) => x)
+      .attr('y1', 0)
+      .attr('y2', height)
+      .attr('stroke', '#9ca3af')
+      .attr('stroke-width', 1)
+      .attr('stroke-dasharray', '5,5');
+
+    const yearLabels = g
+      .append('g')
+      .attr('class', 'year-labels')
+      .selectAll('text')
+      .data(years)
+      .enter()
+      .append('text')
+      .attr('x', (year) => {
+        const range = yearRanges.get(year);
+        return range ? range.center : padding;
+      })
+      .attr('y', 20)
+      .attr('text-anchor', 'middle')
+      .attr('font-size', '14px')
+      .attr('fill', '#6b7280')
+      .attr('font-weight', '600')
+      .text((year) => year !== null && year !== undefined ? year.toString() : '');
 
     const link = g
       .append('g')
@@ -424,7 +478,14 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       .data(nodes)
       .enter()
       .append('g')
-      .attr('class', 'node');
+      .attr('class', 'node')
+      .call(
+        d3
+          .drag<SVGGElement, PaperNode>()
+          .on('start', dragstarted)
+          .on('drag', dragged)
+          .on('end', dragended)
+      );
 
     node
       .append('circle')
@@ -445,25 +506,84 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       .attr('fill', '#333')
       .style('pointer-events', 'none');
 
-    link
-      .attr('x1', (d) => {
-        const source = typeof d.source === 'object' ? d.source : nodes.find((n) => n.id === d.source);
-        return source?.x || 0;
-      })
-      .attr('y1', (d) => {
-        const source = typeof d.source === 'object' ? d.source : nodes.find((n) => n.id === d.source);
-        return source?.y || 0;
-      })
-      .attr('x2', (d) => {
-        const target = typeof d.target === 'object' ? d.target : nodes.find((n) => n.id === d.target);
-        return target?.x || 0;
-      })
-      .attr('y2', (d) => {
-        const target = typeof d.target === 'object' ? d.target : nodes.find((n) => n.id === d.target);
-        return target?.y || 0;
+    const simulation = d3
+      .forceSimulation<PaperNode>(nodes)
+      .force(
+        'link',
+        d3
+          .forceLink<PaperNode, PaperEdge>(edges)
+          .id((d: PaperNode) => d.id)
+          .distance(100)
+      )
+      .force('charge', d3.forceManyBody<PaperNode>().strength(-300))
+      .force('y', d3.forceY(height / 2).strength(0.1))
+      .force('collision', d3.forceCollide<PaperNode>().radius(30))
+      .force('x', d3.forceX<PaperNode>((d) => {
+        const year = d.paper.year || 0;
+        const range = yearRanges.get(year);
+        return range ? range.center : padding;
+      }).strength(0.5));
+
+    simulation.on('tick', () => {
+      nodes.forEach(node => {
+        const year = node.paper.year || 0;
+        const range = yearRanges.get(year);
+        if (range && node.x !== undefined) {
+          if (node.x < range.min) {
+            node.x = range.min;
+            if (node.vx !== undefined) node.vx = 0;
+          } else if (node.x > range.max) {
+            node.x = range.max;
+            if (node.vx !== undefined) node.vx = 0;
+          }
+        }
       });
 
-    node.attr('transform', (d) => `translate(${d.x || 0},${d.y || 0})`);
+      link
+        .attr('x1', (d) => {
+          const source = typeof d.source === 'object' ? d.source : nodes.find((n) => n.id === d.source);
+          return source?.x || 0;
+        })
+        .attr('y1', (d) => {
+          const source = typeof d.source === 'object' ? d.source : nodes.find((n) => n.id === d.source);
+          return source?.y || 0;
+        })
+        .attr('x2', (d) => {
+          const target = typeof d.target === 'object' ? d.target : nodes.find((n) => n.id === d.target);
+          return target?.x || 0;
+        })
+        .attr('y2', (d) => {
+          const target = typeof d.target === 'object' ? d.target : nodes.find((n) => n.id === d.target);
+          return target?.y || 0;
+        });
+
+      node.attr('transform', (d) => `translate(${d.x || 0},${d.y || 0})`);
+    });
+
+    function dragstarted(event: d3.D3DragEvent<SVGGElement, PaperNode, PaperNode>) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      event.subject.fx = event.subject.x;
+      event.subject.fy = event.subject.y;
+    }
+
+    function dragged(event: d3.D3DragEvent<SVGGElement, PaperNode, PaperNode>) {
+      const year = event.subject.paper.year || 0;
+      const range = yearRanges.get(year);
+      
+      if (range) {
+        const constrainedX = Math.max(range.min, Math.min(range.max, event.x));
+        event.subject.fx = constrainedX;
+      } else {
+        event.subject.fx = event.x;
+      }
+      event.subject.fy = event.y;
+    }
+
+    function dragended(event: d3.D3DragEvent<SVGGElement, PaperNode, PaperNode>) {
+      if (!event.active) simulation.alphaTarget(0);
+      event.subject.fx = null;
+      event.subject.fy = null;
+    }
   };
 
   const PaperCard: React.FC<{ paper: Paper; type: 'cites' | 'cited_by' }> = ({ paper, type }) => {

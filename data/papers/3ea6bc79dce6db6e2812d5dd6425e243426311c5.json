@@ -1,0 +1,32 @@
+{
+    "paperId": "3ea6bc79dce6db6e2812d5dd6425e243426311c5",
+    "title": "DForest: A Minimal Dimensionality-Aware Indexing for High-Dimensional Exact Similarity Search",
+    "year": 2024,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Lingli Li",
+        "Wenjing Sun",
+        "Baohua Wu"
+    ],
+    "doi": "10.1109/TKDE.2024.3381111",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3ea6bc79dce6db6e2812d5dd6425e243426311c5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://figshare.com/articles/preprint/DForest_A_Minimal_Dimensionality-Aware_Indexing_for_High-Dimensional_Exact_Similarity_Search/23550093/2/files/41882004.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The problem of similarity search in high-dimensional space is a fundamental problem with numerous applications in computer science, yet it remains challenging due to the curse of dimensionality. This paper introduces DForest, a novel indexing approach designed to address this challenge for both range and kNN queries on high-dimensional data. Unlike previous similarity search approaches that apply a fixed dimensionality reduction to all objects uniformly, our approach determines the minimal dimensionality required for each object within a specified loss threshold and then reduces the dimensionality for each object individually. Furthermore, the query performance is also optimized by deriving the upper and lower bounds of retrieved blocks and computing distances in a low-embedding space preferentially. Theoretical analysis is provided to support our search strategy. Extensive experiments on a variety of datasets verify the superiority of DForest over the state-of-the-art methods.",
+    "citationCount": 0,
+    "referenceCount": 37
+}

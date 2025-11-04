@@ -1,0 +1,35 @@
+{
+    "paperId": "20c8acfb3cc456ee3a12892ca8561b342ebb5ae0",
+    "title": "GRAM: Generative Recommendation via Semantic-aware Multi-granular Late Fusion",
+    "year": 2025,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+        "Sunkyung Lee",
+        "Minjin Choi",
+        "Eunseong Choi",
+        "Hye-young Kim",
+        "Jongwuk Lee"
+    ],
+    "doi": "10.48550/arXiv.2506.01673",
+    "arxivId": "2506.01673",
+    "url": "https://www.semanticscholar.org/paper/20c8acfb3cc456ee3a12892ca8561b342ebb5ae0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative recommendation is an emerging paradigm that leverages the extensive knowledge of large language models by formulating recommendations into a text-to-text generation task. However, existing studies face two key limitations in (i) incorporating implicit item relationships and (ii) utilizing rich yet lengthy item information. To address these challenges, we propose a Generative Recommender via semantic-Aware Multi-granular late fusion (GRAM), introducing two synergistic innovations. First, we design semantic-to-lexical translation to encode implicit hierarchical and collaborative item relationships into the vocabulary space of LLMs. Second, we present multi-granular late fusion to integrate rich semantics efficiently with minimal information loss. It employs separate encoders for multi-granular prompts, delaying the fusion until the decoding stage. Experiments on four benchmark datasets show that GRAM outperforms eight state-of-the-art generative recommendation models, achieving significant improvements of 11.5-16.0% in Recall@5 and 5.3-13.6% in NDCG@5. The source code is available at https://github.com/skleee/GRAM.",
+    "citationCount": 2,
+    "referenceCount": 58
+}

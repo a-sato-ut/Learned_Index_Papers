@@ -1,0 +1,36 @@
+{
+    "paperId": "cd70bbd80f4e07b18ee2cc339e13feb15b87e934",
+    "title": "Optimized Tokenization for Transcribed Error Correction",
+    "year": 2023,
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+        "Tomer Wullach",
+        "Shlomo E. Chazan"
+    ],
+    "doi": "10.48550/arXiv.2310.10704",
+    "arxivId": "2310.10704",
+    "url": "https://www.semanticscholar.org/paper/cd70bbd80f4e07b18ee2cc339e13feb15b87e934",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The challenges facing speech recognition systems, such as variations in pronunciations, adverse audio conditions, and the scarcity of labeled data, emphasize the necessity for a post-processing step that corrects recurring errors. Previous research has shown the advantages of employing dedicated error correction models, yet training such models requires large amounts of labeled data which is not easily obtained. To overcome this limitation, synthetic transcribed-like data is often utilized, however, bridging the distribution gap between transcribed errors and synthetic noise is not trivial. In this paper, we demonstrate that the performance of correction models can be significantly increased by training solely using synthetic data. Specifically, we empirically show that: (1) synthetic data generated using the error distribution derived from a set of transcribed data outperforms the common approach of applying random perturbations; (2) applying language-specific adjustments to the vocabulary of a BPE tokenizer strike a balance between adapting to unseen distributions and retaining knowledge of transcribed errors. We showcase the benefits of these key observations, and evaluate our approach using multiple languages, speech recognition systems and prominent speech recognition datasets.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

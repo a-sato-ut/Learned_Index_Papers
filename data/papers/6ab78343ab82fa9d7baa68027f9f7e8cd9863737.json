@@ -1,0 +1,32 @@
+{
+    "paperId": "6ab78343ab82fa9d7baa68027f9f7e8cd9863737",
+    "title": "Finding Memo: Extractive Memorization in Constrained Sequence Generation Tasks",
+    "year": 2022,
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+        "Vikas Raunak",
+        "Arul Menezes"
+    ],
+    "doi": "10.48550/arXiv.2210.12929",
+    "arxivId": "2210.12929",
+    "url": "https://www.semanticscholar.org/paper/6ab78343ab82fa9d7baa68027f9f7e8cd9863737",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2210.12929",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Memorization presents a challenge for several constrained Natural Language Generation (NLG) tasks such as Neural Machine Translation (NMT), wherein the proclivity of neural models to memorize noisy and atypical samples reacts adversely with the noisy (web crawled) datasets. However, previous studies of memorization in constrained NLG tasks have only focused on counterfactual memorization, linking it to the problem of hallucinations. In this work, we propose a new, inexpensive algorithm for extractive memorization (exact training data generation under insufficient context) in constrained sequence generation tasks and use it to study extractive memorization and its effects in NMT. We demonstrate that extractive memorization poses a serious threat to NMT reliability by qualitatively and quantitatively characterizing the memorized samples as well as the model behavior in their vicinity. Based on empirical observations, we develop a simple algorithm which elicits non-memorized translations of memorized samples from the same model, for a large fraction of such samples. Finally, we show that the proposed algorithm could also be leveraged to mitigate memorization in the model through finetuning. We have released the code to reproduce our results at https://github.com/vyraun/Finding-Memo.",
+    "citationCount": 14,
+    "referenceCount": 43
+}

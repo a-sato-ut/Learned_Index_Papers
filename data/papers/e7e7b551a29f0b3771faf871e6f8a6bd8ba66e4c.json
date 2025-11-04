@@ -1,0 +1,37 @@
+{
+    "paperId": "e7e7b551a29f0b3771faf871e6f8a6bd8ba66e4c",
+    "title": "LePaRD: A Large-Scale Dataset of Judges Citing Precedents",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Robert Mahari",
+        "Dominik Stammbach",
+        "Elliott Ash",
+        "A. Pentland"
+    ],
+    "doi": "10.48550/arXiv.2311.09356",
+    "arxivId": "2311.09356",
+    "url": "https://www.semanticscholar.org/paper/e7e7b551a29f0b3771faf871e6f8a6bd8ba66e4c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Law",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present the Legal Passage Retrieval Dataset LePaRD. LePaRD is a massive collection of U.S. federal judicial citations to precedent in context. The dataset aims to facilitate work on legal passage prediction, a challenging practice-oriented legal retrieval and reasoning task. Legal passage prediction seeks to predict relevant passages from precedential court decisions given the context of a legal argument. We extensively evaluate various retrieval approaches on LePaRD, and find that classification appears to work best. However, we note that legal precedent prediction is a difficult task, and there remains significant room for improvement. We hope that by publishing LePaRD, we will encourage others to engage with a legal NLP task that promises to help expand access to justice by reducing the burden associated with legal research. A subset of the LePaRD dataset is freely available and the whole dataset will be released upon publication.",
+    "citationCount": 3,
+    "referenceCount": 45
+}

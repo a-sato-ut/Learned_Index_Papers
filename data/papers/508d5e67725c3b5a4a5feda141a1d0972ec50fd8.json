@@ -1,0 +1,28 @@
+{
+    "paperId": "508d5e67725c3b5a4a5feda141a1d0972ec50fd8",
+    "title": "Implementing Semantic Join Operators Efficiently",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Immanuel Trummer"
+    ],
+    "doi": null,
+    "arxivId": "2510.08489",
+    "url": "https://www.semanticscholar.org/paper/508d5e67725c3b5a4a5feda141a1d0972ec50fd8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Semantic query processing engines often support semantic joins, enabling users to match rows that satisfy conditions specified in natural language. Such join conditions can be evaluated using large language models (LLMs) that solve novel tasks without task-specific training. Currently, many semantic query processing engines implement semantic joins via nested loops, invoking the LLM to evaluate the join condition on row pairs. Instead, this paper proposes a novel algorithm, inspired by the block nested loops join operator implementation in traditional database systems. The proposed algorithm integrates batches of rows from both input tables into a single prompt. The goal of the LLM invocation is to identify all matching row pairs in the current input. The paper introduces formulas that can be used to optimize the size of the row batches, taking into account constraints on the size of the LLM context window (limiting both input and output size). An adaptive variant of the proposed algorithm refers to cases in which the size of the output is difficult to estimate. A formal analysis of asymptotic processing costs, as well as empirical results, demonstrates that the proposed approach reduces costs significantly and performs well compared to join implementations used by recent semantic query processing engines.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

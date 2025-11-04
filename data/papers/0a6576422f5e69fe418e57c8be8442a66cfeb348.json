@@ -1,0 +1,38 @@
+{
+    "paperId": "0a6576422f5e69fe418e57c8be8442a66cfeb348",
+    "title": "Online Matching in Geometric Random Graphs",
+    "year": 2023,
+    "venue": "Mathematics of Operations Research",
+    "authors": [
+        "Flore Sentenac",
+        "Nathan Noiry",
+        "M. Lerasle",
+        "Laurent M'enard",
+        "Vianney Perchet"
+    ],
+    "doi": "10.48550/arXiv.2306.07891",
+    "arxivId": "2306.07891",
+    "url": "https://www.semanticscholar.org/paper/0a6576422f5e69fe418e57c8be8442a66cfeb348",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2306.07891",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We investigate online maximum cardinality matching, a central problem in ad allocation. In this problem, users are revealed sequentially, and each new user can be paired with any previously unmatched campaign that it is compatible with. Despite the limited theoretical guarantees, the greedy algorithm, which matches incoming users with any available campaign, exhibits outstanding performance in practice. Some theoretical support for this practical success has been established in specific classes of graphs, where the connections between different vertices lack strong correlations—an assumption not always valid in real-world situations. To bridge this gap, we focus on the following model; both users and campaigns are represented as points uniformly distributed in the interval [0, 1], and a user is eligible to be paired with a campaign if they are “similar enough,” meaning that the distance between their respective points is less than [Formula: see text], where [Formula: see text] is a model parameter. As a benchmark, we determine the size of the optimal offline matching in these bipartite one-dimensional random geometric graphs. We achieve this by introducing an algorithm that constructs a maximum matching and analyzing it. We then turn to the online setting and investigate the number of matches made by the online algorithm Closest, which pairs incoming points with their nearest available neighbors in a greedy manner. We demonstrate that the algorithm’s performance can be compared with its fluid limit, which is completely characterized as the solution of a specific partial differential equation (PDE). From this PDE solution, we can compute the competitive ratio of Closest, and our computations reveal that it remains significantly better than its worst-case guarantee. This model turns out to be closely related to the online minimum cost matching problem, and we can extend the results obtained here to refine certain findings in that area of research. Specifically, we determine the exact asymptotic cost of Closest in the small excess regime, providing a more accurate estimate than the previously known loose upper bound. Funding: M. Lerasle’s research is supported by Agency (ANR), “Investissements d’Avenir” [LabEx Ecodec/ANR-11-LABX-0047]. This research was supported in part by the French National Research Agency (ANR) in the framework of the PEPR IA FOUNDRY project [ANR-23-PEIA-0003] and through the Grant DOOM ANR23-CE23-0002. It was also funded by the European Union [ERC, Ocean, 101071601]. L. Ménard’s research is supported by the ANR grant ProGraM [ANR-19-CE40-0025].",
+    "citationCount": 4,
+    "referenceCount": 34
+}

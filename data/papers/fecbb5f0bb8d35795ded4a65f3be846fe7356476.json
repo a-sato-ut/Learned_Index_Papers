@@ -1,0 +1,33 @@
+{
+    "paperId": "fecbb5f0bb8d35795ded4a65f3be846fe7356476",
+    "title": "Retrieval-in-the-Chain: Bootstrapping Large Language Models for Generative Retrieval",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Yingchen Zhang",
+        "Ruqing Zhang",
+        "Jiafeng Guo",
+        "Wenjun Peng",
+        "Sen Li",
+        "Fuyu Lv"
+    ],
+    "doi": null,
+    "arxivId": "2510.13095",
+    "url": "https://www.semanticscholar.org/paper/fecbb5f0bb8d35795ded4a65f3be846fe7356476",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative retrieval (GR) is an emerging paradigm that leverages large language models (LLMs) to autoregressively generate document identifiers (docids) relevant to a given query. Prior works have focused on leveraging the generative capabilities of LLMs to improve GR, while overlooking that their reasoning capabilities could likewise help. This raises a key question: Can explicit reasoning benefit GR? To investigate, we first conduct a preliminary study where an LLM is prompted to generate free-form chain-of-thought (CoT) reasoning before performing constrained docid decoding. Although this method outperforms standard GR, the generated reasoning tends to be verbose and poorly aligned with the docid space. These limitations motivate the development of a reasoning mechanism better tailored to GR. Therefore, we propose Reason-for-Retrieval (R4R), a reasoning-augmented framework for GR that converts free-form CoT reasoning into a compact, structured format, and iteratively refines the reasoning during the retrieval process. R4R augments an existing GR method by leveraging a reasoning-capable LLM that has been instruction-tuned for GR. At inference time, R4R first uses the LLM to generate an initial structured reasoning; then the same LLM alternates between (i) constrained decoding with the chosen GR method to produce candidate docids and (ii) updating the reasoning based on retrieval results to improve the next round. R4R does not require additional models or training, and instead a single LLM serves as both the reasoning generator and the retriever. Extensive experiments on Natural Questions, MS MARCO, and a real-world item-search benchmark validate the effectiveness of R4R.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

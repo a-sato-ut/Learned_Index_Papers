@@ -1,0 +1,35 @@
+{
+    "paperId": "5beaeee1e27007bd12967480bb9c379cebd15e6e",
+    "title": "Recent Advances in Generative Information Retrieval",
+    "year": 2023,
+    "venue": "SIGIR-AP",
+    "authors": [
+        "Yubao Tang",
+        "Ruqing Zhang",
+        "Jiafeng Guo",
+        "M. de Rijke"
+    ],
+    "doi": "10.1145/3589335.3641239",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5beaeee1e27007bd12967480bb9c379cebd15e6e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3589335.3641239",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generative retrieval (GR) has witnessed significant growth recently in the area of information retrieval. Compared to the traditional \"index-retrieve-then-rank'' pipeline, the GR paradigm aims to consolidate all information within a corpus into a single model. Typically, a sequence-to-sequence model is trained to directly map a query to its relevant document identifiers (i.e., docids). This tutorial offers an introduction to the core concepts of the GR paradigm and a comprehensive overview of recent advances in its foundations and applications. We start by providing preliminary information covering foundational aspects and problem formulations of GR. Then, our focus shifts towards recent progress in docid design, training approaches, inference strategies, and applications of GR. We end by outlining challenges and issuing a call for future GR research.This tutorial is intended to be beneficial to both researchers and industry practitioners interested in developing novel GR solutions or applying them in real-world scenarios.",
+    "citationCount": 22,
+    "referenceCount": 49
+}

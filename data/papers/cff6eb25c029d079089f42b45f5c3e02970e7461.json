@@ -1,0 +1,44 @@
+{
+    "paperId": "cff6eb25c029d079089f42b45f5c3e02970e7461",
+    "title": "ExpertQA: Expert-Curated Questions and Attributed Answers",
+    "year": 2023,
+    "venue": "North American Chapter of the Association for Computational Linguistics",
+    "authors": [
+        "Chaitanya Malaviya",
+        "Subin Lee",
+        "Sihao Chen",
+        "Elizabeth Sieber",
+        "Mark Yatskar",
+        "Dan Roth"
+    ],
+    "doi": "10.48550/arXiv.2309.07852",
+    "arxivId": "2309.07852",
+    "url": "https://www.semanticscholar.org/paper/cff6eb25c029d079089f42b45f5c3e02970e7461",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2309.07852",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Law",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As language models are adopted by a more sophisticated and diverse set of users, the importance of guaranteeing that they provide factually correct information supported by verifiable sources is critical across fields of study. This is especially the case for high-stakes fields, such as medicine and law, where the risk of propagating false information is high and can lead to undesirable societal consequences. Previous work studying attribution and factuality has not focused on analyzing these characteristics of language model outputs in domain-specific scenarios. In this work, we conduct human evaluation of responses from a few representative systems along various axes of attribution and factuality, by bringing domain experts in the loop. Specifically, we collect expert-curated questions from 484 participants across 32 fields of study, and then ask the same experts to evaluate generated responses to their own questions. In addition, we ask experts to improve upon responses from language models. The output of our analysis is ExpertQA, a high-quality long-form QA dataset with 2177 questions spanning 32 fields, along with verified answers and attributions for claims in the answers.",
+    "citationCount": 78,
+    "referenceCount": 90
+}

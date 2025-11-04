@@ -1,0 +1,40 @@
+{
+    "paperId": "d4587650ea1bbe9b923559747d43dba2b83784d4",
+    "title": "Poseidon: Safe, Fast and Scalable Persistent Memory Allocator",
+    "year": 2020,
+    "venue": "International Middleware Conference",
+    "authors": [
+        "Anthony Demeri",
+        "Wook-Hee Kim",
+        "Madhava Krishnan Ramanathan",
+        "Jaeho Kim",
+        "Mohannad Ismail",
+        "Changwoo Min"
+    ],
+    "doi": "10.1145/3423211.3425671",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d4587650ea1bbe9b923559747d43dba2b83784d4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Persistent memory allocator is an essential component of any Non-Volatile Main Memory (NVMM) application. A slow memory allocator can bottleneck the entire application stack, while an unsecure memory allocator can render applications inconsistent upon program bugs or system failure. Unlike DRAM-based memory allocators, it is indispensable for an NVMM allocator to guarantee its heap metadata safety from both internal and external errors. An effective NVMM memory allocator should be 1) safe, 2) scalable, and 3) high performing. Unfortunately, none of the existing persistent memory allocators achieve all three requisites. For example, we found that even Intel's de-facto NVMM allocator-libpmemobj is vulnerable to silent data corruption and persistent memory leaks resulting from a simple heap overflow. In this paper, we propose Poseidon, a safe, fast, and scalable persistent memory allocator. The premise of Poseidon revolves around providing a user application with per-CPU sub-heaps for scalability and high performance, while managing the heap metadata in a segregated fashion and efficiently protecting the metadata using a scalable hardware-based protection scheme, Intel's Memory Protection Keys (MPK). We evaluate Poseidon with a wide array of microbenchmarks and real-world benchmarks, noting: Poseidon outperforms the state-of-art allocators by a significant margin, showing improved scalability and performance, while also guaranteeing heap metadata protection.",
+    "citationCount": 21,
+    "referenceCount": 45
+}

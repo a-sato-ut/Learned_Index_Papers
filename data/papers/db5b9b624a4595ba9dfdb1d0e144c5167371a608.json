@@ -1,0 +1,34 @@
+{
+    "paperId": "db5b9b624a4595ba9dfdb1d0e144c5167371a608",
+    "title": "On the Privacy Risk of In-context Learning",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Haonan Duan",
+        "Adam Dziedzic",
+        "Mohammad Yaghini",
+        "Nicolas Papernot",
+        "Franziska Boenisch"
+    ],
+    "doi": "10.48550/arXiv.2411.10512",
+    "arxivId": "2411.10512",
+    "url": "https://www.semanticscholar.org/paper/db5b9b624a4595ba9dfdb1d0e144c5167371a608",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large language models (LLMs) are excellent few-shot learners. They can perform a wide variety of tasks purely based on natural language prompts provided to them. These prompts contain data of a specific downstream task -- often the private dataset of a party, e.g., a company that wants to leverage the LLM for their purposes. We show that deploying prompted models presents a significant privacy risk for the data used within the prompt by instantiating a highly effective membership inference attack. We also observe that the privacy risk of prompted models exceeds fine-tuned models at the same utility levels. After identifying the model's sensitivity to their prompts -- in the form of a significantly higher prediction confidence on the prompted data -- as a cause for the increased risk, we propose ensembling as a mitigation strategy. By aggregating over multiple different versions of a prompted model, membership inference risk can be decreased.",
+    "citationCount": 50,
+    "referenceCount": 48
+}

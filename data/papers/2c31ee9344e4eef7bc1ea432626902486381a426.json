@@ -1,0 +1,32 @@
+{
+    "paperId": "2c31ee9344e4eef7bc1ea432626902486381a426",
+    "title": "Mitigating Memorization in LLMs using Activation Steering",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Manan Suri",
+        "Nishit Anand",
+        "Amisha Bhaskar"
+    ],
+    "doi": "10.48550/arXiv.2503.06040",
+    "arxivId": "2503.06040",
+    "url": "https://www.semanticscholar.org/paper/2c31ee9344e4eef7bc1ea432626902486381a426",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The memorization of training data by Large Language Models (LLMs) poses significant risks, including privacy leaks and the regurgitation of copyrighted content. Activation steering, a technique that directly intervenes in model activations, has emerged as a promising approach for manipulating LLMs. In this work, we explore the effectiveness of activation steering in reducing memorization while preserving generalization capabilities. We conduct empirical evaluations using a controlled memorization benchmark of literary material and demonstrate that our method successfully suppresses memorized content with minimal degradation in model performance in Gemma. Additionally, we analyze the trade-offs between suppression effectiveness and linguistic fluency, highlighting the advantages and limitations of activation-based interventions. Our findings contribute to ongoing efforts in developing safer and more privacy-preserving LLMs by providing a practical and efficient mechanism to mitigate unintended memorization.",
+    "citationCount": 5,
+    "referenceCount": 38
+}
