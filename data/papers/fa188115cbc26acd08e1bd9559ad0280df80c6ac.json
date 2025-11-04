@@ -1,0 +1,38 @@
+{
+    "paperId": "fa188115cbc26acd08e1bd9559ad0280df80c6ac",
+    "title": "Matting by Generation",
+    "year": 2024,
+    "venue": "International Conference on Computer Graphics and Interactive Techniques",
+    "authors": [
+        "Zhixiang Wang",
+        "Baiang Li",
+        "Jian Wang",
+        "Yu-Lun Liu",
+        "Jinwei Gu",
+        "Yung-Yu Chuang",
+        "Shin’ichi Satoh"
+    ],
+    "doi": "10.1145/3641519.3657519",
+    "arxivId": "2407.21017",
+    "url": "https://www.semanticscholar.org/paper/fa188115cbc26acd08e1bd9559ad0280df80c6ac",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper introduces an innovative approach for image matting that redefines the traditional regression-based task as a generative modeling challenge. Our method harnesses the capabilities of latent diffusion models, enriched with extensive pre-trained knowledge, to regularize the matting process. We present novel architectural innovations that empower our model to produce mattes with superior resolution and detail. The proposed method is versatile and can perform both guidance-free and guidance-based image matting, accommodating a variety of additional cues. Our comprehensive evaluation across three benchmark datasets demonstrates the superior performance of our approach, both quantitatively and qualitatively. The results not only reflect our method’s robust effectiveness but also highlight its ability to generate visually compelling mattes that approach photorealistic quality. The code for this paper is available at https://github.com/lightChaserX/alphaLDM.",
+    "citationCount": 9,
+    "referenceCount": 53
+}

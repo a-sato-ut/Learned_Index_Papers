@@ -1,0 +1,32 @@
+{
+    "paperId": "90d1c18f33ca7e8c44cff2c115f0ddf7faa94907",
+    "title": "Search results diversification for effective fair ranking in academic search",
+    "year": 2021,
+    "venue": "Information Retrieval Journal",
+    "authors": [
+        "Graham Mcdonald",
+        "Craig Macdonald",
+        "I. Ounis"
+    ],
+    "doi": "10.1007/s10791-021-09399-z",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/90d1c18f33ca7e8c44cff2c115f0ddf7faa94907",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s10791-021-09399-z.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Providing users with relevant search results has been the primary focus of information retrieval research. However, focusing on relevance alone can lead to undesirable side effects. For example, small differences between the relevance scores of documents that are ranked by relevance alone can result in large differences in the exposure that the authors of relevant documents receive, i.e., the likelihood that the documents will be seen by searchers. Therefore, developing fair ranking techniques to try to ensure that search results are not dominated, for example, by certain information sources is of growing interest, to mitigate against such biases. In this work, we argue that generating fair rankings can be cast as a search results diversification problem across a number of assumed fairness groups, where groups can represent the demographics or other characteristics of information sources. In the context of academic search, as in the TREC Fair Ranking Track, which aims to be fair to unknown groups of authors, we evaluate three well-known search results diversification approaches from the literature to generate rankings that are fair to multiple assumed fairness groups, e.g. early-career researchers vs. highly-experienced authors. Our experiments on the 2019 and 2020 TREC datasets show that explicit search results diversification is a viable approach for generating effective rankings that are fair to information sources. In particular, we show that building on xQuAD diversification as a fairness component can result in a significant (p<0.05\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$p<0.05$$\\end{document}) increase (up to 50% in our experiments) in the fairness of exposure that authors from unknown protected groups receive.",
+    "citationCount": 18,
+    "referenceCount": 66
+}

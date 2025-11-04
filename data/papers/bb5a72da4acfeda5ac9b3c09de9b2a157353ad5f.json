@@ -1,0 +1,34 @@
+{
+    "paperId": "bb5a72da4acfeda5ac9b3c09de9b2a157353ad5f",
+    "title": "Binary Neural Network with P4 on Programmable Data Plane",
+    "year": 2022,
+    "venue": "International Conference on Mobile Ad-hoc and Sensor Networks",
+    "authors": [
+        "Junming Luo",
+        "Waixi Liu",
+        "Miaoquan Tan",
+        "Haosen Chen"
+    ],
+    "doi": "10.1109/MSN57253.2022.00155",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bb5a72da4acfeda5ac9b3c09de9b2a157353ad5f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deploying machine learning (ML) on the programmable data plane (PDP) has some unique advantages, such as quickly responding to network dynamics. However, compared to demands of ML, PDP have limited operations, computing and memory resources. Thus, some works only deploy simple traditional ML approaches (e.g., decision tree, K-means) on PDP, but their performance is not satisfactory. In this article, we propose P4-BNN (Binary Neural Network based on P4), which uses P4 to completely executes binary neural network on PDP. P4-BNN addresses some challenges. First, in order to use shift and simple integer arithmetic operations to replace multiplication, P4-BNN proposes a tailor-made data structure. Second, we use an equivalent replacement programming method to support matrix operation required by ML. Third, we propose a normalization method in PDP which needn't floating-point operations. Fourth, by using register storing the model parameters, the weights of P4-BNN model can be updated without interrupting the P4 program running. Finally, as two use-cases, we deploy P4-BNN on a Netronome SmartNIC (Agilio CX 2x10GbE) to achieve flow classification and anomaly detection. Compared to the N3IC, decision tree and K-means, the accuracy of P4-BNN has 1.7%, 3.4% and 47.7% improvement respectively.",
+    "citationCount": 10,
+    "referenceCount": 21
+}

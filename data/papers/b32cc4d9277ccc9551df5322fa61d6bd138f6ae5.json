@@ -1,0 +1,30 @@
+{
+    "paperId": "b32cc4d9277ccc9551df5322fa61d6bd138f6ae5",
+    "title": "IoT for Agricultural Information Generation and Recommendation: A Deep Learning-Based Approach",
+    "year": 2022,
+    "venue": "Mobile Information Systems",
+    "authors": [
+        "Huibo Wang",
+        "Yu Zhao",
+        "Chengzhi Shao"
+    ],
+    "doi": "10.1155/2022/7378755",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b32cc4d9277ccc9551df5322fa61d6bd138f6ae5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://downloads.hindawi.com/journals/misy/2022/7378755.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Agricultural and Food Sciences",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Agriculture is the foundation of national economy. Therefore, countries all over the world—developed and developing countries—attach great importance to the sustainable development of agriculture. With the rapid development of Internet of Things (IoT) technology, advance applications are being designed to enhance agricultural economy. With the application of IoT, the production mode of traditional agriculture has been restructured and rationalized. Based on the applications of IoT in agriculture, this paper presents a method to automatically classify and recommend agricultural information. The standard domain-related theories and information service system are exploited to promote IoT technology in the construction of agricultural informatization. A convolutional neural network (CNN) model is used to classify agricultural information based on the vector file generated after preprocessing textual agricultural data. With the clustering method, the influence of unbalanced number of documents in the dataset is minimized. Finally, an information recommendation method based on multimodal interaction behavior is proposed for agricultural information recommendation. Potential features from textual information are extracted which are then fed to long short-term memory (LSTM) in connection with the interaction behavior. LSTM is used for the prediction of the possibility of interaction with respect to the information recommendations system. The experimental results show the feasibility of CNN in agricultural information classification problem. A commendable clustering accuracy is obtained for the agriculture category containing a large number of documents. However, the category with fewer documents is less clustered. The model may be used to effectively extract and classify agricultural information and has great significance in structuring and shaping agricultural information for convenient use in agricultural decision-making.",
+    "citationCount": 4,
+    "referenceCount": 28
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "06f91d7f2c0bddfa5150150a9fe2da9b216acdd0",
+    "title": "Mammoths Are Slow: The Overlooked Transactions of Graph Data",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Audrey Cheng",
+        "Jack Waudby",
+        "Hugo Firth",
+        "Natacha Crooks",
+        "Ion Stoica"
+    ],
+    "doi": "10.14778/3636218.3636241",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/06f91d7f2c0bddfa5150150a9fe2da9b216acdd0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n This paper argues for better concurrency control to support\n mammoth transactions\n , which read and write to many items. While these requests are prevalent on graph data, few systems support them efficiently. Currently, developers must make the uncomfortable choice between accepting dismal performance or abandoning transactional semantics. Applications deserve better: we believe that inherent graph properties provide a path forward to designing efficient concurrency control that preserves strong isolation.\n",
+    "citationCount": 9,
+    "referenceCount": 69
+}

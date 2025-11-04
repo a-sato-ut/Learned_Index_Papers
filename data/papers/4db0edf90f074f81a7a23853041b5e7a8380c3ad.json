@@ -1,0 +1,36 @@
+{
+    "paperId": "4db0edf90f074f81a7a23853041b5e7a8380c3ad",
+    "title": "Surprisal-Triggered Conditional Computation with Neural Networks",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Loren Lugosch",
+        "D. Nowrouzezahrai",
+        "B. Meyer"
+    ],
+    "doi": null,
+    "arxivId": "2006.01659",
+    "url": "https://www.semanticscholar.org/paper/4db0edf90f074f81a7a23853041b5e7a8380c3ad",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Autoregressive neural network models have been used successfully for sequence generation, feature extraction, and hypothesis scoring. This paper presents yet another use for these models: allocating more computation to more difficult inputs. In our model, an autoregressive model is used both to extract features and to predict observations in a stream of input observations. The surprisal of the input, measured as the negative log-likelihood of the current observation according to the autoregressive model, is used as a measure of input difficulty. This in turn determines whether a small, fast network, or a big, slow network, is used. Experiments on two speech recognition tasks show that our model can match the performance of a baseline in which the big network is always used with 15% fewer FLOPs.",
+    "citationCount": 6,
+    "referenceCount": 89
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "8ee053a74cf980a0fd48270fb0a4325a1ca56eb7",
+    "title": "Bidirectional Distillation for Top-K Recommender System",
+    "year": 2021,
+    "venue": "The Web Conference",
+    "authors": [
+        "Wonbin Kweon",
+        "SeongKu Kang",
+        "Hwanjo Yu"
+    ],
+    "doi": "10.1145/3442381.3449878",
+    "arxivId": "2106.02870",
+    "url": "https://www.semanticscholar.org/paper/8ee053a74cf980a0fd48270fb0a4325a1ca56eb7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2106.02870",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recommender systems (RS) have started to employ knowledge distillation, which is a model compression technique training a compact model (student) with the knowledge transferred from a cumbersome model (teacher). The state-of-the-art methods rely on unidirectional distillation transferring the knowledge only from the teacher to the student, with an underlying assumption that the teacher is always superior to the student. However, we demonstrate that the student performs better than the teacher on a significant proportion of the test set, especially for RS. Based on this observation, we propose Bidirectional Distillation (BD) framework whereby both the teacher and the student collaboratively improve with each other. Specifically, each model is trained with the distillation loss that makes to follow the other’s prediction along with its original loss function. For effective bidirectional distillation, we propose rank discrepancy-aware sampling scheme to distill only the informative knowledge that can fully enhance each other. The proposed scheme is designed to effectively cope with a large performance gap between the teacher and the student. Trained in the bidirectional way, it turns out that both the teacher and the student are significantly improved compared to when being trained separately. Our extensive experiments on real-world datasets show that our proposed framework consistently outperforms the state-of-the-art competitors. We also provide analyses for an in-depth understanding of BD and ablation studies to verify the effectiveness of each proposed component.",
+    "citationCount": 52,
+    "referenceCount": 33
+}

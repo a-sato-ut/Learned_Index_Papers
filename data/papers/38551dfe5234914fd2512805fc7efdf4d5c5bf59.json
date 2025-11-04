@@ -1,0 +1,43 @@
+{
+    "paperId": "38551dfe5234914fd2512805fc7efdf4d5c5bf59",
+    "title": "AlignSeg: Feature-Aligned Segmentation Networks",
+    "year": 2020,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "authors": [
+        "Zilong Huang",
+        "Yunchao Wei",
+        "Xinggang Wang",
+        "Humphrey Shi",
+        "Wenyu Liu",
+        "Thomas S. Huang"
+    ],
+    "doi": "10.1109/TPAMI.2021.3062772",
+    "arxivId": "2003.00872",
+    "url": "https://www.semanticscholar.org/paper/38551dfe5234914fd2512805fc7efdf4d5c5bf59",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2003.00872",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Aggregating features in terms of different convolutional blocks or contextual embeddings has been proven to be an effective way to strengthen feature representations for semantic segmentation. However, most of the current popular network architectures tend to ignore the misalignment issues during the feature aggregation process caused by step-by-step downsampling operations and indiscriminate contextual information fusion. In this paper, we explore the principles in addressing such feature misalignment issues and inventively propose Feature-Aligned Segmentation Networks (AlignSeg). AlignSeg consists of two primary modules, i.e., the Aligned Feature Aggregation (AlignFA) module and the Aligned Context Modeling (AlignCM) module. First, AlignFA adopts a simple learnable interpolation strategy to learn transformation offsets of pixels, which can effectively relieve the feature misalignment issue caused by multi-resolution feature aggregation. Second, with the contextual embeddings in hand, AlignCM enables each pixel to choose private custom contextual information adaptively, making the contextual embeddings be better aligned. We validate the effectiveness of our AlignSeg network with extensive experiments on Cityscapes and ADE20K, achieving new state-of-the-art mIoU scores of 82.6 and 45.95 percent, respectively. Our source code is available at https://github.com/speedinghzl/AlignSeg.",
+    "citationCount": 169,
+    "referenceCount": 53
+}

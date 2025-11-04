@@ -1,0 +1,33 @@
+{
+    "paperId": "6b26641d12fd99bd3a32aa2fe610a1fc00ce9ae9",
+    "title": "Kitana: Efficient Data Augmentation Search for AutoML",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zezhou Huang",
+        "Pranav Subramaniam",
+        "R. Fernandez",
+        "Eugene Wu"
+    ],
+    "doi": "10.48550/arXiv.2305.10419",
+    "arxivId": "2305.10419",
+    "url": "https://www.semanticscholar.org/paper/6b26641d12fd99bd3a32aa2fe610a1fc00ce9ae9",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.10419",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "AutoML services provide a way for non-expert users to benefit from high-quality ML models without worrying about model design and deployment, in exchange for a charge per hour ($21.252 for VertexAI). However, existing AutoML services are model-centric, in that they are limited to extracting features and searching for models from initial training data-they are only as effective as the initial training data quality. With the increasing volume of tabular data available, there is a huge opportunity for data augmentation. For instance, vertical augmentation adds predictive features, while horizontal augmentation adds examples. This augmented training data yields potentially much better AutoML models at a lower cost. However, existing systems either forgo the augmentation opportunities that provide poor models, or apply expensive augmentation searching techniques that drain users' budgets. Kitana is a data-centric AutoML system that also searches for new tabular datasets that can augment the tabular training data with new features and/or examples. Kitana manages a corpus of datasets, exposes an AutoML interface to users and searches for augmentation with datasets in the corpus to improve AutoML performance. To accelerate search, Kitana applies aggressive pre-computation to train a factorized proxy model and evaluate each candidate augmentation within 0.1s. Kitana also uses a cost model to limit the time spent on augmentation search, supports expressive data access controls, and performs request caching to benefit from past similar requests. Using a corpus of 518 open-source datasets, Kitana produces higher quality models than existing AutoML systems in orders of magnitude less time. Across different user requests, Kitana increases the model R2 from 0.16 to 0.66 while reducing the cost by>100x compared to the naive factorized learning and SOTA data augmentation search.",
+    "citationCount": 7,
+    "referenceCount": 43
+}

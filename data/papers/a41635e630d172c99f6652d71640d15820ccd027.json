@@ -1,0 +1,33 @@
+{
+    "paperId": "a41635e630d172c99f6652d71640d15820ccd027",
+    "title": "Memory Management in Complex Join Queries: A Re-evaluation Study",
+    "year": 2024,
+    "venue": "ACM Symposium on Cloud Computing",
+    "authors": [
+        "Shiva Jahangiri",
+        "Michael J. Carey",
+        "J. Freytag"
+    ],
+    "doi": "10.1145/3698038.3698565",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a41635e630d172c99f6652d71640d15820ccd027",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficient multi-join query processing is crucial but remains a complex, ongoing challenge for high-performance data management systems (DBMSs). This paper studies the impact of different memory distribution techniques among join operators on different classes of multi-join query plans under different assumptions regarding memory availability and storage devices such as HDD and SSD on Amazon Web Services (AWS). We re-evaluate the results of one of the early impactful studies from the 1990s that was originally done using a simulator for the Gamma database system. The main goal of our study is to scientifically re-evaluate and build upon previous studies whose results have become the basis for the design of past and modern database systems, and to provide a solid foundation for understanding basic \"join physics\", which is essential for eventually designing a resource-based scheduler for concurrent complex workloads.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

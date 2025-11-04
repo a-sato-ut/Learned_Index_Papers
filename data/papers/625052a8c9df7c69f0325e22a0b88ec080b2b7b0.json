@@ -1,0 +1,41 @@
+{
+    "paperId": "625052a8c9df7c69f0325e22a0b88ec080b2b7b0",
+    "title": "Non-convex Optimization via Adaptive Stochastic Search for End-to-End Learning and Control",
+    "year": 2020,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Ioannis Exarchos",
+        "M. Pereira",
+        "Ziyi Wang",
+        "Evangelos A. Theodorou"
+    ],
+    "doi": null,
+    "arxivId": "2006.11992",
+    "url": "https://www.semanticscholar.org/paper/625052a8c9df7c69f0325e22a0b88ec080b2b7b0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this work we propose the use of adaptive stochastic search as a building block for general, non-convex optimization operations within deep neural network architectures. Specifically, for an objective function located at some layer in the network and parameterized by some network parameters, we employ adaptive stochastic search to perform optimization over its output. This operation is differentiable and does not obstruct the passing of gradients during backpropagation, thus enabling us to incorporate it as a component in end-to-end learning. We study the proposed optimization module's properties and benchmark it against two existing alternatives on a synthetic energy-based structured prediction task, and further showcase its use in stochastic optimal control applications.",
+    "citationCount": 4,
+    "referenceCount": 45
+}

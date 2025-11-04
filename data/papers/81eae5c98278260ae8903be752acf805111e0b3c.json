@@ -1,0 +1,37 @@
+{
+    "paperId": "81eae5c98278260ae8903be752acf805111e0b3c",
+    "title": "A Unified Model for Cardinality Estimation by Learning from Data and Queries via Sum-Product Networks",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jiawei Liu",
+        "Ju Fan",
+        "Tongyu Liu",
+        "Kai Zeng",
+        "Jiannan Wang",
+        "Quehuan Liu",
+        "Tao Ye",
+        "Nan Tang"
+    ],
+    "doi": "10.48550/arXiv.2505.08318",
+    "arxivId": "2505.08318",
+    "url": "https://www.semanticscholar.org/paper/81eae5c98278260ae8903be752acf805111e0b3c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cardinality estimation is a fundamental component in database systems, crucial for generating efficient execution plans. Despite advancements in learning-based cardinality estimation, existing methods may struggle to simultaneously optimize the key criteria: estimation accuracy, inference time, and storage overhead, limiting their practical applicability in real-world database environments. This paper introduces QSPN, a unified model that integrates both data distribution and query workload. QSPN achieves high estimation accuracy by modeling data distribution using the simple yet effective Sum-Product Network (SPN) structure. To ensure low inference time and reduce storage overhead, QSPN further partitions columns based on query access patterns. We formalize QSPN as a tree-based structure that extends SPNs by introducing two new node types: QProduct and QSplit. This paper studies the research challenges of developing efficient algorithms for the offline construction and online computation of QSPN. We conduct extensive experiments to evaluate QSPN in both single-table and multi-table cardinality estimation settings. The experimental results have demonstrated that QSPN achieves superior and robust performance on the three key criteria, compared with state-of-the-art approaches.",
+    "citationCount": 1,
+    "referenceCount": 34
+}

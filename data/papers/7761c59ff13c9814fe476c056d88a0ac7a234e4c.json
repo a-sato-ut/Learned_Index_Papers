@@ -1,0 +1,37 @@
+{
+    "paperId": "7761c59ff13c9814fe476c056d88a0ac7a234e4c",
+    "title": "GemNN: Gating-enhanced Multi-task Neural Networks with Feature Interaction Learning for CTR Prediction",
+    "year": 2021,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Hongliang Fei",
+        "Jingyuan Zhang",
+        "Xingxuan Zhou",
+        "Junhao Zhao",
+        "Xinyang Qi",
+        "Ping Li"
+    ],
+    "doi": "10.1145/3404835.3463116",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7761c59ff13c9814fe476c056d88a0ac7a234e4c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep neural network (DNN) models have been widely used for click-through rate (CTR) prediction in online advertising. The training framework typically consists of embedding layers and multi-layer perceptions (MLP). At Baidu Search Ads (a.k.a. Phoenix Nest), the new generation of CTR training platform has become PaddleBox, a GPU-based parameter server system. In this paper, we present Baidu's recently updated CTR training framework, called Gating-enhanced Multi-task Neural Networks (GemNN). In particular, we develop a neural network based multi-task learning model to predict CTR in a coarse-to-fine manner, which gradually reduces ad candidates and allows parameter sharing from upstream tasks to downstream tasks to improve the training efficiency. Also, we introduce a gating mechanism between embedding layers and MLP to learn feature interactions and control the information flow fed to MLP layers. We have launched our solution in Baidu PaddleBox platform and observed considerable improvements in both offline and online evaluations. It is now part of the current production~system.",
+    "citationCount": 47,
+    "referenceCount": 53
+}

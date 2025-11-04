@@ -1,0 +1,43 @@
+{
+    "paperId": "44de190cd49b8a892b3ef96fda7cc42727403455",
+    "title": "Cell-average based neural network method for hyperbolic and parabolic partial differential equations",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Changxin Qiu",
+        "Jue Yan"
+    ],
+    "doi": null,
+    "arxivId": "2107.00813",
+    "url": "https://www.semanticscholar.org/paper/44de190cd49b8a892b3ef96fda7cc42727403455",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Motivated by finite volume scheme, a cell-average based neural network method is proposed. The method is based on the integral or weak formulation of partial differential equations. A simple feed forward network is forced to learn the solution average evolution between two neighboring time steps. Offline supervised training is carried out to obtain the optimal network parameter set, which uniquely identifies one finite volume like neural network method. Once well trained, the network method is implemented as a finite volume scheme, thus is mesh dependent. Different to traditional numerical methods, our method can be relieved from the explicit scheme CFL restriction and can adapt to any time step size for solution evolution. For Heat equation, first order of convergence is observed and the errors are related to the spatial mesh size but are observed independent of the mesh size in time. The cell-average based neural network method can sharply evolve contact discontinuity with almost zero numerical diffusion introduced. Shock and rarefaction waves are well captured for nonlinear hyperbolic conservation laws.",
+    "citationCount": 10,
+    "referenceCount": 50
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "dd66f54fa721e3affa29e30e823e400c3e54a8f7",
+    "title": "Automatic and Efficient Customization of Neural Networks for ML Applications",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yuhan Liu",
+        "Chengcheng Wan",
+        "Kuntai Du",
+        "Henry Hoffmann",
+        "Junchen Jiang",
+        "Shan Lu",
+        "Michael Maire"
+    ],
+    "doi": "10.48550/arXiv.2310.04685",
+    "arxivId": "2310.04685",
+    "url": "https://www.semanticscholar.org/paper/dd66f54fa721e3affa29e30e823e400c3e54a8f7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2310.04685",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "ML APIs have greatly relieved application developers of the burden to design and train their own neural network models -- classifying objects in an image can now be as simple as one line of Python code to call an API. However, these APIs offer the same pre-trained models regardless of how their output is used by different applications. This can be suboptimal as not all ML inference errors can cause application failures, and the distinction between inference errors that can or cannot cause failures varies greatly across applications. To tackle this problem, we first study 77 real-world applications, which collectively use six ML APIs from two providers, to reveal common patterns of how ML API output affects applications' decision processes. Inspired by the findings, we propose ChameleonAPI, an optimization framework for ML APIs, which takes effect without changing the application source code. ChameleonAPI provides application developers with a parser that automatically analyzes the application to produce an abstract of its decision process, which is then used to devise an application-specific loss function that only penalizes API output errors critical to the application. ChameleonAPI uses the loss function to efficiently train a neural network model customized for each application and deploys it to serve API invocations from the respective application via existing interface. Compared to a baseline that selects the best-of-all commercial ML API, we show that ChameleonAPI reduces incorrect application decisions by 43%.",
+    "citationCount": 1,
+    "referenceCount": 75
+}

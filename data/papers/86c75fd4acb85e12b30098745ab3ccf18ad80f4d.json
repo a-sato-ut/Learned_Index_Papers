@@ -1,0 +1,38 @@
+{
+    "paperId": "86c75fd4acb85e12b30098745ab3ccf18ad80f4d",
+    "title": "NUMA-Aware Non-Blocking Calendar Queue",
+    "year": 2020,
+    "venue": "IEEE International Symposium on Distributed Simulation and Real-Time Applications",
+    "authors": [
+        "Maryan Rab",
+        "Romolo Marotta",
+        "Mauro Ianni",
+        "Alessandro Pellegrini",
+        "F. Quaglia"
+    ],
+    "doi": "10.1109/DS-RT50469.2020.9213639",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/86c75fd4acb85e12b30098745ab3ccf18ad80f4d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern computing platforms are based on multi-processor/multi-core technology. This allows running applications with a high degree of hardware parallelism. However, medium-to-high end machines pose a problem related to the asymmetric delays threads experience when accessing shared data. Specifically, Non-Uniform-Memory-Access (NUMA) is the dominating technology—thanks to its capability for scaled-up memory bandwidth—which however imposes asymmetric distances between CPU-cores and memory banks, making an access by a thread to data placed on a far NUMA node severely impacting performance. In this article, we tackle this problem in the context of shared event-pool management, a relevant aspect in many fields, like parallel discrete event simulation. Specifically, we present a NUMA-aware calendar queue, which also has the advantage of making concurrent threads coordinate via a non-blocking scalable approach. Our proposal is based on work deferring combined with dynamic re-binding of the calendar queue operations (insertions/extractions) to the best suited among the concurrent threads hosted by the underlying computing platform. This changes the locality of the operations by threads in a way positively reflected onto NUMA tasks at the hardware level. We report the results of an experimental study, demonstrating the capability of our solution to achieve the order of 15% better performance compared to state-of-the-art solutions already suited for multicore environments.",
+    "citationCount": 5,
+    "referenceCount": 30
+}

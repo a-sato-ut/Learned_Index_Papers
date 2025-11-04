@@ -1,0 +1,34 @@
+{
+    "paperId": "23d9785730c0fa79d2036fb5c46989b3d6318871",
+    "title": "Fast Item Ranking under Neural Network based Measures",
+    "year": 2020,
+    "venue": "Web Search and Data Mining",
+    "authors": [
+        "Shulong Tan",
+        "Zhixin Zhou",
+        "Zhao-Ying Xu",
+        "Ping Li"
+    ],
+    "doi": "10.1145/3336191.3371830",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/23d9785730c0fa79d2036fb5c46989b3d6318871",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, plenty of neural network based recommendation models have demonstrated their strength in modeling complicated relationships between heterogeneous objects (i.e., users and items). However, the applications of these fine trained recommendation models are limited to the off-line manner or the re-ranking procedure (on a pre-filtered small subset of items), due to their time-consuming computations. Fast item ranking under learned neural network based ranking measures is largely still an open question. In this paper, we formulate ranking under neural network based measures as a generic ranking task, Optimal Binary Function Search (OBFS), which does not make strong assumptions for the ranking measures. We first analyze limitations of existing fast ranking methods (e.g., ANN search) and explain why they are not applicable for OBFS. Further, we propose a flexible graph-based solution for it, Binary Function Search on Graph (BFSG). It can achieve approximate optimal efficiently, with accessible conditions. Experiments demonstrate effectiveness and efficiency of the proposed method, in fast item ranking under typical neural network based measures.",
+    "citationCount": 40,
+    "referenceCount": 51
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "706142f553d1d934b04db9678a05231ba862766a",
+    "title": "Finding the Best of Both Worlds: Faster and More Robust Top-k Document Retrieval",
+    "year": 2020,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "O. Khattab",
+        "Mohammad Hammoud",
+        "T. Elsayed"
+    ],
+    "doi": "10.1145/3397271.3401076",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/706142f553d1d934b04db9678a05231ba862766a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many top-k document retrieval strategies have been proposed based on the WAND and MaxScore heuristics and yet, from recent work, it is surprisingly difficult to identify the \"fastest\" strategy. This becomes even more challenging when considering various retrieval criteria, like different ranking models and values of k. In this paper, we conduct the first extensive comparison between ten effective strategies, many of which were never compared before to our knowledge, examining their efficiency under five representative ranking models. Based on a careful analysis of the comparison, we propose LazyBM, a remarkably simple retrieval strategy that bridges the gap between the best performing WAND-based and MaxScore-based approaches. Empirically, LazyBM considerably outperforms all of the considered strategies across ranking models, values of k, and index configurations under both mean and tail query latency.",
+    "citationCount": 16,
+    "referenceCount": 42
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "fb65d940e6b45b5dc40128c9532b7a97889406fa",
+    "title": "Tagging Multi-Label Categories to Points of Interest From Check-In Data",
+    "year": 2023,
+    "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "authors": [
+        "Rimjhim",
+        "Sourav Kumar Dandapat"
+    ],
+    "doi": "10.1109/TETCI.2022.3229338",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fb65d940e6b45b5dc40128c9532b7a97889406fa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Category tag of Point Of Interest (POI) serves a crucial role in numerous Location Based Services (LBS) like finding a place of interest, POI recommendation, location-based advertisement, etc. However, it has been found that many POIs (around 30%) do not have any category information. Manual tagging of these categories is a very costly affair as it requires a physical visit to each POI. Hence, an automated method for category tagging of POIs has been identified as an important research problem. The problem of category tagging of POIs is still in its primary stage, requiring further exploration. In this work, we solve the problem in three broad steps i). feature identification, ii). feature extraction, and iii). tag assignment. For the first step, we consider sequential features, temporal features, and spatial features, which can be constructed using check-in data. For the second step, we generate POI embedding representing its features, using a graph-based unsupervised approach. For the final step, the problem is considered a multi-label classification problem. For this, we have used Classifier Chain algorithms which preserves inter-tag correlation. Comparison with state-of-the-art methodologies along with multiple variants of features and classification algorithms show a significant improvement of $5-34\\%$ by standard metric of average F1-score.",
+    "citationCount": 3,
+    "referenceCount": 65
+}

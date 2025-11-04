@@ -1,0 +1,41 @@
+{
+    "paperId": "71cf87600000b78082d639f992496afa18aeb9fe",
+    "title": "DBOS: A Proposal for a Data-Centric Operating System",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Michael J. Cafarella",
+        "D. DeWitt",
+        "V. Gadepally",
+        "J. Kepner",
+        "Christos Kozyrakis",
+        "Tim Kraska",
+        "M. Stonebraker",
+        "M. Zaharia"
+    ],
+    "doi": null,
+    "arxivId": "2007.11112",
+    "url": "https://www.semanticscholar.org/paper/71cf87600000b78082d639f992496afa18aeb9fe",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current operating systems are complex systems that were designed before today's computing environments. This makes it difficult for them to meet the scalability, heterogeneity, availability, and security challenges in current cloud and parallel computing environments. To address these problems, we propose a radically new OS design based on data-centric architecture: all operating system state should be represented uniformly as database tables, and operations on this state should be made via queries from otherwise stateless tasks. This design makes it easy to scale and evolve the OS without whole-system refactoring, inspect and debug system state, upgrade components without downtime, manage decisions using machine learning, and implement sophisticated security features. We discuss how a database OS (DBOS) can improve the programmability and performance of many of today's most important applications and propose a plan for the development of a DBOS proof of concept.",
+    "citationCount": 11,
+    "referenceCount": 80
+}

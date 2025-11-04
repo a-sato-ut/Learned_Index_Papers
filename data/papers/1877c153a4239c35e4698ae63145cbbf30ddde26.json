@@ -1,0 +1,29 @@
+{
+    "paperId": "1877c153a4239c35e4698ae63145cbbf30ddde26",
+    "title": "PERBANDINGAN KINERJA QUERY SQL JOIN TABLES DENGAN MENGGUNAKAN INDEX",
+    "year": 2023,
+    "venue": "Jurnal simantec",
+    "authors": [
+        "Kuniawan Eka Permana",
+        "M. K. Sophan",
+        "Arif Muntasa",
+        "A. Rahmat"
+    ],
+    "doi": "10.21107/simantec.v11i2.20288",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1877c153a4239c35e4698ae63145cbbf30ddde26",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.21107/simantec.v11i2.20288",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Database design without an index has an impact on SQL queries that are not optimal so that the application execution time is high. Query optimization plays a crucial role in improving the performance of database systems. One of the key techniques for query optimization is the use of indexes. Indexes are data structures that enable efficient data retrieval by providing quick access to specific data subsets. The purpose of this research compares the impact of using indexes versus not using indexes on query optimization especially in join tables. The comparison method uses query speed testing. There are three test scenarios performed. The first scenario is testing with one join on two tables. The second scenario is testing three joins on four tables and the third is testing three joins on four tables with conditions. Each scenario is performed on indexed tables and non-indexed tables. The results of the test show that queries with an index experience an increase in speed compared to queries without an index. In three experimental scenarios, an increase in query time speed was obtained, respectively 39.474%, 5.5% and 43.68%. Using an index can greatly improve the performance of queries by reducing the amount of data accessed and allowing for more efficient query optimization. Without an index, queries may require full table scans, leading to slower execution times, especially for larger tables.",
+    "citationCount": 1,
+    "referenceCount": 22
+}

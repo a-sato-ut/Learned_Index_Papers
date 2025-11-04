@@ -1,0 +1,31 @@
+{
+    "paperId": "5919f23dcd45bd72973f25f9f807de87f8422e0d",
+    "title": "TabRepo: A Large Scale Repository of Tabular Model Evaluations and its AutoML Applications",
+    "year": 2023,
+    "venue": "AutoML",
+    "authors": [
+        "David Salinas",
+        "Nick Erickson"
+    ],
+    "doi": "10.48550/arXiv.2311.02971",
+    "arxivId": "2311.02971",
+    "url": "https://www.semanticscholar.org/paper/5919f23dcd45bd72973f25f9f807de87f8422e0d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce TabRepo, a new dataset of tabular model evaluations and predictions. TabRepo contains the predictions and metrics of 1310 models evaluated on 200 classification and regression datasets. We illustrate the benefit of our dataset in multiple ways. First, we show that it allows to perform analysis such as comparing Hyperparameter Optimization against current AutoML systems while also considering ensembling at marginal cost by using precomputed model predictions. Second, we show that our dataset can be readily leveraged to perform transfer-learning. In particular, we show that applying standard transfer-learning techniques allows to outperform current state-of-the-art tabular systems in accuracy, runtime and latency.",
+    "citationCount": 22,
+    "referenceCount": 58
+}

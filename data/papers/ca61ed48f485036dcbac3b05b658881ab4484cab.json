@@ -1,0 +1,25 @@
+{
+    "paperId": "ca61ed48f485036dcbac3b05b658881ab4484cab",
+    "title": "Convolutional Neural Network Post-Compression Evaluation with Explainable AI",
+    "year": 2023,
+    "venue": "2023 Congress in Computer Science, Computer Engineering, & Applied Computing (CSCE)",
+    "authors": [
+        "Recep Erol",
+        "M. Milanova"
+    ],
+    "doi": "10.1109/CSCE60160.2023.00320",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ca61ed48f485036dcbac3b05b658881ab4484cab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study explores the limitations of traditional evaluation metrics in providing insight into the decision-making process of machine learning models, especially in post-training and post-compression evaluation. We examine the use of Grad-CAM to visualize the attention of the model and provide a more detailed understanding of its decision-making process. While accuracy and f'1 score provided valuable information about the overall performance of the models, the incorporation of Grad-CAM helped to identify instances where the model was correctly predicting the class but focusing on the wrong area of the image or vice versa. This research presents the experimental findings of the models' attention maps, which revealed unusual behavior by the models, indicating a generalization issue and suggesting that incorrect decisions may be hierarchically transferred to the pruned model. The results emphasize the need to prioritize posttraining evaluation to ensure the health of the model for deployment.",
+    "citationCount": 0,
+    "referenceCount": 22
+}

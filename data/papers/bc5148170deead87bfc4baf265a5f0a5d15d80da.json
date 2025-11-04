@@ -1,0 +1,40 @@
+{
+    "paperId": "bc5148170deead87bfc4baf265a5f0a5d15d80da",
+    "title": "ABS: Accumulation Bit-Width Scaling Method for Designing Low-Precision Tensor Core",
+    "year": 2024,
+    "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "authors": [
+        "Yasong Cao",
+        "Mei Wen",
+        "Zhongdi Luo",
+        "Xin Ju",
+        "Haolan Huang",
+        "Junzhong Shen",
+        "Haiyan Chen"
+    ],
+    "doi": "10.1109/TVLSI.2024.3414260",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bc5148170deead87bfc4baf265a5f0a5d15d80da",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A big gap exists between deep neural network (DNN) applications’ computational demand and the computing power of DNN accelerators. Low-precision floating-point (LP-FP) computation is one of the important means to improve the performance of DNN training and inference. However, the high-precision accumulators are typically applied to summating the dot products during general matrix multiplication (GEMM) in tensor cores (TCs). As the precision of data decreases, the accumulator becomes the main consumer of multiply-accumulate’s (MAC’s) area and power. Reducing the accumulators’ bit-width is of significant importance for improving the area- and energy-efficiency of TCs. There are two main challenges: 1) theoretical support on the floating-point (FP) formats with the lowest bit-width of TC’s accumulators and 2) how to integrate the LP-FP TC in the framework of DNN training and inference to evaluate its benefits. In this article, we propose accumulation bit-width scaling (ABS), a novel ABS method, to guide the design of LP-FP TCs. We 1) implement this method by constructing a novel variance retention ratio (VRR) model to predict the FP format with the minimum bit-width for TC’s accumulator; 2) provide a generator of DNN accelerator based on a systolic-array (SA) TC, supporting many low-precision configurations; and 3) design an LP-FP DNN executing framework that supports software-simulation mode and hardware-accelerator mode to run LP-FP DNN tasks. The experimental results show that the LP-FP TC guided by our ABS method has a maximum reduction of 76.47% and 75.60% in area and power consumption, respectively, compared with the advanced TCs.",
+    "citationCount": 1,
+    "referenceCount": 46
+}

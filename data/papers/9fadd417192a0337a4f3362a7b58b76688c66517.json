@@ -1,0 +1,29 @@
+{
+    "paperId": "9fadd417192a0337a4f3362a7b58b76688c66517",
+    "title": "Ensemble Masked Autoencoder and Gaussian Mixture Models for Cardinality Estimation",
+    "year": 2023,
+    "venue": "2023 5th International Conference on Data-driven Optimization of Complex Systems (DOCS)",
+    "authors": [
+        "Yimeng Chen",
+        "Devin Jia",
+        "Ying Lei",
+        "Bo Li"
+    ],
+    "doi": "10.1109/DOCS60977.2023.10294693",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9fadd417192a0337a4f3362a7b58b76688c66517",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, deep learning models have been employed for cardinality estimation in databases. These models can be categorized into query-driven and data-driven approaches. Query-driven methods rely on training queries and lack generalization ability, while data-driven methods infer cardinalities by learning the joint distribution of data in the database, independent of specific queries. Some data-driven methods utilize deep autoregressive models, but they suffer from fixed attribute order during training and the issue of requiring large embedding matrices for continuous attributes. In order to overcome these challenges, we propose MAGMM, which combines masked autoencoder and Gaussian mixture models and is data-driven. Experimental results demonstrate that MAGMM performs well in terms of estimation accuracy and inference time, providing a robust solution for cardinality estimation in databases.",
+    "citationCount": 0,
+    "referenceCount": 21
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "96cf4ec5074230d92d8098cfd69daafba9701258",
+    "title": "Efficient Query Re-optimization with Judicious Subquery Selections",
+    "year": 2022,
+    "venue": "Proc. ACM Manag. Data",
+    "authors": [
+        "Jun-Ming Zhao",
+        "Huanchen Zhang",
+        "Yihan Gao"
+    ],
+    "doi": "10.1145/3589330",
+    "arxivId": "2202.12535",
+    "url": "https://www.semanticscholar.org/paper/96cf4ec5074230d92d8098cfd69daafba9701258",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3589330",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query re-optimization is an adaptive query processing technique that re-invokes the optimizer at certain points in query execution. The goal is to dynamically correct the cardinality estimation errors using the statistics collected at runtime to adjust the query plan to improve the overall performance. We identify a key weakness in existing re-optimization algorithms: their subquery division and re-optimization trigger strategies rely heavily on the optimizer's initial plan, which can be far away from optimal. We, therefore, propose QuerySplit, a novel re-optimization algorithm that skips the potentially misleading global plan and instead generates subqueries directly from the logical plan as the basic re-optimization units. By developing a cost function that prioritizes the execution of less \"damaging\" subqueries, QuerySplit successfully postpones (sometimes avoids) the execution of complex large joins to maximize their probability of having smaller input sizes. We implemented QuerySplit in PostgreSQL and compared our solution against four state-of-the-art re-optimization algorithms using the Join Order Benchmark. Our experiments show that QuerySplit reduces the benchmark execution time by 35% compared to the second-best alternative. The performance gap between QuerySplit and an optimal optimizer is within 4%.",
+    "citationCount": 10,
+    "referenceCount": 47
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "0ba55762dd0a3543f66948953c5b05946b7788d9",
+    "title": "An Intelligent Scheduling Approach on Mobile OS for Optimizing UI Smoothness and Power",
+    "year": 2024,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Xinglei Dou",
+        "Lei Liu",
+        "Limin Xiao"
+    ],
+    "doi": "10.1145/3674910",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0ba55762dd0a3543f66948953c5b05946b7788d9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1145/3674910",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Mobile devices need to respond quickly to diverse user inputs. The existing approaches often heuristically raise the CPU/GPU frequency according to the empirical rules when facing burst inputs and various changes. Although doing so can be effective sometimes, the existing approaches still need improvements. For instance, raising processors’ frequency can lead to high power consumption when the frequency is over-provisioned or fail to meet user demands when the frequency is under-provisioned. To this end, we propose MobiRL, a reinforcement learning-based scheduler for intelligently adjusting the CPU/GPU frequency to satisfy user demands accurately on mobile systems. MobiRL monitors the mobile system status and autonomously learns to optimize UI smoothness and power consumption by conducting CPU/GPU frequency-adjusting actions. The experimental results on the latest delivered smartphones show that MobiRL outperforms the widely used commercial scheduler on real devices—reducing the frame drop rate by 4.1% and reducing power consumption by 42.8%, respectively. Moreover, compared with a study using Q-Learning for CPU frequency scheduling, MobiRL achieves up to a 2.5% lower frame drop rate and reduces power consumption by 32.6%, respectively. Our approach has been deployed in mobile phone products.",
+    "citationCount": 1,
+    "referenceCount": 51
+}

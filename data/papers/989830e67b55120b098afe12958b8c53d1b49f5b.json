@@ -1,0 +1,34 @@
+{
+    "paperId": "989830e67b55120b098afe12958b8c53d1b49f5b",
+    "title": "Hebbian and Gradient-based Plasticity Enables Robust Memory and Rapid Learning in RNNs",
+    "year": 2023,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Y. Duan",
+        "Zhongfan Jia",
+        "Qian Li",
+        "Yi Zhong",
+        "Kaisheng Ma"
+    ],
+    "doi": "10.48550/arXiv.2302.03235",
+    "arxivId": "2302.03235",
+    "url": "https://www.semanticscholar.org/paper/989830e67b55120b098afe12958b8c53d1b49f5b",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2302.03235",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Rapidly learning from ongoing experiences and remembering past events with a flexible memory system are two core capacities of biological intelligence. While the underlying neural mechanisms are not fully understood, various evidence supports that synaptic plasticity plays a critical role in memory formation and fast learning. Inspired by these results, we equip Recurrent Neural Networks (RNNs) with plasticity rules to enable them to adapt their parameters according to ongoing experiences. In addition to the traditional local Hebbian plasticity, we propose a global, gradient-based plasticity rule, which allows the model to evolve towards its self-determined target. Our models show promising results on sequential and associative memory tasks, illustrating their ability to robustly form and retain memories. In the meantime, these models can cope with many challenging few-shot learning problems. Comparing different plasticity rules under the same framework shows that Hebbian plasticity is well-suited for several memory and associative learning tasks; however, it is outperformed by gradient-based plasticity on few-shot regression tasks which require the model to infer the underlying mapping. Code is available at https://github.com/yuvenduan/PlasticRNNs.",
+    "citationCount": 3,
+    "referenceCount": 63
+}

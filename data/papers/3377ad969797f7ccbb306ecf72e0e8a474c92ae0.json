@@ -1,0 +1,36 @@
+{
+    "paperId": "3377ad969797f7ccbb306ecf72e0e8a474c92ae0",
+    "title": "Apache Wayang: A Unified Data Analytics Framework",
+    "year": 2023,
+    "venue": "SIGMOD record",
+    "authors": [
+        "Kaustubh Beedkar",
+        "Bertty Contreras-Rojas",
+        "Haralampos Gavriilidis",
+        "Zoi Kaoudi",
+        "V. Markl",
+        "Rodrigo Pardo-Meza",
+        "Jorge-Arnulfo Quiané-Ruiz"
+    ],
+    "doi": "10.1145/3631504.3631510",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3377ad969797f7ccbb306ecf72e0e8a474c92ae0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://pure.itu.dk/portal/files/106632392/Open_Access_file.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The large variety of specialized data processing platforms and the increased complexity of data analytics has led to the need for unifying data analytics within a single framework. Such a framework should free users from the burden of (i) choosing the right platform( s) and (ii) gluing code between the different parts of their pipelines. Apache Wayang (Incubating) is the only open-source framework that provides a systematic solution to unified data analytics by integrating multiple heterogeneous data processing platforms. It achieves that by decoupling applications from the underlying platforms and providing an optimizer so that users do not have to specify the platforms on which their pipeline should run. Wayang provides a unified view and processing model, effectively integrating the hodgepodge of heterogeneous platforms into a single framework with increased usability without sacrificing performance and total cost of ownership. In this paper, we present the architecture ofWayang, describe its main components, and give an outlook on future directions.",
+    "citationCount": 10,
+    "referenceCount": 15
+}

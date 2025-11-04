@@ -1,0 +1,35 @@
+{
+    "paperId": "bf6ca3fba4ce9cf5c949dbfd13f27aa86af606bc",
+    "title": "SIBILA: Automated Machine-Learning-Based Development of Interpretable Machine-Learning Models on High-Performance Computing Platforms",
+    "year": 2022,
+    "venue": "Applied Informatics",
+    "authors": [
+        "A. Banegas-Luna",
+        "Horacio Pérez-Sánchez"
+    ],
+    "doi": "10.3390/ai5040116",
+    "arxivId": "2205.06234",
+    "url": "https://www.semanticscholar.org/paper/bf6ca3fba4ce9cf5c949dbfd13f27aa86af606bc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As machine learning (ML) transforms industries, the need for efficient model development tools using high-performance computing (HPC) and ensuring interpretability is crucial. This paper presents SIBILA, an AutoML approach designed for HPC environments, focusing on the interpretation of ML models. SIBILA simplifies model development by allowing users to set objectives and preferences before automating the search for optimal ML pipelines. Unlike traditional AutoML frameworks, SIBILA is specifically designed to exploit the computational capabilities of HPC platforms, thereby accelerating the model search and evaluation phases. The emphasis on interpretability is particularly crucial when model transparency is mandated by regulations or desired for stakeholder understanding. SIBILA has been validated in different tasks with public datasets. The results demonstrate that SIBILA consistently produces models with competitive accuracy while significantly reducing computational overhead. This makes it an ideal choice for practitioners seeking efficient and transparent ML solutions on HPC infrastructures. SIBILA is a major advancement in AutoML, addressing the rising demand for explainable ML models on HPC platforms. Its integration of interpretability constraints alongside automated model development processes marks a substantial step forward in bridging the gap between computational efficiency and model transparency in ML applications. The tool is available as a web service at no charge.",
+    "citationCount": 1,
+    "referenceCount": 64
+}

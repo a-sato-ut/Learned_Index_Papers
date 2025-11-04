@@ -1,0 +1,31 @@
+{
+    "paperId": "761a9e9a9ed386700b35519ff99a4d53434b52e8",
+    "title": "Equilibria: Co-Optimizing Energy and Latency in Online ML-Based Stream Processing Systems",
+    "year": 2025,
+    "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing",
+    "authors": [
+        "Sejeong Oh",
+        "Soyang Baek",
+        "Gordon Euhyun Moon",
+        "Sungyong Park"
+    ],
+    "doi": "10.1109/CCGRID64434.2025.00061",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/761a9e9a9ed386700b35519ff99a4d53434b52e8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "An Online machine learning (ML)-based streaming processing system (SPS) combines real-time stream processing with continuous, incremental learning through simultaneous model training and inference. This system processes large, dynamic, high-velocity data streams while adapting its models to improve performance over time. However, balancing the tradeoff between latency and energy efficiency remains a critical challenge, which has not been adequately addressed in prior research. This paper introduces EQUILIBRIA, a novel framework designed to co-optimize power consumption and latency in Online ML-based SPS. EQUILIBRIA integrates dynamic voltage and frequency scaling (DVFS) with two innovative energy optimization strategies. First, a Pareto-based clock frequency adjustment mechanism dynamically tunes both core and memory clock frequencies to reduce latency while minimizing energy consumption. Second, a two-tier threshold training management technique optimizes energy use by periodically pausing and resuming model training once accuracy requirements are met, all while preserving latency. Experimental evaluations across various queries and traffic scenarios demonstrate that EQUILIBRIA achieves up to 58% energy savings without compromising latency, making a significant step forwards in energy-efficient, highperformance streaming analytics for modern, rapidly evolving data environments.",
+    "citationCount": 0,
+    "referenceCount": 12
+}

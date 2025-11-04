@@ -1,0 +1,32 @@
+{
+    "paperId": "883289e6c015549d16c9a1b2fbc85566b08fd7c5",
+    "title": "DL‐DC: Deep learning‐based deadline constrained load balancing technique",
+    "year": 2023,
+    "venue": "Concurrency and Computation",
+    "authors": [
+        "Dharavath Champla",
+        "Sivakumar Dhandapani",
+        "Nagarajan Velmurugan"
+    ],
+    "doi": "10.1002/cpe.7839",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/883289e6c015549d16c9a1b2fbc85566b08fd7c5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Load balancing is a crucial feature of cloud computing that evenly distributes workload between servers, network interfaces, and hard drives. Because of dynamic computing over the internet, cloud computing suffers from request overloading. To address this challenge, this paper proposes a new deep learning‐based deadline constrained (DL‐DC) load balancing technique. The proposed DL‐DC technique will improve resource utilization, reduce cost, latency, and response time, as well as balance load between servers and improve reliability. The proposed DL‐DC technique will direct traffic to a load balancer, which will forward the load with a deadline to a deep Inception ResNet. This network considers some parameters, such as sticky session, content‐based and instance health check and efficiently predicts the schedule for the task. Finally, a predicted task schedule has been derived using the DL‐DC model which is used to distribute the task to the virtual machine. The proposed DL‐DC load balancing algorithm is compared with other existing algorithms such as QMPSO, DQTS, and ACSO in terms of cost, makespan, response time, transmission time and task migration. The proposed method achieves up to 21.08% low response time, 27.3% decrease in make span, 25.5% decrease in task migration, and 38.9% decrease in cost respectively.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

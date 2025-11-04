@@ -1,0 +1,42 @@
+{
+    "paperId": "10af5e0fa912f26dc35959a5600e6525caa3e504",
+    "title": "Constructing efficient multigrid solvers with genetic programming",
+    "year": 2020,
+    "venue": "Annual Conference on Genetic and Evolutionary Computation",
+    "authors": [
+        "J. Schmitt",
+        "S. Kuckuk",
+        "H. Köstler"
+    ],
+    "doi": "10.1145/3377930.3389811",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/10af5e0fa912f26dc35959a5600e6525caa3e504",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "For many linear and nonlinear systems that arise from the discretization of partial differential equations the construction of an efficient multigrid solver is a challenging task. Here we present a novel approach for the optimization of geometric multigrid methods that is based on evolutionary computation, a generic program optimization technique inspired by the principle of natural evolution. A multigrid solver is represented as a tree of mathematical expressions which we generate based on a tailored grammar. The quality of each solver is evaluated in terms of convergence and compute performance using automated local Fourier analysis (LFA) and roofline performance modeling, respectively. Based on these objectives a multi-objective optimization is performed using grammar-guided genetic programming with a non-dominated sorting based selection. To evaluate the model-based prediction and to target concrete applications, scalable implementations of an evolved solver can be automatically generated with the ExaStencils framework. We demonstrate the effectiveness of our approach by constructing multigrid solvers for a linear elastic boundary value problem that are competitive with common V- and W-cycles.",
+    "citationCount": 6,
+    "referenceCount": 41
+}

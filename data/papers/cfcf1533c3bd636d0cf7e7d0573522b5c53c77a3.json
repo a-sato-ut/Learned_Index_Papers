@@ -1,0 +1,32 @@
+{
+    "paperId": "cfcf1533c3bd636d0cf7e7d0573522b5c53c77a3",
+    "title": "Familiarity-dependent computational modelling of indoor landmark selection for route communication: a ranking approach",
+    "year": 2021,
+    "venue": "International Journal of Geographical Information Science",
+    "authors": [
+        "Zhiyong Zhou",
+        "R. Weibel",
+        "Haosheng Huang"
+    ],
+    "doi": "10.1080/13658816.2021.1946542",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cfcf1533c3bd636d0cf7e7d0573522b5c53c77a3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://biblio.ugent.be/publication/8717584/file/8725560",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "ABSTRACT Landmarks play key roles in human wayfinding and mobile navigation systems. Existing computational landmark selection models mainly focus on outdoor environments, and aim to identify suitable landmarks for guiding users who are unfamiliar with a particular environment, and fail to consider familiar users. This study proposes a familiarity-dependent computational method for selecting suitable landmarks for communicating with familiar and unfamiliar users in indoor environments. A series of salience measures are proposed to quantify the characteristics of each indoor landmark candidate, which are then combined in two LambdaMART-based learning-to-rank models for selecting landmarks for familiar and unfamiliar users, respectively. The evaluation with labelled landmark preference data by human participants shows that people’s familiarity with environments matters in the computational modelling of indoor landmark selection for guiding them. The proposed models outperform state-of-the-art models, and achieve hit rates of 0.737 and 0.786 for familiar and unfamiliar users, respectively. Furthermore, semantic relevance of a landmark candidate is the most important measure for the familiar model, while visual intensity is most informative for the unfamiliar model. This study enables the development of human-centered indoor navigation systems that provide familiarity-adaptive landmark-based navigation guidance.",
+    "citationCount": 18,
+    "referenceCount": 89
+}

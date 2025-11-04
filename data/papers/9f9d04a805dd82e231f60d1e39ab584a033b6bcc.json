@@ -1,0 +1,38 @@
+{
+    "paperId": "9f9d04a805dd82e231f60d1e39ab584a033b6bcc",
+    "title": "Distributional learning in multi-objective optimization of recommender systems",
+    "year": 2022,
+    "venue": "Journal of Ambient Intelligence and Humanized Computing",
+    "authors": [
+        "Antonio Candelieri",
+        "Andrea Ponti",
+        "I. Giordani",
+        "Anna Bosio",
+        "F. Archetti"
+    ],
+    "doi": "10.1007/s12652-022-04356-0",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9f9d04a805dd82e231f60d1e39ab584a033b6bcc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s12652-022-04356-0.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Metrics such as diversity and novelty have become important, beside accuracy, in the design of Recommender Systems (RSs), in response the increasing users' heterogeneity. Therefore, the design of RSs is now increasingly modelled as a multi-objective optimization problem (MOP) for whose solution Multi-objective evolutionary algorithms (MOEAs) have been increasingly considered. In this paper we focus on the k-top recommendation problem in which a solution is encoded as a matrix whose rows correspond to customers and column to items. The value of accuracy, novelty, and coverage for each candidate list, is evaluated as a sample and can be represented as a 3-d histogram which encodes the knowledge obtained from function evaluations. This enables to map the solution space into a space, whose elements are histograms, structured by the Wasserstein (WST) distance between histograms. The similarity between 2 users in this probabilistic space is given by the Wasserstein distance between their histograms. This enables the construction of the WST graph whose nodes are the users and the weights of the edges are the WST distance between users. The clustering of users takes then place in the WST-graph. In the optimization phase the difference between two top-k lists can be encoded as the WST distance between their 3-dimensional histograms. This enables to derive new selection operators which provide a better diversification (exploration). The new algorithm Multi-objective evolutionary optimization/Wasserstein (MOEA/WST), compared with the benchmark NSGA-II, yields better hypervolume and coverage, in particular at low generation counts.",
+    "citationCount": 4,
+    "referenceCount": 51
+}

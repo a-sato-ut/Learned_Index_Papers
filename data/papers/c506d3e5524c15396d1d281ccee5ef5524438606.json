@@ -1,0 +1,39 @@
+{
+    "paperId": "c506d3e5524c15396d1d281ccee5ef5524438606",
+    "title": "A blended TROPOMI+GOSAT satellite data product for atmospheric methane using machine learning to correct retrieval biases",
+    "year": 2023,
+    "venue": "Atmospheric Measurement Techniques",
+    "authors": [
+        "Nicholas Balasus",
+        "D. Jacob",
+        "A. Lorente",
+        "J. Maasakkers",
+        "R. Parker",
+        "H. Boesch",
+        "Zichong Chen",
+        "Makoto M. Kelp",
+        "H. Nesser",
+        "D. Varon"
+    ],
+    "doi": "10.5194/amt-16-3787-2023",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c506d3e5524c15396d1d281ccee5ef5524438606",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.5194/amt-16-3787-2023",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract. Satellite observations of dry-column methane mixing\nratios (XCH4) from shortwave infrared (SWIR) solar backscatter\nradiation provide a powerful resource to quantify methane emissions in\nservice of climate action. The TROPOspheric Monitoring Instrument (TROPOMI), launched in October 2017,\nprovides global daily coverage at a 5.5 × 7 km2 (nadir) pixel\nresolution, but its methane retrievals can suffer from biases associated with\nSWIR surface albedo, scattering from aerosols and cirrus clouds, and\nacross-track variability (striping). The Greenhouse gases Observing SATellite (GOSAT) instrument, launched in 2009,\nhas better spectral characteristics and its methane retrieval is much less\nsubject to biases, but its data density is 250 times sparser than TROPOMI.\nHere, we present a blended TROPOMI+GOSAT methane product obtained by\ntraining a machine learning (ML) model to predict the difference between\nTROPOMI and GOSAT co-located measurements, using only predictor variables\nincluded in the TROPOMI retrieval, and then applying the correction to the\ncomplete TROPOMI record from April 2018 to present. We find that the largest corrections are associated with coarse aerosol particles, high SWIR surface\nalbedo, and across-track pixel index. Our blended product corrects a\nsystematic difference between TROPOMI and GOSAT over water, and it features\ncorrections exceeding 10 ppb over arid land, persistently cloudy regions,\nand high northern latitudes. It reduces the TROPOMI spatially variable bias\nover land (referenced to GOSAT data) from 14.3 to 10.4 ppb at a\n0.25∘ × 0.3125∘ resolution. Validation\nwith Total Carbon Column Observing Network (TCCON) ground-based column measurements shows reductions in variable\nbias compared with the original TROPOMI data from 4.7 to 4.4 ppb and in\nsingle-retrieval precision from 14.5 to 11.9 ppb. TCCON data are all in\nlocations with a SWIR surface albedo below 0.4 (where TROPOMI biases tend to be\nrelatively low), but they confirm the dependence of TROPOMI biases on SWIR\nsurface albedo and coarse aerosol particles, as well as the reduction of\nthese biases in the blended product. Fine-scale inspection of the Arabian\nPeninsula shows that a number of hotspots in the original TROPOMI data are\nremoved as artifacts in the blended product. The blended product also\ncorrects striping and aerosol/cloud biases in single-orbit TROPOMI data,\nenabling better detection and quantification of ultra-emitters. Residual\ncoastal biases can be removed by applying additional filters. The ML method\npresented here can be applied more generally to validate and correct data\nfrom any new satellite instrument by reference to a more established\ninstrument.\n",
+    "citationCount": 34,
+    "referenceCount": 79
+}

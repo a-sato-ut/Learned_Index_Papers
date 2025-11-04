@@ -1,0 +1,35 @@
+{
+    "paperId": "fd8c0d5b7a71024e8bfdc6b926a84c364e4c3ad0",
+    "title": "Practical Federated Recommendation Model Learning Using ORAM with Controlled Privacy",
+    "year": 2025,
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "authors": [
+        "Jinyu Liu",
+        "Wenjie Xiong",
+        "G. E. Suh",
+        "Kiwan Maeng"
+    ],
+    "doi": "10.1145/3676641.3716014",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fd8c0d5b7a71024e8bfdc6b926a84c364e4c3ad0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Training high-quality recommendation models requires collecting sensitive user data. The popular privacy-enhancing training method, federated learning (FL), cannot be used practically due to these models' large embedding tables. This paper introduces FEDORA, a system for training recommendation models with FL. FEDORA allows each user to only download, train, and upload a small subset of the large tables based on their private data, while hiding the access pattern using oblivious memory (ORAM). FEDORA reduces the ORAM's prohibitive latency and memory overheads by (1) introducing ε-FDP, a formal way to balance the ORAM's privacy with performance, and (2) placing the large ORAM in a power- and cost-efficient SSD with SSD-friendly optimizations. Additionally, FEDORA is carefully designed to support (3) modern operation modes of FL. FEDORA achieves high model accuracy by using private features during training while achieving up to 24× latency and over 1000× SSD lifetime improvement over the baseline. FEDORA achieves high model accuracy by using private features during training while achieving, on average, 5× latency and 158× SSD lifetime improvement over the baseline.",
+    "citationCount": 0,
+    "referenceCount": 127
+}

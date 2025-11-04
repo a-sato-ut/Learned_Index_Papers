@@ -1,0 +1,35 @@
+{
+    "paperId": "b31b875a06a7fe9d07155895269f7b16e5184eb3",
+    "title": "Natural Image Matting with Shifted Window Self-Attention",
+    "year": 2022,
+    "venue": "International Conference on Information Photonics",
+    "authors": [
+        "Zhikun Wang",
+        "Yang Liu",
+        "Zonglin Li",
+        "Chenyang Wang",
+        "Shengping Zhang"
+    ],
+    "doi": "10.1109/ICIP46576.2022.9897632",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b31b875a06a7fe9d07155895269f7b16e5184eb3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Natural image matting is a challenging and significant task in computer vision. Recently, image matting achieves fantastic development by introducing deep learning methods. To the best of our knowledge, there is no image matting method using the Transformer. Compared with CNNs, the Transformer pays more attention to the interest points and the relationships of content, which is beneficial to the image matting task. In this paper, we first present a novel Transformer-based image matting method with Shifted Window self-Attention. Specifically, our method contains two encoders, an alpha encoder and a context encoder. The former leverages the Transformer with Shifted Window self-Attention to extract features of details, such as hairs, feathers and porous parts of foreground objects. Shifted Window self-Attention focuses on patches with the size of the window and connections of adjacent patches. With this, the Transformer is capable of dealing with high-resolution images. The context encoder, which takes rescaled images as input, aims to extract the whole structure information of foreground objects. Then, we propose a novel Hierarchical Pyramid Pooling Module (HPPM) which enables the network to have the flexibility to extract features at various resolutions. Experiments show that our method achieves competitive performance on the Composition-1K dataset.",
+    "citationCount": 0,
+    "referenceCount": 22
+}

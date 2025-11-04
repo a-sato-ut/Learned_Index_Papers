@@ -1,0 +1,37 @@
+{
+    "paperId": "5e76f205dedccc504722ce22b47e945d451539b4",
+    "title": "Dynamic Color Transform Networks for Wheat Head Detection",
+    "year": 2022,
+    "venue": "Plant Phenomics",
+    "authors": [
+        "Chengxin Liu",
+        "Kewei Wang",
+        "Hao Lu",
+        "Z. Cao"
+    ],
+    "doi": "10.34133/2022/9818452",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5e76f205dedccc504722ce22b47e945d451539b4",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://downloads.spj.sciencemag.org/plantphenomics/2022/9818452.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Agricultural and Food Sciences",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Wheat head detection can measure wheat traits such as head density and head characteristics. Standard wheat breeding largely relies on manual observation to detect wheat heads, yielding a tedious and inefficient procedure. The emergence of affordable camera platforms provides opportunities for deploying computer vision (CV) algorithms in wheat head detection, enabling automated measurements of wheat traits. Accurate wheat head detection, however, is challenging due to the variability of observation circumstances and the uncertainty of wheat head appearances. In this work, we propose a simple but effective idea—dynamic color transform (DCT)—for accurate wheat head detection. This idea is based on an observation that modifying the color channel of an input image can significantly alleviate false negatives and therefore improve detection results. DCT follows a linear color transform and can be easily implemented as a dynamic network. A key property of DCT is that the transform parameters are data-dependent such that illumination variations can be corrected adaptively. The DCT network can be incorporated into any existing object detectors. Experimental results on the Global Wheat Detection Dataset (GWHD) 2021 show that DCT can achieve notable improvements with negligible overhead parameters. In addition, DCT plays an important role in our solution participating in the Global Wheat Challenge (GWC) 2021, where our solution ranks the first on the initial public leaderboard, with an Average Domain Accuracy (ADA) of 0.821, and obtains the runner-up reward on the final private testing set, with an ADA of 0.695.",
+    "citationCount": 25,
+    "referenceCount": 56
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "3c971fd31f363f708a4fd2c0801fa258a94ec092",
+    "title": "Learning-based Declarative Query Optimization",
+    "year": 2020,
+    "venue": "COMAD/CODS",
+    "authors": [
+        "Shivani Tripathi"
+    ],
+    "doi": "10.1145/3430984.3431061",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3c971fd31f363f708a4fd2c0801fa258a94ec092",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "1 PROBLEM FRAMEWORK The classical SQL query optimization in relational databases involves cardinality and cost estimations. Traditional methods include histograms or sampling-based techniques for cardinality estimation. Based on these estimated cardinalities, a cost-model is deployed to estimate the cost of executing the operations. These traditional methods cannot capture the correlations among various columns or suffer from the 0-tuple problem, resulting in substantial estimation errors and suboptimal query performance. To address these drawbacks, the database community has begun to use machine learning (ML) approaches to solve the challenges of cardinality and cost estimations. It exploited the gamut of learning-based approaches from classical ML algorithms like regression and tree-based ensembles to contemporary deep learning algorithms. While these techniques present promising results, we will highlight the challenges involved and propose a novel approach to overcome them.",
+    "citationCount": 0,
+    "referenceCount": 3
+}

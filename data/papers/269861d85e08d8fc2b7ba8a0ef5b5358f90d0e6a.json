@@ -1,0 +1,37 @@
+{
+    "paperId": "269861d85e08d8fc2b7ba8a0ef5b5358f90d0e6a",
+    "title": "PerAnSel:  A  Novel Deep Neural Network-Based System for Persian Question Answering",
+    "year": 2022,
+    "venue": "Computational Intelligence and Neuroscience",
+    "authors": [
+        "Jamshid Mozafari",
+        "A. Kazemi",
+        "P. Moradi",
+        "M. Nematbakhsh"
+    ],
+    "doi": "10.1155/2022/3661286",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/269861d85e08d8fc2b7ba8a0ef5b5358f90d0e6a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://downloads.hindawi.com/journals/cin/2022/3661286.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Question answering (QA) systems have attracted considerable attention in recent years. They receive the user's questions in natural language and respond to them with precise answers. Most of the works on QA were initially proposed for the English language, but some research studies have recently been performed on non-English languages. Answer selection (AS) is a critical component in QA systems. To the best of our knowledge, there is no research on AS for the Persian language. Persian is a (1) free word order, (2) right-to-left, (3) morphologically rich, and (4) low-resource language. Deep learning (DL) techniques have shown promising accuracy in AS. Although DL performs very well on QA, it requires a considerable amount of annotated data for training. Many annotated datasets have been built for the AS task; most of them are exclusively in English. In order to address the need for a high-quality AS dataset in the Persian language, we present PASD; the first large-scale native AS dataset for the Persian language. To show the quality of PASD, we employed it to train state-of-the-art QA systems. We also present PerAnSel: a novel deep neural network-based system for Persian question answering. Since the Persian language is a free word-order language, in PerAnSel, we parallelize a sequential method and a transformer-based method to handle various orders in the Persian language. We then evaluate PerAnSel on three datasets: PASD, PerCQA, and WikiFA. The experimental results indicate strong performance on the Persian datasets beating state-of-the-art answer selection methods by 10.66% on PASD, 8.42% on PerCQA, and 3.08% on WikiFA datasets in terms of MRR.",
+    "citationCount": 9,
+    "referenceCount": 70
+}

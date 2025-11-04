@@ -1,0 +1,42 @@
+{
+    "paperId": "41694bf34f0a71b21fd3740878047234940aae31",
+    "title": "PieBridge: Fast and Parameter-Efficient On-Device Training via Proxy Networks",
+    "year": 2024,
+    "venue": "ACM International Conference on Embedded Networked Sensor Systems",
+    "authors": [
+        "Wangsong Yin",
+        "Daliang Xu",
+        "Gang Huang",
+        "Ying Zhang",
+        "Shiyun Wei",
+        "Mengwei Xu",
+        "Xuazhe Liu"
+    ],
+    "doi": "10.1145/3666025.3699327",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/41694bf34f0a71b21fd3740878047234940aae31",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3666025.3699327",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "On-device training Neural Networks (NNs) has been a crucial catalyst towards privacy-preserving and personalized mobile intelligence. Recently, a novel training paradigm, namely Parameter-Efficient Training (PET), is attracting attention in both the machine learning and system community. In our preliminary measurements, we find PET well-suited for on-device scenarios; yet, its parameter efficiency does not translate coequal to time efficiency on resource-constrained devices, as the training time is dominated by the frozen layers. To this end, this work presents PieBridge, an on-device training framework with both time and parameter efficiency. Its key idea is to dynamically approximate the frozen layers to cheaper ones (subnets) with data awareness during PET To achieve effective and efficient approximate training, we introduce (1) a pre-training-assisted on-cloud subnets generation method and (2) an edge-friendly on-device data-aware subnets routing method. The subnets generation method performs fine-grained pruning and latent space alignment to generate a series of high-quality proxy subnets with varying speed-accuracy trade-offs for the deployment-ready NN. The subnets routing method perceives data diversity from two unique perspectives (referred to as importance and difficulty). The routing strategy is provided by an offline-learning and online-estimation fusion, which is accurate, end-to-end and cost-effective on devices. Through extensive experiments, we show that PieBridge exhibits up to 2.5X training speedup compared to state-of-the-art PET methods, and up to 6.6X speedup compared to traditional full model training and other on-device training frameworks, without compromising parameter efficiency and accuracy.",
+    "citationCount": 1,
+    "referenceCount": 90
+}

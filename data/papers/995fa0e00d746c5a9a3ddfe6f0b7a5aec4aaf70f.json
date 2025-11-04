@@ -1,0 +1,27 @@
+{
+    "paperId": "995fa0e00d746c5a9a3ddfe6f0b7a5aec4aaf70f",
+    "title": "Diagnostic Evaluation of Policy-Gradient-Based Ranking",
+    "year": 2021,
+    "venue": "Electronics",
+    "authors": [
+        "Haitao Yu",
+        "Degen Huang",
+        "Fuji Ren",
+        "Lishuang Li"
+    ],
+    "doi": "10.3390/electronics11010037",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/995fa0e00d746c5a9a3ddfe6f0b7a5aec4aaf70f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2079-9292/11/1/37/pdf?version=1640309674",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning-to-rank has been intensively studied and has shown significantly increasing values in a wide range of domains, such as web search, recommender systems, dialogue systems, machine translation, and even computational biology, to name a few. In light of recent advances in neural networks, there has been a strong and continuing interest in exploring how to deploy popular techniques, such as reinforcement learning and adversarial learning, to solve ranking problems. However, armed with the aforesaid popular techniques, most studies tend to show how effective a new method is. A comprehensive comparison between techniques and an in-depth analysis of their deficiencies are somehow overlooked. This paper is motivated by the observation that recent ranking methods based on either reinforcement learning or adversarial learning boil down to policy-gradient-based optimization. Based on the widely used benchmark collections with complete information (where relevance labels are known for all items), such as MSLRWEB30K and Yahoo-Set1, we thoroughly investigate the extent to which policy-gradient-based ranking methods are effective. On one hand, we analytically identify the pitfalls of policy-gradient-based ranking. On the other hand, we experimentally compare a wide range of representative methods. The experimental results echo our analysis and show that policy-gradient-based ranking methods are, by a large margin, inferior to many conventional ranking methods. Regardless of whether we use reinforcement learning or adversarial learning, the failures are largely attributable to the gradient estimation based on sampled rankings, which significantly diverge from ideal rankings. In particular, the larger the number of documents per query and the more fine-grained the ground-truth labels, the greater the impact policy-gradient-based ranking suffers. Careful examination of this weakness is highly recommended for developing enhanced methods based on policy gradient.",
+    "citationCount": 3,
+    "referenceCount": 17
+}

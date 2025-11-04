@@ -1,0 +1,33 @@
+{
+    "paperId": "4bd32f9471513455794307a11c22caedff6714e8",
+    "title": "GraSP: Optimizing Graph-based Nearest Neighbor Search with Subgraph Sampling and Pruning",
+    "year": 2022,
+    "venue": "Web Search and Data Mining",
+    "authors": [
+        "Minjia Zhang",
+        "Wenhan Wang",
+        "Yuxiong He"
+    ],
+    "doi": "10.1145/3488560.3498425",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4bd32f9471513455794307a11c22caedff6714e8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Nearest Neighbor Search (NNS) has recently drawn a rapid growth of interest because of its core role in high-dimensional vector data management in data science and AI applications. The interest is fueled by the success of neural embedding, where deep learning models transform unstructured data into semantically correlated feature vectors for data analysis, e.g., recommending popular items. Among several categories of methods for fast NNS, graph-based approximate nearest neighbor search algorithms have led to the best-in-class search performance on a wide range of real-world datasets. While prior works improve graph-based NNS search efficiency mainly through exploiting the structure of the graph with sophisticated heuristic rules, in this work, we show that the frequency distributions of edge visits for graph-based NNS can be highly skewed. This finding leads to the study of pruning unnecessary edges to avoid redundant computation during graph traversal by utilizing the query distribution, an important yet under-explored aspect of graph-based NNS. In particular, we formulate graph pruning as a discrete optimization problem, and introduce a graph optimization algorithm GraSP that improves the search efficiency of similarity graphs by learning to prune redundant edges. GraSP enhances an existing similarity graph with a probabilistic model. It then performs a novel subgraph sampling and iterative refinement optimization to explicitly maximize search efficiency when removing a subset of edges in expectation over a graph for a large set of training queries. The evaluation shows that GraSP consistently improves the search efficiency on real-world datasets, providing up to 2.24X faster search speed than state-of-the-art methods without losing accuracy.",
+    "citationCount": 12,
+    "referenceCount": 52
+}

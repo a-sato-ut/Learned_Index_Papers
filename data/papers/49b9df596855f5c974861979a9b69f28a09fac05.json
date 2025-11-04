@@ -1,0 +1,43 @@
+{
+    "paperId": "49b9df596855f5c974861979a9b69f28a09fac05",
+    "title": "Controllable Shadow Generation Using Pixel Height Maps",
+    "year": 2022,
+    "venue": "European Conference on Computer Vision",
+    "authors": [
+        "Yichen Sheng",
+        "Yifan Liu",
+        "Jianming Zhang",
+        "Wei Yin",
+        "A. C. Öztireli",
+        "He Zhang",
+        "Zhe Lin",
+        "Eli Shechtman",
+        "Bedrich Benes"
+    ],
+    "doi": "10.48550/arXiv.2207.05385",
+    "arxivId": "2207.05385",
+    "url": "https://www.semanticscholar.org/paper/49b9df596855f5c974861979a9b69f28a09fac05",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2207.05385",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Shadows are essential for realistic image compositing. Physics-based shadow rendering methods require 3D geometries, which are not always available. Deep learning-based shadow synthesis methods learn a mapping from the light information to an object's shadow without explicitly modeling the shadow geometry. Still, they lack control and are prone to visual artifacts. We introduce pixel heigh, a novel geometry representation that encodes the correlations between objects, ground, and camera pose. The pixel height can be calculated from 3D geometries, manually annotated on 2D images, and can also be predicted from a single-view RGB image by a supervised approach. It can be used to calculate hard shadows in a 2D image based on the projective geometry, providing precise control of the shadows' direction and shape. Furthermore, we propose a data-driven soft shadow generator to apply softness to a hard shadow based on a softness input parameter. Qualitative and quantitative evaluations demonstrate that the proposed pixel height significantly improves the quality of the shadow generation while allowing for controllability.",
+    "citationCount": 25,
+    "referenceCount": 45
+}

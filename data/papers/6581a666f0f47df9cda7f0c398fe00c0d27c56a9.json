@@ -1,0 +1,39 @@
+{
+    "paperId": "6581a666f0f47df9cda7f0c398fe00c0d27c56a9",
+    "title": "ADAMANT: A Query Executor with Plug-In Interfaces for Easy Co-processor Integration",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "B. Gurumurthy",
+        "David Broneske",
+        "Gabriel Campero Durand",
+        "Thilo Pionteck",
+        "Gunter Saake"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00093",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6581a666f0f47df9cda7f0c398fe00c0d27c56a9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Today’s processor landscape is increasingly heterogeneous with the availability of co-processors. This landscape impacts query engines, as they need to be reworked to keep competitive performance by leveraging the underlying architectures. Such a rework might be costly if, for each external processor or SDK, peripheral components needed to be developed as well; resulting in redundant effort and adoption difficulties. In this paper, we propose an approach to overcome these shortcomings through ADAMANT – a query executor equipped with interfaces to plug-in new co-processors without reworking other components of a query engine. ADAMANT consists of 1) pluggable interfaces that allow interaction with co-processors, encapsulating operator implementations, and 2) a unified runtime that handles the execution on arbitrary co-processors, with a chunked execution model for scalable query processing. To evaluate ADAMANT’s versatility, we plug different implementations of a CPU/GPU-based system (using OpenCL, OpenMP, & CUDA) and analyze their performance on TPC-H queries. We identify a 4x performance difference between an arbitrary chunked execution vs. a more architecturally conscious pipelined execution. Furthermore, our comparisons with HeavyDB show complex performance variations from speed-ups up to a factor of 2x from our hardware-conscious execution. We envision initiatives like ADAMANT to ease the study of complex optimizations required in co-processor systems, paving the way for efficient and portable data management tools without cutbacks.",
+    "citationCount": 0,
+    "referenceCount": 57
+}

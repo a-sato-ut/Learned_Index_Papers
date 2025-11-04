@@ -1,0 +1,26 @@
+{
+    "paperId": "e574a3fd8f1fa8ee8570375d03fcc028a60f6988",
+    "title": "Performance Optimization in Distributed SQL Environments : A Comprehensive Analysis of Presto Query Engine",
+    "year": 2024,
+    "venue": "International Journal of Scientific Research in Computer Science Engineering and Information Technology",
+    "authors": [
+        "Santhosh Gourishetti"
+    ],
+    "doi": "10.32628/cseit24106173",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e574a3fd8f1fa8ee8570375d03fcc028a60f6988",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.32628/cseit24106173",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This comprehensive article examines performance optimization techniques for Presto, a distributed SQL query engine widely adopted for large-scale data analytics. Through systematic analysis of both theoretical frameworks and empirical evidence, we present a multifaceted approach to enhancing query performance and resource utilization. The article encompasses critical aspects including memory management strategies, parallel processing optimization, and storage connector configurations across diverse deployment scenarios. Our investigation reveals that strategic implementation of query planning algorithms, coupled with fine-tuned JVM configurations, can yield performance improvements of up to 40% in complex analytical workloads. The article also introduces a novel framework for workload-specific optimization patterns, validated through extensive testing across various data scales and query complexities. Through detailed case studies of large-scale deployments, we demonstrate how combined optimization techniques can significantly reduce query latency while maintaining system stability. Furthermore, we present empirical evidence supporting the effectiveness of adaptive resource allocation strategies in mixed-workload environments. These findings contribute to the growing body of knowledge in distributed query processing optimization and provide practical guidelines for organizations seeking to enhance their Presto deployments.",
+    "citationCount": 0,
+    "referenceCount": 7
+}

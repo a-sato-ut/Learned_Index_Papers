@@ -1,0 +1,34 @@
+{
+    "paperId": "cccb8761b271729edbf0755b60b04a2a98edbdc5",
+    "title": "TuskFlow: An Efficient Graph Database for Long-Running Transactions",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Georgios Theodorakis",
+        "Hugo Firth",
+        "James Clarkson",
+        "Natacha Crooks",
+        "Jim Webber"
+    ],
+    "doi": "10.14778/3750601.3750603",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cccb8761b271729edbf0755b60b04a2a98edbdc5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Mammoth transactions, which involve long-running operations that access many items, are common in graph workloads. Graph analytics tasks, including pattern matching and graph algorithms, can generate large read-write operations that impact significant portions of data, which makes their execution challenging under strict isolation guarantees. Consequently, we face an apparent trade-off between ensuring high isolation and achieving high performance, forcing users to choose between the two.\n In this work, we present TuskFlow, an experimental graph database based on Neo4j, designed to efficiently handle mammoth transactions on graphs (the technique is applicable to other models such as relational) while maintaining existing transactional semantics. TuskFlow employs a deterministic protocol that safely reorders regular transactions around mammoths within an epoch. Our protocol supports parallel mammoth execution inspired by graph-parallel algorithms. To minimize conflicts with regular transactions, TuskFlow introduces query- and workload-aware optimizations, including graph entity tagging and partitioning. Our experiments demonstrate that, unlike traditional protocols like two-phase locking or MVCC, TuskFlow avoids blocking write transactions and improves tail latency by up to 45×.",
+    "citationCount": 0,
+    "referenceCount": 70
+}

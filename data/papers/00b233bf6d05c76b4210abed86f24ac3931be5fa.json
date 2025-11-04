@@ -1,0 +1,41 @@
+{
+    "paperId": "00b233bf6d05c76b4210abed86f24ac3931be5fa",
+    "title": "Survey: Leakage and Privacy at Inference Time",
+    "year": 2021,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "authors": [
+        "Marija Jegorova",
+        "Chaitanya Kaul",
+        "Charlie Mayor",
+        "Alison Q. O'Neil",
+        "Alexander Weir",
+        "Roderick Murray-Smith",
+        "S. Tsaftaris"
+    ],
+    "doi": "10.1109/TPAMI.2022.3229593",
+    "arxivId": "2107.01614",
+    "url": "https://www.semanticscholar.org/paper/00b233bf6d05c76b4210abed86f24ac3931be5fa",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://eprints.gla.ac.uk/288463/2/288463.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Leakage of data from publicly available Machine Learning (ML) models is an area of growing significance since commercial and government applications of ML can draw on multiple sources of data, potentially including users’ and clients’ sensitive data. We provide a comprehensive survey of contemporary advances on several fronts, covering involuntary data leakage which is natural to ML models, potential malicious leakage which is caused by privacy attacks, and currently available defence mechanisms. We focus on inference-time leakage, as the most likely scenario for publicly available models. We first discuss what leakage is in the context of different data, tasks, and model architectures. We then propose a taxonomy across involuntary and malicious leakage, followed by description of currently available defences, assessment metrics, and applications. We conclude with outstanding challenges and open questions, outlining some promising directions for future research.",
+    "citationCount": 81,
+    "referenceCount": 243
+}

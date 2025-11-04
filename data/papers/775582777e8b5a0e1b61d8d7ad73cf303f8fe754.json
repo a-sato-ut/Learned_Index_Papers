@@ -1,0 +1,37 @@
+{
+    "paperId": "775582777e8b5a0e1b61d8d7ad73cf303f8fe754",
+    "title": "Optimizing LLM Inference: Fluid-Guided Online Scheduling with Memory Constraints",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ruicheng Ao",
+        "Gan Luo",
+        "David Simchi-Levi",
+        "Xinshang Wang"
+    ],
+    "doi": "10.48550/arXiv.2504.11320",
+    "arxivId": "2504.11320",
+    "url": "https://www.semanticscholar.org/paper/775582777e8b5a0e1b61d8d7ad73cf303f8fe754",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large Language Models (LLMs) are indispensable in today's applications, but their inference procedure -- generating responses by processing text in segments and using a memory-heavy Key-Value (KV) cache -- demands significant computational resources, particularly under memory constraints. This paper formulates LLM inference optimization as a multi-stage online scheduling problem where sequential prompt arrivals and KV cache growth render conventional scheduling ineffective. We develop a fluid dynamics approximation to provide a tractable benchmark that guides algorithm design. Building on this, we propose the Waiting for Accumulated Inference Threshold (WAIT) algorithm, which uses multiple thresholds to schedule incoming prompts optimally when output lengths are known, and extend it to Nested WAIT for cases with unknown output lengths. Theoretical analysis shows that both algorithms achieve near-optimal performance against the fluid benchmark in heavy traffic conditions, balancing throughput, latency, and Time to First Token (TTFT). Experiments with the Llama-7B model on an A100 GPU using both synthetic and real-world datasets demonstrate improved throughput and reduced latency relative to established baselines like vLLM and Sarathi. This work bridges operations research and machine learning, offering a rigorous framework for the efficient deployment of LLMs under memory constraints.",
+    "citationCount": 8,
+    "referenceCount": 48
+}

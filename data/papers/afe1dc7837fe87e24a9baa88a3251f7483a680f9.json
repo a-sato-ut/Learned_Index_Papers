@@ -1,0 +1,43 @@
+{
+    "paperId": "afe1dc7837fe87e24a9baa88a3251f7483a680f9",
+    "title": "Min-Max Optimisation for Nonconvex-Nonconcave Functions Using a Random Zeroth-Order Extragradient Algorithm",
+    "year": 2025,
+    "venue": "Trans. Mach. Learn. Res.",
+    "authors": [
+        "Amir Ali Farzin",
+        "Yuen-Man Pun",
+        "Philipp Braun",
+        "Antoine Lesage-Landry",
+        "Youssef Diouane",
+        "Iman Shames"
+    ],
+    "doi": "10.48550/arXiv.2504.07388",
+    "arxivId": "2504.07388",
+    "url": "https://www.semanticscholar.org/paper/afe1dc7837fe87e24a9baa88a3251f7483a680f9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study explores the performance of the random Gaussian smoothing Zeroth-Order ExtraGradient (ZO-EG) scheme considering \\Af{deterministic} min-max optimisation problems with possibly NonConvex-NonConcave (NC-NC) objective functions. We consider both unconstrained and constrained, differentiable and non-differentiable settings. We discuss the min-max problem from the point of view of variational inequalities. For the unconstrained problem, we establish the convergence of the ZO-EG algorithm to the neighbourhood of an $\\epsilon$-stationary point of the NC-NC objective function, whose radius can be controlled under a variance reduction scheme, along with its complexity. For the constrained problem, we introduce the new notion of proximal variational inequalities and give examples of functions satisfying this property. Moreover, we prove analogous results to the unconstrained case for the constrained problem. For the non-differentiable case, we prove the convergence of the ZO-EG algorithm to a neighbourhood of an $\\epsilon$-stationary point of the smoothed version of the objective function, where the radius of the neighbourhood can be controlled, which can be related to the ($\\delta,\\epsilon$)-Goldstein stationary point of the original objective function.",
+    "citationCount": 2,
+    "referenceCount": 55
+}

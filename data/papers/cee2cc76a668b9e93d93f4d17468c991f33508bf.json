@@ -1,0 +1,44 @@
+{
+    "paperId": "cee2cc76a668b9e93d93f4d17468c991f33508bf",
+    "title": "Conservative semi-lagrangian finite difference scheme for transport simulations using graph neural networks",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yongsheng Chen",
+        "Wei Guo",
+        "Xinghui Zhong"
+    ],
+    "doi": "10.48550/arXiv.2405.01938",
+    "arxivId": "2405.01938",
+    "url": "https://www.semanticscholar.org/paper/cee2cc76a668b9e93d93f4d17468c991f33508bf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Semi-Lagrangian (SL) schemes are highly efficient for simulating transport equations and are widely used across various applications. Despite their success, designing genuinely multi-dimensional and conservative SL schemes remains a significant challenge. Building on our previous work [Chen et al., J. Comput. Phys., V490 112329, (2023)], we introduce a conservative machine-learning-based SL finite difference (FD) method that allows for extra-large time step evolution. At the core of our approach is a novel dynamical graph neural network designed to handle the complexities associated with tracking accurately upstream points along characteristics. This proposed neural transport solver learns the conservative SL FD discretization directly from data, improving accuracy and efficiency compared to traditional numerical schemes, while significantly simplifying algorithm implementation. We validate the method' s effectiveness and efficiency through numerical tests on benchmark transport equations in both one and two dimensions, as well as the nonlinear Vlasov-Poisson system.",
+    "citationCount": 0,
+    "referenceCount": 83
+}

@@ -1,0 +1,43 @@
+{
+    "paperId": "6d60948697db71cba978c4967d0eecbeef4d4854",
+    "title": "Neural operators meet conjugate gradients: The FCG-NO method for efficient PDE solving",
+    "year": 2024,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "Alexander Rudikov",
+        "V. Fanaskov",
+        "E. Muravleva",
+        "Y. Laevsky",
+        "Ivan Oseledets"
+    ],
+    "doi": "10.48550/arXiv.2402.05598",
+    "arxivId": "2402.05598",
+    "url": "https://www.semanticscholar.org/paper/6d60948697db71cba978c4967d0eecbeef4d4854",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning solvers for partial differential equations typically have limited accuracy. We propose to overcome this problem by using them as preconditioners. More specifically, we apply discretization-invariant neural operators to learn preconditioners for the flexible conjugate gradient method (FCG). Architecture paired with novel loss function and training scheme allows for learning efficient preconditioners that can be used across different resolutions. On the theoretical side, FCG theory allows us to safely use nonlinear preconditioners that can be applied in $O(N)$ operations without constraining the form of the preconditioners matrix. To justify learning scheme components (the loss function and the way training data is collected) we perform several ablation studies. Numerical results indicate that our approach favorably compares with classical preconditioners and allows to reuse of preconditioners learned for lower resolution to the higher resolution data.",
+    "citationCount": 9,
+    "referenceCount": 31
+}

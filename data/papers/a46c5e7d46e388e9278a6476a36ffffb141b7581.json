@@ -1,0 +1,33 @@
+{
+    "paperId": "a46c5e7d46e388e9278a6476a36ffffb141b7581",
+    "title": "Cuckoo Trie: Exploiting Memory-Level Parallelism for Efficient DRAM Indexing",
+    "year": 2021,
+    "venue": "Symposium on Operating Systems Principles",
+    "authors": [
+        "Adar Zeitak",
+        "Adam Morrison"
+    ],
+    "doi": "10.1145/3477132.3483551",
+    "arxivId": "2201.09331",
+    "url": "https://www.semanticscholar.org/paper/a46c5e7d46e388e9278a6476a36ffffb141b7581",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2201.09331",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present the Cuckoo Trie, a fast, memory-efficient ordered index structure. The Cuckoo Trie is designed to have memory-level parallelism---which a modern out-of-order processor can exploit to execute DRAM accesses in parallel--- without sacrificing memory efficiency. The Cuckoo Trie thus breaks a fundamental performance barrier faced by current indexes, whose bottleneck is a series of dependent pointer-chasing DRAM accesses---e.g., traversing a search tree path--- which the processor cannot parallelize. Our evaluation shows that the Cuckoo Trie outperforms state-of-the-art-indexes by up to 20%-360% on a variety of datasets and workloads, typically with a smaller or comparable memory footprint.",
+    "citationCount": 13,
+    "referenceCount": 54
+}

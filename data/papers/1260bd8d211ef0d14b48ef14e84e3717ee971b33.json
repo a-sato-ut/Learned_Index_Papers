@@ -1,0 +1,47 @@
+{
+    "paperId": "1260bd8d211ef0d14b48ef14e84e3717ee971b33",
+    "title": "Real-time Bayesian personalization via a learnable brain tumor growth model",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "I. Ezhov",
+        "T. Mot",
+        "Suprosanna Shit",
+        "Jana Lipková",
+        "J. Paetzold",
+        "F. Kofler",
+        "F. Navarro",
+        "M. Metz",
+        "Benedikt Wiestler",
+        "Bjoern H Menze"
+    ],
+    "doi": null,
+    "arxivId": "2009.04240",
+    "url": "https://www.semanticscholar.org/paper/1260bd8d211ef0d14b48ef14e84e3717ee971b33",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modeling of brain tumor dynamics has the potential to advance therapeutic planning. Current modeling approaches resort to numerical solvers that simulate the tumor progression according to a given differential equation. Using highly-efficient numerical solvers, a single forward simulation takes up to a few minutes of compute. At the same time, clinical applications of the tumor modeling often imply solving an inverse problem, requiring up to tens of thousands forward model evaluations when used for a Bayesian model personalization via sampling. This results in a total inference time prohibitively expensive for clinical translation. Moreover, while recent data-driven approaches become capable of emulating physics simulation, they tend to fail in generalizing over the variability of the boundary conditions imposed by the patient-specific anatomy. In this paper, we propose a learnable surrogate with anatomy encoder for simulating tumor growth which maps the biophysical model parameters directly to simulation outputs, i.e. the local tumor cell densities. We test the surrogate on Bayesian tumor model personalization for a cohort of glioma patients. Bayesian inference using the proposed neural surrogate yields estimates analogous to those obtained by solving the forward model with a regular numerical solver. The near real-time computation cost renders the proposed method suitable for clinical settings. The code is available at this https URL.",
+    "citationCount": 3,
+    "referenceCount": 32
+}

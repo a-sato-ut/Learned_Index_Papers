@@ -1,0 +1,35 @@
+{
+    "paperId": "1973f251069086d850bde83fabfb05ceaf7b8859",
+    "title": "Multi-Stage Conversational Passage Retrieval: An Approach to Fusing Term Importance Estimation and Neural Query Rewriting",
+    "year": 2021,
+    "venue": "ACM Trans. Inf. Syst.",
+    "authors": [
+        "Sheng-Chieh Lin",
+        "Jheng-Hong Yang",
+        "Rodrigo Nogueira",
+        "Ming-Feng Tsai",
+        "Chuan-Ju Wang",
+        "Jimmy J. Lin"
+    ],
+    "doi": "10.1145/3446426",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1973f251069086d850bde83fabfb05ceaf7b8859",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2005.02230",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Conversational search plays a vital role in conversational information seeking. As queries in information seeking dialogues are ambiguous for traditional ad hoc information retrieval (IR) systems due to the coreference and omission resolution problems inherent in natural language dialogue, resolving these ambiguities is crucial. In this article, we tackle conversational passage retrieval, an important component of conversational search, by addressing query ambiguities with query reformulation integrated into a multi-stage ad hoc IR system. Specifically, we propose two conversational query reformulation (CQR) methods: (1) term importance estimation and (2) neural query rewriting. For the former, we expand conversational queries using important terms extracted from the conversational context with frequency-based signals. For the latter, we reformulate conversational queries into natural, stand-alone, human-understandable queries with a pretrained sequence-to-sequence model. Detailed analyses of the two CQR methods are provided quantitatively and qualitatively, explaining their advantages, disadvantages, and distinct behaviors. Moreover, to leverage the strengths of both CQR methods, we propose combining their output with reciprocal rank fusion, yielding state-of-the-art retrieval effectiveness, 30% improvement in terms of NDCG@3 compared to the best submission of Text REtrieval Conference (TREC) Conversational Assistant Track (CAsT) 2019.",
+    "citationCount": 72,
+    "referenceCount": 74
+}

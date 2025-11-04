@@ -1,0 +1,32 @@
+{
+    "paperId": "a1ba8bbd319d64ae23fb765f997ba9b387b0ca7b",
+    "title": "Interpreting Neural Ranking Models using Grad-CAM",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jaekeol Choi",
+        "J. Choi",
+        "Wonjong Rhee"
+    ],
+    "doi": null,
+    "arxivId": "2005.05768",
+    "url": "https://www.semanticscholar.org/paper/a1ba8bbd319d64ae23fb765f997ba9b387b0ca7b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, applying deep neural networks in IR has become an important and timely topic. For instance, Neural Ranking Models(NRMs) have shown promising performance compared to the traditional ranking models. However, explaining the ranking results has become even more difficult with NRM due to the complex structure of neural networks. On the other hand, a great deal of research is under progress on Interpretable Machine Learning(IML), including Grad-CAM. Grad-CAM is an attribution method and it can visualize the input regions that contribute to the network's output. In this paper, we adopt Grad-CAM for interpreting the ranking results of NRM. By adopting Grad-CAM, we analyze how each query-document term pair contributes to the matching score for a given pair of query and document. The visualization results provide insights on why a certain document is relevant to the given query. Also, the results show that neural ranking model captures the subtle notion of relevance. Our interpretation method and visualization results can be used for snippet generation and user-query intent analysis.",
+    "citationCount": 15,
+    "referenceCount": 10
+}

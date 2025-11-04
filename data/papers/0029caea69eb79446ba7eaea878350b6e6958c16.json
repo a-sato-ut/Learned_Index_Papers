@@ -1,0 +1,33 @@
+{
+    "paperId": "0029caea69eb79446ba7eaea878350b6e6958c16",
+    "title": "Taming the Wildcards: Towards Dependency-free Rule Caching with FreeCache",
+    "year": 2020,
+    "venue": "International Workshop on Quality of Service",
+    "authors": [
+        "Rui Li",
+        "Bohan Zhao",
+        "Ruixin Chen",
+        "Jin Zhao"
+    ],
+    "doi": "10.1109/IWQoS49365.2020.9212969",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0029caea69eb79446ba7eaea878350b6e6958c16",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Wildcard rules are implemented in various important networking scenarios, including QoS, firewall, access control, and network traffic monitoring and analysis. However, there are cross-rule dependencies between wildcard rules, which both increase significant overhead and affect the semantic correctness of packet classification when caching rules. Considerable efforts have been made to mitigate the impacts of the dependency issue in rule caching, but it is still a bottleneck for cache systems. In this paper, we show how to give applications the flexibility of completely dependency-free wildcard rule caching by decoupling the cached rules and their dependent rules. Our FreeCache scheme has wide applicability to packet classification devices with wildcard rule caching. We validate the effectiveness of FreeCache through two respects: (1) Implementing various cache algorithms (e.g., LSTM) and cache replacement algorithms (e.g., ARC, LIRS) that are difficult to use in dependency-bound situations in the cache system with FreeCache. (2) Developing a prototype in a Software-Defined Network (SDN), where hybrid OpenFlow switches use TCAM as cache and RAM as auxiliary memory. Our experimental results reveal that FreeCache improves the cache performance by up to 60.88% in the offline scenario. FreeCache also offers the promise of applying any existing caching algorithms to wildcard rule caching while guaranteeing the properties of semantic correctness and equivalence.",
+    "citationCount": 13,
+    "referenceCount": 25
+}

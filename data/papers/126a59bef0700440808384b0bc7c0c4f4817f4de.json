@@ -1,0 +1,33 @@
+{
+    "paperId": "126a59bef0700440808384b0bc7c0c4f4817f4de",
+    "title": "High-performance and balanced parallel graph coloring on multicore platforms",
+    "year": 2022,
+    "venue": "Journal of Supercomputing",
+    "authors": [
+        "Christina Giannoula",
+        "Athanasios Peppas",
+        "G. Goumas",
+        "N. Koziris"
+    ],
+    "doi": "10.1007/s11227-022-04894-6",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/126a59bef0700440808384b0bc7c0c4f4817f4de",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s11227-022-04894-6.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph coloring is widely used to parallelize scientific applications by identifying subsets of independent tasks that can be executed simultaneously. Graph coloring assigns colors the vertices of a graph, such that no adjacent vertices have the same color. The number of colors used corresponds to the number of parallel steps in a real-world end-application. Therefore, the total runtime of the graph coloring kernel adds to the overall parallel overhead of the real-world end-application, whereas the number of the vertices of each color class determines the number of the independent concurrent tasks of each parallel step, thus affecting the amount of parallelism and hardware resource utilization in the execution of the real-world end-application. In this work, we propose a high-performance graph coloring algorithm, named ColorTM, that leverages Hardware Transactional Memory (HTM) to detect coloring inconsistencies between adjacent vertices. ColorTM detects and resolves coloring inconsistencies between adjacent vertices with an eager approach to minimize data access costs, and implements a speculative synchronization scheme to minimize synchronization costs and increase parallelism. We extend our proposed algorithmic design to propose a balanced graph coloring algorithm, named BalColorTM, with which all color classes include almost the same number of vertices to achieve high parallelism and resource utilization in the execution of the real-world end-applications. We evaluate ColorTM and BalColorTM using a wide variety of large real-world graphs with diverse characteristics. ColorTM and BalColorTM improve performance by 12.98 $$\\times$$ × and 1.78 $$\\times$$ × on average using 56 parallel threads compared to prior state-of-the-art approaches. Moreover, we study the impact of our proposed graph coloring algorithmic designs on a popular end-application, i.e., Community Detection, and demonstrate the ColorTM and BalColorTM can provide high-performance improvements in real-world end-applications across various input data given.",
+    "citationCount": 3,
+    "referenceCount": 84
+}

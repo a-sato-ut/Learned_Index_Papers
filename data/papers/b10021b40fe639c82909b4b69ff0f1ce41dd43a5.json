@@ -1,0 +1,41 @@
+{
+    "paperId": "b10021b40fe639c82909b4b69ff0f1ce41dd43a5",
+    "title": "AutoComp: Automated Data Compaction for Log-Structured Tables in Data Lakes",
+    "year": 2025,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Anja Gruenheid",
+        "Jes'us Camacho-Rodr'iguez",
+        "Carlo Curino",
+        "Raghu Ramakrishnan",
+        "Stanislav Pak",
+        "Sumedh Sakdeo",
+        "Lenisha Gandhi",
+        "Sandeep K. Singhal",
+        "Pooja Nilangekar",
+        "Daniel J. Abadi"
+    ],
+    "doi": "10.1145/3722212.3724430",
+    "arxivId": "2504.04186",
+    "url": "https://www.semanticscholar.org/paper/b10021b40fe639c82909b4b69ff0f1ce41dd43a5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The proliferation of small files in data lakes poses significant challenges, including degraded query performance, increased storage costs, and scalability bottlenecks in distributed storage systems. Log-structured table formats (LSTs) such as Delta Lake, Apache Iceberg, and Apache Hudi exacerbate this issue due to their append-only write patterns and metadata-intensive operations. While compaction--the process of consolidating small files into fewer, larger files--is a common solution, existing automation mechanisms often lack the flexibility and scalability to adapt to diverse workloads and system requirements while balancing the trade-offs between compaction benefits and costs. In this paper, we present AutoComp, a scalable framework for automatic data compaction tailored to the needs of modern data lakes. Drawing on deployment experience at LinkedIn, we analyze the operational impact of small file proliferation, establish key requirements for effective automatic compaction, and demonstrate how AutoComp addresses these challenges. Our evaluation, conducted using synthetic benchmarks and production environments via integration with OpenHouse--a control plane for catalog management, schema governance, and data services--shows significant improvements in file count reduction and query performance. We believe AutoComp's built-in extensibility provides a robust foundation for evolving compaction systems, facilitating future integration of refined multi-objective optimization approaches, workload-aware compaction strategies, and expanded support for broader data layout optimizations.",
+    "citationCount": 1,
+    "referenceCount": 53
+}

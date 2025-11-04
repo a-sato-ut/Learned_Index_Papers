@@ -1,0 +1,40 @@
+{
+    "paperId": "9c82006ba546b9fbb9c70da823d76802f494bdc7",
+    "title": "TwERC: High Performance Ensembled Candidate Generation for Ads Recommendation at Twitter",
+    "year": 2023,
+    "venue": "AdKDD@KDD",
+    "authors": [
+        "Vanessa Cai",
+        "Pradeep Prabakar",
+        "Manuel Serrano Rebuelta",
+        "Lucas Rosen",
+        "Federico Monti",
+        "Katarzyna Janocha",
+        "Tomo Lazovich",
+        "J. Raj",
+        "Y. Shrinivasan",
+        "Hao Li",
+        "Thomas Markovich"
+    ],
+    "doi": "10.48550/arXiv.2302.13915",
+    "arxivId": "2302.13915",
+    "url": "https://www.semanticscholar.org/paper/9c82006ba546b9fbb9c70da823d76802f494bdc7",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2302.13915",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recommendation systems are a core feature of social media companies with their uses including recommending organic and promoted contents. Many modern recommendation systems are split into multiple stages - candidate generation and heavy ranking - to balance computational cost against recommendation quality. We focus on the candidate generation phase of a large-scale ads recommendation problem in this paper, and present a machine learning first heterogeneous re-architecture of this stage which we term TwERC. We show that a system that combines a real-time light ranker with sourcing strategies capable of capturing additional information provides validated gains. We present two strategies. The first strategy uses a notion of similarity in the interaction graph, while the second strategy caches previous scores from the ranking stage. The graph based strategy achieves a 4.08% revenue gain and the rankscore based strategy achieves a 1.38% gain. These two strategies have biases that complement both the light ranker and one another. Finally, we describe a set of metrics that we believe are valuable as a means of understanding the complex product trade offs inherent in industrial candidate generation systems.",
+    "citationCount": 1,
+    "referenceCount": 73
+}

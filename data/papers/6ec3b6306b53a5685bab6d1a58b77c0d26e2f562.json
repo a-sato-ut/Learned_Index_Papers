@@ -1,0 +1,38 @@
+{
+    "paperId": "6ec3b6306b53a5685bab6d1a58b77c0d26e2f562",
+    "title": "Rethinking Multi-Interest Learning for Candidate Matching in Recommender Systems",
+    "year": 2023,
+    "venue": "ACM Conference on Recommender Systems",
+    "authors": [
+        "Yueqi Xie",
+        "Jingqi Gao",
+        "Peilin Zhou",
+        "Qichen Ye",
+        "Y. Hua",
+        "Jaeboum Kim",
+        "Fangzhao Wu",
+        "Sunghun Kim"
+    ],
+    "doi": "10.1145/3604915.3608766",
+    "arxivId": "2302.14532",
+    "url": "https://www.semanticscholar.org/paper/6ec3b6306b53a5685bab6d1a58b77c0d26e2f562",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2302.14532",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Existing research efforts for multi-interest candidate matching in recommender systems mainly focus on improving model architecture or incorporating additional information, neglecting the importance of training schemes. This work revisits the training framework and uncovers two major problems hindering the expressiveness of learned multi-interest representations. First, the current training objective (i.e., uniformly sampled softmax) fails to effectively train discriminative representations in a multi-interest learning scenario due to the severe increase in easy negative samples. Second, a routing collapse problem is observed where each learned interest may collapse to express information only from a single item, resulting in information loss. To address these issues, we propose the REMI framework, consisting of an Interest-aware Hard Negative mining strategy (IHN) and a Routing Regularization (RR) method. IHN emphasizes interest-aware hard negatives by proposing an ideal sampling distribution and developing a Monte-Carlo strategy for efficient approximation. RR prevents routing collapse by introducing a novel regularization term on the item-to-interest routing matrices. These two components enhance the learned multi-interest representations from both the optimization objective and the composition information. REMI is a general framework that can be readily applied to various existing multi-interest candidate matching methods. Experiments on three real-world datasets show our method can significantly improve state-of-the-art methods with easy implementation and negligible computational overhead. The source code is available at https://github.com/Tokkiu/REMI.",
+    "citationCount": 37,
+    "referenceCount": 64
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "ce29c3a412c561f1978de16c794ce67bd296bf3c",
+    "title": "PReVer: Towards Private Regulated Verified Data",
+    "year": 2022,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "Mohammad Javad Amiri",
+        "T. Allard",
+        "D. Agrawal",
+        "A. El Abbadi"
+    ],
+    "doi": "10.48786/edbt.2022.40",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ce29c3a412c561f1978de16c794ce67bd296bf3c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://hal.science/hal-03630283/document",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data privacy has garnered significant attention recently due to diverse applications that store sensitive data in untrusted infrastructure. From a data management point of view, the focus has been on the privacy of stored data and the privacy of querying data at a large scale. However, databases are not solely query engines on static data, they must support updates on dynamically evolving datasets. In this paper, we lay out a vision for privacy-preserving dynamic data. In particular, we focus on dynamic data that might be stored remotely on untrusted providers. Updates arrive at a provider and are verified and incorporated into the database based on predefined constraints. Depending on the application, the content of the stored data, the content of the updates and the constraints may be private or public. We then propose PReVer , a universal framework for managing regulated dynamic data in a privacy-preserving manner. We explore a set of research challenges that PReVer needs to address in order to guarantee the privacy of data, updates, and/or constraints and address the consistent and verifiable execution of updates. This opens the space of privacy-preserving data management from the narrow perspective of private queries on static datasets to the larger space of private management of dynamic data.",
+    "citationCount": 5,
+    "referenceCount": 65
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "8faa343c0ceb426ecc0c45b4ca0ae7e2ceebf1ec",
+    "title": "Cost-Aware Resource Recommendation for DAG-Based Big Data Workflows: An Apache Spark Case Study",
+    "year": 2023,
+    "venue": "IEEE Transactions on Services Computing",
+    "authors": [
+        "Mohammad-Mohsen Aseman-Manzar",
+        "Soroush Karimian-Aliabadi",
+        "Reza Entezari-Maleki",
+        "Bernhard Egger",
+        "A. Movaghar"
+    ],
+    "doi": "10.1109/TSC.2022.3203010",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8faa343c0ceb426ecc0c45b4ca0ae7e2ceebf1ec",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The era of personal resources being sufficient for enterprise big data computations has passed. As computations are executed in the cloud, small policy changes of cloud operators may cause considerable changes in operational costs. Carefully choosing the amount of resources for a given application is thus of great importance. This, however, requires a priori knowledge of the application's performance under different configurations. Creating a performance prediction model needs to account for the heterogeneity of resources and the diversity in application workflows. Previous approaches for heterogeneous environments consider a black-box representation of the application which results in single-purpose models. This paper addresses the problem with two gray-box prediction models using linear programming (LP) and mixed-integer linear programming (MILP). Given a set of available resources, the models consider Apache Spark applications and their Directed Acyclic Graph (DAG) of workflow running on top of a Hadoop-YARN cluster. We then propose a configuration recommendation algorithm to optimize the cost-performance trade-offs when renting machine instances. The accuracy of the proposed models is evaluated with real-world executions of several representative applications on the Wikipedia dataset and the TPC-DS benchmark. The average error of only 3.28% for the proposed prediction models demonstrates the practicality of the proposed approach in handling cost-performance trade-offs.",
+    "citationCount": 5,
+    "referenceCount": 47
+}

@@ -1,0 +1,42 @@
+{
+    "paperId": "15d639180f6319b246dda9f0c0b65d168b325beb",
+    "title": "Automating Data Science Pipelines with Tensor Completion",
+    "year": 2024,
+    "venue": "BigData Congress [Services Society]",
+    "authors": [
+        "Shaan Pakala",
+        "Bryce Graw",
+        "Dawon Ahn",
+        "Tam Dinh",
+        "Mehnaz Tabassum Mahin",
+        "Vassilis J. Tsotras",
+        "Jia Chen",
+        "E. Papalexakis"
+    ],
+    "doi": "10.1109/BigData62323.2024.10825934",
+    "arxivId": "2410.06408",
+    "url": "https://www.semanticscholar.org/paper/15d639180f6319b246dda9f0c0b65d168b325beb",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2410.06408",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hyperparameter optimization is an essential component in many data science pipelines and typically entails exhaustive time and resource-consuming computations in order to explore the combinatorial search space. Similar to this problem, other key operations in data science pipelines exhibit the exact same properties. Important examples are: neural architecture search, where the goal is to identify the best design choices for a neural network, and query cardinality estimation, where given different predicate values for a SQL query the goal is to estimate the size of the output. In this paper, we abstract away those essential components of data science pipelines and we model them as instances of tensor completion, where each variable of the search space corresponds to one mode of the tensor. Now the goal is to identify all missing entries of the tensor, corresponding to all combinations of variable values, starting from a very small sample of observed entries. In order to do so, we first conduct a thorough experimental evaluation of existing state-of-the-art tensor completion techniques. We also introduce domaininspired adaptations (such as smoothness across the discretized variable space) and an ensemble technique which is able to achieve state-of-the-art performance. We extensively evaluate existing and proposed methods in a number of generated datasets corresponding to (a) hyperparameter optimization for non-neural network models, (b) neural architecture search, and (c) variants of query cardinality estimation. By doing this, we demonstrate the effectiveness of tensor completion as a tool for automating data science pipelines. Furthermore, we release our generated datasets and code in order to provide benchmarks for future work on this topic.",
+    "citationCount": 2,
+    "referenceCount": 37
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "d9b720142a3fdd2a4a1f1181399f2c667398a703",
+    "title": "Analog In-Network Computing through Memristor-based Match-Compute Processing",
+    "year": 2024,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Saad Saleh",
+        "A. Goossens",
+        "Sunny Shu",
+        "Tamalika Banerjee",
+        "Boris Koldehofe"
+    ],
+    "doi": "10.1109/INFOCOM52122.2024.10621228",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d9b720142a3fdd2a4a1f1181399f2c667398a703",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current network functions consume a significant amount of energy and lack the capacity to support more expressive learning models like neuromorphic functions. The major reason is the underlying transistor-based components that require continuous energy-intensive data movements between the storage and computational units. In this research, we propose the use of a novel component, called Memristor, which can colocalize computation and storage, and provide computational capabilities. Building on memristors, we propose the concept of match-compute processing for supporting energy efficient network functions. Considering the analog processing of memristors, we propose a Probabilistic Content Addressable Memory (pCAM) abstraction which can provide analog match functions. pCAM provides deterministic and probabilistic outputs depending upon the closeness of match of an incoming query with the specified network policy. pCAM uses a crossbar array for line rate matrix multiplications on the match outputs. We proposed a match-compute packet processing architecture and developed the programming abstractions for a baseline network function, i.e., Active Queue Management, which drops packets based upon the higher-order derivatives of sojourn times and buffer sizes. The analysis of match-compute processing over a physically fabricated memristor chip showed only 0.01 fJ/bit/cell of energy consumption, which is 50 times less than the traditional match-action processing.",
+    "citationCount": 2,
+    "referenceCount": 46
+}

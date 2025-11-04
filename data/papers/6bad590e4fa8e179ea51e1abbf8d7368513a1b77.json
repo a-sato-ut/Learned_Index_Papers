@@ -1,0 +1,32 @@
+{
+    "paperId": "6bad590e4fa8e179ea51e1abbf8d7368513a1b77",
+    "title": "Fast Algorithms for Denial Constraint Discovery",
+    "year": 2022,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Eduardo H. M. Pena",
+        "F. Porto",
+        "Felix Naumann"
+    ],
+    "doi": "10.14778/3574245.3574254",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6bad590e4fa8e179ea51e1abbf8d7368513a1b77",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Denial constraints (DCs) are an integrity constraint formalism widely used to detect inconsistencies in data. Several algorithms have been devised to discover DCs from data, as manually specifying them is burdensome and, worse yet, error-prone. The existing algorithms follow two basic steps: building an intermediate data structure from records, then enumerating the DCs from that intermediate. However, current algorithms are often inefficient in computing these intermediates. Also, it is still unclear which enumeration algorithm performs best since some of the available algorithms have not yet been compared to each other.\n In response, we present a set of new algorithms with improved design choices. We introduce a parallel pipeline for rapidly computing the intermediate using custom data representations, algorithms, and indexes. For DC enumeration, we propose an inverted index, pruning, and parallel search strategies. We present hybrid approaches that integrate our techniques with previous enumeration algorithms, improving their performance in many scenarios. Our experimental study shows that the proposed DC discovery algorithms are consistently much faster (up to an order of magnitude) than the current state-of-the-art.",
+    "citationCount": 19,
+    "referenceCount": 29
+}

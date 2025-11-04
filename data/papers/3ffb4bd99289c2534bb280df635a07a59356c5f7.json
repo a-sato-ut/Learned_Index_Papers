@@ -1,0 +1,38 @@
+{
+    "paperId": "3ffb4bd99289c2534bb280df635a07a59356c5f7",
+    "title": "CLOUD-CODEC: A New Way of Storing Traffic Camera Footage at Scale",
+    "year": 2025,
+    "venue": "ACM Trans. Multim. Comput. Commun. Appl.",
+    "authors": [
+        "Hoyoung Kim",
+        "Azimbek Khudoyberdiev",
+        "Shubhangi S. R. Garnaik",
+        "Arani Bhattacharya",
+        "Jihoon Ryoo"
+    ],
+    "doi": "10.1145/3744649",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3ffb4bd99289c2534bb280df635a07a59356c5f7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Storing large volumes of traffic video content in cloud storage is an expensive undertaking, given the limited capacity of cloud storage and its inability to store data beyond a few weeks. To address this issue, this article introduces CLOUD-CODEC, a novel video encoding approach tailored specifically for traffic monitoring video. CLOUD-CODEC offers three key advantages: (i) real-time encoding without any delay, (ii) near-perfect video quality upon decoding, and (iii) one-fifth the storage size of traditional encoding methods. CLOUD-CODEC is generally applicable to traffic cameras under various weather and lighting conditions. The encoding algorithm is a lightweight DNN-based object detection and box-shaped segmentation approach. The method can uniquely detect and segment cars, pedestrians, and moving objects with the marginal box-shaped contours. Periodic object detection makes it possible for CLOUD-CODEC to operate in real-time and estimate the movement of objects between predictions. Proof-of-concept evaluations using a massive dataset indicate that CLOUD-CODEC reduces video size by 80%—surpassing AV1 (34.9%), CloudSeg (58.4%), Detection (76.9%), Segmentation (73.1%), and Segm&Sort (69.5%). It achieves a frame rate of 95.8 when encoding and a VMAF score of 72.54 after decoding, with a storage size that is one-fifth of traditional methods. Field-testing of CLOUD-CODEC on metropolitan traffic cameras demonstrates its ability to extend storage time by 74.92%.",
+    "citationCount": 0,
+    "referenceCount": 84
+}

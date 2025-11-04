@@ -1,0 +1,37 @@
+{
+    "paperId": "0b5c2ca78e921f9f3132b533a158930ac23ad56e",
+    "title": "Threshold Policies with Tight Guarantees for Online Selection with Convex Costs",
+    "year": 2023,
+    "venue": "ACM Trans. Economics and Comput.",
+    "authors": [
+        "Xiaoqi Tan",
+        "Siyuan Yu",
+        "R. Boutaba",
+        "Alberto Leon-Garcia"
+    ],
+    "doi": "10.1145/3723351",
+    "arxivId": "2310.06166",
+    "url": "https://www.semanticscholar.org/paper/0b5c2ca78e921f9f3132b533a158930ac23ad56e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This article provides threshold policies with tight guarantees for online selection with convex cost (OSCC). In OSCC, a seller wants to sell some asset to a sequence of buyers with the goal of maximizing her profit. The seller can produce additional units of the asset, but at non-decreasing marginal costs. Each time, a buyer arrives and offers a price. The seller must make an immediate and irrevocable decision in terms of whether to accept the offer and produce/sell one unit of the asset to this buyer. The goal is to develop an online algorithm that selects a subset of buyers to maximize the seller’s profit, namely, the total selling revenue minus the total production cost. Our main result is the development of a class of simple threshold policies that are logistically simple and easy to implement but have provable optimality guarantees among all deterministic algorithms. We also derive a lower bound on competitive ratios of randomized algorithms and prove that the competitive ratio of our threshold policy asymptotically converges to this lower bound when the total production output is sufficiently large. Our results generalize and unify various online search, pricing, and auction problems, and provide a new perspective on the impact of non-decreasing marginal costs on real-world online resource allocation problems.",
+    "citationCount": 5,
+    "referenceCount": 46
+}

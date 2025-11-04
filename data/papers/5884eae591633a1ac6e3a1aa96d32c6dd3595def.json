@@ -1,0 +1,32 @@
+{
+    "paperId": "5884eae591633a1ac6e3a1aa96d32c6dd3595def",
+    "title": "DeepCM: Deep neural networks to improve accuracy prediction of database cost models",
+    "year": 2021,
+    "venue": "Concurrency and Computation",
+    "authors": [
+        "Abdelkader Ouared",
+        "Abdelhafid Chadli",
+        "M. Daoud"
+    ],
+    "doi": "10.1002/cpe.6724",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5884eae591633a1ac6e3a1aa96d32c6dd3595def",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A major challenge for many database management tasks including admission control, query scheduling, progress monitoring and self‐driving data storage systems is to enhance queries performances which are based on computational models known as database cost models. One of the most challenging aspects of developing accurate database cost models is identifying their parameters and capturing their relationships, consequently we can derive the query execution cost on the basis of a specific database hosted on a given platform. Furthermore, the highly dynamic workload (i.e., a set of queries) and the query execution variation lead to performance degradation risk, therefore cost models need to be improved by considering newer software configuration and future workload characteristics. In this article, we propose a framework called DeepCM that is based on a min–max optimization for building robust database cost model against uncertainty parameters. Furthermore, our framework is based on Robust Deep Neural Networks to build database cost models that guarantee a high accuracy regardless of variations from software configuration and workload characteristics. Several experiments have been done to evaluate the robustness of produced cost models and findings show that DeepCM provides a high cost model prediction accuracy and stable performance.",
+    "citationCount": 12,
+    "referenceCount": 54
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "868553f5f3e16e0683b0862e2fb7edbaf5fa0ca1",
+    "title": "Multi-Epoch Learning for Deep Click-Through Rate Prediction Models",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhaocheng Liu",
+        "Zhongxiang Fan",
+        "Jian Liang",
+        "Dongying Kong",
+        "Han Li"
+    ],
+    "doi": "10.48550/arXiv.2305.19531",
+    "arxivId": "2305.19531",
+    "url": "https://www.semanticscholar.org/paper/868553f5f3e16e0683b0862e2fb7edbaf5fa0ca1",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.19531",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The one-epoch overfitting phenomenon has been widely observed in industrial Click-Through Rate (CTR) applications, where the model performance experiences a significant degradation at the beginning of the second epoch. Recent advances try to understand the underlying factors behind this phenomenon through extensive experiments. However, it is still unknown whether a multi-epoch training paradigm could achieve better results, as the best performance is usually achieved by one-epoch training. In this paper, we hypothesize that the emergence of this phenomenon may be attributed to the susceptibility of the embedding layer to overfitting, which can stem from the high-dimensional sparsity of data. To maintain feature sparsity while simultaneously avoiding overfitting of embeddings, we propose a novel Multi-Epoch learning with Data Augmentation (MEDA), which can be directly applied to most deep CTR models. MEDA achieves data augmentation by reinitializing the embedding layer in each epoch, thereby avoiding embedding overfitting and simultaneously improving convergence. To our best knowledge, MEDA is the first multi-epoch training paradigm designed for deep CTR prediction models. We conduct extensive experiments on several public datasets, and the effectiveness of our proposed MEDA is fully verified. Notably, the results show that MEDA can significantly outperform the conventional one-epoch training. Besides, MEDA has exhibited significant benefits in a real-world scene on Kuaishou.",
+    "citationCount": 1,
+    "referenceCount": 25
+}

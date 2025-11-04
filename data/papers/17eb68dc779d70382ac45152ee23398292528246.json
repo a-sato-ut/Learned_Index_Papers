@@ -1,0 +1,40 @@
+{
+    "paperId": "17eb68dc779d70382ac45152ee23398292528246",
+    "title": "SPA: Economical and Workload-Driven Indexing for Data Analytics in the Cloud",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "P. Boncz",
+        "Yannis Chronis",
+        "Jan Finis",
+        "Stefan Halfpap",
+        "Viktor Leis",
+        "Thomas Neumann",
+        "A. Nica",
+        "Caetano Sauer",
+        "Knut Stolze",
+        "M. Zukowski"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00302",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/17eb68dc779d70382ac45152ee23398292528246",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Selective queries are not uncommon in large-scale data analytics, for example, when drilling down into a specific customer in a dashboard. Traditionally, selective queries are accelerated by creating secondary indexes. However, because of their large size, expensive maintenance, and difficulty to tune and automate, indexes are typically not used in modern cloud data warehouses or data lakes. Instead, such systems rely mostly on full table scans and lightweight optimizations like min/max filtering, whose effectiveness depends heavily on the data layout and value distributions.We propose SPA as the vision for automatically optimizing selective queries for immutable copy-on-write data formats. SPA adaptively indexes subsets of the data in an incremental and workload-driven manner. It makes fine-grained decisions and continuously monitors their benefit, dynamically allocating an optimization budget in a way that bounds the additional cost of indexing. Furthermore, it guarantees a performance improvement in the cases where indexes—potentially partial ones—prove to be beneficial. When indexes lose their benefit due to a shifting workload, they are gradually deconstructed in favor of optimizations that accommodate recent trends. As SPA does not require information about updates performed on the data, it can also be employed as an accelerator for systems that do not control the data, e.g., in cloud data lakes.",
+    "citationCount": 4,
+    "referenceCount": 22
+}

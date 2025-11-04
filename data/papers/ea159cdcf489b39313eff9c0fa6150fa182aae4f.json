@@ -1,0 +1,41 @@
+{
+    "paperId": "ea159cdcf489b39313eff9c0fa6150fa182aae4f",
+    "title": "Optimal stopping methodology for the secretary problem with random queries",
+    "year": 2021,
+    "venue": "Journal of Applied Probability",
+    "authors": [
+        "G. Moustakides",
+        "Xujun Liu",
+        "O. Milenkovic"
+    ],
+    "doi": "10.1017/jpr.2023.61",
+    "arxivId": "2107.07513",
+    "url": "https://www.semanticscholar.org/paper/ea159cdcf489b39313eff9c0fa6150fa182aae4f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2107.07513",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract Candidates arrive sequentially for an interview process which results in them being ranked relative to their predecessors. Based on the ranks available at each time, a decision mechanism must be developed that selects or dismisses the current candidate in an effort to maximize the chance of selecting the best. This classical version of the ‘secretary problem’ has been studied in depth, mostly using combinatorial approaches, along with numerous other variants. We consider a particular new version where, during reviewing, it is possible to query an external expert to improve the probability of making the correct decision. Unlike existing formulations, we consider experts that are not necessarily infallible and may provide suggestions that can be faulty. For the solution of our problem we adopt a probabilistic methodology and view the querying times as consecutive stopping times which we optimize with the help of optimal stopping theory. For each querying time we must also design a mechanism to decide whether or not we should terminate the search at the querying time. This decision is straightforward under the usual assumption of infallible experts, but when experts are faulty it has a far more intricate structure.",
+    "citationCount": 3,
+    "referenceCount": 22
+}

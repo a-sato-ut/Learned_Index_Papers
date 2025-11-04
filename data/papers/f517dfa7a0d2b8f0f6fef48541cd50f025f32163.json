@@ -1,0 +1,36 @@
+{
+    "paperId": "f517dfa7a0d2b8f0f6fef48541cd50f025f32163",
+    "title": "ServeFlow: A Fast-Slow Model Architecture for Network Traffic Analysis",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Shinan Liu",
+        "Ted Shaowang",
+        "Gerry Wan",
+        "Jeewon Chae",
+        "Jonatas Marques",
+        "Sanjay Krishnan",
+        "Nick Feamster"
+    ],
+    "doi": "10.48550/arXiv.2402.03694",
+    "arxivId": "2402.03694",
+    "url": "https://www.semanticscholar.org/paper/f517dfa7a0d2b8f0f6fef48541cd50f025f32163",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Network traffic analysis increasingly uses complex machine learning models as the internet consolidates and traffic gets more encrypted. However, over high-bandwidth networks, flows can easily arrive faster than model inference rates. The temporal nature of network flows limits simple scale-out approaches leveraged in other high-traffic machine learning applications. Accordingly, this paper presents ServeFlow, a solution for machine-learning model serving aimed at network traffic analysis tasks, which carefully selects the number of packets to collect and the models to apply for individual flows to achieve a balance between minimal latency, high service rate, and high accuracy. We identify that on the same task, inference time across models can differ by 1.8x - 141.3x, while the inter-packet waiting time is up to 6-8 orders of magnitude higher than the inference time! Based on these insights, we tailor a novel fast-slow model architecture for networking ML pipelines. Flows are assigned to a slower model only when the inferences from the fast model are deemed high uncertainty. ServeFlow is able to make inferences on 76.3% of flows in under 16ms, which is a speed-up of 40.5x on the median end-to-end serving latency while increasing the service rate and maintaining similar accuracy. Even with thousands of features per flow, it achieves a service rate of over 48.5k new flows per second on a 16-core CPU commodity server, which matches the order of magnitude of flow rates observed on city-level network backbones.",
+    "citationCount": 7,
+    "referenceCount": 78
+}

@@ -1,0 +1,41 @@
+{
+    "paperId": "f4eab975249c6c3196a588e074c19a4354a6ac4c",
+    "title": "The Central Role of the Loss Function in Reinforcement Learning",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Kaiwen Wang",
+        "Nathan Kallus",
+        "Wen Sun"
+    ],
+    "doi": "10.48550/arXiv.2409.12799",
+    "arxivId": "2409.12799",
+    "url": "https://www.semanticscholar.org/paper/f4eab975249c6c3196a588e074c19a4354a6ac4c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper illustrates the central role of loss functions in data-driven decision making, providing a comprehensive survey on their influence in cost-sensitive classification (CSC) and reinforcement learning (RL). We demonstrate how different regression loss functions affect the sample efficiency and adaptivity of value-based decision making algorithms. Across multiple settings, we prove that algorithms using the binary cross-entropy loss achieve first-order bounds scaling with the optimal policy's cost and are much more efficient than the commonly used squared loss. Moreover, we prove that distributional algorithms using the maximum likelihood loss achieve second-order bounds scaling with the policy variance and are even sharper than first-order bounds. This in particular proves the benefits of distributional RL. We hope that this paper serves as a guide analyzing decision making algorithms with varying loss functions, and can inspire the reader to seek out better loss functions to improve any decision making algorithm.",
+    "citationCount": 10,
+    "referenceCount": 76
+}

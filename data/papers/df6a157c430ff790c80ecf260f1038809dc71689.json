@@ -1,0 +1,41 @@
+{
+    "paperId": "df6a157c430ff790c80ecf260f1038809dc71689",
+    "title": "Balancing Sdn Control Plane Availability and Traffic Engineering Efficiency in Data Centers",
+    "year": 2024,
+    "venue": "IEEE International Conference on Network Protocols",
+    "authors": [
+        "Brian Chang",
+        "Keqiang He",
+        "Shawn Shuoshuo Chen",
+        "Jia-Jen Lin",
+        "Mingyang Zhang",
+        "Wenfei Wu",
+        "Aditya Akella"
+    ],
+    "doi": "10.1109/ICNP61940.2024.10858573",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/df6a157c430ff790c80ecf260f1038809dc71689",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many proposals have demonstrated the efficiency advantages of software-defined networking (SDN) in managing data center networks. Common practices employ centralized traffic engineering (TE) in the SDN control plane to optimize load balancing and throughput. Meanwhile, for high availability purposes, the control plane is partitioned to ensure the impact of a single faulty controller is contained. However, the interaction between these two aspects is often overlooked. In particular, we show that the current control plane partitioning approach leads to imbalanced link loads and degraded application performance. To address this issue, we propose virtual slicing, a new control plane partitioning scheme. Virtual slicing achieves desirable traffic engineering performance while retaining the availability guarantees from the current approach. Virtual slicing is implemented and evaluated with real-world and synthetic traffic traces on production spine-free data center networks. Results show that virtual slicing reduces tail link utilizations by up to 28.4 %, and improves flow completion times by up to 36 %.",
+    "citationCount": 0,
+    "referenceCount": 42
+}

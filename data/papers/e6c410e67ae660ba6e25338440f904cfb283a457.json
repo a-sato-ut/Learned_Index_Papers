@@ -1,0 +1,35 @@
+{
+    "paperId": "e6c410e67ae660ba6e25338440f904cfb283a457",
+    "title": "Data-Agnostic Cardinality Learning from Imperfect Workloads",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Peizhi Wu",
+        "Rong Kang",
+        "Tieying Zhang",
+        "Jianjun Chen",
+        "Ryan Marcus",
+        "Z. Ives"
+    ],
+    "doi": "10.14778/3742728.3742745",
+    "arxivId": "2506.16007",
+    "url": "https://www.semanticscholar.org/paper/e6c410e67ae660ba6e25338440f904cfb283a457",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Cardinality estimation (CardEst) is a critical aspect of query optimization. Traditionally, it leverages statistics built directly over the data. However, organizational policies (e.g., regulatory compliance) may restrict global data access. Fortunately,\n query-driven\n cardinality estimation can learn CardEst models using query workloads. However, existing query-driven models often require access to data or summaries for best performance, and they assume\n perfect\n training workloads with complete and balanced join templates (or join graphs). Such assumptions rarely hold in real-world scenarios, in which join templates are incomplete and imbalanced.\n \n \n We present GRASP, a\n data-agnostic\n cardinality learning system designed to work under these real-world constraints. GRASP's\n compositional design\n generalizes to unseen join templates and is robust to join template imbalance. It also introduces a new pertable CardEst model that handles value distribution shifts for range predicates, and a novel\n learned count sketch\n model that captures join correlations across base relations. Across three database instances, we demonstrate that GRASP consistently outperforms existing query-driven models on imperfect workloads, both in terms of estimation accuracy and query latency. Remarkably, GRASP achieves performance comparable to, or even surpassing, traditional approaches built over the underlying data on the complex CEB-IMDb-full benchmark — despite operating without any data access and using only 10% of all possible join templates.\n",
+    "citationCount": 0,
+    "referenceCount": 63
+}

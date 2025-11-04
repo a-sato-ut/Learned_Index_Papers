@@ -1,0 +1,46 @@
+{
+    "paperId": "355fe8111c250dee86a7d6a5cd818b6f61e41279",
+    "title": "End-to-end Adaptive Distributed Training on PaddlePaddle",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yulong Ao",
+        "Zhihua Wu",
+        "Dianhai Yu",
+        "Weibao Gong",
+        "Zhiqing Kui",
+        "Minxu Zhang",
+        "Zilingfeng Ye",
+        "Liang Shen",
+        "Yanjun Ma",
+        "Tian Wu",
+        "Haifeng Wang",
+        "Wei Zeng",
+        "Chao Yang"
+    ],
+    "doi": null,
+    "arxivId": "2112.02752",
+    "url": "https://www.semanticscholar.org/paper/355fe8111c250dee86a7d6a5cd818b6f61e41279",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Distributed training has become a pervasive and effective approach for training a large neural network (NN) model with processing massive data. However, it is very challenging to satisfy requirements from various NN models, diverse computing resources, and their dynamic changes during a training job. In this study, we design our distributed training framework in a systematic end-to-end view to provide the built-in adaptive ability for different scenarios, especially for industrial applications and production environments, by fully considering resource allocation, model partition, task placement, and distributed execution. Based on the unified distributed graph and the unified cluster object, our adaptive framework is equipped with a global cost model and a global planner, which can enable arbitrary parallelism, resource-aware placement, multi-mode execution, fault-tolerant, and elastic distributed training. The experiments demonstrate that our framework can satisfy various requirements from the diversity of applications and the heterogeneity of resources with highly competitive performance. The ERNIE language model with 260 billion parameters is efficiently trained on thousands of AI processors with 91.7% weak scalability. The throughput of the model from the recommender system by employing the heterogeneous pipeline asynchronous execution can be increased up to 2.1 times and 3.3 times that of the GPU-only and CPU-only training respectively. Moreover, the fault-tolerant and elastic distributed training have been successfully applied to the online industrial applications, which give a reduction of 34.49% in the number of failed long-term training jobs and an increase of 33.91% for the global scheduling efficiency in the production environment.",
+    "citationCount": 13,
+    "referenceCount": 50
+}

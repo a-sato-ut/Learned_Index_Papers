@@ -1,0 +1,33 @@
+{
+    "paperId": "5258b11b80f057b0a66cd3af091ca00f36fa7503",
+    "title": "Nautilus: A Benchmarking Platform for DBMS Knob Tuning",
+    "year": 2024,
+    "venue": "DEEM@SIGMOD",
+    "authors": [
+        "Konstantinos Kanellis",
+        "Johannes Freischuetz",
+        "Shivaram Venkataraman"
+    ],
+    "doi": "10.1145/3650203.3663336",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5258b11b80f057b0a66cd3af091ca00f36fa7503",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent research has shown the importance of tuning DBMS configuration knobs to achieve high performance. As a result, a large number of search-based and learning-based auto-tuning methods have been proposed. However, despite the promising results, we observe that (1) developing new auto-tuning methods, and (2) comparing them to existing methods is cumbersome and requires extensive engineering effort. This effort is compounded by the fact that auto-tuning methods typically need to be evaluated on multiple systems (PostgreSQL, MySQL, etc.) and benchmarks (TPC-C, TPC-H, etc.). In this paper we describe Nautilus, a platform that automates benchmarking for DBMS configuration tuning. Our insight in building Nautilus is that the process of developing auto-tuners can be separated into a tuning algorithm layer and a benchmarking layer. We focus on automating the benchmarking layer and thus make it easier for researchers to develop new tuning methods and compare with existing methods. We describe the design and implementation of Nautilus, highlighting its main features and advantages to the end-user. Furthermore, we are open-sourcing this project, so that the research community can freely use and benefit from it.",
+    "citationCount": 1,
+    "referenceCount": 18
+}

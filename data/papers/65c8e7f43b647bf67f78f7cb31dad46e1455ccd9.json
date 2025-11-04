@@ -1,0 +1,38 @@
+{
+    "paperId": "65c8e7f43b647bf67f78f7cb31dad46e1455ccd9",
+    "title": "Static and Streaming Discovery of Maximal Linear Representation Between Time Series",
+    "year": 2024,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Zeyu Wang",
+        "Zhenying He",
+        "Peng Wang",
+        "Yang Wang",
+        "Wei Wang"
+    ],
+    "doi": "10.1109/TKDE.2023.3287273",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/65c8e7f43b647bf67f78f7cb31dad46e1455ccd9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Nowadays, many applications, like the Internet of Things and Industrial Internet, collect data points from sensors continuously to form long time series. Finding the correlation between time series is a fundamental task for many time series mining problems. However, it is meaningless to directly measure the global correlation between two long time series due to concept shift or noise data. To tackle this challenge, in this paper, we formulate the novel problem of finding maximal significant linear representation. The major idea is that, given two time series and a quality constraint, we want to find the longest gapped time interval on which a time series can be linearly represented by the other within the quality constraint requirement. We develop both exact and approximate algorithms (with approximation quality guarantees), which exploit a novel representation of the linear correlation between time series on subsequences, and transform the problem into a geometric search. Moreover, we propose an online approach to find this correlation in each sliding window incrementally for the streaming data. We present a systematic empirical study to verify the efficiency and effectiveness of our approaches.",
+    "citationCount": 1,
+    "referenceCount": 33
+}

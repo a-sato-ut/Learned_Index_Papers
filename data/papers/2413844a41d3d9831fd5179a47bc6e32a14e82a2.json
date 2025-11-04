@@ -1,0 +1,37 @@
+{
+    "paperId": "2413844a41d3d9831fd5179a47bc6e32a14e82a2",
+    "title": "PCHA: A Fast Packet Classification Algorithm For IPv6 Based On Hash And AVL Tree",
+    "year": 2020,
+    "venue": "IEEE International Conference on Cloud Computing",
+    "authors": [
+        "Yu-Yan Zhang",
+        "Xing-Xing Chen",
+        "Xu Zhang"
+    ],
+    "doi": "10.1109/CLOUD49709.2020.00061",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2413844a41d3d9831fd5179a47bc6e32a14e82a2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As the core infrastructure of cloud data operation, exchange and storage, data centerneeds to ensure its security and reliability, which are the important prerequisites for the development of cloud computing. Due to various illegal accesses, attacks, viruses and other security threats, it is necessary to protect the boundary of cloud data center through security gateway. Since the traffic growing up to gigabyte level, the secure gateway must ensure high transmission efficiency and different network services to support the cloud services. In addition, data center is gradually evolving from IPv4 to IPv6 due to excessive consumption of IP addresses. Packet classification algorithm, which can divide packets into different specific streams, is very important for QoS, real-time data stream application and firewall. Therefore, it is necessary to design a high performance IPv6 packet classification algorithm suitable for security gateway.AsIPv6 has a128-bitIP address and a different packet structure compared with IPv4, the traditional IPv4 packet classification algorithm is not suitable properly for IPv6 situations. This paper proposes a fast packet classification algorithm for IPv6 - PCHA (packet classification based on hash andAdelson-Velsky-Landis Tree). It adopts the three flow classification fields of source IPaddress(SA), destination IPaddress(DA) and flow label(FL) in the IPv6 packet defined by RFC3697 to implement fast three-tuple matching of IPv6 packet. It is through hash matching of variable length IPv6 address and tree matching of shorter flow label. Analysis and testing show that the algorithm has a time complexity close to $O(1)$ in the acceptable range of space complexity, which meets the requirements of fast classification of IPv6 packetsand can adapt well to the changes in the size of rule sets, supporting fast preprocessing of rule sets. Our algorithm supports the storage of 500,000 3-tuple rules on the gateway device and can maintain 75% of the performance of throughput for small packets of 78 bytes.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

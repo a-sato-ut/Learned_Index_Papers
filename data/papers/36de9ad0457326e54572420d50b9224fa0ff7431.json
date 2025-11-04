@@ -1,0 +1,36 @@
+{
+    "paperId": "36de9ad0457326e54572420d50b9224fa0ff7431",
+    "title": "Intelligent Data Source Emission Rate Control for Optimising the Performance of Streaming Applications",
+    "year": 2024,
+    "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing",
+    "authors": [
+        "Ziren Xiao",
+        "Christopher Leckie",
+        "Maria A. Rodriguez"
+    ],
+    "doi": "10.1109/CCGrid59990.2024.00038",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/36de9ad0457326e54572420d50b9224fa0ff7431",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Streaming applications are expected to process an ever-increasing amount of data with high throughput and stringent latency requirements. Flooding these applications with incoming data may overload the stream processing engine, leading to a system with unstable queues and infinitely growing latencies. Existing stream processing systems are equipped to deal with such overload scenarios reactively, either through back pressure or load shedding mechanisms. These mechanisms, however, have considerable drawbacks as they consume additional system resources, incur in non-negligible performance overheads, and may compromise the quality of application-level results. To address this gap, we propose a strategy based on reinforcement learning to throttle the input rate of data sources in streaming applications. The proposed strategy mitigates overload scenarios by addressing the source of the problem, thus allowing resources to be better utilized by application and system components and mitigating the performance overhead of system-level reactive mechanisms. Through our experiments with two different applications, we demonstrate that our proposed approach reduces end-to-end latencies by up to 82% and increases throughput by up to 10% compared to back pressure mechanisms implemented in state-of-the-art stream processing engines.",
+    "citationCount": 1,
+    "referenceCount": 25
+}

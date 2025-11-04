@@ -44,8 +44,9 @@ def _request_json(
                 delay = (_BACKOFF_BASE ** attempt) + (_DELAY_BASE * attempt)
                 time.sleep(delay)
                 continue
-            # それ以外のエラーは詳細を出す
-            raise RuntimeError(f"S2 API error {resp.status_code}: {resp.text}")
+            # それ以外のエラーはprintしてNoneを返す
+            print(f"S2 API error {resp.status_code}: {resp.text}")
+            return {}
         except requests.RequestException as e:
             # ネットワーク系もリトライ
             delay = (_BACKOFF_BASE ** attempt) + (_DELAY_BASE * attempt)

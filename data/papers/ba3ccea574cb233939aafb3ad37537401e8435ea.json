@@ -1,0 +1,32 @@
+{
+    "paperId": "ba3ccea574cb233939aafb3ad37537401e8435ea",
+    "title": "Ad-hoc Document Retrieval Using Weak-Supervision with BERT and GPT2",
+    "year": 2020,
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+        "Y. Mass",
+        "Haggai Roitman"
+    ],
+    "doi": "10.18653/v1/2020.emnlp-main.343",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ba3ccea574cb233939aafb3ad37537401e8435ea",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.18653/v1/2020.emnlp-main.343",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We describe a weakly-supervised method for training deep learning models for the task of ad-hoc document retrieval. Our method is based on generative and discriminative models that are trained using weak-supervision just from the documents in the corpus. We present an end-to-end retrieval system that starts with traditional information retrieval methods, followed by two deep learning re-rankers. We evaluate our method on three different datasets: a COVID-19 related scientific literature dataset and two news datasets. We show that our method outperforms state-of-the-art methods; this without the need for the expensive process of manually labeling data.",
+    "citationCount": 18,
+    "referenceCount": 30
+}

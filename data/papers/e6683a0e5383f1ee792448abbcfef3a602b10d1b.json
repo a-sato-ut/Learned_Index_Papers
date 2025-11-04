@@ -1,0 +1,39 @@
+{
+    "paperId": "e6683a0e5383f1ee792448abbcfef3a602b10d1b",
+    "title": "Learning to rank approach for refining image retrieval in visual arts",
+    "year": 2023,
+    "venue": "2023 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)",
+    "authors": [
+        "Tetiana Yemelianenko",
+        "Iuliia Tkachenko",
+        "Tess Masclef",
+        "Mihaela Scuturici",
+        "Serge Miguet"
+    ],
+    "doi": "10.1109/ICCVW60793.2023.00177",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e6683a0e5383f1ee792448abbcfef3a602b10d1b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://hal.science/hal-04216811/file/ICCV23_workshop%20%281%29.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Art",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern content-based image retrieval systems demonstrate rather good performance in identifying visually similar artworks. However, this task becomes more challenging when art history specialists aim to refine the list of similar artworks based on their criteria, thus we need to train the model to reproduce this refinement. In this paper, we propose an approach for improving the list of similar paintings according to specific simulated criteria. By this approach, we retrieve paintings similar to a request image using ResNet50 model and ANNOY algorithm. Then, we simulate re-ranking based on the two criteria, and use the re-ranked lists for training LambdaMART model. Finally, we demonstrate that the trained model reproduces the re-ranking for the query painting by the specific criteria. We plan to use the proposed approach for reproducing re-rankings made by art history specialists, when this data will be collected.",
+    "citationCount": 5,
+    "referenceCount": 38
+}

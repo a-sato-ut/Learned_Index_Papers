@@ -1,0 +1,34 @@
+{
+    "paperId": "4fddac95f2d989316acb37a9bf8dcf629a2d5fdc",
+    "title": "CARPO: Leveraging Listwise Learning-to-Rank for Context-Aware Query Plan Optimization",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Wen-Liang Zhou",
+        "Qiyu Liu",
+        "Jingshu Peng",
+        "Aoqian Zhang",
+        "Lei Chen"
+    ],
+    "doi": "10.48550/arXiv.2509.03102",
+    "arxivId": "2509.03102",
+    "url": "https://www.semanticscholar.org/paper/4fddac95f2d989316acb37a9bf8dcf629a2d5fdc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficient data processing is increasingly vital, with query optimizers playing a fundamental role in translating SQL queries into optimal execution plans. Traditional cost-based optimizers, however, often generate suboptimal plans due to flawed heuristics and inaccurate cost models, leading to the emergence of Learned Query Optimizers (LQOs). To address challenges in existing LQOs, such as the inconsistency and suboptimality inherent in pairwise ranking methods, we introduce CARPO, a generic framework leveraging listwise learning-to-rank for context-aware query plan optimization. CARPO distinctively employs a Transformer-based model for holistic evaluation of candidate plan sets and integrates a robust hybrid decision mechanism, featuring Out-Of-Distribution (OOD) detection with a top-k fallback strategy to ensure reliability. Furthermore, CARPO can be seamlessly integrated with existing plan embedding techniques, demonstrating strong adaptability. Comprehensive experiments on TPC-H and STATS benchmarks demonstrate that CARPO significantly outperforms both native PostgreSQL and Lero, achieving a Top-1 Rate of 74.54% on the TPC-H benchmark compared to Lero's 3.63%, and reducing the total execution time to 3719.16 ms compared to PostgreSQL's 22577.87 ms.",
+    "citationCount": 0,
+    "referenceCount": 27
+}

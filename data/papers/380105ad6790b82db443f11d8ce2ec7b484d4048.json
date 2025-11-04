@@ -1,0 +1,40 @@
+{
+    "paperId": "380105ad6790b82db443f11d8ce2ec7b484d4048",
+    "title": "Fine-Grained Embedding Dimension Optimization During Training for Recommender Systems",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Qinyi Luo",
+        "Penghan Wang",
+        "Wei Zhang",
+        "Fan Lai",
+        "Jiachen Mao",
+        "Xiaohan Wei",
+        "Jun Song",
+        "Wei-Yu Tsai",
+        "Shuai Yang",
+        "Yuxi Hu",
+        "Xuehai Qian"
+    ],
+    "doi": "10.48550/arXiv.2401.04408",
+    "arxivId": "2401.04408",
+    "url": "https://www.semanticscholar.org/paper/380105ad6790b82db443f11d8ce2ec7b484d4048",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Huge embedding tables in modern deep learning recommender models (DLRM) require prohibitively large memory during training and inference. This paper proposes FIITED, a system to automatically reduce the memory footprint via FIne-grained In-Training Embedding Dimension pruning. By leveraging the key insight that embedding vectors are not equally important, FIITED adaptively adjusts the dimension of each individual embedding vector during model training, assigning larger dimensions to more important embeddings while adapting to dynamic changes in data. We prioritize embedding dimensions with higher frequencies and gradients as more important. To enable efficient pruning of embeddings and their dimensions during model training, we propose an embedding storage system based on virtually-hashed physically-indexed hash tables. Experiments on two industry models and months of realistic datasets show that FIITED can reduce DLRM embedding size by more than 65% while preserving model quality, outperforming state-of-the-art in-training embedding pruning methods. On public datasets, FIITED can reduce the size of embedding tables by 2.1x to 800x with negligible accuracy drop, while improving model throughput.",
+    "citationCount": 1,
+    "referenceCount": 37
+}

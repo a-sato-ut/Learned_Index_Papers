@@ -1,0 +1,31 @@
+{
+    "paperId": "eea56f2c5eceaa3ee02bcbb4016f5112f7de9519",
+    "title": "Approximating Stackelberg Equilibrium in Anti-UAV Jamming Markov Game with Hierarchical Multi-Agent Deep Reinforcement Learning Algorithm",
+    "year": 2021,
+    "venue": "",
+    "authors": [
+        "Zikai Feng",
+        "Yuanyuan Wu",
+        "Mengxing Huang",
+        "Diyang Wu"
+    ],
+    "doi": "10.21203/rs.3.rs-1156014/v1",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/eea56f2c5eceaa3ee02bcbb4016f5112f7de9519",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.21203/rs.3.rs-1156014/v1",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n In order to avoid the malicious jamming of the intelligent unmanned aerial vehicle (UAV) to ground users in the downlink communications, a new anti-UAV jamming strategy based on multi-agent deep reinforcement learning is studied in this paper. In this method, ground users aim to learn the best mobile strategies to avoid the jamming of UAV. The problem is modeled as a Stackelberg game to describe the competitive interaction between the UAV jammer (leader) and ground users (followers). To reduce the computational cost of equilibrium solution for the complex game with large state space, a hierarchical multi-agent proximal policy optimization (HMAPPO) algorithm is proposed to decouple the hybrid game into several sub-Markov games, which updates the actor and critic network of the UAV jammer and ground users at different time scales. Simulation results suggest that the hierarchical multi-agent proximal policy optimization -based anti-jamming strategy achieves comparable performance with lower time complexity than the benchmark strategies. The well-trained HMAPPO has the ability to obtain the optimal jamming strategy and the optimal anti-jamming strategies, which can approximate the Stackelberg equilibrium (SE).",
+    "citationCount": 1,
+    "referenceCount": 41
+}

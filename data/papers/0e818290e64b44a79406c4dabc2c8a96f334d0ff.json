@@ -1,0 +1,31 @@
+{
+    "paperId": "0e818290e64b44a79406c4dabc2c8a96f334d0ff",
+    "title": "Towards a Flexible Scale-out Framework for Efficient Visual Data Query Processing",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Rohit Verma",
+        "Arun Raghunath"
+    ],
+    "doi": "10.48550/arXiv.2402.03283",
+    "arxivId": "2402.03283",
+    "url": "https://www.semanticscholar.org/paper/0e818290e64b44a79406c4dabc2c8a96f334d0ff",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There is growing interest in visual data management systems that support queries with specialized operations ranging from resizing an image to running complex machine learning models. With a plethora of such operations, the basic need to receive query responses in minimal time takes a hit, especially when the client desires to run multiple such operations in a single query. Existing systems provide an ad-hoc approach where different solutions are clubbed together to provide an end-to-end visual data management system. Unlike such solutions, the Visual Data Management System (VDMS) natively executes queries with multiple operations, thus providing an end-to-end solution. However, a fixed subset of native operations and a synchronous threading architecture limit its generality and scalability. In this paper, we develop VDMS-Async that adds the capability to run user-defined operations with VDMS and execute operations within a query on a remote server. VDMS-Async utilizes an event-driven architecture to create an efficient pipeline for executing operations within a query. Our experiments have shown that VDMS-Async reduces the query execution time by 2-3X compared to existing state-of-the-art systems. Further, remote operations coupled with an event-driven architecture enables VDMS-Async to scale query execution time linearly with the addition of every new remote server. We demonstrate a 64X reduction in query execution time when adding 64 remote servers.",
+    "citationCount": 0,
+    "referenceCount": 33
+}

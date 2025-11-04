@@ -1,0 +1,31 @@
+{
+    "paperId": "8a60e539922b175e83db9bddd7fdf7873c98b8bf",
+    "title": "F, B, Alpha Matting",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Marco Forte",
+        "François Pitié"
+    ],
+    "doi": null,
+    "arxivId": "2003.07711",
+    "url": "https://www.semanticscholar.org/paper/8a60e539922b175e83db9bddd7fdf7873c98b8bf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cutting out an object and estimating its opacity mask, known as image matting, is a key task in many image editing applications. Deep learning approaches have made significant progress by adapting the encoder-decoder architecture of segmentation networks. However, most of the existing networks only predict the alpha matte and post-processing methods must then be used to recover the original foreground and background colours in the transparent regions. Recently, two methods have shown improved results by also estimating the foreground colours, but at a significant computational and memory cost. \nIn this paper, we propose a low-cost modification to alpha matting networks to also predict the foreground and background colours. We study variations of the training regime and explore a wide range of existing and novel loss functions for the joint prediction. \nOur method achieves the state of the art performance on the Adobe Composition-1k dataset for alpha matte and composite colour quality. It is also the current best performing method on the this http URL online evaluation.",
+    "citationCount": 87,
+    "referenceCount": 37
+}

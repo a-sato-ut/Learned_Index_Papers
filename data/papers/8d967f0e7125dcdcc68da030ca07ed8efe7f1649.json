@@ -1,0 +1,39 @@
+{
+    "paperId": "8d967f0e7125dcdcc68da030ca07ed8efe7f1649",
+    "title": "VAIV bio-discovery service using transformer model and retrieval augmented generation",
+    "year": 2024,
+    "venue": "BMC Bioinformatics",
+    "authors": [
+        "Seonho Kim",
+        "Juntae Yoon"
+    ],
+    "doi": "10.1186/s12859-024-05903-6",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8d967f0e7125dcdcc68da030ca07ed8efe7f1649",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1186/s12859-024-05903-6",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Background There has been a considerable advancement in AI technologies like LLM and machine learning to support biomedical knowledge discovery. Main body We propose a novel biomedical neural search service called ‘VAIV Bio-Discovery’, which supports enhanced knowledge discovery and document search on unstructured text such as PubMed. It mainly handles with information related to chemical compound/drugs, gene/proteins, diseases, and their interactions (chemical compounds/drugs-proteins/gene including drugs-targets, drug-drug, and drug-disease). To provide comprehensive knowledge, the system offers four search options: basic search, entity and interaction search, and natural language search. We employ T5slim_dec, which adapts the autoregressive generation task of the T5 (text-to-text transfer transformer) to the interaction extraction task by removing the self-attention layer in the decoder block. It also assists in interpreting research findings by summarizing the retrieved search results for a given natural language query with Retrieval Augmented Generation (RAG). The search engine is built with a hybrid method that combines neural search with the probabilistic search, BM25. Conclusion As a result, our system can better understand the context, semantics and relationships between terms within the document, enhancing search accuracy. This research contributes to the rapidly evolving biomedical field by introducing a new service to access and discover relevant knowledge.",
+    "citationCount": 3,
+    "referenceCount": 32
+}

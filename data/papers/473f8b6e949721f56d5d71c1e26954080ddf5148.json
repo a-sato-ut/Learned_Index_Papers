@@ -1,0 +1,47 @@
+{
+    "paperId": "473f8b6e949721f56d5d71c1e26954080ddf5148",
+    "title": "OpenEmbedding: A Distributed Parameter Server for Deep Learning Recommendation Models using Persistent Memory",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Cheng Chen",
+        "Yilin Wang",
+        "Jun Yang",
+        "Yiming Liu",
+        "Mian Lu",
+        "Zhao Zheng",
+        "Bingsheng He",
+        "W. Wong",
+        "Liang You",
+        "Penghao Sun",
+        "Yuping Zhao",
+        "Fenghua Hu",
+        "A. Rudoff"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00228",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/473f8b6e949721f56d5d71c1e26954080ddf5148",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we present OpenEmbedding, a distributed parameter server system for deep learning recommendation models (DLRM) workloads. In order to support rapid growth in the number of features and the model size (Terabytes are common) of DLRM workloads, OpenEmbedding takes advantage of emerging persistent memory (PMem) to address scalability and reliability issues in training DLRMs. Compared to DRAM, PMem can have much lower per-GB cost, higher density, and non-volatility, while with slightly low access performance to DRAM. OpenEmbedding uses DRAM as cache and PMem as storage for the sparse features and develops a simple but effective pipeline processing approach to optimize the access latency of the sparse features in PMem. For reliability, we develop a lightweight synchronous checkpointing scheme that is specially co-designed with the pipelined cache to reduce the run-time overhead of checkpointing. Our evaluations on a real-world industry workload consisting of billions of parameters demonstrate 1) the effectiveness of our PMem-aware optimizations, 2) checkpointing mechanism with near-zero run-time overhead to the training performance and 3) fast recovery with up to 3.97× speedup compared to the state-of-the-art. OpenEmbedding has been deployed in hundreds of scenarios in industry within 4Paradigm, and is open-sourced1.",
+    "citationCount": 2,
+    "referenceCount": 39
+}

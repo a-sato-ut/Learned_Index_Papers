@@ -1,0 +1,36 @@
+{
+    "paperId": "dc6599a969a05706cdf620da9598f230b32b23dc",
+    "title": "Signal Instructed Coordination in Cooperative Multi-agent Reinforcement Learning",
+    "year": 2019,
+    "venue": "International Conference on Distributed Artificial Intelligence",
+    "authors": [
+        "Liheng Chen",
+        "Hongyi Guo",
+        "Yali Du",
+        "Fei Fang",
+        "Haifeng Zhang",
+        "Weinan Zhang",
+        "Yong Yu"
+    ],
+    "doi": "10.1007/978-3-030-94662-3_12",
+    "arxivId": "1909.04224",
+    "url": "https://www.semanticscholar.org/paper/dc6599a969a05706cdf620da9598f230b32b23dc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In many real-world problems, a team of agents need to collaborate to maximize the common reward. Although existing works formulate this problem into a centralized learning with decentralized execution framework, which avoids the non-stationary problem in training, their decentralized execution paradigm limits the agents' capability to coordinate. Inspired by the concept of correlated equilibrium, we propose to introduce a coordination signal to address this limitation, and theoretically show that following mild conditions, decentralized agents with the coordination signal can coordinate their individual policies as manipulated by a centralized controller. The idea of introducing coordination signal is to encapsulate coordinated strategies into the signals, and use the signals to instruct the collaboration in decentralized execution. To encourage agents to learn to exploit the coordination signal, we propose Signal Instructed Coordination (SIC), a novel coordination module that can be integrated with most existing MARL frameworks. SIC casts a common signal sampled from a pre-defined distribution to all agents, and introduces an information-theoretic regularization to facilitate the consistency between the observed signal and agents' policies. Our experiments show that SIC consistently improves performance over well-recognized MARL models in both matrix games and a predator-prey game with high-dimensional strategy space.",
+    "citationCount": 9,
+    "referenceCount": 45
+}

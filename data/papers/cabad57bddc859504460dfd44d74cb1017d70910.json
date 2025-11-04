@@ -1,0 +1,38 @@
+{
+    "paperId": "cabad57bddc859504460dfd44d74cb1017d70910",
+    "title": "Microservices made attack-resilient using unsupervised service fissioning",
+    "year": 2020,
+    "venue": "EuroSec@EuroSys",
+    "authors": [
+        "A. F. Baarzi",
+        "G. Kesidis",
+        "D. Fleck",
+        "A. Stavrou"
+    ],
+    "doi": "10.1145/3380786.3391395",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cabad57bddc859504460dfd44d74cb1017d70910",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3380786.3391395",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Application-layer DoS attacks are increasing as the number of cloud-deployed microservice applications is increasing. The attacker tries to exhaust computing resources and brings the nominal applications down by exploiting application-layer vulnerabilities. As traditional solutions for volumetric DoS attacks will not be able to handle these attacks, new approaches are required to detect and respond to application-layer attacks. In this work, we propose an unsupervised, non-intrusive and application-agnostic detection approach and fissioning based response mechanism. We built our prototype on Kubernetes, the state of the art container orchestrator for microservices, and show its effectiveness through experimental evaluation. Our preliminary results show that using our detection and defense mechanism, we are able to a) efficiently identify the attacks and b) reduce the effect of the attack on legitimate users by 3× compared to a case where there is no detection/defense in place.",
+    "citationCount": 20,
+    "referenceCount": 20
+}

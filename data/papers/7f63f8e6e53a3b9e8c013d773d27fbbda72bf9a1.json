@@ -1,0 +1,36 @@
+{
+    "paperId": "7f63f8e6e53a3b9e8c013d773d27fbbda72bf9a1",
+    "title": "Iterative machine learning (IterML) for effective parameter pruning and tuning in accelerators",
+    "year": 2019,
+    "venue": "ACM International Conference on Computing Frontiers",
+    "authors": [
+        "Xuewen Cui",
+        "Wu-chun Feng"
+    ],
+    "doi": "10.1145/3310273.3321563",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7f63f8e6e53a3b9e8c013d773d27fbbda72bf9a1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1145/3310273.3321563",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the rise of accelerators (e.g., GPUs, FPGAs, and APUs) in computing systems, the parallel computing community needs better tools and mechanisms with which to productively extract performance. While modern compilers provide flags to activate different optimizations to improve performance, the effectiveness of such automated optimization depends on the algorithm and its mapping to the underlying accelerator architecture. Currently, however, extracting the best performance from an algorithm on an accelerator requires significant expertise and manual effort to exploit both spatial and temporal sharing of computing resources in order to improve overall performance. In particular, maximizing the performance on an algorithm on an accelerator requires extensive hyperparameter (e.g., thread-block size) selection and tuning. Given the myriad of hyperparameter dimensions to optimize across, the search space of optimizations is generally extremely large, making it infeasible to exhaustively evaluate each optimization configuration. This paper proposes an approach that uses statistical analysis with iterative machine learning (IterML) to prune and tune hyper-parameters to achieve better performance. During each iteration, we leverage machine-learning (ML) models to provide pruning and tuning guidance for the subsequent iterations. We evaluate our IterML approach on the selection of the GPU thread-block size across many benchmarks running on an NVIDIA P100 or V100 GPU. The experimental results show that our IterML approach can significantly reduce (i.e., improve) the search effort by 40% to 80%.",
+    "citationCount": 6,
+    "referenceCount": 18
+}

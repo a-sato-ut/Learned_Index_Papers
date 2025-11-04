@@ -1,0 +1,32 @@
+{
+    "paperId": "1dc0fa1ade51ce2fddb28eae8b24ed532b36a2a3",
+    "title": "Efficient query processing techniques for next-page retrieval",
+    "year": 2022,
+    "venue": "Information Retrieval Journal",
+    "authors": [
+        "J. Mackenzie",
+        "M. Petri",
+        "Alistair Moffat"
+    ],
+    "doi": "10.1007/s10791-021-09402-7",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1dc0fa1ade51ce2fddb28eae8b24ed532b36a2a3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s10791-021-09402-7.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In top-k ranked retrieval the goal is to efficiently compute an ordered list of the highest scoring k documents according to some stipulated similarity function such as the well-known BM25 approach. In most implementation techniques a min-heap of size k is used to track the top scoring candidates. In this work we consider the question of how best to retrieve the second page of search results, given that a first page has already been computed; that is, identification of the documents at ranks k+1\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$k+1$$\\end{document} to 2k for some query. Our goal is to understand what information is available as a by-product of the first-page scoring, and how it can be employed to accelerate the second-page computation, assuming that the second-page of results is required for only a fraction of the query load. We propose a range of simple, yet efficient, next-page retrieval techniques which are suitable for accelerating Document-at-a-Time mechanisms, and demonstrate their performance on three large text collections.",
+    "citationCount": 3,
+    "referenceCount": 43
+}

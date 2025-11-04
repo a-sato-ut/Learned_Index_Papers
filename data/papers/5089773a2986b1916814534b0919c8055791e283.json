@@ -1,0 +1,43 @@
+{
+    "paperId": "5089773a2986b1916814534b0919c8055791e283",
+    "title": "Learning to Optimize Multigrid PDE Solvers",
+    "year": 2019,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "D. Greenfeld",
+        "M. Galun",
+        "R. Basri",
+        "I. Yavneh",
+        "R. Kimmel"
+    ],
+    "doi": null,
+    "arxivId": "1902.10248",
+    "url": "https://www.semanticscholar.org/paper/5089773a2986b1916814534b0919c8055791e283",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Constructing fast numerical solvers for partial differential equations (PDEs) is crucial for many scientific disciplines. A leading technique for solving large-scale PDEs is using multigrid methods. At the core of a multigrid solver is the prolongation matrix, which relates between different scales of the problem. This matrix is strongly problem-dependent, and its optimal construction is critical to the efficiency of the solver. In practice, however, devising multigrid algorithms for new problems often poses formidable challenges. In this paper we propose a framework for learning multigrid solvers. Our method learns a (single) mapping from a family of parameterized PDEs to prolongation operators. We train a neural network once for the entire class of PDEs, using an efficient and unsupervised loss function. Experiments on a broad class of 2D diffusion problems demonstrate improved convergence rates compared to the widely used Black-Box multigrid scheme, suggesting that our method successfully learned rules for constructing prolongation matrices.",
+    "citationCount": 121,
+    "referenceCount": 34
+}

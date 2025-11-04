@@ -1,0 +1,36 @@
+{
+    "paperId": "d98a9163d714032fb6b23a49d87de58944e1cc70",
+    "title": "Situational Perception Guided Image Matting",
+    "year": 2022,
+    "venue": "ACM Multimedia",
+    "authors": [
+        "Bo Xu",
+        "Jiake Xie",
+        "Han Huang",
+        "Zi-Jun Li",
+        "Cheng Lu",
+        "Yandong Guo"
+    ],
+    "doi": "10.1145/3503161.3548036",
+    "arxivId": "2204.09276",
+    "url": "https://www.semanticscholar.org/paper/d98a9163d714032fb6b23a49d87de58944e1cc70",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2204.09276",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Most automatic matting methods try to separate the salient foreground from the background. However, the insufficient quantity and subjective bias of the current existing matting datasets make it difficult to fully explore the semantic association between object-to-object and object-to-environment in a given image. In this paper, we propose a Situational Perception Guided Image Matting (SPG-IM) method that mitigates subjective bias of matting annotations and captures sufficient situational perception information for better global saliency distilled from the visual-to-textual task. SPG-IM can better associate inter-objects and object-to-environment saliency, and compensate the subjective nature of image matting and its expensive annotation. We also introduce a textual Semantic Transformation (TST) module that can effectively transform and integrate the semantic feature stream to guide the visual representations. In addition, an Adaptive Focal Transformation (AFT) Refinement Network is proposed to adaptively switch multi-scale receptive fields and focal points to enhance both global and local details. Extensive experiments demonstrate the effectiveness of situational perception guidance from the visual-to-textual tasks on image matting, and our model outperforms the state-of-the-art methods. We also analyze the significance of different components in our model.",
+    "citationCount": 4,
+    "referenceCount": 55
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "1ffe604f8185bee03f0bff25057647c9f1030419",
+    "title": "NDRec: A Near-Data Processing System for Training Large-Scale Recommendation Models",
+    "year": 2024,
+    "venue": "IEEE transactions on computers",
+    "authors": [
+        "Shiyu Li",
+        "Yitu Wang",
+        "Edward Hanson",
+        "Andrew Chang",
+        "Yang Seok Ki",
+        "Hai Li",
+        "Yiran Chen"
+    ],
+    "doi": "10.1109/TC.2024.3365939",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1ffe604f8185bee03f0bff25057647c9f1030419",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advances in deep neural networks (DNNs) have enabled highly effective recommendation models for diverse web services. In such DNN-based recommendation models, the embedding layer comprises the majority of model parameters. As these models scale rapidly, the embedding layer's memory capacity and bandwidth requirements threaten to exceed the limits of current computing architectures. We observe the embedding layer's computational demands increase much more slowly than its storage needs, suggesting an opportunity to offload embeddings to storage hardware. In this work, we present <italic>NDRec</italic>, a near-data processing system to train large-scale recommendation models. NDRec offloads both the parameters and the computation of the embedding layer to computational storage devices (CSDs), using coherence interconnects (CXLs) for communication between GPUs and CSDs. By leveraging the statistical properties of embedding access patterns, we develop an optimized CSD memory hierarchy and caching strategy. A lookahead embedding scheme enables concurrent execution of embeddings and other operations, hiding latency and reducing memory bandwidth requirements. We evaluate NDRec using real-world and synthetic benchmarks. Results demonstrate NDRec achieves up to 4.33<inline-formula><tex-math notation=\"LaTeX\">$\\boldsymbol{\\times}$</tex-math><alternatives><mml:math><mml:mo mathvariant=\"bold\">×</mml:mo></mml:math><inline-graphic xlink:href=\"li-ieq1-3365939.gif\"/></alternatives></inline-formula> and 3.97<inline-formula><tex-math notation=\"LaTeX\">$\\boldsymbol{\\times}$</tex-math><alternatives><mml:math><mml:mo mathvariant=\"bold\">×</mml:mo></mml:math><inline-graphic xlink:href=\"li-ieq2-3365939.gif\"/></alternatives></inline-formula> speedups over heterogeneous CPU-GPU platforms and GPU caching, respectively. NDRec also reduces per-iteration energy consumption by up to 54.9%.",
+    "citationCount": 7,
+    "referenceCount": 42
+}

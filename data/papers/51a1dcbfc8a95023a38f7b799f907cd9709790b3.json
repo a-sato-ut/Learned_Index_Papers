@@ -1,0 +1,33 @@
+{
+    "paperId": "51a1dcbfc8a95023a38f7b799f907cd9709790b3",
+    "title": "Context-Based Quotation Recommendation",
+    "year": 2020,
+    "venue": "International Conference on Web and Social Media",
+    "authors": [
+        "Ansel MacLaughlin",
+        "Tao Chen",
+        "Burcu Karagol Ayan",
+        "D. Roth"
+    ],
+    "doi": "10.1609/icwsm.v15i1.18070",
+    "arxivId": "2005.08319",
+    "url": "https://www.semanticscholar.org/paper/51a1dcbfc8a95023a38f7b799f907cd9709790b3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/ICWSM/article/download/18070/17873",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "While composing a new document, anything from a news article to an email or essay, authors often utilize direct quotes from a variety of sources. Although an author may know what point they would like to make, selecting an appropriate quote for the specific context may be time-consuming and difficult. We therefore propose a novel context-aware quote recommendation system which utilizes the content an author has already written to generate a ranked list of quotable paragraphs and spans of tokens from a given source document. \n\n \nWe approach quote recommendation as a variant of open-domain question answering and adapt the state-of-the-art BERT-based methods from open-QA to our task. We conduct experiments on a collection of speech transcripts and associated news articles, evaluating models' paragraph ranking and span prediction performances. Our experiments confirm the strong performance of BERT-based methods on this task, which outperform bag-of-words and neural ranking baselines by more than 30% relative across all ranking metrics. Qualitative analyses show the difficulty of the paragraph and span recommendation tasks and confirm the quotability of the best BERT model's predictions, even if they are not the true selected quotes from the original news articles.",
+    "citationCount": 5,
+    "referenceCount": 53
+}

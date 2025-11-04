@@ -1,0 +1,40 @@
+{
+    "paperId": "8a7cc4e44c894e4a1febaf26273ceb3e95845606",
+    "title": "Online Load and Graph Balancing for Random Order Inputs",
+    "year": 2024,
+    "venue": "ACM Symposium on Parallelism in Algorithms and Architectures",
+    "authors": [
+        "Sungjin Im",
+        "Ravi Kumar",
+        "Shi Li",
+        "Aditya Petety",
+        "Manish Purohit"
+    ],
+    "doi": "10.1145/3626183.3659983",
+    "arxivId": "2405.07949",
+    "url": "https://www.semanticscholar.org/paper/8a7cc4e44c894e4a1febaf26273ceb3e95845606",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2405.07949",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Online load balancing for heterogeneous machines aims to minimize the makespan (maximum machine workload) by scheduling arriving jobs with varying sizes on different machines. In the adversarial setting, where an adversary chooses not only the collection of job sizes but also their arrival order, the problem is well-understood and the optimal competitive ratio is known to be Θ(log m) where m is the number of machines. In the more realistic random arrival order model, the understanding is limited. Previously, the best lower bound on the competitive ratio was only Ω(log log m). We significantly improve this bound by showing an Ω( √log m) lower bound, even for the restricted case where each job has a unit size on two machines and infinite size on the others. On the positive side, we propose an O(log m/log log m)-competitive algorithm, demonstrating that better performance is possible in the random arrival model.",
+    "citationCount": 1,
+    "referenceCount": 27
+}

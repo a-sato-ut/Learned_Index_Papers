@@ -1,0 +1,36 @@
+{
+    "paperId": "83c1504657f885832d70ff183752c6e11272c0ab",
+    "title": "Double-Hashing Algorithm for Frequency Estimation in Data Streams",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Nikita Seleznev",
+        "Senthil Kumar",
+        "C. B. Bruss"
+    ],
+    "doi": "10.48550/arXiv.2204.00650",
+    "arxivId": "2204.00650",
+    "url": "https://www.semanticscholar.org/paper/83c1504657f885832d70ff183752c6e11272c0ab",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2204.00650",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Frequency estimation of elements is an important task for summarizing data streams and machine learning applications. The problem is often addressed by using streaming algorithms with sublinear space data structures. These algorithms allow processing of large data while using limited data storage. Commonly used streaming algorithms, such as count-min sketch, have many advantages, but do not take into account properties of a data stream for performance optimization. In the present paper we introduce a novel double-hashing algorithm that provides flexibility to optimize streaming algorithms depending on the properties of a given stream. In the double-hashing approach, first a standard streaming algorithm, such as count-min sketch [1], is employed to obtain an estimate of the element frequencies. This estimate is derived using a fraction of the data stream and allows identification of the heavy hitters. Next, it uses a modified hash table where the heavy hitters are mapped into individual buckets and the rest of the stream elements are mapped into the remaining buckets. Finally, the element frequencies are estimated based on the constructed hash table over the entire data stream following any streaming algorithm, such as count-min sketch. We demonstrate on both synthetic data and an internet query log dataset that our approach is capable of improving frequency estimation due to removing highly frequent elements from the hashing process and, thus, reducing collisions in the hash table. Our approach avoids employing additional machine learning models to identify heavy hitters and, thus, reduces algorithm complexity and streamlines implementation. Moreover, because it is not dependent on specific features of the stream elements for identifying heavy hitters, it is applicable to a large variety of streams. In addition, we propose a procedure on how to dynamically adjust the proposed double-hashing algorithm when frequencies of the elements in a stream are changing over time.",
+    "citationCount": 0,
+    "referenceCount": 13
+}

@@ -1,0 +1,42 @@
+{
+    "paperId": "43c5b8e3a5b21cbeca06e39f67ca5606fb4b5d32",
+    "title": "DDLVis: Real-time Visual Query of Spatiotemporal Data Distribution via Density Dictionary Learning",
+    "year": 2021,
+    "venue": "IEEE Transactions on Visualization and Computer Graphics",
+    "authors": [
+        "Chenhui Li",
+        "G. Baciu",
+        "Yunzhe Wang",
+        "Junjie Chen",
+        "Changbo Wang"
+    ],
+    "doi": "10.1109/TVCG.2021.3114762",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/43c5b8e3a5b21cbeca06e39f67ca5606fb4b5d32",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Visual query of spatiotemporal data is becoming an increasingly important function in visual analytics applications. Various works have been presented for querying large spatiotemporal data in real time. However, the real-time query of spatiotemporal data distribution is still an open challenge. As spatiotemporal data become larger, methods of aggregation, storage and querying become critical. We propose a new visual query system that creates a low-memory storage component and provides real-time visual interactions of spatiotemporal data. We first present a peak-based kernel density estimation method to produce the data distribution for the spatiotemporal data. Then a novel density dictionary learning approach is proposed to compress temporal density maps and accelerate the query calculation. Moreover, various intuitive query interactions are presented to interactively gain patterns. The experimental results obtained on three datasets demonstrate that the presented system offers an effective query for visual analytics of spatiotemporal data.",
+    "citationCount": 10,
+    "referenceCount": 65
+}

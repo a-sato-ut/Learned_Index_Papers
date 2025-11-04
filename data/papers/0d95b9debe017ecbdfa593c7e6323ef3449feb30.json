@@ -1,0 +1,32 @@
+{
+    "paperId": "0d95b9debe017ecbdfa593c7e6323ef3449feb30",
+    "title": "IA2: Leveraging Instance-Aware Index Advisor with Reinforcement Learning for Diverse Workloads",
+    "year": 2024,
+    "venue": "EuroMLSys@EuroSys",
+    "authors": [
+        "Taiyi Wang",
+        "Eiko Yoneki"
+    ],
+    "doi": "10.1145/3642970.3655839",
+    "arxivId": "2404.05777",
+    "url": "https://www.semanticscholar.org/paper/0d95b9debe017ecbdfa593c7e6323ef3449feb30",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2404.05777",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study introduces the Instance-Aware Index Advisor (IA2), a novel deep reinforcement learning (DRL)-based approach for optimizing index selection in databases facing large action spaces of potential candidates. IA2 introduces the Twin Delayed Deep Deterministic Policy Gradient - Temporal Difference State-Wise Action Refinery (TD3-TD-SWAR) model, enabling efficient index selection by understanding workload-index dependencies and employing adaptive action masking. This method includes a comprehensive workload model, enhancing its ability to adapt to unseen workloads and ensuring robust performance across diverse database environments. Evaluation on benchmarks such as TPC-H reveals IA2's suggested indexes' performance in enhancing runtime, securing a 40% reduction in runtime for complex TPC-H workloads compared to scenarios without indexes, and delivering a 20% improvement over existing state-of-the-art DRL-based index advisors",
+    "citationCount": 3,
+    "referenceCount": 16
+}

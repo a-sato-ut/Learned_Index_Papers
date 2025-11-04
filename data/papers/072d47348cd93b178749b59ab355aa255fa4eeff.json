@@ -1,0 +1,34 @@
+{
+    "paperId": "072d47348cd93b178749b59ab355aa255fa4eeff",
+    "title": "Efficient Joinable Table Discovery in Data Lakes: A High-Dimensional Similarity-Based Approach",
+    "year": 2020,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Yuyang Dong",
+        "Kunihiro Takeoka",
+        "Chuan Xiao",
+        "M. Oyamada"
+    ],
+    "doi": "10.1109/ICDE51399.2021.00046",
+    "arxivId": "2010.13273",
+    "url": "https://www.semanticscholar.org/paper/072d47348cd93b178749b59ab355aa255fa4eeff",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2010.13273",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Finding joinable tables in data lakes is key procedure in many applications such as data integration, data augmentation, data analysis, and data market. Traditional approaches that find equi-joinable tables are unable to deal with misspellings and different formats, nor do they capture any semantic joins. In this paper, we propose PEXESO, a framework for joinable table discovery in data lakes. We target the case when textual values are embedded as high-dimensional vectors and columns are joined upon similarity predicates on high-dimensional vectors, hence to address the limitations of equi-join approaches and identify more meaningful results. To efficiently find joinable tables with similarity, we propose a block-and-verify method that utilizes pivot-based filtering. A partitioning technique is developed to cope with the case when the data lake is large and cannot fit in main memory. An experimental evaluation on real datasets shows that our solution identifies substantially more tables than equi-joins and outperforms other similarity-based options, and the join results are useful in data enrichment for machine learning tasks. The experiments also demonstrate the efficiency of the proposed method.",
+    "citationCount": 87,
+    "referenceCount": 44
+}

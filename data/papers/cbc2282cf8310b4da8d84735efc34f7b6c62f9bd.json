@@ -1,0 +1,34 @@
+{
+    "paperId": "cbc2282cf8310b4da8d84735efc34f7b6c62f9bd",
+    "title": "A Smart Privacy-Preserving Learning Method by Fake Gradients to Protect Users Items in Recommender Systems",
+    "year": 2020,
+    "venue": "Complex",
+    "authors": [
+        "Guixun Luo",
+        "Zhiyuan Zhang",
+        "Zhenjiang Zhang",
+        "Yun Liu",
+        "Lifu Wang"
+    ],
+    "doi": "10.1155/2020/6683834",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cbc2282cf8310b4da8d84735efc34f7b6c62f9bd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://downloads.hindawi.com/journals/complexity/2020/6683834.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we study the problem of protecting privacy in recommender systems. We focus on protecting the items rated by users and propose a novel privacy-preserving matrix factorization algorithm. In our algorithm, the user will submit a fake gradient to make the central server not able to distinguish which items are selected by the user. We make the Kullback–Leibler distance between the real and fake gradient distributions to be small thus hard to be distinguished. Using theories and experiments, we show that our algorithm can be reduced to a time-delay SGD, which can be proved to have a good convergence so that the accuracy will not decline. Our algorithm achieves a good tradeoff between the privacy and accuracy.",
+    "citationCount": 1,
+    "referenceCount": 36
+}

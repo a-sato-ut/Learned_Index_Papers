@@ -1,0 +1,33 @@
+{
+    "paperId": "64ab07f7d7e9bc576a16a5a8674be49b1aa73d87",
+    "title": "Semantically Diverse Paths with Range and Origin Constraints",
+    "year": 2021,
+    "venue": "SIGSPATIAL/GIS",
+    "authors": [
+        "Xu Teng",
+        "Goce Trajcevski",
+        "Andreas Züfle"
+    ],
+    "doi": "10.1145/3474717.3483985",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/64ab07f7d7e9bc576a16a5a8674be49b1aa73d87",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3474717.3483985",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "One of the most popular applications of Location Based Services (LBS) is recommending a Point of Interest (POI) based on user's preferences and geo-locations. However, the existing approaches have not tackled the problem of jointly determining: (a) a sequence of POIs that can be traversed within certain budget (i.e., limit on distance) and simultaneously provide a high-enough diversity; and (b) recommend the best origin (i.e., the hotel) for a given user, so that the desired route of POIs can be traversed within the specified constraints. In this work, we take a first step towards identifying this new problem and formalizing it as a novel type of a query. Subsequently, we present naïve solutions and experimental observations over a real-life datasets, illustrating the trade-offs in terms of (dis)associating the initial location from the rest of the POIs.",
+    "citationCount": 10,
+    "referenceCount": 19
+}

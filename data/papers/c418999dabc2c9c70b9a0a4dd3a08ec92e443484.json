@@ -1,0 +1,33 @@
+{
+    "paperId": "c418999dabc2c9c70b9a0a4dd3a08ec92e443484",
+    "title": "Diluted Near-Optimal Expert Demonstrations for Guiding Dialogue Stochastic Policy Optimisation",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Thibault Cordier",
+        "Tanguy Urvoy",
+        "L. Rojas-Barahona",
+        "F. Lefèvre"
+    ],
+    "doi": null,
+    "arxivId": "2012.04687",
+    "url": "https://www.semanticscholar.org/paper/c418999dabc2c9c70b9a0a4dd3a08ec92e443484",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A learning dialogue agent can infer its behaviour from interactions with the users. These interactions can be taken from either human-to-human or human-machine conversations. However, human interactions are scarce and costly, making learning from few interactions essential. One solution to speedup the learning process is to guide the agent's exploration with the help of an expert. We present in this paper several imitation learning strategies for dialogue policy where the guiding expert is a near-optimal handcrafted policy. We incorporate these strategies with state-of-the-art reinforcement learning methods based on Q-learning and actor-critic. We notably propose a randomised exploration policy which allows for a seamless hybridisation of the learned policy and the expert. Our experiments show that our hybridisation strategy outperforms several baselines, and that it can accelerate the learning when facing real humans.",
+    "citationCount": 5,
+    "referenceCount": 44
+}

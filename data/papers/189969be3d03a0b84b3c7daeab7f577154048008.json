@@ -1,0 +1,34 @@
+{
+    "paperId": "189969be3d03a0b84b3c7daeab7f577154048008",
+    "title": "A Survey on Explainable Reinforcement Learning: Concepts, Algorithms, Challenges",
+    "year": 2022,
+    "venue": "",
+    "authors": [
+        "Yunpeng Qing",
+        "Shunyu Liu",
+        "Jie Song",
+        "Huiqiong Wang",
+        "Mingli Song"
+    ],
+    "doi": null,
+    "arxivId": "2211.06665",
+    "url": "https://www.semanticscholar.org/paper/189969be3d03a0b84b3c7daeab7f577154048008",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Reinforcement Learning (RL) is a popular machine learning paradigm where intelligent agents interact with the environment to fulfill a long-term goal. Driven by the resurgence of deep learning, Deep RL (DRL) has witnessed great success over a wide spectrum of complex control tasks. Despite the encouraging results achieved, the deep neural network-based backbone is widely deemed as a black box that impedes practitioners to trust and employ trained agents in realistic scenarios where high security and reliability are essential. To alleviate this issue, a large volume of literature devoted to shedding light on the inner workings of the intelligent agents has been proposed, by constructing intrinsic interpretability or post-hoc explainability. In this survey, we provide a comprehensive review of existing works on eXplainable RL (XRL) and introduce a new taxonomy where prior works are clearly categorized into model-explaining, reward-explaining, state-explaining, and task-explaining methods. We also review and highlight RL methods that conversely leverage human knowledge to promote learning efficiency and performance of agents while this kind of method is often ignored in XRL field. Some challenges and opportunities in XRL are discussed. This survey intends to provide a high-level summarization of XRL and to motivate future research on more effective XRL solutions. Corresponding open source codes are collected and categorized at https://github.com/Plankson/awesome-explainable-reinforcement-learning.",
+    "citationCount": 1,
+    "referenceCount": 295
+}

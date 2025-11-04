@@ -1,0 +1,43 @@
+{
+    "paperId": "cbb167a84276eea75918104f32d48bc96cd1408a",
+    "title": "Towards Automated Cross-domain Exploratory Data Analysis through Large Language Models",
+    "year": 2024,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Jun-Peng Zhu",
+        "Boyan Niu",
+        "Peng Cai",
+        "Zheming Ni",
+        "Jianwei Wan",
+        "Kai Xu",
+        "Jiajun Huang",
+        "Shengbo Ma",
+        "Bing Wang",
+        "Xuan Zhou",
+        "Guanglei Bao",
+        "Donghui Zhang",
+        "Liu Tang",
+        "Qi Liu"
+    ],
+    "doi": "10.14778/3750601.3750629",
+    "arxivId": "2412.07214",
+    "url": "https://www.semanticscholar.org/paper/cbb167a84276eea75918104f32d48bc96cd1408a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Exploratory data analysis (EDA), coupled with SQL, is essential for data analysts involved in data exploration and analysis. However, data analysts often encounter two primary challenges: (1) the need to craft SQL queries skillfully and (2) the requirement to generate suitable visualization types that enhance the interpretation of query results. Due to its significance, substantial research efforts have been made to explore different approaches to address these challenges, including leveraging large language models (LLMs). However, existing methods fail to meet real-world data exploration requirements primarily due to (1) complex database schema, (2) unclear user intent, (3) limited cross-domain generalization capability, and (4) insufficient end-to-end text-to-visualization capability.\n This paper presents TiInsight, an automated SQL-based cross-domain exploratory data analysis system. First, we propose a hierarchical data context (i.e., HDC), which leverages LLMs to summarize the contexts related to the database schema, which is crucial for open-world EDA systems to generalize across data domains. Second, the EDA system is divided into four components (i.e., stages): HDC generation, question clarification and decomposition, text-to-SQL generation (i.e., TiSQL), and data visualization (i.e., TiChart). Finally, we implemented an end-to-end EDA system with a user-friendly GUI in the production environment at PingCAP. We have also open-sourced all APIs of TiInsight to facilitate research within the EDA community. Through extensive evaluations by a real-world user study, we demonstrate that TiInsight offers remarkable performance compared to human experts. Additionally, TiSQL achieves an execution accuracy of 86.3% on the Spider dataset when using GPT-4. It also attains an execution accuracy of 60.98% on the Bird test dataset.",
+    "citationCount": 3,
+    "referenceCount": 81
+}

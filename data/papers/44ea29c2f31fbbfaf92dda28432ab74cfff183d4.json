@@ -1,0 +1,35 @@
+{
+    "paperId": "44ea29c2f31fbbfaf92dda28432ab74cfff183d4",
+    "title": "An efficient deep learning model for cultivar identification of a pistachio tree",
+    "year": 2021,
+    "venue": "British Food Journal",
+    "authors": [
+        "Ahmad Heidary-Sharifabad",
+        "M. S. Zarchi",
+        "S. Emadi",
+        "G. Zarei"
+    ],
+    "doi": "10.1108/BFJ-12-2020-1100",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/44ea29c2f31fbbfaf92dda28432ab74cfff183d4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Agricultural and Food Sciences",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "PurposeThis paper proposes a novel deep learning based method towards the identification of a pistachio tree cultivar from its image.Design/methodology/approachThe investigated scope of this study includes Iranian commercial pistachios (Jumbo, Long, Round and Super long) trees. Effective use of high-resolution images with standard deep models is addressed in this study. A novel image patches extraction method is also used to boost the number of samples and dataset augmentation. In the proposed method, handcrafted ORB features are used to detect and extract patches which may contain identifiable information. An innovative algorithm is proposed for searching and extracting these patches. After extracting patches from initial images, a Convolutional Neural Network, named EfficientNet-B1, was fine-tuned on it. In the testing phase, several patches were extracted from the prompted image using the ORB-based method, and the results of their prediction were consolidated. In this method, patch prediction scores were in descending order, sorted by the highest score in a list, and finally, the average of a few list tops was calculated and the final decision was made.FindingsExamining the proposed method on the test images led to an achievement of a recognition rate of 97.2% accuracy. Investigation of decision-making in the test dataset could reveal that this method outperformed human experts.Originality/valueCultivar identification using deep learning methods, due to their high recognition speed, lack of specialist requirement, and independence from human decision-making error is considered as a breakthrough in horticultural science. Variety cultivars of pistachio trees possess variant characteristics or traits, accordingly recognising cultivars is crucial to reduce the costs, prevent damages and harvest the optimal yields.",
+    "citationCount": 12,
+    "referenceCount": 44
+}

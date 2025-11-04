@@ -1,0 +1,41 @@
+{
+    "paperId": "1bc83b7df9064b8492cd3cce59060a1600dd45a6",
+    "title": "A bias-corrected GEMS geostationary satellite product for nitrogen dioxide using machine learning to enforce consistency with the TROPOMI satellite instrument",
+    "year": 2024,
+    "venue": "Atmospheric Measurement Techniques",
+    "authors": [
+        "Y. J. Oak",
+        "Daniel J Jacob",
+        "Nicholas Balasus",
+        "L. H. Yang",
+        "H. Chong",
+        "Junsung Park",
+        "Hanlim Lee",
+        "Gitaek T. Lee",
+        "Eunjo S. Ha",
+        "Rokjin J. Park",
+        "H. Kwon",
+        "Jhoon Kim"
+    ],
+    "doi": "10.5194/amt-17-5147-2024",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1bc83b7df9064b8492cd3cce59060a1600dd45a6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract. The Geostationary Environment Monitoring Spectrometer (GEMS) launched in February 2020 is now providing continuous daytime hourly observations of nitrogen dioxide (NO2) columns over eastern Asia (5° S–45° N, 75–145° E) with 3.5 × 7.7 km2 pixel resolution. These data provide unique information to improve understanding of the sources, chemistry, and transport of nitrogen oxides (NOx) with implications for atmospheric chemistry and air quality, but opportunities for direct validation are very limited. Here we correct the operational level-2 (L2) NO2 vertical column densities (VCDs) from GEMS with a machine learning (ML) model to match the much sparser but more mature observations from the low Earth orbit TROPOspheric Monitoring Instrument (TROPOMI), preserving the data density of GEMS but making them consistent with TROPOMI. We first reprocess the GEMS and TROPOMI operational L2 products to use common prior vertical NO2 profiles (shape factors) from the GEOS-Chem chemical transport model. This removes a major inconsistency between the two satellite products and greatly improves their agreement with ground-based Pandora NO2 VCD data in source regions. We then apply the ML model to correct the remaining differences, Δ(GEMS–TROPOMI), using the GEMS NO2 VCDs and retrieval parameters as predictor variables. We train the ML model with colocated GEMS and TROPOMI NO2 VCDs, taking advantage of TROPOMI off-track viewing to cover the wide range of effective zenith angles (EZAs) observed by GEMS. The two most important predictor variables for Δ(GEMS–TROPOMI) are GEMS NO2 VCD and EZA. The corrected GEMS product is unbiased relative to TROPOMI and shows a diurnal variation over source regions more consistent with Pandora than the operational product.\n",
+    "citationCount": 9,
+    "referenceCount": 65
+}

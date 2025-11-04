@@ -1,0 +1,38 @@
+{
+    "paperId": "87b2778d08ab47a328d4939d393345a0d9fa5883",
+    "title": "Rec-AD: An Efficient Computation Framework for FDIA Detection Based on Tensor Train Decomposition and Deep Learning Recommendation Model",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yunfeng Li",
+        "Junhong Liu",
+        "Zhaohui Yang",
+        "Guofu Liao",
+        "Chuyun Zhang"
+    ],
+    "doi": "10.48550/arXiv.2507.14668",
+    "arxivId": "2507.14668",
+    "url": "https://www.semanticscholar.org/paper/87b2778d08ab47a328d4939d393345a0d9fa5883",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning models have been widely adopted for False Data Injection Attack (FDIA) detection in smart grids due to their ability to capture unstructured and sparse features. However, the increasing system scale and data dimensionality introduce significant computational and memory burdens, particularly in large-scale industrial datasets, limiting detection efficiency. To address these issues, this paper proposes Rec-AD, a computationally efficient framework that integrates Tensor Train decomposition with the Deep Learning Recommendation Model (DLRM). Rec-AD enhances training and inference efficiency through embedding compression, optimized data access via index reordering, and a pipeline training mechanism that reduces memory communication overhead. Fully compatible with PyTorch, Rec-AD can be integrated into existing FDIA detection systems without code modifications. Experimental results show that Rec-AD significantly improves computational throughput and real-time detection performance, narrowing the attack window and increasing attacker cost. These advancements strengthen edge computing capabilities and scalability, providing robust technical support for smart grid security.",
+    "citationCount": 1,
+    "referenceCount": 49
+}

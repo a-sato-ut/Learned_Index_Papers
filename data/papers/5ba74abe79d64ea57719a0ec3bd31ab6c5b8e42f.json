@@ -1,0 +1,33 @@
+{
+    "paperId": "5ba74abe79d64ea57719a0ec3bd31ab6c5b8e42f",
+    "title": "Efficient Dynamic Clustering: Capturing Patterns from Historical Cluster Evolution",
+    "year": 2022,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "Binbin Gu",
+        "Saeed Kargar",
+        "Faisal Nawab"
+    ],
+    "doi": "10.48786/EDBT.2022.21",
+    "arxivId": "2203.00812",
+    "url": "https://www.semanticscholar.org/paper/5ba74abe79d64ea57719a0ec3bd31ab6c5b8e42f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Clustering aims to group unlabeled objects based on similarity inherent among them into clusters. It is important for many tasks such as anomaly detection, database sharding, record linkage, and others. Some clustering methods are taken as batch algorithms that incur a high overhead as they cluster all the objects in the database from scratch or assume an incremental workload. In practice, database objects are updated, added, and removed from databases continuously which makes previous results stale. Running batch algorithms is infeasible in such scenarios as it would incur a significant overhead if performed continuously. This is particularly the case for high-velocity scenarios such as ones in Internet of Things applications. In this paper, we tackle the problem of clustering in high-velocity dynamic scenarios, where the objects are continuously updated, inserted, and deleted. Specifically, we propose a generally dynamic approach to clustering that utilizes previous clustering results. Our system, DynamicC, uses a machine learning model that is augmented with an existing batch algorithm. The DynamicC model trains by observing the clustering decisions made by the batch algorithm. After training, the DynamicC model is usedin cooperation with the batch algorithm to achieve both accurate and fast clustering decisions. The experimental results on four real-world and one synthetic datasets show that our approach has a better performance compared to the state-of-the-art method while achieving similarly accurate clustering results to the baseline batch algorithm.",
+    "citationCount": 8,
+    "referenceCount": 49
+}

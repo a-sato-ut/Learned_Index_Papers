@@ -1,0 +1,41 @@
+{
+    "paperId": "801f0817069232add1852d3c6b542e9175874e45",
+    "title": "Learning To Solve Differential Equations Across Initial Conditions",
+    "year": 2020,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Shehryar Malik",
+        "Usman Anwar",
+        "Ali Ahmed",
+        "A. Aghasi"
+    ],
+    "doi": null,
+    "arxivId": "2003.12159",
+    "url": "https://www.semanticscholar.org/paper/801f0817069232add1852d3c6b542e9175874e45",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, there has been a lot of interest in using neural networks for solving partial differential equations. A number of neural network-based partial differential equation solvers have been formulated which provide performances equivalent, and in some cases even superior, to classical solvers. However, these neural solvers, in general, need to be retrained each time the initial conditions or the domain of the partial differential equation changes. In this work, we posit the problem of approximating the solution of a fixed partial differential equation for any arbitrary initial conditions as learning a conditional probability distribution. We demonstrate the utility of our method on Burger's Equation.",
+    "citationCount": 8,
+    "referenceCount": 23
+}

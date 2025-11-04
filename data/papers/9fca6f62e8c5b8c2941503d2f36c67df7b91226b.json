@@ -1,0 +1,33 @@
+{
+    "paperId": "9fca6f62e8c5b8c2941503d2f36c67df7b91226b",
+    "title": "Reliable validation of Reinforcement Learning Benchmarks",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Matthias Müller-Brockhausen",
+        "A. Plaat",
+        "M. Preuss"
+    ],
+    "doi": "10.48550/arXiv.2203.01075",
+    "arxivId": "2203.01075",
+    "url": "https://www.semanticscholar.org/paper/9fca6f62e8c5b8c2941503d2f36c67df7b91226b",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.01075",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Reinforcement Learning (RL) is one of the most dynamic research areas in Game AI and AI as a whole, and a wide variety of games are used as its prominent test problems. However, it is subject to the replicability crisis that currently affects most algorithmic AI research. Benchmarking in Reinforcement Learning could be improved through verifiable results. There are numerous benchmark environments whose scores are used to compare different algorithms, such as Atari. Nevertheless, reviewers must trust that figures represent truthful values, as it is difficult to reproduce an exact training curve. We propose improving this situation by providing access to the original experimental data to validate study results. To that end, we rely on the concept of minimal traces. These allow re-simulation of action sequences in deterministic RL environments and, in turn, enable reviewers to verify, re-use, and manually inspect experimental results without needing large compute clusters. It also permits validation of presented reward graphs, an inspection of individual episodes, and re-use of result data (baselines) for proper comparison in follow-up papers. We offer plug-and-play code that works with Gym so that our measures fit well in the existing RL and reproducibility eco-system. Our approach is freely available, easy to use, and adds minimal overhead, as minimal traces allow a data compression ratio of up to $\\approx 10^4:1$ (94GB to 8MB for Atari Pong) compared to a regular MDP trace used in offline RL datasets. The paper presents proof-of-concept results for a variety of games.",
+    "citationCount": 1,
+    "referenceCount": 56
+}

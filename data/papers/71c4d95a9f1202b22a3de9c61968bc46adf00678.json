@@ -1,0 +1,35 @@
+{
+    "paperId": "71c4d95a9f1202b22a3de9c61968bc46adf00678",
+    "title": "ReNets: Toward Statically Optimal Self-Adjusting Networks",
+    "year": 2019,
+    "venue": "arXiv.org",
+    "authors": [
+        "C. Avin",
+        "S. Schmid"
+    ],
+    "doi": null,
+    "arxivId": "1904.03263",
+    "url": "https://www.semanticscholar.org/paper/71c4d95a9f1202b22a3de9c61968bc46adf00678",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper studies the design of self-adjusting networks whose topology dynamically adapts to the workload, in an online and demand-aware manner. This problem is motivated by emerging optical technologies which allow to reconfigure the datacenter topology at runtime. Our main contribution is ReNet, a self-adjusting network which maintains a balance between the benefits and costs of reconfigurations. In particular, we show that ReNets are statically optimal for arbitrary sparse communication demands, i.e., perform at least as good as any fixed demand-aware network designed with a perfect knowledge of the future demand. Furthermore, ReNets provide compact and local routing, by leveraging ideas from self-adjusting datastructures.",
+    "citationCount": 12,
+    "referenceCount": 70
+}

@@ -1,0 +1,41 @@
+{
+    "paperId": "fda981e1a0e9bbfa0f1316b687fb0523d8b4686a",
+    "title": "Truthful Bandit Mechanisms for Repeated Two-stage Ad Auctions",
+    "year": 2024,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Haoming Li",
+        "Yumou Liu",
+        "Zhenzhe Zheng",
+        "Zhilin Zhang",
+        "Jian Xu",
+        "Fan Wu"
+    ],
+    "doi": "10.1145/3637528.3671813",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fda981e1a0e9bbfa0f1316b687fb0523d8b4686a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Online advertising platforms leverage a two-stage auction architecture to deliver personalized ads to users with low latency. The first stage efficiently selects a small subset of promising candidates out of the complete pool of ads. In the second stage, an auction is conducted within the subset to determine the winning ad for display, using click-through-rate predictions from the second-stage machine learning model. In this work, we investigate the online learning process of the first-stage subset selection policy, while ensuring game-theoretic properties in repeated two-stage ad auctions. Specifically, we model the problem as designing a combinatorial bandit mechanism with a general reward function, as well as additional requirements of truthfulness and individual rationality (IR). We establish an O(T) regret lower bound for truthful bandit mechanisms, which demonstrates the challenge of simultaneously achieving allocation efficiency and truthfulness. To circumvent this impossibility result, we introduce truthful α-approximation oracles and evaluate the bandit mechanism through α-approximation regret. Two mechanisms are proposed, both of which are ex-post truthful and ex-post IR. The first mechanism is an explore-then-commit mechanism with regret O(T2/3 ), and the second mechanism achieves an improved O(log T /ΔΦ2) regret where ΔΦ is a distribution-dependent gap, but requires additional assumptions on the oracles and information about the strategic bidders.",
+    "citationCount": 1,
+    "referenceCount": 38
+}

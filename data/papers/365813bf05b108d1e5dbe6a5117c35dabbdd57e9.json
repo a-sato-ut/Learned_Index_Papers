@@ -1,0 +1,36 @@
+{
+    "paperId": "365813bf05b108d1e5dbe6a5117c35dabbdd57e9",
+    "title": "A Better Cardinality Estimator with Fewer Bits, Constant Update Time, and Mergeability",
+    "year": 2023,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Yangyan Du",
+        "He Huang",
+        "Yu-E. Sun",
+        "Kejian Li",
+        "Boyu Zhang",
+        "Guoju Gao"
+    ],
+    "doi": "10.1109/INFOCOM53939.2023.10229088",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/365813bf05b108d1e5dbe6a5117c35dabbdd57e9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cardinality estimation is a fundamental problem with diverse practical applications. HyperLogLog (HLL) has become a standard in practice because it offers good memory efficiency, constant update time, and mergeability. Some recent work achieved better memory efficiency, but typically at the cost of impractical update time or losing mergeability, making them incompatible with applications like network-wide traffic measurement. This work presents SpikeSketch, a better cardinality estimator that reduces memory usage of HLL by 37% without sacrificing other crucial metrics. We adopt a bucket-based data structure to promise constant update time, design a smoothed log4 ranking and a spike coding scheme to compress cardinality observables into buckets, and propose a lightweight mergeable lossy compression to balance memory usage, information loss, and mergeability. Then we derive an unbiased estimator for recovering cardinality from the lossy-compressed sketch. Theoretical and empirical results show that SpikeSketch can work as a drop-in replacement for HLL because it achieves a near-optimal MVP (memory-variance-product) of 4.08 (37% smaller than HLL) with constant update time and mergeability. Its memory efficiency even defeats ACPC and HLLL, the state-of-the-art lossless-compressed sketches using linear-time compression to reduce memory usage.",
+    "citationCount": 4,
+    "referenceCount": 37
+}

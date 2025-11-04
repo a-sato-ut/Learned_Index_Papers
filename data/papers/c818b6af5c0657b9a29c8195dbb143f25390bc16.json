@@ -1,0 +1,33 @@
+{
+    "paperId": "c818b6af5c0657b9a29c8195dbb143f25390bc16",
+    "title": "HPCache: Memory-Efficient OLAP Through Proportional Caching",
+    "year": 2022,
+    "venue": "International Workshop on Data Management on New Hardware",
+    "authors": [
+        "Hamish Nicholson",
+        "Periklis Chrysogelos",
+        "A. Ailamaki"
+    ],
+    "doi": "10.1145/3533737.3535100",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c818b6af5c0657b9a29c8195dbb143f25390bc16",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Analytical engines rely on in-memory caching to avoid disk accesses and provide timely responses by keeping the most frequently accessed data in memory. Purely frequency- & time-based caching decisions, however, are a proxy of the expected query execution speedup only when disk accesses are significantly slower than in-memory query processing. On the other hand, fast storage offers loading times that approach or even outperform fully in-memory query execution response times, rendering purely frequency-based statistics incapable of capturing impact of a caching decision on query execution. For example, caching the input of a frequent query that spends most of its time processing joins is less beneficial than caching a page for a slightly less frequent but scan-heavy query. As a result, existing caching policies waste valuable memory space to cache input data that offer little-to-no acceleration for analytics. This paper proposes HPCache, a buffer management policy that enables fast analytics on high-bandwidth storage by efficiently using the available in-memory space. HPCache caches data based on their speedup potential instead of relying on frequency-based statistics. We show that, with fast storage, the benefit of in-memory caching varies significantly across queries; therefore, we quantify the efficiency of caching decisions and formulate an optimization problem. We implement HPCache in Proteus and show that i) estimating speedup potential improves memory space utilization, and ii) simple runtime statistics suffice to infer speedup expectations. We show that HPCache achieves up to 12% faster query execution over state-of-the-art caching policies, or 75% less in-memory cache footprint without deteriorating query performance. Overall, HPCache enables efficient use of the in-memory space for input caching in the presence of fast storage, without any requirement for workload predictions.",
+    "citationCount": 6,
+    "referenceCount": 38
+}

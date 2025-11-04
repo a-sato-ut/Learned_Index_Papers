@@ -1,0 +1,36 @@
+{
+    "paperId": "23199e267e6755df601b79407380e6e625f5e155",
+    "title": "Utilizing passage‐level relevance and kernel pooling for enhancing BERT‐based document reranking",
+    "year": 2024,
+    "venue": "International Conference on Climate Informatics",
+    "authors": [
+        "Min Pan",
+        "Shuting Zhou",
+        "Teng Li",
+        "Yu Liu",
+        "Quanli Pei",
+        "Angela J. Huang",
+        "J. Huang"
+    ],
+    "doi": "10.1111/coin.12656",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/23199e267e6755df601b79407380e6e625f5e155",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/coin.12656",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The pre‐trained language model (PLM) based on the Transformer encoder, namely BERT, has achieved state‐of‐the‐art results in the field of Information Retrieval. Existing BERT‐based ranking models divide documents into passages and aggregate passage‐level relevance to rank the document list. However, these common score aggregation strategies cannot capture important semantic information such as document structure and have not been extensively studied. In this article, we propose a novel kernel‐based score pooling system to capture document‐level relevance by aggregating passage‐level relevance. In particular, we propose and study several representative kernel pooling functions and several different document ranking strategies based on passage‐level relevance. Our proposed framework KnBERT naturally incorporates kernel functions from the passage level into the BERT‐based re‐ranking method, which provides a promising avenue for building universal retrieval‐then‐rerank information retrieval systems. Experiments conducted on two widely used TREC Robust04 and GOV2 test datasets show that the KnBERT has made significant improvements over other BERT‐based ranking approaches in terms of MAP, P@20, and NDCG@20 indicators with no extra or even less computations.",
+    "citationCount": 2,
+    "referenceCount": 71
+}

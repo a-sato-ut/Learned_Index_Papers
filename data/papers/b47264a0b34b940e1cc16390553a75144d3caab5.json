@@ -1,0 +1,41 @@
+{
+    "paperId": "b47264a0b34b940e1cc16390553a75144d3caab5",
+    "title": "Biological learning in key-value memory networks",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Danil Tyulmankov",
+        "Ching Fang",
+        "Annapurna Vadaparty",
+        "G. R. Yang"
+    ],
+    "doi": null,
+    "arxivId": "2110.13976",
+    "url": "https://www.semanticscholar.org/paper/b47264a0b34b940e1cc16390553a75144d3caab5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In neuroscience, classical Hopfield networks are the standard biologically plausible model of long-term memory, relying on Hebbian plasticity for storage and attractor dynamics for recall. In contrast, memory-augmented neural networks in machine learning commonly use a key-value mechanism to store and read out memories in a single step. Such augmented networks achieve impressive feats of memory compared to traditional variants, yet their biological relevance is unclear. We propose an implementation of basic key-value memory that stores inputs using a combination of biologically plausible three-factor plasticity rules. The same rules are recovered when network parameters are meta-learned. Our network performs on par with classical Hopfield networks on autoassociative memory tasks and can be naturally extended to continual recall, heteroassociative memory, and sequence learning. Our results suggest a compelling alternative to the classical Hopfield network as a model of biological long-term memory.",
+    "citationCount": 34,
+    "referenceCount": 40
+}

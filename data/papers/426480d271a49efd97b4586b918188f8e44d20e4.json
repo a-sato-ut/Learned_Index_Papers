@@ -1,0 +1,32 @@
+{
+    "paperId": "426480d271a49efd97b4586b918188f8e44d20e4",
+    "title": "Attention Transfer Network for Nature Image Matting",
+    "year": 2020,
+    "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+    "authors": [
+        "Fenfen Zhou",
+        "Ying-jie Tian",
+        "Zhiquan Qi"
+    ],
+    "doi": "10.1109/TCSVT.2020.3024213",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/426480d271a49efd97b4586b918188f8e44d20e4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Natural image matting is an important problem that widely applied in computer vision and graphics. Recent deep learning matting approaches have made an impressive process in both accuracy and efficiency. However, there are still two fundamental problems remain largely unsolved: 1) accurately separating an object from the image with similar foreground and background color or lots of details; 2) exactly extracting an object with fine structures from complex background. In this paper, we propose an attention transfer network (ATNet) to overcome these challenges. Specifically, we firstly design a feature attention block to effectively distinguish the foreground object from the color-similar regions by activating foreground-related features as well as suppressing others. Then, we introduce a scale transfer block to magnify the feature maps without adding extra information. By integrating the above blocks into an attention transfer module, we effectively reduce the artificial content in results and decrease the computational complexity. Besides, we use a perceptual loss to measure the difference between the feature representations of the predictions and the ground-truths. It can further capture the high-frequency details of the image, and consequently, optimize the fine structures of the object. Extensive experiments on two publicly common datasets (i.e., Composition-1k matting dataset, and www.alphamatting.com dataset) show that the proposed ATNet obtains significant improvements over the previous methods. The source code and compiled models have been made publicly available at https://github.com/ailsaim/ATNet.",
+    "citationCount": 15,
+    "referenceCount": 51
+}

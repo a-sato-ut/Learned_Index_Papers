@@ -1,0 +1,32 @@
+{
+    "paperId": "05006b4177fd77c2d03b814f58f3d264df497dc1",
+    "title": "EntropyDB: a probabilistic approach to approximate query processing",
+    "year": 2019,
+    "venue": "The VLDB journal",
+    "authors": [
+        "Laurel J. Orr",
+        "M. Balazinska",
+        "Dan Suciu"
+    ],
+    "doi": "10.1007/s00778-019-00582-9",
+    "arxivId": "1911.04948",
+    "url": "https://www.semanticscholar.org/paper/05006b4177fd77c2d03b814f58f3d264df497dc1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present, an interactive data exploration system that uses a probabilistic approach to generate a small, query-able summary of a dataset. Departing from traditional summarization techniques, we use the Principle of Maximum Entropy to generate a probabilistic representation of the data that can be used to give approximate query answers. We develop the theoretical framework and formulation of our probabilistic representation and show how to use it to answer queries. We then present solving techniques, give two critical optimizations to improve preprocessing time and query execution time, and explore methods to reduce query error. Lastly, we experimentally evaluate our work using a 5 GB dataset of flights within the USA and a 210 GB dataset from an astronomy particle simulation. While our current work only supports linear queries, we show that our technique can successfully answer queries faster than sampling while introducing, on average, no more error than sampling and can better distinguish between rare and nonexistent values. We also discuss extensions that can allow for data updates and linear queries over joins.",
+    "citationCount": 12,
+    "referenceCount": 52
+}

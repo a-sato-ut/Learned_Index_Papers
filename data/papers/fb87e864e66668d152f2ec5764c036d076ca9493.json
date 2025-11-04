@@ -1,0 +1,43 @@
+{
+    "paperId": "fb87e864e66668d152f2ec5764c036d076ca9493",
+    "title": "Invariant preservation in machine learned PDE solvers via error correction",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Nick McGreivy",
+        "Ammar Hakim"
+    ],
+    "doi": "10.48550/arXiv.2303.16110",
+    "arxivId": "2303.16110",
+    "url": "https://www.semanticscholar.org/paper/fb87e864e66668d152f2ec5764c036d076ca9493",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2303.16110",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learned partial differential equation (PDE) solvers trade the reliability of standard numerical methods for potential gains in accuracy and/or speed. The only way for a solver to guarantee that it outputs the exact solution is to use a convergent method in the limit that the grid spacing $\\Delta x$ and timestep $\\Delta t$ approach zero. Machine learned solvers, which learn to update the solution at large $\\Delta x$ and/or $\\Delta t$, can never guarantee perfect accuracy. Some amount of error is inevitable, so the question becomes: how do we constrain machine learned solvers to give us the sorts of errors that we are willing to tolerate? In this paper, we design more reliable machine learned PDE solvers by preserving discrete analogues of the continuous invariants of the underlying PDE. Examples of such invariants include conservation of mass, conservation of energy, the second law of thermodynamics, and/or non-negative density. Our key insight is simple: to preserve invariants, at each timestep apply an error-correcting algorithm to the update rule. Though this strategy is different from how standard solvers preserve invariants, it is necessary to retain the flexibility that allows machine learned solvers to be accurate at large $\\Delta x$ and/or $\\Delta t$. This strategy can be applied to any autoregressive solver for any time-dependent PDE in arbitrary geometries with arbitrary boundary conditions. Although this strategy is very general, the specific error-correcting algorithms need to be tailored to the invariants of the underlying equations as well as to the solution representation and time-stepping scheme of the solver. The error-correcting algorithms we introduce have two key properties. First, by preserving the right invariants they guarantee numerical stability. Second, in closed or periodic systems they do so without degrading the accuracy of an already-accurate solver.",
+    "citationCount": 9,
+    "referenceCount": 78
+}

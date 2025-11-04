@@ -1,0 +1,38 @@
+{
+    "paperId": "b8543d539ff849fdbb8847d65d19b3bdf6f358ed",
+    "title": "Bypass Exponential Time Preprocessing: Fast Neural Network Training via Weight-Data Correlation Preprocessing",
+    "year": 2022,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Josh Alman",
+        "Jiehao Liang",
+        "Zhao Song",
+        "Ruizhe Zhang",
+        "Danyang Zhuo"
+    ],
+    "doi": "10.48550/arXiv.2211.14227",
+    "arxivId": "2211.14227",
+    "url": "https://www.semanticscholar.org/paper/b8543d539ff849fdbb8847d65d19b3bdf6f358ed",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2211.14227",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Over the last decade, deep neural networks have transformed our society, and they are already widely applied in various machine learning applications. State-of-art deep neural networks are becoming larger in size every year to deliver increasing model accuracy, and as a result, model training consumes substantial computing resources and will only consume more in the future. Using current training methods, in each iteration, to process a data point $x \\in \\mathbb{R}^d$ in a layer, we need to spend $\\Theta(md)$ time to evaluate all the $m$ neurons in the layer. This means processing the entire layer takes $\\Theta(nmd)$ time for $n$ data points. Recent work [Song, Yang and Zhang, NeurIPS 2021] reduces this time per iteration to $o(nmd)$, but requires exponential time to preprocess either the data or the neural network weights, making it unlikely to have practical usage. In this work, we present a new preprocessing method that simply stores the weight-data correlation in a tree data structure in order to quickly, dynamically detect which neurons fire at each iteration. Our method requires only $O(nmd)$ time in preprocessing and still achieves $o(nmd)$ time per iteration. We complement our new algorithm with a lower bound, proving that assuming a popular conjecture from complexity theory, one could not substantially speed up our algorithm for dynamic detection of firing neurons.",
+    "citationCount": 31,
+    "referenceCount": 100
+}

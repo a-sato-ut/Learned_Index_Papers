@@ -1,0 +1,37 @@
+{
+    "paperId": "026ab4ed573b3439ba89bbb193478e9ff396ef24",
+    "title": "Balsa: Learning a Query Optimizer Without Expert Demonstrations",
+    "year": 2022,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Zongheng Yang",
+        "Wei-Lin Chiang",
+        "Sifei Luan",
+        "Gautam Mittal",
+        "Michael Luo",
+        "Ion Stoica"
+    ],
+    "doi": "10.1145/3514221.3517885",
+    "arxivId": "2201.01441",
+    "url": "https://www.semanticscholar.org/paper/026ab4ed573b3439ba89bbb193478e9ff396ef24",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3514221.3517885",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query optimizers are a performance-critical component in every database system. Due to their complexity, optimizers take experts months to write and years to refine. In this work, we demonstrate for the first time that learning to optimize queries without learning from an expert optimizer is both possible and efficient. We present Balsa, a query optimizer built by deep reinforcement learning. Balsa first learns basic knowledge from a simple, environment-agnostic simulator, followed by safe learning in real execution. On the Join Order Benchmark, Balsa matches the performance of two expert query optimizers, both open-source and commercial, with two hours of learning, and outperforms them by up to 2.8× in workload runtime after a few more hours. Balsa thus opens the possibility of automatically learning to optimize in future compute environments where expert-designed optimizers do not exist.",
+    "citationCount": 79,
+    "referenceCount": 39
+}

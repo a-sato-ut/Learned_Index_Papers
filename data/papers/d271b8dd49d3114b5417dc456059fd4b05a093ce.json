@@ -1,0 +1,31 @@
+{
+    "paperId": "d271b8dd49d3114b5417dc456059fd4b05a093ce",
+    "title": "MultiScope: Efficient Video Pre-processing for Exploratory Video Analytics",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "F. Bastani",
+        "Sam Madden"
+    ],
+    "doi": null,
+    "arxivId": "2103.14695",
+    "url": "https://www.semanticscholar.org/paper/d271b8dd49d3114b5417dc456059fd4b05a093ce",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Performing analytics tasks over large-scale video datasets is increasingly common in a wide range of applications. These tasks generally involve object detection and tracking operations that require applying expensive machine learning models, and several systems have recently been proposed to optimize the execution of video queries to reduce their cost. However, prior work generally optimizes execution speed in only one dimension, focusing on one optimization technique while ignoring other potential avenues for accelerating execution, thereby delivering an unsatisfactory tradeoff between speed and accuracy. We propose MultiScope, a general-purpose video pre-processor for object detection and tracking that explores multiple avenues for optimizing video queries to extract tracks from video with a superior tradeoff between speed and accuracy over prior work. We compare MultiScope against three recent systems on seven diverse datasets, and find that it provides a 2.9x average speedup over the next best baseline at the same accuracy level.",
+    "citationCount": 2,
+    "referenceCount": 20
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "61d52fe6b98f8c2686a487d63cdf223427f85243",
+    "title": "LMKG: Learned Models for Cardinality Estimation in Knowledge Graphs",
+    "year": 2021,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "Angjela Davitkova",
+        "Damjan Gjurovski",
+        "S. Michel"
+    ],
+    "doi": "10.48786/edbt.2022.07",
+    "arxivId": "2102.10588",
+    "url": "https://www.semanticscholar.org/paper/61d52fe6b98f8c2686a487d63cdf223427f85243",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Accurate cardinality estimates are a key ingredient to achieve optimal query plans. For RDF engines, specifically under common knowledge graph processing workloads, the lack of schema, correlated predicates, and various types of queries involving multiple joins, render cardinality estimation a particularly challenging task. In this paper, we develop a framework, termed LMKG, that adopts deep learning approaches for effectively estimating the cardinality of queries over RDF graphs. We employ both supervised (i.e., deep neural networks) and unsupervised (i.e., autoregressive models) approaches that adapt to the subgraph patterns and produce more accurate cardinality estimates. To feed the underlying data to the models, we put forward a novel encoding that represents the queries as subgraph patterns. Through extensive experiments on both real-world and synthetic datasets, we evaluate our models and show that they overall outperform the state-of-the-art approaches in terms of accuracy and execution time.",
+    "citationCount": 13,
+    "referenceCount": 57
+}

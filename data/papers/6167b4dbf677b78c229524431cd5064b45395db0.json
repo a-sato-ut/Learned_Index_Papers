@@ -1,0 +1,33 @@
+{
+    "paperId": "6167b4dbf677b78c229524431cd5064b45395db0",
+    "title": "JanusAQP: Efficient Partition Tree Maintenance for Dynamic Approximate Query Processing",
+    "year": 2022,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Xi Liang",
+        "Stavros Sintos",
+        "S. Krishnan"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00050",
+    "arxivId": "2204.09235",
+    "url": "https://www.semanticscholar.org/paper/6167b4dbf677b78c229524431cd5064b45395db0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2204.09235",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate query processing over dynamic databases, i.e., under insertions/deletions, has applications ranging from high-frequency trading to internet-of-things analytics. We present JanusAQP, a new dynamic AQP system, which supports SUM, COUNT, AVG, MIN, and MAX queries under insertions and deletions to the dataset. JanusAQP extends static partition tree synopses, which are hierarchical aggregations of datasets, into the dynamic setting. This paper contributes new methods for: (1) efficient initialization of the data synopsis in the presence of incoming data, (2) maintenance of the data synopsis under insertions/deletions, and (3) re-optimization of the partitioning to reduce the approximation error. JanusAQP reduces the error of a state-of-the-art baseline by more than 60% using only 10% storage cost. JanusAQP can process more than 100K updates per second in a single node setting and keep the query latency at a millisecond level.",
+    "citationCount": 1,
+    "referenceCount": 48
+}

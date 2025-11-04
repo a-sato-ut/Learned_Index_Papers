@@ -1,0 +1,36 @@
+{
+    "paperId": "580d6d603b0bbb31f8a931d37e20898a65f2f25f",
+    "title": "FAWA: Fast Adversarial Watermark Attack",
+    "year": 2024,
+    "venue": "IEEE transactions on computers",
+    "authors": [
+        "Hao Jiang",
+        "Jintao Yang",
+        "Guang Hua",
+        "Lixia Li",
+        "Ying Wang",
+        "Shenghui Tu",
+        "Song Xia"
+    ],
+    "doi": "10.1109/TC.2021.3065172",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/580d6d603b0bbb31f8a931d37e20898a65f2f25f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, adversarial attacks have shown to lead the state-of-the-art deep neural networks (DNNs) to misclassification. However, most adversarial attacks are generated according to whether they are perceptual to human visual system, measured by geometric metrics such as the <inline-formula><tex-math notation=\"LaTeX\">$\\ell _2$</tex-math><alternatives><mml:math><mml:msub><mml:mi>ℓ</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href=\"jiang-ieq1-3065172.gif\"/></alternatives></inline-formula>-norm, which ignores the common watermarks in cyber-physical systems. In this article, we propose a fast adversarial watermark attack (FAWA) method based on fast differential evolution technique, which optimally superimposes a watermark on an image to fool DNNs. We also attempt to explain the reason why the attack is successful and propose two hypotheses on the vulnerability of DNN classifiers and the influence of the watermark attack on higher-layer features extraction respectively. In addition, we propose two countermeasure methods against FAWA based on random rotation and median filtering respectively. Experimental results show that our method achieves 41.3 percent success rate in fooling VGG-16 and have good transferability. Our approach is also shown to be effective in deceiving deep learning as a service (DLaaS) systems as well as the physical world. The proposed FAWA, hypotheses, and the countermeasure methods, provide a timely help for DNN designers to gain some knowledge of model vulnerability while designing DNN classifiers and related DLaaS applications.",
+    "citationCount": 19,
+    "referenceCount": 46
+}

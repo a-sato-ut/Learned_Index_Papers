@@ -1,0 +1,38 @@
+{
+    "paperId": "08c107629731aa91633299a450cb30e5f1c2393c",
+    "title": "An NVM SSD-Based High Performance Query Processing Framework for Search Engines",
+    "year": 2023,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Xinyu Liu",
+        "Yu Pan",
+        "Yusen Li",
+        "Gang Wang",
+        "Xiaoguang Liu"
+    ],
+    "doi": "10.1109/TKDE.2022.3160557",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/08c107629731aa91633299a450cb30e5f1c2393c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Commercial search engines generally maintain hundreds of thousands of machines equipped with large sized DRAM in order to process huge volume of user queries with fast responsiveness, which incurs high hardware cost since DRAM is very expensive. Recently, NVM Optane SSD has been considered as a promising underlying storage device due to its price advantage over DRAM and speed advantage over traditional slow block devices. However, to achieve a comparable efficiency performance with in-memory index, applying NVM to both latency and I/O bandwidth critical applications such as search engines still face non-trivial challenges, because NVM has much lower I/O speed and bandwidth compared to DRAM. In this paper, we propose an NVM SSD-optimized query processing framework, aiming to address both the latency and bandwidth issues of using NVM in search engines. First, we propose a pipelined query processing methodology which significantly reduces the I/O waiting time by fine-grained overlapping of the computation and I/O operations. Second, we propose a cache-aware query reordering algorithm which enables queries sharing more data to be processed adjacently so that the I/O traffic is minimized. Third, we propose a data prefetching mechanism which reduces the extra thread waiting time due to data sharing and improves bandwidth utilization. Moreover, we propose intra-query parallel mechanisms for long-tail queries, including query subtask scheduling, heap concurrent access strategy, query parallelism prediction and adaptive pipelining. Extensive experimental studies show that our framework significantly outperforms the state-of-the-art baselines, which obtains comparable processing latency and throughput with DRAM while using much less space in both inter-query and intra-query parallel scenarios.",
+    "citationCount": 1,
+    "referenceCount": 54
+}

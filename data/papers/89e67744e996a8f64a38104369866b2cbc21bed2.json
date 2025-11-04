@@ -1,0 +1,33 @@
+{
+    "paperId": "89e67744e996a8f64a38104369866b2cbc21bed2",
+    "title": "On Point Affiliation in Feature Upsampling",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Wenze Liu",
+        "Hao Lu",
+        "Yuliang Liu",
+        "Zhiguo Cao"
+    ],
+    "doi": "10.48550/arXiv.2307.08198",
+    "arxivId": "2307.08198",
+    "url": "https://www.semanticscholar.org/paper/89e67744e996a8f64a38104369866b2cbc21bed2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.08198",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce the notion of point affiliation into feature upsampling. By abstracting a feature map into non-overlapped semantic clusters formed by points of identical semantic meaning, feature upsampling can be viewed as point affiliation -- designating a semantic cluster for each upsampled point. In the framework of kernel-based dynamic upsampling, we show that an upsampled point can resort to its low-res decoder neighbors and high-res encoder point to reason the affiliation, conditioned on the mutual similarity between them. We therefore present a generic formulation for generating similarity-aware upsampling kernels and prove that such kernels encourage not only semantic smoothness but also boundary sharpness. This formulation constitutes a novel, lightweight, and universal upsampling solution, Similarity-Aware Point Affiliation (SAPA). We show its working mechanism via our preliminary designs with window-shape kernel. After probing the limitations of the designs on object detection, we reveal additional insights for upsampling, leading to SAPA with the dynamic kernel shape. Extensive experiments demonstrate that SAPA outperforms prior upsamplers and invites consistent performance improvements on a number of dense prediction tasks, including semantic segmentation, object detection, instance segmentation, panoptic segmentation, image matting, and depth estimation. Code is made available at: https://github.com/tiny-smart/sapa",
+    "citationCount": 2,
+    "referenceCount": 51
+}

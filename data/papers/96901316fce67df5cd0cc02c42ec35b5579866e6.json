@@ -1,0 +1,41 @@
+{
+    "paperId": "96901316fce67df5cd0cc02c42ec35b5579866e6",
+    "title": "Automated machine learning integrating multi-source satellite observations to predict gross and net CO2 fluxes of coastal wetlands in China",
+    "year": 2025,
+    "venue": "Environmental Research Letters",
+    "authors": [
+        "Nguyen Ngoc Tu",
+        "Haishen Lü",
+        "Wei He",
+        "Peipei Xu",
+        "Mengyao Zhao",
+        "Shuai Liu",
+        "Yonghua Zhu",
+        "Xinhui Lei"
+    ],
+    "doi": "10.1088/1748-9326/ade731",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/96901316fce67df5cd0cc02c42ec35b5579866e6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Coastal wetlands are increasingly vital carbon sinks, helping mitigate atmospheric CO2 and slow global warming. However, we have limited knowledge about the carbon sink capacity of coastal wetlands, whereby developing advanced skills for predicting CO2 fluxes of coastal wetlands is critical. Here, by employing recent cutting-edge achievements in artificial intelligence, we evaluated three automated machine learning (AutoML) platforms, including Lazy Predict, H2O AutoML and fast and lightweight automated machine learning, for predicting monthly gross primary production (GPP), ecosystem respiration (RE), and net ecosystem exchange (NEE) in China’s of mangrove and saltmarsh coastal wetlands with multi-source satellite observations. Our results indicate that these AutoML platforms effectively predicted GPP, RE, and NEE, with superior performance for GPP and RE compared to NEE. For individual predictions across 14 sites, the testing set yielded average determination coefficient (R2) values of 0.74, 0.79, and 0.63, and root mean square error values of 0.83, 0.45, and 0.76 gC m−2s−1 for GPP, RE, and NEE, respectively. Cross-site predictions performed better for saltmarsh (average R2: 0.86, 0.84, and 0.76 for GPP, RE, and NEE) than mangrove ecosystems (average R2: 0.72, 0.76, and 0.59). In addition, ensemble ML models, particularly on the Lazy Predict platform, significantly outperformed individual models. Feature important analyses revealed that vegetation variables (leaf area index and fraction of absorbed photosynthetically active radiation) play pronouncedly important roles in mangrove ecosystems, followed by climate variables (air temperature (Ta) and precipitation) with considerably important roles, while Ta dominated in saltmarsh ecosystems, with vegetation variables but playing a lesser role. Our study offers valuable insights for utilizing AutoML techniques to enhance CO2 flux predictions and regional budget estimations for coastal wetlands, potentially advancing strategies for monitoring large-scale coastal ‘blue carbon’ dynamics.",
+    "citationCount": 0,
+    "referenceCount": 63
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "4b3da4ec8866a00a4505ecf5892784d28a4bfc7c",
+    "title": "Correctness-preserving Compression of Datasets and Neural Network Models",
+    "year": 2020,
+    "venue": "International Workshop on Software Correctness for HPC Applications",
+    "authors": [
+        "Vinu Joseph",
+        "N. Chalapathi",
+        "Aditya Bhaskara",
+        "Ganesh Gopalakrishnan",
+        "P. Panchekha",
+        "Mu Zhang"
+    ],
+    "doi": "10.1109/Correctness51934.2020.00006",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4b3da4ec8866a00a4505ecf5892784d28a4bfc7c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural networks deployed on edge devices must be efficient both in terms of their model size and the amount of data movement they cause when classifying inputs. These efficiencies are typically achieved through model compression: pruning a fully trained network model by zeroing out the weights. Given the overall challenge of neural network correctness, we argue that focusing on correctness preservation may allow the community to make measurable progress. We present a state-of-the-art model compression framework called Condensa around which we have launched correctness preservation studies. After presenting Condensa, we describe our initial efforts at understanding the effect of model compression in semantic terms, going beyond the top n% accuracy that Condensa is currently based on. We also take up the relatively unexplored direction of data compression that may help reduce data movement. We report preliminary results of learning from decompressed data to understand the effects of compression artifacts. Learning without decompressing input data also holds promise in terms of boosting efficiency, and we also report preliminary results in this regard. Our experiments centered around a state-of-the-art model compression framework called Condensa and two data compression algorithms, namely JPEG and ZFP, demonstrate the potential for employing model-and dataset compression without adversely affecting correctness.",
+    "citationCount": 6,
+    "referenceCount": 63
+}

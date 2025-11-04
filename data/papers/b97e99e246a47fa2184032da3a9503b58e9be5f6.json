@@ -1,0 +1,33 @@
+{
+    "paperId": "b97e99e246a47fa2184032da3a9503b58e9be5f6",
+    "title": "Supervised Reinforcement Learning via Value Function",
+    "year": 2019,
+    "venue": "Symmetry",
+    "authors": [
+        "Yaozong Pan",
+        "Jian Zhang",
+        "Chunhui Yuan",
+        "Haitao Yang"
+    ],
+    "doi": "10.3390/SYM11040590",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b97e99e246a47fa2184032da3a9503b58e9be5f6",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2073-8994/11/4/590/pdf?version=1556098421",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Using expert samples to improve the performance of reinforcement learning (RL) algorithms has become one of the focuses of research nowadays. However, in different application scenarios, it is hard to guarantee both the quantity and quality of expert samples, which prohibits the practical application and performance of such algorithms. In this paper, a novel RL decision optimization method is proposed. The proposed method is capable of reducing the dependence on expert samples via incorporating the decision-making evaluation mechanism. By introducing supervised learning (SL), our method optimizes the decision making of the RL algorithm by using demonstrations or expert samples. Experiments are conducted in Pendulum and Puckworld scenarios to test the proposed method, and we use representative algorithms such as deep Q-network (DQN) and Double DQN (DDQN) as benchmarks. The results demonstrate that the method adopted in this paper can effectively improve the decision-making performance of agents even when the expert samples are not available.",
+    "citationCount": 1,
+    "referenceCount": 29
+}

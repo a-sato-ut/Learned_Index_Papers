@@ -1,0 +1,45 @@
+{
+    "paperId": "aa506b5932ac1129033c81b65b943db6a3d74b5b",
+    "title": "DeepRoute+: Modeling Couriers’ Spatial-temporal Behaviors and Decision Preferences for Package Pick-up Route Prediction",
+    "year": 2022,
+    "venue": "ACM Transactions on Intelligent Systems and Technology",
+    "authors": [
+        "Haomin Wen",
+        "Youfang Lin",
+        "Huaiyu Wan",
+        "S. Guo",
+        "Fan Wu",
+        "Lixia Wu",
+        "Chao Song",
+        "Yinghui Xu"
+    ],
+    "doi": "10.1145/3481006",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/aa506b5932ac1129033c81b65b943db6a3d74b5b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Over 10 billion packages are picked up every day in China. A fundamental task raised in the emerging intelligent logistics systems is the couriers’ package pick-up route prediction, which is beneficial for package dispatching, arrival-time estimation and overdue-risk evaluation, by leveraging the predicted routes to improve those downstream tasks. In the package pick-up scene, the decision-making of a courier is affected by strict spatial-temporal constraints (e.g., package location, promised pick-up time, current time, and courier’s current location). Furthermore, couriers have different decision preferences on various factors (e.g., time factor, distance factor, and balance of both), based on their own perception of the environments and work experience. In this article, we propose a novel model, named DeepRoute+, to predict couriers’ future package pick-up routes according to the couriers’ decision experience and preference learned from the historical behaviors. Specifically, DeepRoute+ consists of three layers: (1) The representation layer produces experience- and preference-aware representations for the unpicked-up packages, in which a decision preference module can dynamically adjust the importance of factors that affects the courier’s decision under the current situation. (2) The transformer encoder layer encodes the representations of packages while considering the spatial-temporal correlations among them. (3) The attention-based decoder layer uses the attention mechanism to generate the whole pick-up route recurrently. Experiments on a real-world logistics dataset demonstrate the state-of-the-art performance of our model.",
+    "citationCount": 19,
+    "referenceCount": 51
+}

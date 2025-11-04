@@ -1,0 +1,41 @@
+{
+    "paperId": "8fae24ba59f06b5097ed4f8d6e2f2efde144280a",
+    "title": "Towards GPU Memory Efficiency for Distributed Training at Scale",
+    "year": 2023,
+    "venue": "ACM Symposium on Cloud Computing",
+    "authors": [
+        "Runxiang Cheng",
+        "Chris Cai",
+        "Selman Yilmaz",
+        "Rahul Mitra",
+        "Malay Bag",
+        "Mrinmoy Ghosh",
+        "Tianyin Xu"
+    ],
+    "doi": "10.1145/3620678.3624661",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8fae24ba59f06b5097ed4f8d6e2f2efde144280a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The scale of deep learning models has grown tremendously in recent years. State-of-the-art models have reached billions of parameters and terabyte-scale model sizes. Training of these models demands memory bandwidth and capacity that can only be accommodated distributively over hundreds to thousands of GPUs. However, large-scale distributed training suffers from GPU memory inefficiency, such as memory under-utilization and out-of-memory events (OOMs). There is a lack of understanding of actual GPU memory behavior of distributed training on terabyte-size models, which hinders the development of effective solutions to such inefficiency. In this paper, we present a systematic analysis of GPU memory behavior of large-scale distributed training jobs in production at Meta. Our analysis is based on offline training jobs of multi-terabyte Deep Learning Recommendation Models from one of Meta's largest production clusters. We measure GPU memory inefficiency; characterize GPU memory utilization, and provide fine-grained GPU memory usage analysis. We further show how to build on the understanding to develop a practical GPU provisioning system in production.",
+    "citationCount": 6,
+    "referenceCount": 81
+}

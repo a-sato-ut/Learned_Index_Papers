@@ -1,0 +1,42 @@
+{
+    "paperId": "eb1512def83f61cf3c7c86c0a0832c86ddaa92a8",
+    "title": "DComp: Efficient Offload of LSM-tree Compaction with Data Processing Units",
+    "year": 2023,
+    "venue": "International Conference on Parallel Processing",
+    "authors": [
+        "Chen Ding",
+        "Jian Zhou",
+        "Ji-guang Wan",
+        "Yiqin Xiong",
+        "Sicen Li",
+        "Shuning Chen",
+        "Hanyang Liu",
+        "Liu Tang",
+        "Ling Zhan",
+        "Kai Lu",
+        "Peng Xu"
+    ],
+    "doi": "10.1145/3605573.3605633",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/eb1512def83f61cf3c7c86c0a0832c86ddaa92a8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LSM-based Key-value stores suffer from sub-optimal performance due to their slow and heavy background compactions. The compaction overhead shifts to the CPU as the storage performance continuously increases. This paper further reveals that data-intensive compression in compaction consumes a significant portion of CPU power. Moreover, the multi-threaded compactions cause substantial CPU contention during high-load periods. Based on the above observations, we propose fine-grained dynamical compaction offloading by leveraging the modern Data Processing Unit (DPU) to alleviate the CPU overhead. To achieve this, we first employ dedicated hardware-based accelerators on the DPU to speed up the compression in compactions. We then leverage the Arm cores on the DPU to meet the burst CPU requirements to reduce resource contention. We integrate our DPU-offloaded compaction with RocksDB and evaluate it with NVIDIA’s latest Bluefield-2 DPU on a real system. The evaluation shows that the DPU is an effective solution to solve the CPU bottleneck of compaction. The results show that compaction performance is accelerated by 2.86 to 4.03 times, system write and read throughput is improved by up to 3.2 times and 1.4 times respectively, and host CPU contention is effectively reduced compared to the fine-tuned CPU-only baseline.",
+    "citationCount": 18,
+    "referenceCount": 40
+}

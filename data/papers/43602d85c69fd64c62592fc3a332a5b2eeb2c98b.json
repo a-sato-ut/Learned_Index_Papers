@@ -1,0 +1,39 @@
+{
+    "paperId": "43602d85c69fd64c62592fc3a332a5b2eeb2c98b",
+    "title": "FEL: High Capacity Learning for Recommendation and Ranking via Federated Ensemble Learning",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Meisam Hejazinia",
+        "Dzmitry Huba",
+        "Ilias Leontiadis",
+        "Kiwan Maeng",
+        "Mani Malek",
+        "Luca Melis",
+        "Ilya Mironov",
+        "Milad Nasr",
+        "Kaikai Wang",
+        "Carole-Jean Wu"
+    ],
+    "doi": "10.48550/arXiv.2206.03852",
+    "arxivId": "2206.03852",
+    "url": "https://www.semanticscholar.org/paper/43602d85c69fd64c62592fc3a332a5b2eeb2c98b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2206.03852",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Federated learning (FL) has emerged as an effective approach to address consumer privacy needs. FL has been successfully applied to certain machine learning tasks, such as training smart keyboard models and keyword spotting. Despite FL's initial success, many important deep learning use cases, such as ranking and recommendation tasks, have been limited from on-device learning. One of the key challenges faced by practical FL adoption for DL-based ranking and recommendation is the prohibitive resource requirements that cannot be satisfied by modern mobile systems. We propose Federated Ensemble Learning (FEL) as a solution to tackle the large memory requirement of deep learning ranking and recommendation tasks. FEL enables large-scale ranking and recommendation model training on-device by simultaneously training multiple model versions on disjoint clusters of client devices. FEL integrates the trained sub-models via an over-arch layer into an ensemble model that is hosted on the server. Our experiments demonstrate that FEL leads to 0.43-2.31% model quality improvement over traditional on-device federated learning - a significant improvement for ranking and recommendation system use cases.",
+    "citationCount": 7,
+    "referenceCount": 61
+}

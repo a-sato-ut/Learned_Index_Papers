@@ -1,0 +1,37 @@
+{
+    "paperId": "e3d62ac1977bfe355c8d0e2f0ad0f3332a15ccc5",
+    "title": "Encrypted DNS Traffic Analysis for Service Intention Inferring",
+    "year": 2023,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "Xiaodong Zang",
+        "Jian Gong",
+        "Maoli Wang",
+        "Peng Gao"
+    ],
+    "doi": "10.1109/TNSM.2022.3223902",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e3d62ac1977bfe355c8d0e2f0ad0f3332a15ccc5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Service intention refers to what service or which service the server provides. The former includes service classification, service type, or service behavior classification. The latter contains service content classification, such as shopping online or uploading and downloading, etc.. Port-based classification and payload-based classification are two widely used service classification schemes, both of which have many limitations, such as only focusing on server-side scenarios or just designing for non-encrypted requests. In this paper, we propose an encryption-independent approach from a network-side perspective by analyzing the communication behavior of the IPs. Firstly, we identify similar service behavior clusters by employing service influence metrics. Then, we devise a semantic mining mechanism to infer whether they serve a fixed user group or provide interactive service. Finally, we use open-source benchmark datasets, synthetic datasets, and the real Netflow data collected from the China Education Research Network backbone (CERNET) to verify our proposal. Experimental results demonstrate that the accuracy and recall rate of the proposed approach is better than other similar state-of-the-art methods. Besides, our work can also distinguish malicious behavior clusters. Extensive experiments demonstrate that our work is efficient for network management and security monitoring.",
+    "citationCount": 1,
+    "referenceCount": 52
+}

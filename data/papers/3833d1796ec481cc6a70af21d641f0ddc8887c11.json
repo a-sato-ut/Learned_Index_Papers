@@ -1,0 +1,36 @@
+{
+    "paperId": "3833d1796ec481cc6a70af21d641f0ddc8887c11",
+    "title": "Downsampling leads to Image Memorization in Convolutional Autoencoders",
+    "year": 2018,
+    "venue": "arXiv.org",
+    "authors": [
+        "Adityanarayanan Radhakrishnan",
+        "M. Belkin",
+        "Caroline Uhler"
+    ],
+    "doi": null,
+    "arxivId": "1810.10333",
+    "url": "https://www.semanticscholar.org/paper/3833d1796ec481cc6a70af21d641f0ddc8887c11",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Memorization of data in deep neural networks has become a subject of significant research interest. In this paper, we link memorization of images in deep convolutional autoencoders to downsampling through strided convolution. To analyze this mechanism in a simpler setting, we train linear convolutional autoencoders and show that linear combinations of training data are stored as eigenvectors in the linear operator corresponding to the network when downsampling is used. On the other hand, networks without downsampling do not memorize training data. We provide further evidence that the same effect happens in nonlinear networks. Moreover, downsampling in nonlinear networks causes the model to not only memorize linear combinations of images, but individual training images. Since convolutional autoencoder components are building blocks of deep convolutional networks, we envision that our findings will shed light on the important phenomenon of memorization in over-parameterized deep networks.",
+    "citationCount": 10,
+    "referenceCount": 19
+}

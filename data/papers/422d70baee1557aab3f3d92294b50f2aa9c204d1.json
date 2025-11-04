@@ -1,0 +1,32 @@
+{
+    "paperId": "422d70baee1557aab3f3d92294b50f2aa9c204d1",
+    "title": "Reinforcement Learning for Intra- & Inter-Node Recommender Data Pipeline Optimization",
+    "year": 2024,
+    "venue": "Trans. Recomm. Syst.",
+    "authors": [
+        "Kabir Nagrecha",
+        "Lingyi Liu",
+        "Pablo Delgado"
+    ],
+    "doi": "10.1145/3704923",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/422d70baee1557aab3f3d92294b50f2aa9c204d1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3704923",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning-based recommender models (DLRMs) have become an essential component of many modern recommender systems. Several companies are now building large compute clusters reserved for DLRM training, driving new interest in cost- and time-saving optimizations. The systems challenges faced in this setting are unique; while typical deep learning (DL) training jobs are dominated by model execution times, the most important factor in DLRM training performance is often online data ingestion. In this article, we study real-world DLRM data processing pipelines taken from our compute cluster at Netflix to observe the performance impacts of online ingestion and identify shortfalls in existing data pipeline optimizers. Our studies lead us to design a new solution for data pipeline optimization, InTuneX. InTuneX is designed for production-scale multi-node recommender data pipelines. It unifies and tackles the challenges of both intra- and inter-node pipeline optimization. We achieve this with a multi-agent reinforcement learning (RL) design, simultaneously optimizing node assignments at the cluster level and CPU assignments within nodes. Our experiments show that InTuneX can build optimized data pipeline configurations within minutes. We apply InTuneX to our cluster and find that it increases single-node data ingestion throughput by as much as 2.29 × versus state-of-the-art optimizers, while improving the cost-efficiency of multi-node pipelines by 15% to 25%.",
+    "citationCount": 0,
+    "referenceCount": 77
+}

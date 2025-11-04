@@ -1,0 +1,27 @@
+{
+    "paperId": "b00cea9cd0a2efb894dadbb888dae7295b8f4efb",
+    "title": "Effect of JOIN Type on Query Performance",
+    "year": 2025,
+    "venue": "Conference of the Open Innovations Association",
+    "authors": [
+        "Andrea Meleková",
+        "Michal Kvet"
+    ],
+    "doi": "10.23919/FRUCT65909.2025.11007985",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b00cea9cd0a2efb894dadbb888dae7295b8f4efb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Optimal query performance is crucial for database systems that operate in real-time or process large volumes of queries. In this paper, we present a comparative study of different SQL JOIN operations in an Oracle environment, with an emphasis on comparing INNER, LEFT, RIGHT and FULL OUTER JOIN, as well as the impact of using ON and USING clauses. We employ a cost-based optimizer method and measure query execution times for different dataset sizes and different indexing strategies, while also tracking CPU utilization, I/O operations, and memory consumption. Our findings indicate that INNER JOIN benefits most from indexing. These findings can help database administrators and developers choose an appropriate table join strategy, thereby reducing query latency and making resource utilization more efficient in a high-load environment.",
+    "citationCount": 0,
+    "referenceCount": 8
+}

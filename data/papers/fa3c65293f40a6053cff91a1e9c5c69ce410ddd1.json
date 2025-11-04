@@ -1,0 +1,34 @@
+{
+    "paperId": "fa3c65293f40a6053cff91a1e9c5c69ce410ddd1",
+    "title": "A Unified Storage System for Whole-Time-Range Data Analytics over Unbounded Data",
+    "year": 2019,
+    "venue": "2019 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom)",
+    "authors": [
+        "Yijie Shen",
+        "Guangzhong Yao",
+        "Sijie Guo",
+        "Jin Xiong",
+        "D. Jiang"
+    ],
+    "doi": "10.1109/ISPA-BDCloud-SustainCom-SocialCom48970.2019.00140",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fa3c65293f40a6053cff91a1e9c5c69ce410ddd1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Nowadays, enterprises rely on acquiring and analysis over huge amounts of data to earn profits on the markets. The data are produced from many sources in forms of event streams and unbounded by nature. In order to efficiently analyze these unbounded data, unified analytic frameworks such as Flink and Spark are introduced recently, which provide both real-time stream processing as well as batch processing. However, the unbounded data is still stored in isolated systems: one for real-time data and another for historical data. Such isolation brings additional complications for both application developers and platform operators. Moreover, multiple storage systems also introduce data migration overhead and increase total system cost. In this paper, we present CStream, a unified storage system for unbounded data streams. CStream uses row format for newly arrived data and columnar format for historical data. In addition, CStream transforms row format data into columnar format data asynchronously and efficiently. As a result, CStream can provide both low-latency real-time data access and high-bandwidth historical data access. We conduct extensive experiments, and the results show that CStream outperforms Kafka by up to 50% in write performance and outperforms HDFS by up to 30% in columnar read performance.",
+    "citationCount": 1,
+    "referenceCount": 19
+}

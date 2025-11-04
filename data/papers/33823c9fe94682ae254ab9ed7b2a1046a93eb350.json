@@ -1,0 +1,35 @@
+{
+    "paperId": "33823c9fe94682ae254ab9ed7b2a1046a93eb350",
+    "title": "Jovis: A Visualization Tool for PostgreSQL Query Optimizer",
+    "year": 2024,
+    "venue": "International Conference on Statistical and Scientific Database Management",
+    "authors": [
+        "Yoojin Choi",
+        "Juhee Han",
+        "Kyoseung Koo",
+        "Bongki Moon"
+    ],
+    "doi": "10.48550/arXiv.2411.14788",
+    "arxivId": "2411.14788",
+    "url": "https://www.semanticscholar.org/paper/33823c9fe94682ae254ab9ed7b2a1046a93eb350",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query optimizers are essential components of relational database management systems that directly impact query performance as they transform input queries into efficient execution plans. While users can examine the final plan using the EXPLAIN command and existing visualization tools, the internal decision-making process of the optimizer is hidden from users, making it difficult to understand how the plan is constructed. To address this challenge, we present Jovis, an interactive visualization tool for exploring the query optimization process in PostgreSQL. Jovis provides a comprehensive view of the entire optimization workflow through tailored visualization for each optimization strategy. It further enables users to participate in optimization by providing hints, tuning parameters, and reusing prior optimization results. Jovis serves both as an educational tool for learners and a practical resource for database professionals, supporting users in understanding and guiding the optimizer toward better decisions. The source code, data, and/or other artifacts are available at https://github.com/orgs/snu-jovis.",
+    "citationCount": 1,
+    "referenceCount": 19
+}

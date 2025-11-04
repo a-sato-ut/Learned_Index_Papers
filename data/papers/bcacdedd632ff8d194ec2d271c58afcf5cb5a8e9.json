@@ -1,0 +1,32 @@
+{
+    "paperId": "bcacdedd632ff8d194ec2d271c58afcf5cb5a8e9",
+    "title": "User Modeling Towards Stateful Learning to Rank",
+    "year": 2020,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Yanpeng Lin"
+    ],
+    "doi": "10.1145/3397271.3401455",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bcacdedd632ff8d194ec2d271c58afcf5cb5a8e9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modeling user behaviors in an interactive information seeking process is key to understand user information need. Two prime characteristics of interactive information seeking are statefulness and participant initiatives. There are many work focus on click modeling using a search session log. However, such a search session of user queries and clicks lacks initiative information between user and system to model user state. In this research proposal, we focus on product search in E-commerce. We augment the search session with generalized initiative information. We integrate long term user features into search sessions and formulate user modeling as a Markov Decision Process (MDP). We further investigate how proposed user modeling would benefit Learning to Rank (LTR) in interactive stateful information seeking process.",
+    "citationCount": 1,
+    "referenceCount": 8
+}

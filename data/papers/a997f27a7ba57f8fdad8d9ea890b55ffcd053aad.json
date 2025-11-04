@@ -1,0 +1,42 @@
+{
+    "paperId": "a997f27a7ba57f8fdad8d9ea890b55ffcd053aad",
+    "title": "Maize tassels detection: a benchmark of the state of the art",
+    "year": 2020,
+    "venue": "Plant Methods",
+    "authors": [
+        "Hongwei Zou",
+        "Hao Lu",
+        "Yanan Li",
+        "Liang Liu",
+        "ZHIGUO CAO"
+    ],
+    "doi": "10.1186/s13007-020-00651-z",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a997f27a7ba57f8fdad8d9ea890b55ffcd053aad",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://plantmethods.biomedcentral.com/track/pdf/10.1186/s13007-020-00651-z",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Agricultural and Food Sciences",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The population of plants is a crucial indicator in plant phenotyping and agricultural production, such as growth status monitoring, yield estimation, and grain depot management. To enhance the production efficiency and liberate labor force, many automated counting methods have been proposed, in which computer vision-based approaches show great potentials due to the feasibility of high-throughput processing and low cost. In particular, with the success of deep learning, more and more deeper learning-based approaches are introduced to deal with agriculture automation. Since different detection- and regression-based counting models have distinct characteristics, how to choose an appropriate model given the target task at hand remains unexplored and is important for practitioners. Targeting in-field maize tassels as a representative case study, the goal of this work is to present a comprehensive benchmark of state-of-the-art object detection and object counting methods, including Faster R-CNN, YOLOv3, FaceBoxes, RetinaNet, and the leading counting model of maize tassels—TasselNet. We create a Maize Tassel Detection Counting (MTDC) dataset by supplementing bounding box annotations to the Maize Tassels Counting (MTC) dataset to allow the training of detection models. We investigate key factors effecting the practical applications of the models, such as convergence behavior, scale robustness, speed-accuracy trade-off, as well as parameter sensitivity. Based on our benchmark, we summarise the advantages and limitations of each method and suggest several possible directions to improve current detection- and regression-based counting approaches to benefit next-generation intelligent agriculture. Current state-of-the-art detection- and regression-based counting approaches can all achieve a relatively high degree of accuracy when dealing with in-field maize tassels, with at least 0.85 R2\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$R^2$$\\end{document} values and 28.2% rRMSE error. While detection-based methods are more robust than regression-based methods in scale variations and can infer extra information (e.g., object positions and sizes), the latter ones have significantly faster convergence behaviors and inference speed. To choose an appropriate in-filed plant counting method, accuracy, robustness, speed and some other algorithm-specific factors should be taken into account with the same priority. This work sheds light on different aspects of existing detection and counting approaches and provides guidance on how to tackle in-field plant counting. The MTDC dataset is made available at https://git.io/MTDC",
+    "citationCount": 56,
+    "referenceCount": 71
+}

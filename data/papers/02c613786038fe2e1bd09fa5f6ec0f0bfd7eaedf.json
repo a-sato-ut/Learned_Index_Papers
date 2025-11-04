@@ -1,0 +1,32 @@
+{
+    "paperId": "02c613786038fe2e1bd09fa5f6ec0f0bfd7eaedf",
+    "title": "AutoML Benchmark with shorter time constraints and early stopping",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Israel Campero-Jurado",
+        "Pieter Gijsbers",
+        "Joaquin Vanschoren"
+    ],
+    "doi": "10.48550/arXiv.2504.01222",
+    "arxivId": "2504.01222",
+    "url": "https://www.semanticscholar.org/paper/02c613786038fe2e1bd09fa5f6ec0f0bfd7eaedf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automated Machine Learning (AutoML) automatically builds machine learning (ML) models on data. The de facto standard for evaluating new AutoML frameworks for tabular data is the AutoML Benchmark (AMLB). AMLB proposed to evaluate AutoML frameworks using 1- and 4-hour time budgets across 104 tasks. We argue that shorter time constraints should be considered for the benchmark because of their practical value, such as when models need to be retrained with high frequency, and to make AMLB more accessible. This work considers two ways in which to reduce the overall computation used in the benchmark: smaller time constraints and the use of early stopping. We conduct evaluations of 11 AutoML frameworks on 104 tasks with different time constraints and find the relative ranking of AutoML frameworks is fairly consistent across time constraints, but that using early-stopping leads to a greater variety in model performance.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "d90f6573cfeb11685bfbf69b2f04e37f6b033bda",
+    "title": "A Comparative Exploration of ML Techniques for Tuning Query Degree of Parallelism",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhiwei Fan",
+        "Rathijit Sen",
+        "Paraschos Koutris",
+        "Aws Albarghouthi"
+    ],
+    "doi": null,
+    "arxivId": "2005.08439",
+    "url": "https://www.semanticscholar.org/paper/d90f6573cfeb11685bfbf69b2f04e37f6b033bda",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There is a large body of recent work applying machine learning (ML) techniques to query optimization and query performance prediction in relational database management systems (RDBMSs). However, these works typically ignore the effect of \\textit{intra-parallelism} -- a key component used to boost the performance of OLAP queries in practice -- on query performance prediction. In this paper, we take a first step towards filling this gap by studying the problem of \\textit{tuning the degree of parallelism (DOP) via ML techniques} in Microsoft SQL Server, a popular commercial RDBMS that allows an individual query to execute using multiple cores. \nIn our study, we cast the problem of DOP tuning as a {\\em regression} task, and examine how several popular ML models can help with query performance prediction in a multi-core setting. We explore the design space and perform an extensive experimental study comparing different models against a list of performance metrics, testing how well they generalize in different settings: $(i)$ to queries from the same template, $(ii)$ to queries from a new template, $(iii)$ to instances of different scale, and $(iv)$ to different instances and queries. Our experimental results show that a simple featurization of the input query plan that ignores cost model estimations can accurately predict query performance, capture the speedup trend with respect to the available parallelism, as well as help with automatically choosing an optimal per-query DOP.",
+    "citationCount": 3,
+    "referenceCount": 34
+}

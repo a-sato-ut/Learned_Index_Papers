@@ -1,0 +1,43 @@
+{
+    "paperId": "267c2cfbef7621be090cffd0b404224fc7092793",
+    "title": "Fast Mapping onto Census Blocks",
+    "year": 2020,
+    "venue": "IEEE Conference on High Performance Extreme Computing",
+    "authors": [
+        "J. Kepner",
+        "D. Engwirda",
+        "V. Gadepally",
+        "Chris Hill",
+        "Tim Kraska",
+        "Michael Jones",
+        "Andreas Kipf",
+        "Lauren Milechin",
+        "Navin Vembar"
+    ],
+    "doi": "10.1109/HPEC43674.2020.9286157",
+    "arxivId": "2005.03156",
+    "url": "https://www.semanticscholar.org/paper/267c2cfbef7621be090cffd0b404224fc7092793",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2005.03156",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Pandemic measures such as social distancing and contact tracing can be enhanced by rapidly integrating dynamic location data and demographic data. Projecting billions of longitude and latitude locations onto hundreds of thousands of highly irregular demographic census block polygons is computationally challenging in both research and deployment contexts. This paper describes two approaches labeled “simple” and “fast”. The simple approach can be implemented in any scripting language (Matlab/Octave, Python, Julia, R) and is easily integrated and customized to a variety of research goals. This simple approach uses a novel combination of hierarchy, sparse bounding boxes, polygon crossing-number, vectorization, and parallel processing to achieve 100,000,000+ projections per second on 100 servers. The simple approach is compact, does not increase data storage requirements, and is applicable to any country or region. The fast approach exploits the thread, vector, and memory optimizations that are possible using a low-level language (C++) and achieves similar performance on a single server. This paper details these approaches with the goal of enabling the broader community to quickly integrate location and demographic data.",
+    "citationCount": 7,
+    "referenceCount": 55
+}

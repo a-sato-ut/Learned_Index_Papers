@@ -1,0 +1,29 @@
+{
+    "paperId": "614726d3da774d1192e8c8d5b89cae9f52c17063",
+    "title": "Revisiting Semantic Representation and Tree Search for Similar Question Retrieval",
+    "year": 2019,
+    "venue": "",
+    "authors": [
+        "Tong Guo",
+        "Huilin Gao"
+    ],
+    "doi": null,
+    "arxivId": "1908.08326",
+    "url": "https://www.semanticscholar.org/paper/614726d3da774d1192e8c8d5b89cae9f52c17063",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper studies the performances of BERT combined with tree structure in short sentence ranking task. In retrieval-based question answering system, we retrieve the most similar question of the query question by ranking all the questions in datasets. If we want to rank all the sentences by neural rankers, we need to score all the sentence pairs. However it consumes large amount of time. So we design a specific tree for searching and combine deep model to solve this problem. We fine-tune BERT on the training data to get semantic vector or sentence embeddings on the test data. We use all the sentence embeddings of test data to build our tree based on k-means and do beam search at predicting time when given a sentence as query. We do the experiments on the semantic textual similarity dataset, Quora Question Pairs, and process the dataset for sentence ranking. Experimental results show that our methods outperform the strong baseline. Our tree accelerate the predicting speed by 500%-1000% without losing too much ranking accuracy.",
+    "citationCount": 1,
+    "referenceCount": 24
+}

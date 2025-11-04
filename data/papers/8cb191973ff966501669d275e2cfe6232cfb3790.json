@@ -1,0 +1,34 @@
+{
+    "paperId": "8cb191973ff966501669d275e2cfe6232cfb3790",
+    "title": "MS MARCO Chameleons: Challenging the MS MARCO Leaderboard with Extremely Obstinate Queries",
+    "year": 2021,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Negar Arabzadeh",
+        "Bhaskar Mitra",
+        "E. Bagheri"
+    ],
+    "doi": "10.1145/3459637.3482011",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8cb191973ff966501669d275e2cfe6232cfb3790",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "During the recent years and with the growing influence of neural architectures, tasks such as ad hoc retrieval have witnessed an impressive improvement in performance. For instance, the performance of rankers on the passage retrieval task on the MS MARCO dataset has improved by an order of magnitude in less than two years. In this paper, we go beyond the overall performance of the state of the art rankers and empirically study their performance from a finer-grained perspective. We find that while neural rankers have been able to consistently improve performance, this has been in part thanks to a specific set of queries from within the larger query set. We systematically show that there are subsets of queries that are difficult for each and every one of the neural rankers, which we refer to as obstinate queries. We show the obstinate queries are similar to easier queries in terms of their number of available relevant judgement documents and the length of the query itself but they are extremely more difficult to satisfy by existing rankers. Furthermore, we observe that query reformulation methods cannot help these queries. On this basis, we present three datasets derived from the MS MARCO Dev set, called the MS MARCO Chameleon datasets. We believe that the next breakthrough in performance would need to necessarily consider the queries in the MS MARCO Chameleons, as such, propose that a well-rounded evaluation strategy for any new ranker would need to include performance measures on both the overall MS MARCO dataset as well as the proposed MS MARCO Chameleon datasets.",
+    "citationCount": 26,
+    "referenceCount": 49
+}

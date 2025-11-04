@@ -1,0 +1,37 @@
+{
+    "paperId": "a38e9ced6871f3074743402c79cca37cb6527e95",
+    "title": "Leveraging Multiple Implicit Feedback for Personalized Recommendation with Neural Network",
+    "year": 2019,
+    "venue": "International Conference on Artificial Intelligence and Advanced Manufacturing",
+    "authors": [
+        "Hongfa Wen",
+        "Xin Liu",
+        "C. Yan",
+        "Linhua Jiang",
+        "Yaoqi Sun",
+        "Jiyong Zhang",
+        "Haibing Yin"
+    ],
+    "doi": "10.1145/3358331.3358337",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a38e9ced6871f3074743402c79cca37cb6527e95",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, deep neural networks have been widely applied on recommender systems. Most research efforts are put on modeling the side information such as textual information, contextual information and social network information, but the core part, i.e., interaction relationship between users and items are relatively less explored by neural networks, in particular, when multiple types of implicit feedbacks, e.g., click, browsing, add-to-cart, etc. are available in the system. In this paper, we propose an end-to-end learning framework, which systematically and comprehensively models multiple implicit feedback between users and items. Firstly, for each type of implicit feedback, we apply matrix factorization and Multi-Layer Perception (MLP) to capture both linearity and nonlinearity of user-item interactions. Then we fuse the effects of multiple implicit feedback through neural networks to boost the quality of recommendation. Experiments on Alibaba real production dataset with over two million interactions demonstrate the effectiveness of proposed approaches, which achieve superior performance compared with state-of-the-art methods.",
+    "citationCount": 8,
+    "referenceCount": 37
+}

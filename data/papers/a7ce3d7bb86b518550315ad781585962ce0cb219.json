@@ -1,0 +1,37 @@
+{
+    "paperId": "a7ce3d7bb86b518550315ad781585962ce0cb219",
+    "title": "UFLUX-GPP: A Cost-Effective Framework for Quantifying Daily Terrestrial Ecosystem Carbon Uptake Using Satellite Data",
+    "year": 2024,
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+    "authors": [
+        "Songyan Zhu",
+        "Jian Xu",
+        "Jingya Zeng",
+        "Panxing He",
+        "Yapeng Wang",
+        "Shanning Bao",
+        "Jun Ma",
+        "Jiancheng Shi"
+    ],
+    "doi": "10.1109/TGRS.2024.3439333",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a7ce3d7bb86b518550315ad781585962ce0cb219",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In light of climate change, scaling up in situ eddy covariance (EC) fluxes with Earth observation data has been recognized as a viable strategy for estimating the global terrestrial ecosystem carbon uptake, specifically, gross primary productivity (GPP). Nevertheless, the significant uncertainty in estimation (100–150 PgCyr-1) necessitates the refinement of upscaling algorithms and the use of appropriate satellite data. This technological advancement is particularly sought after in underprivileged regions that are most susceptible to climate crises. Unfortunately, these regions are often constrained by insufficient financial resources and software engineering skills shortages. This study aims to evaluate satellite vegetation proxies [solar-induced fluorescence (SIF); near-infrared reflectance of vegetation (NIRv)] for upscaling GPP and to propose a cost-effective GPP estimation framework called unified FLUXes-GPP (UFLUX-GPP), which can be conveniently operated on a laptop while delivering outstanding performance. The results demonstrated that moderate resolution imaging spectroradiometer (MODIS) NIRv and OCO-2 CSIF exhibited superior performance in the upscaling of EC GPP, with a coefficient of determination ( $R^{2}$ ) of 0.86 and a root mean square error (RMSE) of 1.55 gCm-2d-1. The integration of multiple satellite-derived vegetation proxies holds the potential to enhance the reliability of the model ( $R^{2} =0.89$ , RMSE =1.41 gCm-2d-1) with an uncertainty of 8 PgCyr-1, especially in tropical and polar regions. The UFLUX-GPP effectively preserved the ecological responses of GPP to the environment and showed promising potential for predicting future GPP. Although the spatiotemporal density of EC towers may occasionally impede the upscaling performance, UFLUX-GPP can convincingly advance a broader use of satellite remote sensing for GPP estimation.",
+    "citationCount": 2,
+    "referenceCount": 119
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "a2b993c36c238ac3d33cd1e5269c0eb2acac5224",
+    "title": "Pushing ML Predictions Into DBMSs",
+    "year": 2023,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Matteo Paganelli",
+        "Paolo Sottovia",
+        "Kwanghyun Park",
+        "Matteo Interlandi",
+        "Francesco Guerra"
+    ],
+    "doi": "10.1109/TKDE.2023.3269592",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a2b993c36c238ac3d33cd1e5269c0eb2acac5224",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/69/4358933/10107490.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the past decade, many approaches have been suggested to execute ML workloads on a DBMS. However, most of them have looked at in-DBMS ML from a training perspective, whereas ML inference has been largely overlooked. We think that this is an important gap to fill for two main reasons: (1) in the near future, every application will be infused with some sort of ML capability; (2) behind every web page, application, and enterprise there is a DBMS, whereby in-DBMS inference is an appealing solution both for efficiency (e.g., less data movement), performance (e.g., cross-optimizations between relational operators and ML) and governance. In this article, we study whether DBMSs are a good fit for prediction serving. We introduce a technique for translating trained ML pipelines containing both featurizers (e.g., one-hot encoding) and models (e.g., linear and tree-based models) into SQL queries, and we compare in-DBMS performance against popular ML frameworks such as Sklearn and ml.net. Our experiments show that, when pushed inside a DBMS, trained ML pipelines can have performance comparable to ML frameworks in several scenarios, while they perform quite poorly on text featurization and over (even simple) neural networks.",
+    "citationCount": 8,
+    "referenceCount": 71
+}

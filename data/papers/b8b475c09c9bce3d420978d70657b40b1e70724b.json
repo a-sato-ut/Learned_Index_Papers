@@ -1,0 +1,36 @@
+{
+    "paperId": "b8b475c09c9bce3d420978d70657b40b1e70724b",
+    "title": "Meta-Reinforcement Learning with Self-Modifying Networks",
+    "year": 2022,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Mathieu Chalvidal",
+        "Thomas Serre",
+        "Rufin VanRullen"
+    ],
+    "doi": null,
+    "arxivId": "2202.02363",
+    "url": "https://www.semanticscholar.org/paper/b8b475c09c9bce3d420978d70657b40b1e70724b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Reinforcement Learning has demonstrated the potential of neural networks tuned with gradient descent for solving complex tasks in well-delimited environments. However, these neural systems are slow learners producing specialized agents with no mechanism to continue learning beyond their training curriculum. On the contrary, biological synaptic plasticity is persistent and manifold, and has been hypothesized to play a key role in executive functions such as working memory and cognitive flexibility, potentially supporting more efficient and generic learning abilities. Inspired by this, we propose to build networks with dynamic weights, able to continually perform self-reflexive modification as a function of their current synaptic state and action-reward feedback, rather than a fixed network configuration. The resulting model, MetODS (for Meta-Optimized Dynamical Synapses) is a broadly applicable meta-reinforcement learning system able to learn efficient and powerful control rules in the agent policy space. A single layer with dynamic synapses can perform one-shot learning, generalizes navigation principles to unseen environments and manifests a strong ability to learn adaptive motor policies.",
+    "citationCount": 7,
+    "referenceCount": 88
+}

@@ -1,0 +1,45 @@
+{
+    "paperId": "85f76df0135ea32529cf382e628b38a2dc136bda",
+    "title": "NeuralStagger: accelerating physics-constrained neural PDE solver with spatial-temporal decomposition",
+    "year": 2023,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "Xinquan Huang",
+        "Wenlei Shi",
+        "Qi Meng",
+        "Yue Wang",
+        "Xiaotian Gao",
+        "Jia Zhang",
+        "Tie-Yan Liu"
+    ],
+    "doi": "10.48550/arXiv.2302.10255",
+    "arxivId": "2302.10255",
+    "url": "https://www.semanticscholar.org/paper/85f76df0135ea32529cf382e628b38a2dc136bda",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2302.10255",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural networks have shown great potential in accelerating the solution of partial differential equations (PDEs). Recently, there has been a growing interest in introducing physics constraints into training neural PDE solvers to reduce the use of costly data and improve the generalization ability. However, these physics constraints, based on certain finite dimensional approximations over the function space, must resolve the smallest scaled physics to ensure the accuracy and stability of the simulation, resulting in high computational costs from large input, output, and neural networks. This paper proposes a general acceleration methodology called NeuralStagger by spatially and temporally decomposing the original learning tasks into several coarser-resolution subtasks. We define a coarse-resolution neural solver for each subtask, which requires fewer computational resources, and jointly train them with the vanilla physics-constrained loss by simply arranging their outputs to reconstruct the original solution. Due to the perfect parallelism between them, the solution is achieved as fast as a coarse-resolution neural solver. In addition, the trained solvers bring the flexibility of simulating with multiple levels of resolution. We demonstrate the successful application of NeuralStagger on 2D and 3D fluid dynamics simulations, which leads to an additional $10\\sim100\\times$ speed-up. Moreover, the experiment also shows that the learned model could be well used for optimal control.",
+    "citationCount": 12,
+    "referenceCount": 39
+}

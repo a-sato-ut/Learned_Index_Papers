@@ -1,0 +1,35 @@
+{
+    "paperId": "11bae525049b3f0738f72fef0d010f832cad3f2b",
+    "title": "Legal Element-oriented Modeling with Multi-view Contrastive Learning for Legal Case Retrieval",
+    "year": 2022,
+    "venue": "IEEE International Joint Conference on Neural Network",
+    "authors": [
+        "Zhaowei Wang"
+    ],
+    "doi": "10.1109/IJCNN55064.2022.9892487",
+    "arxivId": "2210.05188",
+    "url": "https://www.semanticscholar.org/paper/11bae525049b3f0738f72fef0d010f832cad3f2b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2210.05188",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Law",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Legal case retrieval, which aims to retrieve relevant cases given a query case, plays an essential role in the legal system. While recent research efforts improve the performance of traditional ad-hoc retrieval models, legal case retrieval is still challenging since queries are legal cases, which contain hundreds of tokens. Legal cases are much longer and more complicated than keywords queries. Apart from that, the definition of legal relevance is beyond the general definition. In addition to general topical relevance, the relevant cases also involve similar situations and legal elements, which can support the judgment of the current case. In this paper, we propose an interaction-focused network for legal case retrieval with a multi-view contrastive learning objective. The contrastive learning views, including case-view and element-view, aim to overcome the above challenges. The case-view contrastive learning minimizes the hidden space distance between relevant legal case representations produced by a pre-trained language model (PLM) encoder. The element-view builds positive and negative instances by changing legal elements of cases to help the network better compute legal relevance. To achieve this, we employ a legal element knowledge-aware indicator to detect legal elements of cases. We conduct extensive experiments on the benchmark of relevant case retrieval. Evaluation results indicate our proposed method obtains significant improvement over the existing methods.",
+    "citationCount": 11,
+    "referenceCount": 38
+}

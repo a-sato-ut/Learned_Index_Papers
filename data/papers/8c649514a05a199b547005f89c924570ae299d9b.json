@@ -1,0 +1,35 @@
+{
+    "paperId": "8c649514a05a199b547005f89c924570ae299d9b",
+    "title": "QuadrupletBERT: An Efficient Model For Embedding-Based Large-Scale Retrieval",
+    "year": 2021,
+    "venue": "North American Chapter of the Association for Computational Linguistics",
+    "authors": [
+        "Peiyang Liu",
+        "Sen Wang",
+        "Xi Wang",
+        "Wei Ye",
+        "Shikun Zhang"
+    ],
+    "doi": "10.18653/V1/2021.NAACL-MAIN.292",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8c649514a05a199b547005f89c924570ae299d9b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://aclanthology.org/2021.naacl-main.292.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The embedding-based large-scale query-document retrieval problem is a hot topic in the information retrieval (IR) field. Considering that pre-trained language models like BERT have achieved great success in a wide variety of NLP tasks, we present a QuadrupletBERT model for effective and efficient retrieval in this paper. Unlike most existing BERT-style retrieval models, which only focus on the ranking phase in retrieval systems, our model makes considerable improvements to the retrieval phase and leverages the distances between simple negative and hard negative instances to obtaining better embeddings. Experimental results demonstrate that our QuadrupletBERT achieves state-of-the-art results in embedding-based large-scale retrieval tasks.",
+    "citationCount": 11,
+    "referenceCount": 20
+}

@@ -1,0 +1,27 @@
+{
+    "paperId": "5b2d6401c49a1785191d4ecb5a6740ace1c50702",
+    "title": "Content-Based Video Big Data Retrieval with Extensive Features and Deep Learning",
+    "year": 2022,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Thuong-Cang Phan",
+        "Anh-Cang Phan",
+        "Hung-Phi Cao",
+        "Thanh-Ngoan Trieu"
+    ],
+    "doi": "10.3390/app12136753",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5b2d6401c49a1785191d4ecb5a6740ace1c50702",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2076-3417/12/13/6753/pdf?version=1657014455",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the era of digital media, the rapidly increasing volume and complexity of multimedia data cause many problems in storing, processing, and querying information in a reasonable time. Feature extraction and processing time play an extremely important role in large-scale video retrieval systems and currently receive much attention from researchers. We, therefore, propose an efficient approach to feature extraction on big video datasets using deep learning techniques. It focuses on the main features, including subtitles, speeches, and objects in video frames, by using a combination of three techniques: optical character recognition (OCR), automatic speech recognition (ASR), and object identification with deep learning techniques. We provide three network models developed from networks of Faster R-CNN ResNet, Faster R-CNN Inception ResNet V2, and Single Shot Detector MobileNet V2. The approach is implemented in Spark, the next-generation parallel and distributed computing environment, which reduces the time and space costs of the feature extraction process. Experimental results show that our proposal achieves an accuracy of 96% and a processing time reduction of 50%. This demonstrates the feasibility of the approach for content-based video retrieval systems in a big data context.",
+    "citationCount": 21,
+    "referenceCount": 53
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "5fef57eb61737c128c238a161094c651e539a77e",
+    "title": "From Missteps to Mastery: Enhancing Low-Resource Dense Retrieval through Adaptive Query Generation",
+    "year": 2025,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Zhenyu Tong",
+        "Chuan Qin",
+        "Chuyu Fang",
+        "Kaichun Yao",
+        "Xi Chen",
+        "Jingshuai Zhang",
+        "Chen Zhu",
+        "Hengshu Zhu"
+    ],
+    "doi": "10.1145/3690624.3709225",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5fef57eb61737c128c238a161094c651e539a77e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Document retrieval, designed to recall query-relevant documents from expansive collections, is essential for information-seeking tasks, such as web search and open-domain question-answering. Advances in representation learning and pretrained language models (PLMs) have driven a paradigm shift from traditional sparse retrieval methods to more effective dense retrieval approaches, forging enhanced semantic connections between queries and documents and establishing new performance benchmarks. However, reliance on extensive annotated document-query pairs limits their competitiveness in low-resource scenarios. Recent research efforts employing the few-shot capabilities of large language models (LLMs) and prompt engineering for synthetic data generation have emerged as a promising solution. Nonetheless, these approaches are hindered by the generation of lower-quality data within the conventional dense retrieval training process. To this end, in this paper, we introduce iGFT, a framework aimed at enhancing low-resource dense retrieval by integrating a three-phase process --- Generation, Filtering, and Tuning --- coupled with an iterative optimization strategy. Specifically, we first employ supervised fine-tuning on limited ground truth data, enabling an LLM to function as the generator capable of producing potential queries from given documents. Subsequently, we present a multi-stage filtering module to minimize noise in the generated data while retaining samples poised to significantly improve the dense retrieval model's performance in the follow-up fine-tuning process. Furthermore, we design a novel iterative optimization strategy that dynamically optimizes the query generator for producing more informative queries, thereby enhancing the efficacy of the entire framework. Finally, extensive experiments conducted on a series of publicly available retrieval benchmark datasets have demonstrated the effectiveness of the proposed iGFT.",
+    "citationCount": 3,
+    "referenceCount": 55
+}

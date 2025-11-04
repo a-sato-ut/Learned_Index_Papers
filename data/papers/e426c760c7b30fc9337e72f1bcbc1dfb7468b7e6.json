@@ -1,0 +1,34 @@
+{
+    "paperId": "e426c760c7b30fc9337e72f1bcbc1dfb7468b7e6",
+    "title": "Enhancing Transparent Object Matting Using Predicted Definite Foreground and Background",
+    "year": 2025,
+    "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+    "authors": [
+        "Yihui Liang",
+        "Qian Fu",
+        "Kun Zou",
+        "Guisong Liu",
+        "Han Huang"
+    ],
+    "doi": "10.1109/TCSVT.2024.3452512",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e426c760c7b30fc9337e72f1bcbc1dfb7468b7e6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Natural image matting is a widely used image processing technique that extracts foreground by predicting the alpha values of the unknown region based on the alpha values of the known foreground and background regions. However, existing image matting methods may not yield the most optimal results when applied to images containing transparent objects because the known foreground region is small or even absent. To address this shortcoming, in this paper, we propose a novel method named Transparent Object Matting using Predicted Definite Foreground and Background (TOM-PDFB), which can explore and utilize the definite foreground and background in the unknown region. For this purpose, a newly developed foreground-background confidence estimator is applied to predict the confidence level of the definite foreground and the definite background, thus providing the priors required for transparent object matting. Next, foreground-background guided progressive refinement network developed as a part of this work is adopted to incorporate the estimated definite foreground and background into the alpha matte refinement process. Extensive experimental results demonstrate that the TOM-PDFB outperforms state-of-the-art methods when applied to transparent objects. Project page: https://github.com/yihuiliang/TOM-PDFB.",
+    "citationCount": 2,
+    "referenceCount": 53
+}

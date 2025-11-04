@@ -1,0 +1,40 @@
+{
+    "paperId": "e620d02d658a7c9250cfe09cbcf28f27cc9a6362",
+    "title": "HoD-Net: High-Order Differentiable Deep Neural Networks and Applications",
+    "year": 2022,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Siyuan Shen",
+        "Tianjia Shao",
+        "Kun Zhou",
+        "Chenfanfu Jiang",
+        "Feng Luo",
+        "Yin Yang"
+    ],
+    "doi": "10.1609/aaai.v36i8.20799",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e620d02d658a7c9250cfe09cbcf28f27cc9a6362",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/20799/20558",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce a deep architecture named HoD-Net to enable high-order differentiability for deep learning. HoD-Net is based on and generalizes the complex-step finite difference (CSFD) method. While similar to classic finite difference, CSFD approaches the derivative of a function from a higher-dimension complex domain, leading to highly accurate and robust differentiation computation without numerical stability issues. This method can be coupled with backpropagation and adjoint perturbation methods for an efficient calculation of high-order derivatives. We show how this numerical scheme can be leveraged in challenging deep learning problems, such as high-order network training, deep learning-based physics simulation, and neural differential equations.",
+    "citationCount": 4,
+    "referenceCount": 76
+}

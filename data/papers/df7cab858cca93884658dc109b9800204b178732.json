@@ -1,0 +1,34 @@
+{
+    "paperId": "df7cab858cca93884658dc109b9800204b178732",
+    "title": "PAR2QO: Parametric Penalty-Aware Robust Query Optimization",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Haibo Xiu",
+        "Yang Li",
+        "Qianyu Yang",
+        "Pankaj K. Agarwal",
+        "Jun Yang"
+    ],
+    "doi": "10.14778/3749646.3749711",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/df7cab858cca93884658dc109b9800204b178732",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Parametric Query Optimization (PQO) is an important problem in database systems, yet existing approaches suffer from high training costs, sensitivity to estimation errors, and vulnerability to severe performance regressions. This paper introduces PAR\n 2\n QO (PARametric Penalty-Aware Robust Query Optimization), a system that integrates robust query optimization into PQO. PAR\n 2\n QO strategically obtains plans from a well-balanced set of probe locations informed by the workload, and caches them as plan-penalty profiles. At runtime, PAR\n 2\n QO selects the plan with the lowest expected penalty, explicitly accounting for selectivity uncertainties. Extensive experiments show that PAR\n 2\n QO delivers significant speedups over existing methods while ensuring robustness against performance degradation. Additionally, we introduce\n CARVER\n , a workload generator aimed at covering possible cardinalities of subqueries. Not only does CARVER provide a more comprehensive way to evaluate PQO methods, but when used for training learned methods, it can also enhance their generalizability and stability.\n",
+    "citationCount": 0,
+    "referenceCount": 47
+}

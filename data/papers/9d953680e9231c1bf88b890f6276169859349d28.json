@@ -1,0 +1,35 @@
+{
+    "paperId": "9d953680e9231c1bf88b890f6276169859349d28",
+    "title": "MODNet: Real-Time Trimap-Free Portrait Matting via Objective Decomposition",
+    "year": 2020,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Zhanghan Ke",
+        "Jiayu Sun",
+        "Kaican Li",
+        "Qiong Yan",
+        "Rynson W. H. Lau"
+    ],
+    "doi": "10.1609/aaai.v36i1.19999",
+    "arxivId": "2011.11961",
+    "url": "https://www.semanticscholar.org/paper/9d953680e9231c1bf88b890f6276169859349d28",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/19999/19758",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Existing portrait matting methods either require auxiliary inputs that are costly to obtain or involve multiple stages that are computationally expensive, making them less suitable for real-time applications. In this work, we present a light-weight matting objective decomposition network (MODNet) for portrait matting in real-time with a single input image. The key idea behind our efficient design is by optimizing a series of sub-objectives simultaneously via explicit constraints. In addition, MODNet includes two novel techniques for improving model efficiency and robustness. First, an Efficient Atrous Spatial Pyramid Pooling (e-ASPP) module is introduced to fuse multi-scale features for semantic estimation. Second, a self-supervised sub-objectives consistency (SOC) strategy is proposed to adapt MODNet to real-world data to address the domain shift problem common to trimap-free methods. MODNet is easy to be trained in an end-to-end manner. It is much faster than contemporaneous methods and runs at 67 frames per second on a 1080Ti GPU. Experiments show that MODNet outperforms prior trimap-free methods by a large margin on both Adobe Matting Dataset and a carefully designed photographic portrait matting (PPM-100) benchmark proposed by us. Further, MODNet achieves remarkable results on daily photos and videos.",
+    "citationCount": 184,
+    "referenceCount": 39
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "8eb8cd21a3bd095444b48683b34a3e80be3af3ef",
+    "title": "Evaluation of Dataframe Libraries for Data Preparation on a Single Machine",
+    "year": 2023,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "Angelo Mozzillo",
+        "Luca Zecchini",
+        "Luca Gagliardelli",
+        "Adeel Aslam",
+        "Sonia Bergamaschi",
+        "Giovanni Simonini"
+    ],
+    "doi": "10.48786/edbt.2025.27",
+    "arxivId": "2312.11122",
+    "url": "https://www.semanticscholar.org/paper/8eb8cd21a3bd095444b48683b34a3e80be3af3ef",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data preparation is a trial-and-error process that typically involves countless iterations over the data to define the best pipeline of operators for a given task. With tabular data, practitioners often perform that burdensome activity on local machines by writing ad hoc scripts with libraries based on the Pandas dataframe API and testing them on samples of the entire dataset-the faster the library, the less idle time its users have. In this paper, we evaluate the most popular Python dataframe libraries in general data preparation use cases to assess how they perform on a single machine. To do so, we employ 4 real-world datasets with heterogeneous features, covering a variety of scenarios, and the TPC-H benchmark. The insights gained with this experimentation are useful to data scientists who need to choose which of the dataframe libraries best suits their data preparation task at hand. In a nutshell, we found that: for small datasets, Pandas consistently proves to be the best choice with the richest API; when data fits in RAM and there is no need for complete compatibility with Pandas API, Polars is the go-to choice thanks to its in-memory execution and query optimizations; when a GPU is available, CuDF often yields the best performance, while for very large datasets that cannot fit in the GPU memory and RAM, PySpark (thanks to a multithread execution and a query optimizer) proves to be the best option.",
+    "citationCount": 1,
+    "referenceCount": 60
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "5e11e806d24dd80ecf0f91e7aacedbba8d9fd6fc",
+    "title": "Learning Associative Inference Using Fast Weight Memory",
+    "year": 2020,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Imanol Schlag",
+        "Tsendsuren Munkhdalai",
+        "J. Schmidhuber"
+    ],
+    "doi": null,
+    "arxivId": "2011.07831",
+    "url": "https://www.semanticscholar.org/paper/5e11e806d24dd80ecf0f91e7aacedbba8d9fd6fc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Humans can quickly associate stimuli to solve problems in novel contexts. Our novel neural network model learns state representations of facts that can be composed to perform such associative inference. To this end, we augment the LSTM model with an associative memory, dubbed Fast Weight Memory (FWM). Through differentiable operations at every step of a given input sequence, the LSTM updates and maintains compositional associations stored in the rapidly changing FWM weights. Our model is trained end-to-end by gradient descent and yields excellent performance on compositional language reasoning problems, meta-reinforcement-learning for POMDPs, and small-scale word-level language modelling.",
+    "citationCount": 55,
+    "referenceCount": 80
+}

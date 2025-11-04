@@ -1,0 +1,35 @@
+{
+    "paperId": "b5076cb4088036f15ae44f315c5bf1912515f2cd",
+    "title": "Downsizing Diffusion Models for Cardinality Estimation",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Xinhe Mu",
+        "Zhaoqi Zhou",
+        "Zaijiu Shang",
+        "Chuan Zhou",
+        "Gang Fu",
+        "Guiying Yan",
+        "Guoliang Li",
+        "Zhiming Ma"
+    ],
+    "doi": null,
+    "arxivId": "2510.20681",
+    "url": "https://www.semanticscholar.org/paper/b5076cb4088036f15ae44f315c5bf1912515f2cd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Inspired by the performance of score-based diffusion models in estimating complex text, video, and image distributions with thousands of dimensions, we introduce Accelerated Diffusion Cardest (ADC), the first joint distribution cardinality estimator based on a downsized diffusion model. To calculate the pointwise density value of data distributions, ADC's density estimator uses a formula that evaluates log-likelihood by integrating the score function, a gradient mapping which ADC has learned to efficiently approximate using its lightweight score estimator. To answer ranged queries, ADC's selectivity estimator first predicts their selectivity using a Gaussian Mixture Model (GMM), then uses importance sampling Monte Carlo to correct its predictions with more accurate pointwise density values calculated by the density estimator. ADC+ further trains a decision tree to identify the high-volume, high-selectivity queries that the GMM alone can predict very accurately, in which case it skips the correction phase to prevent Monte Carlo from adding more variance. Doing so lowers median Q-error and cuts per-query latency by 25 percent, making ADC+ usually twice as fast as Naru, arguably the state-of-the-art joint distribution cardinality estimator. Numerical experiments using well-established benchmarks show that on all real-world datasets tested, ADC+ is capable of rivaling Naru and outperforming MSCN, DeepDB, LW-Tree, and LW-NN using around 66 percent their storage space, being at least 3 times as accurate as MSCN on 95th and 99th percentile error. Furthermore, on a synthetic dataset where attributes exhibit complex, multilateral correlations, ADC and ADC+ are considerably robust while almost every other learned model suffered significant accuracy declines. In this case, ADC+ performs better than any other tested model, being 10 times as accurate as Naru on 95th and 99th percentile error.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

@@ -1,0 +1,40 @@
+{
+    "paperId": "3afa28fefe1fb78714d49f0daa5341bde5abe7d4",
+    "title": "Explainable Data Analytics for Disease and Healthcare Informatics",
+    "year": 2021,
+    "venue": "International Database Engineering and Applications Symposium",
+    "authors": [
+        "C. Leung",
+        "Daryl L. X. Fung",
+        "Daniel Mai",
+        "Qi Wen",
+        "Jason Tran",
+        "Joglas Souza"
+    ],
+    "doi": "10.1145/3472163.3472175",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3afa28fefe1fb78714d49f0daa5341bde5abe7d4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With advancements in technology, huge volumes of valuable data have been generated and collected at a rapid velocity from a wide variety of rich data sources. Examples of these valuable data include healthcare and disease data such as privacy-preserving statistics on patients who suffered from diseases like the coronavirus disease 2019 (COVID-19). Analyzing these data can be for social good. For instance, data analytics on the healthcare and disease data often leads to the discovery of useful information and knowledge about the disease. Explainable artificial intelligence (XAI) further enhances the interpretability of the discovered knowledge. Consequently, the explainable data analytics helps people to get a better understanding of the disease, which may inspire them to take part in preventing, detecting, controlling and combating the disease. In this paper, we present an explainable data analytics system for disease and healthcare informatics. Our system consists of two key components. The predictor component analyzes and mines historical disease and healthcare data for making predictions on future data. Although huge volumes of disease and healthcare data have been generated, volumes of available data may vary partially due to privacy concerns. So, the predictor makes predictions with different methods. It uses random forest With sufficient data and neural network-based few-shot learning (FSL) with limited data. The explainer component provides the general model reasoning and a meaningful explanation for specific predictions. As a database engineering application, we evaluate our system by applying it to real-life COVID-19 data. Evaluation results show the practicality of our system in explainable data analytics for disease and healthcare informatics.",
+    "citationCount": 16,
+    "referenceCount": 82
+}

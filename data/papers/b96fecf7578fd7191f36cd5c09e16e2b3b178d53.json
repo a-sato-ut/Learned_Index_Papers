@@ -1,0 +1,35 @@
+{
+    "paperId": "b96fecf7578fd7191f36cd5c09e16e2b3b178d53",
+    "title": "Balanced Knowledge Distillation with Contrastive Learning for Document Re-ranking",
+    "year": 2023,
+    "venue": "International Conference on the Theory of Information Retrieval",
+    "authors": [
+        "Yingrui Yang",
+        "Shanxiu He",
+        "Yifan Qiao",
+        "Wentai Xie",
+        "Tao Yang"
+    ],
+    "doi": "10.1145/3578337.3605120",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b96fecf7578fd7191f36cd5c09e16e2b3b178d53",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3578337.3605120",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Knowledge distillation is commonly used in training a neural document ranking model by employing a teacher to guide model refinement. As a teacher may not be correct in all cases, over-calibration between the student and teacher models can make training less effective. This paper focuses on the KL divergence loss used for knowledge distillation in document re-ranking, and re-visits balancing of knowledge distillation with explicit contrastive learning. The proposed loss function takes a conservative approach in imitating teacher's behavior, and allows student to deviate from a teacher's model sometimes through training. This paper presents analytic results with an evaluation on MS MARCO passages to validate the usefulness of the proposed loss for the transformer-based ColBERT re-ranking.",
+    "citationCount": 3,
+    "referenceCount": 54
+}

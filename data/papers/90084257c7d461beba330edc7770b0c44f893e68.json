@@ -1,0 +1,33 @@
+{
+    "paperId": "90084257c7d461beba330edc7770b0c44f893e68",
+    "title": "Workload Prediction for Adaptive Approximate Query Processing",
+    "year": 2022,
+    "venue": "2022 IEEE International Conference on Big Data (Big Data)",
+    "authors": [
+        "Hamid Shahrivari",
+        "Odysseas Papapetrou",
+        "G. Fletcher"
+    ],
+    "doi": "10.1109/BigData55660.2022.10020614",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/90084257c7d461beba330edc7770b0c44f893e68",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate Query Processing (AQP) enables a trade-off between accuracy and performance to deliver users real-time responses. State-of-the-art AQP relies on forming compact data summaries and approximating the queries using these summaries. By understanding the sequencing of queries in the given workload, engines tune the construction of synopses and buffer them in a warehouse to reduce the cost of subsequent query execution costs. We present Adaptive Approximate Query Processing (AAQP), which predicts future workload and generates the best set of synopses to execute a given query, i.e., those that minimize the predicted workload’s execution time. We equip AAQP with Recurrent Neural Networks (RNN) that are trained with end-user sessions extracted from the historical workload. We conduct several experiments on real-world workloads to show that AAQP can effectively predict the future workload based on the recent queries and adapt the construction of synopses to minimize the workload execution time, almost nearing optimal performance.",
+    "citationCount": 2,
+    "referenceCount": 17
+}

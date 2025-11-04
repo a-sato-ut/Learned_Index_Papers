@@ -1,0 +1,36 @@
+{
+    "paperId": "c3a048448679cec7e04de5e60033d517ae344c87",
+    "title": "Learning Index Selection with Structured Action Spaces",
+    "year": 2019,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jeremy Welborn",
+        "Michael Schaarschmidt",
+        "Eiko Yoneki"
+    ],
+    "doi": null,
+    "arxivId": "1909.07440",
+    "url": "https://www.semanticscholar.org/paper/c3a048448679cec7e04de5e60033d517ae344c87",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Configuration spaces for computer systems can be challenging for traditional and automatic tuning strategies. Injecting task-specific knowledge into the tuner for a task may allow for more efficient exploration of candidate configurations. We apply this idea to the task of index set selection to accelerate database workloads. Index set selection has been amenable to recent applications of vanilla deep RL, but real deployments remain out of reach. In this paper, we explore how learning index selection can be enhanced with task-specific inductive biases, specifically by encoding these inductive biases in better action structures. Index selection-specific action representations arise when the problem is reformulated in terms of permutation learning and we rely on recent work for learning RL policies on permutations. Through this approach, we build an indexing agent that is able to achieve improved indexing and validate its behavior with task-specific statistics. Early experiments reveal that our agent can find configurations that are up to 40% smaller for the same levels of latency as compared with other approaches and indicate more intuitive indexing behavior.",
+    "citationCount": 10,
+    "referenceCount": 37
+}

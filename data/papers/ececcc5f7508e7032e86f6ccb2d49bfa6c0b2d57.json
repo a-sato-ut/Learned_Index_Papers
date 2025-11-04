@@ -1,0 +1,36 @@
+{
+    "paperId": "ececcc5f7508e7032e86f6ccb2d49bfa6c0b2d57",
+    "title": "PT-Tree: A Cascading Prefix Tuple Tree for Packet Classification in Dynamic Scenarios",
+    "year": 2024,
+    "venue": "IEEE/ACM Transactions on Networking",
+    "authors": [
+        "Zhengyu Liao",
+        "Shiyou Qian",
+        "Zhonglong Zheng",
+        "Jiange Zhang",
+        "Jian Cao",
+        "Guangtao Xue",
+        "Minglu Li"
+    ],
+    "doi": "10.1109/TNET.2023.3289029",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ececcc5f7508e7032e86f6ccb2d49bfa6c0b2d57",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "For software-defined networking (SDN), multi-field packet classification plays a key role in the processing of flows, mainly involving fast packet classification and dynamic rule updates. Due to the increasing complexity and size of rulesets, it is becoming more difficult to design a packet classification algorithm which achieves fast lookup and update. In this paper, we propose a novel structure, PT-Tree, for packet classification with high overall performance. PT-Tree cascades the prefixes of multiple discriminatory bytes to achieve efficient partitioning of the ruleset, thereby reducing the search space and ensuring the performance of both lookup and update. Meanwhile, a multi-granularity priority-aware pruning mechanism (MPPM) based on PT-Tree filters out most of the candidate subsets, which further improves the lookup speed. In addition, we propose an auxiliary tree-based optimization method (ATOM) to cope with severely overlapping rules in the search space. Therefore, PT-Tree can better handle the case where the rules in certain fields are skewed. We conduct comprehensive experiments to evaluate the performance of PT-Tree. The results show that compared with the state-of-the-art, the lookup time of PT-Tree is reduced by at least 49.95% on average. Moreover, PT-Tree is also at least 7.13x and 33x faster than the baselines in terms of the update and construction speed on average, respectively. Meanwhile, the performance stability of PT-Tree on multiple rulesets improves by up to 13.68 times.",
+    "citationCount": 6,
+    "referenceCount": 35
+}

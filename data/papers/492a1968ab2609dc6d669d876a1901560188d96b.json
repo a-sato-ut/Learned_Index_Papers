@@ -1,0 +1,65 @@
+{
+    "paperId": "492a1968ab2609dc6d669d876a1901560188d96b",
+    "title": "MProt-DPO: Breaking the ExaFLOPS Barrier for Multimodal Protein Design Workflows with Direct Preference Optimization",
+    "year": 2024,
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+    "authors": [
+        "Gautham Dharuman",
+        "Kyle Hippe",
+        "Alexander Brace",
+        "Sam Foreman",
+        "Väinö Hatanpää",
+        "V. Sastry",
+        "Huihuo Zheng",
+        "Logan Ward",
+        "S. Muralidharan",
+        "A. Vasan",
+        "Bharati Kale",
+        "Carla M. Mann",
+        "Heng Ma",
+        "Yun-Hsuan Cheng",
+        "Yuliana Zamora",
+        "Shengchao Liu",
+        "Chaowei Xiao",
+        "M. Emani",
+        "Tom Gibbs",
+        "M. Tatineni",
+        "Deepak Canchi",
+        "Jerome Mitchell",
+        "Koichi Yamada",
+        "M. Garzarán",
+        "M. Papka",
+        "Ian T. Foster",
+        "Rick L. Stevens",
+        "Anima Anandkumar",
+        "Venkat Vishwanath",
+        "Arvind Ramanathan"
+    ],
+    "doi": "10.1109/SC41406.2024.00013",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/492a1968ab2609dc6d669d876a1901560188d96b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present a scalable, end-to-end workflow for protein design. By augmenting protein sequences with natural language descriptions of their biochemical properties, we train generative models that can be preferentially aligned with protein fitness landscapes. Through complex experimental-and simulation-based observations, we integrate these measures as preferred parameters for generating new protein variants and demonstrate our workflow on five diverse supercomputers. We achieve >1 ExaFLOPS sustained performance in mixed precision on each supercomputer and a maximum sustained performance of 4.11 Ex-aFLOPS and peak performance of 5.57 ExaFLOPS. We establish the scientific performance of our model on two tasks: (1) across a predetermined benchmark dataset of deep mutational scanning experiments to optimize the fitness-determining mutations in the yeast protein HIS7, and (2) in optimizing the design of the enzyme malate dehydrogenase to achieve lower activation barriers (and therefore increased catalytic rates) using simulation data. Our implementation thus sets high watermarks for multimodal protein design workflows.",
+    "citationCount": 9,
+    "referenceCount": 81
+}

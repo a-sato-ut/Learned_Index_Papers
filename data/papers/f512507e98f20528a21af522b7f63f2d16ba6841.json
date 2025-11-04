@@ -1,0 +1,32 @@
+{
+    "paperId": "f512507e98f20528a21af522b7f63f2d16ba6841",
+    "title": "Transformer with Memory Replay",
+    "year": 2022,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "R. Liu",
+        "Barzan Mozafari"
+    ],
+    "doi": "10.48550/arXiv.2205.09869",
+    "arxivId": "2205.09869",
+    "url": "https://www.semanticscholar.org/paper/f512507e98f20528a21af522b7f63f2d16ba6841",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2205.09869",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Transformers achieve state-of-the-art performance for natural language processing tasks by pre-training on large-scale text corpora. They are extremely compute-intensive and have very high sample complexity. Memory replay is a mechanism that remembers and reuses past examples by saving to and replaying from a memory buffer. It has been successfully used in reinforcement learning and GANs due to better sample efficiency. In this paper, we propose Transformer with Memory Replay, which integrates memory replay with transformer, making transformer more sample efficient. Experiments on GLUE and SQuAD benchmark datasets showed that Transformer with Memory Replay can achieve at least 1% point increase compared to the baseline transformer model when pre-trained with the same number of examples. Further, by adopting a careful design that reduces the wall-clock time overhead of memory replay, we also empirically achieve a better runtime efficiency.",
+    "citationCount": 4,
+    "referenceCount": 50
+}

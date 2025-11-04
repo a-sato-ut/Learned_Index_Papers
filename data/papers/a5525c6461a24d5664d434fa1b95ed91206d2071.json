@@ -1,0 +1,34 @@
+{
+    "paperId": "a5525c6461a24d5664d434fa1b95ed91206d2071",
+    "title": "Regionalization-Based Collaborative Filtering: Harnessing Geographical Information in Recommenders",
+    "year": 2024,
+    "venue": "ACM Trans. Spatial Algorithms Syst.",
+    "authors": [
+        "R. Alves"
+    ],
+    "doi": "10.1145/3656641",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a5525c6461a24d5664d434fa1b95ed91206d2071",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3656641",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Regionalization, also known as spatially constrained clustering, is an unsupervised machine learning technique used to identify and define spatially contiguous regions. In this work, we introduce a methodology to regionalize recommendation systems (RSs) based on a collaborative filtering approach. Two main challenges arise when performing regionalization based on users’ preferences in RSs: (1) unstructured data, as interactions are often scarce and observed on a smaller scale; and (2) the difficulty of evaluation of the quality of the clustering results. To address these challenges, our methodology relies on inductive matrix completion (IMC), a fundamental approach to recover unknown entries of a rating matrix while utilizing region information to extract a region-based feature matrix. With this feature matrix, our method becomes adaptive and seamlessly integrates with various regionalization algorithms to create regionalization candidates. This enables us to derive more accurate recommendations that consider regionalized effects and discover interesting patterns in localized user behavior. We experimentally evaluate our model on synthetic datasets to demonstrate its efficacy in settings where our underlying assumptions are correct. Furthermore, we present a real-world case study illustrating the interpretable information the model can derive in terms of regionalized recommendation relevance.",
+    "citationCount": 2,
+    "referenceCount": 61
+}

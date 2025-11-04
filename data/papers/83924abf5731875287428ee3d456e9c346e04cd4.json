@@ -1,0 +1,42 @@
+{
+    "paperId": "83924abf5731875287428ee3d456e9c346e04cd4",
+    "title": "Neural Network Meets DCN",
+    "year": 2018,
+    "venue": "Measurement and Modeling of Computer Systems",
+    "authors": [
+        "Mowei Wang",
+        "Yong Cui",
+        "Shihan Xiao",
+        "Xin Wang",
+        "Dan Yang",
+        "Kai Chen",
+        "Jun Zhu"
+    ],
+    "doi": "10.1145/3224421",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/83924abf5731875287428ee3d456e9c346e04cd4",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3224421",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The emerging optical/wireless topology reconfiguration technologies have shown great potential in improving the performance of data center networks. However, it also poses a big challenge on how to find the best topology configurations to support the dynamic traffic demands. In this work, we present xWeaver, a traffic-driven deep learning solution to infer the high-performance network topology online. xWeaver supports a powerful network model that enables the topology optimization over different performance metrics and network architectures. With the design of properly-structured neural networks, it can automatically derive the critical traffic patterns from data traces and learn the underlying mapping between the traffic patterns and topology configurations specific to the target data center. After offline training, xWeaver generates the optimized (or near-optimal) topology configuration online, and can also smoothly update its model parameters for new traffic patterns. We build an optical-circuit-switch-based testbed to demonstrate the function and transmission efficiency of our proposed solution. We further perform extensive simulations to show the significant performance gain of xWeaver, in supporting higher network throughput and smaller flow completion time.",
+    "citationCount": 43,
+    "referenceCount": 56
+}

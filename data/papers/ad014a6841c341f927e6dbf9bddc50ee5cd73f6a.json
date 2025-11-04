@@ -1,0 +1,31 @@
+{
+    "paperId": "ad014a6841c341f927e6dbf9bddc50ee5cd73f6a",
+    "title": "Plinth: A Plugin-Powered Language Built on Haskell (Experience Report)",
+    "year": 2025,
+    "venue": "Proceedings of the 18th ACM SIGPLAN International Haskell Symposium",
+    "authors": [
+        "Ziyang Liu",
+        "Kenneth MacKenzie",
+        "Roman Kireev",
+        "Michael Peyton Jones",
+        "Philip Wadler",
+        "Manuel Chakravarty"
+    ],
+    "doi": "10.1145/3759164.3759347",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ad014a6841c341f927e6dbf9bddc50ee5cd73f6a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Cardano blockchain is the first to use proof of stake, offers native support for multiple currencies and is evolving toward a distributed governance model. It supports smart contracts through Plutus, a language based on System Fω with recursion. About half a dozen languages compile into Plutus, the first of which is Plinth (formerly Plutus Tx) — a language that reuses a subset of the Haskell syntax, and has been in commercial use since 2021. Our journey building Plinth has been unconventional in a number of ways. First, Plinth programs are written in a subset of Haskell, using standard Haskell syntax and types, which brings a number of advantages. Second, compilation is primarily handled by a GHC plugin, one of the most intricate we are aware of. Third, while some compiler optimizations mirror those in Haskell, others diverge significantly to meet on-chain execution constraints. Fourth, Plutus programs run on an instrumented CEK machine with a formal specification in Agda. This report reflects on our design choices, outlining effective practices, challenges, and key takeaways, with an emphasis on recent advances in the language, compiler, and runtime.",
+    "citationCount": 0,
+    "referenceCount": 32
+}

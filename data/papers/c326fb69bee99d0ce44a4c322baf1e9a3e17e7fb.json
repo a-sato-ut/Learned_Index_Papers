@@ -1,0 +1,34 @@
+{
+    "paperId": "c326fb69bee99d0ce44a4c322baf1e9a3e17e7fb",
+    "title": "Target-Oriented Transformation Networks for Document Retrieval",
+    "year": 2020,
+    "venue": "International Conferences on Computing and Pattern Recognition",
+    "authors": [
+        "Le Wang",
+        "Ze Luo",
+        "Jian Li",
+        "Can Chen"
+    ],
+    "doi": "10.1145/3436369.3437413",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c326fb69bee99d0ce44a4c322baf1e9a3e17e7fb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There are various techniques have been proposed for constructing neural ranking models, including representation-based models and interaction-based models, both employ shallow or deep neural networks to tackle the reranking problem in document retrieval, in which query is usually the first met object before we focus on documents. Thus query can be treated as target when modeling the matching patterns between it and documents, however, few works have attempted to do that. In this paper we propose a target-oriented transformation networks based neural ranking model TTRM, which encodes the target information into the document content and utilizing a context conserving transformation to encapsulate the contextualized features. By this way, can the model produce a new target-derived word level representations for the document, from which the salient abstract features can be extracted using a convolution network, and the final relevance score between the query-document pair can be obtained by stacking a feed forward network. The comparison results show that our proposed model can outperform the baseline models on two important evaluation metrics when conducting experiments on the benchmark collection.",
+    "citationCount": 2,
+    "referenceCount": 32
+}

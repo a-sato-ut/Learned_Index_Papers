@@ -1,0 +1,36 @@
+{
+    "paperId": "73be8f2ccbb5881b5c6a988fa3c1a3da3abb9dfc",
+    "title": "Match-Unity: Long-Form Text Matching With Knowledge Complementarity",
+    "year": 2024,
+    "venue": "IEEE Access",
+    "authors": [
+        "Zhiyi He",
+        "Ke Chen",
+        "Siyuan Ren",
+        "Xinyang He",
+        "Xu Liu",
+        "Jiakang Sun",
+        "Cheng Peng"
+    ],
+    "doi": "10.1109/ACCESS.2023.3349089",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/73be8f2ccbb5881b5c6a988fa3c1a3da3abb9dfc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10379098.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Semantic text matching is a fundamental task in Natural Language Processing, with existing methods mainly focusing on short texts. However, handling long texts remains a challenge, as conventional approaches often involve slicing or keyword filtering, leading to a loss of semantic information. Neural network-based interaction models also struggle in industrial settings. To address these limitations, we introduce Match-Unity, a novel matching method. Match-Unity incorporates knowledge complementarity for long text modeling and utilizes interactive information to enhance matching. Our experiments demonstrate that Match-Unity outperforms state-of-the-art models in long text matching. Moreover, we analyze how our model effectively implements knowledge complementarity during the matching process. By bridging the gap between short and long text matching, Match-Unity opens up new possibilities for semantic text matching tasks. Results from the CNSE and CNSS datasets demonstrate the effectiveness of our method. The source code has been released on GitHub https://github.com/Finnyhudson/Match-Unity.",
+    "citationCount": 2,
+    "referenceCount": 25
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "09cb92056a1030696b75b98543ba779fc2441cf7",
+    "title": "UniAutoML: A Human-Centered Framework for Unified Discriminative and Generative AutoML with Large Language Models",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jiayi Guo",
+        "Zan Chen",
+        "Yingrui Ji",
+        "Liyun Zhang",
+        "Daqin Luo",
+        "Zhigang Li",
+        "Yiqin Shen"
+    ],
+    "doi": "10.48550/arXiv.2410.12841",
+    "arxivId": "2410.12841",
+    "url": "https://www.semanticscholar.org/paper/09cb92056a1030696b75b98543ba779fc2441cf7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automated Machine Learning (AutoML) has simplified complex ML processes such as data pre-processing, model selection, and hyper-parameter searching. However, traditional AutoML frameworks focus solely on discriminative tasks, often falling short in tackling AutoML for generative models. Additionally, these frameworks lack interpretability and user engagement during the training process, primarily due to the absence of human-centered design. It leads to a lack of transparency in final decision-making and limited user control, potentially reducing trust and adoption of AutoML methods. To address these limitations, we introduce UniAutoML, a human-centered AutoML framework that leverages Large Language Models (LLMs) to unify AutoML for both discriminative (e.g., Transformers and CNNs for classification or regression tasks) and generative tasks (e.g., fine-tuning diffusion models or LLMs). The human-centered design of UniAutoML innovatively features a conversational user interface (CUI) that facilitates natural language interactions, providing users with real-time guidance, feedback, and progress updates for better interpretability. This design enhances transparency and user control throughout the AutoML training process, allowing users to seamlessly break down or modify the model being trained. To mitigate potential risks associated with LLM generated content, UniAutoML incorporates a safety guardline that filters inputs and censors outputs. We evaluated UniAutoML's performance and usability through experiments on eight diverse datasets and user studies involving 25 participants, demonstrating that UniAutoML not only enhances performance but also improves user control and trust. Our human-centered design bridges the gap between AutoML capabilities and user understanding, making ML more accessible to a broader audience.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

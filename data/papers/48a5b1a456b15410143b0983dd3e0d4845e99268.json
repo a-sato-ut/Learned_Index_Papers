@@ -1,0 +1,37 @@
+{
+    "paperId": "48a5b1a456b15410143b0983dd3e0d4845e99268",
+    "title": "Temporal-Spatial Causal Interpretations for Vision-Based Reinforcement Learning",
+    "year": 2021,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "authors": [
+        "Wenjie Shi",
+        "Gao Huang",
+        "Shiji Song",
+        "Cheng Wu"
+    ],
+    "doi": "10.1109/TPAMI.2021.3133717",
+    "arxivId": "2112.03020",
+    "url": "https://www.semanticscholar.org/paper/48a5b1a456b15410143b0983dd3e0d4845e99268",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2112.03020",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep reinforcement learning (RL) agents are becoming increasingly proficient in a range of complex control tasks. However, the agent’s behavior is usually difficult to interpret due to the introduction of black-box function, making it difficult to acquire the trust of users. Although there have been some interesting interpretation methods for vision-based RL, most of them cannot uncover temporal causal information, raising questions about their reliability. To address this problem, we present a temporal-spatial causal interpretation (TSCI) model to understand the agent’s long-term behavior, which is essential for sequential decision-making. TSCI model builds on the formulation of temporal causality, which reflects the temporal causal relations between sequential observations and decisions of RL agent. Then a separate causal discovery network is employed to identify temporal-spatial causal features, which are constrained to satisfy the temporal causality. TSCI model is applicable to recurrent agents and can be used to discover causal features with high efficiency once trained. The empirical results show that TSCI model can produce high-resolution and sharp attention masks to highlight task-relevant temporal-spatial information that constitutes most evidence about how vision-based RL agents make sequential decisions. In addition, we further demonstrate that our method is able to provide valuable causal interpretations for vision-based RL agents from the temporal perspective.",
+    "citationCount": 11,
+    "referenceCount": 70
+}

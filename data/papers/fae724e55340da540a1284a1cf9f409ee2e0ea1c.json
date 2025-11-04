@@ -1,0 +1,33 @@
+{
+    "paperId": "fae724e55340da540a1284a1cf9f409ee2e0ea1c",
+    "title": "Synthetic Data Generation for Enterprise DBMS",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Anupam Sanghi",
+        "J. Haritsa"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00274",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fae724e55340da540a1284a1cf9f409ee2e0ea1c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A critical need for enterprise DBMS vendors is to generate synthetic databases for testing their engines and applications in a range of environments. These synthetic databases are targeted toward capturing the desired schematic properties, and the statistical profiles of the data hosted on these schemas.Several data generation frameworks have been proposed for OLAP over the past three decades. The early efforts focused on ab initio generation based on standard mathematical distributions. Subsequently, there was a shift to database-dependent regeneration, which aims to create a database with similar statistical properties to a specific client database. This client-specific perspective has been taken further in recent times through workload-dependent database regeneration, where the databases generated ensure similar query executions to those observed at the client site.In this tutorial, we present a holistic coverage of synthetic data generation, highlighting the strengths and limitations of the above-mentioned framework classes. At the end, a suite of open technical problems and future research directions are enumerated.",
+    "citationCount": 6,
+    "referenceCount": 48
+}

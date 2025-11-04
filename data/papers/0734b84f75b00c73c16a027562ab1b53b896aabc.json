@@ -1,0 +1,46 @@
+{
+    "paperId": "0734b84f75b00c73c16a027562ab1b53b896aabc",
+    "title": "Distributed Quantum Learning with co-Management in a Multi-tenant Quantum System",
+    "year": 2023,
+    "venue": "BigData Congress [Services Society]",
+    "authors": [
+        "Anthony D'Onofrio",
+        "Amir Hossain",
+        "Lesther Santana",
+        "Naseem Machlovi",
+        "S. Stein",
+        "Jinwei Liu",
+        "Ang Li",
+        "Y. Mao"
+    ],
+    "doi": "10.1109/BigData59044.2023.10386676",
+    "arxivId": "2312.08158",
+    "url": "https://www.semanticscholar.org/paper/0734b84f75b00c73c16a027562ab1b53b896aabc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2312.08158",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid advancement of quantum computing has pushed classical designs into the quantum domain, breaking physical boundaries for computing-intensive and data-hungry applications Given its immense potential, quantum-based computing systems have attracted increasing attention with the hope that some systems may provide a quantum speedup. For example, variational quantum algorithms have been proposed for quantum neural networks to train deep learning models on qubits, achieving promising results. Existing quantum learning architectures and systems rely on single, monolithic quantum machines with abundant and stable resources, such as qubits. However, fabricating a large, monolithic quantum device is considerably more challenging than producing an array of smaller devices. In this paper, we investigate a distributed quantum system that combines multiple quantum machines into a unified system. We propose DQuLearn, which divides a quantum learning task into multiple subtasks. Each subtask can be executed distributively on individual quantum machines, with the results looping back to classical machines for subsequent training iterations. Additionally, our system supports multiple concurrent clients and dynamically manages their circuits according to the runtime status of quantum workers. Through extensive experiments, we demonstrate that DQuLearn achieves similar accuracies with significant runtime reduction, by up to 68.7% and an increase per-second circuit processing speed, by up to 3.99 times, in a 4-worker multi-tenant setting.",
+    "citationCount": 7,
+    "referenceCount": 34
+}

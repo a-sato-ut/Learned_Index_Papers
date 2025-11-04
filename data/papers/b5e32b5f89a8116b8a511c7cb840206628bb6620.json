@@ -1,0 +1,45 @@
+{
+    "paperId": "b5e32b5f89a8116b8a511c7cb840206628bb6620",
+    "title": "Leveraging Stochastic Predictions of Bayesian Neural Networks for Fluid Simulations",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Maximilian Mueller",
+        "R. Greif",
+        "F. Jenko",
+        "N. Thuerey"
+    ],
+    "doi": "10.48550/arXiv.2205.01222",
+    "arxivId": "2205.01222",
+    "url": "https://www.semanticscholar.org/paper/b5e32b5f89a8116b8a511c7cb840206628bb6620",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2205.01222",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We investigate uncertainty estimation and multimodality via the non-deterministic predictions of Bayesian neural networks (BNNs) in fluid simulations. To this end, we deploy BNNs in three challenging experimental test-cases of increasing complexity: We show that BNNs, when used as surrogate models for steady-state fluid flow predictions, provide accurate physical predictions together with sensible estimates of uncertainty. Further, we experiment with perturbed temporal sequences from Navier-Stokes simulations and evaluate the capabilities of BNNs to capture multimodal evolutions. While our findings indicate that this is problematic for large perturbations, our results show that the networks learn to correctly predict high uncertainties in such situations. Finally, we study BNNs in the context of solver interactions with turbulent plasma flows. We find that BNN-based corrector networks can stabilize coarse-grained simulations and successfully create multimodal trajectories.",
+    "citationCount": 3,
+    "referenceCount": 64
+}

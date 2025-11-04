@@ -1,0 +1,36 @@
+{
+    "paperId": "270c240f759f913f86272a64a30de3a29d82eb0e",
+    "title": "AniCropify: Image Matting for Anime-Style Illustration",
+    "year": 2023,
+    "venue": "ACM Multimedia Asia",
+    "authors": [
+        "Yuki Matsuura",
+        "Takahiro Hayashi"
+    ],
+    "doi": "10.1145/3595916.3626419",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/270c240f759f913f86272a64a30de3a29d82eb0e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3595916.3626419",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Art",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, deep learning-based image matting methods have emerged. However, the existing methods lack the capability to provide precise matting for anime-style illustrations because their network parameters are trained on primarily photo-realistic images. In this paper, we introduces a new anime image dataset, Chara-1M, designed for matting purposes. In addition, we propose AniCropify, a new matting method for character anime images. Focusing on the commonalities of representation between anime images and photo-realistic images, in AniCropify, an anime image is first converted into a photo-realistic image. From the converted image, a trimap is generated to identify the human regions in images. By using the trimap in the matting process, precise alpha masks of anime images can be obtained. From experiments, we confirmed that based on the quality evaluation of matting results, the proposed method received the highest rating compared to other state-of-the-art techniques.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

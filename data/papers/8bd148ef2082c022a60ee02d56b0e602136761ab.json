@@ -1,0 +1,45 @@
+{
+    "paperId": "8bd148ef2082c022a60ee02d56b0e602136761ab",
+    "title": "Model Reduction and Neural Networks for Parametric PDEs",
+    "year": 2020,
+    "venue": "SMAI Journal of Computational Mathematics",
+    "authors": [
+        "K. Bhattacharya",
+        "Bamdad Hosseini",
+        "Nikola B. Kovachki",
+        "A. Stuart"
+    ],
+    "doi": "10.5802/SMAI-JCM.74",
+    "arxivId": "2005.03180",
+    "url": "https://www.semanticscholar.org/paper/8bd148ef2082c022a60ee02d56b0e602136761ab",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://smai-jcm.centre-mersenne.org/item/10.5802/smai-jcm.74.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We develop a general framework for data-driven approximation of input-output maps between infinite-dimensional spaces. The proposed approach is motivated by the recent successes of neural networks and deep learning, in combination with ideas from model reduction. This combination results in a neural network approximation which, in principle, is defined on infinite-dimensional spaces and, in practice, is robust to the dimension of finite-dimensional approximations of these spaces required for computation. For a class of input-output maps, and suitably chosen probability measures on the inputs, we prove convergence of the proposed approximation methodology. Numerically we demonstrate the effectiveness of the method on a class of parametric elliptic PDE problems, showing convergence and robustness of the approximation scheme with respect to the size of the discretization, and compare our method with existing algorithms from the literature.",
+    "citationCount": 377,
+    "referenceCount": 88
+}

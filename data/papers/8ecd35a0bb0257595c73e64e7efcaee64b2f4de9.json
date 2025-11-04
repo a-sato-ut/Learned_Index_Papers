@@ -1,0 +1,31 @@
+{
+    "paperId": "8ecd35a0bb0257595c73e64e7efcaee64b2f4de9",
+    "title": "Adaptive Multi-Grained Buffer Management for Database Systems",
+    "year": 2021,
+    "venue": "Future Internet",
+    "authors": [
+        "Xiaoliang Wang",
+        "Peiquan Jin"
+    ],
+    "doi": "10.3390/fi13120303",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8ecd35a0bb0257595c73e64e7efcaee64b2f4de9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1999-5903/13/12/303/pdf?version=1637925224",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The traditional page-grained buffer manager in database systems has a low hit ratio when only a few tuples within a page are frequently accessed. To handle this issue, this paper proposes a new buffering scheme called the AMG-Buffer (Adaptive Multi-Grained Buffer). AMG-Buffer proposes to use two page buffers and a tuple buffer to organize the whole buffer. In this way, the AMG-Buffer can hold more hot tuples than a single page-grained buffer. Further, we notice that the tuple buffer may cause additional read I/Os when writing dirty tuples into disks. Thus, we introduce a new metric named clustering rate to quantify the hot-tuple rate in a page. The use of the tuple buffer is determined by the clustering rate, allowing the AMG-Buffer to adapt to different workloads. We conduct experiments on various workloads to compare the AMG-Buffer with several existing schemes, including LRU, LIRS, CFLRU, CFDC, and MG-Buffer. The results show that AMG-Buffer can significantly improve the hit ratio and reduce I/Os compared to its competitors. Moreover, the AMG-Buffer achieves the best performance on a dynamic workload as well as on a large data set, suggesting its adaptivity and scalability to changing workloads.",
+    "citationCount": 2,
+    "referenceCount": 37
+}

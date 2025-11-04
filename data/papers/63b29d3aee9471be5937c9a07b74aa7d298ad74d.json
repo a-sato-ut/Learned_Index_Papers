@@ -1,0 +1,37 @@
+{
+    "paperId": "63b29d3aee9471be5937c9a07b74aa7d298ad74d",
+    "title": "HAIDES: Adaptive Approximation of Inference Queries over Unstructured Data",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Christos C. Papadopoulos",
+        "A. Simitsis",
+        "T. Pedersen"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00181",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/63b29d3aee9471be5937c9a07b74aa7d298ad74d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern analytics rely on insights derived from the execution of inference queries over vast amounts of unstructured data such as text, images, and video. Oftentimes, these queries evaluate predicates based on an expensive “oracle“ model in the likes of a deep neural network or human input that dominates the total query cost. Prior work has focused on training computationally cheap proxy models at query time that produce an approximate result. Alternatively, index-based methods apply the original oracle over a representative set of data points and generate the approximate result through an inference propagation process. Current state-of-the-art (SOTA) index-based methods require a memory -expensive index construction process which offsets their oracle cost-effectiveness and can make their usage prohibitive. In this work, we present HAIDES, an index-based, domain-agnostic framework for approximating inference on unstructured data. HAIDES consists of two main components: a coarse-to-fine framework that can be efficiently constructed using minimal memory, and a novel index adaptation component that makes use of oracle invocations during query execution in order to adaptively produce representative sets that yield high-quality approximate results. Our experimental results across three challenging domains-video, images, text-show that HAIDES (a) constructs indexes that produce performant representative sets with up to 2 orders of magnitude less memory than the SOTA baseline, while (b) requires up to 2x less oracle calls to produce the same result quality, and (c) achieves up to 10 percentage points better result quality when using the same oracle calls.",
+    "citationCount": 0,
+    "referenceCount": 41
+}

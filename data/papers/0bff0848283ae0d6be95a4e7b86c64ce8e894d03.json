@@ -1,0 +1,37 @@
+{
+    "paperId": "0bff0848283ae0d6be95a4e7b86c64ce8e894d03",
+    "title": "QUITE: A Query Rewrite System Beyond Rules with LLM Agents",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yuyang Song",
+        "Hanxu Yan",
+        "Jiale Lao",
+        "Yibo Wang",
+        "Yufei Li",
+        "Yuanchun Zhou",
+        "Jianguo Wang",
+        "Mingjie Tang"
+    ],
+    "doi": "10.48550/arXiv.2506.07675",
+    "arxivId": "2506.07675",
+    "url": "https://www.semanticscholar.org/paper/0bff0848283ae0d6be95a4e7b86c64ce8e894d03",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query rewrite transforms SQL queries into semantically equivalent forms that run more efficiently. Existing approaches mainly rely on predefined rewrite rules, but they handle a limited subset of queries and can cause performance regressions. This limitation stems from three challenges of rule-based query rewrite: (1) it is hard to discover and verify new rules, (2) fixed rewrite rules do not generalize to new query patterns, and (3) some rewrite techniques cannot be expressed as fixed rules. Motivated by the fact that human experts exhibit significantly better rewrite ability but suffer from scalability, and Large Language Models (LLMs) have demonstrated nearly human-level semantic and reasoning abilities, we propose a new approach of using LLMs to rewrite SQL queries beyond rules. Due to the hallucination problems in LLMs, directly applying LLMs often leads to nonequivalent and suboptimal queries. To address this issue, we propose QUITE (query rewrite), a training-free and feedback-aware system based on LLM agents that rewrites SQL queries into semantically equivalent forms with significantly better performance, covering a broader range of query patterns and rewrite strategies compared to rule-based methods. Firstly, we design a multi-agent framework controlled by a finite state machine (FSM) to equip LLMs with the ability to use external tools and enhance the rewrite process with real-time database feedback. Secondly, we develop a rewrite middleware to enhance the ability of LLMs to generate optimized query equivalents. Finally, we employ a novel hint injection technique to improve execution plans for rewritten queries. Extensive experiments show that QUITE reduces query execution time by up to 35.8% over state-of-the-art approaches and produces 24.1% more rewrites than prior methods, covering query cases that earlier systems did not handle.",
+    "citationCount": 3,
+    "referenceCount": 66
+}

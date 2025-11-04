@@ -1,0 +1,38 @@
+{
+    "paperId": "6d0006b99537af32ae2a25dda61f12811ee2f694",
+    "title": "Localization and Estimation of Bending and Twisting Loads Using Neural Networks",
+    "year": 2020,
+    "venue": "IECON 2020 The 46th Annual Conference of the IEEE Industrial Electronics Society",
+    "authors": [
+        "Diyar Khalis Bilal",
+        "M. Unel",
+        "M. Yildiz",
+        "B. Koç"
+    ],
+    "doi": "10.1109/IECON43393.2020.9255405",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6d0006b99537af32ae2a25dda61f12811ee2f694",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://research.sabanciuniv.edu/id/eprint/41033/1/IECON_2020_DKB_MU_MY_BK.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper a neural network based modeling approach is proposed for localization and estimation of loads acting on aircraft wings from full field depth measurements. These measurements can be provided by a multitude of sensors such as depth cameras. Depth cameras have many advantages over other intensity sensors in that they can work in low light conditions and they are invariant to texture and color changes. First, an autoencoder is proposed to extract maximum informative data from the depth images and encode them at a much smaller dimension. Next, to develop the models for localization and estimation of loads, supervised multinomial classification and logistic regression networks are proposed, where the encoded depth features are utilized as input in both networks. The performance of the proposed method is validated on a composite wing subject to concentrated and distributed loads, during which the proposed methods for localization and estimation of loads achieved high accuracies of 90.6% and 90.5%, respectively.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

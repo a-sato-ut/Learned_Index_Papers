@@ -1,0 +1,33 @@
+{
+    "paperId": "df019d323a700225e973e7b3a3f467c730243ba0",
+    "title": "Resolution-Aware Design of Atrous Rates for Semantic Segmentation Networks",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Bum Jun Kim",
+        "Hyeyeon Choi",
+        "Hyeonah Jang",
+        "Sang Woo Kim"
+    ],
+    "doi": "10.48550/arXiv.2307.14179",
+    "arxivId": "2307.14179",
+    "url": "https://www.semanticscholar.org/paper/df019d323a700225e973e7b3a3f467c730243ba0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.14179",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "DeepLab is a widely used deep neural network for semantic segmentation, whose success is attributed to its parallel architecture called atrous spatial pyramid pooling (ASPP). ASPP uses multiple atrous convolutions with different atrous rates to extract both local and global information. However, fixed values of atrous rates are used for the ASPP module, which restricts the size of its field of view. In principle, atrous rate should be a hyperparameter to change the field of view size according to the target task or dataset. However, the manipulation of atrous rate is not governed by any guidelines. This study proposes practical guidelines for obtaining an optimal atrous rate. First, an effective receptive field for semantic segmentation is introduced to analyze the inner behavior of segmentation networks. We observed that the use of ASPP module yielded a specific pattern in the effective receptive field, which was traced to reveal the module's underlying mechanism. Accordingly, we derive practical guidelines for obtaining the optimal atrous rate, which should be controlled based on the size of input image. Compared to other values, using the optimal atrous rate consistently improved the segmentation results across multiple datasets, including the STARE, CHASE_DB1, HRF, Cityscapes, and iSAID datasets.",
+    "citationCount": 2,
+    "referenceCount": 68
+}

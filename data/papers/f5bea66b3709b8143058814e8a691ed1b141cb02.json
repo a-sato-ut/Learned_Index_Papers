@@ -1,0 +1,49 @@
+{
+    "paperId": "f5bea66b3709b8143058814e8a691ed1b141cb02",
+    "title": "A semi-centralized multi-agent RL framework for efficient irrigation scheduling",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "B. T. Agyeman",
+        "Benjamin Decardi-Nelson",
+        "Jinfeng Liu",
+        "Sirish L. Shah"
+    ],
+    "doi": "10.48550/arXiv.2408.08442",
+    "arxivId": "2408.08442",
+    "url": "https://www.semanticscholar.org/paper/f5bea66b3709b8143058814e8a691ed1b141cb02",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Agricultural and Food Sciences",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper proposes a Semi-Centralized Multi-Agent Reinforcement Learning (SCMARL) approach for irrigation scheduling in spatially variable agricultural fields, where management zones address spatial variability. The SCMARL framework is hierarchical in nature, with a centralized coordinator agent at the top level and decentralized local agents at the second level. The coordinator agent makes daily binary irrigation decisions based on field-wide conditions, which are communicated to the local agents. Local agents determine appropriate irrigation amounts for specific management zones using local conditions. The framework employs state augmentation approach to handle non-stationarity in the local agents' environments. An extensive evaluation on a large-scale field in Lethbridge, Canada, compares the SCMARL approach with a learning-based multi-agent model predictive control scheduling approach, highlighting its enhanced performance, resulting in water conservation and improved Irrigation Water Use Efficiency (IWUE). Notably, the proposed approach achieved a 4.0% savings in irrigation water while enhancing the IWUE by 6.3%.",
+    "citationCount": 2,
+    "referenceCount": 35
+}

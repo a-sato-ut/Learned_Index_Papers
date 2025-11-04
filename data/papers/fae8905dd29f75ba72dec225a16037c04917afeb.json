@@ -1,0 +1,34 @@
+{
+    "paperId": "fae8905dd29f75ba72dec225a16037c04917afeb",
+    "title": "Improving the Efficiency of Meta AutoML via Rule-Based Training Strategies",
+    "year": 2023,
+    "venue": "Conference on Computer Science and Information Systems",
+    "authors": [
+        "Alexander Zender",
+        "Bernhard G. Humm",
+        "Tim Pachmann"
+    ],
+    "doi": "10.15439/2023F708",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fae8905dd29f75ba72dec225a16037c04917afeb",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://annals-csis.org/proceedings/2023/drp/pdf/708.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Meta Automated Machine Learning (Meta AutoML) platforms support data scientists and domain experts by automating the ML model search. A Meta AutoML platform utilizes multiple AutoML solutions searching in parallel for their best ML model. Using multiple AutoML solutions requires a substantial amount of energy. While AutoML solutions utilize different training strategies to optimize their energy efficiency and ML model effectiveness, no research has yet addressed optimizing the Meta AutoML process. This paper presents a survey of 14 AutoML training strategies that can be applied to Meta AutoML. The survey categorizes these strategies by their broader goal, their advantage and Meta AutoML adaptability. This paper also introduces the concept of rule-based training strategies and a proof-of-concept implementation in the Meta AutoML platform OMA-ML. This concept is based on the blackboard architecture and uses a rule-based reasoner system to apply training strategies. Applying the training strategy “top-3” can save up to 70% of energy, while maintaining a similar ML model performance.",
+    "citationCount": 2,
+    "referenceCount": 51
+}

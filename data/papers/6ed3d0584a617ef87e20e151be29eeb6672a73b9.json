@@ -1,0 +1,35 @@
+{
+    "paperId": "6ed3d0584a617ef87e20e151be29eeb6672a73b9",
+    "title": "Feature-based aggregation and deep reinforcement learning: a survey and some new implementations",
+    "year": 2018,
+    "venue": "IEEE/CAA Journal of Automatica Sinica",
+    "authors": [
+        "D. Bertsekas"
+    ],
+    "doi": "10.1109/JAS.2018.7511249",
+    "arxivId": "1804.04577",
+    "url": "https://www.semanticscholar.org/paper/6ed3d0584a617ef87e20e151be29eeb6672a73b9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1804.04577",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper we discuss policy iteration methods for approximate solution of a finite-state discounted Markov decision problem, with a focus on feature-based aggregation methods and their connection with deep reinforcement learning schemes. We introduce features of the states of the original problem, and we formulate a smaller “ aggregate ” Markov decision problem, whose states relate to the features. We discuss properties and possible implementations of this type of aggregation, including a new approach to approximate policy iteration. In this approach the policy improvement operation combines feature-based aggregation with feature construction using deep neural networks or other calculations. We argue that the cost function of a policy may be approximated much more accurately by the nonlinear function of the features provided by aggregation, than by the linear function of the features provided by neural network-based reinforcement learning, thereby potentially leading to more effective policy improvement.",
+    "citationCount": 136,
+    "referenceCount": 108
+}

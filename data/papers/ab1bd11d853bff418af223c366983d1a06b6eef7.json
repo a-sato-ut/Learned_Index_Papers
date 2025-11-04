@@ -1,0 +1,36 @@
+{
+    "paperId": "ab1bd11d853bff418af223c366983d1a06b6eef7",
+    "title": "Improving Post-Processing of Audio Event Detectors Using Reinforcement Learning",
+    "year": 2022,
+    "venue": "IEEE Access",
+    "authors": [
+        "Petros Giannakopoulos",
+        "A. Pikrakis",
+        "Y. Cotronis"
+    ],
+    "doi": "10.1109/ACCESS.2022.3197907",
+    "arxivId": "2208.09201",
+    "url": "https://www.semanticscholar.org/paper/ab1bd11d853bff418af223c366983d1a06b6eef7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09853543.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We apply post-processing to the class probability distribution outputs of audio event classification models and employ reinforcement learning to jointly discover the optimal parameters for various stages of a post-processing stack, such as the classification thresholds and the kernel sizes of median filtering algorithms used to smooth out model predictions. To achieve this we define a reinforcement learning environment where: 1) a state is the class probability distribution provided by the model for a given audio sample, 2) an action is the choice of a candidate optimal value for each parameter of the post-processing stack, 3) the reward is based on the classification accuracy metric we aim to optimize, which is the audio event-based macro F1-score in our case. We apply our post-processing to the class probability distribution outputs of two audio event classification models submitted to the DCASE Task4 2020 challenge. We find that by using reinforcement learning to discover the optimal per-class parameters for the post-processing stack that is applied to the outputs of audio event classification models, we can improve the audio event-based macro F1-score (the main metric used in the DCASE challenge to compare audio event classification accuracy) by 4-5% compared to using the same post-processing stack with manually tuned parameters.",
+    "citationCount": 4,
+    "referenceCount": 20
+}

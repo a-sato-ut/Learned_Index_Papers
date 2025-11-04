@@ -1,0 +1,32 @@
+{
+    "paperId": "40ae77b768a14693768a39c884ef5f9d1cd9e345",
+    "title": "Link Local Differential Privacy in GNNs via Bayesian Estimation",
+    "year": 2023,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Xiaochen Zhu"
+    ],
+    "doi": "10.1145/3555041.3589398",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/40ae77b768a14693768a39c884ef5f9d1cd9e345",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent years have witnessed the emergence of graph neural networks (GNNs) and an increasing amount of attention on GNNs from the data management community. Yet, training GNNs may raise privacy concerns as they may reveal sensitive information that must be kept private according to laws. In this paper, we study GNNs with link local differential privacy over decentralized nodes, where an untrusted server collaborates with node clients to train a GNN model without revealing the existence of any link. We find that by spending the privacy budget independently on links and degrees of the graph, the server can use Bayesian estimation to better denoise the graph topology. Unlike existing approaches, our mechanism does not aim to preserve graph density, but allows the server to estimate fewer links under lower privacy budget and higher uncertainty. Hence, the server makes fewer false positive link estimations and trains better models. Finally, we conduct extensive experiments to demonstrate that our method achieves considerably better performance with higher accuracy under same privacy budget compared to existing approaches.",
+    "citationCount": 1,
+    "referenceCount": 34
+}

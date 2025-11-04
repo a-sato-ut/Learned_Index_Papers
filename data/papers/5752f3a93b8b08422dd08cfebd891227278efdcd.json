@@ -1,0 +1,33 @@
+{
+    "paperId": "5752f3a93b8b08422dd08cfebd891227278efdcd",
+    "title": "Towards Enhancing Fine-grained Details for Image Matting",
+    "year": 2021,
+    "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+    "authors": [
+        "Chang Liu",
+        "Henghui Ding",
+        "Xudong Jiang"
+    ],
+    "doi": "10.1109/WACV48630.2021.00043",
+    "arxivId": "2101.09095",
+    "url": "https://www.semanticscholar.org/paper/5752f3a93b8b08422dd08cfebd891227278efdcd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2101.09095",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, deep natural image matting has been rapidly evolved by extracting high-level contextual features into the model. However, most current methods still have difficulties with handling tiny details, like hairs or furs. In this paper, we argue that recovering these microscopic de-tails relies on low-level but high-definition texture features. However, these features are downsampled in a very early stage in current encoder-decoder-based models, resulting in the loss of microscopic details. To address this issue, we design a deep image matting model to enhance fine-grained details. Our model consists of two parallel paths: a conventional encoder-decoder Semantic Path and an independent downsampling-free Textural Compensate Path (TCP). The TCP is proposed to extract fine-grained details such as lines and edges in the original image size, which greatly enhances the fineness of prediction. Meanwhile, to lever-age the benefits of high-level context, we propose a feature fusion unit(FFU) to fuse multi-scale features from the se-mantic path and inject them into the TCP. In addition, we have observed that poorly annotated trimaps severely affect the performance of the model. Thus we further propose a novel term in loss function and a trimap generation method to improve our model’s robustness to the trimaps. The experiments show that our method outperforms previous start-of-the-art methods on the Composition-1k dataset.",
+    "citationCount": 21,
+    "referenceCount": 38
+}

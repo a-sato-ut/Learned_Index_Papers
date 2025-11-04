@@ -1,0 +1,31 @@
+{
+    "paperId": "50bca53ff65a92e0776ed7f04ff692f87afaed85",
+    "title": "Graphical Join: A New Physical Join Algorithm for RDBMSs",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "A. Shanghooshabad",
+        "P. Triantafillou"
+    ],
+    "doi": "10.48550/arXiv.2206.10435",
+    "arxivId": "2206.10435",
+    "url": "https://www.semanticscholar.org/paper/50bca53ff65a92e0776ed7f04ff692f87afaed85",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2206.10435",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Join operations (especially n-way, many-to-many joins) are known to be time- and resource-consuming. At large scales, with respect to table and join-result sizes, current state of the art approaches (in-cluding both binary-join plans which use Nested-loop/Hash/Sort-merge Join algorithms or, alternatively, worst-case optimal join algorithms (WOJAs)), may even fail to produce any answer given reasonable resource and time constraints. In this work, we introduce a new approach for n-way equi-join processing, the Graphical Join (GJ). The key idea is two-fold: First, to map the physical join computation problem to PGMs and introduce tweaked inference algorithms which can compute a Run-Length Encoding (RLE) based join-result summary, entailing all statistics necessary to materialize the join result. Second, and most importantly, to show that a join algorithm, like GJ, which produces the above join-result summary and then desummarizes it, can introduce large performance bene fi ts in time and space. Comprehensive experimentation is undertaken with join queries from the JOB, TPCDS, and lastFM datasets, comparing GJ against PostgresQL and MonetDB and a state of the art WOJA implemented within the Umbra system. The results for in-memory join computation show performance improvements up to 64 × , 388 × , and 6 × faster than PostgreSQL, MonetDB and Um- bra, respectively. For on-disk join computation, GJ is faster than PostgreSQL, MonetDB and Umbra by up to 820 × , 717 × and 165 × , re- spectively. Furthermore, GJ space needs are up to 21,488 × , 38,333 × , and 78,750 × smaller than PostgresQL, MonetDB, and Umbra, re- spectively.",
+    "citationCount": 1,
+    "referenceCount": 52
+}

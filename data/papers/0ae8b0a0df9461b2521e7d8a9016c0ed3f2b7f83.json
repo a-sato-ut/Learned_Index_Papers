@@ -1,0 +1,35 @@
+{
+    "paperId": "0ae8b0a0df9461b2521e7d8a9016c0ed3f2b7f83",
+    "title": "SDNet: An Extremely Efficient Portrait Matting Model via Self-Distillation",
+    "year": 2024,
+    "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+    "authors": [
+        "Zi-Jun Li",
+        "Bo Xu",
+        "Jiake Xie",
+        "Yong Tang",
+        "Cheng Lu"
+    ],
+    "doi": "10.1109/WACV57701.2024.00553",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0ae8b0a0df9461b2521e7d8a9016c0ed3f2b7f83",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Most existing portrait matting models either require expensive auxiliary information or try to decompose the task into sub-tasks that are usually resource-hungry. These challenges limit its application on low-power computing devices. In addition, mobile networks tend to be less powerful than those cumbersome ones in feature representation mining. In this paper, we propose an extremely efficient portrait matting model via self-distillation (SDNet), that aims to provide a solution to performing accurate and effective portrait matting with limited computing resources. Our SD-Net contains only 2M parameters, 2.2% of parameters of MGM, and 1.5% of that of Matteformer. We introduce the training pipeline of self-distillation that can improve our lightweight baseline model without any parameter addition, network modification, or over-parameterized teacher models which need well-pretraining. Extensive experiments demonstrate the effectiveness of our self-distillation method and the lightweight SDNet network. Our SDNet outperforms the state-of-the-art (SOTA) lightweight approaches on both synthetic and real-world images.",
+    "citationCount": 1,
+    "referenceCount": 52
+}

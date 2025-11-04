@@ -1,0 +1,37 @@
+{
+    "paperId": "5d1879782cf693e8dbd3183c214d3527d861d3e2",
+    "title": "Unweighted Layered Graph Traversal",
+    "year": 2024,
+    "venue": "ACM-SIAM Symposium on Discrete Algorithms",
+    "authors": [
+        "Xingjian Bai",
+        "Christian Coester",
+        "Romain Cosson"
+    ],
+    "doi": "10.48550/arXiv.2404.16176",
+    "arxivId": "2404.16176",
+    "url": "https://www.semanticscholar.org/paper/5d1879782cf693e8dbd3183c214d3527d861d3e2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Introduced by Papadimitriou and Yannakakis in 1989, layered graph traversal is a central problem in online algorithms and mobile computing that has been studied for several decades, and which now is essentially resolved in its original formulation. In this paper, we demonstrate that what appears to be an innocuous modification of the problem actually leads to a drastic (exponential) reduction of the competitive ratio. Specifically, we present an algorithm that is $O(\\log^2 w)$-competitive for traversing unweighted layered graphs of width $w$. Our algorithm chooses the agent's position simply according to the probability distribution over the current layer that maximizes the sum of entropies of the induced distributions in the preceding layers.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

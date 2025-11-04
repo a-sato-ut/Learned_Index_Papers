@@ -1,0 +1,35 @@
+{
+    "paperId": "429f34ea357e1720abfafe75030894eb7b15fcf3",
+    "title": "Towards Accurate and Efficient Super Spreader Detection with Sketching",
+    "year": 2023,
+    "venue": "International Conference on Data Science in Cyberspace",
+    "authors": [
+        "Shouyou Song",
+        "Pu Wang",
+        "Yangchun Li",
+        "Nanyang Wang",
+        "Wei Jiang"
+    ],
+    "doi": "10.1109/DSC59305.2023.00079",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/429f34ea357e1720abfafe75030894eb7b15fcf3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Super spreaders are the flow that have a large number of distinct connections (also called spread), which related with many threats to networks. Estimating flow spread is the crucial step in super spreader detection. However, existing methods cannot achieve flow spread estimation in terms of accurate, efficient, and reversible simultaneously. All these characteristics is highly required for high-speed network measurement. In this paper, we propose MorphSketch, a new data structure that estimates flow spread for super spreader detection with high accuracy, memory efficiency, high throughput and reversibility. MorphSketch combines hashing with sampling to process packets in order to improve throughput. It uses self-morph bitmap to record spread information, which can adaptively enlarge the upper bound of spread estimation under limited memory usage to ensure accuracy and memory efficiency. Moreover, MorphSketch can track candidate super spreader by comparing corresponding spread information, which realizes reversibility in super spreader detection. We perform a series of performance evaluations on real world traffic trace. Experiment results demonstrate that under same memory usage, the MorphSketch significantly outperforms existing work in terms of accuracy and efficiency.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

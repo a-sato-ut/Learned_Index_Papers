@@ -1,0 +1,39 @@
+{
+    "paperId": "3873a894897a4459e7be6dad973c264f8eee16f2",
+    "title": "Learning GraphQL Query Cost",
+    "year": 2021,
+    "venue": "International Conference on Automated Software Engineering",
+    "authors": [
+        "Georgios Mavroudeas",
+        "Guillaume Baudart",
+        "Alan Cha",
+        "Martin Hirzel",
+        "Jim Laredo",
+        "M. Magdon-Ismail",
+        "Louis Mandel",
+        "Erik Wittern"
+    ],
+    "doi": "10.1109/ASE51524.2021.9678513",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3873a894897a4459e7be6dad973c264f8eee16f2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://hal.archives-ouvertes.fr/hal-03469475/file/ase21.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "GraphQL is a query language for APIs and a runtime for executing those queries, fetching the requested data from existing microservices, REST APIs, databases, or other sources. Its expressiveness and its flexibility have made it an attractive candidate for API providers in many industries, especially through the web. A major drawback to blindly servicing a client’s query in GraphQL is that the cost of a query can be unexpectedly large, creating computation and resource overload for the provider, and API rate-limit overages and infrastructure overload for the client. To mitigate these drawbacks, it is necessary to efficiently estimate the cost of a query before executing it. Estimating query cost is challenging, because GraphQL queries have a nested structure, GraphQL APIs follow different design conventions, and the underlying data sources are hidden. Estimates based on worst-case static query analysis have had limited success because they tend to grossly overestimate cost. We propose a machine-learning approach to efficiently and accurately estimate the query cost. We also demonstrate the power of this approach by testing it on query-response data from publicly available commercial APIs. Our framework is efficient and predicts query costs with high accuracy, consistently outperforming the static analysis by a large margin.",
+    "citationCount": 7,
+    "referenceCount": 28
+}

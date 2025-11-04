@@ -1,0 +1,33 @@
+{
+    "paperId": "2973cba09ee9022de41cc7c06ab5e1196030be13",
+    "title": "Constructing and Analyzing the LSM Compaction Design Space",
+    "year": 2021,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Subhadeep Sarkar",
+        "Dimitris Staratzis",
+        "Zichen Zhu",
+        "Manos Athanassoulis"
+    ],
+    "doi": "10.14778/3476249.3476274",
+    "arxivId": "2202.04522",
+    "url": "https://www.semanticscholar.org/paper/2973cba09ee9022de41cc7c06ab5e1196030be13",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2202.04522",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Log-structured merge (LSM) trees offer efficient ingestion by appending incoming data, and thus, are widely used as the storage layer of production NoSQL data stores. To enable competitive read performance, LSM-trees periodically re-organize data to form a tree with levels of exponentially increasing capacity, through iterative\n compactions.\n Compactions fundamentally influence the performance of an LSM-engine in terms of write amplification, write throughput, point and range lookup performance, space amplification, and delete performance. Hence, choosing the\n appropriate compaction strategy\n is crucial and, at the same time, hard as the LSM-compaction design space is vast, largely unexplored, and has not been formally defined in the literature. As a result, most LSM-based engines use a fixed compaction strategy, typically hand-picked by an engineer, which decides\n how\n and\n when\n to compact data.\n \n In this paper, we present the design space of LSM-compactions, and evaluate state-of-the-art compaction strategies with respect to key performance metrics. Toward this goal, our first contribution is to introduce a set of four design primitives that can formally define any compaction strategy: (i) the compaction trigger, (ii) the data layout, (iii) the compaction granularity, and (iv) the data movement policy. Together, these primitives can synthesize both existing and completely new compaction strategies. Our second contribution is to experimentally analyze 10 compaction strategies. We present 12 observations and 7 high-level takeaway messages, which show how LSM systems can navigate the compaction design space.",
+    "citationCount": 63,
+    "referenceCount": 52
+}

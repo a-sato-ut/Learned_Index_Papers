@@ -1,0 +1,31 @@
+{
+    "paperId": "b434e59ed6f47a18bd4d41227a6efdfaa36162cf",
+    "title": "Accelerating Recommender Model Training by Dynamically Skipping Stale Embeddings",
+    "year": 2024,
+    "venue": "",
+    "authors": [
+        "Yassaman Ebrahimzadeh Maboud",
+        "Muhammad Adnan",
+        "Divyat Mahajan",
+        "Prashant J. Nair"
+    ],
+    "doi": null,
+    "arxivId": "2404.04270",
+    "url": "https://www.semanticscholar.org/paper/b434e59ed6f47a18bd4d41227a6efdfaa36162cf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Training recommendation models pose significant challenges regarding resource utilization and performance. Prior research has proposed an approach that categorizes embeddings into popular and non-popular classes to reduce the training time for recommendation models. We observe that, even among the popular embeddings, certain embeddings undergo rapid training and exhibit minimal subsequent variation, resulting in saturation. Consequently, updates to these embeddings lack any contribution to model quality. This paper presents Slipstream, a software framework that identifies stale embeddings on the fly and skips their updates to enhance performance. This capability enables Slipstream to achieve substantial speedup, optimize CPU-GPU bandwidth usage, and eliminate unnecessary memory access. SlipStream showcases training time reductions of 2x, 2.4x, 1.2x, and 1.175x across real-world datasets and configurations, compared to Baseline XDL, Intel-optimized DRLM, FAE, and Hotline, respectively.",
+    "citationCount": 0,
+    "referenceCount": 45
+}

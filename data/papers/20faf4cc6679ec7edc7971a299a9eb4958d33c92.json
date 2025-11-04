@@ -1,0 +1,34 @@
+{
+    "paperId": "20faf4cc6679ec7edc7971a299a9eb4958d33c92",
+    "title": "Deep transfer learning method for seasonal TROPOMI XCH4 albedo correction",
+    "year": 2025,
+    "venue": "Atmospheric Measurement Techniques",
+    "authors": [
+        "A. C. Bradley",
+        "Barbara Dix",
+        "Fergus Mackenzie",
+        "J. Veefkind",
+        "J. D. de Gouw"
+    ],
+    "doi": "10.5194/amt-18-1675-2025",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/20faf4cc6679ec7edc7971a299a9eb4958d33c92",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract. The retrieval of methane from satellite measurements is sensitive to the reflectance of the surface, and in many regions, especially those with agriculture, surface reflectance depends on the season. Existing corrections for this effect do not take into account a changing relationship between reflectance and the methane correction value over time. It is an important issue to consider, as agricultural emissions of methane are significant and other sources, like oil and gas production, are also often located in agricultural lands. In this work, we use a set of 12 monthly machine learning models to generate a seasonally resolved surface albedo correction for TROPOspheric Monitoring Instrument (TROPOMI) methane data across the Denver–Julesburg basin. We found that land cover is important in the correction, specifically the type of crops grown in an area, with drought-resistant-crop-covered areas requiring a correction of 5–6 ppb larger than areas covered in water-intensive crops in the summer. Additionally, the correction over different land covers changes significantly over the seasonally resolved timescale, with corrections over drought-resistant crops being up to 10 ppb larger in the summer than in the winter. This correction will allow for more accurate determination of methane emissions by removing the effect of agricultural and other seasonal effects on the albedo correction. The correction may also allow for the deconvolution of agricultural methane emissions, which are seasonally dependent, from oil and gas emissions, which are more constant in time.\n",
+    "citationCount": 0,
+    "referenceCount": 65
+}

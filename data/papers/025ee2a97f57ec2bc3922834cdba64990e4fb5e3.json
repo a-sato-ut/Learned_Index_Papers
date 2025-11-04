@@ -1,0 +1,36 @@
+{
+    "paperId": "025ee2a97f57ec2bc3922834cdba64990e4fb5e3",
+    "title": "Tuning the Frequency of Periodic Data Movements over Hybrid Memory Systems",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Thaleia Dimitra Doudali",
+        "Daniel Zahka",
+        "Ada Gavrilovska"
+    ],
+    "doi": null,
+    "arxivId": "2101.07200",
+    "url": "https://www.semanticscholar.org/paper/025ee2a97f57ec2bc3922834cdba64990e4fb5e3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Emerging hybrid memory systems that comprise technologies such as Intel's Optane DC Persistent Memory, exhibit disparities in the access speeds and capacity ratios of their heterogeneous memory components. This breaks many assumptions and heuristics designed for traditional DRAM-only platforms. High application performance is feasible via dynamic data movement across memory units, which maximizes the capacity use of DRAM while ensuring efficient use of the aggregate system resources. Newly proposed solutions use performance models and machine intelligence to optimize which and how much data to move dynamically; however, the decision of when to move this data is based on empirical selection of time intervals, or left to the applications. Our experimental evaluation shows that failure to properly configure the data movement frequency can lead to 10%-100% slowdown for a given data movement policy; yet, there is no established methodology on how to properly configure this value for a given workload, platform and policy. We propose Cori, a system-level tuning solution that identifies and extracts the necessary application-level data reuse information, and guides the selection of data movement frequency to deliver gains in application performance and system resource efficiency. Experimental evaluation shows that Cori configures data movement frequencies that provide application performance within 3% of the optimal one, and that it can achieve this up to 5x more quickly than random or brute-force approaches. System-level validation of Cori on a platform with DRAM and Intel's Optane DC PMEM confirms its practicality and tuning efficiency.",
+    "citationCount": 0,
+    "referenceCount": 43
+}

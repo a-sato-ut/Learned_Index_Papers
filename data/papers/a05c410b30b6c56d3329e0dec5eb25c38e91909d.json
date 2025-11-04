@@ -1,0 +1,32 @@
+{
+    "paperId": "a05c410b30b6c56d3329e0dec5eb25c38e91909d",
+    "title": "Meta-Learning for Unsupervised Outlier Detection with Optimal Transport",
+    "year": 2022,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "authors": [
+        "Prabhant Singh",
+        "J. Vanschoren"
+    ],
+    "doi": "10.24963/ijcai.2023/843",
+    "arxivId": "2211.00372",
+    "url": "https://www.semanticscholar.org/paper/a05c410b30b6c56d3329e0dec5eb25c38e91909d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.ijcai.org/proceedings/2023/0843.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automated machine learning (AutoML) has been widely researched and adopted for supervised problems, but progress in unsupervised settings has been limited. We propose `\"LOTUS\", a novel framework to automate outlier detection based on meta-learning. Our premise is that the selection of the optimal outlier detection technique depends on the inherent properties of the data distribution. We leverage optimal transport to find the dataset with the most similar underlying distribution, and then apply the outlier detection techniques that proved to work best for that data distribution. We evaluate the robustness of our framework and find that it outperforms all state-of-the-art automated outlier detection tools. This approach can also be easily generalized to automate other unsupervised settings.",
+    "citationCount": 6,
+    "referenceCount": 63
+}

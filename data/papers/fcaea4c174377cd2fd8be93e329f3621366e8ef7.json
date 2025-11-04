@@ -1,0 +1,34 @@
+{
+    "paperId": "fcaea4c174377cd2fd8be93e329f3621366e8ef7",
+    "title": "A Nesterov's Accelerated quasi-Newton method for Global Routing using Deep Reinforcement Learning",
+    "year": 2020,
+    "venue": "Nonlinear Theory and Its Applications IEICE",
+    "authors": [
+        "S. Indrapriyadarsini",
+        "Shahrzad Mahboubi",
+        "H. Ninomiya",
+        "T. Kamio",
+        "H. Asai"
+    ],
+    "doi": "10.1587/nolta.12.323",
+    "arxivId": "2010.09465",
+    "url": "https://www.semanticscholar.org/paper/fcaea4c174377cd2fd8be93e329f3621366e8ef7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.jstage.jst.go.jp/article/nolta/12/3/12_323/_pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Q-learning method is one of the most popularly used deep reinforcement learning algorithms which uses deep neural networks to approximate the estimation of the action-value function. Training of the deep Q-network (DQN) is usually restricted to first order gradient based methods. This paper attempts to accelerate the training of deep Q-networks by introducing a second order Nesterov's accelerated quasi-Newton method. We evaluate the performance of the proposed method on deep reinforcement learning using double DQNs for global routing. The results show that the proposed method can obtain better routing solutions compared to the DQNs trained with first order Adam and RMSprop methods.",
+    "citationCount": 5,
+    "referenceCount": 8
+}

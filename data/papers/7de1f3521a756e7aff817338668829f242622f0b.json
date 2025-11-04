@@ -1,0 +1,38 @@
+{
+    "paperId": "7de1f3521a756e7aff817338668829f242622f0b",
+    "title": "Distributed Thresholded Counting with Limited Interaction",
+    "year": 2024,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Xiaoyi Zhu",
+        "Yuxiang Tian",
+        "Zengfeng Huang"
+    ],
+    "doi": "10.1145/3637528.3671868",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7de1f3521a756e7aff817338668829f242622f0b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Problems in the area of distributed computing have been extensively studied. In this paper, we focus on the Distributed Thresholded Counting problem in the coordinator model. In this problem, we have k sites holding their input and communicating with a central coordinator. The coordinator's task is to determine whether the sum of inputs is larger than a threshold. While the communication complexity of this basic problem has been studied for decades, it is still not well understood. Our work considers the worst-case communication cost for an algorithm that uses limited interaction - i.e. a bounded number of rounds of communication. Algorithms in previous research usually need O(łogłog N) or O(k) rounds. In comparison, in the deterministic case, our algorithm achieves optimal communication complexity in only α(k) rounds, where α(k) denotes the inverse Ackermann function and is nearly constant. We also give a randomized algorithm that balances communication, rounds, and error probability.",
+    "citationCount": 0,
+    "referenceCount": 32
+}

@@ -1,0 +1,27 @@
+{
+    "paperId": "d8c912e7b45138b4ad48a97fd42c25f17485cf10",
+    "title": "Examining the Online Food Delivery Problem on Starlike Graphs",
+    "year": 2023,
+    "venue": "2023 International Conference on Advanced Mechatronics, Intelligent Manufacture and Industrial Automation (ICAMIMIA)",
+    "authors": [
+        "Joaquin Jose S. Lopez",
+        "John Paul C. Vergara"
+    ],
+    "doi": "10.1109/ICAMIMIA60881.2023.10427632",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d8c912e7b45138b4ad48a97fd42c25f17485cf10",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "When given incomplete information, an algorithm trying to solve a problem needs to resort to a heuristic to guide the choices in what is hopefully the right direction. This paper examined heuristics for an online scheduling problem known as the Online Food Delivery Problem (OFDP) over a larger context, expanding from the previously-studied star graphs to starlike graphs. Three heuristics were analyzed experimentally using randomly generated test cases for how well they do over the maximum flow time metric compared against an offline brute force algorithm. In order to simplify selection of requests for trips, two points were made that exploit the structure of starlike graphs to reduce the number of possibilities that need to be considered. Of the three heuristics, two of them, lowest anticipation time and highest flow time, performed better than the third (lowest flow time), with lower average competitive ratios and loose probable upper bounds of 6 for lowest anticipation and 5 for highest flow, compared to a probable upper bound of 7 for lowest flow. This paper also concurrently analyzed no-wait brute force, which is forced to set up a trip as soon as possible, similar to the three heuristics, but is otherwise offline, allowing access to full information. Its competitive ratios, both average and maximum, were lower than that of the heuristics, as expected. Also, its probable upper bound is likely 3, which aligns with the previous study on this problem over star graphs.",
+    "citationCount": 1,
+    "referenceCount": 15
+}

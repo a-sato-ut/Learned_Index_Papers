@@ -1,0 +1,32 @@
+{
+    "paperId": "658ac7ca8b1122e429bf3b01ad73d00fa3bbbb3b",
+    "title": "Evaluation of Machine Learning Algorithms in Predicting the Next SQL Query from the Future",
+    "year": 2021,
+    "venue": "ACM Transactions on Database Systems",
+    "authors": [
+        "Venkata Vamsikrishna Meduri",
+        "Kanchan Chowdhury",
+        "Mohamed Sarwat"
+    ],
+    "doi": "10.1145/3442338",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/658ac7ca8b1122e429bf3b01ad73d00fa3bbbb3b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Prediction of the next SQL query from the user, given her sequence of queries until the current timestep, during an ongoing interaction session of the user with the database, can help in speculative query processing and increased interactivity. While existing machine learning-- (ML) based approaches use recommender systems to suggest relevant queries to a user, there has been no exhaustive study on applying temporal predictors to predict the next user issued query. In this work, we experimentally compare ML algorithms in predicting the immediate next future query in an interaction workload, given the current user query or the sequence of queries in a user session thus far. As a part of this, we propose the adaptation of two powerful temporal predictors: (a) Recurrent Neural Networks (RNNs) and (b) a Reinforcement Learning approach called Q-Learning that uses Markov Decision Processes. We represent each query as a comprehensive set of fragment embeddings that not only captures the SQL operators, attributes, and relations but also the arithmetic comparison operators and constants that occur in the query. Our experiments on two real-world datasets show the effectiveness of temporal predictors against the baseline recommender systems in predicting the structural fragments in a query w.r.t. both quality and time. Besides showing that RNNs can be used to synthesize novel queries, we find that exact Q-Learning outperforms RNNs despite predicting the next query entirely from the historical query logs.",
+    "citationCount": 9,
+    "referenceCount": 61
+}

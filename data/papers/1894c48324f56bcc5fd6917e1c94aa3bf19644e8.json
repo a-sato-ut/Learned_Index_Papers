@@ -1,0 +1,40 @@
+{
+    "paperId": "1894c48324f56bcc5fd6917e1c94aa3bf19644e8",
+    "title": "Task-Aware Data Selectivity in Pervasive Edge Computing Environments",
+    "year": 2025,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Athanasios Koukosias",
+        "Christos Anagnostopoulos",
+        "Kostas Kolomvatsos"
+    ],
+    "doi": "10.1109/TKDE.2024.3485531",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1894c48324f56bcc5fd6917e1c94aa3bf19644e8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://figshare.com/articles/preprint/Task-Aware_Data_Selectivity_in_Pervasive_Edge_Computing_Environments/23291651/1/files/41050760.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Context-aware data selectivity in Edge Computing (EC) requires nodes to efficiently manage the data collected from Internet of Things (IoT) devices, e.g., sensors, for supporting real-time and data-driven pervasive analytics. Data selectivity at the network edge copes with the challenge of deciding which data should be kept at the edge for future analytics tasks under limited computational and storage resources. Our challenge is to efficiently learn the access patterns of data-driven tasks (analytics) and predict which data are relevant, thus, being stored in nodes’ local datasets. Task patterns directly indicate which data need to be accessed and processed to support end-users’ applications. We introduce a task workload-aware mechanism which adopts one-class classification to learn and predict the relevant data requested by past tasks. The inherent uncertainty in learning task patterns, identifying inliers and eliminating outliers is handled by introducing a lightweight fuzzy inference estimator that dynamically adapts nodes’ local data filters ensuring accurate data relevance prediction. We analytically describe our mechanism and comprehensively evaluate and compare against baselines and approaches found in the literature showcasing its applicability in pervasive EC.",
+    "citationCount": 1,
+    "referenceCount": 61
+}

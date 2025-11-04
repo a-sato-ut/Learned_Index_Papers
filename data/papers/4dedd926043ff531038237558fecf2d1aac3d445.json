@@ -1,0 +1,46 @@
+{
+    "paperId": "4dedd926043ff531038237558fecf2d1aac3d445",
+    "title": "An Architecture for the Performance Management of Smart Healthcare Applications",
+    "year": 2020,
+    "venue": "Italian National Conference on Sensors",
+    "authors": [
+        "Andressa Vergütz",
+        "Nelson G. Prates",
+        "Bruno Henrique Schwengber",
+        "A. Santos",
+        "M. N. Lima"
+    ],
+    "doi": "10.3390/s20195566",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4dedd926043ff531038237558fecf2d1aac3d445",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1424-8220/20/19/5566/pdf?version=1601302501",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The sixth-generation (6G) network intends to revolutionize the healthcare sector. It will offer smart healthcare (s-health) treatments and allow efficient patient remote monitoring, exposing the high potential of 6G communication technology in telesurgery, epidemic, and pandemic. Healthcare relies on 6G communication technology, diminishing barriers as time and space. S-health applications require strict network requirements, for instance, 99.999% of service reliability and 1 ms of end-to-end latency. However, it is a challenging task to manage network resources and applications towards such performance requirements. Hence, significant attention focuses on performance management as a way of searching for efficient approaches to adjust and tune network resources to application needs, assisting in achieving the required performance levels. In the literature, performance management employs techniques such as resource allocation, resource reservation, traffic shaping, and traffic scheduling. However, they are dedicated to specific problems such as resource allocation for a particular device, ignoring the heterogeneity of network devices, and communication technology. Thus, this article presents PRIMUS, a performance management architecture that aims to meet the requirements of low-latency and high-reliability in an adaptive way for s-health applications. As network slicing is central to realizing the potential of 5G–6G networks, PRIMUS manages traffic through network slicing technologies. Unlike existing proposals, it supports device and service heterogeneity based on the autonomous knowledge of s-health applications. Emulation results in Mininet-WiFi show the feasibility of meeting the s-health application requirements in virtualized environments.",
+    "citationCount": 13,
+    "referenceCount": 54
+}

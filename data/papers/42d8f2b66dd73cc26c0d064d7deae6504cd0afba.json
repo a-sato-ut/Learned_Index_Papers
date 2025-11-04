@@ -1,0 +1,31 @@
+{
+    "paperId": "42d8f2b66dd73cc26c0d064d7deae6504cd0afba",
+    "title": "QUIP: Query-driven Missing Value Imputation",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yiming Lin",
+        "S. Mehrotra"
+    ],
+    "doi": "10.48550/arXiv.2204.00108",
+    "arxivId": "2204.00108",
+    "url": "https://www.semanticscholar.org/paper/42d8f2b66dd73cc26c0d064d7deae6504cd0afba",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2204.00108",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Missing values widely exist in real-world data sets, and failure to clean the missing data may result in the poor quality of answers to queries. \\yiming{Traditionally, missing value imputation has been studied as an offline process as part of preparing data for analysis.} This paper studies query-time missing value imputation and proposes QUIP, which only imputes minimal missing values to answer the query. Specifically, by taking a reasonable good query plan as input, QUIP tries to minimize the missing value imputation cost and query processing overhead. QUIP proposes a new implementation of outer join to preserve missing values in query processing and a bloom filter based index structure to optimize the space and runtime overhead. QUIP also designs a cost-based decision function to automatically guide each operator to impute missing values now or delay imputations. Efficient optimizations are proposed to speed-up aggregate operations in QUIP, such as MAX/MIN operator. Extensive experiments on both real and synthetic data sets demonstrates the effectiveness and efficiency of QUIP, which outperforms the state-of-the-art ImputeDB by 2 to 10 times on different query sets and data sets, and achieves the order-of-magnitudes improvement over the offline approach.",
+    "citationCount": 0,
+    "referenceCount": 40
+}

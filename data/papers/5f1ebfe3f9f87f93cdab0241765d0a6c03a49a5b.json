@@ -1,0 +1,38 @@
+{
+    "paperId": "5f1ebfe3f9f87f93cdab0241765d0a6c03a49a5b",
+    "title": "SketchConf: A Framework for Automatic Sketch Configuration",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Ruijie Miao",
+        "Fenghao Dong",
+        "Yikai Zhao",
+        "Yiming Zhao",
+        "Yuhan Wu",
+        "Kaicheng Yang",
+        "Tong Yang",
+        "Bin Cui"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00157",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5f1ebfe3f9f87f93cdab0241765d0a6c03a49a5b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sketches have risen as promising solutions for frequency estimation, which is one of the most fundamental tasks in approximate data stream processing. In many scenarios, users have a strong demand to apply sketches under the expected error constraints. In this paper, we explore how to configure sketch parameters to satisfy user-defined error constraints. We propose SketchConf, an automatic sketch configuration framework, which efficiently generates memory-optimal configurations for the first time. We show that SketchConf can be applied to order-independent sketches, including CM, Count, Tower, and Nitro sketches. We further discuss how to deal with the unknown and changeable workloads when applying SketchConf to the real scenarios of streaming data processing. Experimental results show that SketchConf can be up to 715.51 times faster than the baseline algorithm, and the outputted configurations save up to 99.99% memory and achieve up to 27.44 times throughput, compared with the theory-based configurations. The code is open sourced at Github.",
+    "citationCount": 7,
+    "referenceCount": 54
+}

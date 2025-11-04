@@ -1,0 +1,38 @@
+{
+    "paperId": "0792b5ebfb6ca62e8b4b475fc7705b0f78f746ff",
+    "title": "Edge Inference with Fully Differentiable Quantized Mixed Precision Neural Networks",
+    "year": 2022,
+    "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+    "authors": [
+        "Clemens J. S. Schaefer",
+        "Siddharth Joshi",
+        "Shane Li",
+        "Raul Blazquez"
+    ],
+    "doi": "10.1109/WACV57701.2024.00827",
+    "arxivId": "2206.07741",
+    "url": "https://www.semanticscholar.org/paper/0792b5ebfb6ca62e8b4b475fc7705b0f78f746ff",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2206.07741",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The large computing and memory cost of deep neural networks (DNNs) often precludes their use in resource-constrained devices. Quantizing the parameters and operations to lower bit-precision offers substantial memory and energy savings for neural network inference, facilitating the use of DNNs on edge computing platforms. Recent efforts at quantizing DNNs have employed a range of techniques en-compassing progressive quantization, step-size adaptation, and gradient scaling. This paper proposes a new quantization approach for mixed precision convolutional neural networks (CNNs) targeting edge-computing. Our method establishes a new Pareto frontier in model accuracy and memory footprint demonstrating a range of pre-trained quantized models, delivering best-in-class accuracy below 4.3 MB of weights and activations without modifying the model architecture. Our main contributions are: (i) a method for tensor-sliced learned precision with a hardware-aware cost function for heterogeneous differentiable quantization, (ii) targeted gradient modification for weights and activations to mitigate quantization errors, and (iii) a multi-phase learning schedule to address instability in learning arising from updates to the learned quantizer and model parameters. We demonstrate the effectiveness of our techniques on the ImageNet dataset across a range of models including EfficientNet-Lite0 (e.g., 4.14 MB of weights and activations at 67.66% accuracy) and MobileNetV2 (e.g., 3.51 MB weights and activations at 65.39% accuracy).",
+    "citationCount": 10,
+    "referenceCount": 52
+}

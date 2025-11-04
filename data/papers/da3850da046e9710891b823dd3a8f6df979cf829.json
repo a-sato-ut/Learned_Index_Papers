@@ -1,0 +1,38 @@
+{
+    "paperId": "da3850da046e9710891b823dd3a8f6df979cf829",
+    "title": "Evolving to 6G: Improving the Cellular Core to lower control and data plane latency",
+    "year": 2022,
+    "venue": "2022 1st International Conference on 6G Networking (6GNet)",
+    "authors": [
+        "Vivek A. Jain",
+        "Sourav Panda",
+        "Shixiong Qi",
+        "K. Ramakrishnan"
+    ],
+    "doi": "10.1109/6gnet54646.2022.9830519",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/da3850da046e9710891b823dd3a8f6df979cf829",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the commercialization and deployment of 5G, efforts are beginning to explore the design of the next generation of cellular networks, called 6G. New and constantly evolving use cases continue to place performance demands, especially for low latency communications, as these are still challenges for the 3GPP-specified 5G design, and will have to be met by the 6G design. Therefore, it is helpful to re-examine several aspects of the current cellular network’s design and implementation.Based on our understanding of the 5G cellular network specifications, we explore different implementation options for a dis-aggregated 5G core and their performance implications. To improve the data plane performance, we consider advanced packet classification mechanisms to support fast packet processing in the User Plane Function (UPF), to improve the poor performance and scalability of the current design based on linked lists. Importantly, we implement the UPF function on a SmartNIC for forwarding and tunneling. The SmartNIC provides the fastpath for device traffic, while more complex functions of buffering and processing flows that suffer a miss on the SmartNIC P4 tables are processed by the host-based UPF. Compared to an efficient DPDK-based host UPF, the SmartNIC UPF increases the throughput for 64 Byte packets by almost 2×. Furthermore, we lower the packet forwarding latency by 3.75× by using the SmartNIC. In addition, we propose a novel context-level QoS mechanism that dynamically updates the Packet Detection Rule priority and resource allocation of a flow based on the user context. By combining our innovations, we can achieve low latency and high throughput that will help us evolve to the next generation 6G cellular networks.",
+    "citationCount": 9,
+    "referenceCount": 22
+}

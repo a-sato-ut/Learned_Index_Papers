@@ -1,0 +1,38 @@
+{
+    "paperId": "8a22a581c4ec6f4168053b8eb88a24e6a1e833e8",
+    "title": "AutoML in the Face of Adversity: Securing Mobility Predictions in NWDAF",
+    "year": 2024,
+    "venue": "International Conference on Fog and Mobile Edge Computing",
+    "authors": [
+        "Syafiq Al Atiiq",
+        "Christian Gehrmann",
+        "Yachao Yuan",
+        "Jakob Sternby"
+    ],
+    "doi": "10.1109/FMEC62297.2024.10710314",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8a22a581c4ec6f4168053b8eb88a24e6a1e833e8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Network Data Analytics Function (NWDAF) is a key component in 5G networks, introduced by 3G Partnership Project (3GPP) standards, that leverages machine learning to optimize network performance. The 3GPP standards mandate that mobile network operators should retrain NWDAF models to maintain accuracy. However, the presence of adversarial user equipment (UE) can introduce corrupted data points during this retraining process, compromising prediction accuracy. Manually selecting optimal models for NWDAF tasks is challenging and time-consuming, making Automated Machine Learning (AutoML) an attractive solution. This paper investigates strategies for operators to maintain NWDAF model performance using AutoML in the face of adversarial attacks, focusing on mobility prediction. We consider two main retraining strategies: (A) reselecting the model using AutoML at each retraining and (B) retaining the initial model. We evaluate these strategies using different AutoML frameworks under varying proportions of adversarial UEs, assuming that the attacker is unaware of the retraining schedule and the operator lacks the capability to distinguish between adversarial and legitimate mobility patterns. Our results show that, in the presence of adversarial UEs, retraining with AutoML yields worse results compared to retaining a well-trained initial model selected using an extensive AutoML search during initial training. We, therefore, recommend that operators prioritize model selection during initial training, ensuring the base model is optimally tuned to maintain accuracy over subsequent retraining. This allows effective mobility prediction to be preserved even if corrupted data cannot be fully excluded.",
+    "citationCount": 0,
+    "referenceCount": 47
+}

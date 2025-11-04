@@ -1,0 +1,37 @@
+{
+    "paperId": "9d8cceb8a7d6deadf7db02201924f9d4ae158194",
+    "title": "ARMS: Adaptive and Robust Memory Tiering System",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sujay Yadalam",
+        "Konstantinos Kanellis",
+        "Michael Swift",
+        "Shivaram Venkataraman"
+    ],
+    "doi": "10.48550/arXiv.2508.04417",
+    "arxivId": "2508.04417",
+    "url": "https://www.semanticscholar.org/paper/9d8cceb8a7d6deadf7db02201924f9d4ae158194",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Memory tiering systems seek cost-effective memory scaling by adding multiple tiers of memory. For maximum performance, frequently accessed (hot) data must be placed close to the host in faster tiers and infrequently accessed (cold) data can be placed in farther slower memory tiers. Existing tiering solutions such as HeMem, Memtis, and TPP use rigid policies with pre-configured thresholds to make data placement and migration decisions. We perform a thorough evaluation of the threshold choices and show that there is no single set of thresholds that perform well for all workloads and configurations, and that tuning can provide substantial speedups. Our evaluation identified three primary reasons why tuning helps: better hot/cold page identification, reduced wasteful migrations, and more timely migrations. Based on this study, we designed ARMS - Adaptive and Robust Memory tiering System - to provide high performance without tunable thresholds. We develop a novel hot/cold page identification mechanism relying on short-term and long-term moving averages, an adaptive migration policy based on cost/benefit analysis, and a bandwidth-aware batched migration scheduler. Combined, these approaches provide out-of-the-box performance within 3% the best tuned performance of prior systems, and between 1.26x-2.3x better than prior systems without tuning.",
+    "citationCount": 0,
+    "referenceCount": 42
+}

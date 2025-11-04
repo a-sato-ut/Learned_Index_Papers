@@ -1,0 +1,33 @@
+{
+    "paperId": "36f58e13341b1197c10d0f747dd3e8cbbb5b46d4",
+    "title": "MONSOON: Multi-Step Optimization and Execution of Queries with Partially Obscured Predicates",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Sourav Sikdar",
+        "C. Jermaine"
+    ],
+    "doi": "10.1145/3318464.3389728",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/36f58e13341b1197c10d0f747dd3e8cbbb5b46d4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "User-defined functions (UDFs) in modern SQL database systems and Big Data processing systems such as Spark---that offer API bindings in high-level languages such as Python or Scala---make automatic optimization challenging. The foundation of modern database query optimization is the collection of statistics describing the data to be processed, but when a database or Big Data computation is partially obscured by UDFs, good statistics are often unavailable. In this paper, we describe a query optimizer called the Monsoon optimizer. In the presence of UDFs, the Monsoon optimizer may choose to collect statistics on the UDFs, and then run the computation. Or, it may optimize and execute part of the plan, collecting statistics on the result of the partial plan, followed by a re optimization step, with the process repeated as needed. Monsoon decides how to interleave execution and statistics collection in a principled fashion by formalizing the problem as a Markov decision process.",
+    "citationCount": 6,
+    "referenceCount": 50
+}

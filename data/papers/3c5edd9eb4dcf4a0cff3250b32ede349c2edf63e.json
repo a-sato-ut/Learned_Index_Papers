@@ -1,0 +1,42 @@
+{
+    "paperId": "3c5edd9eb4dcf4a0cff3250b32ede349c2edf63e",
+    "title": "Hierarchical Associative Memory",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "D. Krotov"
+    ],
+    "doi": null,
+    "arxivId": "2107.06446",
+    "url": "https://www.semanticscholar.org/paper/3c5edd9eb4dcf4a0cff3250b32ede349c2edf63e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Dense Associative Memories or Modern Hopfield Networks have many appealing properties of associative memory. They can do pattern completion, store a large number of memories, and can be described using a recurrent neural network with a degree of biological plausibility and rich feedback between the neurons. At the same time, up until now all the models of this class have had only one hidden layer, and have only been formulated with densely connected network architectures, two aspects that hinder their machine learning applications. This paper tackles this gap and describes a fully recurrent model of associative memory with an arbitrary large number of layers, some of which can be locally connected (convolutional), and a corresponding energy function that decreases on the dynamical trajectory of the neurons' activations. The memories of the full network are dynamically\"assembled\"using primitives encoded in the synaptic weights of the lower layers, with the\"assembling rules\"encoded in the synaptic weights of the higher layers. In addition to the bottom-up propagation of information, typical of commonly used feedforward neural networks, the model described has rich top-down feedback from higher layers that help the lower-layer neurons to decide on their response to the input stimuli.",
+    "citationCount": 36,
+    "referenceCount": 34
+}

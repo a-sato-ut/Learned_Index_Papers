@@ -1,0 +1,33 @@
+{
+    "paperId": "c63503af04cc31462d3650c5a9e6989c8f3fff67",
+    "title": "Spatial and Temporal User Interest Representations for Sequential Recommendation",
+    "year": 2024,
+    "venue": "IEEE Transactions on Computational Social Systems",
+    "authors": [
+        "Haibing Hu",
+        "Kai Han",
+        "Zhizhuo Yin",
+        "Defu Lian"
+    ],
+    "doi": "10.1109/TCSS.2024.3378454",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c63503af04cc31462d3650c5a9e6989c8f3fff67",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, recommendation systems have become increasingly prevalent in various fields, facilitating quick access to the information users need. As a result, many models have been proposed to model user interests, leading to more accurate recommendation lists, superior user experience, and business value. However, characterizing the dynamically changing interests of users is a challenging task. User interests shift over time while maintaining some long-term interests, and at each time, users’ interests are diverse. To investigate the benefits of multidimensional interests for users, this article proposes to characterize user preferences based on their spatiotemporal interests. Utilizing temporal and spatial information is critical for improving recommendation accuracy. To achieve this, we present a novel approach called multilong short-term interest (MLSI) user representation for recommendation. This method extracts long-term and short-term interests of users from their behavioral sequences using decoupled self-supervised learning with different optimizers. Self-attention is then employed to capture the diverse interests of users through their behavioral sequences. Final, long-term and short-term interests, as well as diversified interests, are aggregated to represent user interests. Extensive experiments on real-world datasets show that MLSI not only outperforms state-of-the-art methods but also more effectively characterizes user interests, reflecting an improvement ranging from 5% to 20% across various metrics on multiple datasets.",
+    "citationCount": 1,
+    "referenceCount": 58
+}

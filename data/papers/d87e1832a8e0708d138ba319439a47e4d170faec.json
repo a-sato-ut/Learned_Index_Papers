@@ -1,0 +1,40 @@
+{
+    "paperId": "d87e1832a8e0708d138ba319439a47e4d170faec",
+    "title": "MiCuts: Combing Bit-Based Cutting and Splitting for Efficient Packet Classification",
+    "year": 2023,
+    "venue": "ICC 2023 - IEEE International Conference on Communications",
+    "authors": [
+        "Longlong Zhu",
+        "Jiashuo Yu",
+        "Long Huang",
+        "Linying Zheng",
+        "Jinfeng Pan",
+        "Zhengyang Zhou",
+        "Hanze Chen",
+        "Dong Zhang",
+        "Xiang Chen",
+        "Chunming Wu"
+    ],
+    "doi": "10.1109/ICC45041.2023.10278977",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d87e1832a8e0708d138ba319439a47e4d170faec",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Packet classification is a crucial component in computer networking. To achieve high throughput and low memory consumption, existing solutions apply different heuristics in each construction stage to build efficient decision trees. However, previous studies divide the tree construction process based on the scale of rule subsets which is indirect to the performance goal, leading to massive rule replication and high tree depth. In this paper, we propose MiCuts, a fine-grained framework for packet classification with both high speed and low memory footprint. Its key idea is directly utilizing rule replication and tree depth to divide the tree-building process into three stages, each with suitable optimization goals. First, it partitions rules and builds shallow semi-trees without rule replication via selecting effective bits. Second, it transforms the switching problem of heuristics into an ILP problem and aims to minimize memory consumption while ensuring high lookup speed. Third, it merges some nodes to eliminate memory explosion caused by splitting, where MiCuts combines splitting and linear search. Extensive experimental results on ClassBench show that MiCuts outperforms state-of-the-art approaches, improving lookup speed by 1.71× while reducing memory footprint by 74.4% on average.",
+    "citationCount": 1,
+    "referenceCount": 20
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "62166a8d00d1a135272b29dad4a0e1989317aea0",
+    "title": "Learning to Truncate Ranked Lists for Information Retrieval",
+    "year": 2021,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Chen Wu",
+        "Ruqing Zhang",
+        "Jiafeng Guo",
+        "Yixing Fan",
+        "Yanyan Lan",
+        "Xueqi Cheng"
+    ],
+    "doi": "10.1609/aaai.v35i5.16572",
+    "arxivId": "2102.12793",
+    "url": "https://www.semanticscholar.org/paper/62166a8d00d1a135272b29dad4a0e1989317aea0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/16572/16379",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Ranked list truncation is of critical importance in a variety of professional information retrieval applications such as patent search or legal search. The goal is to dynamically determine the number of returned documents according to some user-defined objectives, in order to reach a balance between the overall utility of the results and user efforts. Existing methods formulate this task as a sequential decision problem and take some pre-defined loss as a proxy objective, which suffers from the limitation of local decision and non-direct optimization. In this work, we propose a global decision based truncation model named AttnCut, which directly optimizes user-defined objectives for the ranked list truncation. Specifically, we take the successful transformer architecture to capture the global dependency within the ranked list for truncation decision, and employ the reward augmented maximum likelihood (RAML) for direct optimization. We consider two types of user-defined objectives which are of practical usage. One is the widely adopted metric such as F1 which acts as a balanced objective, and the other is the best F1 under some minimal recall constraint which represents a typical objective in professional search. Empirical results over the Robust04 and MQ2007 datasets demonstrate the effectiveness of our approach as compared with the state-of-the-art baselines.",
+    "citationCount": 9,
+    "referenceCount": 38
+}

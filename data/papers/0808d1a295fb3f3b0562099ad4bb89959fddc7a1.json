@@ -1,0 +1,32 @@
+{
+    "paperId": "0808d1a295fb3f3b0562099ad4bb89959fddc7a1",
+    "title": "Fast Exploratory Analysis with Spatio-temporal Aggregation over Polygonal Regions",
+    "year": 2022,
+    "venue": "2022 IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT)",
+    "authors": [
+        "Catherine Higgins",
+        "S. Ray"
+    ],
+    "doi": "10.1109/BDCAT56447.2022.00012",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0808d1a295fb3f3b0562099ad4bb89959fddc7a1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Exploratory data analysis, which is at the heart of data science workflows, is becoming important due to the rapid rise in spatio-temporal data volume, and popularity of Web and mobile mapping applications. Such exploratory data analysis often involves the user selecting an arbitrary polygon region to perform a statistical computation on the selected region. Existing approaches for spatio-temporal data aggregation support rectangular query regions only, and not arbitrary polygons. A recently proposed system called GeoBlocks supports polygonal queries, but GeoBlocks was designed for spatial data, not spatio-temporal data. Another aspect of exploratory data analysis is that the users often repeatedly perform similar statistical analyses over the same selected query region. Although the reuse of already computed answers can improve the response time, existing approaches do not support this reuse for advanced statistical analysis. Data Canopy is a recently proposed approach that supports statistics synthesis by reusing basic aggregates, however, it does not support spatial or spatio-temporal analysis.To address the mentioned challenges, we introduce ScanCube, an exploratory statistical analysis system over any arbitrary polygonal query region for any time interval. ScanCube also supports statistics synthesis by reusing a small set of basic aggregates that are computed and stored a priori. We introduce two techniques, ScanX1 and ScanX2, for providing a grid-based polygonal approximation, which offers distance-based bounded error. Experimental evaluation suggests that ScanCube significantly outperforms GeoBlocks.",
+    "citationCount": 0,
+    "referenceCount": 28
+}

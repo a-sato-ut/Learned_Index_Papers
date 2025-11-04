@@ -1,0 +1,33 @@
+{
+    "paperId": "93ecf7922fb5f1a15a629faa1bfc700f58ee3122",
+    "title": "Alpha Matte Generation from Single Input for Portrait Matting",
+    "year": 2021,
+    "venue": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+    "authors": [
+        "Dogucan Yaman",
+        "H. K. Ekenel",
+        "Alexander Waibel"
+    ],
+    "doi": "10.1109/CVPRW56347.2022.00085",
+    "arxivId": "2106.03210",
+    "url": "https://www.semanticscholar.org/paper/93ecf7922fb5f1a15a629faa1bfc700f58ee3122",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2106.03210",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the portrait matting, the goal is to predict an alpha matte that identifies the effect of each pixel on the foreground subject. Traditional approaches and most of the existing works utilized an additional input, e.g., trimap, background image, to predict alpha matte. However, (1) providing additional input is not always practical, and (2) models are too sensitive to these additional inputs. To address these points, in this paper, we introduce an additional input-free approach to perform portrait matting. We divide the task into two subtasks, segmentation and alpha matte prediction. We first generate a coarse segmentation map from the input image and then predict the alpha matte by utilizing the image and segmentation map. Besides, we present a segmentation encoding block to downsample the coarse segmentation map and provide useful feature representation to the residual block, since using a single encoder causes the vanishing of the segmentation information. We tested our model on four different benchmark datasets. The proposed method outperformed the MODNet and MGMatting methods that also take a single input. Besides, we obtained comparable results with BGM-V2 and FBA methods that require additional input.",
+    "citationCount": 3,
+    "referenceCount": 64
+}

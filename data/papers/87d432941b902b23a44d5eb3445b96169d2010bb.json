@@ -1,0 +1,45 @@
+{
+    "paperId": "87d432941b902b23a44d5eb3445b96169d2010bb",
+    "title": "Towards a machine-learned Poisson solver for low-temperature plasma simulations in complex geometries",
+    "year": 2023,
+    "venue": "Machine Learning: Science and Technology",
+    "authors": [
+        "Ihda Chaerony Siffa",
+        "M. Becker",
+        "K. Weltmann",
+        "J. Trieschmann"
+    ],
+    "doi": "10.1088/2632-2153/ad4230",
+    "arxivId": "2306.07604",
+    "url": "https://www.semanticscholar.org/paper/87d432941b902b23a44d5eb3445b96169d2010bb",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://iopscience.iop.org/article/10.1088/2632-2153/ad4230/pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Poisson’s equation plays an important role in modeling many physical systems. In electrostatic self-consistent low-temperature plasma (LTP) simulations, Poisson’s equation is solved at each simulation time step, which can amount to a significant computational cost for the entire simulation. In this paper, we describe the development of a generic machine-learned Poisson solver specifically designed for the requirements of LTP simulations in complex 2D reactor geometries on structured Cartesian grids. Here, the reactor geometries can consist of inner electrodes and dielectric materials as often found in LTP simulations. The approach leverages a hybrid CNN-transformer network architecture in combination with a weighted multiterm loss function. We train the network using highly randomized synthetic data to ensure the generalizability of the learned solver to unseen reactor geometries. The results demonstrate that the learned solver is able to produce quantitatively and qualitatively accurate solutions. Furthermore, it generalizes well on new reactor geometries such as reference geometries found in the literature. To increase the numerical accuracy of the solutions required in LTP simulations, we employ a conventional iterative solver to refine the raw predictions, especially to recover the high-frequency features not resolved by the initial prediction. With this, the proposed learned Poisson solver provides the required accuracy and is potentially faster than a pure GPU-based conventional iterative solver. This opens up new possibilities for developing a generic and high-performing learned Poisson solver for LTP systems in complex geometries.",
+    "citationCount": 3,
+    "referenceCount": 80
+}

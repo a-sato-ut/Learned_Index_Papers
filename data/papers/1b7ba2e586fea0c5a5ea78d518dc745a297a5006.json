@@ -1,0 +1,35 @@
+{
+    "paperId": "1b7ba2e586fea0c5a5ea78d518dc745a297a5006",
+    "title": "LDA-AQU: Adaptive Query-guided Upsampling via Local Deformable Attention",
+    "year": 2024,
+    "venue": "ACM Multimedia",
+    "authors": [
+        "Zewen Du",
+        "Zhenjiang Hu",
+        "Guiyu Zhao",
+        "Ying Jin",
+        "Hongbin Ma"
+    ],
+    "doi": "10.1145/3664647.3680789",
+    "arxivId": "2411.19585",
+    "url": "https://www.semanticscholar.org/paper/1b7ba2e586fea0c5a5ea78d518dc745a297a5006",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Feature upsampling is an essential operation in constructing deep convolutional neural networks. However, existing upsamplers either lack specific feature guidance or necessitate the utilization of high-resolution feature maps, resulting in a loss of performance and flexibility. In this paper, we find that the local self-attention naturally has the feature guidance capability, and its computational paradigm aligns closely with the essence of feature upsampling (i.e. feature reassembly of neighboring points). Therefore, we introduce local self-attention into the upsampling task and demonstrate that the majority of existing upsamplers can be regarded as special cases of upsamplers based on local self-attention. Considering the potential semantic gap between upsampled points and their neighboring points, we further introduce the deformation mechanism into the upsampler based on local self-attention, thereby proposing LDA-AQU. As a novel dynamic kernel-based upsampler, LDA-AQU utilizes the feature of queries to guide the model in adaptively adjusting the position and aggregation weight of neighboring points, thereby meeting the upsampling requirements across various complex scenarios. In addition, LDA-AQU is lightweight and can be easily integrated into various model architectures. We evaluate the effectiveness of LDA-AQU across four dense prediction tasks: object detection, instance segmentation, panoptic segmentation, and semantic segmentation. LDA-AQU consistently outperforms previous state-of-the-art upsamplers, achieving performance enhancements of 1.7 AP, 1.5 AP, 2.0 PQ, and 2.5 mIoU compared to the baseline models in the aforementioned four tasks, respectively.",
+    "citationCount": 2,
+    "referenceCount": 41
+}

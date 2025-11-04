@@ -1,0 +1,38 @@
+{
+    "paperId": "dbf137ac9c554f25da72a95d19da3d9b7e9208b1",
+    "title": "Learned Probing Cardinality Estimation for High-Dimensional Approximate NN Search",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Bolong Zheng",
+        "Ziyang Yue",
+        "Q. Hu",
+        "Xiaomeng Yi",
+        "Xiaofang Luan",
+        "Charles Xie",
+        "Xiaofang Zhou",
+        "Christian S. Jensen"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00246",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dbf137ac9c554f25da72a95d19da3d9b7e9208b1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate nearest neighbor (ANN) search in high-dimensional space plays an essential role in a variety of real-world applications. A well-known solution to ANN search, inverted file product quantization (IVFPQ) adopts inverted files to avoid exhaustive examination and compresses vectors using product quantization to reduce the space overhead. However, existing implementations use the same fixed probing cardinality (i.e., the number of cells to probe) setting for all queries, which leads to too many or too few cell examinations, thus increasing the average query latency or reducing the recall. To achieve a better trade-off between latency and accuracy, we enable probing cardinality estimation for high-dimensional ANN search by using deep learning techniques. We develop HBK-means, a hierarchical balanced clustering algorithm that reduces the data distribution imbalance of cells to enable a better estimation. Next, we develop PCE-Net, an encoder-decoder based neural network for estimating query-dependent minimum probing cardinality. In addition, we introduce two query optimization strategies: lower bound sorting based pruning (LBS-Pruning) and early termination (ET), to further reduce query latency. Extensive experiments with real-world data offer evidence that the proposed solution is capable of achieving better performance than IVFPQ and its variants.",
+    "citationCount": 11,
+    "referenceCount": 52
+}

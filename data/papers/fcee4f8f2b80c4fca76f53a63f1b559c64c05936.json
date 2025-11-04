@@ -1,0 +1,36 @@
+{
+    "paperId": "fcee4f8f2b80c4fca76f53a63f1b559c64c05936",
+    "title": "Online File Caching in Latency-Sensitive Systems with Delayed Hits and Bypassing",
+    "year": 2022,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Chi Zhang",
+        "Haisheng Tan",
+        "Guopeng Li",
+        "Zhenhua Han",
+        "S. Jiang",
+        "Xiangyang Li"
+    ],
+    "doi": "10.1109/INFOCOM48880.2022.9796969",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fcee4f8f2b80c4fca76f53a63f1b559c64c05936",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In latency-sensitive file caching systems such as Content Delivery Networks (CDNs) and Mobile Edge Computing (MEC), the latency of fetching a missing file to the local cache can be significant. Recent studies have revealed that successive requests of the same missing file before the fetching completes could still suffer latency (so-called delayed hits).Motivated by the practical scenarios, we study the online general file caching problem with delayed hits and bypassing, i.e., a request may be bypassed and processed directly at the remote data center. The objective is to minimize the total request latency. We show a general reduction that turns a traditional file caching algorithm to one that can handle delayed hits. We give an O(Z3/2 logK)-competitive algorithm called CaLa with this reduction, where Z is the maximum fetching latency of any file and K is the cache size, and we show a nearly-tight lower bound Ω(Z logK) for our ratio. Extensive simulations based on the production data trace from Google and the Yahoo benchmark illustrate that CaLa can reduce the latency by up to 9.42% compared with the state-of-the-art scheme dealing with delayed hits without bypassing, and this improvement increases to 32.01% if bypassing is allowed.",
+    "citationCount": 17,
+    "referenceCount": 37
+}

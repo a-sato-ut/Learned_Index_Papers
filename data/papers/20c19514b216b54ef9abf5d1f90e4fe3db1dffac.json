@@ -1,0 +1,34 @@
+{
+    "paperId": "20c19514b216b54ef9abf5d1f90e4fe3db1dffac",
+    "title": "Demonstrating CatDB: LLM-based Generation of Data-centric ML Pipelines",
+    "year": 2025,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Saeed Fathollahzadeh",
+        "Essam Mansour",
+        "Matthias Boehm"
+    ],
+    "doi": "10.1145/3722212.3725097",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/20c19514b216b54ef9abf5d1f90e4fe3db1dffac",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "AutoML systems automate finding Machine Learning (ML) pipelines but struggle to scale with large datasets due to time-consuming data analysis and complex hyper-parameter search spaces. LLMs (Large Language Models) offer flexibility and scalability for code generation with strong generalization across coding tasks. However, generating data-centric ML pipeline scripts is more challenging, as it requires complex reasoning to align the needs of a dataset with coding tasks, such as data cleaning or feature transformation. Thus, LLMs struggle to generate effective and efficient ML pipelines. This demo paper presents CatDB, which overcomes these challenges by dynamically generating dataset-specific instructions to guide LLMs in generating effective pipelines. CatDB profiles datasets to extract metadata, including refined data catalog information and statistics, and then uses this metadata to break down pipeline generation into instructions of tasks such as data cleaning, transformation, and model training, tailored to specifics of the dataset at hand. This process enables CatDB to leverage LLM coding capabilities more effectively. Our evaluation shows CatDB outperforms existing LLM-based and AutoML systems with up to orders of magnitude faster runtime on large datasets. The audience will experience CatDB's capabilities with commercial and open-source LLMs, using a variety of real datasets, as shown in our demo video and Colab notebook.",
+    "citationCount": 2,
+    "referenceCount": 7
+}

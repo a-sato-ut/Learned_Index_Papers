@@ -1,0 +1,38 @@
+{
+    "paperId": "e72eee3fe4163c7191b79079ce8e1f583f781892",
+    "title": "Accelerating model synchronization for distributed machine learning in an optical wide area network",
+    "year": 2022,
+    "venue": "Journal of Optical Communications and Networking",
+    "authors": [
+        "Lingyun Liu",
+        "Liangjun Song",
+        "Xi Chen",
+        "Hongfang Yu",
+        "Gang Sun"
+    ],
+    "doi": "10.1364/JOCN.462286",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e72eee3fe4163c7191b79079ce8e1f583f781892",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Geo-distributed machine learning (Geo-DML) adopts a hierarchical training architecture that includes local model synchronization within the data center and global model synchronization (GMS) across data centers. However, the scarce and heterogeneous wide area network (WAN) bandwidth can become the bottleneck of training performance. An intelligent optical device (i.e., reconfigurable optical all-drop multiplexer) makes the modern WAN topology reconfigurable, which has been ignored by most approaches to speed up Geo-DML training. Therefore, in this paper, we study scheduling algorithms to accelerate model synchronization for Geo-DML training with consideration of the reconfigurable optical WAN topology. Specifically, we use an aggregation tree for each Geo-DML training job, which helps to reduce model synchronization communication overhead across the WAN, and propose two efficient algorithms to accelerate GMS for Geo-DML: MOptree, a model-based algorithm for single job scheduling, and MMOptree for multiple job scheduling, aiming to reconfigure the WAN topology and trees by reassigning wavelengths on each fiber. Based on the current WAN topology and job information, mathematical models are built to guide the topology reconstruction, wavelength, and bandwidth allocation for each edge of the trees. The simulation results show that MOptree completes the GMS stage up to 56.16% on average faster than the traditional tree without optical-layer reconfiguration, and MMOptree achieves up to 54.6% less weighted GMS time.",
+    "citationCount": 8,
+    "referenceCount": 66
+}

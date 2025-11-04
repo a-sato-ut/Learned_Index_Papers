@@ -1,0 +1,32 @@
+{
+    "paperId": "887da6dbae952881a285656e28cb95201ee8f67b",
+    "title": "On the Effectiveness of Activation Noise in Both Training and Inference for Generative Classifiers",
+    "year": 2023,
+    "venue": "IEEE Access",
+    "authors": [
+        "M. Nori",
+        "Yiqun Ge",
+        "Il-Min Kim"
+    ],
+    "doi": "10.1109/ACCESS.2023.3335841",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/887da6dbae952881a285656e28cb95201ee8f67b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10325517.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neurons of the brain never produce the same output twice even when the same stimuli are presented; this is because of their internal noisy biological processes. Likewise, in this work, we study activation noise jointly during training, and inference, in a generative energy-based modeling setting, and observe that the joint activation noise yields noteworthy outcomes: while it is known that applying activation noise during training serves the purpose of regularization and data augmentation, activation noise is not quite well-understood during inference, and most importantly, the relationship between the former and the latter, when we adopt both at the same time, is yet unknown. In this work, therefore, we analyze the role of activation noise at inference time and demonstrate it to be utilizing sampling. Then, we prove that the best performance is achieved when the activation noise follows the same distribution both during training and inference. Leveraging the proof of the optimal joint activation noise during training and inference, we achieve significant improvement in performance (classification accuracy). To help understand this phenomenon, we provide theoretical results that illuminate the roles of activation noise during training, inference, and their mutual influence on performance. To further confirm our theoretical results (which is the necessity for the noise distributions during training and inference to match), we conduct extensive experiments on autoencoder architecture for five datasets and seven different distributions of activation noise. The implications of this finding span from the neuroscience of the brain to the design of applied deep learning systems.",
+    "citationCount": 1,
+    "referenceCount": 63
+}

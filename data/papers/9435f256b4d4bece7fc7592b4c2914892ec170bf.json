@@ -1,0 +1,33 @@
+{
+    "paperId": "9435f256b4d4bece7fc7592b4c2914892ec170bf",
+    "title": "Adaptive Video Task Offloading Based on Mobile Vehicle Assistance",
+    "year": 2024,
+    "venue": "2024 IEEE 7th Information Technology, Networking, Electronic and Automation Control Conference (ITNEC)",
+    "authors": [
+        "Mengyuan Ma",
+        "Luyao Wang",
+        "Shizhao Ma",
+        "Shuquan Feng"
+    ],
+    "doi": "10.1109/ITNEC60942.2024.10733242",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9435f256b4d4bece7fc7592b4c2914892ec170bf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the increasing number of Internet of Things(IoT) devices, many computationally intensive vedio tasks need to be processed. Mobile edge computing(MEC) has emerged as an effective solution, but a large number of real-time video tasks are still in the queue especially in congested traffic areas or busy periods. Considering the abundance of idle computing resources in moving vehicles on roads, this paper utilizes moving vehicles to assist edge servers in offloading video tasks. Firstly, the dwell time of vehicles calculated by the movement trajectory of vehicles is used to select candidate vehicles for task offloading. Secondly, the channel quality for video task transmission is analyzed and network bandwidth is predicted. Additionally, a QoE model is constructed, and we propose a bitrate adaptive selection algorithm that can transmit videos with the highest possible resolution. The simulation proves that our proposed method can provide more efficient and stable offloading services.",
+    "citationCount": 0,
+    "referenceCount": 12
+}

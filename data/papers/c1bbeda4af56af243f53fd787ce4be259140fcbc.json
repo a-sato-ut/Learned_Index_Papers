@@ -1,0 +1,44 @@
+{
+    "paperId": "c1bbeda4af56af243f53fd787ce4be259140fcbc",
+    "title": "Accelerating PDE-Constrained Optimization by the Derivative of Neural Operators",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ze Cheng",
+        "Zhuoyu Li",
+        "Xiaoqiang Wang",
+        "Jianing Huang",
+        "Zhizhou Zhang",
+        "Zhongkai Hao",
+        "Hang Su"
+    ],
+    "doi": "10.48550/arXiv.2506.13120",
+    "arxivId": "2506.13120",
+    "url": "https://www.semanticscholar.org/paper/c1bbeda4af56af243f53fd787ce4be259140fcbc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "PDE-Constrained Optimization (PDECO) problems can be accelerated significantly by employing gradient-based methods with surrogate models like neural operators compared to traditional numerical solvers. However, this approach faces two key challenges: (1) **Data inefficiency**: Lack of efficient data sampling and effective training for neural operators, particularly for optimization purpose. (2) **Instability**: High risk of optimization derailment due to inaccurate neural operator predictions and gradients. To address these challenges, we propose a novel framework: (1) **Optimization-oriented training**: we leverage data from full steps of traditional optimization algorithms and employ a specialized training method for neural operators. (2) **Enhanced derivative learning**: We introduce a *Virtual-Fourier* layer to enhance derivative learning within the neural operator, a crucial aspect for gradient-based optimization. (3) **Hybrid optimization**: We implement a hybrid approach that integrates neural operators with numerical solvers, providing robust regularization for the optimization process. Our extensive experimental results demonstrate the effectiveness of our model in accurately learning operators and their derivatives. Furthermore, our hybrid optimization approach exhibits robust convergence.",
+    "citationCount": 0,
+    "referenceCount": 44
+}

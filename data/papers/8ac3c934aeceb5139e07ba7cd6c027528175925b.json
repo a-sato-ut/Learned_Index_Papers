@@ -1,0 +1,37 @@
+{
+    "paperId": "8ac3c934aeceb5139e07ba7cd6c027528175925b",
+    "title": "Crop Information Retrieval Framework Based on LDW-Ontology and SNM-BERT Techniques",
+    "year": 2023,
+    "venue": "Information Technology and Control",
+    "authors": [
+        "K. Ezhilarasi",
+        "D. M. Hussain",
+        "M. Sowmiya",
+        "N. Krishnamoorthy"
+    ],
+    "doi": "10.5755/j01.itc.52.3.31945",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8ac3c934aeceb5139e07ba7cd6c027528175925b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://itc.ktu.lt/index.php/ITC/article/download/31945/16051",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Agricultural and Food Sciences",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Currently, on the Internet, the information about agriculture is augmenting extremely; thus, searching for precise, relevant data of various details is highly complicated. To deal with particular difficulties like lower relevancy rate, false detection of retrieval resources, poor similarity rate, unstructured data format, multivariate data, irrelevant spelling, and higher computation time, an intelligent Information Retrieval (IR) system is required. An IR Framework centered on Levenshtein Distance Weight-centric Ontology (LDW-Ontology) and Sutskever Nesterov Momentum-centred Bidirectional Encoder Representation from Transformer (SNM-BERT) methodologies is presented here to overcome the complications as mentioned earlier. Firstly, the data is pre-processed, transmuting the unstructured data into a structured format, thus mitigating the error probabilities. Then, the LDW-Crop Ontology construction is done regarding the structured data. In the methodology presented, significance, frequency,and the suggestion of word in mind are considered to build Crop ontology. In the MongoDB database, the data being constructed are amassed. Then, by utilizing SNM-BERT, the data is trained for IR regarding clustered input produced by Inter Quartile Pruning Range-centred Hierarchical Divisive Clustering (IQPR-HDC) model. The LDW is computed for the provided user query; subsequently, the similarity evaluation outcomes are obtained from the database. The experiential evaluation displays that when analogized with the prevailing methodologies, a better accuracy of 94 % for simple queries and 92% for complex queries is achieved. Along with retrieval rate with lower computation time is achieved by the proposed methodology.",
+    "citationCount": 3,
+    "referenceCount": 27
+}

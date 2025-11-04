@@ -1,0 +1,40 @@
+{
+    "paperId": "a01aa16ba8f8b9541577e49f54f701df5bfb6105",
+    "title": "An Atari Model Zoo for Analyzing, Visualizing, and Comparing Deep Reinforcement Learning Agents",
+    "year": 2018,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "authors": [
+        "F. Such",
+        "Vashisht Madhavan",
+        "Rosanne Liu",
+        "Rui Wang",
+        "P. S. Castro",
+        "Yulun Li",
+        "Ludwig Schubert",
+        "Marc G. Bellemare",
+        "J. Clune",
+        "J. Lehman"
+    ],
+    "doi": "10.24963/ijcai.2019/452",
+    "arxivId": "1812.07069",
+    "url": "https://www.semanticscholar.org/paper/a01aa16ba8f8b9541577e49f54f701df5bfb6105",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.ijcai.org/proceedings/2019/0452.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Much human and computational effort has aimed to improve how deep reinforcement learning (DRL) algorithms perform on benchmarks such as the Atari Learning Environment. Comparatively less effort has focused on understanding what has been learned by such methods, and investigating and comparing the representations learned by different families of DRL algorithms. Sources of friction include the onerous computational requirements, and general logistical and architectural complications for running DRL algorithms at scale. We lessen this friction, by (1) training several algorithms at scale and releasing trained models, (2) integrating with a previous DRL model release, and (3) releasing code that makes it easy for anyone to load, visualize, and analyze such models. This paper introduces the Atari Zoo framework, which contains models trained across benchmark Atari games, in an easy-to-use format, as well as code that implements common modes of analysis and connects such models to a popular neural network visualization library. Further, to demonstrate the potential of this dataset and software package, we show initial quantitative and qualitative comparisons between the performance and representations of several DRL algorithms, highlighting interesting and previously unknown distinctions between them.",
+    "citationCount": 54,
+    "referenceCount": 59
+}

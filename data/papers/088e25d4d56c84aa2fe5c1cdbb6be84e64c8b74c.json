@@ -1,0 +1,33 @@
+{
+    "paperId": "088e25d4d56c84aa2fe5c1cdbb6be84e64c8b74c",
+    "title": "OTIF: Efficient Tracker Pre-processing over Large Video Datasets",
+    "year": 2022,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "F. Bastani",
+        "Sam Madden"
+    ],
+    "doi": "10.1145/3514221.3517835",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/088e25d4d56c84aa2fe5c1cdbb6be84e64c8b74c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3514221.3517835",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Performing analytics tasks over large-scale video datasets is increasingly common in a wide range of applications, from traffic planning to sports analytics. These tasks generally involve object detection and tracking operations that require pre-processing the video through expensive machine learning models. To address this cost, several video query optimizers have recently been proposed. Broadly, these methods trade large reductions in pre-processing cost for increases in query execution cost: during query execution, they apply query-specific machine learning operations over portions of the video dataset. Although video query optimizers reduce the overall cost of executing a single query over large video datasets compared to naive object tracking methods, executing several queries over the same video remains cost-prohibitive; moreover, the high per-query latency makes these systems unsuitable for exploratory analytics where fast response times are crucial. In this paper, we present OTIF, a video pre-processor that efficiently extracts all object tracks from large-scale video datasets. By integrating several optimizations under a joint parameter tuning framework, OTIF is able to extract all object tracks from video as fast as existing video query optimizers can execute just one single query. In contrast to the outputs of video query optimizers, OTIF's outputs are general-purpose object tracks that can be used to execute many queries with sub-second latencies. We compare OTIF against three recent video query optimizers, as well as several general-purpose object detection and tracking techniques, and find that, across multiple datasets, OTIF provides a 6x to 25x average reduction in the overall cost to execute five queries over the same video.",
+    "citationCount": 22,
+    "referenceCount": 28
+}

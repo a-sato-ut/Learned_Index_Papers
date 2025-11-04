@@ -1,0 +1,40 @@
+{
+    "paperId": "662e891fba7e8f4349c0c7f2c3cf2ba7417c4b3a",
+    "title": "Reinforcement Learning Based Congestion Control in a Real Environment",
+    "year": 2020,
+    "venue": "International Conference on Computer Communications and Networks",
+    "authors": [
+        "Lei Zhang",
+        "Kewei Zhu",
+        "Junchen Pan",
+        "Hang Shi",
+        "Yong Jiang",
+        "Yong Cui"
+    ],
+    "doi": "10.1109/ICCCN49398.2020.9209750",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/662e891fba7e8f4349c0c7f2c3cf2ba7417c4b3a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Congestion control plays an important role in the Internet to handle real-world network traffic. It has been dominated by hand-crafted heuristics for decades. Recently, reinforcement learning shows great potentials to automatically learn optimal or near-optimal control policies to enhance the performance of congestion control. However, existing solutions train agents in either simulators or emulators, which cannot fully reflect the real-world environment and degrade the performance of network communication. In order to eliminate the performance degradation caused by training in the simulated environment, we first highlight the necessity and challenges to train a learningbased agent in real-world networks. Then we propose a framework, ARC, for learning congestion control policies in a real environment based on asynchronous execution and demonstrate its effectiveness in accelerating the training. We evaluate our scheme on the real testbed and compare it with state-of-the-art congestion control schemes. Experimental results demonstrate that our schemes can achieve higher throughput and lower latency in comparison with existing schemes.",
+    "citationCount": 11,
+    "referenceCount": 37
+}

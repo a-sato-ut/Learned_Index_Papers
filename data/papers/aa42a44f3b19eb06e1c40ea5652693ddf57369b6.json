@@ -1,0 +1,36 @@
+{
+    "paperId": "aa42a44f3b19eb06e1c40ea5652693ddf57369b6",
+    "title": "Towards Behavior-Level Explanation for Deep Reinforcement Learning",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Xuan Chen",
+        "Zifan Wang",
+        "Yucai Fan",
+        "Bonan Jin",
+        "Piotr (Peter) Mardziel",
+        "Carlee Joe-Wong",
+        "Anupam Datta"
+    ],
+    "doi": null,
+    "arxivId": "2009.08507",
+    "url": "https://www.semanticscholar.org/paper/aa42a44f3b19eb06e1c40ea5652693ddf57369b6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "While Deep Neural Networks (DNNs) are becoming the state-of-the-art for many tasks including reinforcement learning (RL), they are especially resistant to human scrutiny and understanding. Input attributions have been a foundational building block for DNN expalainabilty but face new challenges when applied to deep RL. We address the challenges with two novel techniques. We define a class of \\emph{behaviour-level attributions} for explaining agent behaviour beyond input importance and interpret existing attribution methods on the behaviour level. We then introduce \\emph{$\\lambda$-alignment}, a metric for evaluating the performance of behaviour-level attributions methods in terms of whether they are indicative of the agent actions they are meant to explain. Our experiments on Atari games suggest that perturbation-based attribution methods are significantly more suitable to deep RL than alternatives from the perspective of this metric. We argue that our methods demonstrate the minimal set of considerations for adopting general DNN explanation technology to the unique aspects of reinforcement learning and hope the outlined direction can serve as a basis for future research on understanding Deep RL using attribution.",
+    "citationCount": 2,
+    "referenceCount": 38
+}

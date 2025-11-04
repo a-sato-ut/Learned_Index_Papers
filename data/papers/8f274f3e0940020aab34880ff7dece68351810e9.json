@@ -1,0 +1,36 @@
+{
+    "paperId": "8f274f3e0940020aab34880ff7dece68351810e9",
+    "title": "Approximate Nearest Neighbor Search of Large Scale Vectors on Distributed Storage",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Kun Yu",
+        "Jiabao Jin",
+        "Xiaoyao Zhong",
+        "Peng Cheng",
+        "Lei Chen",
+        "Zhitao Shen",
+        "Jingkuan Song",
+        "H. Shen",
+        "Xuemin Lin"
+    ],
+    "doi": null,
+    "arxivId": "2510.17326",
+    "url": "https://www.semanticscholar.org/paper/8f274f3e0940020aab34880ff7dece68351810e9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate Nearest Neighbor Search (ANNS) in high-dimensional space is an essential operator in many online services, such as information retrieval and recommendation. Indices constructed by the state-of-the-art ANNS algorithms must be stored in single machine's memory or disk for high recall rate and throughput, suffering from substantial storage cost, constraint of limited scale and single point of failure. While distributed storage can provide a cost-effective and robust solution, there is no efficient and effective algorithms for indexing vectors in distributed storage scenarios. In this paper, we present a new graph-cluster hybrid indexing and search system which supports Distributed Storage Approximate Nearest Neighbor Search, called DSANN. DSANN can efficiently index, store, search billion-scale vector database in distributed storage and guarantee the high availability of index service. DSANN employs the concurrent index construction method to significantly reduces the complexity of index building. Then, DSANN applies Point Aggregation Graph to leverage the structural information of graph to aggregate similar vectors, optimizing storage efficiency and improving query throughput via asynchronous I/O in distributed storage. Through extensive experiments, we demonstrate DSANN can efficiently and effectively index, store and search large-scale vector datasets in distributed storage scenarios.",
+    "citationCount": 0,
+    "referenceCount": 48
+}

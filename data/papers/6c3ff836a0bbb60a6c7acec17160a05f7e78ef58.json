@@ -1,0 +1,36 @@
+{
+    "paperId": "6c3ff836a0bbb60a6c7acec17160a05f7e78ef58",
+    "title": "ML-Pushback: Machine Learning Based Pushback Defense Against DDoS",
+    "year": 2019,
+    "venue": "CoNEXT Companion",
+    "authors": [
+        "Yu Mi",
+        "An Wang"
+    ],
+    "doi": "10.1145/3360468.3368188",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6c3ff836a0bbb60a6c7acec17160a05f7e78ef58",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "DDoS attack has been a consistent threat for network security over the past two decades, and they are growing more prevalent and stronger. Pushback was proposed a mechanism for defending against DDoS attacks by throttling the offending traffic near the source of the attacks. In this paper, we redesign the Pushback mechanism to leverage the power of the advanced machine learning techniques, and implement a framework in the programmable network systems, called ML-Pushback. Our preliminary results demonstrate that ML-Pushback could identify the patterns of the offending traffic accurately. Meanwhile, ML-Pushback does not introduce significant overhead to enable efficient data collections in the switches.",
+    "citationCount": 12,
+    "referenceCount": 6
+}

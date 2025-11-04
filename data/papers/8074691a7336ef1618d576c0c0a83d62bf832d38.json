@@ -1,0 +1,35 @@
+{
+    "paperId": "8074691a7336ef1618d576c0c0a83d62bf832d38",
+    "title": "Permutation Equivariant Document Interaction Network for Neural Learning to Rank",
+    "year": 2020,
+    "venue": "International Conference on the Theory of Information Retrieval",
+    "authors": [
+        "Rama Kumar Pasumarthi",
+        "Honglei Zhuang",
+        "Xuanhui Wang",
+        "Michael Bendersky",
+        "Marc Najork"
+    ],
+    "doi": "10.1145/3409256.3409819",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8074691a7336ef1618d576c0c0a83d62bf832d38",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3409256.3409819",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "How to leverage cross-document interactions to improve ranking performance is an important topic in information retrieval research. The recent developments in deep learning show strength in modeling complex relationships across sequences and sets. It thus motivates us to study how to leverage cross-document interactions for learning-to-rank in the deep learning framework. In this paper, we formally define the permutation equivariance requirement for a scoring function that captures cross-document interactions. We then propose a self-attention based document interaction network that extends any univariate scoring function with contextual features capturing cross-document interactions. We show that it satisfies the permutation equivariance requirement, and can generate scores for document sets of varying sizes. Our proposed methods can automatically learn to capture document interactions without any auxiliary information, and can scale across large document sets. We conduct experiments on four ranking datasets: the public benchmarks WEB30K and Istella, as well as Gmail search and Google Drive Quick Access datasets. Experimental results show that our proposed methods lead to significant quality improvements over state-of-the-art neural ranking models, and are competitive with state-of-the-art gradient boosted decision tree (GBDT) based models on the WEB30K dataset.",
+    "citationCount": 20,
+    "referenceCount": 19
+}

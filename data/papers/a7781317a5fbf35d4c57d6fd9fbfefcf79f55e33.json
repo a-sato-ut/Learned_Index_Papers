@@ -1,0 +1,33 @@
+{
+    "paperId": "a7781317a5fbf35d4c57d6fd9fbfefcf79f55e33",
+    "title": "QPS- Fit: An Efficient and Performant Parallel Algorithm for Hybrid Optical and Packet Switching",
+    "year": 2025,
+    "venue": "IEEE International Conference on Cloud Computing",
+    "authors": [
+        "Dongzhao Song",
+        "Jingfan Meng",
+        "Qianru Yu",
+        "Jun Xu"
+    ],
+    "doi": "10.1109/CLOUD67622.2025.00047",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a7781317a5fbf35d4c57d6fd9fbfefcf79f55e33",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The relentless growth of sizes and traffic volumes in data center networks (DCN) is posing a significant challenge on switching: A single giant switch in a modern flattened-topology DCN needs to direct terabits of traffic per second to hundreds of top-of-rack switches in a low latency of just a few milliseconds. The vast majority of existing switching schedulers have yet to address this challenge: Traffic-oblivious RODCN (reconfigurable optical DCN) schedulers do not have high throughput utilization, whereas on-demand hybrid (circuit and packet) switching schedulers are too computationally expensive. To this end, we propose an efficient and performant hybrid switching scheduler, named QPS-Fit, which computes high-quality on-demand schedules in a fully parallelizable way. Our algorithm simultaneously fits many transmissions into the schedule, all by parallel “dirt-cheap” request-grant message exchanges between input and output ports. According to our simulation, QPS-Fit achieves similar throughput utilization as BFF, the state-of-the-art on-demand hybrid switching scheduler, while being nearly 27× faster when running on 96 threads.",
+    "citationCount": 0,
+    "referenceCount": 65
+}

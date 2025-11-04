@@ -1,0 +1,39 @@
+{
+    "paperId": "f4181dd9995560cabacf21c2a7d261fe44d6e104",
+    "title": "MOOP: An Efficient Utility-Rich Route Planning Framework Over Two-Fold Time-Dependent Road Networks",
+    "year": 2023,
+    "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "authors": [
+        "Liping Gao",
+        "Chaoxiong Chen",
+        "Feng Chu",
+        "Chengwu Liao",
+        "Hongyu Huang",
+        "Yasha Wang"
+    ],
+    "doi": "10.1109/TETCI.2023.3241930",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f4181dd9995560cabacf21c2a7d261fe44d6e104",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Utility-rich (e.g., more attractive or safer) route planning on city-scale road networks is a common yet time-consuming task. Although both travel time and utility on edges are time-dependent concurrently in real cases, they are overlooked in most prior work. In this paper, we focus on the route planning over two-fold time-dependent road networks, i.e., both travel time and utility on edges are varying over time. We aim to find a route from an origin to a destination by maximizing the accumulated utility score within a time budget. Moreover, to satisfy users' real-time requests, the fast response is usually mandatory. Here, we propose a novel two-phase framework called MOOP, i.e., Managing Offline data for Online route Planning, to discover the near-optimal driving routes efficiently. Specifically, in the offline phase, we construct the auxiliary data structure, i.e., the edge table, to manage the time-dependent information about edges. In the following online phase, the route is generated sequentially by an iterative edge table visiting process. We evaluate the proposed MOOP thoroughly based on synthetic road networks and two real-world road networks in the city of Chengdu (4,819 nodes and 6,385 edges) and the city of Chongqing (5,056 nodes and 7,355 edges) in China. Results show that: (i) our framework can work adaptively for different time-varying utility patterns; (ii) the edge table is economic yet effective; (iii) our route planning algorithm outperforms other baselines in obtaining the highest utility value while costing the least running time.",
+    "citationCount": 3,
+    "referenceCount": 59
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "a8bed1d0b5fff62f3b8d78bceb463f39f8557248",
+    "title": "Software Rasterization of 2 Billion Points in Real Time",
+    "year": 2022,
+    "venue": "Proceedings of the ACM on Computer Graphics and Interactive Techniques",
+    "authors": [
+        "Markus Schütz",
+        "Bernhard Kerbl",
+        "M. Wimmer"
+    ],
+    "doi": "10.1145/3543863",
+    "arxivId": "2204.01287",
+    "url": "https://www.semanticscholar.org/paper/a8bed1d0b5fff62f3b8d78bceb463f39f8557248",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3543863",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The accelerated collection of detailed real-world 3D data in the form of ever-larger point clouds is sparking a demand for novel visualization techniques that are capable of rendering billions of point primitives in real-time. We propose a software rasterization pipeline for point clouds that is capable of rendering up to two billion points in real-time (60 FPS) on commodity hardware. Improvements over the state of the art are achieved by batching points, enabling a number of batch-level optimizations before rasterizing them within the same rendering pass. These optimizations include frustum culling, level-of-detail (LOD) rendering, and choosing the appropriate coordinate precision for a given batch of points directly within a compute workgroup. Adaptive coordinate precision, in conjunction with visibility buffers, reduces the required data for the majority of points to just four bytes, making our approach several times faster than the bandwidth-limited state of the art. Furthermore, support for LOD rendering makes our software rasterization approach suitable for rendering arbitrarily large point clouds, and to meet the elevated performance demands of virtual reality applications.",
+    "citationCount": 42,
+    "referenceCount": 52
+}

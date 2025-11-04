@@ -1,0 +1,39 @@
+{
+    "paperId": "4f01fe4be66db1a42dff91ed565030c3fedf6b39",
+    "title": "Learned data structures for per-flow measurements",
+    "year": 2022,
+    "venue": "StudentWorkshop@CoNEXT",
+    "authors": [
+        "Andrea Monterubbiano",
+        "Raphaël Azorin",
+        "Gabriele Castellano",
+        "Massimo Gallo",
+        "Salvatore Pontarelli"
+    ],
+    "doi": "10.1145/3565477.3569147",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4f01fe4be66db1a42dff91ed565030c3fedf6b39",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This work presents a generic framework that exploits learning to improve the quality of network measurements. The main idea of this work is to reuse measures collected by the network monitoring tasks to train an ML model that learns some per-flow characteristics and improves the measurement quality re-configuring the memory according to the learned information. We applied this idea to two different monitoring tasks, we identify the main issues related to this approach and we present some preliminary results.",
+    "citationCount": 0,
+    "referenceCount": 6
+}

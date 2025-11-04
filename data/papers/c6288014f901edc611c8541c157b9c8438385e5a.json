@@ -1,0 +1,38 @@
+{
+    "paperId": "c6288014f901edc611c8541c157b9c8438385e5a",
+    "title": "Employing artificial intelligence to steer exascale workflows with colmena",
+    "year": 2024,
+    "venue": "The international journal of high performance computing applications",
+    "authors": [
+        "Logan Ward",
+        "J. G. Pauloski",
+        "Valérie Hayot-Sasson",
+        "Y. Babuji",
+        "Alexander Brace",
+        "Ryan Chard",
+        "Kyle Chard",
+        "Rajeev Thakur",
+        "Ian T. Foster"
+    ],
+    "doi": "10.1177/10943420241288242",
+    "arxivId": "2408.14434",
+    "url": "https://www.semanticscholar.org/paper/c6288014f901edc611c8541c157b9c8438385e5a",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2408.14434",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Computational workflows are a common class of application on supercomputers, yet the loosely coupled and heterogeneous nature of workflows often fails to take full advantage of their capabilities. We created Colmena to leverage the massive parallelism of a supercomputer by using Artificial Intelligence (AI) to learn from and adapt a workflow as it executes. Colmena allows scientists to define how their application should respond to events (e.g., task completion) as a series of cooperative agents. In this paper, we describe the design of Colmena, the challenges we overcame while deploying applications on exascale systems, and the science workflows we have enhanced through interweaving AI. The scaling challenges we discuss include developing steering strategies that maximize node utilization, introducing data fabrics that reduce communication overhead of data-intensive tasks, and implementing workflow tasks that cache costly operations between invocations. These innovations coupled with a variety of application patterns accessible through our agent-based steering model have enabled science advances in chemistry, biophysics, and materials science using different types of AI. Our vision is that Colmena will spur creative solutions that harness AI across many domains of scientific computing.",
+    "citationCount": 6,
+    "referenceCount": 73
+}

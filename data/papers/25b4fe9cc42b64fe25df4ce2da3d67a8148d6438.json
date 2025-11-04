@@ -1,0 +1,35 @@
+{
+    "paperId": "25b4fe9cc42b64fe25df4ce2da3d67a8148d6438",
+    "title": "Self-Attention Mechanisms in HPC Job Scheduling: A Novel Framework Combining Gated Transformers and Enhanced PPO",
+    "year": 2025,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Xu Gao",
+        "Hang Dong",
+        "Lianji Zhang",
+        "Yibo Wang",
+        "Xianliang Yang",
+        "Zhenyu Li"
+    ],
+    "doi": "10.3390/app15168928",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/25b4fe9cc42b64fe25df4ce2da3d67a8148d6438",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In HPC systems, job scheduling plays a critical role in determining resource allocation and task execution order. With the continuous expansion of computing scale and increasing system complexity, modern HPC scheduling faces two major challenges: a massive decision space consisting of tens of thousands of computing nodes and a huge job queue, as well as complex temporal dependencies between jobs and dynamically changing resource states.Traditional heuristic algorithms and basic reinforcement learning methods often struggle to effectively address these challenges in dynamic HPC environments. This study proposes a novel scheduling framework that combines GTrXL with PPO, achieving significant performance improvements through multiple technical innovations. The framework leverages the sequence modeling capabilities of the Transformer architecture and selectively filters relevant historical scheduling information through a dual-gate mechanism, improving long sequence modeling efficiency compared to standard Transformers. The proposed SECT module further enhances resource awareness through dynamic feature recalibration, achieving improved system utilization compared to similar attention mechanisms. Experimental results on multiple datasets (ANL-Intrepid, Alibaba, SDSC-SP2) demonstrate that the proposed components achieve significant performance improvements over baseline PPO implementations. Comprehensive evaluations on synthetic workloads and real HPC trace data show improvements in resource utilization and waiting time, particularly under high-load conditions, while maintaining good robustness across various cluster configurations.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

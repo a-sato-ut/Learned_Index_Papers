@@ -1,0 +1,39 @@
+{
+    "paperId": "836e4a8b665f46729e55e7674b4d8b0df6c1d091",
+    "title": "Inspirational Adversarial Image Generation",
+    "year": 2021,
+    "venue": "IEEE Transactions on Image Processing",
+    "authors": [
+        "Baptiste Rozière",
+        "M. Rivière",
+        "O. Teytaud",
+        "J. Rapin",
+        "Yann LeCun",
+        "C. Couprie"
+    ],
+    "doi": "10.1109/TIP.2021.3065845",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/836e4a8b665f46729e55e7674b4d8b0df6c1d091",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1906.11661",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The task of image generation started receiving some attention from artists and designers, providing inspiration for new creations. However, exploiting the results of deep generative models such as Generative Adversarial Networks can be long and tedious given the lack of existing tools. In this work, we propose a simple strategy to inspire creators with new generations learned from a dataset of their choice, while providing some control over the output. We design a simple optimization method to find the optimal latent parameters corresponding to the closest generation to any input inspirational image. Specifically, we allow the generation given an inspirational image of the user’s choosing by performing several optimization steps to recover optimal parameters from the model’s latent space. We tested several exploration methods from classical gradient descents to gradient-free optimizers. Many gradient-free optimizers just need comparisons (better/worse than another image), so they can even be used without numerical criterion nor inspirational image, only with human preferences. Thus, by iterating on one’s preferences we can make robust facial composite or fashion generation algorithms. Our results on four datasets of faces, fashion images, and textures show that satisfactory images are effectively retrieved in most cases.",
+    "citationCount": 3,
+    "referenceCount": 62
+}

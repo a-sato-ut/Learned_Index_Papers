@@ -1,0 +1,40 @@
+{
+    "paperId": "ac8f354f62685f838612b7e573f6bc61f60140a6",
+    "title": "Π-ML: A dimensional analysis-based machine learning parameterization of optical turbulence in the atmospheric surface layer",
+    "year": 2023,
+    "venue": "Optics Letters",
+    "authors": [
+        "Maximilian Pierzyna",
+        "R. Saathof",
+        "S. Basu"
+    ],
+    "doi": "10.1364/OL.492652",
+    "arxivId": "2304.12177",
+    "url": "https://www.semanticscholar.org/paper/ac8f354f62685f838612b7e573f6bc61f60140a6",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://repository.tudelft.nl/islandora/object/uuid%3A85251876-39b5-49c0-9a7f-015174ccee7e/datastream/OBJ/download",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Turbulent fluctuations of the atmospheric refraction index, so-called optical turbulence, can significantly distort propagating laser beams. Therefore, modeling the strength of these fluctuations (C n2) is highly relevant for the successful development and deployment of future free-space optical communication links. In this Letter, we propose a physics-informed machine learning (ML) methodology, Π-ML, based on dimensional analysis and gradient boosting to estimate C n2. Through a systematic feature importance analysis, we identify the normalized variance of potential temperature as the dominating feature for predicting C n2. For statistical robustness, we train an ensemble of models which yields high performance on the out-of-sample data of R2 = 0.958 ± 0.001.",
+    "citationCount": 4,
+    "referenceCount": 27
+}

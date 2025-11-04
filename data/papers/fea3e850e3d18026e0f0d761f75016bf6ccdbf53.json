@@ -1,0 +1,36 @@
+{
+    "paperId": "fea3e850e3d18026e0f0d761f75016bf6ccdbf53",
+    "title": "Few-Shot Conversational Dense Retrieval",
+    "year": 2021,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "S. Yu",
+        "Zhenghao Liu",
+        "Chenyan Xiong",
+        "Tao Feng",
+        "Zhiyuan Liu"
+    ],
+    "doi": "10.1145/3404835.3462856",
+    "arxivId": "2105.04166",
+    "url": "https://www.semanticscholar.org/paper/fea3e850e3d18026e0f0d761f75016bf6ccdbf53",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2105.04166",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Dense retrieval (DR) has the potential to resolve the query understanding challenge in conversational search by matching in the learned embedding space. However, this adaptation is challenging due to DR models' extra needs for supervision signals and the long-tail nature of conversational search. In this paper, we present a Conversational Dense Retrieval system, ConvDR, that learns contextualized embeddings for multi-turn conversational queries and retrieves documents solely using embedding dot products. In addition, we grant ConvDR few-shot ability using a teacher-student framework, where we employ an ad hoc dense retriever as the teacher, inherit its document encodings, and learn a student query encoder to mimic the teacher embeddings on oracle reformulated queries. Our experiments on TREC CAsT and OR-QuAC demonstrate ConvDR's effectiveness in both few-shot and fully-supervised settings. It outperforms previous systems that operate in the sparse word space, matches the retrieval accuracy of oracle query reformulations, and is also more efficient thanks to its simplicity. Our analyses reveal that the advantages of ConvDR come from its ability to capture informative context while ignoring the unrelated context in previous conversation rounds. This makes ConvDR more effective as conversations evolve while previous systems may get confused by the increased noise from previous turns. Our code is publicly available at https://github.com/thunlp/ConvDR.",
+    "citationCount": 139,
+    "referenceCount": 49
+}

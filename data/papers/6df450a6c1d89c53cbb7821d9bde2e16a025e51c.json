@@ -1,0 +1,33 @@
+{
+    "paperId": "6df450a6c1d89c53cbb7821d9bde2e16a025e51c",
+    "title": "Fast Disjunctive Candidate Generation Using Live Block Filtering",
+    "year": 2021,
+    "venue": "Web Search and Data Mining",
+    "authors": [
+        "Antonio Mallia",
+        "Michal Siedlaczek",
+        "Torsten Suel"
+    ],
+    "doi": "10.1145/3437963.3441813",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6df450a6c1d89c53cbb7821d9bde2e16a025e51c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A lot of research has focused on the efficiency of search engine query processing, and in particular on disjunctive top-k queries that return the highest scoring k results that contain at least one of the query terms. Disjunctive top-k queries over simple ranking functions are commonly used to retrieve an initial set of candidate results that are then reranked by more complex, often machine-learned rankers. Many optimized top-k algorithms have been proposed, including MaxScore, WAND, BMW, and JASS. While the fastest methods achieve impressive results on top-10 and top-100 queries, they tend to become much slower for the larger k commonly used for candidate generation. In this paper, we focus on disjunctive top-k queries for larger k. We propose new algorithms that achieve much faster query processing for values of k up to thousands or tens of thousands. Our algorithms build on top of the live-block filtering approach of Dimopoulos et al, and exploit the SIMD capabilities of modern CPUs. We also perform a detailed experimental comparison of our methods with the fastest known approaches, and release a full model implementation of our methods and of the underlying live-block mechanism, which will allows others to design and experiment with additional methods under the live-block approach.",
+    "citationCount": 13,
+    "referenceCount": 39
+}

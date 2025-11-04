@@ -1,0 +1,27 @@
+{
+    "paperId": "a5c622594f74791c15291518e524da8001ce9431",
+    "title": "Document retrieval using term term frequency inverse sentence frequency weighting scheme",
+    "year": 2023,
+    "venue": "Indonesian Journal of Electrical Engineering and Computer Science",
+    "authors": [
+        "Mohannad T. Mohammed",
+        "O. Rashid"
+    ],
+    "doi": "10.11591/ijeecs.v31.i3.pp1478-1485",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a5c622594f74791c15291518e524da8001ce9431",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ijeecs.iaescore.com/index.php/IJEECS/article/download/30532/17557",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The need for an efficient method to find the furthermost appropriate document corresponding to a particular search query has become crucial due to the exponential development in the number of papers that are now readily available to us on the web. The vector space model (VSM) a perfect model used in “information retrieval”, represents these words as a vector in space and gives them weights via a popular weighting method known as term frequency inverse document frequency (TF-IDF). In this research, work has been proposed to retrieve the most relevant document focused on representing documents and queries as vectors comprising average term term frequency inverse sentence frequency (TF-ISF) weights instead of representing them as vectors of term TF-IDF weight and two basic and effective similarity measures: Cosine and Jaccard were used. Using the MS MARCO dataset, this article analyzes and assesses the retrieval effectiveness of the TF-ISF weighting scheme. The result shows that the TF-ISF model with the Cosine similarity measure retrieves more relevant documents. The model was evaluated against the conventional TF-ISF technique and shows that it performs significantly better on MS MARCO data (Microsoft-curated data of Bing queries).",
+    "citationCount": 7,
+    "referenceCount": 25
+}

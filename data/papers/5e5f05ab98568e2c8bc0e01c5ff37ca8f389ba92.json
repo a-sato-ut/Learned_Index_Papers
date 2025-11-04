@@ -1,0 +1,40 @@
+{
+    "paperId": "5e5f05ab98568e2c8bc0e01c5ff37ca8f389ba92",
+    "title": "M2MRF: Many-to-Many Reassembly of Features for Tiny Lesion Segmentation in Fundus Images",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Qing Liu",
+        "Haotian Liu",
+        "Yixiong Liang"
+    ],
+    "doi": null,
+    "arxivId": "2111.00193",
+    "url": "https://www.semanticscholar.org/paper/5e5f05ab98568e2c8bc0e01c5ff37ca8f389ba92",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Feature reassembly is an essential component in modern CNN-based segmentation approaches, which includes feature downsampling and upsampling operators. Existing operators reassemble multiple features from a small predefined region into one for each target location independently. This may result in loss of spatial information, which could vanish activations caused by tiny lesions particularly when they cluster together. In this paper, we propose a many-to-many reassembly of features (M2MRF). It reassembles features in a dimension-reduced feature space and simultaneously aggregates multiple features inside a large predefined region into multiple target features. In this way, long range spatial dependencies are captured to maintain activations on tiny lesions. Experimental results on two lesion segmentation benchmarks, i.e. DDR and IDRiD, show that (1) our M2MRF outperforms existing feature reassembly operators; (2) equipped with our M2MRF, the HRNetv2 is able to achieve significant better performance to CNN-based segmentation methods and competitive even better performance to two recent transformer-based segmentation methods. Our code is made publicly available at https://github.com/CVIU-CSU/M2MRF-Lesion-Segmentation.",
+    "citationCount": 6,
+    "referenceCount": 51
+}

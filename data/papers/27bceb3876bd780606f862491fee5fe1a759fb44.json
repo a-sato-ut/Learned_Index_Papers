@@ -1,0 +1,35 @@
+{
+    "paperId": "27bceb3876bd780606f862491fee5fe1a759fb44",
+    "title": "Long-Range Feature Propagating for Natural Image Matting",
+    "year": 2021,
+    "venue": "ACM Multimedia",
+    "authors": [
+        "Qinglin Liu",
+        "Haozhe Xie",
+        "Shengping Zhang",
+        "Bineng Zhong",
+        "R. Ji"
+    ],
+    "doi": "10.1145/3474085.3475203",
+    "arxivId": "2109.12252",
+    "url": "https://www.semanticscholar.org/paper/27bceb3876bd780606f862491fee5fe1a759fb44",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2109.12252",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Natural image matting estimates the alpha values of unknown regions in the trimap. Recently, deep learning based methods propagate the alpha values from the known regions to unknown regions according to the similarity between them. However, we find that more than 50% pixels in the unknown regions cannot be correlated to pixels in known regions due to the limitation of small effective reception fields of common convolutional neural networks, which leads to inaccurate estimation when the pixels in the unknown regions cannot be inferred only with pixels in the reception fields. To solve this problem, we propose Long-Range Feature Propagating Network (LFPNet), which learns the long-range context features outside the reception fields for alpha matte estimation. Specifically, we first design the propagating module which extracts the context features from the downsampled image. Then, we present Center-Surround Pyramid Pooling (CSPP) that explicitly propagates the context features from the surrounding context image patch to the inner center image patch. Finally, we use the matting module which takes the image, trimap and context features to estimate the alpha matte. Experimental results demonstrate that the proposed method performs favorably against the state-of-the-art methods on the AlphaMatting and Adobe Image Matting datasets.",
+    "citationCount": 35,
+    "referenceCount": 44
+}

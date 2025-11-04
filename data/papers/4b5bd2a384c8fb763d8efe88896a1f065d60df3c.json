@@ -1,0 +1,40 @@
+{
+    "paperId": "4b5bd2a384c8fb763d8efe88896a1f065d60df3c",
+    "title": "Designing Machine Learning Surrogates using Outputs of Molecular Dynamics Simulations as Soft Labels",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "J. Kadupitiya",
+        "Nasim Anousheh",
+        "V. Jadhao"
+    ],
+    "doi": null,
+    "arxivId": "2110.14714",
+    "url": "https://www.semanticscholar.org/paper/4b5bd2a384c8fb763d8efe88896a1f065d60df3c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Materials Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Molecular dynamics simulations are powerful tools to extract the microscopic mechanisms characterizing the properties of soft materials. We recently introduced machine learning surrogates for molecular dynamics simulations of soft materials and demonstrated that artificial neural network based regression models can successfully predict the relationships between the input material attributes and the simulation outputs. Here, we show that statistical uncertainties associated with the outputs of molecular dynamics simulations can be utilized to train artificial neural networks and design machine learning surrogates with higher accuracy and generalizability. We design soft labels for the simulation outputs by incorporating the uncertainties in the estimated average output quantities, and introduce a modified loss function that leverages these soft labels during training to significantly reduce the surrogate prediction error for input systems in the unseen test data. The approach is illustrated with the design of a surrogate for molecular dynamics simulations of confined electrolytes to predict the complex relationship between the input electrolyte attributes and the output ionic structure. The surrogate predictions for the ionic density profiles show excellent agreement with the ground truth results produced using molecular dynamics simulations. The high accuracy and small inference times associated with the surrogate predictions provide quick access to quantities derived using the number density profiles and facilitate rapid sensitivity analysis.",
+    "citationCount": 0,
+    "referenceCount": 62
+}

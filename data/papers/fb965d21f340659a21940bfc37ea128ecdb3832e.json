@@ -1,0 +1,35 @@
+{
+    "paperId": "fb965d21f340659a21940bfc37ea128ecdb3832e",
+    "title": "MAML-RAL: Learning Domain-Invariant HOI Rules for Real-Time Video Matting",
+    "year": 2025,
+    "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+    "authors": [
+        "Jiang Xin",
+        "Sheng Yue",
+        "Jinrui Zhang",
+        "Ju Ren",
+        "Feng Qian",
+        "Yaoxue Zhang"
+    ],
+    "doi": "10.1109/TCSVT.2024.3504838",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fb965d21f340659a21940bfc37ea128ecdb3832e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Real-time video matting is essential for applications like online video conferencing but faces challenges in human-object interaction (HOI) scenarios, known as the HOI-matting problem. This problem is challenging due to its open-recognition nature, where no dataset can cover the wide range of potential HOI cases, making it difficult for feature-learning-based methods to generalize effectively. To address this issue, we present an HOI-matting dataset and introduce a Model-Agnostic Meta-Learning-based rule-aware learning approach (MAML-RAL). MAML-RAL combines transfer learning and meta-learning to capture domain-invariant HOI rules, complemented by a fast local adaptation strategy to counter domain shifts and background interference. Our method achieves a mean intersection-over-union (mIoU) of 92.3%, outperforming current algorithms, with local adaptation further boosting performance to a remarkable mIoU of 95.84%.",
+    "citationCount": 0,
+    "referenceCount": 58
+}

@@ -1,0 +1,28 @@
+{
+    "paperId": "af8b8dd0ab0c98abcac78b61d7f22bd6e9d14217",
+    "title": "Image Matting using Superpixels Centroid",
+    "year": 2024,
+    "venue": "Sir Syed University Research Journal of Engineering &amp; Technology",
+    "authors": [
+        "Anam Akbar",
+        "Aniqa Shirazi",
+        "Mohammad Sarim Farooqui"
+    ],
+    "doi": "10.33317/ssurj.564",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/af8b8dd0ab0c98abcac78b61d7f22bd6e9d14217",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://sirsyeduniversity.edu.pk/ssurj/rj/index.php/ssurj/article/download/564/200",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The orientation and focus of this research piece is the extraction of foreground and compositing this extracted region onto a new background region. This phenomenon is termed as image matting, which is more utilized in film production or digital media world. The proposed method approaches the ill-posed nature of image matting via non-parametric sampling based method along with the clustering technique known as Superpixel. In the proposed method, pixels of entire image(s) are tends to gather in close proximity under one unit (Superpixel) with respect to color, intensity and texture. This gathering in close proximity reduces the search space more than 20 times and helps in efficiently finding association of unknown region with the samples from background and foreground. The use of samples facilitates the pixel color assimilating with local image structure, which is significant to calculate a good resultant alpha matte particularly in the image having complex textured and in natural images. To the best of my knowledge, the matting problem using centroids of Superpixels has not previously been explored. Results are evaluated on different images on online benchmark dataset for image matting. Results are comparable to the different matting algorithms applied independently on images of dataset. Result shows that the proposed approach significantly improves the results.",
+    "citationCount": 0,
+    "referenceCount": 38
+}

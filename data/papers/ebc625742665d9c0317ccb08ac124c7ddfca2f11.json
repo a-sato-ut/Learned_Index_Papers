@@ -1,0 +1,44 @@
+{
+    "paperId": "ebc625742665d9c0317ccb08ac124c7ddfca2f11",
+    "title": "Neural network architectures using min-plus algebra for solving certain high-dimensional optimal control problems and Hamilton–Jacobi PDEs",
+    "year": 2021,
+    "venue": "MCSS. Mathematics of Control, Signals and Systems",
+    "authors": [
+        "J. Darbon",
+        "P. Dower",
+        "Tingwei Meng"
+    ],
+    "doi": "10.1007/s00498-022-00333-2",
+    "arxivId": "2105.03336",
+    "url": "https://www.semanticscholar.org/paper/ebc625742665d9c0317ccb08ac124c7ddfca2f11",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2105.03336",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Solving high-dimensional optimal control problems and corresponding Hamilton–Jacobi PDEs are important but challenging problems in control engineering. In this paper, we propose two abstract neural network architectures which are, respectively, used to compute the value function and the optimal control for certain class of high-dimensional optimal control problems. We provide the mathematical analysis for the two abstract architectures. We also show several numerical results computed using the deep neural network implementations of these abstract architectures. A preliminary implementation of our proposed neural network architecture on FPGAs shows promising speedup compared to CPUs. This work paves the way to leverage efficient dedicated hardware designed for neural networks to solve high-dimensional optimal control problems and Hamilton–Jacobi PDEs.",
+    "citationCount": 25,
+    "referenceCount": 166
+}

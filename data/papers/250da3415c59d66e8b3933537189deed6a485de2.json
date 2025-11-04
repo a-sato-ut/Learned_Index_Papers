@@ -1,0 +1,33 @@
+{
+    "paperId": "250da3415c59d66e8b3933537189deed6a485de2",
+    "title": "Multi-objective query optimization in Spark SQL",
+    "year": 2022,
+    "venue": "International Database Engineering and Applications Symposium",
+    "authors": [
+        "Michail Georgoulakis Misegiannis",
+        "Verena Kantere",
+        "Laurent d'Orazio"
+    ],
+    "doi": "10.1145/3548785.3548800",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/250da3415c59d66e8b3933537189deed6a485de2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://hal.inria.fr/hal-03925675/file/2022ideas.pdf",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query optimization is a challenging process of DBMSs. When tackling query optimization in the cloud, there exists a simultaneous need of providing an optimal physical query execution plan, as well as an optimal resource configuration among available ones. Cloud computing features like resource elasticity and pricing make the process of finding this optimal query plan a multi-objective problem, with the monetary cost being an equally important factor to query execution time. Apache Spark is a popular choice for managing big data in the cloud. However, query optimization in its SQL module (Spark SQL) involves a number of limitations due to the rule-based nature of its optimizer, Catalyst. We propose a multi-objective cost model for the extension of the query optimizer of Apache Spark, aiming to minimize both objectives of query execution time and monetary cost, as well as a methodology for exploring the space of Pareto-optimal query plans and selecting one. The cost model is implemented and tuned, and an experimental study is conducted to validate its accuracy.",
+    "citationCount": 3,
+    "referenceCount": 20
+}

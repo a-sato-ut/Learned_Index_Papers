@@ -1,0 +1,37 @@
+{
+    "paperId": "def2e28863338cb20782eb2015a39d32df697ed6",
+    "title": "Learning to Improve Code Efficiency",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Bing Chen",
+        "Daniel Tarlow",
+        "Kevin Swersky",
+        "M. Maas",
+        "P. Heiber",
+        "Ashish Naik",
+        "Milad Hashemi",
+        "Parthasarathy Ranganathan"
+    ],
+    "doi": "10.48550/arXiv.2208.05297",
+    "arxivId": "2208.05297",
+    "url": "https://www.semanticscholar.org/paper/def2e28863338cb20782eb2015a39d32df697ed6",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2208.05297",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Improvements in the performance of computing systems, driven by Moore's Law, have transformed society. As such hardware-driven gains slow down, it becomes even more important for software developers to focus on performance and efficiency during development. While several studies have demonstrated the potential from such improved code efficiency (e.g., 2x better generational improvements compared to hardware), unlocking these gains in practice has been challenging. Reasoning about algorithmic complexity and the interaction of coding patterns on hardware can be challenging for the average programmer, especially when combined with pragmatic constraints around development velocity and multi-person development. This paper seeks to address this problem. We analyze a large competitive programming dataset from the Google Code Jam competition and find that efficient code is indeed rare, with a 2x runtime difference between the median and the 90th percentile of solutions. We propose using machine learning to automatically provide prescriptive feedback in the form of hints, to guide programmers towards writing high-performance code. To automatically learn these hints from the dataset, we propose a novel discrete variational auto-encoder, where each discrete latent variable represents a different learned category of code-edit that increases performance. We show that this method represents the multi-modal space of code efficiency edits better than a sequence-to-sequence baseline and generates a distribution of more efficient solutions.",
+    "citationCount": 10,
+    "referenceCount": 32
+}

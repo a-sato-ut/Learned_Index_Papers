@@ -1,0 +1,43 @@
+{
+    "paperId": "1170fd7d8bf756b57cf193e133bcc552f86e709a",
+    "title": "MobileSky: Real-Time Sky Replacement for Mobile AR",
+    "year": 2023,
+    "venue": "IEEE Transactions on Visualization and Computer Graphics",
+    "authors": [
+        "Xinjie Wang",
+        "Qingxuan Lv",
+        "Guo Chen",
+        "Jing Zhang",
+        "Zhiqiang Wei",
+        "Junyu Dong",
+        "Hongbo Fu",
+        "Zhipeng Zhu",
+        "Jingxin Liu",
+        "Xiaogang Jin"
+    ],
+    "doi": "10.1109/TVCG.2023.3257840",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1170fd7d8bf756b57cf193e133bcc552f86e709a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present MobileSky, the first automatic method for real-time high-quality sky replacement for mobile AR applications. The primary challenge of this task is how to extract sky regions in camera feed both quickly and accurately. While the problem of sky replacement is not new, previous methods mainly concern extraction quality rather than efficiency, limiting their application to our task. We aim to provide higher quality, both spatially and temporally consistent sky mask maps for all camera frames in real time. To this end, we develop a novel framework that combines a new deep semantic network called FSNet with novel post-processing refinement steps. By leveraging IMU data, we also propose new sky-aware constraints such as temporal consistency, position consistency, and color consistency to help refine the weakly classified part of the segmentation output. Experiments show that our method achieves an average of around 30 FPS on off-the-shelf smartphones and outperforms the state-of-the-art sky replacement methods in terms of execution speed and quality. In the meantime, our mask maps appear to be visually more stable across frames. Our fast sky replacement method enables several applications, such as AR advertising, art making, generating fantasy celestial objects, visually learning about weather phenomena, and advanced video-based visual effects. To facilitate future research, we also create a new video dataset containing annotated sky regions with IMU data.",
+    "citationCount": 2,
+    "referenceCount": 69
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "d0214410208224d92b3adb54c6a65af2b66c84d2",
+    "title": "Polarized Color Screen Matting",
+    "year": 2025,
+    "venue": "Computer Vision and Pattern Recognition",
+    "authors": [
+        "Kenji Enomoto",
+        "Scott Cohen",
+        "Brian L. Price",
+        "TJ Rhodes"
+    ],
+    "doi": "10.1109/CVPR52734.2025.00045",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d0214410208224d92b3adb54c6a65af2b66c84d2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper considers the long-standing problem of extracting alpha mattes from video using a known background. While various color-based or polarization-based approaches have been studied in past decades, the problem remains ill-posed because the solutions solely rely on either color or polarization. We introduce Polarized Color Screen Matting, a single-shot, per-pixel matting theory for alpha matte and foreground color recovery using both color and polarization cues. Through a theoretical analysis of our diffuse-specular polarimetric compositing equation, we derive practical closed-form matting methods with their solvability conditions. Our theory concludes that an alpha matte can be extracted without manual corrections using off-the-shelf equipment such as an LCD monitor, polarization camera, and unpolarized lights with calibrated color. Experiments on synthetic and real-world datasets verify the validity of our theory and show the capability of our matting methods on real videos with quantitative and qualitative comparisons to color-based and polarization-based matting methods.",
+    "citationCount": 0,
+    "referenceCount": 32
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "f2a331378ec28f71197f8c5e4b3bf5ae70beaadf",
+    "title": "Multi-stage Clarification in Conversational AI: The case of Question-Answering Dialogue Systems",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "H. Lautraite",
+        "Nada Naji",
+        "Louis Marceau",
+        "Marc Queudot",
+        "Eric Charton"
+    ],
+    "doi": null,
+    "arxivId": "2110.15235",
+    "url": "https://www.semanticscholar.org/paper/f2a331378ec28f71197f8c5e4b3bf5ae70beaadf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Clarification resolution plays an important role in various information retrieval tasks such as interactive question answering and conversational search. In such context, the user often formulates their information needs as short and ambiguous queries, some popular search interfaces then prompt the user to confirm her intent (e.g.\"Did you mean ... ?\") or to rephrase if needed. When it comes to dialogue systems, having fluid user-bot exchanges is key to good user experience. In the absence of such clarification mechanism, one of the following responses is given to the user: 1) A direct answer, which can potentially be non-relevant if the intent was not clear, 2) a generic fallback message informing the user that the retrieval tool is incapable of handling the query. Both scenarios might raise frustration and degrade the user experience. To this end, we propose a multi-stage clarification mechanism for prompting clarification and query selection in the context of a question answering dialogue system. We show that our proposed mechanism improves the overall user experience and outperforms competitive baselines with two datasets, namely the public in-scope out-of-scope dataset and a commercial dataset based on real user logs.",
+    "citationCount": 2,
+    "referenceCount": 18
+}

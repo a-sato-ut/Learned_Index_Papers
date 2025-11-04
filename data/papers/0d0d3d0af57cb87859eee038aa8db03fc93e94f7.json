@@ -1,0 +1,37 @@
+{
+    "paperId": "0d0d3d0af57cb87859eee038aa8db03fc93e94f7",
+    "title": "Smart Scribbles for Image Matting",
+    "year": 2020,
+    "venue": "ACM Trans. Multim. Comput. Commun. Appl.",
+    "authors": [
+        "Xin Yang",
+        "Y. Qiao",
+        "Shaozhe Chen",
+        "Shengfeng He",
+        "Baocai Yin",
+        "Qiang Zhang",
+        "Xiaopeng Wei",
+        "Rynson W. H. Lau"
+    ],
+    "doi": "10.1145/3408323",
+    "arxivId": "2103.17062",
+    "url": "https://www.semanticscholar.org/paper/0d0d3d0af57cb87859eee038aa8db03fc93e94f7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2103.17062",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Image matting is an ill-posed problem that usually requires additional user input, such as trimaps or scribbles. Drawing a fine trimap requires a large amount of user effort, while using scribbles can hardly obtain satisfactory alpha mattes for non-professional users. Some recent deep learning–based matting networks rely on large-scale composite datasets for training to improve performance, resulting in the occasional appearance of obvious artifacts when processing natural images. In this article, we explore the intrinsic relationship between user input and alpha mattes and strike a balance between user effort and the quality of alpha mattes. In particular, we propose an interactive framework, referred to as smart scribbles, to guide users to draw few scribbles on the input images to produce high-quality alpha mattes. It first infers the most informative regions of an image for drawing scribbles to indicate different categories (foreground, background, or unknown) and then spreads these scribbles (i.e., the category labels) to the rest of the image via our well-designed two-phase propagation. Both neighboring low-level affinities and high-level semantic features are considered during the propagation process. Our method can be optimized without large-scale matting datasets and exhibits more universality in real situations. Extensive experiments demonstrate that smart scribbles can produce more accurate alpha mattes with reduced additional input, compared to the state-of-the-art matting methods.",
+    "citationCount": 20,
+    "referenceCount": 48
+}

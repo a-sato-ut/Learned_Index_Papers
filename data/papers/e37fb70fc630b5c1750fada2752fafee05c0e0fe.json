@@ -1,0 +1,35 @@
+{
+    "paperId": "e37fb70fc630b5c1750fada2752fafee05c0e0fe",
+    "title": "Evaluation of Change Detection Systems Based on Boltzmann Machine",
+    "year": 2021,
+    "venue": "Transactions of the Institute of Systems Control and Information Engineers",
+    "authors": [
+        "Takanori Hashimoto",
+        "N. Matsui",
+        "T. Itami",
+        "T. Isokawa"
+    ],
+    "doi": "10.5687/iscie.34.167",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e37fb70fc630b5c1750fada2752fafee05c0e0fe",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.jstage.jst.go.jp/article/iscie/34/6/34_167/_pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Detection of the state changes in the system, which may result in the failure of the system, would be very important in various ﬁelds of real-world engineering. We propose a novel unsupervised method for detection of changes in the framework of Energy Based Model (EBM). The proposed method incorporates the Restricted Boltzmann Machine (RBM) and Conditional Restricted Boltz-mann Machine (CRBM) as EBM. The state change can be evaluated by observing the free energy in the RBM/CRBM. The proposed method is evaluated by using two sets of time series; one is a sin wave with Gaussian noises and another is the state in a CartPole system. Experimental results show that the free energy is an eﬀective indicator for detecting the state change and that CRBM have better ability for detecting the state change than RBM.",
+    "citationCount": 0,
+    "referenceCount": 17
+}

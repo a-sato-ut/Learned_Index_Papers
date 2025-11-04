@@ -1,0 +1,36 @@
+{
+    "paperId": "b4bbbed0c33a9e0335a17171914b3c98fba4e4d7",
+    "title": "Spatial parquet: a column file format for geospatial data lakes",
+    "year": 2022,
+    "venue": "SIGSPATIAL/GIS",
+    "authors": [
+        "Majid Saeedan",
+        "Ahmed Eldawy"
+    ],
+    "doi": "10.1145/3557915.3561038",
+    "arxivId": "2209.02158",
+    "url": "https://www.semanticscholar.org/paper/b4bbbed0c33a9e0335a17171914b3c98fba4e4d7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2209.02158",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern data analytics applications prefer to use column-storage formats due to their improved storage efficiency through encoding and compression. Parquet is the most popular file format for column data storage that provides several of these benefits out of the box. However, geospatial data is not readily supported by Parquet. This paper introduces Spatial Parquet, a Parquet extension that efficiently supports geospatial data. Spatial Parquet inherits all the advantages of Parquet for non-spatial data, such as rich data types, compression, and column/row filtering. Additionally, it adds three new features to accommodate geospatial data. First, it introduces a geospatial data type that can encode all standard spatial geometries in a column format compatible with Parquet. Second, it adds a new lossless and efficient encoding method, termed FP-delta, that is customized to efficiently store geospatial coordinates stored in floating-point format. Third, it adds a light-weight spatial index that allows the reader to skip non-relevant parts of the file for increased read efficiency. Experiments on large-scale real data showed that Spatial Parquet can reduce the data size by a factor of three even without compression. Compression can further reduce the storage size. Additionally, Spatial Parquet can reduce the reading time by two orders of magnitude when the light-weight index is applied. This initial prototype can open new research directions to further improve geospatial data storage in column format.",
+    "citationCount": 10,
+    "referenceCount": 33
+}

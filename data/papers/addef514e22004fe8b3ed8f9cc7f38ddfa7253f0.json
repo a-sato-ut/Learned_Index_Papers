@@ -1,0 +1,36 @@
+{
+    "paperId": "addef514e22004fe8b3ed8f9cc7f38ddfa7253f0",
+    "title": "Using Pipeline Performance Prediction to Accelerate AutoML Systems",
+    "year": 2023,
+    "venue": "DEEM@SIGMOD",
+    "authors": [
+        "H. Zhang",
+        "Roque López",
+        "Aécio S. R. Santos",
+        "Jorge Piazentin Ono",
+        "Aline Bessa",
+        "Juliana Freire"
+    ],
+    "doi": "10.1145/3595360.3595856",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/addef514e22004fe8b3ed8f9cc7f38ddfa7253f0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automatic machine learning (AutoML) systems aim to automate the synthesis of machine learning (ML) pipelines. An important challenge these systems face is how to efficiently search a large space of candidate pipelines. Several strategies have been proposed to navigate and prune the search space, from the use of grammars to deep learning models. However, regardless of the strategy used, a major overhead lies in the evaluation step: for each synthesized pipeline p, these systems must both train and test p to guide the search and to identify the best pipelines. Given a time budget and computing resources, the evaluation cost limits how much of the search space can be explored. As a result, these systems may miss good pipelines. We propose ML4ML, an approach that aims to reduce the evaluation overhead for AutoML systems. ML4ML leverages the provenance of prior pipeline runs to predict performance without having to re-train and test the pipelines. We present results of an experimental evaluation which demonstrates that not only can ML4ML build a reliable predictive model with low mean absolute error, but the integration of this model with AutoML systems leads to substantial speedups, enabling the systems to explore a larger number of pipelines and primitive combinations and derive pipelines at a much lower cost.",
+    "citationCount": 1,
+    "referenceCount": 57
+}

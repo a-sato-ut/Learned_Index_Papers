@@ -1,0 +1,37 @@
+{
+    "paperId": "63a01a1b544b8889e2c06bc86fcb8a8964c0230a",
+    "title": "PMShifter: enabling persistent memory fluidness in Linux",
+    "year": 2022,
+    "venue": "Asia Pacific Workshop on Systems",
+    "authors": [
+        "Theodore Michailidis",
+        "S. Swanson",
+        "Jishen Zhao"
+    ],
+    "doi": "10.1145/3546591.3547523",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/63a01a1b544b8889e2c06bc86fcb8a8964c0230a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Intel recently released the first commercial server-grade persistent memory (PM), Optane DC Persistent Memory. PM bridges the long-standing gap between volatile and non-volatile storage devices, as its byte-addressability and non-volatility allow it to be used partly as storage and memory simultaneously. One downside of conventional memory management design is that such distinction needs to be made at boot time or explicitly set through a user-level program. This limits the flexibility offered by the device, as data persistence requirements vary over time. To address this issue, we propose PMShifter, which transparently and dynamically configures PM between memory and storage. To enable this flexible configuration, PMShifter also targets inefficient memory compaction, page migration and PM-oblivious NUMA policies. We evaluate PMShifter on micro-benchmarks and real-life workloads, showing up to 12.3X improved page migration throughput, faster retrieval of up to 12.77X more large physically contiguous memory segments during compaction, while running Redis displayed 64% reduced tail latency and 2.09X improved throughput.",
+    "citationCount": 1,
+    "referenceCount": 33
+}

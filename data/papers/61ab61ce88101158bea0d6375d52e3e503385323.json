@@ -1,0 +1,37 @@
+{
+    "paperId": "61ab61ce88101158bea0d6375d52e3e503385323",
+    "title": "Reverse-engineering bar charts using neural networks",
+    "year": 2020,
+    "venue": "Journal of Vision",
+    "authors": [
+        "Fangfang Zhou",
+        "Yong Zhao",
+        "Wenjiang Chen",
+        "Yijing Tan",
+        "Yaqi Xu",
+        "Yi Chen",
+        "Chao Liu",
+        "Ying Zhao"
+    ],
+    "doi": "10.1007/s12650-020-00702-6",
+    "arxivId": "2009.02491",
+    "url": "https://www.semanticscholar.org/paper/61ab61ce88101158bea0d6375d52e3e503385323",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Reverse-engineering bar charts extract textual and numeric information from the visual representations of bar charts to support application scenarios that require the underlying information. In this paper, we propose a neural network-based method for reverse-engineering bar charts. We adopt a neural network-based object detection model to simultaneously localize and classify textual information. This approach improves the efficiency of textual information extraction. We design an encoder-decoder framework that integrates convolutional and recurrent neural networks to extract numeric information. We further introduce an attention mechanism into the framework to achieve high accuracy and robustness. Synthetic and real-world datasets are used to evaluate the effectiveness of the method. To the best of our knowledge, this work takes the lead in constructing a complete neural network-based method of reverse-engineering bar charts.",
+    "citationCount": 32,
+    "referenceCount": 51
+}

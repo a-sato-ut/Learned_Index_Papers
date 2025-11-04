@@ -1,0 +1,43 @@
+{
+    "paperId": "e747e7b0a11053b2732a20f5c7b9b48f91b9b1dd",
+    "title": "Deep Reinforcement Learning Based Power Control for Wireless Multicast Systems",
+    "year": 2019,
+    "venue": "Allerton Conference on Communication, Control, and Computing",
+    "authors": [
+        "R. Raghu",
+        "Pratheek S. Upadhyaya",
+        "M. Panju",
+        "V. Aggarwal",
+        "V. Sharma"
+    ],
+    "doi": "10.1109/ALLERTON.2019.8919748",
+    "arxivId": "1910.05308",
+    "url": "https://www.semanticscholar.org/paper/e747e7b0a11053b2732a20f5c7b9b48f91b9b1dd",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/1910.05308",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We consider a multicast scheme recently proposed for a wireless downlink [1]. It was shown earlier that power control can significantly improve its performance. However for this system, obtaining optimal power control is intractable because of a very large state space. Therefore in this paper we use deep reinforcement learning where we use function approximation of the Q-function via a deep neural network. We show that optimal power control can be learnt for reasonably large systems via this approach. The average power constraint is ensured via a Lagrange multiplier, which is also learnt. In the longer version of the paper [2], we also demonstrate that our learning algorithm can be modified to allow the optimal control to track the time varying system statistics.",
+    "citationCount": 11,
+    "referenceCount": 34
+}

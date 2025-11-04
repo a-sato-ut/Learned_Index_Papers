@@ -1,0 +1,39 @@
+{
+    "paperId": "8af6fc0577f6edd48a70e881b3bde3b9ece85263",
+    "title": "Long or Short or Both? An Exploration on Lookback Time Windows of Behavioral Features in Product Search Ranking",
+    "year": 2024,
+    "venue": "eCom@SIGIR",
+    "authors": [
+        "Qi Liu",
+        "Atul Singh",
+        "Jingbo Liu",
+        "Cun Mu",
+        "Zheng Yan",
+        "Jan Pedersen"
+    ],
+    "doi": "10.48550/arXiv.2409.17456",
+    "arxivId": "2409.17456",
+    "url": "https://www.semanticscholar.org/paper/8af6fc0577f6edd48a70e881b3bde3b9ece85263",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Customer shopping behavioral features are core to product search ranking models in eCommerce. In this paper, we investigate the effect of lookback time windows when aggregating these features at the (query, product) level over history. By studying the pros and cons of using long and short time windows, we propose a novel approach to integrating these historical behavioral features of different time windows. In particular, we address the criticality of using query-level vertical signals in ranking models to effectively aggregate all information from different behavioral features. Anecdotal evidence for the proposed approach is also provided using live product search traffic on Walmart.com.",
+    "citationCount": 1,
+    "referenceCount": 20
+}

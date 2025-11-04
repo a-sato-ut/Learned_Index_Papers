@@ -1,0 +1,35 @@
+{
+    "paperId": "ff99e16e34620ed4fbf18a1aa0adc560a59ddd84",
+    "title": "Enhancing Parameter Efficiency in Model Inference Using an Ultralight Inter-Transformer Linear Structure",
+    "year": 2024,
+    "venue": "IEEE Access",
+    "authors": [
+        "Haoxiang Shi",
+        "Tetsuya Sakai"
+    ],
+    "doi": "10.1109/ACCESS.2024.3378518",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ff99e16e34620ed4fbf18a1aa0adc560a59ddd84",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10474022.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Pre-trained language models are the cornerstone of modern natural language processing and information retrieval. However, fine-tuning all the parameters reduces the efficiency of models both in training and inference owing to their increasingly heavy structures. Existing methods for parameter efficiency still require approximately 1 MB of storage and have approximately $10^{7}$ operations during model deployment and inference. This puts a strain on the storage and processor capacity of end devices such as smartphones and IoT equipment, and slow model inference adversely affecting the user experience. To achieve more efficient and storage-friendly inference compared to mainstream methods, such as low-rank adaptation (LoRA) and Adapter, LayerConnect (hyper-network-assisted interlayer connectors) is proposed in this paper. Extensive experiments were conducted to validate the performance of LayerConnect for two essential tasks with completely different learning frameworks and purposes: natural language understanding (using the general language understanding evaluation (GLUE) benchmark) and information retrieval (using the a contextualized inverted list (COIL) framework). For both tasks, our LayerConnect saves up to 95.31% and 91.18% of parameters in LoRA and Adapter, respectively. In contrast, LayerConnect maintains performance degradation for GLUE and COIL to less than 8% and 3%, compared to LoRA. When compared to Adapter, the numbers become 5% and 3%, for GLUE and COIL, respectively. In addition, LayerConnect required approximately 100 kB of storage per task-specific trained model for both tasks and reduced the number of operations in the model inference by four orders of magnitude, reaching approximately $10^{3}$ .",
+    "citationCount": 2,
+    "referenceCount": 32
+}

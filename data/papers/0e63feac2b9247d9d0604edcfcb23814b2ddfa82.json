@@ -1,0 +1,35 @@
+{
+    "paperId": "0e63feac2b9247d9d0604edcfcb23814b2ddfa82",
+    "title": "A Two-layer Partitioning for Non-point Spatial Data",
+    "year": 2021,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Dimitrios Tsitsigkos",
+        "Konstantinos Lampropoulos",
+        "Panagiotis Bouros",
+        "N. Mamoulis",
+        "Manolis Terrovitis"
+    ],
+    "doi": "10.1109/ICDE51399.2021.00157",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0e63feac2b9247d9d0604edcfcb23814b2ddfa82",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Non-point spatial objects (e.g., polygons, linestrings, etc.) are ubiquitous and their effective management is always timely. We study the problem of indexing non-point objects in memory. We propose a secondary partitioning technique for space-oriented partitioning indices (e.g., grids), which improves their performance significantly, by avoiding the generation and elimination of duplicate results. Our approach is novel and of a high impact, as (i) it is extremely easy to implement and (ii) it can be used by any space-partitioning index. We show how our approach can be used to boost the performance of spatial range queries. We also show how we can avoid performing the expensive refinement step of a range query for the majority of objects and study the efficient processing of numerous queries in batch and in parallel. Extensive experiments on real datasets confirm the superiority of space-oriented partitioning over data-oriented partitioning and the advantage of our approach against alternative duplicate elimination techniques.",
+    "citationCount": 15,
+    "referenceCount": 34
+}

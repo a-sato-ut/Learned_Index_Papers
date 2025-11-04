@@ -1,0 +1,39 @@
+{
+    "paperId": "48e3b328bc8ba8ce78f2a0dc3be2adddf05b76fb",
+    "title": "Givens Coordinate Descent Methods for Rotation Matrix Learning in Trainable Embedding Indexes",
+    "year": 2022,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Yunjiang Jiang",
+        "Han Zhang",
+        "Yiming Qiu",
+        "Yun Xiao",
+        "Bo Long",
+        "Wen-Yun Yang"
+    ],
+    "doi": "10.48550/arXiv.2203.05082",
+    "arxivId": "2203.05082",
+    "url": "https://www.semanticscholar.org/paper/48e3b328bc8ba8ce78f2a0dc3be2adddf05b76fb",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.05082",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Product quantization (PQ) coupled with a space rotation, is widely used in modern approximate nearest neighbor (ANN) search systems to significantly compress the disk storage for embeddings and speed up the inner product computation. Existing rotation learning methods, however, minimize quantization distortion for fixed embeddings, which are not applicable to an end-to-end training scenario where embeddings are updated constantly. In this paper, based on geometric intuitions from Lie group theory, in particular the special orthogonal group $SO(n)$, we propose a family of block Givens coordinate descent algorithms to learn rotation matrix that are provably convergent on any convex objectives. Compared to the state-of-the-art SVD method, the Givens algorithms are much more parallelizable, reducing runtime by orders of magnitude on modern GPUs, and converge more stably according to experimental studies. They further improve upon vanilla product quantization significantly in an end-to-end training scenario.",
+    "citationCount": 6,
+    "referenceCount": 47
+}

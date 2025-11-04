@@ -1,0 +1,40 @@
+{
+    "paperId": "73b6de24eb0e5f6ff4f9c3bdd9257f4554faca19",
+    "title": "Measuring and Improving Consistency in Pretrained Language Models",
+    "year": 2021,
+    "venue": "Transactions of the Association for Computational Linguistics",
+    "authors": [
+        "Yanai Elazar",
+        "Nora Kassner",
+        "Shauli Ravfogel",
+        "Abhilasha Ravichander",
+        "E. Hovy",
+        "Hinrich Schütze",
+        "Yoav Goldberg"
+    ],
+    "doi": "10.1162/tacl_a_00410",
+    "arxivId": "2102.01017",
+    "url": "https://www.semanticscholar.org/paper/73b6de24eb0e5f6ff4f9c3bdd9257f4554faca19",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00410/1963991/tacl_a_00410.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Abstract Consistency of a model—that is, the invariance of its behavior under meaning-preserving alternations in its input—is a highly desirable property in natural language processing. In this paper we study the question: Are Pretrained Language Models (PLMs) consistent with respect to factual knowledge? To this end, we create ParaRel🤘, a high-quality resource of cloze-style query English paraphrases. It contains a total of 328 paraphrases for 38 relations. Using ParaRel🤘, we show that the consistency of all PLMs we experiment with is poor— though with high variance between relations. Our analysis of the representational spaces of PLMs suggests that they have a poor structure and are currently not suitable for representing knowledge robustly. Finally, we propose a method for improving model consistency and experimentally demonstrate its effectiveness.1",
+    "citationCount": 414,
+    "referenceCount": 89
+}

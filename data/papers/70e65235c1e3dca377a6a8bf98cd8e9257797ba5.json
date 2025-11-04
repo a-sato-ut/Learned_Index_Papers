@@ -1,0 +1,36 @@
+{
+    "paperId": "70e65235c1e3dca377a6a8bf98cd8e9257797ba5",
+    "title": "Composition design of high-entropy alloys with deep sets learning",
+    "year": 2022,
+    "venue": "npj Computational Materials",
+    "authors": [
+        "J. Zhang",
+        "Chen Cai",
+        "George Kim",
+        "Yusu Wang",
+        "Wei Chen"
+    ],
+    "doi": "10.1038/s41524-022-00779-7",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/70e65235c1e3dca377a6a8bf98cd8e9257797ba5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.nature.com/articles/s41524-022-00779-7.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Materials Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "High entropy alloys (HEAs) are an important material class in the development of next-generation structural materials, but the astronomically large composition space cannot be efficiently explored by experiments or first-principles calculations. Machine learning (ML) methods might address this challenge, but ML of HEAs has been hindered by the scarcity of HEA property data. In this work, the EMTO-CPA method was used to generate a large HEA dataset (spanning a composition space of 14 elements) containing 7086 cubic HEA structures with structural properties, 1911 of which have the complete elastic tensor calculated. The elastic property dataset was used to train a ML model with the Deep Sets architecture. The Deep Sets model has better predictive performance and generalizability compared to other ML models. Association rule mining was applied to the model predictions to describe the compositional dependence of HEA elastic properties and to demonstrate the potential for data-driven alloy design.",
+    "citationCount": 61,
+    "referenceCount": 96
+}

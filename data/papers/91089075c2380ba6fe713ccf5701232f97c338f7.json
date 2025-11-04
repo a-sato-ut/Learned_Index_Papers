@@ -1,0 +1,32 @@
+{
+    "paperId": "91089075c2380ba6fe713ccf5701232f97c338f7",
+    "title": "The Effect of Partitioning and Indexing on Data Access Time",
+    "year": 2021,
+    "venue": "Conference of the Open Innovations Association",
+    "authors": [
+        "Veronika Salgová",
+        "K. Matiaško"
+    ],
+    "doi": "10.23919/FRUCT52173.2021.9435500",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/91089075c2380ba6fe713ccf5701232f97c338f7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "An increasing amount of data is stored and managed in today's information systems. For this purpose, relational databases are used very often. Fast access to data is becoming increasingly important and great emphasis is placed on its improvement. The data access time can be significantly improved by creating partitions and index structures, or their combinations. From the point of view of efficiency, it is not appropriate or necessary to access all data. They can be divided into smaller parts, which will facilitate the execution of certain operations and bring efficiency, whether in terms of time or performance. As far as indexing is concerned, there is also an opportunity to access only the data sought, thus avoiding the Table Access Full method. This paper deals with the effect of partitioning and indexing on data access time, which is compared in seven different scenarios of different combinations of partitions created over tables and indexes.",
+    "citationCount": 3,
+    "referenceCount": 15
+}

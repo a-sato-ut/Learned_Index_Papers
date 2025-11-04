@@ -1,0 +1,33 @@
+{
+    "paperId": "49f5ab00bb0a589a6469cee4ff6acda9eb5c4503",
+    "title": "Trip Reinforcement Recommendation with Graph-based Representation Learning",
+    "year": 2022,
+    "venue": "ACM Transactions on Knowledge Discovery from Data",
+    "authors": [
+        "Lei Chen",
+        "Jie Cao",
+        "Haicheng Tao",
+        "Jia Wu"
+    ],
+    "doi": "10.1145/3564609",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/49f5ab00bb0a589a6469cee4ff6acda9eb5c4503",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Tourism is an important industry and a popular leisure activity involving billions of tourists per annum. One challenging problem tourists face is identifying attractive Places-of-Interest (POIs) and planning the personalized trip with time constraints. Most of the existing trip recommendation methods mainly consider POI popularity and user preferences, and focus on the last visited POI when choosing the next POI. However, the visit patterns and their asymmetry property have not been fully exploited. To this end, in this article, we present a GRM-RTrip (short for Graph-based Representation Method for Reinforce Trip Recommendation) framework. GRM-RTrip learns POI representations from incoming and outgoing views to obtain asymmetric POI-POI transition probability via POI-POI graph networks, and then fuses the trained POI representation into a user-POI graph network to estimate user preferences. Finally, after formulating the personalized trip recommendation as a Markov Decision Process (MDP), we utilize a reinforcement learning algorithm for generating a personalized trip with maximal user travel experience. Extensive experiments are performed on the public datasets and the results demonstrate the superiority of GRM-RTrip compared with the state-of-the-art trip recommendation methods.",
+    "citationCount": 31,
+    "referenceCount": 46
+}

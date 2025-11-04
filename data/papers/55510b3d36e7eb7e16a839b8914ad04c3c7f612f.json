@@ -1,0 +1,35 @@
+{
+    "paperId": "55510b3d36e7eb7e16a839b8914ad04c3c7f612f",
+    "title": "MIRN: A multi-interest retrieval network with sequence-to-interest EM routing",
+    "year": 2023,
+    "venue": "PLoS ONE",
+    "authors": [
+        "Xiliang Zhang",
+        "Jin Liu",
+        "Siwei Chang",
+        "Peizhu Gong",
+        "Zhongdai Wu",
+        "Bing Han"
+    ],
+    "doi": "10.1371/journal.pone.0281275",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/55510b3d36e7eb7e16a839b8914ad04c3c7f612f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0281275&type=printable",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Vector-based retrieval have been widely adopted to process online users’ diverse interests for recommendations. However, most of them utilize a single vector to represent user multiple interests (UMI), inevitably impairing the accuracy and diversity of item retrieval. In addition, existing work often does not take into account the scale and speed of the model, and high-dimensional user representation vectors need high computation cost, leading to inefficient item retrieval. In this paper, we propose a novel lightweight multi-interest retrieval network (MIRN) by incorporating sequence-to-interest Expectation Maximization (EM) routing to deal with users’ multiple interests. By leveraging representation ability of the Capsule network, we design a multi-interest representation learning module that clusters multiple Capsule vectors from the user’s behavior sequence to represent each of their interests respectively. In addition, we introduce a composite capsule clustering strategy for the Capsule network framework to reduce the scale of the network model. Furthermore, a Capsule-aware module incorporating an attention mechanism has been developed to guide model training by adaptively learning multiple Capsule vectors of user representations. The experimental results demonstrate MIRN outperforms the state-of-the-art approaches for item retrieval and gains significant improvements in terms of metric evaluations.",
+    "citationCount": 6,
+    "referenceCount": 46
+}

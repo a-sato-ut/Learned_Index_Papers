@@ -1,0 +1,37 @@
+{
+    "paperId": "c078b38f869c79035e51aef2cca727f3e95921d6",
+    "title": "Physics-guided Data Augmentation for Learning the Solution Operator of Linear Differential Equations",
+    "year": 2022,
+    "venue": "International Conference on Cloud Computing and Intelligence Systems",
+    "authors": [
+        "Yemo Li",
+        "Yiwen Pang",
+        "Bin Shan"
+    ],
+    "doi": "10.1109/CCIS57298.2022.10016380",
+    "arxivId": "2212.04100",
+    "url": "https://www.semanticscholar.org/paper/c078b38f869c79035e51aef2cca727f3e95921d6",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2212.04100",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural networks, especially the recent proposed neural operator models, are increasingly being used to find the solution operator of differential equations. Compared to traditional numerical solvers, they are much faster and more efficient in practical applications. However, one critical issue is that training neural operator models require large amount of ground truth data, which usually comes from the slow numerical solvers. In this paper, we propose a physics-guided data augmentation (PGDA) method to improve the accuracy and generalization of neural operator models. Training data is augmented naturally through the physical properties of differential equations such as linearity and translation. We demonstrate the advantage of PGDA on a variety of linear differential equations, showing that PGDA can improve the sample complexity and is robust to distributional shift.",
+    "citationCount": 8,
+    "referenceCount": 35
+}

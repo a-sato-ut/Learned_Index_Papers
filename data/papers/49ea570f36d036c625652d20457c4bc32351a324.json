@@ -1,0 +1,39 @@
+{
+    "paperId": "49ea570f36d036c625652d20457c4bc32351a324",
+    "title": "Attention-guided Temporally Coherent Video Object Matting",
+    "year": 2021,
+    "venue": "ACM Multimedia",
+    "authors": [
+        "Yunke Zhang",
+        "Chi Wang",
+        "Miaomiao Cui",
+        "Peiran Ren",
+        "Xuansong Xie",
+        "Xiansheng Hua",
+        "H. Bao",
+        "Qi-Xing Huang",
+        "Weiwei Xu"
+    ],
+    "doi": "10.1145/3474085.3475623",
+    "arxivId": "2105.11427",
+    "url": "https://www.semanticscholar.org/paper/49ea570f36d036c625652d20457c4bc32351a324",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2105.11427",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper proposes a novel deep learning-based video object matting method that can achieve temporally coherent matting results. Its key component is an attention-based temporal aggregation module that maximizes image matting networks' strength for video matting networks. This module computes temporal correlations for pixels adjacent to each other along the time axis in feature space, which is robust against motion noises. We also design a novel loss term to train the attention weights, which drastically boosts the video matting performance. Besides, we show how to effectively solve the trimap generation problem by fine-tuning a state-of-the-art video object segmentation network with a sparse set of user-annotated keyframes. To facilitate video matting and trimap generation networks' training, we construct a large-scale video matting dataset with 80 training and 28 validation foreground video clips with ground-truth alpha mattes. Experimental results show that our method can generate high-quality alpha mattes for various videos featuring appearance change, occlusion, and fast motion. Our code and dataset can be found at: https://github.com/yunkezhang/TCVOM",
+    "citationCount": 36,
+    "referenceCount": 77
+}

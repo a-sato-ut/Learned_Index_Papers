@@ -1,0 +1,32 @@
+{
+    "paperId": "c8ae41a86b4deee090c79790c5fcebb7d046aefd",
+    "title": "Real-Time Analytics by Coordinating Reuse and Work Sharing",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Panagiotis Sioulas",
+        "Ioannis Mytilinis",
+        "A. Ailamaki"
+    ],
+    "doi": "10.48550/arXiv.2307.08018",
+    "arxivId": "2307.08018",
+    "url": "https://www.semanticscholar.org/paper/c8ae41a86b4deee090c79790c5fcebb7d046aefd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.08018",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Analytical tools often require real-time responses for highly concurrent parameterized workloads. A common solution is to answer queries using materialized subexpressions, hence reducing processing at runtime. However, as queries are still processed individually, concurrent outstanding computations accumulate and increase response times. By contrast, shared execution mitigates the effect of concurrency and improves scalability by exploiting overlapping work between queries but does so using heavyweight shared operators that result in high response times. Thus, on their own, both reuse and work sharing fail to provide real-time responses for large batches. Furthermore, naively combining the two approaches is ineffective and can deteriorate performance due to increased filtering costs, reduced marginal benefits, and lower reusability. In this work, we present ParCuR, a framework that harmonizes reuse with work sharing. ParCuR adapts reuse to work sharing in four aspects: i) to reduce filtering costs, it builds access methods on materialized results, ii) to resolve the conflict between benefits from work sharing and materialization, it introduces a sharing-aware materialization policy, iii) to incorporate reuse into sharing-aware optimization, it introduces a two-phase optimization strategy, and iv) to improve reusability and to avoid performance cliffs when queries are partially covered, especially during workload shifts, it combines partial reuse with data clustering based on historical batches. ParCuR outperforms a state-of-the-art work-sharing database by 6.4x and 2x in the SSB and TPC-H benchmarks respectively",
+    "citationCount": 1,
+    "referenceCount": 42
+}

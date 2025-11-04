@@ -1,0 +1,32 @@
+{
+    "paperId": "d151e0dfb154a9227d274aa0c22a2e047b52e65a",
+    "title": "On Reinforcement Learning, Effect Handlers, and the State Monad",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ugo Dal Lago",
+        "Francesco Gavazzo",
+        "Alexis Ghyselen"
+    ],
+    "doi": "10.48550/arXiv.2203.15426",
+    "arxivId": "2203.15426",
+    "url": "https://www.semanticscholar.org/paper/d151e0dfb154a9227d274aa0c22a2e047b52e65a",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.15426",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study the algebraic effects and handlers as a way to support decision-making abstractions in functional programs, whereas a user can ask a learning algorithm to resolve choices without implementing the underlying selection mechanism, and give a feedback by way of rewards. Differently from some recently proposed approach to the problem based on the selection monad [Abadi and Plotkin, LICS 2021], we express the underlying intelligence as a reinforcement learning algorithm implemented as a set of handlers for some of these algebraic operations, including those for choices and rewards. We show how we can in practice use algebraic operations and handlers -- as available in the programming language EFF -- to clearly separate the learning algorithm from its environment, thus allowing for a good level of modularity. We then show how the host language can be taken as a lambda-calculus with handlers, this way showing what the essential linguistic features are. We conclude by hinting at how type and effect systems could ensure safety properties, at the same time pointing at some directions for further work.",
+    "citationCount": 2,
+    "referenceCount": 41
+}

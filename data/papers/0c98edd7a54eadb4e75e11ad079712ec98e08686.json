@@ -1,0 +1,49 @@
+{
+    "paperId": "0c98edd7a54eadb4e75e11ad079712ec98e08686",
+    "title": "DECK: Experiences on Delta Checkpointing for Industrial Recommendation Systems",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Xin Gao",
+        "Sibasish Acharya",
+        "Sihui Han",
+        "Yongxiong Ren",
+        "Yanli Zhao",
+        "Liang Luo",
+        "Chucheng Wang",
+        "Pradeep Fernando",
+        "Saurabh Mishra",
+        "Siqi Yan",
+        "Yicong Du",
+        "Elzbieta Krepska",
+        "Intaik Park",
+        "Min Ni",
+        "Qunshu Zhang",
+        "Shen Li"
+    ],
+    "doi": "10.14778/3750601.3750621",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0c98edd7a54eadb4e75e11ad079712ec98e08686",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In large-scale industrial recommendation systems, model checkpoints are instrumental in maintaining training goodput and numerical correctness during system failures and job preemptions. The increasing prevalence of multi-terabyte models has rendered frequent regular model checkpoints impractical, resulting in substantial lost progress when recovering from failures. As model sizes continue to grow, researchers and practitioners are compelled to investigate more efficient and scalable solutions. This paper presents DECK, a novel approach to delta model checkpointing designed for real-world industrial systems. Specifically, DECK focuses on extracting delta states with near-zero overhead, staging and streaming delta checkpoints without interrupting the training process, and merging delta checkpoints in an optimal and decoupled manner. Experimental results demonstrate that DECK achieves a 12-fold increase in checkpoint frequency while maintaining negligible impact on training throughput, thereby attaining state-of-the-art (SOTA) production performance.",
+    "citationCount": 0,
+    "referenceCount": 25
+}

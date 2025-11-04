@@ -1,0 +1,39 @@
+{
+    "paperId": "c254568e1260fbafcbb65aad14f010f04521d14c",
+    "title": "Workload Prediction for Edge Computing",
+    "year": 2024,
+    "venue": "International Conference of Distributed Computing and Networking",
+    "authors": [
+        "Kavish Shah",
+        "Ayush Gandhi",
+        "K. Gandhi",
+        "Minal Bhise"
+    ],
+    "doi": "10.1145/3631461.3632522",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c254568e1260fbafcbb65aad14f010f04521d14c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In large-scale edge systems, along with the number of edge devices, the amount of data that needs to be processed has been increasing. Edge systems have limited processing power, memory, and network bandwidth. For such systems, handling resource utilization and data management during query processing is tricky. Moreover, joins being the costliest operations, when accelerated, can improve query processing substantially. The state-of-the-art technique for accelerating hash join, Column Imprint-Hash Join, is a data-aware approach which uses equi-height binning. Proposed Predicted Workload-Aware Column Imprint-Hash Join enhances the query performance and addresses real-time query processing by predicting the upcoming workload in advance. The algorithm is demonstrated on the TPC-H benchmark dataset. It shows an improvement of about 10% for the Percentage of Cachelines Read over CI-HJ, making the algorithm energy-efficient. An overall gain in Query Execution Time of 11% is observed. Although, Algorithm Execution Time shows an overhead of 6% as compared to the state-of-the-art which is due to an additional prediction phase. The proposed technique showcases the effectiveness of query prediction in optimizing edge system performance.",
+    "citationCount": 2,
+    "referenceCount": 24
+}

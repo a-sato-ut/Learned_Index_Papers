@@ -1,0 +1,33 @@
+{
+    "paperId": "b3328bc0fd2e16dad533b937c42eb0bf79bcb17f",
+    "title": "Compact Token Representations with Contextual Quantization for Efficient Document Re-ranking",
+    "year": 2022,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+        "Yingrui Yang",
+        "Yifan Qiao",
+        "Tao Yang"
+    ],
+    "doi": "10.48550/arXiv.2203.15328",
+    "arxivId": "2203.15328",
+    "url": "https://www.semanticscholar.org/paper/b3328bc0fd2e16dad533b937c42eb0bf79bcb17f",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.15328",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Transformer based re-ranking models can achieve high search relevance through context- aware soft matching of query tokens with document tokens. To alleviate runtime complexity of such inference, previous work has adopted a late interaction architecture with pre-computed contextual token representations at the cost of a large online storage. This paper proposes contextual quantization of token embeddings by decoupling document-specific and document-independent ranking contributions during codebook-based compression. This allows effective online decompression and embedding composition for better search relevance. This paper presents an evaluation of the above compact token representation model in terms of relevance and space efficiency.",
+    "citationCount": 8,
+    "referenceCount": 64
+}

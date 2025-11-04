@@ -1,0 +1,36 @@
+{
+    "paperId": "328d743594a7a4e6872607a07fbad5d2a71497bb",
+    "title": "The Control Method of Twin Delayed Deep Deterministic Policy Gradient with Rebirth Mechanism to Multi-DOF Manipulator",
+    "year": 2021,
+    "venue": "Electronics",
+    "authors": [
+        "Yangyang Hou",
+        "Huajie Hong",
+        "Zhaomei Sun",
+        "Dasheng Xu",
+        "Zhe Zeng"
+    ],
+    "doi": "10.3390/ELECTRONICS10070870",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/328d743594a7a4e6872607a07fbad5d2a71497bb",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2079-9292/10/7/870/pdf?version=1617940883",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As a research hotspot in the field of artificial intelligence, the application of deep reinforcement learning to the learning of the motion ability of a manipulator can help to improve the learning of the motion ability of a manipulator without a kinematic model. To suppress the overestimation bias of values in Deep Deterministic Policy Gradient (DDPG) networks, the Twin Delayed Deep Deterministic Policy Gradient (TD3) was proposed. This paper further suppresses the overestimation bias of values for multi-degree of freedom (DOF) manipulator learning based on deep reinforcement learning. Twin Delayed Deep Deterministic Policy Gradient with Rebirth Mechanism (RTD3) was proposed. The experimental results show that RTD3 applied to multi degree freedom manipulators is in place, with an improved learning ability by 29.15% on the basis of TD3. In this paper, a step-by-step reward function is proposed specifically for the learning and innovation of the multi degree of freedom manipulator’s motion ability. The view of continuous decision-making and process problem is used to guide the learning of the manipulator, and the learning efficiency is improved by optimizing the playback of experience. In order to measure the point-to-point position motion ability of a manipulator, a new evaluation index based on the characteristics of the continuous decision process problem, energy efficiency distance, is presented in this paper, which can evaluate the learning quality of the manipulator motion ability by a more comprehensive and fair evaluation algorithm.",
+    "citationCount": 16,
+    "referenceCount": 28
+}

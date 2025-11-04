@@ -1,0 +1,31 @@
+{
+    "paperId": "68afea9c892ff499af788ccfa25fa17b507bc993",
+    "title": "Accelerating Recommender Systems via Hardware \"scale-in\"",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "S. Krishna",
+        "Ravi Krishna"
+    ],
+    "doi": null,
+    "arxivId": "2009.05230",
+    "url": "https://www.semanticscholar.org/paper/68afea9c892ff499af788ccfa25fa17b507bc993",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In today's era of \"scale-out\", this paper makes the case that a specialized hardware architecture based on \"scale-in\"--placing as many specialized processors as possible along with their memory systems and interconnect links within one or two boards in a rack--would offer the potential to boost large recommender system throughput by 12-62x for inference and 12-45x for training compared to the DGX-2 state-of-the-art AI platform, while minimizing the performance impact of distributing large models across multiple processors. By analyzing Facebook's representative model--Deep Learning Recommendation Model (DLRM)--from a hardware architecture perspective, we quantify the impact on throughput of hardware parameters such as memory system design, collective communications latency and bandwidth, and interconnect topology. By focusing on conditions that stress hardware, our analysis reveals limitations of existing AI accelerators and hardware platforms.",
+    "citationCount": 6,
+    "referenceCount": 67
+}

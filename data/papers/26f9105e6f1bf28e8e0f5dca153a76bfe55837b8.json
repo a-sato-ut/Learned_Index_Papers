@@ -1,0 +1,31 @@
+{
+    "paperId": "26f9105e6f1bf28e8e0f5dca153a76bfe55837b8",
+    "title": "Making Cache Monotonic and Consistent",
+    "year": 2022,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Shuai An",
+        "Yang Cao"
+    ],
+    "doi": "10.14778/3574245.3574271",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/26f9105e6f1bf28e8e0f5dca153a76bfe55837b8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.pure.ed.ac.uk/ws/files/334530480/Making_Cache_AN_DOA18112022_VOR_CC_BY_NC_ND.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n We propose monotonic consistent caching (MCC), a cache scheme for applications that demand consistency and monotonicity. MCC warrants that a transaction-like request always sees a consistent view of the backend database and observed writes over the cache will not be lost. We show that the complexity of MCC ranges from P\n time\n to N\n p\n -C\n omplete\n . We characterize MCC via a notion of obsolete items, based on which we abstract a principle for designing competitive MCC policies. By applying the principle, we develop an optimal MCC policy for the batch model, where requests in a batch are known in advance. For the online and semi-online models, we develop ML-augmented policies that benefit from blackbox ML models for classifying obsolete items, while being provably competitive even if the ML is arbitrarily bad. Using benchmark and real-life traces, we show that MCC policies reduce 39.09% of database reads for Redis atop HBase and improve their throughput by 77.15%.\n",
+    "citationCount": 1,
+    "referenceCount": 74
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "8fbb8885854ba611ca90a7fc8b8efaaff3efc66e",
+    "title": "TREC CAsT 2019: The Conversational Assistance Track Overview",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jeffrey Dalton",
+        "Chenyan Xiong",
+        "Jamie Callan"
+    ],
+    "doi": null,
+    "arxivId": "2003.13624",
+    "url": "https://www.semanticscholar.org/paper/8fbb8885854ba611ca90a7fc8b8efaaff3efc66e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Conversational Assistance Track (CAsT) is a new track for TREC 2019 to facilitate Conversational Information Seeking (CIS) research and to create a large-scale reusable test collection for conversational search systems. The document corpus is 38,426,252 passages from the TREC Complex Answer Retrieval (CAR) and Microsoft MAchine Reading COmprehension (MARCO) datasets. Eighty information seeking dialogues (30 train, 50 test) are an average of 9 to 10 questions long. Relevance assessments are provided for 30 training topics and 20 test topics. This year 21 groups submitted a total of 65 runs using varying methods for conversational query understanding and ranking. Methods include traditional retrieval based methods, feature based learning-to-rank, neural models, and knowledge enhanced methods. A common theme through the runs is the use of BERT-based neural reranking methods. Leading methods also employed document expansion, conversational query expansion, and generative language models for conversational query rewriting (GPT-2). The results show a gap between automatic systems and those using the manually resolved utterances, with a 35% relative improvement of manual rewrites over the best automatic system.",
+    "citationCount": 144,
+    "referenceCount": 16
+}

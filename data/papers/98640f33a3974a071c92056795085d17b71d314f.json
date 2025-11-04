@@ -1,0 +1,32 @@
+{
+    "paperId": "98640f33a3974a071c92056795085d17b71d314f",
+    "title": "Dissecting self-describing data formats to enable advanced querying of file metadata",
+    "year": 2021,
+    "venue": "Annual Haifa Experimental Systems Conference",
+    "authors": [
+        "Kira Duwe",
+        "Michael Kuhn"
+    ],
+    "doi": "10.1145/3456727.3463778",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/98640f33a3974a071c92056795085d17b71d314f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1145/3456727.3463778",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In times of continuously growing data sizes, performing insightful analysis is increasingly difficult. I/O libraries such as NetCDF and ADIOS2 offer options to manage additional metadata to make the data retrieval more efficient. However, queries on this metadata are difficult as it is currently stored inside the corresponding self-describing data formats. By replacing the file system underneath with the storage framework JULEA, we can use dedicated backends for key-value and object stores, as well as databases. Splitting the BP file content into file metadata and file data enables novel and highly efficient data management techniques without creating redundancy. We have kept our approach transparent to the application layer by implementing a custom ADIOS2 engine. Moreover, our data analysis interface allows speeding up metadata queries by a factor of up to 60,000 in comparison to the ADIOS2 API and data formats.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

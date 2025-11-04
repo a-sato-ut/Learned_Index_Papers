@@ -1,0 +1,32 @@
+{
+    "paperId": "f291b715361bf111b9016e2472bdae4f6dccf969",
+    "title": "TSSuBERT: How to Sum Up Multiple Years of Reading in a Few Tweets",
+    "year": 2023,
+    "venue": "ACM Trans. Inf. Syst.",
+    "authors": [
+        "A. Dusart",
+        "K. Pinel-Sauvagnat",
+        "G. Hubert"
+    ],
+    "doi": "10.1145/3581786",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f291b715361bf111b9016e2472bdae4f6dccf969",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1145/3581786",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The development of deep neural networks and the emergence of pre-trained language models such as BERT allow to increase performance on many NLP tasks. However, these models do not meet the same popularity for tweet stream summarization, which is probably because their computation limitation requires to drastically truncate the textual input. Our contribution in this article is threefold. First, we propose a neural model to automatically and incrementally summarize huge tweet streams. This extractive model combines in an original way pre-trained language models and vocabulary frequency based representations to predict tweet salience. An additional advantage of the model is that it automatically adapts the size of the output summary according to the input tweet stream. Second, we detail an original methodology to construct tweet stream summarization datasets requiring little human effort. Third, we release the TES 2012-2016 dataset constructed using the aforementioned methodology. Baselines, oracle summaries, gold standard, and qualitative assessments are made publicly available. To evaluate our approach, we conducted extensive quantitative experiments using three different tweet collections as well as an additional qualitative evaluation. Results show that our method outperforms state-of-the-art ones. We believe that this work opens avenues of research for incremental summarization, which has not received much attention yet.",
+    "citationCount": 11,
+    "referenceCount": 74
+}

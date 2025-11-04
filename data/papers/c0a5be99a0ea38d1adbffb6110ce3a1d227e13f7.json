@@ -1,0 +1,35 @@
+{
+    "paperId": "c0a5be99a0ea38d1adbffb6110ce3a1d227e13f7",
+    "title": "Query Reformulation using Query History for Passage Retrieval in Conversational Search",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sheng-Chieh Lin",
+        "Jheng-Hong Yang",
+        "Rodrigo Nogueira",
+        "Ming-Feng Tsai",
+        "Chuan-Ju Wang",
+        "Jimmy J. Lin"
+    ],
+    "doi": null,
+    "arxivId": "2005.02230",
+    "url": "https://www.semanticscholar.org/paper/c0a5be99a0ea38d1adbffb6110ce3a1d227e13f7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Passage retrieval in a conversational context is essential for many downstream applications; it is however extremely challenging due to limited data resources. To address this problem, we present an effective multi-stage pipeline for passage ranking in conversational search that integrates a widely-used IR system with a conversational query reformulation module. Along these lines, we propose two simple yet effective query reformulation approaches: historical query expansion (HQE) and neural transfer reformulation (NTR). Whereas HQE applies query expansion, a traditional IR query reformulation technique, NTR transfers human knowledge of conversational query understanding to a neural query reformulation model. The proposed HQE method was the top-performing submission of automatic systems in CAsT Track at TREC 2019. Building on this, our NTR approach improves an additional 18% over that best entry in terms of NDCG@3. We further analyze the distinct behaviors of the two approaches, and show that fusing their output reduces the performance gap (measured in NDCG@3) between the manually-rewritten and automatically-generated queries to 4 from 22 points when compared with the best CAsT submission.",
+    "citationCount": 24,
+    "referenceCount": 63
+}

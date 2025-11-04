@@ -1,0 +1,36 @@
+{
+    "paperId": "ac0a2d1f94f72f9e39e9cb93fb58e8990d58c323",
+    "title": "Stabilizing Contrastive RL: Techniques for Robotic Goal Reaching from Offline Data",
+    "year": 2023,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Chongyi Zheng",
+        "Benjamin Eysenbach",
+        "H. Walke",
+        "Patrick Yin",
+        "Kuan Fang",
+        "R. Salakhutdinov",
+        "Sergey Levine"
+    ],
+    "doi": null,
+    "arxivId": "2306.03346",
+    "url": "https://www.semanticscholar.org/paper/ac0a2d1f94f72f9e39e9cb93fb58e8990d58c323",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Robotic systems that rely primarily on self-supervised learning have the potential to decrease the amount of human annotation and engineering effort required to learn control strategies. In the same way that prior robotic systems have leveraged self-supervised techniques from computer vision (CV) and natural language processing (NLP), our work builds on prior work showing that the reinforcement learning (RL) itself can be cast as a self-supervised problem: learning to reach any goal without human-specified rewards or labels. Despite the seeming appeal, little (if any) prior work has demonstrated how self-supervised RL methods can be practically deployed on robotic systems. By first studying a challenging simulated version of this task, we discover design decisions about architectures and hyperparameters that increase the success rate by $2 \\times$. These findings lay the groundwork for our main result: we demonstrate that a self-supervised RL algorithm based on contrastive learning can solve real-world, image-based robotic manipulation tasks, with tasks being specified by a single goal image provided after training.",
+    "citationCount": 9,
+    "referenceCount": 113
+}

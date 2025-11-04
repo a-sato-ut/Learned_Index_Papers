@@ -1,0 +1,32 @@
+{
+    "paperId": "48ad1dfb7e794e0009b323432fe0e73fe5645543",
+    "title": "Semantic-Enhanced Knowledge Graph Completion",
+    "year": 2024,
+    "venue": "Mathematics",
+    "authors": [
+        "Xu Yuan",
+        "Jiaxi Chen",
+        "Yingbo Wang",
+        "Anni Chen",
+        "Yiou Huang",
+        "Wenhong Zhao",
+        "Shuo Yu"
+    ],
+    "doi": "10.3390/math12030450",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/48ad1dfb7e794e0009b323432fe0e73fe5645543",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2227-7390/12/3/450/pdf?version=1706668095",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Knowledge graphs (KGs) serve as structured representations of knowledge, comprising entities and relations. KGs are inherently incomplete, sparse, and have a strong need for completion. Although many knowledge graph embedding models have been designed for knowledge graph completion, they predominantly focus on capturing observable correlations between entities. Due to the sparsity of KGs, potential semantic correlations are challenging to capture. To tackle this problem, we propose a model entitled semantic-enhanced knowledge graph completion (SE-KGC). SE-KGC effectively addresses the issue by incorporating predefined semantic patterns, enabling the capture of semantic correlations between entities and enhancing features for representation learning. To implement this approach, we employ a multi-relational graph convolution network encoder, which effectively encodes the KG. Subsequently, we utilize a scoring decoder to evaluate triplets. Experimental results demonstrate that our SE-KGC model outperforms other state-of-the-art methods in link-prediction tasks across three datasets. Specifically, compared to the baselines, SE-KGC achieved improvements of 11.7%, 1.05%, and 2.30% in terms of MRR on these three datasets. Furthermore, we present a comprehensive analysis of the contributions of different semantic patterns, and find that entities with higher connectivity play a pivotal role in effectively capturing and characterizing semantic information.",
+    "citationCount": 3,
+    "referenceCount": 27
+}

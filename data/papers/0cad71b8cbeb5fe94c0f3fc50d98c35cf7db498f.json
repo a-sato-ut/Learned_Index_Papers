@@ -1,0 +1,37 @@
+{
+    "paperId": "0cad71b8cbeb5fe94c0f3fc50d98c35cf7db498f",
+    "title": "TabPFN: One Model to Rule Them All?",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Qiong Zhang",
+        "Yan Shuo Tan",
+        "Qinglong Tian",
+        "Pengfei Li"
+    ],
+    "doi": "10.48550/arXiv.2505.20003",
+    "arxivId": "2505.20003",
+    "url": "https://www.semanticscholar.org/paper/0cad71b8cbeb5fe94c0f3fc50d98c35cf7db498f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hollmann et al. (Nature 637 (2025) 319-326) recently introduced TabPFN, a transformer-based deep learning model for regression and classification on tabular data, which they claim\"outperforms all previous methods on datasets with up to 10,000 samples by a wide margin, using substantially less training time.\"Furthermore, they have called TabPFN a\"foundation model\"for tabular data, as it can support\"data generation, density estimation, learning reusable embeddings and fine-tuning\". If these statements are well-supported, TabPFN may have the potential to supersede existing modeling approaches on a wide range of statistical tasks, mirroring a similar revolution in other areas of artificial intelligence that began with the advent of large language models. In this paper, we provide a tailored explanation of how TabPFN works for a statistics audience, by emphasizing its interpretation as approximate Bayesian inference. We also provide more evidence of TabPFN's\"foundation model\"capabilities: We show that an out-of-the-box application of TabPFN vastly outperforms specialized state-of-the-art methods for semi-supervised parameter estimation, prediction under covariate shift, and heterogeneous treatment effect estimation. We further show that TabPFN can outperform LASSO at sparse regression and can break a robustness-efficiency trade-off in classification. All experiments can be reproduced using the code provided at https://github.com/qinglong-tian/tabpfn_study (https://github.com/qinglong-tian/tabpfn_study).",
+    "citationCount": 4,
+    "referenceCount": 46
+}

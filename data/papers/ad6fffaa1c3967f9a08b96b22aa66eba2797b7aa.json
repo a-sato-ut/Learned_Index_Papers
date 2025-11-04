@@ -1,0 +1,35 @@
+{
+    "paperId": "ad6fffaa1c3967f9a08b96b22aa66eba2797b7aa",
+    "title": "Assessing generalization capability of text ranking models in Polish",
+    "year": 2024,
+    "venue": "International Conference on Artificial Intelligence and Soft Computing",
+    "authors": [
+        "Slawomir Dadas",
+        "Malgorzata Grkebowiec"
+    ],
+    "doi": "10.48550/arXiv.2402.14318",
+    "arxivId": "2402.14318",
+    "url": "https://www.semanticscholar.org/paper/ad6fffaa1c3967f9a08b96b22aa66eba2797b7aa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Retrieval-augmented generation (RAG) is becoming an increasingly popular technique for integrating internal knowledge bases with large language models. In a typical RAG pipeline, three models are used, responsible for the retrieval, reranking, and generation stages. In this article, we focus on the reranking problem for the Polish language, examining the performance of rerankers and comparing their results with available retrieval models. We conduct a comprehensive evaluation of existing models and those trained by us, utilizing a benchmark of 41 diverse information retrieval tasks for the Polish language. The results of our experiments show that most models struggle with out-of-domain generalization. However, a combination of effective optimization method and a large training dataset allows for building rerankers that are both compact in size and capable of generalization. The best of our models establishes a new state-of-the-art for reranking in the Polish language, outperforming existing models with up to 30 times more parameters.",
+    "citationCount": 3,
+    "referenceCount": 33
+}

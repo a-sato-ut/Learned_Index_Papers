@@ -1,0 +1,34 @@
+{
+    "paperId": "2a52a930042564dad7fa63f2f68606ec63bbb249",
+    "title": "SOAR:A Learned Join Order Selector with Graph Attention Mechanism",
+    "year": 2022,
+    "venue": "IEEE International Joint Conference on Neural Network",
+    "authors": [
+        "Weiqi Zhou",
+        "Siyu Zhan",
+        "Bo Dai",
+        "Lei Guo"
+    ],
+    "doi": "10.1109/IJCNN55064.2022.9892450",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2a52a930042564dad7fa63f2f68606ec63bbb249",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Optimal join order selection often leads to optimal query execution plans while traversing the solution space is almost impossible which expands rapidly with the increase of join complexity. In the past research, considerable attention has been paid to heuristic rules for pruning. However, that may not work well facing complex SQL queries. Recent use of the reinforcement learning avoids traversing the solution space, but inaccurate long-term rewards may be obtained because of the inconsistent influence of various parts in the join tree. In this paper, SOAR is proposed, a novel learned optimizer that selects join orders through reinforcement learning with graph attention network. SOAR captures the tree structure by inputting the join tree in which each node carries database features into graph neural network and learns the inconsistent influence of join tree on long-term reward with graph attention mechanism in the process of reinforcement learning. The preliminary results demonstrate that SOAR can match or outperform the optimizer in PostgreSQL.",
+    "citationCount": 1,
+    "referenceCount": 32
+}

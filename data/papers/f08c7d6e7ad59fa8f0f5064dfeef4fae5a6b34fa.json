@@ -1,0 +1,40 @@
+{
+    "paperId": "f08c7d6e7ad59fa8f0f5064dfeef4fae5a6b34fa",
+    "title": "Learning Invariance Preserving Moment Closure Model for Boltzmann–BGK Equation",
+    "year": 2021,
+    "venue": "Communications in Mathematics and Statistics",
+    "authors": [
+        "Zhengyi Li",
+        "Bin Dong",
+        "Yanli Wang"
+    ],
+    "doi": "10.1007/s40304-022-00331-5",
+    "arxivId": "2110.03682",
+    "url": "https://www.semanticscholar.org/paper/f08c7d6e7ad59fa8f0f5064dfeef4fae5a6b34fa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As one of the main governing equations in kinetic theory, the Boltzmann equation is widely utilized in aerospace, microscopic flow, etc. Its high-resolution simulation is crucial in these related areas. However, due to the high dimensionality of the Boltzmann equation, high-resolution simulations are often difficult to achieve numerically. The moment method which was first proposed in Grad (Commun Pure Appl Math 2(4):331–407, 1949) is among the popular numerical methods to achieve efficient high-resolution simulations. We can derive the governing equations in the moment method by taking moments on both sides of the Boltzmann equation, which effectively reduces the dimensionality of the problem. However, one of the main challenges is that it leads to an unclosed moment system, and closure is needed to obtain a closed moment system. It is truly an art in designing closures for moment systems and has been a significant research field in kinetic theory. Other than the traditional human designs of closures, the machine learning-based approach has attracted much attention lately in Han et al. (Proc Natl Acad Sci USA 116(44):21983–21991, 2019) and Huang et al. (J Non-Equilib Thermodyn 46(4):355–370, 2021). In this work, we propose a machine learning-based method to derive a moment closure model for the Boltzmann–BGK equation. In particular, the closure relation is approximated by a carefully designed deep neural network that possesses desirable physical invariances, i.e., the Galilean invariance, reflecting invariance, and scaling invariance, inherited from the original Boltzmann–BGK equation and playing an important role in the correct simulation of the Boltzmann equation. Numerical simulations on the 1D–1D examples including the smooth and discontinuous initial condition problems, Sod shock tube problem, the shock structure problems, and the 1D–3D examples including the smooth and discontinuous problems demonstrate satisfactory numerical performances of the proposed invariance preserving neural closure method.",
+    "citationCount": 19,
+    "referenceCount": 49
+}

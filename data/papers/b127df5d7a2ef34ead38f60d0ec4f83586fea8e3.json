@@ -1,0 +1,34 @@
+{
+    "paperId": "b127df5d7a2ef34ead38f60d0ec4f83586fea8e3",
+    "title": "Maliva: Using Machine Learning to Rewrite Visualization Queries Under Time Constraints",
+    "year": 2021,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "Qiushi Bai",
+        "Sadeem Alsudais",
+        "Chen Li",
+        "Shuang Zhao"
+    ],
+    "doi": "10.48786/edbt.2023.13",
+    "arxivId": "2112.00182",
+    "url": "https://www.semanticscholar.org/paper/b127df5d7a2ef34ead38f60d0ec4f83586fea8e3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We consider data-visualization systems where a middleware layer translates a frontend request to a SQL query to a backend database to compute visual results. We study the problem of answering a visualization request within a limited time constraint due to the responsiveness requirement. We explore the optimization options of rewriting an original query by adding hints and/or doing approximations so that the total time is within the time constraint. We develop a novel middleware solution called Maliva based on machine learning (ML) techniques. It applies the Markov Decision Process (MDP) model to decide how to rewrite queries and uses training instances to learn an agent to make a sequence of decisions judiciously for an online request. We give a full specification of the technique, including how to construct an MDP model, how to train an agent, and how to use approximating rewrite options. Our experiments on both real and synthetic datasets show that Maliva performs significantly better than a baseline solution that does not do any rewriting, in terms of both the probability of serving requests interactively and query execution time.",
+    "citationCount": 5,
+    "referenceCount": 67
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "da325e7b887fd0bbb6aca7a76e2cb4933b6504ce",
+    "title": "Performance Study of Convolutional Neural Network Architectures for 3D Incompressible Flow Simulations",
+    "year": 2023,
+    "venue": "Platform for Advanced Scientific Computing Conference",
+    "authors": [
+        "Ekhi Ajuria Illarramendi",
+        "M. Bauerheim",
+        "Neil Ashton",
+        "Coretin Lapeyre",
+        "B. Cuenot"
+    ],
+    "doi": "10.1145/3592979.3593416",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/da325e7b887fd0bbb6aca7a76e2cb4933b6504ce",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, correctly handling spatial information from multiple scales has proven to be essential in Machine Learning (ML) applications on Computational Fluid Dynamics (CFD) problems. For these type of applications, Convolutional Neural Networks (CNN) that use Multiple Downsampled Branches (MDBs) to efficiently encode spatial information from different spatial scales have proven to be some of the most successful architectures. However, not many guidelines exist to build these architectures, particularly when applied to more challenging 3D configurations. Thus, this work focuses on studying the impact of the choice of the number of down-sampled branches, accuracy and performance-wise in 3D incompressible fluid test cases, where a CNN is used to solve the Poisson equation. The influence of this parameter is assessed by performing multiple trainings of Unet architectures with varying MDBs on a cloud-computing environment. These trained networks are then tested on two 3D CFD problems: a plume and a Von Karman vortex street at various operating points, where the solution of the neural network is coupled to a nonlinear advection equation.",
+    "citationCount": 0,
+    "referenceCount": 52
+}

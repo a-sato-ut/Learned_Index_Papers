@@ -1,0 +1,33 @@
+{
+    "paperId": "586e881a0882cf9f585ba73be735d28b85f6423c",
+    "title": "Online Aggregation based Approximate Query Processing: A Literature Survey",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Pritom Saha Akash",
+        "Wei-Cheng Lai",
+        "Po‐Wen Lin"
+    ],
+    "doi": "10.48550/arXiv.2204.07125",
+    "arxivId": "2204.07125",
+    "url": "https://www.semanticscholar.org/paper/586e881a0882cf9f585ba73be735d28b85f6423c",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2204.07125",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the current world, OLAP (Online Analytical Processing) is used intensively by modern organizations to perform ad hoc analysis of data, providing insight for better decision making. Thus, the performance for OLAP is crucial; however, it is costly to support OLAP for a large data-set. An approximate query process (AQP) was proposed to efficiently compute approximate values as close as to the exact answer. Existing AQP techniques can be categorized into two parts, online aggregation, and offline synopsis generation, each having its limitations and challenges. Online aggregation-based AQP progressively generates approximate results with some error estimates (i.e., confidence interval) until the processing of all data is done. In Offline synopsis generation-based AQP, synopses are generated offline using a-priori knowledge such as query workload or data statistics. Later, OLAP queries are answered using these synopses. This paper focuses on surveying only the online aggregation-based AQP. For this purpose, firstly, we discuss the research challenges in online aggregation-based AQP and summarize existing approaches to address these challenges. In addition, we also discuss the advantages and limitations of existing online aggregation mechanisms. Lastly, we discuss some research challenges and opportunities for further advancing online aggregation research. Our goal is for people to understand the current progress in the online aggregation-based AQP area and find new insights into it.",
+    "citationCount": 4,
+    "referenceCount": 54
+}

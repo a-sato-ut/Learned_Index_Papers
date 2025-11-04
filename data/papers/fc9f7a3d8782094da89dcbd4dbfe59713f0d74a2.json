@@ -1,0 +1,30 @@
+{
+    "paperId": "fc9f7a3d8782094da89dcbd4dbfe59713f0d74a2",
+    "title": "Making Learned Query Optimization Practical",
+    "year": 2022,
+    "venue": "SIGMOD record",
+    "authors": [
+        "V. Markl"
+    ],
+    "doi": "10.1145/3542700.3542702",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fc9f7a3d8782094da89dcbd4dbfe59713f0d74a2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query optimization has been a challenging problem ever since the relational data model had been proposed. The role of the query optimizer in a database system is to compute an execution plan for a (relational) query expression comprised of physical operators whose implementations correspond to the operations of the (relational) algebra. There are many degrees of freedom for selecting a physical plan, in particular due to the laws of associativity, commutativity, and distributivity among the operators in the (relational) algebra, which necessitates our taking the order of operations into consideration. In addition, there are many alternative access paths to a dataset and a multitude of physical implementations for operations, such as relational joins (e.g., merge-join, nestedloop join, hash-join). Thus, when seeking to determine the best (or even a sufficiently good) execution plan there is a huge search space.",
+    "citationCount": 36,
+    "referenceCount": 4
+}

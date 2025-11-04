@@ -1,0 +1,31 @@
+{
+    "paperId": "3538ad5f259006b5ca395ece3fcdeba687f58ea1",
+    "title": "View-dependent Adaptive HLOD: real-time interactive rendering of multi-resolution models",
+    "year": 2023,
+    "venue": "Conference on Visual Media Production",
+    "authors": [
+        "Rui Li"
+    ],
+    "doi": "10.1145/3626495.3626507",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3538ad5f259006b5ca395ece3fcdeba687f58ea1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Real-time visualization of large-scale surface models is still a challenging problem. When using the Hierarchical Level of Details (HLOD), the main issues are popping between levels and/or cracks between level parts. We present a visualization scheme (both HLOD construction and real-time rendering), which avoids both of these issues. In the construction stage, the model is first partitioned (not cut) according to a Euclidean cubic grid, and the multi-resolution LOD is then built by merging and then simplifying neighboring elements of the partition in an octree-like fashion, fine-to-coarse. Some freedom applies to the simplification algorithm being used, but it must provide a child-parent relation between vertices of successive LODs. In the rendering stage, the octree-based hierarchy model is traversed coarse-to-fine to select the cube with the appropriate resolution based on the position of the viewpoint. Vertex interpolation between child and parent is used to achieve crack and popping-free rendering. We implemented and tested our method on a modest desktop PC without a discrete GPU, and could render scanned models of multiples tens of million triangles at optimal visual quality and interactive frame rate.",
+    "citationCount": 2,
+    "referenceCount": 22
+}

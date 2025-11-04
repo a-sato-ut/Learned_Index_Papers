@@ -1,0 +1,36 @@
+{
+    "paperId": "6905e151dd645f0610e0e8ad516b98c6be4680f7",
+    "title": "Mirror Matching: Document Matching Approach in Seed-driven Document Ranking for Medical Systematic Reviews",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Grace E. Lee",
+        "Aixin Sun"
+    ],
+    "doi": null,
+    "arxivId": "2112.14318",
+    "url": "https://www.semanticscholar.org/paper/6905e151dd645f0610e0e8ad516b98c6be4680f7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "When medical researchers conduct a systematic review (SR), screening studies is the most time-consuming process: researchers read several thousands of medical literature and manually label them relevant or irrelevant. Screening prioritization (ie., document ranking) is an approach for assisting researchers by providing document rankings where relevant documents are ranked higher than irrelevant ones. Seed-driven document ranking (SDR) uses a known relevant document (ie., seed) as a query and generates such rankings. Previous work on SDR seeks ways to identify different term weights in a query document and utilizes them in a retrieval model to compute ranking scores. Alternatively, we formulate the SDR task as finding similar documents to a query document and produce rankings based on similarity scores. We propose a document matching measure named Mirror Matching, which calculates matching scores between medical abstract texts by incorporating common writing patterns, such as background, method, result, and conclusion in order. We conduct experiments on CLEF 2019 eHealth Task 2 TAR dataset, and the empirical results show this simple approach achieves the higher performance than traditional and neural retrieval models on Average Precision and Precision-focused metrics.",
+    "citationCount": 1,
+    "referenceCount": 41
+}

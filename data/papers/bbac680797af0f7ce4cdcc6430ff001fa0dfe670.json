@@ -1,0 +1,38 @@
+{
+    "paperId": "bbac680797af0f7ce4cdcc6430ff001fa0dfe670",
+    "title": "Learning to Generalize Across Long-Horizon Tasks from Human Demonstrations",
+    "year": 2020,
+    "venue": "Robotics: Science and Systems",
+    "authors": [
+        "Ajay Mandlekar",
+        "Danfei Xu",
+        "Roberto Martín-Martín",
+        "S. Savarese",
+        "Li Fei-Fei"
+    ],
+    "doi": "10.15607/rss.2020.xvi.061",
+    "arxivId": "2003.06085",
+    "url": "https://www.semanticscholar.org/paper/bbac680797af0f7ce4cdcc6430ff001fa0dfe670",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.15607/rss.2020.xvi.061",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Imitation learning is an effective and safe technique to train robot policies in the real world because it does not depend on an expensive random exploration process. However, due to the lack of exploration, learning policies that generalize beyond the demonstrated behaviors is still an open challenge. We present a novel imitation learning framework to enable robots to 1) learn complex real world manipulation tasks efficiently from a small number of human demonstrations, and 2) synthesize new behaviors not contained in the collected demonstrations. Our key insight is that multi-task domains often present a latent structure, where demonstrated trajectories for different tasks intersect at common regions of the state space. We present Generalization Through Imitation (GTI), a two-stage offline imitation learning algorithm that exploits this intersecting structure to train goal-directed policies that generalize to unseen start and goal state combinations. In the first stage of GTI, we train a stochastic policy that leverages trajectory intersections to have the capacity to compose behaviors from different demonstration trajectories together. In the second stage of GTI, we collect a small set of rollouts from the unconditioned stochastic policy of the first stage, and train a goal-directed agent to generalize to novel start and goal configurations. We validate GTI in both simulated domains and a challenging long-horizon robotic manipulation domain in the real world. Additional results and videos are available at this https URL .",
+    "citationCount": 149,
+    "referenceCount": 40
+}

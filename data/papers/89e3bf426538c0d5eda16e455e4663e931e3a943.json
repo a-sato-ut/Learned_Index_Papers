@@ -1,0 +1,40 @@
+{
+    "paperId": "89e3bf426538c0d5eda16e455e4663e931e3a943",
+    "title": "Transfer Learning Across Heterogeneous Features For Efficient Tensor Program Generation",
+    "year": 2023,
+    "venue": "ExHET@PPoPP",
+    "authors": [
+        "Gaurav Verma",
+        "Siddhisanket Raskar",
+        "Zhenda Xie",
+        "A. Malik",
+        "M. Emani",
+        "Barbara M. Chapman"
+    ],
+    "doi": "10.1145/3587278.3595644",
+    "arxivId": "2304.05430",
+    "url": "https://www.semanticscholar.org/paper/89e3bf426538c0d5eda16e455e4663e931e3a943",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3587278.3595644",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Tuning tensor program generation involves searching for various possible program transformation combinations for a given program on target hardware to optimize the tensor program execution. It is already a complex process because of the massive search space, and exponential combinations of transformations make auto-tuning tensor program generation more challenging, especially when we have a heterogeneous target. In this research, we attempt to address these problems by learning the joint neural network and hardware features and transferring them to the new target hardware. We extensively study the existing state-of-the-art dataset, TenSet, perform comparative analysis on the test split strategies and propose methodologies to prune the dataset. We adopt an attention-inspired approach for tuning the tensor programs enabling them to embed neural network and hardware-specific features. Our approach could prune the dataset up to 45% of the baseline without compromising the Pairwise Comparison Accuracy (PCA). Further, the proposed methodology can achieve on-par or improved mean inference time with 25%-40% of the baseline tuning time across different networks and target hardware.",
+    "citationCount": 2,
+    "referenceCount": 22
+}

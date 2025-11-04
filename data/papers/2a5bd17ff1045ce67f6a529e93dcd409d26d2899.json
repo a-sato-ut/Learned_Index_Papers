@@ -1,0 +1,39 @@
+{
+    "paperId": "2a5bd17ff1045ce67f6a529e93dcd409d26d2899",
+    "title": "Recoloring Unit Interval Graphs with Logarithmic Recourse Budget",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "B. Bosek",
+        "Anna Zych-Pawlewicz"
+    ],
+    "doi": null,
+    "arxivId": "2202.08006",
+    "url": "https://www.semanticscholar.org/paper/2a5bd17ff1045ce67f6a529e93dcd409d26d2899",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper we study the problem of coloring a unit interval graph which changes dynamically. In our model the unit intervals are added or removed one at the time, and have to be colored immediately, so that no two overlapping intervals share the same color. After each update only a limited number of intervals is allowed to be recolored. The limit on the number of recolorings per update is called the recourse budget. In this paper we show, that if the graph remains k-colorable at all times, and the updates consist of insertions only, then we can achieve the amortized recourse budget of O(k7 log n) while maintaining a proper coloring with k colors. This is an exponential improvement over the result in [9] in terms of both k and n. We complement this result by showing the lower bound of Ω(n) on the amortized recourse budget in the fully dynamic setting. Our incremental algorithm can be efficiently implemented. As a byproduct of independent interest we include a new result on coloring proper circular arc graphs. Let L be the maximum number of arcs intersecting in one point for some set of unit circular arcs A. We show that if there is a set A′ of non-intersecting unit arcs of size L2− 1 such that A ∪ A′ does not contain L + 1 arcs intersecting in one point, then it is possible to color A with L colors. This complements the work on unit circular arc coloring [2, 28, 29], which specifies sufficient conditions needed to color A with L + 1 colors or more.",
+    "citationCount": 1,
+    "referenceCount": 34
+}

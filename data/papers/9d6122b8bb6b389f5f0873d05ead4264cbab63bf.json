@@ -1,0 +1,32 @@
+{
+    "paperId": "9d6122b8bb6b389f5f0873d05ead4264cbab63bf",
+    "title": "Foreground color prediction through inverse compositing",
+    "year": 2021,
+    "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+    "authors": [
+        "Sebastian Lutz",
+        "A. Smolic"
+    ],
+    "doi": "10.1109/WACV48630.2021.00165",
+    "arxivId": "2103.13423",
+    "url": "https://www.semanticscholar.org/paper/9d6122b8bb6b389f5f0873d05ead4264cbab63bf",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2103.13423",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In natural image matting, the goal is to estimate the opacity of the foreground object in the image. This opacity controls the way the foreground and background is blended in transparent regions. In recent years, advances in deep learning have led to many natural image matting algorithms that have achieved outstanding performance in a fully automatic manner. However, most of these algorithms only predict the alpha matte from the image, which is not sufficient to create high-quality compositions. Further, it is not possible to manually interact with these algorithms in any way except by directly changing their input or output. We propose a novel recurrent neural network that can be used as a post-processing method to recover the foreground and background colors of an image, given an initial alpha estimation. Our method outperforms the state-of-the-art in color estimation for natural image matting and show that the recurrent nature of our method allows users to easily change candidate solutions that lead to superior color estimations.",
+    "citationCount": 2,
+    "referenceCount": 26
+}

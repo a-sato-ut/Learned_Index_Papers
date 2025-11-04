@@ -1,0 +1,47 @@
+{
+    "paperId": "093ca5671e581e9223a051d1c36a7b727e01668c",
+    "title": "An Implicit GNN Solver for Poisson-like problems",
+    "year": 2023,
+    "venue": "Computers and Mathematics with Applications",
+    "authors": [
+        "Matthieu Nastorg",
+        "M. Bucci",
+        "T. Faney",
+        "J. Gratien",
+        "G. Charpiat",
+        "M. Schoenauer"
+    ],
+    "doi": "10.48550/arXiv.2302.10891",
+    "arxivId": "2302.10891",
+    "url": "https://www.semanticscholar.org/paper/093ca5671e581e9223a051d1c36a7b727e01668c",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2302.10891",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents $\\Psi$-GNN, a novel Graph Neural Network (GNN) approach for solving the ubiquitous Poisson PDE problems with mixed boundary conditions. By leveraging the Implicit Layer Theory, $\\Psi$-GNN models an\"infinitely\"deep network, thus avoiding the empirical tuning of the number of required Message Passing layers to attain the solution. Its original architecture explicitly takes into account the boundary conditions, a critical prerequisite for physical applications, and is able to adapt to any initially provided solution. $\\Psi$-GNN is trained using a\"physics-informed\"loss, and the training process is stable by design, and insensitive to its initialization. Furthermore, the consistency of the approach is theoretically proven, and its flexibility and generalization efficiency are experimentally demonstrated: the same learned model can accurately handle unstructured meshes of various sizes, as well as different boundary conditions. To the best of our knowledge, $\\Psi$-GNN is the first physics-informed GNN-based method that can handle various unstructured domains, boundary conditions and initial solutions while also providing convergence guarantees.",
+    "citationCount": 6,
+    "referenceCount": 91
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "9c974f3c803e139e28da77b24d40fe534cac4ccf",
+    "title": "Deep Learning for Approximate Nearest Neighbour Search: A Survey and Future Directions",
+    "year": 2023,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Mingjie Li",
+        "Yuan-Gen Wang",
+        "Peng Zhang",
+        "Hanpin Wang",
+        "Lisheng Fan",
+        "Enxia Li",
+        "Wei Wang"
+    ],
+    "doi": "10.1109/TKDE.2022.3220683",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9c974f3c803e139e28da77b24d40fe534cac4ccf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate nearest neighbour search (ANNS) in high-dimensional space is an essential and fundamental operation in many applications from many domains such as multimedia database, information retrieval and computer vision. With the rapidly growing volume of data and the dramatically increasing demands of users, traditional heuristic-based ANNS solutions have been facing great challenges in terms of both efficiency and accuracy. Inspired by the recent successes of deep learning in many fields, substantial efforts have been devoted to applying deep learning techniques to ANNS for learning to index and learning to search, resulting in numerous algorithms that achieve state-of-the-art performance compared with conventional methods. In this survey paper, we comprehensively review the different types of deep learning-based ANNS methods according to two learning paradigms: learning to index and learning to search. We provide a comprehensive overview and analysis of these methods in a systematic manner. Based on the overview, we point out that end-to-end learning will be a new and promising research direction for deep learning-based ANNS, i.e., applying deep learning techniques to jointly learn the indexing and searching together, such that the underlying knowledge learned from data can directly contribute to the final searching performance. Finally, we conduct experiments and provide general performance analyses for the representative deep learning-based ANNS algorithms.",
+    "citationCount": 13,
+    "referenceCount": 145
+}

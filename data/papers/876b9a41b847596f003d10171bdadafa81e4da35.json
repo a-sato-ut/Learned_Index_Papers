@@ -1,0 +1,33 @@
+{
+    "paperId": "876b9a41b847596f003d10171bdadafa81e4da35",
+    "title": "Multiple Query Optimization Using a Gate-Based Quantum Computer",
+    "year": 2023,
+    "venue": "IEEE Access",
+    "authors": [
+        "Tobias Fankhauser",
+        "Marc E. Solèr",
+        "R. Füchslin",
+        "Kurt Stockinger"
+    ],
+    "doi": "10.1109/ACCESS.2023.3324253",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/876b9a41b847596f003d10171bdadafa81e4da35",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10283820.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Quantum computing promises to solve difficult optimization problems in chemistry, physics and mathematics more efficiently than classical computers. However, it requires fault-tolerant quantum computers with millions of qubits; a technological challenge still not mastered by engineers. To lower the barrier, hybrid algorithms combining classical and quantum computers are used, where quantum computing is only used for those parts of computation that cannot be solved efficiently otherwise. In this paper, we tackle the multiple query optimization problem (MQO), an important NP-hard problem in database research. We present an implementation based on a scheme called quantum approximate optimization algorithm to solve the MQO on a gate-based quantum computer. We perform a detailed experimental evaluation of our implementation and compare its performance against a competing approach that employs a quantum annealer – another type of quantum computer. Our implementation shows a qubit efficiency of close to 99%, which is almost a factor of 2 higher than the state-of-the-art implementation. We emphasize that the problems we can solve with current gate-based quantum technology are fairly small and might not seem practical yet compared to state-of-the-art classical query optimizers. However, our experiments on using a hybrid approach of classical and quantum computing show that our implementation scales favourably with larger problem sizes. Hence, we conclude that our approach shows promising results for near-term quantum computers and thus sets the stage for a challenging avenue of novel database research.",
+    "citationCount": 10,
+    "referenceCount": 50
+}

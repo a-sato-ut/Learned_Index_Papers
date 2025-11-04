@@ -1,0 +1,38 @@
+{
+    "paperId": "c711f73bb78a6fb2cc6bf3c017b5d31261a60643",
+    "title": "The Slow Path Needs an Accelerator Too!",
+    "year": 2023,
+    "venue": "Computer communication review",
+    "authors": [
+        "Annus Zulfiqar",
+        "Ben Pfaff",
+        "William Tu",
+        "G. Antichi",
+        "M. Shahbaz"
+    ],
+    "doi": "10.1145/3594255.3594259",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c711f73bb78a6fb2cc6bf3c017b5d31261a60643",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Packet-processing data planes have been continuously enhanced in performance over the last few years to the point that, nowadays, they are increasingly implemented in hardware (i.e., in SmartNICs and programmable switches). However, little attention is given to the slow path residing between the data plane and the control plane, as it is not typically considered performance-critical. In this paper, we show that the slow path is set to become a new key bottleneck in Software-Defined Networks (SDNs). This is due to the growth in physical network bandwidth (200 Gbps is becoming common in data centers) and topological complexity (e.g., virtual switches now span hundreds of physical machines). We present our vision of a new Domain Specific Accelerator (DSA) for the slow path at the end host that sits between the hardware-offloaded data plane and the logically-centralized control plane. We discuss open problems in this domain and call on the networking community to creatively address this emerging issue.",
+    "citationCount": 14,
+    "referenceCount": 67
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "acce51d7980ddab16c1dcd31a0ea140f6b260fb8",
+    "title": "Joint Index, Sorting, and Compression Optimization for Memory-Efficient Spatio-Temporal Data Management",
+    "year": 2021,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Keven Richly",
+        "R. Schlosser",
+        "Martin Boissier"
+    ],
+    "doi": "10.1109/ICDE51399.2021.00174",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/acce51d7980ddab16c1dcd31a0ea140f6b260fb8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The wide distribution of location-acquisition technologies has led to large volumes of spatio-temporal data, which are the foundation for a broad spectrum of applications. Based on these applications’ performance requirements, in-memory databases are used to store and process the data. As DRAM capacities are limited and expensive, modern database systems apply various configuration optimizations (e.g., compression) to reduce the memory footprint. The selection of cost and performance balancing configurations is challenging due to the vast amount of possible setups consisting of mutually dependent individual decisions. In this paper, we present a linear programming approach to determine fine-grained configuration decisions for spatio-temporal workloads. By dividing the data into partitions of fixed size, we can apply the compression, sorting, and index selections on a fine-grained level to reflect spatiotemporal access patterns. Our approach jointly optimizes these configurations to maximize performance under a given memory budget. We demonstrate on a real-world dataset that models specifically optimized for spatio-temporal data characteristics allow us to reduce the memory footprint (up to 60% by equal performance) and increase the performance (up to 80% by equal memory size) compared to established rule-based heuristics.",
+    "citationCount": 10,
+    "referenceCount": 22
+}

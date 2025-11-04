@@ -1,0 +1,31 @@
+{
+    "paperId": "bfe2a0b20d12e3d488cdbf273f94e3c645f7944e",
+    "title": "Automatic Portrait Video Matting via Context Motion Network",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Qiqi Hou",
+        "C. Wang"
+    ],
+    "doi": null,
+    "arxivId": "2109.04598",
+    "url": "https://www.semanticscholar.org/paper/bfe2a0b20d12e3d488cdbf273f94e3c645f7944e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automatic portrait video matting is an under-constrained problem. Most state-of-the-art methods only exploit the semantic information and process each frame individually. Their performance is compromised due to the lack of temporal information between the frames. To solve this problem, we propose the context motion network to leverage semantic information and motion information. To capture the motion information, we estimate the optical flow and design a context-motion updating operator to integrate features between frames recurrently. Our experiments show that our network outperforms state-of-the-art matting methods significantly on the Video240K SD dataset.",
+    "citationCount": 1,
+    "referenceCount": 50
+}

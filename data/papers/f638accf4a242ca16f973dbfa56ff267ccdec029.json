@@ -1,0 +1,34 @@
+{
+    "paperId": "f638accf4a242ca16f973dbfa56ff267ccdec029",
+    "title": "FairEGM: Fair Link Prediction and Recommendation via Emulated Graph Modification",
+    "year": 2022,
+    "venue": "Conference on Equity and Access in Algorithms, Mechanisms, and Optimization",
+    "authors": [
+        "Sean Current",
+        "Yuntian He",
+        "Saket Gurukar",
+        "Srinivas Parthasarathy"
+    ],
+    "doi": "10.1145/3551624.3555287",
+    "arxivId": "2201.11596",
+    "url": "https://www.semanticscholar.org/paper/f638accf4a242ca16f973dbfa56ff267ccdec029",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2201.11596",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As machine learning becomes more widely adopted across domains, it is critical that researchers and ML engineers think about the inherent biases in the data that may be perpetuated by the model. Recently, many studies have shown that such biases are also imbibed in Graph Neural Network (GNN) models if the input graph is biased, potentially to the disadvantage of underserved and underrepresented communities. In this work, we aim to mitigate the bias learned by GNNs by jointly optimizing two different loss functions: one for the task of link prediction and one for the task of demographic parity. We further implement three different techniques inspired by graph modification approaches: the Global Fairness Optimization (GFO), Constrained Fairness Optimization (CFO), and Fair Edge Weighting (FEW) models. These techniques mimic the effects of changing underlying graph structures within the GNN and offer a greater degree of interpretability over more integrated neural network methods. Our proposed models emulate microscopic or macroscopic edits to the input graph while training GNNs and learn node embeddings that are both accurate and fair under the context of link recommendations. We demonstrate the effectiveness of our approach on four real world datasets and show that we can improve the recommendation fairness by several factors at negligible cost to link prediction accuracy.",
+    "citationCount": 17,
+    "referenceCount": 37
+}

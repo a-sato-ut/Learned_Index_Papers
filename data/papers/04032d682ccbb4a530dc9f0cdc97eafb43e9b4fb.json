@@ -1,0 +1,32 @@
+{
+    "paperId": "04032d682ccbb4a530dc9f0cdc97eafb43e9b4fb",
+    "title": "The Selection Problem in Multi-Query Optimization: a Comprehensive Survey",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Sergey Zinchenko",
+        "Denis Ponomaryov"
+    ],
+    "doi": "10.48550/arXiv.2412.11828",
+    "arxivId": "2412.11828",
+    "url": "https://www.semanticscholar.org/paper/04032d682ccbb4a530dc9f0cdc97eafb43e9b4fb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "View materialization, index selection, and plan caching are well-known techniques for optimization of query processing in database systems. The essence of these tasks is to select and save a subset of the most useful candidates (views/indexes/plans) for reuse within given space/time budget constraints. In this paper, we propose a unified view on these selection problems. We make a detailed analysis of the root causes of their complexity and summarize techniques to address them. Our survey provides a modern classification of selection algorithms known in the literature, including the latest ones based on Machine Learning. We provide a ground for reuse of the selection techniques between different optimization scenarios and highlight challenges and promising directions in the field. Based on our analysis we derive a method to exponentially accelerate some of the state-of-the-art selection algorithms.",
+    "citationCount": 0,
+    "referenceCount": 71
+}

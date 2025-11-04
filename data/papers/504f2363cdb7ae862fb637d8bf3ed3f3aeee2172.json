@@ -1,0 +1,32 @@
+{
+    "paperId": "504f2363cdb7ae862fb637d8bf3ed3f3aeee2172",
+    "title": "Efficient RDF Graph Storage based on Reinforcement Learning",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Lei Zheng",
+        "Ziming Shen",
+        "Hongzhi Wang"
+    ],
+    "doi": null,
+    "arxivId": "2010.11538",
+    "url": "https://www.semanticscholar.org/paper/504f2363cdb7ae862fb637d8bf3ed3f3aeee2172",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Knowledge graph is an important cornerstone of artificial intelligence. The construction and release of large-scale knowledge graphs in various fields pose new challenges to knowledge graph data management. Due to the maturity and stability, relational database is also suitable for RDF data storage. However, the complex structure of RDF graph brings challenges to storage structure design for RDF graph in the relational database. To address the difficult problem, this paper adopts reinforcement learning (RL) to optimize the storage partition method of RDF graph based on the relational database. We transform the graph storage into a Markov decision process, and develop the reinforcement learning algorithm for graph storage design. For effective RL-based storage design, we propose the data feature extraction method of RDF tables and the query rewriting priority policy during model training. The extensive experimental results demonstrate that our approach outperforms existing RDF storage design methods.",
+    "citationCount": 1,
+    "referenceCount": 28
+}

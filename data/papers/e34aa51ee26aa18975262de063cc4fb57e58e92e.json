@@ -1,0 +1,32 @@
+{
+    "paperId": "e34aa51ee26aa18975262de063cc4fb57e58e92e",
+    "title": "PextCuts: A High-performance Packet Classification Algorithm with Pext CPU Instruction",
+    "year": 2022,
+    "venue": "International Workshop on Quality of Service",
+    "authors": [
+        "Chunyang Zhang",
+        "Gaogang Xie",
+        "Peng He"
+    ],
+    "doi": "10.1109/IWQoS54832.2022.9812873",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e34aa51ee26aa18975262de063cc4fb57e58e92e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Packet classification is the most essential component for switches and firewalls to perform network functions. In Software Defined Network, the growing scale of traffic requires the packet classification algorithm to perform high-speed lookup. Even though a lot of algorithms are proposed, the lookup performance is still the bottleneck because of the inefficient and unscientific schemes to cut rules and split trees. In this paper, we propose a novel decision-tree-based algorithm PextCuts. First, to efficiently cut rules, PextCuts applies one pext CPU instruction to select discontiguous bits rather than contiguous bits. Second, to scientifically split trees, PextCuts applies the dynamic programming method to split each field into multiple sizes rather than large and small sizes. Compared to ten representative algorithms, PextCuts has the highest lookup speed with the minimal numbers of average memory accesses, maximal memory accesses, and tree height simultaneously. It also consumes the least memory cost and the shortest construction time. For the state-of-the-art algorithm ByteCuts, PextCuts achieves 2.1x lookup speed with only 57% memory cost and 10% construction time. In addition, we implement PextCuts in DPDK to perform packet classification with optional fields and achieve 3.0x lookup speed.",
+    "citationCount": 4,
+    "referenceCount": 34
+}

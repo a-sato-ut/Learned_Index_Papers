@@ -1,0 +1,37 @@
+{
+    "paperId": "6548e693fa9f96f74a96d5f0aae01183f042585e",
+    "title": "Zippo: Zipping Color and Transparency Distributions into a Single Diffusion Model",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Kangyang Xie",
+        "Bin Yang",
+        "Hao Chen",
+        "Meng Wang",
+        "Cheng Zou",
+        "Hui Xue",
+        "Ming Yang",
+        "Chunhua Shen"
+    ],
+    "doi": "10.48550/arXiv.2403.11077",
+    "arxivId": "2403.11077",
+    "url": "https://www.semanticscholar.org/paper/6548e693fa9f96f74a96d5f0aae01183f042585e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Beyond the superiority of the text-to-image diffusion model in generating high-quality images, recent studies have attempted to uncover its potential for adapting the learned semantic knowledge to visual perception tasks. In this work, instead of translating a generative diffusion model into a visual perception model, we explore to retain the generative ability with the perceptive adaptation. To accomplish this, we present Zippo, a unified framework for zipping the color and transparency distributions into a single diffusion model by expanding the diffusion latent into a joint representation of RGB images and alpha mattes. By alternatively selecting one modality as the condition and then applying the diffusion process to the counterpart modality, Zippo is capable of generating RGB images from alpha mattes and predicting transparency from input images. In addition to single-modality prediction, we propose a modality-aware noise reassignment strategy to further empower Zippo with jointly generating RGB images and its corresponding alpha mattes under the text guidance. Our experiments showcase Zippo's ability of efficient text-conditioned transparent image generation and present plausible results of Matte-to-RGB and RGB-to-Matte translation.",
+    "citationCount": 2,
+    "referenceCount": 44
+}

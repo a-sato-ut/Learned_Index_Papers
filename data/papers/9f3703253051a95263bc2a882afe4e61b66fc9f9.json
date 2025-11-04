@@ -1,0 +1,37 @@
+{
+    "paperId": "9f3703253051a95263bc2a882afe4e61b66fc9f9",
+    "title": "Black or White? How to Develop an AutoTuner for Memory-based Analytics",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Mayuresh Kunjir",
+        "S. Babu"
+    ],
+    "doi": "10.1145/3318464.3380591",
+    "arxivId": "2002.11780",
+    "url": "https://www.semanticscholar.org/paper/9f3703253051a95263bc2a882afe4e61b66fc9f9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3318464.3380591",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There is a lot of interest today in building autonomous (or, self-driving) data processing systems. An emerging school of thought is to leverage AI-driven \"black box\" algorithms for this purpose. In this paper, we present a contrarian view. We study the problem of autotuning the memory allocation for applications running on modern distributed data processing systems. We show that an empirically-driven \"white-box\" algorithm, called RelM, that we have developed provides a close-to-optimal tuning at a fraction of the overheads compared to state-of-the-art AI-driven \"black box\" algorithms, namely, Bayesian Optimization (BO) and Deep Distributed Policy Gradient (DDPG). The main reason for RelM's superior performance is that the memory management in modern memory-based data analytics systems is an interplay of algorithms at multiple levels: (i) at the resource-management level across various containers allocated by resource managers like Kubernetes and YARN, (ii) at the container level among the OS, pods, and processes such as the Java Virtual Machine (JVM), (iii) at the application level for caching, aggregation, data shuffles, and application data structures, and (iv) at the JVM level across various pools such as the Young and Old Generation. RelM understands these interactions and uses them in building an analytical solution to autotune the memory management knobs. In another contribution, called Guided-BO (GBO), we use RelM's analytical models to speed up BO. Through an evaluation based on Apache Spark, we showcase that the RelM's recommendations are significantly better than what commonly-used Spark deployments provide, and are close to the ones obtained by brute-force exploration; while GBO provides optimality guarantees for a higher, but still significantly lower cost overhead compared to the state-of-the-art AI-driven policies.",
+    "citationCount": 62,
+    "referenceCount": 71
+}

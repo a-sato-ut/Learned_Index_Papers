@@ -1,0 +1,32 @@
+{
+    "paperId": "54e923e96ef965c4d47b08fbdac33d21ee04029e",
+    "title": "Development of a Medical Chatbot Using Generative AI and Retrieval-Augmented Techniques",
+    "year": 2025,
+    "venue": "International Conference on Future Internet of Things and Cloud",
+    "authors": [
+        "Raveena Ailapuram",
+        "M. S. Sharif",
+        "Wael Elmedany"
+    ],
+    "doi": "10.1109/FiCloud66139.2025.00068",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/54e923e96ef965c4d47b08fbdac33d21ee04029e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Quick and accurate access to medical information is crucial for patients and healthcare professionals alike. Traditional search engines often fail to concise and context-specific responses to medical queries. This paper introduces a medical chatbot that combines large language models (LLMs) with retrieval-augmented generation (RAG) techniques to generate reliable and contextually relevant answers. The system integrates the Mistral-7B-Instructv0.3 model hosted on Hugging Face and uses Pinecone, a vector database, for efficient semantic search. Built using the Flask web framework, the chatbot retrieves the most relevant medical texts, constructs dynamic prompts, and generates accurate, user-friendly responses. Experiments with common medical questions demonstrate the chatbot’s ability to deliver timely, medically sound answers, highlighting the advantages of combining retrieval mechanisms with generative models in healthcare applications.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

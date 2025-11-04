@@ -1,0 +1,45 @@
+{
+    "paperId": "3373302a21b626bdc8d163b8e1ef7e7b8a880055",
+    "title": "Automated external defibrillator location selection considering myocardial infarction risk and medical resources",
+    "year": 2024,
+    "venue": "Trans. GIS",
+    "authors": [
+        "Yao Yao",
+        "Ledi Shao",
+        "Hanyu Yin",
+        "Changwu Xu",
+        "Zihao Guo",
+        "Honghuang Chen",
+        "Junyi Cheng",
+        "Xiaotong Zhang",
+        "Jiteng Xie",
+        "Chenqi Feng",
+        "Qingfeng Guan",
+        "Peng Luo"
+    ],
+    "doi": "10.1111/tgis.13223",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3373302a21b626bdc8d163b8e1ef7e7b8a880055",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1111/tgis.13223",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The effective deployment of medical emergency equipment, such as automated external defibrillator (AED), is essential to myocardial infarction (MI) patients. However, there are shortcomings in current studies that simultaneously consider the risk of MI and the availability of medical resources when siting the AEDs. In this study, an AED site recommendation framework was proposed to address the lack of consideration for both the MI risk and medical resources when siting the AEDs. It conducts the AED sitting under different scenarios considering the spatial distribution of MI risk and healthcare accessibility in Chinese cities. First, an automated machine learning framework data is proposed to estimate the MI risk at the community scale based on multi‐source spatio‐temporal. Second, the accessibility of medical resources was calculated by an improved Gaussian two‐step moving search algorithm. Finally, the AED siting in multiple scenarios is conducted based on the coverage model. The performance of the AED siting model was evaluated at Wuhan city. The results show that MI risk is impacted by both socioeconomic and cultural characteristics (municipal utilities, streetscape environment, educational and commercial facilities). There is a strong spatial heterogeneity in the distribution of both MI risk and medical resources in Wuhan, and an unreasonable match between the two was detected in some regions. Medical resources need to be strengthened in some high‐risk areas, such as rural areas and tourist attractions. In addition, 1015 AED candidate sites were identified by the location set covering problem model, with a 15‐min accessibility rate of 96.5%. Given the limited resources, mobile AEDs which have about 15‐min service range can be deployed based on the maximum covering location problem model to meet the demand in central urban areas efficiently. This study can contribute to more rational selection of AED sites and the prevention of myocardial infarction among residents, particularly when supported by policies that promote balanced regional development of pre‐hospital medical emergency networks.",
+    "citationCount": 0,
+    "referenceCount": 119
+}

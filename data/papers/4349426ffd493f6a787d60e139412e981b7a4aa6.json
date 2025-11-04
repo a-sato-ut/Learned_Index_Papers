@@ -1,0 +1,31 @@
+{
+    "paperId": "4349426ffd493f6a787d60e139412e981b7a4aa6",
+    "title": "Improving Query Quality for Transductive Learning in Learning to Rank",
+    "year": 2020,
+    "venue": "IEEE Access",
+    "authors": [
+        "Xin Zhang",
+        "Zhi Cheng"
+    ],
+    "doi": "10.1109/access.2020.3043459",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4349426ffd493f6a787d60e139412e981b7a4aa6",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09295320.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In traditional transductive learning, all queries are used in learning to rank in order to generate pseudo-labels when sufficient training data are not available. However, low quality queries may affect retrieval performance in transductive learning. We thus think that it is important to improve the quality of queries in transductive learning to train an effective ranking model. By using a small number of reliable samples and data close to the boundaries of classification, we propose building a query quality estimator by establishing a relationship between the benefits of good retrieval performance and features of the normalized query commitment that influence query quality. In our proposed transduction model, all queries available are filtered by the proposed query quality estimator and only high quality queries that enhance the effectiveness of retrieval such that they yield performance-related benefits, are used to generate pseudo-labels for learning to rank. Queries that can degrade performance benefits are discarded while creating the pseudo-labels. Pseudo-labels aggregated by high quality queries in transductive learning are then leveraged in learning to rank scenarios without sufficient training data. The results of extensive experiments on the standard LETOR 4.0 dataset showed that our proposed method can outperform strong baselines and the average normalized discounted cumulative gain is enhanced up to 7.77% in some case. INDEX TERMS Transductive learning, query quality, retrieval performance, learning to rank",
+    "citationCount": 0,
+    "referenceCount": 48
+}

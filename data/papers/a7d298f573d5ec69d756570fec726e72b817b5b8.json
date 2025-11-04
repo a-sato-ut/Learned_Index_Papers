@@ -1,0 +1,35 @@
+{
+    "paperId": "a7d298f573d5ec69d756570fec726e72b817b5b8",
+    "title": "Context-Aware Search for Environmental Data Using Dense Retrieval",
+    "year": 2024,
+    "venue": "ISPRS Int. J. Geo Inf.",
+    "authors": [
+        "Simeon Wetzel",
+        "Stephan Mäs"
+    ],
+    "doi": "10.3390/ijgi13110380",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a7d298f573d5ec69d756570fec726e72b817b5b8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3390/ijgi13110380",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The search for environmental data typically involves lexical approaches, where query terms are matched with metadata records based on measures of term frequency. In contrast, dense retrieval approaches employ language models to comprehend the context and meaning of a query and provide relevant search results. However, for environmental data, this has not been researched and there are no corpora or evaluation datasets to fine-tune the models. This study demonstrates the adaptation of dense retrievers to the domain of climate-related scientific geodata. Four corpora containing text passages from various sources were used to train different dense retrievers. The domain-adapted dense retrievers are integrated into the search architecture of a standard metadata catalogue. To improve the search results further, we propose a spatial re-ranking stage after the initial retrieval phase to refine the results. The evaluation demonstrates superior performance compared to the baseline model commonly used in metadata catalogues (BM25). No clear trends in performance were discovered when comparing the results of the dense retrievers. Therefore, further investigation aspects are identified to finally enable a recommendation of the most suitable corpus composition.",
+    "citationCount": 1,
+    "referenceCount": 39
+}

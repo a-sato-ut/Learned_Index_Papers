@@ -1,0 +1,35 @@
+{
+    "paperId": "b9dfdf31227b3d0b86631c19977c8c9a38db83a1",
+    "title": "Detecting Objects with Context-Likelihood Graphs and Graph Refinement",
+    "year": 2022,
+    "venue": "IEEE International Conference on Computer Vision",
+    "authors": [
+        "Aritra Bhowmik",
+        "Martin R. Oswald",
+        "Yu Wang",
+        "N. Baka",
+        "Cees G. M. Snoek"
+    ],
+    "doi": "10.1109/ICCV51070.2023.00600",
+    "arxivId": "2212.12395",
+    "url": "https://www.semanticscholar.org/paper/b9dfdf31227b3d0b86631c19977c8c9a38db83a1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2212.12395",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The goal of this paper is to detect objects by exploiting their interrelationships. Contrary to existing methods, which learn objects and relations separately, our key idea is to learn the object-relation distribution jointly. We first propose a novel way of creating a graphical representation of an image from inter-object relation priors and initial class predictions, we call a context-likelihood graph. We then learn the joint distribution with an energy-based modeling technique which allows to sample and refine the context-likelihood graph iteratively for a given image. Our formulation of jointly learning the distribution enables us to generate a more accurate graph representation of an image which leads to a better object detection performance. We demonstrate the benefits of our context-likelihood graph formulation and the energy-based graph refinement via experiments on the Visual Genome and MS-COCO datasets where we achieve a consistent improvement over object detectors like DETR and Faster-RCNN, as well as alternative methods modeling object interrelationships separately. Our method is detector agnostic, end-to-end trainable, and especially beneficial for rare object classes.",
+    "citationCount": 2,
+    "referenceCount": 50
+}

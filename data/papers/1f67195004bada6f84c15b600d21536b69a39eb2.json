@@ -1,0 +1,35 @@
+{
+    "paperId": "1f67195004bada6f84c15b600d21536b69a39eb2",
+    "title": "Virtual Multi-Modality Self-Supervised Foreground Matting for Human-Object Interaction",
+    "year": 2021,
+    "venue": "IEEE International Conference on Computer Vision",
+    "authors": [
+        "Bo Xu",
+        "Han Huang",
+        "Cheng Lu",
+        "Zi-Jun Li",
+        "Yandong Guo"
+    ],
+    "doi": "10.1109/ICCV48922.2021.00049",
+    "arxivId": "2110.03278",
+    "url": "https://www.semanticscholar.org/paper/1f67195004bada6f84c15b600d21536b69a39eb2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2110.03278",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Most existing human matting algorithms tried to separate pure human-only foreground from the background. In this paper, we propose a Virtual Multi-modality Foreground Matting (VMFM) method to learn human-object interactive foreground (human and objects interacted with him or her) from a raw RGB image. The VMFM method requires no additional inputs, e.g. trimap or known background. We reformulate foreground matting as a self-supervised multi-modality problem: factor each input image into estimated depth map, segmentation mask, and interaction heatmap using three auto-encoders. In order to fully utilize the characteristics of each modality, we first train a dual encoder-to-decoder network to estimate the same alpha matte. Then we introduce a self-supervised method: Complementary Learning(CL) to predict deviation probability map and exchange reliable gradients across modalities without label. We conducted extensive experiments to analyze the effectiveness of each modality and the significance of different components in complementary learning. We demonstrate that our model outperforms the state-of-the-art methods.",
+    "citationCount": 7,
+    "referenceCount": 37
+}

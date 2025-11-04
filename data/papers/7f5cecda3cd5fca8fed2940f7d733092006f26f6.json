@@ -1,0 +1,30 @@
+{
+    "paperId": "7f5cecda3cd5fca8fed2940f7d733092006f26f6",
+    "title": "Reinforcement learning control of robot manipulator",
+    "year": 2021,
+    "venue": "Revista Brasileira de Computação Aplicada",
+    "authors": [
+        "L. P. Cotrim",
+        "M. M. José",
+        "E. Cabral"
+    ],
+    "doi": "10.5335/rbca.v13i3.12091",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7f5cecda3cd5fca8fed2940f7d733092006f26f6",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://seer.upf.br/index.php/rbca/article/download/12091/114116231",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Since the establishment of robotics in industrial applications, industrial robot programming involves therepetitive and time-consuming process of manually specifying a fixed trajectory, which results in machineidle time in terms of production and the necessity of completely reprogramming the robot for different tasks.The increasing number of robotics applications in unstructured environments requires not only intelligent butalso reactive controllers, due to the unpredictability of the environment and safety measures respectively. This paper presents a comparative analysis of two classes of Reinforcement Learning algorithms, value iteration (Q-Learning/DQN) and policy iteration (REINFORCE), applied to the discretized task of positioning a robotic manipulator in an obstacle-filled simulated environment, with no previous knowledge of the obstacles’ positions or of the robot arm dynamics. The agent’s performance and algorithm convergence are analyzed under different reward functions and on four increasingly complex test projects: 1-Degree of Freedom (DOF) robot, 2-DOF robot, Kuka KR16 Industrial robot, Kuka KR16 Industrial robot with random setpoint/obstacle placement. The DQN algorithm presented significantly better performance and reduced training time across all test projects and the third reward function generated better agents for both algorithms.",
+    "citationCount": 2,
+    "referenceCount": 20
+}

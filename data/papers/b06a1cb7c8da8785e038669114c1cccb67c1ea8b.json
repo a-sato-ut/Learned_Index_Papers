@@ -1,0 +1,36 @@
+{
+    "paperId": "b06a1cb7c8da8785e038669114c1cccb67c1ea8b",
+    "title": "Enabling Trimap-Free Image Matting With a Frequency-Guided Saliency-Aware Network via Joint Learning",
+    "year": 2023,
+    "venue": "IEEE transactions on multimedia",
+    "authors": [
+        "Linhui Dai",
+        "Xiang Song",
+        "Xiaohong Liu",
+        "Chengqi Li",
+        "Zhihao Shi",
+        "Jun Chen",
+        "Martin Brooks"
+    ],
+    "doi": "10.1109/TMM.2022.3183403",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b06a1cb7c8da8785e038669114c1cccb67c1ea8b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents a strategic approach to tackling trimap-free natural image matting. Specifically, to address the false detection issue of existing trimap-free matting algorithms when the foreground object is not uniquely defined, we design a novel tangled structure (TangleNet) to handle foreground detection and matting prediction simultaneously. TangleNet enables information exchange between foreground segmentation and alpha prediction, producing high-quality alpha mattes for the most salient foreground object based on RGB inputs alone. TangleNet boosts network performance with a frequency-guided attention mechanism utilizing wavelet data. Additionally, we pretrain for salient object detection to aid in the foreground segmentation. Experimental results demonstrate that TangleNet is on par with the state-of-the-art matting methods requiring additional inputs, and outperforms all previous trimap-free algorithms in terms of both qualitative and quantitative results.",
+    "citationCount": 4,
+    "referenceCount": 60
+}

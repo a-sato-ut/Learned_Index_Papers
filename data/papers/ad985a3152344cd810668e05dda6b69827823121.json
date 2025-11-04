@@ -1,0 +1,35 @@
+{
+    "paperId": "ad985a3152344cd810668e05dda6b69827823121",
+    "title": "MPAD: A New Dimension-Reduction Method for Preserving Nearest Neighbors in High-Dimensional Vector Search",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jiuzhou Fu",
+        "Dongfang Zhao"
+    ],
+    "doi": "10.48550/arXiv.2504.16335",
+    "arxivId": "2504.16335",
+    "url": "https://www.semanticscholar.org/paper/ad985a3152344cd810668e05dda6b69827823121",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "High-dimensional vector embeddings are widely used in retrieval systems, yet dimensionality reduction (DR) is seldom applied due to its tendency to distort nearest-neighbor (NN) structure critical for search. Existing DR techniques such as PCA and UMAP optimize global or manifold-preserving criteria, rather than retrieval-specific objectives. We present MPAD: Maximum Pairwise Absolute Difference, an unsupervised DR method that explicitly preserves approximate NN relations by maximizing the margin between k-NNs and non-k-NNs under a soft orthogonality constraint. This design enables MPAD to retain ANN-relevant geometry without supervision or changes to the original embedding model. Experiments across multiple domains show that MPAD consistently outperforms standard DR methods in preserving neighborhood structure, enabling more accurate search in reduced dimensions.",
+    "citationCount": 0,
+    "referenceCount": 50
+}

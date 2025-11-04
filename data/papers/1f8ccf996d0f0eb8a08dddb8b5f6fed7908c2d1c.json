@@ -1,0 +1,36 @@
+{
+    "paperId": "1f8ccf996d0f0eb8a08dddb8b5f6fed7908c2d1c",
+    "title": "Cymo: A Storage Model with Query-Aware Indexing for Spatio-Temporal Big Data",
+    "year": 2022,
+    "venue": "IEEE International Conference on Distributed Computing Systems",
+    "authors": [
+        "Yang Guo",
+        "Z. Shao"
+    ],
+    "doi": "10.1109/ICDCS54860.2022.00021",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1f8ccf996d0f0eb8a08dddb8b5f6fed7908c2d1c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Spatio-temporal data are generated continuously and becomes gigantic with the rapid growth of mobile devices and applications. How to store and index spatio-temporal big data is crucial to support efficient queries for effective data management and analytics. With their high write throughput and good scalability, distributed NoSQL data stores such as HBase are widely adopted as storage engines in spatio-temporal big data systems, in which a key-value-based storage model is required so one or a group of spatio-temporal data points can be converted into one key-value pair. However, existing techniques cannot govern an inherent dilemma caused by adding time dimension within spatial information, that is, we can either optimize for space-preferred or time-preferred queries but not both.In this paper, we propose a novel storage model with query-aware indexing, called Cymo, that can adapt different query patterns. Our basic idea is to divide the spatio-temporal space into multiple subspaces so each subspace can effectively exploit its query characteristics to obtain the best storage model. Specifically, Cymo includes a learning model that can predict query patterns for each subspace based on historical workloads. Also, in Cymo, a virtual layer is proposed to hide the heterogeneity of different storage models with a unified query interface, by which different storage models can be hidden and transparent from applications while different query patterns can be effectively exploited in query optimization. We have implemented Cymo based on HBase and further integrated it into GeoMesa, a representative spatio-temporal big data system. Experimental results based on real taxi datasets show that Cymo improves query latencies significantly (1.53× to 10×) compared with GeoMesa. We have released the open source code of Cymo for public access.",
+    "citationCount": 2,
+    "referenceCount": 31
+}

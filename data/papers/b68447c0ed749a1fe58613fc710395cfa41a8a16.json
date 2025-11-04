@@ -1,0 +1,34 @@
+{
+    "paperId": "b68447c0ed749a1fe58613fc710395cfa41a8a16",
+    "title": "LLM-Based Compact Reranking with Document Features for Scientific Retrieval",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Runchu Tian",
+        "Xueqiang Xu",
+        "Bowen Jin",
+        "SeongKu Kang",
+        "Jiawei Han"
+    ],
+    "doi": "10.48550/arXiv.2505.13757",
+    "arxivId": "2505.13757",
+    "url": "https://www.semanticscholar.org/paper/b68447c0ed749a1fe58613fc710395cfa41a8a16",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Scientific retrieval is essential for advancing scientific knowledge discovery. Within this process, document reranking plays a critical role in refining first-stage retrieval results. However, standard LLM listwise reranking faces challenges in the scientific domain. First-stage retrieval is often suboptimal in the scientific domain, so relevant documents are ranked lower. Meanwhile, conventional listwise reranking places the full text of candidates into the context window, limiting the number of candidates that can be considered. As a result, many relevant documents are excluded before reranking, constraining overall retrieval performance. To address these challenges, we explore semantic-feature-based compact document representations (e.g., categories, sections, and keywords) and propose CoRank, a training-free, model-agnostic reranking framework for scientific retrieval. It presents a three-stage solution: (i) offline extraction of document features, (ii) coarse-grained reranking using these compact representations, and (iii) fine-grained reranking on full texts of the top candidates from (ii). This integrated process addresses suboptimal first-stage retrieval: Compact representations allow more documents to fit within the context window, improving candidate set coverage, while the final fine-grained ranking ensures a more accurate ordering. Experiments on 5 academic retrieval datasets show that CoRank significantly improves reranking performance across different LLM backbones (average nDCG@10 from 50.6 to 55.5). Overall, these results underscore the synergistic interaction between information extraction and information retrieval, demonstrating how structured semantic features can enhance reranking in the scientific domain.",
+    "citationCount": 3,
+    "referenceCount": 96
+}

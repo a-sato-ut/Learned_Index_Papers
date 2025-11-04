@@ -1,0 +1,34 @@
+{
+    "paperId": "1e45200057eb4e47817634f183cb882677be1a14",
+    "title": "Few-Shot Nested Named Entity Recognition",
+    "year": 2022,
+    "venue": "Knowledge-Based Systems",
+    "authors": [
+        "Hong Ming",
+        "Jiaoyun Yang",
+        "Lili Jiang",
+        "Yan Pan",
+        "Ning An"
+    ],
+    "doi": "10.48550/arXiv.2212.00953",
+    "arxivId": "2212.00953",
+    "url": "https://www.semanticscholar.org/paper/1e45200057eb4e47817634f183cb882677be1a14",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2212.00953",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "While Named Entity Recognition (NER) is a widely studied task, making inferences of entities with only a few labeled data has been challenging, especially for entities with nested structures. Unlike flat entities, entities and their nested entities are more likely to have similar semantic feature representations, drastically increasing difficulties in classifying different entity categories in the few-shot setting. Although prior work has briefly discussed nested structures in the context of few-shot learning, to our best knowledge, this paper is the first one specifically dedicated to studying the few-shot nested NER task. Leveraging contextual dependency to distinguish nested entities, we propose a Biaffine-based Contrastive Learning (BCL) framework. We first design a Biaffine span representation module for learning the contextual span dependency representation for each entity span rather than only learning its semantic representation. We then merge these two representations by the residual connection to distinguish nested entities. Finally, we build a contrastive learning framework to adjust the representation distribution for larger margin boundaries and more generalized domain transfer learning ability. We conducted experimental studies on three English, German, and Russian nested NER datasets. The results show that the BCL outperformed three baseline models on the 1-shot and 5-shot tasks in terms of F1 score.",
+    "citationCount": 14,
+    "referenceCount": 47
+}

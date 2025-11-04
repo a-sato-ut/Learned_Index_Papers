@@ -1,0 +1,34 @@
+{
+    "paperId": "0fa1b06de73d01c2bfcfd16f0f5cbafb7fd1c553",
+    "title": "Learning When to Retrieve, What to Rewrite, and How to Respond in Conversational QA",
+    "year": 2024,
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "authors": [
+        "Nirmal Roy",
+        "Leonardo F. R. Ribeiro",
+        "Rexhina Blloshmi",
+        "Kevin Small"
+    ],
+    "doi": "10.48550/arXiv.2409.15515",
+    "arxivId": "2409.15515",
+    "url": "https://www.semanticscholar.org/paper/0fa1b06de73d01c2bfcfd16f0f5cbafb7fd1c553",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Augmenting Large Language Models (LLMs) with information retrieval capabilities (i.e., Retrieval-Augmented Generation (RAG)) has proven beneficial for knowledge-intensive tasks. However, understanding users' contextual search intent when generating responses is an understudied topic for conversational question answering (QA). This conversational extension leads to additional concerns when compared to single-turn QA as it is more challenging for systems to comprehend conversational context and manage retrieved passages over multiple turns. In this work, we propose a method for enabling LLMs to decide when to retrieve in RAG settings given a conversational context. When retrieval is deemed necessary, the LLM then rewrites the conversation for passage retrieval and judges the relevance of returned passages before response generation. Operationally, we build on the single-turn SELF-RAG framework (Asai et al., 2023) and propose SELF-multi-RAG for conversational settings. SELF-multi-RAG demonstrates improved capabilities over single-turn variants with respect to retrieving relevant passages (by using summarized conversational context) and assessing the quality of generated responses. Experiments on three conversational QA datasets validate the enhanced response generation capabilities of SELF-multi-RAG, with improvements of ~13% measured by human annotation.",
+    "citationCount": 7,
+    "referenceCount": 45
+}

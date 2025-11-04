@@ -1,0 +1,35 @@
+{
+    "paperId": "dbe1f66fa3b56a747e3d870f7b097e1b7acf1913",
+    "title": "Lightweight Composite Re-Ranking for Efficient Keyword Search with BERT",
+    "year": 2021,
+    "venue": "Web Search and Data Mining",
+    "authors": [
+        "Yingrui Yang",
+        "Yifan Qiao",
+        "Jinjin Shao",
+        "Xifeng Yan",
+        "Tao Yang"
+    ],
+    "doi": "10.1145/3488560.3498495",
+    "arxivId": "2103.06499",
+    "url": "https://www.semanticscholar.org/paper/dbe1f66fa3b56a747e3d870f7b097e1b7acf1913",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3488560.3498495",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently transformer-based ranking models have been shown to deliver high relevance for document search and the relevance-efficiency tradeoff becomes important for fast query response times. This paper presents BECR (BERT-based Composite Re-Ranking), a lightweight composite re-ranking scheme that combines deep contextual token interactions and traditional lexical term-matching features. BECR conducts query decomposition and composes a query representation using pre-computable token embeddings based on uni-grams and skip-n-grams, to seek a tradeoff of inference efficiency and relevance. Thus it does not perform expensive transformer computations during online inference, and does not require the use of GPU. This paper describes an evaluation of relevance and efficiency of BECR with several TREC datasets.",
+    "citationCount": 17,
+    "referenceCount": 60
+}

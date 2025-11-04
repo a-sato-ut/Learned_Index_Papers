@@ -1,0 +1,32 @@
+{
+    "paperId": "166f6a6fb40d5bb58bd8c27c3b72df8af01e3132",
+    "title": "Execution Time Prediction for Cypher Queries in the Neo4j Database Using a Learning Approach",
+    "year": 2022,
+    "venue": "Symmetry",
+    "authors": [
+        "Zhenzhen He",
+        "Jiong Yu",
+        "Binglei Guo"
+    ],
+    "doi": "10.3390/sym14010055",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/166f6a6fb40d5bb58bd8c27c3b72df8af01e3132",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2073-8994/14/1/55/pdf?version=1641028315",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With database management systems becoming complex, predicting the execution time of graph queries before they are executed is one of the challenges for query scheduling, workload management, resource allocation, and progress monitoring. Through the comparison of query performance prediction methods, existing research works have solved such problems in traditional SQL queries, but they cannot be directly applied in Cypher queries on the Neo4j database. Additionally, most query performance prediction methods focus on measuring the relationship between correlation coefficients and retrieval performance. Inspired by machine-learning methods and graph query optimization technologies, we used the RBF neural network as a prediction model to train and predict the execution time of Cypher queries. Meanwhile, the corresponding query pattern features, graph data features, and query plan features were fused together and then used to train our prediction models. Furthermore, we also deployed a monitor node and designed a Cypher query benchmark for the database clusters to obtain the query plan information and native data store. The experimental results of four benchmarks showed that the average mean relative error of the RBF model reached 16.5% in the Northwind dataset, 12% in the FIFA2021 dataset, and 16.25% in the CORD-19 dataset. This experiment proves the effectiveness of our proposed approach on three real-world datasets.",
+    "citationCount": 8,
+    "referenceCount": 17
+}

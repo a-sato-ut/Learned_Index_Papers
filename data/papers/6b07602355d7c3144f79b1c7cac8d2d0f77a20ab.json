@@ -1,0 +1,42 @@
+{
+    "paperId": "6b07602355d7c3144f79b1c7cac8d2d0f77a20ab",
+    "title": "Instance-Optimal Compressed Sensing via Posterior Sampling",
+    "year": 2021,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "A. Jalal",
+        "Sushrut Karmalkar",
+        "A. Dimakis",
+        "Eric Price"
+    ],
+    "doi": null,
+    "arxivId": "2106.11438",
+    "url": "https://www.semanticscholar.org/paper/6b07602355d7c3144f79b1c7cac8d2d0f77a20ab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We characterize the measurement complexity of compressed sensing of signals drawn from a known prior distribution, even when the support of the prior is the entire space (rather than, say, sparse vectors). We show for Gaussian measurements and \\emph{any} prior distribution on the signal, that the posterior sampling estimator achieves near-optimal recovery guarantees. Moreover, this result is robust to model mismatch, as long as the distribution estimate (e.g., from an invertible generative model) is close to the true distribution in Wasserstein distance. We implement the posterior sampling estimator for deep generative priors using Langevin dynamics, and empirically find that it produces accurate estimates with more diversity than MAP.",
+    "citationCount": 55,
+    "referenceCount": 82
+}

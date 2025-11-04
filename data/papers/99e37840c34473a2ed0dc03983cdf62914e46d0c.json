@@ -1,0 +1,36 @@
+{
+    "paperId": "99e37840c34473a2ed0dc03983cdf62914e46d0c",
+    "title": "Cost-Guided Cardinality Estimation: Focus Where it Matters",
+    "year": 2020,
+    "venue": "2020 IEEE 36th International Conference on Data Engineering Workshops (ICDEW)",
+    "authors": [
+        "Parimarjan Negi",
+        "Ryan Marcus",
+        "Hongzi Mao",
+        "Nesime Tatbul",
+        "Tim Kraska",
+        "Mohammad Alizadeh"
+    ],
+    "doi": "10.1109/ICDEW49219.2020.00034",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/99e37840c34473a2ed0dc03983cdf62914e46d0c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The increasing prevalence of machine learning techniques has resulted in many works attempting to replace cardinality estimation, a core component of relational query optimizers, with learned models. The majority of those works have trained models to minimize the prediction error between the model’s output for a particular query and the true cardinality of that query. However, when cardinality estimators are used for query optimization, not all cardinality estimates are equally important. We present cost-guided cardinality estimation, a technique to train learned cardinality estimators that penalizes models for errors that lead to sub-optimal query plans, and rewards models for estimates that lead to high-quality query plans, regardless of the accuracy of those estimates. In a preliminary experimental study, we show that our technique can reduce average query runtime by 1.7-2×. Surprisingly, models trained with our approach achieve this increase in query performance while having higher prediction error than models trained without our approach, suggesting that prediction error for cardinalities is not necessarily the correct metric to optimize.",
+    "citationCount": 31,
+    "referenceCount": 18
+}

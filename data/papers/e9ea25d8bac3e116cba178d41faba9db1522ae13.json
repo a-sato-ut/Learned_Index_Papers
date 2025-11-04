@@ -1,0 +1,43 @@
+{
+    "paperId": "e9ea25d8bac3e116cba178d41faba9db1522ae13",
+    "title": "Learning Algebraic Multigrid Using Graph Neural Networks",
+    "year": 2020,
+    "venue": "International Conference on Machine Learning",
+    "authors": [
+        "Ilay Luz",
+        "M. Galun",
+        "Haggai Maron",
+        "R. Basri",
+        "I. Yavneh"
+    ],
+    "doi": null,
+    "arxivId": "2003.05744",
+    "url": "https://www.semanticscholar.org/paper/e9ea25d8bac3e116cba178d41faba9db1522ae13",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficient numerical solvers for sparse linear systems are crucial in science and engineering. One of the fastest methods for solving large-scale sparse linear systems is algebraic multigrid (AMG). The main challenge in the construction of AMG algorithms is the selection of the prolongation operator -- a problem-dependent sparse matrix which governs the multiscale hierarchy of the solver and is critical to its efficiency. Over many years, numerous methods have been developed for this task, and yet there is no known single right answer except in very special cases. Here we propose a framework for learning AMG prolongation operators for linear systems with sparse symmetric positive (semi-) definite matrices. We train a single graph neural network to learn a mapping from an entire class of such matrices to prolongation operators, using an efficient unsupervised loss function. Experiments on a broad class of problems demonstrate improved convergence rates compared to classical AMG, demonstrating the potential utility of neural networks for developing sparse system solvers.",
+    "citationCount": 76,
+    "referenceCount": 50
+}

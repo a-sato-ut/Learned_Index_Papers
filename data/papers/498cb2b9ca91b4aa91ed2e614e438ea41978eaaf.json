@@ -1,0 +1,39 @@
+{
+    "paperId": "498cb2b9ca91b4aa91ed2e614e438ea41978eaaf",
+    "title": "Optimal Parallelization Strategies for Active Flow Control in Deep Reinforcement Learning-Based Computational Fluid Dynamics",
+    "year": 2024,
+    "venue": "The Physics of Fluids",
+    "authors": [
+        "Wang Jia",
+        "Hang Xu"
+    ],
+    "doi": "10.48550/arXiv.2402.11515",
+    "arxivId": "2402.11515",
+    "url": "https://www.semanticscholar.org/paper/498cb2b9ca91b4aa91ed2e614e438ea41978eaaf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep reinforcement learning (DRL) has emerged as a promising approach for handling highly dynamic and nonlinear active flow control (AFC) problems. However, the computational cost associated with training DRL models presents a significant performance bottleneck. To address this challenge and enable efficient scaling on high-performance computing architectures, this study focuses on optimizing DRL-based algorithms in parallel settings. We validate an existing state-of-the-art DRL framework used for AFC problems and discuss its efficiency bottlenecks. Subsequently, by deconstructing the overall framework and conducting extensive scalability benchmarks for individual components, we investigate various hybrid parallelization configurations and propose efficient parallelization strategies. Moreover, we refine input/output (I/O) operations in multi-environment DRL training to tackle critical overhead associated with data movement. Finally, we demonstrate the optimized framework for a typical AFC problem where near-linear scaling can be obtained for the overall framework. We achieve a significant boost in parallel efficiency from around 49% to approximately 78%, and the training process is accelerated by approximately 47 times using 60 central processing unit (CPU) cores. These findings are expected to provide valuable insight for further advancements in DRL-based AFC studies.",
+    "citationCount": 6,
+    "referenceCount": 78
+}

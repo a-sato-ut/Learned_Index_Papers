@@ -1,0 +1,32 @@
+{
+    "paperId": "c342e94a347c60ace8a877443f3388cf0d6f121e",
+    "title": "Using Collection Shards to Study Retrieval Performance Effect Sizes",
+    "year": 2019,
+    "venue": "ACM Trans. Inf. Syst.",
+    "authors": [
+        "N. Ferro",
+        "Yubin Kim",
+        "M. Sanderson"
+    ],
+    "doi": "10.1145/3310364",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c342e94a347c60ace8a877443f3388cf0d6f121e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3310364",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Despite the bulk of research studying how to more accurately compare the performance of IR systems, less attention is devoted to better understanding the different factors that play a role in such performance and how they interact. This is the case of shards, i.e., partitioning a document collection into sub-parts, which are used for many different purposes, ranging from efficiency to selective search or making test collection evaluation more accurate. In all these cases, there is empirical knowledge supporting the importance of shards, but we lack actual models that allow us to measure the impact of shards on system performance and how they interact with topics and systems. We use the general linear mixed model framework and present a model that encompasses the experimental factors of system, topic, shard, and their interaction effects. This detailed model allows us to more accurately estimate differences between the effect of various factors. We study shards created by a range of methods used in prior work and better explain observations noted in prior work in a principled setting and offer new insights. Notably, we discover that the topic*shard interaction effect, in particular, is a large effect almost globally across all datasets, an observation that, to our knowledge, has not been measured before.",
+    "citationCount": 23,
+    "referenceCount": 74
+}

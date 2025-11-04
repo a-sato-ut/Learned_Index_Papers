@@ -1,0 +1,40 @@
+{
+    "paperId": "25670f42a0c09a00866429207a428e5a256b4409",
+    "title": "A Bayesian nonparametric approach to count-min sketch under power-law data streams",
+    "year": 2021,
+    "venue": "International Conference on Artificial Intelligence and Statistics",
+    "authors": [
+        "Emanuele Dolera",
+        "S. Favaro",
+        "Stefano Peluchetti"
+    ],
+    "doi": null,
+    "arxivId": "2102.03743",
+    "url": "https://www.semanticscholar.org/paper/25670f42a0c09a00866429207a428e5a256b4409",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The count-min sketch (CMS) is a randomized data structure that provides estimates of tokens' frequencies in a large data stream using a compressed representation of the data by random hashing. In this paper, we rely on a recent Bayesian nonparametric (BNP) view on the CMS to develop a novel learning-augmented CMS under power-law data streams. We assume that tokens in the stream are drawn from an unknown discrete distribution, which is endowed with a normalized inverse Gaussian process (NIGP) prior. Then, using distributional properties of the NIGP, we compute the posterior distribution of a token's frequency in the stream, given the hashed data, and in turn corresponding BNP estimates. Applications to synthetic and real data show that our approach achieves a remarkable performance in the estimation of low-frequency tokens. This is known to be a desirable feature in the context of natural language processing, where it is indeed common in the context of the power-law behaviour of the data.",
+    "citationCount": 8,
+    "referenceCount": 38
+}

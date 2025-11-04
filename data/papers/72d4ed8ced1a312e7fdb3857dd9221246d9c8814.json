@@ -1,0 +1,34 @@
+{
+    "paperId": "72d4ed8ced1a312e7fdb3857dd9221246d9c8814",
+    "title": "Spatio-Temporal Mogrifier LSTM and Attention Network for Next POI Recommendation",
+    "year": 2022,
+    "venue": "2022 IEEE International Conference on Web Services (ICWS)",
+    "authors": [
+        "Yihao Zhang",
+        "Pengxiang Lan",
+        "Yuhao Wang",
+        "Haoran Xiang"
+    ],
+    "doi": "10.1109/ICWS55610.2022.00019",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/72d4ed8ced1a312e7fdb3857dd9221246d9c8814",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The next point-of-interest (POI) recommendation is indispensable in enhancing the richness of users’ lives and helping service providers achieve more economic earnings. Recurrent Neural Network (RNN) based methods are remarkable in learning users’ long-term or short-term behavioral dependencies. However, existing RNN-based methods lack sufficient interaction with their contexts, and at the same time, ignore the importance of non-consecutive POIs with different degrees for understanding users’ behaviors. In order to solve these problems, we propose a novel Spatio-Temporal model based on mogrifier LSTM and attention network (named STMLA) for next POI recommendation. The STMLA model builds a parallel structure to process the users’ check-in sequences through the mogrifier LSTM and the multi-head attention network, which can achieve better contextual interaction while selectively considering nonconsecutive factors with different degrees of significance. Our STMLA algorithm explicitly integrates temporal and spatial information to capture users’ long-term and short-term preferences, incorporating spatial information to build the Location-Saltant algorithm. Through extensive experiments on several real-world datasets, we demonstrate that our model outperforms the existing state-of-the-art methods in the next POI recommendation task.",
+    "citationCount": 6,
+    "referenceCount": 32
+}

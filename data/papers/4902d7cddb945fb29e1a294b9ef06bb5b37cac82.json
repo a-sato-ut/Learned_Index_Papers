@@ -1,0 +1,37 @@
+{
+    "paperId": "4902d7cddb945fb29e1a294b9ef06bb5b37cac82",
+    "title": "Active Sampling for Sparse Table by Bayesian Optimization with Adaptive Resolution",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Xiao He",
+        "Jian Tan",
+        "Bin Wu",
+        "Feifei Li",
+        "Xinping Zhang",
+        "Gaozhong Liang",
+        "Jinfeng Xu"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00068",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4902d7cddb945fb29e1a294b9ef06bb5b37cac82",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Open-source relational database systems have become increasingly popular in the cloud era. However, practitioners are often beset with query performance issues. Thus a general-purpose database performance tuning tool independent of the various DBMS kernels becomes desired to lower the bar of using these systems. The first mandatory step in developing such a tool is to design an effective sampling method that collects representative records from different tables. Although one could leverage standard SQL statements and indexes to achieve this, sampling performance and statistical efficiency are not guaranteed when the underlying tables are frequently updated, especially for Sparse Tables where the range of index values is significantly greater than the table size.To this end, we propose a novel Active Sampling algorithm that queries regions more likely to contain data records from Sparse Tables. It relies on Gaussian process regression to characterize the probability density of whether a data record is non-null at a given index value. With the help of this estimated density function, the proposed method achieves efficient sampling by actively querying records with adaptive resolutions of interval lengths and provides an unbiased estimator for histogram construction. Comprehensive experiments on synthetic and real-world datasets demonstrate that the proposed Active Sampling method can effectively improve the estimation accuracy and use less query cost than other commonly used sampling methods.",
+    "citationCount": 1,
+    "referenceCount": 44
+}

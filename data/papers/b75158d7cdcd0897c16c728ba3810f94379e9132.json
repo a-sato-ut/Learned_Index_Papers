@@ -1,0 +1,39 @@
+{
+    "paperId": "b75158d7cdcd0897c16c728ba3810f94379e9132",
+    "title": "Learning-Based Attribute-Augmented Proximity Matrix Factorization for Attributed Network Embedding",
+    "year": 2024,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Kun Xie",
+        "Xiangyu Dong",
+        "Yusong Zhang",
+        "Xingyi Zhang",
+        "Qintian Guo",
+        "Sibo Wang"
+    ],
+    "doi": "10.1109/TKDE.2024.3385847",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b75158d7cdcd0897c16c728ba3810f94379e9132",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Given a graph <inline-formula><tex-math notation=\"LaTeX\">$\\mathcal{G}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"script\">G</mml:mi></mml:math><inline-graphic xlink:href=\"xie-ieq1-3385847.gif\"/></alternatives></inline-formula> with a set of attributes, the <italic>attributed network embedding (ANE)</italic> aims to learn low-dimensional representations of nodes that preserve both graph topology and node attribute proximity. ANE is shown to be more effective than plain network embedding methods (using only graph topology) on many graph mining tasks. However, existing ANE solutions still provide inferior performance on tasks like node classification and link prediction, as will be shown in our experiments. The key issue is that when combining graph topology and attribute information, most existing solutions take attributes with equal importance, while in real scenarios, different attribute exerts distinct influence over the network due to the heterogeneous nature among attributes. Motivated by this, we present <italic>LATAM</italic>, a learning-based framework for ANE via trainable proximity matrix factorization. To capture the node-attribute relationships, we first construct the attribute-augmented graph by adding attribute nodes (resp. edges) to the original graph. Then, we define the attribute-augmented random walk and proximity on the attribute-augmented graph, where the weights of different attributes can be learned automatically by our designed loss functions so that more indicative attributes tend to have higher weights, imposing a higher impact on the node connectivity. To achieve this, we incorporate a differentiable SVD to back-propagate gradients of attribute weights in an end-to-end process. To scale our LATAM to large graphs, we further propose sampling techniques to learn attribute weights and an efficient attribute-augmented push algorithm to compute the proximity matrix. Extensive experiments on 8 public attributed networks against 11 existing methods show the effectiveness of our LATAM.",
+    "citationCount": 2,
+    "referenceCount": 46
+}

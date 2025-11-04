@@ -1,0 +1,35 @@
+{
+    "paperId": "3097bef1948798d064a97c88744f24c16047fd29",
+    "title": "Window Navigation with Adaptive Probing for Executing BlockMax WAND",
+    "year": 2021,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Jinjin Shao",
+        "Yifan Qiao",
+        "Shiyu Ji",
+        "Tao Yang"
+    ],
+    "doi": "10.1145/3404835.3463109",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3097bef1948798d064a97c88744f24c16047fd29",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3404835.3463109",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "BlockMax WAND (BMW) and its variants can effectively prune low-scoring documents for fast top-k disjunctive query processing. This paper studies a boosting approach that further accelerates document retrieval by executing BMW, or one of its variants, on a sequence of posting windows with an order prioritized to tighten the threshold bound earlier. This optimization could add benefits to safely eliminate more operations involved in posting block visitation and document score evaluation. This paper evaluates such index navigation for BMW and two of its variants.",
+    "citationCount": 3,
+    "referenceCount": 35
+}

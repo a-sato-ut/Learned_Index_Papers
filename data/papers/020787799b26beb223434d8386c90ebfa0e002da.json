@@ -1,0 +1,37 @@
+{
+    "paperId": "020787799b26beb223434d8386c90ebfa0e002da",
+    "title": "Saro: A Simplified Attention-Based Learning-to-Rank Query Optimizer",
+    "year": 2024,
+    "venue": "IEEE International Conference on e-Business Engineering",
+    "authors": [
+        "Jiangqing Wang",
+        "Shipeng Cao",
+        "Chong Sun",
+        "Huili Zhang",
+        "Zhiqing Luo",
+        "Bowen Zhang",
+        "Hongyan Zhao"
+    ],
+    "doi": "10.1109/ICEBE62490.2024.00019",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/020787799b26beb223434d8386c90ebfa0e002da",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the development of modern database services and artificial intelligence technology, learning-based query optimizers are receiving increasing attention from researchers. Compared to traditional database query optimizers, learning-based query optimizers offer better performance but still face critical issues with query performance stability. This paper introduces three improvements to the COOOL system, proposing Saro(a Simplified Attention-based Learning-to-Rank Query Qptimizer). Firstly, Saro integrates a lightweight attention mechanism (Tree-CBAM) based on the tree convolutional neural network to more accurately identify effective features in physical execution plans, thereby enhancing the model's inference accuracy. Secondly, the encoding of physical execution plans is optimized by adding depth information of the nodes and supporting bitmap scanning of the encoded plans. Additionally, we improved the loss function using the Plackett-Luce model. Experimental results on the TPC-H and JOB datasets show that Saro achieves certain improvements in prediction accuracy and query speed compared to current mainstream learning-based query optimizers. It also demonstrates better performance compared to the query optimizer of PostgreSQL. Furthermore, we explore the reasons behind poor model performance when workloads change, leading to excessively high query times for some queries, and we significantly improved performance through model fine-tuning.",
+    "citationCount": 0,
+    "referenceCount": 20
+}

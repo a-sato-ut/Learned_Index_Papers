@@ -1,0 +1,35 @@
+{
+    "paperId": "64342afadda2b8b08c23eb7f3e48298cf4c83b40",
+    "title": "How About Bug-Triggering Paths? - Understanding and Characterizing Learning-Based Vulnerability Detectors",
+    "year": 2024,
+    "venue": "IEEE Transactions on Dependable and Secure Computing",
+    "authors": [
+        "Xiao Cheng",
+        "Xu Nie",
+        "Ningke Li",
+        "Haoyu Wang",
+        "Zheng Zheng",
+        "Yulei Sui"
+    ],
+    "doi": "10.1109/TDSC.2022.3192419",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/64342afadda2b8b08c23eb7f3e48298cf4c83b40",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning and its promising branch deep learning have proven to be effective in a wide range of application domains. Recently, several efforts have shown success in applying deep learning techniques for automatic vulnerability discovery, as alternatives to traditional static bug detection. In principle, these learning-based approaches are built on top of classification models using supervised learning. Depending on the different granularities to detect vulnerabilities, these approaches rely on learning models which are typically trained with well-labeled source code to predict whether a program method, a program slice, or a particular code line contains a vulnerability or not. The effectiveness of these models is normally evaluated against conventional metrics including precision, recall and F1 score. In this paper, we show that despite yielding promising numbers, the above evaluation strategy can be insufficient and even misleading when evaluating the effectiveness of current learning-based approaches. This is because the underlying learning models only produce the classification results or report individual/isolated program statements, but are unable to pinpoint bug-triggering paths, which is an effective way for bug fixing and the main aim of static bug detection. Our key insight is that a program method or statement can only be stated as vulnerable in the context of a bug-triggering path. In this work, we systematically study the gap between recent learning-based approaches and conventional static bug detectors in terms of fine-grained metrics called BTP metrics using bug-triggering paths. We then characterize and compare the quality of the prediction results of existing learning-based detectors under different granularities. Finally, our comprehensive empirical study reveals several key issues and challenges in developing classification models to pinpoint bug-triggering paths and calls for more advanced learning-based bug detection techniques.",
+    "citationCount": 37,
+    "referenceCount": 90
+}

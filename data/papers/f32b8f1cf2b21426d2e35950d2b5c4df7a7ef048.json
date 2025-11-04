@@ -1,0 +1,35 @@
+{
+    "paperId": "f32b8f1cf2b21426d2e35950d2b5c4df7a7ef048",
+    "title": "Trajectory-User Linking via Graph Neural Network",
+    "year": 2021,
+    "venue": "ICC 2021 - IEEE International Conference on Communications",
+    "authors": [
+        "Fan Zhou",
+        "Shupei Chen",
+        "Jin Wu",
+        "Chengtai Cao",
+        "Shengming Zhang"
+    ],
+    "doi": "10.1109/ICC42927.2021.9500836",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f32b8f1cf2b21426d2e35950d2b5c4df7a7ef048",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Trajectory-User Linking (TUL) refers to classifying trajectories into the corresponding generated users and has emerged as an essential spatio-temporal data mining task with a broad spectrum of applications, ranging from personalized location recommendation and trip planning to criminal behavior detection and object tracking. Despite the progress made by recent deep learning-based human mobility learning models, some critical factors related to personal context and user-location interactions have not yet been fully explored. Besides, existing works suffer from high computational cost issues due to the increased complexity of trajectory learning and contextual location embedding. In this work, we propose a novel end-to-end model called GNNTUL, composed of a graph neural network (GNN) module and a classifier, to effectively and efficiently learn human mobility and associate the traces to the users in online social networks. GNNTUL is the first GNN-based human mobility learning model exploiting implicit transition patterns behind sparse user traces in online social networks while extracting users' unique motion features and discriminating the motion traces. Extensive experiments conducted on two real- world datasets demonstrate the superiority of GNNTUL over several state-of-the-art baselines in terms of both linking accuracy and learning efficiency.",
+    "citationCount": 8,
+    "referenceCount": 28
+}

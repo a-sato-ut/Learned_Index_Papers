@@ -1,0 +1,32 @@
+{
+    "paperId": "69951c75efb9ff615fb31eb4b6b42d4cd1ded58f",
+    "title": "Reward Relabelling for combined Reinforcement and Imitation Learning on sparse-reward tasks",
+    "year": 2022,
+    "venue": "Adaptive Agents and Multi-Agent Systems",
+    "authors": [
+        "Jesus Bujalance Martin",
+        "F. Moutarde"
+    ],
+    "doi": "10.5555/3545946.3599003",
+    "arxivId": "2201.03834",
+    "url": "https://www.semanticscholar.org/paper/69951c75efb9ff615fb31eb4b6b42d4cd1ded58f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the search for more sample-efficient reinforcement-learning (RL) algorithms, a promising direction is to leverage as much external off-policy data as possible. For instance, expert demonstrations. In the past, multiple ideas have been proposed to make good use of the demonstrations added to the replay buffer, such as pretraining on demonstrations only or minimizing additional cost functions. We present a new method, able to leverage both demonstrations and episodes collected online in any sparse-reward environment with any off-policy algorithm. Our method is based on a reward bonus given to demonstrations and successful episodes (via relabeling), encouraging expert imitation and self-imitation. Our experiments focus on several robotic-manipulation tasks across two different simulation environments. We show that our method based on reward relabeling improves the performance of the base algorithm (SAC and DDPG) on these tasks. Finally, our best algorithm STIR$^2$ (Self and Teacher Imitation by Reward Relabeling), which integrates into our method multiple improvements from previous works, is more data-efficient than all baselines.",
+    "citationCount": 2,
+    "referenceCount": 50
+}

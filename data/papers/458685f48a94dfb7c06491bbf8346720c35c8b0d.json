@@ -1,0 +1,37 @@
+{
+    "paperId": "458685f48a94dfb7c06491bbf8346720c35c8b0d",
+    "title": "A method for rapid machine learning development for data mining with doctor-in-the-loop",
+    "year": 2022,
+    "venue": "medRxiv",
+    "authors": [
+        "Neva J Bull",
+        "Bridget Honan",
+        "N. Spratt",
+        "S. Quilty"
+    ],
+    "doi": "10.1371/journal.pone.0284965",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/458685f48a94dfb7c06491bbf8346720c35c8b0d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0284965&type=printable",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Objective: Classifying free-text from historical databases into research-compatible formats is a barrier for clinicians undertaking audit and research projects. The aim of this study was to evaluate the accuracy and speed of an interactive active machine-learning model training methodology for classifying free text from clinical notes into customised researcher-defined categories. Study Design and Setting: A user interface for medical experts to train and evaluate the algorithm was created. Data requiring coding in the form of two databases of free-text clinical notes. Medical experts defined categories relevant to research projects and performed label-train-evaluate loops on the training data set. A separate dataset was used for validation, with the medical experts blinded to the label given by the algorithm. The first dataset was 32,034 death certificate records from Northern Territory Births Deaths and Marriages, which were coded into 3 categories: haemorrhagic stroke, ischaemic stroke or no stroke. The second dataset was 12,039 recorded episodes of aeromedical retrieval from two prehospital and retrieval services in Northern Territory, Australia, which were coded into 5 categories: medical, surgical, trauma, obstetric or psychiatric. Results: For the first dataset, macro-accuracy of the algorithm was 94.7%. For the second dataset, macro-accuracy was 92.4%. The time taken to develop and train the algorithm was 124 minutes for the death certificate coding, and 144 minutes for the aeromedical retrieval coding. Conclusions: This machine-learning training method was able to classify free-text clinical notes quickly and accurately from two different health datasets into categories of relevance to clinicians undertaking health service research.",
+    "citationCount": 8,
+    "referenceCount": 17
+}

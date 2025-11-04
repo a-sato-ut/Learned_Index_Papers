@@ -1,0 +1,37 @@
+{
+    "paperId": "c2bba2c37a03a0bd6462590c6877d044a033b216",
+    "title": "Decoupled Two-Stage Crowd Counting and Beyond",
+    "year": 2021,
+    "venue": "IEEE Transactions on Image Processing",
+    "authors": [
+        "Jian Cheng",
+        "Haipeng Xiong",
+        "ZHIGUO CAO",
+        "Hao Lu"
+    ],
+    "doi": "10.1109/TIP.2021.3055631",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c2bba2c37a03a0bd6462590c6877d044a033b216",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "One of appealing approaches to counting dense objects, such as crowd, is density map estimation. Density maps, however, present ambiguous appearance cues in congested scenes, rendering infeasibility in identifying individuals and difficulties in diagnosing errors. Inspired by an observation that counting can be interpreted as a two-stage process, i.e., identifying possible object regions and counting exact object numbers, we introduce a probabilistic intermediate representation termed the probability map that depicts the probability of each pixel being an object. This representation allows us to decouple counting into probability map regression (PMR) and count map regression (CMR). We therefore propose a novel decoupled two-stage counting (D2C) framework that sequentially regresses the probability map and learns a counter conditioned on the probability map. Given the probability map and the count map, a peak point detection algorithm is derived to localize each object with a point under the guidance of local counts. An advantage of D2C is that the counter can be learned reliably with additional synthesized probability maps. This addresses important data deficiency and sample imbalanced problems in counting. Our framework also enables easy diagnoses and analyses of error patterns. For instance, we find that, the counter per se is sufficiently accurate, while the bottleneck appears to be PMR. We further instantiate a network D2CNet in our framework and report state-of-the-art counting and localization performance across 6 crowd counting benchmarks. Since the probability map is a representation independent of visual appearance, D2CNet also exhibits remarkable cross-dataset transferability. Code and pretrained models are made available at: https://git.io/d2cnet",
+    "citationCount": 74,
+    "referenceCount": 48
+}

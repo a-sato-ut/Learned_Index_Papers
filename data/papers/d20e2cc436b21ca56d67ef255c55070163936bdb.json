@@ -1,0 +1,37 @@
+{
+    "paperId": "d20e2cc436b21ca56d67ef255c55070163936bdb",
+    "title": "Join Order Selection with Transfer Reinforcement Learning",
+    "year": 2024,
+    "venue": "International Conference on Advanced Cloud and Big Data",
+    "authors": [
+        "Yongpan Zhang",
+        "Zhe Ding",
+        "Ping Shen",
+        "Zheng Zhang",
+        "Chao Qian",
+        "Cheng Ding",
+        "Su Pan"
+    ],
+    "doi": "10.1109/CBD65573.2024.00027",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d20e2cc436b21ca56d67ef255c55070163936bdb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The selection of the optimal join order is critical for the efficiency of join query execution. The addition of new tables or columns necessitates the retraining of existing reinforcement learning models from scratch, consuming a significant amount of time and computational resources. To address this problem, we proposes a transfer reinforcement learning method that utilizes policy distillation techniques to optimize join order selection. The proposed algorithm allows the policy from a trained model (teacher model) to be transferred to a new model (student model), significantly reducing training costs associated with model changes. Additionally, we introduced a matrix representing the join sequence to address the issue of different join orders in two different join trees resulting in identical encoding. The experiments demonstrate that this method reduces training time and improves the speed of query execution compared to existing algorithms.",
+    "citationCount": 0,
+    "referenceCount": 14
+}

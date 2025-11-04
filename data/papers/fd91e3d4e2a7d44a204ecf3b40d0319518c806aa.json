@@ -1,0 +1,32 @@
+{
+    "paperId": "fd91e3d4e2a7d44a204ecf3b40d0319518c806aa",
+    "title": "Towards understanding end-to-end learning in the context of data: machine learning dancing over semirings & Codd's table",
+    "year": 2021,
+    "venue": "DEEM@SIGMOD",
+    "authors": [
+        "Wentao Wu",
+        "Ce Zhang"
+    ],
+    "doi": "10.1145/3462462.3468878",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fd91e3d4e2a7d44a204ecf3b40d0319518c806aa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent advances in machine learning (ML) systems have made it incredibly easier to train ML models given a training set. However, our understanding of the behavior of the model training process has not been improving at the same pace. Consequently, a number of key questions remain: How can we systematically assign importance or value to training data with respect to the utility of the trained models, may it be accuracy, fairness, or robustness? How does noise in the training data, either injected by noisy data acquisition processes or adversarial parties, have an impact on the trained models? How can we find the right data that can be cleaned and labeled to improve the utility of the trained models? Just when we start to understand these important questions for ML models in isolation recently, we now have to face the reality that most real-world ML applications are way more complex than a single ML model. In this article---an extended abstract for an invited talk at the DEEM workshop---we will discuss our current efforts in revisiting these questions for an end-to-end ML pipeline, which consists of a noise model for data and a feature extraction pipeline, followed by the training of an ML model. In our opinion, this poses a unique challenge on the joint analysis of data processing and learning. Although we will describe some of our recent results towards understanding this interesting problem, this article is more of a \"confession\" on our technical struggles and a \"cry for help\" to our data management community.",
+    "citationCount": 3,
+    "referenceCount": 36
+}

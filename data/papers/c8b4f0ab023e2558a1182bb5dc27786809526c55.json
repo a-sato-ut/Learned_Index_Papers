@@ -1,0 +1,38 @@
+{
+    "paperId": "c8b4f0ab023e2558a1182bb5dc27786809526c55",
+    "title": "Updatable Packet Classification on FPGA with Bounded Worst-Case Performance",
+    "year": 2022,
+    "venue": "IEEE Symposium on High-Performance Interconnects",
+    "authors": [
+        "Yao Xin",
+        "Wenjun Li",
+        "Gaogang Xie",
+        "Yang Xu",
+        "Yi Wang"
+    ],
+    "doi": "10.1109/HOTI55740.2022.00019",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c8b4f0ab023e2558a1182bb5dc27786809526c55",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "FPGA has been recognized as an attractive acceler-ator for line-speed packet classification in SmartNIC due to its ability to reconfigure and provide massive parallelism. As a promising algorithmic approach that can fully exploit the FPGA characteristics, decision tree based packet classification on FPGA has been actively investigated in the past decade. However, most of them suffer from unbalanced tree structures with unpredictable depths under certain rule sets, so the potential of FPGA may not be brought into full play. Worse still, few of them can support efficient rule updates on-the-fly, which is highly required in virtualized data centers. To address these issues, we design and implement an efficient hardware ar-chitecture based on the recently proposed KickTree algorithm, which consists of multiple balanced trees with bounded depth. A strategy of multi-PE (processing element), parallel search, and serial update is adopted to decouple the search and update process. The parsing of multiple tree search results adopts a modular and hierarchical design, supporting architecture with various tree numbers. Additionally, incremental rule updates can be achieved simply by traversing all PEs in one pass, with little and bounded impact on rule searching. Experimental results on FPGA show that our design can achieve an average classification throughput of 182.6 MPPS and an average update throughput of 3.1 MUPS for various 100k-scale rule sets.",
+    "citationCount": 3,
+    "referenceCount": 57
+}

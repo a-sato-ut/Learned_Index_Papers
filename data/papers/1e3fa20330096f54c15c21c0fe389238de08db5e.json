@@ -1,0 +1,31 @@
+{
+    "paperId": "1e3fa20330096f54c15c21c0fe389238de08db5e",
+    "title": "XDQN: Inherently Interpretable DQN through Mimicking",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "A. Kontogiannis",
+        "G. Vouros"
+    ],
+    "doi": "10.48550/arXiv.2301.03043",
+    "arxivId": "2301.03043",
+    "url": "https://www.semanticscholar.org/paper/1e3fa20330096f54c15c21c0fe389238de08db5e",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2301.03043",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Although deep reinforcement learning (DRL) methods have been successfully applied in challenging tasks, their application in real-world operational settings is challenged by methods' limited ability to provide explanations. Among the paradigms for explainability in DRL is the interpretable box design paradigm, where interpretable models substitute inner constituent models of the DRL method, thus making the DRL method\"inherently\"interpretable. In this paper we explore this paradigm and we propose XDQN, an explainable variation of DQN, which uses an interpretable policy model trained through mimicking. XDQN is challenged in a complex, real-world operational multi-agent problem, where agents are independent learners solving congestion problems. Specifically, XDQN is evaluated in three MARL scenarios, pertaining to the demand-capacity balancing problem of air traffic management. XDQN achieves performance similar to that of DQN, while its abilities to provide global models' interpretations and interpretations of local decisions are demonstrated.",
+    "citationCount": 1,
+    "referenceCount": 37
+}

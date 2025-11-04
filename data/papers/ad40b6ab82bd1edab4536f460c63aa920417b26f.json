@@ -1,0 +1,36 @@
+{
+    "paperId": "ad40b6ab82bd1edab4536f460c63aa920417b26f",
+    "title": "An enterprise composite blockchain construction method for business environment",
+    "year": 2024,
+    "venue": "PLoS ONE",
+    "authors": [
+        "Su Li",
+        "Junlu Wang",
+        "Baoyan Song"
+    ],
+    "doi": "10.1371/journal.pone.0299162",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ad40b6ab82bd1edab4536f460c63aa920417b26f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0299162&type=printable",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In order to foster a modern economic system and facilitate high-quality economic development, it is crucial to establish a conducive business environment. Undoubtedly, the evaluation of the business environment for enterprises constitutes a prominent area of research. Nevertheless, ensuring the authenticity and security of the raw data sources provided by participating enterprises poses a challenge, thereby compromising the accuracy of the evaluation. To tackle this issue, an enterprise composite blockchain construction method for business environment is proposed in this paper, which stores the raw data of enterprises by the means of hybrid on-chain and off-chain. Initially, the enhanced hash function SHA256 is introduced to encrypt the raw data of enterprises. The encrypted data is subsequently stored in an off-chain Level DB database, which is based on non-volatile memory. This approach effectively alleviates the burden on communication and storage. Secondly, a composite storage strategy on-chain is adopted: the key values from the Level DB are stored in the DAG-based Conflux public blockchain, while the enterprise state data is stored in the consortium blockchain, so as to provide trusted evidence of business environment evaluation data. Finally, it is demonstrated through a large number of experimental comparisons that the enterprise composite blockchain construction method proposed in this paper exhibits better read and write performance, lower storage efficiency and storage overhead, and outperforms both the before-improved Level DB database and existing blockchain storage models.",
+    "citationCount": 2,
+    "referenceCount": 28
+}

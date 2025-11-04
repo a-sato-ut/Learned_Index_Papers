@@ -1,0 +1,32 @@
+{
+    "paperId": "17b34bd50c225da27d3230fcc2176e8a7805e54f",
+    "title": "Using GAN to Generate Malicious Samples Suitable for Binary Classifier Training",
+    "year": 2022,
+    "venue": "2022 IEEE International Conference on Big Data (Big Data)",
+    "authors": [
+        "Slawomir Pioronski",
+        "Tomasz Górecki"
+    ],
+    "doi": "10.1109/BigData55660.2022.10020840",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/17b34bd50c225da27d3230fcc2176e8a7805e54f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Assigning data to one of two predefined classes is called a classification problem in machine learning (ML). This problem is very important and has become very popular, which has resulted in many methods designed to solve it. One of the problems we may encounter in the construction of this model is that the classes are not balanced – the classes have significantly different sizes. Of course, methods have been proposed to deal with this problem, one of which is to enlarge the minority class to the size of the larger class. In this paper, we present results obtained using the generative adversarial network (GAN) model to generate samples to increase the quality of binary classifier detecting malicious programs which was the goal of one of the competitions organized as part of the IEEE BigData 2022 conference. The GAN model we chose is the Wasserstein GAN (with gradient penalty), and the classifier is the LightGBM model. We reduced the RMSE on the public part of the test data from 0.19088 to 0.13497, and on the entire test set the RMSE difference was 0.11276. Due to some randomness in this solution, we showed that the presented method improves the quality of the classifier on average.",
+    "citationCount": 1,
+    "referenceCount": 36
+}

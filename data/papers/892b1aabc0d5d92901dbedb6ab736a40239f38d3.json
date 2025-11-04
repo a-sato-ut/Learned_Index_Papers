@@ -1,0 +1,34 @@
+{
+    "paperId": "892b1aabc0d5d92901dbedb6ab736a40239f38d3",
+    "title": "Fairness-Aware Range Queries for Selecting Unbiased Data",
+    "year": 2022,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Suraj Shetiya",
+        "Ian P. Swift",
+        "Abolfazl Asudeh",
+        "Gautam Das"
+    ],
+    "doi": "10.1109/icde53745.2022.00111",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/892b1aabc0d5d92901dbedb6ab736a40239f38d3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://figshare.com/articles/conference_contribution/Fairness-Aware_Range_Queries_for_Selecting_Unbiased_Data/20246178/1/files/36180120.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We are being constantly judged by automated decision systems that have been widely criticised for being discriminatory and unfair. Since an algorithm is only as good as the data it works with, biases in the data can significantly amplify unfairness issues. In this paper, we take initial steps towards integrating fairness conditions into database query processing and data management systems. Specifically, we focus on selection bias in range queries. We formally define the problem of fairness-aware range queries as obtaining a fair query which is most similar to the user's query. We propose a sub-linear time algorithm for single-predicate range queries and efficient algorithms for multi-predicate range queries. Our empirical evaluation on real and synthetic datasets confirms the effectiveness and efficiency of our proposal.",
+    "citationCount": 33,
+    "referenceCount": 67
+}

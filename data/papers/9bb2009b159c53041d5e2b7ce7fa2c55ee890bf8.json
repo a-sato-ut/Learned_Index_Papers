@@ -1,0 +1,34 @@
+{
+    "paperId": "9bb2009b159c53041d5e2b7ce7fa2c55ee890bf8",
+    "title": "ERPC: Efficient Rule Partitioning Through Community Detection for Packet Classification",
+    "year": 2025,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "Jinshui Wang",
+        "Yao Xin",
+        "Chongwu Dong",
+        "Lingfeng Qu",
+        "Yiming Ding"
+    ],
+    "doi": "10.1109/TNSM.2025.3567705",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9bb2009b159c53041d5e2b7ce7fa2c55ee890bf8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Packet classification is crucial for network security, traffic management, and quality of service by enabling efficient identification and handling of data packets. Decision tree-based rule partitioning has emerged as a prominent method in recent research. A significant challenge for decision tree algorithms is rule replication, which occurs when rules span multiple subspaces, leading to substantial memory consumption increases. Rule partitioning can effectively mitigate or eliminate this replication by separating overlapping rules. However, existing partitioning techniques heavily rely on manual parameter tuning across a wide range of possible values, making optimal solution discovery challenging. Furthermore, due to the lack of global optimization, these approaches face a critical trade-off: either the number of subsets becomes uncontrollable, resulting in diminished query speed, or rule replication becomes severe, causing substantial memory overhead. To bridge these gaps and achieve high-performance adaptive partitioning, we propose ERPC, a novel algorithm with the following key features: First, ERPC leverages graph theory to model rule sets, enabling global optimization that balances intra-group rule replication against the total number of groups. Second, ERPC advances rule set partitioning by modifying traditional community detection algorithms, strategically shifting the optimization objective from positive to negative modularity. Third, ERPC allows the rule set itself to determine the optimal number of groups, thus eliminating the need for manual parameter tuning. Experimental results demonstrate the efficacy of ERPC when applied to CutSplit, a state-of-the-art multi-tree method. It preserves 88% of CutSplit’s average classification throughput while reducing tree-building time by 89% and memory consumption by 77%. Furthermore, ERPC exhibits strong scalability, being adaptable to mainstream decision tree methods.",
+    "citationCount": 0,
+    "referenceCount": 43
+}

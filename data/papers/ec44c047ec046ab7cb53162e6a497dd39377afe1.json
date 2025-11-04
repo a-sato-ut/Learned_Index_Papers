@@ -1,0 +1,34 @@
+{
+    "paperId": "ec44c047ec046ab7cb53162e6a497dd39377afe1",
+    "title": "Capacity Requirements Planning for Production Companies Using Deep Reinforcement Learning - Use Case for Deep Planning Methodology (DPM)",
+    "year": 2019,
+    "venue": "Artificial Intelligence Applications and Innovations",
+    "authors": [
+        "Harald Schallner"
+    ],
+    "doi": "10.1007/978-3-030-19823-7_21",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ec44c047ec046ab7cb53162e6a497dd39377afe1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://hal.inria.fr/hal-02331294/file/483292_1_En_21_Chapter.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, deep reinforcement learning has proven an impressive success in the area of games, without explicit knowledge about the rules and strategies of the games itself, like Backgammon, Checkers, Go, Atari video games, for instance [1]. Deep reinforcement learning combines reinforcement-learning algorithms with deep neural networks. In principle, reinforcement-learning applications learn an appropriate policy automatically, which maximizes an objective function in order to win a game. In this paper, a universal methodology is proposed on how to create a deep reinforcement learning application for a business planning process systematically, named Deep Planning Methodology (DPM). This methodology is applied to the business process domain of capacity requirements planning. Therefore, this planning process was designed as a Markov decision process [2]. The proposed deep neuronal network learns a policy choosing the best shift schedule, which provides the required capacity for producing orders in time, with high capacity utilization, minimized stock and a short throughput time. The deep learning framework TensorFlowTM [3] was used to implement the capacity requirements planning application for a production company.",
+    "citationCount": 2,
+    "referenceCount": 21
+}

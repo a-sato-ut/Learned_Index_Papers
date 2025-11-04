@@ -1,0 +1,41 @@
+{
+    "paperId": "5cad2e1ed759e2abb7c9f9c56a540868c215f7fa",
+    "title": "Adversarial Examples for Model-Based Control: A Sensitivity Analysis",
+    "year": 2022,
+    "venue": "Allerton Conference on Communication, Control, and Computing",
+    "authors": [
+        "Po-han Li",
+        "U. Topcu",
+        "Sandeep P. Chinchali"
+    ],
+    "doi": "10.1109/Allerton49937.2022.9929419",
+    "arxivId": "2207.06982",
+    "url": "https://www.semanticscholar.org/paper/5cad2e1ed759e2abb7c9f9c56a540868c215f7fa",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2207.06982",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a method to attack controllers that rely on external timeseries forecasts as task parameters. An adversary can manipulate the costs, states, and actions of the controllers by forging the timeseries, in this case perturbing the real timeseries. Since the controllers often encode safety requirements or energy limits in their costs and constraints, we refer to such manipulation as an adversarial attack. We show that different attacks on model-based controllers can increase control costs, activate constraints, or even make the control optimization problem infeasible. We use the linear quadratic regulator and convex model predictive controllers as examples of how adversarial attacks succeed and demonstrate the impact of adversarial attacks on a battery storage control task for power grid operators. As a result, our method increases control cost by 8500% and energy constraints by 13% on real electricity demand timeseries.",
+    "citationCount": 5,
+    "referenceCount": 27
+}

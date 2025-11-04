@@ -1,0 +1,38 @@
+{
+    "paperId": "02b0afdf8ecd63b4942f024e812903797be13fa5",
+    "title": "IIsy: Practical In-Network Classification",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Changgang Zheng",
+        "Zhaoqi Xiong",
+        "T. T. Bui",
+        "Siim Kaupmees",
+        "Riyad Bensoussane",
+        "Antoine Bernabeu",
+        "S. Vargaftik",
+        "Y. Ben-Itzhak",
+        "Noa Zilberman"
+    ],
+    "doi": "10.48550/arXiv.2205.08243",
+    "arxivId": "2205.08243",
+    "url": "https://www.semanticscholar.org/paper/02b0afdf8ecd63b4942f024e812903797be13fa5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2205.08243",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rat race between user-generated data and data-processing systems is currently won by data. The increased use of machine learning leads to further increase in processing requirements, while data volume keeps growing. To win the race, machine learning needs to be applied to the data as it goes through the network. In-network classification of data can reduce the load on servers, reduce response time and increase scalability. In this paper, we introduce IIsy, implementing machine learning classification models in a hybrid fashion using off-the-shelf network devices. IIsy targets three main challenges of in-network classification: (i) mapping classification models to network devices (ii) extracting the required features and (iii) addressing resource and functionality constraints. IIsy supports a range of traditional and ensemble machine learning models, scaling independently of the number of stages in a switch pipeline. Moreover, we demonstrate the use of IIsy for hybrid classification, where a small model is implemented on a switch and a large model at the backend, achieving near optimal classification results, while significantly reducing latency and load on the servers.",
+    "citationCount": 41,
+    "referenceCount": 64
+}

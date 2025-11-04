@@ -1,0 +1,36 @@
+{
+    "paperId": "dff47b4206d2081a17abd1c08870ac0a3b9128c5",
+    "title": "LBMT team at VLSP2022-Abmusu: Hybrid method with text correlation and generative models for Vietnamese multi-document summarization",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Tan-Minh Nguyen",
+        "Thai-Binh Nguyen",
+        "Hoang-Trung Nguyen",
+        "Hai-Long Nguyen",
+        "Tam Doan Thanh",
+        "Nguyen Ha Thanh",
+        "Thi-Hai-Yen Vuong"
+    ],
+    "doi": "10.48550/arXiv.2304.05205",
+    "arxivId": "2304.05205",
+    "url": "https://www.semanticscholar.org/paper/dff47b4206d2081a17abd1c08870ac0a3b9128c5",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2304.05205",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multi-document summarization is challenging because the summaries should not only describe the most important information from all documents but also provide a coherent interpretation of the documents. This paper proposes a method for multi-document summarization based on cluster similarity. In the extractive method we use hybrid model based on a modified version of the PageRank algorithm and a text correlation considerations mechanism. After generating summaries by selecting the most important sentences from each cluster, we apply BARTpho and ViT5 to construct the abstractive models. Both extractive and abstractive approaches were considered in this study. The proposed method achieves competitive results in VLSP 2022 competition.",
+    "citationCount": 0,
+    "referenceCount": 18
+}

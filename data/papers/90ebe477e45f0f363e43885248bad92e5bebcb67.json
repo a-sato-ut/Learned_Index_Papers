@@ -1,0 +1,34 @@
+{
+    "paperId": "90ebe477e45f0f363e43885248bad92e5bebcb67",
+    "title": "Cost-Efficiency Trade-offs for Neural Cascade Rankers in Web Search",
+    "year": 2025,
+    "venue": "The Web Conference",
+    "authors": [
+        "Ekaterina Trimbach",
+        "Badr Abdallaoui",
+        "Paul Missault"
+    ],
+    "doi": "10.1145/3701716.3717577",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/90ebe477e45f0f363e43885248bad92e5bebcb67",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Web search engines process billions of queries daily, making the balance between computational efficiency and ranking quality crucial. While neural ranking models have shown impressive performance, their computational costs, particularly in feature extraction, pose significant challenges for large-scale deployment. This paper investigates how different configurations of feature selection and document filtering in neural cascade ranking systems influence the trade-off between computational cost and ranking performance. We propose a two-stage neural cascade architecture where both stages utilize Multi-Layer Perceptrons (MLPs). The first stage processes all documents using a reduced feature set, while the second stage applies a more sophisticated model to only the top-ranked documents. This design allows us to systematically explore the impact of feature selection and document filtering on both computational cost and ranking performance. Through extensive experiments on three large-scale datasets (Yahoo, Istella, and Microsoft MSLR-WEB30K), we demonstrate significant opportunities for cost reduction with minimal impact on ranking quality. Our results show that optimal cascade configurations can achieve cost reductions in feature extraction of up to 40.37% on the Yahoo dataset and 16% on the MSLR-WEB30K dataset while maintaining nearly identical NDCG@10. Furthermore, we identify clear patterns of diminishing returns in ranking performance as computational resources increase, providing valuable insights for developing resource-efficient ranking systems in large-scale web search environments.",
+    "citationCount": 2,
+    "referenceCount": 29
+}

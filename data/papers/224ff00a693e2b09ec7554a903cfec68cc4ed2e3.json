@@ -1,0 +1,33 @@
+{
+    "paperId": "224ff00a693e2b09ec7554a903cfec68cc4ed2e3",
+    "title": "XAutoML: A Visual Analytics Tool for Understanding and Validating Automated Machine Learning",
+    "year": 2022,
+    "venue": "ACM Trans. Interact. Intell. Syst.",
+    "authors": [
+        "M. Zöller",
+        "Waldemar Titov",
+        "T. Schlegel",
+        "Marco F. Huber"
+    ],
+    "doi": "10.1145/3625240",
+    "arxivId": "2202.11954",
+    "url": "https://www.semanticscholar.org/paper/224ff00a693e2b09ec7554a903cfec68cc4ed2e3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2202.11954",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the last 10 years, various automated machine learning (AutoML) systems have been proposed to build end-to-end machine learning (ML) pipelines with minimal human interaction. Even though such automatically synthesized ML pipelines are able to achieve competitive performance, recent studies have shown that users do not trust models constructed by AutoML due to missing transparency of AutoML systems and missing explanations for the constructed ML pipelines. In a requirements analysis study with 36 domain experts, data scientists, and AutoML researchers from different professions with vastly different expertise in ML, we collect detailed informational needs for AutoML. We propose XAutoML, an interactive visual analytics tool for explaining arbitrary AutoML optimization procedures and ML pipelines constructed by AutoML. XAutoML combines interactive visualizations with established techniques from explainable artificial intelligence (XAI) to make the complete AutoML procedure transparent and explainable. By integrating XAutoML with JupyterLab, experienced users can extend the visual analytics with ad-hoc visualizations based on information extracted from XAutoML. We validate our approach in a user study with the same diverse user group from the requirements analysis. All participants were able to extract useful information from XAutoML, leading to a significantly increased understanding of ML pipelines produced by AutoML and the AutoML optimization itself.",
+    "citationCount": 14,
+    "referenceCount": 90
+}

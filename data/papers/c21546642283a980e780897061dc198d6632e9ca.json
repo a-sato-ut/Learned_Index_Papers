@@ -1,0 +1,40 @@
+{
+    "paperId": "c21546642283a980e780897061dc198d6632e9ca",
+    "title": "EFTuner: A Bi-Objective Configuration Parameter Auto-Tuning Method Towards Energy-Efficient Big Data Processing",
+    "year": 2023,
+    "venue": "Asia-Pacific Symposium on Internetware",
+    "authors": [
+        "Hui Dou",
+        "Xing Wei",
+        "Kang Wang",
+        "Yiwen Zhang",
+        "Pengfei Chen",
+        "Yuee Huang"
+    ],
+    "doi": "10.1145/3609437.3609443",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c21546642283a980e780897061dc198d6632e9ca",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Energy-efficiency now severely restricts the sustainable operation and development of big data services. In this paper, we propose a bi-objective configuration parameters auto-tuning method EFTuner towards energy-efficient big data processing. Following the sampling-modeling-searching workflow, EFTuner first leverages the Latin Hypercube Sampling to collect configuration sample data under multiple dataset input sizes and then separately build a datasize-aware prediction model for performance and energy consumption with Stochastic Gradient Boosted Regression Tree. Besides, to avoid meaningless variation in the evolutionary process of original NSGA-II, EFTuner also explores the Pareto-optimal configurations with a novel parameter importance-based mutation operation. Experiments conducted on a local 3-node Spark cluster with three different applications verify the advantages of EFTuner over the baselines.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

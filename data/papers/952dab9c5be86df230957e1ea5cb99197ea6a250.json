@@ -1,0 +1,33 @@
+{
+    "paperId": "952dab9c5be86df230957e1ea5cb99197ea6a250",
+    "title": "On the Complexity of Traffic Traces and Implications",
+    "year": 2020,
+    "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+    "authors": [
+        "C. Avin",
+        "M. Ghobadi",
+        "Chen Griner",
+        "S. Schmid"
+    ],
+    "doi": "10.1145/3379486",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/952dab9c5be86df230957e1ea5cb99197ea6a250",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dspace.mit.edu/bitstream/1721.1/129523/2/trace_complexity_sigmetrics_2020.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents a systematic approach to identify and quantify the types of structures featured by packet traces in communication networks. Our approach leverages an information-theoretic methodology, based on iterative randomization and compression of the packet trace, which allows us to systematically remove and measure dimensions of structure in the trace. In particular, we introduce the notion of \\emphtrace complexity which approximates the entropy rate of a packet trace. Considering several real-world traces, we show that trace complexity can provide unique insights into the characteristics of various applications. Based on our approach, we also propose a traffic generator model able to produce a synthetic trace that matches the complexity levels of its corresponding real-world trace. Using a case study in the context of datacenters, we show that insights into the structure of packet traces can lead to improved demand-aware network designs: datacenter topologies that are optimized for specific traffic patterns.",
+    "citationCount": 91,
+    "referenceCount": 86
+}

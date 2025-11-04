@@ -1,0 +1,39 @@
+{
+    "paperId": "f512817da9a0449fcdf61e80a4b0a13a52586e81",
+    "title": "A joint management middleware to improve training performance of deep recommendation systems with SSDs",
+    "year": 2022,
+    "venue": "Design Automation Conference",
+    "authors": [
+        "Chun-Feng Wu",
+        "Carole-Jean Wu",
+        "Gu-Yeon Wei",
+        "David Brooks"
+    ],
+    "doi": "10.1145/3489517.3530426",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f512817da9a0449fcdf61e80a4b0a13a52586e81",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As the sizes and variety of training data scale over time, data preprocessing is becoming an important performance bottleneck for training deep recommendation systems. This challenge becomes more serious when training data is stored in Solid-State Drives (SSDs). Due to the access behavior gap between recommendation systems and SSDs, unused training data may be read and filtered out during preprocessing. This work advocates a joint management middleware to avoid reading unused data by bridging the access behavior gap. The evaluation results show that our middleware can effectively improve the performance of the data preprocessing phase so as to boost training performance.",
+    "citationCount": 6,
+    "referenceCount": 26
+}

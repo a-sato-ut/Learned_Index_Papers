@@ -1,0 +1,37 @@
+{
+    "paperId": "e7641540f1d0801a2dceed8b6b59f7e74808d942",
+    "title": "DeepPicar: A Low-Cost Deep Neural Network-Based Autonomous Car",
+    "year": 2017,
+    "venue": "IEEE International Conference on Embedded and Real-Time Computing Systems and Applications",
+    "authors": [
+        "M. Bechtel",
+        "Elise McEllhiney",
+        "H. Yun"
+    ],
+    "doi": "10.1109/RTCSA.2018.00011",
+    "arxivId": "1712.08644",
+    "url": "https://www.semanticscholar.org/paper/e7641540f1d0801a2dceed8b6b59f7e74808d942",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/1712.08644",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present DeepPicar, a low-cost deep neural network based autonomous car platform. DeepPicar is a small scale replication of a real self-driving car called DAVE-2 by NVIDIA. DAVE-2 uses a deep convolutional neural network (CNN), which takes images from a front-facing camera as input and produces car steering angles as output. DeepPicar uses the same network architecture—9 layers, 27 million connections and 250K parameters—and can drive itself in real-time using a web camera and a Raspberry Pi 3 quad-core platform. Using DeepPicar, we analyze the Pi 3's computing capabilities to support end-to-end deep learning based real-time control of autonomous vehicles. We also systematically compare other contemporary embedded computing platforms using the DeepPicar's CNN-based real-time control workload. We find that all tested platforms, including the Pi 3, are capable of supporting the CNN-based real-time control, from 20 Hz up to 100 Hz, depending on hardware platform. However, we find that shared resource contention remains an important issue that must be considered in applying CNN models on shared memory based embedded computing platforms; we observe up to 11.6X execution time increase in the CNN based control loop due to shared resource contention. To protect the CNN workload, we also evaluate state-of-the-art cache partitioning and memory bandwidth throttling techniques on the Pi 3. We find that cache partitioning is ineffective, while memory bandwidth throttling is an effective solution.",
+    "citationCount": 108,
+    "referenceCount": 37
+}

@@ -1,0 +1,28 @@
+{
+    "paperId": "af6db58140c5afd719548acc8d46ef21b9bfab0f",
+    "title": "A Comparative Study of Deep Learning’s Performance Methods for News Article using Word Representations",
+    "year": 2025,
+    "venue": "SISTEMASI",
+    "authors": [
+        "I. S. B. Azhar",
+        "Winda Kurnia Sari",
+        "Naretha Kawadha Pasema Gumay"
+    ],
+    "doi": "10.32520/stmsi.v14i2.5090",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/af6db58140c5afd719548acc8d46ef21b9bfab0f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In natural language processing (NLP), text classification is a crucial task that involves analyzing textual data, which often has high dimensionality. A good word representation is essential to address this challenge, and the word representation using GloVe is one of the popular methods that provides pre-trained word representations in high-dimensional vectors. This research evaluates the effectiveness of three deep learning techniques Convolutional Neural Network (CNN), Deep Neural Network (DNN), and Long Short-Term Memory (LSTM) for online news classification using 300-dimensional GloVe word representations. The CNN model utilizes convolutional and pooling layers to extract local features, the DNN relies on dense layers to learn abstract representations, while the LSTM excels at capturing long-term dependencies between words. The results show that the LSTM model achieved the best accuracy at 93.45%, followed by CNN at 91.24%, and DNN at 90.67%. The superiority of LSTM is attributed to its ability to effectively capture temporal relationships and context, while CNN offers efficiency with faster training times. Although DNN produced solid performance, it is less optimal in understanding word sequences. These findings indicate that LSTM outperforms the other models in online news text classification tasks.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

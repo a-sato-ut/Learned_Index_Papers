@@ -1,0 +1,39 @@
+{
+    "paperId": "e26b43bac071c9c5fd7b31df4cfed4add6ff8d76",
+    "title": "Clover: Toward Sustainable AI with Carbon-Aware Machine Learning Inference Service",
+    "year": 2023,
+    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+    "authors": [
+        "Baolin Li",
+        "S. Samsi",
+        "V. Gadepally",
+        "Devesh Tiwari"
+    ],
+    "doi": "10.1145/3581784.3607034",
+    "arxivId": "2304.09781",
+    "url": "https://www.semanticscholar.org/paper/e26b43bac071c9c5fd7b31df4cfed4add6ff8d76",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3581784.3607034",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents a solution to the challenge of mitigating carbon emissions from hosting large-scale machine learning (ML) inference services. ML inference is critical to modern technology products, but it is also a significant contributor to carbon footprint. We introduce, Clover, a carbon-friendly ML inference service runtime system that balances performance, accuracy, and carbon emissions through mixed-quality models and GPU resource partitioning. Our experimental results demonstrate that Clover is effective in substantially reducing carbon emissions while maintaining high accuracy and meeting service level agreement (SLA) targets.",
+    "citationCount": 42,
+    "referenceCount": 92
+}

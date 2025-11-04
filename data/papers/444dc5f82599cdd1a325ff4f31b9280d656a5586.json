@@ -1,0 +1,32 @@
+{
+    "paperId": "444dc5f82599cdd1a325ff4f31b9280d656a5586",
+    "title": "HINT: a hierarchical interval index for Allen relationships",
+    "year": 2023,
+    "venue": "The VLDB journal",
+    "authors": [
+        "George Christodoulou",
+        "Panagiotis Bouros",
+        "N. Mamoulis"
+    ],
+    "doi": "10.1007/s00778-023-00798-w",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/444dc5f82599cdd1a325ff4f31b9280d656a5586",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s00778-023-00798-w.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Indexing intervals is a fundamental problem, finding a wide range of applications, most notably in temporal and uncertain databases. We propose HINT, a novel and efficient in-memory index for range selection queries over interval collections. HINT applies a hierarchical partitioning approach, which assigns each interval to at most two partitions per level and has controlled space requirements. We reduce the information stored at each partition to the absolutely necessary by dividing the intervals in it, based on whether they begin inside or before the partition boundaries. In addition, our index includes storage optimization techniques for the effective handling of data sparsity and skewness. We show how HINT can be used to efficiently process queries based on Allen’s relationships. Experiments on real and synthetic interval sets of different characteristics show that HINT is typically one order of magnitude faster than existing interval indexing methods.",
+    "citationCount": 11,
+    "referenceCount": 40
+}

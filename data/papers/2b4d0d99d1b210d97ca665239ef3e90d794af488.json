@@ -1,0 +1,39 @@
+{
+    "paperId": "2b4d0d99d1b210d97ca665239ef3e90d794af488",
+    "title": "I3 Retriever: Incorporating Implicit Interaction in Pre-trained Language Models for Passage Retrieval",
+    "year": 2023,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Qian Dong",
+        "Yiding Liu",
+        "Qingyao Ai",
+        "Haitao Li",
+        "Shuaiqiang Wang",
+        "Yiqun Liu",
+        "Dawei Yin",
+        "Shaoping Ma"
+    ],
+    "doi": "10.1145/3583780.3614923",
+    "arxivId": "2306.02371",
+    "url": "https://www.semanticscholar.org/paper/2b4d0d99d1b210d97ca665239ef3e90d794af488",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3583780.3614923",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Passage retrieval is a fundamental task in many information systems, such as web search and question answering, where both efficiency and effectiveness are critical concerns. In recent years, neural retrievers based on pre-trained language models (PLM), such as dual-encoders, have achieved huge success. Yet, studies have found that the performance of dual-encoders are often limited due to the neglecting of the interaction information between queries and candidate passages. Therefore, various interaction paradigms have been proposed to improve the performance of vanilla dual-encoders. Particularly, recent state-of-the-art methods often introduce late-interaction during the model inference process. However, such late-interaction based methods usually bring extensive computation and storage cost on large corpus. Despite their effectiveness, the concern of efficiency and space footprint is still an important factor that limits the application of interaction-based neural retrieval models. To tackle this issue, we Incorporate Implicit Interaction into dual-encoders, and propose I3 retriever. In particular, our implicit interaction paradigm leverages generated pseudo-queries to simulate query-passage interaction, which jointly optimizes with query and passage encoders in an end-to-end manner. It can be fully pre-computed and cached, and its inference process only involves simple dot product operation of the query vector and passage vector, which makes it as efficient as the vanilla dual encoders. We conduct comprehensive experiments on MSMARCO and TREC2019 Deep Learning Datasets, demonstrating the I3 retriever's superiority in terms of both effectiveness and efficiency. Moreover, the proposed implicit interaction is compatible with special pre-training and knowledge distillation for passage retrieval, which brings a new state-of-the-art performance. The codes are available at https://github.com/Deriq-Qian-Dong/III-Retriever.",
+    "citationCount": 15,
+    "referenceCount": 73
+}

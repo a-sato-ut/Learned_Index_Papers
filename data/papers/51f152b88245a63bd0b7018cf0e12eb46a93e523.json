@@ -1,0 +1,31 @@
+{
+    "paperId": "51f152b88245a63bd0b7018cf0e12eb46a93e523",
+    "title": "BayesCard: A Unified Bayesian Framework for Cardinality Estimation",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ziniu Wu",
+        "Amir Shaikhha"
+    ],
+    "doi": null,
+    "arxivId": "2012.14743",
+    "url": "https://www.semanticscholar.org/paper/51f152b88245a63bd0b7018cf0e12eb46a93e523",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cardinality estimation is one of the fundamental problems in database management systems and it is an essential component in query optimizers. Traditional machine-learning-based approaches use probabilistic models such as Bayesian Networks (BNs) to learn joint distributions on data. Recent research advocates for using deep unsupervised learning and achieves state-of-the-art performance in estimating the cardinality of selection and join queries. Yet the lack of scalability, stability and interpretability of such deep learning models, makes them unsuitable for real-world databases. Recent advances in probabilistic programming languages (PPLs) allow for a declarative and efficient specification of probabilistic models such as BNs, and achieve state-of-the-art accuracy in various machine learning tasks. In this paper, we present BayesCard, the first framework incorporating the techniques behind PPLs for building BNs along with relational extensions that can accurately estimate the cardinality of selection and join queries in database systems with model sizes that are up to three orders of magnitude smaller than deep models'. Furthermore, the more stable performance and better interpretation of BNs make them viable options for practical query optimizers. Our experimental results on several single-relation and multi-relation databases indicate that BayesCard with a reasonable estimation time has a better estimation accuracy than deep learning models, and has from one to two orders of magnitude less training cost nevertheless.",
+    "citationCount": 28,
+    "referenceCount": 66
+}

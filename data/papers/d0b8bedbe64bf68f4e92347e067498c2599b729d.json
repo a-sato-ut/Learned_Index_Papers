@@ -1,0 +1,37 @@
+{
+    "paperId": "d0b8bedbe64bf68f4e92347e067498c2599b729d",
+    "title": "Learning to Rank Microphones for Distant Speech Recognition",
+    "year": 2021,
+    "venue": "Interspeech",
+    "authors": [
+        "Samuele Cornell",
+        "A. Brutti",
+        "M. Matassoni",
+        "S. Squartini"
+    ],
+    "doi": "10.21437/interspeech.2021-1315",
+    "arxivId": "2104.02819",
+    "url": "https://www.semanticscholar.org/paper/d0b8bedbe64bf68f4e92347e067498c2599b729d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2104.02819",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Fully exploiting ad-hoc microphone networks for distant speech recognition is still an open issue. Empirical evidence shows that being able to select the best microphone leads to significant improvements in recognition without any additional effort on front-end processing. Current channel selection techniques either rely on signal, decoder or posterior-based features. Signal-based features are inexpensive to compute but do not always correlate with recognition performance. Instead decoder and posterior-based features exhibit better correlation but require substantial computational resources. In this work, we tackle the channel selection problem by proposing MicRank, a learning to rank framework where a neural network is trained to rank the available channels using directly the recognition performance on the training set. The proposed approach is agnostic with respect to the array geometry and type of recognition back-end. We investigate different learning to rank strategies using a synthetic dataset developed on purpose and the CHiME-6 data. Results show that the proposed approach is able to considerably improve over previous selection techniques, reaching comparable and in some instances better performance than oracle signal-based measures.",
+    "citationCount": 5,
+    "referenceCount": 31
+}

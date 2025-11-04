@@ -1,0 +1,39 @@
+{
+    "paperId": "943bf0bfe71b2b245c02c1e4375ab3132a2027c7",
+    "title": "Neurotrie: Deep Reinforcement Learning-based Fast Software IPv6 Lookup",
+    "year": 2022,
+    "venue": "IEEE International Conference on Distributed Computing Systems",
+    "authors": [
+        "Hao Chen",
+        "Yuan Yang",
+        "Mingwei Xu",
+        "Yuxuan Zhang",
+        "Chenyi Liu"
+    ],
+    "doi": "10.1109/ICDCS54860.2022.00093",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/943bf0bfe71b2b245c02c1e4375ab3132a2027c7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "IPv6 has shown notable growth in recent years, imposing the need for high-speed IPv6 lookup. As the forwarding rate of virtual switches continues increasing, software-based IPv6 lookup without using special hardware such as TCAM, GPU, and FPGA is of academic interest and industrial importance. Existing studies achieve fast software IPv4 lookup by reducing the operation number, as well as reducing the memory footprint so as to benefit from CPU cache. However, in the situation of 128-bit IPv6 addresses, it is challenging to keep both operation numbers and memory footprints small. To address the issue, we propose the Neurotrie data structure, which supports fast lookup and arbitrary strides. Thus, a good balance can be made between trie depth and memory footprint by computing the proper stride for each Neurotrie node. We model the optimal Neurotrie problem which minimizes the depth with limited memory footprint and develop a pseudo-polynomial time baseline algorithm to construct Neurotrie using dynamic programming. To improve the performance and reduce the computation complexity, we develop a deep reinforcement learning-based approach, which leverages a deep neural network to construct Neurotrie efficiently, based on characteristics captured from real IPv6 prefixes. We further refine the data structure and develop an efficient mechanism for routing updates. Experiments on real routing tables show that Neurotrie achieves a lookup rate 34% higher than that of state-of-the-art approaches.",
+    "citationCount": 3,
+    "referenceCount": 18
+}

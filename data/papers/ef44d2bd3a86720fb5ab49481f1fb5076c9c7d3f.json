@@ -1,0 +1,37 @@
+{
+    "paperId": "ef44d2bd3a86720fb5ab49481f1fb5076c9c7d3f",
+    "title": "Practical Guidelines for Ideology Detection Pipelines and Psychosocial Applications",
+    "year": 2022,
+    "venue": "International Conference on Web and Social Media",
+    "authors": [
+        "Rohit Ram",
+        "E. Thomas",
+        "David Kernot",
+        "Marian-Andrei Rizoiu"
+    ],
+    "doi": "10.1609/icwsm.v19i1.35892",
+    "arxivId": "2208.04097",
+    "url": "https://www.semanticscholar.org/paper/ef44d2bd3a86720fb5ab49481f1fb5076c9c7d3f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Political Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Online ideology detection is crucial for downstream tasks, like countering ideologically motivated violent extremism and modeling opinion dynamics. However, two significant issues arise in practitioners' deployment. Firstly, gold-standard training data is prohibitively labor-intensive to collect and has limited reusability beyond its collection context (i.e., time, location, and platform). Secondly, to circumvent expense, researchers employ ideological signals (such as hashtags shared). Unfortunately, these signals' annotation requirements and context transferability are largely unknown, and the bias they induce remains unquantified. This study provides guidelines for practitioners requiring real-time detection of left, right, and extreme ideologies in large-scale online settings. We propose a framework for pipeline constructions, describing ideology signals by their associated labor and context transferability. We evaluate many constructions, quantifying the bias associated with signals and describing a pipeline that outperforms state-of-the-art methods (0.95 AUC ROC). We showcase the capabilities of our pipeline on five datasets containing more than 1.12 million users. We set out to investigate whether the findings in the psychosocial literature, developed for the offline environment, apply to the online setting. We evaluate at scale several psychosocial hypotheses that delineate ideologies concerning morality, grievance, nationalism, and dichotomous thinking. We find that right-wing ideologies use more vice-moral language, have more grievance-filled language, exhibit increased black-and-white thinking patterns, and have a greater association with national flags. This research empowers practitioners with guidelines for ideology detection, and case studies for its application, fostering a safer and better understood digital landscape.",
+    "citationCount": 4,
+    "referenceCount": 81
+}

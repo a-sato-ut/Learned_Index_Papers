@@ -1,0 +1,36 @@
+{
+    "paperId": "16248124babf05f1faba3a0f5a6e0929774479fa",
+    "title": "Sampling Bias Due to Near-Duplicates in Learning to Rank",
+    "year": 2020,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Maik Fröbe",
+        "Janek Bevendorff",
+        "Jan Heinrich Merker",
+        "Martin Potthast",
+        "Matthias Hagen"
+    ],
+    "doi": "10.1145/3397271.3401212",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/16248124babf05f1faba3a0f5a6e0929774479fa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning to rank~(LTR) is the de facto standard for web search, improving upon classical retrieval models by exploiting (in)direct relevance feedback from user judgments, interaction logs, etc. We investigate for the first time the effect of a sampling bias on LTR~models due to the potential presence of near-duplicate web pages in the training data, and how (in)consistent relevance feedback of duplicates influences an LTR~model's decisions. To examine this bias, we construct a series of specialized LTR~datasets based on the ClueWeb09 corpus with varying amounts of near-duplicates. We devise worst-case and average-case train/test splits that are evaluated on popular pointwise, pairwise, and listwise LTR~models. Our experiments demonstrate that duplication causes overfitting and thus less effective models, making a strong case for the benefits of systematic deduplication before training and model evaluation.",
+    "citationCount": 17,
+    "referenceCount": 31
+}

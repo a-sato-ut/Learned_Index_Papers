@@ -1,0 +1,34 @@
+{
+    "paperId": "2bd98d6e891185f5ed65c091a76f3640723c5bed",
+    "title": "Deciphering AutoML Ensembles: cattleia's Assistance in Decision-Making",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Anna Kozak",
+        "Dominik Kedzierski",
+        "Jakub Piwko",
+        "Malwina Wojewoda",
+        "Katarzyna Wo'znica"
+    ],
+    "doi": "10.48550/arXiv.2403.12664",
+    "arxivId": "2403.12664",
+    "url": "https://www.semanticscholar.org/paper/2bd98d6e891185f5ed65c091a76f3640723c5bed",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In many applications, model ensembling proves to be better than a single predictive model. Hence, it is the most common post-processing technique in Automated Machine Learning (AutoML). The most popular frameworks use ensembles at the expense of reducing the interpretability of the final models. In our work, we propose cattleia - an application that deciphers the ensembles for regression, multiclass, and binary classification tasks. This tool works with models built by three AutoML packages: auto-sklearn, AutoGluon, and FLAML. The given ensemble is analyzed from different perspectives. We conduct a predictive performance investigation through evaluation metrics of the ensemble and its component models. We extend the validation perspective by introducing new measures to assess the diversity and complementarity of the model predictions. Moreover, we apply explainable artificial intelligence (XAI) techniques to examine the importance of variables. Summarizing obtained insights, we can investigate and adjust the weights with a modification tool to tune the ensemble in the desired way. The application provides the aforementioned aspects through dedicated interactive visualizations, making it accessible to a diverse audience. We believe the cattleia can support users in decision-making and deepen the comprehension of AutoML frameworks.",
+    "citationCount": 1,
+    "referenceCount": 38
+}

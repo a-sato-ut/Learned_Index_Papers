@@ -1,0 +1,39 @@
+{
+    "paperId": "a1b751e594bcffd85cc15788d603b700a7f56e2c",
+    "title": "Characterizing Off-path SmartNIC for Accelerating Distributed Systems",
+    "year": 2022,
+    "venue": "USENIX Symposium on Operating Systems Design and Implementation",
+    "authors": [
+        "Xingda Wei",
+        "Rongxin Cheng",
+        "Yuh-Wen Yang",
+        "Rong Chen",
+        "Haibo Chen"
+    ],
+    "doi": null,
+    "arxivId": "2212.07868",
+    "url": "https://www.semanticscholar.org/paper/a1b751e594bcffd85cc15788d603b700a7f56e2c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "SmartNICs have recently emerged as an appealing device for accelerating distributed systems. However, there has not been a comprehensive characterization of SmartNICs, and existing designs typically only leverage a single communication path for workload offloading. This paper presents the first holistic study of a representative off-path SmartNIC, specifically the Bluefield-2, from a communication-path perspective. Our experimental study systematically explores the key performance characteristics of communication among the client, on-board SoC, and host, and offers insightful findings and advice for designers. Moreover, we propose the concurrent use of multiple communication paths of a SmartNIC and present a pioneering guideline to expose new optimization opportunities for various distributed systems. To demonstrate the effectiveness of our approach, we conducted case studies on a SmartNIC-based distributed file system (LineFS) and an RDMA-based disaggregated key-value store (DrTM-KV). Our experimental results show improvements of up to 30% and 25% for LineFS and DrTM-KV, respectively.",
+    "citationCount": 56,
+    "referenceCount": 78
+}

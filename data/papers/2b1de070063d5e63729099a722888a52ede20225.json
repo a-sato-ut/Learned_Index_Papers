@@ -1,0 +1,28 @@
+{
+    "paperId": "2b1de070063d5e63729099a722888a52ede20225",
+    "title": "The Evaluation Benchmark for SP ARQL Federated Query",
+    "year": 2023,
+    "venue": "International Symposium on Parameterized and Exact Computation",
+    "authors": [
+        "Jiao Xu",
+        "Pingfang Tian",
+        "Jinguang Gu"
+    ],
+    "doi": "10.1109/IPEC57296.2023.00083",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2b1de070063d5e63729099a722888a52ede20225",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In SP ARQL federated query system, cardinality estimation is one of the most critical steps that affect query performance. In recent years, a large number of federated query cardinality estimation methods have been produced, which is particularly important for evaluating the performance of different methods. However, the existing research shows that there is no unified test benchmark when evaluating cardinality estimation methods, and the commonly used precision index Q-error has also been proved to be unable to generate the optimal query plan. In order to solve the above problems, this paper proposes a test benchmark (FQCEB) for SP ARQL federated query cardinality estimation. FQCEB consists of three components: benchmark data set, query generator and evaluation index, including 32 templates created manually, 1600 unique queries and more than 200K query subplans. The experimental results show that when the performance of radix estimation method is evaluated by using the test benchmark in this paper, it shows the applicability of the benchmark to various methods, and the P-error evaluation index in the benchmark shows the correlation with the query running time, and the correlation coefficient is as high as 85%, which proves that P-error is more suitable for evaluating the actual performance of radix estimation method than Q-error.",
+    "citationCount": 0,
+    "referenceCount": 22
+}

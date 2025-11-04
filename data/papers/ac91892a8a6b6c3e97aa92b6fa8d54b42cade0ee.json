@@ -1,0 +1,40 @@
+{
+    "paperId": "ac91892a8a6b6c3e97aa92b6fa8d54b42cade0ee",
+    "title": "Learning scheduling algorithms for data processing clusters",
+    "year": 2018,
+    "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+    "authors": [
+        "Hongzi Mao",
+        "Malte Schwarzkopf",
+        "S. Venkatakrishnan",
+        "Zili Meng",
+        "Mohammad Alizadeh"
+    ],
+    "doi": "10.1145/3341302.3342080",
+    "arxivId": "1810.01963",
+    "url": "https://www.semanticscholar.org/paper/ac91892a8a6b6c3e97aa92b6fa8d54b42cade0ee",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3341302.3342080",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficiently scheduling data processing jobs on distributed compute clusters requires complex algorithms. Current systems use simple, generalized heuristics and ignore workload characteristics, since developing and tuning a scheduling policy for each workload is infeasible. In this paper, we show that modern machine learning techniques can generate highly-efficient policies automatically. Decima uses reinforcement learning (RL) and neural networks to learn workload-specific scheduling algorithms without any human instruction beyond a high-level objective, such as minimizing average job completion time. However, off-the-shelf RL techniques cannot handle the complexity and scale of the scheduling problem. To build Decima, we had to develop new representations for jobs' dependency graphs, design scalable RL models, and invent RL training methods for dealing with continuous stochastic job arrivals. Our prototype integration with Spark on a 25-node cluster shows that Decima improves average job completion time by at least 21% over hand-tuned scheduling heuristics, achieving up to 2x improvement during periods of high cluster load.",
+    "citationCount": 686,
+    "referenceCount": 90
+}

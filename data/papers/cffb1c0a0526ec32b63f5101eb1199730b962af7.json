@@ -1,0 +1,39 @@
+{
+    "paperId": "cffb1c0a0526ec32b63f5101eb1199730b962af7",
+    "title": "Expressive Power of Linear Algebra Query Languages",
+    "year": 2020,
+    "venue": "ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems",
+    "authors": [
+        "F. Geerts",
+        "Thomas Muñoz",
+        "Cristian Riveros",
+        "D. Vrgoč"
+    ],
+    "doi": "10.1145/3452021.3458314",
+    "arxivId": "2010.13717",
+    "url": "https://www.semanticscholar.org/paper/cffb1c0a0526ec32b63f5101eb1199730b962af7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2010.13717",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Linear algebra algorithms often require some sort of iteration or recursion as is illustrated by standard algorithms for Gaussian elimination, matrix inversion, and transitive closure. A key characteristic shared by these algorithms is that they allow looping for a number of steps that is bounded by the matrix dimension. In this paper we extend the matrix query language MATLANG with this type of recursion, and show that this suffices to express classical linear algebra algorithms. We study the expressive power of this language and show that it naturally corresponds to arithmetic circuit families, which are often said to capture linear algebra. Furthermore, we analyze several sub-fragments of our language, and show that their expressive power is closely tied to logical formalisms on semiring-annotated relations.",
+    "citationCount": 11,
+    "referenceCount": 45
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "9fd1c075f74e3925e53985172d797af130875b5f",
+    "title": "Robust Performance of Main Memory Data Structures by Configuration",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Tiemo Bang",
+        "Ismail Oukid",
+        "Norman May",
+        "Ilia Petrov",
+        "Carsten Binnig"
+    ],
+    "doi": "10.1145/3318464.3389725",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9fd1c075f74e3925e53985172d797af130875b5f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we present a new approach for achieving robust performance of data structures making it easier to reuse the same design for different hardware generations but also for different workloads. To achieve robust performance, the main idea is to strictly separate the data structure design from the actual strategies to execute access operations and adjust the actual execution strategies by means of so-called configurations instead of hard-wiring the execution strategy into the data structure. In our evaluation we demonstrate the benefits of this configuration approach for individual data structures as well as complex OLTP workloads.",
+    "citationCount": 10,
+    "referenceCount": 45
+}

@@ -1,0 +1,42 @@
+{
+    "paperId": "dbab3b9fc92237b8c35e044f5ddab0d93c46f8a9",
+    "title": "Approximate Nearest Neighbor Search under Neural Similarity Metric for Large-Scale Recommendation",
+    "year": 2022,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Rihan Chen",
+        "Bin Liu",
+        "Han Zhu",
+        "Yao Wang",
+        "Qi Li",
+        "Buting Ma",
+        "Q. hua",
+        "Junliang Jiang",
+        "Yunlong Xu",
+        "Hongbo Deng",
+        "Bo Zheng"
+    ],
+    "doi": "10.1145/3511808.3557098",
+    "arxivId": "2202.10226",
+    "url": "https://www.semanticscholar.org/paper/dbab3b9fc92237b8c35e044f5ddab0d93c46f8a9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2202.10226",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Model-based methods for recommender systems have been studied extensively for years. Modern recommender systems usually resort to 1) representation learning models which define user-item preference as the distance between their embedding representations, and 2) embedding-based Approximate Nearest Neighbor (ANN) search to tackle the efficiency problem introduced by large-scale corpus. While providing efficient retrieval, the embedding-based retrieval pattern also limits the model capacity since the form of user-item preference measure is restricted to the distance between their embedding representations. However, for other more precise user-item preference measures, e.g., preference scores directly derived from a deep neural network, they are computationally intractable because of the lack of an efficient retrieval method, and an exhaustive search for all user-item pairs is impractical. In this paper, we propose a novel method to extend ANN search to arbitrary matching functions, e.g., a deep neural network. Our main idea is to perform a greedy walk with a matching function in a similarity graph constructed from all items. To solve the problem that the similarity measures of graph construction and user-item matching function are heterogeneous, we propose a pluggable adversarial training task to ensure the graph search with arbitrary matching function can achieve fairly high precision. Experimental results in both open source and industry datasets demonstrate the effectiveness of our method. The proposed method has been fully deployed in the Taobao display advertising platform and brings a considerable advertising revenue increase. We also summarize our detailed experiences in deployment in this paper.",
+    "citationCount": 35,
+    "referenceCount": 39
+}

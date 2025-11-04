@@ -1,0 +1,41 @@
+{
+    "paperId": "193aaa44b1b4387d99e592caf96a57a88c02148d",
+    "title": "AMLB: an AutoML Benchmark",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "P. Gijsbers",
+        "Marcos L. P. Bueno",
+        "Stefan Coors",
+        "E. LeDell",
+        "S. Poirier",
+        "Janek Thomas",
+        "B. Bischl",
+        "J. Vanschoren"
+    ],
+    "doi": "10.48550/arXiv.2207.12560",
+    "arxivId": "2207.12560",
+    "url": "https://www.semanticscholar.org/paper/193aaa44b1b4387d99e592caf96a57a88c02148d",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2207.12560",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Comparing different AutoML frameworks is notoriously challenging and often done incorrectly. We introduce an open and extensible benchmark that follows best practices and avoids common mistakes when comparing AutoML frameworks. We conduct a thorough comparison of 9 well-known AutoML frameworks across 71 classification and 33 regression tasks. The differences between the AutoML frameworks are explored with a multi-faceted analysis, evaluating model accuracy, its trade-offs with inference time, and framework failures. We also use Bradley-Terry trees to discover subsets of tasks where the relative AutoML framework rankings differ. The benchmark comes with an open-source tool that integrates with many AutoML frameworks and automates the empirical evaluation process end-to-end: from framework installation and resource allocation to in-depth evaluation. The benchmark uses public data sets, can be easily extended with other AutoML frameworks and tasks, and has a website with up-to-date results.",
+    "citationCount": 67,
+    "referenceCount": 74
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "fff58c6686a95bbe6fda8ad9ea0cbb4ab017ac78",
+    "title": "Iterative Bounding MDPs: Learning Interpretable Policies via Non-Interpretable Methods",
+    "year": 2021,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Nicholay Topin",
+        "Stephanie Milani",
+        "Fei Fang",
+        "M. Veloso"
+    ],
+    "doi": "10.1609/aaai.v35i11.17192",
+    "arxivId": "2102.13045",
+    "url": "https://www.semanticscholar.org/paper/fff58c6686a95bbe6fda8ad9ea0cbb4ab017ac78",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/17192/16999",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Current work in explainable reinforcement learning generally produces policies in the form of a decision tree over the state space. Such policies can be used for formal safety verification, agent behavior prediction, and manual inspection of important features. However, existing approaches fit a decision tree after training or use a custom learning procedure which is not compatible with new learning techniques, such as those which use neural networks. To address this limitation, we propose a novel Markov Decision Process (MDP) type for learning decision tree policies: Iterative Bounding MDPs (IBMDPs). An IBMDP is constructed around a base MDP so each IBMDP policy is guaranteed to correspond to a decision tree policy for the base MDP when using a method-agnostic masking procedure. Because of this decision tree equivalence, any function approximator can be used during training, including a neural network, while yielding a decision tree policy for the base MDP. We present the required masking procedure as well as a modified value update step which allows IBMDPs to be solved using existing algorithms. We apply this procedure to produce IBMDP variants of recent reinforcement learning methods. We empirically show the benefits of our approach by solving IBMDPs to produce decision tree policies for the base MDPs.",
+    "citationCount": 41,
+    "referenceCount": 65
+}

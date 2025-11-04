@@ -1,0 +1,42 @@
+{
+    "paperId": "7410c8b4c2b2a2ec8c249f3ff33482412f5ef770",
+    "title": "How to send a real number using a single bit (and some shared randomness)",
+    "year": 2020,
+    "venue": "International Colloquium on Automata, Languages and Programming",
+    "authors": [
+        "R. Ben-Basat",
+        "M. Mitzenmacher",
+        "S. Vargaftik"
+    ],
+    "doi": "10.4230/LIPIcs.ICALP.2021.25",
+    "arxivId": "2010.02331",
+    "url": "https://www.semanticscholar.org/paper/7410c8b4c2b2a2ec8c249f3ff33482412f5ef770",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We consider the fundamental problem of communicating an estimate of a real number $x\\in[0,1]$ using a single bit. A sender that knows $x$ chooses a value $X\\in\\set{0,1}$ to transmit. In turn, a receiver estimates $x$ based on the value of $X$. We consider both the biased and unbiased estimation problems and aim to minimize the cost. For the biased case, the cost is the worst-case (over the choice of $x$) expected squared error, which coincides with the variance if the algorithm is required to be unbiased. \nWe first overview common biased and unbiased estimation approaches and prove their optimality when no shared randomness is allowed. We then show how a small amount of shared randomness, which can be as low as a single bit, reduces the cost in both cases. Specifically, we derive lower bounds on the cost attainable by any algorithm with unrestricted use of shared randomness and propose near-optimal solutions that use a small number of shared random bits. Finally, we discuss open problems and future directions.",
+    "citationCount": 19,
+    "referenceCount": 27
+}

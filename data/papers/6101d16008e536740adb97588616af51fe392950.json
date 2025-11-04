@@ -1,0 +1,37 @@
+{
+    "paperId": "6101d16008e536740adb97588616af51fe392950",
+    "title": "Provably Efficient Q-Learning with Low Switching Cost",
+    "year": 2019,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Yu Bai",
+        "Tengyang Xie",
+        "Nan Jiang",
+        "Yu-Xiang Wang"
+    ],
+    "doi": null,
+    "arxivId": "1905.12849",
+    "url": "https://www.semanticscholar.org/paper/6101d16008e536740adb97588616af51fe392950",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We take initial steps in studying PAC-MDP algorithms with limited adaptivity, that is, algorithms that change its exploration policy as infrequently as possible during regret minimization. This is motivated by the difficulty of running fully adaptive algorithms in real-world applications (such as medical domains), and we propose to quantify adaptivity using the notion of local switching cost. Our main contribution, Q-Learning with UCB2 exploration, is a model-free algorithm for H-step episodic MDP that achieves sublinear regret whose local switching cost in K episodes is $O(H^3SA\\log K)$, and we provide a lower bound of $\\Omega(HSA)$ on the local switching cost for any no-regret algorithm. Our algorithm can be naturally adapted to the concurrent setting, which yields nontrivial results that improve upon prior work in certain aspects.",
+    "citationCount": 97,
+    "referenceCount": 26
+}

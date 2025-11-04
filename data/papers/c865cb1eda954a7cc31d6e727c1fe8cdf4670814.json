@@ -1,0 +1,43 @@
+{
+    "paperId": "c865cb1eda954a7cc31d6e727c1fe8cdf4670814",
+    "title": "AutoSR4EO: An AutoML Approach to Super-Resolution for Earth Observation Images",
+    "year": 2024,
+    "venue": "Remote Sensing",
+    "authors": [
+        "Julia Wąsala",
+        "S. Marselis",
+        "Laurens Arp",
+        "Holger H. Hoos",
+        "N. Longépé",
+        "M. Baratchi"
+    ],
+    "doi": "10.3390/rs16030443",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c865cb1eda954a7cc31d6e727c1fe8cdf4670814",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2072-4292/16/3/443/pdf?version=1706080498",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Super-resolution (SR), a technique to increase the resolution of images, is a pre-processing step in the pipelines of applications of Earth observation (EO) data. The manual design and optimisation of SR models that are specific to every possible EO use case is a laborious process that creates a bottleneck for EO analysis. In this work, we develop an automated machine learning (AutoML) method to automate the creation of dataset-specific SR models. AutoML is the study of the automatic design of high-performance machine learning models. We present the following contributions. (i) We propose AutoSR4EO, an AutoML method for automatically constructing neural networks for SR. We design a search space based on state-of-the-art residual neural networks for SR and incorporate transfer learning. Our search space is extendable, making it possible to adapt AutoSR4EO to future developments in the field. (ii) We introduce a new real-world single-image SR (SISR) dataset, called SENT-NICFI. (iii) We evaluate the performance of AutoSR4EO on four different datasets against the performance of four state-of-the-art baselines and a vanilla AutoML SR method, with AutoSR4EO achieving the highest average ranking. Our results show that AutoSR4EO performs consistently well over all datasets, demonstrating that AutoML is a promising method for improving SR techniques for EO images.",
+    "citationCount": 9,
+    "referenceCount": 98
+}

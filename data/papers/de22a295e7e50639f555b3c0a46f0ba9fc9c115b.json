@@ -1,0 +1,35 @@
+{
+    "paperId": "de22a295e7e50639f555b3c0a46f0ba9fc9c115b",
+    "title": "Adaptive predictive modeling with online learning: addressing data drift challenges in historical data for distributed inferencing",
+    "year": 2024,
+    "venue": "Defense + Commercial Sensing",
+    "authors": [
+        "Cleon Anderson",
+        "Scott E. Brown",
+        "David Harman",
+        "M. Dwyer"
+    ],
+    "doi": "10.1117/12.3013468",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/de22a295e7e50639f555b3c0a46f0ba9fc9c115b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the era of data-intensive edge computing, the orchestration of Data Distributed Inferencing (DDI) tasks poses a formidable challenge, demanding real-time adaptability to varying network conditions and compute resources. This study introduces an innovative approach to address this challenge, leveraging Gradient Boosting Regression (GBR) as the core predictive modeling technique. The primary objective is to estimate inferencing time based on crucial factors, including bandwidth, compute device type, and the number of compute nodes, allowing for dynamic task placement and optimization in a DDI environment. Our model employs an online learning framework, continuously updating itself as new data streams in, enabling it to swiftly adapt to changing conditions and consistently deliver accurate inferencing time predictions. This research marks a significant step forward in enhancing the efficiency and performance of DDI systems, with implications for real-world applications across various domains, including IoT, edge computing, and distributed machine learning.",
+    "citationCount": 0,
+    "referenceCount": 14
+}

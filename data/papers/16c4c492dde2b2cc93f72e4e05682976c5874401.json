@@ -1,0 +1,36 @@
+{
+    "paperId": "16c4c492dde2b2cc93f72e4e05682976c5874401",
+    "title": "Fast and Reliable Missing Data Contingency Analysis with Predicate-Constraints",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Xi Liang",
+        "Zechao Shang",
+        "Aaron J. Elmore",
+        "S. Krishnan",
+        "M. Franklin"
+    ],
+    "doi": "10.1145/3318464.3389785",
+    "arxivId": "2004.04139",
+    "url": "https://www.semanticscholar.org/paper/16c4c492dde2b2cc93f72e4e05682976c5874401",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3318464.3389785",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Today, data analysts largely rely on intuition to determine whether missing or withheld rows of a dataset significantly affect their analyses. We propose a framework that can produce automatic contingency analysis, i.e., the range of values an aggregate SQL query could take, under formal constraints describing the variation and frequency of missing data tuples. We describe how to process SUM, COUNT, AVG, MIN, and MAX queries in these conditions resulting in hard error bounds with testable constraints. We propose an optimization algorithm based on an integer program that reconciles a set of such constraints, even if they are overlapping, conflicting, or unsatisfiable, into such bounds. Our experiments on real-world datasets against several statistical imputation and inference baselines show that statistical techniques can have a deceptively high error rate that is often unpredictable. In contrast, our framework offers hard bounds that are guaranteed to hold if the constraints are not violated. In spite of these hard bounds, we show competitive accuracy to statistical baselines.",
+    "citationCount": 15,
+    "referenceCount": 29
+}

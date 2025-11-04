@@ -1,0 +1,33 @@
+{
+    "paperId": "398ec30374ab722797543d04ee6c5555514e6361",
+    "title": "Bidirectional Maximum Entropy Training With Word Co-Occurrence for Video Captioning",
+    "year": 2023,
+    "venue": "IEEE transactions on multimedia",
+    "authors": [
+        "Sheng Liu",
+        "Annan Li",
+        "Jiahao Wang",
+        "Yunhong Wang"
+    ],
+    "doi": "10.1109/TMM.2022.3177308",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/398ec30374ab722797543d04ee6c5555514e6361",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Video captioning aims to generate natural language descriptions for a given video, which is a more challenging task than static image captioning since it requires a more diverse and exhaustive result. Meanwhile, it is also important that the generated captions should be consistent with the language habits of people at a fine granularity. In this work, unlike most recent works enhancing performance with additional data modalities or complex model designs, we focus on optimizing the training process of video captioning models. Firstly, to generate a more diverse video caption, we propose the bidirectional maximum entropy (BME) training, which directly optimizes the probability distribution of neighboring words under a reinforcement learning (RL) framework. Secondly, to search for more human-like captions in the larger search space created by BME, we introduce the word co-occurrence (WCO) weighting. It adaptively guides RL algorithms with co-occurrence statistics in the training corpus. Our method can be deployed on existing captioning models in a plug-and-play manner without introducing any extra parameters. Experimental results show that our method yields up to 5.8% and 7.0% improvements considering the CIDEr score on MSVD and MSR-VTT, respectively.",
+    "citationCount": 6,
+    "referenceCount": 83
+}

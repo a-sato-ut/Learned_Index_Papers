@@ -1,0 +1,35 @@
+{
+    "paperId": "bed5ac98a8e189f38823b21651c759d7d569e86e",
+    "title": "JoinGym: An Efficient Query Optimization Environment for Reinforcement Learning",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Kaiwen Wang",
+        "Junxiong Wang",
+        "Yueying Li",
+        "Nathan Kallus",
+        "Immanuel Trummer",
+        "Wen Sun"
+    ],
+    "doi": "10.48550/arXiv.2307.11704",
+    "arxivId": "2307.11704",
+    "url": "https://www.semanticscholar.org/paper/bed5ac98a8e189f38823b21651c759d7d569e86e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.11704",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Join order selection (JOS) is the problem of ordering join operations to minimize total query execution cost and it is the core NP-hard combinatorial optimization problem of query optimization. In this paper, we present JoinGym, a lightweight and easy-to-use query optimization environment for reinforcement learning (RL) that captures both the left-deep and bushy variants of the JOS problem. Compared to existing query optimization environments, the key advantages of JoinGym are usability and significantly higher throughput which we accomplish by simulating query executions entirely offline. Under the hood, JoinGym simulates a query plan's cost by looking up intermediate result cardinalities from a pre-computed dataset. We release a novel cardinality dataset for $3300$ SQL queries based on real IMDb workloads which may be of independent interest, e.g., for cardinality estimation. Finally, we extensively benchmark four RL algorithms and find that their cost distributions are heavy-tailed, which motivates future work in risk-sensitive RL. In sum, JoinGym enables users to rapidly prototype RL algorithms on realistic database problems without needing to setup and run live systems.",
+    "citationCount": 2,
+    "referenceCount": 65
+}

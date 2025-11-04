@@ -1,0 +1,32 @@
+{
+    "paperId": "27231e466c55400139dfe495f2ce0785c791e333",
+    "title": "SCRec: A Scalable Computational Storage System with Statistical Sharding and Tensor-train Decomposition for Recommendation Models",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Jinho Yang",
+        "Ji-Hoon Kim",
+        "Joo-Young Kim"
+    ],
+    "doi": "10.48550/arXiv.2504.00520",
+    "arxivId": "2504.00520",
+    "url": "https://www.semanticscholar.org/paper/27231e466c55400139dfe495f2ce0785c791e333",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Learning Recommendation Models (DLRMs) play a crucial role in delivering personalized content across web applications such as social networking and video streaming. However, with improvements in performance, the parameter size of DLRMs has grown to terabyte (TB) scales, accompanied by memory bandwidth demands exceeding TB/s levels. Furthermore, the workload intensity within the model varies based on the target mechanism, making it difficult to build an optimized recommendation system. In this paper, we propose SCRec, a scalable computational storage recommendation system that can handle TB-scale industrial DLRMs while guaranteeing high bandwidth requirements. SCRec utilizes a software framework that features a mixed-integer programming (MIP)-based cost model, efficiently fetching data based on data access patterns and adaptively configuring memory-centric and compute-centric cores. Additionally, SCRec integrates hardware acceleration cores to enhance DLRM computations, particularly allowing for the high-performance reconstruction of approximated embedding vectors from extremely compressed tensor-train (TT) format. By combining its software framework and hardware accelerators, while eliminating data communication overhead by being implemented on a single server, SCRec achieves substantial improvements in DLRM inference performance. It delivers up to 55.77$\\times$ speedup compared to a CPU-DRAM system with no loss in accuracy and up to 13.35$\\times$ energy efficiency gains over a multi-GPU system.",
+    "citationCount": 0,
+    "referenceCount": 49
+}

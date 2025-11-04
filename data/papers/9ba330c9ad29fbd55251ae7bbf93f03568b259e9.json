@@ -1,0 +1,33 @@
+{
+    "paperId": "9ba330c9ad29fbd55251ae7bbf93f03568b259e9",
+    "title": "DB-LSH: Locality-Sensitive Hashing with Query-based Dynamic Bucketing",
+    "year": 2022,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Yao Tian",
+        "Xi Zhao",
+        "Xiaofang Zhou"
+    ],
+    "doi": "10.48550/arXiv.2207.07823",
+    "arxivId": "2207.07823",
+    "url": "https://www.semanticscholar.org/paper/9ba330c9ad29fbd55251ae7bbf93f03568b259e9",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2207.07823",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Among many solutions to the high-dimensional approximate nearest neighbor (ANN) search problem, locality sensitive hashing (LSH) is known for its sub-linear query time and robust theoretical guarantee on query accuracy. Traditional LSH methods can generate a small number of candidates quickly from hash tables but suffer from large index sizes and hash boundary problems. Recent studies to address these issues often incur extra overhead to identify eligible candidates or remove false positives, making query time no longer sub-linear. To address this dilemma, in this paper we propose a novel LSH scheme called DB-LSH which supports efficient ANN search for large high-dimensional datasets. It organizes the projected spaces with multi-dimensional indexes rather than using fixed-width hash buckets. Our approach can significantly reduce the space cost by avoiding the need to maintain many hash tables for different bucket sizes. During the query phase of DB-LSH, a small number of high-quality candidates can be generated efficiently by dynamically constructing query-based hypercubic buckets with the required widths through index-based window queries. For a dataset of $n$ d-dimensional points with approximation ratio $c$, our rigorous theoretical analysis shows that DB-LSH achieves a smaller query cost $O(n^{\\rho}d\\log n)$, where $\\rho^{\\ast}$ is bounded by $1/c^{\\alpha}$ versus a bound of $1/c$ in the existing work. An extensive range of experiments on real-world data demonstrate the superiority of DB-LSH over state-of-the-art methods on both efficiency and accuracy.",
+    "citationCount": 13,
+    "referenceCount": 39
+}

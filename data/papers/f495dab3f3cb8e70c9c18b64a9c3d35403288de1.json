@@ -1,0 +1,33 @@
+{
+    "paperId": "f495dab3f3cb8e70c9c18b64a9c3d35403288de1",
+    "title": "Sampling Propagation Attention With Trimap Generation Network for Natural Image Matting",
+    "year": 2023,
+    "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+    "authors": [
+        "Yuhongze Zhou",
+        "Liguang Zhou",
+        "Tin Lun Lam",
+        "Yangsheng Xu"
+    ],
+    "doi": "10.1109/TCSVT.2023.3260025",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f495dab3f3cb8e70c9c18b64a9c3d35403288de1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Natural image matting aims to precisely separate foreground objects from backgrounds using alpha mattes. Fully automatic natural image matting without external annotations is challenging. Well-performed matting methods usually require accurate labor-intensive handcrafted trimap as an extra input while the performance of automatic trimap generation method, e.g., erosion/dilation manipulation on foreground segmentation, fluctuates with segmentation quality. Therefore, we argue that how to produce a high-quality trimap using coarse segmentation is a major issue in automatic matting. In this paper, we present a two-stage trimap-free natural image matting pipeline that does not need trimap and background as input. Specifically, guided by a coarse segmentation, Trimap Generation Network (TGN) estimates a trimap where the coarse segmentation can be produced by segmentation/salient object detection/matting approaches, which enables more flexibility for matting to adapt into different scenarios. Then, with an estimated trimap as guidance, our Sampling Propagation Attention Matting Network (SPAMattNet) estimates an alpha matte. Different from previous propagation-based matting networks, inspired by traditional sampling/propagation matting approaches, we propose Sampling Propagation Attention (SPA) for matting network to incorporate sampling and propagation procedures in deep learning based manner for network explainability and performance improvement. It explicitly investigates local spatial and global semantic relationships to reconstruct alpha features. To better harvest sampling/propagation and local/global information, a Cross-Fusion Contextual Module (CFC) is introduced to aggregate features from different sources. Extensive experiments are conducted to show that our matting approach is competitive compared to other state-of-the-art methods in both trimap-free and trimap-needed aspects on several challenging matting benchmarks.",
+    "citationCount": 8,
+    "referenceCount": 83
+}

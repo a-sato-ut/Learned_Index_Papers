@@ -1,0 +1,34 @@
+{
+    "paperId": "c54ef4890c617a8e09807bc7383057260f30421a",
+    "title": "Are We Wasting Time? A Fast, Accurate Performance Evaluation Framework for Knowledge Graph Link Predictors",
+    "year": 2024,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Filip Cornell",
+        "Yifei Jin",
+        "Jussi Karlgren",
+        "Sarunas Girdzijauskas"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00127",
+    "arxivId": "2402.00053",
+    "url": "https://www.semanticscholar.org/paper/c54ef4890c617a8e09807bc7383057260f30421a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The standard evaluation protocol for measuring the quality of Knowledge Graph Completion methods - the task of inferring new links to be added to a graph - typically involves a step which ranks every entity of a Knowledge Graph to assess their fit as a head or tail of a candidate link to be added. In Knowledge Graphs on a larger scale, this task rapidly becomes prohibitively heavy. Previous approaches mitigate this problem by using random sampling of entities to assess the quality of links predicted or suggested by a method. However, we show that this approach has serious limitations since the ranking metrics produced do not properly reflect true outcomes. In this paper, we present a thorough analysis of these effects along with the following findings. First, we empirically find and theoretically motivate why sampling uniformly at random vastly overestimates the ranking performance of a method. We show that this can be attributed to the effect of easy versus hard negatives. Second, we propose a framework that uses relational recommenders to guide the selection of candidates for evaluation. We provide both theoretical and empirical justification of our methodology, and find that simple and fast methods work extremely well, matching advanced neural approaches. Even when a large portion of the true candidates for a property are missed, the estimation of the ranking metrics on a downstream model barely deteriorates. With our proposed framework, we can reduce the time and computation needed similar to random sampling strategies while vastly improving the estimation; on ogbl-wikikg2, we show that accurate estimations of the full ranking can be obtained in 20 seconds instead of 30 minutes. We conclude that considerable computational effort can be saved by effective preprocessing and sampling methods and still reliably predict performance accurately of the true performance for the entire ranking procedure. We make our code available to the community11Accessible at https://github.com/Filco306/are-we-wasting-time.",
+    "citationCount": 0,
+    "referenceCount": 70
+}

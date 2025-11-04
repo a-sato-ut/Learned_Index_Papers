@@ -1,0 +1,40 @@
+{
+    "paperId": "45c6abd8f61831796f98d8e701df3478059ac10b",
+    "title": "Programming by Rewards",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Nagarajan Natarajan",
+        "Ajaykrishna Karthikeyan",
+        "Prateek Jain",
+        "Ivan Radicek",
+        "S. Rajamani",
+        "Sumit Gulwani",
+        "J. Gehrke"
+    ],
+    "doi": null,
+    "arxivId": "2007.06835",
+    "url": "https://www.semanticscholar.org/paper/45c6abd8f61831796f98d8e701df3478059ac10b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We formalize and study ``programming by rewards'' (PBR), a new approach for specifying and synthesizing subroutines for optimizing some quantitative metric such as performance, resource utilization, or correctness over a benchmark. A PBR specification consists of (1) input features $x$, and (2) a reward function $r$, modeled as a black-box component (which we can only run), that assigns a reward for each execution. The goal of the synthesizer is to synthesize a \"decision function\" $f$ which transforms the features to a decision value for the black-box component so as to maximize the expected reward $E[r \\circ f (x)]$ for executing decisions $f(x)$ for various values of $x$. We consider a space of decision functions in a DSL of loop-free if-then-else programs, which can branch on linear functions of the input features in a tree-structure and compute a linear function of the inputs in the leaves of the tree. We find that this DSL captures decision functions that are manually written in practice by programmers. Our technical contribution is the use of continuous-optimization techniques to perform synthesis of such decision functions as if-then-else programs. We also show that the framework is theoretically-founded ---in cases when the rewards satisfy nice properties, the synthesized code is optimal in a precise sense. \nWe have leveraged PBR to synthesize non-trivial decision functions related to search and ranking heuristics in the PROSE codebase (an industrial strength program synthesis framework) and achieve competitive results to manually written procedures over multiple man years of tuning. We present empirical evaluation against other baseline techniques over real-world case studies (including PROSE) as well on simple synthetic benchmarks.",
+    "citationCount": 2,
+    "referenceCount": 52
+}

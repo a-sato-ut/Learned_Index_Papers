@@ -1,0 +1,43 @@
+{
+    "paperId": "763197fe1db175ccf5711b241aaf5266aca05de8",
+    "title": "Time-based Sequence Model for Personalization and Recommendation Systems",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "T. Ishkhanov",
+        "M. Naumov",
+        "Xianjie Chen",
+        "Yan Zhu",
+        "Yuan Zhong",
+        "A. Azzolini",
+        "Chonglin Sun",
+        "Frank Jiang",
+        "Andrey Malevich",
+        "Liang Xiong"
+    ],
+    "doi": null,
+    "arxivId": "2008.11922",
+    "url": "https://www.semanticscholar.org/paper/763197fe1db175ccf5711b241aaf5266aca05de8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper we develop a novel recommendation model that explicitly incorporates time information. The model relies on an embedding layer and TSL attention-like mechanism with inner products in different vector spaces, that can be thought of as a modification of multi-headed attention. This mechanism allows the model to efficiently treat sequences of user behavior of different length. We study the properties of our state-of-the-art model on statistically designed data set. Also, we show that it outperforms more complex models with longer sequence length on the Taobao User Behavior dataset.",
+    "citationCount": 17,
+    "referenceCount": 48
+}

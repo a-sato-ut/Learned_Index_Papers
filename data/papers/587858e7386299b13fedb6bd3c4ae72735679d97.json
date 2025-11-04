@@ -1,0 +1,30 @@
+{
+    "paperId": "587858e7386299b13fedb6bd3c4ae72735679d97",
+    "title": "On the performance of video super-resolution algorithms for HTTP-based adaptive streaming applications",
+    "year": 2023,
+    "venue": "Optical Engineering + Applications",
+    "authors": [
+        "Nabajeet Barman",
+        "Yuriy A. Reznik",
+        "Maria Martini"
+    ],
+    "doi": "10.1117/12.2677618",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/587858e7386299b13fedb6bd3c4ae72735679d97",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent years have seen tremendous growth and advancement in the field of super-resolution algorithms for both images and videos. Such algorithms are mainly based on deep learning technologies and are primarily used for upsampling lower resolution images and videos, often outperforming existing traditional upsampling algorithms. Using such advanced upscaling algorithms on the client side can result in significant bandwidth and storage savings as the client can simply request lower-resolution images/videos and then upscale them to the required (higher) display resolution. However, the performance analysis of such proposed algorithms has been limited to a few datasets which are not representative of modern-era adaptive bitrate video streaming applications. Also, many times they only consider scaling artefacts, and hence their performance when considering typical compression artefacts is not known. In this paper, we evaluate the performance of such AI-based upscaling algorithms on different datasets considering a typical adaptive streaming system. Different content types, video compression standards and renditions are considered. Our results indicate that the performance of video upsampling algorithms measured objectively in terms of PSNR and SSIM is insignificant compared to traditional upsampling algorithms. However, more detailed analysis in terms of other advanced quality metrics as well as subjective tests are required for a comprehensive evaluation.",
+    "citationCount": 1,
+    "referenceCount": 52
+}

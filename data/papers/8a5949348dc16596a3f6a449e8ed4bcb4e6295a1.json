@@ -1,0 +1,37 @@
+{
+    "paperId": "8a5949348dc16596a3f6a449e8ed4bcb4e6295a1",
+    "title": "G-TADOC: Enabling Efficient GPU-Based Text Analytics without Decompression",
+    "year": 2021,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Feng Zhang",
+        "Zaifeng Pan",
+        "Yanliang Zhou",
+        "Jidong Zhai",
+        "Xipeng Shen",
+        "O. Mutlu",
+        "Xiaoyong Du"
+    ],
+    "doi": "10.1109/ICDE51399.2021.00148",
+    "arxivId": "2106.06889",
+    "url": "https://www.semanticscholar.org/paper/8a5949348dc16596a3f6a449e8ed4bcb4e6295a1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2106.06889",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Text analytics directly on compression (TADOC) has proven to be a promising technology for big data analytics. GPUs are extremely popular accelerators for data analytics systems. Unfortunately, no work so far shows how to utilize GPUs to accelerate TADOC. We describe G-TADOC, the first framework that provides GPU-based text analytics directly on compression, effectively enabling efficient text analytics on GPUs without decompressing the input data.G-TADOC solves three major challenges. First, TADOC involves a large amount of dependencies, which makes it difficult to exploit massive parallelism on a GPU. We develop a novel fine-grained thread-level workload scheduling strategy for GPU threads, which partitions heavily-dependent loads adaptively in a fine-grained manner. Second, in developing G-TADOC, thousands of GPU threads writing to the same result buffer leads to inconsistency while directly using locks and atomic operations lead to large synchronization overheads. We develop a memory pool with thread-safe data structures on GPUs to handle such difficulties. Third, maintaining the sequence information among words is essential for lossless compression. We design a sequence-support strategy, which maintains high GPU parallelism while ensuring sequence information.Our experimental evaluations show that G-TADOC provides 31.1× average speedup compared to state-of-the-art TADOC.",
+    "citationCount": 27,
+    "referenceCount": 65
+}

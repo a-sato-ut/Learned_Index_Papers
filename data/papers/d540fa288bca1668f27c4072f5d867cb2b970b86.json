@@ -1,0 +1,34 @@
+{
+    "paperId": "d540fa288bca1668f27c4072f5d867cb2b970b86",
+    "title": "Instance-Optimized String Fingerprints",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Mihail Stoian",
+        "Johannes Thürauf",
+        "Andreas Zimmerer",
+        "Alexander van Renen",
+        "Andreas Kipf"
+    ],
+    "doi": "10.48550/arXiv.2507.10391",
+    "arxivId": "2507.10391",
+    "url": "https://www.semanticscholar.org/paper/d540fa288bca1668f27c4072f5d867cb2b970b86",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recent research found that cloud data warehouses are text-heavy. However, their capabilities for efficiently processing string columns remain limited, relying primarily on techniques like dictionary encoding and prefix-based partition pruning. In recent work, we introduced string fingerprints - a lightweight secondary index structure designed to approximate LIKE predicates, albeit with false positives. This approach is particularly compelling for columnar query engines, where fingerprints can help reduce both compute and I/O overhead. We show that string fingerprints can be optimized for specific workloads using mixed-integer optimization, and that they can generalize to unseen table predicates. On an IMDb column evaluated in DuckDB v1.3, this yields table-scan speedups of up to 1.36$\\times$.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

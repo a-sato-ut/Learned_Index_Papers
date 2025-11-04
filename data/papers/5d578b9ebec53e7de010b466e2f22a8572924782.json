@@ -1,0 +1,35 @@
+{
+    "paperId": "5d578b9ebec53e7de010b466e2f22a8572924782",
+    "title": "Herald: An Embedding Scheduler for Distributed Embedding Model Training",
+    "year": 2022,
+    "venue": "Asia-Pacific Workshop on Networking",
+    "authors": [
+        "Chaoliang Zeng",
+        "Xiaodian Cheng",
+        "Han Tian",
+        "Hao Wang",
+        "Kai Chen"
+    ],
+    "doi": "10.1145/3542637.3542645",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5d578b9ebec53e7de010b466e2f22a8572924782",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Given the ability to represent categorical features, embedding models have gained great success on many internet services. State-of-the-art training frameworks enable embedding cache in GPU workers to benefit from hardware acceleration while supporting massive category representations (embeddings) in the limited-capacity GPU device memory. However, based on our measurements, naively adopting a cache system in embedding model training leads to non-negligible communications overhead between caches and the global parameter server. We observe that many such communications are avoidable, given the predictability and sparsity natures of embedding cache accesses in distributed training. In this paper, we propose Herald, a runtime embedding scheduler that significantly reduces the cache overhead by leveraging information about the required embeddings in the input samples and the locations of those embeddings. Herald is composed of two key optimizations: It allocates samples in a training batch to proper workers for a high cache hit rate via a heuristic location-aware inputs partition mechanism, and applies an on-demand synchronization strategy for a low frequency of embedding synchronization. Preliminary simulation results show that Herald can reduce cache overhead by 39.3%-53.7% compared to a naive cache-enabled training system across different realistic datasets.",
+    "citationCount": 3,
+    "referenceCount": 35
+}

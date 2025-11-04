@@ -1,0 +1,30 @@
+{
+    "paperId": "208ad48060b84ff5aa2bafd2bcffe58d80f3576b",
+    "title": "A Deep Q-Network Approach to Intelligent Cache Management in Dynamic Backend Environments",
+    "year": 2025,
+    "venue": "2025 5th International Conference on Computer Graphics, Image and Virtualization (ICCGIV)",
+    "authors": [
+        "Yumeng Sun",
+        "Renzi Meng",
+        "Renhan Zhang",
+        "Qiyuan Wu",
+        "Heyi Wang"
+    ],
+    "doi": "10.1109/ICCGIV65419.2025.11085175",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/208ad48060b84ff5aa2bafd2bcffe58d80f3576b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This study focuses on optimizing cache strategies in backend systems and proposes an adaptive cache eviction mechanism based on deep reinforcement learning. Traditional algorithms often struggle with complex and dynamic access patterns. They lack state awareness and the ability to evolve their policies. To address these limitations, this study models cache management as a Markov Decision Process and introduces Deep Q-Networks (DQN) as the decision-making core. An agent is built to learn the optimal actions under different cache states. The model extracts key features such as cache hit rate, access frequency, and time intervals through state representation. It uses experience replay and a target network to ensure stable training. The method is evaluated in several typical experimental scenarios, including hot and cold data switching, changes in cache capacity, and dynamic request distributions. In all cases, the method shows strong adaptability and stability in metrics such as hit rate, response time, and eviction efficiency. The experimental results show that the method effectively improves cache utilization and reduces system latency. It also demonstrates the ability to continuously learn and adjust policies in complex environments. The study provides a systematic evaluation from three perspectives: method modeling, system implementation, and experimental analysis. It confirms the feasibility and practical value of applying deep reinforcement learning to backend cache management. This work offers technical support for intelligent cache optimization in highly dynamic service environments.",
+    "citationCount": 6,
+    "referenceCount": 23
+}

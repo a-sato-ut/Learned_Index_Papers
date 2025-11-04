@@ -1,0 +1,40 @@
+{
+    "paperId": "b063020be00405c8f7c0d05d02a214a103f2a8d8",
+    "title": "CPR: Understanding and Improving Failure Tolerant Training for Deep Learning Recommendation with Partial Recovery",
+    "year": 2020,
+    "venue": "Conference on Machine Learning and Systems",
+    "authors": [
+        "Kiwan Maeng",
+        "Shivam Bharuka",
+        "Isabel Gao",
+        "M. C. Jeffrey",
+        "V. Saraph",
+        "Bor-Yiing Su",
+        "Caroline Trippel",
+        "Jiyan Yang",
+        "Michael G. Rabbat",
+        "Brandon Lucia",
+        "Carole-Jean Wu"
+    ],
+    "doi": null,
+    "arxivId": "2011.02999",
+    "url": "https://www.semanticscholar.org/paper/b063020be00405c8f7c0d05d02a214a103f2a8d8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The paper proposes and optimizes a partial recovery training system, CPR, for recommendation models. CPR relaxes the consistency requirement by enabling non-failed nodes to proceed without loading checkpoints when a node fails during training, improving failure-related overheads. The paper is the first to the extent of our knowledge to perform a data-driven, in-depth analysis of applying partial recovery to recommendation models and identified a trade-off between accuracy and performance. Motivated by the analysis, we present CPR, a partial recovery training system that can reduce the training time and maintain the desired level of model accuracy by (1) estimating the benefit of partial recovery, (2) selecting an appropriate checkpoint saving interval, and (3) prioritizing to save updates of more frequently accessed parameters. Two variants of CPR, CPR-MFU and CPR-SSU, reduce the checkpoint-related overhead from 8.2-8.5% to 0.53-0.68% compared to full recovery, on a configuration emulating the failure pattern and overhead of a production-scale cluster. While reducing overhead significantly, CPR achieves model quality on par with the more expensive full recovery scheme, training the state-of-the-art recommendation model using Criteo's Ads CTR dataset. Our preliminary results also suggest that CPR can speed up training on a real production-scale cluster, without notably degrading the accuracy.",
+    "citationCount": 35,
+    "referenceCount": 93
+}

@@ -1,0 +1,46 @@
+{
+    "paperId": "82d43a244c9a33b7dd399ecf231423c50bc3c8ad",
+    "title": "Feature Construction and Selection for PV Solar Power Modeling",
+    "year": 2022,
+    "venue": "International Symposium on Advanced Control of Industrial Processes",
+    "authors": [
+        "Yu Yang",
+        "J. Mao",
+        "Richard Nguyen",
+        "Annas Tohmeh",
+        "H. Yeh"
+    ],
+    "doi": "10.1109/AdCONIP55568.2022.9894235",
+    "arxivId": "2202.06226",
+    "url": "https://www.semanticscholar.org/paper/82d43a244c9a33b7dd399ecf231423c50bc3c8ad",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2202.06226",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Using solar power in the process industry can reduce greenhouse gas emissions and make the production process more sustainable. However, the intermittent nature of solar power renders its usage challenging. Building a model to predict photovoltaic (PV) power generation allows decision-makers to hedge energy shortages and further design proper operations. The solar power output is time-series data dependent on many factors, such as irradiance and weather. A machine learning framework for 1-hour ahead solar power prediction is developed in this paper based on the historical data. Our method extends the input dataset into higher dimensional Chebyshev polynomial space. Then, a feature selection scheme is developed with constrained linear regression to construct the predictor for different weather types. Several tests show that the proposed approach yields lower mean squared error than classical machine learning methods, such as support vector machine (SVM), random forest (RF), and gradient boosting decision tree (GBDT).",
+    "citationCount": 5,
+    "referenceCount": 20
+}

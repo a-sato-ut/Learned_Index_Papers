@@ -1,0 +1,38 @@
+{
+    "paperId": "163ec520bfc7ef5f068de19c4e061940ad201317",
+    "title": "RareGAN: Generating Samples for Rare Classes",
+    "year": 2022,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Zinan Lin",
+        "Hao Liang",
+        "G. Fanti",
+        "Vyas Sekar"
+    ],
+    "doi": "10.48550/arXiv.2203.10674",
+    "arxivId": "2203.10674",
+    "url": "https://www.semanticscholar.org/paper/163ec520bfc7ef5f068de19c4e061940ad201317",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.10674",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We study the problem of learning generative adversarial networks (GANs) for a rare class of an unlabeled dataset subject to a labeling budget. This problem is motivated from practical applications in domains including security (e.g., synthesizing packets for DNS amplification attacks), systems and networking (e.g., synthesizing workloads that trigger high resource usage), and machine learning (e.g., generating images from a rare class). Existing approaches are unsuitable, either requiring fully-labeled datasets or sacrificing the fidelity of the rare class for that of the common classes. We propose RareGAN, a novel synthesis of three key ideas: (1) extending conditional GANs to use labelled and unlabelled data for better generalization; (2) an active learning approach that requests the most useful labels; and (3) a weighted loss function to favor learning the rare class. We show that RareGAN achieves a better fidelity-diversity tradeoff on the rare class than prior work across different applications, budgets, rare class fractions, GAN losses, and architectures.",
+    "citationCount": 12,
+    "referenceCount": 71
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "d1b3888c35f720a678540200321a8c442de6022f",
+    "title": "Boosting General Trimap-free Matting in the Real-World Image",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Leo Shan",
+        "Wenzhang Zhou",
+        "Grace Zhao"
+    ],
+    "doi": "10.48550/arXiv.2405.17916",
+    "arxivId": "2405.17916",
+    "url": "https://www.semanticscholar.org/paper/d1b3888c35f720a678540200321a8c442de6022f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Image matting aims to obtain an alpha matte that separates foreground objects from the background accurately. Recently, trimap-free matting has been well studied because it requires only the original image without any extra input. Such methods usually extract a rough foreground by itself to take place trimap as further guidance. However, the definition of 'foreground' lacks a unified standard and thus ambiguities arise. Besides, the extracted foreground is sometimes incomplete due to inadequate network design. Most importantly, there is not a large-scale real-world matting dataset, and current trimap-free methods trained with synthetic images suffer from large domain shift problems in practice. In this paper, we define the salient object as foreground, which is consistent with human cognition and annotations of the current matting dataset. Meanwhile, data and technologies in salient object detection can be transferred to matting in a breeze. To obtain a more accurate and complete alpha matte, we propose a network called \\textbf{M}ulti-\\textbf{F}eature fusion-based \\textbf{C}oarse-to-fine Network \\textbf{(MFC-Net)}, which fully integrates multiple features for an accurate and complete alpha matte. Furthermore, we introduce image harmony in data composition to bridge the gap between synthetic and real images. More importantly, we establish the largest general matting dataset \\textbf{(Real-19k)} in the real world to date. Experiments show that our method is significantly effective on both synthetic and real-world images, and the performance in the real-world dataset is far better than existing matting-free methods. Our code and data will be released soon.",
+    "citationCount": 10,
+    "referenceCount": 83
+}

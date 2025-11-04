@@ -1,0 +1,35 @@
+{
+    "paperId": "efb10842822a80eb864ad6021b3c729179d77571",
+    "title": "Modeling Relevance Ranking under the Pre-training and Fine-tuning Paradigm",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Lin Bo",
+        "Liang Pang",
+        "Gang Wang",
+        "Jun Xu",
+        "Xiuqiang He",
+        "Jirong Wen"
+    ],
+    "doi": null,
+    "arxivId": "2108.05652",
+    "url": "https://www.semanticscholar.org/paper/efb10842822a80eb864ad6021b3c729179d77571",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, pre-trained language models such as BERT have been applied to document ranking for information retrieval, which first pre-train a general language model on an unlabeled large corpus and then conduct ranking-specific fine-tuning on expert-labeled relevance datasets. Ideally, an IR system would model relevance from a user-system dualism: the user's view and the system's view. User's view judges the relevance based on the activities of\"real users\"while the system's view focuses on the relevance signals from the system side, e.g., from the experts or algorithms, etc. Inspired by the user-system relevance views and the success of pre-trained language models, in this paper we propose a novel ranking framework called Pre-Rank that takes both user's view and system's view into consideration, under the pre-training and fine-tuning paradigm. Specifically, to model the user's view of relevance, Pre-Rank pre-trains the initial query-document representations based on large-scale user activities data such as the click log. To model the system's view of relevance, Pre-Rank further fine-tunes the model on expert-labeled relevance data. More importantly, the pre-trained representations, are fine-tuned together with handcrafted learning-to-rank features under a wide and deep network architecture. In this way, Pre-Rank can model the relevance by incorporating the relevant knowledge and signals from both real search users and the IR experts. To verify the effectiveness of Pre-Rank, we showed two implementations by using BERT and SetRank as the underlying ranking model, respectively. Experimental results base on three publicly available benchmarks showed that in both of the implementations, Pre-Rank can respectively outperform the underlying ranking models and achieved state-of-the-art performances.",
+    "citationCount": 5,
+    "referenceCount": 49
+}

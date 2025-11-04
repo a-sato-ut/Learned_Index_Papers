@@ -1,0 +1,36 @@
+{
+    "paperId": "779901fe92124ca9804bee02090476de84f914d9",
+    "title": "Compositional Visual Generation and Inference with Energy Based Models",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yilun Du",
+        "Shuang Li",
+        "Igor Mordatch"
+    ],
+    "doi": null,
+    "arxivId": "2004.06030",
+    "url": "https://www.semanticscholar.org/paper/779901fe92124ca9804bee02090476de84f914d9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A vital aspect of human intelligence is the ability to compose increasingly complex concepts out of simpler ideas, enabling both rapid learning and adaptation of knowledge. In this paper we show that energy-based models can exhibit this ability by directly combining probability distributions. Samples from the combined distribution correspond to compositions of concepts. For example, given a distribution for smiling faces, and another for male faces, we can combine them to generate smiling male faces. This allows us to generate natural images that simultaneously satisfy conjunctions, disjunctions, and negations of concepts. We evaluate compositional generation abilities of our model on the CelebA dataset of natural faces and synthetic 3D scene images. We also demonstrate other unique advantages of our model, such as the ability to continually learn and incorporate new concepts, or infer compositions of concept properties underlying an image.",
+    "citationCount": 24,
+    "referenceCount": 53
+}

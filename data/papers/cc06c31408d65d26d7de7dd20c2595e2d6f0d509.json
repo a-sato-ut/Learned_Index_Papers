@@ -1,0 +1,32 @@
+{
+    "paperId": "cc06c31408d65d26d7de7dd20c2595e2d6f0d509",
+    "title": "Characterization of the Impact of Migration Granularity on GPU Unified Memory I/O",
+    "year": 2025,
+    "venue": "2025 International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC)",
+    "authors": [
+        "Yonghyun Yang",
+        "Sanghyun Park",
+        "Jungrae Kim"
+    ],
+    "doi": "10.1109/ITC-CSCC66376.2025.11137652",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cc06c31408d65d26d7de7dd20c2595e2d6f0d509",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In GPU Unified Virtual Memory (UVM) systems, oversubscription—when memory usage exceeds physical GPU capacity—can lead to significant I/O traffic between host and device. This paper examines how migration granularity, the unit size of data transferred during page faults, influences I/O efficiency.We focus on two major inefficiencies: overfetching, where coarse-grained transfers bring in unused data, and thrashing, where limited memory causes repeated migrations. Using trace-based analysis of diverse workloads and granularities from 32 B to 64 KB, we show that finer granularity reduces both the volume of unused data and the peak working set size (WSS), lowering overall traffic.Fine-grained migration achieves up to 31% traffic reduction without modifying applications or memory management logic. The benefits are most pronounced in workloads with irregular access patterns, such as graph analytics. These findings suggest that migration granularity is an important parameter to consider when optimizing memory efficiency in UVM-based GPU systems.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

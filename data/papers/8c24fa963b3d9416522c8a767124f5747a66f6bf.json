@@ -1,0 +1,38 @@
+{
+    "paperId": "8c24fa963b3d9416522c8a767124f5747a66f6bf",
+    "title": "TGB-Seq Benchmark: Challenging Temporal GNNs with Complex Sequential Dynamics",
+    "year": 2025,
+    "venue": "International Conference on Learning Representations",
+    "authors": [
+        "Lu Yi",
+        "Jie Peng",
+        "Yanping Zheng",
+        "Fengran Mo",
+        "Zhewei Wei",
+        "Yuhang Ye",
+        "Zixuan Yue",
+        "Zengfeng Huang"
+    ],
+    "doi": "10.48550/arXiv.2502.02975",
+    "arxivId": "2502.02975",
+    "url": "https://www.semanticscholar.org/paper/8c24fa963b3d9416522c8a767124f5747a66f6bf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Future link prediction is a fundamental challenge in various real-world dynamic systems. To address this, numerous temporal graph neural networks (temporal GNNs) and benchmark datasets have been developed. However, these datasets often feature excessive repeated edges and lack complex sequential dynamics, a key characteristic inherent in many real-world applications such as recommender systems and ``Who-To-Follow'' on social networks. This oversight has led existing methods to inadvertently downplay the importance of learning sequential dynamics, focusing primarily on predicting repeated edges. In this study, we demonstrate that existing methods, such as GraphMixer and DyGFormer, are inherently incapable of learning simple sequential dynamics, such as ``a user who has followed OpenAI and Anthropic is more likely to follow AI at Meta next.'' Motivated by this issue, we introduce the Temporal Graph Benchmark with Sequential Dynamics (TGB-Seq), a new benchmark carefully curated to minimize repeated edges, challenging models to learn sequential dynamics and generalize to unseen edges. TGB-Seq comprises large real-world datasets spanning diverse domains, including e-commerce interactions, movie ratings, business reviews, social networks, citation networks and web link networks. Benchmarking experiments reveal that current methods usually suffer significant performance degradation and incur substantial training costs on TGB-Seq, posing new challenges and opportunities for future research. TGB-Seq datasets, leaderboards, and example codes are available at https://tgb-seq.github.io/.",
+    "citationCount": 9,
+    "referenceCount": 56
+}

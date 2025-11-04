@@ -1,0 +1,30 @@
+{
+    "paperId": "3d0853eb0429fff9a6ff04fd46ea221e4f84fbf2",
+    "title": "The Case for NLP-Enhanced Database Tuning: Towards Tuning Tools that \"Read the Manual\"",
+    "year": 2021,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Immanuel Trummer"
+    ],
+    "doi": "10.14778/3450980.3450984",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3d0853eb0429fff9a6ff04fd46ea221e4f84fbf2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A large body of knowledge on database tuning is available in the form of natural language text. We propose to leverage natural language processing (NLP) to make that knowledge accessible to automated tuning tools. We describe multiple avenues to exploit NLP for database tuning, and outline associated challenges and opportunities. As a proof of concept, we describe a simple prototype system that exploits recent NLP advances to mine tuning hints from Web documents. We show that mined tuning hints improve performance of MySQL and Postgres on TPC-H, compared to the default configuration.",
+    "citationCount": 23,
+    "referenceCount": 32
+}

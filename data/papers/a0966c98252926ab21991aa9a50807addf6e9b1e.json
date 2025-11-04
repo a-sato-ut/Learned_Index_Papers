@@ -1,0 +1,38 @@
+{
+    "paperId": "a0966c98252926ab21991aa9a50807addf6e9b1e",
+    "title": "Cutting to the chase with warm-start contextual bandits",
+    "year": 2021,
+    "venue": "Industrial Conference on Data Mining",
+    "authors": [
+        "Bastian Oetomo",
+        "R. Perera",
+        "Renata Borovica-Gajic",
+        "Benjamin I. P. Rubinstein"
+    ],
+    "doi": "10.1007/s10115-023-01861-2",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a0966c98252926ab21991aa9a50807addf6e9b1e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s10115-023-01861-2.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multi-armed bandits achieve excellent long-term performance in practice and sublinear cumulative regret in theory. However, a real-world limitation of bandit learning is poor performance in early rounds due to the need for exploration—a phenomenon known as the cold-start problem. While this limitation may be necessary in the general classical stochastic setting, in practice where “pre-training” data or knowledge is available, it is natural to attempt to “warm-start” bandit learners. This paper provides a theoretical treatment of warm-start contextual bandit learning, adopting Linear Thompson Sampling as a principled framework for flexibly transferring domain knowledge as might be captured by bandit learning in a prior related task, a supervised pre-trained Bayesian posterior, or domain expert knowledge. Under standard conditions, we prove a general regret bound. We then apply our warm-start algorithmic technique to other common bandit learners—the $$\\epsilon $$ ϵ -greedy and upper-confidence bound contextual learners. An upper regret bound is then provided for LinUCB. Our suite of warm-start learners are evaluated in experiments with both artificial and real-world datasets, including a motivating task of tuning a commercial database. A comprehensive range of experimental results are presented, highlighting the effect of different hyperparameters and quantities of pre-training data.",
+    "citationCount": 6,
+    "referenceCount": 33
+}

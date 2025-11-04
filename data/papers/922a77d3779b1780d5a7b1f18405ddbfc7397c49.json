@@ -1,0 +1,41 @@
+{
+    "paperId": "922a77d3779b1780d5a7b1f18405ddbfc7397c49",
+    "title": "A Provably Efficient Algorithm for Linear Markov Decision Process with Low Switching Cost",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Minbo Gao",
+        "Tianle Xie",
+        "S. Du",
+        "Lin F. Yang"
+    ],
+    "doi": null,
+    "arxivId": "2101.00494",
+    "url": "https://www.semanticscholar.org/paper/922a77d3779b1780d5a7b1f18405ddbfc7397c49",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many real-world applications, such as those in medical domains, recommendation systems, etc, can be formulated as large state space reinforcement learning problems with only a small budget of the number of policy changes, i.e., low switching cost. This paper focuses on the linear Markov Decision Process (MDP) recently studied in [Yang et al 2019, Jin et al 2020] where the linear function approximation is used for generalization on the large state space. We present the first algorithm for linear MDP with a low switching cost. Our algorithm achieves an $\\widetilde{O}\\left(\\sqrt{d^3H^4K}\\right)$ regret bound with a near-optimal $O\\left(d H\\log K\\right)$ global switching cost where $d$ is the feature dimension, $H$ is the planning horizon and $K$ is the number of episodes the agent plays. Our regret bound matches the best existing polynomial algorithm by [Jin et al 2020] and our switching cost is exponentially smaller than theirs. When specialized to tabular MDP, our switching cost bound improves those in [Bai et al 2019, Zhang et al 20020]. We complement our positive result with an $\\Omega\\left(dH/\\log d\\right)$ global switching cost lower bound for any no-regret algorithm.",
+    "citationCount": 49,
+    "referenceCount": 54
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "b1bdf7911bcdf6b6c0e144a2d5b87c92aca1f3ce",
+    "title": "Scaling Machine Learning with a Ring-based Distributed Framework",
+    "year": 2023,
+    "venue": "International Conference on Computer Science and Artificial Intelligence",
+    "authors": [
+        "Kankan Zhao",
+        "Youfang Leng",
+        "Hui Zhang"
+    ],
+    "doi": "10.1145/3638584.3638667",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b1bdf7911bcdf6b6c0e144a2d5b87c92aca1f3ce",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In centralized distributed machine learning systems, communication overhead between servers and computing nodes has always been an important issue affecting the training efficiency. Although existing research has proposed various measures to reduce communication overhead between nodes in parameter server frameworks, the communication pressure and overhead inherited from centralized architectures are still significant. To address the above issue, this paper proposes a ring-based parameter server framework that is distinct from node division and model training mechanism in the standard p/s framework. The ring-based architecture cancels the global model stored on the server side, and each computing node stores a local copy of the model. During model training, computing nodes can asynchronously train local models based on local or remote training data. After all nodes finish learning, the ensemble learning method can predict test data based on all local models. To avoid the negative impact of remote data reading on model training efficiency, a producer-consumer data reading strategy is proposed. This strategy can reduce data reading overhead in a pipeline manner. To make rational use of the input and output bandwidths of all nodes, a circular data scheduling mechanism is proposed. At any given time, this mechanism ensures each node has at most one input stream and one output stream, thereby dispersing communication pressure. The experimental results show that the proposed distributed architecture achieves significantly better performance (1.7%-2.1% RMSE) than the state-of-the-art baselines and also achieves a 2.2x-3.4x speedup when reaching a comparable RMSE performance.",
+    "citationCount": 0,
+    "referenceCount": 25
+}

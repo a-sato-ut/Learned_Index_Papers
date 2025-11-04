@@ -1,0 +1,33 @@
+{
+    "paperId": "2286b06ed1e151537105e4915b26e7892426b6d2",
+    "title": "Bringing Structure to Naturalness: On the Naturalness of ASTs",
+    "year": 2024,
+    "venue": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+    "authors": [
+        "Profir-Petru Pârţachi",
+        "Mahito Sugiyama"
+    ],
+    "doi": "10.1145/3639478.3643517",
+    "arxivId": "2504.08234",
+    "url": "https://www.semanticscholar.org/paper/2286b06ed1e151537105e4915b26e7892426b6d2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3639478.3643517",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Source code comes in different shapes and forms. Previous research has already shown code to be more predictable than natural language at the token level: source code can be natural. More recently, the structure of code - either as graphs or trees - has been successfully used to improve the state-of-the-art on numerous tasks: code suggestion, code summarisation, method naming etc. This body of work implicitly assumes that structured representations of code are similarly statistically predictable, i.e. natural. We consider that this view should be made explicit and propose directly studying the Structured Naturalness Hypothesis. Beyond just naming existing research that assumes this hypothesis and formulating it, we also provide evidence for tree representations: TreeLSTM models over ASTs for some languages, such as Ruby, are competitive with n-gram models while handling the syntax token issue highlighted by previous research ‘for free’. For other languages, such as Java or Python, we find tree models to perform worse, suggesting that downstream task improvement is uncorrelated to the language modelling task. Further, we show how one may use naturalness signals for near state-of-the-art results on just-in-time defect prediction without manual feature engineering work.",
+    "citationCount": 1,
+    "referenceCount": 57
+}

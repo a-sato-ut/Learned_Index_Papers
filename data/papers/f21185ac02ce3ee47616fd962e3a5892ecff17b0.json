@@ -1,0 +1,41 @@
+{
+    "paperId": "f21185ac02ce3ee47616fd962e3a5892ecff17b0",
+    "title": "Hierarchical Training: Scaling Deep Recommendation Models on Large CPU Clusters",
+    "year": 2021,
+    "venue": "Knowledge Discovery and Data Mining",
+    "authors": [
+        "Yuzhen Huang",
+        "Xiaohan Wei",
+        "Xing Wang",
+        "Jiyan Yang",
+        "Bor-Yiing Su",
+        "Shivam Bharuka",
+        "Dhruv Choudhary",
+        "Zewei Jiang",
+        "Hai Zheng",
+        "Jack Langman"
+    ],
+    "doi": "10.1145/3447548.3467084",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f21185ac02ce3ee47616fd962e3a5892ecff17b0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural network based recommendation models are widely used to power many internet-scale applications including product recommendation and feed ranking. As the models become more complex and more training data is required during training, improving the training scalability of these recommendation models becomes an urgent need. However, improving the scalability without sacrificing the model quality is challenging. In this paper, we conduct an in-depth analysis of the scalability bottleneck in existing training architecture on large scale CPU clusters. Based on these observations, we propose a new training architecture called Hierarchical Training, which exploits both data parallelism and model parallelism for the neural network part of the model within a group. We implement hierarchical training with a two-layer design: a tagging system that decides the operator placement and a net transformation system that materializes the training plans, and integrate hierarchical training into existing training stack. We propose several optimizations to improve the scalability of hierarchical training including model architecture optimization, communication compression, and various system-level improvements. Extensive experiments at massive scale demonstrate that hierarchical training can speed up distributed recommendation model training by 1.9x without model quality drop.",
+    "citationCount": 8,
+    "referenceCount": 49
+}

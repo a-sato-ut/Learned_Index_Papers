@@ -1,0 +1,35 @@
+{
+    "paperId": "5498d3d8a1125f5b342451a496d66dbc5b4ac026",
+    "title": "AlphaQO: Robust Learned Query Optimizer",
+    "year": 2022,
+    "venue": "International Journal of Software and Informatics",
+    "authors": [
+        "Xiang Yu",
+        "Chengliang Chai",
+        "Xinning Zhang",
+        "N. Tang",
+        "Ji Sun",
+        "Guoliang Li"
+    ],
+    "doi": "10.21655/ijsi.1673-7288.00275",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5498d3d8a1125f5b342451a496d66dbc5b4ac026",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.21655/ijsi.1673-7288.00275",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": ": Learned database query optimizers, which are typically empowered by (deep) learning models, have attracted significant attention recently, because they can offer similar or even better performance than the state-of-the-art commercial optimizers that require hundreds of expert-hours to tune. A crucial factor of successfully training learned optimizers is training queries. Unfortunately, a good query workload that is sufficient for training learned optimizers is not always available. This study proposes a framework, called AlphaQO, on generating queries for learned optimizers with reinforcement learning (RL). AlphaQO is a loop system that consists of two main components, query generator and learned optimizer. Query generator aims at generating “hard” queries (i.e., those queries that the learned optimizer provides poor estimates). The learned optimizer will be trained using generated queries, as well as providing feedbacks (in terms of numerical rewards) to the query generator. If the generated queries are good, the query generator will get a high reward; ∗",
+    "citationCount": 0,
+    "referenceCount": 36
+}

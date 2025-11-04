@@ -1,0 +1,37 @@
+{
+    "paperId": "efbc8d9127e2b022df36459786cdf5d293cfd93b",
+    "title": "Sapphire: Automatic Configuration Recommendation for Distributed Storage Systems",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Wenhao Lyu",
+        "Youyou Lu",
+        "J. Shu",
+        "Wei Zhao"
+    ],
+    "doi": null,
+    "arxivId": "2007.03220",
+    "url": "https://www.semanticscholar.org/paper/efbc8d9127e2b022df36459786cdf5d293cfd93b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern distributed storage systems come with aplethora of configurable parameters that controlmodule behavior and affect system performance. Default settings provided by developers are often suboptimal for specific user cases. Tuning parameters can provide significant performance gains but is a difficult task requiring profound experience and expertise, due to the immense number of configurable parameters, complex inner dependencies and non-linearsystem behaviors. To overcome these difficulties, we propose an automatic simulation-based approach, Sapphire, to recommend optimal configurations by leveraging machine learning and black-box optimization techniques. We evaluate Sapphire on Ceph. Results show that Sapphire significantly boosts Ceph performance to 2.2x compared to the default configuration.",
+    "citationCount": 8,
+    "referenceCount": 37
+}

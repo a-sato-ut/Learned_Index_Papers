@@ -1,0 +1,37 @@
+{
+    "paperId": "378ca383bccf76facf3efa70e1329167ad7d6968",
+    "title": "On a Deep Q-Network-based Approach for Active Queue Management",
+    "year": 2021,
+    "venue": "2021 Joint European Conference on Networks and Communications & 6G Summit (EuCNC/6G Summit)",
+    "authors": [
+        "Dhulfiqar A. Alwahab",
+        "G. Gombos",
+        "S. Laki"
+    ],
+    "doi": "10.1109/EuCNC/6GSummit51104.2021.9482588",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/378ca383bccf76facf3efa70e1329167ad7d6968",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Reinforcement learning has gone through an enormous evolution in the past ten years. It's practical applicability has been demonstrated through several use cases in various fields from robotics to process automation. In this paper, we examine how the tools of deep Q-learning can be used in an AQM algorithm to reduce queuing delay and ensure good link utilization at the same time. The proposed method called RL-AQM has the advantage that it is less prone to the good parameterization and can automatically adapt to new network conditions. The prototype implementation based on OpenAI Gym and NS-3 network simulator has thoroughly been evaluated under various settings focusing on three aspects: the convergence time of learning process, the performance of pre-trained models compared to PIE AQM and generalization ability. We have demonstrated that RL-AQM achieves comparable utilization to PIE AQM but results in much smaller queueing delays. Finally, the pre-trained models have good generalization abilities, enabling to use a pre-trained model in network settings that differ in bandwidth and/or RTT from the one used during the pre-training phase.",
+    "citationCount": 16,
+    "referenceCount": 14
+}

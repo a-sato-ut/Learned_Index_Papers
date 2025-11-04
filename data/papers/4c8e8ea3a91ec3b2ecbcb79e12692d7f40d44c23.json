@@ -1,0 +1,42 @@
+{
+    "paperId": "4c8e8ea3a91ec3b2ecbcb79e12692d7f40d44c23",
+    "title": "GRewriter: Practical Query Rewriting with Automatic Rule Set Expansion in GaussDB",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Zhe Jiang",
+        "Zhaoguo Wang",
+        "Haoning Lan",
+        "Chuzhe Tang",
+        "Haoran Ding",
+        "Lefeng Wang",
+        "Songyun Zou",
+        "Zhuoran Wei",
+        "Yongcun Liu",
+        "Xiang Yu",
+        "Yang Ren",
+        "Guoliang Li",
+        "Haibo Chen"
+    ],
+    "doi": "10.14778/3750601.3750622",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4c8e8ea3a91ec3b2ecbcb79e12692d7f40d44c23",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Effectively rewriting a wide range of complex and diverse queries is critical for database systems. Huawei GaussDB has been experiencing limited extensibility of its existing query rewriter. The problem is rooted in the need for one-size-fits-all rewrites by its pipelined rewrite workflow and the source code-level coupling of rewrite logic. This makes it not only difficult to identify generic, broadly applicable rewrites but also engineering-intensive to program them into the system.\n This paper presents GRewriter, GaussDB's new bolt-on extensible query rewriter powered by automated rewrite rule discovery. GRewriter sits atop the existing optimizer stack to explore useful rewrites, allowing a variety of rules to coexist and be selected on a per-query basis. A new rule language, G-DSL, is used to express rewrite rules so that the rewrite engine is not coupled with specific rules. To improve rewrite efficiency, a new rule index structure and a rewrite history cache are introduced. Rules in GRewriter are produced by an offline rule generator. With novel enumeration techniques and a new equivalence theorem, our rule generator can efficiently discover formally verified rules that are much more expressive than prior research prototypes. For operational convenience, GRewriter also supports manual rule authoring and interactive management of rules through familiar SQL interfaces.\n GRewriter has been integrated into GaussDB and is gradually rolling out to customers. GRewriter equips GaussDB with over a hundred rules while maintaining negligible overhead (<1%). These new rewrite rules have enhanced query performance for two key customer applications, an ERP system and a Banking transaction system, reducing production query latency by up to 99.9%—from 26 seconds to just 17 milliseconds.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "d0df9020aa5ac8112a3cd844927b29e404270b4b",
+    "title": "Improving Neural Ranking Models with Traditional IR Methods",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Anik Saha",
+        "Oktie Hassanzadeh",
+        "Alex Gittens",
+        "Jian Ni",
+        "Kavitha Srinivas",
+        "B. Yener"
+    ],
+    "doi": "10.48550/arXiv.2308.15027",
+    "arxivId": "2308.15027",
+    "url": "https://www.semanticscholar.org/paper/d0df9020aa5ac8112a3cd844927b29e404270b4b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2308.15027",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural ranking methods based on large transformer models have recently gained significant attention in the information retrieval community, and have been adopted by major commercial solutions. Nevertheless, they are computationally expensive to create, and require a great deal of labeled data for specialized corpora. In this paper, we explore a low resource alternative which is a bag-of-embedding model for document retrieval and find that it is competitive with large transformer models fine tuned on information retrieval tasks. Our results show that a simple combination of TF-IDF, a traditional keyword matching method, with a shallow embedding model provides a low cost path to compete well with the performance of complex neural ranking models on 3 datasets. Furthermore, adding TF-IDF measures improves the performance of large-scale fine tuned models on these tasks.",
+    "citationCount": 3,
+    "referenceCount": 17
+}

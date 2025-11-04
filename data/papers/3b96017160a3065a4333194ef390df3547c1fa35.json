@@ -1,0 +1,31 @@
+{
+    "paperId": "3b96017160a3065a4333194ef390df3547c1fa35",
+    "title": "Towards a Complete and Detail-Preserved Salient Object Detection",
+    "year": 2024,
+    "venue": "IEEE transactions on multimedia",
+    "authors": [
+        "Yi Ke Yun",
+        "Weisi Lin"
+    ],
+    "doi": "10.1109/TMM.2023.3325731",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3b96017160a3065a4333194ef390df3547c1fa35",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Salient Object Detection (SOD) is dominated by Encoder-Decoder networks which involve multi-scale feature fusion and multi-resolution dense supervision. It is prevalent yet problematic to interpolate feature maps or pool ground truth (GT) to fit the size of decoder stages in SOD. Structural properties are unavoidably damaged since pixels are discarded or changed during scaling, resulting in restoration difficulties and poor predictions. Second, it is intuitive and suboptimal to posit the last layer of an encoder as global context, even though it has been widely accepted that high-level encoder features contain global information that contributes to the overall shape of a SOD. To this end, this paper aims to enhance the abovementioned techniques for richer details and a more complete shape. First, we developed a Global Context Branch (GCB) which is a patch-wise supervised SOD on top of the encoder for better global context modeling. Second, we developed a Context Refinement Module (CRM) to improve high/low-level feature fusion and enhance detail reconstruction. Lastly, we adopt Pixel Shuffle (PS) when scaling features and GT maps to preserve structural information. Experiments demonstrated that our proposed framework achieved state-of-the-art performance among all five benchmark datasets against six related existing evaluation metrics.",
+    "citationCount": 27,
+    "referenceCount": 79
+}

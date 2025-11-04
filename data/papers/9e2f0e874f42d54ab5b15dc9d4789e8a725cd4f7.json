@@ -1,0 +1,33 @@
+{
+    "paperId": "9e2f0e874f42d54ab5b15dc9d4789e8a725cd4f7",
+    "title": "Conditional Cuckoo Filters",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Daniel Ting",
+        "Rick Cole"
+    ],
+    "doi": "10.1145/3448016.3452811",
+    "arxivId": "2005.02537",
+    "url": "https://www.semanticscholar.org/paper/9e2f0e874f42d54ab5b15dc9d4789e8a725cd4f7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3448016.3452811",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Bloom filters, cuckoo filters, and other approximate set membership sketches have a wide range of applications. Oftentimes, expensive operations can be skipped if an item is not in a data set. These filters provide an inexpensive, memory efficient way to test if an item is in a set and avoid unnecessary operations. Existing sketches only allow membership testing for a single set. However, in some applications such as join processing, the relevant set is not fixed and is determined by a set of predicates. We propose the Conditional Cuckoo Filter, a simple modification of the cuckoo filter that allows for set membership testing given predicates on a pre-computed sketch. This filter also introduces a novel chaining technique that enables cuckoo filters to handle insertion of duplicate keys. We evaluate our methods on a join processing application and show that they significantly reduce the number of tuples that a join must process.",
+    "citationCount": 13,
+    "referenceCount": 57
+}

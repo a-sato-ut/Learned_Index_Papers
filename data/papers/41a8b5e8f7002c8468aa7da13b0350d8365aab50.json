@@ -1,0 +1,41 @@
+{
+    "paperId": "41a8b5e8f7002c8468aa7da13b0350d8365aab50",
+    "title": "Multi-Epoch learning with Data Augmentation for Deep Click-Through Rate Prediction",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhongxiang Fan",
+        "Zhaocheng Liu",
+        "Jian Liang",
+        "Dongying Kong",
+        "Han Li",
+        "Peng Jiang",
+        "Shuang Li",
+        "Kun Gai"
+    ],
+    "doi": "10.48550/arXiv.2407.01607",
+    "arxivId": "2407.01607",
+    "url": "https://www.semanticscholar.org/paper/41a8b5e8f7002c8468aa7da13b0350d8365aab50",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper investigates the one-epoch overfitting phenomenon in Click-Through Rate (CTR) models, where performance notably declines at the start of the second epoch. Despite extensive research, the efficacy of multi-epoch training over the conventional one-epoch approach remains unclear. We identify the overfitting of the embedding layer, caused by high-dimensional data sparsity, as the primary issue. To address this, we introduce a novel and simple Multi-Epoch learning with Data Augmentation (MEDA) framework, suitable for both non-continual and continual learning scenarios, which can be seamlessly integrated into existing deep CTR models and may have potential applications to handle the\"forgetting or overfitting\"dilemma in the retraining and the well-known catastrophic forgetting problems. MEDA minimizes overfitting by reducing the dependency of the embedding layer on subsequent training data or the Multi-Layer Perceptron (MLP) layers, and achieves data augmentation through training the MLP with varied embedding spaces. Our findings confirm that pre-trained MLP layers can adapt to new embedding spaces, enhancing performance without overfitting. This adaptability underscores the MLP layers' role in learning a matching function focused on the relative relationships among embeddings rather than their absolute positions. To our knowledge, MEDA represents the first multi-epoch training strategy tailored for deep CTR prediction models. We conduct extensive experiments on several public and business datasets, and the effectiveness of data augmentation and superiority over conventional single-epoch training are fully demonstrated. Besides, MEDA has exhibited significant benefits in a real-world online advertising system.",
+    "citationCount": 0,
+    "referenceCount": 55
+}

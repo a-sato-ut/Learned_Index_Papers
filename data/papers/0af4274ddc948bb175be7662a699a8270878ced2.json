@@ -1,0 +1,34 @@
+{
+    "paperId": "0af4274ddc948bb175be7662a699a8270878ced2",
+    "title": "No Metrics Are Perfect: Adversarial Reward Learning for Visual Storytelling",
+    "year": 2018,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+        "Xin Eric Wang",
+        "Wenhu Chen",
+        "Yuan-fang Wang",
+        "William Yang Wang"
+    ],
+    "doi": "10.18653/v1/P18-1083",
+    "arxivId": "1804.09160",
+    "url": "https://www.semanticscholar.org/paper/0af4274ddc948bb175be7662a699a8270878ced2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.aclweb.org/anthology/P18-1083.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Though impressive results have been achieved in visual captioning, the task of generating abstract stories from photo streams is still a little-tapped problem. Different from captions, stories have more expressive language styles and contain many imaginary concepts that do not appear in the images. Thus it poses challenges to behavioral cloning algorithms. Furthermore, due to the limitations of automatic metrics on evaluating story quality, reinforcement learning methods with hand-crafted rewards also face difficulties in gaining an overall performance boost. Therefore, we propose an Adversarial REward Learning (AREL) framework to learn an implicit reward function from human demonstrations, and then optimize policy search with the learned reward function. Though automatic evaluation indicates slight performance boost over state-of-the-art (SOTA) methods in cloning expert behaviors, human evaluation shows that our approach achieves significant improvement in generating more human-like stories than SOTA systems.",
+    "citationCount": 161,
+    "referenceCount": 43
+}

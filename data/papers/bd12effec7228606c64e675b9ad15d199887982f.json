@@ -1,0 +1,32 @@
+{
+    "paperId": "bd12effec7228606c64e675b9ad15d199887982f",
+    "title": "Denoising Attention for Query-aware User Modeling in Personalized Search",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Elias Bassani",
+        "Pranav Kasela",
+        "G. Pasi"
+    ],
+    "doi": "10.48550/arXiv.2308.15968",
+    "arxivId": "2308.15968",
+    "url": "https://www.semanticscholar.org/paper/bd12effec7228606c64e675b9ad15d199887982f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2308.15968",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The personalization of search results has gained increasing attention in the past few years, thanks to the development of Neural Networks-based approaches for Information Retrieval and the importance of personalization in many search scenarios. Recent works have proposed to build user models at query time by leveraging the Attention mechanism, which allows weighing the contribution of the user-related information w.r.t. the current query. This approach allows taking into account the diversity of the user's interests by giving more importance to those related to the current search performed by the user. In this paper, we first discuss some shortcomings of the standard Attention formulation when employed for personalization. In particular, we focus on issues related to its normalization mechanism and its inability to entirely filter out noisy user-related information. Then, we introduce the Denoising Attention mechanism: an Attention variant that directly tackles the above shortcomings by adopting a robust normalization scheme and introducing a filtering mechanism. The reported experimental evaluation shows the benefits of the proposed approach over other Attention-based variants.",
+    "citationCount": 1,
+    "referenceCount": 88
+}

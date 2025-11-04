@@ -1,0 +1,33 @@
+{
+    "paperId": "9af57e800c945b54897b442294fd28dcf2299a39",
+    "title": "Learning Switchable Priors for Neural Image Compression",
+    "year": 2025,
+    "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+    "authors": [
+        "Haotian Zhang",
+        "Yuqi Li",
+        "Li Li",
+        "Dong Liu"
+    ],
+    "doi": "10.48550/arXiv.2504.16586",
+    "arxivId": "2504.16586",
+    "url": "https://www.semanticscholar.org/paper/9af57e800c945b54897b442294fd28dcf2299a39",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural image compression (NIC) usually adopts a predefined family of probabilistic distributions as the prior of the latent variables, and meanwhile relies on entropy models to estimate the parameters for the probabilistic family. More complex probabilistic distributions may fit the latent variables more accurately, but also incur higher complexity of the entropy models, limiting their practical value. To address this dilemma, we propose a solution to decouple the entropy model complexity from the prior distributions. We use a finite set of trainable priors that correspond to samples of the parametric probabilistic distributions. We train the entropy model to predict the index of the appropriate prior within the set, rather than the specific parameters. Switching between the trained priors further enables us to embrace a skip mode into the prior set, which simply omits a latent variable during the entropy coding. To demonstrate the practical value of our solution, we present a lightweight NIC model, namely FastNIC, together with the learning of switchable priors. FastNIC obtains a better trade-off between compression efficiency and computational complexity for neural image compression. We also implanted the switchable priors into state-of-the-art NIC models and observed improved compression efficiency with a significant reduction of entropy coding complexity.",
+    "citationCount": 1,
+    "referenceCount": 55
+}

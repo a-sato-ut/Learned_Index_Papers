@@ -1,0 +1,47 @@
+{
+    "paperId": "24fad232ed20b6e9b965a655730605b5d7e2d074",
+    "title": "FiniteNet: A Fully Convolutional LSTM Network Architecture for Time-Dependent Partial Differential Equations",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ben Stevens",
+        "T. Colonius"
+    ],
+    "doi": null,
+    "arxivId": "2002.03014",
+    "url": "https://www.semanticscholar.org/paper/24fad232ed20b6e9b965a655730605b5d7e2d074",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this work, we present a machine learning approach for reducing the error when numerically solving time-dependent partial differential equations (PDE). We use a fully convolutional LSTM network to exploit the spatiotemporal dynamics of PDEs. The neural network serves to enhance finite-difference and finite-volume methods (FDM/FVM) that are commonly used to solve PDEs, allowing us to maintain guarantees on the order of convergence of our method. We train the network on simulation data, and show that our network can reduce error by a factor of 2 to 3 compared to the baseline algorithms. We demonstrate our method on three PDEs that each feature qualitatively different dynamics. We look at the linear advection equation, which propagates its initial conditions at a constant speed, the inviscid Burgers' equation, which develops shockwaves, and the Kuramoto-Sivashinsky (KS) equation, which is chaotic.",
+    "citationCount": 31,
+    "referenceCount": 46
+}

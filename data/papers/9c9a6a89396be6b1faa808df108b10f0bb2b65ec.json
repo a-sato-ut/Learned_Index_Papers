@@ -1,0 +1,33 @@
+{
+    "paperId": "9c9a6a89396be6b1faa808df108b10f0bb2b65ec",
+    "title": "Predictive Price-Performance Optimization for Serverless Query Processing",
+    "year": 2021,
+    "venue": "International Conference on Extending Database Technology",
+    "authors": [
+        "Rathijit Sen",
+        "Abhishek Roy",
+        "Alekh Jindal"
+    ],
+    "doi": "10.48786/edbt.2023.10",
+    "arxivId": "2112.08572",
+    "url": "https://www.semanticscholar.org/paper/9c9a6a89396be6b1faa808df108b10f0bb2b65ec",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present an efficient, parametric modeling framework for predictive resource allocations, focusing on the amount of computational resources, that can optimize for a range of price-performance objectives for data analytics in serverless query processing settings. We discuss and evaluate in depth how our system, AutoExecutor, can use this framework to automatically select near-optimal executor and core counts for Spark SQL queries running on Azure Synapse. Our techniques improve upon Spark's in-built, reactive, dynamic executor allocation capabilities by substantially reducing the total executors allocated and executor occupancy while running queries, thereby freeing up executors that can potentially be used by other concurrent queries or in reducing the overall cluster provisioning needs. In contrast with post-execution analysis tools such as Sparklens, we predict resource allocations for queries before executing them and can also account for changes in input data sizes for predicting the desired allocations.",
+    "citationCount": 6,
+    "referenceCount": 47
+}

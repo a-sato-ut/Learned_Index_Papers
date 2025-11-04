@@ -1,0 +1,30 @@
+{
+    "paperId": "ff0503f40420059b456448ffd1cb6cea30f2fc40",
+    "title": "Three methods for fair ranking of multiple protected items",
+    "year": 2025,
+    "venue": "Scientific Reports",
+    "authors": [
+        "Massimo Melucci"
+    ],
+    "doi": "10.1038/s41598-025-12735-8",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ff0503f40420059b456448ffd1cb6cea30f2fc40",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Three approaches to fair ranking in retrieval systems are compared in this paper: mPFR, which is based on the theory of preferences and eigensystems; cRR, which is a simple‘ ’round robin” method; and mMLP, which is based on linear programming. In order to increase fairness without sacrificing retrieval effectiveness, the techniques post-process the rankings that a retrieval system sends back to users. The findings demonstrate that when it comes to protecting elements, mPFR and cRR accomplish the same level of effectiveness and fairness. Despite being computationally more costly than the latter, the former’s mathematical architecture enables the ranking of reordering techniques at various levels of complexity, while mMLP might not be practical for datasets that are too big. Therefore, the choice between these methods often hinges on the specific use case and dataset size, where trade-offs between computational efficiency and desired fairness come into play. Future research could explore optimizing these techniques further to enhance their applicability across diverse scenarios, ensuring that both fairness and effectiveness are maintained.",
+    "citationCount": 0,
+    "referenceCount": 31
+}

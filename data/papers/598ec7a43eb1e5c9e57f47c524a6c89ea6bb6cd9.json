@@ -1,0 +1,32 @@
+{
+    "paperId": "598ec7a43eb1e5c9e57f47c524a6c89ea6bb6cd9",
+    "title": "Constrained Approximate Similarity Search on Proximity Graph",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Weijie Zhao",
+        "Shulong Tan",
+        "Ping Li"
+    ],
+    "doi": "10.48550/arXiv.2210.14958",
+    "arxivId": "2210.14958",
+    "url": "https://www.semanticscholar.org/paper/598ec7a43eb1e5c9e57f47c524a6c89ea6bb6cd9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2210.14958",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Search engines and recommendation systems are built to eﬃciently display relevant information from those massive amounts of candidates. Typically a three-stage mechanism is employed in those systems: (i) a small collection of items are ﬁrst retrieved by (e.g.,) approximate near neighbor search algorithms; (ii) then a collection of constraints are applied on the retrieved items; (iii) a ﬁne-grained ranking neural network is employed to determine the ﬁnal recommendation. We observe a major defect of the original three-stage pipeline: Although we only target to retrieve k vectors in the ﬁnal recommendation, we have to preset a suﬃciently large s ( s > k ) for each query, and “hope” the number of survived vectors after the ﬁltering is not smaller than k . That is, at least k vectors in the s similar candidates satisfy the query constraints. In this paper, we investigate this constrained similarity search problem and attempt to merge the similarity search stage and the ﬁltering stage into one single search operation. We introduce AIRSHIP , a system that integrates a user-deﬁned function ﬁltering into the similarity search framework. The proposed system does not need to build extra indices nor require prior knowledge of the query constraints. We propose three optimization strategies: (1) starting point selection, (2) multi-direction search, and (3) biased priority queue selection. Our ﬁrst starting point selection optimization is to locate good starting points for the graph searching algorithm. We would like to start the graph search inside a cluster of satisﬁed vectors. In this scenario, a small number of satisﬁed vectors can be retrieved along the path to the query vector. Then, we propose a multi-direction search optimization that enables multi-direction searching. Compared with the single priority queue used in the original graph search, we have two priority queues to keep search candidates: on stores the satisﬁed vectors and the other maintains remaining unsatisﬁed vectors. When both priority queues are not empty, we choose each queue with a weight hyper-parameter. Experimental evaluations on",
+    "citationCount": 7,
+    "referenceCount": 55
+}

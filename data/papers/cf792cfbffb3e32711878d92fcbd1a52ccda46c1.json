@@ -1,0 +1,38 @@
+{
+    "paperId": "cf792cfbffb3e32711878d92fcbd1a52ccda46c1",
+    "title": "A Traffic-Aware Perspective on Network Disaggregated Sketches",
+    "year": 2021,
+    "venue": "Mediterranean Communication and Computer Networking Conference",
+    "authors": [
+        "Alessandro Cornacchia",
+        "German Sviridov",
+        "Paolo Giaccone",
+        "Andrea Bianco"
+    ],
+    "doi": "10.1109/MedComNet52149.2021.9501234",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cf792cfbffb3e32711878d92fcbd1a52ccda46c1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Sketches have emerged as a powerful tool for network traffic monitoring due to the good trade-off between accuracy and memory footprint offered by such techniques. Yet, implementing sketches on commercial switches raises numerous challenges related to availability of memory and its access frequency. Recently, disaggregated sketches, i.e., fragments of single network-wide sketches distributed across multiple switches, were introduced to cope with these limitations. However, none of the current approaches exploit any knowledge about the network traffic patterns when deploying such schemes. In this paper, we investigate the impact of traffic patterns on the performance of disaggregated sketches. Our findings show that blindly updating all fragments of a sketch might degrade the monitoring accuracy. Instead, taking into account the spatial distribution of the traffic may lead to globally better monitoring accuracy. Finally, we provide hints on the existence of an optimal solution for such a problem which opens new opportunities for the design of traffic-aware update policies for sketches.",
+    "citationCount": 1,
+    "referenceCount": 18
+}

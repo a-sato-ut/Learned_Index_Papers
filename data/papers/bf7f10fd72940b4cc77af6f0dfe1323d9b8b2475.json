@@ -1,0 +1,38 @@
+{
+    "paperId": "bf7f10fd72940b4cc77af6f0dfe1323d9b8b2475",
+    "title": "DeepSPACE: Approximate Geospatial Query Processing with Deep Learning",
+    "year": 2019,
+    "venue": "SIGSPATIAL/GIS",
+    "authors": [
+        "Dimitri Vorona",
+        "Andreas Kipf",
+        "Thomas Neumann",
+        "A. Kemper"
+    ],
+    "doi": "10.1145/3347146.3359112",
+    "arxivId": "1906.06085",
+    "url": "https://www.semanticscholar.org/paper/bf7f10fd72940b4cc77af6f0dfe1323d9b8b2475",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://zenodo.org/record/3632656/files/deepspace.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The amount of available geospatial data grows at an ever faster pace. This leads to a constantly increasing demand for processing power and storage in order to provide data analysis in a timely manner. At the same time, a lot of geospatial processing is visual and exploratory in nature, thus having bounded precision requirements. We present DeepSPACE, a deep learning-based approximate geospatial query processing engine which combines modest hardware requirements with the ability to answer flexible aggregation queries while keeping the required state to a few hundred KiBs.",
+    "citationCount": 16,
+    "referenceCount": 25
+}

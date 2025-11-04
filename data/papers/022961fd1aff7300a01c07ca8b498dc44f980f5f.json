@@ -1,0 +1,37 @@
+{
+    "paperId": "022961fd1aff7300a01c07ca8b498dc44f980f5f",
+    "title": "Parquet-Based CTR Model Training in Production Environment",
+    "year": 2024,
+    "venue": "IEEE International Conference on Systems, Man and Cybernetics",
+    "authors": [
+        "Zhibing Liu",
+        "Jinrong Guo",
+        "Biyu Zhou",
+        "Xiaokun Zhu",
+        "Yongjun Bao",
+        "Jizhong Han",
+        "Songlin Hu"
+    ],
+    "doi": "10.1109/SMC54092.2024.10831765",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/022961fd1aff7300a01c07ca8b498dc44f980f5f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "CTR(click through rate) model has played an important role in modern recommendation systems. Most of the recommendation models in industrial scenario are trained by TensorFlow. However, we observed that, TFRecord, the native k-v data format in TensorFlow, is not the best choice for CTR training. Those keys take up to 54% of the storage space in TFRecord formatted training data. To overcome this, we introduce Apache Parquet, a column-oriented data format, into CTR tasks to improve spatial efficiency. Besides, to use in production environment, we further give some high performance implementations of Parquet training scheme. Firstly, GPU data preprocessing method is adopted in replace of original Spark based solution to generate Parquet training data and accelerate data preprocessing. Secondly, we modify data loader in TensorFlow to consume the Parquet training data with high efficiency. Experimental results show that, the size of preprocessed Criteo dataset is 95.29% smaller in comparison to TFRecord and the data preprocessing time also reduces 99.6%. Without any model performance damage, we speed up the training process by 1.45x. Our scheme has applied to our internal business and has obtained similar performance benefits.",
+    "citationCount": 0,
+    "referenceCount": 25
+}

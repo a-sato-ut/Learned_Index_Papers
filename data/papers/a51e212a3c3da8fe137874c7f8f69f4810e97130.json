@@ -1,0 +1,45 @@
+{
+    "paperId": "a51e212a3c3da8fe137874c7f8f69f4810e97130",
+    "title": "SmartCube: An Adaptive Data Management Architecture for the Real-Time Visualization of Spatiotemporal Datasets",
+    "year": 2020,
+    "venue": "IEEE Transactions on Visualization and Computer Graphics",
+    "authors": [
+        "Can Liu",
+        "Cong Wu",
+        "Hanning Shao",
+        "Xiaoru Yuan"
+    ],
+    "doi": "10.1109/TVCG.2019.2934434",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a51e212a3c3da8fe137874c7f8f69f4810e97130",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Interactive visualization and exploration of large spatiotemporal data sets is difficult without carefully-designed data pre-processing and management tools. We propose a novel architecture for spatiotemporal data management. The architecture can dynamically update itself based on user queries. Datasets is stored in a tree-like structure to support memory sharing among cuboids in a logical structure of data cubes. An update mechanism is designed to create or remove cuboids on it, according to the analysis of the user queries, with the consideration of memory size limitation. Data structure is dynamically optimized according to different user queries. During a query process, user queries are recorded to predict the performance increment of the new cuboid. The creation or deletion of a cuboid is determined by performance increment. Experiment results show that our prototype system deliveries good performance towards user queries on different spatiotemporal datasets, which costing small memory size with comparable performance compared with other state-of-the-art algorithms.",
+    "citationCount": 18,
+    "referenceCount": 39
+}

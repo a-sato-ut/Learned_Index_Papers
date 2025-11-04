@@ -1,0 +1,39 @@
+{
+    "paperId": "3563948f6101c0691436d475b68dfe544b9c9248",
+    "title": "Sobolev Training for Physics Informed Neural Networks",
+    "year": 2021,
+    "venue": "",
+    "authors": [
+        "Hwijae Son",
+        "Jin Woo Jang",
+        "W. Han",
+        "H. Hwang"
+    ],
+    "doi": null,
+    "arxivId": "2101.08932",
+    "url": "https://www.semanticscholar.org/paper/3563948f6101c0691436d475b68dfe544b9c9248",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Physics Informed Neural Networks (PINNs) is a promising application of deep learning. The smooth architecture of a fully connected neural network is appropriate for finding the solutions of PDEs; the corresponding loss function can also be intuitively designed and guarantees the convergence for various kinds of PDEs. However, the rate of convergence has been considered as a weakness of this approach. This paper proposes Sobolev-PINNs, a novel loss function for the training of PINNs, making the training substantially efficient. Inspired by the recent studies that incorporate derivative information for the training of neural networks, we develop a loss function that guides a neural network to reduce the error in the corresponding Sobolev space. Surprisingly, a simple modification of the loss function can make the training process similar to \\textit{Sobolev Training} although PINNs is not a fully supervised learning task. We provide several theoretical justifications that the proposed loss functions upper bound the error in the corresponding Sobolev spaces for the viscous Burgers equation and the kinetic Fokker--Planck equation. We also present several simulation results, which show that compared with the traditional $L^2$ loss function, the proposed loss function guides the neural network to a significantly faster convergence. Moreover, we provide the empirical evidence that shows that the proposed loss function, together with the iterative sampling techniques, performs better in solving high dimensional PDEs.",
+    "citationCount": 34,
+    "referenceCount": 35
+}

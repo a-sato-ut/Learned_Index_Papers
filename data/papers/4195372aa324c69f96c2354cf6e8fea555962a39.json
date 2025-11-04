@@ -1,0 +1,38 @@
+{
+    "paperId": "4195372aa324c69f96c2354cf6e8fea555962a39",
+    "title": "Critical Concrete Scenario Generation Using Scenario-Based Falsification",
+    "year": 2022,
+    "venue": "2022 IEEE International Conference on Recent Advances in Systems Science and Engineering (RASSE)",
+    "authors": [
+        "D. Karunakaran",
+        "J. S. Berrio",
+        "Stewart Worrall",
+        "E. Nebot"
+    ],
+    "doi": "10.1109/RASSE54974.2022.9989690",
+    "arxivId": "2208.13329",
+    "url": "https://www.semanticscholar.org/paper/4195372aa324c69f96c2354cf6e8fea555962a39",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2208.13329",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Autonomous vehicles have the potential to lower the accident rate when compared to human driving. Moreover, it has been the driving force of automated vehicles’ rapid development over the last few years. In the higher Society of Automotive Engineers (SAE) automation level, the vehicle’s and passengers’ safety responsibility is transferred from the driver to the automated system, so thoroughly validating such a system is essential. Recently, academia and industry have embraced scenario-based evaluation as the complementary approach to road testing, reducing the overall testing effort required. It is essential to determine the system’s flaws before deploying it on public roads as there is no safety driver to guarantee the reliability of such a system. This paper proposes a Reinforcement Learning (RL) based scenario-based falsification method to search for a high-risk scenario in a pedestrian crossing traffic situation. We define a scenario as risky when a system under test (SUT) does not satisfy the requirement. The reward function for our RL approach is based on Intel’s Responsibility Sensitive Safety(RSS), Euclidean distance, and distance to a potential collision. Code and videos are available online at https://github.com/dkarunakaran/scenario_based_falsification.",
+    "citationCount": 8,
+    "referenceCount": 29
+}

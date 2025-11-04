@@ -1,0 +1,44 @@
+{
+    "paperId": "6afe51b5231fd3f08861e58403ccc56f274ea5ee",
+    "title": "A Gait Triaging Toolkit for Overlapping Acoustic Events in Indoor Environments",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Kelvin Summoogum",
+        "Debayan Das",
+        "Parvati Jayakumar"
+    ],
+    "doi": "10.48550/arXiv.2211.05944",
+    "arxivId": "2211.05944",
+    "url": "https://www.semanticscholar.org/paper/6afe51b5231fd3f08861e58403ccc56f274ea5ee",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2211.05944",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Gait has been used in clinical and healthcare applications to assess the physical and cognitive health of older adults. Acoustic based gait detection is a promising approach to collect gait data of older adults passively and non-intrusively. However, there has been limited work in developing acoustic based gait detectors that can operate in noisy polyphonic acoustic scenes of homes and care homes. We attribute this to the lack of good quality gait datasets from the real-world to train a gait detector on. In this paper, we put forward a novel machine learning based filter which can triage gait audio samples suitable for training machine learning models for gait detection. The filter achieves this by eliminating noisy samples at an f(1) score of 0.85 and prioritising gait samples with distinct spectral features and minimal noise. To demonstrate the effectiveness of the filter, we train and evaluate a deep learning model on gait datasets collected from older adults with and without applying the filter. The model registers an increase of 25 points in its f(1) score on unseen real-word gait data when trained with the filtered gait samples. The proposed filter will help automate the task of manual annotation of gait samples for training acoustic based gait detection models for older adults in indoor environments.",
+    "citationCount": 1,
+    "referenceCount": 21
+}

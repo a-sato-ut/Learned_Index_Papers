@@ -1,0 +1,34 @@
+{
+    "paperId": "c89a47897d806c0eaed05163f563914a9bdd7ef0",
+    "title": "Fast Performance Modeling across Different Database Versions Using Partitioned Co-Kriging",
+    "year": 2021,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Rong Cao",
+        "Liang Bao",
+        "Shouxin Wei",
+        "Jiarui Duan",
+        "Xi Wu",
+        "Yeye Du",
+        "Ren Sun"
+    ],
+    "doi": "10.3390/app11209669",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c89a47897d806c0eaed05163f563914a9bdd7ef0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2076-3417/11/20/9669/pdf?version=1634651758",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Database systems have a large number of configuration parameters that control functional and non-functional properties (e.g., performance and cost). Different configurations may lead to different performance values. To understand and predict the effect of configuration parameters on system performance, several learning-based strategies have been recently proposed. However, existing approaches usually assume a fixed database version such that learning has to be repeated once the database version changes. Repeating measurement and learning for each version is expensive and often practically infeasible. Instead, we propose the Partitioned Co-Kriging (PCK) approach that transfers knowledge from an older database version (source domain) to learn a reliable performance prediction model fast for a newer database version (target domain). Our method is based on the key observations that performance responses typically exhibit similarities across different database versions. We conducted extensive experiments under 5 different database systems with different versions to demonstrate the superiority of PCK. Experimental results show that PCK outperforms six state-of-the-art baseline algorithms in terms of prediction accuracy and measurement effort.",
+    "citationCount": 1,
+    "referenceCount": 19
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "081ea53b3e2ef4eb776a008d45084fefa5bc96cf",
+    "title": "End-to-End Learned Block-Based Image Compression with Block-Level Masked Convolutions and Asymptotic Closed Loop Training",
+    "year": 2022,
+    "venue": "Multim. Tools Appl.",
+    "authors": [
+        "Fatih Kamisli"
+    ],
+    "doi": "10.48550/arXiv.2203.11686",
+    "arxivId": "2203.11686",
+    "url": "https://www.semanticscholar.org/paper/081ea53b3e2ef4eb776a008d45084fefa5bc96cf",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.11686",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learned image compression research has achieved state-of-the-art compression performance with auto-encoder based neural network architectures, where the image is mapped via convolutional neural networks (CNN) into a latent representation that is quantized and processed again with CNN to obtain the reconstructed image. CNN operate on entire input images. On the other hand, traditional state-of-the-art image and video compression methods process images with a block-by-block processing approach for various reasons. Very recently, work on learned image compression with block based approaches have also appeared, which use the auto-encoder architecture on large blocks of the input image and introduce additional neural networks that perform intra/spatial prediction and deblocking/post-processing functions. This paper explores an alternative learned block-based image compression approach in which neither an explicit intra prediction neural network nor an explicit deblocking neural network is used. A single auto-encoder neural network with block-level masked convolutions is used and the block size is much smaller (8x8). By using block-level masked convolutions, each block is processed using reconstructed neighboring left and upper blocks both at the encoder and decoder. Hence, the mutual information between adjacent blocks is exploited during compression and each block is reconstructed using neighboring blocks, resolving the need for explicit intra prediction and deblocking neural networks. Since the explored system is a closed loop system, a special optimization procedure, the asymptotic closed loop design, is used with standard stochastic gradient descent based training. The experimental results indicate competitive image compression performance.",
+    "citationCount": 2,
+    "referenceCount": 44
+}

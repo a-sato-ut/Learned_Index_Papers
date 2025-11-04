@@ -1,0 +1,38 @@
+{
+    "paperId": "5bb4a9c54966a7fe1fb788a36a85e7193643a4af",
+    "title": "Dispatching Deadline Constrained Jobs in Edge Computing Systems",
+    "year": 2023,
+    "venue": "IEEE International Conference on Emerging Technologies and Factory Automation",
+    "authors": [
+        "S. Salman",
+        "A. Papadopoulos",
+        "S. Mubeen",
+        "Thomas Nolte"
+    ],
+    "doi": "10.1109/ETFA54631.2023.10275562",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5bb4a9c54966a7fe1fb788a36a85e7193643a4af",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The edge computing paradigm extends the architectural space of real-time systems by bringing the capabilities of the cloud to the edge. Unlike cloud-native systems designed for mean response times, real-time industrial embedded systems are designed to control a single physical system, such as a manipulator arm or a mobile robot, that requires temporal predictability. We consider the problem of dispatching and scheduling of jobs with deadlines that can be offloaded to the edge and propose DAL, a deadline-aware load balancing and scheduling framework that leverages the availability of on-demand computing resources along with an on-arrival dispatching scheme to manage temporal requirements of such offloaded applications. The evaluation indicates that DAL can achieve reasonably good performance even when execution times, arrival times, and deadlines vary.",
+    "citationCount": 1,
+    "referenceCount": 39
+}

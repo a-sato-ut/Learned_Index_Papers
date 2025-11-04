@@ -1,0 +1,35 @@
+{
+    "paperId": "718a096ef4de51b0739ef18a735954f0100fc3ec",
+    "title": "Graph-Attention-Network-Based Cost Estimation Model in Materialized View Environment",
+    "year": 2023,
+    "venue": "International Conference on Parallel and Distributed Systems",
+    "authors": [
+        "Daobing Zhu",
+        "S. Fan",
+        "Xiaoyang Zeng",
+        "Rui Xi",
+        "Mengshu Hou"
+    ],
+    "doi": "10.1109/ICPADS60453.2023.00198",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/718a096ef4de51b0739ef18a735954f0100fc3ec",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In database systems, materialized views (MV) pre-emptively materialize the common portion of query workloads to reduce redundant computations through query rewriting. However, the utilization of these rewritten queries depends on the accuracy of cost estimation models. Despite the promising performance of learning-based cost estimation models, they still exhibit limitations. Firstly, they are unable to capture the relationships between cross-node dependencies and node hierarchy across physical execution plan trees, hindering accuracy improvements. Secondly, they cannot simultaneously support original queries and rewritten queries, thereby limiting compatibility enhancements. In this paper, we introduce TGAE, a cost estimation model employing Graph Attention Network (GAT) to learn cross-node dependencies among physical execution plans. TGAE first utilizes learning embeddings instead of one-hot encoding and then introduces an efficient node feature encoding to facilitate the dynamic creation of base tables tailored to meet the requirements of MV environments. To demonstrate the effectiveness of TGAE, we design and implement AGatMv, a system with view design and exploitation capabilities. Experimental results on two query workloads from the real-world IMDb dataset show significant improvements in cost estimation accuracy and rewrite evaluation correctness compared to PostgreSQL.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

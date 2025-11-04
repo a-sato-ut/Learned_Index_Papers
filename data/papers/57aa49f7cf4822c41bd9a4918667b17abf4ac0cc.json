@@ -1,0 +1,27 @@
+{
+    "paperId": "57aa49f7cf4822c41bd9a4918667b17abf4ac0cc",
+    "title": "Shortest-Job-First Scheduling in Many-Server Queues with Impatient Customers and Noisy Service-Time Estimates",
+    "year": 2024,
+    "venue": "Operational Research",
+    "authors": [
+        "Jing Dong",
+        "Rouba Ibrahim"
+    ],
+    "doi": "10.1287/opre.2022.310",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/57aa49f7cf4822c41bd9a4918667b17abf4ac0cc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://discovery.ucl.ac.uk/10198308/1/SRPT_with_errors.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Queue scheduling, in which limited resources must be allocated to incoming customers, has numerous applications in service operations management. With increasing data availability and advances in predictive models, personalized scheduling—which leverages individual information about underlying stochastic processes beyond just probability distributions—has gained significant attention. A new study reveals that, even with noisy service-time predictions, the (predicted) shortest-job-first (SJF) policy can effectively optimize performance in many-server systems with inpatient customers. The study also characterizes the impact of prediction errors on the policy’s effectiveness. Additionally, the study shows that a two-class priority rule, in which customers with shorter predicted service times (below a carefully designed threshold) are prioritized, can asymptotically match the performance of SJF, offering a simpler policy for implementation in practice.",
+    "citationCount": 4,
+    "referenceCount": 25
+}

@@ -1,0 +1,44 @@
+{
+    "paperId": "740bf8960b2fbd4666dee973dfe3dae2974429b5",
+    "title": "Time-aware Neural Trip Planning Reinforced by Human Mobility",
+    "year": 2022,
+    "venue": "IEEE International Joint Conference on Neural Network",
+    "authors": [
+        "Linlang Jiang",
+        "Jingbo Zhou",
+        "Tong Xu",
+        "Yanyan Li",
+        "Haoxing Chen",
+        "D. Dou"
+    ],
+    "doi": "10.1109/IJCNN55064.2022.9892652",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/740bf8960b2fbd4666dee973dfe3dae2974429b5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Trip planning, which targets at planning a trip consisting of several ordered Points of Interest (POIs) under user-provided constraints, has long been treated as an important application for location-based services. The goal of trip planning is to maximize the chance that the users will follow the planned trip while it is difficult to directly quantify and optimize the chance. Conventional methods either leverage statistical analysis to rank POIs to form a trip or generate trips following pre-defined objectives based on constraint programming to bypass such a problem. However, these methods may fail to reflect the complex latent patterns hidden in the human mobility data. On the other hand, though there are a few deep learning-based trip recommendation methods, these methods still cannot handle the time budget constraint so far. To this end, we propose a TIme-aware Neural Trip Planning (TINT) framework to tackle the above challenges. First of all, we devise a novel attention-based encoder-decoder trip generator that can learn the correlations among POIs and generate trips under given constraints. Then, we propose a specially-designed reinforcement learning (RL) paradigm to directly optimize the objective to obtain an optimal trip generator. For this purpose, we introduce a discriminator, which distinguishes the generated trips from real-life trips taken by users, to provide reward signals to optimize the generator. Subsequently, to ensure the feedback from the discriminator is always instructive, we integrate an adversarial learning strategy into the RL paradigm to update the trip generator and the discriminator alternately. Moreover, we devise a novel pre-training schema to speed up the convergence for an efficient training process. Extensive experiments on four real-world datasets validate the effectiveness and efficiency of our framework, which shows that TINT could remarkably outperform the state-of-the-art baselines within short response time.",
+    "citationCount": 3,
+    "referenceCount": 37
+}

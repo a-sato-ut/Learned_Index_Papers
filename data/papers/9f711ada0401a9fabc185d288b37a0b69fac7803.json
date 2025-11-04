@@ -1,0 +1,33 @@
+{
+    "paperId": "9f711ada0401a9fabc185d288b37a0b69fac7803",
+    "title": "RL_QOptimizer: A Reinforcement Learning Based Query Optimizer",
+    "year": 2022,
+    "venue": "IEEE Access",
+    "authors": [
+        "Mohamed K. Ramadan",
+        "Ayman El-Kilany",
+        "Hoda M. O. Mokhtar",
+        "Ibrahim Sobh"
+    ],
+    "doi": "10.1109/ACCESS.2022.3187102",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9f711ada0401a9fabc185d288b37a0b69fac7803",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09810215.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the current availability of massive datasets and scalability requirements, different systems are required to provide their users with the best performance possible in terms of speed. On the physical level, performance can be translated into queries’ execution time in database management systems. Queries have to execute efficiently (i.e. in minimum time) to meet users’ needs, which puts an excessive burden on the database management system (DBMS). In this paper, we mainly focus on enhancing the query optimizer, which is one of the main components in DBMS that is responsible for choosing the optimal query execution plan and consequently determines the query execution time. Inspired by recent research in reinforcement learning in different domains, this paper proposes A Deep Reinforcement Learning Based Query Optimizer (RL_QOptimizer), a new approach to find the best policy for join order in the query plan which depends solely on the reward system of reinforcement learning. The experimental results show that a notable advantage of the proposed approach against the existing query optimization model of PostgreSQL DBMS.",
+    "citationCount": 9,
+    "referenceCount": 51
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "342b43039786b21dede3c8d03c079e98bbe3fc89",
+    "title": "Interpretable Option Discovery Using Deep Q-Learning and Variational Autoencoders",
+    "year": 2022,
+    "venue": "INTAP",
+    "authors": [
+        "Per-Arne Andersen",
+        "Morten Goodwin",
+        "Ole-Christoffer Granmo"
+    ],
+    "doi": "10.1007/978-3-030-71711-7_11",
+    "arxivId": "2210.01231",
+    "url": "https://www.semanticscholar.org/paper/342b43039786b21dede3c8d03c079e98bbe3fc89",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2210.01231",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": ". Deep Reinforcement Learning (RL) is unquestionably a ro-bust framework to train autonomous agents in a wide variety of disci-plines. However, traditional deep and shallow model-free RL algorithms suﬀer from low sample eﬃciency and inadequate generalization for sparse state spaces. The options framework with temporal abstractions [18] is perhaps the most promising method to solve these problems, but it still has noticeable shortcomings. It only guarantees local convergence, and it is challenging to automate initiation and termination conditions, which in practice are commonly hand-crafted. Our proposal, the Deep Variational Q-Network (DVQN), combines deep generative- and reinforcement learning. The algorithm ﬁnds good policies from a Gaussian distributed latent-space, which is especially useful for deﬁning options. The DVQN algorithm uses MSE with KL-divergence as regularization, combined with traditional Q-Learning updates. The algorithm learns a latent-space that represents good policies with state clusters for options. We show that the DVQN algorithm is a promising approach for identifying initiation and termination conditions for option-based reinforcement learning. Experiments show that the DVQN algorithm, with automatic initiation and termination, has comparable performance to Rainbow and can maintain stability when trained for extended periods after convergence.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

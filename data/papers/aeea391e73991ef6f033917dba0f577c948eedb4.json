@@ -1,0 +1,36 @@
+{
+    "paperId": "aeea391e73991ef6f033917dba0f577c948eedb4",
+    "title": "Sembug: Detecting Logic Bugs in Dbms Through Generating Semantic-Aware Non-Optimizing Query",
+    "year": 2025,
+    "venue": "IEEE International Conference on Program Comprehension",
+    "authors": [
+        "Shiyang Ye",
+        "Chao Ni",
+        "Jue Wang",
+        "Qianqian Pang",
+        "Xinrui Li",
+        "Xiaodan Xu"
+    ],
+    "doi": "10.1109/ICPC66645.2025.00021",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/aeea391e73991ef6f033917dba0f577c948eedb4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Logic bugs, which cause Database Management Systems (DBMSs) to return incorrect results, are challenging to detect due to the absence of explicit signs such as system crashes. The majority of these bugs originate from the query optimizer and are commonly referred to as optimization bugs. Many approaches have been proposed for detecting logic bugs, which can be divided into two groups. The first group aims to detect the optimization bugs but only focuses on those with incorrect results cardinality, neglecting to check semantic correctness and consequently limiting the detection of bugs in advanced DBMS features. For the second group, though it can verify the correctness of the results for both their cardinality and semantics, it is ineffective in handling optimization bugs, which restricts its practical usage effectiveness. In this paper, we propose Semantic-aware Non-Optimizing Query (SemBug), a novel approach for logic bug detection in DBMSs. SemBug focuses on optimization bugs by transforming the queries that can be highly optimized by DBMS into equivalent but less optimized ones. Additionally, SemBug integrates semantic analysis technology, enabling it to identify semantic logic bugs and support testing advanced DBMS features. Any discrepancy in cardinality or content between the original and transformed queries indicates a logic bug. To investigate the effectiveness of SemBug, we conduct a large-scale experiment on five widelyused DBMS systems (i.e., MySQL, TiDB, MariaDB, SQLite, and PostgreSQL) and compare it with three state-of-the-art (SOTA) approaches (i.e., Pinolo, TLP, and NoREC). The experimental results indicate that SemBug outperforms three SOTAs. Over 24 hours, SemBug found 34 unique logic bugs, which are 19, 14, and 13 more bugs than each of the three SOTAs, marking an improvement of $126 \\%, 70 \\%$, and 61 % respectively. As of the time of paper submission, SemBug has uncovered 37 unique logic bugs, of which 29 have been verified by developers, and 11 have been fixed. SemBug helps developers identify these bugs, providing insights into such inconsistencies and assisting in resolving them.",
+    "citationCount": 1,
+    "referenceCount": 46
+}

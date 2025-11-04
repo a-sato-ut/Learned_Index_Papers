@@ -1,0 +1,33 @@
+{
+    "paperId": "363efedf88314db8484d15b5fed4afe12e2c3b91",
+    "title": "WeiPS: a symmetric fusion model framework for large-scale online learning",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Xiang Yu",
+        "Fuping Chu",
+        "Junqi Wu",
+        "Bo Huang"
+    ],
+    "doi": null,
+    "arxivId": "2011.11983",
+    "url": "https://www.semanticscholar.org/paper/363efedf88314db8484d15b5fed4afe12e2c3b91",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The recommendation system is an important commercial application of machine learning, where billions of feed views in the information flow every day. In reality, the interaction between user and item usually makes user's interest changing over time, thus many companies (e.g. ByteDance, Baidu, Alibaba, and Weibo) employ online learning as an effective way to quickly capture user interests. However, hundreds of billions of model parameters present online learning with challenges for real-time model deployment. Besides, model stability is another key point for online learning. To this end, we design and implement a symmetric fusion online learning system framework called WeiPS, which integrates model training and model inference. Specifically, WeiPS carries out second level model deployment by streaming update mechanism to satisfy the consistency requirement. Moreover, it uses multi-level fault tolerance and real-time domino degradation to achieve high availability requirement.",
+    "citationCount": 0,
+    "referenceCount": 17
+}

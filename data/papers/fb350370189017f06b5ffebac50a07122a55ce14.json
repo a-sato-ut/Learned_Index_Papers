@@ -1,0 +1,33 @@
+{
+    "paperId": "fb350370189017f06b5ffebac50a07122a55ce14",
+    "title": "LESS: A Matrix Split and Balance Algorithm for Parallel Circuit (Optical) or Hybrid Data Center Switching and More",
+    "year": 2019,
+    "venue": "International Conference on Utility and Cloud Computing",
+    "authors": [
+        "L. Liu",
+        "Jun Xu",
+        "Mohit Singh"
+    ],
+    "doi": "10.1145/3344341.3368807",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fb350370189017f06b5ffebac50a07122a55ce14",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3344341.3368807",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The research problem of how to use a high-speed circuit switch, typically an optical switch, to most effectively boost the switching capacity of a datacenter network, has been extensively studied. In this work, we focus on a different but related research problem that arises when multiple (say s) parallel circuit switches are used: How to best split a switching workload D into sub-workloads $D_1, D_2, ..., D_s$, and give them to the s switches as their respective workloads, so that the overall makespan of the parallel switching system is minimized? Computing such an optimal split is unfortunately NP-hard, since the circuit/optical switch incurs a nontrivial reconfiguration delay when the switch configuration has to change. In this work, we formulate a weaker form of this problem: How to minimize the total number of nonzero entries in $D_1, D_2, ..., D_s$ (so that the overall reconfiguration cost can be kept low), under the constraint that every row or column sum of D (which corresponds to the workload imposed on a sending or receiving rack respectively) is evenly split? Although this weaker problem is still NP-hard, we are able to design LESS, an approximation algorithm that has a low approximation ratio of only $1+ε$ in practice and a low computational complexity of only $O(m^2)$, where $m = \\|D\\|_0$ is the number of nonzero entries in D. Our simulation studies show that LESS results in excellent overall makespan performances under realistic datacenter traffic workloads and parameter settings.",
+    "citationCount": 2,
+    "referenceCount": 30
+}

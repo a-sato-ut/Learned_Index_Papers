@@ -1,0 +1,39 @@
+{
+    "paperId": "3376fb4428eca39044257b60a310caff00f0c015",
+    "title": "Analysis of Deep Ritz Methods for Laplace Equations with Dirichlet Boundary Conditions",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Chenguang Duan",
+        "Yuling Jiao",
+        "Yanming Lai",
+        "Xiliang Lu",
+        "Qimeng Quan",
+        "J. Yang"
+    ],
+    "doi": null,
+    "arxivId": "2111.02009",
+    "url": "https://www.semanticscholar.org/paper/3376fb4428eca39044257b60a310caff00f0c015",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Ritz methods (DRM) have been proven numerically to be efficient in solving partial differential equations. In this paper, we present a convergence rate in $H^{1}$ norm for deep Ritz methods for Laplace equations with Dirichlet boundary condition, where the error depends on the depth and width in the deep neural networks and the number of samples explicitly. Further we can properly choose the depth and width in the deep neural networks in terms of the number of training samples. The main idea of the proof is to decompose the total error of DRM into three parts, that is approximation error, statistical error and the error caused by the boundary penalty. We bound the approximation error in $H^{1}$ norm with $\\mathrm{ReLU}^{2}$ networks and control the statistical error via Rademacher complexity. In particular, we derive the bound on the Rademacher complexity of the non-Lipschitz composition of gradient norm with $\\mathrm{ReLU}^{2}$ network, which is of immense independent interest. We also analysis the error inducing by the boundary penalty method and give a prior rule for tuning the penalty parameter.",
+    "citationCount": 9,
+    "referenceCount": 53
+}

@@ -1,0 +1,50 @@
+{
+    "paperId": "54aa0389c9d0a58afeebfa867c07151242d2576c",
+    "title": "Semi-Implicit Neural Solver for Time-dependent Partial Differential Equations",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Suprosanna Shit",
+        "I. Ezhov",
+        "Leon Mächler",
+        "R. Abinav",
+        "Jana Lipková",
+        "J. Paetzold",
+        "F. Kofler",
+        "M. Piraud",
+        "Bjoern H Menze"
+    ],
+    "doi": null,
+    "arxivId": "2109.01467",
+    "url": "https://www.semanticscholar.org/paper/54aa0389c9d0a58afeebfa867c07151242d2576c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Fast and accurate solutions of time-dependent partial differential equations (PDEs) are of pivotal interest to many research fields, including physics, engineering, and biology. Generally, implicit/semi-implicit schemes are preferred over explicit ones to improve stability and correctness. However, existing semi-implicit methods are usually iterative and employ a general-purpose solver, which may be sub-optimal for a specific class of PDEs. In this paper, we propose a neural solver to learn an optimal iterative scheme in a data-driven fashion for any class of PDEs. Specifically, we modify a single iteration of a semi-implicit solver using a deep neural network. We provide theoretical guarantees for the correctness and convergence of neural solvers analogous to conventional iterative solvers. In addition to the commonly used Dirichlet boundary condition, we adopt a diffuse domain approach to incorporate a diverse type of boundary conditions, e.g., Neumann. We show that the proposed neural solver can go beyond linear PDEs and applies to a class of non-linear PDEs, where the non-linear component is non-stiff. We demonstrate the efficacy of our method on 2D and 3D scenarios. To this end, we show how our model generalizes to parameter settings, which are different from training; and achieves faster convergence than semi-implicit schemes.",
+    "citationCount": 1,
+    "referenceCount": 26
+}

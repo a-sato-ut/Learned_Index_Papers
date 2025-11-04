@@ -1,0 +1,38 @@
+{
+    "paperId": "bd816a1426c05322859144b12427e5ff2022d846",
+    "title": "Fleche: an efficient GPU embedding cache for personalized recommendations",
+    "year": 2022,
+    "venue": "European Conference on Computer Systems",
+    "authors": [
+        "Minhui Xie",
+        "Youyou Lu",
+        "Jiazhen Lin",
+        "Qing Wang",
+        "Jian Gao",
+        "Kai Ren",
+        "J. Shu"
+    ],
+    "doi": "10.1145/3492321.3519554",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bd816a1426c05322859144b12427e5ff2022d846",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3492321.3519554",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning based models have dominated current production recommendation systems. However, the gap between CPU-side DRAM data accessing and GPU processing still impedes their inference performance. GPU-resident cache can bridge this gap, but we find that existing systems leave the benefits to cache the embedding table, a huge sparse structure, on GPU unexploited. In this paper, we present Fleche, a holistic cache scheme with detailed designs for efficient GPU-resident embedding caching. Fleche (1) uses one cache backend for all embedding tables to improve the total cache utilization, and (2) merges small kernel calls into one unitary call to reduce the overhead of kernel maintenance (e.g., kernel launching and synchronizing). Furthermore, we carefully design the cache query workflow for finer-grain parallelism. Evaluations with real-world datasets show that compared with the prior art, Fleche significantly improves the throughput of embedding layer by 2.0 -- 5.4×, and gets up to 2.4× speedup of end-to-end inference throughput.",
+    "citationCount": 27,
+    "referenceCount": 49
+}

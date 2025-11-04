@@ -1,0 +1,34 @@
+{
+    "paperId": "ddc66a6964979904a6deab37ba65cb406e2c07f2",
+    "title": "PostCENN: PostgreSQL with Machine Learning Models for Cardinality Estimation",
+    "year": 2021,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Lucas Woltmann",
+        "Dominik Olwig",
+        "Claudio Hartmann",
+        "Dirk Habich",
+        "Wolfgang Lehner"
+    ],
+    "doi": "10.14778/3476311.3476327",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ddc66a6964979904a6deab37ba65cb406e2c07f2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this demo, we present PostCENN , an enhanced PostgreSQL data-base system with an end-to-end integration of machine learning (ML) models for cardinality estimation. In general, cardinality estimation is a topic with a long history in the database community. While traditional models like histograms are extensively used, recent works mainly focus on developing new approaches using ML models. However, traditional as well as ML models have their own advantages and disadvantages. With PostCENN , we aim to combine both to maximize their potentials for cardinality estimation by introducing ML models as a novel means to increase the accuracy of the cardinality estimation for certain parts of the database schema. To achieve this, we integrate ML models as first class citizen in PostgreSQL with a well-defined end-to-end life cycle. This life cycle consists of creating ML models for different sub-parts of the database schema, triggering the training, using ML models within the query optimizer in a transparent way, and deleting ML models.",
+    "citationCount": 9,
+    "referenceCount": 8
+}

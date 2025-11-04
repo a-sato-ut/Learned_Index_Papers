@@ -1,0 +1,36 @@
+{
+    "paperId": "89223d375a4a01cd28a0e78d13b60c8c2491bd5f",
+    "title": "Dancing in the Dark: Profiling for Tiered Memory",
+    "year": 2021,
+    "venue": "IEEE International Parallel and Distributed Processing Symposium",
+    "authors": [
+        "Jinyoung Choi",
+        "S. Blagodurov",
+        "Hung-Wei Tseng"
+    ],
+    "doi": "10.1109/IPDPS49936.2021.00011",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/89223d375a4a01cd28a0e78d13b60c8c2491bd5f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the DDR standard facing density challenges and the emergence of the non-volatile memory technologies such as Cross-Point, phase change, and fast FLASH media, compute and memory vendors are contending with a paradigm shift in the datacenter space. The decades-long status quo of designing servers with DRAM technology as an exclusive memory solution is likely coming to an end. Future systems will increasingly employ tiered memory architectures (TMAs) in which multiple memory technologies work together to satisfy applications’ ever-growing demands for more memory, less latency, and greater bandwidth. Exactly how to expose each memory type to software is an open question. Recent systems have focused on hardware caching to leverage faster DRAM memory while exposing slower non-volatile memory to OS-addressable space. The hardware approach that deals with the non-uniformity of TMA, however, requires complex changes to the processor and cannot use fast memory to increase the system’s overall memory capacity. Mapping an entire TMA as OS-visible memory alleviates the challenges of the hardware approach but pushes the burden of managing data placement in the TMA to the software layers. The software, however, does not see the memory accesses by default; in order to make informed memory-scheduling decisions, software must rely on hardware methods to gain visibility into the load/store address stream. The OS then uses this information to place data in the most suitable memory location. In this paper, we evaluate different methods of memory-access collection and propose a hybrid tiered-memory approach that offers comprehensive visibility into TMA.",
+    "citationCount": 15,
+    "referenceCount": 46
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "678e4d7ce5700acfc90467843514d81e7922e41e",
+    "title": "FlowHash: Accelerating Audio Search With Balanced Hashing via Normalizing Flow",
+    "year": 2024,
+    "venue": "IEEE/ACM Transactions on Audio Speech and Language Processing",
+    "authors": [
+        "Anup Singh",
+        "Kris Demuynck",
+        "Vipul Arora"
+    ],
+    "doi": "10.1109/TASLP.2024.3486227",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/678e4d7ce5700acfc90467843514d81e7922e41e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Nearest neighbor search on context representation vectors is a formidable task due to challenges posed by high dimensionality, scalability issues, and potential noise within query vectors. Our novel approach leverages normalizing flow within a self-supervised learning framework to effectively tackle these challenges, specifically in the context of audio fingerprinting tasks. Audio fingerprinting systems incorporate two key components: audio encoding and indexing. The existing systems consider these components independently, resulting in suboptimal performance. Our approach optimizes the interplay between these components, facilitating the adaptation of vectors to the indexing structure. Additionally, we distribute vectors in the latent <inline-formula><tex-math notation=\"LaTeX\">$\\mathbb {R}^{K}$</tex-math></inline-formula> space using normalizing flow, resulting in balanced <inline-formula><tex-math notation=\"LaTeX\">$K$</tex-math></inline-formula>-bit hash codes. This allows indexing vectors using a balanced hash table, where vectors are uniformly distributed across all possible <inline-formula><tex-math notation=\"LaTeX\">$2^{K}$</tex-math></inline-formula> hash buckets. This significantly accelerates retrieval, achieving speedups of up to 2× and 1.4× compared to the Locality-Sensitive Hashing (LSH) and Product Quantization (PQ), respectively. We empirically demonstrate that our system is scalable, highly effective, and efficient in identifying short audio queries (<inline-formula><tex-math notation=\"LaTeX\">$\\leq$</tex-math></inline-formula>2 s), particularly at high noise and reverberation levels.",
+    "citationCount": 1,
+    "referenceCount": 47
+}

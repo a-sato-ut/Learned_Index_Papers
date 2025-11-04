@@ -1,0 +1,43 @@
+{
+    "paperId": "a6ae53b610f816fac8850c09e309e008c7f553bc",
+    "title": "Building a Fast and Efficient LSM-tree Store by Integrating Local Storage with Cloud Storage",
+    "year": 2022,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Peng Xu",
+        "Nannan Zhao",
+        "Ji-guang Wan",
+        "Wei Liu",
+        "Shuning Chen",
+        "Yuanhui Zhou",
+        "Hadeel Albahar",
+        "Hanyang Liu",
+        "Liu Tang",
+        "Zhi-hu Tan"
+    ],
+    "doi": "10.1145/3527452",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a6ae53b610f816fac8850c09e309e008c7f553bc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3527452",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The explosive growth of modern web-scale applications has made cost-effectiveness a primary design goal for their underlying databases. As a backbone of modern databases, LSM-tree based key–value stores (LSM store) face limited storage options. They are either designed for local storage that is relatively small, expensive, and fast or for cloud storage that offers larger capacities at reduced costs but slower. Designing an LSM store by integrating local storage with cloud storage services is a promising way to balance the cost and performance. However, such design faces challenges such as data reorganization, metadata overhead, and reliability issues. In this article, we propose RocksMash, a fast and efficient LSM store that uses local storage to store frequently accessed data and metadata while using cloud to hold the rest of the data to achieve cost-effectiveness. To improve metadata space-efficiency and read performance, RocksMash uses an LSM-aware persistent cache that stores metadata in a space-efficient way and stores popular data blocks by using compaction-aware layouts. Moreover, RocksMash uses an extended write-ahead log for fast parallel data recovery. We implemented RocksMash by embedding these designs into RocksDB. The evaluation results show that RocksMash improves the performance by up to 1.7 \\( \\times \\) compared to the state-of-the-art schemes and delivers high reliability, cost-effectiveness, and fast recovery.",
+    "citationCount": 12,
+    "referenceCount": 62
+}

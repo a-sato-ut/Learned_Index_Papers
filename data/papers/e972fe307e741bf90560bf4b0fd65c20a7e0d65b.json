@@ -1,0 +1,40 @@
+{
+    "paperId": "e972fe307e741bf90560bf4b0fd65c20a7e0d65b",
+    "title": "Sublinear Least-Squares Value Iteration via Locality Sensitive Hashing",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Anshumali Shrivastava",
+        "Zhao Song",
+        "Zhaozhuo Xu"
+    ],
+    "doi": null,
+    "arxivId": "2105.08285",
+    "url": "https://www.semanticscholar.org/paper/e972fe307e741bf90560bf4b0fd65c20a7e0d65b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present the first provable Least-Squares Value Iteration (LSVI) algorithms that achieves runtime complexity sublinear in the number of actions. We formulate the value function estimation procedure in value iteration as an approximate maximum inner product search problem and propose a locality sensitive hashing (LSH) [Indyk and Motwani STOC’98, Andoni and Razenshteyn STOC’15, Andoni, Laarhoven, Razenshteyn and Waingarten SODA’17] type data structure to solve this problem with sublinear time complexity. Moreover, we build the connections between the theory of approximate maximum inner product search and the regret analysis of reinforcement learning. We prove that, with our choice of approximation factor, our Sublinear LSVI algorithms maintain the same regret as the original LSVI algorithms while reducing the runtime complexity to sublinear in the number of actions. To the best of our knowledge, this is the first work that combines LSH with reinforcement learning resulting in provable improvements. We hope that our novel way of combining data structures and iterative algorithm will open the door for further study into cost reduction in optimization. ∗ anshumali@rice.edu. Rice University. † zhaos@ias.edu. Institute for Advanced Study, Princeton University. ‡ zx22@rice.edu. Rice University.",
+    "citationCount": 22,
+    "referenceCount": 94
+}

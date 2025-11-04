@@ -1,0 +1,39 @@
+{
+    "paperId": "c90ef75608e4773f8bb3f144987c1b46c629e1bd",
+    "title": "Data Plane Cooperative Caching With Dependencies",
+    "year": 2022,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "Ori Rottenstreich",
+        "A. Kulik",
+        "Ananya Joshi",
+        "J. Rexford",
+        "G. Rétvári",
+        "D. Menasché"
+    ],
+    "doi": "10.1109/TNSM.2021.3132275",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c90ef75608e4773f8bb3f144987c1b46c629e1bd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Caching is at the core of most modern communication systems, where caches are used to store content and traffic classification rules. While network components can leverage caching in a cooperative manner, one important aspect of such systems concerns possible dependencies among stored items. A major use case of such dependencies appears in rule placement across software-defined networks (SDNs). Despite the tremendous success of SDNs in datacenters, their wide adoption still poses a key challenge: the packet-forwarding rules in switches require fast and power-hungry memories. Rule tables, which serve as caches, are of limited size in cheap and energy-constrained devices, motivating novel solutions to achieve high hit rates. We leverage device connectivity in the fast data plane, where delays are in the order of few milliseconds, and propose multiple switches to work together to avoid accessing the control plane, where delays are orders of magnitude greater. As a low priority rule in a cache entails caching higher priority rules, we pose the problem of cooperative caching with dependencies. We provide models and algorithms accounting for dependencies among rules implied by existing switch memory types, and lay the foundations of cooperative caching with dependencies.",
+    "citationCount": 6,
+    "referenceCount": 51
+}

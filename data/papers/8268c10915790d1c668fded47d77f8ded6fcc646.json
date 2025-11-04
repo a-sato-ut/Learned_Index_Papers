@@ -1,0 +1,33 @@
+{
+    "paperId": "8268c10915790d1c668fded47d77f8ded6fcc646",
+    "title": "Memory-Efficient Key/Foreign-Key Join Size Estimation via Multiplicity and Intersection Size",
+    "year": 2021,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Magnus Müller",
+        "Daniel Flachs",
+        "G. Moerkotte"
+    ],
+    "doi": "10.1109/ICDE51399.2021.00090",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8268c10915790d1c668fded47d77f8ded6fcc646",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Join size estimation plays a crucial role in query optimization. In this paper, we present a technique to estimate the size of a key/foreign-key join of two filtered relations. We build on a model by Allen Van Gelder, in which there is no notion of join selectivity. Instead, the size of a join is estimated as a multiple of the intersection size of the join attributes. We present both a data structure to approximate the number of distinct values in a join attribute after a filter operation, and formulas to estimate the factor by which a join size exceeds the intersection size. In addition, we evaluate three existing intersection size estimation methods that are based on HyperLogLog sketches, to which our approach is closely linked. For both real-world and generated data sets, our estimator competes well, in terms of accuracy and memory footprint, against several industry-strength and state-of-the-art join size estimation methods. In particular, our experiments indicate that our approach is less prone to heavy underestimates.",
+    "citationCount": 3,
+    "referenceCount": 49
+}

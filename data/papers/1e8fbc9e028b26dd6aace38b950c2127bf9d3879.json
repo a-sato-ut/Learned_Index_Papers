@@ -1,0 +1,41 @@
+{
+    "paperId": "1e8fbc9e028b26dd6aace38b950c2127bf9d3879",
+    "title": "Robust compressed sensing using generative models",
+    "year": 2020,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "A. Jalal",
+        "Liu Liu",
+        "A. Dimakis",
+        "C. Caramanis"
+    ],
+    "doi": null,
+    "arxivId": "2006.09461",
+    "url": "https://www.semanticscholar.org/paper/1e8fbc9e028b26dd6aace38b950c2127bf9d3879",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The goal of compressed sensing is to estimate a high dimensional vector from an underdetermined system of noisy linear equations. In analogy to classical compressed sensing, here we assume a generative model as a prior, that is, we assume the vector is represented by a deep generative model $G: \\mathbb{R}^k \\rightarrow \\mathbb{R}^n$. Classical recovery approaches such as empirical risk minimization (ERM) are guaranteed to succeed when the measurement matrix is sub-Gaussian. However, when the measurement matrix and measurements are heavy-tailed or have outliers, recovery may fail dramatically. In this paper we propose an algorithm inspired by the Median-of-Means (MOM). Our algorithm guarantees recovery for heavy-tailed data, even in the presence of outliers. Theoretically, our results show our novel MOM-based algorithm enjoys the same sample complexity guarantees as ERM under sub-Gaussian assumptions. Our experiments validate both aspects of our claims: other algorithms are indeed fragile and fail under heavy-tailed and/or corrupted data, while our approach exhibits the predicted robustness.",
+    "citationCount": 44,
+    "referenceCount": 94
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "665ac4f60161a48e6f97346f007575df95a2c2ee",
+    "title": "Ultra Real-Time Portrait Matting via Parallel Semantic Guidance",
+    "year": 2023,
+    "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+    "authors": [
+        "Xin Huang",
+        "Jiake Xie",
+        "Bo Xu",
+        "Han Huang",
+        "Zi-Jun Li",
+        "Cheng Lu",
+        "Yandong Guo",
+        "Yong Tang"
+    ],
+    "doi": "10.1109/ICASSP49357.2023.10097034",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/665ac4f60161a48e6f97346f007575df95a2c2ee",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/icassp49357.2023.10097034",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Most existing portrait matting models either require expensive auxiliary information or try to decompose the task into sub-tasks that are usually resource-hungry. These challenges limit its application on low-power computing devices. In this paper, we propose an ultra-light-weighted portrait matting network via parallel semantic guidance (PSGNet) for real-time portrait matting without any auxiliary inputs. PSGNet leverages parallel multi-level semantic information to efficiently guide the feature representations to replace traditional sequential semantic hints from objective decomposition. We also introduce an efficient fusion module to effectively combine parallel branches of PSGNet to minimize the representation redundancy. Comprehensive experiments demonstrate that our PSGNet can achieve remarkable performance on both synthetic and real-world images. Our PSGNet is capable to process at 100fps thanks to its ultra-small number of parameters, which makes it deployable on low-power computing devices without compromising on the performance of real-time portrait matting.",
+    "citationCount": 0,
+    "referenceCount": 22
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "3da39aa5845e7cc7eb18a8d8f0204e7d2f238090",
+    "title": "Multi-objective congestion control",
+    "year": 2021,
+    "venue": "European Conference on Computer Systems",
+    "authors": [
+        "Yiqing Ma",
+        "Han Tian",
+        "Xudong Liao",
+        "Junxue Zhang",
+        "Weiyan Wang",
+        "Kai Chen",
+        "Xin Jin"
+    ],
+    "doi": "10.1145/3492321.3519593",
+    "arxivId": "2107.01427",
+    "url": "https://www.semanticscholar.org/paper/3da39aa5845e7cc7eb18a8d8f0204e7d2f238090",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2107.01427",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Decades of research on Internet congestion control (CC) have produced a plethora of algorithms that optimize for different performance objectives. Applications face the challenge of choosing the most suitable algorithm based on their needs, and it takes tremendous efforts and expertise to customize CC algorithms when new demands emerge. In this paper, we explore a basic question: can we design a single CC algorithm to satisfy different objectives? We propose MOCC, the first multi-objective congestion control algorithm that attempts to address this question. The core of MOCC is a novel multi-objective reinforcement learning framework for CC to automatically learn the correlations between different application requirements and the corresponding optimal control policies. Under this framework, MOCC further applies transfer learning to transfer the knowledge from past experience to new applications, quickly adapting itself to a new objective even if it is unforeseen. We provide both user-space and kernel-space implementation of MOCC. Real-world Internet experiments and extensive simulations show that MOCC supports well multi-objective, competing or outperforming the best existing CC algorithms on each individual objectives, and quickly adapting to new application objectives in 288 seconds (14.2× faster than prior work) without compromising old ones.",
+    "citationCount": 40,
+    "referenceCount": 70
+}

@@ -1,0 +1,43 @@
+{
+    "paperId": "701a8f6d5012ac0f5a38b146acb26d80b4a88e81",
+    "title": "MP-Rec: Hardware-Software Co-design to Enable Multi-path Recommendation",
+    "year": 2023,
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "authors": [
+        "Samuel Hsia",
+        "Udit Gupta",
+        "Bilge Acun",
+        "Newsha Ardalani",
+        "Pan Zhong",
+        "Gu-Yeon Wei",
+        "David Brooks",
+        "Carole-Jean Wu"
+    ],
+    "doi": "10.1145/3582016.3582068",
+    "arxivId": "2302.10872",
+    "url": "https://www.semanticscholar.org/paper/701a8f6d5012ac0f5a38b146acb26d80b4a88e81",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2302.10872",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning recommendation systems serve personalized content under diverse tail-latency targets and input-query loads. In order to do so, state-of-the-art recommendation models rely on terabyte-scale embedding tables to learn user preferences over large bodies of contents. The reliance on a fixed embedding representation of embedding tables not only imposes significant memory capacity and bandwidth requirements but also limits the scope of compatible system solutions. This paper challenges the assumption of fixed embedding representations by showing how synergies between embedding representations and hardware platforms can lead to improvements in both algorithmic- and system performance. Based on our characterization of various embedding representations, we propose a hybrid embedding representation that achieves higher quality embeddings at the cost of increased memory and compute requirements. To address the system performance challenges of the hybrid representation, we propose MP-Rec — a co-design technique that exploits heterogeneity and dynamic selection of embedding representations and underlying hardware platforms. On real system hardware, we demonstrate how matching custom accelerators, i.e., GPUs, TPUs, and IPUs, with compatible embedding representations can lead to 16.65× performance speedup. Additionally, in query-serving scenarios, MP-Rec achieves 2.49× and 3.76× higher correct prediction throughput and 0.19% and 0.22% better model quality on a CPU-GPU system for the Kaggle and Terabyte datasets, respectively.",
+    "citationCount": 19,
+    "referenceCount": 70
+}

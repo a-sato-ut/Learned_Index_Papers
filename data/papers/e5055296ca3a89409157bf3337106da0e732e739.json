@@ -1,0 +1,32 @@
+{
+    "paperId": "e5055296ca3a89409157bf3337106da0e732e739",
+    "title": "DeepAltTrip: Top-K Alternative Itineraries for Trip Recommendation",
+    "year": 2021,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Syed Md. Mukit Rashid",
+        "Mohammed Eunus Ali",
+        "M. A. Cheema"
+    ],
+    "doi": "10.1109/TKDE.2023.3239595",
+    "arxivId": "2109.03535",
+    "url": "https://www.semanticscholar.org/paper/e5055296ca3a89409157bf3337106da0e732e739",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2109.03535",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Trip itinerary recommendation finds an ordered sequence of Points-of-Interest (POIs) from a large number of candidate POIs in a city. In this paper, we propose a deep learning-based framework, called DeepAltTrip, that learns to recommend top-<inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math><alternatives><mml:math><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href=\"cheema-ieq1-3239595.gif\"/></alternatives></inline-formula> alternative itineraries for given source and destination POIs. These alternative itineraries would be not only popular given the historical routes adopted by past users but also dissimilar (or diverse) to each other. The DeepAltTrip consists of two major components: (i) <italic>Itinerary Net</italic> (ITRNet) which estimates the likelihood of POIs on an itinerary by using graph autoencoders and two (forward and backward) LSTMs; and (ii) a route generation procedure to generate <inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math><alternatives><mml:math><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href=\"cheema-ieq2-3239595.gif\"/></alternatives></inline-formula> diverse itineraries passing through relevant POIs obtained using ITRNet. For the route generation step, we propose a novel sampling algorithm that can seamlessly handle a wide variety of user-defined constraints. To the best of our knowledge, this is the first work that <italic>learns</italic> from historical trips to provide a set of alternative itineraries to the users. Extensive experiments conducted on eight popular real-world datasets show the effectiveness and efficacy of our approach over state-of-the-art methods.",
+    "citationCount": 13,
+    "referenceCount": 44
+}

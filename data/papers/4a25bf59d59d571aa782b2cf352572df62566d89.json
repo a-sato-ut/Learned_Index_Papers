@@ -1,0 +1,69 @@
+{
+    "paperId": "4a25bf59d59d571aa782b2cf352572df62566d89",
+    "title": "Large-scale chemoproteomics expedites ligand discovery and predicts ligand behavior in cells",
+    "year": 2024,
+    "venue": "Science",
+    "authors": [
+        "Fabian Offensperger",
+        "Gary Tin",
+        "M. Duran-Frigola",
+        "E. Hahn",
+        "Sarah Dobner",
+        "Christopher W. am Ende",
+        "Joseph W. Strohbach",
+        "Andrea Rukavina",
+        "Vincenth Brennsteiner",
+        "Kevin Ogilvie",
+        "Nara Marella",
+        "Katharina Kladnik",
+        "Rodolfo Ciuffa",
+        "Jaimeen D. Majmudar",
+        "S. D. Field",
+        "Ariel Bensimon",
+        "Luca Ferrari",
+        "Evandro Ferrada",
+        "Amanda Ng",
+        "Zhechun Zhang",
+        "Gianluca Degliesposti",
+        "A. Boeszoermenyi",
+        "Sascha Martens",
+        "Robert Stanton",
+        "André C Müller",
+        "J. Hannich",
+        "David Hepworth",
+        "G. Superti-Furga",
+        "S. Kubicek",
+        "Monica Schenone",
+        "Georg E. Winter"
+    ],
+    "doi": "10.1126/science.adk5864",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4a25bf59d59d571aa782b2cf352572df62566d89",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Chemistry",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Chemical modulation of proteins enables a mechanistic understanding of biology and represents the foundation of most therapeutics. However, despite decades of research, 80% of the human proteome lacks functional ligands. Chemical proteomics has advanced fragment-based ligand discovery toward cellular systems, but throughput limitations have stymied the scalable identification of fragment-protein interactions. We report proteome-wide maps of protein-binding propensity for 407 structurally diverse small-molecule fragments. We verified that identified interactions can be advanced to active chemical probes of E3 ubiquitin ligases, transporters, and kinases. Integrating machine learning binary classifiers further enabled interpretable predictions of fragment behavior in cells. The resulting resource of fragment-protein interactions and predictive models will help to elucidate principles of molecular recognition and expedite ligand discovery efforts for hitherto undrugged proteins. Editor’s summary Despite major advances in protein structure determination and prediction, it remains challenging to identify small-molecule ligands for most proteins. Offensperger et al. used a chemical proteomics approach to map protein-ligand interactions across the human proteome. With a library of around 400 ligand fragments attached to a photoactivatable cross-linker, the authors identified about 50,000 statistically significant interactions over about 2500 proteins, including a large fraction of targets for which there are no prior known ligands. They validated these results with biochemical experiments, identifying from their screen an E3 ligase binder and an inhibitor of a transmembrane transporter. This rich interaction dataset also provided the basis for developing a machine learning model to predict fragment properties and interaction profiles. The authors have made their work available as an online community resource. —Michael A. Funk INTRODUCTION Chemical modulation of protein function is an important experimental approach to illuminate biological mechanisms and represents the most frequently used strategy to treat human disease. Nevertheless, around 80% of the human proteome lacks annotated small-molecule ligands, thus leaving many proteins, including validated disease targets, outside the reach of mechanistic elucidation and therapeutic innovation. RATIONALE To close this gap, unbiased approaches to advance ligand discovery are urgently needed. We set out to determine the proteome-wide binding preferences of more than 400 small-molecule fragments through a chemoproteomics strategy that is based on treatment of intact cells. With these data at hand, we aimed to (i) identify hundreds of fragment-protein interactions and advance selected fragments toward cell-active ligands, (ii) leverage machine learning (ML) binary classifiers to develop models to predict small-molecule behavior in native biological systems, and (iii) build an interactive open-source interface to empower the broad exploration of the data and of all predictive models. RESULTS Through this quantitative chemoproteomics strategy, we experimentally determined the interactome of 407 small-molecule fragments. This led to the identification of 47,658 discrete fragment-protein interactions involving more than 2600 proteins, of which 86% previously lacked any annotated ligand. To provide evidence for the translational potential of these starting points, we advanced various hits toward elaborated fragments. With focused synthetic efforts, we developed ligands that (i) engage the E3 ligase adaptor protein DDB1, (ii) functionally block the human equilibrative nucleoside transporter SLC29A1 (hENT1), or (iii) selectively inhibit a subset of cyclin dependent kinases (CDKs), including the orphan CDK16. In addition to advancing individual fragment-protein hits, we leveraged the depth of the global dataset to develop an ML framework to build models that can predict how fragments interact with native proteins on a proteome-wide scale. This framework included inference of quantitative fragment interactomes, which enabled us to predict to how many proteins a given fragment will bind and whether the bound proteins themselves are chemically broadly accessible or otherwise typically refractory to small-molecule ligands. Moreover, ML models allowed us to capture and predict qualitative interactome signatures. This made it possible for us to investigate and predict whether fragments tend to interact with subsets of proteins of coherent function, such as transporters or RNA-binding proteins. Likewise, ML models allowed us to analyze and predict whether fragments tend to interact with groups of proteins that reside in defined subcellular localizations or compartments, such as lysosomes or mitochondria, which can be indicative of intracellular fragment partitioning and accumulation. Last, we have also provided a platform to develop bespoke ML models that are based on a user-defined input of target proteins, and hence enable the prediction of fragment binding to a custom set of proteins. CONCLUSION Our large-scale chemical proteomics survey led to the identification of hundreds of fragment-protein interactions that are poised for future exploration and chemical optimization. Moreover, we found that the generated data is amenable to ML-based models that enable us to predict how chemical matter interacts with native proteomes in intact cells by using their chemical structure as input. To maximize the practical use for the scientific community, all interactomes, enrichment tools, and ML models have been made publicly available for exploration through a web-based application (https://ligand-discovery.ai). Collectively, these data and tools should form a resource to interpret fragment-binding data and expedite ligand discovery efforts. Schematic representation of the ligand discovery approach. Chemoproteomics was used to assess 407 small-molecule fragments. Hundreds of fragment-protein interactions were identified as starting points for probe development. System-level analyses coupled to machine learning enabled prediction of fragment binding and behavior in living cells. An interactive web resource has been provided for data exploration, which also allows the generation and application of bespoke predictive models.",
+    "citationCount": 40,
+    "referenceCount": 78
+}

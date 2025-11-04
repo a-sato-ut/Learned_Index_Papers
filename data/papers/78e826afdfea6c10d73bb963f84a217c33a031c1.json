@@ -1,0 +1,45 @@
+{
+    "paperId": "78e826afdfea6c10d73bb963f84a217c33a031c1",
+    "title": "Software-Hardware Co-design of Heterogeneous SmartNIC System for Recommendation Models Inference and Training",
+    "year": 2023,
+    "venue": "International Conference on Supercomputing",
+    "authors": [
+        "Anqi Guo",
+        "Y. Hao",
+        "Chunshu Wu",
+        "Pouya Haghi",
+        "Zhenyu Pan",
+        "Min Si",
+        "Dingwen Tao",
+        "Ang Li",
+        "Martin C. Herbordt",
+        "Tong Geng"
+    ],
+    "doi": "10.1145/3577193.3593724",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/78e826afdfea6c10d73bb963f84a217c33a031c1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Learning Recommendation Models (DLRMs) are important applications in various domains and have evolved into one of the largest and most important machine learning applications. With their trillions of parameters necessarily exceeding the high bandwidth memory (HBM) capacity of GPUs, ever more massive DLRMs require large-scale multi-node systems for distributed training and inference. However, these all suffer from the all-to-all communication bottleneck, which limits scalability. SmartNICs couple computation and communication capabilities to provide powerful network-facing heterogeneous devices that reduce communication overhead. There has not, however, been a distributed system design that fully leverages SmartNIC resources to address scalability of DLRMs. We propose a software-hardware co-design of a heterogeneous SmartNIC system that overcomes the communication bottleneck of distributed DLRMs, mitigates the pressure on memory bandwidth, and improves computation efficiency. We provide a set of SmartNIC designs of cache systems (including local cache and remote cache) and SmartNIC computation kernels that reduce data movement, relieve memory lookup intensity, and improve the GPU's computation efficiency. In addition, we propose a graph algorithm that improves the data locality of queries within batches and optimizes the overall system performance with higher data reuse. Our evaluation shows that the system achieves 2.1× latency speedup for inference and 1.6× throughput speedup for training.",
+    "citationCount": 29,
+    "referenceCount": 40
+}

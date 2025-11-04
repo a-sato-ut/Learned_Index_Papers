@@ -1,0 +1,28 @@
+{
+    "paperId": "f7afb42efb6a4a8031517d98ba043dd953e789c2",
+    "title": "Database Optimization Techniques with Logic Execution Optimization on Microservices Architecture",
+    "year": 2023,
+    "venue": "Cogito Smart Journal",
+    "authors": [
+        "Isnen Hadi Al Ghozali",
+        "Mohammad Shiddiq Antarressa",
+        "Samidi Samidi"
+    ],
+    "doi": "10.31154/cogito.v9i1.444.60-72",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f7afb42efb6a4a8031517d98ba043dd953e789c2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://cogito.unklab.ac.id/index.php/cogito/article/download/444/272",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Microservices architecture, a distributed framework architecture that allows changes to one module without interfering with other modules. The implementation of this architecture has its own challenges. The get-list-attachment API running on this architecture takes an average of 12.5 seconds to serve data. This needs to be considered because business processes require shorter access times to support decision making. The research objective is to obtain query response time efficiency for accounting applications. To achieve this, the research uses database optimization techniques with logic execution optimization microservices architecture. This study obtained the source of information from the Accounting Harmony Accounting Module, which has an API (get-list-attachment) with data sourced from Service Accounting (581253 records) and Service Users (2182 records). Based on a series of tests carried out, several services need to be added with APIs to improve the microservices architecture to accept bulk parameters that generate a list of objects so that data presentation is more optimal. After doing a series of engineering on microservices architecture and indexing application, query response time performance increased by 49.22% for Service Accounting module.",
+    "citationCount": 0,
+    "referenceCount": 28
+}

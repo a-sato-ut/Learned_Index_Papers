@@ -1,0 +1,36 @@
+{
+    "paperId": "c3539b346b8323e403580daa1c142dd3a96e4892",
+    "title": "Alloprof: a new French question-answer education dataset and its use in an information retrieval case study",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Antoine Lefebvre-Brossard",
+        "Stephane Gazaille",
+        "M. Desmarais"
+    ],
+    "doi": "10.48550/arXiv.2302.07738",
+    "arxivId": "2302.07738",
+    "url": "https://www.semanticscholar.org/paper/c3539b346b8323e403580daa1c142dd3a96e4892",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2302.07738",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Education",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Teachers and students are increasingly relying on online learning resources to supplement the ones provided in school. This increase in the breadth and depth of available resources is a great thing for students, but only provided they are able to find answers to their queries. Question-answering and information retrieval systems have benefited from public datasets to train and evaluate their algorithms, but most of these datasets have been in English text written by and for adults. We introduce a new public French question-answering dataset collected from Alloprof, a Quebec-based primary and high-school help website, containing 29 349 questions and their explanations in a variety of school subjects from 10 368 students, with more than half of the explanations containing links to other questions or some of the 2 596 reference pages on the website. We also present a case study of this dataset in an information retrieval task. This dataset was collected on the Alloprof public forum, with all questions verified for their appropriateness and the explanations verified both for their appropriateness and their relevance to the question. To predict relevant documents, architectures using pre-trained BERT models were fine-tuned and evaluated. This dataset will allow researchers to develop question-answering, information retrieval and other algorithms specifically for the French speaking education context. Furthermore, the range of language proficiency, images, mathematical symbols and spelling mistakes will necessitate algorithms based on a multimodal comprehension. The case study we present as a baseline shows an approach that relies on recent techniques provides an acceptable performance level, but more work is necessary before it can reliably be used and trusted in a production setting.",
+    "citationCount": 3,
+    "referenceCount": 29
+}

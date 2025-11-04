@@ -1,0 +1,37 @@
+{
+    "paperId": "1ec946bf7cc2fc8989baa02332ca84e1082c8848",
+    "title": "Can Clicks Be Both Labels and Features?: Unbiased Behavior Feature Collection and Uncertainty-aware Learning to Rank",
+    "year": 2022,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Tao Yang",
+        "Cheng-hsin Luo",
+        "Hanqing Lu",
+        "Parth Gupta",
+        "Bing Yin",
+        "Qingyao Ai"
+    ],
+    "doi": "10.1145/3477495.3531948",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1ec946bf7cc2fc8989baa02332ca84e1082c8848",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3477495.3531948",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Using implicit feedback collected from user clicks as training labels for learning-to-rank algorithms is a well-developed paradigm that has been extensively studied and used in modern IR systems. Using user clicks as ranking features, on the other hand, has not been fully explored in existing literature. Despite its potential in improving short-term system performance, whether the incorporation of user clicks as ranking features is beneficial for learning-to-rank systems in the long term is still questionable. Two of the most important problems are (1) the explicit bias introduced by noisy user behavior, and (2) the implicit bias, which we refer to as the exploitation bias, introduced by the dynamic training and serving of learning-to-rank systems with behavior features. In this paper, we explore the possibility of incorporating user clicks as both training labels and ranking features for learning to rank. We formally investigate the problems in feature collection and model training, and propose a counterfactual feature projection function and a novel uncertainty-aware learning to rank framework. Experiments on public datasets show that ranking models learned with the proposed framework can significantly outperform models built with raw click features and algorithms that rank items without considering model uncertainty.",
+    "citationCount": 29,
+    "referenceCount": 65
+}

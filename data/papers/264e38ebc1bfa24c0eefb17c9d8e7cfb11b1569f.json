@@ -1,0 +1,36 @@
+{
+    "paperId": "264e38ebc1bfa24c0eefb17c9d8e7cfb11b1569f",
+    "title": "CoVE: Compressed Vocabulary Expansion Makes Better LLM-based Recommender Systems",
+    "year": 2025,
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "authors": [
+        "Haochen Zhang",
+        "Tianyi Zhang",
+        "Junze Yin",
+        "Oren Gal",
+        "Anshumali Shrivastava",
+        "Vladimir Braverman"
+    ],
+    "doi": "10.48550/arXiv.2506.19993",
+    "arxivId": "2506.19993",
+    "url": "https://www.semanticscholar.org/paper/264e38ebc1bfa24c0eefb17c9d8e7cfb11b1569f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recommender systems play a pivotal role in providing relevant content to users. With the rapid development of large language models (LLMs), researchers have begun utilizing LLMs to build more powerful recommender systems. However, existing approaches that focus on aligning LLMs with recommendation tasks do not fully leverage their sequential information processing capabilities, leading to suboptimal performance. In this paper, we propose a novel system called compressed vocabulary expansion (CoVE). In CoVE, each item is assigned a unique ID within the expanded vocabulary. Our framework effectively capitalizes on sequence understanding abilities of LLMs, significantly enhancing their performance on recommendation tasks. Additionally, we compress the embedding layer, making CoVE practical for large-scale industrial applications. The effectiveness and performance of CoVE are demonstrated through comprehensive experiments on multiple recommendation datasets and comparisons with prior works. Our code can be found at https://github.com/HaochenZhang717/CoVE-official-Repo.",
+    "citationCount": 2,
+    "referenceCount": 113
+}

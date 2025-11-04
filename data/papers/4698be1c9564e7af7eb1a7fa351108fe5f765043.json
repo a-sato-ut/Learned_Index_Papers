@@ -1,0 +1,34 @@
+{
+    "paperId": "4698be1c9564e7af7eb1a7fa351108fe5f765043",
+    "title": "A Multi-Scale Feature Attention Approach to Network Traffic Classification and Its Model Explanation",
+    "year": 2022,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+        "Yipeng Wang",
+        "Xiao-chun Yun",
+        "Yongzheng Zhang",
+        "Chen Zhao",
+        "Xin Liu"
+    ],
+    "doi": "10.1109/TNSM.2022.3149933",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4698be1c9564e7af7eb1a7fa351108fe5f765043",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Network traffic classification, the task of associating network traffic with their generating application protocols or applications, is valuable for the control, allocation, and management of resources in today’s TCP/IP networks. In this paper, we propose Ulfar, a multi-scale feature attention approach to network traffic classification, which uses convolutional neural networks (CNN) as the building block of the deep packet analysis model. In Ulfar, we take only one packet per flow for network traffic classification. Ulfar is based on the key insight that format-related bytes appear at fixed offsets or in a specific pattern in the IP packet, and these format-related bytes are important for accurate network traffic classification. Our neural network model can automatically recover the format-related bytes by building high-level, multi-scale ${n}$ -gram features from raw byte sequences. In addition, at the representation learning side, we try to understand what patterns and signatures our neural network model learns from network traffic. We evaluate Ulfar using two publicly available datasets, and our experimental results show that Ulfar can conduct accurate network traffic classification. Also, we compare the results of Ulfar with four state-of-the-art approaches, and find that Ulfar has the ability to classify network traffic more accurately.",
+    "citationCount": 23,
+    "referenceCount": 48
+}

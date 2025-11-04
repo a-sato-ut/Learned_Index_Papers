@@ -1,0 +1,42 @@
+{
+    "paperId": "1a2dce0ece85bcd8ce9d12347abf8798b5bcd805",
+    "title": "Out-of-sample scoring and automatic selection of causal estimators",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "E. Kraev",
+        "Timo Flesch",
+        "H. Lekunze",
+        "Mark Harley",
+        "Pere P. Morell"
+    ],
+    "doi": "10.48550/arXiv.2212.10076",
+    "arxivId": "2212.10076",
+    "url": "https://www.semanticscholar.org/paper/1a2dce0ece85bcd8ce9d12347abf8798b5bcd805",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2212.10076",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Economics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, many causal estimators for Conditional Average Treatment Effect (CATE) and instrumental variable (IV) problems have been published and open sourced, allowing to estimate granular impact of both randomized treatments (such as A/B tests) and of user choices on the outcomes of interest. However, the practical application of such models has been hampered by the lack of a valid way to score the performance of such models out of sample, in order to select the best one for a given application. We address that gap by proposing novel scoring approaches for both the CATE case and an important subset of instrumental variable problems, namely those where the instrumental variable is customer access to a product feature, and the treatment is the customer’s choice to use that feature. Being able to score model performance out of sample allows us to apply hyperparameter optimization methods to causal model selection and tuning. We implement that in an open source package that relies on DoWhy and EconML libraries for implementation of causal inference models (and also includes a Transformed Outcome model implementation), and on FLAML for hyperparameter optimization and for component models used in the causal models. We demonstrate on synthetic data that optimizing the proposed scores is a reliable method for choosing the model and its hyperparameter values, whose estimates are close to the true impact, in the randomized CATE and IV cases. Further, we provide examples of applying these methods to real customer data from Wise.",
+    "citationCount": 1,
+    "referenceCount": 13
+}

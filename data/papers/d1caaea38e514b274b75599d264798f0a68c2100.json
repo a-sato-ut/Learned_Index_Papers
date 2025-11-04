@@ -1,0 +1,33 @@
+{
+    "paperId": "d1caaea38e514b274b75599d264798f0a68c2100",
+    "title": "Generate to Understand for Representation in One Pre-training Stage",
+    "year": 2023,
+    "venue": "2023 11th International Conference on Information Systems and Computing Technology (ISCTech)",
+    "authors": [
+        "Changshan Xue",
+        "Xiande Zhong",
+        "Xiaoqing Liu"
+    ],
+    "doi": "10.1109/ISCTech60480.2023.00054",
+    "arxivId": "2306.10056",
+    "url": "https://www.semanticscholar.org/paper/d1caaea38e514b274b75599d264798f0a68c2100",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A lot of high quality pretrain works are introduced in recent and take magnificent influence in Understanding (NLU), Generation (NLG) and Representation of Natural Language Processing tasks. tasks. In the traditional paradimg, the models are pretrained on custom domain corpus and finetuned on specific tasks, which make them very expensive for gpus and workers. What is worse, recent trends in language modeling is focusing on increasing performance through scaling with a booming cost.We propose a simple and efficient pretraining framework GUR that unifies the language modeling and contrastive learnin tasks in one pretraining step. Based on the examples of similar text pairs chosen by their LCS (longest common string) from raw unlabeled documents, our pretraining scheme consists of masked language modeling combined with a unsupervised contrastive learning task. The resulting model GUR performs surprisingly well without any labeled training datapoints. Specifically, it significantly outperforms all other pretrained baselines as a retriever at the recall benchmark in a zero-shot setting, and is competitive with BM25, a strong sparse baseline. Of course, the GUR keeps the ability of language modeling in our ablation experiment. We release our code https://github.com/laohur/GUR.",
+    "citationCount": 0,
+    "referenceCount": 87
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "4dc5637dfedc4fa286b4d9f88c4b9f8d38924479",
+    "title": "Interpreting Deep Learning-Based Networking Systems",
+    "year": 2019,
+    "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+    "authors": [
+        "Zili Meng",
+        "Minhu Wang",
+        "Jia-Ju Bai",
+        "Mingwei Xu",
+        "Hongzi Mao",
+        "Hongxin Hu"
+    ],
+    "doi": "10.1145/3387514.3405859",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4dc5637dfedc4fa286b4d9f88c4b9f8d38924479",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1910.03835",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "While many deep learning (DL)-based networking systems have demonstrated superior performance, the underlying Deep Neural Networks (DNNs) remain blackboxes and stay uninterpretable for network operators. The lack of interpretability makes DL-based networking systems prohibitive to deploy in practice. In this paper, we propose Metis, a framework that provides interpretability for two general categories of networking problems spanning local and global control. Accordingly, Metis introduces two different interpretation methods based on decision tree and hypergraph, where it converts DNN policies to interpretable rule-based controllers and highlight critical components based on analysis over hypergraph. We evaluate Metis over two categories of state-of-the-art DL-based networking systems and show that Metis provides human-readable interpretations while preserving nearly no degradation in performance. We further present four concrete use cases of Metis, showcasing how Metis helps network operators to design, debug, deploy, and ad-hoc adjust DL-based networking systems.",
+    "citationCount": 115,
+    "referenceCount": 96
+}

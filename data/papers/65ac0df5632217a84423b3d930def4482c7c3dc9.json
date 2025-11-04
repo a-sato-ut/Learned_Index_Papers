@@ -1,0 +1,36 @@
+{
+    "paperId": "65ac0df5632217a84423b3d930def4482c7c3dc9",
+    "title": "Understanding Time Variations of DNN Inference in Autonomous Driving",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Liangkai Liu",
+        "Yanzhi Wang",
+        "Weisong Shi"
+    ],
+    "doi": "10.48550/arXiv.2209.05487",
+    "arxivId": "2209.05487",
+    "url": "https://www.semanticscholar.org/paper/65ac0df5632217a84423b3d930def4482c7c3dc9",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2209.05487",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "—Deep neural networks (DNNs) are widely used in autonomous driving due to their high accuracy for perception, decision, and control. In safety-critical systems like autonomous driving, executing tasks like sensing and perception in real-time is vital to the vehicle’s safety, which requires the application’s execution time to be predictable. However, non-negligible time variations are observed in DNN inference. Current DNN infer- ence studies either ignore the time variation issue or rely on the scheduler to handle it. None of the current work explains the root causes of DNN inference time variations. Understanding the time variations of the DNN inference becomes a fundamental challenge in real-time scheduling for autonomous driving. In this work, we analyze the time variation in DNN inference in ﬁne granularity from six perspectives: data, I/O, model, runtime, hardware, and end-to-end perception system. Six insights are derived in understanding the time variations for DNN inference.",
+    "citationCount": 7,
+    "referenceCount": 40
+}

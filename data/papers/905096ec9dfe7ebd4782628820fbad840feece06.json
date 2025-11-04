@@ -1,0 +1,38 @@
+{
+    "paperId": "905096ec9dfe7ebd4782628820fbad840feece06",
+    "title": "Smoothed Online Combinatorial Optimization Using Imperfect Predictions",
+    "year": 2022,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Kai-Sheng Wang",
+        "Zhao Song",
+        "Georgios Theocharous",
+        "S. Mahadevan"
+    ],
+    "doi": "10.48550/arXiv.2204.10979",
+    "arxivId": "2204.10979",
+    "url": "https://www.semanticscholar.org/paper/905096ec9dfe7ebd4782628820fbad840feece06",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2204.10979",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Smoothed online combinatorial optimization considers a learner who repeatedly chooses a combinatorial decision to minimize an unknown changing cost function with a penalty on switching decisions in consecutive rounds. We study smoothed online combinatorial optimization problems when an imperfect predictive model is available, where the model can forecast the future cost functions with uncertainty. We show that using predictions to plan for a finite time horizon leads to regret dependent on the total predictive uncertainty and an additional switching cost. This observation suggests choosing a suitable planning window to balance between uncertainty and switching cost, which leads to an online algorithm with guarantees on the upper and lower bounds of the cumulative regret. Empirically, our algorithm shows a significant improvement in cumulative regret compared to other baselines in synthetic online distributed streaming problems.",
+    "citationCount": 1,
+    "referenceCount": 37
+}

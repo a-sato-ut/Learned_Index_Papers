@@ -1,0 +1,45 @@
+{
+    "paperId": "23d09e9ac2bf58f1eb8f4a343bfa2f44f53d5872",
+    "title": "Fourier Neural Solver for large sparse linear algebraic systems",
+    "year": 2022,
+    "venue": "Mathematics",
+    "authors": [
+        "Chenwei Cui",
+        "K. Jiang",
+        "Yun Liu",
+        "S. Shu"
+    ],
+    "doi": "10.48550/arXiv.2210.03881",
+    "arxivId": "2210.03881",
+    "url": "https://www.semanticscholar.org/paper/23d09e9ac2bf58f1eb8f4a343bfa2f44f53d5872",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2210.03881",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Large sparse linear algebraic systems can be found in a variety of scientific and engineering fields and many scientists strive to solve them in an efficient and robust manner. In this paper, we propose an interpretable neural solver, the Fourier neural solver (FNS), to address them. FNS is based on deep learning and a fast Fourier transform. Because the error between the iterative solution and the ground truth involves a wide range of frequency modes, the FNS combines a stationary iterative method and frequency space correction to eliminate different components of the error. Local Fourier analysis shows that the FNS can pick up on the error components in frequency space that are challenging to eliminate with stationary methods. Numerical experiments on the anisotropic diffusion equation , convection–diffusion equation, and Helmholtz equation show that the FNS is more efficient and more robust than the state-of-the-art neural solver.",
+    "citationCount": 12,
+    "referenceCount": 43
+}

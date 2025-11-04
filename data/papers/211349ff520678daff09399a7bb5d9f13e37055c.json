@@ -1,0 +1,33 @@
+{
+    "paperId": "211349ff520678daff09399a7bb5d9f13e37055c",
+    "title": "Lightning-fast adaptive immune receptor similarity search by symmetric deletion lookup",
+    "year": 2024,
+    "venue": "",
+    "authors": [
+        "Touchchai Chotisorayuth",
+        "Andreas Tiffeau-Mayer"
+    ],
+    "doi": null,
+    "arxivId": "2403.09010",
+    "url": "https://www.semanticscholar.org/paper/211349ff520678daff09399a7bb5d9f13e37055c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "An individual's adaptive immune receptor (AIR) repertoire records immune history due to the exquisite antigen specificity of AIRs. Reading this record requires computational approaches for inferring receptor function from sequence, as the diversity of possible receptor-antigen pairs vastly outstrips experimental knowledge. Identification of AIRs with similar sequence and thus putatively similar function is a common performance bottleneck in these approaches. Here, we benchmark the time complexity of five different algorithmic approaches to radius-based search for Levenshtein neighbors. We show that a symmetric deletion lookup approach, originally proposed for spell-checking, is particularly scalable. We then introduce XTNeighbor, a variant of this algorithm that can be massively parallelized on GPUs. For one million input sequences, XTNeighbor identifies all sequence neighbors that differ by up to two edits in seconds on commodity hardware, orders of magnitude faster than existing approaches. We also demonstrate how symmetric deletion lookup can speed up search with more complex sequence-similarity metrics such as TCRdist. Our contribution is poised to greatly speed up existing analysis pipelines and enable processing of large-scale immunosequencing data without downsampling.",
+    "citationCount": 5,
+    "referenceCount": 12
+}

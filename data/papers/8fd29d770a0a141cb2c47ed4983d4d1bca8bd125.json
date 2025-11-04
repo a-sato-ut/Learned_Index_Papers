@@ -1,0 +1,40 @@
+{
+    "paperId": "8fd29d770a0a141cb2c47ed4983d4d1bca8bd125",
+    "title": "SymMaP: Improving Computational Efficiency in Linear Solvers through Symbolic Preconditioning",
+    "year": 2025,
+    "venue": "",
+    "authors": [
+        "Hong Wang",
+        "Jie Wang",
+        "Minghao Ma",
+        "Haoran Shao",
+        "Haoyang Liu"
+    ],
+    "doi": null,
+    "arxivId": "2510.24170",
+    "url": "https://www.semanticscholar.org/paper/8fd29d770a0a141cb2c47ed4983d4d1bca8bd125",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Matrix preconditioning is a critical technique to accelerate the solution of linear systems, where performance heavily depends on the selection of preconditioning parameters. Traditional parameter selection approaches often define fixed constants for specific scenarios. However, they rely on domain expertise and fail to consider the instance-wise features for individual problems, limiting their performance. In contrast, machine learning (ML) approaches, though promising, are hindered by high inference costs and limited interpretability. To combine the strengths of both approaches, we propose a symbolic discovery framework-namely, Symbolic Matrix Preconditioning (SymMaP)-to learn efficient symbolic expressions for preconditioning parameters. Specifically, we employ a neural network to search the high-dimensional discrete space for expressions that can accurately predict the optimal parameters. The learned expression allows for high inference efficiency and excellent interpretability (expressed in concise symbolic formulas), making it simple and reliable for deployment. Experimental results show that SymMaP consistently outperforms traditional strategies across various benchmarks.",
+    "citationCount": 1,
+    "referenceCount": 67
+}

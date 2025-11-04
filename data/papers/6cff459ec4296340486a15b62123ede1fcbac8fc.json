@@ -1,0 +1,32 @@
+{
+    "paperId": "6cff459ec4296340486a15b62123ede1fcbac8fc",
+    "title": "TRACER: Efficient Object Re-Identification in Networked Cameras through Adaptive Query Processing",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Pramod Chunduri",
+        "Yao Lu",
+        "Joy Arulraj"
+    ],
+    "doi": "10.48550/arXiv.2507.09448",
+    "arxivId": "2507.09448",
+    "url": "https://www.semanticscholar.org/paper/6cff459ec4296340486a15b62123ede1fcbac8fc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficiently re-identifying and tracking objects across a network of cameras is crucial for applications like traffic surveillance. Spatula is the state-of-the-art video database management system (VDBMS) for processing Re-ID queries. However, it suffers from two limitations. Its spatio-temporal filtering scheme has limited accuracy on large camera networks due to localized camera history. It is not suitable for critical video analytics applications that require high recall due to a lack of support for adaptive query processing. In this paper, we present Tracer, a novel VDBMS for efficiently processing Re-ID queries using an adaptive query processing framework. Tracer selects the optimal camera to process at each time step by training a recurrent network to model long-term historical correlations. To accelerate queries under a high recall constraint, Tracer incorporates a probabilistic adaptive search model that processes camera feeds in incremental search windows and dynamically updates the sampling probabilities using an exploration-exploitation strategy. To address the paucity of benchmarks for the Re-ID task due to privacy concerns, we present a novel synthetic benchmark for generating multi-camera Re-ID datasets based on real-world traffic distribution. Our evaluation shows that Tracer outperforms the state-of-the-art cross-camera analytics system by 3.9x on average across diverse datasets.",
+    "citationCount": 0,
+    "referenceCount": 51
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "3b87bebd2854cdb460d16ec65703340b4c431139",
+    "title": "Lightweight Portrait Matting via Regional Attention and Refinement",
+    "year": 2023,
+    "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+    "authors": [
+        "Yatao Zhong",
+        "Ilya Zharkov"
+    ],
+    "doi": "10.1109/WACV57701.2024.00411",
+    "arxivId": "2311.03770",
+    "url": "https://www.semanticscholar.org/paper/3b87bebd2854cdb460d16ec65703340b4c431139",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present a lightweight model for high resolution portrait matting. The model does not use any auxiliary inputs such as trimaps or background captures and achieves real time performance for HD videos and near real time for 4K. Our model is built upon a two-stage framework with a low resolution network for coarse alpha estimation followed by a refinement network for local region improvement. However, a naive implementation of the two-stage model suffers from poor matting quality if not utilizing any auxiliary inputs. We address the performance gap by leveraging the vision transformer (ViT) as the backbone of the low resolution network, motivated by the observation that the tokenization step of ViT can reduce spatial resolution while retain as much pixel information as possible. To inform local regions of the context, we propose a novel cross region attention (CRA) module in the refinement network to propagate the contextual information across the neighboring regions. We demonstrate that our method achieves superior results and outperforms other baselines on three benchmark datasets while only uses 1/20 of the FLOPS compared to the existing state-of-the-art model.",
+    "citationCount": 4,
+    "referenceCount": 33
+}

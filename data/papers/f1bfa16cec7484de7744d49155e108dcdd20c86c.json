@@ -1,0 +1,29 @@
+{
+    "paperId": "f1bfa16cec7484de7744d49155e108dcdd20c86c",
+    "title": "Improving Hierarchical Tree-Based Packet Classification by Reinforcement Learning",
+    "year": 2024,
+    "venue": "International Conference on Ubiquitous and Future Networks",
+    "authors": [
+        "Zhi-Xing Ou",
+        "Wen-Chi Shih",
+        "Tsung-Yu Hsieh",
+        "Yeim-Kuan Chang"
+    ],
+    "doi": "10.1109/ICUFN61752.2024.10625263",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f1bfa16cec7484de7744d49155e108dcdd20c86c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, with advancements in hardware technology, artificial intelligence (AI) has seen rapid development, particularly in the field of Reinforcement Learning (RL). This paper introduces a model based on the RL framework, tailored for packet classification through a trained decision tree. This decision tree demonstrates superior performance in search time, memory usage, and rule update time. Enhancements include an expanded action space and an optimized reward function, improving rule update performance of the decision tree. Experiments reveal a strong correlation between clock cycle time and memory access count, and comparisons with methods like NeuroCuts, HiCuts, HyperCuts, CutTSS, PSTSS, and PartitionSort are provided. The experimental results demonstrate that our proposed method outperforms NeuroCuts, with an average search time reduction of 9%, and with a maximum reduction of 26.5%. Moreover, our method achieves an average rule update time reduction of 22% compared to NeuroCuts, with a maximum reduction of 102.5%. Furthermore, the average number of bits required per rule is on average 4% less than that of NeruoCuts, with a maximum reduction of 39.9%.",
+    "citationCount": 0,
+    "referenceCount": 18
+}

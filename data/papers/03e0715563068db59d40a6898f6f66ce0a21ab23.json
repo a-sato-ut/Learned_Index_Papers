@@ -1,0 +1,33 @@
+{
+    "paperId": "03e0715563068db59d40a6898f6f66ce0a21ab23",
+    "title": "Analyzing the Impact of Cardinality Estimation on Execution Plans in Microsoft SQL Server",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Kukjin Lee",
+        "Anshuman Dutt",
+        "Vivek R. Narasayya",
+        "S. Chaudhuri"
+    ],
+    "doi": "10.14778/3611479.3611494",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/03e0715563068db59d40a6898f6f66ce0a21ab23",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cardinality estimation is widely believed to be one of the most important causes of poor query plans. Prior studies evaluate the impact of cardinality estimation on plan quality on a set of Select-Project-Join queries on PostgreSQL DBMS. Our empirical study broadens the scope of prior studies in significant ways. First, we include complex SQL queries containing group-by, aggregation, outer joins and sub-queries from real-world workloads and industry benchmarks. We evaluate on both row-oriented and column-oriented physical designs. Our empirical study uses Microsoft SQL Server, an industry-strength DBMS with a state-of-the-art query optimizer that is equipped with techniques to optimize such complex queries. Second, we analyze the sensitivity of plan quality to cardinality errors in two ways by: (a) varying the subset of query sub-expressions for which accurate cardinalities are used, and (b) introducing progressively larger cardinality errors. Third, query processing techniques such as bitmap filtering and adaptive join have the potential to mitigate the impact of cardinality estimation errors by reducing the latency of bad plans. We evaluate the importance of accurate cardinalities in the presence of these techniques.",
+    "citationCount": 17,
+    "referenceCount": 38
+}

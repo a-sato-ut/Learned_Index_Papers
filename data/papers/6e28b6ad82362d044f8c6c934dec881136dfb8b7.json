@@ -1,0 +1,36 @@
+{
+    "paperId": "6e28b6ad82362d044f8c6c934dec881136dfb8b7",
+    "title": "Traffic Burstiness Study of an Efficient Bandwidth Allocation MAC Scheme for WDM Datacenter Networks",
+    "year": 2023,
+    "venue": "International Mediterranean Conference on Communications and Networking",
+    "authors": [
+        "David Georgantas",
+        "P. Baziana"
+    ],
+    "doi": "10.1109/MeditCom58224.2023.10266597",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6e28b6ad82362d044f8c6c934dec881136dfb8b7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents a centralized medium access control (MAC) protocol for wavelength division multiplexing (WDM) optical intra-rack data center networks (DCNs) which exploit the software-defined (SD) networking scheme. Especially, in this paper we introduce an efficient bandwidth allocation strategy called EBA-MAC to coordinate communication between servers within a single rack. The primary objective of EBA-MAC is to prevent data collisions and minimize latency for users of cloud applications. The proposed SD optical intra-rack DCN architecture accompanied by the suggested EBA-MAC protocol achieves a 95.5% optical bandwidth utilization and an average packet delay of few µs, meeting the strict delay requirements of modern cloud services. Compared to a SotA intra-rack DCN approach, it achieves an 8% higher throughput and 95% less mean packet delay for heavy loads. The stability of the proposed EBA-MAC protocol is also investigated under varying bursty traffic scenarios to explore its performance level for delay-sensitive applications.",
+    "citationCount": 2,
+    "referenceCount": 24
+}

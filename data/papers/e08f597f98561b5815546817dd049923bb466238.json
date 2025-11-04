@@ -1,0 +1,38 @@
+{
+    "paperId": "e08f597f98561b5815546817dd049923bb466238",
+    "title": "Parallel Integrity Authentication Data Structure Construction for Encrypted Range Queries",
+    "year": 2023,
+    "venue": "2023 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom)",
+    "authors": [
+        "Zhaokang Wang",
+        "Jiahui Pan",
+        "Lu Zhou",
+        "Zhonghui Zhang",
+        "Caocong Ji"
+    ],
+    "doi": "10.1109/ISPA-BDCloud-SocialCom-SustainCom59178.2023.00074",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e08f597f98561b5815546817dd049923bb466238",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the rapid growth of cloud computing, outsourcing databases to cloud servers is becoming increasingly popular. Query integrity authentication is an effective technique to obtain reliable query results from untrusted clouds. ServeDB (Wu et al., ICDE 2019) is a state-of-the-art system that provides integrity authentication for encrypted range queries. However, ServeDB is a serial system. The high construction cost of its authentication data structure SVETree is the main performance bottleneck that limits its scalability to large datasets. In this study, we overcome the scalability limitation by parallelizing the SVETree construction workflow using the MapReduce framework. We propose the link-free storage layout to store the tree-based SVETree structure in a distributed key-value storage. The parallel SVETree construction algorithm reduces the communication latency of the key-value storage with the batch put/get optimization. The algorithm balances the workload of different tree nodes with the record-centric parallelization optimization. Furthermore, it avoids triggering out-of-core shuffles with the multi-round in-memory shuffle technique. The experimental results show that the parallel algorithm running on 128 cores achieves a $52.7 \\times$ speedup over the original serial algorithm. The parallel algorithm exhibits near-linear data and machine scalability.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

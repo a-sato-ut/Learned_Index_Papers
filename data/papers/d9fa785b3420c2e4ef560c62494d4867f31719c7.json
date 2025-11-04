@@ -1,0 +1,33 @@
+{
+    "paperId": "d9fa785b3420c2e4ef560c62494d4867f31719c7",
+    "title": "RABBIT: Managing Hierarchical Memory with Intelligent Tiering Aware Deduplication",
+    "year": 2025,
+    "venue": "Proceedings of the 16th International Conference on Internetware",
+    "authors": [
+        "Zilu Yao",
+        "Yinjin Fu",
+        "Nong Xiao"
+    ],
+    "doi": "10.1145/3755881.3755896",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d9fa785b3420c2e4ef560c62494d4867f31719c7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Memory tiering is a solution to classify the increasing data for real-time analysis in hierarchical storage management based on its usage patterns and importance. However, traditional storage tiering methods that utilize static thresholds or heuristics are rigid and inefficient, while most existing AI methods use overly complex prediction models, which cost a lot of resources in training and classifying. To address these issues, we propose RABBIT, a Rarely Accessed Blocks Based Intelligent Tiering method for tiered-aware deduplication memory systems. It introduces a monitoring process that can track file-level access features in real systems, predicts which memory layer each data blocks should enter with a daily updated decision tree model, and dynamically migrates the chosen data in a corresponding post-process with error correction mechanism. Meanwhile, a block-level global deduplication scheme is used to ensure that only unique data blocks occupy space in the entire tiered memory system and save storage resources. We build a three-layers and four-layers architecture to evaluate our RABBIT design with block-level I/O traces and real-world workloads and prove RABBIT to be a highly scalable method. Compared with state-of-the-art storage tiering methods, our experimental results show that RABBIT can reduce the average per block latency by 16.89% to 21.84% with a higher access hit rate and save storage capacity by 8.7% to 21.4% for learning access features at the block-level and file-level, respectively.",
+    "citationCount": 0,
+    "referenceCount": 34
+}

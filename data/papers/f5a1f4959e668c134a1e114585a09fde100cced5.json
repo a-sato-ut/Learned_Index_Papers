@@ -1,0 +1,32 @@
+{
+    "paperId": "f5a1f4959e668c134a1e114585a09fde100cced5",
+    "title": "Enhancing Learned Index for A Higher Recall Trajectory K-Nearest Neighbor Search",
+    "year": 2021,
+    "venue": "2021 IEEE International Conference on Big Data (Big Data)",
+    "authors": [
+        "Hani Ramadhan",
+        "Joonho Kwon"
+    ],
+    "doi": "10.1109/BigData52589.2021.9671654",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f5a1f4959e668c134a1e114585a09fde100cced5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learned indices can significantly shorten the query response time of k-Nearest Neighbor search of points data. However, extending the learned index for k-Nearest Neighbor search of trajectory data may return incorrect results (low recall) and require longer pruning time. Thus, we introduce an enhancement for trajectory learned index which is a pruning step for a learned index to retrieve the k-Nearest Neighbors correctly by learning the query workload. The pruning utilizes a predicted range query that covers the correct neighbors. We show that that our approach has the potential to work effectively in a large real-world trajectory dataset.",
+    "citationCount": 1,
+    "referenceCount": 6
+}

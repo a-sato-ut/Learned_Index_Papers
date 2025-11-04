@@ -1,0 +1,36 @@
+{
+    "paperId": "179070d3d43e97d1ce4d12127a3dc63581328809",
+    "title": "Transformer for Partial Differential Equations' Operator Learning",
+    "year": 2022,
+    "venue": "Trans. Mach. Learn. Res.",
+    "authors": [
+        "Zijie Li",
+        "Kazem Meidani",
+        "A. Farimani"
+    ],
+    "doi": "10.48550/arXiv.2205.13671",
+    "arxivId": "2205.13671",
+    "url": "https://www.semanticscholar.org/paper/179070d3d43e97d1ce4d12127a3dc63581328809",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2205.13671",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data-driven learning of partial differential equations' solution operators has recently emerged as a promising paradigm for approximating the underlying solutions. The solution operators are usually parameterized by deep learning models that are built upon problem-specific inductive biases. An example is a convolutional or a graph neural network that exploits the local grid structure where functions' values are sampled. The attention mechanism, on the other hand, provides a flexible way to implicitly exploit the patterns within inputs, and furthermore, relationship between arbitrary query locations and inputs. In this work, we present an attention-based framework for data-driven operator learning, which we term Operator Transformer (OFormer). Our framework is built upon self-attention, cross-attention, and a set of point-wise multilayer perceptrons (MLPs), and thus it makes few assumptions on the sampling pattern of the input function or query locations. We show that the proposed framework is competitive on standard benchmark problems and can flexibly be adapted to randomly sampled input.",
+    "citationCount": 208,
+    "referenceCount": 99
+}

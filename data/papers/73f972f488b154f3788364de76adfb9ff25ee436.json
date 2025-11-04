@@ -1,0 +1,34 @@
+{
+    "paperId": "73f972f488b154f3788364de76adfb9ff25ee436",
+    "title": "Hybrid Blockchain Database Systems: Design and Performance",
+    "year": 2022,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Zerui Ge",
+        "Dumitrel Loghin",
+        "B. Ooi",
+        "Pingcheng Ruan",
+        "Tianwen Wang"
+    ],
+    "doi": "10.14778/3510397.3510406",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/73f972f488b154f3788364de76adfb9ff25ee436",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the emergence of hybrid blockchain database systems, we aim to provide an in-depth analysis of the performance and trade-offs among a few representative systems. To achieve this goal, we implement Veritas and BlockchainDB from scratch. For Veritas, we provide two flavors to target the crash fault-tolerant (CFT) and Byzantine fault-tolerant (BFT) application scenarios. Specifically, we implement Veritas with Apache Kafka to target CFT application scenarios, and Veritas with Tendermint to target BFT application scenarios. We compare these three systems with the existing open-source implementation of BigchainDB. BigchainDB uses Tender-mint for consensus and provides two flavors: a default implementation with blockchain pipelining and an optimized version that includes blockchain pipelining and parallel transaction validation. Our experimental analysis confirms that CFT designs, which are typically used by distributed databases, exhibit much higher performance than BFT designs, which are specific to blockchains. On the other hand, our extensive analysis highlights the variety of design choices faced by the developers and sheds some light on the trade-offs that need to be done when designing a hybrid blockchain database system.",
+    "citationCount": 48,
+    "referenceCount": 45
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "dc5415ff965b956625332926a0802312753af5e3",
+    "title": "Hierarchical goals contextualize local reward decomposition explanations",
+    "year": 2022,
+    "venue": "Neural computing & applications (Print)",
+    "authors": [
+        "Finn Rietz",
+        "S. Magg",
+        "F. Heintz",
+        "Todor Stoyanov",
+        "Stefan Wermter",
+        "J. A. Stork"
+    ],
+    "doi": "10.1007/s00521-022-07280-8",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dc5415ff965b956625332926a0802312753af5e3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s00521-022-07280-8.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "One-step reinforcement learning explanation methods account for individual actions but fail to consider the agent’s future behavior, which can make their interpretation ambiguous. We propose to address this limitation by providing hierarchical goals as context for one-step explanations. By considering the current hierarchical goal as a context, one-step explanations can be interpreted with higher certainty, as the agent’s future behavior is more predictable. We combine reward decomposition with hierarchical reinforcement learning into a novel explainable reinforcement learning framework, which yields more interpretable, goal-contextualized one-step explanations. With a qualitative analysis of one-step reward decomposition explanations, we first show that their interpretability is indeed limited in scenarios with multiple, different optimal policies—a characteristic shared by other one-step explanation methods. Then, we show that our framework retains high interpretability in such cases, as the hierarchical goal can be considered as context for the explanation. To the best of our knowledge, our work is the first to investigate hierarchical goals not as an explanation directly but as additional context for one-step reinforcement learning explanations.",
+    "citationCount": 13,
+    "referenceCount": 49
+}

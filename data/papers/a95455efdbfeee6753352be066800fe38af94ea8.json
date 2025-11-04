@@ -1,0 +1,35 @@
+{
+    "paperId": "a95455efdbfeee6753352be066800fe38af94ea8",
+    "title": "ICE: An Interactive Configuration Explorer for High Dimensional Categorical Parameter Spaces",
+    "year": 2019,
+    "venue": "IEEE Conference on Visual Analytics Science and Technology",
+    "authors": [
+        "Anjul Tyagi",
+        "Zhen Cao",
+        "Tyler Estro",
+        "E. Zadok",
+        "K. Mueller"
+    ],
+    "doi": "10.1109/VAST47406.2019.8986923",
+    "arxivId": "1907.12627",
+    "url": "https://www.semanticscholar.org/paper/a95455efdbfeee6753352be066800fe38af94ea8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1907.12627",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There are many applications where users seek to explore the impact of the settings of several categorical variables with respect to one dependent numerical variable. For example, a computer systems analyst might want to study how the type of file system or storage device affects system performance. A usual choice is the method of Parallel Sets designed to visualize multivariate categorical variables, However, we found that the magnitude of the parameter impacts on the numerical variable cannot be easily observed here. We also attempted a dimension reduction approach based on Multiple Correspondence Analysis but found that the SVD-generated 2D layout resulted in a loss of information. We hence propose a novel approach, the Interactive Configuration Explorer (ICE), which directly addresses the need of analysts to learn how the dependent numerical variable is affected by the parameter settings given multiple optimization objectives. No information is lost as ICE shows the complete distribution and statistics of the dependent variable in context with each categorical variable. Analysts can interactively filter the variables to optimize for certain goals such as achieving a system with maximum performance, low variance, etc. Our system was developed in tight collaboration with a group of systems performance researchers and its final effectiveness was evaluated with expert interviews, a comparative user study, and two case studies.",
+    "citationCount": 6,
+    "referenceCount": 76
+}

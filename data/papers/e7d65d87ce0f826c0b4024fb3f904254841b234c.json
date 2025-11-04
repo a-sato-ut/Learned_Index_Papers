@@ -1,0 +1,44 @@
+{
+    "paperId": "e7d65d87ce0f826c0b4024fb3f904254841b234c",
+    "title": "Capsule Networks Showed Excellent Performance in the Classification of hERG Blockers/Nonblockers",
+    "year": 2020,
+    "venue": "Frontiers in Pharmacology",
+    "authors": [
+        "Yiwei Wang",
+        "Lei Huang",
+        "Siwen Jiang",
+        "Yifei Wang",
+        "Jun Zou",
+        "Hongguang Fu",
+        "Sheng-Yong Yang"
+    ],
+    "doi": "10.3389/fphar.2019.01631",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e7d65d87ce0f826c0b4024fb3f904254841b234c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://fjfsdata01prod.blob.core.windows.net/articles/files/499580/pubmed-zip/.versions/2/.package-entries/fphar-10-01631.pdf?sv=2018-03-28&sr=b&sig=hdpvbWzFLlmFwe0pFDnvdYCJ%2FNlcx7EUKuSSwkClS84%3D&se=2021-02-22T01%3A00%3A56Z&sp=r&rscd=attachment%3B%20filename%2A%3DUTF-8%27%27fphar-10-01631.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Capsule networks (CapsNets), a new class of deep neural network architectures proposed recently by Hinton et al., have shown a great performance in many fields, particularly in image recognition and natural language processing. However, CapsNets have not yet been applied to drug discovery-related studies. As the first attempt, we in this investigation adopted CapsNets to develop classification models of hERG blockers/nonblockers; drugs with hERG blockade activity are thought to have a potential risk of cardiotoxicity. Two capsule network architectures were established: convolution-capsule network (Conv-CapsNet) and restricted Boltzmann machine-capsule networks (RBM-CapsNet), in which convolution and a restricted Boltzmann machine (RBM) were used as feature extractors, respectively. Two prediction models of hERG blockers/nonblockers were then developed by Conv-CapsNet and RBM-CapsNet with the Doddareddy's training set composed of 2,389 compounds. The established models showed excellent performance in an independent test set comprising 255 compounds, with prediction accuracies of 91.8 and 92.2% for Conv-CapsNet and RBM-CapsNet models, respectively. Various comparisons were also made between our models and those developed by other machine learning methods including deep belief network (DBN), convolutional neural network (CNN), multilayer perceptron (MLP), support vector machine (SVM), k-nearest neighbors (kNN), logistic regression (LR), and LightGBM, and with different training sets. All the results showed that the models by Conv-CapsNet and RBM-CapsNet are among the best classification models. Overall, the excellent performance of capsule networks achieved in this investigation highlights their potential in drug discovery-related studies.",
+    "citationCount": 48,
+    "referenceCount": 101
+}

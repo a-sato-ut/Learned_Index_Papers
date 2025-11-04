@@ -1,0 +1,36 @@
+{
+    "paperId": "1f476738e6d2950ab2ca08ac852764640c8e9d93",
+    "title": "Real-Time High-Resolution Background Matting",
+    "year": 2020,
+    "venue": "Computer Vision and Pattern Recognition",
+    "authors": [
+        "Shanchuan Lin",
+        "Andrey Ryabtsev",
+        "Soumyadip Sengupta",
+        "B. Curless",
+        "S. Seitz",
+        "Ira Kemelmacher-Shlizerman"
+    ],
+    "doi": "10.1109/CVPR46437.2021.00865",
+    "arxivId": "2012.07810",
+    "url": "https://www.semanticscholar.org/paper/1f476738e6d2950ab2ca08ac852764640c8e9d93",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2012.07810",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We introduce a real-time, high-resolution background replacement technique which operates at 30fps in 4K resolution, and 60fps for HD on a modern GPU. Our technique is based on background matting, where an additional frame of the background is captured and used in recovering the alpha matte and the foreground layer. The main challenge is to compute a high-quality alpha matte, preserving strand-level hair details, while processing high-resolution images in real-time. To achieve this goal, we employ two neural networks; a base network computes a low-resolution result which is refined by a second network operating at high-resolution on selective patches. We introduce two large-scale video and image matting datasets: VideoMatte240K and PhotoMatte13K/85. Our approach yields higher quality results compared to the previous state-of-the-art in background matting, while simultaneously yielding a dramatic boost in both speed and resolution.",
+    "citationCount": 251,
+    "referenceCount": 36
+}

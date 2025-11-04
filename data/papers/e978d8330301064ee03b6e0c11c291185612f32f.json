@@ -1,0 +1,37 @@
+{
+    "paperId": "e978d8330301064ee03b6e0c11c291185612f32f",
+    "title": "Towards Capacity-Aware Broker Matching: From Recommendation to Assignment",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Shuyue Wei",
+        "Yongxin Tong",
+        "Zimu Zhou",
+        "Qiaoyang Liu",
+        "Lulu Zhang",
+        "Yuxiang Zeng",
+        "Jieping Ye"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00065",
+    "arxivId": "2303.03024",
+    "url": "https://www.semanticscholar.org/paper/e978d8330301064ee03b6e0c11c291185612f32f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Online real estate platforms are gaining increasing popularity, where a central issue is to match brokers with clients for potential housing transactions. Mainstream platforms match brokers via top-k recommendation. Yet we observe through extensive data analysis that such top-k recommendation tends to overload the top brokers, which notably degrades their service quality. In this paper, we propose to avoid such overloading in broker matching via the paradigm shift from recommendation to assignment. To this end, we design learned assignment with contextual bandits (LACB), a data-driven capacity-aware assignment scheme for broker matching which estimates broker-specific workload capacity in an online fashion and assigns brokers to clients from a global perspective to maximize the overall service quality. Extensive evaluations on synthetic and real-world datasets from an industrial online real estate platform validate the efficiency and effectiveness of our solution.",
+    "citationCount": 1,
+    "referenceCount": 54
+}

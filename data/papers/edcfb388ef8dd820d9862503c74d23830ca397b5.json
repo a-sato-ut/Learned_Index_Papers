@@ -1,0 +1,32 @@
+{
+    "paperId": "edcfb388ef8dd820d9862503c74d23830ca397b5",
+    "title": "High-Dimensional Bayesian Optimization with Multi-Task Learning for RocksDB",
+    "year": 2021,
+    "venue": "EuroMLSys@EuroSys",
+    "authors": [
+        "Sami Alabed",
+        "Eiko Yoneki"
+    ],
+    "doi": "10.1145/3437984.3458841",
+    "arxivId": "2103.16267",
+    "url": "https://www.semanticscholar.org/paper/edcfb388ef8dd820d9862503c74d23830ca397b5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3437984.3458841",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "RocksDB is a general-purpose embedded key-value store used in multiple different settings. Its versatility comes at the cost of complex tuning configurations. This paper investigates maximizing the throughput of RocksDB 10 operations by auto-tuning ten parameters of varying ranges. Off-the-shelf optimizers struggle with high-dimensional problem spaces and require a large number of training samples. We propose two techniques to tackle this problem: multitask modeling and dimensionality reduction through clustering. By incorporating adjacent optimization in the model, the model converged faster and found complicated settings that other tuners could not find. This approach had an additional computational complexity overhead, which we mitigated by manually assigning parameters to each sub-goal through our knowledge of RocksDB. The model is then incorporated in a standard Bayesian Optimization loop to find parameters that maximize RocksDB's 10 throughput. Our method achieved x1.3 improvement when bench-marked against a simulation of Facebook's social graph traffic, and converged in ten optimization steps compared to other state-of-the-art methods that required fifty steps.",
+    "citationCount": 18,
+    "referenceCount": 43
+}

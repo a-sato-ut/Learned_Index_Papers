@@ -1,0 +1,33 @@
+{
+    "paperId": "e531e5ea736fa5ec66e35ea4b4bfa2ee1be2918c",
+    "title": "Using Conjunctions for Faster Disjunctive Top-k Queries",
+    "year": 2022,
+    "venue": "Web Search and Data Mining",
+    "authors": [
+        "Michal Siedlaczek",
+        "Antonio Mallia",
+        "Torsten Suel"
+    ],
+    "doi": "10.1145/3488560.3498489",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e531e5ea736fa5ec66e35ea4b4bfa2ee1be2918c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "While current search engines use highly complex ranking functions with hundreds of features, they often perform an initial candidate generation step that uses a very simple ranking function to identify a limited set of promising candidates. A common approach is to use a disjunctive top-k query for this step. There are many methods for disjunctive top-k computation, but they tend to be slow for the required values of k, which are in the hundreds to thousands. We propose a new approach to safe disjunctive top-k computation that, somewhat counterintuitively, uses precomputed conjunctions of inverted lists to speed up disjunctive queries. The approach is based on a generalization of the well-known MaxScore algorithm, and utilizes recent improvements in threshold estimation techniques as well as new ideas to obtain significant improvements in performance. Our algorithms are implemented as an extension of the PISA framework for search-engine query processing, and available as open-source to support replication and follow-up work.",
+    "citationCount": 7,
+    "referenceCount": 44
+}

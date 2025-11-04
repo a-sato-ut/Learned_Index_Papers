@@ -1,0 +1,34 @@
+{
+    "paperId": "15cdcf354750acdb9d8abfd79d897e994a886acc",
+    "title": "Improving Deep Image Matting Via Local Smoothness Assumption",
+    "year": 2021,
+    "venue": "IEEE International Conference on Multimedia and Expo",
+    "authors": [
+        "Rui Wang",
+        "Jun Xie",
+        "Jiacheng Han",
+        "Dezhen Qi"
+    ],
+    "doi": "10.1109/ICME52920.2022.9859949",
+    "arxivId": "2112.13809",
+    "url": "https://www.semanticscholar.org/paper/15cdcf354750acdb9d8abfd79d897e994a886acc",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2112.13809",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Natural image matting is a fundamental and challenging computer vision task. Conventionally, the problem is formulated as an underconstrained problem. Since the problem is ill-posed, further assumptions on the data distribution are required to make the problem well-posed. For classical matting methods, a commonly adopted assumption is the local smoothness assumption on foreground and background colors. However, the use of such assumptions was not systematically considered for deep learning based matting methods. In this work, we consider two local smoothness assumptions which can help improving deep image matting models. Based on the local smoothness assumptions, we propose three techniques, i.e., training set refinement, color augmentation and backpropagating refinement, which can improve the performance of the deep image matting model significantly. We conduct experiments to examine the effectiveness of the proposed algorithm. The experimental results show that the proposed method has favorable performance compared with existing matting methods.",
+    "citationCount": 4,
+    "referenceCount": 40
+}

@@ -1,0 +1,43 @@
+{
+    "paperId": "9a80eb74901b2ac1a4602f79671e864527369cb9",
+    "title": "Deep Equilibrium Based Neural Operators for Steady-State PDEs",
+    "year": 2023,
+    "venue": "Neural Information Processing Systems",
+    "authors": [
+        "Tanya Marwah",
+        "Ashwini Pokle",
+        "J. Z. Kolter",
+        "Zachary Chase Lipton",
+        "Jianfeng Lu",
+        "Andrej Risteski"
+    ],
+    "doi": "10.48550/arXiv.2312.00234",
+    "arxivId": "2312.00234",
+    "url": "https://www.semanticscholar.org/paper/9a80eb74901b2ac1a4602f79671e864527369cb9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data-driven machine learning approaches are being increasingly used to solve partial differential equations (PDEs). They have shown particularly striking successes when training an operator, which takes as input a PDE in some family, and outputs its solution. However, the architectural design space, especially given structural knowledge of the PDE family of interest, is still poorly understood. We seek to remedy this gap by studying the benefits of weight-tied neural network architectures for steady-state PDEs. To achieve this, we first demonstrate that the solution of most steady-state PDEs can be expressed as a fixed point of a non-linear operator. Motivated by this observation, we propose FNO-DEQ, a deep equilibrium variant of the FNO architecture that directly solves for the solution of a steady-state PDE as the infinite-depth fixed point of an implicit operator layer using a black-box root solver and differentiates analytically through this fixed point resulting in $\\mathcal{O}(1)$ training memory. Our experiments indicate that FNO-DEQ-based architectures outperform FNO-based baselines with $4\\times$ the number of parameters in predicting the solution to steady-state PDEs such as Darcy Flow and steady-state incompressible Navier-Stokes. Finally, we show FNO-DEQ is more robust when trained with datasets with more noisy observations than the FNO-based baselines, demonstrating the benefits of using appropriate inductive biases in architectural design for different neural network based PDE solvers. Further, we show a universal approximation result that demonstrates that FNO-DEQ can approximate the solution to any steady-state PDE that can be written as a fixed point equation.",
+    "citationCount": 13,
+    "referenceCount": 41
+}

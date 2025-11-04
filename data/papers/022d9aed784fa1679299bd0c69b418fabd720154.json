@@ -1,0 +1,46 @@
+{
+    "paperId": "022d9aed784fa1679299bd0c69b418fabd720154",
+    "title": "Rapid, accurate, precise and reproducible ligand–protein binding free energy prediction",
+    "year": 2020,
+    "venue": "Interface Focus",
+    "authors": [
+        "S. Wan",
+        "Agastya P. Bhati",
+        "S. Zasada",
+        "P. Coveney"
+    ],
+    "doi": "10.1098/rsfs.2020.0007",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/022d9aed784fa1679299bd0c69b418fabd720154",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsfs.2020.0007",
+    "publicationTypes": [
+        "Review",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Chemistry",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A central quantity of interest in molecular biology and medicine is the free energy of binding of a molecule to a target biomacromolecule. Until recently, the accurate prediction of binding affinity had been widely regarded as out of reach of theoretical methods owing to the lack of reproducibility of the available methods, not to mention their complexity, computational cost and time-consuming procedures. The lack of reproducibility stems primarily from the chaotic nature of classical molecular dynamics (MD) and the associated extreme sensitivity of trajectories to their initial conditions. Here, we review computational approaches for both relative and absolute binding free energy calculations, and illustrate their application to a diverse set of ligands bound to a range of proteins with immediate relevance in a number of medical domains. We focus on ensemble-based methods which are essential in order to compute statistically robust results, including two we have recently developed, namely thermodynamic integration with enhanced sampling and enhanced sampling of MD with an approximation of continuum solvent. Together, these form a set of rapid, accurate, precise and reproducible free energy methods. They can be used in real-world problems such as hit-to-lead and lead optimization stages in drug discovery, and in personalized medicine. These applications show that individual binding affinities equipped with uncertainty quantification may be computed in a few hours on a massive scale given access to suitable high-end computing resources and workflow automation. A high level of accuracy can be achieved using these approaches.",
+    "citationCount": 111,
+    "referenceCount": 174
+}

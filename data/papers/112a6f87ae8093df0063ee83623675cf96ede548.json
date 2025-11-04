@@ -1,0 +1,32 @@
+{
+    "paperId": "112a6f87ae8093df0063ee83623675cf96ede548",
+    "title": "Efficient Selection of Informative Alternative Relational Query Plans for Database Education",
+    "year": 2022,
+    "venue": "",
+    "authors": [
+        "Hu Wang",
+        "Hui Li",
+        "S. Bhowmick",
+        "Zihao Ma",
+        "Jia Cui"
+    ],
+    "doi": null,
+    "arxivId": "2210.13722",
+    "url": "https://www.semanticscholar.org/paper/112a6f87ae8093df0063ee83623675cf96ede548",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A key learning goal of learners taking database systems course is to understand how SQL queries are processed in an RDBMS in practice. To this end, comprehension of the cost-based comparison of different plan choices to select the query execution plan (QEP) of a query is paramount. Unfortunately, off-the-shelf RDBMS typically only expose the selected QEP to users without revealing information about representative alternative query plans considered during QEP selection in a learner-friendly manner, hindering the learning process. In this paper, we present a novel end-to-end and generic framework called ARENA that facilitates exploration of informative alternative query plans of a given SQL query to aid the comprehension of QEP selection. Under the hood, ARENA addresses a novel problem called alternative plan selection problem (TIPS) which aims to discover a set of k alternative plans from the underlying plan space so that the plan interestingness of the set is maximized. Specifically, we explore two variants of the problem, namely batch TIPS and incremental TIPS, to cater to diverse set of learners. Due to the computational hardness of the problem, we present a 2 approximation algorithm to address it efficiently. Exhaustive experimental study with real-world learners demonstrates the effectiveness of arena in enhancing learners'understanding of the alternative plan choices considered during QEP selection.",
+    "citationCount": 0,
+    "referenceCount": 49
+}

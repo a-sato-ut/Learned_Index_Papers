@@ -1,0 +1,40 @@
+{
+    "paperId": "dab91fc8eddb34879b1014b69945dc6575ba1742",
+    "title": "Gap-Dependent Bounds for Federated Q-learning",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Haochen Zhang",
+        "Zhong Zheng",
+        "Lingzhou Xue"
+    ],
+    "doi": "10.48550/arXiv.2502.02859",
+    "arxivId": "2502.02859",
+    "url": "https://www.semanticscholar.org/paper/dab91fc8eddb34879b1014b69945dc6575ba1742",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present the first gap-dependent analysis of regret and communication cost for on-policy federated $Q$-Learning in tabular episodic finite-horizon Markov decision processes (MDPs). Existing FRL methods focus on worst-case scenarios, leading to $\\sqrt{T}$-type regret bounds and communication cost bounds with a $\\log T$ term scaling with the number of agents $M$, states $S$, and actions $A$, where $T$ is the average total number of steps per agent. In contrast, our novel framework leverages the benign structures of MDPs, such as a strictly positive suboptimality gap, to achieve a $\\log T$-type regret bound and a refined communication cost bound that disentangles exploration and exploitation. Our gap-dependent regret bound reveals a distinct multi-agent speedup pattern, and our gap-dependent communication cost bound removes the dependence on $MSA$ from the $\\log T$ term. Notably, our gap-dependent communication cost bound also yields a better global switching cost when $M=1$, removing $SA$ from the $\\log T$ term.",
+    "citationCount": 3,
+    "referenceCount": 99
+}

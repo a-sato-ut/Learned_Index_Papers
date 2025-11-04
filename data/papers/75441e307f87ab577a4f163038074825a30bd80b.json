@@ -1,0 +1,34 @@
+{
+    "paperId": "75441e307f87ab577a4f163038074825a30bd80b",
+    "title": "A Comparison of Supervised Learning to Match Methods for Product Search",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "F. Sarvi",
+        "Nikos Voskarides",
+        "Lois Mooiman",
+        "Sebastian Schelter",
+        "M. de Rijke"
+    ],
+    "doi": null,
+    "arxivId": "2007.10296",
+    "url": "https://www.semanticscholar.org/paper/75441e307f87ab577a4f163038074825a30bd80b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The vocabulary gap is a core challenge in information retrieval (IR). In e-commerce applications like product search, the vocabulary gap is reported to be a bigger challenge than in more traditional application areas in IR, such as news search or web search. As recent learning to match methods have made important advances in bridging the vocabulary gap for these traditional IR areas, we investigate their potential in the context of product search. In this paper we provide insights into using recent learning to match methods for product search. We compare both effectiveness and efficiency of these methods in a product search setting and analyze their performance on two product search datasets, with 50,000 queries each. One is an open dataset made available as part of a community benchmark activity at CIKM 2016. The other is a proprietary query log obtained from a European e-commerce platform. This comparison is conducted towards a better understanding of trade-offs in choosing a preferred model for this task. We find that (1) models that have been specifically designed for short text matching, like MV-LSTM and DRMMTKS, are consistently among the top three methods in all experiments; however, taking efficiency and accuracy into account at the same time, ARC-I is the preferred model for real world use cases; and (2) the performance from a state-of-the-art BERT-based model is mediocre, which we attribute to the fact that the text BERT is pre-trained on is very different from the text we have in product search. We also provide insights into factors that can influence model behavior for different types of query, such as the length of retrieved list, and query complexity, and discuss the implications of our findings for e-commerce practitioners, with respect to choosing a well performing method.",
+    "citationCount": 6,
+    "referenceCount": 45
+}

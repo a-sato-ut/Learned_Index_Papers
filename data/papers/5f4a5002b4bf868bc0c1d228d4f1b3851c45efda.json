@@ -1,0 +1,33 @@
+{
+    "paperId": "5f4a5002b4bf868bc0c1d228d4f1b3851c45efda",
+    "title": "A Read Performance Analysis with Storage Hierarchy in Modern KVS: A RocksDB Case",
+    "year": 2022,
+    "venue": "IEEE Non-Volatile Memory System and Applications Symposium",
+    "authors": [
+        "Seehwan Yoo",
+        "Hojin Shin",
+        "Sunghyun Lee",
+        "Jongmoo Choi"
+    ],
+    "doi": "10.1109/NVMSA56066.2022.00017",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5f4a5002b4bf868bc0c1d228d4f1b3851c45efda",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper presents a performance analysis of a modern key-value store (KVS), RocksDB. RocksDB runs with two major data structures, Memtable and SSTable. Memtable is an in-memory data structure while SSTable is an in-storage data structure where both implement the log-structured merge tree. Our experiments show that the read performance can be characterized by multiple parameters around the Memtable and SSTable. In specific, Memtable access latency is affected by 1) the traversal time of the in-memory data structure, skiplist, 2) micro-architecture parameters such as CPU cache and TLB, and 3) access pattern. SSTable access latency is influenced by 1) block cache utilization, 2) number of storage blocks accessed, and 3) interference of internal operations such as compaction. We believe that the result could be beneficial in developing modern KVS with predictable performance.",
+    "citationCount": 2,
+    "referenceCount": 17
+}

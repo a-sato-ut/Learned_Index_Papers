@@ -1,0 +1,37 @@
+{
+    "paperId": "c087561f35f7150631b95794e60e51fe194f2bc9",
+    "title": "A Practical Theory of Generalization in Selectivity Learning",
+    "year": 2024,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Peizhi Wu",
+        "Haoshu Xu",
+        "Ryan Marcus",
+        "Z. Ives"
+    ],
+    "doi": "10.14778/3725688.3725708",
+    "arxivId": "2409.07014",
+    "url": "https://www.semanticscholar.org/paper/c087561f35f7150631b95794e60e51fe194f2bc9",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Query-driven machine learning models\n have emerged as a promising estimation technique for query selectivities. Yet, surprisingly little is known about the efficacy of these techniques from a theoretical perspective, as there exist substantial gaps between practical solutions and state-of-the-art (SOTA) theory based on the Probably Approximately Correct (PAC) learning framework. In this paper, we aim to bridge the gaps between theory and practice. First, we demonstrate that selectivity predictors induced by\n signed measures\n are learnable, which relaxes the reliance on\n probability measures\n in SOTA theory. More importantly, beyond the PAC learning framework (which only allows us to characterize how the model behaves when both training and test workloads are drawn from the\n same\n distribution), we establish, under mild assumptions, that selectivity predictors from this class exhibit favorable\n out-of-distribution\n (OOD) generalization error bounds.\n \n These theoretical advances provide us with a better understanding of both the in-distribution and OOD generalization capabilities of query-driven selectivity learning, and facilitate the design of two general strategies to improve OOD generalization for existing query-driven selectivity models. We empirically verify that our techniques help query-driven selectivity models generalize significantly better to OOD queries both in terms of prediction accuracy and query latency performance, while maintaining their superior in-distribution generalization performance.",
+    "citationCount": 2,
+    "referenceCount": 66
+}

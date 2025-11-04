@@ -1,0 +1,33 @@
+{
+    "paperId": "995383ceea956f5d804d1cd9c81a86bd04e93327",
+    "title": "FedVSE: A Privacy-Preserving and Efficient Vector Search Engine for Federated Databases",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Zeheng Fan",
+        "Yuxiang Zeng",
+        "Zhuanglin Zheng",
+        "Yongxin Tong"
+    ],
+    "doi": "10.14778/3750601.3750674",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/995383ceea956f5d804d1cd9c81a86bd04e93327",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficient vector search is a foundational capability of vector databases. However, most prior research overlooks its critical role in federated databases for applications like financial risk control and smart healthcare. In these privacy-sensitive scenarios, a vector search engine must not only deliver high performance but also guarantee privacy across federated databases. Current solutions, however, struggle with scalability for high-dimensional vectors, and offer limited query support. To bridge this gap, this paper introduces FedVSE, a privacy-preserving vector search engine for federated databases. FedVSE supports both KNN and hybrid queries, matching the versatility of modern vector databases. It leverages Intel SGX for hardware-enabled security and offers highly optimized query processing via indexing and pruning. Conference audiences can interact with FedVSE in real time and observe how it enables real-world services like cross-platform trajectory similarity search.",
+    "citationCount": 0,
+    "referenceCount": 10
+}

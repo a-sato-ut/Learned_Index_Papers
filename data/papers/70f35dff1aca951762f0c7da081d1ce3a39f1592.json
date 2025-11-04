@@ -1,0 +1,31 @@
+{
+    "paperId": "70f35dff1aca951762f0c7da081d1ce3a39f1592",
+    "title": "CPRQ: Cost Prediction for Range Queries in Moving Object Databases",
+    "year": 2021,
+    "venue": "ISPRS Int. J. Geo Inf.",
+    "authors": [
+        "S. Guo",
+        "Jianqiu Xu"
+    ],
+    "doi": "10.3390/ijgi10070468",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/70f35dff1aca951762f0c7da081d1ce3a39f1592",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2220-9964/10/7/468/pdf?version=1625735308",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Predicting query cost plays an important role in moving object databases. Accurate predictions help database administrators effectively schedule workloads and achieve optimal resource allocation strategies. There are some works focusing on query cost prediction, but most of them employ analytical methods to obtain an index-based cost prediction model. The accuracy can be seriously challenged as the workload of the database management system becomes more and more complex. Differing from the previous work, this paper proposes a method called CPRQ (Cost Prediction of Range Query) which is based on machine-learning techniques. The proposed method contains four learning models: the polynomial regression model, the decision tree regression model, the random forest regression model, and the KNN (k-Nearest Neighbor) regression model. Using R-squared and MSE (Mean Squared Error) as measurements, we perform an extensive experimental evaluation. The results demonstrate that CPRQ achieves high accuracy and the random forest regression model obtains the best predictive performance (R-squared is 0.9695 and MSE is 0.154).",
+    "citationCount": 3,
+    "referenceCount": 47
+}

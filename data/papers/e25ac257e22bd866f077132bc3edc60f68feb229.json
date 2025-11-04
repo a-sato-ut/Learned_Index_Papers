@@ -1,0 +1,34 @@
+{
+    "paperId": "e25ac257e22bd866f077132bc3edc60f68feb229",
+    "title": "Facilitating SQL Query Composition and Analysis",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Zainab Zolaktaf",
+        "Mostafa Milani",
+        "R. Pottinger"
+    ],
+    "doi": "10.1145/3318464.3380602",
+    "arxivId": "2002.09091",
+    "url": "https://www.semanticscholar.org/paper/e25ac257e22bd866f077132bc3edc60f68feb229",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2002.09091",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Formulating efficient SQL queries requires several cycles of tuning and execution. We examine methods that can accelerate and improve this interaction by providing insights about SQL queries prior to execution. We achieve this by predicting properties such as the query answer size, its run-time, and error class. Unlike existing approaches, our approach does not rely on any statistics from the database instance or query execution plans. Our approach is based on using data-driven machine learning techniques that rely on large query workloads to model SQL queries and their properties. Empirical results show that the neural network models are more accurate in predicting several query properties.",
+    "citationCount": 17,
+    "referenceCount": 65
+}

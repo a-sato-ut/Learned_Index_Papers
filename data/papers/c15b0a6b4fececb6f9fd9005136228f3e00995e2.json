@@ -1,0 +1,35 @@
+{
+    "paperId": "c15b0a6b4fececb6f9fd9005136228f3e00995e2",
+    "title": "Linguistically-Informed Multilingual Instruction Tuning: Is There an Optimal Set of Languages to Tune?",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Gurkan Soykan",
+        "Gözde Gül Şahin"
+    ],
+    "doi": "10.48550/arXiv.2410.07809",
+    "arxivId": "2410.07809",
+    "url": "https://www.semanticscholar.org/paper/c15b0a6b4fececb6f9fd9005136228f3e00995e2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multilingual language models often perform unevenly across different languages due to limited generalization capabilities for some languages. This issue is significant because of the growing interest in making universal language models that work well for all languages. Instruction tuning with multilingual instruction-response pairs has been used to improve model performance across various languages. However, this approach is challenged by high computational costs, a lack of quality tuning data for all languages, and the\"curse of multilinguality\"-- the performance drop per language after adding many languages. Recent studies have found that working with datasets with few languages and a smaller number of instances can be beneficial. Yet, there exists no systematic investigation into how choosing different languages affects multilingual instruction tuning. Our study proposes a method to select languages for instruction tuning in a linguistically informed way, aiming to boost model performance across languages and tasks. We use a simple algorithm to choose diverse languages and test their effectiveness on various benchmarks and open-ended questions. Our results show that this careful selection generally leads to better outcomes than choosing languages at random. We suggest a new and simple way of enhancing multilingual models by selecting diverse languages based on linguistic features that could help develop better multilingual systems and guide dataset creation efforts. All resources, including the code for language selection and multilingual instruction tuning, are made available in our official repository at https://github.com/GGLAB-KU/ling-informed-mit enabling reproducibility and further research in this area.",
+    "citationCount": 1,
+    "referenceCount": 48
+}

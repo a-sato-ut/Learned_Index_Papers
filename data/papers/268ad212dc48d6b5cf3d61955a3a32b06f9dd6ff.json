@@ -1,0 +1,36 @@
+{
+    "paperId": "268ad212dc48d6b5cf3d61955a3a32b06f9dd6ff",
+    "title": "Auto-Tuning with Reinforcement Learning for Permissioned Blockchain Systems",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Mingxuan Li",
+        "Yazhe Wang",
+        "Shuai Ma",
+        "Chao Liu",
+        "Dongdong Huo",
+        "Yu Wang",
+        "Zhen Xu"
+    ],
+    "doi": "10.14778/3579075.3579076",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/268ad212dc48d6b5cf3d61955a3a32b06f9dd6ff",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In a permissioned blockchain, performance dictates its development, which is substantially influenced by its parameters. However, research on auto-tuning for better performance has somewhat stagnated because of the difficulty posed by distributed parameters; thus, it is possible only with difficulty to propose an effective auto-tuning optimization scheme. To alleviate this issue, we lay a solid basis for our research by first exploring the relationship between parameters and performance in Hyperledger Fabric, a permissioned blockchain, and we propose Athena, a Fabric-based auto-tuning system that can automatically provide parameter configurations for optimal performance. The key of Athena is designing a new Permissioned Blockchain Multi-Agent Deep Deterministic Policy Gradient (PB-MADDPG) to realize heterogeneous parameter-tuning optimization of different types of nodes in Fabric. Moreover, we select parameters with the most significant impact on accelerating recommendation. In its application to Fabric, a typical permissioned blockchain system, with 12 peers and 7 orderers, Athena achieves a throughput improvement of 470.45% and a latency reduction of 75.66% over the default configuration. Compared with the most advanced tuning schemes (CDBTune, Qtune, and ResTune), our method is competitive in terms of throughput and latency.",
+    "citationCount": 23,
+    "referenceCount": 43
+}

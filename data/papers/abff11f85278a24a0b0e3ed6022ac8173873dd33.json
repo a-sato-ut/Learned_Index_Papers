@@ -1,0 +1,34 @@
+{
+    "paperId": "abff11f85278a24a0b0e3ed6022ac8173873dd33",
+    "title": "Introducing Urdu Digits Dataset with Demonstration of an Efficient and Robust Noisy Decoder-Based Pseudo Example Generator",
+    "year": 2022,
+    "venue": "Symmetry",
+    "authors": [
+        "Wisal Khan",
+        "Kislay Raj",
+        "Teerath Kumar",
+        "Anisha Roy",
+        "Bin Luo"
+    ],
+    "doi": "10.3390/sym14101976",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/abff11f85278a24a0b0e3ed6022ac8173873dd33",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2073-8994/14/10/1976/pdf?version=1666597812",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the present work, we propose a novel method utilizing only a decoder for generation of pseudo-examples, which has shown great success in image classification tasks. The proposed method is particularly constructive when the data are in a limited quantity used for semi-supervised learning (SSL) or few-shot learning (FSL). While most of the previous works have used an autoencoder to improve the classification performance for SSL, using a single autoencoder may generate confusing pseudo-examples that could degrade the classifier’s performance. On the other hand, various models that utilize encoder–decoder architecture for sample generation can significantly increase computational overhead. To address the issues mentioned above, we propose an efficient means of generating pseudo-examples by using only the generator (decoder) network separately for each class that has shown to be effective for both SSL and FSL. In our approach, the decoder is trained for each class sample using random noise, and multiple samples are generated using the trained decoder. Our generator-based approach outperforms previous state-of-the-art SSL and FSL approaches. In addition, we released the Urdu digits dataset consisting of 10,000 images, including 8000 training and 2000 test images collected through three different methods for purposes of diversity. Furthermore, we explored the effectiveness of our proposed method on the Urdu digits dataset by using both SSL and FSL, which demonstrated improvement of 3.04% and 1.50% in terms of average accuracy, respectively, illustrating the superiority of the proposed method compared to the current state-of-the-art models.",
+    "citationCount": 54,
+    "referenceCount": 53
+}

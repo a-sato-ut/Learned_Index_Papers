@@ -1,0 +1,47 @@
+{
+    "paperId": "9feaba104fc41a828e2cbe2992480ae4c7c8708f",
+    "title": "Management Decisions in Manufacturing using Causal Machine Learning - To Rework, or not to Rework?",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Philipp Schwarz",
+        "Oliver Schacht",
+        "S. Klaassen",
+        "Daniel Grünbaum",
+        "Sebastian Imhof",
+        "Martin Spindler"
+    ],
+    "doi": "10.48550/arXiv.2406.11308",
+    "arxivId": "2406.11308",
+    "url": "https://www.semanticscholar.org/paper/9feaba104fc41a828e2cbe2992480ae4c7c8708f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Economics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we present a data-driven model for estimating optimal rework policies in manufacturing systems. We consider a single production stage within a multistage, lot-based system that allows for optional rework steps. While the rework decision depends on an intermediate state of the lot and system, the final product inspection, and thus the assessment of the actual yield, is delayed until production is complete. Repair steps are applied uniformly to the lot, potentially improving some of the individual items while degrading others. The challenge is thus to balance potential yield improvement with the rework costs incurred. Given the inherently causal nature of this decision problem, we propose a causal model to estimate yield improvement. We apply methods from causal machine learning, in particular double/debiased machine learning (DML) techniques, to estimate conditional treatment effects from data and derive policies for rework decisions. We validate our decision model using real-world data from opto-electronic semiconductor manufacturing, achieving a yield improvement of 2 - 3% during the color-conversion process of white light-emitting diodes (LEDs).",
+    "citationCount": 2,
+    "referenceCount": 53
+}

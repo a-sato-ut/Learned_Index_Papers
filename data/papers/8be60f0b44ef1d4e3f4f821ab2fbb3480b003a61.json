@@ -1,0 +1,34 @@
+{
+    "paperId": "8be60f0b44ef1d4e3f4f821ab2fbb3480b003a61",
+    "title": "Spatiotemporal Anomaly Object Detection Using Edge Cloud Collaborative For Real-Time Surveillance Video",
+    "year": 2023,
+    "venue": "2023 9th International Conference on Advanced Computing and Communication Systems (ICACCS)",
+    "authors": [
+        "Aarthy R",
+        "Viranth D",
+        "Ramya S",
+        "R. S",
+        "Divyashri S"
+    ],
+    "doi": "10.1109/ICACCS57279.2023.10112775",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8be60f0b44ef1d4e3f4f821ab2fbb3480b003a61",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Video Object Detection is a method that enables computer systems to examine video and identify items in the scene. Object detection is computer vision technology that tries to find items in images or videos. The objective of Video Object Detection is to enable the system to detect, identify, and categorize items in the frame. In normal closed-circuit television footage, only the videos are captured and recorded. So, in order to trigger the detection of events automatically, an Internet of Things-enabled camera system was used. In the Internet of Things applications, the videos 0are stored and processed in a centralized server which causes time latency. In order to overcome this problem, a simple hybrid instantaneous online video object detection system was proposed. In this system, an edge and cloud collaborative technology was used. The current video object detection methodology uses Deep Neural Network to detect objects present in the scene. For real-time streaming video, the object could not be detected accurately using Deep Convolutional Neural Network because of low end-to-end latency, and also it was not applicable for latency-sensitive Internet of Things applications. The proposed work focuses on detecting vehicles traveling in the wrong lane of the road by analyzing real-time surveillance video. For detecting this anomaly, an edge cloud computing technology was proposed. In this technology, data are analyzed using the Kalman filter algorithm and with an entry-exit algorithm, and the result was stored in the cloud. By implementing the above technologies, both processing and communication time are reduced and instantaneous anomaly detection was achieved.",
+    "citationCount": 1,
+    "referenceCount": 17
+}

@@ -1,0 +1,40 @@
+{
+    "paperId": "88133c3a698022bcc747568bcdb55feef955b89e",
+    "title": "LpBound in Action: Cardinality Estimation with One-Sided Guarantees",
+    "year": 2025,
+    "venue": "SIGMOD Conference Companion",
+    "authors": [
+        "Christoph Mayer",
+        "Haozhe Zhang",
+        "Mahmoud Abo Khamis",
+        "Dan Olteanu",
+        "Dan Suciu"
+    ],
+    "doi": "10.1145/3722212.3725114",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/88133c3a698022bcc747568bcdb55feef955b89e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We demonstrate LpBound, a cardinality estimator that computes guaranteed upper bounds on the output size of a given query. Among the wealth of traditional, learned, and pessimistic estimators, LpBound's uniqueness lies in its use of two key ingredients: (1) data statistics based on ℓp-norms of degree sequences of the join columns, and (2) a linear program formulation of the cardinality estimation problem, whose constraints are the Shannon inequalities and new information inequalities derived from data statistics. LpBound comes with a visual interface accessible in the browser. The users can interact with the interface by choosing a query from the JOB, STATS, and Subgraph Matching benchmarks and the range of ℓp-norms available to LpBound. Within a few milliseconds, LpBound computes an upper bound on the query output size. This bound is explained by a closed-form formula using the available ℓp-norms. The users can also inspect the estimation errors of LpBound and a variety of other estimators.",
+    "citationCount": 1,
+    "referenceCount": 15
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "ef2de1f9aa1e88ff8d6e82439134ef96f023b6b2",
+    "title": "Hetero-Rec++: Modelling-based Robust and Optimal Deployment of Embeddings Recommendations",
+    "year": 2023,
+    "venue": "International Conference on AI-ML-Systems",
+    "authors": [
+        "Ashwin Krishnan",
+        "M. Nambiar",
+        "Rekha Singhal"
+    ],
+    "doi": "10.1145/3639856.3639878",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ef2de1f9aa1e88ff8d6e82439134ef96f023b6b2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep Neural Network (DNN)-based recommendation models (RMs) are widely adopted in enterprise applications to suggest products, videos, tweets, and posts to users. These models heavily rely on embedding tables, which contain latent embedding vectors and are accessed to evaluate the probability of user interactions. Recently published, Hetero-Rec framework leverages the embedding access history to allocate storage partitions in heterogeneous memory architecture, aiming to maximize the chance of having frequently accessed embeddings available in faster memory. In this work, we extend the study of Hetero-Rec to larger embedding tables (up to 350), low-hot embedding tables, and evaluate the end-to-end speedups. Consequently, we present Hetro-Rec++ with heuristic based pre-optimizer and advanced formulation of optimizer’s cost function. Further, we demonstrate its effectiveness in reducing the embedding’s average fetch latency and hence, improving the inference latency for RMs deployed on Field Programmable Gate Arrays (FPGAs) with heterogeneous memory architectures.",
+    "citationCount": 1,
+    "referenceCount": 36
+}

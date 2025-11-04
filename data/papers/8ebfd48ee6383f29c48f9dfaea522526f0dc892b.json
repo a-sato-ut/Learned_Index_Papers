@@ -1,0 +1,36 @@
+{
+    "paperId": "8ebfd48ee6383f29c48f9dfaea522526f0dc892b",
+    "title": "Exploring the Data Wilderness through Examples",
+    "year": 2019,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "D. Mottin",
+        "Matteo Lissandrini",
+        "Yannis Velegrakis",
+        "Themis Palpanas"
+    ],
+    "doi": "10.1145/3299869.3314031",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8ebfd48ee6383f29c48f9dfaea522526f0dc892b",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://people.cs.aau.dk/~matteo/pdf/SIGMOD19-exq-tutorial.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Exploration is one of the primordial ways to accrue knowledge about the world and its nature. As we accumulate, mostly automatically, data at unprecedented volumes and speed, our datasets have become complex and hard to understand. In this context exploratory search provides a handy tool for progressively gather the necessary knowledge by starting from a tentative query that hopefully leads to answers at least partially relevant and that can provide cues about the next queries to issue. Recently, we have witnessed a rediscovery of the so-called example-based methods, in which the user or the analyst circumvent query languages by using examples as input. This shift in semantics has led to a number of methods receiving as query a set of example members of the answer set. The search system then infers the entire answer set based on the given examples and any additional information provided by the underlying database. In this tutorial, we present an excursus over the main example-based methods for exploratory analysis, show techniques tailored to different data types, and provide a unifying view of the problem. We show how different data types require different techniques, and present algorithms that are specifically designed for relational, textual, and graph data.",
+    "citationCount": 11,
+    "referenceCount": 54
+}

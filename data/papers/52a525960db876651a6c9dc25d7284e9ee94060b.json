@@ -1,0 +1,35 @@
+{
+    "paperId": "52a525960db876651a6c9dc25d7284e9ee94060b",
+    "title": "Design and Conceptual Development of a Novel Hybrid Intelligent Decision Support System Applied towards the Prevention and Early Detection of Forest Fires",
+    "year": 2023,
+    "venue": "Forests",
+    "authors": [
+        "Manuel Casal-Guisande",
+        "J. Bouza-Rodríguez",
+        "Jorge Cerqueiro-Pequeño",
+        "A. Comesaña-Campos"
+    ],
+    "doi": "10.3390/f14020172",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/52a525960db876651a6c9dc25d7284e9ee94060b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1999-4907/14/2/172/pdf?version=1675948069",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Forest fires have become a major problem that every year has devastating consequences at the environmental level, negatively impacting the social and economic spheres of the affected regions. Aiming to mitigate these terrible effects, intelligent prediction models focused on early fire detection are becoming common practice. Considering mainly a preventive approach, these models often use tools that indifferently apply statistical or symbolic inference techniques. However, exploring the potential for the hybrid use of both, as is already being done in other research areas, is a significant novelty with direct application to early fire detection. In this line, this work proposes the design, development, and proof of concept of a new intelligent hybrid system that aims to provide support to the decisions of the teams responsible for defining strategies for the prevention, detection, and extinction of forest fires. The system determines three risk levels: a general one called Objective Technical Fire Risk, based on machine learning algorithms, which determines the global danger of a fire in some area of the region under study, and two more specific others which indicate the risk over a limited area of the region. These last two risk levels, expressed in matrix form and called Technical Risk Matrix and Expert Risk Matrix, are calculated through a convolutional neural network and an expert system, respectively. After that, they are combined by means of another expert system to determine the Global Risk Matrix that quantifies the risk of fire in each of the study regions and generates a visual representation of these results through a color map of the region itself. The proof of concept of the system has been carried out on a set of historical data from fires that occurred in the Montesinho Natural Park (Portugal), demonstrating its potential utility as a tool for the prevention and early detection of forest fires. The intelligent hybrid system designed has demonstrated excellent predictive capabilities in such a complex environment as forest fires, which are conditioned by multiple factors. Future improvements associated with data integration and the formalization of knowledge bases will make it possible to obtain a standard tool that could be used and validated in real time in different forest areas.",
+    "citationCount": 13,
+    "referenceCount": 40
+}

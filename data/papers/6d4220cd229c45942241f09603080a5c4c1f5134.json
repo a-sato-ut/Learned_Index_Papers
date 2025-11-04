@@ -1,0 +1,36 @@
+{
+    "paperId": "6d4220cd229c45942241f09603080a5c4c1f5134",
+    "title": "Improving End-of-Life Care for COPD Patients: Design and Development of an Intelligent Clinical Decision Support System to Predict One-Year Mortality After Acute Exacerbations",
+    "year": 2025,
+    "venue": "International Journal of Intelligent Systems",
+    "authors": [
+        "Manuel Casal-Guisande",
+        "C. Represas-Represas",
+        "R. Golpe",
+        "A. Comesaña-Campos",
+        "A. Fernández-García",
+        "M. Torres-Durán",
+        "Alberto Fernández-Villar"
+    ],
+    "doi": "10.1155/int/5556476",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6d4220cd229c45942241f09603080a5c4c1f5134",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Chronic obstructive pulmonary disease (COPD) is a complex and heterogeneous disease, which presents a significant challenge in identifying patients at high risk of short‐ and medium‐term mortality. Such complexity poses challenges to clinical decision‐making and the effective planning of end‐of‐life care in these patients. This study proposes the development of a novel intelligent clinical decision support system, designed to predict 1‐year mortality in COPD patients following an acute exacerbation. The system is constructed upon a database of over 500 patients, comprising demographic, clinical, and social variables. First, a feature selection process is conducted to identify the variables that possess the greatest predictive power. Based on these, the data for each patient are encapsulated in a pseudosymbol construct that represents and consolidates them. The construction of the pseudosymbol comprises two distinct steps: (1) transforming the variables into a sound composition and (2) generating the corresponding spectrogram, which constitutes a visual representation (i.e., an image). The system employs a convolutional neural network, SqueezeNet, as the inference engine to calculate the 1‐year mortality risk based on the images. Ten percent of the data was reserved for testing the system, achieving an area under the ROC curve (AUC) close to 0.85, indicating a high predictive power. Despite this promising initial result, further clinical validations in real‐world settings will be necessary to confirm the system’s applicability and usefulness.",
+    "citationCount": 1,
+    "referenceCount": 13
+}

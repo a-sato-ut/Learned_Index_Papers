@@ -1,0 +1,35 @@
+{
+    "paperId": "0ba9d086b1d50dc1ce5605ea7c04f4f2ad322cbf",
+    "title": "Early Exit Strategies for Learning-to-Rank Cascades",
+    "year": 2023,
+    "venue": "IEEE Access",
+    "authors": [
+        "Francesco Busolin",
+        "C. Lucchese",
+        "F. M. Nardini",
+        "Salvatore Orlando",
+        "Raffaele Perego",
+        "Salvatore Trani"
+    ],
+    "doi": "10.1109/ACCESS.2023.3331088",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0ba9d086b1d50dc1ce5605ea7c04f4f2ad322cbf",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10311562.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The ranking pipelines of modern search platforms commonly exploit complex machine-learned models and have a significant impact on the query response time. In this paper, we discuss several techniques to speed up the document scoring process based on large ensembles of decision trees without hindering ranking quality. Specifically, we study the problem of document early exit within the framework of a cascading ranker made of three components: 1) an efficient but sub-optimal ranking stage; 2) a pruner that exploits signals from the previous component to force the early exit of documents classified as not relevant; and 3) a final high-quality component aimed at finely ranking the documents that survived the previous phase. To maximize speedup and preserve effectiveness, we aim to increase the accuracy of the pruner in identifying non-relevant documents without early exiting documents that are likely to be ranked among the final top-<inline-formula> <tex-math notation=\"LaTeX\">$k$ </tex-math></inline-formula> results. We propose an in-depth study of heuristic and machine-learning techniques for designing the pruner. While the heuristic technique only exploits the score/ranking information supplied by the first sub-optimal ranker, the machine-learned solution named LEAR uses these signals as additional features along with those representing query-document pairs. Moreover, we study alternative solutions to implement the first ranker, either a small prefix of the original forest or an auxiliary machine-learned ranker explicitly trained for this purpose. We evaluated our techniques through reproducible experiments using publicly available datasets and state-of-the-art competitors. The experiments confirm that our early-exit strategies achieve speedups ranging from <inline-formula> <tex-math notation=\"LaTeX\">$3\\times $ </tex-math></inline-formula> to <inline-formula> <tex-math notation=\"LaTeX\">$10\\times $ </tex-math></inline-formula> without statistically significant differences in effectiveness.",
+    "citationCount": 3,
+    "referenceCount": 36
+}

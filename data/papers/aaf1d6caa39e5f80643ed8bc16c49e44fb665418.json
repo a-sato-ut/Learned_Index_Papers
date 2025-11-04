@@ -1,0 +1,40 @@
+{
+    "paperId": "aaf1d6caa39e5f80643ed8bc16c49e44fb665418",
+    "title": "Multi-Task and Multi-Scene Unified Ranking Model for Online Advertising",
+    "year": 2021,
+    "venue": "2021 IEEE International Conference on Big Data (Big Data)",
+    "authors": [
+        "Shulong Tan",
+        "Meifang Li",
+        "Weijie Zhao",
+        "Yandan Zheng",
+        "Xin Pei",
+        "Ping Li"
+    ],
+    "doi": "10.1109/BigData52589.2021.9671920",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/aaf1d6caa39e5f80643ed8bc16c49e44fb665418",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Online advertising and recommender systems often pose a multi-task problem, which tries to predict not only users’ click-through rate (CTR) but also the post-click conversion rate (CVR). Meanwhile, multi-functional information systems commonly provide multiple service scenarios for users, such as news feed, search engine and product suggestions. Users may leave similar interest information across various service scenarios. Thus the prediction/ranking model should be conducted in a multi-scene manner. This paper develops a unified r a nking m o del for this multi-task and multi-scene problem. Compared to previous works, our model explores independent/non-shared embeddings for each task and scene, which reduces the coupling between tasks and scenes. New tasks or scenes could be added easily. Besides, a simplified n e twork i s c h osen b e yond t h e embedding layer, which largely improves the ranking efficiency f o r online services. Extensive offline a n d o n line e x periments demonstrated the superiority of the proposed unified r a nking model.",
+    "citationCount": 9,
+    "referenceCount": 35
+}

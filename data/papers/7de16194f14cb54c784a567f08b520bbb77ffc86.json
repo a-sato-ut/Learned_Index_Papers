@@ -1,0 +1,41 @@
+{
+    "paperId": "7de16194f14cb54c784a567f08b520bbb77ffc86",
+    "title": "Equilibrium Aggregation: Encoding Sets via Optimization",
+    "year": 2022,
+    "venue": "Conference on Uncertainty in Artificial Intelligence",
+    "authors": [
+        "Sergey Bartunov",
+        "F. Fuchs",
+        "T. Lillicrap"
+    ],
+    "doi": null,
+    "arxivId": "2202.12795",
+    "url": "https://www.semanticscholar.org/paper/7de16194f14cb54c784a567f08b520bbb77ffc86",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Processing sets or other unordered, potentially variable-sized inputs in neural networks is usually handled by aggregating a number of input tensors into a single representation. While a number of aggregation methods already exist from simple sum pooling to multi-head attention, they are limited in their representational power both from theoretical and empirical perspectives. On the search of a principally more powerful aggregation strategy, we propose an optimization-based method called Equilibrium Aggregation. We show that many existing aggregation methods can be recovered as special cases of Equilibrium Aggregation and that it is provably more efficient in some important cases. Equilibrium Aggregation can be used as a drop-in replacement in many existing architectures and applications. We validate its efficiency on three different tasks: median estimation, class counting, and molecular property prediction. In all experiments, Equilibrium Aggregation achieves higher performance than the other aggregation techniques we test.",
+    "citationCount": 9,
+    "referenceCount": 71
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "dae81bffc67ea81a325f12107e6d5aa07ec7e0fb",
+    "title": "Natural Image Matting via Guided Contextual Attention",
+    "year": 2020,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Yaoyi Li",
+        "Hongtao Lu"
+    ],
+    "doi": "10.1609/AAAI.V34I07.6809",
+    "arxivId": "2001.04069",
+    "url": "https://www.semanticscholar.org/paper/dae81bffc67ea81a325f12107e6d5aa07ec7e0fb",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/6809/6663",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Over the last few years, deep learning based approaches have achieved outstanding improvements in natural image matting. Many of these methods can generate visually plausible alpha estimations, but typically yield blurry structures or textures in the semitransparent area. This is due to the local ambiguity of transparent objects. One possible solution is to leverage the far-surrounding information to estimate the local opacity. Traditional affinity-based methods often suffer from the high computational complexity, which are not suitable for high resolution alpha estimation. Inspired by affinity-based method and the successes of contextual attention in inpainting, we develop a novel end-to-end approach for natural image matting with a guided contextual attention module, which is specifically designed for image matting. Guided contextual attention module directly propagates high-level opacity information globally based on the learned low-level affinity. The proposed method can mimic information flow of affinity-based methods and utilize rich features learned by deep neural networks simultaneously. Experiment results on Composition-1k testing set and alphamatting.com benchmark dataset demonstrate that our method outperforms state-of-the-art approaches in natural image matting. Code and models are available at https://github.com/Yaoyi-Li/GCA-Matting.",
+    "citationCount": 176,
+    "referenceCount": 42
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "c4ce632a0f622a35ecc9de4c49ee2fd230425735",
+    "title": "EPS-MoE: Expert Pipeline Scheduler for Cost-Efficient MoE Inference",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yulei Qian",
+        "Fengcun Li",
+        "Xiangyang Ji",
+        "Xiaoyu Zhao",
+        "Jianchao Tan",
+        "Kefeng Zhang",
+        "Xunliang Cai"
+    ],
+    "doi": "10.48550/arXiv.2410.12247",
+    "arxivId": "2410.12247",
+    "url": "https://www.semanticscholar.org/paper/c4ce632a0f622a35ecc9de4c49ee2fd230425735",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Mixture-of-Experts (MoE) model has emerged as a prominent architecture in the field of Large Language Models (LLMs), providing a better balance between model performance and computational efficiency. However the General Matrix Multiply (GEMM) operations and large parameters introduce challenges related to computational efficiency and communication overhead, which become throughput bottlenecks during inference. Applying a single parallelism strategy like EP, DP, TP or a straightforward combination of them to MoE usually achieves sub-optimal inference throughput. This paper introduces EPS-MoE, a novel expert pipeline scheduler for MoE that surpasses the existing parallelism schemes. Our approach optimizes the computation of MoE FeedForward Network (FFN) modules by dynamically selecting the best kernel implementation of GroupGemm and DenseGemm for different loads and adaptively overlapping these computations with communication, leading to a substantial increase in throughput. Our experimental results demonstrate at most 52.4\\% improvement in prefill throughput compared to existing parallel inference methods. Specifically, our method accelerated the highly optimized DeepSeekV2 model from a claimed 100K tokens per second to at least 120K tokens per second.",
+    "citationCount": 6,
+    "referenceCount": 31
+}

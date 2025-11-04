@@ -1,0 +1,46 @@
+{
+    "paperId": "116175f029bf2353c3eaf806df060f7c55cb3a5a",
+    "title": "Adaptive Circuit Learning for Quantum Metrology",
+    "year": 2020,
+    "venue": "International Conference on Quantum Computing and Engineering",
+    "authors": [
+        "Ziqi Ma",
+        "P. Gokhale",
+        "Tian-Xing Zheng",
+        "Sisi Zhou",
+        "Xiaofei Yu",
+        "Liang Jiang",
+        "P. Maurer",
+        "F. Chong"
+    ],
+    "doi": "10.1109/QCE52317.2021.00063",
+    "arxivId": "2010.08702",
+    "url": "https://www.semanticscholar.org/paper/116175f029bf2353c3eaf806df060f7c55cb3a5a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2010.08702",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Quantum sensing is an important application of emerging quantum technologies. We explore whether a hybrid system of quantum sensors and quantum circuits can surpass the classical limit of sensing. In particular, we use optimization techniques to search for encoder and decoder circuits that scalably improve sensitivity under given application and noise characteristics.Our approach uses a variational algorithm that can learn a quantum sensing circuit based on platform-specific control capacity, noise, and signal distribution. The quantum circuit is composed of an encoder which prepares the optimal sensing state and a decoder which gives an output distribution containing information of the signal. We optimize the full circuit to maximize the Signal-to-Noise Ratio (SNR). Furthermore, this learning algorithm can be run on real hardware scalably by using the \"parameter-shift\" rule which enables gradient evaluation on noisy quantum circuits, avoiding the exponential cost of quantum system simulation. We demonstrate up to 13.12x SNR improvement over existing fixed protocol (GHZ), and 3.19x Classical Fisher Information (CFI) improvement over the classical limit on 15 qubits using IBM quantum computer. More notably, our algorithm overcomes the decreasing performance of existing entanglement-based protocols with increased system sizes.",
+    "citationCount": 17,
+    "referenceCount": 64
+}

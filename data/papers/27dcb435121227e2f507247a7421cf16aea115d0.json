@@ -1,0 +1,37 @@
+{
+    "paperId": "27dcb435121227e2f507247a7421cf16aea115d0",
+    "title": "Enhancing Cubes with Models to Describe Multidimensional Data",
+    "year": 2021,
+    "venue": "Information Systems Frontiers",
+    "authors": [
+        "Matteo Francia",
+        "Patrick Marcel",
+        "Verónika Peralta",
+        "S. Rizzi"
+    ],
+    "doi": "10.1007/s10796-021-10147-3",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/27dcb435121227e2f507247a7421cf16aea115d0",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s10796-021-10147-3.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Intentional Analytics Model (IAM) has been recently envisioned as a new paradigm to couple OLAP and analytics. It relies on two basic ideas: (i) letting the user explore data by expressing her analysis intentions rather than the data she needs, and (ii) returning enhanced cubes, i.e., multidimensional data annotated with knowledge insights in the form of interesting model components (e.g., clusters). In this paper we contribute to give a proof-of-concept for the IAM vision by delivering an end-to-end implementation of describe, one of the five intention operators introduced by IAM. Among the research challenges left open in IAM, those we address are (i) automatically tuning the size of models (e.g., the number of clusters), (ii) devising a measure to estimate the interestingness of model components, (iii) selecting the most effective chart or graph for visualizing each enhanced cube depending on its features, and (iv) devising a visual metaphor to display enhanced cubes and interact with them. We assess the validity of our approach in terms of user effort for formulating intentions, effectiveness, efficiency, and scalability.",
+    "citationCount": 20,
+    "referenceCount": 53
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "3b6496f92aacaf7da1ac312557b1c289b3bef543",
+    "title": "Bag of Tricks for Multimodal AutoML with Image, Text, and Tabular Data",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhiqiang Tang",
+        "Zihan Zhong",
+        "Tong He",
+        "Gerald Friedland"
+    ],
+    "doi": "10.48550/arXiv.2412.16243",
+    "arxivId": "2412.16243",
+    "url": "https://www.semanticscholar.org/paper/3b6496f92aacaf7da1ac312557b1c289b3bef543",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper studies the best practices for automatic machine learning (AutoML). While previous AutoML efforts have predominantly focused on unimodal data, the multimodal aspect remains under-explored. Our study delves into classification and regression problems involving flexible combinations of image, text, and tabular data. We curate a benchmark comprising 22 multimodal datasets from diverse real-world applications, encompassing all 4 combinations of the 3 modalities. Across this benchmark, we scrutinize design choices related to multimodal fusion strategies, multimodal data augmentation, converting tabular data into text, cross-modal alignment, and handling missing modalities. Through extensive experimentation and analysis, we distill a collection of effective strategies and consolidate them into a unified pipeline, achieving robust performance on diverse datasets.",
+    "citationCount": 2,
+    "referenceCount": 104
+}

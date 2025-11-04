@@ -1,0 +1,36 @@
+{
+    "paperId": "62b5e67315311a523cefc045c783de5360581a0c",
+    "title": "On Memristors for Enabling Energy Efficient and Enhanced Cognitive Network Functions",
+    "year": 2022,
+    "venue": "IEEE Access",
+    "authors": [
+        "Saad Saleh",
+        "B. Koldehofe"
+    ],
+    "doi": "10.1109/ACCESS.2022.3226447",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/62b5e67315311a523cefc045c783de5360581a0c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09969616.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The high performance requirements of nowadays computer networks are limiting their ability to support important requirements of the future. Two important properties essential in assuring cost-efficient computer networks and supporting new challenging network scenarios are operating energy efficient and supporting cognitive computational models. These requirements are hard to fulfill without challenging the current architecture behind network packet processing elements such as routers and switches. Notably, these are currently dominated by the use of traditional transistor-based components. In this article, we contribute with an in-depth analysis of alternative architectural design decisions to improve the energy footprint and computational capabilities of future network packet processors by shifting from transistor-based components to a novel component named Memristor. A memristor is a computational component characterized by non-volatile operations on a physical state, mostly represented in form of (electrical) resistance. Its state can be read or altered by input signals, e.g. electrical pulses, where the future state always depends on the past state. Unlike in traditional von Neumann architectures, the principles behind memristors impose that memory operations and computations are inherently colocated. In combination with the non-volatility, this allows to build memristors at nanoscale size and significantly reduce the energy consumption. At the same time, memristors appear to be highly suitable to model cognitive functionality due to the state dependence transitions in the memristor. In cognitive architectures, our survey contributes to the study of memristor-based Ternary Content Addressable Memory (TCAM) used for storage of cognitive rules inside packet processors. Moreover, we analyze the memristor-based novel cognitive computational architectures built upon self-learning capabilities by harnessing from non-volatility and state-based response of memristors (including reconfigurable architectures, reservoir computation architectures, neural network architectures and neuromorphic computing architectures).",
+    "citationCount": 10,
+    "referenceCount": 172
+}

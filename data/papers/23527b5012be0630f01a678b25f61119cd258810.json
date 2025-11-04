@@ -1,0 +1,37 @@
+{
+    "paperId": "23527b5012be0630f01a678b25f61119cd258810",
+    "title": "Scardina: Scalable Join Cardinality Estimation by Multiple Density Estimators",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ryuichi Ito",
+        "Yuya Sasaki",
+        "Chuan Xiao",
+        "Makoto Onizuka"
+    ],
+    "doi": "10.48550/arXiv.2303.18042",
+    "arxivId": "2303.18042",
+    "url": "https://www.semanticscholar.org/paper/23527b5012be0630f01a678b25f61119cd258810",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2303.18042",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, machine learning-based cardinality estimation methods are replacing traditional methods. This change is expected to contribute to one of the most important applications of cardinality estimation, the query optimizer, to speed up query processing. However, none of the existing methods do not precisely estimate cardinalities when relational schemas consist of many tables with strong correlations between tables/attributes. This paper describes that multiple density estimators can be combined to effectively target the cardinality estimation of data with large and complex schemas having strong correlations. We propose Scardina, a new join cardinality estimation method using multiple partitioned models based on the schema structure.",
+    "citationCount": 0,
+    "referenceCount": 17
+}

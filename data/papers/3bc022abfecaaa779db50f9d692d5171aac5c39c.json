@@ -1,0 +1,31 @@
+{
+    "paperId": "3bc022abfecaaa779db50f9d692d5171aac5c39c",
+    "title": "Prioritised experience replay based on sample optimisation",
+    "year": 2020,
+    "venue": "Jurnal Engineering",
+    "authors": [
+        "Xuesong Wang",
+        "Haopeng Xiang",
+        "Yuhu Cheng",
+        "Qiang Yu"
+    ],
+    "doi": "10.1049/joe.2019.1204",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3bc022abfecaaa779db50f9d692d5171aac5c39c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/joe.2019.1204",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The sample-based prioritised experience replay proposed in this study is aimed at how to select samples to the experience replay, which improves the training speed and increases the reward return. In the traditional deep Q-networks (DQNs), it is subjected to random pickup of samples into the experience replay. However, the effect of each sample is different for the training process of agent. A better sampling method will make the agent training more effective. Therefore, when selecting a sample to the experience replay, the authors first allow the agent to learn randomly through the sample optimisation network, and take the average value returned after each study, so that the mean value is used as a threshold for selecting samples to the experience replay. Second, on the basis of sample optimisation, the authors increase the priority update and use the idea of reward-shaping to give additional reward values to the returns of certain samples, which speeds up the agent training. Compared with traditional DQN and the prioritised experience replay DQN, this study uses OpenAI Gym as platform to improve agent learning efficiency.",
+    "citationCount": 5,
+    "referenceCount": 18
+}

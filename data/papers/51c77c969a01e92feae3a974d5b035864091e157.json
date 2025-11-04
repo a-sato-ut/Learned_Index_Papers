@@ -1,0 +1,37 @@
+{
+    "paperId": "51c77c969a01e92feae3a974d5b035864091e157",
+    "title": "Neural Reranking-Based Collaborative Filtering by Leveraging Listwise Relative Ranking Information",
+    "year": 2023,
+    "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+    "authors": [
+        "Fan Li",
+        "Hong Qu",
+        "Mingsheng Fu",
+        "Liyan Zhang",
+        "Fan Zhang",
+        "Wenyu Chen",
+        "Ruixuan Sun",
+        "Haixian Zhang"
+    ],
+    "doi": "10.1109/TSMC.2022.3188869",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/51c77c969a01e92feae3a974d5b035864091e157",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Reranking is a critical task used to refine the initial collaborative filtering (CF) recommendation by incorporating information from different viewpoints, such as the extra item side-information and user profile. In this article, a neural reranking-based CF (NRCF) model is proposed to leverage composite viewpoints from the basic CF model and user preference. More precisely, the predictive implicit user preference is first constructed from the initial top- $k$ items. The implicit user preference is then aggregated with the explicit user embedding to enrich the user intent representation. Moreover, the traditional listwise loss functions for reranking optimization are suboptimal, due to the fact that they neglect the relative ranking information (ReinRank) between the unobserved and positive items. To address this issue, a novel listwise loss function that leverages relative ranking information, referred to as ReinRank, is proposed for reranking optimization. ReinRank assigns different values to the unobserved items, according to their relative ranking distances between the positive items. Extensive experiments are performed on three public benchmarks and different CF models, in order to demonstrate the effectiveness of NRCF and ReinRank.",
+    "citationCount": 5,
+    "referenceCount": 54
+}

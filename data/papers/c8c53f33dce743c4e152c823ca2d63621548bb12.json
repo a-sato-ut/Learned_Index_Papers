@@ -1,0 +1,37 @@
+{
+    "paperId": "c8c53f33dce743c4e152c823ca2d63621548bb12",
+    "title": "A GPU-specialized Inference Parameter Server for Large-Scale Deep Recommendation Models",
+    "year": 2022,
+    "venue": "ACM Conference on Recommender Systems",
+    "authors": [
+        "Yingcan Wei",
+        "Matthias Langer",
+        "F. Yu",
+        "Minseok Lee",
+        "Jie Liu",
+        "Ji Shi",
+        "Zehuan Wang"
+    ],
+    "doi": "10.1145/3523227.3546765",
+    "arxivId": "2210.08804",
+    "url": "https://www.semanticscholar.org/paper/c8c53f33dce743c4e152c823ca2d63621548bb12",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3523227.3546765",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recommendation systems are of crucial importance for a variety of modern apps and web services, such as news feeds, social networks, e-commerce, search, etc. To achieve peak prediction accuracy, modern recommendation models combine deep learning with terabyte-scale embedding tables to obtain a fine-grained representation of the underlying data. Traditional inference serving architectures require deploying the whole model to standalone servers, which is infeasible at such massive scale. In this paper, we provide insights into the intriguing and challenging inference domain of online recommendation systems. We propose the HugeCTR Hierarchical Parameter Server (HPS), an industry-leading distributed recommendation inference framework, that combines a high-performance GPU embedding cache with an hierarchical storage architecture, to realize low-latency retrieval of embeddings for online model inference tasks. Among other things, HPS features (1) a redundant hierarchical storage system, (2) a novel high-bandwidth cache to accelerate parallel embedding lookup on NVIDIA GPUs, (3) online training support and (4) light-weight APIs for easy integration into existing large-scale recommendation workflows. To demonstrate its capabilities, we conduct extensive studies using both synthetically engineered and public datasets. We show that our HPS can dramatically reduce end-to-end inference latency, achieving 5~62x speedup (depending on the batch size) over CPU baseline implementations for popular recommendation models. Through multi-GPU concurrent deployment, the HPS can also greatly increase the inference QPS.",
+    "citationCount": 22,
+    "referenceCount": 45
+}

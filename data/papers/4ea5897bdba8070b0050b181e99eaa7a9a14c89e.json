@@ -1,0 +1,40 @@
+{
+    "paperId": "4ea5897bdba8070b0050b181e99eaa7a9a14c89e",
+    "title": "CAESR: Conditional Autoencoder and Super-Resolution for Learned Spatial Scalability",
+    "year": 2021,
+    "venue": "Visual Communications and Image Processing",
+    "authors": [
+        "Charles Bonnineau",
+        "W. Hamidouche",
+        "J. Travers",
+        "N. Sidaty",
+        "Jean-Yves Aubié",
+        "O. Déforges"
+    ],
+    "doi": "10.1109/VCIP53242.2021.9675351",
+    "arxivId": "2202.00416",
+    "url": "https://www.semanticscholar.org/paper/4ea5897bdba8070b0050b181e99eaa7a9a14c89e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2202.00416",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we present CAESR, an hybrid learning-based coding approach for spatial scalability based on the versatile video coding (VVC) standard. Our framework considers a low-resolution signal encoded with VVC intra-mode as a base-layer (BL), and a deep conditional autoencoder with hyperprior (AE-HP) as an enhancement-layer (EL) model. The EL encoder takes as inputs both the upscaled BL reconstruction and the original image. Our approach relies on conditional coding that learns the optimal mixture of the source and the upscaled BL image, enabling better performance than residual coding. On the decoder side, a super-resolution (SR) module is used to recover high-resolution details and invert the conditional coding process. Experimental results have shown that our solution is competitive with the VVC full-resolution intra coding while being scalable.",
+    "citationCount": 2,
+    "referenceCount": 25
+}

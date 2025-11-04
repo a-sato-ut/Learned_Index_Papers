@@ -1,0 +1,33 @@
+{
+    "paperId": "b98b00d66e2f4d46c21c5cbec06e152abe00de23",
+    "title": "FLARE: Fingerprinting Deep Reinforcement Learning Agents using Universal Adversarial Masks",
+    "year": 2023,
+    "venue": "Asia-Pacific Computer Systems Architecture Conference",
+    "authors": [
+        "Buse G. A. Tekgul",
+        "N. Asokan"
+    ],
+    "doi": "10.1145/3627106.3627128",
+    "arxivId": "2307.14751",
+    "url": "https://www.semanticscholar.org/paper/b98b00d66e2f4d46c21c5cbec06e152abe00de23",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2307.14751",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose FLARE, the first fingerprinting mechanism to verify whether a suspected Deep Reinforcement Learning (DRL) policy is an illegitimate copy of another (victim) policy. We first show that it is possible to find non-transferable, universal adversarial masks, i.e., perturbations, to generate adversarial examples that can successfully transfer from a victim policy to its modified versions but not to independently trained policies. FLARE employs these masks as fingerprints to verify the true ownership of stolen DRL policies by measuring an action agreement value over states perturbed by such masks. Our empirical evaluations show that FLARE is effective (100% action agreement on stolen copies) and does not falsely accuse independent policies (no false positives). FLARE is also robust to model modification attacks and cannot be easily evaded by more informed adversaries without negatively impacting agent performance. We also show that not all universal adversarial masks are suitable candidates for fingerprints due to the inherent characteristics of DRL policies. The spatio-temporal dynamics of DRL problems and sequential decision-making process make characterizing the decision boundary of DRL policies more difficult, as well as searching for universal masks that capture the geometry of it.",
+    "citationCount": 3,
+    "referenceCount": 50
+}

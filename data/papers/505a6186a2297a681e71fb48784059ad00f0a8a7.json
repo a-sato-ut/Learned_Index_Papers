@@ -1,0 +1,34 @@
+{
+    "paperId": "505a6186a2297a681e71fb48784059ad00f0a8a7",
+    "title": "Learning Multiple Intent Representations for Search Queries",
+    "year": 2021,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Helia Hashemi",
+        "Hamed Zamani",
+        "W. Bruce Croft"
+    ],
+    "doi": "10.1145/3459637.3482445",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/505a6186a2297a681e71fb48784059ad00f0a8a7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Representation learning has always played an important role in information retrieval (IR) systems. Most retrieval models, including recent neural approaches, use representations to calculate similarities between queries and documents to find relevant information from a corpus. Recent models use large-scale pre-trained language models for query representation. The typical use of these models, however, has a major limitation in that they generate only a single representation for a query, which may have multiple intents or facets. The focus of this paper is to address this limitation by considering neural models that support multiple intent representations for each query. Specifically, we propose the NMIR (Neural Multiple Intent Representations) model that can generate semantically different query intents and their appropriate representations. We evaluate our model on query facet generation using a large-scale dataset of real user queries sampled from the Bing search logs. We also provide an extrinsic evaluation of the proposed model using a clarifying question selection task. The results show that NMIR significantly outperforms competitive baselines.",
+    "citationCount": 25,
+    "referenceCount": 90
+}

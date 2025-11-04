@@ -1,0 +1,32 @@
+{
+    "paperId": "eaf8c987601fb61332657358ab44b9c7c8ea4f5c",
+    "title": "Quantum-Inspired Digital Annealing for Join Ordering",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Manuel Schönberger",
+        "Immanuel Trummer",
+        "Wolfgang Mauerer"
+    ],
+    "doi": "10.14778/3632093.3632112",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/eaf8c987601fb61332657358ab44b9c7c8ea4f5c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Finding the optimal join order (JO) is one of the most important problems in query optimisation, and has been extensively considered in research and practise. As it involves huge search spaces, approximation approaches and heuristics are commonly used, which explore a reduced solution space at the cost of solution quality. To explore even large JO search spaces, we may consider special-purpose software, such as mixed-integer linear programming (MILP) solvers, which have successfully solved JO problems. However, even mature solvers cannot overcome the limitations of conventional hardware prompted by the end of Moore's law.\n \n We consider\n quantum-inspired\n digital annealing hardware, which takes inspiration from quantum processing units (QPUs). Unlike QPUs, which likely remain limited in size and reliability in the near and mid-term future, the digital annealer (DA) can solve large instances of mathematically encoded optimisation problems\n today.\n We derive a novel, native encoding for the JO problem tailored to this class of machines that substantially improves over known MILP and quantum-based encodings, and reduces encoding size over the state-of-the-art. By augmenting the computation with a novel readout method, we derive valid join orders for each solution obtained by the (probabilistically operating) DA. Most importantly and despite an extremely large solution space, our approach scales to practically relevant dimensions of around 50 relations and improves result quality over conventionally employed approaches, adding a novel alternative to solving the long-standing JO problem.\n",
+    "citationCount": 28,
+    "referenceCount": 69
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "bf73f635d7d0c2db90beb70ffd02526740988334",
+    "title": "Self-tuning Database Systems: A Systematic Literature Review of Automatic Database Schema Design and Tuning",
+    "year": 2024,
+    "venue": "ACM Computing Surveys",
+    "authors": [
+        "M. Mozaffari",
+        "Anton Dignös",
+        "Johann Gamper",
+        "U. Störl"
+    ],
+    "doi": "10.1145/3665323",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bf73f635d7d0c2db90beb70ffd02526740988334",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3665323",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Self-tuning is a feature of autonomic databases that includes the problem of automatic schema design. It aims at providing an optimized schema that increases the overall database performance. While in relational databases automatic schema design focuses on the automated design of the physical schema, in NoSQL databases all levels of representation are considered: conceptual, logical, and physical. This is mainly because the latter are mostly schema-less and lack a standard schema design procedure as is the case for SQL databases. In this work, we carry out a systematic literature survey on automatic schema design in both SQL and NoSQL databases. We identify the levels of representation and the methods that are used for the schema design problem, and we present a novel taxonomy to classify and compare different schema design solutions. Our comprehensive analysis demonstrates that, despite substantial progress that has been made, schema design is still a developing field and considerable challenges need to be addressed, notably for NoSQL databases. We highlight the most important findings from the results of our analysis and identify areas for future research work.",
+    "citationCount": 5,
+    "referenceCount": 238
+}

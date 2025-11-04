@@ -1,0 +1,29 @@
+{
+    "paperId": "b16bc4340ef5ab02e6aef26ac4782e0cd9237a6f",
+    "title": "Lumen: A Deep Reinforcement Learning Assisted File Placement Manager",
+    "year": 2025,
+    "venue": "2025 10th International Conference on Cloud Computing and Big Data Analytics (ICCCBDA)",
+    "authors": [
+        "Jiawei Gao",
+        "Gen Zhang",
+        "Jiaqing Xu",
+        "Zhenlong Song"
+    ],
+    "doi": "10.1109/ICCCBDA64898.2025.11030431",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b16bc4340ef5ab02e6aef26ac4782e0cd9237a6f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the rapid growth of data volume, hybrid storage file systems are always adopted to meet increasing demands for performance, capacity, and cost efficiency. These systems manage multiple storage devices and dynamically adjust file locations to optimize resource usage. In this paper, we present Lumen, a reinforcement learning-assisted file placement manager. Lumen uses online reinforcement learning to periodically adjust file placement according to system status and application's access patterns. To balance device utilization in the file creation phase, Lumen also introduces a device-load aware file allocation strategy. Evaluation results show that Lumen achieves up to 2.26x bandwidth improvement over spfs, a state-of-the-art hybrid storage file system.",
+    "citationCount": 0,
+    "referenceCount": 27
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "982346c15f195d834d2142503557cc8bc8c10719",
+    "title": "Incremental Specialization of Network Programs",
+    "year": 2024,
+    "venue": "ACM Workshop on Hot Topics in Networks",
+    "authors": [
+        "Fabian Ruffy",
+        "Zhanghan Wang",
+        "Gianni Antichi",
+        "Aurojit Panda",
+        "Anirudh Sivaraman"
+    ],
+    "doi": "10.1145/3696348.3696870",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/982346c15f195d834d2142503557cc8bc8c10719",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Programmable network devices process packets using limited time and space. Consequently, much effort has been spent making network programs run as efficiently as possible. One promising line of work focuses on specializing the implementation of a network program to a particular---presumed constant---control-plane configuration. However, while some parts of the control plane configurations are constant for long periods of time, others change frequently, and in bursts (e.g., due to routing table updates). Thus, any approach that specializes a network program with respect to control-plane configurations must be incremental: it should be able to tell quickly whether a new control-plane update will affect the program's implementation and recompile the program only when its implementation must change. We describe several benefits of such an approach, including reducing resource use on line-rate pipelines and improving the memory footprint of packet classification. We explore our ideas with a prototype, Flay, an incremental partial evaluator that optimizes P4 programs by treating control-plane entries as constant. Flay can reduce resources in the implementations of Tofino programs. Flay can also determine in 100s of milliseconds whether a control-plane update will change a program's implementation. We conclude by outlining several avenues for future work.",
+    "citationCount": 3,
+    "referenceCount": 78
+}

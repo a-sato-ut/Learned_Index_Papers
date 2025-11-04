@@ -1,0 +1,36 @@
+{
+    "paperId": "73e5b9cc3645d37eba7838709abe071cffa21e34",
+    "title": "UPS: Efficiently Building Foundation Models for PDE Solving via Cross-Modal Adaptation",
+    "year": 2024,
+    "venue": "Trans. Mach. Learn. Res.",
+    "authors": [
+        "Junhong Shen",
+        "Tanya Marwah",
+        "Ameet Talwalkar"
+    ],
+    "doi": null,
+    "arxivId": "2403.07187",
+    "url": "https://www.semanticscholar.org/paper/73e5b9cc3645d37eba7838709abe071cffa21e34",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present Unified PDE Solvers (UPS), a data- and compute-efficient approach to developing unified neural operators for diverse families of spatiotemporal PDEs from various domains, dimensions, and resolutions. UPS embeds different PDEs into a shared representation space and processes them using a FNO-transformer architecture. Rather than training the network from scratch, which is data-demanding and computationally expensive, we warm-start the transformer from pretrained LLMs and perform explicit alignment to reduce the modality gap while improving data and compute efficiency. The cross-modal UPS achieves state-of-the-art results on a wide range of 1D and 2D PDE families from PDEBench, outperforming existing unified models using 4 times less data and 26 times less compute. Meanwhile, it is capable of few-shot transfer to unseen PDE families and coefficients.",
+    "citationCount": 22,
+    "referenceCount": 45
+}

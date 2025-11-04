@@ -1,0 +1,39 @@
+{
+    "paperId": "953ceb2032856e356a394c477baba1876e734709",
+    "title": "Package for Fast ABC-Boost",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Ping Li",
+        "Weijie Zhao"
+    ],
+    "doi": "10.48550/arXiv.2207.08770",
+    "arxivId": "2207.08770",
+    "url": "https://www.semanticscholar.org/paper/953ceb2032856e356a394c477baba1876e734709",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2207.08770",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This report presents the open-source package which implements the series of our boosting works in the past years. In particular, the package includes mainly three lines of techniques, among which the following two are already the standard implementations in popular boosted tree platforms: (i) The histogram-based (feature-binning) approach makes the tree implementation convenient and efficient. In Li et al (2007), a simple fixed-length adaptive binning algorithm was developed. In this report, we demonstrate that such a simple algorithm is still surprisingly effective compared to more sophisticated variants in popular tree platforms. (ii) The explicit gain formula in Li (20010) for tree splitting based on second-order derivatives of the loss function typically improves, often considerably, over the first-order methods. Although the gain formula in Li (2010) was derived for logistic regression loss, it is a generic formula for loss functions with second-derivatives. For example, the open-source package also includes $L_p$ regression for $p\\geq 1$. The main contribution of this package is the ABC-Boost (adaptive base class boosting) for multi-class classification. The initial work in Li (2008) derived a new set of derivatives of the classical multi-class logistic regression by specifying a\"base class\". The accuracy can be substantially improved if the base class is chosen properly. The major technical challenge is to design a search strategy to select the base class. The prior published works implemented an exhaustive search procedure to find the base class which is computationally too expensive. Recently, a new report (Li and Zhao, 20022) presents a unified framework of\"Fast ABC-Boost\"which allows users to efficiently choose the proper search space for the base class. The package provides interfaces for linux, windows, mac, matlab, R, python.",
+    "citationCount": 6,
+    "referenceCount": 27
+}

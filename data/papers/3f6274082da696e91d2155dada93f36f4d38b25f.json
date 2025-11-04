@@ -1,0 +1,40 @@
+{
+    "paperId": "3f6274082da696e91d2155dada93f36f4d38b25f",
+    "title": "Exploring Data Analytics Without Decompression on Embedded GPU Systems",
+    "year": 2022,
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "authors": [
+        "Zaifeng Pan",
+        "Feng Zhang",
+        "Yanliang Zhou",
+        "Jidong Zhai",
+        "Xipeng Shen",
+        "O. Mutlu",
+        "Xiaoyong Du"
+    ],
+    "doi": "10.1109/TPDS.2021.3119402",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3f6274082da696e91d2155dada93f36f4d38b25f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the development of computer architecture, even for embedded systems, GPU devices can be integrated, providing outstanding performance and energy efficiency to meet the requirements of different industries, applications, and deployment environments. Data analytics is an important application scenario for embedded systems. Unfortunately, due to the limitation of the capacity of the embedded device, the scale of problems handled by the embedded system is limited. In this paper, we propose a novel data analytics method, called G-TADOC, for efficient text analytics directly on compression on embedded GPU systems. A large amount of data can be compressed and stored in embedded systems, and can be processed directly in the compressed state, which greatly enhances the processing capabilities of the systems. Particularly, G-TADOC has three innovations. First, a novel fine-grained thread-level workload scheduling strategy for GPU threads has been developed, which partitions heavily-dependent loads adaptively in a fine-grained manner. Second, a GPU thread-safe memory pool has been developed to handle inconsistency with low synchronization overheads. Third, a sequence-support strategy is provided to maintain high GPU parallelism while ensuring sequence information for lossless compression. Moreover, G-TADOC involves special optimizations for embedded GPUs, such as utilizing the CPU-GPU shared unified memory. Experiments show that G-TADOC provides 13.2× average speedup compared to the state-of-the-art TADOC. G-TADOC also improves performance-per-cost by 2.6× and energy efficiency by 32.5× over TADOC.",
+    "citationCount": 28,
+    "referenceCount": 77
+}

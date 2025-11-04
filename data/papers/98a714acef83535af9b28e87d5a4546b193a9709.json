@@ -1,0 +1,30 @@
+{
+    "paperId": "98a714acef83535af9b28e87d5a4546b193a9709",
+    "title": "Arbitrarily Large Labelled Random Satisfiability Formulas for Machine Learning Training",
+    "year": 2022,
+    "venue": "",
+    "authors": [
+        "D. Achlioptas",
+        "Amrit Daswaney",
+        "Periklis A. Papakonstantinou"
+    ],
+    "doi": null,
+    "arxivId": "2211.15368",
+    "url": "https://www.semanticscholar.org/paper/98a714acef83535af9b28e87d5a4546b193a9709",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Applying deep learning to solve real-life instances of hard combinatorial problems has tremendous potential. Research in this direction has focused on the Boolean satisfiability (SAT) problem, both because of its theoretical centrality and practical importance. A major roadblock faced, though, is that training sets are restricted to random formulas of size several orders of magnitude smaller than formulas of practical interest, raising serious concerns about generalization. This is because labeling random formulas of increasing size rapidly becomes intractable. By exploiting the probabilistic method in a fundamental way, we remove this roadblock entirely: we show how to generate correctly labeled random formulas of any desired size, without having to solve the underlying decision problem. Moreover, the difficulty of the classification task for the formulas produced by our generator is tunable by varying a simple scalar parameter. This opens up an entirely new level of sophistication for the machine learning methods that can be brought to bear on Satisfiability. Using our generator, we train existing state-of-the-art models for the task of predicting satisfiability on formulas with 10,000 variables. We find that they do no better than random guessing. As a first indication of what can be achieved with the new generator, we present a novel classifier that performs significantly better than random guessing 99% on the same datasets, for most difficulty levels. Crucially, unlike past approaches that learn based on syntactic features of a formula, our classifier performs its learning on a short prefix of a solver's computation, an approach that we expect to be of independent interest.",
+    "citationCount": 0,
+    "referenceCount": 41
+}

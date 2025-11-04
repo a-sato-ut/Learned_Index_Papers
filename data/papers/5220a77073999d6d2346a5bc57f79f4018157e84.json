@@ -1,0 +1,41 @@
+{
+    "paperId": "5220a77073999d6d2346a5bc57f79f4018157e84",
+    "title": "Hyperparameter optimization: Classics, acceleration, online, multi-objective, and tools.",
+    "year": 2024,
+    "venue": "Mathematical biosciences and engineering : MBE",
+    "authors": [
+        "Jia Mian Tan",
+        "Haoran Liao",
+        "Wei Liu",
+        "Changjun Fan",
+        "Jincai Huang",
+        "Zhong Liu",
+        "Junchi Yan"
+    ],
+    "doi": "10.3934/mbe.2024275",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5220a77073999d6d2346a5bc57f79f4018157e84",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hyperparameter optimization (HPO) has been well-developed and evolved into a well-established research topic over the decades. With the success and wide application of deep learning, HPO has garnered increased attention, particularly within the realm of machine learning model training and inference. The primary objective is to mitigate the challenges associated with manual hyperparameter tuning, which can be ad-hoc, reliant on human expertise, and consequently hinders reproducibility while inflating deployment costs. Recognizing the growing significance of HPO, this paper surveyed classical HPO methods, approaches for accelerating the optimization process, HPO in an online setting (dynamic algorithm configuration, DAC), and when there is more than one objective to optimize (multi-objective HPO). Acceleration strategies were categorized into multi-fidelity, bandit-based, and early stopping; DAC algorithms encompassed gradient-based, population-based, and reinforcement learning-based methods; multi-objective HPO can be approached via scalarization, metaheuristics, and model-based algorithms tailored for multi-objective situation. A tabulated overview of popular frameworks and tools for HPO was provided, catering to the interests of practitioners.",
+    "citationCount": 10,
+    "referenceCount": 241
+}

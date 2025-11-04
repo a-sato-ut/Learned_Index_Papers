@@ -1,0 +1,38 @@
+{
+    "paperId": "41615868335fc47eff664bf787835c09284562d8",
+    "title": "ECA-MobileNetV3(Large)+SegNet Model for Binary Sugarcane Classification of Remotely Sensed Images",
+    "year": 2022,
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+    "authors": [
+        "Guoqing Zhou",
+        "Weiguang Liu",
+        "Qiang Zhu",
+        "Yanling Lu",
+        "Yu Liu"
+    ],
+    "doi": "10.1109/TGRS.2022.3215802",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/41615868335fc47eff664bf787835c09284562d8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, several models based on fully convolutional neural networks have been proposed. These models mainly focused on improving accuracy but ignored computational efficiency. For this reason, this research proposes an innovative deep learning model, entitled “ECA-MobileNetV3(large)+Seg-Net model” for simultaneously concerning both. In the encoder, the structure-reduced MobileNetV3(large) is selected as the backbone network, which uses 11 network layers to replace 20 network layers of MobileNetV3(large). The hybrid dilated convolution with dilation rates of 1, 2, and 4 is introduced in the depthwise separable convolution to expand the local receptive field and enhance the connection of contextual information. Finally, the ECA module is fused with the bneck structure. In the decoder, the 18 network layers of SegNet’s decoder are replaced with nine layers to achieve a lightweight network with small parameters. When compared with the original SegNet, the overall accuracy (OA) of the model proposed in this research is averagely improved by 5.97%, 5.56%, and 4.13%, and the sugarcane identification accuracy is averagely improved by 7.16%, 4.01%, and 9.13%, respectively, in the three tested areas. In addition, the memory size, the number of parameters, and FLOPs are all reduced by 6/7.",
+    "citationCount": 61,
+    "referenceCount": 59
+}

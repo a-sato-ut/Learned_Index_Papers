@@ -1,0 +1,38 @@
+{
+    "paperId": "f1bf867b70334ecec121f978911de95bb09a5f36",
+    "title": "TalentSketch: LSTM-based Sketch for Adaptive and High-Precision Network Measurement",
+    "year": 2022,
+    "venue": "IEEE International Conference on Network Protocols",
+    "authors": [
+        "Yangsheng Yan",
+        "Fuliang Li",
+        "Wei Wang",
+        "Xingwei Wang"
+    ],
+    "doi": "10.1109/ICNP55882.2022.9940396",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f1bf867b70334ecec121f978911de95bb09a5f36",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the massive and rapid growth of network traffic, sketching techniques are widely used to estimate a variety of network flow-level metrics, e.g., flow size, top-k flows, and the number of flows. However, how to cope with the constantly changing network environment and achieve high accuracy with limited switch resources is still a challenging problem. Existing studies do not well address the issues of identifying and correcting the inaccurately estimated flows. Therefore, we propose TalentSketch, an adaptive and high-precision hybrid measurement framework based on LSTM. TalentSketch uses LSTM to learn the sketch features with the captured traffic information. It could identify the inaccurately estimated flows with an error-prone flow model and correct them with a well-trained regression model. We conduct extensive experiments to verify the performance of TalentSketch. Experimental results show that, without increasing switch resource overhead, TalentSketch improves the measurement accuracy of different kinds of sketches by 12%∼23%. More importantly, it can track network fluctuations and provide feedback on the overall accuracy of a sketch in real-time.",
+    "citationCount": 5,
+    "referenceCount": 39
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "cce5f922abfd7ed32ee8d59b134ba5c81651a84f",
+    "title": "An LSTM-based Indoor Positioning Method Using Wi-Fi Signals",
+    "year": 2018,
+    "venue": "International Conferences on Vision, Image and Signal Processing",
+    "authors": [
+        "Ayesha Sahar",
+        "Dongsoo Han"
+    ],
+    "doi": "10.1145/3271553.3271566",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cce5f922abfd7ed32ee8d59b134ba5c81651a84f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, Wi-Fi fingerprints are often used for constructing indoor positioning systems. Wi-Fi fingerprint is a vector of Received Signal Strength (RSS) values at a particular location. Radio map is the collection of Wi-Fi fingerprints and their collected location at an area or a building. Positioning systems, mounted on top of the radio map, estimate locations using the information in the radio map. Many Wi-Fi fingerprint-based positioning algorithms have been developed. K-Nearest Neighbor(KNN), probabilistic method, fuzzy logic, neural network, multilayer perceptron are the examples. However, this field has not yet fully benefited from the potential of deep learning approaches. The sequence of Wi-Fi fingerprints implies that the deep recurrent network approaches, especially designed to handle sequential data, can play a vital role to enhance the performance of fingerprint-based positioning systems. In this paper, deep and recurrent approaches are studied rigorously for the improvement of the accuracy of positioning systems. We focus mainly on Long Short-Term Memory (LSTM) networks. An LSTM-based approach was compared with other state of the art approaches. A complete explanation to select the best hyper parameters is presented so that they can be referenced by the researchers in this field. A simple vanilla LSTM architecture is also compared with a stacked LSTM architecture on a Wi-Fi fingerprint dataset.",
+    "citationCount": 50,
+    "referenceCount": 22
+}

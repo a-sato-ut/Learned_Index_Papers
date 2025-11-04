@@ -1,0 +1,31 @@
+{
+    "paperId": "1734a848d70bdc20938d9ee96d8de8f08d366597",
+    "title": "Towards a Learning-Based Framework for Self-Driving Design of Networking Protocols",
+    "year": 2020,
+    "venue": "IEEE Access",
+    "authors": [
+        "H. B. Pasandi",
+        "T. Nadeem"
+    ],
+    "doi": "10.1109/ACCESS.2021.3061729",
+    "arxivId": "2009.02128",
+    "url": "https://www.semanticscholar.org/paper/1734a848d70bdc20938d9ee96d8de8f08d366597",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09361660.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Networking protocols are designed through long-standing and hard-working human efforts. Machine Learning (ML)-based solutions for communication protocol design have been developed to avoid manual effort to adjust individual protocol parameters. While other proposed ML-based methods focus mainly on tuning individual protocol parameters (e.g. contention window adjustment), our main contribution is to propose a new Deep Reinforcement Learning (DRL) framework to systematically design and evaluate networking protocols. We decouple the protocol into a set of parametric modules, each representing the main protocol functionality that is used as a DRL input to better understand and systematically analyze the optimization of generated protocols. As a case study, we introduce and evaluate DeepMAC a framework in which the MAC protocol is decoupled into a set of blocks across popular 802.11 WLANs (e.g. 802.11 a/b/g/n/ac). We are interested to see which blocks are selected by DeepMAC across different networking scenarios and whether DeepMAC is capable of adapting to network dynamics.",
+    "citationCount": 25,
+    "referenceCount": 91
+}

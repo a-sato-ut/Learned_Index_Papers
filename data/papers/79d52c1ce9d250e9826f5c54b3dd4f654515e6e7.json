@@ -1,0 +1,37 @@
+{
+    "paperId": "79d52c1ce9d250e9826f5c54b3dd4f654515e6e7",
+    "title": "Priming and Actions: An Analysis in Conversational Search Systems",
+    "year": 2023,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "Xiao Fu",
+        "Aldo Lipani"
+    ],
+    "doi": "10.1145/3539618.3592041",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/79d52c1ce9d250e9826f5c54b3dd4f654515e6e7",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://discovery.ucl.ac.uk/10176583/1/Priming4.pdf",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Psychology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In order to accurately simulate users in conversational systems, it is essential to comprehend the factors that influence their behaviour. This is a critical challenge for the Information Retrieval (IR) field, as conventional methods are not well-suited for the interactive and unique sequential structure of conversational contexts. In this study, we employed the concept of Priming effects from the Psychology literature to identify core stimuli for each abstracted effect. We then examined these stimuli on various datasets to investigate their correlations with users' actions. Finally, we trained Logistic Regression (LR) models based on these stimuli to anticipate users' actions. Our findings offer a basis for creating more realistic user models and simulators, as we identified the subset of stimuli with strong relationships with users' actions. Additionally, we built a model that can predict users' actions.",
+    "citationCount": 4,
+    "referenceCount": 37
+}

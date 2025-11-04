@@ -1,0 +1,38 @@
+{
+    "paperId": "fdb71b3a8984340a10802e34ac25e27d75331e48",
+    "title": "CompressDB: Enabling Efficient Compressed Data Direct Processing for Various Databases",
+    "year": 2022,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Feng Zhang",
+        "Weitao Wan",
+        "Chenyang Zhang",
+        "Jidong Zhai",
+        "Yunpeng Chai",
+        "Haixiang Li",
+        "Xiaoyong Du"
+    ],
+    "doi": "10.1145/3514221.3526130",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fdb71b3a8984340a10802e34ac25e27d75331e48",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In modern data management systems, directly performing operations on compressed data has been proven to be a big success facing big data problems. These systems have demonstrated significant compression benefits and performance improvement for data analytics applications. However, current systems only focus on data queries, while a complete big data system must support both data query and data manipulation. We develop a new storage engine, called CompressDB, which can support data processing for databases without decompression. CompressDB has the following advantages. First, CompressDB utilizes context-free grammar to compress data, and supports both data query and data manipulation. Second, for adaptability, we integrate CompressDB to file systems so that a wide range of databases can directly use CompressDB without any change. Third, we enable operation pushdown to storage so that we can perform data query and manipulation in storage systems without bringing large data to memory for high efficiency. We validate the efficacy of CompressDB supporting various kinds of database systems, including SQLite, LevelDB, MongoDB, and ClickHouse. We evaluate our method using six real-world datasets with various lengths, structures, and content in both single node and cluster environments. Experiments show that CompressDB achieves 40% throughput improvement and 44% latency reduction, along with 1.81 compression ratio on average.",
+    "citationCount": 32,
+    "referenceCount": 104
+}

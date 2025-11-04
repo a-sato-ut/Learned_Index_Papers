@@ -1,0 +1,43 @@
+{
+    "paperId": "f79fe4ff848260344688dc0a92435e44765d80ad",
+    "title": "VSAG: An Optimized Search Framework for Graph-based Approximate Nearest Neighbor Search",
+    "year": 2025,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Xiaoyao Zhong",
+        "Haotian Li",
+        "Jiabao Jin",
+        "Mingyu Yang",
+        "Deming Chu",
+        "Xiangyu Wang",
+        "Zhitao Shen",
+        "Wei Jia",
+        "George Gu",
+        "Yi Xie",
+        "Xuemin Lin",
+        "H. Shen",
+        "Jingkuan Song",
+        "Peng Cheng"
+    ],
+    "doi": "10.48550/arXiv.2503.17911",
+    "arxivId": "2503.17911",
+    "url": "https://www.semanticscholar.org/paper/f79fe4ff848260344688dc0a92435e44765d80ad",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Approximate nearest neighbor search (ANNS) is a fundamental problem in vector databases and AI infrastructures. Recent graph-based ANNS algorithms have achieved high search accuracy with practical efficiency. Despite the advancements, these algorithms still face performance bottlenecks in production, due to the random memory access patterns of graph-based search and the high computational overheads of vector distance. In addition, the performance of a graph-based ANNS algorithm is highly sensitive to parameters, while selecting the optimal parameters is cost-prohibitive, e.g., manual tuning requires repeatedly re-building the index. This paper introduces\n VSAG\n , an open-source framework that aims to enhance the in production performance of graph-based ANNS algorithms.\n VSAG\n has been deployed at scale in the services of Ant Group, and it incorporates three key optimizations: (\n i) efficient memory access\n : it reduces L3 cache misses with pre-fetching and cache-friendly vector organization; (\n ii) automated parameter tuning\n : it automatically selects performance-optimal parameters without requiring index rebuilding; (\n iii) efficient distance computation\n : it leverages modern hardware, scalar quantization, and smartly switches to low-precision representation to dramatically reduce the distance computation costs. We evaluate\n VSAG\n on real-world datasets. The experimental results show that\n VSAG\n achieves the state-of-the-art performance and provides up to 4× speedup over HNSWlib (an industry-standard library) while ensuring the same accuracy.\n",
+    "citationCount": 1,
+    "referenceCount": 56
+}

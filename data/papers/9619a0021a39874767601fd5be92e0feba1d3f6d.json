@@ -1,0 +1,32 @@
+{
+    "paperId": "9619a0021a39874767601fd5be92e0feba1d3f6d",
+    "title": "Tidy Tuples and Flying Start: fast compilation and fast execution of relational queries in Umbra",
+    "year": 2021,
+    "venue": "The VLDB journal",
+    "authors": [
+        "T. Kersten",
+        "Viktor Leis",
+        "Thomas Neumann"
+    ],
+    "doi": "10.1007/s00778-020-00643-4",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9619a0021a39874767601fd5be92e0feba1d3f6d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s00778-020-00643-4.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Although compiling queries to efficient machine code has become a common approach for query execution, a number of newly created database system projects still refrain from using compilation. It is sometimes claimed that the intricacies of code generation make compilation-based engines too complex. Also, a major barrier for adoption, especially for interactive ad hoc queries, is long compilation time. In this paper, we examine all stages of compiling query execution engines and show how to reduce compilation overhead. We incorporate the lessons learned from a decade of generating code in HyPer into a design that manages complexity and yields high speed. First, we introduce a code generation framework that establishes abstractions to manage complexity, yet generates code in a single fast pass. Second, we present a program representation whose data structures are tuned to support fast code generation and compilation. Third, we introduce a new compiler backend that is optimized for minimal compile time, and simultaneously, yields superior execution performance to competing approaches, e.g., Volcano-style or bytecode interpretation. We implemented these optimizations in our database system Umbra to show that it is possible to unite fast compilation and fast execution. Indeed, Umbra achieves unprecedentedly low query latencies. On small data sets, it is even faster than interpreter engines like DuckDB and PostgreSQL. At the same time, on large data sets, its throughput is on par with the state-of-the-art compiling system HyPer.",
+    "citationCount": 44,
+    "referenceCount": 48
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "18cfd6ee716d64ba50e9d47878e70b357095bc92",
+    "title": "OrderNet: Sorting High Dimensional Low Sample Data with Few-Shot Learning",
+    "year": 2021,
+    "venue": "IEEE International Joint Conference on Neural Network",
+    "authors": [
+        "Samuel Hess",
+        "G. Ditzler"
+    ],
+    "doi": "10.1109/IJCNN52387.2021.9533766",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/18cfd6ee716d64ba50e9d47878e70b357095bc92",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural networks have shown remarkable classification performances in recent years, often outperforming humans in many tasks. Unfortunately, there are some tasks where conventional neural networks and their training methods have under-performed. One of these areas is learning from a small number of samples which have been partially addressed with the development of few-shot neural networks. Few-shot neural networks contrast traditional classification networks by learning classification tasks with datasets with only a few samples per class; however, these few-shot techniques are trained collectively with a large number of labeled samples. Hence, few-shot learning approaches only address the low sample per class learning problem whereas the task of learning strictly from a low sample size still goes mostly unresolved. In this contribution, we address the challenge of learning from high dimensional low sample data by revising the problem into a data ordering task. Specifically, we have designed OrderNet, a novel network design and training approach that can take a relatively small amount (less than 200 samples) of ordered high dimensional low sample data and organize many more unseen samples. To the best of our knowledge, OrderNet is the first neural network to address the high dimensional low sample data using techniques adopted from few-shot learning. We evaluate OrderNet against its ability to order images of analog clocks by time as well as images of profile pictures by age. Additionally, we demonstrate that OrderNet has superior performance over a conventional regression neural network in the low sample regime.",
+    "citationCount": 2,
+    "referenceCount": 25
+}

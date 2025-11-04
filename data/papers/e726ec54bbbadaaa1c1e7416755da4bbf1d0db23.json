@@ -1,0 +1,49 @@
+{
+    "paperId": "e726ec54bbbadaaa1c1e7416755da4bbf1d0db23",
+    "title": "RANS-PINN based Simulation Surrogates for Predicting Turbulent Flows",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Shinjan Ghosh",
+        "Amit Chakraborty",
+        "Georgia Olympia Brikis",
+        "Biswadip Dey"
+    ],
+    "doi": "10.48550/arXiv.2306.06034",
+    "arxivId": "2306.06034",
+    "url": "https://www.semanticscholar.org/paper/e726ec54bbbadaaa1c1e7416755da4bbf1d0db23",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2306.06034",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Physics-informed neural networks (PINNs) provide a framework to build surrogate models for dynamical systems governed by differential equations. During the learning process, PINNs incorporate a physics-based regularization term within the loss function to enhance generalization performance. Since simulating dynamics controlled by partial differential equations (PDEs) can be computationally expensive, PINNs have gained popularity in learning parametric surrogates for fluid flow problems governed by Navier-Stokes equations. In this work, we introduce RANS-PINN, a modified PINN framework, to predict flow fields (i.e., velocity and pressure) in high Reynolds number turbulent flow regimes. To account for the additional complexity introduced by turbulence, RANS-PINN employs a 2-equation eddy viscosity model based on a Reynolds-averaged Navier-Stokes (RANS) formulation. Furthermore, we adopt a novel training approach that ensures effective initialization and balance among the various components of the loss function. The effectiveness of the RANS-PINN framework is then demonstrated using a parametric PINN.",
+    "citationCount": 6,
+    "referenceCount": 28
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "807015c88fac49a562da1f74e1e548a139c9f20d",
+    "title": "Mixed-Signal Computing for Deep Neural Network Inference",
+    "year": 2021,
+    "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "authors": [
+        "B. Murmann"
+    ],
+    "doi": "10.1109/TVLSI.2020.3020286",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/807015c88fac49a562da1f74e1e548a139c9f20d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/tvlsi.2020.3020286",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern deep neural networks (DNNs) require billions of multiply-accumulate operations per inference. Given that these computations demand relatively low precision, it is feasible to consider analog computing, which can be more efficient than digital in the low-SNR regime. This overview article investigates the potential of mixed analog/digital computing approaches in the context of modern DNN processor architectures, which are typically limited by memory access. We discuss how memory-like and in-memory compute fabrics may help alleviate this bottleneck and derive asymptotic efficiency limits at the processing array level. It is shown that single-digit fJ/op energy efficiencies are feasible for 4-bit mixed-signal arithmetic. In this analysis, special consideration is given to the SNR and amortization requirements of the analog–digital interfaces. In addition, we consider the pros and cons for a variety of implementation styles and highlight the challenge of retaining high compute efficiency for a complete DNN accelerator design.",
+    "citationCount": 95,
+    "referenceCount": 70
+}

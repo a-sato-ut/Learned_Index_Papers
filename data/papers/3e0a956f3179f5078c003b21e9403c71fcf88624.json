@@ -1,0 +1,33 @@
+{
+    "paperId": "3e0a956f3179f5078c003b21e9403c71fcf88624",
+    "title": "SVQ-ACT: Querying for Actions over Videos",
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Daren Chao",
+        "Kaiwen Chen",
+        "Nick Koudas"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00277",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3e0a956f3179f5078c003b21e9403c71fcf88624",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present SVQ-ACT, a system capable of evaluating declarative action and object queries over input videos. Our approach is independent of the underlying object and action detection models utilized. Users may issue queries involving action and specific objects (e.g., a human riding a bicycle, close to a traffic light and a car left of the bicycle) and identify video clips that satisfy query constraints. Our system is capable of operating in two main settings, namely online and offline. In the online setting, the user specifies a video source (e.g., a surveillance video) and a declarative query containing an action and object predicates. Our system will identify and label in real-time all frame sequences that match the query. In the offline mode, the system accepts a video repository as input, preprocesses all the video in an offline manner and extracts suitable metadata. Following this step, users can execute any query they wish interactively on the video repository (containing actions and objects supported by the underlying detection models) to identify sequences of frames from videos that satisfy the query. In this case, to limit the number of results produced, we introduce novel result ranking algorithms that can produce the k most relevant results efficiently.We demonstrate that SVQ-ACT can correctly capture the desired query semantics and execute queries efficiently and correctly, delivering a high degree of accuracy.",
+    "citationCount": 4,
+    "referenceCount": 26
+}

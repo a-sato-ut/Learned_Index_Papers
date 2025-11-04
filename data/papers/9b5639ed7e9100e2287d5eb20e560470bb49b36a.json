@@ -1,0 +1,44 @@
+{
+    "paperId": "9b5639ed7e9100e2287d5eb20e560470bb49b36a",
+    "title": "HiVQ: A Real-time Interactive Visual Query System on Geospatial Big Data",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Zebang Liu",
+        "Anran Yang",
+        "Mengyu Ma",
+        "Luo Chen",
+        "Jiali Zhou",
+        "Ning Jing"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00360",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9b5639ed7e9100e2287d5eb20e560470bb49b36a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Interactive visual query systems are essential for the exploration and analysis of geospatial data. However, developing such systems has become increasingly challenging in recent years due to the conflict between the unprecedented volume of data and the need for instantaneous feedback. To address this challenge, we present HiVQ, a High-performance Visual Query system for real-time interactive visual query of geospatial big data. HiVQ adopts an innovative “Query as Visualization” paradigm, transforming user interactions into pixel value queries which can be processed efficiently with specialized indices and optimization strategies. Unlike conventional solutions that query and visualize geospatial objects sequentially, HiVQ effectively omits most geospatial objects and unnecessary computations that do not affect the final visualization, ensuring minimal sensitivity to data volume. Experimental results show that HiVQ accelerates visual queries by at least seven times compared to SOTA methods. This demonstration enables users to interactively explore and analyze spatial data with billions of nodes at any scale, receiving responses in milliseconds as they dynamically adjust analysis parameters, query conditions, or map styling. The demonstration video is available at https://gitee.com/kyrie-Bang/HiVQ-Demo.",
+    "citationCount": 0,
+    "referenceCount": 12
+}

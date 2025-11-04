@@ -1,0 +1,31 @@
+{
+    "paperId": "75e773e3665ec27733a820da8e8d8a24e192e4dd",
+    "title": "Neural methods for effective, efficient, and exposure-aware information retrieval",
+    "year": 2020,
+    "venue": "SIGIR Forum",
+    "authors": [
+        "Bhaskar Mitra"
+    ],
+    "doi": "10.1145/3476415.3476434",
+    "arxivId": "2012.11685",
+    "url": "https://www.semanticscholar.org/paper/75e773e3665ec27733a820da8e8d8a24e192e4dd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2012.11685",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural networks with deep architectures have demonstrated significant performance improvements in computer vision, speech recognition, and natural language processing. The challenges in information retrieval (IR), however, are different from these other application areas. A common form of IR involves ranking of documents---or short passages---in response to keyword-based queries. Effective IR systems must deal with query-document vocabulary mismatch problem, by modeling relationships between different query and document terms and how they indicate relevance. Models should also consider lexical matches when the query contains rare terms---such as a person's name or a product model number---not seen during training, and to avoid retrieving semantically related but irrelevant results. In many real-life IR tasks, the retrieval involves extremely large collections---such as the document index of a commercial Web search engine---containing billions of documents. Efficient IR methods should take advantage of specialized IR data structures, such as inverted index, to efficiently retrieve from large collections. Given an information need, the IR system also mediates how much exposure an information artifact receives by deciding whether it should be displayed, and where it should be positioned, among other results. Exposure-aware IR systems may optimize for additional objectives, besides relevance, such as parity of exposure for retrieved items and content publishers. In this thesis, we present novel neural architectures and methods motivated by the specific needs and challenges of IR tasks. We ground our contributions with a detailed survey of the growing body of neural IR literature [Mitra and Craswell, 2018]. Our key contribution towards improving the effectiveness of deep ranking models is developing the Duet principle [Mitra et al., 2017] which emphasizes the importance of incorporating evidence based on both patterns of exact term matches and similarities between learned latent representations of query and document. To efficiently retrieve from large collections, we develop a framework to incorporate query term independence [Mitra et al., 2019] into any arbitrary deep model that enables large-scale precomputation and the use of inverted index for fast retrieval. In the context of stochastic ranking, we further develop optimization strategies for exposure-based objectives [Diaz et al., 2020]. Finally, this dissertation also summarizes our contributions towards benchmarking neural IR models in the presence of large training datasets [Craswell et al., 2019] and explores the application of neural methods to other IR tasks, such as query auto-completion.",
+    "citationCount": 6,
+    "referenceCount": 471
+}

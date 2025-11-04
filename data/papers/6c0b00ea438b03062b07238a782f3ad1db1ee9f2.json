@@ -1,0 +1,33 @@
+{
+    "paperId": "6c0b00ea438b03062b07238a782f3ad1db1ee9f2",
+    "title": "JOB-Complex: A Challenging Benchmark for Traditional & Learned Query Optimization",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Johannes Wehrstein",
+        "Timo Eckmann",
+        "Roman Heinrich",
+        "Carsten Binnig"
+    ],
+    "doi": "10.48550/arXiv.2507.07471",
+    "arxivId": "2507.07471",
+    "url": "https://www.semanticscholar.org/paper/6c0b00ea438b03062b07238a782f3ad1db1ee9f2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query optimization is a fundamental task in database systems that is crucial to providing high performance. To evaluate learned and traditional optimizer's performance, several benchmarks, such as the widely used JOB benchmark, are used. However, in this paper, we argue that existing benchmarks are inherently limited, as they do not reflect many real-world properties of query optimization, thus overstating the performance of both traditional and learned optimizers. In fact, simple but realistic properties, such as joins over string columns or complex filter predicates, can drastically reduce the performance of existing query optimizers. Thus, we introduce JOB-Complex, a new benchmark designed to challenge traditional and learned query optimizers by reflecting real-world complexity. Overall, JOB-Complex contains 30 SQL queries and comes together with a plan-selection benchmark containing nearly 6000 execution plans, making it a valuable resource to evaluate the performance of query optimizers and cost models in real-world scenarios. In our evaluation, we show that traditional and learned cost models struggle to achieve high performance on JOB-Complex, providing a runtime of up to 11x slower compared to the optimal plans.",
+    "citationCount": 3,
+    "referenceCount": 28
+}

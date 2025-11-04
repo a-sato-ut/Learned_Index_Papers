@@ -1,0 +1,34 @@
+{
+    "paperId": "263f08e5670f6be565998f1a299aa97b5b613d0a",
+    "title": "Cost-Effective Dynamic Optimisation for Multi-Cloud Queries",
+    "year": 2021,
+    "venue": "IEEE International Conference on Cloud Computing",
+    "authors": [
+        "Damien T. Wojtowicz",
+        "Shaoyi Yin",
+        "F. Morvan",
+        "A. Hameurlain"
+    ],
+    "doi": "10.1109/CLOUD53861.2021.00052",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/263f08e5670f6be565998f1a299aa97b5b613d0a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ut3-toulouseinp.hal.science/hal-03428073v2/file/_IEEE_CLOUD__Cost_Effective_Dynamic_Optimisation_for_Multi_Cloud_Queries%287%29.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The provision of public data through various Database-as-a-Service (DBaaS) providers has recently emerged as a significant trend, backed by major organisations. This paper introduces Nebula, a non-profit middleware providing multi-cloud querying capabilities by fully outsourcing its users' queries to the involved DBaaS providers. First, we propose a quoting procedure for those queries, whose need stems from the pay-per-query policy of the providers. Those quotations contain monetary cost and response time estimations, and are computed using provider-generated tenders. Then, we present an agent-based dynamic optimisation engine that orchestrates the outsourced execution of the queries. Agents within this engine cooperate in order to meet the quoted values. We evaluated Nebula over simulated providers by using the Join Order Benchmark (JOB). Experimental results showed Nebula's approach is, in most cases, more competitive in terms of monetary cost and response time than existing work in the multi-cloud DBMS literature.",
+    "citationCount": 2,
+    "referenceCount": 35
+}

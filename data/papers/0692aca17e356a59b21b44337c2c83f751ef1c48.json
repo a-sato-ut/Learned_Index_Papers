@@ -1,0 +1,37 @@
+{
+    "paperId": "0692aca17e356a59b21b44337c2c83f751ef1c48",
+    "title": "HERTI: A Reinforcement Learning-Augmented System for Efficient Real-Time Inference on Heterogeneous Embedded Systems",
+    "year": 2021,
+    "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+    "authors": [
+        "Myeonggyun Han",
+        "Woongki Baek"
+    ],
+    "doi": "10.1109/PACT52795.2021.00014",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/0692aca17e356a59b21b44337c2c83f751ef1c48",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Real-time inference is the key technology that enables a variety of latency-critical intelligent services such as autonomous driving and augmented reality. Heterogeneous embedded systems that consist of various computing devices with widely-different architectural and system-level characteristics are emerging as a promising solution for real-time inference. Despite extensive prior works, it still remains unexplored to design and implement a practical system that enables efficient real-time inference on heterogeneous embedded systems. To bridge this gap, we propose HERTI, a reinforcement learning-augmented system for efficient real-time inference on heterogeneous embedded systems. HERTI efficiently explores the state space and robustly finds an efficient state that significantly improves the efficiency of the target inference workload while satisfying its deadline constraint through reinforcement learning. Our quantitative evaluation conducted on a real heterogeneous embedded system demonstrates the effectiveness of HERTI in that HERTI achieves high inference efficiency in multiple metrics (i.e., energy and energy-delay product) with a strong deadline guarantee in contrast to the state-of-the-art techniques, delivers larger gains as the inference deadline and the system heterogeneity increase, provides strong generality for hyper-parameter tuning, and significantly reduces the training time through its estimation-based approach across all the evaluated inference workloads and scenarios.",
+    "citationCount": 11,
+    "referenceCount": 46
+}

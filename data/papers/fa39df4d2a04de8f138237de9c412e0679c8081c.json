@@ -1,0 +1,42 @@
+{
+    "paperId": "fa39df4d2a04de8f138237de9c412e0679c8081c",
+    "title": "Error Analysis of Deep Ritz Methods for Elliptic Equations",
+    "year": 2021,
+    "venue": "Analysis and Applications",
+    "authors": [
+        "Yuling Jiao",
+        "Yanming Lai",
+        "Yisu Luo",
+        "Yang Wang",
+        "Yunfei Yang"
+    ],
+    "doi": "10.1142/s021953052350015x",
+    "arxivId": "2107.14478",
+    "url": "https://www.semanticscholar.org/paper/fa39df4d2a04de8f138237de9c412e0679c8081c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2107.14478",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Using deep neural networks to solve PDEs has attracted a lot of attentions recently. However, why the deep learning method works is falling far behind its empirical success. In this paper, we provide a rigorous numerical analysis on deep Ritz method (DRM) \\cite{Weinan2017The} for second order elliptic equations with Drichilet, Neumann and Robin boundary condition, respectively. We establish the first nonasymptotic convergence rate in $H^1$ norm for DRM using deep networks with smooth activation functions including logistic and hyperbolic tangent functions. Our results show how to set the hyper-parameter of depth and width to achieve the desired convergence rate in terms of number of training samples.",
+    "citationCount": 47,
+    "referenceCount": 50
+}

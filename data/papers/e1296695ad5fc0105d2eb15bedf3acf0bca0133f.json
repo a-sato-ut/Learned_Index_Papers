@@ -1,0 +1,38 @@
+{
+    "paperId": "e1296695ad5fc0105d2eb15bedf3acf0bca0133f",
+    "title": "EVM: Incorporating Model Checking into Exploratory Visual Analysis",
+    "year": 2023,
+    "venue": "IEEE Transactions on Visualization and Computer Graphics",
+    "authors": [
+        "Alex Kale",
+        "Ziyang Guo",
+        "X. Qiao",
+        "Jeffrey Heer",
+        "J. Hullman"
+    ],
+    "doi": "10.1109/TVCG.2023.3326516",
+    "arxivId": "2308.13024",
+    "url": "https://www.semanticscholar.org/paper/e1296695ad5fc0105d2eb15bedf3acf0bca0133f",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2308.13024",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Visual analytics (VA) tools support data exploration by helping analysts quickly and iteratively generate views of data which reveal interesting patterns. However, these tools seldom enable explicit checks of the resulting interpretations of data—e.g., whether patterns can be accounted for by a model that implies a particular structure in the relationships between variables. We present EVM, a data exploration tool that enables users to express and check provisional interpretations of data in the form of statistical models. EVM integrates support for visualization-based model checks by rendering distributions of model predictions alongside user-generated views of data. In a user study with data scientists practicing in the private and public sector, we evaluate how model checks influence analysts' thinking during data exploration. Our analysis characterizes how participants use model checks to scrutinize expectations about data generating process and surfaces further opportunities to scaffold model exploration in VA tools.",
+    "citationCount": 15,
+    "referenceCount": 71
+}

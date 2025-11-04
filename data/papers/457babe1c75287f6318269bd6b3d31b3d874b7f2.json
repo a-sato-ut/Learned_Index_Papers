@@ -1,0 +1,35 @@
+{
+    "paperId": "457babe1c75287f6318269bd6b3d31b3d874b7f2",
+    "title": "Anticipatory Resource Allocation for ML Training",
+    "year": 2023,
+    "venue": "ACM Symposium on Cloud Computing",
+    "authors": [
+        "Tapan Chugh",
+        "Srikanth Kandula",
+        "Arvind Krishnamurthy",
+        "Ratul Mahajan",
+        "Ishai Menache"
+    ],
+    "doi": "10.1145/3620678.3624669",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/457babe1c75287f6318269bd6b3d31b3d874b7f2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3620678.3624669",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Our analysis of a large public cloud ML training service shows that resources remain unused likely because users statically (over-)allocate resources for their jobs given a desire for predictable performance, and state-of-the-art schedulers do not exploit idle resources lest they slow down some jobs excessively. We consider if an anticipatory scheduler, which schedules based on predictions of future job arrivals and durations, can improve over the state-of-the-art. We find that realizing gains from anticipation requires dealing effectively with prediction errors, and even the best predictors have errors that do not conform to simple models (such as bounded or i.i.d. error). We devise a novel anticipatory scheduler called SIA that is robust to such errors. On real workloads, SIA reduces job latency by an average of 2.83× over the current production scheduler, while reducing the likelihood of job slowdowns by orders of magnitude relative to schedulers that naïvely share resources.",
+    "citationCount": 5,
+    "referenceCount": 65
+}

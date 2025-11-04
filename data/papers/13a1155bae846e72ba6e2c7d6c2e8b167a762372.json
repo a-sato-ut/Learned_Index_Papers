@@ -1,0 +1,33 @@
+{
+    "paperId": "13a1155bae846e72ba6e2c7d6c2e8b167a762372",
+    "title": "Is Machine Learning Necessary for Cloud Resource Usage Forecasting?",
+    "year": 2023,
+    "venue": "ACM Symposium on Cloud Computing",
+    "authors": [
+        "Georgia Christofidi",
+        "Konstantinos Papaioannou",
+        "Thaleia Dimitra Doudali"
+    ],
+    "doi": "10.1145/3620678.3624790",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/13a1155bae846e72ba6e2c7d6c2e8b167a762372",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Robust forecasts of future resource usage in cloud computing environments enable high efficiency in resource management solutions, such as autoscaling and overcommitment policies. Production-level systems use lightweight combinations of historical information to enable practical deployments. Recently, Machine Learning (ML) models, in particular Long Short Term Memory (LSTM) neural networks, have been proposed by various works, for their improved predictive capabilities. Following this trend, we train LSTM models and observe high levels of prediction accuracy, even on unseen data. Upon meticulous visual inspection of the results, we notice that although the predicted values seem highly accurate, they are nothing but versions of the original data shifted by one time step into the future. Yet, this clear shift seems to be enough to produce a robust forecast, because the values are highly correlated across time. We investigate time series data of various resource usage metrics (CPU, memory, network, disk I/O) across different cloud providers and levels, such as at the physical or virtual machine-level and at the application job-level. We observe that resource utilization displays very small variations in consecutive time steps. This insight can enable very simple solutions, such as data shifts, to be used for cloud resource forecasting and deliver highly accurate predictions. This is the reason why we ask whether complex machine learning models are even necessary to use. We envision that practical resource management systems need to first identify the extent to which simple solutions can be effective, and resort to using machine learning to the extent that enables its practical use.",
+    "citationCount": 12,
+    "referenceCount": 51
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "a8bd55031cc1fb8c62a6de62925a28ded5cbcaf6",
+    "title": "LocationTrails: a federated approach to learning location embeddings",
+    "year": 2021,
+    "venue": "International Conference on Advances in Social Networks Analysis and Mining",
+    "authors": [
+        "Saket Gurukar",
+        "Srinivas Parthasarathy",
+        "R. Ramnath",
+        "Catherine Calder",
+        "Sobhan Moosavi"
+    ],
+    "doi": "10.1145/3487351.3490964",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a8bd55031cc1fb8c62a6de62925a28ded5cbcaf6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Learning a vector representation of locations that reflect human mobility patterns is useful for various tasks, including location recommendation, city planning, urban analysis, and even understanding the neighborhood effects on individuals' health and well-being. Existing approaches that model and learn such representations either do not scale or require significant resources to scale. They often need the entire data to be loaded in memory along with the intermediate data representation (typically a co-location graph) and are usually not feasible to execute on low-resource embedding systems such as edge devices. The research question we seek to address in this article is, can one develop efficient federated learning models for location representation learning such that the training and the subsequent updates of the model can occur on edge devices? We present a simple yet novel model called LocationTrails for learning efficient location embeddings to address this question. We show that our proposed model can be trained under the federated learning paradigm and can, therefore, ensure that the model can be trained in a distributed fashion without centralizing locations visited by all users, thereby mitigating some risks to privacy. We evaluate the performance of LocationTrails on five real-world human mobility datasets drawn from two use cases (four of them from driving trajectory data obtained from a national insurance agency; and one of them from a unique study of adolescent mobility patterns in an urban setting). We compare our proposed LocationTrails model against the strong baselines from the network representation learning field. We show the efficacy of LocationTrails in terms of better embedding quality generation, memory consumption, and execution time. To the best of our knowledge, the federated LocationTrails model is the first model that can generate efficient location embeddings without requiring the complete data to be loaded on a central server.",
+    "citationCount": 5,
+    "referenceCount": 43
+}

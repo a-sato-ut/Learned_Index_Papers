@@ -1,0 +1,33 @@
+{
+    "paperId": "a127a8b0acb2582dae8dd3948931b16c853c68e1",
+    "title": "Longformer for MS MARCO Document Re-ranking Task",
+    "year": 2020,
+    "venue": "Text Retrieval Conference",
+    "authors": [
+        "Ivan Sekulic",
+        "Amir Soleimani",
+        "Mohammad Aliannejadi",
+        "F. Crestani"
+    ],
+    "doi": null,
+    "arxivId": "2009.09392",
+    "url": "https://www.semanticscholar.org/paper/a127a8b0acb2582dae8dd3948931b16c853c68e1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Two step document ranking, where the initial retrieval is done by a classical information retrieval method, followed by neural re-ranking model, is the new standard. The best performance is achieved by using transformer-based models as re-rankers, e.g., BERT. We employ Longformer, a BERT-like model for long documents, on the MS MARCO document re-ranking task. The complete code used for training the model can be found on: this https URL",
+    "citationCount": 13,
+    "referenceCount": 14
+}

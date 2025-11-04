@@ -1,0 +1,41 @@
+{
+    "paperId": "b4f7886315c8a7b98b91578e961814a1f59cb6ee",
+    "title": "Unfixed Bias Iterator: A New Iterative Format",
+    "year": 2025,
+    "venue": "IEEE Access",
+    "authors": [
+        "Zeqing Zhang",
+        "Xue Wang",
+        "Jiamin Shen",
+        "Man Zhang",
+        "Sen Yang",
+        "Fanchang Yang",
+        "Wei Zhao",
+        "Jia Wang"
+    ],
+    "doi": "10.1109/ACCESS.2025.3534257",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b4f7886315c8a7b98b91578e961814a1f59cb6ee",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/access.2025.3534257",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Partial differential equations (PDEs) have a wide range of applications in physics and computational science. Solving PDEs numerically is usually done by first meshing the solution region with finite difference method (FDM) and then using iterative methods to obtain an approximation of the exact solution on these meshes, hence decades of research to design iterators with fast convergence properties. With the renaissance of neural networks, many scholars have considered using deep learning to speed up solving PDEs, however, these methods leave poor theoretical guarantees or sub-convergence. We build our iterator on top of the existing standard hand-crafted iterative solvers. At the operational level, for each iteration, we use a deep convolutional network to modify the current iterative result based on the historical iterative results as a way to achieve faster convergence. At the theoretical level, due to the introduced historical iterative results, our iterator is a new iterative format: Unfixed Bias Iterator. We provide sufficient theoretical guarantees and theoretically prove that our iterator can obtain correct results with convergence, as well as a better generalization. Finally, experimental results show that our iterator has a convergence speed far beyond that of other iterators and exhibits strong generalization ability.",
+    "citationCount": 0,
+    "referenceCount": 51
+}

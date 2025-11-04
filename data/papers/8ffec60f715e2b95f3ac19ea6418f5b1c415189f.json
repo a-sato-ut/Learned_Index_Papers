@@ -1,0 +1,41 @@
+{
+    "paperId": "8ffec60f715e2b95f3ac19ea6418f5b1c415189f",
+    "title": "DQN-based Join Order Optimization by Learning Experiences of Running Queries on Spark SQL",
+    "year": 2020,
+    "venue": "2020 International Conference on Data Mining Workshops (ICDMW)",
+    "authors": [
+        "Kyeong-Min Lee",
+        "InA Kim",
+        "Kyu-Chul Lee"
+    ],
+    "doi": "10.1109/ICDMW51313.2020.00107",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8ffec60f715e2b95f3ac19ea6418f5b1c415189f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In a smart grid, various types of queries such as ad-hoc queries and analytic queries are requested for data. There is a limit to query evaluation based on a single node database engines because queries are requested for a large scale of data in the smart grid. In this paper, to improve the performance of retrieving a large scale of data in the smart grid environment, we propose a DQN-based join order optimization model on Spark SQL. The model learns the actual processing time of queries that are evaluated on Spark SQL, not the estimated costs. By learning the optimal join orders from previous experiences, we optimize the join orders with similar performance to Spark SQL without collecting and computing the statistics of an input data set.",
+    "citationCount": 4,
+    "referenceCount": 10
+}

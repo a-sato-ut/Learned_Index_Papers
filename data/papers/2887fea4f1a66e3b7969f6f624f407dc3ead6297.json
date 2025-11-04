@@ -1,0 +1,40 @@
+{
+    "paperId": "2887fea4f1a66e3b7969f6f624f407dc3ead6297",
+    "title": "Efficient Load Balancing for Heterogeneous Radio-Replication-Combined LoRaWAN",
+    "year": 2022,
+    "venue": "IEEE Transactions on Industrial Informatics",
+    "authors": [
+        "Yucheng Liu",
+        "K. Tsang",
+        "Hongxu Zhu",
+        "H. Chi",
+        "Yang Wei",
+        "Hao Wang",
+        "C. Wu"
+    ],
+    "doi": "10.1109/TII.2022.3145846",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2887fea4f1a66e3b7969f6f624f407dc3ead6297",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LoRa wide area network (LoRaWAN), an emerging IoT protocol, has been popularized in large-scale applications, given its long-range and low-power properties. Hitherto, there is no appropriate traffic model for LoRaWAN to estimate the heterogeneous arriving traffic at the network server cluster (NSC). Inefficient computation power planning or even processing failure might be further caused. Radio replication, commonly existed in the arriving traffic at NSC in LoRaWAN, also causes difficulty estimating the makespan (i.e., mean processing time in NSC). To overcome the abovementioned limitations, a heterogeneous radio-replication-aware traffic aggregation model is proposed to estimate the arriving traffic for LoRaWAN. In addition, a radio-replication-combined supermarket model (RRC-SM), on top of HTAM, is proposed to achieve load balancing among servers in LoRaWAN. Furthermore, a nondominated sorting genetic algorithm based on multiobjective optimization is developed to simultaneously minimize cost and latency on NSC. Experiments reveal that the proposed HTAM and RRC-SM agree well with the simulation outcome. Under the arriving traffic estimated as 6.16 erlangs with four radio replications of each arriving packet on average, the proposed RRC-SM provides more than 50% reduction on the total processing latency and 75% reduction on the number of servers in NSC than other existing models.",
+    "citationCount": 9,
+    "referenceCount": 32
+}

@@ -1,0 +1,30 @@
+{
+    "paperId": "6bd66a55a7a00b83cc74c218f494d6d6dfa28825",
+    "title": "A New Graph Neural Network-based Join Optimization Algorithm",
+    "year": 2022,
+    "venue": "2022 International Conference on Algorithms, Data Mining, and Information Technology (ADMIT)",
+    "authors": [
+        "Yuanfeng Song",
+        "Yuqiang Li",
+        "Shuhuan Fan",
+        "Dongsheng He",
+        "Jianming Liao"
+    ],
+    "doi": "10.1109/ADMIT57209.2022.00012",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6bd66a55a7a00b83cc74c218f494d6d6dfa28825",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Improving the query performance of databases has long been a hot research topic in the field of database research. The rapid development of artificial intelligence has introduced new opportunities to database query optimization. To address the problem of the failure to effectively utilize query features and join order features in query optimization, this paper proposes a graph neural network-based database join optimization algorithm, RGOS (Reinforcement learning and GNN-based join Order Selection), which uses a graph convolution algorithm to extract query features and join order features, then employs a reinforcement learning algorithm to learn the database operating environment and continuously optimize the model using feedback to improve the query performance. Finally, the RGOS algorithm is validated on TiDB, an open source distributed relational database. Experimental results show that the RGOS algorithm can improve the average query performance of TiDB by 40%, and the query performance of RGOS algorithm is 25% higher than that of DQ algorithm.",
+    "citationCount": 2,
+    "referenceCount": 19
+}

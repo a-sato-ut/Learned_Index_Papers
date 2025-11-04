@@ -1,0 +1,34 @@
+{
+    "paperId": "743865d0b29609bc7f603a5d0a713f5b9ff65b06",
+    "title": "SVQ++: Querying for Object Interactions in Video Streams",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Daren Chao",
+        "Nick Koudas",
+        "Ioannis Xarchakos"
+    ],
+    "doi": "10.1145/3318464.3384701",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/743865d0b29609bc7f603a5d0a713f5b9ff65b06",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep neural nets enabled sophisticated information extraction out of images, including video frames. Recently, there has been interest in techniques and algorithms to enable interactive declarative query processing of objects appearing on video frames and their associated interactions on the video feed. SVQ++ is a system for declarative querying on real-time video streams involving objects and their interactions. The system utilizes a sequence of inexpensive and less accurate models (filters), called Progressive Filters (PF), to detect the presence of the query specified objects on frames, and a filtering approach, called Interaction Sheave (IS), to effectively prune frames that are not likely to contain interactions. We demonstrate that this system can efficiently identify frames in a streaming video in which an object is interacting with another in a specific way, increasing the frame processing rate dramatically and speed up query processing by at least two orders of magnitude depending on the query.",
+    "citationCount": 19,
+    "referenceCount": 10
+}

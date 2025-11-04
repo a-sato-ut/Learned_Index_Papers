@@ -1,0 +1,35 @@
+{
+    "paperId": "5a703f3b91f96159162663a48ac2db967366429e",
+    "title": "Treating Pseudo-labels Generation as Image Matting for Weakly Supervised Semantic Segmentation",
+    "year": 2023,
+    "venue": "IEEE International Conference on Computer Vision",
+    "authors": [
+        "Changwei Wang",
+        "Rongtao Xu",
+        "Shibiao Xu",
+        "Weiliang Meng",
+        "Xiaopeng Zhang"
+    ],
+    "doi": "10.1109/ICCV51070.2023.00076",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5a703f3b91f96159162663a48ac2db967366429e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Generating accurate pseudo-labels under the supervision of image categories is a crucial step in Weakly Supervised Semantic Segmentation (WSSS). In this work, we propose a Mat-Label pipeline that provides a fresh way to treat WSSS pseudo-labels generation as an image matting task. By taking a trimap as input which specifies the foreground, background and unknown regions, the image matting task outputs an object mask with fine edges. The intuition behind our Mat-Label is that generating trimap is much easier than generating pseudo-labels directly under weakly supervised setting. Although current CAM-based methods are off-the-shelf solutions for generating a trimap, they suffer from cross-category and foreground-background pixel prediction confusion. To solve this problem, we develop a Double Decoupled Class Activation Map (D2CAM) for Mat-Label to generate a high-quality trimap. By drawing on the idea of metric learning, we explicitly model class activation map with category decoupling and foreground-background decoupling. We also design two simple yet effective refinement constraints for D2CAM to stabilize optimization and eliminate non-exclusive activation. Extensive experiments validate that our Mat-Label achieves substantial and consistent performance gains compared to current state-of-the-art WSSS approaches.",
+    "citationCount": 24,
+    "referenceCount": 54
+}

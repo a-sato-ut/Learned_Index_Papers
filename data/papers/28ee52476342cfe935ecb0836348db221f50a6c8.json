@@ -1,0 +1,31 @@
+{
+    "paperId": "28ee52476342cfe935ecb0836348db221f50a6c8",
+    "title": "A Novel Query Method for Spatial Database Based on Improved K-Nearest Neighbor Algorithm",
+    "year": 2023,
+    "venue": "International Journal of Decision Support System Technology",
+    "authors": [
+        "Huili Xia",
+        "Feng Xue"
+    ],
+    "doi": "10.4018/ijdsst.332773",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/28ee52476342cfe935ecb0836348db221f50a6c8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.igi-global.com/ViewTitle.aspx?TitleId=332773&isxn=9798369323243",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Spatial database is a spatial information database and is the core component of geographic information systems (GIS). Aiming at the problem that time complexity of k-nearest neighbor (kNN) querying algorithms are proportionate to scale of training samples, an efficient query method for spatial database based on the Spark framework and the reversed k-nearest neighbor (RkNN) is proposed. Firstly, based on the Spark framework, a two-layer indexing structure based on grid and Voronoi diagram is constructed, and an efficient filtering and a refining processing algorithm are proposed. Secondly, the filtering step of proposed algorithm is used to obtain the candidates, and the refining step is used to remove the candidates. Finally, the candidate sets from different regions are merged to get the final result. Results of experiments on real-world datasets validate that the proposed method has better query performance and better stability and significantly improves the processing speed.",
+    "citationCount": 1,
+    "referenceCount": 27
+}

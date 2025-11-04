@@ -1,0 +1,38 @@
+{
+    "paperId": "7617f3c5e5778fca8b72682443170587976beb26",
+    "title": "Deep Reinforcement Learning in Agent Based Financial Market Simulation",
+    "year": 2020,
+    "venue": "Journal of Risk and Financial Management",
+    "authors": [
+        "Iwao Maeda",
+        "David deGraw",
+        "Michiharu Kitano",
+        "Hiroyasu Matsushima",
+        "Hiroki Sakaji",
+        "K. Izumi",
+        "Atsuo Kato"
+    ],
+    "doi": "10.3390/jrfm13040071",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7617f3c5e5778fca8b72682443170587976beb26",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1911-8074/13/4/71/pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Prediction of financial market data with deep learning models has achieved some level of recent success. However, historical financial data suffer from an unknowable state space, limited observations, and the inability to model the impact of your own actions on the market can often be prohibitive when trying to find investment strategies using deep reinforcement learning. One way to overcome these limitations is to augment real market data with agent based artificial market simulation. Artificial market simulations designed to reproduce realistic market features may be used to create unobserved market states, to model the impact of your own investment actions on the market itself, and train models with as much data as necessary. In this study we propose a framework for training deep reinforcement learning models in agent based artificial price-order-book simulations that yield non-trivial policies under diverse conditions with market impact. Our simulations confirm that the proposed deep reinforcement learning model with unique task-specific reward function was able to learn a robust investment strategy with an attractive risk-return profile.",
+    "citationCount": 23,
+    "referenceCount": 88
+}

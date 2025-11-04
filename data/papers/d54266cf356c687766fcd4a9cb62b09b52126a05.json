@@ -1,0 +1,41 @@
+{
+    "paperId": "d54266cf356c687766fcd4a9cb62b09b52126a05",
+    "title": "A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under Non-IID Challenges",
+    "year": 2024,
+    "venue": "International Conference on Smart Communications and Networking",
+    "authors": [
+        "Eyad Gad",
+        "Z. Fadlullah",
+        "Mostafa M. Fouda"
+    ],
+    "doi": "10.1109/SmartNets61466.2024.10577749",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d54266cf356c687766fcd4a9cb62b09b52126a05",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the context of the growing proliferation of user devices and the concurrent surge in data volumes, the complex-ities arising from the substantial increase in data have posed formidable challenges to conventional machine learning model training. Particularly, this is evident within resource-constrained and security-sensitive environments such as those encountered in networks associated with the Internet of Things (IoT), Federated Learning has emerged as a promising remedy to these challenges by decentralizing model training to edge devices or parties, effectively addressing privacy concerns and resource limitations. Nevertheless, the presence of statistical heterogeneity in non-Independently and Identically Distributed (non-IID) data across different parties poses a significant hurdle to the effectiveness of FL. Many FL approaches have been proposed to enhance learning effectiveness under statistical heterogeneity. However, prior studies have uncovered a gap in the existing research land-scape, particularly in the absence of a comprehensive comparison between federated methods addressing statistical heterogeneity in detecting loT attacks. In this research endeavor, we delve into the exploration of FL algorithms, specifically FedAvg, FedProx, and Scaffold, under different data distributions. Our focus is on achieving a comprehensive understanding of and addressing the challenges posed by statistical heterogeneity. In this study, We classify large-scale loT attacks by utilizing the CICloT2023 dataset. Through meticulous analysis and experimentation, our objective is to illuminate the performance nuances of these FL methods, providing valuable insights for researchers and practitioners in the domain.",
+    "citationCount": 2,
+    "referenceCount": 47
+}

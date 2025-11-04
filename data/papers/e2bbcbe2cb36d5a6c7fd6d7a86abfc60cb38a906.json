@@ -1,0 +1,34 @@
+{
+    "paperId": "e2bbcbe2cb36d5a6c7fd6d7a86abfc60cb38a906",
+    "title": "LAGA: Lagged AllReduce with Gradient Accumulation for Minimal Idle Time",
+    "year": 2021,
+    "venue": "Industrial Conference on Data Mining",
+    "authors": [
+        "Ido Hakimi",
+        "R. Aviv",
+        "K. Levy",
+        "A. Schuster"
+    ],
+    "doi": "10.1109/ICDM51629.2021.00027",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e2bbcbe2cb36d5a6c7fd6d7a86abfc60cb38a906",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Training neural networks on large distributed clusters has become a common practice due to the size and complexity of recent neural networks. These high-end clusters of advanced computational devices cooperate together to reduce the neural network training duration. In practice, training at linear scalability with respect to the number of devices is difficult, due to communication overheads. These communication overheads often cause long idle times for the computational devices. In this paper, we propose LAGA (Lagged AllReduce with Gradient Accumulation): a hybrid technique that combines the best of synchronous and asynchronous approaches, that scales linearly. LAGA reduces the device idle time by accumulating locally computed gradients and executing the communications in the background. We demonstrate the effectiveness of LAGA in both final accuracy and scalability on the ImageNet dataset, where LAGA achieves a speedup of up to 2. 96x and 5. 24x less idle time. Finally, we provide convergence guarantees for LAGA under the non-convex setting.",
+    "citationCount": 3,
+    "referenceCount": 63
+}

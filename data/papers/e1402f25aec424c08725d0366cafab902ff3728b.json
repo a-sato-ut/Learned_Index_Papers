@@ -1,0 +1,34 @@
+{
+    "paperId": "e1402f25aec424c08725d0366cafab902ff3728b",
+    "title": "Proximity Graph Maintenance for Fast Online Nearest Neighbor Search",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Zhao-Ying Xu",
+        "Weijie Zhao",
+        "Shulong Tan",
+        "Zhixin Zhou",
+        "Ping Li"
+    ],
+    "doi": "10.48550/arXiv.2206.10839",
+    "arxivId": "2206.10839",
+    "url": "https://www.semanticscholar.org/paper/e1402f25aec424c08725d0366cafab902ff3728b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2206.10839",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Approximate Nearest Neighbor (ANN) search is a fundamental technique for (e.g.,) the deployment of recommender systems. Recent studies bring proximity graph-based methods into practitioners' attention -- proximity graph-based methods outperform other solutions such as quantization, hashing, and tree-based ANN algorithm families. In current recommendation systems, data point insertions, deletions, and queries are streamed into the system in an online fashion as users and items change dynamically. As proximity graphs are constructed incrementally by inserting data points as new vertices into the graph, online insertions and queries are well-supported in proximity graph. However, a data point deletion incurs removing a vertex from the proximity graph index, while no proper graph index updating mechanisms are discussed in previous studies. To tackle the challenge, we propose an incremental proximity graph maintenance (IPGM) algorithm for online ANN. IPGM supports both vertex deletion and insertion on proximity graphs. Given a vertex deletion request, we thoroughly investigate solutions to update the connections of the vertex. The proposed updating scheme eliminates the performance drop in online ANN methods on proximity graphs, making the algorithm suitable for practical systems.",
+    "citationCount": 7,
+    "referenceCount": 68
+}

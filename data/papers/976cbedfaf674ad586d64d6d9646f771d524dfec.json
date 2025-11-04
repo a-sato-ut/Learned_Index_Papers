@@ -1,0 +1,31 @@
+{
+    "paperId": "976cbedfaf674ad586d64d6d9646f771d524dfec",
+    "title": "Approximate Query Processing via Tuple Bubbles",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Damjan Gjurovski",
+        "S. Michel"
+    ],
+    "doi": "10.48550/arXiv.2212.10150",
+    "arxivId": "2212.10150",
+    "url": "https://www.semanticscholar.org/paper/976cbedfaf674ad586d64d6d9646f771d524dfec",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2212.10150",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "—We propose a versatile approach to lightweight, ap- proximate query processing by creating compact but tunably pre-cise representations of larger quantities of original tuples, coined bubbles. Instead of working with tables of tuples, the query processing then operates on bubbles but leaves the traditional query processing paradigms conceptually applicable. We believe this is a natural and viable approach to render approximate query processing feasible for large data in disaggregated cloud settings or in resource-limited scenarios. Bubbles are tunable regarding the compactness of enclosed tuples as well as the granularity of statistics and the way they are instantiated. For improved accuracy, we put forward a ﬁrst working solution that represents bubbles via Bayesian networks, per table, or along foreign-key joins. To underpin the viability of the approach, we report on an experimental evaluation considering the state-of-the- art competitors, where we show clear beneﬁts when assessing the estimation accuracy, execution time, and required disk space.",
+    "citationCount": 0,
+    "referenceCount": 29
+}

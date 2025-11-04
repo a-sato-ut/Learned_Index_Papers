@@ -1,0 +1,34 @@
+{
+    "paperId": "71331d8c267f6a2690688b6e0e9f5a900705dfba",
+    "title": "Background Matting via Recursive Excitation",
+    "year": 2022,
+    "venue": "IEEE International Conference on Multimedia and Expo",
+    "authors": [
+        "Junjie Deng",
+        "Yangyang Xu",
+        "Zeyang Zhou",
+        "Shengfeng He"
+    ],
+    "doi": "10.1109/ICME52920.2022.9859876",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/71331d8c267f6a2690688b6e0e9f5a900705dfba",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a simple yet effective technique that significantly improves the performance of the current state-of-the-art background matting model without compromising its original speed. We achieve this by carefully exciting the proper neural activations using an excitation map in the training phase and performing recursive inference in the testing phase. To avoid being over-reliant on perfect excitations, we follow the idea of curriculum learning to divide the training phase into three easy-to-hard stages and gradually shift the excitation map from GT alpha matte to pseudo GT alpha matte. In the testing phase, we propose a recursive inference mechanism that uses the output alpha matte as the excitation map to further refine the output alpha matte. Our method is a simple plug-in for arbitrary matting models. Compared with the original ones, the enhanced models alleviate the problem of performance degradation with complex background and thus boosts the matting accuracy.",
+    "citationCount": 2,
+    "referenceCount": 28
+}

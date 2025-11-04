@@ -1,0 +1,31 @@
+{
+    "paperId": "17eec9eb059b266c2dfadbec0311a2ef4bc40474",
+    "title": "Advancing Workload Management with Foundational Models: Challenges in Time Series Similarity and Interpretability",
+    "year": 2025,
+    "venue": "Proceedings of the 1st workshop connecting academia and industry on Modern Integrated Database and AI Systems",
+    "authors": [
+        "Tiemo Bang",
+        "Ioannis Roumpos",
+        "Sergiy Matusevych",
+        "Georgia Christofidi",
+        "Yuanyuan Tian",
+        "Thaleia Dimitra Doudali"
+    ],
+    "doi": "10.1145/3737412.3743491",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/17eec9eb059b266c2dfadbec0311a2ef4bc40474",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Workload management (WLM) is essential for cloud providers to balance performance, reliability, and cost. Many WLM tasks rely on understanding workload behavior through time series similarity analysis, but traditional approaches face scalability challenges due to manual feature engineering and computational overheads. Foundational time series models promise to address these limitations by learning reusable representations with minimal supervision. This paper evaluates their practical potential for WLM through a focused case study on time series similarity. We present concrete use cases, characterize a real-world query arrival dataset from Microsoft Fabric Warehouse, and compare the foundational model MOMENT against conventional similarity methods. Our findings reveal that while foundational models offer computational efficiency, they produce overly generalized similarities with limited interpretability compared to hand-engineered features. We identify key challenges and research directions needed to make foundational models practical for workload management.",
+    "citationCount": 0,
+    "referenceCount": 25
+}

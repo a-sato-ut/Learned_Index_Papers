@@ -1,0 +1,34 @@
+{
+    "paperId": "12ea1720ada529f7f002c3b61d659aed1fa06824",
+    "title": "NURD: Negative-Unlabeled Learning for Online Datacenter Straggler Prediction",
+    "year": 2022,
+    "venue": "Conference on Machine Learning and Systems",
+    "authors": [
+        "Yi Ding",
+        "Avinash Rao",
+        "Hyebin Song",
+        "R. Willett",
+        "Henry Hoffmann"
+    ],
+    "doi": "10.48550/arXiv.2203.08339",
+    "arxivId": "2203.08339",
+    "url": "https://www.semanticscholar.org/paper/12ea1720ada529f7f002c3b61d659aed1fa06824",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2203.08339",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Datacenters execute large computational jobs, which are composed of smaller tasks. A job completes when all its tasks finish, so stragglers -- rare, yet extremely slow tasks -- are a major impediment to datacenter performance. Accurately predicting stragglers would enable proactive intervention, allowing datacenter operators to mitigate stragglers before they delay a job. While much prior work applies machine learning to predict computer system performance, these approaches rely on complete labels -- i.e., sufficient examples of all possible behaviors, including straggling and non-straggling -- or strong assumptions about the underlying latency distributions -- e.g., whether Gaussian or not. Within a running job, however, none of this information is available until stragglers have revealed themselves when they have already delayed the job. To predict stragglers accurately and early without labeled positive examples or assumptions on latency distributions, this paper presents NURD, a novel Negative-Unlabeled learning approach with Reweighting and Distribution-compensation that only trains on negative and unlabeled streaming data. The key idea is to train a predictor using finished tasks of non-stragglers to predict latency for unlabeled running tasks, and then reweight each unlabeled task's prediction based on a weighting function of its feature space. We evaluate NURD on two production traces from Google and Alibaba, and find that compared to the best baseline approach, NURD produces 2--11 percentage point increases in the F1 score in terms of prediction accuracy, and 2.0--8.8 percentage point improvements in job completion time.",
+    "citationCount": 3,
+    "referenceCount": 85
+}

@@ -1,0 +1,28 @@
+{
+    "paperId": "bcc90c89520240611d97158a9eee21e21d0347e1",
+    "title": "Eagle Framework: An Automatic Parallelism Tuning Architecture for Semantic Reasoners",
+    "year": 2025,
+    "venue": "International Journal of Advanced Computer Science and Applications",
+    "authors": [
+        "Haifa Ali Al-Hebshi",
+        "Muhammad Ahtisham Aslam",
+        "Kawther Saeedi"
+    ],
+    "doi": "10.14569/ijacsa.2025.01601125",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bcc90c89520240611d97158a9eee21e21d0347e1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.14569/ijacsa.2025.01601125",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "—Parallel semantic reasoners use parallel architectures to improve the efficiency of reasoning tasks. Studies in semantic reasoning rely on manual tuning to configure the degree of parallelism. However, manual tuning becomes increasingly challenging as ontologies become massive and complex. Studies in related fields have developed automatic tuning frameworks using optimization search methods. Although these methods offer performance gains, reducing search time and space size is still an open problem. This study aims to bridge the gap in semantic reasoning and the problem in existing search methods. To achieve these aims, we propose Eagle Framework (EF), an innovative automatic tuning framework designed to improve the performance of parallel semantic reasoners. EF automatically configures the degree of parallelism and calculates the performance data. It incorporates a novel search space and algorithm, inspired by the AVL tree, that efficiently identifies the optimal degree of parallelism. In a case study, EF completed the tuning processes in seconds to a few minutes, achieving performance gains up to 65 times faster than common search methods. The reliability findings, with ICC scores ranging from 0.90 to 0.99, confirmed the consistency of the performance data calculated by EF. The regression analysis revealed the effectiveness of EF in identifying the factors that affect reasoning scalability, with the conclusion that the size of the ontology is the dominant factor. The study underscores the need for adaptive approaches to tune the degree of parallelism based on the size of the ontology.",
+    "citationCount": 0,
+    "referenceCount": 50
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "c8be020ecdd38823b076e6deb60a5b4f7c3deaf0",
+    "title": "Ada-Retrieval: An Adaptive Multi-Round Retrieval Paradigm for Sequential Recommendations",
+    "year": 2024,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Lei Li",
+        "Jianxun Lian",
+        "Xiao Zhou",
+        "Xing Xie"
+    ],
+    "doi": "10.48550/arXiv.2401.06633",
+    "arxivId": "2401.06633",
+    "url": "https://www.semanticscholar.org/paper/c8be020ecdd38823b076e6deb60a5b4f7c3deaf0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Retrieval models aim at selecting a small set of item candidates which match the preference of a given user. They play a vital role in large-scale recommender systems since subsequent models such as rankers highly depend on the quality of item candidates. However, most existing retrieval models employ a single-round inference paradigm, which may not adequately capture the dynamic nature of user preferences and stuck in one area in the item space. In this paper, we propose Ada-Retrieval, an adaptive multi-round retrieval paradigm for recommender systems that iteratively refines user representations to better capture potential candidates in the full item space. Ada-Retrieval comprises two key modules: the item representation adapter and the user representation adapter, designed to inject context information into items' and users' representations. The framework maintains a model-agnostic design, allowing seamless integration with various backbone models such as RNNs or Transformers. We perform experiments on three widely used public datasets, incorporating five powerful sequential recommenders as backbone models. Our results demonstrate that Ada-Retrieval significantly enhances the performance of various base models, with consistent improvements observed across different datasets. Our code and data are publicly available at: https://github.com/ll0ruc/Ada-Retrieval.",
+    "citationCount": 6,
+    "referenceCount": 31
+}

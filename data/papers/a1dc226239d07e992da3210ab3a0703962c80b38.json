@@ -1,0 +1,31 @@
+{
+    "paperId": "a1dc226239d07e992da3210ab3a0703962c80b38",
+    "title": "Semantic-guided Automatic Natural Image Matting with Trimap Generation Network and Light-weight Non-local Attention",
+    "year": 2021,
+    "venue": "",
+    "authors": [
+        "Yuhongze Zhou",
+        "Liguang Zhou",
+        "Tin Lun Lam",
+        "Yangsheng Xu"
+    ],
+    "doi": null,
+    "arxivId": "2103.17020",
+    "url": "https://www.semanticscholar.org/paper/a1dc226239d07e992da3210ab3a0703962c80b38",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Natural image matting aims to precisely separate foreground objects from background using alpha matte. Fully automatic natural image matting without external annotation is challenging. Well-performed matting methods usually require accurate labor-intensive handcrafted trimap as extra input, while the performance of automatic trimap generation method of dilating foreground segmentation fluctuates with segmentation quality. Therefore, we argue that how to handle trade-off of additional information input is a major issue in automatic matting. This paper presents a semantic-guided automatic natural image matting pipeline with Trimap Generation Network and light-weight non-local attention, which does not need trimap and background as input. Specifically, guided by foreground segmentation, Trimap Generation Network estimates accurate trimap. Then, with estimated trimap as guidance, our light-weight Non-local Matting Network with Refinement produces final alpha matte, whose trimap-guided global aggregation attention block is equipped with stride downsampling convolution, reducing computation complexity and promoting performance. Experimental results show that our matting algorithm has competitive performance with state-of-the-art methods in both trimap-free and trimap-needed aspects.",
+    "citationCount": 2,
+    "referenceCount": 74
+}

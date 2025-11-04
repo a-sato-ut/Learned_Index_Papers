@@ -1,0 +1,30 @@
+{
+    "paperId": "41a477c70565c330a400a9ac94fa014c333b9c4a",
+    "title": "Cluster Workload Allocation: A Predictive Approach Leveraging Machine Learning Efficiency",
+    "year": 2025,
+    "venue": "IEEE Access",
+    "authors": [
+        "L. Sliwko"
+    ],
+    "doi": "10.1109/ACCESS.2024.3520422",
+    "arxivId": "2509.17695",
+    "url": "https://www.semanticscholar.org/paper/41a477c70565c330a400a9ac94fa014c333b9c4a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/access.2024.3520422",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This research investigates how Machine Learning (ML) algorithms can assist in workload allocation strategies by detecting tasks with node affinity operators (referred to as constraint operators), which constrain their execution to a limited number of nodes. Using real-world Google Cluster Data (GCD) workload traces and the AGOCS framework, the study extracts node attributes and task constraints, then analyses them to identify suitable node-task pairings. It focuses on tasks that can be executed on either a single node or fewer than a thousand out of 12.5k nodes in the analysed GCD cluster. Task constraint operators are compacted, pre-processed with one-hot encoding, and used as features in a training dataset. Various ML classifiers, including Artificial Neural Networks, K-Nearest Neighbours, Decision Trees, Naive Bayes, Ridge Regression, Adaptive Boosting, and Bagging, are fine-tuned and assessed for accuracy and F1-scores. The final ensemble voting classifier model achieved 98% accuracy and a 1.5-1.8% misclassification rate for tasks with a single suitable node.",
+    "citationCount": 1,
+    "referenceCount": 85
+}

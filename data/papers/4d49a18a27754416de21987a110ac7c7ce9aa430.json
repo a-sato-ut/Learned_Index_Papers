@@ -1,0 +1,29 @@
+{
+    "paperId": "4d49a18a27754416de21987a110ac7c7ce9aa430",
+    "title": "Path planning based on improved Deep Deterministic Policy Gradient algorithm",
+    "year": 2019,
+    "venue": "2019 IEEE 3rd Information Technology, Networking, Electronic and Automation Control Conference (ITNEC)",
+    "authors": [
+        "Yandong Liu",
+        "Wenzhi Zhang",
+        "Fumin Chen",
+        "Jianliang Li"
+    ],
+    "doi": "10.1109/itnec.2019.8729369",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4d49a18a27754416de21987a110ac7c7ce9aa430",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Traditional DDPG algorithm experience replay is limited by the fixed replay buffer capacity, which cannot meet the demand for multi-feature data with the improvement of the learning ability of the algorithm. Aiming at the above problems, a variable capacity experience replay sampling method based on learning curve theory is proposed. By adding the learning curve to the DDPG algorithm, the algorithm realizes real-time adjustment of the replay buffer capacity according to its own learning curve, which improves the effectiveness of the sample data on the algorithm training. The simulation environment of path planning is built by using Python and Pyglet library. The simulation results show that the improved algorithm achieves better learning results.",
+    "citationCount": 10,
+    "referenceCount": 15
+}

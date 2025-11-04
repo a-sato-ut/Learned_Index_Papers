@@ -1,0 +1,33 @@
+{
+    "paperId": "d00934018c17293f23d3e87a604b0f144db2c644",
+    "title": "Adaptive Indexing of Objects with Spatial Extent",
+    "year": 2023,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Fatemeh Zardbani",
+        "N. Mamoulis",
+        "Stratos Idreos",
+        "Panagiotis Karras"
+    ],
+    "doi": "10.14778/3598581.3598596",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d00934018c17293f23d3e87a604b0f144db2c644",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Can we quickly explore large multidimensional data in main memory?\n Adaptive indexing\n responds to this need by building an index incrementally, in response to queries; in its default form, it indexes a single attribute or, in the presence of several attributes, one attribute per index level. Unfortunately, this approach falters when indexing spatial data objects, encountered in data exploration tasks involving multidimensional range queries. In this paper, we introduce the Adaptive Incremental R-tree (AIR-tree): the first method for the adaptive indexing of non-point spatial objects; the AIR-tree incrementally and progressively constructs an in-memory spatial index over a static array, in response to incoming queries, using a suite of heuristics for creating and splitting nodes. Our thorough experimental study on synthetic and real data and workloads shows that the AIR-tree consistently outperforms prior adaptive indexing methods focusing on multidimensional points and a pre-built static R-tree in cumulative time over at least the first thousand queries.\n",
+    "citationCount": 14,
+    "referenceCount": 39
+}

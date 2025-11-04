@@ -1,0 +1,33 @@
+{
+    "paperId": "a5bf5fef28b1b1b8bc5bf4fcdfb4e2100a8347b7",
+    "title": "Selectivity Estimation for Relation-Tree Joins",
+    "year": 2020,
+    "venue": "International Conference on Statistical and Scientific Database Management",
+    "authors": [
+        "Chao Zhang",
+        "Jiaheng Lu"
+    ],
+    "doi": "10.1145/3400903.3400921",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a5bf5fef28b1b1b8bc5bf4fcdfb4e2100a8347b7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Estimating the join selectivity is a crucial problem in many aspects of query processing, such as query optimization and query refinement. Selectivity estimation has been extensively studied for the relational joins in SQL queries and structural joins in path-oriented queries. However, as leading databases have supported the multi-model data management on relational and tree-structured data together, a new problem has arisen: the existing estimation techniques mainly work for a single model but not for the heterogeneous situation due to the cross-model joins. A straightforward combination of existing estimators cannot provide a satisfactory estimation quality. This paper studies the problem of selectivity estimation for cross-model joins with relational and tree-structured data. Our estimator is based on the Kernel Density Estimation (KDE) model, which is a statistical approach using a data sample to approximate multivariate probability distribution. KDE has been successfully applied in relational databases to estimate the selectivity of range and join query. In this work, we propose an estimation method called location-value estimation (LVE) model based on KDE, which considers both value joins and structural joins in relational and tree-structured data. To boost the estimation efficiency in large data samples, we further propose the max-min approximation (MMA) and grid-based approximation (GBA) models to approximate the KDE contribution. Extensive experiments on four real and synthetic datasets demonstrate the effectiveness, efficiency, and scalability of our techniques.",
+    "citationCount": 6,
+    "referenceCount": 43
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "2a43dbcbeaefe7cfaf6b9212b8e9b48ed0631b55",
+    "title": "Enabling Multi-tenancy on SSDs with Accurate IO Interference Modeling",
+    "year": 2023,
+    "venue": "ACM Symposium on Cloud Computing",
+    "authors": [
+        "Lokesh N. Jaliminche",
+        "C. Chakraborttii",
+        "Changho Choi",
+        "Heiner Litz"
+    ],
+    "doi": "10.1145/3620678.3624657",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2a43dbcbeaefe7cfaf6b9212b8e9b48ed0631b55",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Technological advancements in the past decades have substantially increased the capacity and performance of Solid State Drives (SSDs). Provisioning such high-capacity SSDs among tenants can reap multiple benefits, such as elevated performance, efficient resource utilization, and cost savings through reduced Total Cost of Ownership. However, workloads perform poorly when co-located with others on the same SSD due to IO Interference, potentially violating Service Level Objectives (SLOs). High overprovisioning can address the SLO issue, however, it entails low utilization. Prior works proposed Machine Learning (ML) techniques to predict SSD performance in the presence of interfering tenants for optimizing workload placement. However, we find that these works suffer from two notable limitations. First, previous ML models do not capture interference impact due to the non-uniform workload characteristics and SSD internals. Second, they fail to compute interference of an arbitrary number of workloads due to a lack of feature aggregation. As a result, these works still offer low utilization and can only enforce weak SLOs. To address these limitations, we propose a Gray-box feature representation and aggregation technique to capture the IO interference impact of multiple non-uniform workloads based on internal SSD characteristics. Our technique improves prediction accuracy by 12x (lower mean absolute error) over prior works, resulting in up to 60% higher resource utilization or enforcing up to 2.5× stricter SLOs.",
+    "citationCount": 4,
+    "referenceCount": 80
+}

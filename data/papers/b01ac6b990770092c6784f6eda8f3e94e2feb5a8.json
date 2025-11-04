@@ -1,0 +1,36 @@
+{
+    "paperId": "b01ac6b990770092c6784f6eda8f3e94e2feb5a8",
+    "title": "Wrex: A Unified Programming-by-Example Interaction for Synthesizing Readable Code for Data Scientists",
+    "year": 2020,
+    "venue": "International Conference on Human Factors in Computing Systems",
+    "authors": [
+        "Ian Drosos",
+        "Titus Barik",
+        "Philip J. Guo",
+        "R. Deline",
+        "Sumit Gulwani"
+    ],
+    "doi": "10.1145/3313831.3376442",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b01ac6b990770092c6784f6eda8f3e94e2feb5a8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376442",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data wrangling is a difficult and time-consuming activity in computational notebooks, and existing wrangling tools do not fit the exploratory workflow for data scientists in these environments. We propose a unified interaction model based on programming-by-example that generates readable code for a variety of useful data transformations, implemented as a Jupyter notebook extension called Wrex. User study results demonstrate that data scientists are significantly more effective and efficient at data wrangling with Wrex over manual programming. Qualitative participant feedback indicates that Wrex was useful and reduced barriers in having to recall or look up the usage of various data transform functions. The synthesized code allowed data scientists to verify the intended data transformation, increased their trust and confidence in Wrex, and fit seamlessly within their cell-based notebook workflows. This work suggests that presenting readable code to professional data scientists is an indispensable component of offering data wrangling tools in notebooks.",
+    "citationCount": 127,
+    "referenceCount": 35
+}

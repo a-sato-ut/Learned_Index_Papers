@@ -1,0 +1,37 @@
+{
+    "paperId": "a42a4b522dcabc87e0bfadb04552fb40bf48b322",
+    "title": "Understanding and Guiding Weakly Supervised Entity Alignment with Potential Isomorphism Propagation",
+    "year": 2024,
+    "venue": "ACM Transactions on Knowledge Discovery from Data",
+    "authors": [
+        "Yuanyi Wang",
+        "Wei Tang",
+        "Haifeng Sun",
+        "Zirui Zhuang",
+        "Xiaoyuan Fu",
+        "Jingyu Wang",
+        "Qi Qi",
+        "Jianxin Liao"
+    ],
+    "doi": "10.1145/3742436",
+    "arxivId": "2402.03025",
+    "url": "https://www.semanticscholar.org/paper/a42a4b522dcabc87e0bfadb04552fb40bf48b322",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Weakly Supervised Entity Alignment (EA) is the task of identifying equivalent entities across diverse knowledge graphs (KGs) using only a limited number of seed alignments. Despite substantial advances in aggregation-based weakly supervised EA, the underlying mechanisms in this setting remain unexplored. In this article, we present a propagation perspective to analyze weakly supervised EA and explain the existing aggregation-based EA models. Our theoretical analysis reveals that these models essentially seek propagation operators for pairwise entity similarities. We further prove that, despite the structural heterogeneity across different KGs, the potentially aligned entities within aggregation-based EA models exhibit isomorphic subgraphs, a fundamental yet underexplored premise of EA. Leveraging this insight, we introduce a potential isomorphism propagation operator to enhance the propagation of neighborhood information across KGs. We develop a general EA framework, PipEA, incorporating this operator to improve the accuracy of every type of aggregation-based model without altering the learning process. Extensive experiments substantiate our theoretical findings and demonstrate PipEA’s significant performance gains over state-of-the-art weakly supervised EA methods. Our work advances the field and enhances our comprehension of aggregation-based weakly supervised EA.",
+    "citationCount": 1,
+    "referenceCount": 81
+}

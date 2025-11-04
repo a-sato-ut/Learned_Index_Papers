@@ -1,0 +1,32 @@
+{
+    "paperId": "bd07c092ffae1bf4935a79da513208bf4dfa77dd",
+    "title": "Machine Learning-based Selection of Graph Partitioning Strategy Using the Characteristics of Graph Data and Algorithm",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Youngjoon Park",
+        "Dongkyu Lee",
+        "Tien-Cuong Bui"
+    ],
+    "doi": "10.48550/arXiv.2209.04137",
+    "arxivId": "2209.04137",
+    "url": "https://www.semanticscholar.org/paper/bd07c092ffae1bf4935a79da513208bf4dfa77dd",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2209.04137",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Analyzing large graph data is an essential part of many modern applications, such as social networks. Due to its large computational complexity, distributed processing is frequently employed. This requires graph data to be divided across nodes, and the choice of partitioning strategy has a great impact on the execution time of the task. Yet, there is no one-size-fits-all partitioning strategy that performs well on arbitrary graph data and algorithms. The performance of a strategy depends on the characteristics of the graph data and algorithms. Moreover, due to the complexity of graph data and algorithms, manually identifying the best partitioning strategy is also infeasible. In this work, we propose a machine learning-based approach to select the most appropriate partitioning strategy for a given graph and processing algorithm. Our approach enumerates viable partitioning strategies, predicts the execution time of the target algorithm for each, and selects the partitioning strategy with the fastest estimated execution time. Our machine learning model is trained on features extracted from graph data and algorithm pseudo-code. We also propose a method that augments real execution logs of graph tasks to create a large synthetic dataset. Evaluation results show that the strategies selected by our approach lead to 1.46X faster execution time on average compared with the mean execution time of the partitioning strategies and about 0.95X the performance compared to the best partitioning strategy.",
+    "citationCount": 1,
+    "referenceCount": 55
+}

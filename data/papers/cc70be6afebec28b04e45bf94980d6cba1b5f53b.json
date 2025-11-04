@@ -1,0 +1,37 @@
+{
+    "paperId": "cc70be6afebec28b04e45bf94980d6cba1b5f53b",
+    "title": "Architecting a Flash-Based Storage System for Low-Cost Inference of Extreme-Scale DNNs",
+    "year": 2022,
+    "venue": "IEEE transactions on computers",
+    "authors": [
+        "Yunho Jin",
+        "Shine Kim",
+        "Tae Jun Ham",
+        "Jae W. Lee"
+    ],
+    "doi": "10.1109/TC.2022.3209920",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cc70be6afebec28b04e45bf94980d6cba1b5f53b",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The size of deep neural network (DNN) models has been exploding rapidly, demanding a colossal amount of memory capacity. For example, Google has recently scaled its Switch Transformer to have a parameter size of up to 6.4 TB. However, today's HBM DRAM-based memory system for GPUs and DNN accelerators is suboptimal for these extreme-scale DNNs as it fails to provide enough capacity while its massive bandwidth is poorly utilized. Thus, we propose Leviathan, a DNN inference accelerator, which integrates a cost-effective flash-based storage system, instead. We carefully architect the storage system to provide enough memory bandwidth while preventing performance drop caused by read disturbance errors. Our evaluation of Leviathan demonstrates an 8.3× throughput gain compared to the iso-FLOPS DNN accelerator with conventional SSDs and up to 19.5× higher memory cost-efficiency than the HBM-based DNN accelerator.",
+    "citationCount": 3,
+    "referenceCount": 46
+}

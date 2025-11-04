@@ -1,0 +1,43 @@
+{
+    "paperId": "ba241d17cc4d7f01dd979fd944fe97387372cc18",
+    "title": "PP-Matting: High-Accuracy Natural Image Matting",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Guowei Chen",
+        "Yi Liu",
+        "Jian Wang",
+        "Juncai Peng",
+        "Yuying Hao",
+        "Lutao Chu",
+        "Shiyu Tang",
+        "Zewu Wu",
+        "Zeyu Chen",
+        "Zhiliang Yu",
+        "Yuning Du",
+        "Qingqing Dang",
+        "Xiaoguang Hu",
+        "Dianhai Yu"
+    ],
+    "doi": "10.48550/arXiv.2204.09433",
+    "arxivId": "2204.09433",
+    "url": "https://www.semanticscholar.org/paper/ba241d17cc4d7f01dd979fd944fe97387372cc18",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2204.09433",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Natural image matting is a fundamental and challenging computer vision task. It has many applications in image editing and composition. Recently, deep learning-based approaches have achieved great improvements in image matting. However, most of them require a user-supplied trimap as an auxiliary input, which limits the matting applications in the real world. Although some trimap-free approaches have been proposed, the matting quality is still unsatisfactory compared to trimap-based ones. Without the trimap guidance, the matting models suffer from foreground-background ambiguity easily, and also generate blurry details in the transition area. In this work, we propose PP-Matting, a trimap-free architecture that can achieve high-accuracy natural image matting. Our method applies a high-resolution detail branch (HRDB) that extracts fine-grained details of the foreground with keeping feature resolution unchanged. Also, we propose a semantic context branch (SCB) that adopts a semantic segmentation subtask. It prevents the detail prediction from local ambiguity caused by semantic context missing. In addition, we conduct extensive experiments on two well-known benchmarks: Composition-1k and Distinctions-646. The results demonstrate the superiority of PP-Matting over previous methods. Furthermore, we provide a qualitative evaluation of our method on human matting which shows its outstanding performance in the practical application. The code and pre-trained models will be available at PaddleSeg: https://github.com/PaddlePaddle/PaddleSeg.",
+    "citationCount": 34,
+    "referenceCount": 43
+}

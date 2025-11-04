@@ -1,0 +1,35 @@
+{
+    "paperId": "0a464c82d25bebb36b873fd84e6c45edc049fdb3",
+    "title": "An Interpretable Framework for Drug-Target Interaction with Gated Cross Attention",
+    "year": 2021,
+    "venue": "Machine Learning in Health Care",
+    "authors": [
+        "Yeachan Kim",
+        "Bonggun Shin"
+    ],
+    "doi": null,
+    "arxivId": "2109.08360",
+    "url": "https://www.semanticscholar.org/paper/0a464c82d25bebb36b873fd84e6c45edc049fdb3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In silico prediction of drug-target interactions (DTI) is significant for drug discovery because it can largely reduce timelines and costs in the drug development process. Specifically, deep learning-based DTI approaches have been shown promising results in terms of accuracy and low cost for the prediction. However, they pay little attention to the interpretability of their prediction results and feature-level interactions between a drug and a target. In this study, we propose a novel interpretable framework that can provide reasonable cues for the interaction sites. To this end, we elaborately design a gated cross-attention mechanism that crossly attends drug and target features by constructing explicit interactions between these features. The gating function in the method enables neural models to focus on salient regions over entire sequences of drugs and proteins, and the byproduct from the function, which is the attention map, could serve as interpretable factors. The experimental results show the efficacy of the proposed method in two DTI datasets. Additionally, we show that gated cross-attention can sensitively react to the mutation, and this result could provide insights into the identification of novel drugs targeting mutant proteins.",
+    "citationCount": 9,
+    "referenceCount": 41
+}

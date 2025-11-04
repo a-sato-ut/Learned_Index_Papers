@@ -1,0 +1,37 @@
+{
+    "paperId": "ebb9a2e4476aa3f7b96e9184a6f95579e6576b82",
+    "title": "Content-Based Image Retrieval for Multi-Class Volumetric Radiology Images: A Benchmark Study",
+    "year": 2024,
+    "venue": "IEEE Access",
+    "authors": [
+        "Farnaz Khun Jush",
+        "Steffen Vogler",
+        "Tuan Truong",
+        "Matthias Lenga"
+    ],
+    "doi": "10.1109/ACCESS.2025.3561594",
+    "arxivId": "2405.09334",
+    "url": "https://www.semanticscholar.org/paper/ebb9a2e4476aa3f7b96e9184a6f95579e6576b82",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/access.2025.3561594",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the growing number of images generated daily in radiological practices and the digitization of historical studies, we face large databases where metadata can be incomplete or incorrect. Content-based image retrieval (CBIR) can help to manage these datasets by efficiently locating and retrieving relevant information by only using image data as a query. Recent studies have shown the potential use of pre-trained vision embeddings for CBIR in the context of radiology image retrieval for specific tasks like single-organ retrieval or distinguishing between normal and abnormal tissues. However, a comprehensive benchmark for the retrieval of 3D volumetric medical images is still lacking. In this study, we establish a benchmark for multi-class volumetric retrieval for different retrieval modes. The retrieval modes are defined based on end-point use-cases, which include Full-Scan Retrieval, Targeted-Region Retrieval, and Precise-Localization Retrieval. We utilize the TotalSegmentator dataset, comprising 104 detailed anatomical structures, to evaluate the performance of embeddings derived from pre-trained models across the proposed retrieval modes. We show the potential of CBIR for organ retrieval by achieving a retrieval recall of 1.0 for diverse anatomical regions with a wide size range. The methodology presented in this paper utilizes publicly available image data and embedding models without requiring any task-specific fine-tuning. This benchmark aims to enable further development and allow for a more consistent evaluation of CBIR approaches in the context of 3D medical imaging.",
+    "citationCount": 4,
+    "referenceCount": 48
+}

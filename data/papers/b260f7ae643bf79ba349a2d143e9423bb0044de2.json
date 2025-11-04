@@ -1,0 +1,38 @@
+{
+    "paperId": "b260f7ae643bf79ba349a2d143e9423bb0044de2",
+    "title": "On the Performance of TCP in Reconfigurable Data Center Networks",
+    "year": 2022,
+    "venue": "Conference on Network and Service Management",
+    "authors": [
+        "Kaan Aykurt",
+        "Johannes Zerwas",
+        "Andreas Blenk",
+        "W. Kellerer"
+    ],
+    "doi": "10.23919/CNSM55787.2022.9964863",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b260f7ae643bf79ba349a2d143e9423bb0044de2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://mediatum.ub.tum.de/doc/1689600/document.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Today’s data centers are hosting various applications under the same roof. The diversity among deployed applications leads to a complex traffic mix in Data Center Networks (DCNs). Reconfigurable Data Center Networks (RD-CNs) have been designed to fulfill the demanding requirements of ever-changing data center traffic. However, they pose new challenges for network traffic engineering, e.g., interference between reconfigurations and congestion control (CC). This raises a fundamental research problem: can the current transport layer protocols handle frequent network updates?; This paper focuses on the Transmission Control Protocol (TCP) and presents a measurement study of TCP variants in RDCNs. The quantitative analysis of the measurements shows that migrated flows suffer from frequent reconfigurations. The effect of reconfigurations on the cost, e.g. increased Flow Completion Time (FCT), depending on the traffic mix is modeled with Machine Learning (ML) methods. The availability of such a model will provide insights into the relationship between the reconfiguration settings and the FCT. Our model explains 88% of the variance in the FCT increase under different reconfiguration settings.",
+    "citationCount": 1,
+    "referenceCount": 44
+}

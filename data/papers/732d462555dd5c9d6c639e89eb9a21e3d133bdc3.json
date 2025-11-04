@@ -1,0 +1,39 @@
+{
+    "paperId": "732d462555dd5c9d6c639e89eb9a21e3d133bdc3",
+    "title": "DeepDriveMD: Deep-Learning Driven Adaptive Molecular Simulations for Protein Folding",
+    "year": 2019,
+    "venue": "Dynamic Languages Symposium",
+    "authors": [
+        "Hyungro Lee",
+        "Heng Ma",
+        "M. Turilli",
+        "D. Bhowmik",
+        "S. Jha",
+        "A. Ramanathan"
+    ],
+    "doi": "10.1109/DLS49591.2019.00007",
+    "arxivId": "1909.07817",
+    "url": "https://www.semanticscholar.org/paper/732d462555dd5c9d6c639e89eb9a21e3d133bdc3",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1909.07817",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Simulations of biological macromolecules are important in understanding the physical basis of complex processes such as protein folding. However, even with increasing computational capacity and specialized architectures, the ability to simulate protein folding at atomistic scales still remains challenging. This stems from the dual aspects of high dimensionality of protein conformational landscapes, and the inability of atomistic molecular dynamics (MD) simulations to sufficiently sample these landscapes to observe folding events. Machine learning/deep learning (ML/DL) techniques, when combined with atomistic MD simulations offer the opportunity to potentially overcome these limitations by: (1) effectively reducing the dimensionality of MD simulations to automatically build latent representations that correspond to biophysically relevant reaction coordinates (RCs), and (2) driving MD simulations to automatically sample potentially novel conformational states based on these RCs. We examine how coupling DL approaches with MD simulations can lead to effective approaches to fold small proteins on supercomputers. In particular, we study the computational costs and effectiveness of scaling DL-coupled MD workflows implemented using RADICAL-Cybertools in folding two prototypical systems, namely Fs-peptide and the fast-folding variant of the villin head piece protein. We demonstrate that a DL-coupled MD workflow is able to effectively learn latent representations and drive adaptive simulations. Compared to traditional MD-based approaches, our approach achieves an effective performance gain in sampling the folded states by at least 2.3x. Together, our study provides quantitative basis to understand how coupling DL approaches to MD simulations, can lead to effective performance gains and reduced times to solution on supercomputing resources.",
+    "citationCount": 74,
+    "referenceCount": 40
+}

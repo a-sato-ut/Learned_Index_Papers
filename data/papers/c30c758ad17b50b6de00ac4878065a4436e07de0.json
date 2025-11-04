@@ -1,0 +1,26 @@
+{
+    "paperId": "c30c758ad17b50b6de00ac4878065a4436e07de0",
+    "title": "Dynamic Adjustment Paradigm based on Genetic Algorithm in Database Index Optimization",
+    "year": 2024,
+    "venue": "2024 International Conference on IoT Based Control Networks and Intelligent Systems (ICICNIS)",
+    "authors": [
+        "Jinsong Wang"
+    ],
+    "doi": "10.1109/ICICNIS64247.2024.10823213",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c30c758ad17b50b6de00ac4878065a4436e07de0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With the continuous increase of data complexity, how to conduct the efficient database mining and analysis has become a research focus in the computer field. Based on this, this study proposes a dynamic database index optimization model based on a new genetic algorithm, aiming to solve shortcomings of existing database index recommendation methods in large-scale, high-concurrency data processing. First, this study analyzes the limitations of traditional index recommendation methods based on heuristic rules and enumeration algorithms in environments with limited computing resources and frequent load changes, thus leading to the core problem. By introducing a dynamic adjustment paradigm based on genetic algorithms and optimizing the convergence function, this model can adjust the index configuration in real time to improve query efficiency and database response speed. OtterTune workflow was selected as the research platform and a certain degree of modeling optimization was performed. In the experiment section, this study applied the proposed method to database environments such as Oracle 20c and SQL Server 2019, and verified the effectiveness of the model through disaster recovery performance and comparative query performance tests. In the disaster recovery test, the experimental results show that as the number of data blocks increases, the recovery time increases approximately linearly. In the query performance test, using the traditional Hash algorithm as a comparison, the experiment found that this model has a query load cost growth rate of (LCIC), thus verifying the stability and effectiveness of this model.",
+    "citationCount": 0,
+    "referenceCount": 15
+}

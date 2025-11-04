@@ -1,0 +1,39 @@
+{
+    "paperId": "73abe93f61e64bb34f66d44dce14dfb634095b90",
+    "title": "Neural Multigrid Architectures",
+    "year": 2021,
+    "venue": "IEEE International Joint Conference on Neural Network",
+    "authors": [
+        "V. Fanaskov"
+    ],
+    "doi": "10.1109/IJCNN52387.2021.9533736",
+    "arxivId": "2402.05563",
+    "url": "https://www.semanticscholar.org/paper/73abe93f61e64bb34f66d44dce14dfb634095b90",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a convenient matrix-free neural architecture for the multigrid method. The architecture is simple enough to be implemented in less than fifty lines of code, yet it encompasses a large number of distinct multigrid solvers. We argue that a fixed neural network without dense layers can not realize an efficient iterative method. Because of that, standard training protocols do not lead to competitive solvers. To overcome this difficulty, we use parameter sharing and serialization of layers. The resulting network can be trained on linear problems with thousands of unknowns and retains its efficiency on problems with millions of unknowns. From the point of view of numerical linear algebra network's training corresponds to finding optimal smoothers for the geometric multigrid method. We demonstrate our approach on a few second-order elliptic equations. For tested linear systems, we obtain from two to five times smaller spectral radius of the error propagation matrix compare to a basic linear multigrid with Jacobi smoother.",
+    "citationCount": 3,
+    "referenceCount": 33
+}

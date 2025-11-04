@@ -1,0 +1,40 @@
+{
+    "paperId": "f1cbcd8eafcee2d8b15f990fd89bfc704955fafb",
+    "title": "Structure-agnostic Optimality of Doubly Robust Learning for Treatment Effect Estimation",
+    "year": 2024,
+    "venue": "Annual Conference Computational Learning Theory",
+    "authors": [
+        "Jikai Jin",
+        "Vasilis Syrgkanis"
+    ],
+    "doi": "10.48550/arXiv.2402.14264",
+    "arxivId": "2402.14264",
+    "url": "https://www.semanticscholar.org/paper/f1cbcd8eafcee2d8b15f990fd89bfc704955fafb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Economics",
+            "source": "external"
+        },
+        {
+            "category": "Economics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Average treatment effect estimation is the most central problem in causal inference with application to numerous disciplines. While many estimation strategies have been proposed in the literature, the statistical optimality of these methods has still remained an open area of investigation, especially in regimes where these methods do not achieve parametric rates. In this paper, we adopt the recently introduced structure-agnostic framework of statistical lower bounds, which poses no structural properties on the nuisance functions other than access to black-box estimators that achieve some statistical estimation rate. This framework is particularly appealing when one is only willing to consider estimation strategies that use non-parametric regression and classification oracles as black-box sub-processes. Within this framework, we prove the statistical optimality of the celebrated and widely used doubly robust estimators for both the Average Treatment Effect (ATE) and the Average Treatment Effect on the Treated (ATT), as well as weighted variants of the former, which arise in policy evaluation.",
+    "citationCount": 4,
+    "referenceCount": 83
+}

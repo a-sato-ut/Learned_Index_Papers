@@ -1,0 +1,36 @@
+{
+    "paperId": "fd5630ffd6298e4dc64035e36012f22b774c519d",
+    "title": "Query Weak Equivalence and its Verification in Analytical Databases",
+    "year": 2025,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Jinguo You",
+        "Wanting Fu",
+        "Yuxuan Wang",
+        "Peilei He",
+        "Kaiqi Liu",
+        "Quanqing Xu"
+    ],
+    "doi": "10.1109/ICDE65448.2025.00144",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/fd5630ffd6298e4dc64035e36012f22b774c519d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern database applications operate on massive data and support a range of complex queries, especially OLAP queries which are time-consuming. To accelerate query processing, a variety of methods for automatically verifying query equivalence have been proposed to avoid redundant executions of equivalent queries, mainly in a semantic sense. However, we have observed some queries that are not semantically equivalent also return the same tuples under the specific data distribution, which cannot be detected by most current automated verification of query equivalence. To deal with this issue, this paper proposes weak equivalence for identifying queries that are not semantically equivalent but produce the same results under the read-mostly scenarios such as OLAP. Specifically, for posed queries, we extract their filter condition expressions, which are then transformed into symbolic representations, namely first-order logic formulae. In terms of their partial order, i.e. containment relationship, we introduce Query Lattice, a novel structure that is constructed as a lattice which is partitioned into equivalence classes that are convex to answer queries if we determine they belong to the classes. The equivalence class enables stored queries to respond to future unseen queries so that redundant generation of query plan and execution can be bypassed. Experimental evaluation of Query Lattice built on top of a prevailing open-source DBMS, PostgreSQL shows that the maximum improvement that Query Lattice can achieve is 44.95 % over the original PostgreSQL, when running on the datasets of both TPC-H and TPC-H Skew benchmarks.",
+    "citationCount": 0,
+    "referenceCount": 37
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "5aa2f2f9f19c93ad40d9316c540cb857416f771d",
+    "title": "Best of both worlds: combining traditional and machine learning models for cardinality estimation",
+    "year": 2020,
+    "venue": "aiDM@SIGMOD",
+    "authors": [
+        "Lucas Woltmann",
+        "Claudio Hartmann",
+        "Dirk Habich",
+        "Wolfgang Lehner"
+    ],
+    "doi": "10.1145/3401071.3401658",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5aa2f2f9f19c93ad40d9316c540cb857416f771d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cardinality estimation is a high-profile technique in database management systems with a serious impact on query performance. Thus, a lot of traditional approaches such as histograms-based or sampling-based methods have been developed over the last decades. With the advance of Machine Learning (ML) into the database world, cardinality estimation profits from several methods improving its quality as shown in different recent papers. However, neither an ML model nor a traditional approach meets all requirements for cardinality estimation, so that a one size fits all approach is difficult to imagine. For that reason, we advocate a better interlacing of ML models and traditional approaches for cardinality estimation and thoroughly consider their potential, advantages, and disadvantages in this paper. We start by proposing a classification of different estimation techniques and their usability for cardinality estimation. Then, we motivate a novel hybrid approach as the core proof of concept of this paper which uses the best of both worlds: ML models and the proven histogram approach. For this, we show in which cases it is beneficial to use ML models or when we can trust the traditional estimators. We evaluate our hybrid approach on two real-world data sets and conclude what can be done to improve the coexistence of traditional and ML approaches in DBMS. With all our proposals, we use ML to improve DBMS without abandoning years of valuable research in cardinality estimation.",
+    "citationCount": 5,
+    "referenceCount": 33
+}

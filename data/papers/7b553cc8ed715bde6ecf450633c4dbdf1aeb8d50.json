@@ -1,0 +1,34 @@
+{
+    "paperId": "7b553cc8ed715bde6ecf450633c4dbdf1aeb8d50",
+    "title": "Facilitating Exploration with Interaction Snapshots under High Latency",
+    "year": 2018,
+    "venue": "Visual ..",
+    "authors": [
+        "Yifan Wu",
+        "Remco Chang",
+        "Joseph M Hellerstein",
+        "Eugene Wu"
+    ],
+    "doi": "10.1109/VIS47514.2020.00034",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7b553cc8ed715bde6ecf450633c4dbdf1aeb8d50",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1806.01499",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Latency is, unfortunately, a reality when working with large data sets. Guaranteeing imperceptible latency for interactivity is often prohibitively expensive: the application developer may be forced to migrate data processing engines or deal with complex error bounds on samples, and to limit the application to users with high network bandwidth. Instead of relying on the backend, we propose a simple UX design—interaction snapshots. Responses of requests from the interactions are asynchronously loaded in \"snapshots\". With interaction snapshots, users can interact concurrently while the snapshots load. Our user study participants found it useful not to have to wait for each result and easily navigate to prior snapshots. For latency up to 5 seconds, participants were able to complete extrema, threshold, and trend identification tasks with little negative impact.",
+    "citationCount": 3,
+    "referenceCount": 31
+}

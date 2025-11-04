@@ -1,0 +1,29 @@
+{
+    "paperId": "04e79047e5c0ece665d83d3e0349ad0a1f19d0d4",
+    "title": "Exploring code2vec and ASTminer for Python Code Embeddings",
+    "year": 2023,
+    "venue": "2023 IEEE 3rd International Conference on Software Engineering and Artificial Intelligence (SEAI)",
+    "authors": [
+        "Long H. Ngo",
+        "Veeraraghavan Sekar",
+        "Étienne Leclercq",
+        "Jonathan Rivalan"
+    ],
+    "doi": "10.1109/SEAI59139.2023.10217505",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/04e79047e5c0ece665d83d3e0349ad0a1f19d0d4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automated understanding of code meaning and use has become an intrinsic part of software development recently. Neural models are being used in various natural language processing tasks, as they can represent natural language using vectors that carry semantic meanings. Although code is not natural language, we believe neural models to be capable of learning semantics and syntactic properties available in code snippets. To achieve such goal, we represent a code snippet using its abstract syntax tree (AST) syntactic paths to capture regularities that reflect common code patterns. This representation lowers significantly learning effort while being scalable to multiple problems and large code bases. In our work, we adopt ASTminer with code2vec, to represent code snippets as continuously distributed code vectors called \"code embeddings\", used to predict the semantic properties of the snippets. This approach decomposes code into a collection of AST paths and learns each path's atomic representation while learning how to aggregate them. Code2vec is then paired with other neural models, which represent query, to create a hybrid model for the task of code search. While code2vec was originally developed for Java only, we present in this article our efforts to extend the method to Python language.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

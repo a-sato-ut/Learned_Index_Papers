@@ -1,0 +1,34 @@
+{
+    "paperId": "3ffeef128f618ba497a3806f3c541d78b45ac75a",
+    "title": "A+ Indexes: Tunable and Space-Efficient Adjacency Lists in Graph Database Management Systems",
+    "year": 2020,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Amine Mhedhbi",
+        "Pranjal Gupta",
+        "Shahid Khaliq",
+        "S. Salihoglu"
+    ],
+    "doi": "10.1109/ICDE51399.2021.00130",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3ffeef128f618ba497a3806f3c541d78b45ac75a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2004.00130",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Graph database management systems (GDBMSs) are highly optimized to perform fast traversals, i.e., joins of vertices with their neighbours, by indexing the neighbourhoods of vertices in adjacency lists. However, existing GDBMSs have system-specific and fixed adjacency list structures, which makes each system efficient on only a fixed set of workloads. We describe a new tunable indexing subsystem for GDBMSs, we call A+ indexes, with materialized view support. The subsystem consists of two types of indexes: (i) vertex-partitioned indexes that partition 1-hop materialized views into adjacency lists on either the source or destination vertex IDs; and (ii) edge-partitioned indexes that partition 2-hop views into adjacency lists on one of the edge IDs. As in existing GDBMSs, a system by default requires one forward and one backward vertex-partitioned index, which we call the primary A+ index. Users can tune the primary index or secondary indexes by adding nested partitioning and sorting criteria. Our secondary indexes are space-efficient and use a technique we call offset lists. Our indexing subsystem allows a wider range of applications to benefit from GDBMSs’ fast join capabilities. We demonstrate the tunability and space efficiency of A+ indexes through extensive experiments on three workloads.",
+    "citationCount": 3,
+    "referenceCount": 50
+}

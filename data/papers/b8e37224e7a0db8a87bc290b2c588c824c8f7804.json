@@ -1,0 +1,32 @@
+{
+    "paperId": "b8e37224e7a0db8a87bc290b2c588c824c8f7804",
+    "title": "The Hidden Power of Pure 16-bit Floating-Point Neural Networks",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Juyoung Yun",
+        "Byungkon Kang",
+        "Zhoulai Fu"
+    ],
+    "doi": "10.48550/arXiv.2301.12809",
+    "arxivId": "2301.12809",
+    "url": "https://www.semanticscholar.org/paper/b8e37224e7a0db8a87bc290b2c588c824c8f7804",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2301.12809",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Lowering the precision of neural networks from the prevalent 32-bit precision has long been considered harmful to performance, despite the gain in space and time. Many works propose various techniques to implement half-precision neural networks, but none study pure 16-bit settings. This paper investigates the unexpected performance gain of pure 16-bit neural networks over the 32-bit networks in classification tasks. We present extensive experimental results that favorably compare various 16-bit neural networks' performance to those of the 32-bit models. In addition, a theoretical analysis of the efficiency of 16-bit models is provided, which is coupled with empirical evidence to back it up. Finally, we discuss situations in which low-precision training is indeed detrimental.",
+    "citationCount": 1,
+    "referenceCount": 28
+}

@@ -1,0 +1,33 @@
+{
+    "paperId": "e5612bf9e45aad25a6bfe251a5a7a1cdd10b234d",
+    "title": "FADE: A Task-Agnostic Upsampling Operator for Encoder-Decoder Architectures",
+    "year": 2024,
+    "venue": "International Journal of Computer Vision",
+    "authors": [
+        "Hao Lu",
+        "Wenze Liu",
+        "Hongtao Fu",
+        "Zhiguo Cao"
+    ],
+    "doi": "10.1007/s11263-024-02191-8",
+    "arxivId": "2407.13500",
+    "url": "https://www.semanticscholar.org/paper/e5612bf9e45aad25a6bfe251a5a7a1cdd10b234d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The goal of this work is to develop a task-agnostic feature upsampling operator for dense prediction where the operator is required to facilitate not only region-sensitive tasks like semantic segmentation but also detail-sensitive tasks such as image matting. Prior upsampling operators often can work well in either type of the tasks, but not both. We argue that task-agnostic upsampling should dynamically trade off between semantic preservation and detail delineation, instead of having a bias between the two properties. In this paper, we present FADE, a novel, plug-and-play, lightweight, and task-agnostic upsampling operator by fusing the assets of decoder and encoder features at three levels: i) considering both the encoder and decoder feature in upsampling kernel generation; ii) controlling the per-point contribution of the encoder/decoder feature in upsampling kernels with an efficient semi-shift convolutional operator; and iii) enabling the selective pass of encoder features with a decoder-dependent gating mechanism for compensating details. To improve the practicality of FADE, we additionally study parameter- and memory-efficient implementations of semi-shift convolution. We analyze the upsampling behavior of FADE on toy data and show through large-scale experiments that FADE is task-agnostic with consistent performance improvement on a number of dense prediction tasks with little extra cost. For the first time, we demonstrate robust feature upsampling on both region- and detail-sensitive tasks successfully. Code is made available at: https://github.com/poppinace/fade",
+    "citationCount": 7,
+    "referenceCount": 77
+}

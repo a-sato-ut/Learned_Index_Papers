@@ -1,0 +1,32 @@
+{
+    "paperId": "d77eb9572dfbb5ca9592eec254a4492ac5cabd52",
+    "title": "CIAMS: clustering indices-based automatic classification model selection",
+    "year": 2023,
+    "venue": "International Journal of Data Science and Analysis",
+    "authors": [
+        "Sudarsun Santhiappan",
+        "N. Shravan",
+        "B. Ravindran"
+    ],
+    "doi": "10.48550/arXiv.2305.13926",
+    "arxivId": "2305.13926",
+    "url": "https://www.semanticscholar.org/paper/d77eb9572dfbb5ca9592eec254a4492ac5cabd52",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.13926",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Classification model selection is a process of identifying a suitable model class for a given classification task on a dataset. Traditionally, model selection is based on cross-validation, meta-learning, and user preferences, which are often time-consuming and resource-intensive. The performance of any machine learning classification task depends on the choice of the model class, the learning algorithm, and the dataset’s characteristics. Our work proposes a novel method for automatic classification model selection from a set of candidate model classes by determining the empirical model fitness for a dataset based only on its clustering indices. Clustering Indices measure the ability of a clustering algorithm to induce good-quality neighborhoods with similar data characteristics. We propose a regression task for a given model class, where the clustering indices of a given dataset form the features and the dependent variable represents the expected classification performance. We compute the dataset clustering indices and directly predict the expected classification performance using the learned regressor for each candidate model class to recommend a suitable model class for dataset classification. We evaluate our model selection method through cross-validation with 60 publicly available binary class datasets and show that our top3 model recommendation is accurate for over 45 of 60 datasets. We also propose an end-to-end Automated ML system for data classification based on our model selection method. We evaluate our end-to-end system against popular commercial and noncommercial Automated ML systems using a different collection of 25 public domain binary class datasets. We show that the proposed system outperforms other methods with an excellent average rank of 1.68.",
+    "citationCount": 0,
+    "referenceCount": 57
+}

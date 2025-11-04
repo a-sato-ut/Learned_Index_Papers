@@ -1,0 +1,38 @@
+{
+    "paperId": "6f64470011f57f898e5aa0568f0275ba52c9ef9a",
+    "title": "Text-based multi-dimensional medical images retrieval according to the features-usage correlation",
+    "year": 2021,
+    "venue": "Medical and Biological Engineering and Computing",
+    "authors": [
+        "A. Safaei"
+    ],
+    "doi": "10.1007/s11517-021-02392-0",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6f64470011f57f898e5aa0568f0275ba52c9ef9a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s11517-021-02392-0.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Emerging medical imaging applications in healthcare, the number and volume of medical images is growing dramatically. Information needs of users in such circumstances, either for clinical or research activities, make the role of powerful medical image search engines more significant. In this paper, a text-based multi-dimensional medical image indexing technique is proposed in which correlation of the features-usages (according to the user’s queries) is considered to provide an off-the content indexing while taking users’ interestingness into account. Assuming that each medical image has some extracted features (e.g., based on the DICOM standard), correlations of the features are discovered by performing data mining techniques (i.e., quantitative association pattern discovery), on the history of users’ queries as a data set. Then, based on the pairwise correlation of the features of medical images (a.k.a. Affinity), set of the all features is fragmented into subsets (using method like the vertical fragmentation of the tables in distribution of relational DBs). After that, each of these subsets of the features turn into a hierarchy of the features (by applying a hierarchical clustering algorithm on that subset), subsequently all of these distinct hierarchies together make a multi-dimensional structure of the features of medical images, which is in fact the proposed text-based (feature-based) multi-dimensional index structure. Constructing and using such text-based multi-dimensional index structure via its specific required operations, medical image retrieval process would be improved in the underlying medical image search engine. Generally, an indexing technique is to provide a logical representation of documents in order to optimize the retrieval process. The proposed indexing technique is designed such that can improve retrieval of medical images in a medical image search engine in terms of its effectiveness and efficiency. Considering correlation of the features of the image would semantically improve precision (effectiveness) of the retrieval process, while traversing them through the hierarchy in one dimension would try to optimize (i.e., minimize) the resources to have a better efficiency. The proposed text-based multi-dimensional indexing technique is implemented using the open source search engine Lucene, and compared with the built-in indexing technique available in the Lucene search engine, and also with the Terrier platform (available for the benchmarking of information retrieval systems) and other the most related indexing techniques. Evaluation results of memory usage and time complexity analysis, beside the experimental evaluations efficiency and effectiveness measures show that the proposed multi-dimensional indexing technique significantly improves both efficiency and effectiveness for a medical image search engine.",
+    "citationCount": 7,
+    "referenceCount": 50
+}

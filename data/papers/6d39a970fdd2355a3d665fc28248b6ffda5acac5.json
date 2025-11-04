@@ -1,0 +1,38 @@
+{
+    "paperId": "6d39a970fdd2355a3d665fc28248b6ffda5acac5",
+    "title": "En-Decoded Index Guided Edge Refinement Network for Change Detection of Remote Sensing Image",
+    "year": 2025,
+    "venue": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "authors": [
+        "Chunyan Yu",
+        "Chi Yu",
+        "Feihong Zhou",
+        "Yulei Wang",
+        "Qiang Zhang"
+    ],
+    "doi": "10.1109/JSTARS.2025.3585308",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/6d39a970fdd2355a3d665fc28248b6ffda5acac5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Change detection (CD) aims to analyze pairs of remote sensing images (RSIs) that are captured at different times to identify valuable information regarding changes in land features, which plays a crucial role in the fields of urban planning, environmental monitoring, and disaster assessment. Due to the impact of edge blur and occlusion, existing CD methods vulnerably generate the phenomenon of imprecise edge detection. In this article, we propose the en-decoded index guided edge refinement network (EIGER-Net) for CD of RSI by establishing a novel indexed edge representation mechanism, which effectively improves edge depiction with the combination of high-level semantic features and multilevel edge index information. Specifically, we construct the dual-time feature exchange module to reduce the inter-domain variance of the multilevel features and achieve refined feature extraction through the small target feature enhancement module. Subsequently, the presented en-decoded-index module is responsible for edge reconstruction with the index information involved in the multilevel fusion features during the decoding phase. With the indication of encoded and decoded index information, the proposed model generates the precise edge prediction for the CD task. Experimental results show that the EIGER-Net outperforms other compared CD models, achieving the highest IoU values of 93.54%, 83.98%, and 69.48% on the CDD, LEVIR-CD, and SYSU-CD datasets, respectively. Besides, the proposed method obtains the highest F1 score of 93.54% on the WHU-CD dataset. Edge detection experiments further demonstrate the effectiveness of EIGER-Net in identifying detailed and blurred edges in RSI.",
+    "citationCount": 0,
+    "referenceCount": 55
+}

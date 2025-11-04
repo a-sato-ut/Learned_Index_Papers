@@ -1,0 +1,32 @@
+{
+    "paperId": "ef1f26019bdc6831d515e389c67eac27742f02f1",
+    "title": "AN EFFICIENT ND-POINT DATA STRUCTURE FOR QUERYING FLOOD RISK",
+    "year": 2021,
+    "venue": "",
+    "authors": [
+        "H. Liu",
+        "P. van Oosterom",
+        "B. Mao",
+        "M. Meijers",
+        "R. Thompson"
+    ],
+    "doi": "10.5194/isprs-archives-xliii-b4-2021-367-2021",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ef1f26019bdc6831d515e389c67eac27742f02f1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://isprs-archives.copernicus.org/articles/XLIII-B4-2021/367/2021/isprs-archives-XLIII-B4-2021-367-2021.pdf",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Governments use flood maps for city planning and disaster management to protect people and assets. Flood risk mapping projects carried out for these purposes generate a huge amount of modelling results. Previously, data submitted are highly condensed products such as typical flood inundation maps and tables for loss analysis. Original modelling results recording critical flood evolution processes are overlooked due to cumbersome management and analysis. This certainly has drawbacks: the ‘static’ maps impart few details about the flood; also, the data fails to address new requirements. This significantly confines the use of flood maps. Recent development of point cloud databases provides an opportunity to manage the whole set of modelling results. The databases can efficiently support all kinds of flood risk queries at finer scales. Using a case study from China, this paper demonstrates how a novel nD-PointCloud structure, HistSFC, improves flood risk querying. The result indicates that compared with conventional database solutions, HistSFC holds superior performance and better scalability. Besides, the specific optimizations made on HistSFC can facilitate the process further. All these indicate a promising solution for the next generation of flood maps.",
+    "citationCount": 3,
+    "referenceCount": 18
+}

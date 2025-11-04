@@ -1,0 +1,36 @@
+{
+    "paperId": "d9953da6c753a1db31cf7054cbef987bb1a67319",
+    "title": "S-QGPU: Shared quantum gate processing unit for distributed quantum computing",
+    "year": 2023,
+    "venue": "AVS Quantum Science",
+    "authors": [
+        "Shengwang Du",
+        "Yufei Ding",
+        "Chunming Qiao"
+    ],
+    "doi": "10.1116/5.0241972",
+    "arxivId": "2309.08736",
+    "url": "https://www.semanticscholar.org/paper/d9953da6c753a1db31cf7054cbef987bb1a67319",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1116/5.0241972",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Physics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a distributed quantum computing (DQC) architecture in which individual small-sized quantum computers are connected to a shared quantum gate processing unit (S-QGPU). The S-QGPU comprises a collection of hybrid two-qubit gate modules for remote gate operations. In contrast to conventional DQC systems, where each quantum computer is equipped with dedicated communication qubits, S-QGPU effectively pools the resources (e.g., the communication qubits) together for remote gate operations, and, thus, significantly reduces the cost of not only the local quantum computers but also the overall distributed system. Our preliminary analysis and simulation show that S-QGPU's shared resources for remote gate operations enable efficient resource utilization. When not all computing qubits (also called data qubits) in the system require simultaneous remote gate operations, S-QGPU-based DQC architecture demands fewer communication qubits, further decreasing the overall cost. Alternatively, with the same number of communication qubits, it can support a larger number of simultaneous remote gate operations more efficiently, especially when these operations occur in a burst mode.",
+    "citationCount": 0,
+    "referenceCount": 35
+}

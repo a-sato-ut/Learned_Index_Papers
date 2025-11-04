@@ -1,0 +1,34 @@
+{
+    "paperId": "5d601c6975ba760b6f409bc8b50ddea35a28566f",
+    "title": "How I Learned to Stop Worrying and Love Re-optimization",
+    "year": 2019,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Matthew Perron",
+        "Zeyuan Shang",
+        "Tim Kraska",
+        "M. Stonebraker"
+    ],
+    "doi": "10.1109/ICDE.2019.00191",
+    "arxivId": "1902.08291",
+    "url": "https://www.semanticscholar.org/paper/5d601c6975ba760b6f409bc8b50ddea35a28566f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1902.08291",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cost-based query optimizers remain one of the most important components of database management systems for analytic workloads. Though modern optimizers select plans close to optimal performance in the common case, a small number of queries are an order of magnitude slower than they could be. In this paper we investigate why this is still the case, despite decades of improvements to cost models, plan enumeration, and cardinality estimation. We demonstrate why we believe that a re-optimization mechanism is likely the most cost-effective way to improve end-to-end query performance. We find that even a simple re-optimization scheme can improve the latency of many poorly performing queries. We demonstrate that re-optimization improves the end-to-end latency of the top 20 longest running queries in the Join Order Benchmark by 27%, realizing most of the benefit of perfect cardinality estimation.",
+    "citationCount": 31,
+    "referenceCount": 36
+}

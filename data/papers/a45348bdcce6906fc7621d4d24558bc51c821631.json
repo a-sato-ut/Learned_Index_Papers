@@ -1,0 +1,40 @@
+{
+    "paperId": "a45348bdcce6906fc7621d4d24558bc51c821631",
+    "title": "Machine learning models for predicting risks of MACEs for myocardial infarction patients with different VEGFR2 genotypes",
+    "year": 2024,
+    "venue": "Frontiers in Medicine",
+    "authors": [
+        "Alexander Kirdeev",
+        "Konstantin Burkin",
+        "Anton Vorobev",
+        "Elena Zbirovskaya",
+        "G. Lifshits",
+        "Konstantin Nikolaev",
+        "E. Zelenskaya",
+        "M. Donnikov",
+        "Lyudmila Kovalenko",
+        "I. Urvantseva",
+        "M. Poptsova"
+    ],
+    "doi": "10.3389/fmed.2024.1452239",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/a45348bdcce6906fc7621d4d24558bc51c821631",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3389/fmed.2024.1452239",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Background The development of prognostic models for the identification of high-risk myocardial infarction (MI) patients is a crucial step toward personalized medicine. Genetic factors are known to be associated with an increased risk of cardiovascular diseases; however, little is known about whether they can be used to predict major adverse cardiac events (MACEs) for MI patients. This study aimed to build a machine learning (ML) model to predict MACEs in MI patients based on clinical, imaging, laboratory, and genetic features and to assess the influence of genetics on the prognostic power of the model. Methods We analyzed the data from 218 MI patients admitted to the emergency department at the Surgut District Center for Diagnostics and Cardiovascular Surgery, Russia. Upon admission, standard clinical measurements and imaging data were collected for each patient. Additionally, patients were genotyped for VEGFR-2 variation rs2305948 (C/C, C/T, T/T genotypes with T being the minor risk allele). The study included a 9-year follow-up period during which major ischemic events were recorded. We trained and evaluated various ML models, including Gradient Boosting, Random Forest, Logistic Regression, and AutoML. For feature importance analysis, we applied the sequential feature selection (SFS) and Shapley’s scheme of additive explanation (SHAP) methods. Results The CatBoost algorithm, with features selected using the SFS method, showed the best performance on the test cohort, achieving a ROC AUC of 0.813. Feature importance analysis identified the dose of statins as the most important factor, with the VEGFR-2 genotype among the top 5. The other important features are coronary artery lesions (coronary artery stenoses ≥70%), left ventricular (LV) parameters such as lateral LV wall and LV mass, diabetes, type of revascularization (CABG or PCI), and age. We also showed that contributions are additive and that high risk can be determined by cumulative negative effects from different prognostic factors. Conclusion Our ML-based approach demonstrated that the VEGFR-2 genotype is associated with an increased risk of MACEs in MI patients. However, the risk can be significantly reduced by high-dose statins and positive factors such as the absence of coronary artery lesions, absence of diabetes, and younger age.",
+    "citationCount": 3,
+    "referenceCount": 47
+}

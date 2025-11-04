@@ -1,0 +1,30 @@
+{
+    "paperId": "5c0a9d7f5ed0897d2a190a20050a2fd5a2dd13f0",
+    "title": "Joining Entities Across Relation and Graph with a Unified Model",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Wenzhi Fu"
+    ],
+    "doi": "10.48550/arXiv.2401.18019",
+    "arxivId": "2401.18019",
+    "url": "https://www.semanticscholar.org/paper/5c0a9d7f5ed0897d2a190a20050a2fd5a2dd13f0",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper introduces RG (Relational Genetic) model, a revised relational model to represent graph-structured data in RDBMS while preserving its topology, for efficiently and effectively extracting data in different formats from disparate sources. Along with: (a) SQL$_\\delta$, an SQL dialect augmented with graph pattern queries and tuple-vertex joins, such that one can extract graph properties via graph pattern matching, and\"semantically\"match entities across relations and graphs; (b) a logical representation of graphs in RDBMS, which introduces an exploration operator for efficient pattern querying, supports also browsing and updating graph-structured data; and (c) a strategy to uniformly evaluate SQL, pattern and hybrid queries that join tuples and vertices, all inside an RDBMS by leveraging its optimizer without performance degradation on switching different execution engines. A lightweight system, WhiteDB, is developed as an implementation to evaluate the benefits it can actually bring on real-life data. We empirically verified that the RG model enables the graph pattern queries to be answered as efficiently as in native graph engines; can consider the access on graph and relation in any order for optimal plan; and supports effective data enrichment.",
+    "citationCount": 0,
+    "referenceCount": 177
+}

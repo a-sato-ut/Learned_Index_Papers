@@ -1,0 +1,31 @@
+{
+    "paperId": "b61d9470276c6658b7bc25a2701f5be89efddae3",
+    "title": "Evolutionary Selective Imitation: Interpretable Agents by Imitation Learning Without a Demonstrator",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Roy Eliya",
+        "J. Herrmann"
+    ],
+    "doi": null,
+    "arxivId": "2009.08403",
+    "url": "https://www.semanticscholar.org/paper/b61d9470276c6658b7bc25a2701f5be89efddae3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a new method for training an agent via an evolutionary strategy (ES), in which we iteratively improve a set of samples to imitate: Starting with a random set, in every iteration we replace a subset of the samples with samples from the best trajectories discovered so far. The evaluation procedure for this set is to train, via supervised learning, a randomly initialised neural network (NN) to imitate the set and then execute the acquired policy against the environment. Our method is thus an ES based on a fitness function that expresses the effectiveness of imitating an evolving data subset. This is in contrast to other ES techniques that iterate over the weights of the policy directly. By observing the samples that the agent selects for learning, it is possible to interpret and evaluate the evolving strategy of the agent more explicitly than in NN learning. In our experiments, we trained an agent to solve the OpenAI Gym environment Bipedalwalker-v3 by imitating an evolutionarily selected set of only 25 samples with a NN with only a few thousand parameters. We further test our method on the Procgen game Plunder and show here as well that the proposed method is an interpretable, small, robust and effective alternative to other ES or policy gradient methods.",
+    "citationCount": 2,
+    "referenceCount": 24
+}

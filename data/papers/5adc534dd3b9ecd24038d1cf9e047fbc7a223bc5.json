@@ -1,0 +1,38 @@
+{
+    "paperId": "5adc534dd3b9ecd24038d1cf9e047fbc7a223bc5",
+    "title": "LAN: Learning-based Approximate k-Nearest Neighbor Search in Graph Databases",
+    "year": 2022,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Yun Peng",
+        "Byron Choi",
+        "Tsz Nam Chan",
+        "Jianliang Xu"
+    ],
+    "doi": "10.1109/icde53745.2022.00233",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5adc534dd3b9ecd24038d1cf9e047fbc7a223bc5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The problem of k-nearest neighbor (k-NN) search is fundamental in graph databases, which has numerous real-world applications, such as bioinformatics, computer vision, and software engineering. Graph edit distance (GED) and maximum common subgraph (MCS)-based distance are the most widely used distance measures in k-NN search. However, computing the exact k-NNs of a query graph $Q$ using these measures is prohibitively time-consuming, as a large number of graph distance computations is needed, and computing GED and MCS are both NP-hard. In this paper, we study the approximate k-nearest neighbor (k-ANN) search with the aim of trading efficiency with a slight decrease in accuracy. Greedy routing on the proximity graph (PG) index is a state-of-the-art method for k-ANN search. However, such routing algorithms are not designed for graph databases, and simple adoption is inefficient. The core reason is that the exhaustive neighbor exploration at each routing step incurs a large number of distance computations (NDC). In this paper, we propose a learning-based k-ANN search method to reduce NDC. First, we propose to prune unpromising neighbors from distance computations. We use a graph learning model to rank the neighbors at each routing step and explore only the top neighbors. For the accuracy of rank prediction, we propose a neighbor ranking model that works only in the neighborhood of Q. Second, we propose a learning-based method to select the initial node for the routing. The initial node selected has a high probability of being in the neighborhood of Q, such that the neighbor ranking model can be used. Third, we propose a compressed GNN-graph to accelerate the neighbor ranking model and the initial node selection model. We prove that learning efficiency is improved without degrading the accuracy. Our extensive experiments show that our method is about 3.6x to 18.6x faster than the state-of-the-art methods on real-world datasets.",
+    "citationCount": 8,
+    "referenceCount": 59
+}

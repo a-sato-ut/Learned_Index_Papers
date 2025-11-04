@@ -1,0 +1,27 @@
+{
+    "paperId": "e2dde7869a150ed3a9622c4aa36896fb6900790c",
+    "title": "MultiLTR: Text Ranking with a Multi-Stage Learning-to-Rank Approach",
+    "year": 2025,
+    "venue": "Information",
+    "authors": [
+        "Huaizhou Yang",
+        "Teresa Gonçalves"
+    ],
+    "doi": "10.3390/info16040308",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e2dde7869a150ed3a9622c4aa36896fb6900790c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The division of retrieval into multiple stages has evolved to balance efficiency and effectiveness among various ranking models. Faster but less accurate models are used to retrieve results from the entire corpus. Slower yet more precise models refine the ranking within the top candidate list. This study proposes a multi-stage learning-to-rank (MultiLTR) method. MultiLTR applies learning-to-rank techniques across multiple stages. It incorporates text from different fields such as titles, body content, and abstracts to produce a more comprehensive and accurate ranking. MultiLTR iteratively refines ranking accuracy through sequential processing phases. It dynamically selects top-performing rankers from a diverse candidate pool at each stage. Experiments were carried out on benchmark datasets, MQ2007 and MQ2008, using three categories of learning-to-rank algorithms. The results demonstrate that MultiLTR outperforms state-of-the-art ranking approaches, particularly in field-based ranking tasks. This study improves ranking accuracy and offers new insights into enhancing multi-stage ranking strategies.",
+    "citationCount": 0,
+    "referenceCount": 62
+}

@@ -1,0 +1,32 @@
+{
+    "paperId": "95f35c5d7696e9025ba17a6a7a0204f58dd5a4d3",
+    "title": "Selectivity Estimation with Attribute Value Dependencies using Linked Bayesian Networks",
+    "year": 2020,
+    "venue": "Trans. Large Scale Data Knowl. Centered Syst.",
+    "authors": [
+        "Max Halford",
+        "Philippe Saint-Pierre",
+        "F. Morvan"
+    ],
+    "doi": "10.1007/978-3-662-62386-2_6",
+    "arxivId": "2009.09883",
+    "url": "https://www.semanticscholar.org/paper/95f35c5d7696e9025ba17a6a7a0204f58dd5a4d3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Relational query optimisers rely on cost models to choose between different query execution plans. Selectivity estimates are known to be a crucial input to the cost model. In practice, standard selectivity estimation procedures are prone to large errors. This is mostly because they rely on the so-called attribute value independence and join uniformity assumptions. Therefore, multidimensional methods have been proposed to capture dependencies between two or more attributes both within and across relations. However, these methods require a large computational cost which makes them unusable in practice. We propose a method based on Bayesian networks that is able to capture cross-relation attribute value dependencies with little overhead. Our proposal is based on the assumption that dependencies between attributes are preserved when joins are involved. Furthermore, we introduce a parameter for trading between estimation accuracy and computational cost. We validate our work by comparing it with other relevant methods on a large workload derived from the JOB and TPC-DS benchmarks. Our results show that our method is an order of magnitude more efficient than existing methods, whilst maintaining a high level of accuracy.",
+    "citationCount": 4,
+    "referenceCount": 52
+}

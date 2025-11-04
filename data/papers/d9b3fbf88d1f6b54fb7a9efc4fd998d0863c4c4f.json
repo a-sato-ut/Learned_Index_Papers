@@ -1,0 +1,39 @@
+{
+    "paperId": "d9b3fbf88d1f6b54fb7a9efc4fd998d0863c4c4f",
+    "title": "MTrainS: Improving DLRM training efficiency using heterogeneous memories",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "H. Kassa",
+        "Paul Johnson",
+        "Jason B. Akers",
+        "Mrinmoy Ghosh",
+        "Andrew Tulloch",
+        "Dheevatsa Mudigere",
+        "Jongsoo Park",
+        "Xing Liu",
+        "R. Dreslinski",
+        "E. K. Ardestani"
+    ],
+    "doi": "10.48550/arXiv.2305.01515",
+    "arxivId": "2305.01515",
+    "url": "https://www.semanticscholar.org/paper/d9b3fbf88d1f6b54fb7a9efc4fd998d0863c4c4f",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2305.01515",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recommendation models are very large, requiring terabytes (TB) of memory during training. In pursuit of better quality, the model size and complexity grow over time, which requires additional training data to avoid overfitting. This model growth demands a large number of resources in data centers. Hence, training efficiency is becoming considerably more important to keep the data center power demand manageable. In Deep Learning Recommendation Models (DLRM), sparse features capturing categorical inputs through embedding tables are the major contributors to model size and require high memory bandwidth. In this paper, we study the bandwidth requirement and locality of embedding tables in real-world deployed models. We observe that the bandwidth requirement is not uniform across different tables and that embedding tables show high temporal locality. We then design MTrainS, which leverages heterogeneous memory, including byte and block addressable Storage Class Memory for DLRM hierarchically. MTrainS allows for higher memory capacity per node and increases training efficiency by lowering the need to scale out to multiple hosts in memory capacity bound use cases. By optimizing the platform memory hierarchy, we reduce the number of nodes for training by 4-8X, saving power and cost of training while meeting our target training performance.",
+    "citationCount": 2,
+    "referenceCount": 36
+}

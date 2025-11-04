@@ -1,0 +1,36 @@
+{
+    "paperId": "837d3b03fb719d5392e67cbc924b508302ff9c87",
+    "title": "Improving Accuracy and Diversity in Matching of Recommendation With Diversified Preference Network",
+    "year": 2021,
+    "venue": "IEEE Transactions on Big Data",
+    "authors": [
+        "Ruobing Xie",
+        "Qi Liu",
+        "Shukai Liu",
+        "Ziwei Zhang",
+        "Peng Cui",
+        "Bo Zhang",
+        "Leyu Lin"
+    ],
+    "doi": "10.1109/tbdata.2021.3103263",
+    "arxivId": "2102.03787",
+    "url": "https://www.semanticscholar.org/paper/837d3b03fb719d5392e67cbc924b508302ff9c87",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2102.03787",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Real-world recommendation systems need to deal with millions of item candidates. Therefore, most practical large-scale recommendation systems usually contain two modules. The matching module aims to efficiently retrieve hundreds of high-quality items from large corpora, while the ranking module aims to generate specific ranks for these items. Recommendation diversity is an essential factor that strongly impacts user experience. There are lots of efforts that have explored recommendation diversity in ranking, while the matching module should take more responsibility for diversity. In this article, we propose a novel Heterogeneous graph neural network framework for diversified recommendation (GraphDR) in matching to improve both recommendation accuracy and diversity. Specifically, GraphDR builds a huge heterogeneous preference network to record different types of user preferences, and conducts a field-level heterogeneous graph attention network for node aggregation. We conduct a neighbor-similarity based loss with a multi-channel matching to improve both accuracy and diversity. In experiments, we conduct extensive online and offline evaluations on a real-world recommendation system with various accuracy and diversity metrics and achieve significant improvements. GraphDR has been deployed on a well-known recommendation system named WeChat Top Stories, which affects millions of users. The source code will be released in https://github.com/lqfarmer/GraphDR.",
+    "citationCount": 36,
+    "referenceCount": 69
+}

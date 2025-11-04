@@ -1,0 +1,36 @@
+{
+    "paperId": "34f95a100fcd13dd2d0aef906f5d32730135e1d9",
+    "title": "Thrifty Query Execution via Incrementability",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Dixin Tang",
+        "Zechao Shang",
+        "Aaron J. Elmore",
+        "S. Krishnan",
+        "M. Franklin"
+    ],
+    "doi": "10.1145/3318464.3389756",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/34f95a100fcd13dd2d0aef906f5d32730135e1d9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3318464.3389756",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Many applications schedule queries before all data is ready. To return fast query results, database systems can eagerly process existing data and incrementally incorporate new data into prior intermediate results, which often relies on incremental view maintenance (IVM) techniques. However, incrementally maintaining a query result can increase the total amount of work mainly as some early work is not useful for computing the final query result. In this paper, we propose a new metric incrementability to quantify the cost-effectiveness of IVM to decide how eagerly or lazily databases should incrementally execute a query. We further observe that different parts of a query have different levels of incrementability and the query execution should have a decomposed control flow based on the difference. Therefore, to address these needs, we propose a new query processing method Incrementability-aware Query Processing (InQP). We build a prototype InQP system based on Spark and show that InQP significantly reduces resource consumption with a similar latency compared with incrementability-oblivious approaches.",
+    "citationCount": 13,
+    "referenceCount": 48
+}

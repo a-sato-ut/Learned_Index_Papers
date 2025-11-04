@@ -1,0 +1,33 @@
+{
+    "paperId": "8f078d6bb2d42df0aa97f8cea81ff1a87deae181",
+    "title": "A Refreshed Similarity-based Upsampler for Direct High-Ratio Feature Upsampling",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Minghao Zhou",
+        "Hong Wang",
+        "Yefeng Zheng",
+        "Deyu Meng"
+    ],
+    "doi": "10.48550/arXiv.2407.02283",
+    "arxivId": "2407.02283",
+    "url": "https://www.semanticscholar.org/paper/8f078d6bb2d42df0aa97f8cea81ff1a87deae181",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Feature upsampling is a fundamental and indispensable ingredient of almost all current network structures for dense prediction tasks. Recently, a popular similarity-based feature upsampling pipeline has been proposed, which utilizes a high-resolution feature as guidance to help upsample the low-resolution deep feature based on their local similarity. Albeit achieving promising performance, this pipeline has specific limitations: 1) HR query and LR key features are not well aligned; 2) the similarity between query-key features is computed based on the fixed inner product form; 3) neighbor selection is coarsely operated on LR features, resulting in mosaic artifacts. These shortcomings make the existing methods along this pipeline primarily applicable to hierarchical network architectures with iterative features as guidance and they are not readily extended to a broader range of structures, especially for a direct high-ratio upsampling. Against the issues, we meticulously optimize every methodological design. Specifically, we firstly propose an explicitly controllable query-key feature alignment from both semantic-aware and detail-aware perspectives, and then construct a parameterized paired central difference convolution block for flexibly calculating the similarity between the well-aligned query-key features. Besides, we develop a fine-grained neighbor selection strategy on HR features, which is simple yet effective for alleviating mosaic artifacts. Based on these careful designs, we systematically construct a refreshed similarity-based feature upsampling framework named ReSFU. Extensive experiments substantiate that our proposed ReSFU is finely applicable to various types of architectures in a direct high-ratio upsampling manner, and consistently achieves satisfactory performance on different dense prediction applications, showing superior generality and ease of deployment.",
+    "citationCount": 5,
+    "referenceCount": 73
+}

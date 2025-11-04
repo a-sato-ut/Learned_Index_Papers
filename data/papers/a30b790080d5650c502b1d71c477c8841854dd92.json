@@ -1,0 +1,31 @@
+{
+    "paperId": "a30b790080d5650c502b1d71c477c8841854dd92",
+    "title": "In-Context Decision Making for Optimizing Complex AutoML Pipelines",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "A. R. Balef",
+        "Katharina Eggensperger"
+    ],
+    "doi": "10.48550/arXiv.2508.13657",
+    "arxivId": "2508.13657",
+    "url": "https://www.semanticscholar.org/paper/a30b790080d5650c502b1d71c477c8841854dd92",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Combined Algorithm Selection and Hyperparameter Optimization (CASH) has been fundamental to traditional AutoML systems. However, with the advancements of pre-trained models, modern ML workflows go beyond hyperparameter optimization and often require fine-tuning, ensembling, and other adaptation techniques. While the core challenge of identifying the best-performing model for a downstream task remains, the increasing heterogeneity of ML pipelines demands novel AutoML approaches. This work extends the CASH framework to select and adapt modern ML pipelines. We propose PS-PFN to efficiently explore and exploit adapting ML pipelines by extending Posterior Sampling (PS) to the max k-armed bandit problem setup. PS-PFN leverages prior-data fitted networks (PFNs) to efficiently estimate the posterior distribution of the maximal value via in-context learning. We show how to extend this method to consider varying costs of pulling arms and to use different PFNs to model reward distributions individually per arm. Experimental results on one novel and two existing standard benchmark tasks demonstrate the superior performance of PS-PFN compared to other bandit and AutoML strategies. We make our code and data available at https://github.com/amirbalef/CASHPlus.",
+    "citationCount": 0,
+    "referenceCount": 61
+}

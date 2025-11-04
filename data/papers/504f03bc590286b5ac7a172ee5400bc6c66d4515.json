@@ -1,0 +1,37 @@
+{
+    "paperId": "504f03bc590286b5ac7a172ee5400bc6c66d4515",
+    "title": "Cross-Lingual Passage Re-Ranking With Alignment Augmented Multilingual BERT",
+    "year": 2020,
+    "venue": "IEEE Access",
+    "authors": [
+        "Dongmei Chen",
+        "Sheng Zhang",
+        "Xin Zhang",
+        "Kaijing Yang"
+    ],
+    "doi": "10.1109/ACCESS.2020.3041605",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/504f03bc590286b5ac7a172ee5400bc6c66d4515",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09274323.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Linguistics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The task of Cross-lingual Passage Re-ranking (XPR) aims to rank a list of candidate passages in multiple languages given a query, which is generally challenged by two main issues: (1) the query and passages to be ranked are often in different languages, which requires strong cross-lingual alignment, and (2) the lack of annotated data for model training and evaluation. In this article, we propose a two-stage approach to address these issues. At the first stage, we introduce the task of Cross-lingual Paraphrase Identification (XPI) as an extra pre-training to augment the alignment by leveraging a large unsupervised parallel corpus. This task aims to identify whether two sentences, which may be from different languages, have the same meaning. At the second stage, we introduce and compare three effective strategies for cross-lingual training. To verify the effectiveness of our method, we construct an XPR dataset by assembling and modifying two monolingual datasets. Experimental results show that our augmented pre-training contributes significantly to the XPR task. Besides, we directly transfer the trained model to test on out-domain data which are constructed by modifying three multi-lingual Question Answering (QA) datasets. The results demonstrate the cross-domain robustness of the proposed approach.",
+    "citationCount": 12,
+    "referenceCount": 36
+}

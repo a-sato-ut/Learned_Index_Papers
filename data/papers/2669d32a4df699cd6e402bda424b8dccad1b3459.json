@@ -1,0 +1,33 @@
+{
+    "paperId": "2669d32a4df699cd6e402bda424b8dccad1b3459",
+    "title": "AAE: An Active Auto-Estimator for Improving Graph Storage",
+    "year": 2022,
+    "venue": "Information Sciences",
+    "authors": [
+        "Yu Yan",
+        "Man Yang",
+        "Hongzhi Wang",
+        "Yuzhuo Wang"
+    ],
+    "doi": "10.48550/arXiv.2206.14363",
+    "arxivId": "2206.14363",
+    "url": "https://www.semanticscholar.org/paper/2669d32a4df699cd6e402bda424b8dccad1b3459",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2206.14363",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Nowadays, graph becomes an increasingly popular model in many real applications. The efficiency of graph storage is crucial for these applications. Generally speaking, the tune tasks of graph storage rely on the database administrators (DBAs) to find the best graph storage. However, DBAs make the tune decisions by mainly relying on their experiences and intuition. Due to the limitations of DBAs's experiences, the tunes may have an uncertain performance and conduct worse efficiency. In this paper, we observe that an estimator of graph workload has the potential to guarantee the performance of tune operations. Unfortunately, because of the complex characteristics of graph evaluation task, there exists no mature estimator for graph workload. We formulate the evaluation task of graph workload as a classification task and carefully design the feature engineering process, including graph data features, graph workload features and graph storage features. Considering the complex features of graph and the huge time consumption in graph workload execution, it is difficult for the graph workload estimator to obtain enough training set. So, we propose an active auto-estimator (AAE) for the graph workload evaluation by combining the active learning and deep learning. AAE could achieve good evaluation efficiency with limited training set. We test the time efficiency and evaluation accuracy of AAE with two open source graph data, LDBC and Freebase. Experimental results show that our estimator could efficiently complete the graph workload evaluation in milliseconds.",
+    "citationCount": 1,
+    "referenceCount": 48
+}

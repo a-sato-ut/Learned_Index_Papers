@@ -1,0 +1,32 @@
+{
+    "paperId": "05fc44ed0630a6c7b97075a03be2601a8ba6ed19",
+    "title": "Hera: A Heterogeneity-Aware Multi-Tenant Inference Server for Personalized Recommendations",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yujeong Choi",
+        "John Kim",
+        "Minsoo Rhu"
+    ],
+    "doi": "10.48550/arXiv.2302.11750",
+    "arxivId": "2302.11750",
+    "url": "https://www.semanticscholar.org/paper/05fc44ed0630a6c7b97075a03be2601a8ba6ed19",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2302.11750",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "While providing low latency is a fundamental requirement in deploying recommendation services, achieving high resource utility is also crucial in cost-effectively maintaining the datacenter. Co-locating multiple workers of a model is an effective way to maximize query-level parallelism and server throughput, but the interference caused by concurrent workers at shared resources can prevent server queries from meeting its SLA. Hera utilizes the heterogeneous memory requirement of multi-tenant recommendation models to intelligently determine a productive set of co-located models and its resource allocation, providing fast response time while achieving high throughput. We show that Hera achieves an average 37.3% improvement in effective machine utilization, enabling 26% reduction in required servers, significantly improving upon the baseline recommedation inference server.",
+    "citationCount": 1,
+    "referenceCount": 40
+}

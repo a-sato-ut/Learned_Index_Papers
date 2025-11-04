@@ -1,0 +1,33 @@
+{
+    "paperId": "92ceb6b880cc8765dfbc6e5b54a2cae6071ae53d",
+    "title": "A Fast Wait-Free Multi-Producers Single-Consumer Queue",
+    "year": 2022,
+    "venue": "International Conference of Distributed Computing and Networking",
+    "authors": [
+        "Dolev Adas",
+        "R. Friedman"
+    ],
+    "doi": "10.1145/3491003.3491004",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/92ceb6b880cc8765dfbc6e5b54a2cae6071ae53d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In sharded data processing systems, sharded in-memory key-value stores, data flow programming and load sharing, multiple concurrent data producers feed requests into the same data consumer. This can be naturally realized through concurrent queues, where each consumer pulls its tasks from its dedicated queue. For scalability, wait-free queues are preferred over lock based structures. The vast majority of wait-free queue implementations, and even lock-free ones, support the multi-producer multi-consumer model. Yet, this comes at a premium, since implementing wait-free multi-producer multi-consumer queues requires utilizing complex helper data structures. The latter increases the memory consumption of such queues and limits their performance and scalability. Many such designs employ (hardware) cache unfriendly access patterns. In this work we study the implementation of wait-free multi-producer single-consumer queues. Specifically, we propose Jiffy, an efficient memory frugal novel wait-free multi-producer single-consumer queue and formally prove its correctness. We compare the performance and memory requirements of Jiffy with other state of the art lock-free and wait-free queues. We show that indeed Jiffy can maintain good performance with up to 128 threads, delivers up to 50% better throughput than the next best construction we compared against, and consumes ≈ 90% less memory.",
+    "citationCount": 2,
+    "referenceCount": 32
+}

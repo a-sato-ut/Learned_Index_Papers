@@ -1,0 +1,38 @@
+{
+    "paperId": "010344a7c4264bc6bcdbb1bc30a8843e20f6cf56",
+    "title": "Near-Optimal Hardware Design for Convolutional Neural Networks",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Byungik Ahn"
+    ],
+    "doi": null,
+    "arxivId": "2002.05526",
+    "url": "https://www.semanticscholar.org/paper/010344a7c4264bc6bcdbb1bc30a8843e20f6cf56",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, the demand of low-power deep-learning hardware for industrial applications has been increasing. Most existing artificial intelligence (AI) chips have evolved to rely on new chip technologies rather than on radically new hardware architectures, to maintain their generality. This study proposes a novel, special-purpose, and high-efficiency hardware architecture for convolutional neural networks. The proposed architecture maximizes the utilization of multipliers by designing the computational circuit with the same structure as that of the computational flow of the model, rather than mapping computations to fixed hardware. In addition, a specially designed filter circuit simultaneously provides all the data of the receptive field, using only one memory read operation during each clock cycle; this allows the computation circuit to operate seamlessly without idle cycles. Our reference system based on the proposed architecture uses 97% of the peak-multiplication capability in actual computations required by the computation model throughout the computation period. In addition, overhead components are minimized so that the proportion of the resources constituting the non-multiplier components is smaller than that constituting the multiplier components, which are indispensable for the computational model. The efficiency of the proposed architecture is close to an ideally efficient system that cannot be improved further in terms of the performance-to-resource ratio. An implementation based on the proposed hardware architecture has been applied in commercial AI products.",
+    "citationCount": 1,
+    "referenceCount": 28
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "b4a9ffeb89403de24c543f4bd73d425102190293",
+    "title": "Design a Method for Tracking Moving Object and Predicting its Trajectory in a Noisy Environment",
+    "year": 2023,
+    "venue": "2023 IEEE 6th International Conference on Pattern Recognition and Artificial Intelligence (PRAI)",
+    "authors": [
+        "Ahmad Ismail",
+        "S. Vishnyakov"
+    ],
+    "doi": "10.1109/PRAI59366.2023.10331956",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b4a9ffeb89403de24c543f4bd73d425102190293",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Target tracking is significant due to the fact that detection and tracking methods are being developed in order to accommodate the system's requirements regarding accuracy and speed. This article will propose a method of target tracking that is intended to address the practical issues of signal loss or a significant amount of noise that affects the process of target detection. The procedure of predicting the course of the object is one of the most promising tasks at the present time, the value of the predictions is apparent in the use of robots, automation and smart tracking radars. The mathematical foundation of the process of predication is related to the previous behavior of the target, the preceding motion of the object conveys information about its general trajectory. This is similar to the Kalman Filter.We created a module that predicts the movement of an object, the module is a hybrid of a Kalman filter and a numerical algorithm that estimates the path of any trajectory in terms of polynomial. The results indicate that the supposed method is a viable solution to the predication problem with the absence of a signal.",
+    "citationCount": 2,
+    "referenceCount": 14
+}

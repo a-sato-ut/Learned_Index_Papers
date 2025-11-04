@@ -1,0 +1,36 @@
+{
+    "paperId": "5157a738a6e279dbba146e4499501a46c5474e2d",
+    "title": "Translating Test Responses to Images for Test-termination Prediction via Multiple Machine Learning Strategies",
+    "year": 2024,
+    "venue": "ACM Trans. Design Autom. Electr. Syst.",
+    "authors": [
+        "Hongfei Wang",
+        "Jingyao Li",
+        "Jiayi Wang",
+        "Zijun Ping",
+        "Hongcan Xiong",
+        "Wei Liu",
+        "Dongmian Zou"
+    ],
+    "doi": "10.1145/3661310",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/5157a738a6e279dbba146e4499501a46c5474e2d",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Failure diagnosis is a software-based, data-driven procedure. Collecting an excessive amount of fail data not only increases the overall test cost but can also potentially reduce diagnostic resolution. Thus, test-termination prediction is proposed to dynamically determine the appropriate failing test pattern to terminate testing, producing an amount of test data that is sufficient for an accurate diagnosis analysis. In this work, we describe a set of novel methods utilizing advanced machine learning techniques for efficient test-termination prediction. To implement this approach, we first generate images representing failing test responses from failure-log files. These images are then used to train a multi-layer convolutional neural network (CNN) incorporating a residual block. The trained CNN model leverages the images and known diagnostic results to determine the optimal test-termination strategy within the testing process, ensuring efficient and high-quality diagnosis. In addition to the integration of test response-to-image translation, our approach harnesses two cutting-edge learning strategies to enhance fail data and boost performance in subsequent tasks. The first strategy is transfer learning, which utilizes sample-label information from one circuit to guide the decision of whether to continue or stop testing for another circuit lacking labels. The second strategy involves the use of a generative deep model to generate fail data in the form of synthetic images. This technique increases the modeling effectiveness by expanding the volume of training samples. Experimental results conducted on actual failing chips and standard benchmarks validate that our proposed method surpasses existing approaches. Our method creates opportunities to harness the power of recent advances in machine learning for improving test and diagnosis efficiency.",
+    "citationCount": 1,
+    "referenceCount": 74
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "2a879cfabe6920043535f56a200bdaf05e5a1bf1",
+    "title": "An Approach Based on Knowledge-Defined Networking for Identifying Heavy-Hitter Flows in Data Center Networks",
+    "year": 2019,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Alejandra Duque-Torres",
+        "Felipe Amezquita-Suarez",
+        "Oscar Mauricio Caicedo Rendón",
+        "Armando Ordóñez",
+        "W. Campo"
+    ],
+    "doi": "10.3390/app9224808",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2a879cfabe6920043535f56a200bdaf05e5a1bf1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2076-3417/9/22/4808/pdf?version=1574246873",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Heavy-Hitters (HHs) are large-volume flows that consume considerably more network resources than other flows combined. In SDN-based DCNs (SDDCNs), HHs cause non-trivial delays for small-volume flows known as non-HHs that are delay-sensitive. Uncontrolled forwarding of HHs leads to network congestion and overall network performance degradation. A pivotal task for controlling HHs is their identification. The existing methods to identify HHs are threshold-based. However, such methods lack a smart system that efficiently identifies HH according to the network behaviour. In this paper, we introduce a novel approach to overcome this lack and investigate the feasibility of using Knowledge-Defined Networking (KDN) in HH identification. KDN by using Machine Learning (ML), allows integrating behavioural models to detect patterns, like HHs, in SDN traffic. Our KDN-based approach includes mainly three modules: HH Data Acquisition Module (HH-DAM), Data ANalyser Module (HH-DANM), and APplication Module (HH-APM). In HH-DAM, we present the flowRecorder tool for organizing packets into flows records. In HH-DANM, we perform a cluster-based analysis to determine an optimal threshold for separating HHs and non-HHs. Finally, in HH-APM, we propose the use of MiceDCER for routing non-HHs efficiently. The per-module evaluation results corroborate the usefulness and feasibility of our approach for identifying HHs.",
+    "citationCount": 15,
+    "referenceCount": 80
+}

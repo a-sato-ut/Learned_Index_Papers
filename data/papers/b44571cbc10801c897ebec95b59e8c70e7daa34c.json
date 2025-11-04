@@ -1,0 +1,35 @@
+{
+    "paperId": "b44571cbc10801c897ebec95b59e8c70e7daa34c",
+    "title": "CryptoSPN: Expanding PPML beyond Neural Networks",
+    "year": 2020,
+    "venue": "PPMLP@CCS",
+    "authors": [
+        "Amos Treiber",
+        "Alejandro Molina",
+        "Christian Weinert",
+        "T. Schneider",
+        "K. Kersting"
+    ],
+    "doi": "10.1145/3411501.3419417",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b44571cbc10801c897ebec95b59e8c70e7daa34c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The ubiquitous deployment of machine learning (ML) technologies has certainly improved many applications but also raised challenging privacy concerns, as sensitive client data is usually processed remotely at the discretion of a service provider. Therefore, privacy-preserving machine learning (PPML) aims at providing privacy using techniques such as secure multi-party computation (SMPC). Recent years have seen a rapid influx of cryptographic frameworks that steadily improve performance as well as usability, pushing PPML towards practice. However, as it is mainly driven by the crypto community, the PPML toolkit so far is mostly restricted to well-known neural networks (NNs). Unfortunately, deep probabilistic models rising in the ML community that can deal with a wide range of probabilistic queries and offer tractability guarantees are severely underrepresented. Due to a lack of interdisciplinary collaboration, PPML is missing such important trends, ultimately hindering the adoption of privacy technology. In this work, we introduce CryptoSPN, a framework for privacy-preserving inference of sum-product networks (SPNs) to significantly expand the PPML toolkit beyond NNs. SPNs are deep probabilistic models at the sweet-spot between expressivity and tractability, allowing for a range of exact queries in linear time. In an interdisciplinary effort, we combine techniques from both ML and crypto to allow for efficient, privacy-preserving SPN inference via SMPC. We provide CryptoSPN as open source and seamlessly integrate it into the SPFlow library (Molina et al., arXiv 2019) for practical use by ML experts. Our evaluation on a broad range of SPNs demonstrates that CryptoSPN achieves highly efficient and accurate inference within seconds for medium-sized SPNs.",
+    "citationCount": 4,
+    "referenceCount": 47
+}

@@ -1,0 +1,42 @@
+{
+    "paperId": "30cdfb3a5905108e34cb10c9376459f86674f831",
+    "title": "Tuple Space Assisted Packet Classification With High Performance on Both Search and Update",
+    "year": 2020,
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "authors": [
+        "Wenjun Li",
+        "Tong Yang",
+        "Ori Rottenstreich",
+        "Xianfeng Li",
+        "Gaogang Xie",
+        "Hui Li",
+        "Balajee Vamanan",
+        "Dagang Li",
+        "Huiping Lin"
+    ],
+    "doi": "10.1109/JSAC.2020.2986935",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/30cdfb3a5905108e34cb10c9376459f86674f831",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Software switches are being deployed in SDN to enable a wide spectrum of non-traditional applications. The popular Open vSwitch uses a variant of Tuple Space Search (TSS) for packet classifications. Although it has good performance on rule updates, it is less efficient than decision trees on lookups. In this paper, we propose a two-stage framework consisting of heterogeneous algorithms to adaptively exploit different characteristics of the rule sets at different scales. In the first stage, partial decision trees are constructed from several rule subsets grouped with respect to their small fields. This grouping eliminates rule replications at large scales, thereby enabling very efficient pre-cuttings. The second stage handles packet classification at small scales for non-leaf terminal nodes, where rule replications within each subspace may lead to inefficient cuttings. A salient fact is that small space means long address prefixes or less nesting levels of ranges, both indicating a very limited tuple space. To exploit this favorable property, we employ a TSS-based algorithm for these subsets following tree constructions. Experimental results show that our work has comparable update performance to TSS in Open vSwitch, while achieving almost an order-of-magnitude improvement on classification performance over TSS.",
+    "citationCount": 37,
+    "referenceCount": 44
+}

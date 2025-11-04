@@ -1,0 +1,33 @@
+{
+    "paperId": "28386ab62092adbf5407a6b6c53b0f8422a2e931",
+    "title": "Database Workload Characterization with Query Plan Encoders",
+    "year": 2021,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Debjyoti Paul",
+        "Jie Cao",
+        "Feifei Li",
+        "Vivek Srikumar"
+    ],
+    "doi": "10.14778/3503585.3503600",
+    "arxivId": "2105.12287",
+    "url": "https://www.semanticscholar.org/paper/28386ab62092adbf5407a6b6c53b0f8422a2e931",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2105.12287",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n Smart databases are adopting artificial intelligence (AI) technologies to achieve\n instance optimality\n , and in the future, databases will come with prepackaged AI models within their core components. The reason is that every database runs on different workloads, demands specific resources, and settings to achieve optimal performance. It prompts the necessity to understand workloads running in the system along with their features comprehensively, which we dub as workload characterization.\n \n \n To address this workload characterization problem, we propose our query plan encoders that learn essential features and their correlations from query plans. Our pretrained encoders captures the structural and the\n computational performance\n of queries independently. We show that our pretrained encoders are adaptable to workloads that expedites the transfer learning process. We performed independent assessments of structural encoder and performance encoders with multiple downstream tasks. For the overall evaluation of our query plan encoders, we architect two downstream tasks (i) query latency prediction and (ii) query classification. These tasks show the importance of feature-based workload characterization. We also performed extensive experiments on individual encoders to verify the effectiveness of representation learning, and domain adaptability.\n",
+    "citationCount": 19,
+    "referenceCount": 44
+}

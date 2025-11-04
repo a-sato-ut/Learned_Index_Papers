@@ -1,0 +1,42 @@
+{
+    "paperId": "161ebfcf9cc1da770b5cfc77103dd5b2c24ae2a8",
+    "title": "Breaking Barriers: Expanding GPU Memory with Sub-Two Digit Nanosecond Latency CXL Controller",
+    "year": 2024,
+    "venue": "USENIX Workshop on Hot Topics in Storage and File Systems",
+    "authors": [
+        "Donghyun Gouk",
+        "Seungkwan Kang",
+        "Hanyeoreum Bae",
+        "Eojin Ryu",
+        "Sangwon Lee",
+        "Dongpyung Kim",
+        "Junhyeok Jang",
+        "Myoungsoo Jung"
+    ],
+    "doi": "10.1145/3655038.3665953",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/161ebfcf9cc1da770b5cfc77103dd5b2c24ae2a8",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This work introduces a GPU storage expansion solution utilizing CXL, featuring a novel GPU system design with multiple CXL root ports for integrating diverse storage media (DRAMs and/or SSDs). We developed and siliconized a custom CXL controller integrated at the hardware RTL level, achieving two-digit nanosecond roundtrip latency, the first in the field. This study also includes speculative read and deterministic store mechanisms to efficiently manage read and write operations to hide the endpoint's backend media latency variation. Performance evaluations reveal our approach significantly outperforms existing methods, marking a substantial advancement in GPU storage technology.",
+    "citationCount": 4,
+    "referenceCount": 47
+}

@@ -1,0 +1,41 @@
+{
+    "paperId": "725b3d3bcdd9a0be669892a7c8efbadacf37568e",
+    "title": "Beat-Notes Acquisition of Laser Heterodyne Interference Signal for Space Gravitational Wave Detection",
+    "year": 2023,
+    "venue": "Italian National Conference on Sensors",
+    "authors": [
+        "Zhenpeng Wang",
+        "Tao Yu",
+        "Yanlin Sui",
+        "Zhi Wang"
+    ],
+    "doi": "10.3390/s23063124",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/725b3d3bcdd9a0be669892a7c8efbadacf37568e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/1424-8220/23/6/3124/pdf?version=1678846235",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In space gravitational wave detection missions, the laser heterodyne interference signal (LHI signal) has a high-dynamic characteristic due to the Doppler shift. Therefore, the three beat-notes frequencies of the LHI signal are changeable and unknown. This may further lead to the unlocking of the digital phase-locked loop (DPLL). Traditionally, fast Fourier transform (FFT) has been used as a method for frequency estimation. However, the estimation accuracy cannot meet the requirement of space missions because of the limited spectrum resolution. In order to improve the multi-frequency estimation accuracy, a method based on center of gravity (COG) is proposed. The method improves the estimation accuracy by using the amplitude of the peak points and the neighboring points of the discrete spectrum. For different windows that may be used for signal sampling, a general expression for multi-frequency correction of the windowed signal is derived. Meanwhile, a method based on error integration to reduce the acquisition error is proposed, which solves the problem of acquisition accuracy degradation caused by communication codes. The experimental results show that the multi-frequency acquisition method is able to accurately acquire the three beat-notes of the LHI signal and meet the requirement of space missions.",
+    "citationCount": 2,
+    "referenceCount": 29
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "926ae0d09aa049b3815cf427f97c55f17bba164e",
+    "title": "Self-supervised Trajectory Representation Learning with Temporal Regularities and Travel Semantics",
+    "year": 2022,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Jiawei Jiang",
+        "Dayan Pan",
+        "Houxing Ren",
+        "Xiaohan Jiang",
+        "Chao Li",
+        "Jingyuan Wang"
+    ],
+    "doi": "10.1109/ICDE55515.2023.00070",
+    "arxivId": "2211.09510",
+    "url": "https://www.semanticscholar.org/paper/926ae0d09aa049b3815cf427f97c55f17bba164e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2211.09510",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Trajectory Representation Learning (TRL) is a powerful tool for spatial-temporal data analysis and management. TRL aims to convert complicated raw trajectories into low-dimensional representation vectors, which can be applied to various downstream tasks, such as trajectory classification, clustering, and similarity computation. Existing TRL works usually treat trajectories as ordinary sequence data, while some important spatial-temporal characteristics, such as temporal regularities and travel semantics, are not fully exploited. To fill this gap, we propose a novel Self-supervised trajectory representation learning framework with TemporAl Regularities and Travel semantics, namely START. The proposed method consists of two stages. The first stage is a Trajectory Pattern-Enhanced Graph Attention Network (TPE-GAT), which converts the road network features and travel semantics into representation vectors of road segments. The second stage is a Time-Aware Trajectory Encoder (TAT-Enc), which encodes representation vectors of road segments in the same trajectory as a trajectory representation vector, meanwhile incorporating temporal regularities with the trajectory representation. Moreover, we also design two self-supervised tasks, i.e., span-masked trajectory recovery and trajectory contrastive learning, to introduce spatial-temporal characteristics of trajectories into the training process of our START framework. The effectiveness of the proposed method is verified by extensive experiments on two large-scale real-world datasets for three downstream tasks. The experiments also demonstrate that our method can be transferred across different cities to adapt heterogeneous trajectory datasets.",
+    "citationCount": 98,
+    "referenceCount": 47
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "f39f94bbcbfda2d64d1b3ad1fe004e7a44290fa2",
+    "title": "Finding Materialized Models for Model Reuse",
+    "year": 2021,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "authors": [
+        "Minjun Zhao",
+        "Lu Chen",
+        "Keyu Yang",
+        "Yuntao Du",
+        "Yunjun Gao"
+    ],
+    "doi": "10.1109/TKDE.2023.3270923",
+    "arxivId": "2110.06532",
+    "url": "https://www.semanticscholar.org/paper/f39f94bbcbfda2d64d1b3ad1fe004e7a44290fa2",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2110.06532",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Materialized model query aims to find the most appropriate materialized model as the initial model for model reuse. It is the precondition of model reuse, and has recently attracted much attention. Nonetheless, the existing methods suffer from the need to provide source data, limited range of applications, and inefficiency since they do not construct a suitable metric to measure the target-related knowledge of materialized models. To address this, we present <inline-formula><tex-math notation=\"LaTeX\">${\\sf MMQ}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"sans-serif\">MMQ</mml:mi></mml:math><inline-graphic xlink:href=\"gao-ieq1-3270923.gif\"/></alternatives></inline-formula>, a source-data free, general, efficient, and effective materialized model query framework. It uses a Gaussian mixture-based metric called separation degree to rank materialized models. For each materialized model, <inline-formula><tex-math notation=\"LaTeX\">${\\sf MMQ}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"sans-serif\">MMQ</mml:mi></mml:math><inline-graphic xlink:href=\"gao-ieq2-3270923.gif\"/></alternatives></inline-formula> first vectorizes the samples in the target dataset into probability vectors by directly applying this model, then utilizes Gaussian distribution to fit for each class of probability vectors, and finally uses separation degree on the Gaussian distributions to measure the target-related knowledge of the materialized model. Moreover, we propose an improved <inline-formula><tex-math notation=\"LaTeX\">${\\sf MMQ}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"sans-serif\">MMQ</mml:mi></mml:math><inline-graphic xlink:href=\"gao-ieq3-3270923.gif\"/></alternatives></inline-formula> (<inline-formula><tex-math notation=\"LaTeX\">${\\sf I\\text{-}MMQ}$</tex-math><alternatives><mml:math><mml:mrow><mml:mi mathvariant=\"sans-serif\">I</mml:mi><mml:mtext mathvariant=\"sans-serif\">-</mml:mtext><mml:mi mathvariant=\"sans-serif\">MMQ</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href=\"gao-ieq4-3270923.gif\"/></alternatives></inline-formula>), which significantly reduces the query time while retaining the query performance of <inline-formula><tex-math notation=\"LaTeX\">${\\sf MMQ}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"sans-serif\">MMQ</mml:mi></mml:math><inline-graphic xlink:href=\"gao-ieq5-3270923.gif\"/></alternatives></inline-formula>. Extensive experiments on a range of practical model reuse workloads demonstrate the effectiveness and efficiency of <inline-formula><tex-math notation=\"LaTeX\">${\\sf MMQ}$</tex-math><alternatives><mml:math><mml:mi mathvariant=\"sans-serif\">MMQ</mml:mi></mml:math><inline-graphic xlink:href=\"gao-ieq6-3270923.gif\"/></alternatives></inline-formula>.",
+    "citationCount": 1,
+    "referenceCount": 67
+}

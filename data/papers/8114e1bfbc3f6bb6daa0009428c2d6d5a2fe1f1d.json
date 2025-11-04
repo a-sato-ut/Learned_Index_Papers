@@ -1,0 +1,33 @@
+{
+    "paperId": "8114e1bfbc3f6bb6daa0009428c2d6d5a2fe1f1d",
+    "title": "Disentangled Graph Recurrent Network for Document Ranking",
+    "year": 2022,
+    "venue": "Data Science and Engineering",
+    "authors": [
+        "Qian Dong",
+        "Shuzi Niu",
+        "Tao Yuan",
+        "Yucheng Li"
+    ],
+    "doi": "10.1007/s41019-022-00179-3",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8114e1bfbc3f6bb6daa0009428c2d6d5a2fe1f1d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://link.springer.com/content/pdf/10.1007/s41019-022-00179-3.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "BERT-based ranking models are emerging for its superior natural language understanding ability. All word relations and representations in the concatenation of query and document are modeled in the self-attention matrix as latent knowledge. However, some latent knowledge has none or negative effect on the relevance prediction between query and document. We model the observable and unobservable confounding factors in a causal graph and perform do-query to predict the relevance label given an intervention over this graph. For the observed factors, we block the back door path by an adaptive masking method through the transformer layer and refine word representations over this disentangled word graph through the refinement layer. For the unobserved factors, we resolve the do-operation query from the front door path by decomposing word representations into query related and unrelated parts through the decomposition layer. Pairwise ranking loss is mainly used for the ad hoc document ranking task, triangle distance loss is introduced to both the transformer and refinement layers for more discriminative representations, and mutual information constraints are put on the decomposition layer. Experimental results on public benchmark datasets TREC Robust04 and WebTrack2009-12 show that DGRe outperforms state-of-the-art baselines more than 2% especially for short queries.",
+    "citationCount": 13,
+    "referenceCount": 42
+}

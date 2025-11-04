@@ -1,0 +1,38 @@
+{
+    "paperId": "bbaa9599d10b5f29546a8c52eeb34b38ef4e3596",
+    "title": "Learning Better Representations for Neural Information Retrieval with Graph Information",
+    "year": 2020,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Xiangsheng Li",
+        "M. D. Rijke",
+        "Yiqun Liu",
+        "Jiaxin Mao",
+        "Weizhi Ma",
+        "Min Zhang",
+        "Shaoping Ma"
+    ],
+    "doi": "10.1145/3340531.3411957",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bbaa9599d10b5f29546a8c52eeb34b38ef4e3596",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://pure.uva.nl/ws/files/53902637/li_2020_learning.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural ranking models have recently gained much attention in Information Retrieval community and obtain good ranking performance. However, most of these retrieval models focus on capturing the textual matching signals between query and document but do not consider user behavior information that may be helpful for the retrieval task. Specifically, users' click and query reformulation behavior can be represented by a click-through bipartite graph and a session-flow graph, respectively. Such graph representations contain rich user behavior information and may help us better understand users' search intent beyond the textual information. In this study, we aim to incorporate this rich information encoded in these two graphs into existing neural ranking models. We present two graph-based neural ranking models (\\emphEmbRanker and AggRanker ) to enrich learned text representations with graph information that captures rich users' interaction behavior information. Experimental results on a large-scale publicly available benchmark dataset show that the two models outperform most existing neural ranking models that only consider textual information, which illustrates the effectiveness of integrating graph information with textual information. Further analyses show how graph information complements text matching signals and examine whether these two models can be adopted in practical applications.",
+    "citationCount": 1,
+    "referenceCount": 45
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "dffd8bc453f036a6751088d1c24eb241824d1738",
+    "title": "Foreground–background decoupling matting",
+    "year": 2022,
+    "venue": "International Journal of Intelligent Systems",
+    "authors": [
+        "Jiawei Wu",
+        "Guolin Zheng",
+        "Kun Zeng",
+        "Haoyi Fan",
+        "Zuoyong Li"
+    ],
+    "doi": "10.1002/int.23018",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/dffd8bc453f036a6751088d1c24eb241824d1738",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Image matting aims to extract specific objects, deployed in many applications. Generally, the automatic matting methods need an extra before overcome the intricate details and the diverse appearances. Recently, the matting community has paid more attentions to the investigation of trimap‐free matting direction to address the dependency of priors. Most trimap‐free approaches divide the matting task into global segmentation and detail matting subtasks. Unfortunately, these methods suffer from stagewise modeling, uncorrectable errors, or subtasks bottleneck problems. To address these issues, we propose a new set of matting subtasks, including foreground segmentation, background segmentation, and disambiguation. And we present a novel Foreground–Background Decoupling Matting (FBDM) network motivated by the new subtasks. Specifically, we first design a nested attention mechanism to decouple the backbone features. Then, we utilize two independent progressive semantic decoders by the decoupling features to complete the foreground and background segmentation subtasks. Finally, we utilize multiple of the proposed frequency division local disambiguation modules to achieve the disambiguation subtask. Besides, we establish a challenging potted plant (PPT) benchmark which contains 100 potted plants images in the real world for the matting community. Extensive experiments on several public benchmarks and the PPTs benchmark demonstrate that the proposed FBDM generates the best results compared with the state‐of‐the‐art trimap‐free methods.",
+    "citationCount": 0,
+    "referenceCount": 60
+}

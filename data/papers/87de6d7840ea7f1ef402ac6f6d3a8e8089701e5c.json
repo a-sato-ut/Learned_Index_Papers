@@ -1,0 +1,39 @@
+{
+    "paperId": "87de6d7840ea7f1ef402ac6f6d3a8e8089701e5c",
+    "title": "Neural Locality Sensitive Hashing for Entity Blocking",
+    "year": 2024,
+    "venue": "SDM",
+    "authors": [
+        "Runhui Wang",
+        "Luyang Kong",
+        "Yefan Tao",
+        "Andrew Borthwick",
+        "Davor Golac",
+        "Henrik Johnson",
+        "Shadie Hijazi",
+        "Dong Deng",
+        "Yongfeng Zhang"
+    ],
+    "doi": "10.48550/arXiv.2401.18064",
+    "arxivId": "2401.18064",
+    "url": "https://www.semanticscholar.org/paper/87de6d7840ea7f1ef402ac6f6d3a8e8089701e5c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Locality-sensitive hashing (LSH) is a fundamental algorithmic technique widely employed in large-scale data processing applications, such as nearest-neighbor search, entity resolution, and clustering. However, its applicability in some real-world scenarios is limited due to the need for careful design of hashing functions that align with specific metrics. Existing LSH-based Entity Blocking solutions primarily rely on generic similarity metrics such as Jaccard similarity, whereas practical use cases often demand complex and customized similarity rules surpassing the capabilities of generic similarity metrics. Consequently, designing LSH functions for these customized similarity rules presents considerable challenges. In this research, we propose a neuralization approach to enhance locality-sensitive hashing by training deep neural networks to serve as hashing functions for complex metrics. We assess the effectiveness of this approach within the context of the entity resolution problem, which frequently involves the use of task-specific metrics in real-world applications. Specifically, we introduce NLSHBlock (Neural-LSH Block), a novel blocking methodology that leverages pre-trained language models, fine-tuned with a novel LSH-based loss function. Through extensive evaluations conducted on a diverse range of real-world datasets, we demonstrate the superiority of NLSHBlock over existing methods, exhibiting significant performance improvements. Furthermore, we showcase the efficacy of NLSHBlock in enhancing the performance of the entity matching phase, particularly within the semi-supervised setting.",
+    "citationCount": 2,
+    "referenceCount": 48
+}

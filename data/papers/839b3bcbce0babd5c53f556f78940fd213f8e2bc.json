@@ -1,0 +1,33 @@
+{
+    "paperId": "839b3bcbce0babd5c53f556f78940fd213f8e2bc",
+    "title": "Neural-based Modeling for Performance Tuning of Spark Data Analytics",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Khaled Zaouk",
+        "Fei Song",
+        "Chenghao Lyu",
+        "Y. Diao"
+    ],
+    "doi": null,
+    "arxivId": "2101.08167",
+    "url": "https://www.semanticscholar.org/paper/839b3bcbce0babd5c53f556f78940fd213f8e2bc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cloud data analytics has become an integral part of enterprise business operations for data-driven insight discovery. Performance modeling of cloud data analytics is crucial for performance tuning and other critical operations in the cloud. Traditional modeling techniques fail to adapt to the high degree of diversity in workloads and system behaviors in this domain. In this paper, we bring recent Deep Learning techniques to bear on the process of automated performance modeling of cloud data analytics, with a focus on Spark data analytics as representative workloads. At the core of our work is the notion of learning workload embeddings (with a set of desired properties) to represent fundamental computational characteristics of different jobs, which enable performance prediction when used together with job configurations that control resource allocation and other system knobs. Our work provides an in-depth study of different modeling choices that suit our requirements. Results of extensive experiments reveal the strengths and limitations of different modeling methods, as well as superior performance of our best performing method over a state-of-the-art modeling tool for cloud analytics.",
+    "citationCount": 2,
+    "referenceCount": 31
+}

@@ -1,0 +1,36 @@
+{
+    "paperId": "c785118e32d60ec9166e9d863fae1a901e02c863",
+    "title": "Data Series Progressive Similarity Search with Probabilistic Quality Guarantees",
+    "year": 2020,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Anna Gogolou",
+        "Theophanis Tsandilas",
+        "Karima Echihabi",
+        "A. Bezerianos",
+        "Themis Palpanas"
+    ],
+    "doi": "10.1145/3318464.3389751",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/c785118e32d60ec9166e9d863fae1a901e02c863",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://hal.archives-ouvertes.fr/hal-02560760/file/progressive-sigmod.pdf",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Existing systems dealing with the increasing volume of data series cannot guarantee interactive response times, even for fundamental tasks such as similarity search. Therefore, it is necessary to develop analytic approaches that support exploration and decision making by providing progressive results, before the final and exact ones have been computed. Prior works lack both efficiency and accuracy when applied to large-scale data series collections. We present and experimentally evaluate a new probabilistic learning-based method that provides quality guarantees for progressive Nearest Neighbor (NN) query answering. We provide both initial and progressive estimates of the final answer that are getting better during the similarity search, as well suitable stopping criteria for the progressive queries. Experiments with synthetic and diverse real datasets demonstrate that our prediction methods constitute the first practical solution to the problem, significantly outperforming competing approaches.",
+    "citationCount": 33,
+    "referenceCount": 96
+}

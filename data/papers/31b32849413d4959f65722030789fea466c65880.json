@@ -1,0 +1,36 @@
+{
+    "paperId": "31b32849413d4959f65722030789fea466c65880",
+    "title": "ExSample: Efficient Searches on Video Repositories through Adaptive Sampling",
+    "year": 2020,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Oscar Moll",
+        "F. Bastani",
+        "Sam Madden",
+        "M. Stonebraker",
+        "V. Gadepally",
+        "Tim Kraska"
+    ],
+    "doi": "10.1109/ICDE53745.2022.00266",
+    "arxivId": "2005.09141",
+    "url": "https://www.semanticscholar.org/paper/31b32849413d4959f65722030789fea466c65880",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2005.09141",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Capturing and processing video is increasingly common as cameras become cheaper to deploy. At the same time, rich video-understanding methods have progressed greatly in the last decade. As a result, many organizations now have massive repositories of video data, with applications in mapping, navigation, autonomous driving, and other areas. Because state-of-the-art object-detection methods are slow and expensive, our ability to process even simple ad-hoc object search queries (“find 100 traffic lights in dashcam video”) over this accumulated data lags far behind our ability to collect the data. Processing video at reduced sampling rates is a reasonable default strategy for these types of queries; however, the ideal sampling rate is both data and query dependent. We introduce ExSample, a low cost framework for object search over un-indexed video that quickly processes search queries by adapting the amount and location of sampled frames to the particular data and query being processed. ExSample prioritizes the processing of frames in a video repository so that processing is focused in portions of video that most likely contain objects of interest. It approaches searching in a similar way to a multi-arm bandit problem where each arm corresponds to a portion of a video. On large, real-world datasets, ExSample reduces processing time by 1.9x on average and up to 6x over an efficient random sampling baseline. Moreover, we show ExSample finds many results long before sophisticated, state-of-the-art baselines based on proxy scores can begin producing their first results.",
+    "citationCount": 31,
+    "referenceCount": 42
+}

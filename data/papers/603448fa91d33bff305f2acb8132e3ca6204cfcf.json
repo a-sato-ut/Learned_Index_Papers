@@ -1,0 +1,36 @@
+{
+    "paperId": "603448fa91d33bff305f2acb8132e3ca6204cfcf",
+    "title": "A Transaction Cardinality Estimation Approach for QoS-Adjustable Intelligent Blockchain Systems",
+    "year": 2022,
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "authors": [
+        "Hao Xu",
+        "Xiulong Liu",
+        "Zhelin Liang",
+        "Hongyan Sun",
+        "Weilian Xue",
+        "Jianrong Wang",
+        "Keqiu Li"
+    ],
+    "doi": "10.1109/JSAC.2022.3213327",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/603448fa91d33bff305f2acb8132e3ca6204cfcf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The rapid development of the blockchain leads to a blowout of on-chain transactions, contracts, and currencies, which will further accelerate the increase of data. The existing blockchain systems typically support exact transaction queries, which, however, cannot satisfy the QoS requirements with intelligent adjustment in the blockchain systems. To this end, this paper takes the first step to define and address the practically important problem of transaction cardinality estimation for QoS-adjustable intelligent blockchain systems. We first establish a mathematical relationship between the bit string and transaction cardinality. Thus, we can leverage the number of leading 1s of the obtained bit string to estimate the transaction cardinality. We then improve the block header and body with a corresponding search algorithm to access bit strings in blocks. We also propose an estimation protocol with intelligent adjustable QoS to support accuracy-guaranteed and efficiency-optimized estimation. Finally, we design an authentication scheme and guarantee the reliability of our protocol through rigorous theoretical derivation. When achieving the transaction cardinality estimation in blockchain, two technical challenges need to be addressed. (i) To ensure efficient, verifiable, and overhead-saving bit string accessing mechanism in blockchain, we propose the Merkle Cardinality Tree (MCT) and target block filtering mechanism based on Bloom Filter (BF) in off-chain and improve on-chain block header by joining the abstract of MCT and BF. (ii) To improve estimation efficiency while guaranteeing accuracy requirements in hybrid blockchain scheme, we propose a Dynamic One-round Sampling-based cardinality Estimation (DOSE) protocol and integrate BF-DOSE to intelligently accelerate estimation. We build MCT in Ethereum and store the MCT Root in the block header for estimation authentication. Extensive experiments reveal that our BF-DOSE protocol can well satisfy various accuracy and efficiency requirements of QoS-adjustable intelligent blockchain systems, and is one to two orders of magnitude faster compared with benchmark schemes.",
+    "citationCount": 1,
+    "referenceCount": 35
+}

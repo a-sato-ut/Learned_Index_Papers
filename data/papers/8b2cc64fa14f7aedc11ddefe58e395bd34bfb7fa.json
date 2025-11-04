@@ -1,0 +1,35 @@
+{
+    "paperId": "8b2cc64fa14f7aedc11ddefe58e395bd34bfb7fa",
+    "title": "A novel framework for join order selection based on reinforcement and representation learning",
+    "year": 2024,
+    "venue": "BigData Congress [Services Society]",
+    "authors": [
+        "Chang Liu",
+        "Amin Kamali",
+        "Verena Kantere",
+        "C. Zuzarte",
+        "Vincent Corvinelli"
+    ],
+    "doi": "10.1109/bigdata62323.2024.10825394",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/8b2cc64fa14f7aedc11ddefe58e395bd34bfb7fa",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Join order selection is a sub-field of query optimization that aims to find the optimal join order for an SQL query with the minimum cost. The challenge lies in the exponentially growing search space as the number of tables increases, making exhaustive enumeration impractical. Traditional optimizers use static heuristics to prune the search space, but they often fail to adapt to changes or improve based on feedback from the DBMS. Recent research addresses these limitations with Deep Reinforcement Learning (DRL), allowing models to use feedback to dynamically search for better join orders and enhance performance over time. Existing research primarily focuses on capturing join order sequences and their representations at various levels, with limited comparative analysis of reinforcement learning methods. In this paper, we propose a novel framework, which integrates Graph Neural Networks (GNN), Tree-structured Long Short-Term Memory (Tree-LSTM), and dueling-DQN. We conduct a series of experiments to demonstrate the potential for improvement in DRL methods.",
+    "citationCount": 0,
+    "referenceCount": 12
+}

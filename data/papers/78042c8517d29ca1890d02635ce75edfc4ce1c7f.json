@@ -1,0 +1,44 @@
+{
+    "paperId": "78042c8517d29ca1890d02635ce75edfc4ce1c7f",
+    "title": "Deep Generative Model Driven Protein Folding Simulations",
+    "year": 2019,
+    "venue": "International Conference on Parallel Computing",
+    "authors": [
+        "Heng Ma",
+        "D. Bhowmik",
+        "Hyungro Lee",
+        "M. Turilli",
+        "M. T. Young",
+        "S. Jha",
+        "A. Ramanathan"
+    ],
+    "doi": "10.3233/APC200023",
+    "arxivId": "1908.00496",
+    "url": "https://www.semanticscholar.org/paper/78042c8517d29ca1890d02635ce75edfc4ce1c7f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ebooks.iospress.nl/pdf/doi/10.3233/APC200023",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Biology",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Significant progress in computer hardware and software have enabled molecular dynamics (MD) simulations to model complex biological phenomena such as protein folding. However, enabling MD simulations to access biologically relevant timescales (e.g., beyond milliseconds) still remains challenging. These limitations include (1) quantifying which set of states have already been (sufficiently) sampled in an ensemble of MD runs, and (2) identifying novel states from which simulations can be initiated to sample rare events (e.g., sampling folding events). With the recent success of deep learning and artificial intelligence techniques in analyzing large datasets, we posit that these techniques can also be used to adaptively guide MD simulations to model such complex biological phenomena. Leveraging our recently developed unsupervised deep learning technique to cluster protein folding trajectories into partially folded intermediates, we build an iterative workflow that enables our generative model to be coupled with all-atom MD simulations to fold small protein systems on emerging high performance computing platforms. We demonstrate our approach in folding Fs-peptide and the $\\beta\\beta\\alpha$ (BBA) fold, FSD-EY. Our adaptive workflow enables us to achieve an overall root-mean squared deviation (RMSD) to the native state of 1.6$~A$ and 4.4~$A$ respectively for Fs-peptide and FSD-EY. We also highlight some emerging challenges in the context of designing scalable workflows when data intensive deep learning techniques are coupled to compute intensive MD simulations.",
+    "citationCount": 11,
+    "referenceCount": 27
+}

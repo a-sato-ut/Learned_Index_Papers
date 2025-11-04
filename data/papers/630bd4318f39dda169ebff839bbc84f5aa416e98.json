@@ -1,0 +1,44 @@
+{
+    "paperId": "630bd4318f39dda169ebff839bbc84f5aa416e98",
+    "title": "Hoda: a High-performance Open vSwitch Dataplane with Multiple Specialized Data Paths",
+    "year": 2024,
+    "venue": "European Conference on Computer Systems",
+    "authors": [
+        "Heng Pan",
+        "Peng He",
+        "Zhenyu Li",
+        "Pan Zhang",
+        "Junjie Wan",
+        "Yuhao Zhou",
+        "Xiongchun Duan",
+        "Yu Zhang",
+        "Gaogang Xie"
+    ],
+    "doi": "10.1145/3627703.3629564",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/630bd4318f39dda169ebff839bbc84f5aa416e98",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Open vSwitch (OvS) has been widely used in cloud networks in view of its programmability and flexibility. However, we observe a huge performance drop when it loads practical cloud networking services (e.g., tunneling and firewalling). Our further analysis reveals that the root cause lies in the gap between the needs of supporting various selections of packet header fields and the one-size-fits-all data path in the vanilla OvS. Motivated by this, we design Hoda, a high-performance OvS dataplane with multiple specialized data paths. Specifically, Hoda constructs the specialized parser and microflow cache for each OpenFlow program so as to achieve lightweight parsing and caching. We also propose a configurable version of Hoda that introduces configuration knobs in the data path to ease specialization. The experiments with real-life OpenFlow rules show that Hoda achieves up to 1.7× speed up over the state-of-the-art OvS and 1.5× speed up over mSwitch. Hoda has also been deployed in a large cloud to serve various online services; the A/B test in the cloud reveals a 20% request process time reduction for Ngnix services.",
+    "citationCount": 5,
+    "referenceCount": 39
+}

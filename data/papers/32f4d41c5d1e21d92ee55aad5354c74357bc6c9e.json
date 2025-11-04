@@ -1,0 +1,45 @@
+{
+    "paperId": "32f4d41c5d1e21d92ee55aad5354c74357bc6c9e",
+    "title": "Using Parametric PINNs for Predicting Internal and External Turbulent Flows",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Shinjan Ghosh",
+        "Amit Chakraborty",
+        "Georgia Olympia Brikis",
+        "Biswadip Dey"
+    ],
+    "doi": "10.48550/arXiv.2410.18917",
+    "arxivId": "2410.18917",
+    "url": "https://www.semanticscholar.org/paper/32f4d41c5d1e21d92ee55aad5354c74357bc6c9e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Computational fluid dynamics (CFD) solvers employing two-equation eddy viscosity models are the industry standard for simulating turbulent flows using the Reynolds-averaged Navier-Stokes (RANS) formulation. While these methods are computationally less expensive than direct numerical simulations, they can still incur significant computational costs to achieve the desired accuracy. In this context, physics-informed neural networks (PINNs) offer a promising approach for developing parametric surrogate models that leverage both existing, but limited CFD solutions and the governing differential equations to predict simulation outcomes in a computationally efficient, differentiable, and near real-time manner. In this work, we build upon the previously proposed RANS-PINN framework, which only focused on predicting flow over a cylinder. To investigate the efficacy of RANS-PINN as a viable approach to building parametric surrogate models, we investigate its accuracy in predicting relevant turbulent flow variables for both internal and external flows. To ensure training convergence with a more complex loss function, we adopt a novel sampling approach that exploits the domain geometry to ensure a proper balance among the contributions from various regions within the solution domain. The effectiveness of this framework is then demonstrated for two scenarios that represent a broad class of internal and external flow problems.",
+    "citationCount": 1,
+    "referenceCount": 21
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "1fff9c15ab4b77f3adf03f5255d0011e05710d37",
+    "title": "A Systematic Literature Review of Concept Drift Mitigation in Time-Series Applications",
+    "year": 2025,
+    "venue": "IEEE Access",
+    "authors": [
+        "Mujaheed Abdullahi",
+        "Hitham Alhussian",
+        "Norshakirah Aziz",
+        "Said Jadid Abdulkadir",
+        "Yahia Baashar",
+        "Abdussalam Ahmed Alashhab",
+        "Afroza Afrin"
+    ],
+    "doi": "10.1109/ACCESS.2025.3587231",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1fff9c15ab4b77f3adf03f5255d0011e05710d37",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine Learning (ML) plays a key role in time-series applications because it analyzes observed data and predicts future values. The effectiveness of ML models in time-series forecasting is reduced by the occurrence of Concept Drift (CD). CD refers to continuous changes in the statistical properties of datasets. This affects the predictive performance of ML models. To address this issue, researchers have developed several CD detection and adaptation techniques. However, certain limitations exist, and most studies on CD detection and adaptation in time-series data have focused on classification learning, with minimal attention paid to regression learning. This study conducted a Systematic Literature Review (SLR) that classified, identified, and recommended an optimal method for the detection and adaptation of CD in regression and classification tasks involving time-series data. A systematic search was performed using the SCOPUS, ScienceDirect, IEEE Xplore, Web of Science, MDPI, and ACM databases. Based on the identified records, 60 studies published between 2013 and 2024 were thoroughly surveyed and evaluated using PRISMA guidelines. The findings show that Support Vector Machines (SVM) is the most effective learning algorithms for the detection and adaptation of CD in regression and classification tasks using time-series data. This is possible because of their high detection accuracy and effective memory. Moreover, this SLR presents a roadmap for detecting CDs using Artificial Intelligence (AI)-based learners, along with a comparative analysis of well-known baseline methods. Future work should focus on developing adaptive learning models capable of adapting to CD without explicit re-training, thereby, ensuring optimal performance.",
+    "citationCount": 0,
+    "referenceCount": 119
+}

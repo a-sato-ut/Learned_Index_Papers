@@ -1,0 +1,28 @@
+{
+    "paperId": "04cbcbf086fe3de8c6ddeb2ea6fceadb796c5c3b",
+    "title": "Deep 3D Dynamic Object Detection towards Successful and Safe Navigation for Full Autonomous Driving",
+    "year": 2022,
+    "venue": "The Open Transportation Journal",
+    "authors": [
+        "P. A. D. S. N. Wijesekara"
+    ],
+    "doi": "10.36227/techrxiv.18517925.v1",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/04cbcbf086fe3de8c6ddeb2ea6fceadb796c5c3b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://opentransportationjournal.com/VOLUME/16/ELOCATOR/e187444782208191/PDF/",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Infractions other than collisions are also a crucial factor in Autonomous driving since other infractions can result in an Accident. Most of the existing work has been tested for Navigation, collisions and least tested for other infractions such as off-road driving and not obeying road signs. We present an imitation learning based Base Model called CILDO and an optimized model of the base model optimized using an and additional traffic light detection branch and Deep Deterministic Policy Gradient based Reinforcement Learning called CILDOLI-RL. The proposed base model is designed to detect dynamic objects by developing the vision for semantic features, depth and motion which is crucial in Autonomous driving. The CILDO-RL model presented in this paper achieves highest score for the newly introduced No-OTHERINFRACTION benchmark ensuring safe autonomous driving while the base CILDO model achieves the best performance in Navigation under Urban or rural dense traffic environments. Further, this work makes a comparison on the computational complexities of the driving models.",
+    "citationCount": 9,
+    "referenceCount": 55
+}

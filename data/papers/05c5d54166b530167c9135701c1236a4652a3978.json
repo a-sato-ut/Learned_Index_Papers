@@ -1,0 +1,32 @@
+{
+    "paperId": "05c5d54166b530167c9135701c1236a4652a3978",
+    "title": "Online Paging with a Vanishing Regret",
+    "year": 2020,
+    "venue": "Information Technology Convergence and Services",
+    "authors": [
+        "Y. Emek",
+        "S. Kutten",
+        "Yangguang Shi"
+    ],
+    "doi": "10.4230/LIPIcs.ITCS.2021.67",
+    "arxivId": "2011.09439",
+    "url": "https://www.semanticscholar.org/paper/05c5d54166b530167c9135701c1236a4652a3978",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper considers a variant of the online paging problem, where the online algorithm has access to multiple predictors, each producing a sequence of predictions for the page arrival times. The predictors may have occasional prediction errors and it is assumed that at least one of them makes a sublinear number of prediction errors in total. Our main result states that this assumption suffices for the design of a randomized online algorithm whose time-average regret with respect to the optimal offline algorithm tends to zero as the time tends to infinity. This holds (with different regret bounds) for both the full information access model, where in each round, the online algorithm gets the predictions of all predictors, and the bandit access model, where in each round, the online algorithm queries a single predictor. \nWhile online algorithms that exploit inaccurate predictions have been a topic of growing interest in the last few years, to the best of our knowledge, this is the first paper that studies this topic in the context of multiple predictors. Moreover, to the best of our knowledge, this is also the first paper that aims for (and achieves) online algorithms with a vanishing regret for a classic online problem under reasonable assumptions.",
+    "citationCount": 8,
+    "referenceCount": 31
+}

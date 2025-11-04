@@ -1,0 +1,33 @@
+{
+    "paperId": "532e69e3c2195451b1680e0b7d21cb8646829549",
+    "title": "Set It and Forget It: Zero-Mod ML Magic for Linux Tuning",
+    "year": 2025,
+    "venue": "PACMI@SOSP",
+    "authors": [
+        "Georgios Liargkovas",
+        "Prabhpreet Singh Sodhi",
+        "Kostis Kaffes"
+    ],
+    "doi": "10.1145/3766882.3767175",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/532e69e3c2195451b1680e0b7d21cb8646829549",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning can turbocharge OS optimization---if one is willing to reinvent the whole stack. Recent work pushes exotic instrumentation or new OS designs that break real-world constraints, demanding app metrics nobody can (or wants to) provide. The alternative---naively optimizing for simple system proxies like IPC---is just as flawed, leading to misleading results that fail to generalize across real-world workloads. Our framework sidesteps this dilemma by learning to optimize without direct visibility. Instead of building brittle models to predict absolute performance, we reframe the problem to learn the relative ranking of system configurations, using a diversified performance signature built from the system counters the OS already has. The outcome is a scalable, robust, and ML-driven performance boost for real applications---delivered without demanding radical shifts in the OS landscape.",
+    "citationCount": 0,
+    "referenceCount": 41
+}

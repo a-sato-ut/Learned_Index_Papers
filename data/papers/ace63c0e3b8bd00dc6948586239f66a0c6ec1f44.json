@@ -1,0 +1,39 @@
+{
+    "paperId": "ace63c0e3b8bd00dc6948586239f66a0c6ec1f44",
+    "title": "CuART - a CUDA-based, scalable Radix-Tree lookup and update engine",
+    "year": 2021,
+    "venue": "International Conference on Parallel Processing",
+    "authors": [
+        "Martin Koppehel",
+        "Tobias Groth",
+        "Sven Groppe",
+        "Thilo Pionteck"
+    ],
+    "doi": "10.1145/3472456.3472511",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ace63c0e3b8bd00dc6948586239f66a0c6ec1f44",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3472456.3472511",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this work we present an optimized version of the Adaptive Radix Tree (ART) index structure for GPUs. We analyze an existing GPU implementation of ART (GRT), identify bottlenecks and present an optimized data structure and layout to improve the lookup and update performance. We show that our implementation outperforms the existing approach by a factor up to 2 times for lookups and up to 10 times for updates using the same GPU. We also show that the sequential memory layout presented here is beneficial for lookup-intensive workloads on the CPU, outperforming the ART by up to 10 times. We analyze the impact of the memory architecture of the GPU, where it becomes visible that traditional GDDR6(X) is beneficial for the index lookups due to the faster clock rates compared to High Bandwidth Memory (HBM).",
+    "citationCount": 6,
+    "referenceCount": 26
+}

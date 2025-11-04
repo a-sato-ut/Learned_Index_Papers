@@ -1,0 +1,38 @@
+{
+    "paperId": "2e552c03ea861439488041bee05a5888b55cfcae",
+    "title": "Combining Performance and Productivity: Accelerating the Network Sensing Graph Challenge with GPUs and Commodity Data Science Software",
+    "year": 2025,
+    "venue": "IEEE Conference on High Performance Extreme Computing",
+    "authors": [
+        "S. Samsi",
+        "Dan Campbell",
+        "Emanuel Scoullos",
+        "Oded Green"
+    ],
+    "doi": "10.1109/HPEC67600.2025.11196162",
+    "arxivId": "2509.03653",
+    "url": "https://www.semanticscholar.org/paper/2e552c03ea861439488041bee05a5888b55cfcae",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The HPEC Graph Challenge is a collection of benchmarks representing complex workloads that test the hardware and software components of HPC systems, which traditional benchmarks, such as LINPACK, do not. The first benchmark, Subgraph Isomorphism, focused on several compute-bound and memory-bound kernels. The most recent of the challenges, the Anonymized Network Sensing Graph Challenge, represents a shift in direction, as it represents a longer end-to-end workload that requires many more software components, including, but not limited to, data I/O, data structures for representing graph data, and a wide range of functions for data preparation and network analysis. A notable feature of this new graph challenge is the use of GraphBLAS to represent the computational aspects of the problem statement. In this paper, we show an alternative interpretation of the GraphBLAS formulations using the language of data science. With this formulation, we show that the new graph challenge can be implemented using off-the-shelf ETL tools available in open-source, enterprise software such as NVIDIA’s RAPIDS ecosystem. Using off-the-shelf software, RAPIDS cuDF and cupy, we enable significant software acceleration without requiring any specific HPC code and show speedups, over the same code running with Pandas on the CPU, of 147x-509x on an NVIDIA A100 GPU, 243x-1269X for an NVIDIA H100 GPU, and 332X-2185X for an NVIDIA H200 GPU.",
+    "citationCount": 0,
+    "referenceCount": 24
+}

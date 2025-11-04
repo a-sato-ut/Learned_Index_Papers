@@ -1,0 +1,37 @@
+{
+    "paperId": "975da4591b428eda807e6dd24350c7f5af16a80c",
+    "title": "Better Distributed Graph Query Planning With Scouting Queries",
+    "year": 2023,
+    "venue": "GRADES-NDA@SIGMOD",
+    "authors": [
+        "Tomáš Faltín",
+        "Vasileios Trigonakis",
+        "Ayoub Berdai",
+        "Luigi Fusco",
+        "Călin Iorgulescu",
+        "Sungpack Hong",
+        "Hassan Chafi"
+    ],
+    "doi": "10.1145/3594778.3594884",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/975da4591b428eda807e6dd24350c7f5af16a80c",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3594778.3594884",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Query planning is essential for graph query execution performance. In distributed graph processing, data partitioning and messaging significantly influence performance. However, these aspects are difficult to model analytically, which makes query planning especially challenging. This paper introduces scouting queries, a lightweight mechanism to gather runtime information about different query plans, which can then be used to choose the \"best\" plan. In a pipelined, depth-first-oriented graph processing engine, scouting queries typically execute for a brief amount of time with negligible overhead. Partial results can be reused to avoid redundant work. We evaluate scouting queries and show that they bring speedups of up to 8.7× for heavy queries, while adding low overhead for those queries that do not benefit.",
+    "citationCount": 1,
+    "referenceCount": 45
+}

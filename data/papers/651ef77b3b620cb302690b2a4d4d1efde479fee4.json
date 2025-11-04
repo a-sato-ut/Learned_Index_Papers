@@ -1,0 +1,37 @@
+{
+    "paperId": "651ef77b3b620cb302690b2a4d4d1efde479fee4",
+    "title": "FODAS: A Novel Reinforcement Learning Approach for Efficient Task Scheduling in Fog Computing Network",
+    "year": 2024,
+    "venue": "International Conference on Fog and Mobile Edge Computing",
+    "authors": [
+        "Ganesan Nagabushnam",
+        "Yundo Choi",
+        "Kyong Hoon Kim"
+    ],
+    "doi": "10.1109/FMEC62297.2024.10710250",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/651ef77b3b620cb302690b2a4d4d1efde479fee4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In heterogeneous fog-cloud computing networks, efficiently scheduling aperiodic tasks is an NP-hard problem, particularly when aiming to minimize makespan, adhere to deadlines, and conserve energy. This paper introduces a novel scheduling algorithm, Fog-Optimized Deadline-Adaptive Scheduling (FODAS), which combines Earliest Deadline First (EDF) principles with Deep Multi-Agent Reinforcement Learning, incorporating Proximal Policy Optimization (PPO) and Recurrent Neural Networks (RNN). FODAS is specifically designed to manage aperiodic tasks in heterogeneous fog-cloud environments, prioritizing deadline adherence and energy efficiency. The proposed algorithm begins by collecting tasks into a global scheduling queue, and sorting them by their deadlines. It incorporates three homogeneous schedulers within a heterogeneous framework, ensuring tasks meet their deadlines and achieve notable energy savings. Key performance metrics such as deadline meeting rate, makespan, and energy savings are evaluated, comparing FODAS against single-agent reinforcement learning algorithms such as PPO and Asynchronous Advantage Actor-Critic (A3C). Our findings reveal that FODAS significantly improves the rate of meeting deadlines by up to 18% compared to the conventional algorithms. Additionally, it delivers substantial energy savings, with improvements of up to 80% in certain setups, and markedly decreases makespan, achieving reductions of up to 57.3% compared to traditional algorithms. The proposed algorithm also demonstrates exceptional operational efficiency, reducing the time required for scheduling tasks, particularly in high-density node networks. These results underscore the effectiveness of FODAS in managing complex task scheduling within fog-cloud computing environments.",
+    "citationCount": 3,
+    "referenceCount": 17
+}

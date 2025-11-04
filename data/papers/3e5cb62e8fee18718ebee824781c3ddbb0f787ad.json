@@ -1,0 +1,42 @@
+{
+    "paperId": "3e5cb62e8fee18718ebee824781c3ddbb0f787ad",
+    "title": "Analysis of Posit and Bfloat Arithmetic of Real Numbers for Machine Learning",
+    "year": 2021,
+    "venue": "IEEE Access",
+    "authors": [
+        "A. Romanov",
+        "A. Stempkovsky",
+        "Ilia V. Lariushkin",
+        "Georgy E. Novoselov",
+        "R. Solovyev",
+        "V. A. Starykh",
+        "I. Romanova",
+        "D. Telpukhov",
+        "I. Mkrtchan"
+    ],
+    "doi": "10.1109/ACCESS.2021.3086669",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/3e5cb62e8fee18718ebee824781c3ddbb0f787ad",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1109/access.2021.3086669",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern computational tasks are often required to not only guarantee predefined accuracy, but get the result fast. Optimizing calculations using floating point numbers, as opposed to integers, is a non-trivial task. For this reason, there is a need to explore new ways to improve such operations. This paper presents analysis and comparison of various floating point formats – float, posit and bfloat. One of the promising areas in which the problem of using such values can be considered to be the most acute is neural networks. That is why we pay special attention to algorithms of linear algebra and artificial intelligence to assess efficiency of new data types in this area. The research results showed that software implementations of posit16 and posit32 have high accuracy, but they are not particularly fast; on the other hand, bfloat16 is not much different from float32 in accuracy, but significantly surpasses it in performance for large amounts of data and complex machine learning algorithms. Thus, posit16 can be used in systems with less stringent performance requirements, as well as in conditions of limited computer memory; and also in cases when bfloat16 cannot provide required accuracy. As for bfloat16, it can speed up systems based on the IEEE 754 standard, but it cannot solve all the problems of conventional floating point arithmetic. Thus, although posits and bfloats are not a full fledged replacement for float, they provide (under certain conditions) advantages that can be useful for implementation of machine learning algorithms.",
+    "citationCount": 14,
+    "referenceCount": 25
+}

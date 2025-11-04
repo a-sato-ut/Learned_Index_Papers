@@ -1,0 +1,38 @@
+{
+    "paperId": "95aff3843524a65bdf70db9034d244f4e60fa62e",
+    "title": "GradeML: Towards Holistic Performance Analysis for Machine Learning Workflows",
+    "year": 2021,
+    "venue": "International Conference on Performance Engineering",
+    "authors": [
+        "T. Hegeman",
+        "Matthijs Jansen",
+        "A. Iosup",
+        "A. Trivedi"
+    ],
+    "doi": "10.1145/3447545.3451185",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/95aff3843524a65bdf70db9034d244f4e60fa62e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Today, machine learning (ML) workloads are nearly ubiquitous. Over the past decade, much effort has been put into making ML model-training fast and efficient, e.g., by proposing new ML frameworks (such as TensorFlow, PyTorch), leveraging hardware support (TPUs, GPUs, FPGAs), and implementing new execution models (pipelines, distributed training). Matching this trend, considerable effort has also been put into performance analysis tools focusing on ML model-training. However, as we identify in this work, ML model training rarely happens in isolation and is instead one step in a larger ML workflow. Therefore, it is surprising that there exists no performance analysis tool that covers the entire life-cycle of ML workflows. Addressing this large conceptual gap, we envision in this work a holistic performance analysis tool for ML workflows. We analyze the state-of-practice and the state-of-the-art, presenting quantitative evidence about the performance of existing performance tools. We formulate our vision for holistic performance analysis of ML workflows along four design pillars: a unified execution model, lightweight collection of performance data, efficient data aggregation and presentation, and close integration in ML systems. Finally, we propose first steps towards implementing our vision as GradeML, a holistic performance analysis tool for ML workflows. Our preliminary work and experiments are open source at https://github.com/atlarge-research/grademl.",
+    "citationCount": 2,
+    "referenceCount": 65
+}

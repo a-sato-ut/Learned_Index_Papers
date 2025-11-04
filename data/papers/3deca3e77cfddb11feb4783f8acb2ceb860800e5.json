@@ -1,0 +1,37 @@
+{
+    "paperId": "3deca3e77cfddb11feb4783f8acb2ceb860800e5",
+    "title": "Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training",
+    "year": 2022,
+    "venue": "Symposium on Networked Systems Design and Implementation",
+    "authors": [
+        "Jie You",
+        "Jaehoon Chung",
+        "Mosharaf Chowdhury"
+    ],
+    "doi": "10.48550/arXiv.2208.06102",
+    "arxivId": "2208.06102",
+    "url": "https://www.semanticscholar.org/paper/3deca3e77cfddb11feb4783f8acb2ceb860800e5",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2208.06102",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Training deep neural networks (DNNs) is becoming increasingly more resource- and energy-intensive every year. Unfortunately, existing works primarily focus on optimizing DNN training for faster completion, often without considering the impact on energy efficiency. In this paper, we observe that common practices to improve training performance can often lead to inefficient energy usage. More importantly, we demonstrate that there is a tradeoff between energy consumption and performance optimization. To this end, we propose Zeus, an optimization framework to navigate this tradeoff by automatically finding optimal job- and GPU-level configurations for recurring DNN training jobs. Zeus uses an online exploration-exploitation approach in conjunction with just-in-time energy profiling, averting the need for expensive offline measurements, while adapting to data drifts over time. Our evaluation shows that Zeus can improve the energy efficiency of DNN training by 15.3%-75.8% for diverse workloads.",
+    "citationCount": 99,
+    "referenceCount": 104
+}

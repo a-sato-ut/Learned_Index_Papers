@@ -1,0 +1,37 @@
+{
+    "paperId": "8c9be5a80d41524264c0221c72b78a2f7b5a7f07",
+    "title": "TADOC: Text analytics directly on compression",
+    "year": 2020,
+    "venue": "The VLDB journal",
+    "authors": [
+        "Feng Zhang",
+        "Jidong Zhai",
+        "Xipeng Shen",
+        "Dalin Wang",
+        "Zheng Chen",
+        "O. Mutlu",
+        "Wenguang Chen",
+        "Xiaoyong Du"
+    ],
+    "doi": "10.1007/s00778-020-00636-3",
+    "arxivId": "2009.09442",
+    "url": "https://www.semanticscholar.org/paper/8c9be5a80d41524264c0221c72b78a2f7b5a7f07",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This article provides a comprehensive description of text analytics directly on compression (TADOC), which enables direct document analytics on compressed textual data. The article explains the concept of TADOC and the challenges to its effective realizations. Additionally, a series of guidelines and technical solutions that effectively address those challenges, including the adoption of a hierarchical compression method and a set of novel algorithms and data structure designs, are presented. Experiments on six data analytics tasks of various complexities show that TADOC can save 90.8% storage space and 87.9% memory usage, while halving data processing times.",
+    "citationCount": 53,
+    "referenceCount": 107
+}

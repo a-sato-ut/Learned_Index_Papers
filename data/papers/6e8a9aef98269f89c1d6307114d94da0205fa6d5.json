@@ -1,0 +1,33 @@
+{
+    "paperId": "6e8a9aef98269f89c1d6307114d94da0205fa6d5",
+    "title": "Mithridates: Auditing and Boosting Backdoor Resistance of Machine Learning Pipelines",
+    "year": 2023,
+    "venue": "Conference on Computer and Communications Security",
+    "authors": [
+        "Eugene Bagdasarian",
+        "Vitaly Shmatikov"
+    ],
+    "doi": "10.1145/3658644.3690337",
+    "arxivId": "2302.04977",
+    "url": "https://www.semanticscholar.org/paper/6e8a9aef98269f89c1d6307114d94da0205fa6d5",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3658644.3690337",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Machine learning (ML) models trained on data from potentially untrusted sources are vulnerable to poisoning. A small, maliciously crafted subset of the training inputs can cause the model to learn a \"backdoor\" task (e.g., misclassify inputs with a certain feature) in addition to its main task. Recent research proposed many hypothetical backdoor attacks whose efficacy depends on the configuration and training hyperparameters of the target model. At the same time, state-of-the-art defenses require massive changes to the existing ML pipelines and protect only against some attacks. Given the variety of potential backdoor attacks, ML engineers who are not security experts have no way to measure how vulnerable their current training pipelines are, nor do they have a practical way to compare training configurations so as to pick the more resistant ones. Deploying a defense may not be a realistic option, either. It requires evaluating and choosing from among dozens of research papers, completely re-engineering the pipeline as required by the chosen defense, and then repeating the process if the defense disrupts normal model training (while providing theoretical protection against an unknown subset of hypothetical threats). In this paper, we aim to provide ML engineers with pragmatic tools to audit the backdoor resistance of their training pipelines and to compare different training configurations, to help choose the one that best balances accuracy and security. First, we propose a universal, attack-agnostic resistance metric based on the minimum number of training inputs that must be compromised before the model learns any backdoor. Second, we design, implement, and evaluate Mithridates, a multi-stage approach that integrates backdoor resistance into the training-configuration search. ML developers already rely on hyperparameter search to find configurations that maximize the model's accuracy. Mithridates extends this tool to also order configurations based on their backdoor resistance. We demonstrate that Mithridates discovers configurations whose resistance to multiple types of backdoor attacks increases by 3-5x with only a slight impact on accuracy. We also discuss extensions to AutoML and federated learning.",
+    "citationCount": 3,
+    "referenceCount": 153
+}

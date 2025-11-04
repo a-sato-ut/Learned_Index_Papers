@@ -1,0 +1,40 @@
+{
+    "paperId": "add8b09baa0a4409174f0ab20f4db8628606d02a",
+    "title": "Image Matting With Deep Gaussian Process",
+    "year": 2022,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "authors": [
+        "Yuanjie Zheng",
+        "Yunshuai Yang",
+        "Tongtong Che",
+        "Sujuan Hou",
+        "Wenhui Huang",
+        "Yue Gao",
+        "Ping Tan"
+    ],
+    "doi": "10.1109/TNNLS.2022.3153955",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/add8b09baa0a4409174f0ab20f4db8628606d02a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We observe a common characteristic between the classical propagation-based image matting and the Gaussian process (GP)-based regression. The former produces closer alpha matte values for pixels associated with a higher affinity, while the outputs regressed by the latter are more correlated for more similar inputs. Based on this observation, we reformulate image matting as GP and find that this novel matting-GP formulation results in a set of attractive properties. First, it offers an alternative view on and approach to propagation-based image matting. Second, an application of kernel learning in GP brings in a novel deep matting-GP technique, which is pretty powerful for encapsulating the expressive power of deep architecture on the image relative to its matting. Third, an existing scalable GP technique can be incorporated to further reduce the computational complexity to $\\mathcal {O}(n)$ from $\\mathcal {O}(n^{3})$ of many conventional matting propagation techniques. Our deep matting-GP provides an attractive strategy toward addressing the limit of widespread adoption of deep learning techniques to image matting for which a sufficiently large labeled dataset is lacking. A set of experiments on both synthetically composited images and real-world images show the superiority of the deep matting-GP to not only the classical propagation-based matting techniques but also modern deep learning-based approaches.",
+    "citationCount": 16,
+    "referenceCount": 103
+}

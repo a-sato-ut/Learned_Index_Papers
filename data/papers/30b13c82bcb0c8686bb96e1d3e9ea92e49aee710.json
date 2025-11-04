@@ -1,0 +1,32 @@
+{
+    "paperId": "30b13c82bcb0c8686bb96e1d3e9ea92e49aee710",
+    "title": "High Precision and Efficient Anonymous Traffic Classification in the Real-World",
+    "year": 2025,
+    "venue": "IEEE Transactions on Networking",
+    "authors": [
+        "Hantao Mei",
+        "Guang Cheng",
+        "Yali Yuan"
+    ],
+    "doi": "10.1109/TON.2024.3518976",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/30b13c82bcb0c8686bb96e1d3e9ea92e49aee710",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Various Traffic Classification (TC) technologies have been developed to de-anonymize anonymous tools, such as Tor, the most popular communication anonymous system. Although current TC methods boast high performance in closed-world scenarios, they frequently encounter challenges when dealing with the low base rate of anonymous traffic in the real open world, a phenomenon referred to as the base rate fallacy. In this paper, we introduce HPETC, an anonymous traffic classification system tailored for real-world scenarios, with a focus on achieving high precision, even in the presence of extremely low rates of anonymous traffic within expansive network environments. HPETC comprises an online classifier that efficiently filters anonymous traffic with minimal resource requirements, alongside an offline classifier responsible for extracting detailed information to support fine-grained classification. In response to the base rate fallacy, we introduce three Enhanced Techniques to enhance the performance of the classifiers within HPETC. Experimental findings illustrate that HPETC markedly diminishes resource consumption and greatly enhances the actual precision in comparison to state-of-the-art methods. Remarkably, in scenarios characterized by an extremely low rate of anonymous traffic (non-Tor/Tor=1000), our HPETC demonstrates an actual precision improvement that exceeds eightfold when benchmarked against commonly utilized models, specifically the Random Forest (RF) and Convolutional Neural Network (CNN) models.",
+    "citationCount": 1,
+    "referenceCount": 56
+}

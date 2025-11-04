@@ -1,0 +1,40 @@
+{
+    "paperId": "009f1fe7b481ccbec00dc476d1e19c7cbdef6618",
+    "title": "Effectively Virtual Page Prefetching via Spatial-Temporal Patterns for Memory-intensive Cloud Applications",
+    "year": 2025,
+    "venue": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+    "authors": [
+        "Yun Wang",
+        "Liang Chen",
+        "Tianmai Deng",
+        "Ben Luo",
+        "Yibin Shen",
+        "Zhixiang Wei",
+        "Yixiao Xu",
+        "Minglang Huang",
+        "Zhengwei Qi"
+    ],
+    "doi": "10.1145/3710848.3710865",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/009f1fe7b481ccbec00dc476d1e19c7cbdef6618",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In today's data-driven era, the explosive growth of global data volume has led to an increasing consumption of computing and storage resources. Effective management of virtual machines (VMs) memory usage is critical for cloud vendors to optimize system performance and resource utilization. Existing memory prefetching methods often slow down system performance, creating a difficult balance between maintaining service quality and optimizing resource use. For instance, Leap, which primarily utilizes address information, performs poorly in VM environments. The main issue is the performance drop caused by the reuse of memory resources in virtualized environments, a common situation in public clouds. To tackle this, we introduce vPrefetcher, a page prefetching system designed specifically for VMs. vPrefetcher monitors how VMs access memory that is not currently in use and prepares that memory in advance. Our unique Trend algorithm uses the spatial and temporal patterns to improve how memory is prefetched, reduce the overhead of memory reclamation. By applying vPrefetcher in tests with typical data center applications under memory reuse conditions, we have noticed a significant improvement. Our system reduces the performance loss in VMs by up to 45%, which is a considerable improvement over existing solutions.",
+    "citationCount": 0,
+    "referenceCount": 54
+}

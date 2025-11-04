@@ -1,0 +1,41 @@
+{
+    "paperId": "094fa98b092d83efd041e22592a4d521010dd182",
+    "title": "Low-rank Tensor Learning with Nonconvex Overlapped Nuclear Norm Regularization",
+    "year": 2022,
+    "venue": "Journal of machine learning research",
+    "authors": [
+        "Quanming Yao",
+        "Yaqing Wang",
+        "Bo Han",
+        "J. Kwok"
+    ],
+    "doi": "10.48550/arXiv.2205.03059",
+    "arxivId": "2205.03059",
+    "url": "https://www.semanticscholar.org/paper/094fa98b092d83efd041e22592a4d521010dd182",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2205.03059",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Nonconvex regularization has been popularly used in low-rank matrix learning. However, extending it for low-rank tensor learning is still computationally expensive. To address this problem, we develop an efficient solver for use with a nonconvex extension of the overlapped nuclear norm regularizer. Based on the proximal average algorithm, the proposed algorithm can avoid expensive tensor folding/unfolding operations. A special\"sparse plus low-rank\"structure is maintained throughout the iterations, and allows fast computation of the individual proximal steps. Empirical convergence is further improved with the use of adaptive momentum. We provide convergence guarantees to critical points on smooth losses and also on objectives satisfying the Kurdyka-{\\L}ojasiewicz condition. While the optimization problem is nonconvex and nonsmooth, we show that its critical points still have good statistical performance on the tensor completion problem. Experiments on various synthetic and real-world data sets show that the proposed algorithm is efficient in both time and space and more accurate than the existing state-of-the-art.",
+    "citationCount": 3,
+    "referenceCount": 114
+}

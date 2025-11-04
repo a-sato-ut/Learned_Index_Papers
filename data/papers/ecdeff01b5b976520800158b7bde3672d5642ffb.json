@@ -1,0 +1,39 @@
+{
+    "paperId": "ecdeff01b5b976520800158b7bde3672d5642ffb",
+    "title": "PRINT: Personalized Relevance Incentive Network for CTR Prediction in Sponsored Search",
+    "year": 2024,
+    "venue": "The Web Conference",
+    "authors": [
+        "Zhaolin Hong",
+        "Haitao Wang",
+        "Chengjie Qian",
+        "Wei Chen",
+        "Tianqi He",
+        "Yajie Zou",
+        "Qiang Liu",
+        "Xingxing Wang"
+    ],
+    "doi": "10.1145/3589335.3648316",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ecdeff01b5b976520800158b7bde3672d5642ffb",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3589335.3648316",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Click-Through Rate (CTR) prediction plays a critical role in sponsored search. Modeling the semantic relevance between queries and ads is one of the most crucial factors affecting the performance of CTR prediction. However, different users have different sensitivities to semantic relevance due to their personalized relevance preferences. Therefore, semantic relevance may have different incentives on the user's click probability (i.e., stimulative incentive, inhibitive incentive, or irrelevant incentive). Unfortunately, few works have studied the phenomenon, which ignores the complicated incentive effects of semantic relevance and limits the performance of CTR prediction. To this end, we propose a novel Personalized Relevance Incentive N eTwork (PRINT for short) to explicitly model the personalized incentives of query-ad semantic relevance on user's click probability. Specifically, we introduce a User Relevance Preference Module (usertask) to extract the user's personalized relevance preference from historical query-ad interacted sequence. Then, a RElevance Incentive Module (REIM) is designed to discern three incentive types and model the personalized incentive effects on CTR prediction. Experiments on public datasets and industrial datasets demonstrate the significant improvement of our PRINT. Furthermore, PRINT is also deployed in the sponsored search advertising system in Meituan, obtaining an improvement of 1.94% and 2.29% in CTR and Cost Per Mile (CPM) respectively. We publish the source code at https://anonymous.4open.science/r/PRINT-D365/.",
+    "citationCount": 2,
+    "referenceCount": 34
+}

@@ -1,0 +1,40 @@
+{
+    "paperId": "36c9690058ee11267c893ce45ae43dfc37442115",
+    "title": "From Simulation to Reality: A Learning Framework for Fish-Like Robots to Perform Control Tasks",
+    "year": 2022,
+    "venue": "IEEE Transactions on robotics",
+    "authors": [
+        "Tianhao Zhang",
+        "Runyu Tian",
+        "Hongqi Yang",
+        "Chen Wang",
+        "Jinan Sun",
+        "Shikun Zhang",
+        "Guangming Xie"
+    ],
+    "doi": "10.1109/TRO.2022.3181014",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/36c9690058ee11267c893ce45ae43dfc37442115",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The fish-like robot is one of the typical underwater robots, which has the advantage of high maneuverability with low noise due to its bioinspired structure and biomimetic locomotion. However, it is challenging to efficiently design motion controllers for such robots to achieve satisfactory performance on specific control tasks in the real underwater environment, since the complex fluid-structure interaction exists during their swimming and exact dynamic models are absent. In this article, we propose a learning framework, incorporating a simulation system and a training methodology, to autonomously and fast train in simulation to create control policies that are capable of directly applying to a type of physical fish-like robots to perform motion control tasks. First, we construct a simulation system combining a data-driven environment and a computational fluid dynamics (CFD)-based environment, thus well balancing the simulation accuracy and the calculation speed. Second, we design a training methodology to train deep reinforcement learning (DRL)-based policies for the robot in our constructed simulation system to perform a specific control task. Then, we use two typical motion control tasks to verify our proposed framework. One is the path-following control task, which is a one-objective problem with dense rewards, while the other is the pose control task which is a two-objective problem with sparse rewards. For each task, the DRL-based control policy trained by our learning framework is directly deployed on the physical fish-like robot to perform the task in the real world. Experimental results show that the policies trained in simulation still work well in the real world, and perform even better in terms of control accuracy and stability compared with the traditional control methods, thus demonstrating the effectiveness of our learning framework.",
+    "citationCount": 31,
+    "referenceCount": 43
+}

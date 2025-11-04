@@ -1,0 +1,35 @@
+{
+    "paperId": "bdf92579d02d2afd085b00c4e43d94c0107227c8",
+    "title": "SuccinctKV: a CPU-efficient LSM-tree Based KV Store with Scan-based Compaction",
+    "year": 2024,
+    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+    "authors": [
+        "Yinan Zhang",
+        "Shun Yang",
+        "Huiqi Hu",
+        "Chengcheng Yang",
+        "Peng Cai",
+        "Xuan Zhou"
+    ],
+    "doi": "10.1145/3695873",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bdf92579d02d2afd085b00c4e43d94c0107227c8",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.1145/3695873",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The CPU overhead of the LSM-tree becomes increasingly significant when high-speed storage devices are utilized. In this article, we propose SuccinctKV, a key-value store based on LSM-tree that is optimized to improve CPU efficiency in mixed workload scenarios. To achieve this, SuccinctKV reduces the CPU overhead of compaction by writing scan-sorted data directly to the storage device. SuccinctKV also redesigns the merge-sort operation of the LSM-tree, enhancing CPU locality and reducing the unnecessary CPU overhead of cache accesses and I/O system calls. Additionally, SuccinctKV introduces a scheduler to resolve potential bursty I/O contention by autonomously initiating I/O requests at appropriate times and quickly relieving I/O pressure by terminating background I/O requests. We implement SuccinctKV on RocksDB and conduct extensive experiments to evaluate our proposed methods. The experimental results demonstrate that, compared with RocksDB, SuccinctKV achieves a maximum improvement of 2.6x in scan performance and reduces CPU overhead of compaction by up to 89% under mixed workloads.",
+    "citationCount": 0,
+    "referenceCount": 33
+}

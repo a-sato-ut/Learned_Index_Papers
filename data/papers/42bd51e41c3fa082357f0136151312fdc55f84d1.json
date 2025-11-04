@@ -1,0 +1,29 @@
+{
+    "paperId": "42bd51e41c3fa082357f0136151312fdc55f84d1",
+    "title": "Large Language Models Using Transformers in Chat Bot Based on Artificial Intelligence",
+    "year": 2024,
+    "venue": "2024 4th International Conference on Electronic and Electrical Engineering and Intelligent System (ICE3IS)",
+    "authors": [
+        "Julianto",
+        "Agung Mulyo Widodo",
+        "Gerry Firmansyah",
+        "Budi Tjahjono"
+    ],
+    "doi": "10.1109/ICE3IS62977.2024.10775970",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/42bd51e41c3fa082357f0136151312fdc55f84d1",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Users usually use Information Retrieval to search for information or data using keywords. The problem is that sometimes users get incomplete or raw information or data as a list sorted with a ranking system. The chatbox should also be interactive; users can ask and answer questions continuously and naturally as if chatting. Deep Learning can be used for interactive question-and-answer chat boxes. However, LLM can be another alternative for answering sentences spoken like humans and can help users get interactive answers and topics only in Constitutional Court decisions. This paper proposes using LLM for Question Answering in chatboxes using LLM and Embedding Models obtained from HuggingFace and GPT4ALL, which support Indonesian and are multilingual. The dataset was obtained by web scraping from the MKRI website. The evaluation uses Multiple Choice Questions with a total of 100 questions based on the decision letter of the constitutional court by counting the number of correct questions. The evaluation results can only get the highest score of 0.26 F1-Score. Another paper model has an excellent F1-Score because BERT-based QA using classification like VNLawBERT can achieve a 0.91 F1-Score. However, the LLM model is like DISC-LawLLM with F1-Score 0.37. For our Embedding models, they can underperform only F1-Score 0.02. However, compared with GPT, these values are very different; the GPT-4o Mini alone can get 0.72 F1-Score, whereas the GPT-3.5 alone can get a score of 0.38 F1-Score.",
+    "citationCount": 1,
+    "referenceCount": 19
+}

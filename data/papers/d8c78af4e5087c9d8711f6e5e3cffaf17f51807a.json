@@ -1,0 +1,41 @@
+{
+    "paperId": "d8c78af4e5087c9d8711f6e5e3cffaf17f51807a",
+    "title": "SELA: Tree-Search Enhanced LLM Agents for Automated Machine Learning",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yizhou Chi",
+        "Yizhang Lin",
+        "Sirui Hong",
+        "Duyi Pan",
+        "Yaying Fei",
+        "Guanghao Mei",
+        "Bangbang Liu",
+        "Tianqi Pang",
+        "Jacky Kwok",
+        "Ceyao Zhang",
+        "Bangbang Liu",
+        "Chenglin Wu"
+    ],
+    "doi": "10.48550/arXiv.2410.17238",
+    "arxivId": "2410.17238",
+    "url": "https://www.semanticscholar.org/paper/d8c78af4e5087c9d8711f6e5e3cffaf17f51807a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automated Machine Learning (AutoML) approaches encompass traditional methods that optimize fixed pipelines for model selection and ensembling, as well as newer LLM-based frameworks that autonomously build pipelines. While LLM-based agents have shown promise in automating machine learning tasks, they often generate low-diversity and suboptimal code, even after multiple iterations. To overcome these limitations, we introduce Tree-Search Enhanced LLM Agents (SELA), an innovative agent-based system that leverages Monte Carlo Tree Search (MCTS) to optimize the AutoML process. By representing pipeline configurations as trees, our framework enables agents to conduct experiments intelligently and iteratively refine their strategies, facilitating a more effective exploration of the machine learning solution space. This novel approach allows SELA to discover optimal pathways based on experimental feedback, improving the overall quality of the solutions. In an extensive evaluation across 20 machine learning datasets, we compare the performance of traditional and agent-based AutoML methods, demonstrating that SELA achieves a win rate of 65% to 80% against each baseline across all datasets. These results underscore the significant potential of agent-based strategies in AutoML, offering a fresh perspective on tackling complex machine learning challenges.",
+    "citationCount": 10,
+    "referenceCount": 34
+}

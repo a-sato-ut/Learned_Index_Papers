@@ -1,0 +1,32 @@
+{
+    "paperId": "017163f036595f7ad949ae1e930ed50fb74832a6",
+    "title": "Visual Analysis of Deep Q-network",
+    "year": 2021,
+    "venue": "KSII Transactions on Internet and Information Systems",
+    "authors": [
+        "D. Seng",
+        "Jiaming Zhang",
+        "Xiaoying Shi"
+    ],
+    "doi": "10.3837/tiis.2021.03.003",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/017163f036595f7ad949ae1e930ed50fb74832a6",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.3837/tiis.2021.03.003",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, deep reinforcement learning (DRL) models are enjoying great interest as their success in a variety of challenging tasks. Deep Q-Network (DQN) is a widely used deep reinforcement learning model, which trains an intelligent agent that executes optimal actions while interacting with an environment. This model is well known for its ability to surpass skilled human players across many Atari 2600 games. Although DQN has achieved excellent performance in practice, there lacks a clear understanding of why the model works. In this paper, we present a visual analytics system for understanding deep Q-network in a non-blind matter. Based on the stored data generated from the training and testing process, four coordinated views are designed to expose the internal execution mechanism of DQN from different perspectives. We report the system performance and demonstrate its effectiveness through two case studies. By using our system, users can learn the relationship between states and Q-values, the function of convolutional layers, the strategies learned by DQN and the rationality of decisions made by the agent.",
+    "citationCount": 6,
+    "referenceCount": 34
+}

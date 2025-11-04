@@ -1,0 +1,37 @@
+{
+    "paperId": "cb23f34ec124b79340e4d1f8af6d7c10f080a361",
+    "title": "SOL: safe on-node learning in cloud platforms",
+    "year": 2022,
+    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "authors": [
+        "Ya-wen Wang",
+        "D. Crankshaw",
+        "N. Yadwadkar",
+        "Daniel S. Berger",
+        "Christos Kozyrakis",
+        "R. Bianchini"
+    ],
+    "doi": "10.1145/3503222.3507704",
+    "arxivId": "2201.10477",
+    "url": "https://www.semanticscholar.org/paper/cb23f34ec124b79340e4d1f8af6d7c10f080a361",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2201.10477",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Cloud platforms run many software agents on each server node. These agents manage all aspects of node operation, and in some cases frequently collect data and make decisions. Unfortunately, their behavior is typically based on pre-defined static heuristics or offline analysis; they do not leverage on-node machine learning (ML). In this paper, we first characterize the spectrum of node agents in Azure, and identify the classes of agents that are most likely to benefit from on-node ML. We then propose SOL, an extensible framework for designing ML-based agents that are safe and robust to the range of failure conditions that occur in production. SOL provides a simple API to agent developers and manages the scheduling and running of the agent-specific functions they write. We illustrate the use of SOL by implementing three ML-based agents that manage CPU cores, node power, and memory placement. Our experiments show that (1) ML substantially improves our agents, and (2) SOL ensures that agents operate safely under a variety of failure conditions. We conclude that ML-based agents show significant potential and that SOL can help build them.",
+    "citationCount": 19,
+    "referenceCount": 37
+}

@@ -1,0 +1,37 @@
+{
+    "paperId": "1108dbec5759c99bc62e95c7dbfaf7cc51ac924e",
+    "title": "From Sand to Flour: The Next Leap in Granular Computing with NanoSort",
+    "year": 2022,
+    "venue": "arXiv.org",
+    "authors": [
+        "Theo Jepsen",
+        "Stephen Ibanez",
+        "G. Valiant",
+        "N. McKeown"
+    ],
+    "doi": "10.48550/arXiv.2204.12615",
+    "arxivId": "2204.12615",
+    "url": "https://www.semanticscholar.org/paper/1108dbec5759c99bc62e95c7dbfaf7cc51ac924e",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2204.12615",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The granularity of distributed computing is limited by communication time: there is no point in farming out smaller and smaller tasks if the communication overhead dominates the decrease in processing time due to the added parallelism. In this work, we leverage the low communication latency of a new NIC/CPU hardware design, the nanoPU, to explore a new extreme of granularity in distributed computation, where a problem is partitioned into tens of thousands of nanosecond-scale tasks. To evaluate the feasibility and practicality of extremely fine-grained computing, we built NanoSort, a distributed sorting algorithm running on the nanoPU. Using cycle-accurate FireSim simulations of 65,536 nanoPU cores, we show that NanoSort can sort 1M keys in 68$\\mu$s, an order of magnitude faster than MilliSort, the current state-of-the-art.",
+    "citationCount": 5,
+    "referenceCount": 44
+}

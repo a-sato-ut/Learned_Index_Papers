@@ -1,0 +1,36 @@
+{
+    "paperId": "e014d9df6c67fc9cc9983a3374d7245891dae7fb",
+    "title": "Stabilizing Neural Search Ranking Models",
+    "year": 2020,
+    "venue": "The Web Conference",
+    "authors": [
+        "Ruilin Li",
+        "Zhen Qin",
+        "Xuanhui Wang",
+        "S. Chen",
+        "Donald Metzler"
+    ],
+    "doi": "10.1145/3366423.3380030",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e014d9df6c67fc9cc9983a3374d7245891dae7fb",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Neural search ranking models have been not only actively studied in the information retrieval community, but also widely adopted in real-world industrial applications. However, due to the non-convexity and stochastic training of neural model formulations, the obtained models are unstable in the sense that model predictions can vary a lot for two models trained with the same configuration. In practice, new features are continuously introduced and new model architectures are explored to improve model effectiveness. In these cases, the instability of neural models leads to unnecessary document ranking changes for a large portion of queries. Such changes not only lead to inconsistent user experience, but also add noise to online experimentation and can slow down model improvement cycles. How to stabilize neural search ranking models during model update is an important but largely unexplored problem. Motivated by trigger analysis, we suggest balancing the trade-off between performance improvement and the number of affected queries. Concretely, we formulate it as an optimization problem with the objective as maximizing the average effect over the affected queries. We propose two heuristics and one theory-guided stabilization method to solve the optimization problem. Our proposed methods are evaluated on two of the world’s largest personal search services: Gmail search and Google Drive search. Empirical results show that our proposed methods are very effective in optimizing the proposed objective and are applicable to different model update scenarios.",
+    "citationCount": 3,
+    "referenceCount": 54
+}

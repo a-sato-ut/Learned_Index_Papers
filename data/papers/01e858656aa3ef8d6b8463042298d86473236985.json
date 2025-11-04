@@ -1,0 +1,38 @@
+{
+    "paperId": "01e858656aa3ef8d6b8463042298d86473236985",
+    "title": "Steering Query Optimizers: A Practical Take on Big Data Workloads",
+    "year": 2021,
+    "venue": "SIGMOD Conference",
+    "authors": [
+        "Parimarjan Negi",
+        "Matteo Interlandi",
+        "Ryan Marcus",
+        "Mohammad Alizadeh",
+        "Tim Kraska",
+        "Marc T. Friedman",
+        "Alekh Jindal"
+    ],
+    "doi": "10.1145/3448016.3457568",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/01e858656aa3ef8d6b8463042298d86473236985",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3448016.3457568",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In recent years, there has been tremendous interest in research that applies machine learning to database systems. Being one of the most complex components of a DBMS, query optimizers could benefit from adaptive policies that are learned systematically from the data and the query workload. Recent research has brought up novel ideas towards a learned query optimizer, however these ideas have not been evaluated on a commercial query processor or on large scale, real-world workloads. In this paper, we take the approach used by Marcus et al. in Bao and adapt it to SCOPE, a big data system used internally at Microsoft. Along the way, we solve multiple new challenges: we define how optimizer rules affect final query plans by introducing the concept of a rule signature, we devise a pipeline computing interesting rule configurations for recurring jobs, and we define a new learning problem allowing us to apply such interesting rule configurations to previously unseen jobs. We evaluate the efficacy of the approach on production workloads that include 150K daily jobs. Our results show that alternative rule configurations can generate plans with lower costs, and this can translate to runtime latency savings of 7-30% on average and up to 90% for a non trivial subset of the workload.",
+    "citationCount": 51,
+    "referenceCount": 31
+}

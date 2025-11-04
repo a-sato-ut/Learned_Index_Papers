@@ -1,0 +1,31 @@
+{
+    "paperId": "223d64c8f5a97186fc9628212f877ee6d812d3b2",
+    "title": "Approximate Query Processing for Group-By Queries based on Conditional Generative Models",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Meifan Zhang",
+        "Hongzhi Wang"
+    ],
+    "doi": null,
+    "arxivId": "2101.02914",
+    "url": "https://www.semanticscholar.org/paper/223d64c8f5a97186fc9628212f877ee6d812d3b2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The Group-By query is an important kind of query, which is common and widely used in data warehouses, data analytics, and data visualization. Approximate query processing is an effective way to increase the querying efficiency on big data. The answer to a group-by query involves multiple values, which makes it difficult to provide sufficiently accurate estimations for all the groups. Stratified sampling improves the accuracy compared with the uniform sampling, but the samples chosen for some special queries cannot work for other queries. Online sampling chooses samples for the given query at query time, but it requires a long latency. Thus, it is a challenge to achieve both accuracy and efficiency at the same time. Facing such challenge, in this work, we propose a sample generation framework based on a conditional generative model. The sample generation framework can generate any number of samples for the given query without accessing the data. The proposed framework based on the lightweight model can be combined with stratified sampling and online aggregation to improve the estimation accuracy for group-by queries. The experimental results show that our proposed methods are both efficient and accurate.",
+    "citationCount": 5,
+    "referenceCount": 28
+}

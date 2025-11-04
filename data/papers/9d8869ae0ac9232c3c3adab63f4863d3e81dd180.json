@@ -1,0 +1,34 @@
+{
+    "paperId": "9d8869ae0ac9232c3c3adab63f4863d3e81dd180",
+    "title": "On Interpretation and Measurement of Soft Attributes for Recommendation",
+    "year": 2021,
+    "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "authors": [
+        "K. Balog",
+        "Filip Radlinski",
+        "Alexandros Karatzoglou"
+    ],
+    "doi": "10.1145/3404835.3462893",
+    "arxivId": "2105.09179",
+    "url": "https://www.semanticscholar.org/paper/9d8869ae0ac9232c3c3adab63f4863d3e81dd180",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3404835.3462893",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We address how to robustly interpret natural language refinements (or critiques) in recommender systems. In particular, in human-human recommendation settings people frequently use soft attributes to express preferences about items, including concepts like the originality of a movie plot, the noisiness of a venue, or the complexity of a recipe. While binary tagging is extensively studied in the context of recommender systems, soft attributes often involve subjective and contextual aspects, which cannot be captured reliably in this way, nor be represented as objective binary truth in a knowledge base. This also adds important considerations when measuring soft attribute ranking. We propose a more natural representation as personalized relative statements, rather than as absolute item properties. We present novel data collection techniques and evaluation approaches, and a new public dataset. We also propose a set of scoring approaches, from unsupervised to weakly supervised to fully supervised, as a step towards interpreting and acting upon soft attribute based critiques.",
+    "citationCount": 25,
+    "referenceCount": 50
+}

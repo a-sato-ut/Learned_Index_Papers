@@ -1,0 +1,37 @@
+{
+    "paperId": "54db7efa4b28c0d5cce1baf7789775c5115e318c",
+    "title": "Learning Approach For Fast Approximate Matrix Factorizations",
+    "year": 2022,
+    "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+    "authors": [
+        "Haiyan Yu",
+        "Zhen Qin",
+        "Zhihui Zhu"
+    ],
+    "doi": "10.1109/icassp43922.2022.9747165",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/54db7efa4b28c0d5cce1baf7789775c5115e318c",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficiently computing an (approximate) orthonormal basis and low-rank approximation for the input data X plays a crucial role in data analysis. One of the most efficient algorithms for such tasks is the randomized algorithm, which proceeds by computing a projection XA with a random sketching matrix A of much smaller size, and then computing the orthonormal basis as well as low-rank factorizations of the tall matrix XA. While a random matrix A is the de facto choice, in this work, we improve upon its performance by utilizing a learning approach to find an adaptive sketching matrix A from a set of training data. We derive a closed-form formulation for the gradient of the training problem, enabling us to use efficient gradient-based algorithms. We also extend this approach for learning structured sketching matrix, such as the sparse sketching matrix that performs as selecting a few number of representative columns from the input data. Our experiments on both synthetical and real data show that both learned dense and sparse sketching matrices outperform the random ones in finding the approximate orthonormal basis and low-rank approximations.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

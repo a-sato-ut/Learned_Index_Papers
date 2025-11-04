@@ -1,0 +1,37 @@
+{
+    "paperId": "b4126a406b291cfdcdd8b4d18291f3faa1e6ca1d",
+    "title": "Autonomic Workload Performance Modeling for Large-Scale Databases and Data Warehouses Through Deep Belief Network With Data Augmentation Using Conditional Generative Adversarial Networks",
+    "year": 2021,
+    "venue": "IEEE Access",
+    "authors": [
+        "Nusrat Shaheen",
+        "B. Raza",
+        "A. R. Shahid",
+        "Ahmad Kamran Malik"
+    ],
+    "doi": "10.1109/ACCESS.2021.3096039",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/b4126a406b291cfdcdd8b4d18291f3faa1e6ca1d",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09478861.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Databases and warehouses are experiencing workload of different types such as Decision Support System (DSS), Online Transaction Processing (OLTP) and Mixed workloads. Handling variety of workload in autonomic systems is a critical task. After self-configuring the workload, the next challenge is workload performance tuning that motives towards self-predictive systems. Existing studies provide performance modeling solutions on small-scale data repositories of Database Management System (DBMS) and Data Warehouse (DWH) using either classical eager or lazy learning approaches. However, in real-world problems, we normally have to deal with large-scale data repositories. Therefore, there is a need to develop performance models that provide data augmentation to solve large-scale data repositories that are not publicly available. In this study, deep learning approaches have been investigated for performance tuning of large-scale data repositories. We propose a performance prediction model called Optimized GAN-based Deep Learning (OGDL) model. For data augmentation, Conditional Generative Adversarial Networks (CGAN) is applied. For autonomic perspective, we incorporated MAPE-K model to manage the workload autonomically. Different deep learning models are applied, and it was observed that Deep Belief Network (DBN) performed better as compared to other deep learning models such as Deep Neural Network (DNN). We performed a number of experiments and from results it is observed that deep learning models performed the best in comparison with classical machine learning and lazy learning and a $6-8\\%$ increase in accuracy is recorded in our experiments using DBN. The proposed OGDL model performed the best in workload performance predictions in an optimized way.",
+    "citationCount": 2,
+    "referenceCount": 47
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "4645d38fc0182f60d0f272b18c40ef2f012e2d80",
+    "title": "G-SAIP: Graphical Sequence Alignment Through Parallel Programming in the Post-Genomic Era",
+    "year": 2023,
+    "venue": "Evolutionary bioinformatics online",
+    "authors": [
+        "Johan S Piña",
+        "Simon Orozco-Arias",
+        "Nicolas Tobón-Orozco",
+        "Leonardo Camargo-Forero",
+        "Reinel Tabares-Soto",
+        "R. Guyot"
+    ],
+    "doi": "10.1177/11769343221150585",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4645d38fc0182f60d0f272b18c40ef2f012e2d80",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://journals.sagepub.com/doi/pdf/10.1177/11769343221150585",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Medicine",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Biology",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "A common task in bioinformatics is to compare DNA sequences to identify similarities between organisms at the sequence level. An approach to such comparison is the dot-plots, a 2-dimensional graphical representation to analyze DNA or protein alignments. Dot-plots alignment software existed before the sequencing revolution, and now there is an ongoing limitation when dealing with large-size sequences, resulting in very long execution times. High-Performance Computing (HPC) techniques have been successfully used in many applications to reduce computing times, but so far, very few applications for graphical sequence alignment using HPC have been reported. Here, we present G-SAIP (Graphical Sequence Alignment in Parallel), a software capable of spawning multiple distributed processes on CPUs, over a supercomputing infrastructure to speed up the execution time for dot-plot generation up to 1.68× compared with other current fastest tools, improve the efficiency for comparative structural genomic analysis, phylogenetics because the benefits of pairwise alignments for comparison between genomes, repetitive structure identification, and assembly quality checking.",
+    "citationCount": 0,
+    "referenceCount": 89
+}

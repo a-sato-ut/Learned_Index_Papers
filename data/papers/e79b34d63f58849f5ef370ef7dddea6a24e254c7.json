@@ -1,0 +1,34 @@
+{
+    "paperId": "e79b34d63f58849f5ef370ef7dddea6a24e254c7",
+    "title": "A Practical Incremental Method to Train Deep CTR Models",
+    "year": 2020,
+    "venue": "arXiv.org",
+    "authors": [
+        "Yichao Wang",
+        "Huifeng Guo",
+        "Ruiming Tang",
+        "Zhirong Liu",
+        "Xiuqiang He"
+    ],
+    "doi": null,
+    "arxivId": "2009.02147",
+    "url": "https://www.semanticscholar.org/paper/e79b34d63f58849f5ef370ef7dddea6a24e254c7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning models in recommender systems are usually trained in the batch mode, namely iteratively trained on a fixed-size window of training data. Such batch mode training of deep learning models suffers from low training efficiency, which may lead to performance degradation when the model is not produced on time. To tackle this issue, incremental learning is proposed and has received much attention recently. Incremental learning has great potential in recommender systems, as two consecutive window of training data overlap most of the volume. It aims to update the model incrementally with only the newly incoming samples from the timestamp when the model is updated last time, which is much more efficient than the batch mode training. However, most of the incremental learning methods focus on the research area of image recognition where new tasks or classes are learned over time. In this work, we introduce a practical incremental method to train deep CTR models, which consists of three decoupled modules (namely, data, feature and model module). Our method can achieve comparable performance to the conventional batch mode training with much better training efficiency. We conduct extensive experiments on a public benchmark and a private dataset to demonstrate the effectiveness of our proposed method.",
+    "citationCount": 36,
+    "referenceCount": 18
+}

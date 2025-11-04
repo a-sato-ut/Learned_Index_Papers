@@ -1,0 +1,40 @@
+{
+    "paperId": "7e6b5382681f55e435b7c8a1cf1b3792a5fb6cb4",
+    "title": "UrbanEnQoSPlace: A Deep Reinforcement Learning Model for Service Placement of Real-Time Smart City IoT Applications",
+    "year": 2023,
+    "venue": "IEEE Transactions on Services Computing",
+    "authors": [
+        "Maggi Bansal",
+        "Inderveer Chana",
+        "Siobhán Clarke"
+    ],
+    "doi": "10.1109/TSC.2022.3218044",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/7e6b5382681f55e435b7c8a1cf1b3792a5fb6cb4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Multi-access Edge Computing (MEC) enables IoT applications to place their services in the edge servers of mobile networks, balancing Quality-of-Service (QoS) and energy-efficiency. Previous works consider compute requirements, while the IoT and latency/bandwidth per-flow communicate requirements are largely ignored. Moreover, the Smart City domain presents unique challenges – modeling the Urban Smart Things (USTs – urban IoT clients), their connectivity with MEC network, diverse resource requirements (compute, communicate, and IoT) of application services, modeling the federation of multiple MEC providers in a city, which we consider in this article. To address these research gaps, we propose: i) <italic>UrbanEnQoSMDP</italic> – formulation for energy and QoS (latency) optimized service placement for a set of applications in the ‘Urban IoT-Federated MEC-Cloud’ architecture to satisfy applications’ compute, per-flow communicate, and IoT requirements; ii) <italic>‘’<inline-formula><tex-math notation=\"LaTeX\">$\\epsilon$</tex-math><alternatives><mml:math><mml:mi>ε</mml:mi></mml:math><inline-graphic xlink:href=\"bansal-ieq1-3218044.gif\"/></alternatives></inline-formula>-greedy with mask”</italic> policy for apriori satisfaction of IoT requirements by shortlisting suitable USTs; iii) <italic>UrbanEnQoSPlace</italic> – proposed multi-action Deep Reinforcement Learning (DRL) model, designed from Dueling Deep-Q Network, that uses the proposed policy to solve the UrbanEnQoSMDP for simultaneously placing all services of an application. Extensive simulation results illustrate efficacy and scalability of proposed model against state-of-the-art DRL algorithms (better convergence, higher rewards, lesser runtime; proposed policy w.r.t fewer violations).",
+    "citationCount": 13,
+    "referenceCount": 44
+}

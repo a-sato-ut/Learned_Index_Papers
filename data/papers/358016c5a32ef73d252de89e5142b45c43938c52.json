@@ -1,0 +1,32 @@
+{
+    "paperId": "358016c5a32ef73d252de89e5142b45c43938c52",
+    "title": "Optimizing Recall in Deep Graph Hashing Framework for Item Retrieval (Student Abstract)",
+    "year": 2024,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Fangyuan Luo",
+        "Jun Wu"
+    ],
+    "doi": "10.1609/aaai.v38i21.30477",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/358016c5a32ef73d252de89e5142b45c43938c52",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/30477/32592",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Hashing-based recommendation (HR) methods, whose core idea is mapping users and items into hamming space, are common practice to improve item retrieval efficiency. However, existing HR fails to align optimization objective (i.e., Bayesian Personalized Ranking) and evaluation metric (i.e., Recall), leading to suboptimal performance. In this paper, we propose a smooth recall loss (termed as SRLoss), which targets Recall as the optimization objective. Due to the existence of discrete constraints, the optimization problem is NP-hard. To this end, we propose an approximation-adjustable gradient estimator to solve our problem. Experimental Results demonstrate the effectiveness of our proposed method.",
+    "citationCount": 0,
+    "referenceCount": 4
+}

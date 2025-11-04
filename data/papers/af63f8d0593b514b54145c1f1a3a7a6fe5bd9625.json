@@ -1,0 +1,38 @@
+{
+    "paperId": "af63f8d0593b514b54145c1f1a3a7a6fe5bd9625",
+    "title": "Understanding and optimizing packed neural network training for hyper-parameter tuning",
+    "year": 2020,
+    "venue": "DEEM@SIGMOD",
+    "authors": [
+        "Rui Liu",
+        "S. Krishnan",
+        "Aaron J. Elmore",
+        "M. Franklin"
+    ],
+    "doi": "10.1145/3462462.3468880",
+    "arxivId": "2002.02885",
+    "url": "https://www.semanticscholar.org/paper/af63f8d0593b514b54145c1f1a3a7a6fe5bd9625",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2002.02885",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "As neural networks are increasingly employed in machine learning practice, how to efficiently share limited training resources among a diverse set of model training tasks becomes a crucial issue. To achieve better utilization of the shared resources, we explore the idea of jointly training multiple neural network models on a single GPU in this paper. We realize this idea by proposing a primitive, called pack. We further present a comprehensive empirical study of pack and end-to-end experiments that suggest significant improvements for hyperparameter tuning. The results suggest: (1) packing two models can bring up to 40% performance improvement over unpacked setups for a single training step and the improvement increases when packing more models; (2) the benefit of the pack primitive largely depends on a number of factors including memory capacity, chip architecture, neural network structure, and batch size; (3) there exists a trade-off between packing and unpacking when training multiple neural network models on limited resources; (4) a pack-aware Hyperband is up to 2.7X faster than the original Hyperband, with this improvement growing as memory size increases and subsequently the density of models packed.",
+    "citationCount": 15,
+    "referenceCount": 50
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "7d704c210804afa1d9e61a9d7cb9a51b12bc352a",
+    "title": "Breaking Down Memory Walls: Adaptive Memory Management in LSM-based Storage Systems (Extended Version)",
+    "year": 2020,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Chen Luo",
+        "M. Carey"
+    ],
+    "doi": "10.14778/3430915.3430916",
+    "arxivId": "2004.10360",
+    "url": "https://www.semanticscholar.org/paper/7d704c210804afa1d9e61a9d7cb9a51b12bc352a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Log-Structured Merge-trees (LSM-trees) have been widely used in modern NoSQL systems. Due to their out-of-place update design, LSM-trees have introduced memory walls among the memory components of multiple LSM-trees and between the write memory and the buffer cache. Optimal memory allocation among these regions is non-trivial because it is highly workload-dependent. Existing LSM-tree implementations instead adopt static memory allocation schemes due to their simplicity and robustness, sacrificing performance. In this paper, we attempt to break down these memory walls in LSM-based storage systems. We first present a memory management architecture that enables adaptive memory management. We then present a partitioned memory component structure with new flush policies to better exploit the write memory to minimize the write cost. To break down the memory wall between the write memory and the buffer cache, we further introduce a memory tuner that tunes the memory allocation between these two regions. We have conducted extensive experiments in the context of Apache AsterixDB using the YCSB and TPC-C benchmarks and we present the results here.",
+    "citationCount": 18,
+    "referenceCount": 56
+}

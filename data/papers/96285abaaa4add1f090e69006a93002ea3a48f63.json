@@ -1,0 +1,32 @@
+{
+    "paperId": "96285abaaa4add1f090e69006a93002ea3a48f63",
+    "title": "Evaluating the Effectiveness of Query-Document Clustering Using the QDSM Measure",
+    "year": 2020,
+    "venue": "Advances in Science, Technology and Engineering Systems",
+    "authors": [
+        "Claudio Guti´errez-Soto",
+        "Marco A. Palomino",
+        "Arturo Curiel",
+        "H´ector Riquelme Cerda",
+        "Fernando Bejar Rain"
+    ],
+    "doi": "10.25046/aj0506105",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/96285abaaa4add1f090e69006a93002ea3a48f63",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://doi.org/10.25046/aj0506105",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "It is well documented that the average length of the queries submitted to Web search engines is rather short, which negatively impacts the engines’ performance, as measured by the precision metric. It is also well known that ambiguous keywords in a query make it hard to identify what exactly search engine users are looking for. One way to tackle this challenge is to consider the context in which the query is submitted, making use of query-sensitive similarity measures (QSSM). In this paper, a particular QSSM known as the query-document similarity measure (QDSM) is evaluated, QDSM is designed to determine the similarity between two queries based on their terms and their ranked lists of relevant documents. To this extent, F-measure and the nearest neighbor (NN) have been employed to assess this approach over a collection of AOL query logs. Final results reveal that both the Average Link Algorithm and Ward’s method present better results using QDSM than cosine similarity.",
+    "citationCount": 1,
+    "referenceCount": 38
+}

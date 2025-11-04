@@ -1,0 +1,33 @@
+{
+    "paperId": "9a2b8455660a694558b8a7124d4a14c75cb2bd0e",
+    "title": "Cross-Feature Transfer Learning for Efficient Tensor Program Generation",
+    "year": 2024,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Gaurav Verma",
+        "Siddhisanket Raskar",
+        "M. Emani",
+        "Barbara Chapman"
+    ],
+    "doi": "10.3390/app14020513",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9a2b8455660a694558b8a7124d4a14c75cb2bd0e",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2076-3417/14/2/513/pdf?version=1704708362",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Tuning tensor program generation involves navigating a vast search space to find optimal program transformations and measurements for a program on the target hardware. The complexity of this process is further amplified by the exponential combinations of transformations, especially in heterogeneous environments. This research addresses these challenges by introducing a novel approach that learns the joint neural network and hardware features space, facilitating knowledge transfer to new, unseen target hardware. A comprehensive analysis is conducted on the existing state-of-the-art dataset, TenSet, including a thorough examination of test split strategies and the proposal of methodologies for dataset pruning. Leveraging an attention-inspired technique, we tailor the tuning of tensor programs to embed both neural network and hardware-specific features. Notably, our approach substantially reduces the dataset size by up to 53% compared to the baseline without compromising Pairwise Comparison Accuracy (PCA). Furthermore, our proposed methodology demonstrates competitive or improved mean inference times with only 25–40% of the baseline tuning time across various networks and target hardware. The attention-based tuner can effectively utilize schedules learned from previous hardware program measurements to optimize tensor program tuning on previously unseen hardware, achieving a top-5 accuracy exceeding 90%. This research introduces a significant advancement in autotuning tensor program generation, addressing the complexities associated with heterogeneous environments and showcasing promising results regarding efficiency and accuracy.",
+    "citationCount": 3,
+    "referenceCount": 25
+}

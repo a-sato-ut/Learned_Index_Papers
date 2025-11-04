@@ -1,0 +1,40 @@
+{
+    "paperId": "118f81dd56eb8a50e85811523ea265e01240f64a",
+    "title": "A Distributed Deep Reinforcement Learning Technique for Application Placement in Edge and Fog Computing Environments",
+    "year": 2021,
+    "venue": "IEEE Transactions on Mobile Computing",
+    "authors": [
+        "Mohammad Goudarzi",
+        "M. Palaniswami",
+        "R. Buyya"
+    ],
+    "doi": "10.1109/TMC.2021.3123165",
+    "arxivId": "2110.12415",
+    "url": "https://www.semanticscholar.org/paper/118f81dd56eb8a50e85811523ea265e01240f64a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2110.12415",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Fog/Edge computing is a novel computing paradigm supporting resource-constrained Internet of Things (IoT) devices by placement of their tasks on edge and/or cloud servers. Recently, several Deep Reinforcement Learning (DRL)-based placement techniques have been proposed in fog/edge computing environments, which are only suitable for centralized setups. The training of well-performed DRL agents requires manifold training data while obtaining training data is costly. Hence, these centralized DRL-based techniques lack generalizability and quick adaptability, thus failing to efficiently tackle application placement problems. Moreover, many IoT applications are modeled as Directed Acyclic Graphs (DAGs) with diverse topologies. Satisfying dependencies of DAG-based IoT applications incur additional constraints and increase the complexity of placement problem. To overcome these challenges, we propose an actor-critic-based distributed application placement technique, working based on the IMPortance weighted Actor-Learner Architectures (IMPALA). IMPALA is known for efficient distributed experience trajectory generation that significantly reduces exploration costs of agents. Besides, it uses an adaptive off-policy correction method for faster convergence to optimal solutions. Our technique uses recurrent layers to capture temporal behaviors of input data and a replay buffer to improve the sample efficiency. The performance results, obtained from simulation and testbed experiments, demonstrate that our technique significantly improves execution cost of IoT applications up to 30% compared to its counterparts.",
+    "citationCount": 103,
+    "referenceCount": 51
+}

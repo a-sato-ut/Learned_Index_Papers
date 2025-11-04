@@ -1,0 +1,33 @@
+{
+    "paperId": "a7c79c71f83792595c07300a8a51487de12aa2f4",
+    "title": "Deep Learning with Data Privacy via Residual Perturbation",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Wenqi Tao",
+        "Huaming Ling",
+        "Zuoqiang Shi",
+        "Bao Wang"
+    ],
+    "doi": "10.48550/arXiv.2408.05723",
+    "arxivId": "2408.05723",
+    "url": "https://www.semanticscholar.org/paper/a7c79c71f83792595c07300a8a51487de12aa2f4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Protecting data privacy in deep learning (DL) is of crucial importance. Several celebrated privacy notions have been established and used for privacy-preserving DL. However, many existing mechanisms achieve privacy at the cost of significant utility degradation and computational overhead. In this paper, we propose a stochastic differential equation-based residual perturbation for privacy-preserving DL, which injects Gaussian noise into each residual mapping of ResNets. Theoretically, we prove that residual perturbation guarantees differential privacy (DP) and reduces the generalization gap of DL. Empirically, we show that residual perturbation is computationally efficient and outperforms the state-of-the-art differentially private stochastic gradient descent (DPSGD) in utility maintenance without sacrificing membership privacy.",
+    "citationCount": 2,
+    "referenceCount": 68
+}

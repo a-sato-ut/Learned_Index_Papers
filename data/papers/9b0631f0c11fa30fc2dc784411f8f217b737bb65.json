@@ -1,0 +1,35 @@
+{
+    "paperId": "9b0631f0c11fa30fc2dc784411f8f217b737bb65",
+    "title": "End-to-End Human Instance Matting",
+    "year": 2024,
+    "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+    "authors": [
+        "Qinglin Liu",
+        "Shengping Zhang",
+        "Quanling Meng",
+        "Bineng Zhong",
+        "Peiqiang Liu",
+        "H. Yao"
+    ],
+    "doi": "10.1109/TCSVT.2023.3306400",
+    "arxivId": "2403.01510",
+    "url": "https://www.semanticscholar.org/paper/9b0631f0c11fa30fc2dc784411f8f217b737bb65",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2403.01510",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Human instance matting aims to estimate an alpha matte for each human instance in an image, which is extremely challenging and has rarely been studied so far. Despite some efforts to use instance segmentation to generate a trimap for each instance and apply trimap-based matting methods, the resulting alpha mattes are often inaccurate due to inaccurate segmentation. In addition, this approach is computationally inefficient due to multiple executions of the matting method. To address these problems, this paper proposes a novel End-to-End Human Instance Matting (E2E-HIM) framework for simultaneous multiple instance matting in a more efficient manner. Specifically, a general perception network first extracts image features and decodes instance contexts into latent codes. Then, a united guidance network exploits spatial attention and semantics embedding to generate united semantics guidance, which encodes the locations and semantic correspondences of all instances. Finally, an instance matting network decodes the image features and united semantics guidance to predict all instance-level alpha mattes. In addition, we construct a large-scale human instance matting dataset (HIM-100K) comprising over 100,000 human images with instance alpha matte labels. Experiments on HIM-100K demonstrate the proposed E2E-HIM outperforms the existing methods on human instance matting with 50 % lower errors and $5 \\times $ faster speed (6 instances in a $640\\times640$ image). Experiments on the PPM-100, RWP-636, and P3M datasets demonstrate that E2E-HIM also achieves competitive performance on traditional human matting.",
+    "citationCount": 5,
+    "referenceCount": 82
+}

@@ -1,0 +1,38 @@
+{
+    "paperId": "ac6dc7cda3596373f0de7bdba9bccf2c174e4044",
+    "title": "Stimulus: Accelerate Data Management for Scientific AI applications in HPC",
+    "year": 2022,
+    "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing",
+    "authors": [
+        "Hariharan Devarajan",
+        "Anthony Kougkas",
+        "Huihuo Zheng",
+        "V. Vishwanath",
+        "Xian-He Sun"
+    ],
+    "doi": "10.1109/ccgrid54584.2022.00020",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/ac6dc7cda3596373f0de7bdba9bccf2c174e4044",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.osti.gov/biblio/1878441",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern scientific workflows couple simulations with AI-powered analytics by frequently exchanging data to accelerate time-to-science to reduce the complexity of the simulation planes. However, this data exchange is limited in performance and portability due to a lack of support for scientific data formats in AI frameworks. We need a cohesive mechanism to effectively integrate at scale complex scientific data formats such as HDF5, PnetCDF, ADIOS2, GNCF, and Silo into popular AI frameworks such as TensorFlow, PyTorch, and Caffe. To this end, we designed Stimulus, a data management library for ingesting scientific data effectively into the popular AI frameworks. We utilize the StimOps functions along with StimPack abstraction to enable the integration of scientific data formats with any AI framework. The evaluations show that Stimulus outperforms several large-scale applications with different use-cases such as Cosmic Tagger (consuming HDF5 dataset in PyTorch), Distributed FFN (consuming HDF5 dataset in TensorFlow), and CosmoFlow (converting HDF5 into TFRecord and then consuming that in TensorFlow) by 5.3 x, 2.9 x, and 1.9 x respectively with ideal I/O scalability up to 768 GPUs on the Summit supercomputer. Through Stimulus, we can portably extend existing popular AI frameworks to cohesively support any complex scientific data format and efficiently scale the applications on large-scale supercomputers.",
+    "citationCount": 5,
+    "referenceCount": 52
+}

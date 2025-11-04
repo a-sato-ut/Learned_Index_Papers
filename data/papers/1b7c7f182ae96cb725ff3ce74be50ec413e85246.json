@@ -1,0 +1,39 @@
+{
+    "paperId": "1b7c7f182ae96cb725ff3ce74be50ec413e85246",
+    "title": "Approximation Algorithms for Minimizing Congestion in Demand-Aware Networks",
+    "year": 2024,
+    "venue": "IEEE Conference on Computer Communications",
+    "authors": [
+        "Wenkai Dai",
+        "Michael Dinitz",
+        "Klaus-Tycho Foerster",
+        "Long Luo",
+        "Stefan Schmid"
+    ],
+    "doi": "10.1109/INFOCOM52122.2024.10621340",
+    "arxivId": "2401.04638",
+    "url": "https://www.semanticscholar.org/paper/1b7c7f182ae96cb725ff3ce74be50ec413e85246",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2401.04638",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Emerging reconfigurable optical communication technologies allow to enhance datacenter topologies with demand-aware links optimized towards traffic patterns. This paper studies the algorithmic problem of jointly optimizing topology and routing in such demand-aware networks to minimize congestion, along two dimensions: (1) splittable or unsplittable flows, and (2) whether routing is segregated, i.e., whether routes can or cannot combine both demand-aware and demand-oblivious (static) links.For splittable and segregated routing, we show that the problem is generally 2-approximable, but APX-hard even for uniform demands induced by a bipartite demand graph. For unsplittable and segregated routing, we establish upper and lower bounds of O (log m/ log log m) and Ω (log m/ log log m), respectively, for polynomial-time approximation algorithms, where m is the number of static links. We further reveal that under un-/splittable and non-segregated routing, even for demands of a single source (resp., d estina tion), the problem cannot be approximated better than $\\Omega \\left({\\frac{{{c_{\\max }}}}{{{c_{\\min }}}}}\\right)$ unless P=NP, where cmax (resp., cmin) denotes the maximum (resp., minimum) capacity. It remains NP-hard for uniform capacities, but is tractable for a single commodity and uniform capacities.Our trace-driven simulations show a significant reduction in network congestion compared to existing solutions.",
+    "citationCount": 2,
+    "referenceCount": 69
+}

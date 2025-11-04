@@ -1,0 +1,37 @@
+{
+    "paperId": "1c1d4e90dcba3b63b92e92516284ee32259aa902",
+    "title": "Dual Clustering-Based Method for Geospatial Knowledge Graph Partitioning",
+    "year": 2024,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Yuxuan Chen",
+        "Feifei Ou",
+        "Qiliang Liu",
+        "Gusheng Wu",
+        "Kaiqi Chen",
+        "Min Deng",
+        "Meihua Chen",
+        "Rui Xu"
+    ],
+    "doi": "10.3390/app142210704",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1c1d4e90dcba3b63b92e92516284ee32259aa902",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Geography",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Geospatial knowledge graphs provide critical technology for integrating geographic information and semantic knowledge, which are very useful for geographic data analysis. As the scale of geospatial knowledge graphs continues to grow, the distributed management of geospatial knowledge graphs is becoming an inevitable requirement. Geospatial knowledge graph partitioning is the core technology for the distributed management of geospatial knowledge graphs. To support geographic data analysis, spatial relationships between entities should be considered in the application of geospatial knowledge graphs. However, existing knowledge graph partitioning methods overlook the spatial relationships between entities, resulting in the low efficiency of spatial queries. To address this issue, this study proposes a geospatial knowledge graph partitioning method based on dual clustering which performs two different clustering methods step by step. First, the density peak clustering method (DPC) is used to cluster geographic nodes. The nodes within each cluster are merged into a super-node. Then, we use an efficient graph clustering method (i.e., Leiden) to identify the community structure of the graph. Nodes belonging to the same community are further merged to reduce the size of the graph. Finally, partitioning operations are performed on the compressed graph based on the idea of the Linear-Weighted Deterministic Greedy Policy (LDG). We construct a geospatial knowledge graph based on YAGO3 to evaluate the performance of the proposed graph partitioning method. The experimental results show that the proposed method outperforms ten comparison methods in terms of graph partitioning quality and spatial query efficiency.",
+    "citationCount": 0,
+    "referenceCount": 39
+}

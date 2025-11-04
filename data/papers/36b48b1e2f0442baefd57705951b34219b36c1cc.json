@@ -1,0 +1,37 @@
+{
+    "paperId": "36b48b1e2f0442baefd57705951b34219b36c1cc",
+    "title": "Machine Learning Augmented Hybrid Memory Management",
+    "year": 2020,
+    "venue": "IEEE International Symposium on High-Performance Parallel Distributed Computing",
+    "authors": [
+        "Thaleia Dimitra Doudali",
+        "Ada Gavrilovska"
+    ],
+    "doi": "10.1145/3431379.3464450",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/36b48b1e2f0442baefd57705951b34219b36c1cc",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The integration of emerging non volatile memory hardware technologies into the main memory substrate, enables massive memory capacities at a reasonable cost in return for slower access speeds. This heterogeneity, along with the greater irregularity in the behavior of emerging workloads, render existing memory management approaches ineffective. This creates a significant gap between the realized vs. achievable performance and efficiency. At the same time, resource management solutions augmented with machine learning show great promise for fine-tuning system configuration knobs and predicting future behaviors. This thesis builds novel system-level mechanisms and reveals new insights towards the practical integration of machine learning in hybrid memory management. The specific contributions of this thesis is a machine learning augmented memory manager, coupled with insightful mechanisms to reduce the associated learning overheads and fine-tune critical operational parameters. The impact of this thesis is realizing an average of 3x application performance improvements and setting the new state-of-the-art in hybrid memory management.",
+    "citationCount": 0,
+    "referenceCount": 5
+}

@@ -1,0 +1,35 @@
+{
+    "paperId": "6384fe8e12cec44b39c1c27cb9ca1c52f1fa553a",
+    "title": "Context-aware Tree-based Deep Model for Recommender Systems",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Daqing Chang",
+        "Jintao Liu",
+        "Ziru Xu",
+        "Han Li",
+        "Han Zhu",
+        "Xiaoqiang Zhu"
+    ],
+    "doi": null,
+    "arxivId": "2109.10602",
+    "url": "https://www.semanticscholar.org/paper/6384fe8e12cec44b39c1c27cb9ca1c52f1fa553a",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "How to predict precise user preference and how to make efficient retrieval from a big corpus are two major challenges of large-scale industrial recommender systems. In tree-based methods, a tree structure T is adopted as index and each item in corpus is attached to a leaf node on T . Then the recommendation problem is converted into a hierarchical retrieval problem solved by a beam search process efficiently. In this paper, we argue that the tree index used to support efficient retrieval in tree-based methods also has rich hierarchical information about the corpus. Furthermore, we propose a novel context-aware tree-based deep model (ConTDM) for recommender systems. In ConTDM, a context-aware user preference prediction model M is designed to utilize both horizontal and vertical contexts on T . Horizontally, a graph convolutional layer is used to enrich the representation of both users and nodes on T with their neighbors. Vertically, a parent fusion layer is designed in M to transmit the user preference representation in higher levels of T to the current level, grasping the essence that tree-based methods are generating the candidate set from coarse to detail during the beam search retrieval. Besides, we argue that the proposed user preference model in ConTDM can be conveniently extended to other tree-based methods for recommender systems. Both experiments on large scale real-world datasets and online A/B test in large scale industrial applications show the significant improvements brought by ConTDM.",
+    "citationCount": 3,
+    "referenceCount": 42
+}

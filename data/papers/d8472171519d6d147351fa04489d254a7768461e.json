@@ -1,0 +1,40 @@
+{
+    "paperId": "d8472171519d6d147351fa04489d254a7768461e",
+    "title": "On Spectral Bias Reduction of Multi-scale Neural Networks for Regression Problems",
+    "year": 2022,
+    "venue": "",
+    "authors": [
+        "Bo Wang",
+        "Heng Yuan",
+        "Lizuo Liu",
+        "Wenzhong Zhang",
+        "Wei Cai"
+    ],
+    "doi": null,
+    "arxivId": "2212.03416",
+    "url": "https://www.semanticscholar.org/paper/d8472171519d6d147351fa04489d254a7768461e",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this paper, we derive diffusion equation models in the spectral domain for the evolution of training errors of two-layer multi-scale deep neural networks (MscaleDNN) \\cite{caixu2019,liu2020multi}, designed to reduce the spectral bias of fully connected deep neural networks in approximating oscillatory functions. The diffusion models are obtained from the spectral form of the error equation of the MscaleDNN, derived with a neural tangent kernel approach and gradient descent training and a sine activation function, assuming a vanishing learning rate and infinite network width and domain size. The involved diffusion coefficients are shown to have larger supports if more scales are used in the MscaleDNN, and thus, the proposed diffusion equation models in the frequency domain explain the MscaleDNN's spectral bias reduction capability. Numerical results of the diffusion models for a two-layer MscaleDNN training match with the error evolution of actual gradient descent training with a reasonably large network width, thus validating the effectiveness of the diffusion models. Meanwhile, the numerical results for MscaleDNN show error decay over a wide frequency range and confirm the advantage of using the MscaleDNN in approximating functions with a wide range of frequencies.",
+    "citationCount": 2,
+    "referenceCount": 57
+}

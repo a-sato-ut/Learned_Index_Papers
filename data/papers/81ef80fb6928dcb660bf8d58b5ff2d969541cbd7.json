@@ -1,0 +1,38 @@
+{
+    "paperId": "81ef80fb6928dcb660bf8d58b5ff2d969541cbd7",
+    "title": "Learning Multiple Representations with Inconsistency-Guided Detail Regularization for Mask-Guided Matting",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Weihao Jiang",
+        "Zhaozhi Xie",
+        "Yuxiang Lu",
+        "Longjie Qi",
+        "Jingyong Cai",
+        "Hiroyuki Uchiyama",
+        "Bin Chen",
+        "Yue Ding",
+        "Hongtao Lu"
+    ],
+    "doi": "10.48550/arXiv.2403.19213",
+    "arxivId": "2403.19213",
+    "url": "https://www.semanticscholar.org/paper/81ef80fb6928dcb660bf8d58b5ff2d969541cbd7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Mask-guided matting networks have achieved significant improvements and have shown great potential in practical applications in recent years. However, simply learning matting representation from synthetic and lack-of-real-world-diversity matting data, these approaches tend to overfit low-level details in wrong regions, lack generalization to objects with complex structures and real-world scenes such as shadows, as well as suffer from interference of background lines or textures. To address these challenges, in this paper, we propose a novel auxiliary learning framework for mask-guided matting models, incorporating three auxiliary tasks: semantic segmentation, edge detection, and background line detection besides matting, to learn different and effective representations from different types of data and annotations. Our framework and model introduce the following key aspects: (1) to learn real-world adaptive semantic representation for objects with diverse and complex structures under real-world scenes, we introduce extra semantic segmentation and edge detection tasks on more diverse real-world data with segmentation annotations; (2) to avoid overfitting on low-level details, we propose a module to utilize the inconsistency between learned segmentation and matting representations to regularize detail refinement; (3) we propose a novel background line detection task into our auxiliary learning framework, to suppress interference of background lines or textures. In addition, we propose a high-quality matting benchmark, Plant-Mat, to evaluate matting methods on complex structures. Extensively quantitative and qualitative results show that our approach outperforms state-of-the-art mask-guided methods.",
+    "citationCount": 0,
+    "referenceCount": 59
+}

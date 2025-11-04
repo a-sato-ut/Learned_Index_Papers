@@ -1,0 +1,43 @@
+{
+    "paperId": "60779e78cdf13f26d1cda329a081da0603af65ab",
+    "title": "Can Moran Eigenvectors Improve Machine Learning of Spatial Data? Insights from Synthetic Data Validation",
+    "year": 2025,
+    "venue": "Geographical Analysis",
+    "authors": [
+        "Ziqi Li",
+        "Zhan Peng"
+    ],
+    "doi": "10.1111/gean.70011",
+    "arxivId": "2504.12450",
+    "url": "https://www.semanticscholar.org/paper/60779e78cdf13f26d1cda329a081da0603af65ab",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Economics",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Moran eigenvector spatial filtering (ESF) approaches have shown promise in accounting for spatial effects in statistical models. Can this extend to machine learning? This article examines the effectiveness of using Moran Eigenvectors as additional spatial features in machine learning models. We generate synthetic datasets with known processes involving spatially varying and nonlinear effects across two different geometries. Moran Eigenvectors calculated from different spatial weights matrices, with and without a priori eigenvector selection, are tested. We assess the performance of popular machine learning models, including Random Forests, LightGBM, XGBoost, and TabNet, and benchmark their accuracies in terms of cross‐validated values against models that use only coordinates as features. We also extract coefficients and functions from the models using GeoShapley and compare them with the true processes. The results show that machine learning models using only location coordinates achieve better accuracies than eigenvector‐based approaches across various experiments and datasets. Furthermore, we discuss that while these findings are relevant for spatial processes that exhibit positive spatial autocorrelation, they do not necessarily apply when modeling network autocorrelation and cases with negative spatial autocorrelation, where Moran Eigenvectors would still be useful.",
+    "citationCount": 0,
+    "referenceCount": 59
+}

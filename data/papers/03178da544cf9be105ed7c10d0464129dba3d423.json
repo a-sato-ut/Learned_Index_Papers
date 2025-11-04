@@ -1,0 +1,36 @@
+{
+    "paperId": "03178da544cf9be105ed7c10d0464129dba3d423",
+    "title": "Shortest Paths without a Map, but with an Entropic Regularizer",
+    "year": 2022,
+    "venue": "IEEE Annual Symposium on Foundations of Computer Science",
+    "authors": [
+        "Sébastien Bubeck",
+        "Christian Coester",
+        "Y. Rabani"
+    ],
+    "doi": "10.1109/FOCS54457.2022.00036",
+    "arxivId": "2202.04551",
+    "url": "https://www.semanticscholar.org/paper/03178da544cf9be105ed7c10d0464129dba3d423",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2202.04551",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In a 1989 paper titled “shortest paths without a map”, Papadimitriou and Yannakakis introduced an online model of searching in a weighted layered graph for a target node, while attempting to minimize the total length of the path traversed by the searcher. This problem, later called layered graph traversal, is parametrized by the maximum cardinality k of a layer of the input graph. It is an online setting for dynamic programming, and it is known to be a rather general and fundamental model of online computing, which includes as special cases other acclaimed models. The deterministic competitive ratio for this problem was soon discovered to be exponential in k, and it is now nearly resolved: it lies between $\\Omega(2^{k})$ and $O(k2^{k})$. Regarding the randomized competitive ratio, in 1993 Ramesh proved, surprisingly, that this ratio has to be at least $\\Omega(k^{2}/log^{1+\\varepsilon}k)$ (for any constant $\\varepsilon\\gt0)$. In the same paper, Ramesh also gave an $O(k^{13})$-competitive randomized online algorithm. Since 1993, no progress has been reported on the randomized competitive ratio of layered graph traversal. In this work we show how to apply the mirror descent framework on a carefully selected evolving metric space, and obtain an $O(k^{2})$ competitive randomized online algorithm, nearly matching the known lower bound on the randomized competitive ratio.",
+    "citationCount": 10,
+    "referenceCount": 32
+}

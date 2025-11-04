@@ -1,0 +1,35 @@
+{
+    "paperId": "40d5487fccc57f281a19cb937c6b402e3fbb548f",
+    "title": "A Comparison of Top-k Threshold Estimation Techniques for Disjunctive Query Processing",
+    "year": 2020,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Antonio Mallia",
+        "Michal Siedlaczek",
+        "Mengyang Sun",
+        "Torsten Suel"
+    ],
+    "doi": "10.1145/3340531.3412080",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/40d5487fccc57f281a19cb937c6b402e3fbb548f",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In the top-k threshold estimation problem, given a query q, the goal is to estimate the score of the result at rank k. A good estimate of this score can result in significant performance improvements for several query processing scenarios, including selective search, index tiering, and widely used disjunctive query processing algorithms such as MaxScore, WAND, and BMW. Several approaches have been proposed, including parametric approaches, methods using random sampling, and a recent approach based on machine learning. However, previous work fails to perform any experimental comparison between these approaches. In this paper, we address this issue by reimplementing four major approaches and comparing them in terms of estimation error, running time, likelihood of an overestimate, and end-to-end performance when applied to common classes of disjunctive top-k query processing algorithms.",
+    "citationCount": 17,
+    "referenceCount": 26
+}

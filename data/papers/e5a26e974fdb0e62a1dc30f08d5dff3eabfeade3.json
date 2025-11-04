@@ -1,0 +1,40 @@
+{
+    "paperId": "e5a26e974fdb0e62a1dc30f08d5dff3eabfeade3",
+    "title": "Operating Systems for Resource-adaptive Intelligent Software: Challenges and Opportunities",
+    "year": 2021,
+    "venue": "ACM Trans. Internet Techn.",
+    "authors": [
+        "Xuanzhe Liu",
+        "Shangguang Wang",
+        "Yun Ma",
+        "Ying Zhang",
+        "Qiaozhu Mei",
+        "Yunxin Liu",
+        "Gang Huang"
+    ],
+    "doi": "10.1145/3425866",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e5a26e974fdb0e62a1dc30f08d5dff3eabfeade3",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "\n The past decades witnessed the fast and wide deployment of Internet. The Internet has bred the ubiquitous computing environment that is spanning the cloud, edge, mobile devices, and IoT. Software running over such a ubiquitous computing environment environment is eating the world. A recently emerging trend of Internet-based software systems is “\n resource adaptive\n ,” i.e., software systems should be robust and intelligent enough to the changes of heterogeneous resources, both physical and logical, provided by their running environment. To keep pace of such a trend, we argue that some considerations should be taken into account for the future operating system design and implementation. From the structural perspective, rather than the “monolithic OS” that manages the aggregated resources on the single machine, the OS should be dynamically composed over the distributed resources and flexibly adapt to the resource and environment changes. Meanwhile, the OS should leverage advanced machine/deep learning techniques to derive configurations and policies and automatically learn to tune itself and schedule resources. This article envisions our recent thinking of the new OS abstraction, namely,\n ServiceOS\n , for future resource-adaptive intelligent software systems. The idea of\n ServiceOS\n is inspired by the delivery model of “\n Software-as-a-Service\n ” that is supported by the Service-Oriented Architecture (SOA). The key principle of\n ServiceOS\n is based on resource disaggregation, resource provisioning as a service, and learning-based resource scheduling and allocation. The major goal of this article is not providing an immediately deployable OS. Instead, we aim to summarize the challenges and potentially promising opportunities and try to provide some practical implications for researchers and practitioners.\n",
+    "citationCount": 3,
+    "referenceCount": 11
+}

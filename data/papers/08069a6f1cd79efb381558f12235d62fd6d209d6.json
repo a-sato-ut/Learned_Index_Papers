@@ -1,0 +1,35 @@
+{
+    "paperId": "08069a6f1cd79efb381558f12235d62fd6d209d6",
+    "title": "A New Cardinality Estimation Method Based on Graph Neural Networks",
+    "year": 2023,
+    "venue": "FAIML",
+    "authors": [
+        "Y. Song",
+        "Xiao Dong Li",
+        "Dan Ni Zhang",
+        "S. Fan",
+        "Dongsheng He"
+    ],
+    "doi": "10.1145/3616901.3616936",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/08069a6f1cd79efb381558f12235d62fd6d209d6",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Improving the query performance of the database has always been an important research direction in the database field.. Deep learning has shown promising applications in the database query. To utilise the distribution features of data in query optimization, a cardinality estimation method GCE (GNN based Cardinality Estimation) based on graph neural networks is proposed, which uses Tree-LSTM, a tree graph neural network, to extract the structural features of the query plan tree, and which uses graph convolutional networks to extract the association relationship of each data column and the topological relationship of the connection through a high level of historical data learning. The method optimizes the logical execution plan and physical execution plan to improve the query accuracy. The experimental results show that the GCE method in TiDB, a distributed relational database, improves the accuracy twelvefold compared with the cardinality estimation algorithm in TiDB.",
+    "citationCount": 1,
+    "referenceCount": 23
+}

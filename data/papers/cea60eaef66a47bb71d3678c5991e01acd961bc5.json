@@ -1,0 +1,36 @@
+{
+    "paperId": "cea60eaef66a47bb71d3678c5991e01acd961bc5",
+    "title": "LSE: A Learning-based Per-flow Spread Estimation Framework for Network Data Streams",
+    "year": 2022,
+    "venue": "Conference on Computer Communications Workshops",
+    "authors": [
+        "Dong Yang",
+        "Yifan Han",
+        "Yangyan Du",
+        "He Huang",
+        "Yu-E. Sun",
+        "Shiping Chen"
+    ],
+    "doi": "10.1109/infocomwkshps54753.2022.9798225",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cea60eaef66a47bb71d3678c5991e01acd961bc5",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Per-flow spread estimation is an important research problem for high-speed network data streams, which has been widely used in various practical applications. However, most solutions proposed in the past few decades must use dedicated hardware to process all packets in the network data stream. Moreover, they fail to leverage useful patterns in their input data to improve estimation accuracy. This paper proposes a learning-based per-flow spread estimation framework (LSE) to complement the previous work. The proposed framework adopts random sampling to select elements for estimating, which can be easily implemented by the general-purpose CPU. Per-flow sampled data will be recorded in a hash table and encoded into a counter array. And we design a lightweight learning model to extract useful patterns from per-flow counter arrays, which will efficiently improve the performance of per-flow spread estimation. Experimental results based on real-world datasets show that our solution performs better than state-of-the-art competitors.",
+    "citationCount": 0,
+    "referenceCount": 15
+}

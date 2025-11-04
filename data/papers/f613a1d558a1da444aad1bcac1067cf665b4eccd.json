@@ -1,0 +1,37 @@
+{
+    "paperId": "f613a1d558a1da444aad1bcac1067cf665b4eccd",
+    "title": "Consolidating Industrial Small Files Using Robust Graph Clustering",
+    "year": 2023,
+    "venue": "IEEE Transactions on Network Science and Engineering",
+    "authors": [
+        "Song Wang",
+        "Hai Lan",
+        "Yuwei Peng",
+        "Zhiyong Peng"
+    ],
+    "doi": "10.1109/TNSE.2022.3195350",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/f613a1d558a1da444aad1bcac1067cf665b4eccd",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6488902/6930788/09846931.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Small file management is widely encountered in industrial areas. Consolidating small files can benefit the performance of the data management system. Many existing consolidation solutions fail to realize the importance of a proper consolidation schema. Therefore, they use very primitive and ineffective schemas. In this article, we focus on proposing an effective and robust consolidation schema. Unlike most of the existing solutions that only focus on the historical workload, we consider the workload uncertainty issue and propose a graph-clustering-based solution that is more robust to workload uncertainty in the future. To do this, we introduce robust optimization, a mathematical model that provides theoretical support for solving uncertainty issues. Then, we demonstrate that the robustness of the consolidation schema can be achieved using a graph clustering algorithm with a duplication mechanism. Since duplication leads to data redundancy, we propose a parameter to control the redundancy and the robustness of the schema. We also propose two algorithms to estimate the parameter automatically. Experimental results on both the synthetic and real-life data sets show the effectiveness of our algorithm.",
+    "citationCount": 0,
+    "referenceCount": 57
+}

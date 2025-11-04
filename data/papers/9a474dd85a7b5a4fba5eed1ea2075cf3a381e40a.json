@@ -1,0 +1,37 @@
+{
+    "paperId": "9a474dd85a7b5a4fba5eed1ea2075cf3a381e40a",
+    "title": "Streaming Algorithms with Large Approximation Factors",
+    "year": 2022,
+    "venue": "International Workshop and International Workshop on Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques",
+    "authors": [
+        "Yi Li",
+        "Honghao Lin",
+        "David P. Woodruff",
+        "Yuheng Zhang"
+    ],
+    "doi": "10.48550/arXiv.2207.08075",
+    "arxivId": "2207.08075",
+    "url": "https://www.semanticscholar.org/paper/9a474dd85a7b5a4fba5eed1ea2075cf3a381e40a",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2207.08075",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We initiate a broad study of classical problems in the streaming model with insertions and deletions in the setting where we allow the approximation factor $\\alpha$ to be much larger than $1$. Such algorithms can use significantly less memory than the usual setting for which $\\alpha = 1+\\epsilon$ for an $\\epsilon \\in (0,1)$. We study large approximations for a number of problems in sketching and streaming and the following are some of our results. For the $\\ell_p$ norm/quasinorm $\\|x\\|_p$ of an $n$-dimensional vector $x$, $0<p \\le 2$, we show that obtaining a $\\poly(n)$-approximation requires the same amount of memory as obtaining an $O(1)$-approximation for any $M = n^{\\Theta(1)}$. For estimating the $\\ell_p$ norm, $p>2$, we show an upper bound of $O(n^{1-2/p} (\\log n \\allowbreak \\log M)/\\alpha^{2})$ bits for an $\\alpha$-approximation, and give a matching lower bound, for almost the full range of $\\alpha \\geq 1$ for linear sketches. For the $\\ell_2$-heavy hitters problem, we show that the known lower bound of $\\Omega(k \\log n\\log M)$ bits for identifying $(1/k)$-heavy hitters holds even if we are allowed to output items that are $1/(\\alpha k)$-heavy, for almost the full range of $\\alpha$, provided the algorithm succeeds with probability $1-O(1/n)$. We also obtain a lower bound for linear sketches that is tight even for constant probability algorithms. For estimating the number $\\ell_0$ of distinct elements, we give an $n^{1/t}$-approximation algorithm using $O(t\\log \\log M)$ bits of space, as well as a lower bound of $\\Omega(t)$ bits, both excluding the storage of random bits.",
+    "citationCount": 0,
+    "referenceCount": 68
+}

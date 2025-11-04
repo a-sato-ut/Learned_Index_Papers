@@ -1,0 +1,37 @@
+{
+    "paperId": "f8bb82bcc79b4536d6c4f0823a62f387e91bb83b",
+    "title": "Wider and Higher: Intensive Integration and Global Foreground Perception for Image Matting",
+    "year": 2022,
+    "venue": "Computer Graphics International Conference",
+    "authors": [
+        "Y. Qiao",
+        "Ziqi Wei",
+        "Yuhao Liu",
+        "Yuxin Wang",
+        "D. Zhou",
+        "Qiang Zhang",
+        "Xin Yang"
+    ],
+    "doi": "10.48550/arXiv.2210.06919",
+    "arxivId": "2210.06919",
+    "url": "https://www.semanticscholar.org/paper/f8bb82bcc79b4536d6c4f0823a62f387e91bb83b",
+    "isOpenAccess": true,
+    "openAccessPdf": "http://arxiv.org/pdf/2210.06919",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "This paper reviews recent deep-learning-based matting research and conceives our wider and higher motivation for image matting. Many approaches achieve alpha mattes with complex encoders to extract robust semantics, then resort to the U-net-like decoder to concatenate or fuse encoder features. However, image matting is essentially a pixel-wise regression, and the ideal situation is to perceive the maximum opacity correspondence from the input image. In this paper, we argue that the high-resolution feature representation, perception and communication are more crucial for matting accuracy. Therefore, we propose an Intensive Integration and Global Foreground Perception network (I2GFP) to integrate wider and higher feature streams. Wider means we combine intensive features in each decoder stage, while higher suggests we retain high-resolution intermediate features and perceive large-scale foreground appearance. Our motivation sacrifices model depth for a significant performance promotion. We perform extensive experiments to prove the proposed I2GFP model, and state-of-the-art results can be achieved on different public datasets.",
+    "citationCount": 0,
+    "referenceCount": 23
+}

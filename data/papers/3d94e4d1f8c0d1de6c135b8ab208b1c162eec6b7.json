@@ -1,0 +1,48 @@
+{
+    "paperId": "3d94e4d1f8c0d1de6c135b8ab208b1c162eec6b7",
+    "title": "Measure Anatomical Thickness from Cardiac MRI with Deep Neural Networks",
+    "year": 2020,
+    "venue": "M&Ms and EMIDEC/STACOM@MICCAI",
+    "authors": [
+        "Qiaoying Huang",
+        "Eric Z. Chen",
+        "Hanchao Yu",
+        "Yimo Guo",
+        "Terrence Chen",
+        "Dimitris N. Metaxas",
+        "Shanhui Sun"
+    ],
+    "doi": "10.1007/978-3-030-68107-4_5",
+    "arxivId": "2008.11109",
+    "url": "https://www.semanticscholar.org/paper/3d94e4d1f8c0d1de6c135b8ab208b1c162eec6b7",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Medicine",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Accurate estimation of shape thickness from medical images is crucial in clinical applications. For example, the thickness of myocardium is one of the key to cardiac disease diagnosis. While mathematical models are available to obtain accurate dense thickness estimation, they suffer from heavy computational overhead due to iterative solvers. To this end, we propose novel methods for dense thickness estimation, including a fast solver that estimates thickness from binary annular shapes and an end-to-end network that estimates thickness directly from raw cardiac images.We test the proposed models on three cardiac datasets and one synthetic dataset, achieving impressive results and generalizability on all. Thickness estimation is performed without iterative solvers or manual correction, which is 100 times faster than the mathematical model. We also analyze thickness patterns on different cardiac pathologies with a standard clinical model and the results demonstrate the potential clinical value of our method for thickness based cardiac disease diagnosis.",
+    "citationCount": 1,
+    "referenceCount": 25
+}

@@ -1,0 +1,39 @@
+{
+    "paperId": "b10152ac7a4ffa0cc34f3c26d8237d17f913b8b2",
+    "title": "HybridGNN: Learning Hybrid Representation for Recommendation in Multiplex Heterogeneous Networks",
+    "year": 2022,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Tiankai Gu",
+        "Chaokun Wang",
+        "Cheng Wu",
+        "Yunkai Lou",
+        "Jingcao Xu",
+        "Changping Wang",
+        "K. Xu",
+        "Can Ye",
+        "Yang Song"
+    ],
+    "doi": "10.1109/icde53745.2022.00106",
+    "arxivId": "2208.02068",
+    "url": "https://www.semanticscholar.org/paper/b10152ac7a4ffa0cc34f3c26d8237d17f913b8b2",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Recently, graph neural networks have shown the superiority of modeling the complex topological structures in heterogeneous network-based recommender systems. Due to the diverse interactions among nodes and abundant semantics emerging from diverse types of nodes and edges, there is a bursting research interest in learning expressive node repre-sentations in multiplex heterogeneous networks. One of the most important tasks in recommender systems is to predict the potential connection between two nodes under a specific edge type (i.e., relationship). Although existing studies utilize explicit metapaths to aggregate neighbors, practically they only consider intra-relationship metapaths and thus fail to leverage the potential uplift by inter-relationship information. Moreover, it is not always straightforward to exploit inter-relationship metapaths comprehensively under diverse relationships, espe-cially with the increasing number of node and edge types. In addition, contributions of different relationships between two nodes are difficult to measure. To address the challenges, we propose HybridGNN, an end-to-end GNN model with hybrid aggregation flows and hierarchical attentions to fully utilize the heterogeneity in the multiplex scenarios. Specifically, HybridGNN applies a randomized inter-relationship exploration module to exploit the multiplexity property among different relationships. Then, our model leverages hybrid aggregation flows under intra-relationship metapaths and randomized exploration to learn the rich semantics. To explore the importance of different aggregation flow and take advantage of the multiplexity property, we bring forward a novel hierarchical attention module which leverages both metapath-Ievel attention and relationship-level attention. Extensive experimental results on five real-world datasets suggest that HybridGNN achieves the best performance compared to several state-of-the-art baselines (p < 0.01, t-test) with statistical significance.",
+    "citationCount": 13,
+    "referenceCount": 46
+}

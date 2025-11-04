@@ -1,0 +1,31 @@
+{
+    "paperId": "33d1b9c9533abf9795364c41ab126b891547b1cf",
+    "title": "Audio-visual voice conversion using articulatory representation",
+    "year": 2025,
+    "venue": "International Conference on Power Electronics and Artificial Intelligence",
+    "authors": [
+        "Yujia Wang",
+        "Hua Huang"
+    ],
+    "doi": "10.1117/12.3066940",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/33d1b9c9533abf9795364c41ab126b891547b1cf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Voice Conversion (VC) seeks to transfer the speech of a source speaker to that of a target speaker, requiring effective speaker embeddings. In this paper, we devise a VC model, ART-AVVC, using articulatory representation to capture and represent speaker characteristics formed by auditory and visual information. Specifically, the articulatory representation is extracted from two branches: i) the audio branch, we leverage both acoustic features and vocal track variables to form the auditory articulatory features, aiming to capture the nuances of speech produced by different speakers; ii) the visual branch, we incorporate both lip movement and facial features, providing a detailed visual context that complements the auditory information. We employ a self-supervised learning strategy to explore the correspondence between audio and visual stimuli derived from real videos and then extract articulatory representation as speaker embedding, which will be fed into the VC pipeline to enhance the performance of the converted target speech. We conducted both quantitative and qualitative evaluation experiments to evaluate the performance of the proposed ART-AVVC, yielding promising similarity enhancement between the generated results and the target speaker’s voice and prosody.",
+    "citationCount": 0,
+    "referenceCount": 30
+}

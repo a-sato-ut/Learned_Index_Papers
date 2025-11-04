@@ -1,0 +1,28 @@
+{
+    "paperId": "2c022bc90d3110a89d26e1c3570d384750b57547",
+    "title": "Packet Classification Using TCAM of Narrow Entries",
+    "year": 2023,
+    "venue": "Technologies",
+    "authors": [
+        "Hsin-Tsung Lin",
+        "Wei-Han Pan",
+        "Pi-Chung Wang"
+    ],
+    "doi": "10.3390/technologies11050147",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/2c022bc90d3110a89d26e1c3570d384750b57547",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2227-7080/11/5/147/pdf?version=1697709081",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Packet classification based on rules of packet header fields is the key technology for enabling software-defined networking (SDN). Ternary content addressable memory (TCAM) is a widely used hardware for packet classification; however, commercially available TCAM chips have only limited storage. As the number of supported header fields in SDN increases, the number of supported rules in a TCAM chip is reduced. In this work, we present a novel scheme to enable packet classification using TCAM with entries that are narrower than rules by storing the most representative field of a ruleset in TCAM. Due to the fact that not all rules can be distinguished using one field, our scheme employs a TCAM-based multimatch packet classification technique to ensure correctness. We further develop approaches to reduce redundant TCAM accesses for multimatch packet classification. Although our scheme requires additional TCAM accesses, it supports packet classification upon long rules with narrow TCAM entries, and drastically reduces the required TCAM storage. Our experimental results show that our scheme requires a moderate number of additional TCAM accesses and consumes much less storage compared to the basic TCAM-based packet classification. Thus, it can provide the required scalability for long rules required by potential applications of SDN.",
+    "citationCount": 1,
+    "referenceCount": 35
+}

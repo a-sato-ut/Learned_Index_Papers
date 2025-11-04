@@ -1,0 +1,32 @@
+{
+    "paperId": "1c3767a69944114a5f61bfee85b35f4b1d2d7dcf",
+    "title": "A Bloom Filter Survey: Variants for Different Domain Applications",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Anes Abdennebi",
+        "K. Kaya"
+    ],
+    "doi": null,
+    "arxivId": "2106.12189",
+    "url": "https://www.semanticscholar.org/paper/1c3767a69944114a5f61bfee85b35f4b1d2d7dcf",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "There is a plethora of data structures, algorithms, and frameworks dealing with major data-stream problems like estimating the frequency of items, answering set membership, association and multiplicity queries, and several other statistics that can be extracted from voluminous data streams. In this survey, we are focusing on exploring randomized data structures called Bloom Filters. This data structure answers whether an item exists or not in a data stream with a false positive probability fpp. In this survey, many variants of the Bloom filter will be covered by showing the strengths of each structure and its drawbacks i.e. some Bloom filters deal with insertion and deletions and others don't, some variants use the memory efficiently but increase the fpp where others pay the trade-off in the reversed way. Furthermore, in each Bloom filter structure, the false positive probability will be highlighted alongside the most important technical details showing the improvement it is presenting, while the main aim of this work is to provide an overall comparison between the variants of the Bloom filter structure according to the application domain that it fits in.",
+    "citationCount": 10,
+    "referenceCount": 70
+}

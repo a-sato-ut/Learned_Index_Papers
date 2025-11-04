@@ -1,0 +1,41 @@
+{
+    "paperId": "eb2896246bdcd098838bc25e0def41d66ce550c9",
+    "title": "AIBench Scenario: Scenario-Distilling AI Benchmarking",
+    "year": 2020,
+    "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+    "authors": [
+        "Wanling Gao",
+        "Fei Tang",
+        "Jianfeng Zhan",
+        "Xu Wen",
+        "Lei Wang",
+        "Zheng Cao",
+        "Chuanxin Lan",
+        "Chunjie Luo",
+        "Xiaoli Liu",
+        "Zihan Jiang"
+    ],
+    "doi": "10.1109/PACT52795.2021.00018",
+    "arxivId": "2005.03459",
+    "url": "https://www.semanticscholar.org/paper/eb2896246bdcd098838bc25e0def41d66ce550c9",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2005.03459",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern real-world application scenarios like Internet services consist of a diversity of AI and non-AI modules with huge code sizes and long and complicated execution paths, which raises serious benchmarking or evaluating challenges. Using AI components or micro benchmarks alone can lead to error-prone conclusions. This paper presents a methodology to attack the above challenge. We formalize a real-world application scenario as a Directed Acyclic Graph-based model and propose the rules to distill it into a permutation of essential AI and non-AI tasks, which we call a scenario benchmark. Together with seventeen industry partners, we extract nine typical scenario benchmarks. We design and implement an extensible, configurable, and flexible benchmark framework. We implement two Internet service AI scenario benchmarks based on the framework as proxies to two real-world application scenarios. We consider scenario, component, and micro benchmarks as three indispensable parts for evaluating. Our evaluation shows the advantage of our methodology against using component or micro AI benchmarks alone. The specifications, source code 11Zenodo: https://doi.org/10.5281/zenodo.5158715 GitHub: https://github.com/BenchCouncil/aibench_scenario, testbed, and results are publicly available from https://www.benchcouncil.org/aibench/scenario/.",
+    "citationCount": 14,
+    "referenceCount": 76
+}

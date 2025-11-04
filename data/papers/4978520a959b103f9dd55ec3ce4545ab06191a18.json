@@ -1,0 +1,37 @@
+{
+    "paperId": "4978520a959b103f9dd55ec3ce4545ab06191a18",
+    "title": "Good Intentions: Adaptive Parameter Management via Intent Signaling",
+    "year": 2022,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+        "Alexander Renz-Wieland",
+        "Andreas Kieslinger",
+        "R. Gericke",
+        "Rainer Gemulla",
+        "Zoi Kaoudi",
+        "V. Markl"
+    ],
+    "doi": "10.1145/3583780.3614895",
+    "arxivId": "2206.00470",
+    "url": "https://www.semanticscholar.org/paper/4978520a959b103f9dd55ec3ce4545ab06191a18",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2206.00470.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Model parameter management is essential for distributed training of large machine learning (ML) tasks. Some ML tasks are hard to distribute because common approaches to parameter management can be highly inefficient. Advanced parameter management approaches---such as selective replication or dynamic parameter allocation---can improve efficiency, but they typically need to be integrated manually into each task's implementation and they require expensive upfront experimentation to tune correctly. In this work, we explore whether these two problems can be avoided. We first propose a novel intent signaling mechanism that integrates naturally into existing ML stacks and provides the parameter manager with crucial information about parameter accesses. We then describe AdaPM, a fully adaptive, zero-tuning parameter manager based on this mechanism. In contrast to prior parameter managers, our approach decouples how access information is provided (simple) from how and when it is exploited (hard). In our experimental evaluation, AdaPM matched or outperformed state-of-the-art parameter managers out of the box, suggesting that automatic parameter management is possible.",
+    "citationCount": 1,
+    "referenceCount": 75
+}

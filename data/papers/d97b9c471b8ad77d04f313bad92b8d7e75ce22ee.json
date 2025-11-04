@@ -1,0 +1,36 @@
+{
+    "paperId": "d97b9c471b8ad77d04f313bad92b8d7e75ce22ee",
+    "title": "Mixed precision algorithms in numerical linear algebra",
+    "year": 2022,
+    "venue": "Acta Numerica",
+    "authors": [
+        "N. Higham",
+        "Théo Mary"
+    ],
+    "doi": "10.1017/S0962492922000022",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/d97b9c471b8ad77d04f313bad92b8d7e75ce22ee",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/43CA701BA29251B5790C653E66F46197/S0962492922000022a.pdf/div-class-title-mixed-precision-algorithms-in-numerical-linear-algebra-div.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Today’s floating-point arithmetic landscape is broader than ever. While scientific computing has traditionally used single precision and double precision floating-point arithmetics, half precision is increasingly available in hardware and quadruple precision is supported in software. Lower precision arithmetic brings increased speed and reduced communication and energy costs, but it produces results of correspondingly low accuracy. Higher precisions are more expensive but can potentially provide great benefits, even if used sparingly. A variety of mixed precision algorithms have been developed that combine the superior performance of lower precisions with the better accuracy of higher precisions. Some of these algorithms aim to provide results of the same quality as algorithms running in a fixed precision but at a much lower cost; others use a little higher precision to improve the accuracy of an algorithm. This survey treats a broad range of mixed precision algorithms in numerical linear algebra, both direct and iterative, for problems including matrix multiplication, matrix factorization, linear systems, least squares, eigenvalue decomposition and singular value decomposition. We identify key algorithmic ideas, such as iterative refinement, adapting the precision to the data, and exploiting mixed precision block fused multiply–add operations. We also describe the possible performance benefits and explain what is known about the numerical stability of the algorithms. This survey should be useful to a wide community of researchers and practitioners who wish to develop or benefit from mixed precision numerical linear algebra algorithms.",
+    "citationCount": 109,
+    "referenceCount": 232
+}

@@ -1,0 +1,41 @@
+{
+    "paperId": "7ce597023a669545fc9bc5387d6dd0ad98cb07a1",
+    "title": "A Survey on Intelligent Iterative Methods for Solving Sparse Linear Algebraic Equations",
+    "year": 2023,
+    "venue": "arXiv.org",
+    "authors": [
+        "Haifeng Zou",
+        "Xiaowen Xu",
+        "Chensong Zhang"
+    ],
+    "doi": "10.48550/arXiv.2310.06630",
+    "arxivId": "2310.06630",
+    "url": "https://www.semanticscholar.org/paper/7ce597023a669545fc9bc5387d6dd0ad98cb07a1",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2310.06630",
+    "publicationTypes": [
+        "JournalArticle",
+        "Review"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Efficiently solving sparse linear algebraic equations is an important research topic of numerical simulation. Commonly used approaches include direct methods and iterative methods. Compared with the direct methods, the iterative methods have lower computational complexity and memory consumption, and are thus often used to solve large-scale sparse linear equations. However, there are numerous iterative methods, parameters and components needed to be carefully chosen, and an inappropriate combination may eventually lead to an inefficient solution process in practice. With the development of deep learning, intelligent iterative methods become popular in these years, which can intelligently make a sufficiently good combination, optimize the parameters and components in accordance with the properties of the input matrix. This survey then reviews these intelligent iterative methods. To be clearer, we shall divide our discussion into three aspects: a method aspect, a component aspect and a parameter aspect. Moreover, we summarize the existing work and propose potential research directions that may deserve a deep investigation.",
+    "citationCount": 1,
+    "referenceCount": 108
+}

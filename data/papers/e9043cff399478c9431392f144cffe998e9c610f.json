@@ -1,0 +1,36 @@
+{
+    "paperId": "e9043cff399478c9431392f144cffe998e9c610f",
+    "title": "Dremel",
+    "year": 2022,
+    "venue": "Measurement and Modeling of Computer Systems",
+    "authors": [
+        "Chenxingyu Zhao",
+        "Tapan Chugh",
+        "Jaehong Min",
+        "Ming G. Liu",
+        "A. Krishnamurthy"
+    ],
+    "doi": "10.1145/3530903",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e9043cff399478c9431392f144cffe998e9c610f",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3530903",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "LSM-tree-based key-value stores like RocksDB are widely used to support many applications. However, configuring a RocksDB instance is challenging for the following reasons: 1) RocksDB has a massive parameter space to configure; 2) there are inherent trade-offs and dependencies between parameters; 3) right configurations are dependent on workload and hardware; and 4) evaluating configurations is time-consuming. Prior works struggle with handling the curse of dimensionality, capturing relationships between parameters, adapting configurations to workload and hardware, and evaluating quickly. In this work, we present a system, Dremel, to adaptively and quickly configure RocksDB with strategies based on the Multi-Armed Bandit model. To handle the massive parameter space, we propose using fused features, which encode domain-specific knowledge, to work as a compact and powerful representation for configurations. To adapt to the workload and hardware, we build an online bandit model to identify the best configuration. To evaluate quickly, we enable multi-fidelity evaluation and upper-confidence-bound sampling to speed up identifying the best configuration. Dremel not only achieves up to ×2.61 higher IOPS and 57% less latency than default configurations but also achieves up to 63% improvements over prior works on 18 different settings with the same or less time budget.",
+    "citationCount": 10,
+    "referenceCount": 69
+}

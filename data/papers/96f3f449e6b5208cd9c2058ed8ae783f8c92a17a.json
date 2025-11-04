@@ -1,0 +1,33 @@
+{
+    "paperId": "96f3f449e6b5208cd9c2058ed8ae783f8c92a17a",
+    "title": "MAP-Vis: A Distributed Spatio-Temporal Big Data Visualization Framework Based on a Multi-Dimensional Aggregation Pyramid Model",
+    "year": 2020,
+    "venue": "Applied Sciences",
+    "authors": [
+        "Xuefeng Guan",
+        "Chong Xie",
+        "Linxu Han",
+        "Yumei Zeng",
+        "Dannan Shen",
+        "Weiran Xing"
+    ],
+    "doi": "10.3390/app10020598",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/96f3f449e6b5208cd9c2058ed8ae783f8c92a17a",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.mdpi.com/2076-3417/10/2/598/pdf?version=1579688227",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "During the exploration and visualization of big spatio-temporal data, massive volume poses a number of challenges to the achievement of interactive visualization, including large memory consumption, high rendering delay, and poor visual effects. Research has shown that the development of distributed computing frameworks provides a feasible solution for big spatio-temporal data management and visualization. Accordingly, to address these challenges, this paper adopts a proprietary pre-processing visualization scheme and designs and implements a highly scalable distributed visual analysis framework, especially targeted at massive point-type datasets. Firstly, we propose a generic multi-dimensional aggregation pyramid (MAP) model based on two well-known graphics concepts, namely the Spatio-temporal Cube and 2D Tile Pyramid. The proposed MAP model can support the simultaneous hierarchical aggregation of time, space, and attributes, and also later transformation of the derived aggregates into discrete key-value pairs for scalable storage and efficient retrieval. Using the generated MAP datasets, we develop an open-source distributed visualization framework (MAP-Vis). In MAP-Vis, a high-performance Spark cluster is used as a parallel preprocessing platform, while distributed HBase is used as the massive storage for the generated MAP data. The client of MAP-Vis provides a variety of correlated visualization views, including heat map, time series, and attribute histogram. Four open datasets, with record numbers ranging from the millions to the tens of billions, are chosen for system demonstration and performance evaluation. The experimental results demonstrate that MAP-Vis can achieve millisecond-level query response and support efficient interactive visualization under different queries on the space, time, and attribute dimensions.",
+    "citationCount": 8,
+    "referenceCount": 35
+}

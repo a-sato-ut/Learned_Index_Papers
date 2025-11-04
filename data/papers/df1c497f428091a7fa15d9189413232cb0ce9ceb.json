@@ -1,0 +1,35 @@
+{
+    "paperId": "df1c497f428091a7fa15d9189413232cb0ce9ceb",
+    "title": "VEDAS: an efficient GPU alternative for store and query of large RDF data sets",
+    "year": 2021,
+    "venue": "Journal of Big Data",
+    "authors": [
+        "Pisit Makpaisit",
+        "C. Chantrapornchai"
+    ],
+    "doi": "10.1186/s40537-021-00513-y",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/df1c497f428091a7fa15d9189413232cb0ce9ceb",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://journalofbigdata.springeropen.com/track/pdf/10.1186/s40537-021-00513-y",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Resource Description Framework (RDF) is commonly used as a standard for data interchange on the web. The collection of RDF data sets can form a large graph which consumes time to query. It is known that modern Graphic Processing Units (GPUs) can be employed to execute parallel programs in order to speedup the running time. In this paper, we propose a novel RDF data representation along with the query processing algorithm that is suitable for GPU processing. Since the main challenges of GPU architecture are the limited memory sizes, the memory transfer latency, and the vast number of GPU cores. Our system is designed to strengthen the use of GPU cores and reduce the effect of memory transfer. We propose a representation consists of indices and column-based RDF ID data that can reduce the GPU memory requirement. The indexing and pre-upload filtering techniques are then applied to reduce the data transfer between the host and GPU memory. We add the index swapping process to facilitate the sorting and joining data process based on the given variable and add the pre-upload step to reduce the size of results’ storage, and the data transfer time. The experimental results show that our representation is about 35% smaller than the traditional NT format and 40% less compared to that of gStore. The query processing time can be speedup ranging from 1.95 to 397.03 when compared with RDF3X and gStore processing time with WatDiv test suite. It achieves speedup 578.57 and 62.97 for LUBM benchmark when compared to RDF-3X and gStore. The analysis shows the query cases which can gain benefits from our approach.",
+    "citationCount": 5,
+    "referenceCount": 45
+}

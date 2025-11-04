@@ -1,0 +1,38 @@
+{
+    "paperId": "1b650a822dc4eae0053ee30f64d0fdb3cd915b46",
+    "title": "Say No to Rack Boundaries: Towards A Reconfigurable Pod-Centric DCN Architecture",
+    "year": 2019,
+    "venue": "ACM SIGCOMM Symposium on Software Defined Networking Research",
+    "authors": [
+        "Ding-Xue Wu",
+        "Weitao Wang",
+        "Ang Chen",
+        "T. Ng"
+    ],
+    "doi": "10.1145/3314148.3314350",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/1b650a822dc4eae0053ee30f64d0fdb3cd915b46",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Data center networks are designed to interconnect large clusters of servers. However, their static, rack-based architecture poses many constraints. For instance, due to over-subscription, bandwidth tends to be highly unbalanced---while servers in the same rack enjoy full bisection bandwidth through a top-of-rack (ToR) switch, servers across racks have much more constrained bandwidth. This translates to a series of performance issues for modern cloud applications. In this paper, we propose a rackless data center (RDC) architecture that removes this fixed \"rack boundary\". We achieve this by inserting circuit switches at the edge layer, and dynamically reconfiguring the circuits to allow servers from different racks to form \"locality groups\". RDC optimizes the topology between servers and edge switches based on the changing workloads, and achieves lower flow completion times and improved load balance for realistic workloads.",
+    "citationCount": 10,
+    "referenceCount": 46
+}

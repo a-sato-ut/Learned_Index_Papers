@@ -1,0 +1,37 @@
+{
+    "paperId": "32fdb414ddd49a4799786a10b008feb39eb76cd4",
+    "title": "P4-based In-Network RL inference for Efficient Flow-Level Bandwidth Allocation",
+    "year": 2023,
+    "venue": "Global Communications Conference",
+    "authors": [
+        "Arslan Qadeer",
+        "Myung J. Lee",
+        "Daiki Nobayashi"
+    ],
+    "doi": "10.1109/GLOBECOM54140.2023.10437488",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/32fdb414ddd49a4799786a10b008feb39eb76cd4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Software-defined networking (SDN) has notably improved networks by providing Machine Learning-Powered programming capabilities at the control plane (CP), making it easier to dynamically manage the network resources according to varying traffic conditions. However, the geographically remote location of the CP from the data plane (DP) leads to significant round-trip delays in the order of milliseconds, which can ad-versely impact the performance of delay-sensitive and real-time traffic. To address this issue, this paper proposes a novel in-network reinforcement learning (RL) inference framework that extends programming capability from the CP to the DP for fine-grained control of network resources to meet the Quality of Service (QoS) demands of real-time applications. The in-network RL inference is achieved by adopting a match-action table mapping strategy in the DP and validating it through programming protocol-independent packet processors (P4). A P4 meter extern is utilized to allocate bandwidth to individual traffic flows based on their QoS requirements. Our proposed strategy achieves in-network RL inference at the line rate with negligible processing overhead while reducing packet loss rate and jitter by up to 92% and 57%, respectively, compared to the CP-based approach. Additionally, we evaluate the performance of our proposed bandwidth allocation framework using a state-of-the-art deep-deterministic policy gradient (DDPG)-based RL agent with a heuristic priority experience replay (hPER) technique. Our proposed DDPG agent achieves a faster convergence rate, higher reward, superior training stability, and up to 56 % reduction in operational cost compared to two alternative agents,",
+    "citationCount": 1,
+    "referenceCount": 21
+}

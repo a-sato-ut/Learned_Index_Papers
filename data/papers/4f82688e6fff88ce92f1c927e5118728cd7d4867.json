@@ -1,0 +1,39 @@
+{
+    "paperId": "4f82688e6fff88ce92f1c927e5118728cd7d4867",
+    "title": "A Theory-Guided Deep Neural Network for Time Domain Electromagnetic Simulation and Inversion Using a Differentiable Programming Platform",
+    "year": 2021,
+    "venue": "IEEE Transactions on Antennas and Propagation",
+    "authors": [
+        "Yanyan Hu",
+        "Yuchen Jin",
+        "Xuqing Wu",
+        "Jiefu Chen"
+    ],
+    "doi": "10.1109/TAP.2021.3098585",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/4f82688e6fff88ce92f1c927e5118728cd7d4867",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Physics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In this communication, a trainable theory-guided recurrent neural network (RNN) equivalent to the finite-difference-time-domain (FDTD) method is exploited to formulate electromagnetic propagation, solve Maxwell’s equations, and the inverse problem on differentiable programming platform Pytorch. For forward modeling, the computation efficiency is substantially improved compared to conventional FDTD implemented on MATLAB. Gradient computation becomes more precise and faster than the traditional finite difference method benefiting from the accurate and efficient automatic differentiation on the differentiable programming platform. Moreover, by setting the trainable weights of RNN as the material-related parameters, an inverse problem can be solved by training the network. Numerical results demonstrate the effectiveness and efficiency of the method for forward and inverse electromagnetic modeling.",
+    "citationCount": 30,
+    "referenceCount": 23
+}

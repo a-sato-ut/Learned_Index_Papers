@@ -1,0 +1,33 @@
+{
+    "paperId": "fdcb11c17d1e83aefc1d97dfab99dd3cd9968f89",
+    "title": "CADC: Encoding User-Item Interactions for Compressing Recommendation Model Training Data",
+    "year": 2024,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hossein Entezari Zarch",
+        "Abdulla Alshabanah",
+        "Chaoyi Jiang",
+        "Murali Annavaram"
+    ],
+    "doi": "10.48550/arXiv.2407.08108",
+    "arxivId": "2407.08108",
+    "url": "https://www.semanticscholar.org/paper/fdcb11c17d1e83aefc1d97dfab99dd3cd9968f89",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deep learning recommendation models (DLRMs) are at the heart of the current e-commerce industry. However, the amount of training data used to train these large models is growing exponentially, leading to substantial training hurdles. The training dataset contains two primary types of information: content-based information (features of users and items) and collaborative information (interactions between users and items). One approach to reduce the training dataset is to remove user-item interactions. But that significantly diminishes collaborative information, which is crucial for maintaining accuracy due to its inclusion of interaction histories. This loss profoundly impacts DLRM performance. This paper makes an important observation that if one can capture the user-item interaction history to enrich the user and item embeddings, then the interaction history can be compressed without losing model accuracy. Thus, this work, Collaborative Aware Data Compression (CADC), takes a two-step approach to training dataset compression. In the first step, we use matrix factorization of the user-item interaction matrix to create a novel embedding representation for both the users and items. Once the user and item embeddings are enriched by the interaction history information the approach then applies uniform random sampling of the training dataset to drastically reduce the training dataset size while minimizing model accuracy drop. The source code of CADC is available at \\href{https://anonymous.4open.science/r/DSS-RM-8C1D/README.md}{https://anonymous.4open.science/r/DSS-RM-8C1D/README.md}.",
+    "citationCount": 1,
+    "referenceCount": 43
+}

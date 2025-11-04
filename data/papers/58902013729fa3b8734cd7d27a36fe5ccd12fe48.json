@@ -1,0 +1,36 @@
+{
+    "paperId": "58902013729fa3b8734cd7d27a36fe5ccd12fe48",
+    "title": "TASM: A Tile-Based Storage Manager for Video Analytics",
+    "year": 2020,
+    "venue": "IEEE International Conference on Data Engineering",
+    "authors": [
+        "Maureen Daum",
+        "Brandon Haynes",
+        "Dong He",
+        "Amrita Mazumdar",
+        "M. Balazinska",
+        "Alvin Cheung"
+    ],
+    "doi": "10.1109/ICDE51399.2021.00156",
+    "arxivId": "2006.02958",
+    "url": "https://www.semanticscholar.org/paper/58902013729fa3b8734cd7d27a36fe5ccd12fe48",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/2006.02958",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Modern video data management systems store videos as a single encoded file, which significantly limits possible storage level optimizations. We design, implement, and evaluate TASM, a new tile-based storage manager for video data. TASM uses a feature in modern video codecs called \"tiles\" that enables spatial random access into encoded videos. TASM physically tunes stored videos by optimizing their tile layouts given the video content and a query workload. Additionally, TASM dynamically tunes that layout in response to changes in the query workload or if the query workload and video contents are incrementally discovered. Finally, TASM also produces efficient initial tile layouts for newly ingested videos. We demonstrate that TASM can speed up subframe selection queries by an average of over 50% and up to 94%. TASM can also improve the throughput of the full scan phase of object detection queries by up to 2×.",
+    "citationCount": 34,
+    "referenceCount": 67
+}

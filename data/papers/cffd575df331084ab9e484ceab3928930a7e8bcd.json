@@ -1,0 +1,33 @@
+{
+    "paperId": "cffd575df331084ab9e484ceab3928930a7e8bcd",
+    "title": "WhoSNext: Recommending Twitter Users to Follow Using a Spreading Activation Network Based Approach",
+    "year": 2020,
+    "venue": "2020 International Conference on Data Mining Workshops (ICDMW)",
+    "authors": [
+        "Marco Siino",
+        "M. Cascia",
+        "I. Tinnirello"
+    ],
+    "doi": "10.1109/ICDMW51313.2020.00018",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cffd575df331084ab9e484ceab3928930a7e8bcd",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The huge number of modern social network users has made the web a fertile ground for the growth and development of a plethora of recommender systems. To date, recommending a new user profile X to a given user U that could be interested in creating a relationship with X has been tackled using techniques based on content analysis, existing friendship relationships and other pieces of information coming from different social networks or websites. In this paper we propose a recommending architecture - called WhoSNext (WSN) - tested on Twitter and which aim is promoting the creation of new relationships among users. As recent researches show, this is an interesting recommendation problem: for a given user U, find which other user might be proposed to U as a new friend. Instead of conducting a study based on a semantic approach (e.g. analyzing tweet content), the proposed algorithm exploits a graph created from a set of Twitter users called seeds. In this work - and, to the best of our knowledge, for the first time - this issue is addressed using only user ID for building a particular Spreading Activation Network. This network was firstly trained and then tested on a set consisting of over 400,000 real users. Experimental results show that this approach outperforms the results obtained from many well-known state-of-the-art systems, which are much more expensive in terms of either data preprocessing or computational resources.",
+    "citationCount": 12,
+    "referenceCount": 24
+}

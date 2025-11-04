@@ -1,0 +1,34 @@
+{
+    "paperId": "26b81de804357014b647777382cc758d0da30b76",
+    "title": "Long and Short-Term Interest Contrastive Learning Under Filter-Enhanced Sequential Recommendation",
+    "year": 2023,
+    "venue": "IEEE Access",
+    "authors": [
+        "Yi Li",
+        "Changchun Yang",
+        "Tongguang Ni",
+        "Yi Zhang",
+        "Hao Liu"
+    ],
+    "doi": "10.1109/ACCESS.2023.3286021",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/26b81de804357014b647777382cc758d0da30b76",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10151882.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Existing self-supervised sequential recommendations face the problem of noisy interactions and sparse sequence data, and train models based only on item prediction losses, so they usually fail to learn an appropriate sequential representation. In this paper, to address the above problem, we propose long and short-term interest contrastive learning under filter-enhanced sequential recommendation (FLSCSR). Specifically, a filtering algorithm is used on the user’s interaction sequences to attenuate the noisy information in the sequence data. Two independent encoders are used to model the user’s long-term and short-term interests separately on the filter-based enhanced interaction sequences. Then user-specific gating mechanisms are constructed to capture the long-term and short-term interests tailored to the user’s personalized preferences, which are incorporated into the attention network to achieve better learning of interest representations in sequence recommendations. In addition, representation alignment learning goals are proposed to minimize the discrepancy between long-term and short-term interest representations in personalized global contexts and local sequence representations. Experiments were conducted on three public and industrial datasets, where the FLSCSR model could obtain superior performance compared to the benchmark model: AUC improves by 0.76%-2.02%, GAUC improves by 0.55%-1.01%, MRR improves by 1.19%-2.09%, and NDCG@2 improves by 1.07%-2.26%.",
+    "citationCount": 3,
+    "referenceCount": 47
+}

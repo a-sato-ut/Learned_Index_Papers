@@ -1,0 +1,37 @@
+{
+    "paperId": "da9c3f069f06ca6aa31667ab0c3857d6c9556faf",
+    "title": "CrystalBox: Future-Based Explanations for Input-Driven Deep RL Systems",
+    "year": 2023,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "authors": [
+        "Sagar Patel",
+        "S. Jyothi",
+        "Nina Narodytska"
+    ],
+    "doi": "10.1609/aaai.v38i13.29372",
+    "arxivId": "2302.13483",
+    "url": "https://www.semanticscholar.org/paper/da9c3f069f06ca6aa31667ab0c3857d6c9556faf",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://ojs.aaai.org/index.php/AAAI/article/download/29372/30590",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We present CrystalBox, a novel, model-agnostic, posthoc explainability framework for Deep Reinforcement Learning (DRL) controllers in the large family of input-driven environments which includes computer systems. We combine the natural decomposability of reward functions in input-driven environments with the explanatory power of decomposed returns. We propose an efficient algorithm to generate future-based explanations across both discrete and continuous control environments. Using applications such as adaptive bitrate streaming and congestion control, we demonstrate CrystalBox's capability to generate high-fidelity explanations. We further illustrate its higher utility across three practical use cases: contrastive explanations, network observability, and guided reward design, as opposed to prior explainability techniques that identify salient features.",
+    "citationCount": 1,
+    "referenceCount": 34
+}

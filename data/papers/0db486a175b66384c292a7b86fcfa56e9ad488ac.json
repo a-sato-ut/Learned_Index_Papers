@@ -1,0 +1,37 @@
+{
+    "paperId": "0db486a175b66384c292a7b86fcfa56e9ad488ac",
+    "title": "RadiK: Scalable and Optimized GPU-Parallel Radix Top-K Selection",
+    "year": 2024,
+    "venue": "International Conference on Supercomputing",
+    "authors": [
+        "Yifei Li",
+        "Bole Zhou",
+        "Jiejing Zhang",
+        "Xuechao Wei",
+        "Yinghan Li",
+        "Yingda Chen"
+    ],
+    "doi": "10.1145/3650200.3656596",
+    "arxivId": "2501.14336",
+    "url": "https://www.semanticscholar.org/paper/0db486a175b66384c292a7b86fcfa56e9ad488ac",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dl.acm.org/doi/pdf/10.1145/3650200.3656596",
+    "publicationTypes": [
+        "JournalArticle",
+        "Book",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Top-k selection, which identifies the largest or smallest k elements from a data set, is a fundamental operation in data-intensive domains such as databases and deep learning, so its scalability and efficiency are critical for these high-performance systems. However, previous studies on its efficient GPU implementation are mostly merge-based and rely heavily on fast but size-limited on-chip memory, thereby limiting scalability with a restricted upper bound on k. This work introduces RadiK, a scalable and optimized GPU-parallel radix top-k selection that supports significantly larger k values than existing methods without compromising efficiency, regardless of input length and batch size. RadiK incorporates a novel optimization framework tailored for high memory bandwidth and resource utilization, achieving up to 2.5 × speedup over the prior art for non-batch queries and up to 4.8 × speedup for batch queries. In addition, we propose an adaptive scaling technique that strengthens robustness, which further provides up to 2.7 × speedup on highly adversarial input distributions.",
+    "citationCount": 3,
+    "referenceCount": 40
+}

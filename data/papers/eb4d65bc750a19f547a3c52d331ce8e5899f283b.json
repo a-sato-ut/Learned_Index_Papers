@@ -1,0 +1,39 @@
+{
+    "paperId": "eb4d65bc750a19f547a3c52d331ce8e5899f283b",
+    "title": "ARDA",
+    "year": 2020,
+    "venue": "Proceedings of the VLDB Endowment",
+    "authors": [
+        "Nadiia Chepurko",
+        "Ryan Marcus",
+        "Emanuel Zgraggen",
+        "R. Fernandez",
+        "Tim Kraska",
+        "David R Karger"
+    ],
+    "doi": "10.14778/3397230.3397235",
+    "arxivId": "2003.09758",
+    "url": "https://www.semanticscholar.org/paper/eb4d65bc750a19f547a3c52d331ce8e5899f283b",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://dspace.mit.edu/bitstream/1721.1/132309.2/4/2003.09758.pdf",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Automatic machine learning (AML) is a family of techniques to automate the process of training predictive models, aiming to both improve performance and make machine learning more accessible. While many recent works have focused on aspects of the machine learning pipeline like model selection, hyperparameter tuning, and feature selection, relatively few works have focused on automatic data augmentation. Automatic data augmentation involves finding new features relevant to the user's predictive task with minimal \"human-in-the-loop\" involvement. We present ARDA, an end-to-end system that takes as input a dataset and a data repository, and outputs an augmented data set such that training a predictive model on this augmented dataset results in improved performance. Our system has two distinct components: (1) a framework to search and join data with the input data, based on various attributes of the input, and (2) an efficient feature selection algorithm that prunes out noisy or irrelevant features from the resulting join. We perform an extensive empirical evaluation of different system components and benchmark our feature selection algorithm on real-world datasets.",
+    "citationCount": 15,
+    "referenceCount": 76
+}

@@ -1,0 +1,41 @@
+{
+    "paperId": "fc3bf5106c5cb9e7abd358d0506a9978d8e5be32",
+    "title": "Deep Retrieval: Learning A Retrievable Structure for Large-Scale Recommendations",
+    "year": 2020,
+    "venue": "",
+    "authors": [
+        "Weihao Gao",
+        "Xiangjun Fan",
+        "Chong Wang",
+        "Jiankai Sun",
+        "Kai Jia",
+        "Wen Xiao",
+        "Ruofan Ding",
+        "Xingyan Bin",
+        "Hui Yang",
+        "Xiaobing Liu"
+    ],
+    "doi": null,
+    "arxivId": "2007.07203",
+    "url": "https://www.semanticscholar.org/paper/fc3bf5106c5cb9e7abd358d0506a9978d8e5be32",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "One of the core problems in large-scale recommendations is to retrieve top relevant candidates accurately and efficiently, preferably in sub-linear time. Previous approaches are mostly based on a two-step procedure: first learn an inner-product model, and then use some approximate nearest neighbor (ANN) search algorithm to find top candidates. In this paper, we present Deep Retrieval (DR), to learn a retrievable structure directly with user-item interaction data (e.g. clicks) without resorting to the Euclidean space assumption in ANN algorithms. DR's structure encodes all candidate items into a discrete latent space. Those latent codes for the candidates are model parameters and learnt together with other neural network parameters to maximize the same objective function. With the model learnt, a beam search over the structure is performed to retrieve the top candidates for reranking. Empirically, we first demonstrate that DR, with sub-linear computational complexity, can achieve almost the same accuracy as the brute-force baseline on two public datasets. Moreover, we show that, in a live production recommendation system, a deployed DR approach significantly outperforms a well-tuned ANN baseline in terms of engagement metrics. To the best of our knowledge, DR is among the first non-ANN algorithms successfully deployed at the scale of hundreds of millions of items for industrial recommendation systems.",
+    "citationCount": 24,
+    "referenceCount": 33
+}

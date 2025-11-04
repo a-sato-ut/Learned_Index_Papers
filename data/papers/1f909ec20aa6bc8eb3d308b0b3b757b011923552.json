@@ -1,0 +1,40 @@
+{
+    "paperId": "1f909ec20aa6bc8eb3d308b0b3b757b011923552",
+    "title": "Leveraging Operator Learning to Accelerate Convergence of the Preconditioned Conjugate Gradient Method",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Alena Kopanicáková",
+        "Youngkyu Lee",
+        "G. Karniadakis"
+    ],
+    "doi": "10.48550/arXiv.2508.00101",
+    "arxivId": "2508.00101",
+    "url": "https://www.semanticscholar.org/paper/1f909ec20aa6bc8eb3d308b0b3b757b011923552",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Mathematics",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Mathematics",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a new deflation strategy to accelerate the convergence of the preconditioned conjugate gradient(PCG) method for solving parametric large-scale linear systems of equations. Unlike traditional deflation techniques that rely on eigenvector approximations or recycled Krylov subspaces, we generate the deflation subspaces using operator learning, specifically the Deep Operator Network~(DeepONet). To this aim, we introduce two complementary approaches for assembling the deflation operators. The first approach approximates near-null space vectors of the discrete PDE operator using the basis functions learned by the DeepONet. The second approach directly leverages solutions predicted by the DeepONet. To further enhance convergence, we also propose several strategies for prescribing the sparsity pattern of the deflation operator. A comprehensive set of numerical experiments encompassing steady-state, time-dependent, scalar, and vector-valued problems posed on both structured and unstructured geometries is presented and demonstrates the effectiveness of the proposed DeepONet-based deflated PCG method, as well as its generalization across a wide range of model parameters and problem resolutions.",
+    "citationCount": 0,
+    "referenceCount": 90
+}

@@ -1,0 +1,34 @@
+{
+    "paperId": "9aa34bad7d5a7de536aa1b8652112e53b7ddf005",
+    "title": "Exploiting Access Pattern Characteristics for Join Reordering",
+    "year": 2023,
+    "venue": "International Workshop on Data Management on New Hardware",
+    "authors": [
+        "Nils L Schubert",
+        "P. M. Grulich",
+        "Steffen Zeuch",
+        "V. Markl"
+    ],
+    "doi": "10.1145/3592980.3595304",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/9aa34bad7d5a7de536aa1b8652112e53b7ddf005",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Book",
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "With increasing main memory sizes, data processing has significantly shifted from secondary storage to main memory. However, choosing a good join order is still very important for efficient query execution in modern DBMS. This choice bases mainly on cardinality estimates for intermediate join results. However, the memory access pattern, e.g., sequential or random, on the intermediate state is an often neglected performance factor. In this paper, we examine this impact on join query performance by evaluating the execution time, and cache misses for n-ary foreign-key joins. Based on this analysis, we propose a novel join reordering algorithm that detects the memory access pattern (using machine learning on hardware performance counters) and adapts the join order accordingly at runtime. By considering the access pattern, our evaluation shows that our adaptive reorder algorithm converges quickly to a good join order and reaches improvements of up to a factor of 5.7 ×.",
+    "citationCount": 3,
+    "referenceCount": 53
+}

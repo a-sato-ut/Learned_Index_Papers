@@ -1,0 +1,51 @@
+{
+    "paperId": "575d817c993e0543d0f03128d81834dc8f291981",
+    "title": "WiSer: A Highly Available HTAP DBMS for IoT Applications",
+    "year": 2019,
+    "venue": "2019 IEEE International Conference on Big Data (Big Data)",
+    "authors": [
+        "Ronald Barber",
+        "Christian Garcia-Arellano",
+        "Ronen Grosman",
+        "G. Lohman",
+        "C. Mohan",
+        "René Müller",
+        "H. Pirahesh",
+        "Vijayshankar Raman",
+        "Richard Sidle",
+        "Adam J. Storm",
+        "Yuanyuan Tian",
+        "Pınar Tözün",
+        "Yingjun Wu"
+    ],
+    "doi": "10.1109/BigData47090.2019.9006519",
+    "arxivId": "1908.01908",
+    "url": "https://www.semanticscholar.org/paper/575d817c993e0543d0f03128d81834dc8f291981",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://arxiv.org/pdf/1908.01908.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "In a classic transactional distributed database management system (DBMS), write transactions invariably synchronize with a coordinator before final commitment. While enforcing serializability, this model has long been criticized for not satisfying the applications’ availability requirements. When entering the era of Internet of Things (IoT), this problem has become more severe, as an increasing number of applications call for the capability of hybrid transactional and analytical processing (HTAP), where aggregation constraints need to be enforced as part of transactions. Current systems work around this by creating escrows, allowing occasional overshoots of constraints, which are handled via compensating application logic.The WiSer DBMS targets consistency with availability, by splitting the database commit into two steps. First, a PROMISE step that corresponds to what humans are used to as commitment, and runs without talking to a coordinator. Second, a SERIALIZE step, that fixes transactions’ positions in the serializable order, via a consensus procedure. We achieve this split via a novel data representation that embeds read-sets into transaction deltas, and serialization sequence numbers into table rows. WiSer does no sharding (all nodes can run transactions that modify the entire database), and yet enforces aggregation constraints. Both read-write conflicts and aggregation constraint violations are resolved lazily in the serialized data. WiSer also covers node joins and departures as database tables, thus simplifying correctness and failure handling. We present the design of WiSer as well as experiments suggesting this approach has promise.",
+    "citationCount": 13,
+    "referenceCount": 33
+}

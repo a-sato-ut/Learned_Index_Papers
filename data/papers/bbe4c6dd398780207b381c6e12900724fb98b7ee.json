@@ -1,0 +1,35 @@
+{
+    "paperId": "bbe4c6dd398780207b381c6e12900724fb98b7ee",
+    "title": "Learning Deep Decentralized Policy Network by Collective Rewards for Real-Time Combat Game",
+    "year": 2019,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "authors": [
+        "Peixi Peng",
+        "Junliang Xing",
+        "Lili Cao",
+        "Lisen Mu",
+        "Chang Huang"
+    ],
+    "doi": "10.24963/ijcai.2019/181",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/bbe4c6dd398780207b381c6e12900724fb98b7ee",
+    "isOpenAccess": true,
+    "openAccessPdf": "https://www.ijcai.org/proceedings/2019/0181.pdf",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "The task of real-time combat game is to coordinate multiple units to defeat their enemies controlled by the given opponent in a real-time combat scenario. It is difficult to design a high-level Artificial Intelligence (AI) program for such a task due to its extremely large state-action space and real-time requirements. This paper formulates this task as a collective decentralized partially observable Markov decision process, and designs a Deep Decentralized Policy Network (DDPN) to model the polices. To train DDPN effectively, a novel two-stage learning algorithm is proposed which combines imitation learning from opponent and reinforcement learning by no-regret dynamics. Extensive experimental results on various combat scenarios indicate that proposed method can defeat different opponent models and significantly outperforms many state-of-the-art approaches.",
+    "citationCount": 3,
+    "referenceCount": 36
+}

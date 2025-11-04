@@ -1,0 +1,42 @@
+{
+    "paperId": "584ccd65c12fa0aabaf766acac3b81af82f90716",
+    "title": "Bidding-Aware Retrieval for Multi-Stage Consistency in Online Advertising",
+    "year": 2025,
+    "venue": "arXiv.org",
+    "authors": [
+        "Bin Liu",
+        "Yunfei Liu",
+        "Ziru Xu",
+        "Zhaoyu Zhou",
+        "Zhi Kou",
+        "Yeqiu Yang",
+        "Zhu Han",
+        "Jian Xu",
+        "Bo Zheng"
+    ],
+    "doi": "10.48550/arXiv.2508.05206",
+    "arxivId": "2508.05206",
+    "url": "https://www.semanticscholar.org/paper/584ccd65c12fa0aabaf766acac3b81af82f90716",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Business",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Online advertising systems typically use a cascaded architecture to manage massive requests and candidate volumes, where the ranking stages allocate traffic based on eCPM (predicted CTR $\\times$ Bid). With the increasing popularity of auto-bidding strategies, the inconsistency between the computationally sensitive retrieval stage and the ranking stages becomes more pronounced, as the former cannot access precise, real-time bids for the vast ad corpus. This discrepancy leads to sub-optimal platform revenue and advertiser outcomes. To tackle this problem, we propose Bidding-Aware Retrieval (BAR), a model-based retrieval framework that addresses multi-stage inconsistency by incorporating ad bid value into the retrieval scoring function. The core innovation is Bidding-Aware Modeling, incorporating bid signals through monotonicity-constrained learning and multi-task distillation to ensure economically coherent representations, while Asynchronous Near-Line Inference enables real-time updates to the embedding for market responsiveness. Furthermore, the Task-Attentive Refinement module selectively enhances feature interactions to disentangle user interest and commercial value signals. Extensive offline experiments and full-scale deployment across Alibaba's display advertising platform validated BAR's efficacy: 4.32% platform revenue increase with 22.2% impression lift for positively-operated advertisements.",
+    "citationCount": 0,
+    "referenceCount": 54
+}

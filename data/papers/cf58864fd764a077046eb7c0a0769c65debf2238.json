@@ -1,0 +1,39 @@
+{
+    "paperId": "cf58864fd764a077046eb7c0a0769c65debf2238",
+    "title": "Federated autoML learning for community building energy prediction",
+    "year": 2024,
+    "venue": "Smart Structures and Materials + Nondestructive Evaluation and Health Monitoring",
+    "authors": [
+        "Rui Wang",
+        "Ling Bai",
+        "Rakiba Rayhana",
+        "Zheng Liu"
+    ],
+    "doi": "10.1117/12.3012012",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/cf58864fd764a077046eb7c0a0769c65debf2238",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": null,
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Engineering",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Environmental Science",
+            "source": "s2-fos-model"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Energy load forecasting across multiple buildings is beneficial for energy saving. Currently, most methodologies are training a single global model for all buildings as the deep learning model relies on large-scale data. However, the energy data distribution may vary a lot across different buildings and enforcing a global model may cause unnecessary computing resource overutilization. Meanwhile, building energy management encounters repeated manual efforts for machine learning model training over the new sensor data. To improve the computing resource utilization of load forecasting model training and automation of building energy management, a new automatic learning framework is proposed to support automatic building energy data analytics. The machine learning model is customized for each building based on an automatic algorithm with efficient model evaluations. The new framework brings comparable performance to federated energy data learning while fewer computing resource is consumed.",
+    "citationCount": 1,
+    "referenceCount": 22
+}

@@ -1,0 +1,31 @@
+{
+    "paperId": "67654261b048864e6d82ab96d43fc9a3bf56d1b4",
+    "title": "Portrait video matting via depth information and temporal-spatio consistency",
+    "year": 2023,
+    "venue": "International Conference on Electronic Information Engineering, Big Data and Computer Technology",
+    "authors": [
+        "Zhen Cheng",
+        "Qiwei Shen"
+    ],
+    "doi": "10.1117/12.2674740",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/67654261b048864e6d82ab96d43fc9a3bf56d1b4",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Engineering",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "We propose a stable portrait video matting method without any auxiliary inputs like pre-captured background or trimap, but achieves competitive or even better performance compared to existing methods. In this paper, we observe that depth information has significant effect on human matting task since the target is at smaller depth with high probability especially for conference scenes. To this end, we design two decoder branches for coarse depth estimation and matting respectively. Furthermore, we utilize a temporal-spatio consistency module (TSCM) to improve temporal coherence and enforces our network to pay more attention to the foreground at smaller depth. Moreover, existing video matting evaluation metrics are almost derived from image matting, we introduce a simple but efficient algorithm to check flicker clips of the alpha video which reflects its stability.",
+    "citationCount": 0,
+    "referenceCount": 36
+}

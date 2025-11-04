@@ -1,0 +1,35 @@
+{
+    "paperId": "e934a5b9ba374353d9926b3943ac68a42a2c8f91",
+    "title": "Linc: Enabling Low-Resource in-Network Classification and Incremental Model Update",
+    "year": 2024,
+    "venue": "IEEE International Conference on Network Protocols",
+    "authors": [
+        "Haolin Yan",
+        "Qing Li",
+        "Guorui Xie",
+        "Gareth Tyson",
+        "Yong Jiang"
+    ],
+    "doi": "10.1109/ICNP61940.2024.10858585",
+    "arxivId": null,
+    "url": "https://www.semanticscholar.org/paper/e934a5b9ba374353d9926b3943ac68a42a2c8f91",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle",
+        "Conference"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Deploying machine learning models within the data plane can facilitate traffic analysis at line rate. Nevertheless, existing schemes suffer from performance degradation when faced with hardware resource constraints. They further cannot accommodate incremental model updates as the underlying traffic distributions change. This paper presents Linc, a novel framework for low-resource and incrementally updatable innetwork classification. To circumvent the complicated P4 program that consumes extensive resources, Linc generalizes explicit deployable classification rules by interpreting a customized neural network. For incremental updates with minimal new training data, we design a divide-and-conquer strategy that decomposes the update task into binary classification tasks within distinct subspaces to simplify the task. We then update the model locally within each subspace to improve accuracy for new categories without compromising the accuracy of existing categories. Experimental results reveal that, compared to state-of-the-art solutions, Linc significantly reduces switch hardware resources by up to $15.6 \\times$ and achieves up to $11.63 \\%$ higher classification accuracy. During the incremental model updates, Linc not only improves the accuracy by $26.1 \\%$ but also decreases the table entries by $6 \\times$.",
+    "citationCount": 2,
+    "referenceCount": 55
+}

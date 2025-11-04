@@ -1,0 +1,33 @@
+{
+    "paperId": "e5e23b308326b7e552530f56cad42ef727357560",
+    "title": "An empirical evaluation of the usefulness of Tree Kernels for Commit-time Defect Detection in large software systems",
+    "year": 2021,
+    "venue": "arXiv.org",
+    "authors": [
+        "Hareem Sahar",
+        "Yuxin Liu",
+        "Abram Hindle",
+        "Denilson Barbosa"
+    ],
+    "doi": null,
+    "arxivId": "2106.10789",
+    "url": "https://www.semanticscholar.org/paper/e5e23b308326b7e552530f56cad42ef727357560",
+    "isOpenAccess": false,
+    "openAccessPdf": "",
+    "publicationTypes": [
+        "JournalArticle"
+    ],
+    "s2FieldsOfStudy": [
+        {
+            "category": "Computer Science",
+            "source": "external"
+        },
+        {
+            "category": "Computer Science",
+            "source": "s2-fos-model"
+        }
+    ],
+    "abstract": "Defect detection at commit check-in time prevents the introduction of defects into software systems. Current defect detection approaches rely on metric-based models which are not very accurate and whose results are not directly useful for developers. We propose a method to detect bug-inducing commits by comparing the incoming changes with all past commits in the project, considering both those that introduced defects and those that did not. Our method considers individual changes in the commit separately, at the method-level granularity. Doing so helps developers as they are informed of specific methods that need further attention instead of being told that the entire commit is problematic. Our approach represents source code as abstract syntax trees and uses tree kernels to estimate the similarity of the code with previous commits. We experiment with subtree kernels (STK), subset tree kernels (SSTK), or partial tree kernels (PTK). An incoming change is then classified using a K-NN classifier on the past changes. We evaluate our approach on the BigCloneBench benchmark and on the Technical Debt dataset, using the NiCad clone detector as the baseline. Our experiments with the BigCloneBench benchmark show that the tree kernel approach can detect clones with a comparable MAP to that of NiCad. Also, on defect detection with the Technical Debt dataset, tree kernels are least as effective as NiCad with MRR, F-score, and Accuracy of 0.87, 0.80, and 0.82 respectively.",
+    "citationCount": 0,
+    "referenceCount": 57
+}
