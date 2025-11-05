@@ -41,6 +41,17 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   const [minYear, setMinYear] = useState<number | null>(null);
   const [yearFilterOpen, setYearFilterOpen] = useState(false);
   const svgRef = useRef<SVGSVGElement>(null);
+  const [jsonExportOpen, setJsonExportOpen] = useState(false);
+  const [jsonExportFields, setJsonExportFields] = useState<Record<string, boolean>>({
+    title: true,
+    abstract: true,
+    tldr: true,
+    tldr_ja: true,
+    authors: true,
+    year: true,
+    conference: true,
+    link_to_paper: true,
+  });
 
   const fetchTags = async () => {
     try {
@@ -1684,6 +1695,159 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     );
   };
 
+  const JsonExportSection: React.FC<{
+    papers: Paper[];
+    isOpen: boolean;
+    onToggle: () => void;
+    fields: Record<string, boolean>;
+    onFieldsChange: (fields: Record<string, boolean> | ((prev: Record<string, boolean>) => Record<string, boolean>)) => void;
+  }> = ({ papers, isOpen, onToggle, fields, onFieldsChange }) => {
+    const [jsonOutput, setJsonOutput] = useState<string>('');
+
+    const generateJson = () => {
+      const papersList = papers.map(paper => {
+        const paperObj: Record<string, any> = {};
+        
+        if (fields.title && paper.title) {
+          paperObj.title = paper.title;
+        }
+        if (fields.abstract && paper.abstract) {
+          paperObj.abstract = paper.abstract;
+        }
+        if (fields.tldr && paper.tldr) {
+          paperObj.tldr = paper.tldr;
+        }
+        if (fields.tldr_ja && paper.tldr_ja) {
+          paperObj.tldr_ja = paper.tldr_ja;
+        }
+        if (fields.authors && paper.authors && paper.authors.length > 0) {
+          paperObj.authors = paper.authors;
+        }
+        if (fields.year && paper.year !== undefined && paper.year !== null) {
+          paperObj.year = paper.year;
+        }
+        if (fields.conference && paper.venue) {
+          paperObj.conference = paper.venue;
+        }
+        if (fields.link_to_paper) {
+          if (paper.openAccessPdf) {
+            paperObj.link_to_paper = paper.openAccessPdf;
+          } else if (paper.url) {
+            paperObj.link_to_paper = paper.url;
+          } else if (paper.arxivId) {
+            paperObj.link_to_paper = `https://arxiv.org/abs/${paper.arxivId}`;
+          } else if (paper.doi) {
+            paperObj.link_to_paper = `https://doi.org/${paper.doi}`;
+          }
+        }
+        
+        return paperObj;
+      });
+
+      const jsonString = JSON.stringify(papersList, null, 4);
+      setJsonOutput(jsonString);
+    };
+
+    const handleFieldChange = (field: string, checked: boolean) => {
+      onFieldsChange({ ...fields, [field]: checked });
+    };
+
+    const handleDownload = () => {
+      if (!jsonOutput) {
+        generateJson();
+        return;
+      }
+      
+      const blob = new Blob([jsonOutput], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'papers.json';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    };
+
+    const handleCopy = () => {
+      if (!jsonOutput) {
+        generateJson();
+        return;
+      }
+      
+      navigator.clipboard.writeText(jsonOutput).then(() => {
+        alert('JSONをクリップボードにコピーしました');
+      }).catch(() => {
+        alert('コピーに失敗しました');
+      });
+    };
+
+    return (
+      <div className="paper-explorer-json-export">
+        <div 
+          className="paper-explorer-json-export-header"
+          onClick={onToggle}
+        >
+          <span className="paper-explorer-json-export-icon">
+            {isOpen ? '▼' : '▶'}
+          </span>
+          <h3 className="paper-explorer-json-export-title">JSON出力</h3>
+        </div>
+        {isOpen && (
+          <div className="paper-explorer-json-export-content">
+            <div className="paper-explorer-json-export-fields">
+              <h4>出力するフィールドを選択:</h4>
+              <div className="paper-explorer-json-export-checkboxes">
+                {Object.keys(fields).map(field => (
+                  <label key={field} className="paper-explorer-json-export-checkbox-label">
+                    <input
+                      type="checkbox"
+                      checked={fields[field]}
+                      onChange={(e) => handleFieldChange(field, e.target.checked)}
+                    />
+                    <span>{field}</span>
+                  </label>
+                ))}
+              </div>
+            </div>
+            <div className="paper-explorer-json-export-buttons">
+              <button
+                className="paper-explorer-json-export-button"
+                onClick={generateJson}
+              >
+                JSON生成
+              </button>
+              <button
+                className="paper-explorer-json-export-button"
+                onClick={handleCopy}
+                disabled={!jsonOutput}
+              >
+                クリップボードにコピー
+              </button>
+              <button
+                className="paper-explorer-json-export-button"
+                onClick={handleDownload}
+                disabled={!jsonOutput}
+              >
+                ダウンロード
+              </button>
+            </div>
+            {jsonOutput && (
+              <div className="paper-explorer-json-export-output">
+                <textarea
+                  readOnly
+                  value={jsonOutput}
+                  className="paper-explorer-json-export-textarea"
+                  rows={20}
+                />
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    );
+  };
+
   const PaperCard: React.FC<{ paper: Paper; type: 'cites' | 'cited_by' }> = ({ paper, type }) => {
     const handleCardClick = (e: React.MouseEvent) => {
       // フッターのリンクがクリックされた場合は検索を実行しない
@@ -2190,7 +2354,22 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           )}
 
           {result && result.paper && (
-            <StatisticsSection papers={[...result.cites, ...result.cited_by, result.paper]} />
+            <>
+              <StatisticsSection papers={[...result.cites, ...result.cited_by, result.paper]} />
+              <JsonExportSection 
+                papers={[...result.cites, ...result.cited_by, result.paper]}
+                isOpen={jsonExportOpen}
+                onToggle={() => setJsonExportOpen(!jsonExportOpen)}
+                fields={jsonExportFields}
+                onFieldsChange={(newFields) => {
+                  if (typeof newFields === 'function') {
+                    setJsonExportFields((prev) => newFields(prev));
+                  } else {
+                    setJsonExportFields(newFields);
+                  }
+                }}
+              />
+            </>
           )}
         </>
       )}

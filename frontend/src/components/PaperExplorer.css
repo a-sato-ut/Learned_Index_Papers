@@ -750,6 +750,134 @@
   display: block;
 }
 
+.paper-explorer-json-export {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  border: 2px solid #e5e7eb;
+}
+
+.paper-explorer-json-export-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.paper-explorer-json-export-header:hover {
+  background-color: #f3f4f6;
+}
+
+.paper-explorer-json-export-icon {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.paper-explorer-json-export-title {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.paper-explorer-json-export-content {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.paper-explorer-json-export-fields h4 {
+  margin: 0 0 15px 0;
+  font-size: 1rem;
+  color: #374151;
+}
+
+.paper-explorer-json-export-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.paper-explorer-json-export-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #4b5563;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.paper-explorer-json-export-checkbox-label:hover {
+  background-color: #f3f4f6;
+}
+
+.paper-explorer-json-export-checkbox-label input[type="checkbox"] {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.paper-explorer-json-export-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.paper-explorer-json-export-button {
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.paper-explorer-json-export-button:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+.paper-explorer-json-export-button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.paper-explorer-json-export-output {
+  margin-top: 20px;
+}
+
+.paper-explorer-json-export-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  background-color: #f9fafb;
+  color: #1f2937;
+  resize: vertical;
+  min-height: 300px;
+}
+
+.paper-explorer-json-export-textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
 @media (max-width: 768px) {
   .paper-explorer-list-grid {
     grid-template-columns: 1fr;
@@ -772,6 +900,14 @@
   .paper-explorer-statistics-chart {
     width: 100%;
     max-width: 400px;
+  }
+
+  .paper-explorer-json-export-buttons {
+    flex-direction: column;
+  }
+
+  .paper-explorer-json-export-button {
+    width: 100%;
   }
 }
 
