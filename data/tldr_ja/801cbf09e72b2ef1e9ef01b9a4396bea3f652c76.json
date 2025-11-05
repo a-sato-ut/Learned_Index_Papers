@@ -2,5 +2,5 @@
   "paperId": "801cbf09e72b2ef1e9ef01b9a4396bea3f652c76",
   "title": "BS-tree: A gapped data-parallel B-tree",
   "abstract": "We propose BS-tree, an in-memory implementation of the B+-tree that adopts the structure of the disk-based index (i.e., a balanced, multiway tree), setting the node size to a memory block that can be processed fast and in parallel using SIMD instructions. A novel feature of the BS-tree is that it enables gaps (unused positions) within nodes by duplicating key values. This allows (i) branchless SIMD search within each node, and (ii) branchless update operations in nodes without key shifting. We implement a frame of reference (FOR) compression mechanism, which allows nodes to have varying capacities, and can greatly decrease the memory footprint of BS-tree. We compare our approach to existing main-memory indices and learned indices under different workloads of queries and updates and demonstrate its robustness and superiority compared to previous work in single- and multi-threaded processing.",
-  "tldr_ja": "BS-treeは、SIMD命令を活用した新しいメモリ内B+-ツリーで、ノード内にギャップを持たせることで効率的な検索と更新を実現します。可変容量のノードを持ち、メモリ使用量を削減し、従来のインデックスと比較して優れた性能を示します。"
+  "tldr_ja": "BS-treeは、メモリ内で動作するB+-木の新しい実装で、ノードサイズをメモリブロックに設定し、SIMD命令を用いて並列処理を可能にします。ノード内にギャップを持たせることで、ブランチレスな検索と更新を実現し、メモリ使用量を削減します。さまざまなクエリや更新の負荷下で既存のインデックスと比較し、優れた性能を示しました。"
 }

@@ -2,5 +2,5 @@
   "paperId": "e5554fcc5e9083b4cb30ada791e0ec9948e30691",
   "title": "Standard versus uniform binary search and their variants in learned static indexing: The case of the searching on sorted data benchmarking software platform",
   "abstract": "Learned Indexes use a model to restrict the search of a sorted table to a smaller interval. Typically, a final binary search is done using the lower_bound routine of the Standard C++ library. Recent studies have shown that on current processors other search approaches (such as k‐ary search) can be more efficient in some applications. Using the SOSD learned indexing benchmarking software, we extend these results to show that k‐ary search is indeed a better choice when using learned indexes. We highlight how such a choice may be dependent on the computer architecture used, for example, Intel I7 or Apple M1, and provide guidelines for the selection of the Search routine within the learned indexing framework.",
-  "tldr_ja": "学習インデックスを用いたソートデータの検索において、k-ary検索が標準的な二分検索よりも効率的であることを示し、コンピュータアーキテクチャによる選択の影響を考慮したガイドラインを提供する。"
+  "tldr_ja": "学習インデックスは、ソートされたデータの検索を効率化するためにモデルを使用します。本研究では、標準的な二分探索に代わるk-ary探索が、特定のアーキテクチャ（Intel I7やApple M1など）でより効果的であることを示し、学習インデックスのフレームワーク内での検索手法選択に関するガイドラインを提供します。"
 }

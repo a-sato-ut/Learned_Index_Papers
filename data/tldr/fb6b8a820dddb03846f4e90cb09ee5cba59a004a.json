@@ -2,5 +2,5 @@
   "paperId": "fb6b8a820dddb03846f4e90cb09ee5cba59a004a",
   "title": "Non-Clairvoyant Scheduling with Predictions",
   "abstract": "In the single-machine non-clairvoyant scheduling problem, the goal is to minimize the total completion time of jobs whose processing times are unknown a priori. We revisit this well-studied problem and consider the question of how to effectively use (possibly erroneous) predictions of the processing times. We study this question from ground zero by first asking what constitutes a good prediction; we then propose a new measure to gauge prediction quality and design scheduling algorithms with strong guarantees under this measure. Our approach to derive a prediction error measure based on natural desiderata could find applications for other online problems.",
-  "tldr": "この論文では、未知の処理時間を持つ単一機械の非予知スケジューリング問題において、誤りを含む処理時間の予測を効果的に活用する方法を探求し、新たな予測品質評価基準を提案し、それに基づくスケジューリングアルゴリズムを設計しています。"
+  "tldr": "This paper addresses the non-clairvoyant scheduling problem, focusing on minimizing total job completion time with unknown processing durations. It introduces a new measure for evaluating prediction quality and develops scheduling algorithms that leverage these predictions effectively."
 }

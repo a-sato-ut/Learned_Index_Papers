@@ -2,5 +2,5 @@
   "paperId": "2d70288c89a05c59f5306b6edf4342cda2e8cc15",
   "title": "Online Page Migration with ML Advice",
   "abstract": "We consider online algorithms for the {\\em page migration problem} that use predictions, potentially imperfect, to improve their performance. The best known online algorithms for this problem, due to Westbrook'94 and Bienkowski et al'17, have competitive ratios strictly bounded away from 1. In contrast, we show that if the algorithm is given a prediction of the input sequence, then it can achieve a competitive ratio that tends to $1$ as the prediction error rate tends to $0$. Specifically, the competitive ratio is equal to $1+O(q)$, where $q$ is the prediction error rate. We also design a ``fallback option'' that ensures that the competitive ratio of the algorithm for {\\em any} input sequence is at most $O(1/q)$. Our result adds to the recent body of work that uses machine learning to improve the performance of ``classic'' algorithms.",
-  "tldr_ja": "機械学習による予測を活用したオンラインページ移動アルゴリズムが、予測誤差率が低いほど競争比率を1に近づけることを示し、任意の入力に対しても競争比率を制御できる「フォールバックオプション」を設計した。"
+  "tldr_ja": "本論文では、ページ移動問題に対するオンラインアルゴリズムが、予測を利用することで性能を向上させることを示します。予測誤差率が0に近づくと、競争比率は1に収束します。また、任意の入力列に対して競争比率がO(1/q)以下になる「フォールバックオプション」を設計しました。これは機械学習を用いた古典的アルゴリズムの性能向上に寄与します。"
 }

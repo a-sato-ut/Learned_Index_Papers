@@ -2,5 +2,5 @@
   "paperId": "109d8d701f83497ca074e33f3d0443799fa28fe9",
   "title": "LISA: Towards Learned DNA Sequence Search",
   "abstract": "Next-generation sequencing (NGS) technologies have enabled affordable sequencing of billions of short DNA fragments at high throughput, paving the way for population-scale genomics. Genomics data analytics at this scale requires overcoming performance bottlenecks, such as searching for short DNA sequences over long reference sequences. In this paper, we introduce LISA (Learned Indexes for Sequence Analysis), a novel learning-based approach to DNA sequence search. As a first proof of concept, we focus on accelerating one of the most essential flavors of the problem, called exact search. LISA builds on and extends FM-index, which is the state-of-the-art technique widely deployed in genomics tool-chains. Initial experiments with human genome datasets indicate that LISA achieves up to a factor of 4X performance speedup against its traditional counterpart.",
-  "tldr_ja": "LISAは、次世代シーケンシングデータのための学習ベースのDNA配列検索手法で、従来のFM-indexを拡張し、正確な検索を高速化することで最大4倍の性能向上を実現します。"
+  "tldr_ja": "LISA（Learned Indexes for Sequence Analysis）は、次世代シーケンシングデータの解析におけるDNA配列検索を高速化する新しい学習ベースのアプローチです。従来のFM-indexを拡張し、正確な検索に特化した初期実験では、従来手法に対して最大4倍の性能向上を達成しました。"
 }

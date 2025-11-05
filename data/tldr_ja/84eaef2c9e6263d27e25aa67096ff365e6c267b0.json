@@ -2,5 +2,5 @@
   "paperId": "84eaef2c9e6263d27e25aa67096ff365e6c267b0",
   "title": "Are Updatable Learned Indexes Ready?",
   "abstract": "Recently, numerous promising results have shown that updatable learned indexes can perform better than traditional indexes with much lower memory space consumption. But it is unknown how these learned indexes compare against each other and against the traditional ones under realistic workloads with changing data distributions and concurrency levels. This makes practitioners still wary about how these new indexes would actually behave in practice. To fill this gap, this paper conducts the first comprehensive evaluation on updatable learned indexes. Our evaluation uses ten real datasets and various workloads to challenge learned indexes in three aspects: performance, memory space efficiency and robustness. Based on the results, we give a series of takeaways that can guide the future development and deployment of learned indexes.",
-  "tldr_ja": "アップデート可能な学習インデックスの実用性を評価した研究で、10の実データセットと様々なワークロードを用いて、性能、メモリ効率、堅牢性の観点から従来のインデックスと比較。結果を基に、今後の開発と導入に向けた指針を示す。"
+  "tldr_ja": "本論文では、更新可能な学習インデックスの性能を従来のインデックスと比較し、現実のデータ分布や同時実行レベルにおける評価を行った。10の実データセットを用いて、性能、メモリ効率、堅牢性の3つの側面から挑戦し、得られた結果を基に今後の開発と展開に向けた指針を示している。"
 }

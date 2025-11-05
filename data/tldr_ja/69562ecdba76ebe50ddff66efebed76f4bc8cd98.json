@@ -2,5 +2,5 @@
   "paperId": "69562ecdba76ebe50ddff66efebed76f4bc8cd98",
   "title": "Accelerating long-read analysis on modern CPUs",
   "abstract": "Long read sequencing is now routinely used at scale for genomics and transcriptomics applications. Mapping of long reads or a draft genome assembly to a reference sequence is often one of the most time consuming steps in these applications. Here, we present techniques to accelerate minimap2, a widely used software for mapping. We present multiple optimizations using SIMD parallelization, efficient cache utilization and a learned index data structure to accelerate its three main computational modules, i.e., seeding, chaining and pairwise sequence alignment. These result in reduction of end-to-end mapping time of minimap2 by up to 1.8 × while maintaining identical output.",
-  "tldr_ja": "長いリードシーケンシングの解析を高速化するために、minimap2ソフトウェアの主要な計算モジュールに対してSIMD並列化やキャッシュ効率の向上、学習インデックス構造を用いた最適化を行い、マッピング時間を最大1.8倍短縮しました。"
+  "tldr_ja": "本研究では、長鎖リードの解析を加速するために、広く使用されるマッピングソフトウェアminimap2の最適化技術を提案します。SIMD並列化や効率的なキャッシュ利用、学習インデックス構造を活用し、シード、チェイニング、ペアワイズ配列アライメントの処理を改善しました。これにより、minimap2のマッピング時間を最大1.8倍短縮し、出力は同一のまま維持されます。"
 }

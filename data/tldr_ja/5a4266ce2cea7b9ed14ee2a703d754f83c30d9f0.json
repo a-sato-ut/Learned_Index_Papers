@@ -2,5 +2,5 @@
   "paperId": "5a4266ce2cea7b9ed14ee2a703d754f83c30d9f0",
   "title": "Queues with Small Advice",
   "abstract": "Motivated by recent work on scheduling with predicted job sizes, we consider the performance of scheduling algorithms with minimal advice, namely a single bit. Besides demonstrating the power of very limited advice, such schemes are quite natural. In the prediction setting, one bit of advice can be used to model a simple prediction as to whether a job is \"large\" or \"small\"; that is, whether a job is above or below a given threshold. Further, one-bit advice schemes can correspond to mechanisms that tell whether to put a job at the front or the back for the queue, a limitation which may be useful in many implementation settings. Finally, queues with a single bit of advice have a simple enough state that they can be analyzed in the limiting mean-field analysis framework for the power of two choices. Our work follows in the path of recent work by showing that even small amounts of even possibly inaccurate information can greatly improve scheduling performance.",
-  "tldr_ja": "最小限のアドバイス（1ビット）を用いたスケジューリングアルゴリズムの性能を考察し、限られた情報でもスケジューリングの効率を大幅に向上させる可能性があることを示した。"
+  "tldr_ja": "本研究では、予測されたジョブサイズに基づくスケジューリングにおける最小限のアドバイス（1ビット）の効果を考察します。1ビットのアドバイスは、ジョブが「大」か「小」かを示す単純な予測に利用でき、キュー内でのジョブの配置を最適化します。この限られた情報でもスケジューリング性能を大幅に向上させる可能性があることを示しています。"
 }

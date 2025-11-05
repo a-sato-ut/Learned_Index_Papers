@@ -2,5 +2,5 @@
   "paperId": "d2ce1bb76757b3fea2902a8f85b5b98419df233d",
   "title": "Compressing (Multidimensional) Learned Bloom Filters",
   "abstract": "Bloom ﬁlters are widely used data structures that compactly represent sets of elements. Querying a Bloom ﬁlter reveals if an element is not included in the underlying set or is included with a certain error rate. This membership testing can be modeled as a binary classiﬁcation problem and solved through deep learning models, leading to what is called learned Bloom ﬁlters. We have identiﬁed that the beneﬁts of learned Bloom ﬁlters are apparent only when considering a vast amount of data, and even then, there is a possibility to further reduce their memory consumption. For that reason, we introduce a lossless input compression technique that improves the memory consumption of the learned model while preserving a comparable model accuracy. We evaluate our approach and show signiﬁcant memory consumption improvements over learned Bloom ﬁlters.",
-  "tldr": "新しいロスレス入力圧縮技術を導入し、学習したBloomフィルタのメモリ消費を改善しつつ、モデルの精度を維持することに成功した。"
+  "tldr": "This paper presents a lossless input compression technique for learned Bloom filters, enhancing memory efficiency while maintaining accuracy. The approach demonstrates significant reductions in memory usage, particularly beneficial when handling large datasets."
 }

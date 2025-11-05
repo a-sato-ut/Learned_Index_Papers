@@ -2,5 +2,5 @@
   "paperId": "57414dc5efedb58c7ae51ba397e30c79c59c13eb",
   "title": "External vs. Internal: An Essay on Machine Learning Agents for Autonomous Database Management Systems",
   "abstract": "There are many possible ways to configure database management systems (DBMSs) have challenging to manage and set.The problem increased in large-scale deployments with thousands or millions of individual DBMS that each have their setting requirements. Recent research has explored using machine learning-based (ML) agents to overcome this problem's automated tuning of DBMSs. These agents extract performance metrics and behavioral information from the DBMS and then train models with this data to select tuning actions that they predict will have the most benefit. This paper discusses two engineering approaches for integrating ML agents in a DBMS. The first is to build an external tuning controller that treats the DBMS as a black box. The second is to incorporate the ML agents natively in the DBMS's architecture.",
-  "tldr_ja": "データベース管理システム（DBMS）の自動調整において、機械学習エージェントを活用する2つのアプローチ（外部チューニングコントローラーと内部統合）を提案し、特に大規模なDBMSの設定管理の課題を解決する方法を論じる。"
+  "tldr_ja": "本論文では、データベース管理システム（DBMS）の自動チューニングにおける機械学習（ML）エージェントの統合方法について議論しています。外部チューニングコントローラーと、DBMSのアーキテクチャにMLエージェントを組み込む2つのアプローチを提案し、パフォーマンス向上のための最適なチューニングアクションの選択に焦点を当てています。"
 }

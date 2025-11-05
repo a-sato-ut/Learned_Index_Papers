@@ -2,5 +2,5 @@
   "paperId": "df223699fcf24906444be350759a66836f5c18f1",
   "title": "COAX: Correlation-Aware Indexing",
   "abstract": "We present COAX, a learned index for multidimensional data that learns the correlations between attributes of the dataset. Our approach is driven by the observation that in many datasets, values of multiple attributes are correlated. COAX exploits these correlations to reduce the dimensionality of the datasets, hence making the index smaller and more efficient. Experimental results show that by predicting correlated attributes in the data, we can improve the query execution time and reduce the memory overhead of the index. In our experiments, we reduce the execution time by 25% while reducing the memory footprint of the index by four orders of magnitude.",
-  "tldr_ja": "COAXは、多次元データの相関を学習するインデックスで、属性間の相関を利用してデータの次元を削減し、クエリ実行時間を25%短縮し、インデックスのメモリ使用量を4桁削減することに成功した。"
+  "tldr_ja": "COAXは、多次元データのための学習型インデックスで、データセットの属性間の相関を学習します。この手法により、相関を利用してデータの次元を削減し、インデックスを小型化・効率化します。実験結果では、クエリ実行時間を25%短縮し、インデックスのメモリ使用量を4桁削減できることが示されました。"
 }

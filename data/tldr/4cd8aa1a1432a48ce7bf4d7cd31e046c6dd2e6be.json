@@ -2,5 +2,5 @@
   "paperId": "4cd8aa1a1432a48ce7bf4d7cd31e046c6dd2e6be",
   "title": "Learning From User-Specified Optimizer Hints in Database Systems",
   "abstract": "Abstract Recently, numerous machine learning (ML) techniques have been applied to address database performance management problems, including cardinality estimation, cost modeling, optimal join order prediction, hint generation, etc. In this paper, we focus on query optimizer hints employed by users in their queries in order to mask some Query Optimizer deficiencies. We treat the query optimizer hints, bound to previous queries, as significant additional query metadata and learn to automatically predict which new queries will pose similar performance challenges and should therefore also be supported by query optimizer hints. To validate our approach, we have performed a number of experiments using real-life SQL workloads and we achieved promising results.",
-  "tldr": "この論文では、ユーザーが指定したクエリ最適化ヒントを利用して、データベースのパフォーマンス管理を改善する手法を提案し、実際のSQLワークロードを用いた実験で有望な結果を得たことを報告しています。"
+  "tldr": "This paper explores using user-specified optimizer hints in database systems to enhance query performance. By treating these hints as valuable metadata, the authors develop a method to predict which new queries may need similar support, achieving promising results in experiments with real SQL workloads."
 }

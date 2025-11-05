@@ -2,5 +2,5 @@
   "paperId": "0d573d5f27504e51727b8c1f2be2f206e6a9cc18",
   "title": "In-network Neural Networks",
   "abstract": "We present N2Net, a system that implements binary neural networks using commodity switching chips deployed in network switches and routers. Our system shows that these devices can run simple neural network models, whose input is encoded in the network packets' header, at packet processing speeds (billions of packets per second). Furthermore, our experience highlights that switching chips could support even more complex models, provided that some minor and cheap modifications to the chip's design are applied. We believe N2Net provides an interesting building block for future end-to-end networked systems.",
-  "tldr_ja": "N2Netは、ネットワークスイッチやルーターの汎用スイッチングチップを用いてバイナリニューラルネットワークを実装するシステムで、パケット処理速度で簡単なニューラルネットワークモデルを実行できることを示しています。さらに、チップの設計に少しの修正を加えることで、より複雑なモデルもサポート可能です。"
+  "tldr_ja": "N2Netは、ネットワークスイッチやルーターの一般的なスイッチングチップを用いてバイナリニューラルネットワークを実装するシステムです。このシステムは、パケット処理速度でシンプルなニューラルネットワークモデルを実行できることを示し、スイッチングチップの設計を少し変更することで、より複雑なモデルのサポートも可能です。N2Netは将来のネットワークシステムの基盤となる可能性があります。"
 }

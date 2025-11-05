@@ -2,5 +2,5 @@
   "paperId": "1b4bf5b9348b5e8712efcc3cd750ccc81861199d",
   "title": "Parsimonious Learning-Augmented Caching",
   "abstract": "Learning-augmented algorithms -- in which, traditional algorithms are augmented with machine-learned predictions -- have emerged as a framework to go beyond worst-case analysis. The overarching goal is to design algorithms that perform near-optimally when the predictions are accurate yet retain certain worst-case guarantees irrespective of the accuracy of the predictions. This framework has been successfully applied to online problems such as caching where the predictions can be used to alleviate uncertainties. In this paper we introduce and study the setting in which the learning-augmented algorithm can utilize the predictions parsimoniously. We consider the caching problem -- which has been extensively studied in the learning-augmented setting -- and show that one can achieve quantitatively similar results but only using a sublinear number of predictions.",
-  "tldr_ja": "学習を活用したアルゴリズムにおいて、予測を効率的に利用することで、キャッシング問題に対して従来の手法と同等の結果を得られることを示した。"
+  "tldr_ja": "本論文では、学習を活用したアルゴリズムが予測を効果的に利用する方法を提案し、特にキャッシング問題に焦点を当てています。従来の手法と比較して、少ない予測を用いても同等の性能を達成できることを示し、最悪ケースの保証を維持しつつ、予測精度が高い場合には最適に近い結果を得ることが可能であることを明らかにしています。"
 }

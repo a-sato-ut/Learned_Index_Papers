@@ -2,5 +2,5 @@
   "paperId": "7eff8a9dd12537613da104a5a8bba523d4fe3474",
   "title": "Online Metric Algorithms with Untrusted Predictions",
   "abstract": "Machine-learned predictors, although achieving very good results for inputs resembling training data, cannot possibly provide perfect predictions in all situations. Still, decision-making systems that are based on such predictors need not only benefit from good predictions, but should also achieve a decent performance when the predictions are inadequate. In this article, we propose a prediction setup for arbitrary metrical task systems (MTS) (e.g., caching, k-server, and convex body chasing) and online matching on the line. We utilize results from the theory of online algorithms to show how to make the setup robust. Specifically, for caching, we present an algorithm whose performance, as a function of the prediction error, is exponentially better than what is achievable for general MTS. Finally, we present an empirical evaluation of our methods on real-world datasets, which suggests practicality.",
-  "tldr_ja": "機械学習による予測は完璧ではないが、予測が不十分な状況でも良好な性能を維持するための手法を提案。特にキャッシングにおいて、予測誤差に対して指数的に優れたアルゴリズムを示し、実データでの評価も行った。"
+  "tldr_ja": "機械学習による予測は訓練データに似た入力には効果的だが、全ての状況で完璧な予測は不可能である。本研究では、予測が不十分な場合でも良好な性能を維持するためのメトリカルタスクシステム向けの予測設定を提案し、特にキャッシングにおいて予測誤差に対して指数的に優れたアルゴリズムを示す。実データでの評価も行い、実用性を示唆している。"
 }

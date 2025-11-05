@@ -2,5 +2,5 @@
   "paperId": "65567e231282623f2948489fa11ff1b304dd855b",
   "title": "Integrating Machine Learning Model Ensembles to the SAVIME Database System",
   "abstract": "The integration of machine learning algorithms into database systems has brought new opportunities in different areas from indexing to query optimization. In this paper, we describe the integration of an approach for the automatic computation of model ensembles to answer a predictive query. We have extended the SAVIME multi-dimensional array DBMS by adding a new function to its query language and implementing the selection and allocation ensemble model dataflow into the query processing component of SAVIME. We show some initial experimental results depicting its performance against a pure Python implementation of the ensemble approach. Interestingly enough the C++ implementation within SAVIME is up to 4 times faster than its competitor.",
-  "tldr_ja": "機械学習モデルのアンサンブルをSAVIMEデータベースシステムに統合し、予測クエリに対する自動計算機能を追加した結果、C++実装が純粋なPython実装より最大4倍高速であることを示した。"
+  "tldr_ja": "本論文では、データベースシステムSAVIMEに機械学習モデルのアンサンブル計算機能を統合し、予測クエリへの応答を自動化する手法を提案しています。新たなクエリ言語機能を追加し、SAVIMEのクエリ処理にアンサンブルモデルのデータフローを実装しました。初期実験結果では、C++実装が純粋なPython実装に比べて最大4倍の速度向上を示しました。"
 }

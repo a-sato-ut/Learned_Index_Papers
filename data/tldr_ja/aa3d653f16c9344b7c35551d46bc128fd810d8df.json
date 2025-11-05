@@ -2,5 +2,5 @@
   "paperId": "aa3d653f16c9344b7c35551d46bc128fd810d8df",
   "title": "ALISA: An Adaptive Learned Index Structure for Spatial Data on Solid-State Drives",
   "abstract": "Spatial learned index is becoming popular as a solution to relieve the intense storage demands and high I/O costs of spatial databases. LISA, the original and most prominent spatial learned index structure, is tailored for HDD-resident spatial data and comes with strict data arrangement requirements. Given that direct SSD migration may drastically impair SSD durability especially when page utilization is low, this work aims to adapt this innovative index structure to SSDs to leverage the faster performance and expand application possibilities. We propose an Adaptive Learned Index structure for Spatial dAta on SSDs (ALISA), with mechanisms to persistently monitor updated data distribution and adaptively restructure to align with SSD access characteristics. The evaluation results show that ALISA can significantly extend SSD lifespan and improve low page utilization, thereby enhancing query performance.",
-  "tldr_ja": "ALISAは、SSD向けに適応された空間学習インデックス構造で、データ分布を持続的に監視し、SSDのアクセス特性に合わせて再構築することで、SSDの寿命を延ばし、クエリ性能を向上させることを目指しています。"
+  "tldr_ja": "ALISAは、SSD上の空間データに適応した学習インデックス構造で、従来のLISAを改良しています。データ分布を持続的に監視し、SSDのアクセス特性に合わせて再構築することで、SSDの寿命を延ばし、クエリ性能を向上させます。評価結果は、低ページ利用時の性能改善を示しています。"
 }

@@ -2,5 +2,5 @@
   "paperId": "86ca08000bcf0d21454693d47675157bb1b586b8",
   "title": "Learned Index Baseado na Predição de Vértices iniciais em Grafos de Proximidade",
   "abstract": "Buscas por similaridade em dados complexos utilizam métodos para acelerar consultas, como a aproximação espacial em grafos de proximidade, que sofre com o problema da escolha do vértice inicial. Recentemente, learned indexes surgiram utilizando aprendizado de máquina para modelar a distribuição de dados e outras características, apresentando resultados promissores. Este artigo apresenta um learned index eficiente sobre métodos baseados em grafos para buscas por similaridade. O método proposto aplica aprendizado supervisionado para predição dos vértices iniciais de busca. O método reduziu o número de computações de distância necessárias para alcançar uma alta taxa de recall em vários conjuntos de dados avaliados.",
-  "tldr_ja": "グラフベースの類似検索において、初期頂点の予測に機械学習を用いた効率的な学習インデックスを提案し、計算量を削減しつつ高いリコール率を達成した。"
+  "tldr_ja": "本論文では、グラフベースの類似検索における初期頂点選択の問題を解決するために、機械学習を用いた効率的な学習インデックスを提案します。提案手法は、監視学習を通じて初期頂点を予測し、計算距離の削減を実現しつつ、高いリコール率を維持しました。"
 }

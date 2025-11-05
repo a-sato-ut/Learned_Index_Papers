@@ -2,5 +2,5 @@
   "paperId": "4d0a105776ca30a7a0242bce57d1a77b493568ae",
   "title": "Survive the Schema Changes: Integration of Unmanaged Data Using Deep Learning",
   "abstract": "Data is the king in the age of AI. However data integration is often a laborious task that is hard to automate. Schema change is one significant obstacle to the automation of the end-to-end data integration process. Although there exist mechanisms such as query discovery and schema modification language to handle the problem, these approaches can only work with the assumption that the schema is maintained by a database. However, we observe diversified schema changes in heterogeneous data and open data, most of which has no schema defined. In this work, we propose to use deep learning to automatically deal with schema changes through a super cell representation and automatic injection of perturbations to the training data to make the model robust to schema changes. Our experimental results demonstrate that our proposed approach is effective for two real-world data integration scenarios: coronavirus data integration, and machine log integration.",
-  "tldr_ja": "深層学習を用いて、スキーマ変更に対応したデータ統合を自動化する手法を提案し、実際のコロナウイルスデータと機械ログの統合で効果を示した。"
+  "tldr_ja": "本研究では、深層学習を用いてスキーマ変更を自動的に処理する手法を提案します。従来の方法がデータベースのスキーマ維持を前提とする中、異種データやオープンデータの多様なスキーマ変更に対応。実験結果は、コロナウイルスデータと機械ログの統合において有効性を示しました。"
 }

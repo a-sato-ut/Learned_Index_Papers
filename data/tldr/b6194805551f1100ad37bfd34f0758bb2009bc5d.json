@@ -2,5 +2,5 @@
   "paperId": "b6194805551f1100ad37bfd34f0758bb2009bc5d",
   "title": "On the Choice of General Purpose Classifiers in Learned Bloom Filters: An Initial Analysis Within Basic Filters",
   "abstract": "Bloom Filters are a fundamental and pervasive data structure. Within the growing area of Learned Data Structures, several Learned versions of Bloom Filters have been considered, yielding advantages over classic Filters. Each of them uses a classifier, which is the Learned part of the data structure. Although it has a central role in those new filters, and its space footprint as well as classification time may affect the performance of the Learned Filter, no systematic study of which specific classifier to use in which circumstances is available. We report progress in this area here, providing also initial guidelines on which classifier to choose among five classic classification paradigms.",
-  "tldr": "この研究では、学習型ブルームフィルタにおける分類器の選択に関する初期分析を行い、5つの古典的分類パラダイムの中から適切な分類器を選ぶためのガイドラインを提供しています。"
+  "tldr": "This paper explores the selection of classifiers in Learned Bloom Filters, highlighting their impact on performance. It presents initial guidelines for choosing among five classic classification paradigms, addressing a gap in systematic studies on this topic."
 }

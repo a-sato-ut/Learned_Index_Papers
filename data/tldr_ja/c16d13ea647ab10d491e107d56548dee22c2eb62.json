@@ -2,5 +2,5 @@
   "paperId": "c16d13ea647ab10d491e107d56548dee22c2eb62",
   "title": "Making In-Memory Learned Indexes Efficient on Disk",
   "abstract": "Learned indexes have been demonstrated to outperform traditional ones in memory-resident scenarios. However, recent studies show that they fail to outperform B+tree when extended to disks directly. In this paper, we argue that it is feasible to create efficient disk-based learned indexes by applying a set of general transformations and optimizations to existing in-memory ones. Through theoretical analysis and controlled experiments, we propose six transformation guidelines applicable to various state-of-the-art learned index structures to fully leverage the characteristics of disk storage. Our evaluation shows that the indexes developed by applying our guidelines achieve a Pareto improvement in both throughput and space efficiency compared to the traditional B+tree and previous implementations of disk-based learned indexes.",
-  "tldr_ja": "ディスク上での効率的な学習インデックスを実現するために、既存のメモリ内学習インデックスに対して一般的な変換と最適化を適用することが可能であると主張し、提案したガイドラインに基づくインデックスが従来のB+ツリーや以前のディスクベースの学習インデックスよりもスループットと空間効率の両方で改善を達成することを示した。"
+  "tldr_ja": "本論文では、メモリ上での学習インデックスが従来のものより優れている一方、ディスク上ではB+ツリーに劣ることを指摘。既存のメモリ型インデックスに変換と最適化を施すことで、ディスク上でも効率的な学習インデックスを実現できると主張。提案した6つの変換ガイドラインを適用した結果、スループットと空間効率の両面でB+ツリーを上回る成果を得た。"
 }

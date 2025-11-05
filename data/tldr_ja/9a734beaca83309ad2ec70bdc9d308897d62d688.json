@@ -2,5 +2,5 @@
   "paperId": "9a734beaca83309ad2ec70bdc9d308897d62d688",
   "title": "Deep Learning Service for Efficient Data Distribution Aware Sorting",
   "abstract": "In this paper, we present a neural network-enabled data distribution aware sorting method, coined as NN-sort. Our approach explores the potential of developing deep learning techniques to speed up large-scale sort operations, enabling data distribution aware sorting as a deep learning service. Compared to traditional pairwise comparison-based sorting algorithms, which sort data elements by performing pairwise operations, NN-sort leverages the neural network model to learn the data distribution and uses it to map large-scale data elements into ordered ones. Our experiments demonstrate the significant advantage of using NN-sort. Measurements on both synthetic and real-world datasets show that NN-sort yields 2.18× to 10× performance improvement over traditional sorting algorithms.",
-  "tldr_ja": "NN-sortという深層学習を活用したデータ分布に基づくソート手法を提案し、従来のソートアルゴリズムに比べて2.18倍から10倍の性能向上を実現した。"
+  "tldr_ja": "本論文では、ニューラルネットワークを活用したデータ分布を考慮したソート手法「NN-sort」を提案します。従来の比較ベースのソートアルゴリズムに対し、NN-sortはデータ分布を学習し、大規模データを効率的に整列させることが可能です。実験結果では、NN-sortが従来手法に比べて2.18倍から10倍の性能向上を示しました。"
 }

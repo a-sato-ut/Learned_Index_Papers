@@ -2,5 +2,5 @@
   "paperId": "b0e358ef3cd8533829c2e38c4a3fb8b6b1eb4aae",
   "title": "Orderings of Data - More Than a Tripping Hazard: Visionary",
   "abstract": "As data processing techniques get more and more sophisticated every day, many of us researchers often get lost in the details and subtleties of the algorithms we are developing and far too easily seem to forget to look also at the very first steps of every algorithm: the input of the data. Since there are plenty of library functions for this task, we indeed do not have to think about this part of the pipeline anymore. But maybe we should. All data is stored and loaded into a program in some order. In this vision paper we study how ignoring this order can (1) lead to performance issues and (2) make research results unreproducible. We furthermore examine desirable properties of a data ordering and why current approaches are often not suited to tackle the two mentioned problems.",
-  "tldr_ja": "データ処理の進化に伴い、アルゴリズムの入力データの順序を無視することが性能問題や再現性の欠如を引き起こす可能性があることを指摘し、データの順序に関する望ましい特性と現行のアプローチの限界を考察する。"
+  "tldr_ja": "データ処理技術が進化する中、アルゴリズムの入力データの順序を無視することが性能問題や研究結果の再現性に影響を与える可能性がある。本論文では、データの順序が重要である理由と、現在のアプローチがこれらの問題に適していない理由を考察する。"
 }

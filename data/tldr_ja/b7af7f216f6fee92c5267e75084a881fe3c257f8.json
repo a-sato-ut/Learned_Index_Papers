@@ -2,5 +2,5 @@
   "paperId": "b7af7f216f6fee92c5267e75084a881fe3c257f8",
   "title": "LotusFilter: Fast Diverse Nearest Neighbor Search via a Learned Cutoff Table",
   "abstract": "Approximate nearest neighbor search (ANNS) is an essential building block for applications like RAG but can sometimes yield results that are overly similar to each other. In certain scenarios, search results should be similar to the query and yet diverse. We propose LotusFilter, a post-processing module to diversify ANNS results. We precompute a cutoff table summarizing vectors that are close to each other. During the filtering, LotusFilter greedily looks up the table to delete redundant vectors from the candidates. We demonstrated that the LotusFilter operates fast (0.02 [ms/query]) in settings resembling real-world RAG applications, utilizing features such as OpenAI embeddings. Our code is publicly available at https://github.com/matsui528/lotf.",
-  "tldr_ja": "LotusFilterは、近似最近傍検索の結果を多様化するためのポストプロセッシングモジュールであり、事前に計算したカットオフテーブルを用いて冗長なベクトルを削除することで、迅速（0.02ms/クエリ）に多様な検索結果を提供します。"
+  "tldr_ja": "LotusFilterは、近似最近傍探索（ANNS）の結果を多様化するためのポストプロセッシングモジュールです。事前に近接ベクトルを要約したカットオフテーブルを用い、冗長なベクトルを削除することで、検索結果の多様性を向上させます。実際のアプリケーションにおいても迅速に動作し、コードは公開されています。"
 }

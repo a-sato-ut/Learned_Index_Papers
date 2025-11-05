@@ -2,5 +2,5 @@
   "paperId": "60136714c73af33f68c733c3e41313d0cc6eddcc",
   "title": "Learning-Augmented Frequency Estimation in Sliding Windows",
   "abstract": "We show how to utilize machine learning approaches to improve sliding window algorithms for approximate frequency estimation problems, under the “algorithms with predictions” framework. In this dynamic environment, previous learning-augmented algorithms are less effective, since properties in sliding window resolution can differ significantly from the properties of the entire stream. Our focus is on the benefits of predicting and filtering out items with large next arrival times – that is, there is a large gap until their next appearance – from the stream, which we show improves the memory-accuracy tradeoffs significantly. We provide theorems that provide insight into how and by how much our technique can improve the sliding window algorithm, as well as experimental results using real-world data sets. Our work demonstrates that predictors can be useful in the challenging sliding window setting.",
-  "tldr_ja": "機械学習を活用して、スライディングウィンドウアルゴリズムの近似周波数推定を改善する手法を提案し、特に次回出現までの時間が長いアイテムを予測・除外することでメモリと精度のトレードオフを大幅に向上させることを示した。"
+  "tldr_ja": "本研究では、機械学習を活用してスライディングウィンドウアルゴリズムによる近似周波数推定を改善する方法を示します。特に、次回出現までの時間が長いアイテムを予測・除外することで、メモリと精度のトレードオフが大幅に向上することを実証しました。理論的な証明と実データを用いた実験結果も提供しています。"
 }

@@ -2,5 +2,5 @@
   "paperId": "34fc9dab7537eeffaf1cd6522b948fa4997c60ec",
   "title": "Faster Global Minimum Cut with Predictions",
   "abstract": "Global minimum cut is a fundamental combinatorial optimization problem with wide-ranging applications. Often in practice, these problems are solved repeatedly on families of similar or related instances. However, the de facto algorithmic approach is to solve each instance of the problem from scratch discarding information from prior instances. In this paper, we consider how predictions informed by prior instances can be used to warm-start practical minimum cut algorithms. The paper considers the widely used Karger's algorithm and its counterpart, the Karger-Stein algorithm. Given good predictions, we show these algorithms become near-linear time and have robust performance to erroneous predictions. Both of these algorithms are randomized edge-contraction algorithms. Our natural idea is to probabilistically prioritize the contraction of edges that are unlikely to be in the minimum cut.",
-  "tldr_ja": "過去のインスタンスから得た予測を活用することで、グローバル最小カット問題の解法を効率化し、Karger'sアルゴリズムとKarger-Steinアルゴリズムの実行時間をほぼ線形に短縮できることを示す。"
+  "tldr_ja": "本論文では、グローバルミニマムカット問題において、過去のインスタンスからの予測を利用してアルゴリズムを効率化する方法を提案します。Karger'sアルゴリズムとKarger-Steinアルゴリズムを対象に、良好な予測があれば、これらのアルゴリズムがほぼ線形時間で動作し、誤った予測にも強い性能を示すことを示しています。"
 }

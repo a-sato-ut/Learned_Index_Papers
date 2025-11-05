@@ -2,5 +2,5 @@
   "paperId": "88af2c818b86e02a2fbbf7022d1b1a0c9a76d629",
   "title": "Considerations for handling updates in learned index structures",
   "abstract": "Machine learned models have recently been suggested as a rival for index structures such as B-trees and hash tables. An optimized learned index potentially has a significantly smaller memory footprint compared to its algorithmic counterparts, which alleviates the relatively high computational complexity of ML models. One unexplored aspect of learned index structures, however, is handling updates to the data and hence the model. In this paper we therefore discuss updates to the data and their implications for the model. Moreover, we suggest a method for eliminating the drift - the error of learned index models caused by the updates to the index- so that the learned model can maintain its performance under higher update rates.",
-  "tldr": "この論文では、機械学習を用いたインデックス構造の更新処理に関する考察を行い、データ更新によるモデルの誤差を軽減する方法を提案しています。"
+  "tldr": "This paper explores the challenges of updating learned index structures, which are more memory-efficient than traditional indexes like B-trees. It discusses the impact of data updates on model performance and proposes a method to mitigate errors caused by these updates."
 }

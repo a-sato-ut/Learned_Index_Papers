@@ -2,5 +2,5 @@
   "paperId": "92aed22dcf8626f79d9aa3a5a23d28b799ca341e",
   "title": "Paella: Low-latency Model Serving with Software-defined GPU Scheduling",
   "abstract": "Model serving systems play a critical role in multiplexing machine learning inference jobs across shared GPU infrastructure. These systems have traditionally sat at a high level of abstraction---receiving jobs from clients through a narrow API and relying on black-box GPU scheduling mechanisms when dispatching them. Fundamental limitations in the built-in GPU hardware scheduler, in particular, can lead to inefficiency when executing concurrent jobs. The current abstraction level also incurs system overheads that are similarly most significant when the GPU is heavily shared. In this paper, we argue for co-designing the model compiler, local clients, and the scheduler to bypass the built-in GPU scheduler and enable software control of kernel execution order. Doing so enables the use of arbitrary scheduling algorithms and reduces system overheads throughout the critical path of inference.",
-  "tldr_ja": "Paellaは、GPUのソフトウェア制御によるスケジューリングを活用し、機械学習の推論ジョブを効率的に処理するモデルサービングシステムを提案します。これにより、従来のハードウェアスケジューラの制約を克服し、システムのオーバーヘッドを削減します。"
+  "tldr_ja": "本論文では、GPUインフラを共有する機械学習推論ジョブの効率的な処理のために、モデルコンパイラ、ローカルクライアント、スケジューラの共同設計を提案します。これにより、従来のGPUスケジューラを回避し、任意のスケジューリングアルゴリズムを使用できるようにし、システムオーバーヘッドを削減します。"
 }

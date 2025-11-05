@@ -50,7 +50,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     authors: true,
     year: true,
     conference: true,
-    link_to_paper: true,
+    tags: true,
+    cited_by: true,
+    referenceCount: true,
+    links_to_paper: true,
   });
 
   const fetchTags = async () => {
@@ -1705,7 +1708,21 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     const [jsonOutput, setJsonOutput] = useState<string>('');
 
     const generateJson = () => {
-      const papersList = papers.map(paper => {
+      // 年順にソート（新しい順、年がない場合は最後に）
+      const sortedPapers = [...papers].sort((a, b) => {
+        if (a.year === undefined || a.year === null) {
+          if (b.year === undefined || b.year === null) {
+            return 0;
+          }
+          return -1; // aが年なし、bが年あり → aを後ろに
+        }
+        if (b.year === undefined || b.year === null) {
+          return 1; // aが年あり、bが年なし → aを前に
+        }
+        return a.year - b.year; // 新しい順（降順）
+      });
+
+      const papersList = sortedPapers.map(paper => {
         const paperObj: Record<string, any> = {};
         
         if (fields.title && paper.title) {
@@ -1729,15 +1746,31 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         if (fields.conference && paper.venue) {
           paperObj.conference = paper.venue;
         }
-        if (fields.link_to_paper) {
+        if (fields.tags && paper.tags && paper.tags.length > 0) {
+          paperObj.tags = paper.tags;
+        }
+        if (fields.cited_by) {
+          paperObj.cited_by = paper.citationCount;
+        }
+        if (fields.referenceCount) {
+          paperObj.referenceCount = paper.referenceCount;
+        }
+        if (fields.links_to_paper) {
+          const links: string[] = [];
           if (paper.openAccessPdf) {
-            paperObj.link_to_paper = paper.openAccessPdf;
-          } else if (paper.url) {
-            paperObj.link_to_paper = paper.url;
-          } else if (paper.arxivId) {
-            paperObj.link_to_paper = `https://arxiv.org/abs/${paper.arxivId}`;
-          } else if (paper.doi) {
-            paperObj.link_to_paper = `https://doi.org/${paper.doi}`;
+            links.push(paper.openAccessPdf);
+          }
+          if (paper.url) {
+            links.push(paper.url);
+          }
+          if (paper.arxivId) {
+            links.push(`https://arxiv.org/abs/${paper.arxivId}`);
+          }
+          if (paper.doi) {
+            links.push(`https://doi.org/${paper.doi}`);
+          }
+          if (links.length > 0) {
+            paperObj.links_to_paper = links;
           }
         }
         
@@ -2395,6 +2428,19 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             </div>
           </div>
           <StatisticsSection papers={tagResult.papers} />
+          <JsonExportSection 
+            papers={tagResult.papers}
+            isOpen={jsonExportOpen}
+            onToggle={() => setJsonExportOpen(!jsonExportOpen)}
+            fields={jsonExportFields}
+            onFieldsChange={(newFields) => {
+              if (typeof newFields === 'function') {
+                setJsonExportFields((prev) => newFields(prev));
+              } else {
+                setJsonExportFields(newFields);
+              }
+            }}
+          />
         </>
       )}
 
@@ -2413,6 +2459,19 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             </div>
           </div>
           <StatisticsSection papers={authorResult.papers} />
+          <JsonExportSection 
+            papers={authorResult.papers}
+            isOpen={jsonExportOpen}
+            onToggle={() => setJsonExportOpen(!jsonExportOpen)}
+            fields={jsonExportFields}
+            onFieldsChange={(newFields) => {
+              if (typeof newFields === 'function') {
+                setJsonExportFields((prev) => newFields(prev));
+              } else {
+                setJsonExportFields(newFields);
+              }
+            }}
+          />
         </>
       )}
 
@@ -2431,6 +2490,19 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             </div>
           </div>
           <StatisticsSection papers={venueResult.papers} />
+          <JsonExportSection 
+            papers={venueResult.papers}
+            isOpen={jsonExportOpen}
+            onToggle={() => setJsonExportOpen(!jsonExportOpen)}
+            fields={jsonExportFields}
+            onFieldsChange={(newFields) => {
+              if (typeof newFields === 'function') {
+                setJsonExportFields((prev) => newFields(prev));
+              } else {
+                setJsonExportFields(newFields);
+              }
+            }}
+          />
         </>
       )}
     </div>

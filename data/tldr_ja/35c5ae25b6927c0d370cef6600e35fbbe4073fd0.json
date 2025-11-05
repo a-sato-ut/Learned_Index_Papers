@@ -2,5 +2,5 @@
   "paperId": "35c5ae25b6927c0d370cef6600e35fbbe4073fd0",
   "title": "NeuroCard",
   "abstract": "Query optimizers rely on accurate cardinality estimates to produce good execution plans. Despite decades of research, existing cardinality estimators are inaccurate for complex queries, due to making lossy modeling assumptions and not capturing inter-table correlations. In this work, we show that it is possible to learn the correlations across all tables in a database without any independence assumptions. We present NeuroCard, a join cardinality estimator that builds a single neural density estimator over an entire database. Leveraging join sampling and modern deep autoregressive models, NeuroCard makes no inter-table or inter-column independence assumptions in its probabilistic modeling. NeuroCard achieves orders of magnitude higher accuracy than the best prior methods (a new state-of-the-art result of 8.5x maximum error on JOB-light), scales to dozens of tables, while being compact in space (several MBs) and efficient to construct or update (seconds to minutes).",
-  "tldr_ja": "NeuroCardは、データベース内の全テーブル間の相関を学習する新しい結合基数推定器であり、従来の手法よりも8.5倍の最大誤差を達成し、数十のテーブルにスケール可能で、コンパクトかつ効率的に構築・更新できる。"
+  "tldr_ja": "NeuroCardは、データベース内のすべてのテーブル間の相関を学習する新しい結合カーディナリティ推定器です。従来の手法と異なり、独立性の仮定を用いず、深層自己回帰モデルを活用して高精度な推定を実現します。最大誤差8.5倍の新たな最先端結果を達成し、数十のテーブルにスケール可能で、コンパクトかつ迅速に構築・更新できます。"
 }

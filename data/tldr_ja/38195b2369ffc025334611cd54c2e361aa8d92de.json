@@ -2,5 +2,5 @@
   "paperId": "38195b2369ffc025334611cd54c2e361aa8d92de",
   "title": "Improved Cardinality Estimation by Learning Queries Containment Rates",
   "abstract": "The containment rate of query Q1 in query Q2 over database D is the percentage of Q1's result tuples over D that are also in Q2's result over D. We directly estimate containment rates between pairs of queries over a specific database. For this, we use a specialized deep learning scheme, CRN, which is tailored to representing pairs of SQL queries. Result-cardinality estimation is a core component of query optimization. We describe a novel approach for estimating queries result-cardinalities using estimated containment rates among queries. This containment rate estimation may rely on CRN or embed, unchanged, known cardinality estimation methods. Experimentally, our novel approach for estimating cardinalities, using containment rates between queries, on a challenging real-world database, realizes significant improvements to state of the art cardinality estimation methods.",
-  "tldr_ja": "クエリの包含率を学習することで、データベースにおけるクエリ結果の推定精度を向上させる新しい手法を提案し、実験により従来の手法と比べて顕著な改善を達成した。"
+  "tldr_ja": "本研究では、データベースにおけるクエリの包含率を直接推定する新しい手法を提案します。特化した深層学習モデルCRNを用いて、クエリペアの結果の推定を行い、これを基にクエリの結果カーディナリティを改善します。実験により、従来の手法に比べて顕著な精度向上が確認されました。"
 }

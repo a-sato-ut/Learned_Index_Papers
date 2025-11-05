@@ -2,5 +2,5 @@
   "paperId": "78f8e9df95a2f12c534c14d88c6de1c16e98cbb3",
   "title": "Feasibility of Longest Prefix Matching using Learned Index Structures",
   "abstract": "This paper revisits longest prefix matching in IP packet forwarding because an emerging data structure, learned index, is recently presented. A learned index uses machine learning to associate key-value pairs in a key-value store. The fundamental idea to apply a learned index to an FIB is to simplify the complex longest prefix matching operation to a nearest address search operation. The size of the proposed FIB is less than half of an existing trie-based FIB while it achieves the computation speed nearly equal to the trie-based FIB. Moreover, the computation speed of the proposal is independent of the length of IP prefixes, unlike trie-based FIBs.",
-  "tldr_ja": "機械学習を用いた新しいデータ構造「学習インデックス」を活用し、IPパケット転送における最長接頭辞マッチングを効率化する手法を提案。提案されたFIBは、既存のトライベースのFIBの半分以下のサイズで、計算速度はほぼ同等であり、IPプレフィックスの長さに依存しない。"
+  "tldr_ja": "本論文では、IPパケット転送における最長接頭辞マッチングを、機械学習を用いた学習インデックス構造に基づいて再検討しています。提案するFIBは、既存のトライベースのFIBよりもサイズが半分以下でありながら、計算速度はほぼ同等です。また、提案手法はIPプレフィックスの長さに依存しない計算速度を実現しています。"
 }

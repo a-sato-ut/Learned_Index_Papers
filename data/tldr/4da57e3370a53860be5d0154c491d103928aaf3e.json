@@ -2,5 +2,5 @@
   "paperId": "4da57e3370a53860be5d0154c491d103928aaf3e",
   "title": "Cardinality Estimation of an SQL Query Using Recursive Neural Networks",
   "abstract": "To learn complex interactions between predicates and accurately estimate the cardinality of an SQL query, we develop a novel framework based on recursive tree-structured neural networks, which take into account the natural properties of logical expressions: compositionality and n-ary associativity. The proposed architecture is an extension of MSCN (multi-set convolutional network) for queries containing both conjunction and disjunction operators. The goal is to represent an arbitrary logical expression in a continuous vector space by combining sub-expression vectors according to the operator type. We compared the proposed approach with the histogram-based approach on the real-world dataset and showed that our approach significantly outperforms histograms with a large margin.",
-  "tldr": "新しい再帰的ニューラルネットワークフレームワークを用いて、SQLクエリのカーディナリティを正確に推定する手法を提案し、従来のヒストグラム手法と比較して大幅に性能を向上させた。"
+  "tldr": "This paper presents a framework using recursive neural networks for SQL query cardinality estimation, leveraging logical expression properties. It extends multi-set convolutional networks to improve accuracy over traditional histogram methods, demonstrating superior performance on real-world datasets."
 }

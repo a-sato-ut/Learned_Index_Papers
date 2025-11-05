@@ -2,5 +2,5 @@
   "paperId": "c84389369720dcd2f004c48e58fbac2c45c8f092",
   "title": "XIndex: a scalable learned index for multicore data storage",
   "abstract": "We present XIndex, a concurrent ordered index designed for fast queries. Similar to a recent proposal of the learned index, XIndex uses learned models to optimize index efficiency. Comparing with the learned index, XIndex is able to effectively handle concurrent writes without affecting the query performance by leveraging fine-grained synchronization and a new compaction scheme, Two-Phase Compaction. Furthermore, XIndex adapts its structure according to run-time workload characteristics to support dynamic workload. We demonstrate the advantages of XIndex with both YCSB and TPC-C (KV), a TPC-C variant for key-value stores. XIndex achieves up to 3.2X and 4.4X performance improvement comparing with Masstree and Wormhole, respectively, on a 24-core machine, and it is open-sourced1.",
-  "tldr_ja": "XIndexは、マルチコアデータストレージ向けに設計された高速クエリ対応の並行順序インデックスで、学習モデルを活用して効率を最適化し、同時書き込みを効果的に処理します。新しいコンパクション手法「Two-Phase Compaction」を採用し、動的なワークロードに適応することで、MasstreeやWormholeと比較して最大4.4倍の性能向上を実現しました。"
+  "tldr_ja": "XIndexは、高速クエリを実現するために設計された並列順序インデックスです。学習モデルを利用してインデックスの効率を最適化し、同時書き込みを効果的に処理します。新しいコンパクション手法「Two-Phase Compaction」を活用し、動的なワークロードに応じて構造を適応させることで、MasstreeやWormholeと比較して最大4.4倍の性能向上を達成しました。XIndexはオープンソースです。"
 }

@@ -2,5 +2,5 @@
   "paperId": "d495ba9b37f4cb57a74d2d097a1d9f72e363c02f",
   "title": "Fast and Accurate Weight Updating Strategy for Resistive Random-Access Memory (RRAM)-Based Neural Networks",
   "abstract": "The mathematical relationships between the operating voltages and the conductance of resistance random-access memory (RRAM) are found based on the statistical measurements of the 1-transistor 1-RRAM (1T1R) array. According to the corresponding relationships, a one-shot operation scheme without verification after programming is proposed for weight updating of RRAM-based neural networks. The proposed operation scheme enables parallel column-by-column SET and row-by-row RESET, which achieves fast and accurate conductance modulation in the 1T1R array. By utilizing the one-shot scheme for weight updating of the deep-Q network, the training efficiency improves 40 times compared with the incremental step pulse programming (ISPP) scheme.",
-  "tldr_ja": "RRAMベースのニューラルネットワークのために、プログラミング後の検証なしで重みを一度の操作で更新する新しい手法を提案し、トレーニング効率をISPP方式と比較して40倍向上させた。"
+  "tldr_ja": "RRAMベースのニューラルネットワークにおける重み更新のための新しい一回操作方式を提案。1T1Rアレイの統計的測定に基づき、プログラミング後の検証なしで、列ごとのSETと行ごとのRESETを並行して実行。これにより、深層Qネットワークのトレーニング効率が従来の方法に比べ40倍向上する。"
 }

@@ -2,5 +2,5 @@
   "paperId": "80b8693d872cf24c642365839ef93dedf26868d2",
   "title": "Synthesizing Machine Learning Programs with PAC Guarantees via Statistical Sketching",
   "abstract": "We study the problem of synthesizing programs that include machine learning components such as deep neural networks (DNNs). We focus on statistical properties, which are properties expected to hold with high probability -- e.g., that an image classification model correctly identifies people in images with high probability. We propose novel algorithms for sketching and synthesizing such programs by leveraging ideas from statistical learning theory to provide statistical soundness guarantees. We evaluate our approach on synthesizing list processing programs that include DNN components used to process image inputs, as well as case studies on image classification and on precision medicine. Our results demonstrate that our approach can be used to synthesize programs with probabilistic guarantees.",
-  "tldr_ja": "機械学習要素を含むプログラムの合成に関する研究で、統計的特性を利用した新しいアルゴリズムを提案し、画像処理や精密医療のケーススタディを通じて確率的保証を持つプログラムの合成が可能であることを示した。"
+  "tldr_ja": "本研究では、深層ニューラルネットワークを含む機械学習プログラムの合成において、統計的特性に基づく新しいアルゴリズムを提案します。統計的学習理論を活用し、高確率で正しい結果を保証するプログラムを合成する手法を評価し、画像分類や精密医療のケーススタディを通じて、確率的保証を持つプログラムの合成が可能であることを示しました。"
 }

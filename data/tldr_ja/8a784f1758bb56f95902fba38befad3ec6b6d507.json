@@ -2,5 +2,5 @@
   "paperId": "8a784f1758bb56f95902fba38befad3ec6b6d507",
   "title": "Kanva: A Lock-free Learned Search Data Structure",
   "abstract": "Lock-free concurrent data structures offer throughput with scalability and guarantees for the completion of operations on multicore computers. Recently, queries using machine learning models trained to predict the data distribution have gained remarkable attention. Yet, to our knowledge, no existing lock-free data structure employs them. This paper introduces a lock-free search structure that supports concurrent updates, membership, and range queries accelerated by a shallow hierarchy of lightweight machine learning models. The proposed approach significantly outperforms the current state-of-the-art lock-free data structures in many workload and data distribution settings. Ours is the first provably linearizable learned lock-free concurrent range search index.",
-  "tldr_ja": "本論文では、軽量な機械学習モデルを活用したロックフリーの検索データ構造「Kanva」を提案し、従来のロックフリー構造よりも優れた性能を示しています。"
+  "tldr_ja": "本論文では、マルチコアコンピュータ向けのロックフリー検索データ構造「Kanva」を提案します。この構造は、軽量な機械学習モデルを用いて同時更新やメンバーシップ、範囲クエリをサポートし、既存のロックフリーデータ構造よりも優れた性能を発揮します。初めて線形化可能な学習型ロックフリー範囲検索インデックスを実現しました。"
 }

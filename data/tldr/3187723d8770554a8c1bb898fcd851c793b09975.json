@@ -2,5 +2,5 @@
   "paperId": "3187723d8770554a8c1bb898fcd851c793b09975",
   "title": "Redis rehash optimization based on machine learning",
   "abstract": "This paper proposed an optimization for Redis rehash based on machine learning. Since Redis involves numbers of dimensions, only the process of Redis rehash was studied. In order to use Redis correctly, the principle of Redis rehash was analyzed firstly and then pointed out a feasible optimization scheme. Aiming at solving the problems that might exist in the rehash process, the scheme could predict the number of keys based on the time series model ARIMA. The result showed that the scheme was feasible in practice.",
-  "tldr": "This paper presents a machine learning-based optimization for Redis rehash, utilizing an ARIMA time series model to predict key numbers and improve the rehash process."
+  "tldr": "This paper presents a machine learning-based optimization for Redis rehash, focusing on analyzing its principles and proposing a scheme that uses the ARIMA time series model to predict key numbers. Results indicate the scheme's practical feasibility in improving rehash efficiency."
 }

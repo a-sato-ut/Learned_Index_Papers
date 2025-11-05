@@ -2,5 +2,5 @@
   "paperId": "2bb2693e792cccc9d018ac86c06f69c01867f9a0",
   "title": "START — Self-Tuning Adaptive Radix Tree",
   "abstract": "structures like the Adaptive Radix Tree (ART) are a central part of in-memory database systems. However, we found that radix nodes that index a single byte are not optimal for read-heavy workloads. In this work, we introduce START, a self-tuning variant of ART that uses nodes spanning multiple keybytes. To determine where to introduce these new node types, we propose a cost model and an optimizer. These components allow us to fine-tune an existing ART, reducing its overall height, and improving performance. As a result, START performs on average 85 % faster than a regular ART on a wide variety of read-only workloads and 45% faster for read-mostly workloads.",
-  "tldr_ja": "STARTは、複数のキーサイズを持つノードを用いる自己調整型のAdaptive Radix Treeで、従来のARTに比べて読み取り重視のワークロードで平均85%高速化し、読み取りが主のワークロードでも45%の性能向上を実現します。"
+  "tldr_ja": "STARTは、Adaptive Radix Tree（ART）の自己調整型で、複数のキーサイズを持つノードを使用することで、主に読み取り負荷の高いワークロードに最適化されています。コストモデルとオプティマイザーを用いてARTを微調整し、全体の高さを減少させることで、通常のARTと比較して読み取り専用ワークロードで平均85%速く、読み取り主体のワークロードで45%速くなります。"
 }

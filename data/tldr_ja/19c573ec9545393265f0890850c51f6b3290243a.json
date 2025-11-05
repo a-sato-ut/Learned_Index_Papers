@@ -2,5 +2,5 @@
   "paperId": "19c573ec9545393265f0890850c51f6b3290243a",
   "title": "LSI: a learned secondary index structure",
   "abstract": "Learned index structures have been shown to achieve favorable lookup performance and space consumption compared to their traditional counterparts such as B-trees. However, most learned index studies have focused on the primary indexing setting, where the base data is sorted. In this work, we investigate whether learned indexes sustain their advantage in the secondary indexing setting. We introduce Learned Secondary Index (LSI), a first attempt to use learned indexes for indexing unsorted data. LSI works by building a learned index over a permutation vector, which allows binary search to performed on the unsorted base data using random access. We additionally augment LSI with a fingerprint vector to accelerate equality lookups. We show that LSI achieves comparable lookup performance to state-of-the-art secondary indexes while being up to 6x more space efficient.",
-  "tldr_ja": "LSI（学習型二次インデックス）は、未ソートデータに対して学習型インデックスを適用し、バイナリサーチを可能にしつつ、最先端の二次インデックスと同等の検索性能を維持しながら、最大6倍のスペース効率を実現する。"
+  "tldr_ja": "本研究では、学習型インデックス構造の一種である「学習型二次インデックス（LSI）」を提案し、未ソートデータのインデックス作成における性能を評価します。LSIは、順列ベクトルを用いてバイナリサーチを実現し、さらにはフィンガープリントベクトルで等価検索を高速化します。結果として、LSIは最先端の二次インデックスと同等の検索性能を維持しつつ、最大6倍の空間効率を達成します。"
 }

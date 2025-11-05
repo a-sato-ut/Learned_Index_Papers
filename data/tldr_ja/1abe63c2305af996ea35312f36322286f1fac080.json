@@ -2,5 +2,5 @@
   "paperId": "1abe63c2305af996ea35312f36322286f1fac080",
   "title": "Learned Index for Spatial Queries",
   "abstract": "With the pervasiveness of location-based services (LBS), spatial data processing has received considerable attention in the research of database system management. Among various spatial query techniques, index structures play a key role in data access and query processing. However, existing spatial index structures (e.g., R-tree) mainly focus on partitioning data space or data objects. In this paper, we explore the potential to construct the spatial index structure by learning the distribution of the data. We design a new data-driven spatial index structure, namely learned Z-order Model (ZM) index, which combines the Z-order space filling curve and the staged learning model. Experimental results on both real and synthetic datasets show that our learned index significantly reduces the memory cost and performs more efficiently than R-tree in most scenarios.",
-  "tldr_ja": "位置情報サービスの普及に伴い、空間データ処理が注目されている。本研究では、データの分布を学習して構築する新しい空間インデックス「学習Z-orderモデルインデックス」を提案し、従来のR-treeよりもメモリコストを削減し、効率的な性能を示すことを実験で確認した。"
+  "tldr_ja": "本論文では、位置情報サービスの普及に伴い、空間データ処理の重要性が増している中、従来の空間インデックス構造に代わる新たなデータ駆動型インデックス「学習Z-orderモデル」を提案します。このモデルは、Z-order曲線と段階的学習モデルを組み合わせ、メモリコストを削減し、R-treeよりも効率的なクエリ処理を実現します。実験結果からその有効性が示されています。"
 }

@@ -2,5 +2,5 @@
   "paperId": "de774582f5ba7380d3e9c2c024782e8585c50b97",
   "title": "Online Classification with Predictions",
   "abstract": "We study online classification when the learner has access to predictions about future examples. We design an online learner whose expected regret is never worse than the worst-case regret, gracefully improves with the quality of the predictions, and can be significantly better than the worst-case regret when the predictions of future examples are accurate. As a corollary, we show that if the learner is always guaranteed to observe data where future examples are easily predictable, then online learning can be as easy as transductive online learning. Our results complement recent work in online algorithms with predictions and smoothed online classification, which go beyond a worse-case analysis by using machine-learned predictions and distributional assumptions respectively.",
-  "tldr_ja": "オンライン分類において、将来の例に関する予測を利用する学習者を設計し、予測の質に応じて期待される後悔が改善されることを示した。特に、予測が正確な場合には、最悪の後悔を大きく上回る成果が得られる。"
+  "tldr_ja": "本研究では、未来の例に関する予測を利用したオンライン分類について検討します。提案するオンライン学習者は、期待される後悔値が最悪ケースを下回り、予測の質が向上することで改善されます。特に、未来の例が正確に予測できる場合、オンライン学習はトランスダクティブオンライン学習と同等に容易になることを示します。"
 }

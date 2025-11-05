@@ -2,5 +2,5 @@
   "paperId": "3e58abf7975bc605f8a485b7a0a35e271b6b29a6",
   "title": "Adaptive Learned Bloom Filter (Ada-BF): Efficient Utilization of the Classifier",
   "abstract": "Recent work suggests improving the performance of Bloom filter by incorporating a machine learning model as a binary classifier. However, such learned Bloom filter does not take full advantage of the predicted probability scores. We proposed new algorithms that generalize the learned Bloom filter by using the complete spectrum of the scores regions. We proved our algorithms have lower False Positive Rate (FPR) and memory usage compared with the existing approaches to learned Bloom filter. We also demonstrated the improved performance of our algorithms on real-world datasets.",
-  "tldr": "Ada-BF enhances learned Bloom filters by utilizing the full range of predicted probability scores, resulting in lower false positive rates and reduced memory usage, as demonstrated on real-world datasets."
+  "tldr": "The Adaptive Learned Bloom Filter (Ada-BF) enhances traditional Bloom filters by utilizing machine learning to leverage predicted probability scores. Our algorithms reduce False Positive Rates and memory usage, showing improved performance on real-world datasets compared to existing methods."
 }

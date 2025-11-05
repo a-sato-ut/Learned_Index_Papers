@@ -2,5 +2,5 @@
   "paperId": "31ac4ac96db4d97f4ad92942481b326cd8da99a4",
   "title": "LIVAK: A High-Performance In-Memory Learned Index for Variable-Length Keys",
   "abstract": "In-memory learned index has been an efficient approach supporting in-memory fast data access. However, existing learned indexes are inefficient in supporting variable-length keys. To address this issue, we propose a new in-memory learned index called LIVAK that adopts a hybrid structure involving trie, learned index, and B+-tree. Each node indexes an 8-byte slice of keys, and we use learned indexes for large nodes but B+-trees for small nodes. Also, LIVAK presents a character re-encoding mechanism to avoid performance degradation. We compare LIVAK with B+-tree, Masstree, and SIndex on various datasets and workloads, and the results suggest the efficiency of LIVAK.",
-  "tldr_ja": "LIVAKは、可変長キーに対応した高性能なインメモリ学習インデックスで、トライ、学習インデックス、B+-木のハイブリッド構造を採用し、効率的なデータアクセスを実現します。"
+  "tldr_ja": "LIVAKは、可変長キーに対応した新しいインメモリ学習インデックスで、トライ、学習インデックス、B+-ツリーのハイブリッド構造を採用しています。各ノードは8バイトのキーをインデックスし、大きなノードには学習インデックス、小さなノードにはB+-ツリーを使用。パフォーマンス低下を防ぐための文字再エンコーディング機構も導入されており、さまざまなデータセットでの比較実験で高い効率性が示されています。"
 }

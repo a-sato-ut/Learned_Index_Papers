@@ -2,5 +2,5 @@
   "paperId": "e0d367c7329e9db86957e74f961aff9e892b28fe",
   "title": "Efficient Index Learning via Model Reuse and Fine-tuning",
   "abstract": "Learned indices using machine learning techniques have demonstrated potential as alternatives to traditional indices such as B-trees in both query time and memory. However, a well fitted learned index requires significant space consumption to train models and tune parameters. Furthermore, fast training methods—ones that train in one pass—may not learn the data distribution well. To consider both the fitness to data distribution and building efficiency, in this paper, we apply pre-trained models and fine-tuning to accelerate the building of learned indices by 30.4% and improve lookup efficiency by up to 24.4% on real datasets and 22.5% on skewed datasets.",
-  "tldr": "Pre-trained models and fine-tuning accelerate learned index building by 30.4% and enhance lookup efficiency by up to 24.4%, addressing space and training efficiency challenges."
+  "tldr": "This paper presents a method for enhancing learned indices by using pre-trained models and fine-tuning, achieving a 30.4% reduction in building time and improving lookup efficiency by up to 24.4% on real datasets, addressing space and training efficiency challenges."
 }

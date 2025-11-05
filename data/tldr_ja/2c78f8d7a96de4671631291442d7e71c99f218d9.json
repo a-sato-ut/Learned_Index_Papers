@@ -2,5 +2,5 @@
   "paperId": "2c78f8d7a96de4671631291442d7e71c99f218d9",
   "title": "Estimating Cardinalities with Deep Sketches",
   "abstract": "We introduce Deep Sketches, which are compact models of databases that allow us to estimate the result sizes of SQL queries. Deep Sketches are powered by a new deep learning approach to cardinality estimation that can capture correlations between columns, even across tables. Our demonstration allows users to define such sketches on the TPC-H and IMDb datasets, monitor the training process, and run ad-hoc queries against trained sketches. We also estimate query cardinalities with HyPer and PostgreSQL to visualize the gains over traditional cardinality estimators.",
-  "tldr_ja": "Deep Sketchesは、SQLクエリの結果サイズを推定するためのコンパクトなデータベースモデルであり、列間の相関を捉える新しい深層学習アプローチを利用しています。これにより、TPC-HやIMDbデータセットでのスケッチ定義やトレーニングプロセスの監視、トレーニング済みスケッチに対するアドホッククエリの実行が可能になります。従来の推定器と比較して、HyPerやPostgreSQLを用いたクエリの推定精度向上も示されています。"
+  "tldr_ja": "本論文では、SQLクエリの結果サイズを推定するための新しい手法「Deep Sketches」を提案します。この手法は、カラム間の相関を捉える深層学習モデルを用いており、TPC-HやIMDbデータセットでの実演を通じて、従来の推定器と比較した利点を示します。"
 }

@@ -2,5 +2,5 @@
   "paperId": "e99c2702711e30792b6eba12cf3b3d9d356bb242",
   "title": "Pre-training Summarization Models of Structured Datasets for Cardinality Estimation",
   "abstract": "We consider the problem of pre-training models which convert structured datasets into succinct summaries that can be used to answer cardinality estimation queries. Doing so avoids per-dataset training and, in our experiments, reduces the time to construct summaries by up to 100×. When datasets change, our summaries are incrementally updateable. Our key insights are to use multiple summaries per dataset, use learned summaries for columnsets for which other simpler techniques do not achieve high accuracy, and that analogous to similar pre-trained models for images and text, structured datasets have some common frequency and correlation patterns which our models learn to capture by pre-training on a large and diverse corpus of datasets.",
-  "tldr_ja": "構造化データセットを要約するモデルの事前学習を提案し、データセットごとのトレーニングを回避することで要約作成時間を最大100倍短縮。データセットの変更に対しても要約は逐次更新可能で、複数の要約を用いることで精度を向上させる。"
+  "tldr_ja": "本研究では、構造化データセットを簡潔な要約に変換するモデルの事前学習を提案し、これによりカーディナリティ推定クエリに迅速に対応可能とします。データセットの変更に対しても要約は逐次更新可能で、実験では要約作成時間を最大100倍短縮しました。複数の要約を用いることで、他の手法では高精度が得られない場合にも対応します。"
 }

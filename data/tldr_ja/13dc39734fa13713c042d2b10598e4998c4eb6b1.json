@@ -2,5 +2,5 @@
   "paperId": "13dc39734fa13713c042d2b10598e4998c4eb6b1",
   "title": "PolyFit: Polynomial-based Indexing Approach for Fast Approximate Range Aggregate Queries",
   "abstract": "Range aggregate queries find frequent application in data analytics. In some use cases, approximate results are preferred over accurate results if they can be computed rapidly and satisfy approximation guarantees. Inspired by a recent indexing approach, we provide means of representing a discrete point data set by continuous functions that can then serve as compact index structures. More specifically, we develop a polynomial-based indexing approach, called PolyFit, for processing approximate range aggregate queries. PolyFit is capable of supporting multiple types of range aggregate queries, including COUNT, SUM, MIN and MAX aggregates, with guaranteed absolute and relative error bounds. Experiment results show that PolyFit is faster and more accurate and compact than existing learned index structures.",
-  "tldr_ja": "PolyFitは、近似範囲集約クエリを迅速に処理するための多項式ベースのインデックス手法であり、COUNT、SUM、MIN、MAXなどのクエリをサポートし、誤差保証を提供します。実験結果では、PolyFitが既存の学習インデックス構造よりも高速で、より正確かつコンパクトであることが示されています。"
+  "tldr_ja": "PolyFitは、データ分析における範囲集約クエリのための多項式ベースのインデックス手法です。近似結果を迅速に計算できる利点を活かし、COUNT、SUM、MIN、MAXなどの集約クエリをサポートします。実験結果では、PolyFitは既存の学習インデックス構造よりも高速で、精度とコンパクトさに優れています。"
 }

@@ -2,5 +2,5 @@
   "paperId": "4c1fd486fd5a5ab399111d1772c617ec1ca9a5e5",
   "title": "Towards Practical Learned Indexing",
   "abstract": "Latest research proposes to replace existing index structures with learned models. However, current learned indexes tend to have many hyperparameters, often do not provide any error guarantees, and are expensive to build. We introduce Practical Learned Index (PLEX). PLEX only has a single hyperparameter $\\epsilon$ (maximum prediction error) and offers a better trade-off between build and lookup time than state-of-the-art approaches. Similar to RadixSpline, PLEX consists of a spline and a (multi-level) radix layer. It first builds a spline satisfying the given $\\epsilon$ and then performs an ad-hoc analysis of the distribution of spline points to quickly tune the radix layer.",
-  "tldr": "PLEX is a new learned indexing model that simplifies hyperparameters to one ($\\epsilon$), improves build and lookup times, and combines a spline with a radix layer for efficient indexing."
+  "tldr": "The Practical Learned Index (PLEX) simplifies learned indexing by using just one hyperparameter, $\\epsilon$, ensuring better build and lookup times compared to existing methods. PLEX combines a spline and a radix layer, optimizing performance while maintaining error guarantees."
 }

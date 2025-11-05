@@ -2,5 +2,5 @@
   "paperId": "41147a852f580692d334f125f3d4c8845d9e9c4b",
   "title": "Predictive Flows for Faster Ford-Fulkerson",
   "abstract": "Recent work has shown that leveraging learned predictions can improve the running time of algorithms for bipartite matching and similar combinatorial problems. In this work, we build on this idea to improve the performance of the widely used Ford-Fulkerson algorithm for computing maximum flows by seeding Ford-Fulkerson with predicted flows. Our proposed method offers strong theoretical performance in terms of the quality of the prediction. We then consider image segmentation, a common use-case of flows in computer vision, and complement our theoretical analysis with strong empirical results.",
-  "tldr_ja": "予測フローを用いることで、最大フローを計算するFord-Fulkersonアルゴリズムの性能を向上させる手法を提案し、理論的および実証的な結果を示した。"
+  "tldr_ja": "本研究では、予測されたフローを用いてFord-Fulkersonアルゴリズムの性能を向上させる手法を提案します。この方法は、最大フロー計算において理論的に優れた性能を示し、画像セグメンテーションなどの応用においても強力な実証結果を得ています。"
 }

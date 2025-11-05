@@ -2,5 +2,5 @@
   "paperId": "2f9710999112ad324190c92bfcce6b0714ae67f7",
   "title": "Speculative Multi-Level Access in LSM Tree-Based KV Store",
   "abstract": "The log-structured merge (LSM) tree has been widely used due to its small DRAM footprint, easy range query support, and write-friendly characteristics. However, it has an inherent problem of read amplification; a single key lookup operation can be accompanied by multiple disk read operations which prolong the latency of lookup operation and fail to exploit the parallelism of SSDs. This article proposes a speculative multi-level access scheme, which accesses multiple levels simultaneously and speculatively. By accessing multiple levels together, it can exploit multi-I/O-handling capability of the SSD and also overlap the execution of CPU with I/O device, thereby improving the performance of lookup operations. Our evaluation results demonstrate that the proposed scheme improves the throughput by up to 85% and reduces the average latency by up to 45% with realistic key-value workloads.",
-  "tldr_ja": "LSMツリーに基づくキーバリューストアにおいて、同時に複数のレベルにアクセスする投機的マルチレベルアクセス手法を提案し、これによりSSDのI/O処理能力を活用し、ルックアップ操作のスループットを最大85%向上させ、平均レイテンシを最大45%削減することを示した。"
+  "tldr_ja": "LSMツリーを用いたキーバリューストアにおける読み取りの遅延を改善するため、同時に複数レベルにアクセスする投機的多層アクセス手法を提案。これによりSSDのI/O処理能力を活用し、CPUとI/Oの実行を重ねることで、スループットを最大85%向上、平均遅延を最大45%削減することが実証された。"
 }

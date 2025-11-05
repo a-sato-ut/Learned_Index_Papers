@@ -2,5 +2,5 @@
   "paperId": "0ce14a8cd9528a8598eba4e9bb478dc83c3611ad",
   "title": "Just-in-Time Index Compilation",
   "abstract": "Creating or modifying a primary index is a time-consuming process, as the index typically needs to be rebuilt from scratch. In this paper, we explore a more graceful \"just-in-time\" approach to index reorganization, where small changes are dynamically applied in the background. To enable this type of reorganization, we formalize a composable organizational grammar, expressive enough to capture instances of not only existing index structures, but arbitrary hybrids as well. We introduce an algebra of rewrite rules for such structures, and a framework for defining and optimizing policies for just-in-time rewriting. Our experimental analysis shows that the resulting index structure is flexible enough to adapt to a variety of performance goals, while also remaining competitive with existing structures like the C++ standard template library map.",
-  "tldr_ja": "本論文では、インデックスの再構築を迅速に行う「ジャストインタイム」アプローチを提案し、動的に小さな変更を適用する方法を探求しています。新しい組織文法と再書きルールの代数を導入し、パフォーマンス目標に応じた柔軟なインデックス構造を実現することを示しています。"
+  "tldr_ja": "本論文では、インデックスの再構築を効率化する「ジャストインタイム」手法を提案します。小さな変更をバックグラウンドで動的に適用することで、既存のインデックス構造やそのハイブリッドを表現する文法を定式化し、最適化ポリシーを定義するフレームワークを導入します。実験結果は、提案手法が柔軟性を持ちつつ、既存の構造と競争力があることを示しています。"
 }

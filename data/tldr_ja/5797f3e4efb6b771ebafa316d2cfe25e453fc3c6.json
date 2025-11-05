@@ -2,5 +2,5 @@
   "paperId": "5797f3e4efb6b771ebafa316d2cfe25e453fc3c6",
   "title": "Instance-Optimized Mapping with Portfolio Methods",
   "abstract": "Mappings are ubiquitous in computer systems, such as translating virtual memory to physical memory, file paths to inode numbers, database keys to data locations. Traditional system mappings are often hand-crafted and data-agnostic. In this paper, we explore the use of neural networks as learned mappings that are automatically generated and data-dependent, optimizing performance for specific workloads and scenarios. Unlike prior learned structures, we employ a portfolio method consisting of a set of independent neural networks, each responsible for making sole decisions. Our preliminary results indicate that these portfolio mappings can generalize across multiple applications.",
-  "tldr_ja": "本論文では、特定のワークロードに最適化されたデータ依存のマッピングを実現するために、ポートフォリオ手法を用いた独立したニューラルネットワークのセットを提案し、複数のアプリケーションにおいて一般化できることを示しています。"
+  "tldr_ja": "本論文では、手作業で作成された従来のマッピングに代わり、特定のワークロードに最適化されたデータ依存のマッピングを実現するために、ポートフォリオ手法を用いた独立したニューラルネットワークのセットを提案します。初期結果は、これらのマッピングが複数のアプリケーションにおいて一般化できることを示しています。"
 }

@@ -2,5 +2,5 @@
   "paperId": "1d55929e08d56659e842d307f4beda4f33da5262",
   "title": "Uniform Convergence Bounds for Codec Selection",
   "abstract": "We frame the problem of selecting an optimal audio encoding scheme as a supervised learning task. Through uniform convergence theory, we guarantee approximately optimal codec selection while controlling for selection bias. We present rigorous statistical guarantees for the codec selection problem that hold for arbitrary distributions over audio sequences and for arbitrary quality metrics. Our techniques can thus balance sound quality and compression ratio, and use audio samples from the distribution to select a codec that performs well on that particular type of data. The applications of our technique are immense, as it can be used to optimize for quality and bandwidth usage of streaming and other digital media, while significantly outperforming approaches that apply a fixed codec to all data sources.",
-  "tldr_ja": "音声エンコーディング方式の最適選択を監視学習タスクとして定式化し、均一収束理論を用いて選択バイアスを制御しつつ、任意の音声シーケンス分布と品質指標に対して厳密な統計的保証を提供する手法を提案。これにより、音質と圧縮率をバランスさせ、特定のデータタイプに適したコーデックを選択できる。"
+  "tldr_ja": "音声エンコーディング方式の最適選択を教師あり学習問題として定式化し、均一収束理論を用いて選択バイアスを制御しつつ、約最適なコーデック選択を保証します。任意の音声シーケンス分布と品質指標に対して統計的保証を提供し、音質と圧縮率のバランスを取ることが可能です。この手法はストリーミングやデジタルメディアの最適化に応用でき、固定コーデックよりも優れた性能を発揮します。"
 }

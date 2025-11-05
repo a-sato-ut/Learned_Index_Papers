@@ -1,0 +1,126 @@
+.all-papers-statistics {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.all-papers-statistics-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.all-papers-statistics-header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.all-papers-statistics-subtitle {
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.all-papers-statistics-loading {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+}
+
+.all-papers-statistics-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.all-papers-statistics-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.all-papers-statistics-chart-title {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.all-papers-statistics-chart svg {
+  display: block;
+}
+
+.all-papers-statistics-line-chart {
+  margin-top: 40px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.all-papers-statistics-line-chart h3 {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.all-papers-statistics-line-chart-hint {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 15px;
+}
+
+.all-papers-statistics-line-chart-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.all-papers-statistics-line-chart-button {
+  padding: 8px 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.all-papers-statistics-line-chart-button:hover {
+  background-color: #2563eb;
+}
+
+.all-papers-statistics-line-chart svg {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .all-papers-statistics-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .all-papers-statistics-chart {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .all-papers-statistics-line-chart {
+    overflow-x: auto;
+  }
+}
+

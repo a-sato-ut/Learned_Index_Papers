@@ -2,5 +2,5 @@
   "paperId": "c2994b82d5f3896a78fa035f7858b95c15f3423d",
   "title": "Learning-Augmented Robust Algorithmic Recourse",
   "abstract": "Algorithmic recourse provides individuals who receive undesirable outcomes from machine learning systems with minimum-cost improvements to achieve a desirable outcome. However, machine learning models often get updated, so the recourse may not lead to the desired outcome. The robust recourse framework chooses recourses that are less sensitive to adversarial model changes, but this comes at a higher cost. To address this, we initiate the study of learning-augmented algorithmic recourse and evaluate the extent to which a designer equipped with a prediction of the future model can reduce the cost of recourse when the prediction is accurate (consistency) while also limiting the cost even when the prediction is inaccurate (robustness). We propose a novel algorithm, study the robustness-consistency trade-off, and analyze how prediction accuracy affects performance.",
-  "tldr_ja": "学習強化型アルゴリズム的救済は、機械学習システムから不利な結果を受けた個人に対し、将来のモデル予測を活用してコストを削減しつつ、モデルの変化に対しても安定した救済策を提供する手法を提案する。"
+  "tldr_ja": "本研究では、機械学習システムから不利な結果を受けた個人に対する「アルゴリズミックリコース」の改善策を提案します。モデルの更新による影響を考慮し、未来のモデル予測を活用した学習強化型リコースを導入。予測が正確な場合のコスト削減と、不正確な場合のコスト制限の両立を目指し、新しいアルゴリズムを提案し、ロバスト性と一貫性のトレードオフを分析します。"
 }
