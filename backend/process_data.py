@@ -69,7 +69,6 @@ def normalize_venue(venue: str) -> str:
     if not venue:
         return venue
     
-    # 年のパターンを除去（例: "2023", "'23", "(2023)", "2023-2024"など）
     # 文中の年を除去（前後にスペースがある場合）
     venue = re.sub(r'\s+(19|20)\d{2}(-\d{2})?\s+', ' ', venue)
     # 末尾の年を除去
@@ -414,12 +413,23 @@ class Corpus:
         
         return None
 
-    def get_author_ranking(self) -> List[Dict[str, Any]]:
-        """著者ランキングを取得（論文数、被引用数、タグ集計、カンファレンス集計、所属情報を含む）"""
+    def get_author_ranking(self, min_year: Optional[int] = None) -> List[Dict[str, Any]]:
+        """著者ランキングを取得（論文数、被引用数、タグ集計、カンファレンス集計、所属情報を含む）
+        
+        Args:
+            min_year: この年以降の論文のみを集計対象とする（Noneの場合は全ての論文）
+        """
         author_stats: Dict[str, Dict[str, Any]] = {}
         
         for paper in self.papers.values():
             paper_with_tldr = self._load_tldr_data(paper)
+            
+            # 年フィルタリング: min_yearが指定されている場合、その年以降の論文のみを対象とする
+            if min_year is not None:
+                paper_year = paper_with_tldr.year
+                if paper_year is None or paper_year < min_year:
+                    continue
+            
             if paper_with_tldr.authors:
                 for author in paper_with_tldr.authors:
                     if author not in author_stats:
@@ -595,10 +605,11 @@ async def get_authors():
 
 @app.get("/api/authors/ranking")
 async def get_author_ranking(
-    sort_by: str = Query("paperCount", description="ソート基準: 'paperCount' または 'totalCitations'")
+    sort_by: str = Query("paperCount", description="ソート基準: 'paperCount' または 'totalCitations'"),
+    min_year: Optional[int] = Query(None, description="この年以降の論文のみを集計対象とする")
 ):
     """著者ランキングを取得（論文数、被引用数、タグ集計、カンファレンス集計を含む）"""
-    ranking = corpus.get_author_ranking()
+    ranking = corpus.get_author_ranking(min_year=min_year)
     
     # ソート
     if sort_by == "totalCitations":

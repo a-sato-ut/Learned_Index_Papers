@@ -5,6 +5,7 @@ import os
 import time
 import typing as t
 import requests
+from typing import Optional
 
 OPENALEX_BASE = "https://api.openalex.org"
 EMAIL = os.getenv("OPENALEX_EMAIL")  # OpenAlex APIのレート制限緩和のため
@@ -56,7 +57,7 @@ def _request_json(
 
 
 # ========== 1) 著者名から著者IDを検索 ==========
-def get_author_id_by_name(name: str, *, top_k: int = 10) -> str | None:
+def get_author_id_by_name(name: str, *, top_k: int = 10) -> Optional[str]:
     url = f"{OPENALEX_BASE}/authors"
     params = {
         "search": name,
@@ -123,3 +124,39 @@ def get_author_info_by_id(author_id: str) -> dict:
     # 最小年でソート（空の場合は最後に）
     affiliations.sort(key=lambda x: min(x["years"]) if x["years"] else float('inf'))
     return affiliations
+
+
+# ========== 3) 著者の論文リストを取得 ==========
+def get_author_papers(author_id: str, *, limit: int = 100) -> list[dict]:
+    """
+    著者IDから著者の論文リストを取得
+    
+    Args:
+        author_id: OpenAlexの著者ID
+        limit: 取得する論文数の上限
+    
+    Returns:
+        論文のリスト（各論文はpaperId, title, yearを含む）
+    """
+    url = f"{OPENALEX_BASE}/authors/{author_id}"
+    
+    # 論文情報を含むフィールドを要求
+    params = {}
+    data = _request_json("GET", url, params=params)
+    
+    if not data:
+        return []
+    
+    papers = data.get("works", []) or []
+    
+    # 論文情報を整形
+    result = []
+    for paper in papers[:limit]:
+        paper_info = {
+            "paperId": paper.get("id", "").replace("https://openalex.org/", ""),
+            "title": paper.get("title", ""),
+            "year": paper.get("publication_year"),
+        }
+        result.append(paper_info)
+    
+    return result

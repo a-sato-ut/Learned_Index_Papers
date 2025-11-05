@@ -17,6 +17,13 @@
   color: #333;
 }
 
+.author-ranking-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-end;
+}
+
 .author-ranking-sort {
   display: flex;
   align-items: center;
@@ -39,6 +46,71 @@
 
 .author-ranking-sort select:hover {
   border-color: #3b82f6;
+}
+
+.author-ranking-year-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author-ranking-year-filter label {
+  font-weight: 600;
+  color: #555;
+}
+
+.author-ranking-year-input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 120px;
+}
+
+.author-ranking-year-input:hover {
+  border-color: #3b82f6;
+}
+
+.author-ranking-year-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.author-ranking-year-label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.author-ranking-year-apply {
+  padding: 6px 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.author-ranking-year-apply:hover {
+  background-color: #2563eb;
+}
+
+.author-ranking-year-clear {
+  padding: 6px 12px;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.author-ranking-year-clear:hover {
+  background-color: #dc2626;
 }
 
 .author-ranking-loading {
@@ -86,6 +158,7 @@
   font-weight: 600;
   color: #333;
   flex: 1;
+  text-decoration: none;
 }
 
 .author-ranking-item-name.author-clickable {
@@ -149,6 +222,8 @@
   border-radius: 12px;
   font-size: 0.85rem;
   font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .author-tag-clickable {
@@ -174,6 +249,8 @@
   border-radius: 12px;
   font-size: 0.85rem;
   font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .author-conference-clickable {
@@ -212,11 +289,84 @@
   font-size: 0.85rem;
 }
 
+.author-affiliation-expand-btn {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  color: #374151;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.author-affiliation-expand-btn:hover {
+  background-color: #e5e7eb;
+  border-color: #9ca3af;
+}
+
+.author-ranking-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+}
+
+.author-ranking-pagination-btn {
+  padding: 8px 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.author-ranking-pagination-btn:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+.author-ranking-pagination-btn:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.author-ranking-pagination-info {
+  font-size: 0.9rem;
+  color: #374151;
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .author-ranking-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
+  }
+  
+  .author-ranking-controls {
+    width: 100%;
+    align-items: stretch;
+  }
+  
+  .author-ranking-year-filter {
+    flex-wrap: wrap;
+  }
+  
+  .author-ranking-pagination {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .author-ranking-pagination-info {
+    text-align: center;
   }
 
   .author-ranking-item-header {

@@ -281,6 +281,11 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     const authorsParam = searchParams.get('authors');
     const tagsParam = searchParams.get('tags');
     const venuesParam = searchParams.get('venues');
+    const queryParam = searchParams.get('query');
+    
+    if (queryParam) {
+      setQuery(decodeURIComponent(queryParam));
+    }
     
     if (authorsParam) {
       const authors = authorsParam.split(',').map(a => decodeURIComponent(a.trim())).filter(a => a);
@@ -305,7 +310,9 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     
     // URLパラメータがある場合は、タイトルをクリアしてフィルタのみで検索
     if (authorsParam || tagsParam || venuesParam) {
-      setQuery('');
+      if (!queryParam) {
+        setQuery('');
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchParams]);
@@ -641,7 +648,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             <div class="paper-card-meta">
               ${paper.year ? `<span class="paper-card-year">${paper.year}</span>` : ''}
               ${paper.venue ? `<span class="paper-card-venue">${paper.venue}</span>` : ''}
-              ${paper.authors.length > 0 ? `<span class="paper-card-authors">${paper.authors.slice(0, 3).join(', ')}${paper.authors.length > 3 ? '...' : ''}</span>` : ''}
+              ${paper.authors.length > 0 ? `<span class="paper-card-authors">${paper.authors.slice(0, 10).join(', ')}${paper.authors.length > 10 ? '...' : ''}</span>` : ''}
             </div>
             ${paper.abstract ? `<p class="paper-card-abstract">${paper.abstract.substring(0, 200)}...</p>` : ''}
             <div class="paper-card-footer">
@@ -660,8 +667,14 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         
         const divElement = tooltipDiv.node() as HTMLDivElement;
         if (divElement) {
-          divElement.onclick = (e) => {
+          divElement.onclick = (e: MouseEvent) => {
             e.stopPropagation();
+            // Commandキー（Mac）またはCtrlキー（Windows/Linux）が押されている場合は新しいタブで開く
+            if (e.metaKey || e.ctrlKey) {
+              const url = `/?query=${encodeURIComponent(paper.title)}`;
+              window.open(url, '_blank');
+              return;
+            }
             setQuery(paper.title);
             setActiveTab('list');
             searchPapers(paper.title);
@@ -965,7 +978,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             <div class="paper-card-meta">
               ${paper.year ? `<span class="paper-card-year">${paper.year}</span>` : ''}
               ${paper.venue ? `<span class="paper-card-venue">${paper.venue}</span>` : ''}
-              ${paper.authors.length > 0 ? `<span class="paper-card-authors">${paper.authors.slice(0, 3).join(', ')}${paper.authors.length > 3 ? '...' : ''}</span>` : ''}
+              ${paper.authors.length > 0 ? `<span class="paper-card-authors">${paper.authors.slice(0, 10).join(', ')}${paper.authors.length > 10 ? '...' : ''}</span>` : ''}
             </div>
             ${paper.abstract ? `<p class="paper-card-abstract">${paper.abstract.substring(0, 200)}...</p>` : ''}
             <div class="paper-card-footer">
@@ -984,8 +997,14 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         
         const divElement = tooltipDiv.node() as HTMLDivElement;
         if (divElement) {
-          divElement.onclick = (e) => {
+          divElement.onclick = (e: MouseEvent) => {
             e.stopPropagation();
+            // Commandキー（Mac）またはCtrlキー（Windows/Linux）が押されている場合は新しいタブで開く
+            if (e.metaKey || e.ctrlKey) {
+              const url = `/?query=${encodeURIComponent(paper.title)}`;
+              window.open(url, '_blank');
+              return;
+            }
             setQuery(paper.title);
             setActiveTab('list');
             searchPapers(paper.title);
@@ -1154,6 +1173,16 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       if (target.closest('.paper-card-links')) {
         return;
       }
+      
+      // Commandキー（Mac）またはCtrlキー（Windows/Linux）が押されている場合は新しいタブで開く
+      if (e.metaKey || e.ctrlKey) {
+        e.preventDefault();
+        e.stopPropagation();
+        const url = `/?query=${encodeURIComponent(paper.title)}`;
+        window.open(url, '_blank');
+        return;
+      }
+      
       e.stopPropagation();
       setQuery(paper.title);
       setActiveTab('list');
@@ -1176,7 +1205,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           {paper.year && <span className="paper-card-year">{paper.year}</span>}
           {paper.venue && <span className="paper-card-venue">{paper.venue}</span>}
           {paper.authors.length > 0 && (
-            <span className="paper-card-authors">{paper.authors.slice(0, 3).join(', ')}</span>
+            <span className="paper-card-authors">{paper.authors.slice(0, 10).join(', ')}{paper.authors.length > 10 ? '...' : ''}</span>
           )}
         </div>
         {paper.tags && paper.tags.length > 0 && (
