@@ -10,7 +10,7 @@ interface PaperExplorerProps {}
 
 const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   const [searchParams, setSearchParams] = useSearchParams();
-  const [query, setQuery] = useState('Partitioned Learned Bloom Filter');
+  const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<SearchResult | null>(null);
   const [activeTab, setActiveTab] = useState<'list' | 'graph' | 'graphYear'>('list');
@@ -315,9 +315,13 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     fetchTags();
     fetchAuthors();
     fetchVenues();
-    // デフォルトクエリで検索（URLパラメータがない場合のみ）
-    if (!searchParams.get('authors') && !searchParams.get('tags') && !searchParams.get('venues')) {
-      searchPapers();
+    // URLパラメータがある場合のみ検索を実行
+    const authorsParam = searchParams.get('authors');
+    const tagsParam = searchParams.get('tags');
+    const venuesParam = searchParams.get('venues');
+    if (authorsParam || tagsParam || venuesParam) {
+      // URLパラメータからフィルタが読み込まれた後に検索が実行されるようにするため、
+      // ここでは何もしない（URLパラメータの読み込み処理で自動的に検索が実行される）
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

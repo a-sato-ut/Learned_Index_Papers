@@ -113,6 +113,35 @@ const AuthorRanking: React.FC = () => {
                 </div>
               </div>
             )}
+
+            {author.affiliations && author.affiliations.length > 0 && (
+              <div className="author-ranking-item-section">
+                <h3 className="author-ranking-item-section-title">所属</h3>
+                <div className="author-ranking-item-affiliations">
+                  {author.affiliations.map((aff, affIndex) => {
+                    const years = aff.years || [];
+                    const minYear = years.length > 0 ? Math.min(...years) : null;
+                    const maxYear = years.length > 0 ? Math.max(...years) : null;
+                    const yearDisplay = minYear === maxYear 
+                      ? `(${minYear})` 
+                      : minYear && maxYear
+                      ? `(${minYear} - ${maxYear})`
+                      : years.length > 0
+                      ? `(${years.join(", ")})`
+                      : "";
+                    
+                    return (
+                      <div key={affIndex} className="author-affiliation">
+                        <span className="author-affiliation-name">{aff.name}</span>
+                        {yearDisplay && (
+                          <span className="author-affiliation-years">{yearDisplay}</span>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
           </div>
         ))}
       </div>

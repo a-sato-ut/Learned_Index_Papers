@@ -72,12 +72,18 @@ export interface AuthorConferenceStat {
   count: number;
 }
 
+export interface AuthorAffiliation {
+  name: string;
+  years: number[];
+}
+
 export interface AuthorRankingItem {
   author: string;
   paperCount: number;
   totalCitations: number;
   tags: AuthorTagStat[];
   conferences: AuthorConferenceStat[];
+  affiliations?: AuthorAffiliation[];
 }
 
 export interface AuthorRankingResult {

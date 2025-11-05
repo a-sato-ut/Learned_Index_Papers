@@ -18,6 +18,7 @@ PROCESSED_DATA_FOLDER = Path(__file__).parent.parent / "processed_data"
 TLDR_FOLDER = Path(__file__).parent.parent / "data" / "tldr"
 TLDR_JA_FOLDER = Path(__file__).parent.parent / "data" / "tldr_ja"
 TAG_FOLDER = Path(__file__).parent.parent / "data" / "tags"
+AUTHOR_INFO_FOLDER = Path(__file__).parent.parent / "data" / "author_info"
 BASE_PID = "0539535989147bc7033f4a34931c7b8e17f1c650"
 
 app = FastAPI(title="Learned Index Papers API")
@@ -398,8 +399,23 @@ class Corpus:
         # countが多い順にソートして、辞書形式で返す
         return [{"venue": venue, "count": count} for venue, count in sorted(venue_counts.items(), key=lambda x: x[1], reverse=True)]
 
+    def _load_author_info(self, author_name: str) -> Optional[Dict[str, Any]]:
+        """著者情報を読み込む"""
+        # ファイル名に使えない文字を置換
+        safe_name = author_name.replace("/", "_").replace("\\", "_").replace(":", "_")
+        author_info_file = AUTHOR_INFO_FOLDER / f"{safe_name}.json"
+        
+        if author_info_file.exists():
+            try:
+                with open(author_info_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception as e:
+                print(f"Error loading author info for {author_name}: {e}")
+        
+        return None
+
     def get_author_ranking(self) -> List[Dict[str, Any]]:
-        """著者ランキングを取得（論文数、被引用数、タグ集計、カンファレンス集計を含む）"""
+        """著者ランキングを取得（論文数、被引用数、タグ集計、カンファレンス集計、所属情報を含む）"""
         author_stats: Dict[str, Dict[str, Any]] = {}
         
         for paper in self.papers.values():
@@ -432,15 +448,20 @@ class Corpus:
                         if normalized_venue:
                             author_stats[author]["conferences"][normalized_venue] = author_stats[author]["conferences"].get(normalized_venue, 0) + 1
         
-        # リスト形式に変換（タグとカンファレンスをソート済みリストに変換）
+        # リスト形式に変換（タグとカンファレンスをソート済みリストに変換、所属情報を追加）
         result = []
         for author, stats in author_stats.items():
+            # 著者情報を読み込む
+            author_info = self._load_author_info(author)
+            affiliations = author_info.get("affiliations", []) if author_info else []
+            
             result.append({
                 "author": stats["author"],
                 "paperCount": stats["paperCount"],
                 "totalCitations": stats["totalCitations"],
                 "tags": [{"tag": tag, "count": count} for tag, count in sorted(stats["tags"].items(), key=lambda x: x[1], reverse=True)],
-                "conferences": [{"conference": conf, "count": count} for conf, count in sorted(stats["conferences"].items(), key=lambda x: x[1], reverse=True)]
+                "conferences": [{"conference": conf, "count": count} for conf, count in sorted(stats["conferences"].items(), key=lambda x: x[1], reverse=True)],
+                "affiliations": affiliations
             })
         
         return result
