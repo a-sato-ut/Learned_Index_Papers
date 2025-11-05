@@ -6,6 +6,18 @@ import './PaperExplorer.css';
 
 const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:8000';
 
+// 円グラフの共通ハイパーパラメータ
+const PIE_CHART_CONFIG = {
+  topN: 40, // 上位何件を表示するか
+  width: 600,
+  pieRadius: 120,
+  pieHeight: 300,
+  legendItemHeight: 22,
+  legendColumns: 1,
+  legendColumnWidth: 280,
+  maxTextLength: 50, // 凡例のテキストの最大文字数
+};
+
 interface PaperExplorerProps {}
 
 const PaperExplorer: React.FC<PaperExplorerProps> = () => {
@@ -1221,6 +1233,457 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     }
   };
 
+  const StatisticsSection: React.FC<{ papers: Paper[] }> = ({ papers }) => {
+    const tagStatsRef = useRef<SVGSVGElement>(null);
+    const venueStatsRef = useRef<SVGSVGElement>(null);
+    const yearStatsRef = useRef<SVGSVGElement>(null);
+    const authorStatsRef = useRef<SVGSVGElement>(null);
+
+    useEffect(() => {
+      if (!papers || papers.length === 0) return;
+
+      // タグ統計を計算
+      const tagCounts = new Map<string, number>();
+      papers.forEach(paper => {
+        if (paper.tags) {
+          paper.tags.forEach(tag => {
+            tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+          });
+        }
+      });
+
+      // カンファレンス統計を計算
+      const venueCounts = new Map<string, number>();
+      papers.forEach(paper => {
+        if (paper.venue) {
+          venueCounts.set(paper.venue, (venueCounts.get(paper.venue) || 0) + 1);
+        }
+      });
+
+      // 年統計を計算
+      const yearCounts = new Map<string, number>();
+      papers.forEach(paper => {
+        if (paper.year !== undefined && paper.year !== null) {
+          const yearStr = paper.year.toString();
+          yearCounts.set(yearStr, (yearCounts.get(yearStr) || 0) + 1);
+        }
+      });
+
+      // 著者統計を計算
+      const authorCounts = new Map<string, number>();
+      papers.forEach(paper => {
+        if (paper.authors && paper.authors.length > 0) {
+          paper.authors.forEach(author => {
+            authorCounts.set(author, (authorCounts.get(author) || 0) + 1);
+          });
+        }
+      });
+
+      // タグ円グラフを描画
+      if (tagStatsRef.current && tagCounts.size > 0) {
+        const svg = d3.select(tagStatsRef.current);
+        svg.selectAll('*').remove();
+
+        const sortedTags = Array.from(tagCounts.entries())
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, PIE_CHART_CONFIG.topN);
+
+        const { width, pieRadius, pieHeight, legendItemHeight, legendColumns, legendColumnWidth } = PIE_CHART_CONFIG;
+        const legendRows = Math.ceil(sortedTags.length / legendColumns);
+        const legendHeight = legendRows * legendItemHeight;
+        const totalHeight = pieHeight + legendHeight + 40;
+
+        svg
+          .attr('width', width)
+          .attr('height', totalHeight);
+
+        const g = svg
+          .append('g')
+          .attr('transform', `translate(${width / 2}, ${pieHeight / 2})`);
+
+        const pie = d3.pie<[string, number]>()
+          .value(d => d[1])
+          .sort(null);
+
+        const arc = d3.arc<d3.PieArcDatum<[string, number]>>()
+          .innerRadius(0)
+          .outerRadius(pieRadius);
+
+        const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+        const arcs = g
+          .selectAll('.arc')
+          .data(pie(sortedTags))
+          .enter()
+          .append('g')
+          .attr('class', 'arc');
+
+        arcs
+          .append('path')
+          .attr('d', arc)
+          .attr('fill', (d, i) => colorScale(i.toString()))
+          .attr('stroke', '#fff')
+          .attr('stroke-width', 2)
+          .style('cursor', 'pointer')
+          .on('mouseover', function(event, d) {
+            d3.select(this).attr('opacity', 0.7);
+          })
+          .on('mouseout', function(event, d) {
+            d3.select(this).attr('opacity', 1);
+          });
+
+        // 凡例を円グラフの下に2列で配置
+        const legend = svg
+          .append('g')
+          .attr('transform', `translate(${width / 2 - (legendColumnWidth * legendColumns) / 2}, ${pieHeight + 20})`);
+
+        sortedTags.forEach((tag, i) => {
+          const col = i % legendColumns;
+          const row = Math.floor(i / legendColumns);
+          const x = col * legendColumnWidth;
+          const y = row * legendItemHeight;
+
+          const legendRow = legend
+            .append('g')
+            .attr('transform', `translate(${x}, ${y})`);
+
+          legendRow
+            .append('rect')
+            .attr('width', 15)
+            .attr('height', 15)
+            .attr('fill', colorScale(i.toString()))
+            .attr('rx', 2);
+
+          const text = legendRow
+            .append('text')
+            .attr('x', 20)
+            .attr('y', 12)
+            .attr('font-size', '12px')
+            .attr('fill', '#333')
+            .text(`${tag[0]} (${tag[1]})`);
+
+          // テキストが長すぎる場合は省略
+          if (tag[0].length > PIE_CHART_CONFIG.maxTextLength) {
+            text.text(`${tag[0].substring(0, PIE_CHART_CONFIG.maxTextLength)}... (${tag[1]})`);
+          }
+        });
+      }
+
+      // カンファレンス円グラフを描画
+      if (venueStatsRef.current && venueCounts.size > 0) {
+        const svg = d3.select(venueStatsRef.current);
+        svg.selectAll('*').remove();
+
+        const sortedVenues = Array.from(venueCounts.entries())
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, PIE_CHART_CONFIG.topN);
+
+        const { width, pieRadius, pieHeight, legendItemHeight, legendColumns, legendColumnWidth } = PIE_CHART_CONFIG;
+        const legendRows = Math.ceil(sortedVenues.length / legendColumns);
+        const legendHeight = legendRows * legendItemHeight;
+        const totalHeight = pieHeight + legendHeight + 40;
+
+        svg
+          .attr('width', width)
+          .attr('height', totalHeight);
+
+        const g = svg
+          .append('g')
+          .attr('transform', `translate(${width / 2}, ${pieHeight / 2})`);
+
+        const pie = d3.pie<[string, number]>()
+          .value(d => d[1])
+          .sort(null);
+
+        const arc = d3.arc<d3.PieArcDatum<[string, number]>>()
+          .innerRadius(0)
+          .outerRadius(pieRadius);
+
+        const colorScale = d3.scaleOrdinal(d3.schemeSet2);
+
+        const arcs = g
+          .selectAll('.arc')
+          .data(pie(sortedVenues))
+          .enter()
+          .append('g')
+          .attr('class', 'arc');
+
+        arcs
+          .append('path')
+          .attr('d', arc)
+          .attr('fill', (d, i) => colorScale(i.toString()))
+          .attr('stroke', '#fff')
+          .attr('stroke-width', 2)
+          .style('cursor', 'pointer')
+          .on('mouseover', function(event, d) {
+            d3.select(this).attr('opacity', 0.7);
+          })
+          .on('mouseout', function(event, d) {
+            d3.select(this).attr('opacity', 1);
+          });
+
+        // 凡例を円グラフの下に2列で配置
+        const legend = svg
+          .append('g')
+          .attr('transform', `translate(${width / 2 - (legendColumnWidth * legendColumns) / 2}, ${pieHeight + 20})`);
+
+        sortedVenues.forEach((venue, i) => {
+          const col = i % legendColumns;
+          const row = Math.floor(i / legendColumns);
+          const x = col * legendColumnWidth;
+          const y = row * legendItemHeight;
+
+          const legendRow = legend
+            .append('g')
+            .attr('transform', `translate(${x}, ${y})`);
+
+          legendRow
+            .append('rect')
+            .attr('width', 15)
+            .attr('height', 15)
+            .attr('fill', colorScale(i.toString()))
+            .attr('rx', 2);
+
+          const text = legendRow
+            .append('text')
+            .attr('x', 20)
+            .attr('y', 12)
+            .attr('font-size', '12px')
+            .attr('fill', '#333')
+            .text(`${venue[0]} (${venue[1]})`);
+
+          // テキストが長すぎる場合は省略
+          if (venue[0].length > PIE_CHART_CONFIG.maxTextLength) {
+            text.text(`${venue[0].substring(0, PIE_CHART_CONFIG.maxTextLength)}... (${venue[1]})`);
+          }
+        });
+      }
+
+      // 年円グラフを描画
+      if (yearStatsRef.current && yearCounts.size > 0) {
+        const svg = d3.select(yearStatsRef.current);
+        svg.selectAll('*').remove();
+
+        const sortedYears = Array.from(yearCounts.entries())
+          .sort((a, b) => parseInt(a[0]) - parseInt(b[0])) // 年でソート
+          .slice(0, PIE_CHART_CONFIG.topN);
+
+        const { width, pieRadius, pieHeight, legendItemHeight, legendColumns, legendColumnWidth } = PIE_CHART_CONFIG;
+        const legendRows = Math.ceil(sortedYears.length / legendColumns);
+        const legendHeight = legendRows * legendItemHeight;
+        const totalHeight = pieHeight + legendHeight + 40;
+
+        svg
+          .attr('width', width)
+          .attr('height', totalHeight);
+
+        const g = svg
+          .append('g')
+          .attr('transform', `translate(${width / 2}, ${pieHeight / 2})`);
+
+        const pie = d3.pie<[string, number]>()
+          .value(d => d[1])
+          .sort(null);
+
+        const arc = d3.arc<d3.PieArcDatum<[string, number]>>()
+          .innerRadius(0)
+          .outerRadius(pieRadius);
+
+        const colorScale = d3.scaleOrdinal(d3.schemePastel1);
+
+        const arcs = g
+          .selectAll('.arc')
+          .data(pie(sortedYears))
+          .enter()
+          .append('g')
+          .attr('class', 'arc');
+
+        arcs
+          .append('path')
+          .attr('d', arc)
+          .attr('fill', (d, i) => colorScale(i.toString()))
+          .attr('stroke', '#fff')
+          .attr('stroke-width', 2)
+          .style('cursor', 'pointer')
+          .on('mouseover', function(event, d) {
+            d3.select(this).attr('opacity', 0.7);
+          })
+          .on('mouseout', function(event, d) {
+            d3.select(this).attr('opacity', 1);
+          });
+
+        // 凡例を円グラフの下に2列で配置
+        const legend = svg
+          .append('g')
+          .attr('transform', `translate(${width / 2 - (legendColumnWidth * legendColumns) / 2}, ${pieHeight + 20})`);
+
+        sortedYears.forEach((year, i) => {
+          const col = i % legendColumns;
+          const row = Math.floor(i / legendColumns);
+          const x = col * legendColumnWidth;
+          const y = row * legendItemHeight;
+
+          const legendRow = legend
+            .append('g')
+            .attr('transform', `translate(${x}, ${y})`);
+
+          legendRow
+            .append('rect')
+            .attr('width', 15)
+            .attr('height', 15)
+            .attr('fill', colorScale(i.toString()))
+            .attr('rx', 2);
+
+          const text = legendRow
+            .append('text')
+            .attr('x', 20)
+            .attr('y', 12)
+            .attr('font-size', '12px')
+            .attr('fill', '#333')
+            .text(`${year[0]}年 (${year[1]})`);
+
+          // テキストが長すぎる場合は省略
+          const yearText = `${year[0]}年 (${year[1]})`;
+          if (yearText.length > PIE_CHART_CONFIG.maxTextLength) {
+            text.text(`${yearText.substring(0, PIE_CHART_CONFIG.maxTextLength)}...`);
+          }
+        });
+      }
+
+      // 著者円グラフを描画
+      if (authorStatsRef.current && authorCounts.size > 0) {
+        const svg = d3.select(authorStatsRef.current);
+        svg.selectAll('*').remove();
+
+        const sortedAuthors = Array.from(authorCounts.entries())
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, PIE_CHART_CONFIG.topN);
+
+        const { width, pieRadius, pieHeight, legendItemHeight, legendColumns, legendColumnWidth } = PIE_CHART_CONFIG;
+        const legendRows = Math.ceil(sortedAuthors.length / legendColumns);
+        const legendHeight = legendRows * legendItemHeight;
+        const totalHeight = pieHeight + legendHeight + 40;
+
+        svg
+          .attr('width', width)
+          .attr('height', totalHeight);
+
+        const g = svg
+          .append('g')
+          .attr('transform', `translate(${width / 2}, ${pieHeight / 2})`);
+
+        const pie = d3.pie<[string, number]>()
+          .value(d => d[1])
+          .sort(null);
+
+        const arc = d3.arc<d3.PieArcDatum<[string, number]>>()
+          .innerRadius(0)
+          .outerRadius(pieRadius);
+
+        const colorScale = d3.scaleOrdinal(d3.schemeTableau10);
+
+        const arcs = g
+          .selectAll('.arc')
+          .data(pie(sortedAuthors))
+          .enter()
+          .append('g')
+          .attr('class', 'arc');
+
+        arcs
+          .append('path')
+          .attr('d', arc)
+          .attr('fill', (d, i) => colorScale(i.toString()))
+          .attr('stroke', '#fff')
+          .attr('stroke-width', 2)
+          .style('cursor', 'pointer')
+          .on('mouseover', function(event, d) {
+            d3.select(this).attr('opacity', 0.7);
+          })
+          .on('mouseout', function(event, d) {
+            d3.select(this).attr('opacity', 1);
+          });
+
+        // 凡例を円グラフの下に2列で配置
+        const legend = svg
+          .append('g')
+          .attr('transform', `translate(${width / 2 - (legendColumnWidth * legendColumns) / 2}, ${pieHeight + 20})`);
+
+        sortedAuthors.forEach((author, i) => {
+          const col = i % legendColumns;
+          const row = Math.floor(i / legendColumns);
+          const x = col * legendColumnWidth;
+          const y = row * legendItemHeight;
+
+          const legendRow = legend
+            .append('g')
+            .attr('transform', `translate(${x}, ${y})`);
+
+          legendRow
+            .append('rect')
+            .attr('width', 15)
+            .attr('height', 15)
+            .attr('fill', colorScale(i.toString()))
+            .attr('rx', 2);
+
+          const text = legendRow
+            .append('text')
+            .attr('x', 20)
+            .attr('y', 12)
+            .attr('font-size', '12px')
+            .attr('fill', '#333')
+            .text(`${author[0]} (${author[1]})`);
+
+          // テキストが長すぎる場合は省略
+          if (author[0].length > PIE_CHART_CONFIG.maxTextLength) {
+            text.text(`${author[0].substring(0, PIE_CHART_CONFIG.maxTextLength)}... (${author[1]})`);
+          }
+        });
+      }
+    }, [papers]);
+
+    if (!papers || papers.length === 0) return null;
+
+    const allPapers = papers;
+    const hasTags = allPapers.some(p => p.tags && p.tags.length > 0);
+    const hasVenues = allPapers.some(p => p.venue);
+    const hasYears = allPapers.some(p => p.year !== undefined && p.year !== null);
+    const hasAuthors = allPapers.some(p => p.authors && p.authors.length > 0);
+
+    if (!hasTags && !hasVenues && !hasYears && !hasAuthors) return null;
+
+    return (
+      <div className="paper-explorer-statistics">
+        <h2 className="paper-explorer-statistics-title">統計情報</h2>
+        <div className="paper-explorer-statistics-content">
+          {hasTags && (
+            <div className="paper-explorer-statistics-chart">
+              <h3 className="paper-explorer-statistics-chart-title">タグ分布</h3>
+              <svg ref={tagStatsRef} />
+            </div>
+          )}
+          {hasVenues && (
+            <div className="paper-explorer-statistics-chart">
+              <h3 className="paper-explorer-statistics-chart-title">カンファレンス分布</h3>
+              <svg ref={venueStatsRef} />
+            </div>
+          )}
+          {hasYears && (
+            <div className="paper-explorer-statistics-chart">
+              <h3 className="paper-explorer-statistics-chart-title">年分布</h3>
+              <svg ref={yearStatsRef} />
+            </div>
+          )}
+          {hasAuthors && (
+            <div className="paper-explorer-statistics-chart">
+              <h3 className="paper-explorer-statistics-chart-title">著者分布</h3>
+              <svg ref={authorStatsRef} />
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  };
+
   const PaperCard: React.FC<{ paper: Paper; type: 'cites' | 'cited_by' }> = ({ paper, type }) => {
     const handleCardClick = (e: React.MouseEvent) => {
       // フッターのリンクがクリックされた場合は検索を実行しない
@@ -1725,6 +2188,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
               <svg ref={svgRef} width="100%" height="800px" />
             </div>
           )}
+
+          {result && result.paper && (
+            <StatisticsSection papers={[...result.cites, ...result.cited_by, result.paper]} />
+          )}
         </>
       )}
 
@@ -1748,6 +2215,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
               </div>
             </div>
           </div>
+          <StatisticsSection papers={tagResult.papers} />
         </>
       )}
 
@@ -1765,6 +2233,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
               </div>
             </div>
           </div>
+          <StatisticsSection papers={authorResult.papers} />
         </>
       )}
 
@@ -1782,6 +2251,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
               </div>
             </div>
           </div>
+          <StatisticsSection papers={venueResult.papers} />
         </>
       )}
     </div>
