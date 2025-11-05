@@ -66,16 +66,16 @@ def generate_tldr(abstract: str, title: str = "") -> Optional[str]:
         return None
     
     # プロンプトを構築
-    prompt = "以下の論文のAbstractを読んで、簡潔なTLDR（Too Long; Didn't Read）を生成してください。"
+    prompt = "Read the following paper's Abstract and generate a concise TLDR (Too Long; Didn't Read) in English. The TLDR should be approximately 250 characters."
     if title:
-        prompt += f"\n\nタイトル: {title}\n\n"
-    prompt += f"Abstract:\n{abstract}\n\nTLDR:"
+        prompt += f"\n\nTitle: {title}\n\n"
+    prompt += f"Abstract:\n{abstract}\n\nTLDR (in English, approximately 250 characters):"
     
     try:
         response = client.chat.completions.create(
             model="gpt-4o-mini",  # または "gpt-3.5-turbo" や "gpt-4"
             messages=[
-                {"role": "system", "content": "あなたは学術論文の要約を行う専門家です。Abstractを読み、簡潔で正確なTLDRを生成してください。"},
+                {"role": "system", "content": "You are an expert in academic paper summarization. Read the Abstract and generate a concise and accurate TLDR in English. The TLDR should be approximately 250 characters."},
                 {"role": "user", "content": prompt}
             ],
             temperature=0.3,

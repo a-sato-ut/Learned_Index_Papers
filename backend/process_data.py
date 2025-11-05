@@ -666,6 +666,13 @@ async def get_venues():
     return {"venues": venues}
 
 
+@app.get("/api/papers/all")
+async def get_all_papers():
+    """全論文を取得"""
+    papers = [corpus._load_tldr_data(p).dict() for p in corpus.papers.values()]
+    return {"papers": papers, "count": len(papers)}
+
+
 def main():
     """メイン関数"""
     # 出力フォルダを作成
