@@ -132,31 +132,52 @@ def get_author_papers(author_id: str, *, limit: int = 100) -> list[dict]:
     著者IDから著者の論文リストを取得
     
     Args:
-        author_id: OpenAlexの著者ID
+        author_id: OpenAlexの著者ID（例: "A5020363750"）
         limit: 取得する論文数の上限
     
     Returns:
         論文のリスト（各論文はpaperId, title, yearを含む）
     """
-    url = f"{OPENALEX_BASE}/authors/{author_id}"
+    # OpenAlexでは /works?filter=author.id:{id} エンドポイントを使用
+    # 参考: https://api.openalex.org/works?filter=author.id:A5020363750
+    url = f"{OPENALEX_BASE}/works"
     
-    # 論文情報を含むフィールドを要求
-    params = {}
-    data = _request_json("GET", url, params=params)
+    # ページネーションを考慮して取得
+    params = {
+        "filter": f"author.id:{author_id}",
+        "per_page": min(limit, 200),  # OpenAlex APIの最大値は200
+    }
     
-    if not data:
-        return []
+    all_papers = []
+    page = 1
     
-    papers = data.get("works", []) or []
+    while len(all_papers) < limit:
+        params["page"] = page
+        data = _request_json("GET", url, params=params)
+        
+        if not data:
+            break
+        
+        papers = data.get("results", []) or []
+        if not papers:
+            break
+        
+        # 論文情報を整形
+        for paper in papers:
+            if len(all_papers) >= limit:
+                break
+            paper_info = {
+                "paperId": paper.get("id", "").replace("https://openalex.org/", ""),
+                "title": paper.get("title", ""),
+                "year": paper.get("publication_year"),
+            }
+            all_papers.append(paper_info)
+        
+        # 次のページがあるかチェック
+        meta = data.get("meta", {})
+        if not meta.get("has_more", False):
+            break
+        
+        page += 1
     
-    # 論文情報を整形
-    result = []
-    for paper in papers[:limit]:
-        paper_info = {
-            "paperId": paper.get("id", "").replace("https://openalex.org/", ""),
-            "title": paper.get("title", ""),
-            "year": paper.get("publication_year"),
-        }
-        result.append(paper_info)
-    
-    return result
+    return all_papers

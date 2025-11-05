@@ -113,19 +113,18 @@ def find_best_matching_author(author_name: str, author_papers: List[Dict[str, An
         try:
             # OpenAlexから著者の論文を取得
             openalex_papers = get_author_papers(author_id, limit=100)
-            
-            # 論文のタイトルで照合（簡易的なマッチング）
+
+            # 論文のタイトルで照合（完全一致）
             match_count = 0
-            dataset_titles = {p["title"].lower().strip() for p in author_papers if p.get("title")}
+            dataset_titles = {p.get("title", "").lower().strip() for p in author_papers}
             
             for openalex_paper in openalex_papers:
                 openalex_title = openalex_paper.get("title", "").lower().strip()
                 if openalex_title in dataset_titles:
                     match_count += 1
-            
-            # スコア計算: ベーススコア + マッチ数
-            score = base_score + match_count * 10
-            
+
+            score = base_score + match_count * 100
+
             if score > best_score:
                 best_score = score
                 best_match = author_id
@@ -168,7 +167,7 @@ def get_author_info_if_not_exists(author_name: str, papers_folder: Path = None):
     # get_author_info_by_idはaffiliationsのリストを返す
     affiliations = get_author_info_by_id(author_id)
     if not affiliations:
-        print(f"Warning: Could not fetch author info for: {author_name}")
+        print(f"Warning: Could not fetch author info for: {author_name} (ID: {author_id})")
         return {
             "authorName": author_name,
             "openalexAuthorId": author_id,
@@ -192,12 +191,20 @@ def get_author_info_if_not_exists(author_name: str, papers_folder: Path = None):
     }
 
 
-def collect_all_author_info(papers_folder: Path):
-    """すべての論文から著者名を収集し、被引用数が多い順に著者情報を取得"""
-    # すべての論文ファイルを読み込んで、著者名と被引用数を収集
-    author_citations = {}  # {author_name: total_citation_count}
+def collect_all_author_info(papers_folder: Path, sort_by: str = "citations"):
+    """
+    すべての論文から著者名を収集し、指定された順序で著者情報を取得
     
-    print("Collecting author names and citation counts from papers...")
+    Args:
+        papers_folder: 論文フォルダのパス
+        sort_by: ソート基準 ("citations" または "papers")
+            - "citations": 被引用数が多い順
+            - "papers": learned index論文数が多い順
+    """
+    # すべての論文ファイルを読み込んで、著者名、被引用数、論文数を収集
+    author_stats = {}  # {author_name: {"citations": int, "papers": int}}
+    
+    print("Collecting author names and statistics from papers...")
     paper_files = list(papers_folder.glob("*.json"))
     for paper_file in tqdm(paper_files, desc="Reading papers"):
         try:
@@ -208,28 +215,40 @@ def collect_all_author_info(papers_folder: Path):
                 
                 if isinstance(authors, list):
                     for author in authors:
-                        if author not in author_citations:
-                            author_citations[author] = 0
-                        author_citations[author] += citation_count
+                        if author not in author_stats:
+                            author_stats[author] = {"citations": 0, "papers": 0}
+                        author_stats[author]["citations"] += citation_count
+                        author_stats[author]["papers"] += 1
         except Exception as e:
             print(f"Error reading {paper_file}: {e}")
     
-    print(f"Found {len(author_citations)} unique authors")
+    print(f"Found {len(author_stats)} unique authors")
     
-    # 被引用数でソート（多い順）
-    sorted_authors = sorted(
-        author_citations.items(),
-        key=lambda x: x[1],
-        reverse=True
-    )
+    # ソート基準に応じてソート
+    if sort_by == "papers":
+        # 論文数でソート（多い順）
+        sorted_authors = sorted(
+            author_stats.items(),
+            key=lambda x: x[1]["papers"],
+            reverse=True
+        )
+        print(f"\nTop 10 authors by paper count:")
+        for author, stats in sorted_authors[:10]:
+            print(f"  {author}: {stats['papers']} papers, {stats['citations']} citations")
+    else:
+        # 被引用数でソート（多い順、デフォルト）
+        sorted_authors = sorted(
+            author_stats.items(),
+            key=lambda x: x[1]["citations"],
+            reverse=True
+        )
+        print(f"\nTop 10 authors by citations:")
+        for author, stats in sorted_authors[:10]:
+            print(f"  {author}: {stats['citations']} citations, {stats['papers']} papers")
     
-    print(f"Top 10 authors by citations:")
-    for author, citations in sorted_authors[:10]:
-        print(f"  {author}: {citations} citations")
-    
-    # 各著者の情報を取得（被引用数が多い順）
+    # 各著者の情報を取得
     print("\nFetching author information...")
-    for author_name, citation_count in tqdm(sorted_authors, desc="Fetching author info"):
+    for author_name, stats in tqdm(sorted_authors, desc="Fetching author info"):
         try:
             get_author_info_if_not_exists(author_name, papers_folder)
         except Exception as e:
@@ -240,5 +259,10 @@ if __name__ == "__main__":
     from pathlib import Path
     PAPERS_FOLDER = Path(__file__).parent.parent / "data" / "papers"
     
-    collect_all_author_info(PAPERS_FOLDER)
+    # コマンドライン引数でソート基準を指定可能
+    # sort_by = "citations"
+    sort_by = "papers"
+    print(f"Sorting authors by: {sort_by}")
+    collect_all_author_info(PAPERS_FOLDER, sort_by=sort_by)
 
+    # get_author_info_if_not_exists("Atsuki Sato", PAPERS_FOLDER)

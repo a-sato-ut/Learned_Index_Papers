@@ -26,6 +26,8 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   const [availableVenues, setAvailableVenues] = useState<Array<{venue: string, count: number}>>([]);
   const [venueResult, setVenueResult] = useState<PapersByVenueResult | null>(null);
   const [venueDropdownOpen, setVenueDropdownOpen] = useState(false);
+  const [minYear, setMinYear] = useState<number | null>(null);
+  const [yearFilterOpen, setYearFilterOpen] = useState(false);
   const svgRef = useRef<SVGSVGElement>(null);
 
   const fetchTags = async () => {
@@ -67,8 +69,27 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   const searchPapers = async (searchQuery?: string) => {
     const queryToUse = searchQuery || query;
     
-    // タイトルが空で、タグ、著者、またはvenueが指定されたら → フィルタのみでフィルタリング
-    if (!queryToUse.trim() && (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0)) {
+    // URLパラメータを更新
+    const newSearchParams = new URLSearchParams();
+    if (queryToUse.trim()) {
+      newSearchParams.set('query', queryToUse);
+    }
+    if (selectedTags.length > 0) {
+      newSearchParams.set('tags', selectedTags.join(','));
+    }
+    if (selectedAuthors.length > 0) {
+      newSearchParams.set('authors', selectedAuthors.join(','));
+    }
+    if (selectedVenues.length > 0) {
+      newSearchParams.set('venues', selectedVenues.join(','));
+    }
+    if (minYear !== null) {
+      newSearchParams.set('min_year', minYear.toString());
+    }
+    setSearchParams(newSearchParams);
+    
+    // タイトルが空で、タグ、著者、venue、または年が指定されたら → フィルタのみでフィルタリング
+    if (!queryToUse.trim() && (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null)) {
       setLoading(true);
       setResult(null);
       setAuthorResult(null);
@@ -77,7 +98,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         // タグのみの場合はタグ検索
         if (selectedTags.length > 0 && selectedAuthors.length === 0 && selectedVenues.length === 0) {
           const tagsParam = selectedTags.join(',');
-          const url = `${API_BASE}/api/papers/by-tag?tags=${encodeURIComponent(tagsParam)}`;
+          let url = `${API_BASE}/api/papers/by-tag?tags=${encodeURIComponent(tagsParam)}`;
+          if (minYear !== null) {
+            url += `&min_year=${minYear}`;
+          }
           console.log('Searching by tags with URL:', url);
           
           const response = await fetch(url);
@@ -95,7 +119,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         // 著者のみの場合は著者検索
         else if (selectedAuthors.length > 0 && selectedTags.length === 0 && selectedVenues.length === 0) {
           const authorsParam = selectedAuthors.join(',');
-          const url = `${API_BASE}/api/papers/by-author?authors=${encodeURIComponent(authorsParam)}`;
+          let url = `${API_BASE}/api/papers/by-author?authors=${encodeURIComponent(authorsParam)}`;
+          if (minYear !== null) {
+            url += `&min_year=${minYear}`;
+          }
           console.log('Searching by authors with URL:', url);
           
           const response = await fetch(url);
@@ -114,7 +141,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         // venueのみの場合はvenue検索
         else if (selectedVenues.length > 0 && selectedTags.length === 0 && selectedAuthors.length === 0) {
           const venuesParam = selectedVenues.join(',');
-          const url = `${API_BASE}/api/papers/by-venue?venues=${encodeURIComponent(venuesParam)}`;
+          let url = `${API_BASE}/api/papers/by-venue?venues=${encodeURIComponent(venuesParam)}`;
+          if (minYear !== null) {
+            url += `&min_year=${minYear}`;
+          }
           console.log('Searching by venues with URL:', url);
           
           const response = await fetch(url);
@@ -139,7 +169,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           // 最初のフィルタで検索
           if (selectedTags.length > 0) {
             const tagsParam = selectedTags.join(',');
-            const url = `${API_BASE}/api/papers/by-tag?tags=${encodeURIComponent(tagsParam)}`;
+            let url = `${API_BASE}/api/papers/by-tag?tags=${encodeURIComponent(tagsParam)}`;
+            if (minYear !== null) {
+              url += `&min_year=${minYear}`;
+            }
             const response = await fetch(url);
             if (response.ok) {
               const data: PapersByTagResult = await response.json();
@@ -148,7 +181,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             }
           } else if (selectedAuthors.length > 0) {
             const authorsParam = selectedAuthors.join(',');
-            const url = `${API_BASE}/api/papers/by-author?authors=${encodeURIComponent(authorsParam)}`;
+            let url = `${API_BASE}/api/papers/by-author?authors=${encodeURIComponent(authorsParam)}`;
+            if (minYear !== null) {
+              url += `&min_year=${minYear}`;
+            }
             const response = await fetch(url);
             if (response.ok) {
               const data: PapersByAuthorResult = await response.json();
@@ -157,7 +193,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             }
           } else if (selectedVenues.length > 0) {
             const venuesParam = selectedVenues.join(',');
-            const url = `${API_BASE}/api/papers/by-venue?venues=${encodeURIComponent(venuesParam)}`;
+            let url = `${API_BASE}/api/papers/by-venue?venues=${encodeURIComponent(venuesParam)}`;
+            if (minYear !== null) {
+              url += `&min_year=${minYear}`;
+            }
             const response = await fetch(url);
             if (response.ok) {
               const data: PapersByVenueResult = await response.json();
@@ -180,6 +219,11 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           if (selectedVenues.length > 0 && resultType !== 'venue') {
             papers = papers.filter(p => 
               p.venue && selectedVenues.includes(p.venue)
+            );
+          }
+          if (minYear !== null) {
+            papers = papers.filter(p => 
+              p.year !== null && p.year !== undefined && p.year >= minYear
             );
           }
           
@@ -282,6 +326,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     const tagsParam = searchParams.get('tags');
     const venuesParam = searchParams.get('venues');
     const queryParam = searchParams.get('query');
+    const minYearParam = searchParams.get('min_year');
     
     if (queryParam) {
       setQuery(decodeURIComponent(queryParam));
@@ -308,8 +353,17 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       setSelectedVenues([]);
     }
     
+    if (minYearParam) {
+      const year = parseInt(minYearParam, 10);
+      if (!isNaN(year)) {
+        setMinYear(year);
+      }
+    } else {
+      setMinYear(null);
+    }
+    
     // URLパラメータがある場合は、タイトルをクリアしてフィルタのみで検索
-    if (authorsParam || tagsParam || venuesParam) {
+    if (authorsParam || tagsParam || venuesParam || minYearParam) {
       if (!queryParam) {
         setQuery('');
       }
@@ -326,7 +380,8 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     const authorsParam = searchParams.get('authors');
     const tagsParam = searchParams.get('tags');
     const venuesParam = searchParams.get('venues');
-    if (authorsParam || tagsParam || venuesParam) {
+    const minYearParam = searchParams.get('min_year');
+    if (authorsParam || tagsParam || venuesParam || minYearParam) {
       // URLパラメータからフィルタが読み込まれた後に検索が実行されるようにするため、
       // ここでは何もしない（URLパラメータの読み込み処理で自動的に検索が実行される）
     }
@@ -1304,7 +1359,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             {loading ? '検索中...' : '検索'}
           </button>
         </div>
-        {(selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0) && (
+        {(selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null) && (
           <div className="paper-explorer-active-filters">
             <span className="paper-explorer-active-filters-label">フィルタ:</span>
             {selectedTags.map((tag) => (
@@ -1352,6 +1407,21 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                 </button>
               </span>
             ))}
+            {minYear !== null && (
+              <span className="paper-explorer-active-filter-item paper-explorer-active-filter-year">
+                <span className="paper-explorer-active-filter-label">年</span>
+                {minYear}年以降
+                <button
+                  className="paper-explorer-active-filter-remove"
+                  onClick={() => {
+                    setMinYear(null);
+                  }}
+                  disabled={loading}
+                >
+                  ×
+                </button>
+              </span>
+            )}
           </div>
         )}
         <div className="paper-explorer-filters">
@@ -1455,6 +1525,63 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                       <span>{venueItem.venue} ({venueItem.count}件)</span>
                     </label>
                   ))}
+                </div>
+              )}
+            </div>
+          </div>
+
+          <div className="paper-explorer-tag-filter">
+            <div className="paper-explorer-tag-checkboxes">
+              <div 
+                className="paper-explorer-tag-filter-header"
+                onClick={() => setYearFilterOpen(!yearFilterOpen)}
+              >
+                <span className="paper-explorer-tag-dropdown-icon">
+                  {yearFilterOpen ? '▼' : '▶'}
+                </span>
+                <label className="paper-explorer-tag-filter-label">年でフィルタリング:</label>
+              </div>
+              {yearFilterOpen && (
+                <div className="paper-explorer-year-filter-content">
+                  <div className="paper-explorer-year-filter-input-group">
+                    <input
+                      type="number"
+                      placeholder="年"
+                      min="1900"
+                      max={new Date().getFullYear()}
+                      value={minYear || ''}
+                      onChange={(e) => {
+                        const value = e.target.value;
+                        setMinYear(value === '' ? null : parseInt(value, 10));
+                      }}
+                      onKeyPress={(e) => {
+                        if (e.key === 'Enter') {
+                          searchPapers();
+                        }
+                      }}
+                      className="paper-explorer-year-input"
+                    />
+                    <span className="paper-explorer-year-label">以降の論文のみ表示</span>
+                    <button
+                      className="paper-explorer-year-apply"
+                      onClick={() => searchPapers()}
+                      disabled={loading}
+                    >
+                      適用
+                    </button>
+                    {minYear !== null && (
+                      <button
+                        className="paper-explorer-year-clear"
+                        onClick={() => {
+                          setMinYear(null);
+                          searchPapers();
+                        }}
+                        disabled={loading}
+                      >
+                        クリア
+                      </button>
+                    )}
+                  </div>
                 </div>
               )}
             </div>

@@ -82,6 +82,12 @@
   color: #5b21b6;
 }
 
+.paper-explorer-active-filter-year {
+  border-color: #f59e0b;
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
 .paper-explorer-active-filter-label {
   font-size: 0.75rem;
   font-weight: 600;
@@ -159,6 +165,84 @@
 .paper-explorer-tag-dropdown-icon {
   font-size: 0.8rem;
   color: #6b7280;
+}
+
+.paper-explorer-year-filter-content {
+  padding: 15px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.paper-explorer-year-filter-input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.paper-explorer-year-input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 120px;
+}
+
+.paper-explorer-year-input:hover {
+  border-color: #3b82f6;
+}
+
+.paper-explorer-year-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.paper-explorer-year-label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.paper-explorer-year-apply {
+  padding: 6px 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.paper-explorer-year-apply:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+.paper-explorer-year-apply:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.paper-explorer-year-clear {
+  padding: 6px 12px;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.paper-explorer-year-clear:hover:not(:disabled) {
+  background-color: #dc2626;
+}
+
+.paper-explorer-year-clear:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
 }
 
 .paper-explorer-tag-checkboxes-list {

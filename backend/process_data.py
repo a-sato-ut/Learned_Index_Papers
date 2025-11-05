@@ -260,7 +260,7 @@ class Corpus:
         
         return Paper(**paper_dict)
 
-    def get_cites(self, paper_id: str, limit: int = 2000, tags: Optional[List[str]] = None, authors: Optional[List[str]] = None, venues: Optional[List[str]] = None) -> List[Paper]:
+    def get_cites(self, paper_id: str, limit: int = 2000, tags: Optional[List[str]] = None, authors: Optional[List[str]] = None, venues: Optional[List[str]] = None, min_year: Optional[int] = None) -> List[Paper]:
         """この論文が引用している論文のリストを取得（cited_byの数が多い順）"""
         citation_ids = self.cites.get(paper_id, [])
         papers = [self.papers[pid] for pid in citation_ids if pid in self.papers]
@@ -293,7 +293,7 @@ class Corpus:
         
         return papers_with_tldr
 
-    def get_cited_by(self, paper_id: str, limit: int = 2000, tags: Optional[List[str]] = None, authors: Optional[List[str]] = None, venues: Optional[List[str]] = None) -> List[Paper]:
+    def get_cited_by(self, paper_id: str, limit: int = 2000, tags: Optional[List[str]] = None, authors: Optional[List[str]] = None, venues: Optional[List[str]] = None, min_year: Optional[int] = None) -> List[Paper]:
         """この論文を引用している論文のリストを取得（cited_byの数が多い順）"""
         cited_by_ids = self.cited_by.get(paper_id, [])
         papers = [self.papers[pid] for pid in cited_by_ids if pid in self.papers]
@@ -324,15 +324,24 @@ class Corpus:
                 if p.venue and normalize_venue(p.venue) in normalized_venues
             ]
         
+        # 年でフィルタリング（min_year以降の論文のみ）
+        if min_year is not None:
+            papers_with_tldr = [
+                p for p in papers_with_tldr 
+                if p.year is not None and p.year >= min_year
+            ]
+        
         return papers_with_tldr
 
-    def get_papers_by_tags(self, tags: List[str], limit: int = 2000) -> List[Paper]:
+    def get_papers_by_tags(self, tags: List[str], limit: int = 2000, min_year: Optional[int] = None) -> List[Paper]:
         """指定されたタグを全て持つ論文を取得（citationCountが多い順、AND条件）"""
         papers_with_tags = []
         for paper in self.papers.values():
             paper_with_tldr = self._load_tldr_data(paper)
             if paper_with_tldr.tags and all(tag in paper_with_tldr.tags for tag in tags):
-                papers_with_tags.append(paper_with_tldr)
+                # 年フィルタリング
+                if min_year is None or (paper_with_tldr.year is not None and paper_with_tldr.year >= min_year):
+                    papers_with_tags.append(paper_with_tldr)
         
         papers_with_tags.sort(key=lambda p: p.citationCount, reverse=True)
         return papers_with_tags[:limit]
@@ -349,13 +358,15 @@ class Corpus:
         # タグ名でソートして、辞書形式で返す
         return [{"tag": tag, "count": count} for tag, count in sorted(tag_counts.items())]
 
-    def get_papers_by_authors(self, authors: List[str], limit: int = 2000) -> List[Paper]:
+    def get_papers_by_authors(self, authors: List[str], limit: int = 2000, min_year: Optional[int] = None) -> List[Paper]:
         """指定された著者を全て含む論文を取得（citationCountが多い順、AND条件）"""
         papers_with_authors = []
         for paper in self.papers.values():
             paper_with_tldr = self._load_tldr_data(paper)
             if paper_with_tldr.authors and all(author in paper_with_tldr.authors for author in authors):
-                papers_with_authors.append(paper_with_tldr)
+                # 年フィルタリング
+                if min_year is None or (paper_with_tldr.year is not None and paper_with_tldr.year >= min_year):
+                    papers_with_authors.append(paper_with_tldr)
         
         papers_with_authors.sort(key=lambda p: p.citationCount, reverse=True)
         return papers_with_authors[:limit]
@@ -372,7 +383,7 @@ class Corpus:
         # countが多い順にソートして、辞書形式で返す
         return [{"author": author, "count": count} for author, count in sorted(author_counts.items(), key=lambda x: x[1], reverse=True)]
 
-    def get_papers_by_venues(self, venues: List[str], limit: int = 2000) -> List[Paper]:
+    def get_papers_by_venues(self, venues: List[str], limit: int = 2000, min_year: Optional[int] = None) -> List[Paper]:
         """指定されたvenueのいずれかに一致する論文を取得（citationCountが多い順、OR条件）"""
         # 年を除去して正規化したvenue名で比較
         normalized_venues = [normalize_venue(v) for v in venues]
@@ -380,7 +391,9 @@ class Corpus:
         for paper in self.papers.values():
             paper_with_tldr = self._load_tldr_data(paper)
             if paper_with_tldr.venue and normalize_venue(paper_with_tldr.venue) in normalized_venues:
-                papers_with_venues.append(paper_with_tldr)
+                # 年フィルタリング
+                if min_year is None or (paper_with_tldr.year is not None and paper_with_tldr.year >= min_year):
+                    papers_with_venues.append(paper_with_tldr)
         
         papers_with_venues.sort(key=lambda p: p.citationCount, reverse=True)
         return papers_with_venues[:limit]
@@ -487,7 +500,8 @@ async def search(
     limit: int = Query(2000, ge=1, le=2000),
     tags: Optional[str] = Query(None, description="タグでフィルタリング（カンマ区切りで複数指定可能）"),
     authors: Optional[str] = Query(None, description="著者でフィルタリング（カンマ区切りで複数指定可能）"),
-    venues: Optional[str] = Query(None, description="学会/ジャーナルでフィルタリング（カンマ区切りで複数指定可能、OR条件）")
+    venues: Optional[str] = Query(None, description="学会/ジャーナルでフィルタリング（カンマ区切りで複数指定可能、OR条件）"),
+    min_year: Optional[int] = Query(None, description="この年以降の論文のみを対象とする")
 ):
     """タイトルでLCS検索してベストマッチを返す"""
     best_match = corpus.best_match_by_title(query)
@@ -511,8 +525,8 @@ async def search(
 
     return {
         "paper": best_match.dict(),
-        "cites": [p.dict() for p in corpus.get_cites(best_match.paperId, limit, tag_list, author_list, venue_list)],
-        "cited_by": [p.dict() for p in corpus.get_cited_by(best_match.paperId, limit, tag_list, author_list, venue_list)],
+        "cites": [p.dict() for p in corpus.get_cites(best_match.paperId, limit, tag_list, author_list, venue_list, min_year)],
+        "cited_by": [p.dict() for p in corpus.get_cited_by(best_match.paperId, limit, tag_list, author_list, venue_list, min_year)],
     }
 
 
@@ -522,7 +536,8 @@ async def get_paper(
     limit: int = Query(2000, ge=1, le=2000),
     tags: Optional[str] = Query(None, description="タグでフィルタリング（カンマ区切りで複数指定可能）"),
     authors: Optional[str] = Query(None, description="著者でフィルタリング（カンマ区切りで複数指定可能）"),
-    venues: Optional[str] = Query(None, description="学会/ジャーナルでフィルタリング（カンマ区切りで複数指定可能、OR条件）")
+    venues: Optional[str] = Query(None, description="学会/ジャーナルでフィルタリング（カンマ区切りで複数指定可能、OR条件）"),
+    min_year: Optional[int] = Query(None, description="この年以降の論文のみを対象とする")
 ):
     """論文IDで論文と引用関係を取得"""
     paper = corpus.get_paper(paper_id)
@@ -546,15 +561,16 @@ async def get_paper(
 
     return {
         "paper": paper.dict(),
-        "cites": [p.dict() for p in corpus.get_cites(paper_id, limit, tag_list, author_list, venue_list)],
-        "cited_by": [p.dict() for p in corpus.get_cited_by(paper_id, limit, tag_list, author_list, venue_list)],
+        "cites": [p.dict() for p in corpus.get_cites(paper_id, limit, tag_list, author_list, venue_list, min_year)],
+        "cited_by": [p.dict() for p in corpus.get_cited_by(paper_id, limit, tag_list, author_list, venue_list, min_year)],
     }
 
 
 @app.get("/api/papers/by-tag")
 async def get_papers_by_tag(
     tags: str = Query(..., description="タグ名（カンマ区切りで複数指定可能、AND条件）"),
-    limit: int = Query(2000, ge=1, le=2000)
+    limit: int = Query(2000, ge=1, le=2000),
+    min_year: Optional[int] = Query(None, description="この年以降の論文のみを対象とする")
 ):
     """指定されたタグを全て持つ論文を取得（AND条件）"""
     # タグをパース（カンマ区切り）
@@ -562,7 +578,7 @@ async def get_papers_by_tag(
     if not tag_list:
         raise HTTPException(status_code=400, detail="At least one tag is required")
     
-    papers = corpus.get_papers_by_tags(tag_list, limit)
+    papers = corpus.get_papers_by_tags(tag_list, limit, min_year)
     return {
         "papers": [p.dict() for p in papers],
         "tags": tag_list,
@@ -580,7 +596,8 @@ async def get_tags():
 @app.get("/api/papers/by-author")
 async def get_papers_by_author(
     authors: str = Query(..., description="著者名（カンマ区切りで複数指定可能、AND条件）"),
-    limit: int = Query(2000, ge=1, le=2000)
+    limit: int = Query(2000, ge=1, le=2000),
+    min_year: Optional[int] = Query(None, description="この年以降の論文のみを対象とする")
 ):
     """指定された著者を全て含む論文を取得（AND条件）"""
     # 著者をパース（カンマ区切り）
@@ -588,7 +605,7 @@ async def get_papers_by_author(
     if not author_list:
         raise HTTPException(status_code=400, detail="At least one author is required")
     
-    papers = corpus.get_papers_by_authors(author_list, limit)
+    papers = corpus.get_papers_by_authors(author_list, limit, min_year)
     return {
         "papers": [p.dict() for p in papers],
         "authors": author_list,
@@ -611,11 +628,13 @@ async def get_author_ranking(
     """著者ランキングを取得（論文数、被引用数、タグ集計、カンファレンス集計を含む）"""
     ranking = corpus.get_author_ranking(min_year=min_year)
     
-    # ソート
+    # ソート（第1キーでソート、同じ値の場合は第2キーでソート）
     if sort_by == "totalCitations":
-        ranking.sort(key=lambda x: x["totalCitations"], reverse=True)
+        # 被引用数順（同じ被引用数の場合は論文数が多い順）
+        ranking.sort(key=lambda x: (x["totalCitations"], x["paperCount"]), reverse=True)
     else:  # デフォルトは論文数
-        ranking.sort(key=lambda x: x["paperCount"], reverse=True)
+        # 論文数順（同じ論文数の場合は被引用数が多い順）
+        ranking.sort(key=lambda x: (x["paperCount"], x["totalCitations"]), reverse=True)
     
     return {"ranking": ranking}
 
@@ -623,7 +642,8 @@ async def get_author_ranking(
 @app.get("/api/papers/by-venue")
 async def get_papers_by_venue(
     venues: str = Query(..., description="学会/ジャーナル名（カンマ区切りで複数指定可能、OR条件）"),
-    limit: int = Query(2000, ge=1, le=2000)
+    limit: int = Query(2000, ge=1, le=2000),
+    min_year: Optional[int] = Query(None, description="この年以降の論文のみを対象とする")
 ):
     """指定されたvenueのいずれかに一致する論文を取得（OR条件）"""
     # venueをパース（カンマ区切り）
@@ -631,7 +651,7 @@ async def get_papers_by_venue(
     if not venue_list:
         raise HTTPException(status_code=400, detail="At least one venue is required")
     
-    papers = corpus.get_papers_by_venues(venue_list, limit)
+    papers = corpus.get_papers_by_venues(venue_list, limit, min_year)
     return {
         "papers": [p.dict() for p in papers],
         "venues": venue_list,
