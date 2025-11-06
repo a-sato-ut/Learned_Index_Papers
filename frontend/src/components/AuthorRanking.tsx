@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import * as d3 from 'd3';
 import { AuthorRankingItem } from '../types';
 import './AuthorRanking.css';
@@ -125,10 +125,10 @@ const AuthorStatisticsSection: React.FC<{ authors: AuthorRankingItem[] }> = ({ a
         .attr('stroke', '#fff')
         .attr('stroke-width', 2)
         .style('cursor', 'pointer')
-        .on('mouseover', function(event, d) {
+        .on('mouseover', function(_event, _d) {
           d3.select(this).attr('opacity', 0.7);
         })
-        .on('mouseout', function(event, d) {
+        .on('mouseout', function(_event, _d) {
           d3.select(this).attr('opacity', 1);
         });
 
@@ -213,10 +213,10 @@ const AuthorStatisticsSection: React.FC<{ authors: AuthorRankingItem[] }> = ({ a
         .attr('stroke', '#fff')
         .attr('stroke-width', 2)
         .style('cursor', 'pointer')
-        .on('mouseover', function(event, d) {
+        .on('mouseover', function(_event, _d) {
           d3.select(this).attr('opacity', 0.7);
         })
-        .on('mouseout', function(event, d) {
+        .on('mouseout', function(_event, _d) {
           d3.select(this).attr('opacity', 1);
         });
 
@@ -301,10 +301,10 @@ const AuthorStatisticsSection: React.FC<{ authors: AuthorRankingItem[] }> = ({ a
         .attr('stroke', '#fff')
         .attr('stroke-width', 2)
         .style('cursor', 'pointer')
-        .on('mouseover', function(event, d) {
+        .on('mouseover', function(_event, _d) {
           d3.select(this).attr('opacity', 0.7);
         })
-        .on('mouseout', function(event, d) {
+        .on('mouseout', function(_event, _d) {
           d3.select(this).attr('opacity', 1);
         });
 
@@ -380,7 +380,6 @@ const AuthorStatisticsSection: React.FC<{ authors: AuthorRankingItem[] }> = ({ a
 };
 
 const AuthorRanking: React.FC = () => {
-  const navigate = useNavigate();
   const [ranking, setRanking] = useState<AuthorRankingItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [sortBy, setSortBy] = useState<SortBy>('paperCount');
@@ -390,12 +389,7 @@ const AuthorRanking: React.FC = () => {
   const [minYear, setMinYear] = useState<number | null>(null);
   const [appliedMinYear, setAppliedMinYear] = useState<number | null>(null);
 
-  useEffect(() => {
-    fetchRanking();
-    setCurrentPage(1); // ソート変更時にページをリセット
-  }, [sortBy, appliedMinYear]);
-
-  const fetchRanking = async () => {
+  const fetchRanking = useCallback(async () => {
     setLoading(true);
     try {
       let url = `${API_BASE}/api/authors/ranking?sort_by=${sortBy}`;
@@ -414,7 +408,12 @@ const AuthorRanking: React.FC = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [sortBy, appliedMinYear]);
+
+  useEffect(() => {
+    fetchRanking();
+    setCurrentPage(1); // ソート変更時にページをリセット
+  }, [fetchRanking]);
 
   const handleApplyFilter = () => {
     setAppliedMinYear(minYear);
@@ -434,7 +433,7 @@ const AuthorRanking: React.FC = () => {
   return (
     <div className="author-ranking">
       <div className="author-ranking-header">
-        <h1>📊 著者ランキング</h1>
+        <h1>📊 著者情報</h1>
         <div className="author-ranking-controls">
           <div className="author-ranking-sort">
             <label>ソート:</label>
@@ -483,12 +482,6 @@ const AuthorRanking: React.FC = () => {
           </div>
         </div>
       </div>
-
-      <AuthorStatisticsSection authors={(() => {
-        const startIndex = (currentPage - 1) * itemsPerPage;
-        const endIndex = startIndex + itemsPerPage;
-        return ranking.slice(startIndex, endIndex);
-      })()} />
 
       <div className="author-ranking-list">
         {(() => {
@@ -646,6 +639,12 @@ const AuthorRanking: React.FC = () => {
           );
         })()}
       </div>
+
+      <AuthorStatisticsSection authors={(() => {
+        const startIndex = (currentPage - 1) * itemsPerPage;
+        const endIndex = startIndex + itemsPerPage;
+        return ranking.slice(startIndex, endIndex);
+      })()} />
     </div>
   );
 };

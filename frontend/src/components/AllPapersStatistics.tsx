@@ -167,10 +167,10 @@ const AllPapersStatistics: React.FC = () => {
         .attr('stroke', '#fff')
         .attr('stroke-width', 2)
         .style('cursor', 'pointer')
-        .on('mouseover', function(event, d) {
+        .on('mouseover', function(_event, _d) {
           d3.select(this).attr('opacity', 0.7);
         })
-        .on('mouseout', function(event, d) {
+        .on('mouseout', function(_event, _d) {
           d3.select(this).attr('opacity', 1);
         });
 
@@ -255,10 +255,10 @@ const AllPapersStatistics: React.FC = () => {
         .attr('stroke', '#fff')
         .attr('stroke-width', 2)
         .style('cursor', 'pointer')
-        .on('mouseover', function(event, d) {
+        .on('mouseover', function(_event, _d) {
           d3.select(this).attr('opacity', 0.7);
         })
-        .on('mouseout', function(event, d) {
+        .on('mouseout', function(_event, _d) {
           d3.select(this).attr('opacity', 1);
         });
 
@@ -343,10 +343,10 @@ const AllPapersStatistics: React.FC = () => {
         .attr('stroke', '#fff')
         .attr('stroke-width', 2)
         .style('cursor', 'pointer')
-        .on('mouseover', function(event, d) {
+        .on('mouseover', function(_event, _d) {
           d3.select(this).attr('opacity', 0.7);
         })
-        .on('mouseout', function(event, d) {
+        .on('mouseout', function(_event, _d) {
           d3.select(this).attr('opacity', 1);
         });
 
@@ -432,10 +432,10 @@ const AllPapersStatistics: React.FC = () => {
         .attr('stroke', '#fff')
         .attr('stroke-width', 2)
         .style('cursor', 'pointer')
-        .on('mouseover', function(event, d) {
+        .on('mouseover', function(_event, _d) {
           d3.select(this).attr('opacity', 0.7);
         })
-        .on('mouseout', function(event, d) {
+        .on('mouseout', function(_event, _d) {
           d3.select(this).attr('opacity', 1);
         });
 
@@ -506,8 +506,7 @@ const AllPapersStatistics: React.FC = () => {
       // 年がない論文のタグも含める（totalCount = 0として扱う）
       const tagCounts = Array.from(allTagsSet).map(tag => {
         const yearMap = tagYearData.get(tag) || new Map<number, number>();
-        const totalCount = Array.from(yearMap.values()).reduce((sum, count) => sum + count, 0);
-        // 年がない論文のタグもカウント（totalCountに加算）
+        // 年がない論文のタグもカウント
         const papersWithTag = papers.filter(p => p.tags && p.tags.includes(tag));
         const actualTotalCount = papersWithTag.length;
         return {
@@ -585,7 +584,7 @@ const AllPapersStatistics: React.FC = () => {
         .curve(d3.curveMonotoneX);
 
       // 各タグの折れ線を描画（表示されているタグのみ）
-      visibleTagCounts.forEach((tagData, i) => {
+      visibleTagCounts.forEach((tagData, _i) => {
         const originalIndex = tagCounts.findIndex(t => t.tag === tagData.tag);
         const dataPoints: Array<{ year: number; count: number }> = years.map(year => ({
           year,
@@ -622,7 +621,7 @@ const AllPapersStatistics: React.FC = () => {
           .attr('fill', colorScale(originalIndex.toString()))
           .attr('opacity', tagVisibility[tagData.tag] !== false ? 1 : 0)
           .style('cursor', 'pointer')
-          .on('mouseover', function(event, d) {
+          .on('mouseover', function(_event, d) {
             d3.select(this).attr('r', 6);
             
             // ツールチップを表示
@@ -652,7 +651,7 @@ const AllPapersStatistics: React.FC = () => {
               .attr('dy', -2)
               .text(`${d.year}年: ${d.count}件`);
           })
-          .on('mouseout', function() {
+          .on('mouseout', function(_event, _d) {
             d3.select(this).attr('r', 4);
             g.selectAll('.tooltip').remove();
           });

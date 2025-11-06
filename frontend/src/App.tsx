@@ -21,7 +21,7 @@ const App: React.FC = () => {
       <div className="App">
         <nav className="app-nav">
           <NavLink to="/">論文検索</NavLink>
-          <NavLink to="/authors">著者ランキング</NavLink>
+          <NavLink to="/authors">著者情報</NavLink>
           <NavLink to="/all_papers">全論文統計情報</NavLink>
         </nav>
         <Routes>

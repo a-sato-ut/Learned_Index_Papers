@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import * as d3 from 'd3';
 import { Paper, SearchResult, PaperNode, PaperEdge, PapersByTagResult, PapersByAuthorResult, PapersByVenueResult } from '../types';
@@ -41,6 +41,9 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   const [minYear, setMinYear] = useState<number | null>(null);
   const [yearFilterOpen, setYearFilterOpen] = useState(false);
   const svgRef = useRef<SVGSVGElement>(null);
+  const drawGraphRef = useRef<((data: SearchResult) => Promise<void>) | null>(null);
+  const drawGraphYearRef = useRef<((data: SearchResult) => Promise<void>) | null>(null);
+  const searchPapersRef = useRef<((searchQuery?: string) => Promise<void>) | null>(null);
   const [jsonExportOpen, setJsonExportOpen] = useState(false);
   const [jsonExportFields, setJsonExportFields] = useState<Record<string, boolean>>({
     title: true,
@@ -92,7 +95,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     }
   };
 
-  const searchPapers = async (searchQuery?: string) => {
+  const searchPapers = useCallback(async (searchQuery?: string) => {
     const queryToUse = searchQuery || query;
     
     // URLパラメータを更新
@@ -327,9 +330,9 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       
       setResult(data);
       if (data.paper && activeTab === 'graph') {
-        setTimeout(() => drawGraph(data), 100);
+        setTimeout(() => drawGraphRef.current?.(data), 100);
       } else if (data.paper && activeTab === 'graphYear') {
-        setTimeout(() => drawGraphYear(data), 100);
+        setTimeout(() => drawGraphYearRef.current?.(data), 100);
       }
     } catch (error) {
       console.error('Search error:', error);
@@ -338,7 +341,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [query, selectedTags, selectedAuthors, selectedVenues, minYear, setSearchParams, activeTab]);
+
+  // searchPapersのrefを更新
+  searchPapersRef.current = searchPapers;
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
@@ -346,112 +352,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     }
   };
 
-  // URLパラメータからフィルタを読み込む
-  useEffect(() => {
-    const authorsParam = searchParams.get('authors');
-    const tagsParam = searchParams.get('tags');
-    const venuesParam = searchParams.get('venues');
-    const queryParam = searchParams.get('query');
-    const minYearParam = searchParams.get('min_year');
-    
-    if (queryParam) {
-      setQuery(decodeURIComponent(queryParam));
-    }
-    
-    if (authorsParam) {
-      const authors = authorsParam.split(',').map(a => decodeURIComponent(a.trim())).filter(a => a);
-      setSelectedAuthors(authors);
-    } else {
-      setSelectedAuthors([]);
-    }
-    
-    if (tagsParam) {
-      const tags = tagsParam.split(',').map(t => decodeURIComponent(t.trim())).filter(t => t);
-      setSelectedTags(tags);
-    } else {
-      setSelectedTags([]);
-    }
-    
-    if (venuesParam) {
-      const venues = venuesParam.split(',').map(v => decodeURIComponent(v.trim())).filter(v => v);
-      setSelectedVenues(venues);
-    } else {
-      setSelectedVenues([]);
-    }
-    
-    if (minYearParam) {
-      const year = parseInt(minYearParam, 10);
-      if (!isNaN(year)) {
-        setMinYear(year);
-      }
-    } else {
-      setMinYear(null);
-    }
-    
-    // URLパラメータがある場合は、タイトルをクリアしてフィルタのみで検索
-    if (authorsParam || tagsParam || venuesParam || minYearParam) {
-      if (!queryParam) {
-        setQuery('');
-      }
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchParams]);
-
-  useEffect(() => {
-    // タグ一覧、著者一覧、venue一覧を取得
-    fetchTags();
-    fetchAuthors();
-    fetchVenues();
-    // URLパラメータがある場合のみ検索を実行
-    const authorsParam = searchParams.get('authors');
-    const tagsParam = searchParams.get('tags');
-    const venuesParam = searchParams.get('venues');
-    const minYearParam = searchParams.get('min_year');
-    if (authorsParam || tagsParam || venuesParam || minYearParam) {
-      // URLパラメータからフィルタが読み込まれた後に検索が実行されるようにするため、
-      // ここでは何もしない（URLパラメータの読み込み処理で自動的に検索が実行される）
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  useEffect(() => {
-    // タグが変更されたら検索を実行
-    // タイトルが空でタグが指定された場合 → タグのみでフィルタリング
-    // タイトルがあってタグが指定された場合 → タイトル検索 + タグフィルタリング
-    // タイトルがあってタグがクリアされた場合 → タイトル検索のみ
-    if (selectedTags.length > 0 || (!selectedTags.length && query.trim())) {
-      searchPapers();
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedTags]);
-
-  useEffect(() => {
-    // 著者が変更されたら検索を実行
-    if (selectedAuthors.length > 0 || (!selectedAuthors.length && query.trim())) {
-      searchPapers();
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedAuthors]);
-
-  useEffect(() => {
-    // venueが変更されたら検索を実行
-    if (selectedVenues.length > 0 || (!selectedVenues.length && query.trim())) {
-      searchPapers();
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedVenues]);
-
-  useEffect(() => {
-    if (result && result.paper && (activeTab === 'graph' || activeTab === 'graphYear')) {
-      if (activeTab === 'graph') {
-        drawGraph(result);
-      } else {
-        drawGraphYear(result);
-      }
-    }
-  }, [result, activeTab]);
-
-  const fetchGraphNodes = async (data: SearchResult) => {
+  const fetchGraphNodes = useCallback(async (data: SearchResult) => {
     const nodes: PaperNode[] = [];
     const edges: PaperEdge[] = [];
     const nodeMap = new Map<string, PaperNode>();
@@ -642,9 +543,9 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     });
 
     return { nodes, edges, centerPaper };
-  };
+  }, [selectedTags, selectedAuthors, selectedVenues]);
 
-  const drawGraph = async (data: SearchResult) => {
+  const drawGraph = useCallback(async (data: SearchResult) => {
     if (!svgRef.current || !data.paper) return;
 
     const { nodes, edges, centerPaper } = await fetchGraphNodes(data);
@@ -701,7 +602,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           .on('drag', dragged)
           .on('end', dragended)
       )
-      .on('mouseover', function(event, d) {
+      .on('mouseover', function(_event, d) {
         if (tooltipTimeout) {
           clearTimeout(tooltipTimeout);
           tooltipTimeout = null;
@@ -758,7 +659,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             }
             setQuery(paper.title);
             setActiveTab('list');
-            searchPapers(paper.title);
+            searchPapersRef.current?.(paper.title);
           };
           divElement.onmouseenter = () => {
             if (tooltipTimeout) {
@@ -894,17 +795,19 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         event.subject.fy = null;
       }
     }
-  };
+  }, [fetchGraphNodes, setQuery, setActiveTab]);
 
-  const drawGraphYear = async (data: SearchResult) => {
+  // drawGraphのrefを更新
+  drawGraphRef.current = drawGraph;
+
+  const drawGraphYear = useCallback(async (data: SearchResult) => {
     if (!svgRef.current || !data.paper) return;
 
-    const { nodes, edges, centerPaper } = await fetchGraphNodes(data);
+    const { nodes, edges } = await fetchGraphNodes(data);
 
     const svg = d3.select(svgRef.current);
     svg.selectAll('*').remove();
 
-    const width = svgRef.current.clientWidth || 1200;
     const height = svgRef.current.clientHeight || 800;
     const padding = 50;
     const yearWidth = 150;
@@ -969,7 +872,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       });
     }
     
-    const yearLines = g
+    const _yearLines = g
       .append('g')
       .attr('class', 'year-lines')
       .selectAll('line')
@@ -984,7 +887,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       .attr('stroke-width', 1)
       .attr('stroke-dasharray', '5,5');
 
-    const yearLabels = g
+    const _yearLabels = g
       .append('g')
       .attr('class', 'year-labels')
       .selectAll('text')
@@ -1031,7 +934,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           .on('drag', dragged)
           .on('end', dragended)
       )
-      .on('mouseover', function(event, d) {
+      .on('mouseover', function(_event, d) {
         if (tooltipTimeout) {
           clearTimeout(tooltipTimeout);
           tooltipTimeout = null;
@@ -1088,7 +991,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
             }
             setQuery(paper.title);
             setActiveTab('list');
-            searchPapers(paper.title);
+            searchPapersRef.current?.(paper.title);
           };
           divElement.onmouseenter = () => {
             if (tooltipTimeout) {
@@ -1245,7 +1148,115 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       event.subject.fx = null;
       event.subject.fy = null;
     }
-  };
+  }, [fetchGraphNodes, setQuery, setActiveTab]);
+
+  // drawGraphYearのrefを更新
+  drawGraphYearRef.current = drawGraphYear;
+
+  // URLパラメータからフィルタを読み込む
+  useEffect(() => {
+    const authorsParam = searchParams.get('authors');
+    const tagsParam = searchParams.get('tags');
+    const venuesParam = searchParams.get('venues');
+    const queryParam = searchParams.get('query');
+    const minYearParam = searchParams.get('min_year');
+    
+    if (queryParam) {
+      setQuery(decodeURIComponent(queryParam));
+    }
+    
+    if (authorsParam) {
+      const authors = authorsParam.split(',').map(a => decodeURIComponent(a.trim())).filter(a => a);
+      setSelectedAuthors(authors);
+    } else {
+      setSelectedAuthors([]);
+    }
+    
+    if (tagsParam) {
+      const tags = tagsParam.split(',').map(t => decodeURIComponent(t.trim())).filter(t => t);
+      setSelectedTags(tags);
+    } else {
+      setSelectedTags([]);
+    }
+    
+    if (venuesParam) {
+      const venues = venuesParam.split(',').map(v => decodeURIComponent(v.trim())).filter(v => v);
+      setSelectedVenues(venues);
+    } else {
+      setSelectedVenues([]);
+    }
+    
+    if (minYearParam) {
+      const year = parseInt(minYearParam, 10);
+      if (!isNaN(year)) {
+        setMinYear(year);
+      }
+    } else {
+      setMinYear(null);
+    }
+    
+    // URLパラメータがある場合は、タイトルをクリアしてフィルタのみで検索
+    if (authorsParam || tagsParam || venuesParam || minYearParam) {
+      if (!queryParam) {
+        setQuery('');
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
+
+  useEffect(() => {
+    // タグ一覧、著者一覧、venue一覧を取得
+    fetchTags();
+    fetchAuthors();
+    fetchVenues();
+    // URLパラメータがある場合のみ検索を実行
+    const authorsParam = searchParams.get('authors');
+    const tagsParam = searchParams.get('tags');
+    const venuesParam = searchParams.get('venues');
+    const minYearParam = searchParams.get('min_year');
+    if (authorsParam || tagsParam || venuesParam || minYearParam) {
+      // URLパラメータからフィルタが読み込まれた後に検索が実行されるようにするため、
+      // ここでは何もしない（URLパラメータの読み込み処理で自動的に検索が実行される）
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    // タグが変更されたら検索を実行
+    // タイトルが空でタグが指定された場合 → タグのみでフィルタリング
+    // タイトルがあってタグが指定された場合 → タイトル検索 + タグフィルタリング
+    // タイトルがあってタグがクリアされた場合 → タイトル検索のみ
+    if (selectedTags.length > 0 || (!selectedTags.length && query.trim())) {
+      searchPapers();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedTags]);
+
+  useEffect(() => {
+    // 著者が変更されたら検索を実行
+    if (selectedAuthors.length > 0 || (!selectedAuthors.length && query.trim())) {
+      searchPapers();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedAuthors]);
+
+  useEffect(() => {
+    // venueが変更されたら検索を実行
+    if (selectedVenues.length > 0 || (!selectedVenues.length && query.trim())) {
+      searchPapers();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedVenues]);
+
+  useEffect(() => {
+    if (result && result.paper && (activeTab === 'graph' || activeTab === 'graphYear')) {
+      if (activeTab === 'graph') {
+        drawGraph(result);
+      } else {
+        drawGraphYear(result);
+      }
+    }
+  }, [result, activeTab, drawGraph, drawGraphYear]);
 
   const StatisticsSection: React.FC<{ papers: Paper[] }> = ({ papers }) => {
     const tagStatsRef = useRef<SVGSVGElement>(null);
@@ -1339,10 +1350,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           .attr('stroke', '#fff')
           .attr('stroke-width', 2)
           .style('cursor', 'pointer')
-          .on('mouseover', function(event, d) {
+          .on('mouseover', function(_event, _d) {
             d3.select(this).attr('opacity', 0.7);
           })
-          .on('mouseout', function(event, d) {
+          .on('mouseout', function(_event, _d) {
             d3.select(this).attr('opacity', 1);
           });
 
@@ -1429,10 +1440,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           .attr('stroke', '#fff')
           .attr('stroke-width', 2)
           .style('cursor', 'pointer')
-          .on('mouseover', function(event, d) {
+          .on('mouseover', function(_event, _d) {
             d3.select(this).attr('opacity', 0.7);
           })
-          .on('mouseout', function(event, d) {
+          .on('mouseout', function(_event, _d) {
             d3.select(this).attr('opacity', 1);
           });
 
@@ -1519,10 +1530,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           .attr('stroke', '#fff')
           .attr('stroke-width', 2)
           .style('cursor', 'pointer')
-          .on('mouseover', function(event, d) {
+          .on('mouseover', function(_event, _d) {
             d3.select(this).attr('opacity', 0.7);
           })
-          .on('mouseout', function(event, d) {
+          .on('mouseout', function(_event, _d) {
             d3.select(this).attr('opacity', 1);
           });
 
@@ -1610,10 +1621,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
           .attr('stroke', '#fff')
           .attr('stroke-width', 2)
           .style('cursor', 'pointer')
-          .on('mouseover', function(event, d) {
+          .on('mouseover', function(_event, _d) {
             d3.select(this).attr('opacity', 0.7);
           })
-          .on('mouseout', function(event, d) {
+          .on('mouseout', function(_event, _d) {
             d3.select(this).attr('opacity', 1);
           });
 
