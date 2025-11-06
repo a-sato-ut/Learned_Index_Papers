@@ -43,9 +43,9 @@ python get_tag.py
 ```
 
 これらのスクリプトは、BASE_PID（"0539535989147bc7033f4a34931c7b8e17f1c650"）とそれを引用している論文のAbstractを読み込み、OpenAI APIを使って処理します。
-- 英語TLDRは `data/tldr/` フォルダに保存されます
-- 日本語TLDRは `data/tldr_ja/` フォルダに保存されます
-- タグは `data/tags/` フォルダに保存されます（包含関係を考慮して親タグも自動的に追加されます）
+- 英語TLDRは `backend/data/tldr/` フォルダに保存されます
+- 日本語TLDRは `backend/data/tldr_ja/` フォルダに保存されます
+- タグは `backend/data/tags/` フォルダに保存されます（包含関係を考慮して親タグも自動的に追加されます）
 
 ## ビジュアライザー
 
@@ -66,7 +66,7 @@ pip install -e .
 ```
 
 3. データ準備:
-- `data/papers/*.json` と `data/citations/*.json` が存在することを確認
+- `backend/data/papers/*.json` と `backend/data/citations/*.json` が存在することを確認
 
 4. サーバーを起動:
 ```bash

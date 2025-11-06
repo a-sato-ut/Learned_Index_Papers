@@ -12,13 +12,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 # データフォルダのパス
-PAPERS_FOLDER = Path(__file__).parent.parent / "data" / "papers"
-CITATIONS_FOLDER = Path(__file__).parent.parent / "data" / "citations"
-PROCESSED_DATA_FOLDER = Path(__file__).parent.parent / "processed_data"
-TLDR_FOLDER = Path(__file__).parent.parent / "data" / "tldr"
-TLDR_JA_FOLDER = Path(__file__).parent.parent / "data" / "tldr_ja"
-TAG_FOLDER = Path(__file__).parent.parent / "data" / "tags"
-AUTHOR_INFO_FOLDER = Path(__file__).parent.parent / "data" / "author_info"
+PAPERS_FOLDER = Path("data") / "papers"
+CITATIONS_FOLDER = Path("data") / "citations"
+TLDR_FOLDER = Path("data") / "tldr"
+TLDR_JA_FOLDER = Path("data") / "tldr_ja"
+TAG_FOLDER = Path("data") / "tags"
+AUTHOR_INFO_FOLDER = Path("data") / "author_info"
 BASE_PID = "0539535989147bc7033f4a34931c7b8e17f1c650"
 
 app = FastAPI(title="Learned Index Papers API")
@@ -676,7 +675,6 @@ async def get_all_papers():
 def main():
     """メイン関数"""
     # 出力フォルダを作成
-    PROCESSED_DATA_FOLDER.mkdir(parents=True, exist_ok=True)
     print("API server is ready. Run with: uvicorn process_data:app --reload --port 8000")
 
 

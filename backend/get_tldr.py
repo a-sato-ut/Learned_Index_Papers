@@ -11,9 +11,9 @@ from tqdm import tqdm
 from openai import OpenAI
 
 # データフォルダのパス
-PAPERS_FOLDER = Path(__file__).parent.parent / "data" / "papers"
-CITATIONS_FOLDER = Path(__file__).parent.parent / "data" / "citations"
-TLDR_FOLDER = Path(__file__).parent.parent / "data" / "tldr"
+PAPERS_FOLDER = Path("data") / "papers"
+CITATIONS_FOLDER = Path("data") / "citations"
+TLDR_FOLDER = Path("data") / "tldr"
 BASE_PID = "0539535989147bc7033f4a34931c7b8e17f1c650"
 
 # OpenAI APIクライアントの初期化

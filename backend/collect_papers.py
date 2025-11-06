@@ -9,8 +9,8 @@ from tqdm import tqdm
 import os
 
 
-DATA_FOLDER = Path(__file__).parent.parent / "data" / "papers"
-CITATION_FOLDER = Path(__file__).parent.parent / "data" / "citations"
+DATA_FOLDER = Path("data") / "papers"
+CITATION_FOLDER = Path("data") / "citations"
 
 os.makedirs(DATA_FOLDER, exist_ok=True)
 os.makedirs(CITATION_FOLDER, exist_ok=True)

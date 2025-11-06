@@ -11,7 +11,7 @@ import os
 from typing import List, Dict, Set, Any, Optional
 
 
-AUTHOR_INFO_FOLDER = Path(__file__).parent.parent / "data" / "author_info"
+AUTHOR_INFO_FOLDER = Path("data") / "author_info"
 
 os.makedirs(AUTHOR_INFO_FOLDER, exist_ok=True)
 
@@ -147,7 +147,7 @@ def get_author_info_if_not_exists(author_name: str, papers_folder: Path = None):
     
     # データセットから著者の論文情報を取得
     if papers_folder is None:
-        papers_folder = Path(__file__).parent.parent / "data" / "papers"
+        papers_folder = Path("data") / "papers"
     
     author_papers = get_author_papers_from_dataset(author_name, papers_folder)
     
@@ -257,7 +257,7 @@ def collect_all_author_info(papers_folder: Path, sort_by: str = "citations"):
 
 if __name__ == "__main__":
     from pathlib import Path
-    PAPERS_FOLDER = Path(__file__).parent.parent / "data" / "papers"
+    PAPERS_FOLDER = Path("data") / "papers"
     
     # コマンドライン引数でソート基準を指定可能
     # sort_by = "citations"
