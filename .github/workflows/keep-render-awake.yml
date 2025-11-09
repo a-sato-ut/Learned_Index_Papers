@@ -1,0 +1,11 @@
+name: keep-render-awake
+on:
+  schedule:
+    - cron: "*/5 * * * *"  # 5分おき（UTC）
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping API
+        run: |
+            curl -sS -I -m 20 https://learned-index-papers.onrender.com/api/tags -o /dev/null || true
