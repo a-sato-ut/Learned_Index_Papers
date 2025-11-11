@@ -42,6 +42,12 @@ cd backend
 python get_tag.py
 ```
 
+5. 論文pdfを取得:
+```bash
+cd backend
+python get_pdf.py
+```
+
 これらのスクリプトは、BASE_PID（"0539535989147bc7033f4a34931c7b8e17f1c650"）とそれを引用している論文のAbstractを読み込み、OpenAI APIを使って処理します。
 - 英語TLDRは `backend/data/tldr/` フォルダに保存されます
 - 日本語TLDRは `backend/data/tldr_ja/` フォルダに保存されます
