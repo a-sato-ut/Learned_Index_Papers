@@ -1718,7 +1718,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   }> = ({ papers, isOpen, onToggle, fields, onFieldsChange }) => {
     const [jsonOutput, setJsonOutput] = useState<string>('');
 
-    const generateJson = () => {
+    const generateJson = useCallback(() => {
       // 年順にソート（新しい順、年がない場合は最後に）
       const sortedPapers = [...papers].sort((a, b) => {
         if (a.year === undefined || a.year === null) {
@@ -1790,7 +1790,14 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
 
       const jsonString = JSON.stringify(papersList, null, 4);
       setJsonOutput(jsonString);
-    };
+    }, [papers, fields]);
+
+    // papersまたはfieldsが変更されたら自動的にJSONを生成
+    useEffect(() => {
+      if (papers.length > 0) {
+        generateJson();
+      }
+    }, [papers, fields, generateJson]);
 
     const handleFieldChange = (field: string, checked: boolean) => {
       onFieldsChange({ ...fields, [field]: checked });
@@ -1855,12 +1862,6 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
               </div>
             </div>
             <div className="paper-explorer-json-export-buttons">
-              <button
-                className="paper-explorer-json-export-button"
-                onClick={generateJson}
-              >
-                JSON生成
-              </button>
               <button
                 className="paper-explorer-json-export-button"
                 onClick={handleCopy}
