@@ -8,10 +8,8 @@
 
 ```bash
 cd backend
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install fastapi uvicorn
-uvicorn process_data:app --reload --port 8000
+uv sync
+uv run uvicorn process_data:app --reload --port 8000
 ```
 
 ### フロントエンドの起動
@@ -55,7 +53,7 @@ npm start
 ```bash
 cd backend
 export SEMANTIC_SCHOLAR_API_KEY=YOUR_API_KEY
-python collect_papers.py
+uv run python collect_papers.py
 ```
 
 ## TLDR生成
@@ -68,19 +66,19 @@ export OPENAI_API_KEY=YOUR_API_KEY
 2. 英語TLDRを生成:
 ```bash
 cd backend
-python get_tldr.py
+uv run python get_tldr.py
 ```
 
 3. 日本語TLDRを生成:
 ```bash
 cd backend
-python get_tldr_ja.py
+uv run python get_tldr_ja.py
 ```
 
 4. タグを生成:
 ```bash
 cd backend
-python get_tag.py
+uv run python get_tag.py
 ```
 
 これらのスクリプトは、BASE_PID（"0539535989147bc7033f4a34931c7b8e17f1c650"）とそれを引用している論文のAbstractを読み込み、OpenAI APIを使って処理します。
