@@ -15,14 +15,46 @@ export async function loadAllData(): Promise<AllData> {
     return cachedData;
   }
   
-  const response = await fetch('/all_data.json');
-  if (!response.ok) {
-    throw new Error(`Failed to load data: ${response.statusText}`);
+  // パスの構築: window.locationを使って現在のHTMLファイルと同じディレクトリから読み込む
+  let dataPath = 'all_data.json';
+  
+  if (typeof window !== 'undefined') {
+    const currentPath = window.location.pathname;
+    // file://プロトコルの場合、pathnameは絶対パスになる可能性がある
+    if (currentPath.startsWith('/') && !currentPath.startsWith('//')) {
+      // 絶対パスの場合、index.htmlを削除してディレクトリパスを取得
+      const dirPath = currentPath.replace(/\/[^/]*$/, '');
+      dataPath = dirPath ? `${dirPath}/all_data.json` : '/all_data.json';
+    } else {
+      // 相対パスの場合、そのまま使用
+      dataPath = './all_data.json';
+    }
   }
   
-  const data = await response.json();
-  cachedData = data;
-  return data;
+  try {
+    const response = await fetch(dataPath);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+    const data = await response.json();
+    cachedData = data;
+    return data;
+  } catch (error) {
+    // フォールバック: 相対パスを試す
+    if (dataPath !== './all_data.json') {
+      try {
+        const fallbackResponse = await fetch('./all_data.json');
+        if (fallbackResponse.ok) {
+          const data = await fallbackResponse.json();
+          cachedData = data;
+          return data;
+        }
+      } catch (e) {
+        // フォールバックも失敗
+      }
+    }
+    throw new Error(`Failed to load data: ${error instanceof Error ? error.message : String(error)} (tried: ${dataPath})`);
+  }
 }
 
 // LCS（最長共通部分列）の長さを計算

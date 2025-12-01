@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
 import PaperExplorer from './components/PaperExplorer';
 import AuthorRanking from './components/AuthorRanking';
 import AllPapersStatistics from './components/AllPapersStatistics';
@@ -17,7 +17,7 @@ const NavLink: React.FC<{ to: string; children: React.ReactNode }> = ({ to, chil
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <nav className="app-nav">
           <NavLink to="/">論文検索</NavLink>
@@ -30,7 +30,7 @@ const App: React.FC = () => {
           <Route path="/all_papers" element={<AllPapersStatistics />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

@@ -109,3 +109,56 @@ uv run python get_tag.py
 3. ビルド: `cd frontend && npm run build`
 4. デプロイ: `frontend/build/`フォルダの内容を任意の静的ホスティングサービス（GitHub Pages、Netlify、Vercelなど）にデプロイ
 
+### GitHub Pagesへのデプロイ
+
+詳細な手順は [DEPLOY.md](DEPLOY.md) を参照してください。
+
+**簡単な手順:**
+
+1. データ生成とビルド:
+```bash
+cd backend
+uv run python process_data.py
+cp data/static/all_data.json ../frontend/public/all_data.json
+cd ../frontend
+npm run build
+```
+
+2. `docs`フォルダにコピー:
+```bash
+cd ..
+cp -r frontend/build/* docs/
+```
+
+3. GitHubリポジトリの設定:
+   - Settings > Pages にアクセス
+   - Source: Branch を選択し、ブランチを `main`、フォルダを `/docs` に設定
+   - Save をクリック
+
+4. コミットしてプッシュ:
+```bash
+git add docs/
+git commit -m "Deploy to GitHub Pages"
+git push origin main
+```
+
+5. 数分待つと、`https://<username>.github.io/<repository-name>/`でアクセスできます。
+
+### ローカルでビルド結果を確認する
+
+`file://`プロトコルではCORS制限によりJSONファイルの読み込みが失敗する場合があります。以下のいずれかの方法でローカルサーバーを起動してください：
+
+**Python 3の場合:**
+```bash
+cd docs
+python3 -m http.server 8000
+```
+ブラウザで `http://localhost:8000` にアクセス
+
+**Node.jsの場合:**
+```bash
+cd docs
+npx serve -p 8000
+```
+ブラウザで `http://localhost:8000` にアクセス
+
