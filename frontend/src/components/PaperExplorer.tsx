@@ -2,9 +2,8 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import * as d3 from 'd3';
 import { Paper, SearchResult, PaperNode, PaperEdge, PapersByTagResult, PapersByAuthorResult, PapersByVenueResult } from '../types';
+import { loadAllData, searchByTitle, filterPapers, getPapersByTag, getPapersByAuthor, getPapersByVenue, getPaperById, AllData } from '../dataLoader';
 import './PaperExplorer.css';
-
-const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:8000';
 
 // 円グラフの共通ハイパーパラメータ
 const PIE_CHART_CONFIG = {
@@ -24,6 +23,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
+  const [data, setData] = useState<AllData | null>(null);
   const [result, setResult] = useState<SearchResult | null>(null);
   const [activeTab, setActiveTab] = useState<'list' | 'graph' | 'graphYear'>('list');
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
@@ -41,9 +41,9 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   const [minYear, setMinYear] = useState<number | null>(null);
   const [yearFilterOpen, setYearFilterOpen] = useState(false);
   const svgRef = useRef<SVGSVGElement>(null);
-  const drawGraphRef = useRef<((data: SearchResult) => Promise<void>) | null>(null);
-  const drawGraphYearRef = useRef<((data: SearchResult) => Promise<void>) | null>(null);
-  const searchPapersRef = useRef<((searchQuery?: string) => Promise<void>) | null>(null);
+  const drawGraphRef = useRef<((data: SearchResult) => void) | null>(null);
+  const drawGraphYearRef = useRef<((data: SearchResult) => void) | null>(null);
+  const searchPapersRef = useRef<((searchQuery?: string) => void) | null>(null);
   const [jsonExportOpen, setJsonExportOpen] = useState(false);
   const [jsonExportFields, setJsonExportFields] = useState<Record<string, boolean>>({
     title: true,
@@ -59,46 +59,32 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     links_to_paper: true,
   });
 
-  const fetchTags = async () => {
-    try {
-      const response = await fetch(`${API_BASE}/api/tags`);
-      if (response.ok) {
-        const data = await response.json();
-        setAvailableTags(data.tags || []);
+  // データを読み込む
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        setLoading(true);
+        const loadedData = await loadAllData();
+        setData(loadedData);
+        setAvailableTags(loadedData.tags);
+        setAvailableAuthors(loadedData.authors);
+        setAvailableVenues(loadedData.venues);
+      } catch (error) {
+        console.error('Error loading data:', error);
+        alert('データの読み込みに失敗しました。all_data.jsonファイルが存在するか確認してください。');
+      } finally {
+        setLoading(false);
       }
-    } catch (error) {
-      console.error('Error fetching tags:', error);
-    }
-  };
+    };
+    loadData();
+  }, []);
 
-  const fetchAuthors = async () => {
-    try {
-      const response = await fetch(`${API_BASE}/api/authors`);
-      if (response.ok) {
-        const data = await response.json();
-        setAvailableAuthors(data.authors || []);
-      }
-    } catch (error) {
-      console.error('Error fetching authors:', error);
-    }
-  };
-
-  const fetchVenues = async () => {
-    try {
-      const response = await fetch(`${API_BASE}/api/venues`);
-      if (response.ok) {
-        const data = await response.json();
-        setAvailableVenues(data.venues || []);
-      }
-    } catch (error) {
-      console.error('Error fetching venues:', error);
-    }
-  };
-
-  const searchPapers = useCallback(async (searchQuery?: string) => {
+  const searchPapers = useCallback((searchQuery?: string) => {
+    if (!data) return;
+    
     const queryToUse = searchQuery || query;
     
-    // URLパラメータを更新
+    // URLパラメータを更新（ただし、現在のURLパラメータと同じ場合は更新しない）
     const newSearchParams = new URLSearchParams();
     if (queryToUse.trim()) {
       newSearchParams.set('query', queryToUse);
@@ -115,233 +101,131 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     if (minYear !== null) {
       newSearchParams.set('min_year', minYear.toString());
     }
-    setSearchParams(newSearchParams);
+    
+    // URLパラメータが変更された場合のみ更新
+    const currentParams = searchParams.toString();
+    const newParams = newSearchParams.toString();
+    if (currentParams !== newParams) {
+      setSearchParams(newSearchParams);
+    }
+    
+    setLoading(true);
     
     // タイトルが空で、タグ、著者、venue、または年が指定されたら → フィルタのみでフィルタリング
     if (!queryToUse.trim() && (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null)) {
-      setLoading(true);
       setResult(null);
-      setAuthorResult(null);
-      setVenueResult(null);
-      try {
-        // タグのみの場合はタグ検索
-        if (selectedTags.length > 0 && selectedAuthors.length === 0 && selectedVenues.length === 0) {
-          const tagsParam = selectedTags.join(',');
-          let url = `${API_BASE}/api/papers/by-tag?tags=${encodeURIComponent(tagsParam)}`;
-          if (minYear !== null) {
-            url += `&min_year=${minYear}`;
-          }
-          console.log('Searching by tags with URL:', url);
-          
-          const response = await fetch(url);
-          
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-          }
-          
-          const data: PapersByTagResult = await response.json();
-          console.log('Tag search result:', data);
-          
-          setTagResult(data);
-          setResult(null);
-        } 
-        // 著者のみの場合は著者検索
-        else if (selectedAuthors.length > 0 && selectedTags.length === 0 && selectedVenues.length === 0) {
-          const authorsParam = selectedAuthors.join(',');
-          let url = `${API_BASE}/api/papers/by-author?authors=${encodeURIComponent(authorsParam)}`;
-          if (minYear !== null) {
-            url += `&min_year=${minYear}`;
-          }
-          console.log('Searching by authors with URL:', url);
-          
-          const response = await fetch(url);
-          
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-          }
-          
-          const data: PapersByAuthorResult = await response.json();
-          console.log('Author search result:', data);
-          
-          setAuthorResult(data);
-          setTagResult(null);
-          setResult(null);
+      
+      // タグのみの場合はタグ検索
+      if (selectedTags.length > 0 && selectedAuthors.length === 0 && selectedVenues.length === 0) {
+        const tagResult = getPapersByTag(selectedTags, data, minYear);
+        setTagResult(tagResult);
+        setAuthorResult(null);
+        setVenueResult(null);
+      } 
+      // 著者のみの場合は著者検索
+      else if (selectedAuthors.length > 0 && selectedTags.length === 0 && selectedVenues.length === 0) {
+        const authorResult = getPapersByAuthor(selectedAuthors, data, minYear);
+        setAuthorResult(authorResult);
+        setTagResult(null);
+        setVenueResult(null);
+      }
+      // venueのみの場合はvenue検索
+      else if (selectedVenues.length > 0 && selectedTags.length === 0 && selectedAuthors.length === 0) {
+        const venueResult = getPapersByVenue(selectedVenues, data, minYear);
+        setVenueResult(venueResult);
+        setTagResult(null);
+        setAuthorResult(null);
+      }
+      // 複数のフィルタが指定された場合は、最初のフィルタで検索してから他のフィルタを適用
+      else {
+        let papers: Paper[] = [];
+        let resultType: 'tag' | 'author' | 'venue' = 'tag';
+        
+        // 最初のフィルタで検索
+        if (selectedTags.length > 0) {
+          const tagResult = getPapersByTag(selectedTags, data, minYear);
+          papers = tagResult.papers;
+          resultType = 'tag';
+        } else if (selectedAuthors.length > 0) {
+          const authorResult = getPapersByAuthor(selectedAuthors, data, minYear);
+          papers = authorResult.papers;
+          resultType = 'author';
+        } else if (selectedVenues.length > 0) {
+          const venueResult = getPapersByVenue(selectedVenues, data, minYear);
+          papers = venueResult.papers;
+          resultType = 'venue';
         }
-        // venueのみの場合はvenue検索
-        else if (selectedVenues.length > 0 && selectedTags.length === 0 && selectedAuthors.length === 0) {
-          const venuesParam = selectedVenues.join(',');
-          let url = `${API_BASE}/api/papers/by-venue?venues=${encodeURIComponent(venuesParam)}`;
-          if (minYear !== null) {
-            url += `&min_year=${minYear}`;
-          }
-          console.log('Searching by venues with URL:', url);
-          
-          const response = await fetch(url);
-          
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-          }
-          
-          const data: PapersByVenueResult = await response.json();
-          console.log('Venue search result:', data);
-          
-          setVenueResult(data);
+        
+        // 他のフィルタを適用
+        papers = filterPapers(papers, 
+          resultType !== 'tag' ? selectedTags : undefined,
+          resultType !== 'author' ? selectedAuthors : undefined,
+          resultType !== 'venue' ? selectedVenues : undefined,
+          minYear
+        );
+        
+        // 結果を設定
+        if (resultType === 'tag') {
+          setTagResult({
+            papers,
+            tags: selectedTags,
+            count: papers.length
+          });
+          setAuthorResult(null);
+          setVenueResult(null);
+        } else if (resultType === 'author') {
+          setAuthorResult({
+            papers,
+            authors: selectedAuthors,
+            count: papers.length
+          });
+          setTagResult(null);
+          setVenueResult(null);
+        } else {
+          setVenueResult({
+            papers,
+            venues: selectedVenues,
+            count: papers.length
+          });
           setTagResult(null);
           setAuthorResult(null);
-          setResult(null);
         }
-        // 複数のフィルタが指定された場合は、最初のフィルタで検索してから他のフィルタを適用
-        else {
-          let papers: Paper[] = [];
-          let resultType: 'tag' | 'author' | 'venue' = 'tag';
-          
-          // 最初のフィルタで検索
-          if (selectedTags.length > 0) {
-            const tagsParam = selectedTags.join(',');
-            let url = `${API_BASE}/api/papers/by-tag?tags=${encodeURIComponent(tagsParam)}`;
-            if (minYear !== null) {
-              url += `&min_year=${minYear}`;
-            }
-            const response = await fetch(url);
-            if (response.ok) {
-              const data: PapersByTagResult = await response.json();
-              papers = data.papers;
-              resultType = 'tag';
-            }
-          } else if (selectedAuthors.length > 0) {
-            const authorsParam = selectedAuthors.join(',');
-            let url = `${API_BASE}/api/papers/by-author?authors=${encodeURIComponent(authorsParam)}`;
-            if (minYear !== null) {
-              url += `&min_year=${minYear}`;
-            }
-            const response = await fetch(url);
-            if (response.ok) {
-              const data: PapersByAuthorResult = await response.json();
-              papers = data.papers;
-              resultType = 'author';
-            }
-          } else if (selectedVenues.length > 0) {
-            const venuesParam = selectedVenues.join(',');
-            let url = `${API_BASE}/api/papers/by-venue?venues=${encodeURIComponent(venuesParam)}`;
-            if (minYear !== null) {
-              url += `&min_year=${minYear}`;
-            }
-            const response = await fetch(url);
-            if (response.ok) {
-              const data: PapersByVenueResult = await response.json();
-              papers = data.papers;
-              resultType = 'venue';
-            }
-          }
-          
-          // 他のフィルタを適用
-          if (selectedTags.length > 0 && resultType !== 'tag') {
-            papers = papers.filter(p => 
-              p.tags && selectedTags.every(tag => p.tags!.includes(tag))
-            );
-          }
-          if (selectedAuthors.length > 0 && resultType !== 'author') {
-            papers = papers.filter(p => 
-              p.authors && selectedAuthors.every(author => p.authors!.includes(author))
-            );
-          }
-          if (selectedVenues.length > 0 && resultType !== 'venue') {
-            papers = papers.filter(p => 
-              p.venue && selectedVenues.includes(p.venue)
-            );
-          }
-          if (minYear !== null) {
-            papers = papers.filter(p => 
-              p.year !== null && p.year !== undefined && p.year >= minYear
-            );
-          }
-          
-          // 結果を設定
-          if (resultType === 'tag') {
-            setTagResult({
-              papers,
-              tags: selectedTags,
-              count: papers.length
-            });
-            setAuthorResult(null);
-            setVenueResult(null);
-          } else if (resultType === 'author') {
-            setAuthorResult({
-              papers,
-              authors: selectedAuthors,
-              count: papers.length
-            });
-            setTagResult(null);
-            setVenueResult(null);
-          } else {
-            setVenueResult({
-              papers,
-              venues: selectedVenues,
-              count: papers.length
-            });
-            setTagResult(null);
-            setAuthorResult(null);
-          }
-          setResult(null);
-        }
-      } catch (error) {
-        console.error('Filter search error:', error);
-        const errorMessage = error instanceof Error ? error.message : '不明なエラー';
-        alert(`検索に失敗しました: ${errorMessage}\n\nバックエンドサーバー（${API_BASE}）が起動しているか確認してください。`);
-      } finally {
-        setLoading(false);
       }
+      
+      setLoading(false);
       return;
     }
 
     // タイトルが空じゃなくて、フィルタが指定されたら → タイトル検索 + フィルタリング
     // タイトルが空じゃなくて、フィルタが指定されていない → 通常のタイトル検索
-    if (!queryToUse.trim()) return;
+    if (!queryToUse.trim()) {
+      setLoading(false);
+      return;
+    }
 
-    setLoading(true);
     setResult(null);
     setTagResult(null);
     setAuthorResult(null);
     setVenueResult(null);
-    try {
-      let url = `${API_BASE}/api/search?query=${encodeURIComponent(queryToUse)}`;
-      if (selectedTags.length > 0) {
-        const tagsParam = selectedTags.join(',');
-        url += `&tags=${encodeURIComponent(tagsParam)}`;
-      }
-      if (selectedAuthors.length > 0) {
-        const authorsParam = selectedAuthors.join(',');
-        url += `&authors=${encodeURIComponent(authorsParam)}`;
-      }
-      if (selectedVenues.length > 0) {
-        const venuesParam = selectedVenues.join(',');
-        url += `&venues=${encodeURIComponent(venuesParam)}`;
-      }
-      console.log('Searching with URL:', url);
-      
-      const response = await fetch(url);
-      
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      
-      const data: SearchResult = await response.json();
-      console.log('Search result:', data);
-      
-      setResult(data);
-      if (data.paper && activeTab === 'graph') {
-        setTimeout(() => drawGraphRef.current?.(data), 100);
-      } else if (data.paper && activeTab === 'graphYear') {
-        setTimeout(() => drawGraphYearRef.current?.(data), 100);
-      }
-    } catch (error) {
-      console.error('Search error:', error);
-      const errorMessage = error instanceof Error ? error.message : '不明なエラー';
-      alert(`検索に失敗しました: ${errorMessage}\n\nバックエンドサーバー（${API_BASE}）が起動しているか確認してください。`);
-    } finally {
-      setLoading(false);
+    
+    // タイトル検索
+    const searchResult = searchByTitle(queryToUse, data);
+    
+    // フィルタリングを適用
+    if (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null) {
+      searchResult.cites = filterPapers(searchResult.cites, selectedTags, selectedAuthors, selectedVenues, minYear);
+      searchResult.cited_by = filterPapers(searchResult.cited_by, selectedTags, selectedAuthors, selectedVenues, minYear);
     }
-  }, [query, selectedTags, selectedAuthors, selectedVenues, minYear, setSearchParams, activeTab]);
+    
+    setResult(searchResult);
+    setLoading(false);
+    
+    if (searchResult.paper && activeTab === 'graph') {
+      setTimeout(() => drawGraphRef.current?.(searchResult), 100);
+    } else if (searchResult.paper && activeTab === 'graphYear') {
+      setTimeout(() => drawGraphYearRef.current?.(searchResult), 100);
+    }
+  }, [query, selectedTags, selectedAuthors, selectedVenues, minYear, setSearchParams, activeTab, data, searchParams]);
 
   // searchPapersのrefを更新
   searchPapersRef.current = searchPapers;
@@ -352,11 +236,13 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     }
   };
 
-  const fetchGraphNodes = useCallback(async (data: SearchResult) => {
+  const fetchGraphNodes = useCallback((searchResult: SearchResult) => {
+    if (!data) return { nodes: [], edges: [], centerPaper: null };
+    
     const nodes: PaperNode[] = [];
     const edges: PaperEdge[] = [];
     const nodeMap = new Map<string, PaperNode>();
-    const centerPaper = data.paper!;
+    const centerPaper = searchResult.paper!;
 
     const centerNode: PaperNode = {
       id: centerPaper.paperId,
@@ -367,7 +253,8 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     nodes.push(centerNode);
     nodeMap.set(centerPaper.paperId, centerNode);
 
-    data.cites.forEach((paper) => {
+    // Level 1: cites
+    searchResult.cites.slice(0, 20).forEach((paper) => {
       const node: PaperNode = {
         id: paper.paperId,
         paper,
@@ -384,67 +271,49 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       });
     });
 
-    const citesLevel2Promises = data.cites.map(async (citedPaper) => {
-      try {
-        let url = `${API_BASE}/api/paper/${citedPaper.paperId}?limit=20`;
-        if (selectedTags.length > 0) {
-          const tagsParam = selectedTags.join(',');
-          url += `&tags=${encodeURIComponent(tagsParam)}`;
-        }
-        if (selectedAuthors.length > 0) {
-          const authorsParam = selectedAuthors.join(',');
-          url += `&authors=${encodeURIComponent(authorsParam)}`;
-        }
-        if (selectedVenues.length > 0) {
-          const venuesParam = selectedVenues.join(',');
-          url += `&venues=${encodeURIComponent(venuesParam)}`;
-        }
-        const response = await fetch(url);
-        if (response.ok) {
-          const paperData = await response.json();
-          return { cites: paperData.cites || [], cited_by: paperData.cited_by || [] };
-        }
-      } catch (error) {
-        console.error(`Error fetching data for ${citedPaper.paperId}:`, error);
+    // Level 1: cited_by
+    searchResult.cited_by.slice(0, 20).forEach((paper) => {
+      if (!nodeMap.has(paper.paperId)) {
+        const node: PaperNode = {
+          id: paper.paperId,
+          paper,
+          type: 'cited_by',
+          level: 1,
+        };
+        nodes.push(node);
+        nodeMap.set(paper.paperId, node);
       }
-      return { cites: [], cited_by: [] };
+      edges.push({
+        source: paper.paperId,
+        target: centerPaper.paperId,
+        type: 'cited_by',
+        level: 1,
+      });
     });
 
-    const citedByLevel2Promises = data.cited_by.map(async (citingPaper) => {
-      try {
-        let url = `${API_BASE}/api/paper/${citingPaper.paperId}?limit=20`;
-        if (selectedTags.length > 0) {
-          const tagsParam = selectedTags.join(',');
-          url += `&tags=${encodeURIComponent(tagsParam)}`;
-        }
-        if (selectedAuthors.length > 0) {
-          const authorsParam = selectedAuthors.join(',');
-          url += `&authors=${encodeURIComponent(authorsParam)}`;
-        }
-        if (selectedVenues.length > 0) {
-          const venuesParam = selectedVenues.join(',');
-          url += `&venues=${encodeURIComponent(venuesParam)}`;
-        }
-        const response = await fetch(url);
-        if (response.ok) {
-          const paperData = await response.json();
-          return { cites: paperData.cites || [], cited_by: paperData.cited_by || [] };
-        }
-      } catch (error) {
-        console.error(`Error fetching data for ${citingPaper.paperId}:`, error);
-      }
-      return { cites: [], cited_by: [] };
-    });
-
-    const [citesLevel2Results, citedByLevel2Results] = await Promise.all([
-      Promise.all(citesLevel2Promises),
-      Promise.all(citedByLevel2Promises),
-    ]);
-
-    data.cites.forEach((level1Paper, index) => {
-      const level2Data = citesLevel2Results[index];
+    // Level 2: citesのcitesとcited_by
+    searchResult.cites.slice(0, 20).forEach((level1Paper) => {
+      const level1PaperData = getPaperById(level1Paper.paperId, data);
+      if (!level1PaperData) return;
       
-      level2Data.cites.forEach((level2Paper: Paper) => {
+      const citesIds = (level1PaperData.cites || []).slice(0, 20);
+      const citedByIds = (level1PaperData.cited_by || []).slice(0, 20);
+      
+      citesIds.forEach((paperId) => {
+        const level2Paper = getPaperById(paperId, data);
+        if (!level2Paper) return;
+        
+        // フィルタリング
+        if (selectedTags.length > 0 && (!level2Paper.tags || !selectedTags.every(tag => level2Paper.tags!.includes(tag)))) {
+          return;
+        }
+        if (selectedAuthors.length > 0 && (!level2Paper.authors || !selectedAuthors.every(author => level2Paper.authors!.includes(author)))) {
+          return;
+        }
+        if (selectedVenues.length > 0 && !level2Paper.venue) {
+          return;
+        }
+        
         if (!nodeMap.has(level2Paper.paperId)) {
           const node: PaperNode = {
             id: level2Paper.paperId,
@@ -463,7 +332,21 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         });
       });
 
-      level2Data.cited_by.forEach((level2Paper: Paper) => {
+      citedByIds.forEach((paperId: string) => {
+        const level2Paper = getPaperById(paperId, data);
+        if (!level2Paper) return;
+        
+        // フィルタリング
+        if (selectedTags.length > 0 && (!level2Paper.tags || !selectedTags.every(tag => level2Paper.tags!.includes(tag)))) {
+          return;
+        }
+        if (selectedAuthors.length > 0 && (!level2Paper.authors || !selectedAuthors.every(author => level2Paper.authors!.includes(author)))) {
+          return;
+        }
+        if (selectedVenues.length > 0 && !level2Paper.venue) {
+          return;
+        }
+        
         if (!nodeMap.has(level2Paper.paperId)) {
           const node: PaperNode = {
             id: level2Paper.paperId,
@@ -483,27 +366,29 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
       });
     });
 
-    data.cited_by.forEach((level1Paper, index) => {
-      if (!nodeMap.has(level1Paper.paperId)) {
-        const node: PaperNode = {
-          id: level1Paper.paperId,
-          paper: level1Paper,
-          type: 'cited_by',
-          level: 1,
-        };
-        nodes.push(node);
-        nodeMap.set(level1Paper.paperId, node);
-      }
-      edges.push({
-        source: level1Paper.paperId,
-        target: centerPaper.paperId,
-        type: 'cited_by',
-        level: 1,
-      });
-
-      const level2Data = citedByLevel2Results[index];
+    // Level 2: cited_byのcitesとcited_by
+    searchResult.cited_by.slice(0, 20).forEach((level1Paper) => {
+      const level1PaperData = getPaperById(level1Paper.paperId, data);
+      if (!level1PaperData) return;
       
-      level2Data.cites.forEach((level2Paper: Paper) => {
+      const citesIds = (level1PaperData.cites || []).slice(0, 20);
+      const citedByIds = (level1PaperData.cited_by || []).slice(0, 20);
+      
+      citesIds.forEach((paperId) => {
+        const level2Paper = getPaperById(paperId, data);
+        if (!level2Paper) return;
+        
+        // フィルタリング
+        if (selectedTags.length > 0 && (!level2Paper.tags || !selectedTags.every(tag => level2Paper.tags!.includes(tag)))) {
+          return;
+        }
+        if (selectedAuthors.length > 0 && (!level2Paper.authors || !selectedAuthors.every(author => level2Paper.authors!.includes(author)))) {
+          return;
+        }
+        if (selectedVenues.length > 0 && !level2Paper.venue) {
+          return;
+        }
+        
         if (!nodeMap.has(level2Paper.paperId)) {
           const node: PaperNode = {
             id: level2Paper.paperId,
@@ -522,7 +407,21 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
         });
       });
 
-      level2Data.cited_by.forEach((level2Paper: Paper) => {
+      citedByIds.forEach((paperId: string) => {
+        const level2Paper = getPaperById(paperId, data);
+        if (!level2Paper) return;
+        
+        // フィルタリング
+        if (selectedTags.length > 0 && (!level2Paper.tags || !selectedTags.every(tag => level2Paper.tags!.includes(tag)))) {
+          return;
+        }
+        if (selectedAuthors.length > 0 && (!level2Paper.authors || !selectedAuthors.every(author => level2Paper.authors!.includes(author)))) {
+          return;
+        }
+        if (selectedVenues.length > 0 && !level2Paper.venue) {
+          return;
+        }
+        
         if (!nodeMap.has(level2Paper.paperId)) {
           const node: PaperNode = {
             id: level2Paper.paperId,
@@ -543,12 +442,12 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     });
 
     return { nodes, edges, centerPaper };
-  }, [selectedTags, selectedAuthors, selectedVenues]);
+  }, [selectedTags, selectedAuthors, selectedVenues, data]);
 
-  const drawGraph = useCallback(async (data: SearchResult) => {
-    if (!svgRef.current || !data.paper) return;
+  const drawGraph = useCallback((searchResult: SearchResult) => {
+    if (!svgRef.current || !searchResult.paper) return;
 
-    const { nodes, edges, centerPaper } = await fetchGraphNodes(data);
+    const { nodes, edges, centerPaper } = fetchGraphNodes(searchResult);
 
     const svg = d3.select(svgRef.current);
     svg.selectAll('*').remove();
@@ -558,6 +457,8 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
 
     const g = svg.append('g');
 
+    if (!centerPaper) return;
+    
     const centerNode = nodes.find(n => n.id === centerPaper.paperId);
     if (centerNode) {
       centerNode.fx = width / 2;
@@ -800,10 +701,10 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
   // drawGraphのrefを更新
   drawGraphRef.current = drawGraph;
 
-  const drawGraphYear = useCallback(async (data: SearchResult) => {
-    if (!svgRef.current || !data.paper) return;
+  const drawGraphYear = useCallback((searchResult: SearchResult) => {
+    if (!svgRef.current || !searchResult.paper) return;
 
-    const { nodes, edges } = await fetchGraphNodes(data);
+    const { nodes, edges } = fetchGraphNodes(searchResult);
 
     const svg = d3.select(svgRef.current);
     svg.selectAll('*').remove();
@@ -1163,6 +1064,11 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     
     if (queryParam) {
       setQuery(decodeURIComponent(queryParam));
+    } else {
+      // queryParamがない場合は、フィルタのみで検索するため、クエリをクリア
+      if (authorsParam || tagsParam || venuesParam || minYearParam) {
+        setQuery('');
+      }
     }
     
     if (authorsParam) {
@@ -1194,59 +1100,61 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     } else {
       setMinYear(null);
     }
-    
-    // URLパラメータがある場合は、タイトルをクリアしてフィルタのみで検索
-    if (authorsParam || tagsParam || venuesParam || minYearParam) {
-      if (!queryParam) {
-        setQuery('');
-      }
-    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchParams]);
 
   useEffect(() => {
-    // タグ一覧、著者一覧、venue一覧を取得
-    fetchTags();
-    fetchAuthors();
-    fetchVenues();
-    // URLパラメータがある場合のみ検索を実行
-    const authorsParam = searchParams.get('authors');
-    const tagsParam = searchParams.get('tags');
-    const venuesParam = searchParams.get('venues');
-    const minYearParam = searchParams.get('min_year');
-    if (authorsParam || tagsParam || venuesParam || minYearParam) {
-      // URLパラメータからフィルタが読み込まれた後に検索が実行されるようにするため、
-      // ここでは何もしない（URLパラメータの読み込み処理で自動的に検索が実行される）
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  useEffect(() => {
+    if (!data) return;
     // タグが変更されたら検索を実行
     // タイトルが空でタグが指定された場合 → タグのみでフィルタリング
     // タイトルがあってタグが指定された場合 → タイトル検索 + タグフィルタリング
     // タイトルがあってタグがクリアされた場合 → タイトル検索のみ
-    if (selectedTags.length > 0 || (!selectedTags.length && query.trim())) {
+    // フィルタが設定されている場合、またはクエリがある場合は検索を実行
+    if (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null || query.trim()) {
       searchPapers();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedTags]);
+  }, [selectedTags, data]);
 
   useEffect(() => {
+    if (!data) return;
     // 著者が変更されたら検索を実行
-    if (selectedAuthors.length > 0 || (!selectedAuthors.length && query.trim())) {
+    // フィルタが設定されている場合、またはクエリがある場合は検索を実行
+    if (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null || query.trim()) {
       searchPapers();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedAuthors]);
+  }, [selectedAuthors, data]);
 
   useEffect(() => {
+    if (!data) return;
     // venueが変更されたら検索を実行
-    if (selectedVenues.length > 0 || (!selectedVenues.length && query.trim())) {
+    // フィルタが設定されている場合、またはクエリがある場合は検索を実行
+    if (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null || query.trim()) {
       searchPapers();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedVenues]);
+  }, [selectedVenues, data]);
+
+  useEffect(() => {
+    if (!data) return;
+    // 年フィルタが変更されたら検索を実行
+    // フィルタが設定されている場合、またはクエリがある場合は検索を実行
+    if (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null || query.trim()) {
+      searchPapers();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [minYear, data]);
+
+  // URLパラメータから読み込んだ後、queryが変更された時に検索を実行
+  useEffect(() => {
+    if (!data) return;
+    // フィルタが設定されている場合、またはクエリがある場合は検索を実行
+    if (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null || query.trim()) {
+      searchPapers();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query, data]);
 
   useEffect(() => {
     if (result && result.paper && (activeTab === 'graph' || activeTab === 'graphYear')) {
@@ -2041,7 +1949,22 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                 <button
                   className="paper-explorer-active-filter-remove"
                   onClick={() => {
-                    setSelectedTags(selectedTags.filter(t => t !== tag));
+                    const newTags = selectedTags.filter(t => t !== tag);
+                    setSelectedTags(newTags);
+                    // URLパラメータを更新
+                    const newParams = new URLSearchParams(searchParams);
+                    if (newTags.length > 0) {
+                      newParams.set('tags', newTags.join(','));
+                    } else {
+                      newParams.delete('tags');
+                    }
+                    setSearchParams(newParams);
+                    // 状態更新後に検索を実行
+                    if (data) {
+                      setTimeout(() => {
+                        searchPapers();
+                      }, 0);
+                    }
                   }}
                   disabled={loading}
                 >
@@ -2056,7 +1979,22 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                 <button
                   className="paper-explorer-active-filter-remove"
                   onClick={() => {
-                    setSelectedAuthors(selectedAuthors.filter(a => a !== author));
+                    const newAuthors = selectedAuthors.filter(a => a !== author);
+                    setSelectedAuthors(newAuthors);
+                    // URLパラメータを更新
+                    const newParams = new URLSearchParams(searchParams);
+                    if (newAuthors.length > 0) {
+                      newParams.set('authors', newAuthors.join(','));
+                    } else {
+                      newParams.delete('authors');
+                    }
+                    setSearchParams(newParams);
+                    // 状態更新後に検索を実行
+                    if (data) {
+                      setTimeout(() => {
+                        searchPapers();
+                      }, 0);
+                    }
                   }}
                   disabled={loading}
                 >
@@ -2071,7 +2009,22 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                 <button
                   className="paper-explorer-active-filter-remove"
                   onClick={() => {
-                    setSelectedVenues(selectedVenues.filter(v => v !== venue));
+                    const newVenues = selectedVenues.filter(v => v !== venue);
+                    setSelectedVenues(newVenues);
+                    // URLパラメータを更新
+                    const newParams = new URLSearchParams(searchParams);
+                    if (newVenues.length > 0) {
+                      newParams.set('venues', newVenues.join(','));
+                    } else {
+                      newParams.delete('venues');
+                    }
+                    setSearchParams(newParams);
+                    // 状態更新後に検索を実行
+                    if (data) {
+                      setTimeout(() => {
+                        searchPapers();
+                      }, 0);
+                    }
                   }}
                   disabled={loading}
                 >
@@ -2087,6 +2040,16 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                   className="paper-explorer-active-filter-remove"
                   onClick={() => {
                     setMinYear(null);
+                    // URLパラメータを更新
+                    const newParams = new URLSearchParams(searchParams);
+                    newParams.delete('min_year');
+                    setSearchParams(newParams);
+                    // 状態更新後に検索を実行
+                    if (data) {
+                      setTimeout(() => {
+                        searchPapers();
+                      }, 0);
+                    }
                   }}
                   disabled={loading}
                 >

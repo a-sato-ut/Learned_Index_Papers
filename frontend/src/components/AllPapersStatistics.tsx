@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import { Paper } from '../types';
+import { loadAllData } from '../dataLoader';
 import './AllPapersStatistics.css';
-
-const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:8000';
 
 // 円グラフの共通ハイパーパラメータ
 const PIE_CHART_CONFIG = {
@@ -36,24 +35,20 @@ const AllPapersStatistics: React.FC = () => {
   const lineChartRef = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
-    const fetchAllPapers = async () => {
-      setLoading(true);
+    const loadData = async () => {
       try {
-        const response = await fetch(`${API_BASE}/api/papers/all`);
-        if (response.ok) {
-          const data = await response.json();
-          setPapers(data.papers || []);
-        } else {
-          console.error('Failed to fetch all papers');
-        }
+        setLoading(true);
+        const data = await loadAllData();
+        setPapers(data.papers || []);
       } catch (error) {
-        console.error('Error fetching all papers:', error);
+        console.error('Error loading data:', error);
+        alert('データの読み込みに失敗しました。all_data.jsonファイルが存在するか確認してください。');
       } finally {
         setLoading(false);
       }
     };
 
-    fetchAllPapers();
+    loadData();
   }, []);
 
   useEffect(() => {

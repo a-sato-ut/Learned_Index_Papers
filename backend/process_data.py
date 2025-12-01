@@ -1,15 +1,12 @@
 """
 データ整形モジュール
-収集した論文データをフロントエンド用に整形し、citation networkを構築します
+収集した論文データをフロントエンド用に整形し、全データをJSONファイルとして保存します
 """
 
 import json
 import re
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Any
-from fastapi import FastAPI, HTTPException, Query
-from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
 
 # データフォルダのパス
 PAPERS_FOLDER = Path("data") / "papers"
@@ -18,42 +15,8 @@ TLDR_FOLDER = Path("data") / "tldr"
 TLDR_JA_FOLDER = Path("data") / "tldr_ja"
 TAG_FOLDER = Path("data") / "tags"
 AUTHOR_INFO_FOLDER = Path("data") / "author_info"
+OUTPUT_FOLDER = Path("data") / "static"
 BASE_PID = "0539535989147bc7033f4a34931c7b8e17f1c650"
-
-app = FastAPI(title="Learned Index Papers API")
-
-# CORS設定
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-
-class Paper(BaseModel):
-    paperId: str
-    title: str
-    year: Optional[int] = None
-    venue: Optional[str] = None
-    authors: List[str] = []
-    doi: Optional[str] = None
-    arxivId: Optional[str] = None
-    url: Optional[str] = None
-    isOpenAccess: bool = False
-    openAccessPdf: Optional[str] = None
-    abstract: Optional[str] = None
-    citationCount: int = 0
-    referenceCount: int = 0
-    tldr: Optional[str] = None
-    tldr_ja: Optional[str] = None
-    tags: List[str] = []
-
-
-class CitationInfo(BaseModel):
-    paperId: str
-    citationPaperIds: List[str] = []
 
 
 def normalize_venue(venue: str) -> str:
@@ -96,6 +59,59 @@ def normalize_venue(venue: str) -> str:
     return venue.strip()
 
 
+class Paper:
+    """論文データクラス"""
+    def __init__(self, data: Dict[str, Any]):
+        self.paperId = data.get("paperId", "")
+        self.title = data.get("title", "")
+        self.year = data.get("year")
+        self.venue = data.get("venue")
+        self.authors = data.get("authors", [])
+        self.doi = data.get("doi")
+        self.arxivId = data.get("arxivId")
+        self.url = data.get("url")
+        self.isOpenAccess = data.get("isOpenAccess", False)
+        self.openAccessPdf = data.get("openAccessPdf")
+        self.abstract = data.get("abstract")
+        self.citationCount = data.get("citationCount", 0)
+        self.referenceCount = data.get("referenceCount", 0)
+        self.tldr = data.get("tldr")
+        self.tldr_ja = data.get("tldr_ja")
+        self.tags = data.get("tags", [])
+    
+    def to_dict(self) -> Dict[str, Any]:
+        """辞書形式に変換"""
+        result = {
+            "paperId": self.paperId,
+            "title": self.title,
+            "authors": self.authors,
+            "isOpenAccess": self.isOpenAccess,
+            "citationCount": self.citationCount,
+            "referenceCount": self.referenceCount,
+        }
+        if self.year is not None:
+            result["year"] = self.year
+        if self.venue:
+            result["venue"] = self.venue
+        if self.doi:
+            result["doi"] = self.doi
+        if self.arxivId:
+            result["arxivId"] = self.arxivId
+        if self.url:
+            result["url"] = self.url
+        if self.openAccessPdf:
+            result["openAccessPdf"] = self.openAccessPdf
+        if self.abstract:
+            result["abstract"] = self.abstract
+        if self.tldr:
+            result["tldr"] = self.tldr
+        if self.tldr_ja:
+            result["tldr_ja"] = self.tldr_ja
+        if self.tags:
+            result["tags"] = self.tags
+        return result
+
+
 class Corpus:
     """論文コーパスと引用関係を管理するクラス"""
 
@@ -133,7 +149,7 @@ class Corpus:
                 try:
                     with open(paper_file, "r", encoding="utf-8") as f:
                         data = json.load(f)
-                        paper = Paper(**data)
+                        paper = Paper(data)
                         self.papers[paper.paperId] = paper
                 except Exception as e:
                     print(f"Error loading paper {paper_file}: {e}")
@@ -170,62 +186,9 @@ class Corpus:
 
         print(f"Loaded {len(self.papers)} papers (filtered to BASE_PID citations)")
 
-    def _lcs_length(self, s1: str, s2: str) -> int:
-        """最長共通部分列（LCS）の長さを計算（連続しない文字列を許す）"""
-        m, n = len(s1), len(s2)
-        dp = [[0] * (n + 1) for _ in range(m + 1)]
-
-        for i in range(1, m + 1):
-            for j in range(1, n + 1):
-                if s1[i - 1].lower() == s2[j - 1].lower():
-                    dp[i][j] = dp[i - 1][j - 1] + 1
-                else:
-                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
-
-        return dp[m][n]
-
-    def _lcss_length(self, s1: str, s2: str) -> int:
-        """最長共通部分文字列（LCSS）の長さを計算（連続する部分のみ）"""
-        m, n = len(s1), len(s2)
-        dp = [[0] * (n + 1) for _ in range(m + 1)]
-        max_length = 0
-
-        for i in range(1, m + 1):
-            for j in range(1, n + 1):
-                if s1[i - 1].lower() == s2[j - 1].lower():
-                    dp[i][j] = dp[i - 1][j - 1] + 1
-                    max_length = max(max_length, dp[i][j])
-                else:
-                    dp[i][j] = 0  # 連続する必要があるため、不一致なら0
-
-        return max_length
-
-    def best_match_by_title(self, query: str) -> Optional[Paper]:
-        """タイトルに対するLCSが最大のものを返す。LCSが同じ場合はタイトルが短いものを返す"""
-        if not query:
-            return None
-
-        def get_sort_key_value(paper: Paper) -> Tuple[int, int, int]:
-            # smaller the better
-            lcs_len = self._lcs_length(query.lower(), paper.title.lower())
-            lcss_len = self._lcss_length(query.lower(), paper.title.lower())
-            return  -lcss_len, -lcs_len, len(paper.title), paper.paperId
-
-        best_match = sorted(self.papers.values(), key=get_sort_key_value)[0]
-        # TLDRデータを読み込む
-        return self._load_tldr_data(best_match)
-
-    def get_paper(self, paper_id: str) -> Optional[Paper]:
-        """論文IDで論文を取得"""
-        paper = self.papers.get(paper_id)
-        if paper:
-            # TLDRデータを読み込んで追加
-            paper = self._load_tldr_data(paper)
-        return paper
-    
     def _load_tldr_data(self, paper: Paper) -> Paper:
         """論文のTLDRデータとタグデータを読み込む"""
-        paper_dict = paper.dict()
+        paper_dict = paper.to_dict()
         
         # 英語TLDRを読み込む
         tldr_file = TLDR_FOLDER / f"{paper.paperId}.json"
@@ -257,93 +220,15 @@ class Corpus:
             except Exception as e:
                 print(f"Error loading tags for {paper.paperId}: {e}")
         
-        return Paper(**paper_dict)
+        return Paper(paper_dict)
 
-    def get_cites(self, paper_id: str, limit: int = 2000, tags: Optional[List[str]] = None, authors: Optional[List[str]] = None, venues: Optional[List[str]] = None, min_year: Optional[int] = None) -> List[Paper]:
-        """この論文が引用している論文のリストを取得（cited_byの数が多い順）"""
-        citation_ids = self.cites.get(paper_id, [])
-        papers = [self.papers[pid] for pid in citation_ids if pid in self.papers]
-        papers.sort(key=lambda p: p.citationCount, reverse=True)
-        # TLDRデータを読み込む
-        papers_with_tldr = [self._load_tldr_data(p) for p in papers[:limit]]
-        
-        # タグでフィルタリング（複数タグの場合はAND条件）
-        if tags:
-            papers_with_tldr = [
-                p for p in papers_with_tldr 
-                if p.tags and all(tag in p.tags for tag in tags)
-            ]
-        
-        # 著者でフィルタリング（複数著者の場合はAND条件）
-        if authors:
-            papers_with_tldr = [
-                p for p in papers_with_tldr 
-                if p.authors and all(author in p.authors for author in authors)
-            ]
-        
-        # venueでフィルタリング（複数venueの場合はOR条件、1つの論文は1つのvenueしか持たないため）
-        # 年を除去して正規化したvenue名で比較
-        if venues:
-            normalized_venues = [normalize_venue(v) for v in venues]
-            papers_with_tldr = [
-                p for p in papers_with_tldr 
-                if p.venue and normalize_venue(p.venue) in normalized_venues
-            ]
-        
-        return papers_with_tldr
+    def get_cites(self, paper_id: str) -> List[str]:
+        """この論文が引用している論文IDのリストを取得"""
+        return self.cites.get(paper_id, [])
 
-    def get_cited_by(self, paper_id: str, limit: int = 2000, tags: Optional[List[str]] = None, authors: Optional[List[str]] = None, venues: Optional[List[str]] = None, min_year: Optional[int] = None) -> List[Paper]:
-        """この論文を引用している論文のリストを取得（cited_byの数が多い順）"""
-        cited_by_ids = self.cited_by.get(paper_id, [])
-        papers = [self.papers[pid] for pid in cited_by_ids if pid in self.papers]
-        papers.sort(key=lambda p: p.citationCount, reverse=True)
-        # TLDRデータを読み込む
-        papers_with_tldr = [self._load_tldr_data(p) for p in papers[:limit]]
-        
-        # タグでフィルタリング（複数タグの場合はAND条件）
-        if tags:
-            papers_with_tldr = [
-                p for p in papers_with_tldr 
-                if p.tags and all(tag in p.tags for tag in tags)
-            ]
-        
-        # 著者でフィルタリング（複数著者の場合はAND条件）
-        if authors:
-            papers_with_tldr = [
-                p for p in papers_with_tldr 
-                if p.authors and all(author in p.authors for author in authors)
-            ]
-        
-        # venueでフィルタリング（複数venueの場合はOR条件、1つの論文は1つのvenueしか持たないため）
-        # 年を除去して正規化したvenue名で比較
-        if venues:
-            normalized_venues = [normalize_venue(v) for v in venues]
-            papers_with_tldr = [
-                p for p in papers_with_tldr 
-                if p.venue and normalize_venue(p.venue) in normalized_venues
-            ]
-        
-        # 年でフィルタリング（min_year以降の論文のみ）
-        if min_year is not None:
-            papers_with_tldr = [
-                p for p in papers_with_tldr 
-                if p.year is not None and p.year >= min_year
-            ]
-        
-        return papers_with_tldr
-
-    def get_papers_by_tags(self, tags: List[str], limit: int = 2000, min_year: Optional[int] = None) -> List[Paper]:
-        """指定されたタグを全て持つ論文を取得（citationCountが多い順、AND条件）"""
-        papers_with_tags = []
-        for paper in self.papers.values():
-            paper_with_tldr = self._load_tldr_data(paper)
-            if paper_with_tldr.tags and all(tag in paper_with_tldr.tags for tag in tags):
-                # 年フィルタリング
-                if min_year is None or (paper_with_tldr.year is not None and paper_with_tldr.year >= min_year):
-                    papers_with_tags.append(paper_with_tldr)
-        
-        papers_with_tags.sort(key=lambda p: p.citationCount, reverse=True)
-        return papers_with_tags[:limit]
+    def get_cited_by(self, paper_id: str) -> List[str]:
+        """この論文を引用している論文IDのリストを取得"""
+        return self.cited_by.get(paper_id, [])
 
     def get_all_tags(self) -> List[Dict[str, Any]]:
         """利用可能な全てのタグとその件数を取得"""
@@ -357,19 +242,6 @@ class Corpus:
         # タグ名でソートして、辞書形式で返す
         return [{"tag": tag, "count": count} for tag, count in sorted(tag_counts.items())]
 
-    def get_papers_by_authors(self, authors: List[str], limit: int = 2000, min_year: Optional[int] = None) -> List[Paper]:
-        """指定された著者を全て含む論文を取得（citationCountが多い順、AND条件）"""
-        papers_with_authors = []
-        for paper in self.papers.values():
-            paper_with_tldr = self._load_tldr_data(paper)
-            if paper_with_tldr.authors and all(author in paper_with_tldr.authors for author in authors):
-                # 年フィルタリング
-                if min_year is None or (paper_with_tldr.year is not None and paper_with_tldr.year >= min_year):
-                    papers_with_authors.append(paper_with_tldr)
-        
-        papers_with_authors.sort(key=lambda p: p.citationCount, reverse=True)
-        return papers_with_authors[:limit]
-
     def get_all_authors(self) -> List[Dict[str, Any]]:
         """利用可能な全ての著者とその件数を取得"""
         author_counts: Dict[str, int] = {}
@@ -381,21 +253,6 @@ class Corpus:
         
         # countが多い順にソートして、辞書形式で返す
         return [{"author": author, "count": count} for author, count in sorted(author_counts.items(), key=lambda x: x[1], reverse=True)]
-
-    def get_papers_by_venues(self, venues: List[str], limit: int = 2000, min_year: Optional[int] = None) -> List[Paper]:
-        """指定されたvenueのいずれかに一致する論文を取得（citationCountが多い順、OR条件）"""
-        # 年を除去して正規化したvenue名で比較
-        normalized_venues = [normalize_venue(v) for v in venues]
-        papers_with_venues = []
-        for paper in self.papers.values():
-            paper_with_tldr = self._load_tldr_data(paper)
-            if paper_with_tldr.venue and normalize_venue(paper_with_tldr.venue) in normalized_venues:
-                # 年フィルタリング
-                if min_year is None or (paper_with_tldr.year is not None and paper_with_tldr.year >= min_year):
-                    papers_with_venues.append(paper_with_tldr)
-        
-        papers_with_venues.sort(key=lambda p: p.citationCount, reverse=True)
-        return papers_with_venues[:limit]
 
     def get_all_venues(self) -> List[Dict[str, Any]]:
         """利用可能な全てのvenueとその件数を取得（年を除去して正規化）"""
@@ -489,193 +346,63 @@ class Corpus:
         return result
 
 
-# グローバルCorpusインスタンス
-corpus = Corpus()
-
-
-@app.get("/api/search")
-async def search(
-    query: str = Query(..., description="検索クエリ"), 
-    limit: int = Query(2000, ge=1, le=2000),
-    tags: Optional[str] = Query(None, description="タグでフィルタリング（カンマ区切りで複数指定可能）"),
-    authors: Optional[str] = Query(None, description="著者でフィルタリング（カンマ区切りで複数指定可能）"),
-    venues: Optional[str] = Query(None, description="学会/ジャーナルでフィルタリング（カンマ区切りで複数指定可能、OR条件）"),
-    min_year: Optional[int] = Query(None, description="この年以降の論文のみを対象とする")
-):
-    """タイトルでLCS検索してベストマッチを返す"""
-    best_match = corpus.best_match_by_title(query)
-    if not best_match:
-        return {"paper": None, "message": "No match found"}
-
-    # タグをパース（カンマ区切り）
-    tag_list = None
-    if tags:
-        tag_list = [tag.strip() for tag in tags.split(',') if tag.strip()]
-
-    # 著者をパース（カンマ区切り）
-    author_list = None
-    if authors:
-        author_list = [author.strip() for author in authors.split(',') if author.strip()]
-
-    # venueをパース（カンマ区切り）
-    venue_list = None
-    if venues:
-        venue_list = [venue.strip() for venue in venues.split(',') if venue.strip()]
-
-    return {
-        "paper": best_match.dict(),
-        "cites": [p.dict() for p in corpus.get_cites(best_match.paperId, limit, tag_list, author_list, venue_list, min_year)],
-        "cited_by": [p.dict() for p in corpus.get_cited_by(best_match.paperId, limit, tag_list, author_list, venue_list, min_year)],
-    }
-
-
-@app.get("/api/paper/{paper_id}")
-async def get_paper(
-    paper_id: str, 
-    limit: int = Query(2000, ge=1, le=2000),
-    tags: Optional[str] = Query(None, description="タグでフィルタリング（カンマ区切りで複数指定可能）"),
-    authors: Optional[str] = Query(None, description="著者でフィルタリング（カンマ区切りで複数指定可能）"),
-    venues: Optional[str] = Query(None, description="学会/ジャーナルでフィルタリング（カンマ区切りで複数指定可能、OR条件）"),
-    min_year: Optional[int] = Query(None, description="この年以降の論文のみを対象とする")
-):
-    """論文IDで論文と引用関係を取得"""
-    paper = corpus.get_paper(paper_id)
-    if not paper:
-        raise HTTPException(status_code=404, detail="Paper not found")
-
-    # タグをパース（カンマ区切り）
-    tag_list = None
-    if tags:
-        tag_list = [tag.strip() for tag in tags.split(',') if tag.strip()]
-
-    # 著者をパース（カンマ区切り）
-    author_list = None
-    if authors:
-        author_list = [author.strip() for author in authors.split(',') if author.strip()]
-
-    # venueをパース（カンマ区切り）
-    venue_list = None
-    if venues:
-        venue_list = [venue.strip() for venue in venues.split(',') if venue.strip()]
-
-    return {
-        "paper": paper.dict(),
-        "cites": [p.dict() for p in corpus.get_cites(paper_id, limit, tag_list, author_list, venue_list, min_year)],
-        "cited_by": [p.dict() for p in corpus.get_cited_by(paper_id, limit, tag_list, author_list, venue_list, min_year)],
-    }
-
-
-@app.get("/api/papers/by-tag")
-async def get_papers_by_tag(
-    tags: str = Query(..., description="タグ名（カンマ区切りで複数指定可能、AND条件）"),
-    limit: int = Query(2000, ge=1, le=2000),
-    min_year: Optional[int] = Query(None, description="この年以降の論文のみを対象とする")
-):
-    """指定されたタグを全て持つ論文を取得（AND条件）"""
-    # タグをパース（カンマ区切り）
-    tag_list = [tag.strip() for tag in tags.split(',') if tag.strip()]
-    if not tag_list:
-        raise HTTPException(status_code=400, detail="At least one tag is required")
+def generate_static_data():
+    """全データを生成してJSONファイルとして保存"""
+    print("データを読み込んでいます...")
+    corpus = Corpus()
     
-    papers = corpus.get_papers_by_tags(tag_list, limit, min_year)
-    return {
-        "papers": [p.dict() for p in papers],
-        "tags": tag_list,
-        "count": len(papers)
-    }
-
-
-@app.get("/api/tags")
-async def get_tags():
-    """利用可能な全てのタグとその件数を取得"""
+    print("全論文データを準備しています...")
+    # 全論文データを準備（TLDRとタグを含む）
+    all_papers = []
+    for paper in corpus.papers.values():
+        paper_with_tldr = corpus._load_tldr_data(paper)
+        all_papers.append(paper_with_tldr.to_dict())
+    
+    # 引用関係を各論文に追加
+    for paper_dict in all_papers:
+        paper_id = paper_dict["paperId"]
+        paper_dict["cites"] = corpus.get_cites(paper_id)
+        paper_dict["cited_by"] = corpus.get_cited_by(paper_id)
+    
+    print("メタデータを生成しています...")
+    # タグ、著者、venue一覧を取得
     tags = corpus.get_all_tags()
-    return {"tags": tags}
-
-
-@app.get("/api/papers/by-author")
-async def get_papers_by_author(
-    authors: str = Query(..., description="著者名（カンマ区切りで複数指定可能、AND条件）"),
-    limit: int = Query(2000, ge=1, le=2000),
-    min_year: Optional[int] = Query(None, description="この年以降の論文のみを対象とする")
-):
-    """指定された著者を全て含む論文を取得（AND条件）"""
-    # 著者をパース（カンマ区切り）
-    author_list = [author.strip() for author in authors.split(',') if author.strip()]
-    if not author_list:
-        raise HTTPException(status_code=400, detail="At least one author is required")
-    
-    papers = corpus.get_papers_by_authors(author_list, limit, min_year)
-    return {
-        "papers": [p.dict() for p in papers],
-        "authors": author_list,
-        "count": len(papers)
-    }
-
-
-@app.get("/api/authors")
-async def get_authors():
-    """利用可能な全ての著者とその件数を取得"""
     authors = corpus.get_all_authors()
-    return {"authors": authors}
-
-
-@app.get("/api/authors/ranking")
-async def get_author_ranking(
-    sort_by: str = Query("paperCount", description="ソート基準: 'paperCount' または 'totalCitations'"),
-    min_year: Optional[int] = Query(None, description="この年以降の論文のみを集計対象とする")
-):
-    """著者ランキングを取得（論文数、被引用数、タグ集計、カンファレンス集計を含む）"""
-    ranking = corpus.get_author_ranking(min_year=min_year)
-    
-    # ソート（第1キーでソート、同じ値の場合は第2キーでソート）
-    if sort_by == "totalCitations":
-        # 被引用数順（同じ被引用数の場合は論文数が多い順）
-        ranking.sort(key=lambda x: (x["totalCitations"], x["paperCount"]), reverse=True)
-    else:  # デフォルトは論文数
-        # 論文数順（同じ論文数の場合は被引用数が多い順）
-        ranking.sort(key=lambda x: (x["paperCount"], x["totalCitations"]), reverse=True)
-    
-    return {"ranking": ranking}
-
-
-@app.get("/api/papers/by-venue")
-async def get_papers_by_venue(
-    venues: str = Query(..., description="学会/ジャーナル名（カンマ区切りで複数指定可能、OR条件）"),
-    limit: int = Query(2000, ge=1, le=2000),
-    min_year: Optional[int] = Query(None, description="この年以降の論文のみを対象とする")
-):
-    """指定されたvenueのいずれかに一致する論文を取得（OR条件）"""
-    # venueをパース（カンマ区切り）
-    venue_list = [venue.strip() for venue in venues.split(',') if venue.strip()]
-    if not venue_list:
-        raise HTTPException(status_code=400, detail="At least one venue is required")
-    
-    papers = corpus.get_papers_by_venues(venue_list, limit, min_year)
-    return {
-        "papers": [p.dict() for p in papers],
-        "venues": venue_list,
-        "count": len(papers)
-    }
-
-
-@app.get("/api/venues")
-async def get_venues():
-    """利用可能な全ての学会/ジャーナルとその件数を取得"""
     venues = corpus.get_all_venues()
-    return {"venues": venues}
-
-
-@app.get("/api/papers/all")
-async def get_all_papers():
-    """全論文を取得"""
-    papers = [corpus._load_tldr_data(p).dict() for p in corpus.papers.values()]
-    return {"papers": papers, "count": len(papers)}
+    
+    # 著者ランキングを生成
+    author_ranking = corpus.get_author_ranking()
+    # ソート（論文数順）
+    author_ranking.sort(key=lambda x: (x["paperCount"], x["totalCitations"]), reverse=True)
+    
+    # 全データをまとめる
+    output_data = {
+        "papers": all_papers,
+        "tags": tags,
+        "authors": authors,
+        "venues": venues,
+        "authorRanking": author_ranking,
+    }
+    
+    # 出力フォルダを作成
+    OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
+    
+    # JSONファイルとして保存
+    output_file = OUTPUT_FOLDER / "all_data.json"
+    print(f"データを {output_file} に保存しています...")
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(output_data, f, ensure_ascii=False, indent=2)
+    
+    print(f"完了！ {len(all_papers)}件の論文データを保存しました。")
+    print(f"  - タグ: {len(tags)}件")
+    print(f"  - 著者: {len(authors)}件")
+    print(f"  - Venue: {len(venues)}件")
+    print(f"  - 著者ランキング: {len(author_ranking)}件")
 
 
 def main():
     """メイン関数"""
-    # 出力フォルダを作成
-    print("API server is ready. Run with: uvicorn process_data:app --reload --port 8000")
+    generate_static_data()
 
 
 if __name__ == "__main__":
