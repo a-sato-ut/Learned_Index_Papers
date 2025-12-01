@@ -1,11 +1,51 @@
 # GitHub Pagesへのデプロイ手順
 
+## 自動デプロイ（推奨）
+
+GitHub Actionsワークフローが設定されているため、`main`ブランチ（または`master`ブランチ）にプッシュすると自動的にデプロイされます。
+
+### 自動デプロイの流れ
+
+1. コードを変更してコミット
+2. `main`ブランチにプッシュ:
+```bash
+git push origin main
+```
+
+3. GitHub Actionsが自動的に以下を実行：
+   - バックエンドでデータ生成（`uv run python process_data.py`）
+   - 生成されたJSONファイルをフロントエンドの`public`フォルダにコピー
+   - フロントエンドをビルド（`npm run build`）
+   - ビルド結果を`docs`フォルダにコピー
+   - `docs`フォルダの変更をコミットしてプッシュ
+   - GitHub Pagesが自動的に更新される
+
+4. 数分待つと、`https://<username>.github.io/<repository-name>/`で最新のサイトにアクセスできます
+
+### 初回設定
+
+初回のみ、GitHubリポジトリの **Settings > Pages** で以下を設定：
+- **Source**: Branch を選択
+- **Branch**: `main`（または`master`）を選択
+- **Folder**: `/docs` を選択
+- **Save** をクリック
+
+### 手動デプロイ（必要に応じて）
+
+GitHub Actionsのワークフローを手動で実行することもできます：
+1. リポジトリの **Actions** タブにアクセス
+2. 左側のメニューから **Deploy to GitHub Pages** ワークフローを選択
+3. 右上の **Run workflow** をクリック
+4. ブランチを選択して **Run workflow** をクリック
+
+## 手動デプロイ手順（自動デプロイが使えない場合）
+
 ## 前提条件
 
 - GitHubリポジトリが既に作成されていること
 - リポジトリにアクセス権限があること
 
-## デプロイ手順
+## 手動デプロイ手順
 
 ### 1. データ生成とビルド
 

@@ -111,38 +111,29 @@ uv run python get_tag.py
 
 ### GitHub Pagesへのデプロイ
 
-詳細な手順は [DEPLOY.md](DEPLOY.md) を参照してください。
+**自動デプロイ（推奨）:**
 
-**簡単な手順:**
+GitHub Actionsワークフローが設定されているため、`main`ブランチにプッシュすると自動的にデプロイされます。
 
-1. データ生成とビルド:
+1. コードを変更してコミット
+2. `main`ブランチにプッシュ:
 ```bash
-cd backend
-uv run python process_data.py
-cp data/static/all_data.json ../frontend/public/all_data.json
-cd ../frontend
-npm run build
-```
-
-2. `docs`フォルダにコピー:
-```bash
-cd ..
-cp -r frontend/build/* docs/
-```
-
-3. GitHubリポジトリの設定:
-   - Settings > Pages にアクセス
-   - Source: Branch を選択し、ブランチを `main`、フォルダを `/docs` に設定
-   - Save をクリック
-
-4. コミットしてプッシュ:
-```bash
-git add docs/
-git commit -m "Deploy to GitHub Pages"
 git push origin main
 ```
 
-5. 数分待つと、`https://<username>.github.io/<repository-name>/`でアクセスできます。
+3. GitHub Actionsが自動的に以下を実行：
+   - バックエンドでデータ生成
+   - フロントエンドをビルド
+   - GitHub Pagesにデプロイ
+
+4. 数分待つと、`https://<username>.github.io/<repository-name>/`でアクセスできます
+
+**GitHub Pagesの設定:**
+
+初回のみ、リポジトリの **Settings > Pages** で以下を設定：
+- Source: **GitHub Actions** を選択（または、Branch を選択して `/docs` フォルダを指定）
+
+詳細な手順は [DEPLOY.md](DEPLOY.md) を参照してください。
 
 ### ローカルでビルド結果を確認する
 

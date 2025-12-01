@@ -537,7 +537,7 @@ const AuthorRanking: React.FC = () => {
             <div className="author-ranking-item-header">
               <div className="author-ranking-item-rank">#{startIndex + index + 1}</div>
               <Link
-                to={`/?authors=${encodeURIComponent(author.author)}`}
+                to={`/#/?authors=${encodeURIComponent(author.author)}`}
                 className="author-ranking-item-name author-clickable"
               >
                 {author.author}
@@ -561,7 +561,7 @@ const AuthorRanking: React.FC = () => {
                   {author.tags.map((tagStat, tagIndex) => (
                     <Link
                       key={tagIndex}
-                      to={`/?authors=${encodeURIComponent(author.author)}&tags=${encodeURIComponent(tagStat.tag)}`}
+                      to={`/#/?authors=${encodeURIComponent(author.author)}&tags=${encodeURIComponent(tagStat.tag)}`}
                       className="author-tag author-tag-clickable"
                     >
                       {tagStat.tag} ({tagStat.count})
@@ -578,7 +578,7 @@ const AuthorRanking: React.FC = () => {
                   {author.conferences.map((confStat, confIndex) => (
                     <Link
                       key={confIndex}
-                      to={`/?authors=${encodeURIComponent(author.author)}&venues=${encodeURIComponent(confStat.conference)}`}
+                      to={`/#/?authors=${encodeURIComponent(author.author)}&venues=${encodeURIComponent(confStat.conference)}`}
                       className="author-conference author-conference-clickable"
                     >
                       {confStat.conference} ({confStat.count})

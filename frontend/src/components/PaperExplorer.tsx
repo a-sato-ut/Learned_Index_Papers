@@ -84,7 +84,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     
     const queryToUse = searchQuery || query;
     
-    // URLパラメータを更新
+    // URLパラメータを更新（ただし、現在のURLパラメータと同じ場合は更新しない）
     const newSearchParams = new URLSearchParams();
     if (queryToUse.trim()) {
       newSearchParams.set('query', queryToUse);
@@ -101,7 +101,13 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     if (minYear !== null) {
       newSearchParams.set('min_year', minYear.toString());
     }
-    setSearchParams(newSearchParams);
+    
+    // URLパラメータが変更された場合のみ更新
+    const currentParams = searchParams.toString();
+    const newParams = newSearchParams.toString();
+    if (currentParams !== newParams) {
+      setSearchParams(newSearchParams);
+    }
     
     setLoading(true);
     
@@ -219,7 +225,7 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     } else if (searchResult.paper && activeTab === 'graphYear') {
       setTimeout(() => drawGraphYearRef.current?.(searchResult), 100);
     }
-  }, [query, selectedTags, selectedAuthors, selectedVenues, minYear, setSearchParams, activeTab, data]);
+  }, [query, selectedTags, selectedAuthors, selectedVenues, minYear, setSearchParams, activeTab, data, searchParams]);
 
   // searchPapersのrefを更新
   searchPapersRef.current = searchPapers;
@@ -1058,6 +1064,11 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     
     if (queryParam) {
       setQuery(decodeURIComponent(queryParam));
+    } else {
+      // queryParamがない場合は、フィルタのみで検索するため、クエリをクリア
+      if (authorsParam || tagsParam || venuesParam || minYearParam) {
+        setQuery('');
+      }
     }
     
     if (authorsParam) {
@@ -1089,59 +1100,61 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
     } else {
       setMinYear(null);
     }
-    
-    // URLパラメータがある場合は、タイトルをクリアしてフィルタのみで検索
-    if (authorsParam || tagsParam || venuesParam || minYearParam) {
-      if (!queryParam) {
-        setQuery('');
-      }
-    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchParams]);
 
-  // URLパラメータがある場合のみ検索を実行
   useEffect(() => {
     if (!data) return;
-    
-    const authorsParam = searchParams.get('authors');
-    const tagsParam = searchParams.get('tags');
-    const venuesParam = searchParams.get('venues');
-    const minYearParam = searchParams.get('min_year');
-    const queryParam = searchParams.get('query');
-    
-    if (queryParam || authorsParam || tagsParam || venuesParam || minYearParam) {
-      // URLパラメータからフィルタが読み込まれた後に検索が実行されるようにするため、
-      // ここでは何もしない（URLパラメータの読み込み処理で自動的に検索が実行される）
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data]);
-
-  useEffect(() => {
     // タグが変更されたら検索を実行
     // タイトルが空でタグが指定された場合 → タグのみでフィルタリング
     // タイトルがあってタグが指定された場合 → タイトル検索 + タグフィルタリング
     // タイトルがあってタグがクリアされた場合 → タイトル検索のみ
-    if (selectedTags.length > 0 || (!selectedTags.length && query.trim())) {
+    // フィルタが設定されている場合、またはクエリがある場合は検索を実行
+    if (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null || query.trim()) {
       searchPapers();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedTags]);
+  }, [selectedTags, data]);
 
   useEffect(() => {
+    if (!data) return;
     // 著者が変更されたら検索を実行
-    if (selectedAuthors.length > 0 || (!selectedAuthors.length && query.trim())) {
+    // フィルタが設定されている場合、またはクエリがある場合は検索を実行
+    if (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null || query.trim()) {
       searchPapers();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedAuthors]);
+  }, [selectedAuthors, data]);
 
   useEffect(() => {
+    if (!data) return;
     // venueが変更されたら検索を実行
-    if (selectedVenues.length > 0 || (!selectedVenues.length && query.trim())) {
+    // フィルタが設定されている場合、またはクエリがある場合は検索を実行
+    if (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null || query.trim()) {
       searchPapers();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedVenues]);
+  }, [selectedVenues, data]);
+
+  useEffect(() => {
+    if (!data) return;
+    // 年フィルタが変更されたら検索を実行
+    // フィルタが設定されている場合、またはクエリがある場合は検索を実行
+    if (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null || query.trim()) {
+      searchPapers();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [minYear, data]);
+
+  // URLパラメータから読み込んだ後、queryが変更された時に検索を実行
+  useEffect(() => {
+    if (!data) return;
+    // フィルタが設定されている場合、またはクエリがある場合は検索を実行
+    if (selectedTags.length > 0 || selectedAuthors.length > 0 || selectedVenues.length > 0 || minYear !== null || query.trim()) {
+      searchPapers();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query, data]);
 
   useEffect(() => {
     if (result && result.paper && (activeTab === 'graph' || activeTab === 'graphYear')) {
@@ -1936,7 +1949,22 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                 <button
                   className="paper-explorer-active-filter-remove"
                   onClick={() => {
-                    setSelectedTags(selectedTags.filter(t => t !== tag));
+                    const newTags = selectedTags.filter(t => t !== tag);
+                    setSelectedTags(newTags);
+                    // URLパラメータを更新
+                    const newParams = new URLSearchParams(searchParams);
+                    if (newTags.length > 0) {
+                      newParams.set('tags', newTags.join(','));
+                    } else {
+                      newParams.delete('tags');
+                    }
+                    setSearchParams(newParams);
+                    // 状態更新後に検索を実行
+                    if (data) {
+                      setTimeout(() => {
+                        searchPapers();
+                      }, 0);
+                    }
                   }}
                   disabled={loading}
                 >
@@ -1951,7 +1979,22 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                 <button
                   className="paper-explorer-active-filter-remove"
                   onClick={() => {
-                    setSelectedAuthors(selectedAuthors.filter(a => a !== author));
+                    const newAuthors = selectedAuthors.filter(a => a !== author);
+                    setSelectedAuthors(newAuthors);
+                    // URLパラメータを更新
+                    const newParams = new URLSearchParams(searchParams);
+                    if (newAuthors.length > 0) {
+                      newParams.set('authors', newAuthors.join(','));
+                    } else {
+                      newParams.delete('authors');
+                    }
+                    setSearchParams(newParams);
+                    // 状態更新後に検索を実行
+                    if (data) {
+                      setTimeout(() => {
+                        searchPapers();
+                      }, 0);
+                    }
                   }}
                   disabled={loading}
                 >
@@ -1966,7 +2009,22 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                 <button
                   className="paper-explorer-active-filter-remove"
                   onClick={() => {
-                    setSelectedVenues(selectedVenues.filter(v => v !== venue));
+                    const newVenues = selectedVenues.filter(v => v !== venue);
+                    setSelectedVenues(newVenues);
+                    // URLパラメータを更新
+                    const newParams = new URLSearchParams(searchParams);
+                    if (newVenues.length > 0) {
+                      newParams.set('venues', newVenues.join(','));
+                    } else {
+                      newParams.delete('venues');
+                    }
+                    setSearchParams(newParams);
+                    // 状態更新後に検索を実行
+                    if (data) {
+                      setTimeout(() => {
+                        searchPapers();
+                      }, 0);
+                    }
                   }}
                   disabled={loading}
                 >
@@ -1982,6 +2040,16 @@ const PaperExplorer: React.FC<PaperExplorerProps> = () => {
                   className="paper-explorer-active-filter-remove"
                   onClick={() => {
                     setMinYear(null);
+                    // URLパラメータを更新
+                    const newParams = new URLSearchParams(searchParams);
+                    newParams.delete('min_year');
+                    setSearchParams(newParams);
+                    // 状態更新後に検索を実行
+                    if (data) {
+                      setTimeout(() => {
+                        searchPapers();
+                      }, 0);
+                    }
                   }}
                   disabled={loading}
                 >
