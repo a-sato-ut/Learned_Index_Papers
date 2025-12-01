@@ -1,18 +1,25 @@
 # Learned Index Papers
 
-論文データを収集し、可視化するアプリケーションです。
+論文データを収集し、可視化する静的Webアプリケーションです。
 
 ## クイックスタート - ビジュアライザーの実行
 
-### バックエンドの起動
+### データ生成
+
+まず、全データを生成してJSONファイルとして保存します：
 
 ```bash
 cd backend
 uv sync
-uv run uvicorn process_data:app --reload --port 8000
+uv run python process_data.py
+cp data/static/all_data.json ../frontend/public/all_data.json
 ```
 
+これにより、`backend/data/static/all_data.json` が生成されます。
+
 ### フロントエンドの起動
+
+フロントエンドを起動します：
 
 ```bash
 cd frontend
@@ -24,10 +31,11 @@ npm start
 
 ## 使用方法
 
-1. バックエンドサーバーを起動（`http://localhost:8000`）
-2. フロントエンドを起動（`http://localhost:3000`）
-3. デフォルトクエリ「Partitioned Learned Bloom Filter」で検索、または任意の論文タイトルを入力
-4. 検索結果から「List」と「Graph」と「Graph（年別）」をタブで切り替え可能
+1. データ生成スクリプトを実行して `all_data.json` を生成
+2. JSONファイルをフロントエンドのpublicフォルダにコピー
+3. フロントエンドを起動（`http://localhost:3000`）
+4. デフォルトクエリ「Partitioned Learned Bloom Filter」で検索、または任意の論文タイトルを入力
+5. 検索結果から「List」と「Graph」と「Graph（年別）」をタブで切り替え可能
 
 ## 機能
 
@@ -35,17 +43,17 @@ npm start
 - **Listビュー**: Cites / Cited by をブロック形式で大量列挙
 - **Graphビュー**: d3-forceによるforce-directed graphで引用関係を可視化
 - **Graph（年別）ビュー**: d3-forceによるforce-directed graphで引用関係を年別で可視化
-
-## API エンドポイント
-
-- `GET /api/search?query={query}&limit={limit}` - タイトルでLCS検索
-- `GET /api/paper/{paper_id}?limit={limit}` - 論文IDで論文と引用関係を取得
+- **静的サイト**: すべてのデータはクライアント側で処理され、サーバーは不要
 
 ## データ準備
 
 ビジュアライザーを使用するには、以下のデータファイルが必要です：
 - `backend/data/papers/*.json` - 論文データ
 - `backend/data/citations/*.json` - 引用関係データ
+- `backend/data/tldr/*.json` - 英語TLDRデータ（オプション）
+- `backend/data/tldr_ja/*.json` - 日本語TLDRデータ（オプション）
+- `backend/data/tags/*.json` - タグデータ（オプション）
+- `backend/data/author_info/*.json` - 著者情報データ（オプション）
 
 ## データ収集
 
@@ -89,6 +97,15 @@ uv run python get_tag.py
 ## 構成
 
 1. **データ収集**: 論文データをフォルダに収集
-2. **バックエンド**: FastAPIで論文検索と引用関係を提供
-3. **フロントエンド**: React + d3で可視化
+2. **データ生成**: `process_data.py`で全データをJSONファイルとして生成
+3. **フロントエンド**: React + d3で可視化（静的サイト、サーバー不要）
+
+## 静的サイトとしてのデプロイ
+
+このアプリケーションは静的サイトとしてデプロイできます：
+
+1. データ生成: `backend/process_data.py`を実行して`all_data.json`を生成
+2. JSONファイルをコピー: `all_data.json`を`frontend/public/`にコピー
+3. ビルド: `cd frontend && npm run build`
+4. デプロイ: `frontend/build/`フォルダの内容を任意の静的ホスティングサービス（GitHub Pages、Netlify、Vercelなど）にデプロイ
 

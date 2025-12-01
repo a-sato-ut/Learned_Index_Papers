@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import * as d3 from 'd3';
 import { AuthorRankingItem } from '../types';
+import { loadAllData, AllData } from '../dataLoader';
+import { calculateAuthorRanking } from '../authorRankingUtils';
 import './AuthorRanking.css';
-
-const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:8000';
 
 // 円グラフの共通ハイパーパラメータ
 const PIE_CHART_CONFIG = {
@@ -380,6 +380,7 @@ const AuthorStatisticsSection: React.FC<{ authors: AuthorRankingItem[] }> = ({ a
 };
 
 const AuthorRanking: React.FC = () => {
+  const [data, setData] = useState<AllData | null>(null);
   const [ranking, setRanking] = useState<AuthorRankingItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [sortBy, setSortBy] = useState<SortBy>('paperCount');
@@ -389,31 +390,70 @@ const AuthorRanking: React.FC = () => {
   const [minYear, setMinYear] = useState<number | null>(null);
   const [appliedMinYear, setAppliedMinYear] = useState<number | null>(null);
 
-  const fetchRanking = useCallback(async () => {
-    setLoading(true);
-    try {
-      let url = `${API_BASE}/api/authors/ranking?sort_by=${sortBy}`;
-      if (appliedMinYear !== null) {
-        url += `&min_year=${appliedMinYear}`;
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        setLoading(true);
+        const loadedData = await loadAllData();
+        setData(loadedData);
+      } catch (error) {
+        console.error('Error loading data:', error);
+        alert('データの読み込みに失敗しました。all_data.jsonファイルが存在するか確認してください。');
+      } finally {
+        setLoading(false);
       }
-      const response = await fetch(url);
-      if (response.ok) {
-        const data = await response.json();
-        setRanking(data.ranking || []);
-      } else {
-        console.error('Failed to fetch author ranking');
-      }
-    } catch (error) {
-      console.error('Error fetching author ranking:', error);
-    } finally {
-      setLoading(false);
-    }
-  }, [sortBy, appliedMinYear]);
+    };
+    loadData();
+  }, []);
 
   useEffect(() => {
-    fetchRanking();
-    setCurrentPage(1); // ソート変更時にページをリセット
-  }, [fetchRanking]);
+    if (!data) return;
+    
+    // 年フィルタリングが適用されている場合は、ランキングを再計算
+    let rankingData: AuthorRankingItem[];
+    if (appliedMinYear !== null) {
+      // 年フィルタリングを適用してランキングを再計算
+      rankingData = calculateAuthorRanking(data.papers, appliedMinYear);
+      
+      // 元の著者情報（所属情報など）を保持
+      const authorInfoMap = new Map<string, AuthorRankingItem>();
+      for (const item of data.authorRanking) {
+        authorInfoMap.set(item.author, item);
+      }
+      
+      // 再計算したランキングに元の所属情報を追加
+      rankingData = rankingData.map(item => {
+        const originalItem = authorInfoMap.get(item.author);
+        return {
+          ...item,
+          affiliations: originalItem?.affiliations || [],
+        };
+      });
+    } else {
+      // 年フィルタリングがない場合は元のランキングを使用
+      rankingData = [...data.authorRanking];
+    }
+    
+    // ソート
+    if (sortBy === 'totalCitations') {
+      rankingData.sort((a, b) => {
+        if (b.totalCitations !== a.totalCitations) {
+          return b.totalCitations - a.totalCitations;
+        }
+        return b.paperCount - a.paperCount;
+      });
+    } else {
+      rankingData.sort((a, b) => {
+        if (b.paperCount !== a.paperCount) {
+          return b.paperCount - a.paperCount;
+        }
+        return b.totalCitations - a.totalCitations;
+      });
+    }
+    
+    setRanking(rankingData);
+    setCurrentPage(1);
+  }, [data, sortBy, appliedMinYear]);
 
   const handleApplyFilter = () => {
     setAppliedMinYear(minYear);

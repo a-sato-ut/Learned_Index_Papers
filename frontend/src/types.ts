@@ -15,6 +15,8 @@ export interface Paper {
   tldr?: string;
   tldr_ja?: string;
   tags?: string[];
+  cites?: string[]; // 引用している論文IDのリスト
+  cited_by?: string[]; // 引用されている論文IDのリスト
 }
 
 export interface SearchResult {
