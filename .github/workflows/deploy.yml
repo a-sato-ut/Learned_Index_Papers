@@ -39,10 +39,6 @@ jobs:
       working-directory: backend
       run: |
         uv run python process_data.py
-      env:
-        # 必要に応じて環境変数を設定
-        # SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
-        # OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
     
     - name: Copy data to frontend public folder
       run: |
